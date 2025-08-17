@@ -1,1 +1,31 @@
+{
+  "barcelona": {
+    "meta": {
+      "port_name": "Barcelona",
+      "region": "Western Europe",
+      "timezone": "Europe/Madrid",
+      "country_code": "es",
+      "language": "Spanish",
+      "currency": "EUR",
+      "description": "Barcelona starter data for Concierge demo."
+    },
+    "highlights": "<b>La Rambla:</b> stroll; <b>Boqueria:</b> snack; <b>Gothic Quarter:</b> wander.",
+    "safety_notes": "Pickpockets in crowded areas.",
+    "emergency_contacts": { "fire": 112, "general_eu": 112 }
+  },
+  "athens": {
+    "meta": {
+      "port_name": "Athens (Piraeus)",
+      "region": "Mediterranean",
+      "timezone": "Europe/Athens",
+      "country_code": "gr",
+      "language": "Greek",
+      "currency": "EUR",
+      "description": "Athens starter data for Concierge demo."
+    },
+    "highlights": "<b>Acropolis:</b> morning; <b>Plaka:</b> lunch; <b>Agora:</b> history.",
+    "safety_notes": "Watch belongings on metro.",
+    "emergency_contacts": { "fire": 199, "general_eu": 112 }
+  }
+}
 
