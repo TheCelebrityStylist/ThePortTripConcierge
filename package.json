@@ -13,6 +13,6 @@
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
     "openai": "4.52.0",
-    "encoding": "^0.1.13"   // ← add this line
+    "encoding": "^0.1.13"
   }
 }
