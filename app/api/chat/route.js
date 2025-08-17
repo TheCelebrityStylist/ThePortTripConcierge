@@ -7,18 +7,23 @@ import path from "path";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-// ---- helpers (RAG from data/porttrip.json) ----
+// ---- helpers ----
 function slugify(s = "") {
   return s.toLowerCase().normalize("NFKD").replace(/[^\w]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
-async function loadDB() {
-  const file = path.join(process.cwd(), "data", "porttrip.json");
-  const raw = await fs.readFile(file, "utf-8");
-  return JSON.parse(raw);
+async function safeLoadDB() {
+  try {
+    const file = path.join(process.cwd(), "data", "porttrip.json");
+    const raw = await fs.readFile(file, "utf-8");
+    return JSON.parse(raw);
+  } catch {
+    return {}; // fallback to empty DB if file not present
+  }
 }
 
 function findPortId(db, query = "") {
+  if (!query) return null;
   const q = slugify(query);
   if (db[q]) return q;
   for (const [id, obj] of Object.entries(db)) {
@@ -31,20 +36,19 @@ function findPortId(db, query = "") {
 function systemPrompt() {
   return [
     "You are PortTrip Concierge — an on-demand cruise port assistant.",
-    "Ground your answers ONLY on the provided PORT CONTEXT plus general travel know-how.",
-    "If something is missing from context, say so briefly and give a safe workaround.",
-    "Output format:",
+    "Ground your answers on the PORT CONTEXT when available, otherwise answer generally for cruise passengers.",
+    "Always format:",
     "1) Best option (one sentence).",
     "2) Step-by-step instructions (walk/transport/tickets).",
     "3) Time & cost (minutes + €).",
     "4) Safety buffer (when to head back).",
     "5) Optional upgrades (scenic, kid-friendly, mobility-friendly, food nearby).",
-    "Tone: calm, local-savvy, decisive. Include 'be back on board by X' when relevant.",
+    "Tone: calm, local-savvy, decisive. Include a 'be back on board by X' reminder when relevant."
   ].join("\n");
 }
 
 function buildContext(portObj) {
-  if (!portObj) return "No port context.";
+  if (!portObj) return "No port context available.";
   const m = portObj.meta || {};
   const parts = [];
   parts.push(`PORT: ${m.port_name || "Unknown"}`);
@@ -60,17 +64,14 @@ function buildContext(portObj) {
   return parts.join("\n\n");
 }
 
-// ---- ROUTE: streaming text back to the browser ----
 export async function POST(req) {
   try {
-    const { history = [], portHint = "", fallbackGeneral = false } = await req.json();
-    // history is an array of {role, content} from the client
+    const { history = [], portHint = "", fallbackGeneral = true } = await req.json();
 
-    const db = await loadDB();
+    const db = await safeLoadDB();
+    const lastUser = [...history].reverse().find(m => m.role === "user")?.content || "";
 
-    // try to infer the port from hint or the last user message
-    const lastUser = [...history].reverse().find((m) => m.role === "user")?.content || "";
-    let portId = portHint ? findPortId(db, portHint) : null;
+    let portId = findPortId(db, portHint);
     if (!portId && lastUser) {
       for (const [id, obj] of Object.entries(db)) {
         const name = obj?.meta?.port_name || "";
@@ -87,14 +88,12 @@ export async function POST(req) {
           portObj
             ? `PORT CONTEXT:\n${buildContext(portObj)}`
             : (fallbackGeneral ? "PORT CONTEXT: (unknown port — answer generally for cruise passengers)" : "PORT CONTEXT: (unknown)"),
-          "\n---\n",
-          "DIALOGUE:",
-          ...history.map((m) => `${m.role.toUpperCase()}: ${m.content}`)
+          "\n---\nDIALOGUE:",
+          ...history.map(m => `${m.role.toUpperCase()}: ${m.content}`)
         ].join("\n")
       }
     ];
 
-    // stream tokens from OpenAI
     const stream = await openai.chat.completions.create({
       model: process.env.OPENAI_MODEL || "gpt-4o-mini",
       temperature: 0.3,
@@ -122,10 +121,11 @@ export async function POST(req) {
       headers: {
         "Content-Type": "text/plain; charset=utf-8",
         "Cache-Control": "no-cache, no-transform",
-        "X-Accel-Buffering": "no" // nginx/proxy hint
+        "X-Accel-Buffering": "no"
       }
     });
   } catch (err) {
     return new Response(JSON.stringify({ error: String(err) }), { status: 500 });
   }
 }
+
