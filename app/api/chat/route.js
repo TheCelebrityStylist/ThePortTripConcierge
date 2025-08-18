@@ -132,10 +132,12 @@ export async function POST(req) {
       localSelected = byKeyword.slice(0, MAX_LOCAL_PASSAGES);
     }
 
-    const needWeb = /today|latest|open|closed|price|schedule|shuttle|ferry|strike|weather|holiday|changed|closure|ticket/i.test(
-      userQuery
+  
+    const needWeb = /\b(today|latest|now|open|closed|hours?|opening|closing|price|prices|tickets?|fare|schedule|timetable|shuttle|bus|tram|metro|train|ferry|strike|closure|construction|works?|delay|delays?|weather|holiday|event|festival)\b/i.test( userQuery
     );
-    const web = needWeb ? await webSearch(userQuery) : [];
+    const forceWeb = /\b(web:|check online|verify online|use web|search web)\b/i.test(userQuery);
+    const blockWeb = /\b(no web|offline only|local only)\b/i.test(userQuery);
+    const web = (!blockWeb && (needWeb || forceWeb)) ? await webSearch(userQuery) : [];
 
     const messages = [
       { role: "system", content: SYSTEM },
