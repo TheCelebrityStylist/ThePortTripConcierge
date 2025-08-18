@@ -1,6 +1,6 @@
-import Nav from "/components/Nav";
-import Footer from "/components/Footer";
-import UpgradeButton from "/components/UpgradeButton";
+import Nav from './components/Nav';
+import Footer from './components/footer';
+import UpgradeButton from './components/UpgradeButton';
 import Link from "next/link";
 
 export default function Landing() {
