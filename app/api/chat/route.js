@@ -1,5 +1,6 @@
 // app/api/chat/route.js
 export const runtime = "edge";
+import ports from "../../data/ports.json" assert { type: "json" };
 
 import OpenAI from "openai";
 // JSON import at build time; Next bundler handles this in JS with "assert"
@@ -106,7 +107,7 @@ export async function POST(req) {
     const userLast = [...history].reverse().find((m) => m.role === "user");
     const userQuery = (userLast && userLast.content) ? String(userLast.content) : "";
 
-    const localPool = Array.isArray(portData) ? portData : [];
+    const localPool = Array.isArray(ports) ? ports : [];
     const annotated = localPool.map((row, i) => ({
       ...row,
       _id: i,
