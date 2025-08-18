@@ -15,23 +15,56 @@ function collapseSpacing(txt) {
   return txt;
 }
 
-// Renumber lines that look like "1. ..." or "1) ..." so they count 1,2,3...
-function renumberOrderedList(txt) {
+function collapseSpacing(txt) {
+  if (!txt) return "";
+  // Replace 3+ blank lines with a single blank line
+  txt = txt.replace(/\n{3,}/g, "\n\n");
+  // Remove stray bullet-only lines
+  txt = txt.replace(/^\s*[-•]\s*$/gm, "");
+  return txt;
+}
+
+// Turn numbered headings like "1. Transportation Options" into bold headings (not numbered)
+function demoteNumberedHeadings(txt) {
+  if (!txt) return "";
+  return txt.replace(
+    /^\s*\d+\.\s*([A-Z][^\n]{0,60}?):?\s*$(?=\n(?:\s*[-•]|\s*$|\s*#{1,6}\s))/gmi,
+    (_, h) => `**${h.trim()}:**`
+  );
+}
+
+// Renumber contiguous ordered lists so they count 1,2,3… within each block
+function renumberOrderedLists(txt) {
   if (!txt) return "";
   const lines = txt.split("\n");
-  let current = 0;
-  return lines
-    .map(line => {
-      const m = line.match(/^\s*(\d+)[\.\)]\s+(.*)$/);
-      if (!m) return line;
-      current += 1;
-      return line.replace(/^\s*\d+([\.\)])\s+/, current + "$1 ");
-    })
-    .join("\n");
+  let count = 0;
+  let inList = false;
+
+  const out = lines.map(line => {
+    const m = line.match(/^(\s*)(\d+)[\.\)]\s+(.*)$/);
+    const isBullet = line.match(/^\s*[-•]\s+/);
+    const isBlank = line.trim() === "";
+
+    if (m) { // ordered item
+      if (!inList) { inList = true; count = 1; }
+      else { count += 1; }
+      const indent = m[1] || "";
+      const content = m[3] || "";
+      return `${indent}${count}. ${content}`;
+    } else {
+      // leaving list?
+      if (inList && (isBlank || isBullet || /^#{1,6}\s/.test(line) || /^\*\*.*\*\*$/.test(line))) {
+        inList = false; count = 0;
+      }
+      return line;
+    }
+  });
+
+  return out.join("\n");
 }
 
 function sanitizeAnswer(txt) {
-  return renumberOrderedList(collapseSpacing(txt));
+  return renumberOrderedLists(demoteNumberedHeadings(collapseSpacing(txt)));
 }
 
 const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
