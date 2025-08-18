@@ -115,6 +115,17 @@ export async function POST(req) {
     const userQuery = (userLast && userLast.content) ? String(userLast.content) : "";
 
     const localPool = Array.isArray(ports) ? ports : [];
+    // ---- Port hint from the user's text (never assume if not clear)
+    const knownPorts = [...new Set(localPool.map(x => (x.port || "").toLowerCase()))];
+    function inferPortHint(q) {
+    const ql = (q || "").toLowerCase();
+    for (const p of knownPorts) {
+    if (p && ql.includes(p)) return p;
+    }
+    return "";
+    }
+    const portHint = inferPortHint(userQuery);
+
     const annotated = localPool.map((row, i) => ({
       ...row,
       _id: i,
