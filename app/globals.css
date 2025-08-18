@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Smarter default text rendering */
+html, body {
+  height: 100%;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply antialiased bg-slate-950 text-slate-100;
 }
+
+/* Subtle prose defaults for markdown in bubbles */
+.prose { @apply text-slate-100; }
+.prose p { @apply leading-relaxed; }
+.prose ul { @apply list-disc pl-5 space-y-1; }
+.prose ol { @apply list-decimal pl-5 space-y-1; }
+.prose strong { @apply font-semibold; }
+.prose em { @apply italic; }
+
+/* Pretty scrollbars (Chrome/Edge) */
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { @apply bg-white/20 rounded-full; }
+*::-webkit-scrollbar-track { @apply bg-transparent; }
+
+/* Buttons & inputs focus ring */
+.input-like { @apply focus:outline-none focus:ring-2 focus:ring-sky-400/40; }
+
