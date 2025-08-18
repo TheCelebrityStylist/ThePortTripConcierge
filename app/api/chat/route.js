@@ -6,6 +6,34 @@ import OpenAI from "openai";
 // JSON import at build time; Next bundler handles this in JS with "assert"
 import portData from "../../../porttrip.json" assert { type: "json" };
 
+function collapseSpacing(txt) {
+  if (!txt) return "";
+  // Replace 3+ blank lines with a single blank line
+  txt = txt.replace(/\n{3,}/g, "\n\n");
+  // Remove stray bullet-only lines
+  txt = txt.replace(/^\s*[-•]\s*$/gm, "");
+  return txt;
+}
+
+// Renumber lines that look like "1. ..." or "1) ..." so they count 1,2,3...
+function renumberOrderedList(txt) {
+  if (!txt) return "";
+  const lines = txt.split("\n");
+  let current = 0;
+  return lines
+    .map(line => {
+      const m = line.match(/^\s*(\d+)[\.\)]\s+(.*)$/);
+      if (!m) return line;
+      current += 1;
+      return line.replace(/^\s*\d+([\.\)])\s+/, current + "$1 ");
+    })
+    .join("\n");
+}
+
+function sanitizeAnswer(txt) {
+  return renumberOrderedList(collapseSpacing(txt));
+}
+
 const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
 const MAX_LOCAL_PASSAGES = 12;
 const MAX_WEB_SNIPPETS = 6;
