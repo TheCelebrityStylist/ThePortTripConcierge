@@ -6,65 +6,48 @@ import OpenAI from "openai";
 // JSON import at build time; Next bundler handles this in JS with "assert"
 import portData from "../../../porttrip.json" assert { type: "json" };
 
-function collapseSpacing(txt) {
+function sanitizeAnswer(txt) {
   if (!txt) return "";
-  // Replace 3+ blank lines with a single blank line
-  txt = txt.replace(/\n{3,}/g, "\n\n");
-  // Remove stray bullet-only lines
-  txt = txt.replace(/^\s*[-•]\s*$/gm, "");
-  return txt;
-}
 
-function collapseSpacing(txt) {
-  if (!txt) return "";
-  // Replace 3+ blank lines with a single blank line
-  txt = txt.replace(/\n{3,}/g, "\n\n");
-  // Remove stray bullet-only lines
-  txt = txt.replace(/^\s*[-•]\s*$/gm, "");
-  return txt;
-}
+  // 1) Collapse excessive spacing and stray bullets
+  txt = txt
+    .replace(/\n{3,}/g, "\n\n")        // 3+ blank lines → single blank line
+    .replace(/^\s*[-•]\s*$/gm, "");    // remove blank bullet lines
 
-// Turn numbered headings like "1. Transportation Options" into bold headings (not numbered)
-function demoteNumberedHeadings(txt) {
-  if (!txt) return "";
-  return txt.replace(
+  // 2) Demote numbered headings like "1. Transportation Options" → "**Transportation Options:**"
+  txt = txt.replace(
     /^\s*\d+\.\s*([A-Z][^\n]{0,60}?):?\s*$(?=\n(?:\s*[-•]|\s*$|\s*#{1,6}\s))/gmi,
     (_, h) => `**${h.trim()}:**`
   );
-}
 
-// Renumber contiguous ordered lists so they count 1,2,3… within each block
-function renumberOrderedLists(txt) {
-  if (!txt) return "";
+  // 3) Renumber contiguous ordered lists so they count 1,2,3… within each block
   const lines = txt.split("\n");
   let count = 0;
   let inList = false;
 
-  const out = lines.map(line => {
-    const m = line.match(/^(\s*)(\d+)[\.\)]\s+(.*)$/);
-    const isBullet = line.match(/^\s*[-•]\s+/);
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
+    const m = line.match(/^(\s*)(\d+)[\.\)]\s+(.*)$/); // ordered item
+    const isBullet = /^\s*[-•]\s+/.test(line);
     const isBlank = line.trim() === "";
 
-    if (m) { // ordered item
+    if (m) {
       if (!inList) { inList = true; count = 1; }
       else { count += 1; }
       const indent = m[1] || "";
       const content = m[3] || "";
-      return `${indent}${count}. ${content}`;
+      lines[i] = `${indent}${count}. ${content}`;
     } else {
-      // leaving list?
-      if (inList && (isBlank || isBullet || /^#{1,6}\s/.test(line) || /^\*\*.*\*\*$/.test(line))) {
-        inList = false; count = 0;
+      // leaving an ordered list?
+      if (inList && (isBlank || isBullet || /^#{1,6}\s/.test(line) || /^\*\*.*\*\*:?$/.test(line))) {
+        inList = false;
+        count = 0;
       }
-      return line;
     }
-  });
+  }
 
-  return out.join("\n");
-}
-
-function sanitizeAnswer(txt) {
-  return renumberOrderedLists(demoteNumberedHeadings(collapseSpacing(txt)));
+  return lines.join("\n");
 }
 
 const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
