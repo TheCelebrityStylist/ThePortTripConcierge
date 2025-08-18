@@ -26,3 +26,16 @@ body {
 /* Buttons & inputs focus ring */
 .input-like { @apply focus:outline-none focus:ring-2 focus:ring-sky-400/40; }
 
+/* --- PortTrip chat typography tightening --- */
+.prose { line-height: 1.5; }
+.prose p { margin: 0.35rem 0; }
+.prose ul, .prose ol { margin: 0.35rem 0; padding-left: 1.1rem; }
+.prose li { margin: 0.15rem 0; }
+.prose h3, .prose h4 { margin: 0.5rem 0 0.25rem; font-weight: 600; }
+.prose :where(h1,h2,h3,h4,h5,h6)+* { margin-top: 0.25rem; }
+
+/* If your message body uses a custom class, keep both selectors */
+.message-markdown p { margin: 0.35rem 0; }
+.message-markdown ul, .message-markdown ol { margin: 0.35rem 0; padding-left: 1.1rem; }
+.message-markdown li { margin: 0.15rem 0; }
+
