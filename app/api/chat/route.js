@@ -187,14 +187,17 @@ export async function POST(req) {
 
     const messages = [
       { role: "system", content: SYSTEM },
-      {
-        role: "system",
-        content:
-          "You will receive a CONTEXT block with local database excerpts and possibly web snippets. " +
-          "Prefer local facts; use web facts sparingly and cite briefly (name the place/source, no raw URLs)."
-      },
-      { role: "system", content: contextBlock(localSelected, web) }
-    ].concat(history);
+      // Encourage local grounding first (your ports.json + any DB later)
+      { role: "system", content: "You will receive CONTEXT with local port snippets and sometimes WEB snippets. Prefer local facts first." },
+      // Provide port hint or force a clarification if none
+      ...(portHint
+        ? [{ role: "system", content: "Port hint from user text: " + portHint }]
+        : [{ role: "system", content: "No clear port found in the user text. Ask one short question to confirm the port before recommending plans." }]),
+      // Your existing context builder stays the same — add it here
+      { role: "system", content: contextBlock(localSelected, web) },
+      // Finally the user's message/history
+      ...history
+    ];
 
     // Get a single completion (non-stream) so we can sanitize the final text
     const completion = await client.chat.completions.create({
