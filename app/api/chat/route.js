@@ -196,40 +196,25 @@ export async function POST(req) {
       { role: "system", content: contextBlock(localSelected, web) }
     ].concat(history);
 
-    const stream = await client.chat.completions.create({
+    // Get a single completion (non-stream) so we can sanitize the final text
+    const completion = await client.chat.completions.create({
       model: MODEL,
       messages,
       temperature: 0.6,
-      stream: true
+      stream: false
     });
-
-    const encoder = new TextEncoder();
-    const readable = new ReadableStream({
-      async start(controller) {
-        try {
-          // OpenAI SDK returns an async iterable for streamed parts
-          // eslint-disable-next-line no-restricted-syntax
-          for await (const part of stream) {
-            const delta =
-              (part && part.choices && part.choices[0] && part.choices[0].delta && part.choices[0].delta.content) ||
-              "";
-            if (delta) controller.enqueue(encoder.encode(delta));
-          }
-        } catch (e) {
-          controller.enqueue(encoder.encode("\n\n(Streaming interrupted.)"));
-        } finally {
-          controller.close();
-        }
+    
+    let text = completion.choices?.[0]?.message?.content || "";
+    text = sanitizeAnswer(text);
+    
+    return new Response(text, { headers: { "Content-Type": "text/plain; charset=utf-8" } });
+    
+      } catch (err) {
+        return new Response(JSON.stringify({ error: String(err) }), {
+          status: 500,
+          headers: { "Content-Type": "application/json" }
+        });
       }
-    });
-
-    return new Response(readable, { headers: { "Content-Type": "text/plain; charset=utf-8" } });
-  } catch (err) {
-    return new Response(JSON.stringify({ error: String(err) }), {
-      status: 500,
-      headers: { "Content-Type": "application/json" }
-    });
-  }
-}
-
+    }
+    
 
