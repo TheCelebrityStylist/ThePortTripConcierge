@@ -207,6 +207,18 @@ function contextBlock(local, web) {
   return out;
 }
 
+// --- Parse input and derive the user's latest query ---
+const body = await req.json().catch(() => ({}));
+const history = Array.isArray(body?.messages) ? body.messages : [];
+// Prefer explicit .query, else last user message content
+const userQuery =
+  (typeof body?.query === "string" && body.query.trim()) ||
+  (history.slice().reverse().find(m => m?.role === "user")?.content || "").trim();
+
+if (!userQuery) {
+  return new Response("Please ask a question (no text received).", { status: 400 });
+}
+
 // ---------- route (JS, Edge, streaming) ----------
 export async function POST(req) {
   try {
