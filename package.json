@@ -14,5 +14,8 @@
     "typescript": "5.2.2",
     "openai": "4.52.0",
     "encoding": "^0.1.13"
+    "clsx": "^2.1.1",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0"
   }
 }
