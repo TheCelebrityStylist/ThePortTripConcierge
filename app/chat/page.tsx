@@ -161,10 +161,10 @@ export default function ChatPage() {
           </div>
         )}
 
-        {/* Chat area */}
+        {/* Chat area (tighter vertical rhythm) */}
         <div
           ref={scrollerRef}
-          className="min-h-[60vh] space-y-5 rounded-[24px] border border-white/15 bg-white/5 p-4 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:p-6"
+          className="min-h-[60vh] space-y-3 rounded-[24px] border border-white/15 bg-white/5 p-4 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:p-6"
         >
           {messages.map((m, i) => (
             <Bubble key={i} role={m.role} content={m.content} />
@@ -267,13 +267,16 @@ function Dots() {
   );
 }
 
-/* ---------- Minimal Markdown (bold, italic, ul/ol, line breaks) ---------- */
+/* ---------- Minimal Markdown (tight spacing, correct lists) ---------- */
 function Markdown({ text }: { text: string }) {
   const html = useMemo(() => {
     if (!text) return "";
 
     // Escape HTML
     let t = text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    // Normalize spacing: collapse 2+ blank lines → a single blank line
+    t = t.replace(/\n{2,}/g, "\n\n");
 
     // Bold / italics
     t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
@@ -283,6 +286,7 @@ function Markdown({ text }: { text: string }) {
     const out: string[] = [];
     let ul = false;
     let ol = false;
+    let lastWasBreak = false;
 
     const closeLists = () => {
       if (ul) out.push("</ul>"), (ul = false);
@@ -290,51 +294,62 @@ function Markdown({ text }: { text: string }) {
     };
 
     for (const line of lines) {
-      const bullet = line.match(/^\s*(?:-|•)\s+(.*)$/);
-      const ordered = line.match(/^(\s*)(\d+)\.\s+(.*)$/);
+      const mUL = line.match(/^\s*(?:-|•)\s+(.*)$/);
+      const mOL = line.match(/^\s*(\d+)\.\s+(.*)$/);
 
-      if (bullet) {
+      if (mUL) {
         if (!ul) {
           closeLists();
-          out.push("<ul class='list-disc pl-5 space-y-1'>");
+          out.push("<ul class='pl-5 list-disc'>");
           ul = true;
         }
-        out.push(`<li>${bullet[1]}</li>`);
+        out.push(`<li>${mUL[1]}</li>`);
+        lastWasBreak = false;
         continue;
       }
 
-      if (ordered) {
+      if (mOL) {
         if (!ol) {
           closeLists();
-          out.push("<ol class='list-decimal pl-5 space-y-1'>");
+          out.push("<ol class='pl-5 list-decimal'>");
           ol = true;
         }
-        out.push(`<li>${ordered[3]}</li>`);
+        out.push(`<li>${mOL[2]}</li>`);
+        lastWasBreak = false;
         continue;
       }
 
+      // Blank line ⇒ a very small break (no big vertical gaps)
       if (line.trim() === "") {
         closeLists();
-        // compact gap
-        out.push("<div class='h-2'></div>");
+        if (!lastWasBreak) {
+          out.push("<br/>");
+          lastWasBreak = true;
+        }
         continue;
       }
 
       closeLists();
       out.push(`<p>${line}</p>`);
+      lastWasBreak = false;
     }
 
     closeLists();
-    return out.join("\n");
+    return out.join("");
   }, [text]);
 
   // eslint-disable-next-line react/no-danger
   return (
     <div
-      className="prose prose-invert prose-p:my-2 prose-li:my-0.5"
+      className="
+        chat-md
+        [&>p]:my-1
+        [&_ul]:my-1 [&_ol]:my-1
+        [&_li]:my-0.5
+        [&_strong]:font-semibold
+      "
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );
 }
-
 
