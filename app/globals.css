@@ -53,3 +53,29 @@ body {
 .message-markdown li { margin: 0.15rem 0; }
 .message-markdown h3, .message-markdown h4 { margin: 0.5rem 0 0.25rem; font-weight: 600; }
 
+/* --- PortTrip: compact, readable markdown in chat bubbles --- */
+.message-markdown p { margin: 0.35rem 0; }
+.message-markdown ul,
+.message-markdown ol { margin: 0.35rem 0 0.35rem 1.25rem; padding-left: 1.0rem; }
+.message-markdown li { margin: 0.15rem 0; }
+.message-markdown h1,
+.message-markdown h2,
+.message-markdown h3,
+.message-markdown h4,
+.message-markdown h5,
+.message-markdown h6 { margin: 0.5rem 0 0.35rem; font-weight: 650; }
+
+.message-markdown strong { font-weight: 700; }
+.message-markdown a { text-decoration: underline; text-underline-offset: 3px; }
+
+.message-markdown table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.message-markdown th, .message-markdown td {
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 6px 8px;
+}
+
+/* Ensure ordered lists keep natural 1,2,3... numbering */
+.message-markdown ol { list-style: decimal; }
+.message-markdown ul { list-style: disc; }
+
+
