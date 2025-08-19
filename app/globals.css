@@ -78,4 +78,13 @@ body {
 .message-markdown ol { list-style: decimal; }
 .message-markdown ul { list-style: disc; }
 
+/* Tighten first/last element margins inside messages */
+.chat-md > :first-child { margin-top: 0 !important; }
+.chat-md > :last-child  { margin-bottom: 0 !important; }
+
+/* Lists inside messages: remove extra outer spacing safely */
+.chat-md ul, .chat-md ol { padding-left: 1.25rem; margin-top: .25rem; margin-bottom: .25rem; }
+.chat-md li { margin: .125rem 0; }
+
+
 
