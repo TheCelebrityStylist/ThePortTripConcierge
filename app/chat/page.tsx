@@ -2,15 +2,17 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
+/* ---------- Types ---------- */
 type Role = "user" | "assistant";
 type ChatMsg = { role: Role; content: string };
 
+/* ---------- Page ---------- */
 export default function ChatPage() {
   const [messages, setMessages] = useState<ChatMsg[]>([
     {
       role: "assistant",
       content:
-        "Welcome aboard 👋 I’m your **PortTrip Concierge**.\nTell me your **port** and **time window** (e.g., *Barcelona · 6 hours · 09:00–15:00*), plus any preferences (kids, mobility, budget)."
+        "Welcome aboard 👋 I’m your **PortTrip Concierge**.\n\nTell me your **port** and **time window** (e.g., *Barcelona · 6 hours · 09:00–15:00*) plus any preferences (kids, mobility, budget)."
     }
   ]);
   const [input, setInput] = useState("");
@@ -19,155 +21,95 @@ export default function ChatPage() {
 
   const scrollerRef = useRef<HTMLDivElement>(null);
 
+  /* Auto-scroll on new content */
   useEffect(() => {
-    scrollerRef.current?.scrollTo({
-      top: scrollerRef.current.scrollHeight,
-      behavior: "smooth",
-    });
+    const el = scrollerRef.current;
+    if (!el) return;
+    el.scrollTo({ top: el.scrollHeight, behavior: "smooth" });
   }, [messages, loading]);
 
+  /* Quick chips */
   const chips = useMemo(
     () => [
       "Best 6-hour plan from the cruise terminal",
       "Top 3 sights with minimal walking",
       "Mobility-friendly loop with rest stops",
       "Local food near the port",
-      "Kid-friendly afternoon plan",
+      "Kid-friendly afternoon plan"
     ],
     []
   );
 
-  /* ---------------- Display normalizer (fixes spacing + numbering) ---------------- */
-
-  /** Collapse excessive whitespace & clean bullets/blank lines. */
-  function collapseSpacing(txt: string) {
-    if (!txt) return "";
-    // Remove 3+ blank lines -> 1
-    txt = txt.replace(/\n{3,}/g, "\n\n");
-    // Remove lines that are just bullets/dashes
-    txt = txt.replace(/^\s*(?:[-•]|\*\s*)\s*$/gm, "");
-    // Trim trailing spaces on each line
-    txt = txt.replace(/[ \t]+$/gm, "");
-    // Make sure there is never a blank line right before a list item
-    txt = txt.replace(/\n{2,}(\s*(?:[-•]|\d+\.)\s+)/g, "\n$1");
-    return txt.trim();
-  }
-
-  /** Renumber ordered lists so each contiguous block is 1..n */
-  function renumberOrderedLists(txt: string) {
-    const lines = txt.split("\n");
-    let inOL = false;
-    let n = 0;
-
-    const out: string[] = [];
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i];
-
-      // Matches "  7. content" or "1) content"
-      const m = line.match(/^(\s*)(\d+)[\.\)]\s+(.*)$/);
-      const isBullet = /^\s*[-•]\s+/.test(line);
-      const isBlank = line.trim() === "";
-      const isHeading = /^#{1,6}\s/.test(line) || /^\*\*.*\*\*:?$/.test(line);
-
-      if (m) {
-        if (!inOL) {
-          inOL = true;
-          n = 1;
-        } else n += 1;
-
-        const indent = m[1] || "";
-        const content = m[3] || "";
-        out.push(`${indent}${n}. ${content}`);
-      } else {
-        if (inOL && (isBlank || isBullet || isHeading)) {
-          inOL = false;
-          n = 0;
-        }
-        out.push(line);
-      }
-    }
-    return out.join("\n");
-  }
-
-  /** Demote lines like "1. Transportation Options" to "**Transportation Options:**" (prevents fake lists). */
-  function demoteNumberedHeadings(txt: string) {
-    return txt.replace(
-      /^\s*\d+\.\s*([A-Z][^\n]{0,60}?):?\s*$(?=\n(?:\s*[-•]|\s*$|\s*#{1,6}\s))/gmi,
-      (_, h: string) => `**${h.trim()}:**`
-    );
-  }
-
-  /** Main normalizer used just before displaying the assistant message. */
-  function normalizeForDisplay(txt: string) {
-    let t = String(txt || "");
-    t = collapseSpacing(t);
-    t = demoteNumberedHeadings(t);
-    t = renumberOrderedLists(t);
-    // final tiny pass: prevent double blank lines after headings
-    t = t.replace(/(^|\n)(#{1,6} .+)\n{2,}/g, "$1$2\n");
-    return t;
-  }
-
-  /* ---------------- Chat actions ---------------- */
-
-  async function sendMessage(text: string) {
+  /* Send handler */
+  async function handleSend(e: React.FormEvent) {
+    e.preventDefault();
+    const text = input.trim();
     if (!text || loading) return;
 
     setBanner(null);
-    const history = [...messages, { role: "user" as const, content: text }];
-    setMessages(history);
+
+    const nextHistory = [...messages, { role: "user" as const, content: text }];
+    setMessages(nextHistory);
     setInput("");
     setLoading(true);
 
-    // Reserve a slot for streaming assistant
-    const idx = history.length;
-    setMessages([...history, { role: "assistant", content: "" }]);
+    // reserve a slot for the assistant reply
+    const replyIndex = nextHistory.length;
+    setMessages([...nextHistory, { role: "assistant", content: "" }]);
 
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: history, history, fallbackGeneral: true }),
+        body: JSON.stringify({
+          messages: nextHistory,
+          history: nextHistory,
+          fallbackGeneral: true
+        })
       });
 
-      const ct = res.headers.get("content-type") || "";
+      const contentType = res.headers.get("content-type") || "";
 
-      // JSON error from server (e.g., validation)
-      if (!res.ok && ct.includes("application/json")) {
+      // Error payload (JSON)
+      if (!res.ok && contentType.includes("application/json")) {
         const err = await res.json().catch(() => ({}));
-        const msg = err?.message || err?.error || "The server rejected the request.";
+        const msg =
+          err?.message || err?.error || "The server rejected the request.";
         setMessages((m) => {
           const copy = [...m];
-          copy[idx] = { role: "assistant", content: `⚠️ ${msg}` };
+          copy[replyIndex] = { role: "assistant", content: `⚠️ ${msg}` };
           return copy;
         });
         setLoading(false);
         return;
       }
 
-      // Streamed text (edge/stream)
-      if (!ct.includes("application/json") && res.body) {
+      // Streaming (text/plain) path
+      if (!contentType.includes("application/json") && res.body) {
         const reader = res.body.getReader();
         const decoder = new TextDecoder();
         let acc = "";
         while (true) {
           const { done, value } = await reader.read();
           if (done) break;
-          acc += decoder.decode(value);
+          acc += decoder.decode(value, { stream: true });
           setMessages((m) => {
             const copy = [...m];
-            copy[idx] = { role: "assistant", content: normalizeForDisplay(acc) };
+            copy[replyIndex] = { role: "assistant", content: acc };
             return copy;
           });
         }
       } else {
-        // Non-stream JSON response
+        // Non-stream JSON path
         const data = await res.json().catch(() => ({}));
         const reply =
-          data?.reply || data?.answer || data?.content || "Sorry — I couldn’t generate a reply.";
+          data?.reply ||
+          data?.answer ||
+          data?.content ||
+          "Sorry — I couldn’t generate a reply.";
         setMessages((m) => {
           const copy = [...m];
-          copy[idx] = { role: "assistant", content: normalizeForDisplay(reply) };
+          copy[replyIndex] = { role: "assistant", content: reply };
           return copy;
         });
       }
@@ -175,9 +117,9 @@ export default function ChatPage() {
       setBanner("Network hiccup. Please try again.");
       setMessages((m) => {
         const copy = [...m];
-        copy[idx] = {
+        copy[replyIndex] = {
           role: "assistant",
-          content: "I hit a network error. Try again shortly.",
+          content: "I hit a network error. Try again shortly."
         };
         return copy;
       });
@@ -186,26 +128,17 @@ export default function ChatPage() {
     }
   }
 
-  async function handleSend(e: React.FormEvent) {
-    e.preventDefault();
-    const text = input.trim();
-    await sendMessage(text);
-  }
-
-  function handleChipClick(text: string) {
-    // One-tap send
-    sendMessage(text);
-  }
-
+  /* ---------- UI ---------- */
   return (
     <div className="relative min-h-screen overflow-hidden bg-slate-950 text-slate-100">
-      {/* deco gradients */}
+      {/* Ambient gradients */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-40 -left-40 h-[48rem] w-[48rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(56,189,248,0.18),_transparent_60%)] blur-2xl" />
         <div className="absolute -bottom-40 -right-40 h-[52rem] w-[52rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(99,102,241,0.18),_transparent_60%)] blur-2xl" />
       </div>
 
       <div className="mx-auto max-w-6xl px-6 py-6">
+        {/* Header */}
         <div className="mb-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <span className="text-2xl">🚢</span>
@@ -213,32 +146,38 @@ export default function ChatPage() {
               PortTrip Concierge
             </div>
           </div>
-          <a href="/" className="text-sm text-slate-300 hover:text-white/90">
+          <a
+            href="/"
+            className="text-sm text-slate-300 hover:text-white/90"
+          >
             Back to site
           </a>
         </div>
 
+        {/* Banner */}
         {banner && (
           <div className="mb-3 rounded-xl border border-amber-400/30 bg-amber-500/10 px-3 py-2 text-sm text-amber-200">
             {banner}
           </div>
         )}
 
+        {/* Chat area */}
         <div
           ref={scrollerRef}
           className="min-h-[60vh] space-y-5 rounded-[24px] border border-white/15 bg-white/5 p-4 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:p-6"
         >
           {messages.map((m, i) => (
-            <Bubble key={i} role={m.role} content={m.role === "assistant" ? normalizeForDisplay(m.content) : m.content} />
+            <Bubble key={i} role={m.role} content={m.content} />
           ))}
           {loading && <TypingBubble />}
         </div>
 
+        {/* Chips */}
         <div className="mt-3 flex flex-wrap gap-2">
           {chips.map((c) => (
             <button
               key={c}
-              onClick={() => handleChipClick(c)}
+              onClick={() => setInput(c)}
               className="rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-sm hover:bg-white/15"
             >
               {c}
@@ -246,6 +185,7 @@ export default function ChatPage() {
           ))}
         </div>
 
+        {/* Composer */}
         <form onSubmit={handleSend} className="sticky bottom-0">
           <div className="mt-2 flex gap-2">
             <input
@@ -263,7 +203,8 @@ export default function ChatPage() {
             </button>
           </div>
           <p className="mt-2 text-[11px] text-slate-300">
-            Tip: include **arrival → all-aboard** time + preferences (kids, mobility, budget) for a sharper plan.
+            Tip: include <strong>arrival → all-aboard</strong> time + preferences
+            (kids, mobility, budget) for a sharper plan.
           </p>
         </form>
       </div>
@@ -271,10 +212,129 @@ export default function ChatPage() {
   );
 }
 
-/* --------------------------------- UI pieces --------------------------------- */
+/* ---------- UI Pieces ---------- */
 
-function Bubble({ role, content }: { role: Role; content: string }) {
+function Bubble(props: { role: Role; content: string }) {
+  const { role, content } = props;
   const isUser = role === "user";
+  const rowJustify = isUser ? "justify-end" : "justify-start";
+
   return (
-    <div className={`flex w-full ${isUser ? "justify-end" : "justify-start"}`}>
+    <div className={`flex w-full ${rowJustify}`}>
+      <div className="flex max-w-[85%] items-start gap-3">
+        {!isUser && (
+          <div className="flex h-9 w-9 select-none items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-indigo-600 text-xs font-semibold text-white shadow-lg shadow-indigo-900/30">
+            PT
+          </div>
+        )}
+        <div
+          className={
+            isUser
+              ? "whitespace-pre-wrap rounded-2xl rounded-br-sm bg-gradient-to-br from-sky-500 to-indigo-600 px-4 py-3 leading-relaxed text-white shadow-lg shadow-indigo-900/30"
+              : "whitespace-pre-wrap rounded-2xl rounded-bl-sm border border-white/15 bg-white/8 px-4 py-3 leading-relaxed text-slate-100 shadow-sm backdrop-blur-md"
+          }
+          style={{ wordBreak: "break-word" }}
+        >
+          <Markdown text={content} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TypingBubble() {
+  return (
+    <div className="flex justify-start">
+      <div className="flex items-start gap-3">
+        <div className="flex h-9 w-9 select-none items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-indigo-600 text-xs font-semibold text-white shadow-lg shadow-indigo-900/30">
+          PT
+        </div>
+        <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
+          <Dots />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Dots() {
+  return (
+    <div className="flex items-center gap-1">
+      <span className="inline-block h-2 w-2 animate-bounce rounded-full bg-sky-400 [animation-delay:-0.2s]" />
+      <span className="inline-block h-2 w-2 animate-bounce rounded-full bg-sky-300 [animation-delay:-0.1s]" />
+      <span className="inline-block h-2 w-2 animate-bounce rounded-full bg-sky-200" />
+    </div>
+  );
+}
+
+/* ---------- Minimal Markdown (bold, italic, ul/ol, line breaks) ---------- */
+function Markdown({ text }: { text: string }) {
+  const html = useMemo(() => {
+    if (!text) return "";
+
+    // Escape HTML
+    let t = text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    // Bold / italics
+    t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    t = t.replace(/\*(.+?)\*/g, "<em>$1</em>");
+
+    const lines = t.split("\n");
+    const out: string[] = [];
+    let ul = false;
+    let ol = false;
+
+    const closeLists = () => {
+      if (ul) out.push("</ul>"), (ul = false);
+      if (ol) out.push("</ol>"), (ol = false);
+    };
+
+    for (const line of lines) {
+      const bullet = line.match(/^\s*(?:-|•)\s+(.*)$/);
+      const ordered = line.match(/^(\s*)(\d+)\.\s+(.*)$/);
+
+      if (bullet) {
+        if (!ul) {
+          closeLists();
+          out.push("<ul class='list-disc pl-5 space-y-1'>");
+          ul = true;
+        }
+        out.push(`<li>${bullet[1]}</li>`);
+        continue;
+      }
+
+      if (ordered) {
+        if (!ol) {
+          closeLists();
+          out.push("<ol class='list-decimal pl-5 space-y-1'>");
+          ol = true;
+        }
+        out.push(`<li>${ordered[3]}</li>`);
+        continue;
+      }
+
+      if (line.trim() === "") {
+        closeLists();
+        // compact gap
+        out.push("<div class='h-2'></div>");
+        continue;
+      }
+
+      closeLists();
+      out.push(`<p>${line}</p>`);
+    }
+
+    closeLists();
+    return out.join("\n");
+  }, [text]);
+
+  // eslint-disable-next-line react/no-danger
+  return (
+    <div
+      className="prose prose-invert prose-p:my-2 prose-li:my-0.5"
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
+}
+
 
