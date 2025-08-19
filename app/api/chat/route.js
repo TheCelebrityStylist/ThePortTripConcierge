@@ -121,7 +121,55 @@ const SYSTEM =
   "Prefer grounded facts from CONTEXT; use WEB data only if local context is missing/outdated. Cite sources by name, never as raw URLs. " +
   "Formatting rules: single line breaks only (no double blank lines). If you produce a numbered list, numbering must be 1, 2, 3… with no resets. " +
   "If info is uncertain or varies (hours, strikes, shuttles), say so briefly and suggest how to verify at the port.\n";
-  
+
+  // High-signal port facts used to deepen answers. Expand anytime.
+const PORT_PROFILES = {
+  "barcelona": {
+    aliases: ["barcelona", "bcn"],
+    terminal: "Shuttles usually drop at Columbus Monument (Portal de la Pau).",
+    taxis: "Taxi to Sagrada Família ~€12–15 (~15 min). To Plaça Catalunya ~€10–14.",
+    metro: "Drassanes (L3) for La Rambla; L2 for Sagrada Família; L4 for Barceloneta.",
+    walking: "Ramblas is flat and stroller-friendly; Park Güell has grades; Gothic quarter = cobbles but short distances.",
+    tickets: "Sagrada Família basic ~€26; Park Güell monumental zone ~€10; Casa Batlló ~€29–35.",
+    tips: "Time Acropolis-style queues? Not needed here, but prebook Sagrada. Watch for pickpockets on La Rambla.",
+    buffer: "Aim to be back at the shuttle by 90 min before all-aboard."
+  },
+  "athens (piraeus)": {
+    aliases: ["piraeus", "athens", "athina"],
+    terminal: "From LP10/Lion Gate, port bus to Gate E6, then city bus/metro.",
+    taxis: "Taxi to Acropolis south entrance ~€20–25 (25–35 min, traffic sensitive).",
+    metro: "Piraeus (M1 green) → Monastiraki (change for M3 blue to Acropolis/Fix) ~25–35 min.",
+    walking: "Acropolis slopes; elevator at the north side by appointment; Plaka mostly flat.",
+    tickets: "Acropolis hill ~€20; combo ticket (Acropolis + sites) ~€30; prebook morning to dodge heat/queues.",
+    tips: "Watch for transport strikes; check OASA/Google on the day. South entrance queues are shorter.",
+    buffer: "Target back at Piraeus metro by 2 hours before all-aboard."
+  },
+  "civitavecchia (rome)": {
+    aliases: ["civitavecchia", "rome", "roma"],
+    terminal: "Free port shuttle to Largo della Pace; local bus to Civitavecchia station.",
+    trains: "Regionale to Roma Termini ~70–80 min; to San Pietro ~55–65 min; return earlier than you think.",
+    taxis: "Taxi to Rome is expensive (>€150); consider ship tours if timing is tight.",
+    walking: "Rome center is flat but distances are large; cluster neighborhoods.",
+    tickets: "Colosseum (timed) ~€18–22; Vatican Museums ~€25–30; St Peter’s Basilica free, dome extra.",
+    tips: "Book timed entries; pad 30–45 min for station/platform transitions.",
+    buffer: "Be on the train back by 3–3.5 h before all-aboard."
+  },
+  "naples": {
+    aliases: ["naples", "napoli"],
+    terminal: "Stazione Marittima is walkable to center; ferries to Capri nearby.",
+    transport: "Circumvesuviana for Pompeii/Ercolano; hydrofoils to Capri ~45–55 min.",
+    tickets: "Pompeii ~€16–19; Capri funicular ~€2 each way; Blue Grotto weather dependent.",
+    tips: "Pompeii is hot: bring water; for minimal walking choose Herculaneum (smaller, better preserved).",
+    buffer: "Return to the port 90 min before all-aboard; hydrofoils can sell out late."
+  },
+  "santorini (thira)": {
+    aliases: ["santorini", "thira", "fira"],
+    terminal: "Tender to old port (Skala); cable car up to Fira (~€6), or donkey path (not recommended).",
+    transport: "Buses from Fira to Oia ~25–35 min; taxis limited—pairs with queue spikes.",
+    tips: "Queue build around ship waves; go early to Oia, return before peak; sunsets create crush.",
+    buffer: "Start cable car down 90–120 min before last tender."
+  }
+};
 
 function contextBlock(local, web) {
   const L = local
