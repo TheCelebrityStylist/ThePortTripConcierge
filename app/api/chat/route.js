@@ -65,6 +65,16 @@ function keywordScore(q, text) {
   return s;
 }
 
+function detectPortProfile(q) {
+  const text = (q || "").toLowerCase();
+  for (const key of Object.keys(PORT_PROFILES)) {
+    const p = PORT_PROFILES[key];
+    if (p.aliases.some(a => text.includes(a))) return { key, data: p };
+  }
+  return null;
+}
+const portProfile = detectPortProfile(userQuery);
+
 async function embed(texts) {
   const res = await client.embeddings.create({
     model: "text-embedding-3-large",
