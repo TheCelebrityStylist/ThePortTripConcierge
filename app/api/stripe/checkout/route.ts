@@ -1,11 +1,11 @@
 // app/api/stripe/checkout/route.ts
-export const runtime = "nodejs"; // IMPORTANT: Stripe requires Node runtime (not edge)
+export const runtime = "nodejs";
 
 import Stripe from "stripe";
 import { NextResponse } from "next/server";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2024-06-20",
+  apiVersion: "2023-10-16", // ✅ matches the SDK’s type union
 });
 
 export async function POST(req: Request) {
@@ -36,9 +36,9 @@ export async function POST(req: Request) {
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
       line_items: [{ price: priceId, quantity: 1 }],
+      allow_promotion_codes: true,
       success_url: `${base}/chat?status=success`,
       cancel_url: `${base}/chat?status=cancel`,
-      allow_promotion_codes: true,
     });
 
     return NextResponse.json({ url: session.url }, { status: 200 });
@@ -50,8 +50,3 @@ export async function POST(req: Request) {
   }
 }
 
-    return NextResponse.json({ url: session.url }, { status: 200 });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message || "Checkout failed" }, { status: 500 });
-  }
-}
