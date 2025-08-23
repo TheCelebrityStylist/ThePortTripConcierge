@@ -1,6 +1,28 @@
 "use client";
 
 import Image from "next/image";
+
+export default function HomePage() {
+  return (
+    <main className="min-h-screen bg-slate-950 text-slate-100">
+      <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <div className="flex items-center gap-3">
+          <Image src="/logo-mark.svg" alt="PortTrip" width={24} height={24} priority />
+          <Image src="/logo.svg" alt="PortTrip" width={160} height={32} priority className="h-6 w-auto" />
+        </div>
+
+        {/* your nav */}
+        <nav className="flex items-center gap-6 text-sm text-slate-300">
+          <a href="/#features" className="hover:text-white">Features</a>
+          <a href="/#pricing" className="hover:text-white">Pricing</a>
+          <a href="/chat" className="rounded-lg bg-white/10 px-3 py-1.5 hover:bg-white/15">Launch app</a>
+        </nav>
+      </header>
+
+      {/* ...rest of your landing content... */}
+    </main>
+  );
+}
 import { useEffect, useMemo, useRef, useState } from "react";
 
 /* ---------- Plans & Limits ---------- */
