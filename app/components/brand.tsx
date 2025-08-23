@@ -2,31 +2,25 @@
 
 import Image from "next/image";
 
-interface BrandWordmarkProps {
-  className?: string;
-}
-
-/** Full PortTrip wordmark (uses /public/logo.svg) */
-export function BrandWordmark({ className = "h-6 w-auto" }: BrandWordmarkProps) {
+export function BrandWordmark({ className = "h-6 w-auto" }: { className?: string }) {
+  // Horizontal logo (e.g., wordmark)
   return (
     <Image
       src="/logo.svg"
       alt="PortTrip"
-      width={160}
-      height={32}
+      width={200}
+      height={40}
       priority
       className={className}
     />
   );
 }
 
-interface BrandMarkProps {
-  size?: number;
-  className?: string;
-}
-
-/** Circular PortTrip mark (uses /public/logo-mark.svg) */
-export function BrandMark({ size = 36, className = "" }: BrandMarkProps) {
+export function BrandMark(
+  { size = 36, className = "" }: { size?: number; className?: string }
+) {
+  // Square icon, shown in a subtle rounded pill so it visually matches the UI.
+  const inner = Math.floor(size * 0.78);
   return (
     <span
       className={`inline-flex items-center justify-center rounded-full bg-white/10 ${className}`}
@@ -36,9 +30,9 @@ export function BrandMark({ size = 36, className = "" }: BrandMarkProps) {
       <Image
         src="/logo-mark.svg"
         alt="PortTrip"
-        width={Math.floor(size * 0.72)}
-        height={Math.floor(size * 0.72)}
-        className="opacity-90"
+        width={inner}
+        height={inner}
+        className="opacity-95"
       />
     </span>
   );
