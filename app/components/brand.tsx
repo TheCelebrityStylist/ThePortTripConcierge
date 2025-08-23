@@ -2,7 +2,15 @@
 
 import Image from "next/image";
 
-export function BrandWordmark({ className = "h-6 w-auto" }: { className?: string }) {
+interface BrandWordmarkProps {
+  className?: string;
+}
+
+/**
+ * The full PortTrip wordmark logo.
+ * Uses /public/logo.svg — make sure logo.svg exists in your /public folder.
+ */
+export function BrandWordmark({ className = "h-6 w-auto" }: BrandWordmarkProps) {
   return (
     <Image
       src="/logo.svg"
@@ -15,7 +23,16 @@ export function BrandWordmark({ className = "h-6 w-auto" }: { className?: string
   );
 }
 
-export function BrandMark({ size = 36, className = "" }: { size?: number; className?: string }) {
+interface BrandMarkProps {
+  size?: number;
+  className?: string;
+}
+
+/**
+ * The circular PortTrip mark logo.
+ * Uses /public/logo-mark.svg — make sure logo-mark.svg exists in your /public folder.
+ */
+export function BrandMark({ size = 36, className = "" }: BrandMarkProps) {
   return (
     <span
       className={`inline-flex items-center justify-center rounded-full bg-white/10 ${className}`}
@@ -32,4 +49,5 @@ export function BrandMark({ size = 36, className = "" }: { size?: number; classN
     </span>
   );
 }
+
 
