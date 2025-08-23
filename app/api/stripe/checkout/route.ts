@@ -1,67 +1,113 @@
-// app/api/stripe/checkout/route.ts
-export const runtime = "edge";
+// Use Node runtime for Stripe SDK (required)
+export const runtime = "nodejs";
 
-const STRIPE_BASE = "https://api.stripe.com/v1";
+import Stripe from "stripe";
 
-// Required env:
-// STRIPE_SECRET_KEY
-// STRIPE_PRICE_PRO            (price_...)
-// STRIPE_PRICE_UNLIMITED      (price_...)
-// STRIPE_SUCCESS_URL          (e.g. https://your.site/thanks?session_id={CHECKOUT_SESSION_ID})
-// STRIPE_CANCEL_URL           (e.g. https://your.site/pricing)
+/**
+ * Map plan -> Stripe Price ID
+ * Make sure these env vars exist in your Vercel project:
+ *  - STRIPE_SECRET_KEY
+ *  - STRIPE_PRICE_PRO_ID
+ *  - STRIPE_PRICE_UNLIMITED_ID
+ */
+const priceByPlan: Record<"pro" | "unlimited", string> = {
+  pro: process.env.STRIPE_PRICE_PRO_ID || "",
+  unlimited: process.env.STRIPE_PRICE_UNLIMITED_ID || "",
+};
 
-function required(name: string) {
-  const v = process.env[name];
-  if (!v) throw new Error(`Missing env ${name}`);
-  return v;
+// Build success/cancel URLs based on the current host (works on Vercel preview/prod)
+function originFrom(req: Request) {
+  const url = new URL(req.url);
+  return `${url.protocol}//${url.host}`;
 }
 
+function assertEnv() {
+  const missing: string[] = [];
+  if (!process.env.STRIPE_SECRET_KEY) missing.push("STRIPE_SECRET_KEY");
+  if (!priceByPlan.pro) missing.push("STRIPE_PRICE_PRO_ID");
+  if (!priceByPlan.unlimited) missing.push("STRIPE_PRICE_UNLIMITED_ID");
+  if (missing.length) {
+    throw new Error(`Missing env vars: ${missing.join(", ")}`);
+  }
+}
+
+function newStripe() {
+  return new Stripe(process.env.STRIPE_SECRET_KEY!, {
+    apiVersion: "2023-10-16",
+  });
+}
+
+/**
+ * Optional GET for quick manual testing in a browser:
+ *   /api/stripe/checkout?plan=pro
+ */
 export async function GET(req: Request) {
   try {
+    assertEnv();
     const url = new URL(req.url);
-    const plan = (url.searchParams.get("plan") || "pro").toLowerCase(); // "pro" | "unlimited"
-    const price =
-      plan === "unlimited"
-        ? required("STRIPE_PRICE_UNLIMITED")
-        : required("STRIPE_PRICE_PRO");
+    const plan = (url.searchParams.get("plan") || "").toLowerCase() as
+      | "pro"
+      | "unlimited";
 
-    const body = new URLSearchParams({
-      mode: "subscription",
-      "line_items[0][price]": price,
-      "line_items[0][quantity]": "1",
-      success_url: required("STRIPE_SUCCESS_URL"),
-      cancel_url: required("STRIPE_CANCEL_URL"),
-      // Let Stripe create or reuse customer by email in Checkout
-      // You can also pre-fill customer_email, etc.
-      // After success, use your success page to set cookies if needed.
-      automatic_tax: "enabled",
-    });
-
-    const res = await fetch(`${STRIPE_BASE}/checkout/sessions`, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${required("STRIPE_SECRET_KEY")}`,
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body,
-    });
-
-    if (!res.ok) {
-      const t = await res.text();
-      return new Response(t, { status: 500 });
+    if (!priceByPlan[plan]) {
+      return Response.json({ error: `Unknown or missing plan: "${plan}"` }, { status: 400 });
     }
 
-    const session = await res.json();
-    // Redirect user-agent to Stripe-hosted Checkout
-    return new Response(null, {
-      status: 303,
-      headers: { Location: session.url },
+    const stripe = newStripe();
+    const origin = originFrom(req);
+
+    const session = await stripe.checkout.sessions.create({
+      mode: "subscription",
+      line_items: [{ price: priceByPlan[plan], quantity: 1 }],
+      success_url: `${origin}/chat?status=success&plan=${plan}`,
+      cancel_url: `${origin}/chat?status=cancel`,
+      // Add your customer/metadata here if you have auth:
+      // customer: "cus_xxx",
+      // metadata: { userId: "abc123" },
     });
+
+    return Response.json({ url: session.url }, { status: 200 });
   } catch (err: any) {
-    return new Response(JSON.stringify({ error: String(err) }), {
-      status: 500,
-      headers: { "Content-Type": "application/json" },
+    return Response.json({ error: `Stripe checkout error: ${String(err?.message || err)}` }, { status: 500 });
+  }
+}
+
+/**
+ * Main handler used by the app (POST)
+ * Frontend calls: fetch('/api/stripe/checkout?plan=pro', { method: 'POST' })
+ */
+export async function POST(req: Request) {
+  try {
+    assertEnv();
+    const url = new URL(req.url);
+    // Accept plan via query (?plan=pro) or JSON body { plan: "pro" }
+    let plan = (url.searchParams.get("plan") || "").toLowerCase() as
+      | "pro"
+      | "unlimited";
+
+    if (!plan) {
+      const body = await req.json().catch(() => ({} as any));
+      plan = (body?.plan || "").toLowerCase();
+    }
+
+    if (!priceByPlan[plan]) {
+      return Response.json({ error: `Unknown or missing plan: "${plan}"` }, { status: 400 });
+    }
+
+    const stripe = newStripe();
+    const origin = originFrom(req);
+
+    const session = await stripe.checkout.sessions.create({
+      mode: "subscription",
+      line_items: [{ price: priceByPlan[plan], quantity: 1 }],
+      success_url: `${origin}/chat?status=success&plan=${plan}`,
+      cancel_url: `${origin}/chat?status=cancel`,
     });
+
+    // Frontend will redirect to this URL
+    return Response.json({ url: session.url }, { status: 200 });
+  } catch (err: any) {
+    return Response.json({ error: `Stripe checkout error: ${String(err?.message || err)}` }, { status: 500 });
   }
 }
 
