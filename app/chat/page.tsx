@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-// ✅ Use a relative path so it works without tsconfig path aliases
-import { BrandMark, BrandWordmark } from "./components/brand";
+import { BrandMark, BrandWordmark } from "@/components/brand";
 
 /* ---------- Plans & Limits ---------- */
 type Plan = "free" | "pro" | "unlimited";
@@ -277,7 +276,7 @@ export default function ChatPage() {
             <BrandWordmark className="h-6 w-auto" />
           </div>
 
-          {/* Working buttons */}
+        {/* Working buttons */}
           <div className="flex items-center gap-2 text-sm text-slate-300">
             <span className="opacity-80">Plan:</span>
             <span className="rounded-full bg-white/10 px-2 py-0.5">{plan}</span>
@@ -485,6 +484,4 @@ function Markdown({ text }: { text: string }) {
   // eslint-disable-next-line react/no-danger
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
-
-
 
