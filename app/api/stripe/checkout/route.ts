@@ -1,49 +1,70 @@
 // app/api/stripe/checkout/route.ts
-import Stripe from "stripe";
-
 export const runtime = "edge";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2023-10-16",
-});
+const STRIPE_BASE = "https://api.stripe.com/v1";
 
-export async function POST(req: Request) {
+// Required env:
+// STRIPE_SECRET_KEY
+// STRIPE_PRICE_PRO            (price_...)
+// STRIPE_PRICE_UNLIMITED      (price_...)
+// STRIPE_SUCCESS_URL          (e.g. https://your.site/thanks?session_id={CHECKOUT_SESSION_ID})
+// STRIPE_CANCEL_URL           (e.g. https://your.site/pricing)
+
+function required(name: string) {
+  const v = process.env[name];
+  if (!v) throw new Error(`Missing env ${name}`);
+  return v;
+}
+
+export async function GET(req: Request) {
   try {
-    const { plan } = (await req.json().catch(() => ({}))) as {
-      plan?: "pro" | "unlimited";
-    };
+    const url = new URL(req.url);
+    const plan = (url.searchParams.get("plan") || "pro").toLowerCase(); // "pro" | "unlimited"
     const price =
       plan === "unlimited"
-        ? process.env.STRIPE_PRICE_UNLIMITED
-        : process.env.STRIPE_PRICE_PRO;
+        ? required("STRIPE_PRICE_UNLIMITED")
+        : required("STRIPE_PRICE_PRO");
 
-    if (!price) {
-      return new Response(JSON.stringify({ error: "Missing Stripe price id." }), {
-        status: 500,
-        headers: { "Content-Type": "application/json" },
-      });
+    const body = new URLSearchParams({
+      mode: "subscription",
+      "line_items[0][price]": price,
+      "line_items[0][quantity]": "1",
+      success_url: required("STRIPE_SUCCESS_URL"),
+      cancel_url: required("STRIPE_CANCEL_URL"),
+      // Let Stripe create or reuse customer by email in Checkout
+      // You can also pre-fill customer_email, etc.
+      // After success, use your success page to set cookies if needed.
+      automatic_tax: "enabled",
+    });
+
+    const res = await fetch(`${STRIPE_BASE}/checkout/sessions`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${required("STRIPE_SECRET_KEY")}`,
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body,
+    });
+
+    if (!res.ok) {
+      const t = await res.text();
+      return new Response(t, { status: 500 });
     }
 
-    const base = process.env.NEXT_PUBLIC_BASE_URL!;
-    const session = await stripe.checkout.sessions.create({
-      mode: "subscription",
-      line_items: [{ price, quantity: 1 }],
-      success_url: `${base}/api/stripe/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${base}/chat`,
-      allow_promotion_codes: true,
-      metadata: { plan: plan || "pro" },
-    });
-
-    return new Response(JSON.stringify({ url: session.url }), {
-      headers: { "Content-Type": "application/json" },
+    const session = await res.json();
+    // Redirect user-agent to Stripe-hosted Checkout
+    return new Response(null, {
+      status: 303,
+      headers: { Location: session.url },
     });
   } catch (err: any) {
-    return new Response(JSON.stringify({ error: err.message || "Checkout failed" }), {
+    return new Response(JSON.stringify({ error: String(err) }), {
       status: 500,
       headers: { "Content-Type": "application/json" },
     });
   }
 }
+
 
 
 
