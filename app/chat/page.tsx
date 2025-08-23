@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import Image from "next/image";
 
 /* ---------- Plans & Limits ---------- */
 type Plan = "free" | "pro" | "unlimited";
@@ -127,8 +128,6 @@ export default function ChatPage() {
   /* Start Stripe Checkout (your server does 303 redirect or returns a JSON url) */
   async function startCheckout(planName: "pro" | "unlimited") {
     try {
-      // Use the method you implemented. Two common patterns:
-
       // A) Server returns a JSON {url}; then navigate:
       const res = await fetch(`/api/stripe/checkout?plan=${planName}`, {
         method: "POST",
@@ -288,7 +287,14 @@ export default function ChatPage() {
         {/* Header */}
         <div className="mb-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="text-2xl">🚢</span>
+            <Image
+              src="/porttrip-logo.svg"  // put your real logo file in /public
+              alt="PortTrip"
+              width={32}
+              height={32}
+              priority
+              className="h-8 w-8 select-none"
+            />
             <div className="text-xl font-semibold tracking-tight sm:text-2xl">
               PortTrip Concierge
             </div>
@@ -508,4 +514,5 @@ function Markdown({ text }: { text: string }) {
   // eslint-disable-next-line react/no-danger
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
+
 
