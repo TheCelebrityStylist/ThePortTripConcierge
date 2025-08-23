@@ -6,10 +6,7 @@ interface BrandWordmarkProps {
   className?: string;
 }
 
-/**
- * The full PortTrip wordmark logo.
- * Uses /public/logo.svg — make sure logo.svg exists in your /public folder.
- */
+/** Full PortTrip wordmark (uses /public/logo.svg) */
 export function BrandWordmark({ className = "h-6 w-auto" }: BrandWordmarkProps) {
   return (
     <Image
@@ -28,10 +25,7 @@ interface BrandMarkProps {
   className?: string;
 }
 
-/**
- * The circular PortTrip mark logo.
- * Uses /public/logo-mark.svg — make sure logo-mark.svg exists in your /public folder.
- */
+/** Circular PortTrip mark (uses /public/logo-mark.svg) */
 export function BrandMark({ size = 36, className = "" }: BrandMarkProps) {
   return (
     <span
