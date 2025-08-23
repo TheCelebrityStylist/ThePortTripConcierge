@@ -57,7 +57,7 @@ export default function ChatPage() {
   const [loading, setLoading] = useState(false);
   const [banner, setBanner] = useState<string | null>(null);
 
-  /* NEW/UPDATED — plan & usage state */
+  /* Plan & usage state */
   const [plan, setPlan] = useState<Plan>(getStoredPlan());
   const [{ month, count }, setUsageState] = useState(getUsage());
 
@@ -80,36 +80,30 @@ export default function ChatPage() {
     }
   }, [month]);
 
-  /* NEW/UPDATED — pick plan from your server on mount and after Stripe redirect */
+  /* Prefer plan from your server (if available) */
   useEffect(() => {
     (async () => {
       try {
-        // 1) If you return session_id/plan/status from Stripe redirect, handle it:
         const url = new URL(window.location.href);
         const status = url.searchParams.get("status");
         if (status) {
-          // After checkout you might set plan server-side; just refetch below.
           url.searchParams.delete("status");
           url.searchParams.delete("plan");
           url.searchParams.delete("session_id");
           window.history.replaceState({}, "", url.toString());
         }
 
-        // 2) Fetch the **authoritative** plan from YOUR API
-        //    Change this URL to your existing endpoint.
         const res = await fetch("/api/me/plan", { credentials: "include" });
         if (res.ok) {
           const data = (await res.json()) as { plan?: string };
           const serverPlan = (data.plan || "free").toLowerCase() as Plan;
           if (serverPlan === "free" || serverPlan === "pro" || serverPlan === "unlimited") {
             setPlan(serverPlan);
-            setStoredPlan(serverPlan); // keep local fallback in sync
+            setStoredPlan(serverPlan);
           }
-        } else {
-          // If unauthenticated or endpoint missing, keep local fallback.
         }
       } catch {
-        // Silent fallback to local plan
+        /* fall back to local plan */
       }
     })();
   }, []);
@@ -129,6 +123,38 @@ export default function ChatPage() {
   const limit = LIMITS[plan];
   const remaining = Math.max(0, limit - count);
   const atLimit = remaining <= 0;
+
+  /* Start Stripe Checkout (your server does 303 redirect or returns a JSON url) */
+  async function startCheckout(planName: "pro" | "unlimited") {
+    try {
+      // Use the method you implemented. Two common patterns:
+
+      // A) Server returns a JSON {url}; then navigate:
+      const res = await fetch(`/api/stripe/checkout?plan=${planName}`, {
+        method: "POST",
+        credentials: "include",
+      });
+      const ct = res.headers.get("content-type") || "";
+      if (ct.includes("application/json")) {
+        const j = await res.json();
+        if (!res.ok || !j?.url) throw new Error(j?.error || "Checkout failed.");
+        window.location.href = j.url;
+        return;
+      }
+
+      // B) Server answers 303 Location (Edge-friendly). Just follow:
+      if (res.status === 303) {
+        const loc = res.headers.get("location");
+        if (loc) window.location.href = loc;
+        else throw new Error("Missing redirect location.");
+        return;
+      }
+
+      throw new Error("Unexpected checkout response.");
+    } catch (e: any) {
+      setBanner(e?.message || "Could not start checkout.");
+    }
+  }
 
   /* Send handler (counts user prompts) */
   async function handleSend(e: React.FormEvent) {
@@ -167,6 +193,30 @@ export default function ChatPage() {
 
       const ct = res.headers.get("content-type") || "";
 
+      // ---- NEW: handle upgrade-required path (HTTP 402 + code) ----
+      if (res.status === 402 && ct.includes("application/json")) {
+        const err = await res.json().catch(() => ({}));
+        const code = (err?.code || "").toString();
+        if (code === "FREE_LIMIT_REACHED" || code === "LIMIT_REACHED") {
+          setMessages((m) => {
+            const copy = [...m];
+            copy[replyIndex] = {
+              role: "assistant",
+              content:
+                "You’ve reached your plan’s monthly limit. Upgrade to keep planning — Pro raises the cap to **25 chats/month**, and Unlimited removes the cap."
+            };
+            return copy;
+          });
+          // roll back the optimistic count
+          const rollback = { month: ymKey(), count };
+          setUsageState(rollback);
+          setUsage(rollback);
+          setLoading(false);
+          return;
+        }
+      }
+
+      // Regular error (JSON body)
       if (!res.ok && ct.includes("application/json")) {
         const err = await res.json().catch(() => ({}));
         const msg = err?.message || err?.error || "The server rejected the request.";
@@ -175,7 +225,7 @@ export default function ChatPage() {
           copy[replyIndex] = { role: "assistant", content: `⚠️ ${msg}` };
           return copy;
         });
-        // Roll back usage if server refused
+        // roll back usage
         const rollback = { month: ymKey(), count };
         setUsageState(rollback);
         setUsage(rollback);
@@ -183,6 +233,7 @@ export default function ChatPage() {
         return;
       }
 
+      // Streaming (text/plain)
       if (!ct.includes("application/json") && res.body) {
         const reader = res.body.getReader();
         const decoder = new TextDecoder();
@@ -198,6 +249,7 @@ export default function ChatPage() {
           });
         }
       } else {
+        // Non-stream JSON
         const data = await res.json().catch(() => ({}));
         const reply =
           data?.reply || data?.answer || data?.content || "Sorry — I couldn’t generate a reply.";
@@ -214,31 +266,12 @@ export default function ChatPage() {
         copy[replyIndex] = { role: "assistant", content: "I hit a network error. Try again shortly." };
         return copy;
       });
-      // Roll back usage on hard error
+      // roll back usage on hard error
       const rollback = { month: ymKey(), count };
       setUsageState(rollback);
       setUsage(rollback);
     } finally {
       setLoading(false);
-    }
-  }
-
-  /* NEW/UPDATED — call YOUR Stripe API to start checkout */
-  async function startCheckout(planName: "pro" | "unlimited") {
-    try {
-      // Change this to match your existing endpoint (method & path).
-      // Common patterns:
-      //   POST /api/stripe/checkout { plan: "pro" }
-      //   or GET  /api/stripe/checkout?plan=pro
-      const res = await fetch(`/api/stripe/checkout?plan=${planName}`, {
-        method: "POST",
-        credentials: "include"
-      });
-      const data = await res.json();
-      if (!res.ok || !data?.url) throw new Error(data?.error || "Checkout failed.");
-      window.location.href = data.url; // Stripe-hosted Checkout
-    } catch (e: any) {
-      setBanner(e?.message || "Could not start checkout.");
     }
   }
 
@@ -311,23 +344,7 @@ export default function ChatPage() {
           {loading && <TypingBubble />}
 
           {atLimit && (
-            <div className="rounded-2xl border border-white/15 bg-white/8 p-4 text-sm text-slate-200">
-              You’ve reached your plan’s chat limit.
-              <div className="mt-2 flex gap-2">
-                <button
-                  onClick={() => startCheckout("pro")}
-                  className="rounded-lg bg-gradient-to-br from-sky-500 to-indigo-600 px-3 py-2 text-sm font-medium"
-                >
-                  Upgrade to Pro (25/month)
-                </button>
-                <button
-                  onClick={() => startCheckout("unlimited")}
-                  className="rounded-lg bg-white/10 px-3 py-2 text-sm font-medium hover:bg-white/15"
-                >
-                  Go Unlimited
-                </button>
-              </div>
-            </div>
+            <UpgradePrompt onPro={() => startCheckout("pro")} onUnlimited={() => startCheckout("unlimited")} />
           )}
         </div>
 
@@ -364,7 +381,8 @@ export default function ChatPage() {
             </button>
           </div>
           <p className="mt-2 text-[11px] text-slate-300">
-            Tip: include <strong>arrival → all-aboard</strong> time + preferences (kids, mobility, budget) for a sharper plan.
+            Tip: include <strong>arrival → all-aboard</strong> time + preferences
+            (kids, mobility, budget) for a sharper plan.
           </p>
         </form>
       </div>
@@ -372,7 +390,29 @@ export default function ChatPage() {
   );
 }
 
-/* ---------- UI Pieces (unchanged) ---------- */
+/* ---------- UI Pieces ---------- */
+
+function UpgradePrompt({ onPro, onUnlimited }: { onPro: () => void; onUnlimited: () => void }) {
+  return (
+    <div className="rounded-2xl border border-white/15 bg-white/8 p-4 text-sm text-slate-200">
+      You’ve reached your plan’s chat limit. Upgrade to continue:
+      <div className="mt-2 flex gap-2">
+        <button
+          onClick={onPro}
+          className="rounded-lg bg-gradient-to-br from-sky-500 to-indigo-600 px-3 py-2 text-sm font-medium"
+        >
+          Upgrade to Pro (25/month)
+        </button>
+        <button
+          onClick={onUnlimited}
+          className="rounded-lg bg-white/10 px-3 py-2 text-sm font-medium hover:bg-white/15"
+        >
+          Go Unlimited
+        </button>
+      </div>
+    </div>
+  );
+}
 
 function Bubble({ role, content }: { role: Role; content: string }) {
   const isUser = role === "user";
@@ -468,3 +508,4 @@ function Markdown({ text }: { text: string }) {
   // eslint-disable-next-line react/no-danger
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
+
