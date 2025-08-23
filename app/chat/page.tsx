@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { BrandMark, BrandWordmark } from "@/components/brand";
+// ✅ Use a relative path so it works without tsconfig path aliases
+import { BrandMark, BrandWordmark } from "./components/brand";
 
 /* ---------- Plans & Limits ---------- */
 type Plan = "free" | "pro" | "unlimited";
