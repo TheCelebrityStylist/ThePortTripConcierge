@@ -1,52 +1,58 @@
 // app/api/stripe/checkout/route.ts
-export const runtime = "nodejs";
-
 import Stripe from "stripe";
-import { NextResponse } from "next/server";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2023-10-16", // ✅ matches the SDK’s type union
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
+  // This is the latest stable version supported by stripe-node typings
+  apiVersion: "2023-10-16",
 });
 
+/**
+ * POST /api/stripe/checkout
+ * Body JSON: { plan: "pro" | "unlimited" , email?: string }
+ */
 export async function POST(req: Request) {
   try {
-    const { searchParams } = new URL(req.url);
-    const plan = (searchParams.get("plan") || "pro").toLowerCase(); // "pro" | "unlimited"
+    const { plan, email } = await req.json().catch(() => ({}));
 
-    const priceId =
+    const price =
       plan === "unlimited"
         ? process.env.STRIPE_PRICE_UNLIMITED
         : process.env.STRIPE_PRICE_PRO;
 
-    if (!priceId) {
-      return NextResponse.json(
-        { error: "Price not configured for this plan." },
-        { status: 400 }
+    if (!price) {
+      return new Response(
+        JSON.stringify({ error: "Stripe Price ID not configured." }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    const base = process.env.NEXT_PUBLIC_BASE_URL!;
-    if (!base) {
-      return NextResponse.json(
-        { error: "NEXT_PUBLIC_BASE_URL not set" },
-        { status: 400 }
-      );
-    }
+    // Where Stripe should send the user after payment
+    const base = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+    const success_url = `${base}/chat?upgraded=1`;
+    const cancel_url = `${base}/chat?upgrade=cancelled`;
 
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
-      line_items: [{ price: priceId, quantity: 1 }],
+      success_url,
+      cancel_url,
+      customer_email: email || undefined,
+      line_items: [{ price, quantity: 1 }],
+      metadata: { plan },
+      // optional: let Stripe collect billing addresses etc.
       allow_promotion_codes: true,
-      success_url: `${base}/chat?status=success`,
-      cancel_url: `${base}/chat?status=cancel`,
     });
 
-    return NextResponse.json({ url: session.url }, { status: 200 });
+    return new Response(JSON.stringify({ url: session.url }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
   } catch (err: any) {
-    return NextResponse.json(
-      { error: err?.message || "Checkout failed" },
-      { status: 500 }
-    );
+    console.error("[stripe/checkout] error:", err);
+    return new Response(JSON.stringify({ error: err?.message || "Stripe error" }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
   }
 }
+
 
