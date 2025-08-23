@@ -1,51 +1,27 @@
-"use client";
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
 
-import Image from "next/image";
-
-interface BrandWordmarkProps {
-  className?: string;
+    /* 👇 enables `@/…` imports from the repo root */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
 
-/**
- * The full PortTrip wordmark logo.
- * Uses /public/logo.svg — make sure logo.svg exists in your /public folder.
- */
-export function BrandWordmark({ className = "h-6 w-auto" }: BrandWordmarkProps) {
-  return (
-    <Image
-      src="/logo.svg"
-      alt="PortTrip"
-      width={160}
-      height={32}
-      priority
-      className={className}
-    />
-  );
-}
-
-interface BrandMarkProps {
-  size?: number;
-  className?: string;
-}
-
-/**
- * The circular PortTrip mark logo.
- * Uses /public/logo-mark.svg — make sure logo-mark.svg exists in your /public folder.
- */
-export function BrandMark({ size = 36, className = "" }: BrandMarkProps) {
-  return (
-    <span
-      className={`inline-flex items-center justify-center rounded-full bg-white/10 ${className}`}
-      style={{ width: size, height: size }}
-      aria-hidden="true"
-    >
-      <Image
-        src="/logo-mark.svg"
-        alt="PortTrip"
-        width={Math.floor(size * 0.72)}
-        height={Math.floor(size * 0.72)}
-        className="opacity-90"
-      />
-    </span>
-  );
-}
