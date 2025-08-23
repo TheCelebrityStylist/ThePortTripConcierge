@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { BrandMark, BrandWordmark } from "@/components/brand"; // or "../components/brand"
+// ✅ Use a relative import so it works without tsconfig path aliases
+import { BrandMark, BrandWordmark } from "./components/brand";
 
 /** Kick off a server-side Stripe Checkout session */
 async function startCheckout(
