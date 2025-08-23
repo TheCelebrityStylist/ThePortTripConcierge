@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 /* ---------- Plans & Limits ---------- */
 type Plan = "free" | "pro" | "unlimited";
@@ -44,6 +44,38 @@ function setUsage(u: { month: string; count: number }) {
 /* ---------- Types ---------- */
 type Role = "user" | "assistant";
 type ChatMsg = { role: Role; content: string };
+
+/* ---------- Small logo components ---------- */
+function BrandWordmark({ className = "h-6 w-auto" }: { className?: string }) {
+  // Uses /public/logo.svg
+  return (
+    <Image
+      src="/logo.svg"
+      alt="PortTrip"
+      width={160}
+      height={32}
+      priority
+      className={className}
+    />
+  );
+}
+function BrandMark({ size = 36 }: { size?: number }) {
+  // Uses /public/logo-mark.svg
+  return (
+    <span
+      className="inline-flex items-center justify-center rounded-full bg-white/10"
+      style={{ width: size, height: size }}
+    >
+      <Image
+        src="/logo-mark.svg"
+        alt="PortTrip"
+        width={Math.floor(size * 0.72)}
+        height={Math.floor(size * 0.72)}
+        className="opacity-90"
+      />
+    </span>
+  );
+}
 
 /* ---------- Page ---------- */
 export default function ChatPage() {
@@ -125,10 +157,9 @@ export default function ChatPage() {
   const remaining = Math.max(0, limit - count);
   const atLimit = remaining <= 0;
 
-  /* Start Stripe Checkout (your server does 303 redirect or returns a JSON url) */
+  /* Start Stripe Checkout */
   async function startCheckout(planName: "pro" | "unlimited") {
     try {
-      // A) Server returns a JSON {url}; then navigate:
       const res = await fetch(`/api/stripe/checkout?plan=${planName}`, {
         method: "POST",
         credentials: "include",
@@ -140,15 +171,10 @@ export default function ChatPage() {
         window.location.href = j.url;
         return;
       }
-
-      // B) Server answers 303 Location (Edge-friendly). Just follow:
       if (res.status === 303) {
         const loc = res.headers.get("location");
-        if (loc) window.location.href = loc;
-        else throw new Error("Missing redirect location.");
-        return;
+        if (loc) { window.location.href = loc; return; }
       }
-
       throw new Error("Unexpected checkout response.");
     } catch (e: any) {
       setBanner(e?.message || "Could not start checkout.");
@@ -163,7 +189,6 @@ export default function ChatPage() {
 
     setBanner(null);
 
-    // Optimistically bump usage
     const next = { month: ymKey(), count: count + 1 };
     setUsageState(next);
     setUsage(next);
@@ -180,7 +205,6 @@ export default function ChatPage() {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        // Send plan & usage for optional server enforcement/logging
         body: JSON.stringify({
           plan,
           usage: next,
@@ -192,7 +216,6 @@ export default function ChatPage() {
 
       const ct = res.headers.get("content-type") || "";
 
-      // ---- NEW: handle upgrade-required path (HTTP 402 + code) ----
       if (res.status === 402 && ct.includes("application/json")) {
         const err = await res.json().catch(() => ({}));
         const code = (err?.code || "").toString();
@@ -206,7 +229,6 @@ export default function ChatPage() {
             };
             return copy;
           });
-          // roll back the optimistic count
           const rollback = { month: ymKey(), count };
           setUsageState(rollback);
           setUsage(rollback);
@@ -215,7 +237,6 @@ export default function ChatPage() {
         }
       }
 
-      // Regular error (JSON body)
       if (!res.ok && ct.includes("application/json")) {
         const err = await res.json().catch(() => ({}));
         const msg = err?.message || err?.error || "The server rejected the request.";
@@ -224,7 +245,6 @@ export default function ChatPage() {
           copy[replyIndex] = { role: "assistant", content: `⚠️ ${msg}` };
           return copy;
         });
-        // roll back usage
         const rollback = { month: ymKey(), count };
         setUsageState(rollback);
         setUsage(rollback);
@@ -232,7 +252,6 @@ export default function ChatPage() {
         return;
       }
 
-      // Streaming (text/plain)
       if (!ct.includes("application/json") && res.body) {
         const reader = res.body.getReader();
         const decoder = new TextDecoder();
@@ -248,7 +267,6 @@ export default function ChatPage() {
           });
         }
       } else {
-        // Non-stream JSON
         const data = await res.json().catch(() => ({}));
         const reply =
           data?.reply || data?.answer || data?.content || "Sorry — I couldn’t generate a reply.";
@@ -265,7 +283,6 @@ export default function ChatPage() {
         copy[replyIndex] = { role: "assistant", content: "I hit a network error. Try again shortly." };
         return copy;
       });
-      // roll back usage on hard error
       const rollback = { month: ymKey(), count };
       setUsageState(rollback);
       setUsage(rollback);
@@ -287,17 +304,8 @@ export default function ChatPage() {
         {/* Header */}
         <div className="mb-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <Image
-              src="/porttrip-logo.svg"  // put your real logo file in /public
-              alt="PortTrip"
-              width={32}
-              height={32}
-              priority
-              className="h-8 w-8 select-none"
-            />
-            <div className="text-xl font-semibold tracking-tight sm:text-2xl">
-              PortTrip Concierge
-            </div>
+            <BrandMark size={28} />
+            <BrandWordmark className="h-6 w-auto" />
           </div>
 
           {/* Working buttons */}
@@ -427,11 +435,7 @@ function Bubble({ role, content }: { role: Role; content: string }) {
   return (
     <div className={`flex w-full ${rowJustify}`}>
       <div className="flex max-w-[85%] items-start gap-3">
-        {!isUser && (
-          <div className="flex h-9 w-9 select-none items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-indigo-600 text-xs font-semibold text-white shadow-lg shadow-indigo-900/30">
-            PT
-          </div>
-        )}
+        {!isUser && <BrandMark size={36} />}
         <div
           className={
             isUser
@@ -451,9 +455,7 @@ function TypingBubble() {
   return (
     <div className="flex justify-start">
       <div className="flex items-start gap-3">
-        <div className="flex h-9 w-9 select-none items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-indigo-600 text-xs font-semibold text-white shadow-lg shadow-indigo-900/30">
-          PT
-        </div>
+        <BrandMark size={36} />
         <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
           <Dots />
         </div>
