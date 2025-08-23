@@ -1,9 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { BrandMark, BrandWordmark } from "@/components/brand";
+import { BrandMark, BrandWordmark } from "@/components/brand"; // or "../components/brand"
 
-async function startCheckout(plan: "pro" | "unlimited", setBanner: (s: string | null) => void) {
+/** Kick off a server-side Stripe Checkout session */
+async function startCheckout(
+  plan: "pro" | "unlimited",
+  setBanner: (s: string | null) => void
+) {
   try {
     const res = await fetch(`/api/stripe/checkout?plan=${plan}`, {
       method: "POST",
@@ -172,7 +176,9 @@ export default function HomePage() {
           {/* Pro */}
           <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
             <h3 className="text-lg font-semibold">Pro</h3>
-            <div className="mt-2 text-3xl font-bold">€9<span className="ml-1 text-base font-medium text-slate-300">/mo</span></div>
+            <div className="mt-2 text-3xl font-bold">
+              €9<span className="ml-1 text-base font-medium text-slate-300">/mo</span>
+            </div>
             <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
               <li>500 chats / month</li>
               <li>Priority model + faster streaming</li>
@@ -189,7 +195,9 @@ export default function HomePage() {
           {/* Unlimited */}
           <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
             <h3 className="text-lg font-semibold">Unlimited</h3>
-            <div className="mt-2 text-3xl font-bold">€19<span className="ml-1 text-base font-medium text-slate-300">/mo</span></div>
+            <div className="mt-2 text-3xl font-bold">
+              €19<span className="ml-1 text-base font-medium text-slate-300">/mo</span>
+            </div>
             <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
               <li>Unlimited chats</li>
               <li>Team seats (up to 5)</li>
@@ -224,7 +232,4 @@ export default function HomePage() {
   );
 }
 
-    </div>
-  );
-}
 
