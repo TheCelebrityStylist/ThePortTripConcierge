@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 /* ---------- Plans & Limits ---------- */
@@ -268,9 +269,20 @@ export default function ChatPage() {
       </div>
 
       <div className="mx-auto max-w-6xl px-6 py-6">
-        {/* Header — no page-local logo to avoid duplication */}
+        {/* Header — page-local logo only (single logo) */}
         <div className="mb-4 flex items-center justify-between">
-          <div aria-hidden className="h-10" />
+          <div className="flex items-center gap-2">
+            <Image
+              src="/logo-mark.svg"
+              alt="PortTrip"
+              width={28}
+              height={28}
+              priority
+              className="rounded-full"
+            />
+            <span className="text-lg font-semibold tracking-tight">PortTrip Concierge</span>
+          </div>
+
           <div className="flex items-center gap-2 text-sm text-slate-300">
             <span className="opacity-80">Plan:</span>
             <span className="rounded-full bg-white/10 px-2 py-0.5">{plan}</span>
@@ -395,7 +407,6 @@ function Bubble({ role, content }: { role: Role; content: string }) {
   return (
     <div className={`flex w-full ${rowJustify}`}>
       <div className="flex max-w-[85%] items-start gap-3">
-        {/* No bubble avatar */}
         <div
           className={
             isUser
@@ -415,7 +426,6 @@ function TypingBubble() {
   return (
     <div className="flex justify-start">
       <div className="flex items-start gap-3">
-        {/* No avatar here either */}
         <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
           <Dots />
         </div>
@@ -475,4 +485,3 @@ function Markdown({ text }: { text: string }) {
 
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
-
