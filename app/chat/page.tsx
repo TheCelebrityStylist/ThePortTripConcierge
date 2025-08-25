@@ -268,51 +268,51 @@ export default function ChatPage() {
         <div className="absolute -bottom-40 -right-40 h-[52rem] w-[52rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(99,102,241,0.18),_transparent_60%)] blur-2xl" />
       </div>
 
-      <div className="mx-auto max-w-6xl px-6 py-6">
-        {/* Top bar with small brand + plan */}
-        <div className="mb-3 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <Image
-              src="/logo-mark.svg"
-              alt="PortTrip"
-              width={28}
-              height={28}
-              className="rounded-full bg-white/10"
-              priority
-            />
-            <Image
-              src="/logo.svg"
-              alt="PortTrip"
-              width={110}
-              height={24}
-              priority
-            />
-          </div>
-
-          <div className="flex items-center gap-2 text-sm text-slate-300">
-            <span className="opacity-80">Plan:</span>
-            <span className="rounded-full bg-white/10 px-2 py-0.5">{plan}</span>
-            <button
-              onClick={() => { setStoredPlan("free"); setPlan("free"); }}
-              className="rounded px-2 py-0.5 hover:bg-white/10"
-            >
-              Start free
-            </button>
-            <button
-              onClick={() => startCheckout("pro")}
-              className="rounded px-2 py-0.5 hover:bg-white/10"
-            >
-              Upgrade to Pro
-            </button>
-            <button
-              onClick={() => startCheckout("unlimited")}
-              className="rounded px-2 py-0.5 hover:bg-white/10"
-            >
-              Go Unlimited
-            </button>
-          </div>
+      {/* Header (ONE logo only) */}
+      <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <div className="flex items-center gap-2">
+          <Image
+            src="/logo-mark.svg"
+            alt="PortTrip"
+            width={28}
+            height={28}
+            priority
+            className="opacity-90"
+          />
+          <Image
+            src="/logo.svg"
+            alt="PortTrip"
+            width={120}
+            height={24}
+            priority
+            className="opacity-95"
+          />
         </div>
 
+        <nav className="flex items-center gap-3 text-sm text-slate-300">
+          <span className="rounded-full bg-white/10 px-2 py-0.5">Plan: <strong className="ml-1 lowercase">{plan}</strong></span>
+          <button
+            onClick={() => { setStoredPlan("free"); setPlan("free"); }}
+            className="rounded px-2 py-0.5 hover:bg-white/10"
+          >
+            Start free
+          </button>
+          <button
+            onClick={() => startCheckout("pro")}
+            className="rounded px-2 py-0.5 hover:bg-white/10"
+          >
+            Upgrade to Pro
+          </button>
+          <button
+            onClick={() => startCheckout("unlimited")}
+            className="rounded px-2 py-0.5 hover:bg-white/10"
+          >
+            Go Unlimited
+          </button>
+        </nav>
+      </header>
+
+      <div className="relative z-10 mx-auto max-w-6xl px-6">
         {/* Banner */}
         {banner && (
           <div className="mb-3 rounded-xl border border-amber-400/30 bg-amber-500/10 px-3 py-2 text-sm text-amber-200">
@@ -336,7 +336,6 @@ export default function ChatPage() {
         >
           {messages.map((m, i) => <Bubble key={i} role={m.role} content={m.content} />)}
           {loading && <TypingBubble />}
-
           {atLimit && (
             <UpgradePrompt onPro={() => startCheckout("pro")} onUnlimited={() => startCheckout("unlimited")} />
           )}
@@ -375,8 +374,7 @@ export default function ChatPage() {
             </button>
           </div>
           <p className="mt-2 text-[11px] text-slate-300">
-            Tip: include <strong>arrival → all-aboard</strong> time + preferences
-            (kids, mobility, budget) for a sharper plan.
+            Tip: include <strong>arrival → all-aboard</strong> time + preferences (kids, mobility, budget) for a sharper plan.
           </p>
         </form>
       </div>
@@ -412,14 +410,10 @@ function Bubble({ role, content }: { role: Role; content: string }) {
   const isUser = role === "user";
   const rowJustify = isUser ? "justify-end" : "justify-start";
 
+  // NOTE: No avatar/logo here — prevents duplicate logos.
   return (
     <div className={`flex w-full ${rowJustify}`}>
-      <div className="flex max-w-[85%] items-start gap-3">
-        {!isUser && (
-          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10">
-            <Image src="/logo-mark.svg" alt="PortTrip" width={20} height={20} className="opacity-90" />
-          </div>
-        )}
+      <div className="flex max-w-[85%] items-start">
         <div
           className={
             isUser
@@ -438,13 +432,8 @@ function Bubble({ role, content }: { role: Role; content: string }) {
 function TypingBubble() {
   return (
     <div className="flex justify-start">
-      <div className="flex items-start gap-3">
-        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10">
-          <Image src="/logo-mark.svg" alt="PortTrip" width={20} height={20} className="opacity-90" />
-        </div>
-        <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
-          <Dots />
-        </div>
+      <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
+        <Dots />
       </div>
     </div>
   );
