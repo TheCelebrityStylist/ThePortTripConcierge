@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 /* ---------- Plans & Limits ---------- */
@@ -268,51 +267,34 @@ export default function ChatPage() {
         <div className="absolute -bottom-40 -right-40 h-[52rem] w-[52rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(99,102,241,0.18),_transparent_60%)] blur-2xl" />
       </div>
 
-      {/* Header (ONE logo only) */}
-      <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <div className="flex items-center gap-2">
-          <Image
-            src="/logo-mark.svg"
-            alt="PortTrip"
-            width={28}
-            height={28}
-            priority
-            className="opacity-90"
-          />
-          <Image
-            src="/logo.svg"
-            alt="PortTrip"
-            width={120}
-            height={24}
-            priority
-            className="opacity-95"
-          />
+      <div className="mx-auto max-w-6xl px-6 py-6">
+        {/* Header — no page-local logo to avoid duplication */}
+        <div className="mb-4 flex items-center justify-between">
+          <div aria-hidden className="h-10" />
+          <div className="flex items-center gap-2 text-sm text-slate-300">
+            <span className="opacity-80">Plan:</span>
+            <span className="rounded-full bg-white/10 px-2 py-0.5">{plan}</span>
+            <button
+              onClick={() => { setStoredPlan("free"); setPlan("free"); }}
+              className="rounded px-2 py-0.5 hover:bg-white/10"
+            >
+              Start free
+            </button>
+            <button
+              onClick={() => startCheckout("pro")}
+              className="rounded px-2 py-0.5 hover:bg-white/10"
+            >
+              Upgrade to Pro
+            </button>
+            <button
+              onClick={() => startCheckout("unlimited")}
+              className="rounded px-2 py-0.5 hover:bg-white/10"
+            >
+              Go Unlimited
+            </button>
+          </div>
         </div>
 
-        <nav className="flex items-center gap-3 text-sm text-slate-300">
-          <span className="rounded-full bg-white/10 px-2 py-0.5">Plan: <strong className="ml-1 lowercase">{plan}</strong></span>
-          <button
-            onClick={() => { setStoredPlan("free"); setPlan("free"); }}
-            className="rounded px-2 py-0.5 hover:bg-white/10"
-          >
-            Start free
-          </button>
-          <button
-            onClick={() => startCheckout("pro")}
-            className="rounded px-2 py-0.5 hover:bg-white/10"
-          >
-            Upgrade to Pro
-          </button>
-          <button
-            onClick={() => startCheckout("unlimited")}
-            className="rounded px-2 py-0.5 hover:bg-white/10"
-          >
-            Go Unlimited
-          </button>
-        </nav>
-      </header>
-
-      <div className="relative z-10 mx-auto max-w-6xl px-6">
         {/* Banner */}
         {banner && (
           <div className="mb-3 rounded-xl border border-amber-400/30 bg-amber-500/10 px-3 py-2 text-sm text-amber-200">
@@ -382,7 +364,7 @@ export default function ChatPage() {
   );
 }
 
-/* ---------- UI Pieces ---------- */
+/* ---------- UI Pieces (no avatars) ---------- */
 
 function UpgradePrompt({ onPro, onUnlimited }: { onPro: () => void; onUnlimited: () => void }) {
   return (
@@ -410,10 +392,10 @@ function Bubble({ role, content }: { role: Role; content: string }) {
   const isUser = role === "user";
   const rowJustify = isUser ? "justify-end" : "justify-start";
 
-  // NOTE: No avatar/logo here — prevents duplicate logos.
   return (
     <div className={`flex w-full ${rowJustify}`}>
-      <div className="flex max-w-[85%] items-start">
+      <div className="flex max-w-[85%] items-start gap-3">
+        {/* No bubble avatar */}
         <div
           className={
             isUser
@@ -432,8 +414,11 @@ function Bubble({ role, content }: { role: Role; content: string }) {
 function TypingBubble() {
   return (
     <div className="flex justify-start">
-      <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
-        <Dots />
+      <div className="flex items-start gap-3">
+        {/* No avatar here either */}
+        <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
+          <Dots />
+        </div>
       </div>
     </div>
   );
@@ -449,12 +434,12 @@ function Dots() {
   );
 }
 
-/* ---------- Minimal Markdown (tight spacing, correct lists) ---------- */
+/* ---------- Minimal Markdown ---------- */
 function Markdown({ text }: { text: string }) {
   const html = useMemo(() => {
     if (!text) return "";
     let t = text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    t = t.replace(/\n{2,}/g, "\n\n");            // compact blank lines
+    t = t.replace(/\n{2,}/g, "\n\n");
     t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
     t = t.replace(/\*(.+?)\*/g, "<em>$1</em>");
 
@@ -488,7 +473,6 @@ function Markdown({ text }: { text: string }) {
     return out.join("");
   }, [text]);
 
-  // eslint-disable-next-line react/no-danger
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
