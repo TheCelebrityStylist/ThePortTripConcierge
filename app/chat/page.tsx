@@ -269,36 +269,19 @@ export default function ChatPage() {
       </div>
 
       <div className="mx-auto max-w-6xl px-6 py-6">
-        {/* Header */}
+        {/* Header (wordmark only) */}
         <div className="mb-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            {/* round mark */}
-            <span
-              className="inline-flex items-center justify-center rounded-full bg-white/10"
-              style={{ width: 28, height: 28 }}
-              aria-hidden="true"
-            >
-              <Image
-                src="/logo-mark.svg"
-                alt="PortTrip"
-                width={22}
-                height={22}
-                className="opacity-95"
-                priority
-              />
-            </span>
-            {/* wordmark */}
             <Image
               src="/logo.svg"
               alt="PortTrip"
-              width={160}
-              height={32}
-              className="h-6 w-auto"
+              width={140}
+              height={28}
               priority
             />
           </div>
 
-          {/* Plan & upgrade buttons */}
+          {/* Plan controls */}
           <div className="flex items-center gap-2 text-sm text-slate-300">
             <span className="opacity-80">Plan:</span>
             <span className="rounded-full bg-white/10 px-2 py-0.5">{plan}</span>
@@ -426,13 +409,13 @@ function Bubble({ role, content }: { role: Role; content: string }) {
     <div className={`flex w-full ${rowJustify}`}>
       <div className="flex max-w-[85%] items-start gap-3">
         {!isUser && (
-          <span
-            className="inline-flex items-center justify-center rounded-full bg-white/10"
-            style={{ width: 36, height: 36 }}
-            aria-hidden="true"
-          >
-            <Image src="/logo-mark.svg" alt="PortTrip" width={28} height={28} className="opacity-95" />
-          </span>
+          <Image
+            src="/logo-mark.svg"
+            alt="PortTrip"
+            width={28}
+            height={28}
+            className="rounded-full bg-white/10"
+          />
         )}
         <div
           className={
@@ -453,13 +436,13 @@ function TypingBubble() {
   return (
     <div className="flex justify-start">
       <div className="flex items-start gap-3">
-        <span
-          className="inline-flex items-center justify-center rounded-full bg-white/10"
-          style={{ width: 36, height: 36 }}
-          aria-hidden="true"
-        >
-          <Image src="/logo-mark.svg" alt="PortTrip" width={28} height={28} className="opacity-95" />
-        </span>
+        <Image
+          src="/logo-mark.svg"
+          alt="PortTrip"
+          width={28}
+          height={28}
+          className="rounded-full bg-white/10"
+        />
         <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
           <Dots />
         </div>
@@ -520,4 +503,5 @@ function Markdown({ text }: { text: string }) {
   // eslint-disable-next-line react/no-danger
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
+
 
