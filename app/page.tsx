@@ -35,7 +35,7 @@ export default function HomePage() {
   const [banner, setBanner] = useState<string | null>(null);
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100">
+    <main className="relative min-h-screen bg-slate-950 text-slate-100">
       {/* Ambient gradients */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-40 -left-40 h-[48rem] w-[48rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(56,189,248,0.18),_transparent_60%)] blur-2xl" />
@@ -43,29 +43,37 @@ export default function HomePage() {
       </div>
 
       {/* Header */}
-    <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-      <div className="flex items-center gap-3">
-        <Image
-          src="/logo.svg"
-          alt="PortTrip"
-          width={160}
-          height={32}
-          priority
-        />
-      </div>
-    
-      <nav className="flex items-center gap-6 text-sm text-slate-300">
-        <a href="#features" className="hover:text-white/90">Features</a>
-        <a href="#pricing" className="hover:text-white/90">Pricing</a>
-        <a href="#faq" className="hover:text-white/90">FAQ</a>
-        <a
-          href="/chat"
-          className="rounded-lg bg-white/10 px-3 py-1.5 font-medium hover:bg-white/15"
-        >
-          Launch app
-        </a>
-      </nav>
-    </header>
+      <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <div className="flex items-center gap-3">
+          <Image
+            src="/logo-mark.svg"
+            alt="PortTrip"
+            width={28}
+            height={28}
+            className="rounded-full bg-white/10"
+            priority
+          />
+          <Image
+            src="/logo.svg"
+            alt="PortTrip"
+            width={110}
+            height={24}
+            priority
+          />
+        </div>
+
+        <nav className="flex items-center gap-6 text-sm text-slate-300">
+          <a href="#features" className="hover:text-white/90">Features</a>
+          <a href="#pricing" className="hover:text-white/90">Pricing</a>
+          <a href="#faq" className="hover:text-white/90">FAQ</a>
+          <a
+            href="/chat"
+            className="rounded-lg bg-white/10 px-3 py-1.5 font-medium hover:bg-white/15"
+          >
+            Launch app
+          </a>
+        </nav>
+      </header>
 
       {/* Top banner (errors, etc.) */}
       {banner && (
@@ -229,16 +237,17 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="relative z-10 mx-auto max-w-6xl px-6 py-8 text-sm text-slate-400">
         <div className="flex items-center gap-2">
-          <span
-            className="inline-flex items-center justify-center rounded-full bg-white/10"
-            style={{ width: 20, height: 20 }}
-            aria-hidden="true"
-          >
-            <Image src="/logo-mark.svg" alt="PortTrip" width={16} height={16} className="opacity-95" />
-          </span>
+          <Image
+            src="/logo-mark.svg"
+            alt="PortTrip"
+            width={18}
+            height={18}
+            className="rounded-full bg-white/10"
+          />
           <span>© {new Date().getFullYear()} PortTrip</span>
         </div>
       </footer>
     </main>
   );
 }
+
