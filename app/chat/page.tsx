@@ -45,38 +45,6 @@ function setUsage(u: { month: string; count: number }) {
 type Role = "user" | "assistant";
 type ChatMsg = { role: Role; content: string };
 
-/* ---------- Small logo components ---------- */
-function BrandWordmark({ className = "h-6 w-auto" }: { className?: string }) {
-  // Uses /public/logo.svg
-  return (
-    <Image
-      src="/logo.svg"
-      alt="PortTrip"
-      width={160}
-      height={32}
-      priority
-      className={className}
-    />
-  );
-}
-function BrandMark({ size = 36 }: { size?: number }) {
-  // Uses /public/logo-mark.svg
-  return (
-    <span
-      className="inline-flex items-center justify-center rounded-full bg-white/10"
-      style={{ width: size, height: size }}
-    >
-      <Image
-        src="/logo-mark.svg"
-        alt="PortTrip"
-        width={Math.floor(size * 0.72)}
-        height={Math.floor(size * 0.72)}
-        className="opacity-90"
-      />
-    </span>
-  );
-}
-
 /* ---------- Page ---------- */
 export default function ChatPage() {
   const [messages, setMessages] = useState<ChatMsg[]>([
@@ -304,11 +272,33 @@ export default function ChatPage() {
         {/* Header */}
         <div className="mb-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <BrandMark size={28} />
-            <BrandWordmark className="h-6 w-auto" />
+            {/* round mark */}
+            <span
+              className="inline-flex items-center justify-center rounded-full bg-white/10"
+              style={{ width: 28, height: 28 }}
+              aria-hidden="true"
+            >
+              <Image
+                src="/logo-mark.svg"
+                alt="PortTrip"
+                width={22}
+                height={22}
+                className="opacity-95"
+                priority
+              />
+            </span>
+            {/* wordmark */}
+            <Image
+              src="/logo.svg"
+              alt="PortTrip"
+              width={160}
+              height={32}
+              className="h-6 w-auto"
+              priority
+            />
           </div>
 
-          {/* Working buttons */}
+          {/* Plan & upgrade buttons */}
           <div className="flex items-center gap-2 text-sm text-slate-300">
             <span className="opacity-80">Plan:</span>
             <span className="rounded-full bg-white/10 px-2 py-0.5">{plan}</span>
@@ -435,7 +425,15 @@ function Bubble({ role, content }: { role: Role; content: string }) {
   return (
     <div className={`flex w-full ${rowJustify}`}>
       <div className="flex max-w-[85%] items-start gap-3">
-        {!isUser && <BrandMark size={36} />}
+        {!isUser && (
+          <span
+            className="inline-flex items-center justify-center rounded-full bg-white/10"
+            style={{ width: 36, height: 36 }}
+            aria-hidden="true"
+          >
+            <Image src="/logo-mark.svg" alt="PortTrip" width={28} height={28} className="opacity-95" />
+          </span>
+        )}
         <div
           className={
             isUser
@@ -455,7 +453,13 @@ function TypingBubble() {
   return (
     <div className="flex justify-start">
       <div className="flex items-start gap-3">
-        <BrandMark size={36} />
+        <span
+          className="inline-flex items-center justify-center rounded-full bg-white/10"
+          style={{ width: 36, height: 36 }}
+          aria-hidden="true"
+        >
+          <Image src="/logo-mark.svg" alt="PortTrip" width={28} height={28} className="opacity-95" />
+        </span>
         <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
           <Dots />
         </div>
@@ -516,6 +520,4 @@ function Markdown({ text }: { text: string }) {
   // eslint-disable-next-line react/no-danger
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
-
-
 
