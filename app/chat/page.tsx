@@ -269,19 +269,26 @@ export default function ChatPage() {
       </div>
 
       <div className="mx-auto max-w-6xl px-6 py-6">
-        {/* Header (wordmark only) */}
-        <div className="mb-4 flex items-center justify-between">
+        {/* Top bar with small brand + plan */}
+        <div className="mb-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
+            <Image
+              src="/logo-mark.svg"
+              alt="PortTrip"
+              width={28}
+              height={28}
+              className="rounded-full bg-white/10"
+              priority
+            />
             <Image
               src="/logo.svg"
               alt="PortTrip"
-              width={140}
-              height={28}
+              width={110}
+              height={24}
               priority
             />
           </div>
 
-          {/* Plan controls */}
           <div className="flex items-center gap-2 text-sm text-slate-300">
             <span className="opacity-80">Plan:</span>
             <span className="rounded-full bg-white/10 px-2 py-0.5">{plan}</span>
@@ -409,13 +416,9 @@ function Bubble({ role, content }: { role: Role; content: string }) {
     <div className={`flex w-full ${rowJustify}`}>
       <div className="flex max-w-[85%] items-start gap-3">
         {!isUser && (
-          <Image
-            src="/logo-mark.svg"
-            alt="PortTrip"
-            width={28}
-            height={28}
-            className="rounded-full bg-white/10"
-          />
+          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10">
+            <Image src="/logo-mark.svg" alt="PortTrip" width={20} height={20} className="opacity-90" />
+          </div>
         )}
         <div
           className={
@@ -436,13 +439,9 @@ function TypingBubble() {
   return (
     <div className="flex justify-start">
       <div className="flex items-start gap-3">
-        <Image
-          src="/logo-mark.svg"
-          alt="PortTrip"
-          width={28}
-          height={28}
-          className="rounded-full bg-white/10"
-        />
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10">
+          <Image src="/logo-mark.svg" alt="PortTrip" width={20} height={20} className="opacity-90" />
+        </div>
         <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
           <Dots />
         </div>
@@ -503,5 +502,3 @@ function Markdown({ text }: { text: string }) {
   // eslint-disable-next-line react/no-danger
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
-
-
