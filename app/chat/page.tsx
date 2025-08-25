@@ -491,3 +491,4 @@ function Markdown({ text }: { text: string }) {
   // eslint-disable-next-line react/no-danger
   return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
 }
+
