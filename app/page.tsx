@@ -43,46 +43,29 @@ export default function HomePage() {
       </div>
 
       {/* Header */}
-      <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <div className="flex items-center gap-3">
-          {/* round mark */}
-          <span
-            className="inline-flex items-center justify-center rounded-full bg-white/10"
-            style={{ width: 24, height: 24 }}
-            aria-hidden="true"
-          >
-            <Image
-              src="/logo-mark.svg"
-              alt="PortTrip"
-              width={19}
-              height={19}
-              className="opacity-95"
-              priority
-            />
-          </span>
-          {/* wordmark */}
-          <Image
-            src="/logo.svg"
-            alt="PortTrip Concierge"
-            width={170}
-            height={34}
-            className="h-6 w-auto"
-            priority
-          />
-        </div>
-
-        <nav className="flex items-center gap-6 text-sm text-slate-300">
-          <a href="#features" className="hover:text-white/90">Features</a>
-          <a href="#pricing" className="hover:text-white/90">Pricing</a>
-          <a href="#faq" className="hover:text-white/90">FAQ</a>
-          <a
-            href="/chat"
-            className="rounded-lg bg-white/10 px-3 py-1.5 font-medium hover:bg-white/15"
-          >
-            Launch app
-          </a>
-        </nav>
-      </header>
+    <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+      <div className="flex items-center gap-3">
+        <Image
+          src="/logo.svg"
+          alt="PortTrip"
+          width={160}
+          height={32}
+          priority
+        />
+      </div>
+    
+      <nav className="flex items-center gap-6 text-sm text-slate-300">
+        <a href="#features" className="hover:text-white/90">Features</a>
+        <a href="#pricing" className="hover:text-white/90">Pricing</a>
+        <a href="#faq" className="hover:text-white/90">FAQ</a>
+        <a
+          href="/chat"
+          className="rounded-lg bg-white/10 px-3 py-1.5 font-medium hover:bg-white/15"
+        >
+          Launch app
+        </a>
+      </nav>
+    </header>
 
       {/* Top banner (errors, etc.) */}
       {banner && (
