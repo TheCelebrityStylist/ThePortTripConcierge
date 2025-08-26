@@ -157,74 +157,79 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Pricing */}
-      <section id="pricing" className="relative z-10 mx-auto max-w-6xl px-6 py-10">
-        <h2 className="mb-6 text-2xl font-semibold">Pricing</h2>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {/* Free */}
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
-            <h3 className="text-lg font-semibold">Free</h3>
-            <div className="mt-2 text-3xl font-bold">€0</div>
-            <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
-              <li>20 chats / month</li>
-              <li>Core concierge model</li>
-              <li>Community support</li>
-            </ul>
-            <a
-              href="/chat"
-              className="mt-5 inline-block rounded-xl bg-white/10 px-4 py-2 text-sm font-medium hover:bg-white/15"
-            >
-              Start free
-            </a>
-          </div>
+     {/* Pricing */}
+<section id="pricing" className="relative z-10 mx-auto max-w-6xl px-6 py-10">
+  <h2 className="mb-6 text-2xl font-semibold">Pricing</h2>
+  <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+    {/* Free */}
+    <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+      <h3 className="text-lg font-semibold">Free</h3>
+      <div className="mt-2 text-3xl font-bold">€0</div>
+      <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
+        <li>3 chats / month</li>
+        <li>Core concierge model</li>
+        <li>Community support</li>
+      </ul>
+      <a
+        href="/chat"
+        className="mt-5 inline-block rounded-xl bg-white/10 px-4 py-2 text-sm font-medium hover:bg-white/15"
+      >
+        Start free
+      </a>
+    </div>
 
-          {/* Pro */}
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
-            <h3 className="text-lg font-semibold">Pro</h3>
-            <div className="mt-2 text-3xl font-bold">
-              €9<span className="ml-1 text-base font-medium text-slate-300">/mo</span>
-            </div>
-            <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
-              <li>500 chats / month</li>
-              <li>Priority model + faster streaming</li>
-              <li>Custom branding</li>
-            </ul>
-            <button
-              onClick={() => startCheckout("pro", setBanner)}
-              className="mt-5 inline-block rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-lg shadow-indigo-900/30 hover:from-sky-400 hover:to-indigo-500"
-            >
-              Upgrade to Pro
-            </button>
-          </div>
+    {/* Pro */}
+    <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+      <h3 className="text-lg font-semibold">Pro</h3>
+      <div className="mt-2 text-3xl font-bold">
+        €9<span className="ml-1 text-base font-medium text-slate-300">/mo</span>
+      </div>
+      <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
+        <li>25 chats / month</li>
+        <li>Priority model + faster streaming</li>
+        <li>Custom branding</li>
+      </ul>
+      <button
+        onClick={() => startCheckout("pro", setBanner)}
+        className="mt-5 inline-block rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-lg shadow-indigo-900/30 hover:from-sky-400 hover:to-indigo-500"
+      >
+        Upgrade to Pro
+      </button>
+    </div>
 
-          {/* Unlimited */}
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
-            <h3 className="text-lg font-semibold">Unlimited</h3>
-            <div className="mt-2 text-3xl font-bold">
-              €19<span className="ml-1 text-base font-medium text-slate-300">/mo</span>
-            </div>
-            <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
-              <li>Unlimited chats</li>
-              <li>Team seats (up to 5)</li>
-              <li>Concierge onboarding</li>
-            </ul>
-            <button
-              onClick={() => startCheckout("unlimited", setBanner)}
-              className="mt-5 inline-block rounded-xl bg-white/10 px-4 py-2 text-sm font-medium hover:bg-white/15"
-            >
-              Go Unlimited
-            </button>
-          </div>
-        </div>
-      </section>
+    {/* Unlimited */}
+    <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+      <h3 className="text-lg font-semibold">Unlimited</h3>
+      <div className="mt-2 text-3xl font-bold">
+        €19<span className="ml-1 text-base font-medium text-slate-300">/mo</span>
+      </div>
+      <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
+        <li>Unlimited chats</li>
+        <li>Team seats (up to 5)</li>
+        <li>Concierge onboarding</li>
+      </ul>
+      <button
+        onClick={() => startCheckout("unlimited", setBanner)}
+        className="mt-5 inline-block rounded-xl bg-white/10 px-4 py-2 text-sm font-medium hover:bg-white/15"
+      >
+        Go Unlimited
+      </button>
+    </div>
+  </div>
+</section>
 
-      {/* FAQ */}
-      <section id="faq" className="relative z-10 mx-auto max-w-6xl px-6 py-10">
-        <h2 className="mb-6 text-2xl font-semibold">FAQ</h2>
-        <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-300">
-          <p>Have a question? Ask inside the app or email support@porttrip.com.</p>
-        </div>
-      </section>
+{/* FAQ */}
+<section id="faq" className="relative z-10 mx-auto max-w-6xl px-6 py-10">
+  <h2 className="mb-6 text-2xl font-semibold">FAQ</h2>
+  <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-300">
+    <p>
+      Have a question? Ask inside the app or email{" "}
+      <a className="underline" href="mailto:support@porttrip.com">
+        support@porttrip.com
+      </a>.
+    </p>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="relative z-10 mx-auto max-w-6xl px-6 py-8 text-sm text-slate-400">
