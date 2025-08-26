@@ -1,11 +1,10 @@
-// app/ports/data.ts
 export type Port = {
   slug: string;
   name: string;
   country?: string;
-  short: string;     // short teaser for the list page
-  intro: string;     // 1–2 paragraphs for the detail page
-  tips: string[];    // quick bullets users care about
+  short: string;
+  intro: string;
+  tips: string[];
 };
 
 export const PORTS: Port[] = [
@@ -52,3 +51,4 @@ export const PORTS: Port[] = [
     ],
   },
 ];
+
