@@ -1,6 +1,5 @@
 "use client";
 
-import Script from "next/script";
 import { useState } from "react";
 
 /** Kick off a server-side Stripe Checkout session */
@@ -31,69 +30,11 @@ async function startCheckout(
   }
 }
 
-/** Basic on-page metadata for SEO (Next.js will merge with layout metadata) */
-export const metadata = {
-  title: "PortTrip — Your AI concierge for perfect port days",
-  description:
-    "Ask anything about a cruise port and get a precise, timed plan: best route, costs, return-to-ship buffer, and insider tips — grounded in your private database.",
-  alternates: { canonical: "/" },
-  openGraph: {
-    title: "PortTrip — Your AI concierge for perfect port days",
-    description:
-      "Precise, timed port-day plans with costs, timing buffers, and insider tips.",
-    url: "/",
-    siteName: "PortTrip",
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "PortTrip — Your AI concierge for perfect port days",
-    description:
-      "Precise, timed port-day plans with costs, timing buffers, and insider tips.",
-    images: ["/og.png"],
-  },
-};
-
 export default function HomePage() {
   const [banner, setBanner] = useState<string | null>(null);
 
-  // JSON-LD: SoftwareApplication + Offer (helps Google understand pricing)
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: "PortTrip",
-    applicationCategory: "TravelApplication",
-    operatingSystem: "Web",
-    description:
-      "AI concierge that builds precise, timed port-day plans with route, costs, and safety buffer.",
-    offers: [
-      {
-        "@type": "Offer",
-        name: "Pro",
-        price: "9.00",
-        priceCurrency: "EUR",
-        category: "subscription",
-      },
-      {
-        "@type": "Offer",
-        name: "Unlimited",
-        price: "19.00",
-        priceCurrency: "EUR",
-        category: "subscription",
-      },
-    ],
-  };
-
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
-      {/* JSON-LD for SEO */}
-      <Script
-        id="jsonld-porttrip"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
       {/* Ambient gradients */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-40 -left-40 h-[48rem] w-[48rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(56,189,248,0.18),_transparent_60%)] blur-2xl" />
@@ -102,15 +43,15 @@ export default function HomePage() {
 
       {/* Header */}
       <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           <img
             src="/logo-mark.svg"
             alt="PortTrip"
-            aria-hidden
-            width={40}
-            height={40}
-            className="rounded-full border border-white/10 bg-white/10 p-1.5 shadow-sm"
+            className="h-8 w-8"
+            width={32}
+            height={32}
           />
+          <span className="sr-only">PortTrip Concierge</span>
         </div>
 
         <nav className="flex items-center gap-6 text-sm text-slate-300">
@@ -164,8 +105,7 @@ export default function HomePage() {
           </div>
 
           <p className="mt-3 text-sm text-slate-400">
-            No account required for the demo. Pro raises your monthly chat limit
-            and unlocks faster responses.
+            No account required for the demo. Pro unlocks advanced features and higher limits.
           </p>
         </div>
 
@@ -226,7 +166,7 @@ export default function HomePage() {
             <h3 className="text-lg font-semibold">Free</h3>
             <div className="mt-2 text-3xl font-bold">€0</div>
             <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
-              <li>3 chats / month (demo)</li>
+              <li>20 chats / month</li>
               <li>Core concierge model</li>
               <li>Community support</li>
             </ul>
@@ -245,9 +185,9 @@ export default function HomePage() {
               €9<span className="ml-1 text-base font-medium text-slate-300">/mo</span>
             </div>
             <ul className="mt-4 list-disc pl-5 text-sm text-slate-300">
-              <li>25 chats / month</li>
+              <li>500 chats / month</li>
               <li>Priority model + faster streaming</li>
-              <li>Custom branding (logo in app)</li>
+              <li>Custom branding</li>
             </ul>
             <button
               onClick={() => startCheckout("pro", setBanner)}
@@ -281,28 +221,8 @@ export default function HomePage() {
       {/* FAQ */}
       <section id="faq" className="relative z-10 mx-auto max-w-6xl px-6 py-10">
         <h2 className="mb-6 text-2xl font-semibold">FAQ</h2>
-        <div className="space-y-3">
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">
-            <p className="font-medium">When am I charged?</p>
-            <p className="mt-1 text-slate-300">
-              Subscriptions are charged at checkout via Stripe and renew
-              monthly. You can cancel anytime from the customer portal (link in
-              your receipt).
-            </p>
-          </div>
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">
-            <p className="font-medium">What changes with Pro and Unlimited?</p>
-            <p className="mt-1 text-slate-300">
-              Pro raises your monthly chat limit to 25 and speeds up responses.
-              Unlimited removes the cap and adds team seats.
-            </p>
-          </div>
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-200">
-            <p className="font-medium">Need help?</p>
-            <p className="mt-1 text-slate-300">
-              Ask inside the app or email <a href="mailto:support@porttrip.com" className="underline">support@porttrip.com</a>.
-            </p>
-          </div>
+        <div className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-slate-300">
+          <p>Have a question? Ask inside the app or email support@porttrip.com.</p>
         </div>
       </section>
 
@@ -311,11 +231,10 @@ export default function HomePage() {
         <div className="flex items-center gap-2">
           <img
             src="/logo-mark.svg"
-            alt=""
-            aria-hidden
-            width={18}
-            height={18}
-            className="rounded-full border border-white/10 bg-white/10 p-[3px]"
+            alt="PortTrip"
+            className="h-5 w-5"
+            width={20}
+            height={20}
           />
           <span>© {new Date().getFullYear()} PortTrip</span>
         </div>
