@@ -1,16 +1,16 @@
-// app/ports/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PORTS } from "./data";
 
+// server component (no "use client")
 export const metadata: Metadata = {
   title: "Cruise Ports — PortTrip",
   description:
     "Quick guides for popular cruise ports with transport tips, time buffers, and easy loops. Plan your perfect port day with PortTrip.",
-  alternates: {
-    canonical: "/ports",
-  },
+  alternates: { canonical: "/ports" },
 };
+
+export const revalidate = 86400; // cache 1 day (optional)
 
 export default function PortsIndexPage() {
   return (
