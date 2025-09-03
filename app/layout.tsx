@@ -1,50 +1,45 @@
-import "./globals.css";
-
 // app/layout.tsx
 import type { Metadata } from "next";
 import "./globals.css";
-
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://app.porttrip.com";
-
-<meta name="google-site-verification" content="BELhNm16unVRh1oPmFubBLl0aLwDEzmX_Gf0WY2nFBk" />
+import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://porttrip.com"),
   title: "PortTrip — Your AI concierge for perfect port days",
   description:
-    "Ask anything about a cruise port and get a precise, timed plan: best route, costs, return-to-ship buffer, and insider tips — grounded in your private database.",
-  alternates: { canonical: siteUrl },
+    "Ask anything about a cruise port and get a precise, timed plan: best route, costs, and a safe ship-return buffer.",
   openGraph: {
     title: "PortTrip — Your AI concierge for perfect port days",
     description:
-      "Precise, timed port-day plans with costs, timing buffers, and insider tips.",
-    url: siteUrl,
+      "Ask anything about a cruise port and get a precise, timed plan.",
+    url: "https://porttrip.com",
     siteName: "PortTrip",
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "PortTrip — Your AI concierge for perfect port days",
-    description:
-      "Precise, timed port-day plans with costs, timing buffers, and insider tips.",
-    images: ["/og.png"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+    type: "website"
+  }
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="bg-slate-950 text-slate-100">{children}</body>
+    <html lang="en" className="bg-slate-950">
+      <body className="text-slate-100">
+        {children}
+        <Footer />
+        <Analytics />
+
+        {/* Basic JSON-LD for SEO (no logo or Twitter needed) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "PortTrip",
+              url: "https://porttrip.com"
+            })
+          }}
+        />
+      </body>
     </html>
   );
 }
-
