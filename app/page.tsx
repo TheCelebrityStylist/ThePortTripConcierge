@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+<meta name="google-site-verification" content="BELhNm16unVRh1oPmFubBLl0aLwDEzmX_Gf0WY2nFBk" />
+
 /** Kick off a server-side Stripe Checkout session */
 async function startCheckout(
   plan: "pro" | "unlimited",
