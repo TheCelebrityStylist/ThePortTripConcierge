@@ -7,6 +7,8 @@ import "./globals.css";
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://app.porttrip.com";
 
+<meta name="google-site-verification" content="YOUR_TOKEN" />
+
 export const metadata: Metadata = {
   title: "PortTrip — Your AI concierge for perfect port days",
   description:
