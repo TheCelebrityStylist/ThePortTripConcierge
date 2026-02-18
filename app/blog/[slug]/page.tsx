@@ -38,12 +38,17 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
-const calloutTone = {
-  safety: "border-amber-300/40 bg-amber-500/10",
-  transport: "border-cyan-300/40 bg-cyan-500/10",
-  crowd: "border-violet-300/40 bg-violet-500/10",
-  budget: "border-emerald-300/40 bg-emerald-500/10",
-  late: "border-rose-300/40 bg-rose-500/10",
+const tone = {
+  KeyPoints: "border-cyan-300/30 bg-cyan-500/10",
+  TimeModel: "border-amber-300/30 bg-amber-500/10",
+  RoutePlans: "border-violet-300/30 bg-violet-500/10",
+  BudgetModel: "border-emerald-300/30 bg-emerald-500/10",
+  FailureScenarios: "border-rose-300/30 bg-rose-500/10",
+  CrowdAvoidance: "border-indigo-300/30 bg-indigo-500/10",
+  PortSpecificScams: "border-fuchsia-300/30 bg-fuchsia-500/10",
+  Accessibility: "border-sky-300/30 bg-sky-500/10",
+  QuickDecision: "border-lime-300/30 bg-lime-500/10",
+  CTA: "border-cyan-300/30 bg-cyan-500/10",
 };
 
 export default function BlogArticlePage({ params }: Props) {
@@ -82,85 +87,40 @@ export default function BlogArticlePage({ params }: Props) {
             <ArticleHero article={article} />
 
             <PlannerCTA
-              title={`Plan ${article.portName} now`}
-              description="Run this strategy inside Cruise Day Planner and get timed checkpoints with return-safe buffers."
+              title={`Plan ${article.portsMentioned?.[0] ?? article.region} now`}
+              description="Run this strategy in Cruise Day Planner and keep return cut rules visible."
               label={article.plannerCta.label}
               href={article.plannerCta.href}
             />
 
-            {article.terminalIntelligence ? (
-              <section id="terminal-intelligence" className="rounded-2xl border border-white/10 bg-white/5 p-5">
-                <h2 className="text-2xl font-semibold">Terminal Intelligence</h2>
-                <ul className="mt-3 list-disc space-y-1 pl-5 text-slate-200">
-                  <li>Dock location: {article.terminalIntelligence.dockLocation}</li>
-                  <li>Distance to city center: {article.terminalIntelligence.distanceToCenterKm} km ({article.terminalIntelligence.distanceToCenterMinutes} minutes typical)</li>
-                  <li>Transport reliability ranking: {article.terminalIntelligence.transportReliabilityRanking.join(" → ")}</li>
-                  <li>Traffic risk windows: {article.terminalIntelligence.trafficRiskWindows.join(", ")}</li>
-                  <li>{article.terminalIntelligence.taxiNotes}</li>
-                  <li>Public transport frequency: {article.terminalIntelligence.publicTransportFrequency}</li>
-                  <li>Strike patterns: {article.terminalIntelligence.strikePatterns}</li>
-                </ul>
-              </section>
-            ) : null}
-
-            <section id="realistic-time-model" className="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <h2 className="text-2xl font-semibold">Realistic Time Model</h2>
-              <ul className="mt-3 list-disc space-y-1 pl-5 text-slate-200">
-                <li>Typical port time: {article.realisticTimeModel.publishedWindow}</li>
-                <li>Usable hours after friction: {article.realisticTimeModel.usableHours}</li>
-                <li>Safe return buffer: {article.realisticTimeModel.safeReturnBuffer}</li>
-                <li>When to head back: {article.realisticTimeModel.startHeadingBack}</li>
-              </ul>
-            </section>
-
-            <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <h2 className="text-xl font-semibold">Operational callouts</h2>
-              <div className="mt-4 grid gap-3 md:grid-cols-2">
-                <aside className={`rounded-xl border p-3 ${calloutTone.safety}`}><p className="text-xs font-semibold uppercase">Return-to-Ship Safety Buffer</p><p className="mt-1 text-sm text-slate-100">Protect 90–120 minutes before all-aboard.</p></aside>
-                <aside className={`rounded-xl border p-3 ${calloutTone.transport}`}><p className="text-xs font-semibold uppercase">Terminal → City Transport</p><p className="mt-1 text-sm text-slate-100">Rank by reliability first, cost second.</p></aside>
-                <aside className={`rounded-xl border p-3 ${calloutTone.crowd}`}><p className="text-xs font-semibold uppercase">Crowd Timing / Best Order</p><p className="mt-1 text-sm text-slate-100">Run highest-value stop early, shift to lower-density zones later.</p></aside>
-                <aside className={`rounded-xl border p-3 ${calloutTone.budget}`}><p className="text-xs font-semibold uppercase">Budget Snapshot</p><p className="mt-1 text-sm text-slate-100">Set transport cap + contingency before departure.</p></aside>
-              </div>
-            </section>
-
-            {article.sections.map((section) => (
-              <section id={section.id} key={section.id} className="rounded-2xl border border-white/10 bg-white/5 p-5">
-                <h2 className="text-2xl font-semibold">{section.heading}</h2>
-                <p className="mt-2 text-slate-300">{section.shortIntro}</p>
+            {article.contentBlocks.map((block, idx) => (
+              <section id={block.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")} key={`${block.kind}-${idx}`} className={`rounded-2xl border p-5 ${tone[block.kind]}`}>
+                <h2 className="text-2xl font-semibold">{block.title}</h2>
+                <p className="mt-2 text-slate-100">{block.lead}</p>
 
                 <h3 className="mt-4 text-lg font-semibold">Key points</h3>
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-slate-200">
-                  {section.bullets.map((item) => <li key={item}>{item}</li>)}
+                <ul className="mt-2 list-disc space-y-1 pl-5 text-slate-100">
+                  {block.bullets.map((item) => <li key={item}>{item}</li>)}
                 </ul>
 
                 <h3 className="mt-4 text-lg font-semibold">Execution steps</h3>
-                <ol className="mt-2 list-decimal space-y-1 pl-5 text-slate-200">
-                  {section.steps.map((step) => <li key={step}>{step}</li>)}
+                <ol className="mt-2 list-decimal space-y-1 pl-5 text-slate-100">
+                  {block.steps.map((step) => <li key={step}>{step}</li>)}
                 </ol>
 
-                {section.routeModels ? (
-                  <div className="mt-4 grid gap-3 md:grid-cols-3">
-                    {section.routeModels.map((model) => (
-                      <div key={model.name} className="rounded-xl border border-white/10 bg-slate-900/70 p-3">
-                        <p className="font-semibold">{model.name}</p>
-                        <p className="mt-1 text-sm text-slate-300">{model.logic}</p>
-                        <p className="mt-2 text-xs text-slate-400">Transit: {model.transitMode}</p>
-                        <p className="mt-1 text-xs text-slate-400">Crowd: {model.crowdStrategy}</p>
-                        <p className="mt-1 text-xs text-slate-400">Risk: {model.riskCommentary}</p>
-                      </div>
-                    ))}
-                  </div>
-                ) : null}
-
-                <h3 className="mt-4 text-lg font-semibold">Checklist</h3>
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-slate-200">
-                  {section.checklist.map((item) => <li key={item}>{item}</li>)}
-                </ul>
-
-                <aside className={`mt-4 rounded-xl border p-3 ${calloutTone.late}`}>
-                  <p className="text-xs font-semibold uppercase">If you’re running late</p>
-                  <p className="mt-1 text-sm text-slate-100">{section.lateRule}</p>
+                <aside className="mt-4 rounded-lg border border-white/20 bg-slate-950/50 p-3">
+                  <p className="text-xs font-semibold uppercase">Decision rule</p>
+                  <p className="mt-1 text-sm text-slate-200">{block.decisionRule}</p>
                 </aside>
+
+                {idx === Math.floor(article.contentBlocks.length / 2) ? (
+                  <PlannerCTA
+                    title="Mid-article checkpoint"
+                    description="Convert this section into a timed planner sequence before continuing."
+                    label="Plan My Port Day"
+                    href={article.plannerCta.href}
+                  />
+                ) : null}
               </section>
             ))}
 
@@ -177,7 +137,7 @@ export default function BlogArticlePage({ params }: Props) {
             </section>
 
             <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <h2 className="text-xl font-semibold">Internal links</h2>
+              <h2 className="text-xl font-semibold">Related guides</h2>
               <ul className="mt-3 list-disc space-y-2 pl-5 text-slate-300">
                 {article.internalLinks.map((item) => (
                   <li key={`${item.href}-${item.anchorText}`}><Link className="underline" href={item.href}>{item.anchorText}</Link></li>
@@ -185,16 +145,19 @@ export default function BlogArticlePage({ params }: Props) {
               </ul>
             </section>
 
-            <PlannerCTA title={`Ready to lock ${article.portName}?`} description="Convert this guide into a timed, ship-safe itinerary." label={article.bottomCta.label} href={article.bottomCta.href} />
+            <PlannerCTA title="Ready to finalize your plan?" description="Lock this strategy with hard return cutoffs and fallback routes." label="Plan My Port Day" href={article.plannerCta.href} />
           </article>
 
           <aside className="hidden lg:block">
             <div className="sticky top-24 space-y-4 rounded-2xl border border-white/10 bg-slate-900/90 p-4">
               <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-300">Table of contents</h2>
               <ol className="list-decimal space-y-2 pl-5 text-sm text-slate-300">
-                {article.toc.map((item) => <li key={item.id}><a className="hover:text-cyan-200" href={`#${item.id}`}>{item.label}</a></li>)}
+                {article.contentBlocks.map((block, i) => {
+                  const id = block.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+                  return <li key={`${id}-${i}`}><a className="hover:text-cyan-200" href={`#${id}`}>{block.title}</a></li>;
+                })}
               </ol>
-              <Link href={article.plannerCta.href} className="inline-flex rounded-lg bg-cyan-400 px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-cyan-300">Open Cruise Day Planner</Link>
+              <Link href={article.plannerCta.href} className="inline-flex rounded-lg bg-cyan-400 px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-cyan-300">Plan My Port Day</Link>
             </div>
           </aside>
         </div>

@@ -5,12 +5,12 @@ import { useMemo, useState } from "react";
 import BlogCard from "@/app/components/blog/BlogCard";
 import { blogArticles } from "@/app/data/blog-cms";
 
-const regions = ["All", "Mediterranean", "Northern Europe", "Caribbean", "Global Strategy"] as const;
+const regions = ["All", "Mediterranean", "Northern Europe", "Caribbean", "Global"] as const;
 const times = ["All", "5–7 hours", "7–9 hours", "10–12 hours", "All windows"] as const;
-const docking = ["All", "Dock", "Tender", "Both"] as const;
+const docking = ["All", "Dock", "Tender", "Mixed", "Both"] as const;
 const travelers = ["All", "first-time", "family", "mobility", "budget", "luxury"] as const;
 const difficulties = ["All", "Easy", "Moderate", "Complex"] as const;
-const budgetLevels = ["All", "Value", "Mid", "Premium"] as const;
+const categories = ["All", "Port Guide", "Safety", "Budget", "Strategy"] as const;
 
 export default function BlogHubPage() {
   const [query, setQuery] = useState("");
@@ -19,7 +19,7 @@ export default function BlogHubPage() {
   const [dock, setDock] = useState<(typeof docking)[number]>("All");
   const [traveler, setTraveler] = useState<(typeof travelers)[number]>("All");
   const [difficulty, setDifficulty] = useState<(typeof difficulties)[number]>("All");
-  const [budget, setBudget] = useState<(typeof budgetLevels)[number]>("All");
+  const [category, setCategory] = useState<(typeof categories)[number]>("All");
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -27,7 +27,7 @@ export default function BlogHubPage() {
     return blogArticles.filter((article) => {
       const qOk =
         !q ||
-        [article.title, article.portName, article.subtitle, article.excerpt, article.keywords.join(" ")]
+        [article.title, article.portsMentioned?.join(" "), article.subtitle, article.excerpt, article.keywords.join(" ")]
           .join(" ")
           .toLowerCase()
           .includes(q);
@@ -35,14 +35,14 @@ export default function BlogHubPage() {
       return (
         qOk &&
         (region === "All" || article.region === region) &&
-        (time === "All" || article.timeInPort === time) &&
-        (dock === "All" || article.dockingType === dock) &&
-        (traveler === "All" || article.travelerTypes.includes(traveler)) &&
+        (time === "All" || article.timeInPortModel === time) &&
+        (dock === "All" || article.tenderOrDock === dock) &&
+        (traveler === "All" || article.keywords.some((keyword) => keyword.toLowerCase().includes(traveler))) &&
         (difficulty === "All" || article.difficulty === difficulty) &&
-        (budget === "All" || article.budgetLevel === budget)
+        (category === "All" || article.category === category)
       );
     });
-  }, [query, region, time, dock, traveler, difficulty, budget]);
+  }, [query, region, time, dock, traveler, difficulty, category]);
 
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-10 text-slate-100">
@@ -51,11 +51,11 @@ export default function BlogHubPage() {
           <p className="text-xs uppercase tracking-[0.2em] text-cyan-200/80">PortTrip Editorial</p>
           <h1 className="mt-3 text-4xl font-semibold md:text-5xl">Cruise Intelligence Library</h1>
           <p className="mt-3 max-w-3xl text-slate-200">
-            Advanced cruise logistics intelligence: terminal mechanics, route models, failure playbooks, and planner-ready cut rules.
+            Cruise-specific planning intelligence built for timing control, transfer reliability, and safer ship return outcomes.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <Link href="/planner" className="rounded-lg bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-cyan-300">Plan your port day</Link>
-            <Link href="/signup" className="rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold hover:bg-white/10">Save strategy to dashboard</Link>
+            <Link href="/library/ports" className="rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold hover:bg-white/10">Browse port categories</Link>
           </div>
         </div>
 
@@ -67,7 +67,7 @@ export default function BlogHubPage() {
             <select value={dock} onChange={(e) => setDock(e.target.value as (typeof docking)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{docking.map((v) => <option key={v}>{v}</option>)}</select>
             <select value={traveler} onChange={(e) => setTraveler(e.target.value as (typeof travelers)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{travelers.map((v) => <option key={v}>{v}</option>)}</select>
             <select value={difficulty} onChange={(e) => setDifficulty(e.target.value as (typeof difficulties)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{difficulties.map((v) => <option key={v}>{v}</option>)}</select>
-            <select value={budget} onChange={(e) => setBudget(e.target.value as (typeof budgetLevels)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{budgetLevels.map((v) => <option key={v}>{v}</option>)}</select>
+            <select value={category} onChange={(e) => setCategory(e.target.value as (typeof categories)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{categories.map((v) => <option key={v}>{v}</option>)}</select>
           </div>
         </section>
 

@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "next build"
+    "vercel-build": "next build",
+    "blog:validate": "node scripts/validate-blog-uniqueness.mjs",
+    "prebuild": "npm run blog:validate",
+    "predev": "npm run blog:validate"
   },
   "dependencies": {
     "@types/node": "20.6.2",

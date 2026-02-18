@@ -5,11 +5,11 @@ export default function BlogCard({ article }: { article: BlogArticle }) {
   return (
     <li className="rounded-2xl border border-white/10 bg-slate-900/80 p-5 shadow-[0_20px_55px_-35px_rgba(34,211,238,0.6)]">
       <div className="flex flex-wrap gap-2 text-xs">
-        <span className="rounded-full bg-white/10 px-2 py-1">{article.portName}</span>
-        <span className="rounded-full bg-cyan-500/20 px-2 py-1 text-cyan-100">{article.timeInPort}</span>
-        <span className="rounded-full bg-violet-500/20 px-2 py-1 text-violet-100">{article.dockingType}</span>
+        <span className="rounded-full bg-white/10 px-2 py-1">{article.portsMentioned?.[0] ?? article.region}</span>
+        <span className="rounded-full bg-cyan-500/20 px-2 py-1 text-cyan-100">{article.timeInPortModel}</span>
+        <span className="rounded-full bg-violet-500/20 px-2 py-1 text-violet-100">{article.tenderOrDock}</span>
         <span className="rounded-full bg-amber-500/20 px-2 py-1 text-amber-100">{article.difficulty}</span>
-        <span className="rounded-full bg-emerald-500/20 px-2 py-1 text-emerald-100">{article.budgetLevel}</span>
+        <span className="rounded-full bg-emerald-500/20 px-2 py-1 text-emerald-100">{article.category}</span>
       </div>
 
       <h3 className="mt-4 text-xl font-semibold leading-snug">
