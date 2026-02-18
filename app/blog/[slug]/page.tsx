@@ -96,22 +96,28 @@ export default function BlogArticlePage({ params }: Props) {
             {article.contentBlocks.map((block, idx) => (
               <section id={block.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")} key={`${block.kind}-${idx}`} className={`rounded-2xl border p-5 ${tone[block.kind]}`}>
                 <h2 className="text-2xl font-semibold">{block.title}</h2>
-                <p className="mt-2 text-slate-100">{block.lead}</p>
+                <div className="mt-3 space-y-3 text-slate-100">
+                  {block.lede.map((p) => <p key={p}>{p}</p>)}
+                </div>
 
-                <h3 className="mt-4 text-lg font-semibold">Key points</h3>
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-slate-100">
-                  {block.bullets.map((item) => <li key={item}>{item}</li>)}
-                </ul>
+                <div className="mt-4 space-y-3 text-slate-100">
+                  {block.body.map((p) => <p key={p}>{p}</p>)}
+                </div>
 
-                <h3 className="mt-4 text-lg font-semibold">Execution steps</h3>
-                <ol className="mt-2 list-decimal space-y-1 pl-5 text-slate-100">
-                  {block.steps.map((step) => <li key={step}>{step}</li>)}
-                </ol>
+                {block.bullets?.length ? (
+                  <ul className="mt-4 list-disc space-y-1 pl-5 text-slate-100">
+                    {block.bullets.map((item) => <li key={item}>{item}</li>)}
+                  </ul>
+                ) : null}
 
-                <aside className="mt-4 rounded-lg border border-white/20 bg-slate-950/50 p-3">
-                  <p className="text-xs font-semibold uppercase">Decision rule</p>
-                  <p className="mt-1 text-sm text-slate-200">{block.decisionRule}</p>
-                </aside>
+                {block.callout ? (
+                  <aside className="mt-4 rounded-lg border border-white/20 bg-slate-950/50 p-3">
+                    <p className="text-xs font-semibold uppercase">{block.callout.title}</p>
+                    <p className="mt-1 text-sm text-slate-200">{block.callout.text}</p>
+                  </aside>
+                ) : null}
+
+                {block.localTip ? <p className="mt-4 text-sm text-cyan-100">{block.localTip}</p> : null}
 
                 {idx === Math.floor(article.contentBlocks.length / 2) ? (
                   <PlannerCTA
