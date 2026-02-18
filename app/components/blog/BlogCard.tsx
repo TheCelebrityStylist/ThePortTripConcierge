@@ -8,6 +8,8 @@ export default function BlogCard({ article }: { article: BlogArticle }) {
         <span className="rounded-full bg-white/10 px-2 py-1">{article.portName}</span>
         <span className="rounded-full bg-cyan-500/20 px-2 py-1 text-cyan-100">{article.timeInPort}</span>
         <span className="rounded-full bg-violet-500/20 px-2 py-1 text-violet-100">{article.dockingType}</span>
+        <span className="rounded-full bg-amber-500/20 px-2 py-1 text-amber-100">{article.difficulty}</span>
+        <span className="rounded-full bg-emerald-500/20 px-2 py-1 text-emerald-100">{article.budgetLevel}</span>
       </div>
 
       <h3 className="mt-4 text-xl font-semibold leading-snug">

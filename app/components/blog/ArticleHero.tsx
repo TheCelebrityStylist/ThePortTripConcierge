@@ -8,6 +8,8 @@ export default function ArticleHero({ article }: { article: BlogArticle }) {
         <span className="rounded-full bg-white/10 px-2 py-1">{article.portName}</span>
         <span className="rounded-full bg-cyan-500/20 px-2 py-1">{article.timeInPort}</span>
         <span className="rounded-full bg-violet-500/20 px-2 py-1">{article.dockingType}</span>
+        <span className="rounded-full bg-amber-500/20 px-2 py-1">{article.difficulty}</span>
+        <span className="rounded-full bg-emerald-500/20 px-2 py-1">{article.budgetLevel}</span>
       </div>
 
       <h1 className="mt-4 text-3xl font-semibold leading-tight md:text-4xl">{article.title}</h1>
