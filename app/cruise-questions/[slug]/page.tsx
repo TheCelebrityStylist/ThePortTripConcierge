@@ -29,7 +29,7 @@ export default function CruiseQuestionPage({ params }: Props) {
       <article className="mx-auto max-w-3xl">
         <h1 className="text-4xl font-semibold capitalize">{params.slug.replace(/-/g, " ")}</h1>
         <p className="mt-4 text-slate-300">This cruise intelligence answer covers {page.city} with route optimization, return-to-ship risk scoring, and budget-smart alternatives to ship excursions.</p>
-        <p className="mt-3 text-slate-300">Use dynamic templates to scale this framework to 200+ cruise ports and long-tail intent pages without duplicating architecture.</p>
+        <p className="mt-3 text-slate-300">Use this answer as a practical planning baseline, then run Concierge for a ship-specific timed plan.</p>
         <Link href={`/port/${page.portSlug}-cruise-port-guide`} className="mt-4 inline-block underline">Read full {page.city} port guide</Link>
       </article>
     </main>

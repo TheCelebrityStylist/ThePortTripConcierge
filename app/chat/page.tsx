@@ -44,6 +44,7 @@ function setUsage(u: { month: string; count: number }) {
 /* ---------- Types ---------- */
 type Role = "user" | "assistant";
 type ChatMsg = { role: Role; content: string };
+type ItineraryBlock = { start: string; end: string; title: string; notes: string; costEur?: number };
 
 type CruiseContext = {
   cruiseLine: string;
@@ -86,6 +87,11 @@ export default function ChatPage() {
     eightHourPort: false,
     tenPlusHourPort: false,
   });
+  const [walkingLevel, setWalkingLevel] = useState<"minimal"|"moderate"|"active">("moderate");
+  const [riskBadge, setRiskBadge] = useState<"Green"|"Amber"|"Red">("Amber");
+  const [crowdInsight, setCrowdInsight] = useState("Peak window: 12:30–14:00");
+  const [itineraryBlocks, setItineraryBlocks] = useState<ItineraryBlock[]>([]);
+  const [savedItineraryId, setSavedItineraryId] = useState<string | null>(null);
 
   /* Plan & usage state */
   const [plan, setPlan] = useState<Plan>(getStoredPlan());
@@ -274,6 +280,16 @@ export default function ChatPage() {
           copy[replyIndex] = { role: "assistant", content: reply };
           return copy;
         });
+        if (/Risk level today:\s*Low/i.test(reply)) setRiskBadge("Green");
+        else if (/Risk level today:\s*High/i.test(reply)) setRiskBadge("Red");
+        else setRiskBadge("Amber");
+        if (!itineraryBlocks.length) {
+          setItineraryBlocks([
+            { start: cruiseContext.arrivalTime, end: "09:25", title: "Transit to city core", notes: "Time-safe outbound segment", costEur: 25 },
+            { start: "09:25", end: "10:45", title: "Primary cluster", notes: "Prioritized for low crowd density" },
+            { start: "10:45", end: "11:40", title: "Food and recovery", notes: "Avoid peak window" },
+          ]);
+        }
       }
     } catch {
       setBanner("Network hiccup. Please try again.");
@@ -288,6 +304,49 @@ export default function ChatPage() {
     } finally {
       setLoading(false);
     }
+  }
+
+
+  async function savePlan() {
+    const payload = {
+      user_id: "guest",
+      port: input.split("·")[0]?.trim() || "Unknown",
+      ship_name: cruiseContext.shipName,
+      arrival_time: cruiseContext.arrivalTime,
+      all_aboard_time: cruiseContext.allAboardTime,
+      safety_buffer: cruiseContext.dockType === "tender" ? 95 : 75,
+      risk_score: riskBadge === "Red" ? 72 : riskBadge === "Amber" ? 48 : 28,
+      itinerary_json: { blocks: itineraryBlocks, comparison: { shipExcursion: 119, diy: 38, savings: 81 } },
+    };
+    const res = await fetch("/api/itineraries", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+    if (res.ok) {
+      const j = await res.json();
+      setSavedItineraryId(j.id);
+      setBanner(`Plan saved as ${j.id}`);
+    }
+  }
+
+  function addStop() {
+    setItineraryBlocks((b) => [...b, { start: "12:00", end: "12:30", title: "Custom stop", notes: "User-defined stop", costEur: 10 }]);
+  }
+
+  async function editPlan() {
+    if (!savedItineraryId) return setBanner("Save plan first.");
+    const res = await fetch(`/api/itineraries/${savedItineraryId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ itinerary_json: { blocks: itineraryBlocks } }),
+    });
+    if (res.ok) setBanner("Plan updated.");
+  }
+
+  async function recalculateRoute() {
+    setInput(`Recalculate route for ${cruiseContext.shipName} with walking level ${walkingLevel}.`);
+    setCrowdInsight(walkingLevel === "minimal" ? "Peak window: 11:45–13:45. Prefer taxi transfers." : "Peak window: 12:30–14:00");
+  }
+
+  function compareShipExcursion() {
+    setInput("Compare this route to equivalent ship excursion pricing with itemized savings.");
   }
 
   /* ---------- UI ---------- */
@@ -354,6 +413,49 @@ export default function ChatPage() {
             ))}
           </div>
         </div>
+
+
+        <div className="mb-3 grid gap-3 rounded-xl border border-white/10 bg-white/5 p-3 text-xs text-slate-200 md:grid-cols-2">
+          <div>
+            <p className="font-medium">Walking level filter</p>
+            <div className="mt-2 flex gap-2">
+              {(["minimal","moderate","active"] as const).map((lvl)=>(
+                <button key={lvl} type="button" onClick={()=>setWalkingLevel(lvl)} className={`rounded-full px-3 py-1 ${walkingLevel===lvl?"bg-cyan-500 text-slate-900":"bg-white/10"}`}>{lvl}</button>
+              ))}
+            </div>
+            <p className="mt-2">Crowd timing insights: {crowdInsight}</p>
+          </div>
+          <div>
+            <p className="font-medium">Risk visual indicator</p>
+            <span className={`mt-2 inline-block rounded-full px-3 py-1 font-semibold ${riskBadge==="Green"?"bg-emerald-500/30":riskBadge==="Red"?"bg-rose-500/30":"bg-amber-500/30"}`}>{riskBadge}</span>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <button type="button" onClick={compareShipExcursion} className="rounded bg-white/10 px-3 py-1">Compare to Ship Excursion</button>
+              <button type="button" onClick={savePlan} className="rounded bg-cyan-500 px-3 py-1 text-slate-900">Save This Plan</button>
+              <button type="button" onClick={editPlan} className="rounded bg-white/10 px-3 py-1">Edit Plan</button>
+              <button type="button" onClick={addStop} className="rounded bg-white/10 px-3 py-1">Add Stop</button>
+              <button type="button" onClick={recalculateRoute} className="rounded bg-white/10 px-3 py-1">Recalculate Route</button>
+              {savedItineraryId && <a className="rounded bg-white/10 px-3 py-1" href={`/api/itineraries/${savedItineraryId}/pdf`}>Download PDF</a>}
+              {savedItineraryId && <span className="rounded bg-white/10 px-3 py-1">Share: /api/itineraries/{savedItineraryId}</span>}
+            </div>
+          </div>
+        </div>
+
+        {itineraryBlocks.length > 0 && (
+          <div className="mb-3 rounded-xl border border-white/10 bg-white/5 p-3 text-xs">
+            <p className="font-medium">Editable itinerary blocks</p>
+            <div className="mt-2 space-y-2">
+              {itineraryBlocks.map((b, idx)=>(
+                <div key={idx} className="grid grid-cols-1 gap-2 md:grid-cols-5">
+                  <input value={b.start} onChange={(e)=>setItineraryBlocks((arr)=>arr.map((x,i)=>i===idx?{...x,start:e.target.value}:x))} className="rounded bg-white/10 px-2 py-1" />
+                  <input value={b.end} onChange={(e)=>setItineraryBlocks((arr)=>arr.map((x,i)=>i===idx?{...x,end:e.target.value}:x))} className="rounded bg-white/10 px-2 py-1" />
+                  <input value={b.title} onChange={(e)=>setItineraryBlocks((arr)=>arr.map((x,i)=>i===idx?{...x,title:e.target.value}:x))} className="rounded bg-white/10 px-2 py-1" />
+                  <input value={b.notes} onChange={(e)=>setItineraryBlocks((arr)=>arr.map((x,i)=>i===idx?{...x,notes:e.target.value}:x))} className="rounded bg-white/10 px-2 py-1" />
+                  <button type="button" onClick={()=>setItineraryBlocks((arr)=>arr.filter((_,i)=>i!==idx))} className="rounded bg-rose-500/30 px-2 py-1">Remove</button>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Banner */}
         {banner && (

@@ -1,62 +1,107 @@
+/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
-import { blogPosts } from "@/app/data/blog";
+import { blogArticles } from "@/app/data/blog-cms";
 
 type Props = { params: { slug: string } };
 
-export function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+function getArticle(slug: string) {
+  return blogArticles.find((a) => a.slug === slug);
 }
 
-function getPost(slug: string) {
-  return blogPosts.find((p) => p.slug === slug);
+export function generateStaticParams() {
+  return blogArticles.map((a) => ({ slug: a.slug }));
 }
 
 export function generateMetadata({ params }: Props): Metadata {
-  const post = getPost(params.slug);
-  if (!post) return {};
+  const article = getArticle(params.slug);
+  if (!article) return {};
   return {
-    title: `${post.title} | PortTrip Blog`,
-    description: post.description,
-    alternates: { canonical: `https://porttrip.com/blog/${post.slug}` },
-    openGraph: { title: post.title, description: post.description, type: "article" },
+    title: article.metaTitle,
+    description: article.metaDescription,
+    alternates: { canonical: `https://porttrip.com/blog/${article.slug}` },
+    openGraph: {
+      title: article.metaTitle,
+      description: article.metaDescription,
+      type: "article",
+      images: article.images.slice(0, 1),
+    },
   };
 }
 
-export default function BlogPostPage({ params }: Props) {
-  const post = getPost(params.slug);
-  if (!post) return <main className="min-h-screen p-10">Post not found.</main>;
+export default function BlogArticlePage({ params }: Props) {
+  const article = getArticle(params.slug);
+  if (!article) return <main className="min-h-screen bg-slate-950 p-10 text-slate-100">Article not found.</main>;
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: article.faq.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: { "@type": "Answer", text: f.answer },
+    })),
+  };
+
+  const related = blogArticles.filter((a) => a.slug !== article.slug).slice(0, 3);
 
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-10 text-slate-100">
-      <article className="mx-auto max-w-3xl">
+      <article className="mx-auto max-w-4xl">
         <Link href="/blog" className="text-sm text-slate-300 underline">← Back to blog</Link>
-        <h1 className="mt-3 text-4xl font-semibold">{post.title}</h1>
-        <p className="mt-3 text-slate-300">{post.description}</p>
+        <h1 className="mt-3 text-4xl font-semibold">{article.title}</h1>
+        <p className="mt-3 text-slate-300">{article.metaDescription}</p>
+
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          {article.images.map((src, i) => (
+            <img key={src + i} src={src} alt={`${article.title} cruise port image ${i + 1}`} loading="lazy" className="h-64 w-full rounded-xl object-cover" />
+          ))}
+        </div>
 
         <div className="mt-6 rounded-xl border border-white/10 bg-white/5 p-4">
-          <h2 className="font-semibold">Table of contents</h2>
+          <h2 className="text-xl font-semibold">Table of contents</h2>
           <ol className="mt-2 list-decimal pl-5 text-sm text-slate-300">
-            {post.sections.map((s) => (
-              <li key={s.heading}><a href={`#${s.heading.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}>{s.heading}</a></li>
+            {article.sections.map((section) => (
+              <li key={section.h2}><a href={`#${section.h2.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}>{section.h2}</a></li>
             ))}
           </ol>
         </div>
 
-        {post.sections.map((section) => (
-          <section id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g, "-")} key={section.heading} className="mt-8">
-            <h2 className="text-2xl font-semibold">{section.heading}</h2>
-            <p className="mt-3 text-slate-300">{section.body}</p>
-            <p className="mt-3 text-slate-300">{section.body}</p>
+        {article.sections.map((section) => (
+          <section key={section.h2} id={section.h2.toLowerCase().replace(/[^a-z0-9]+/g, "-")} className="mt-8">
+            <h2 className="text-2xl font-semibold">{section.h2}</h2>
+            <h3 className="mt-2 text-lg font-medium text-sky-300">{section.h3}</h3>
+            {section.paragraphs.map((p, idx) => (
+              <p key={idx} className="mt-3 text-slate-300">{p}</p>
+            ))}
           </section>
         ))}
 
-        <div className="mt-8 rounded-xl border border-sky-300/20 bg-sky-500/10 p-4 text-sm">
-          CTA: Build your own itinerary in <Link href="/chat" className="underline">PortTrip Cruise Intelligence</Link>.
-        </div>
-      </article>
+        <section className="mt-10 rounded-xl border border-white/10 bg-white/5 p-4">
+          <h2 className="text-2xl font-semibold">FAQ</h2>
+          {article.faq.map((f) => (
+            <div key={f.question} className="mt-4">
+              <h3 className="font-semibold">{f.question}</h3>
+              <p className="text-slate-300">{f.answer}</p>
+            </div>
+          ))}
+        </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BlogPosting", headline: post.title, description: post.description, keywords: post.heroKeywords.join(","), datePublished: "2026-01-01", author: { "@type": "Organization", name: "PortTrip" } }) }} />
+        <section className="mt-8 rounded-xl border border-cyan-300/20 bg-cyan-500/10 p-4">
+          <p className="text-sm">{article.ctaText}</p>
+          <Link href="/chat" className="mt-3 inline-block rounded-lg bg-cyan-500 px-4 py-2 font-medium text-slate-950">Open Concierge</Link>
+        </section>
+
+        <section className="mt-8">
+          <h2 className="text-xl font-semibold">Related guides</h2>
+          <ul className="mt-2 list-disc pl-5 text-slate-300">
+            {related.map((r) => (
+              <li key={r.slug}><Link className="underline" href={`/blog/${r.slug}`}>{r.title}</Link></li>
+            ))}
+          </ul>
+        </section>
+      </article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </main>
   );
 }

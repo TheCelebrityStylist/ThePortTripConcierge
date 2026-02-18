@@ -40,7 +40,7 @@ export default function HomePage() {
         <div className="font-semibold tracking-wide">PortTrip Cruise Intelligence System</div>
         <nav className="flex items-center gap-5 text-sm text-slate-300">
           <a href="#features">Features</a>
-          <a href="#seo">Port Guides</a>
+          <a href="/blog">Blog</a>
           <a href="#pricing">Pricing</a>
           <a href="/chat" className="rounded-lg bg-white/10 px-3 py-1.5">Plan My Port Day</a>
         </nav>
@@ -76,11 +76,6 @@ export default function HomePage() {
       <section id="pricing" className="relative z-10 mx-auto max-w-6xl px-6 py-8">
         <h2 className="mb-4 text-2xl font-semibold">Free vs Pro</h2>
         <PremiumComparisonTable />
-      </section>
-
-      <section id="seo" className="relative z-10 mx-auto max-w-6xl px-6 py-8">
-        <h2 className="text-2xl font-semibold">Cruise Port SEO Network</h2>
-        <p className="mt-3 text-slate-300">Programmatic pages: /port/barcelona-cruise-port-guide, /port/naples-cruise-port-guide, /port/santorini-cruise-port-guide, plus long-tail answer templates and a 15-post cruise blog hub.</p>
       </section>
 
       <section className="relative z-10 mx-auto max-w-6xl px-6 py-8">

@@ -113,6 +113,14 @@ function toMinutes(hhmm) {
   return h * 60 + m;
 }
 
+
+function inferIntent(raw) {
+  const q = (raw || "").toLowerCase();
+  const asksTop = /top\s*3|three\s+sights|minimal walking|low walking|walkability/i.test(q);
+  const hasRange = /(\d{1,2}:\d{2})\s*[-–]\s*(\d{1,2}:\d{2})/.test(q) || /(\d+)\s*hours?/i.test(q);
+  return asksTop && !hasRange ? "shortlist" : "full_itinerary";
+}
+
 function resolvePortFromDb(portName) {
   const rows = cruiseDb?.ports || [];
   const lower = (portName || "").toLowerCase();
@@ -172,11 +180,13 @@ function computeRiskAndBudget(input, dbPort, liveResearch) {
   };
 }
 
-function buildSystemPrompt() {
+function buildSystemPrompt(intent) {
   return [
     "You are a cruise logistics planner. You optimize for time safety, return risk, and realistic pacing. Never give generic advice.",
     "Priority order: 1) PortTrip Database, 2) Live Tavily research, 3) reasoning for gaps.",
     "Tone: analytical and confident. Do not use filler phrases like 'Enjoy your time'.",
+    "Never output ASCII tables, markdown tables, pipes, or grid formatting.",
+    "Use clean narrative blocks with timestamps exactly like 09:00–09:25 and blank lines between blocks.",
     "MANDATORY OUTPUT FORMAT:",
     "1) Port Summary Snapshot (dock type, distance to city center, typical travel time, risk level today, must return by time)",
     "2) Time-Optimized Itinerary Table with explicit blocks (start-end, transit, transport + cost + minutes, duration, why this order)",
@@ -184,6 +194,9 @@ function buildSystemPrompt() {
     "4) Return-to-Ship Safety Logic (all-aboard, safe return, detailed buffers, risk explanation)",
     "5) Hidden Local Add-On (20-minute optional stop near terminal)",
     "Always include route order reasoning and realistic transport details.",
+    intent === "shortlist"
+      ? "If user asks a shortlist request, return exactly 3 options with distance from port, taxi vs walking guidance, time needed, and end with: Want me to turn this into a timed 6-hour plan?"
+      : "For full itinerary requests, provide complete timed route with safety logic.",
   ].join(" ");
 }
 
@@ -271,7 +284,7 @@ export async function POST(req) {
     const itinerarySeed = buildItinerarySeed(dbPort, structured);
 
     const messages = [
-      { role: "system", content: buildSystemPrompt() },
+      { role: "system", content: buildSystemPrompt(inferIntent(userQuery)) },
       {
         role: "system",
         content: JSON.stringify({

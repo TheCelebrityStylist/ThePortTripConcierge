@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { blogPosts } from "./data/blog";
+import { blogArticles } from "./data/blog-cms";
 import { seoPorts } from "./data/seo-ports";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ]);
 
-  const blogRoutes = blogPosts.map((post) => ({
+  const blogRoutes = blogArticles.map((post) => ({
     url: `${base}/blog/${post.slug}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
