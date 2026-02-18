@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "./components/footer";
 import Nav from "./components/Nav";
+import { PlanningProvider } from "./components/PlanningProvider";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://porttrip.com"),
@@ -26,9 +27,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="bg-slate-950">
       <body className="text-slate-100">
-        <Nav />
-        {children}
-        <Footer />
+        <PlanningProvider>
+          <Nav />
+          {children}
+          <Footer />
+        </PlanningProvider>
       </body>
     </html>
   );

@@ -1,20 +1,27 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { usePlanning, type PlanStop } from "../components/PlanningProvider";
 
-/* ---------- Plans & Limits ---------- */
 type Plan = "free" | "pro" | "unlimited";
 const LIMITS: Record<Plan, number> = { free: 3, pro: 25, unlimited: Infinity };
-
 const PLAN_STORAGE_KEY = "pt.plan";
 const USAGE_STORAGE_KEY = "pt.usage";
+
+type Role = "user" | "assistant";
+type ChatMsg = { role: Role; content: string };
+
+type AgentResult = {
+  action?: "create_plan" | "modify_plan" | "answer_only";
+  updatedStops?: Array<Partial<PlanStop> & { name: string }>;
+  reasoning?: string;
+  riskFactors?: string[];
+  answer?: string;
+};
 
 function ymKey(d = new Date()) {
   return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
 }
-
-/** Local fallback so the app still behaves without auth/server. */
 function getStoredPlan(): Plan {
   if (typeof window === "undefined") return "free";
   return (localStorage.getItem(PLAN_STORAGE_KEY) as Plan) || "free";
@@ -23,7 +30,6 @@ function setStoredPlan(p: Plan) {
   if (typeof window === "undefined") return;
   localStorage.setItem(PLAN_STORAGE_KEY, p);
 }
-
 function getUsage(): { month: string; count: number } {
   if (typeof window === "undefined") return { month: ymKey(), count: 0 };
   const raw = localStorage.getItem(USAGE_STORAGE_KEY);
@@ -41,645 +47,335 @@ function setUsage(u: { month: string; count: number }) {
   localStorage.setItem(USAGE_STORAGE_KEY, JSON.stringify(u));
 }
 
-/* ---------- Types ---------- */
-type Role = "user" | "assistant";
-type ChatMsg = { role: Role; content: string };
-type ItineraryBlock = { start: string; end: string; title: string; notes: string; costEur?: number };
-
-type CruiseContext = {
-  cruiseLine: string;
-  shipName: string;
-  arrivalTime: string;
-  allAboardTime: string;
-  dockType: "dock" | "tender";
-  terminalName: string;
-};
-
-
-/* ---------- Page ---------- */
-export default function ChatPage() {
-  const [messages, setMessages] = useState<ChatMsg[]>([
-    {
-      role: "assistant",
-      content:
-        "Welcome aboard 👋 I’m your **PortTrip Concierge**.\n\nTell me your **port** and **time window** (e.g., *Barcelona · 6 hours · 09:00–15:00*) plus any preferences (kids, mobility, budget)."
+async function startCheckout(plan: "pro" | "unlimited", setBanner: (s: string | null) => void) {
+  try {
+    const res = await fetch(`/api/stripe/checkout?plan=${plan}`, { method: "POST", credentials: "include" });
+    const ct = res.headers.get("content-type") || "";
+    if (ct.includes("application/json")) {
+      const j = await res.json();
+      if (!res.ok || !j?.url) throw new Error(j?.error || "Checkout failed.");
+      window.location.href = j.url;
+      return;
     }
-  ]);
+    if (res.status === 303) {
+      const loc = res.headers.get("location");
+      if (loc) window.location.href = loc;
+      return;
+    }
+    throw new Error("Unexpected checkout response.");
+  } catch (e: any) {
+    setBanner(e?.message || "Could not start checkout.");
+  }
+}
+
+export default function ChatPage() {
+  const planning = usePlanning();
+  const [messages, setMessages] = useState<ChatMsg[]>([{ role: "assistant", content: "Cruise Day Operating System online. Share your port goal and time window." }]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [banner, setBanner] = useState<string | null>(null);
-  const [cruiseContext, setCruiseContext] = useState<CruiseContext>({
-    cruiseLine: "Royal Caribbean",
-    shipName: "Icon of the Seas",
-    arrivalTime: "08:00",
-    allAboardTime: "16:30",
-    dockType: "dock",
-    terminalName: "Main Cruise Terminal",
-  });
-  const [toggles, setToggles] = useState<Record<string, boolean>>({
-    firstTimeCruiser: true,
-    travelingWithKids: false,
-    seniorFriendly: false,
-    budgetMode: true,
-    luxuryMode: false,
-    adventureMode: false,
-    sixHourPort: true,
-    eightHourPort: false,
-    tenPlusHourPort: false,
-  });
-  const [walkingLevel, setWalkingLevel] = useState<"minimal"|"moderate"|"active">("moderate");
-  const [riskBadge, setRiskBadge] = useState<"Green"|"Amber"|"Red">("Amber");
-  const [crowdInsight, setCrowdInsight] = useState("Peak window: 12:30–14:00");
-  const [itineraryBlocks, setItineraryBlocks] = useState<ItineraryBlock[]>([]);
-  const [savedItineraryId, setSavedItineraryId] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<"chat"|"timeline"|"map"|"budget">("chat");
-
-  /* Plan & usage state */
+  const [activeTab, setActiveTab] = useState<"chat" | "timeline" | "map" | "budget">("chat");
+  const [newStopName, setNewStopName] = useState("");
+  const [showAdd, setShowAdd] = useState(false);
   const [plan, setPlan] = useState<Plan>(getStoredPlan());
   const [{ month, count }, setUsageState] = useState(getUsage());
 
   const scrollerRef = useRef<HTMLDivElement>(null);
+  const limit = LIMITS[plan];
+  const atLimit = Math.max(0, limit - count) <= 0;
 
-  /* Auto-scroll on new content */
+
   useEffect(() => {
     const el = scrollerRef.current;
     if (!el) return;
     el.scrollTo({ top: el.scrollHeight, behavior: "smooth" });
   }, [messages, loading]);
 
-  /* Reset local usage each calendar month */
   useEffect(() => {
-    const current = ymKey();
-    if (month !== current) {
-      const fresh = { month: current, count: 0 };
+    if (month !== ymKey()) {
+      const fresh = { month: ymKey(), count: 0 };
       setUsageState(fresh);
       setUsage(fresh);
     }
   }, [month]);
 
-  /* Prefer plan from your server (if available) */
   useEffect(() => {
     (async () => {
       try {
-        const url = new URL(window.location.href);
-        const status = url.searchParams.get("status");
-        if (status) {
-          url.searchParams.delete("status");
-          url.searchParams.delete("plan");
-          url.searchParams.delete("session_id");
-          window.history.replaceState({}, "", url.toString());
+        const res = await fetch("/api/me", { credentials: "include" });
+        if (!res.ok) return;
+        const data = await res.json();
+        const p = (data.plan || "free").toLowerCase() as Plan;
+        if (p === "free" || p === "pro" || p === "unlimited") {
+          setPlan(p);
+          setStoredPlan(p);
         }
-
-        const res = await fetch("/api/me/plan", { credentials: "include" });
-        if (res.ok) {
-          const data = (await res.json()) as { plan?: string };
-          const serverPlan = (data.plan || "free").toLowerCase() as Plan;
-          if (serverPlan === "free" || serverPlan === "pro" || serverPlan === "unlimited") {
-            setPlan(serverPlan);
-            setStoredPlan(serverPlan);
-          }
-        }
-      } catch {
-        /* fall back to local plan */
-      }
+      } catch {}
     })();
   }, []);
 
-  /* Quick chips */
-  const chips = useMemo(
-    () => [
-      "Best 6-hour plan from the cruise terminal",
-      "Top 3 sights with minimal walking",
-      "Mobility-friendly loop with rest stops",
-      "Local food near the port",
-      "Kid-friendly afternoon plan"
-    ],
-    []
-  );
+  async function applyAgentResult(r: AgentResult, rawAnswer: string) {
+    if (r.updatedStops?.length) {
+      const mapped: PlanStop[] = r.updatedStops.map((s, i) => ({
+        id: `ai_${Math.random().toString(36).slice(2, 8)}_${i}`,
+        name: s.name,
+        startTime: (s.startTime as string) || planning.arrivalTime,
+        endTime: (s.endTime as string) || planning.arrivalTime,
+        durationMinutes: Number(s.durationMinutes || 60),
+        transitFromPrevious: s.transitFromPrevious || { method: "taxi", durationMinutes: 15, cost: 18 },
+        visitCost: Number(s.visitCost || 0),
+        lat: Number(s.lat || 41.38),
+        lng: Number(s.lng || 2.17),
+        notes: s.notes || "Route optimized for crowd avoidance and return safety.",
+      }));
 
-  const limit = LIMITS[plan];
-  const remaining = Math.max(0, limit - count);
-  const atLimit = remaining <= 0;
-
-  /* Start Stripe Checkout */
-  async function startCheckout(planName: "pro" | "unlimited") {
-    try {
-      const res = await fetch(`/api/stripe/checkout?plan=${planName}`, {
-        method: "POST",
-        credentials: "include",
-      });
-      const ct = res.headers.get("content-type") || "";
-      if (ct.includes("application/json")) {
-        const j = await res.json();
-        if (!res.ok || !j?.url) throw new Error(j?.error || "Checkout failed.");
-        window.location.href = j.url;
-        return;
+      if (r.action === "modify_plan") {
+        planning.replaceStops(mapped);
+      } else if (r.action === "create_plan") {
+        planning.replaceStops(mapped);
       }
-      if (res.status === 303) {
-        const loc = res.headers.get("location");
-        if (loc) { window.location.href = loc; return; }
-      }
-      throw new Error("Unexpected checkout response.");
-    } catch (e: any) {
-      setBanner(e?.message || "Could not start checkout.");
+      planning.recalculate();
+      setActiveTab("timeline");
     }
+
+    const text = r.reasoning || r.answer || rawAnswer;
+    setMessages((m) => [...m, { role: "assistant", content: text || "Route updated." }]);
   }
 
-  /* Send handler (counts user prompts) */
   async function handleSend(e: React.FormEvent) {
     e.preventDefault();
     const text = input.trim();
     if (!text || loading || atLimit) return;
 
-    setBanner(null);
-
-    const next = { month: ymKey(), count: count + 1 };
-    setUsageState(next);
-    setUsage(next);
-
-    const nextHistory = [...messages, { role: "user" as const, content: text }];
-    setMessages(nextHistory);
     setInput("");
     setLoading(true);
-
-    const replyIndex = nextHistory.length;
-    setMessages([...nextHistory, { role: "assistant", content: "" }]);
+    const nextUsage = { month: ymKey(), count: count + 1 };
+    setUsageState(nextUsage);
+    setUsage(nextUsage);
+    const next = [...messages, { role: "user" as const, content: text }];
+    setMessages(next);
 
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({
-          plan,
-          usage: next,
-          messages: nextHistory,
-          history: nextHistory,
-          cruiseContext,
-          personalization: toggles
+          messages: next,
+          query: text,
+          cruiseContext: {
+            cruiseLine: "Royal Caribbean",
+            shipName: "Icon of the Seas",
+            arrivalTime: planning.arrivalTime,
+            allAboardTime: planning.allAboardTime,
+            dockType: "dock",
+            terminalName: `${planning.port} Cruise Terminal`,
+          },
+          personalization: { walking: planning.walkingPreference },
         }),
-        credentials: "include"
       });
 
       const ct = res.headers.get("content-type") || "";
-
-      if (res.status === 402 && ct.includes("application/json")) {
-        const err = await res.json().catch(() => ({}));
-        const code = (err?.code || "").toString();
-        if (code === "FREE_LIMIT_REACHED" || code === "LIMIT_REACHED") {
-          setMessages((m) => {
-            const copy = [...m];
-            copy[replyIndex] = {
-              role: "assistant",
-              content:
-                "You’ve reached your plan’s monthly limit. Upgrade to keep planning — Pro raises the cap to **25 chats/month**, and Unlimited removes the cap."
-            };
-            return copy;
-          });
-          const rollback = { month: ymKey(), count };
-          setUsageState(rollback);
-          setUsage(rollback);
-          setLoading(false);
-          return;
-        }
-      }
-
-      if (!res.ok && ct.includes("application/json")) {
-        const err = await res.json().catch(() => ({}));
-        const msg = err?.message || err?.error || "The server rejected the request.";
-        setMessages((m) => {
-          const copy = [...m];
-          copy[replyIndex] = { role: "assistant", content: `⚠️ ${msg}` };
-          return copy;
-        });
-        const rollback = { month: ymKey(), count };
-        setUsageState(rollback);
-        setUsage(rollback);
-        setLoading(false);
-        return;
-      }
-
-      if (!ct.includes("application/json") && res.body) {
-        const reader = res.body.getReader();
-        const decoder = new TextDecoder();
-        let acc = "";
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          acc += decoder.decode(value, { stream: true });
-          setMessages((m) => {
-            const copy = [...m];
-            copy[replyIndex] = { role: "assistant", content: acc };
-            return copy;
-          });
-        }
+      if (ct.includes("application/json")) {
+        const data = await res.json();
+        await applyAgentResult(data, JSON.stringify(data));
       } else {
-        const data = await res.json().catch(() => ({}));
-        const reply =
-          data?.reply || data?.answer || data?.content || "Sorry — I couldn’t generate a reply.";
-        setMessages((m) => {
-          const copy = [...m];
-          copy[replyIndex] = { role: "assistant", content: reply };
-          return copy;
-        });
-        if (/Risk level today:\s*Low/i.test(reply)) setRiskBadge("Green");
-        else if (/Risk level today:\s*High/i.test(reply)) setRiskBadge("Red");
-        else setRiskBadge("Amber");
-        if (!itineraryBlocks.length) {
-          setItineraryBlocks([
-            { start: cruiseContext.arrivalTime, end: "09:25", title: "Transit to city core", notes: "Time-safe outbound segment", costEur: 25 },
-            { start: "09:25", end: "10:45", title: "Primary cluster", notes: "Prioritized for low crowd density" },
-            { start: "10:45", end: "11:40", title: "Food and recovery", notes: "Avoid peak window" },
-          ]);
+        const reply = await res.text();
+        try {
+          const parsed = JSON.parse(reply) as AgentResult;
+          await applyAgentResult(parsed, reply);
+        } catch {
+          setMessages((m) => [...m, { role: "assistant", content: reply }]);
         }
       }
     } catch {
-      setBanner("Network hiccup. Please try again.");
-      setMessages((m) => {
-        const copy = [...m];
-        copy[replyIndex] = { role: "assistant", content: "I hit a network error. Try again shortly." };
-        return copy;
-      });
-      const rollback = { month: ymKey(), count };
-      setUsageState(rollback);
-      setUsage(rollback);
+      setBanner("Network issue. Retry.");
     } finally {
       setLoading(false);
     }
   }
 
+  const riskClass = planning.riskScore === "high" ? "bg-rose-500/30 animate-pulse" : planning.riskScore === "amber" ? "bg-amber-500/30" : "bg-emerald-500/30";
+  const savings = planning.shipExcursionBenchmark - planning.totalBudget;
 
-  async function savePlan() {
-    const payload = {
-      user_id: "guest",
-      port: input.split("·")[0]?.trim() || "Unknown",
-      ship_name: cruiseContext.shipName,
-      arrival_time: cruiseContext.arrivalTime,
-      all_aboard_time: cruiseContext.allAboardTime,
-      safety_buffer: cruiseContext.dockType === "tender" ? 95 : 75,
-      risk_score: riskBadge === "Red" ? 72 : riskBadge === "Amber" ? 48 : 28,
-      itinerary_json: { blocks: itineraryBlocks, comparison: { shipExcursion: 119, diy: 38, savings: 81 } },
-    };
-    const res = await fetch("/api/itineraries", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
-    if (res.ok) {
-      const j = await res.json();
-      setSavedItineraryId(j.id);
-      setBanner(`Plan saved as ${j.id}`);
-    }
-  }
-
-  function addStop() {
-    setItineraryBlocks((b) => [...b, { start: "12:00", end: "12:30", title: "Custom stop", notes: "User-defined stop", costEur: 10 }]);
-  }
-
-
-  function addFromMessage(content: string) {
-    const first = content.split("\n").find((l) => /\d{1,2}:\d{2}[–-]\d{1,2}:\d{2}/.test(l));
-    const title = first ? first.replace(/\d{1,2}:\d{2}[–-]\d{1,2}:\d{2}\s*/, "") : "Suggested stop";
-    setItineraryBlocks((b) => [...b, { start: "13:00", end: "13:45", title, notes: "Added from concierge suggestion", costEur: 15 }]);
-    setActiveTab("timeline");
-  }
-
-  async function editPlan() {
-    if (!savedItineraryId) return setBanner("Save plan first.");
-    const res = await fetch(`/api/itineraries/${savedItineraryId}`, {
-      method: "PATCH",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ itinerary_json: { blocks: itineraryBlocks } }),
-    });
-    if (res.ok) setBanner("Plan updated.");
-  }
-
-  async function recalculateRoute() {
-    setInput(`Recalculate route for ${cruiseContext.shipName} with walking level ${walkingLevel}.`);
-    setCrowdInsight(walkingLevel === "minimal" ? "Peak window: 11:45–13:45. Prefer taxi transfers." : "Peak window: 12:30–14:00");
-  }
-
-  function compareShipExcursion() {
-    setInput("Compare this route to equivalent ship excursion pricing with itemized savings.");
-  }
-
-  /* ---------- UI ---------- */
   return (
-    <div className="relative min-h-screen overflow-hidden bg-slate-950 text-slate-100">
-      {/* Ambient gradients */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-40 -left-40 h-[48rem] w-[48rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(56,189,248,0.18),_transparent_60%)] blur-2xl" />
-        <div className="absolute -bottom-40 -right-40 h-[52rem] w-[52rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(99,102,241,0.18),_transparent_60%)] blur-2xl" />
-      </div>
-
-      <div className="mx-auto max-w-6xl px-6 py-6">
-        {/* Header — page-local logo only (single logo) */}
-        <div className="mb-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/logo-mark.svg"
-              alt="PortTrip"
-              width={28}
-              height={28}
-              priority
-              className="rounded-full"
-            />
-            <span className="text-lg font-semibold tracking-tight">PortTrip Concierge</span>
-          </div>
-
-          <div className="flex items-center gap-2 text-sm text-slate-300">
-            <span className="opacity-80">Plan:</span>
-            <span className="rounded-full bg-white/10 px-2 py-0.5">{plan}</span>
-            <button
-              onClick={() => { setStoredPlan("free"); setPlan("free"); }}
-              className="rounded px-2 py-0.5 hover:bg-white/10"
-            >
-              Start free
-            </button>
-            <button
-              onClick={() => startCheckout("pro")}
-              className="rounded px-2 py-0.5 hover:bg-white/10"
-            >
-              Upgrade to Pro
-            </button>
-            <button
-              onClick={() => startCheckout("unlimited")}
-              className="rounded px-2 py-0.5 hover:bg-white/10"
-            >
-              Go Unlimited
-            </button>
-          </div>
+    <main className="min-h-screen bg-slate-950 px-6 py-6 text-slate-100">
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
+          <span className={`rounded-full px-3 py-1 ${riskClass}`}>Risk: {planning.riskScore}</span>
+          <span className="rounded-full bg-white/10 px-3 py-1">Safe return target: {planning.safeReturnTime}</span>
+          <SafeReturnCountdown safeReturnTime={planning.safeReturnTime} />
+          <button onClick={() => startCheckout("pro", setBanner)} className="rounded bg-white/10 px-3 py-1">Upgrade Pro</button>
         </div>
 
-        <div className="mb-3 rounded-xl border border-white/10 bg-white/5 p-3 text-xs text-slate-200">
-          <p className="mb-2 font-medium">Ship-Aware Intelligence Layer</p>
-          <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
-            <input value={cruiseContext.cruiseLine} onChange={(e)=>setCruiseContext({...cruiseContext, cruiseLine:e.target.value})} className="rounded bg-white/10 px-2 py-1" placeholder="Cruise line" />
-            <input value={cruiseContext.shipName} onChange={(e)=>setCruiseContext({...cruiseContext, shipName:e.target.value})} className="rounded bg-white/10 px-2 py-1" placeholder="Ship name" />
-            <input value={cruiseContext.terminalName} onChange={(e)=>setCruiseContext({...cruiseContext, terminalName:e.target.value})} className="rounded bg-white/10 px-2 py-1" placeholder="Terminal name" />
-            <input value={cruiseContext.arrivalTime} onChange={(e)=>setCruiseContext({...cruiseContext, arrivalTime:e.target.value})} className="rounded bg-white/10 px-2 py-1" type="time" />
-            <input value={cruiseContext.allAboardTime} onChange={(e)=>setCruiseContext({...cruiseContext, allAboardTime:e.target.value})} className="rounded bg-white/10 px-2 py-1" type="time" />
-            <select value={cruiseContext.dockType} onChange={(e)=>setCruiseContext({...cruiseContext, dockType:e.target.value as "dock"|"tender"})} className="rounded bg-white/10 px-2 py-1"><option value="dock">Dock</option><option value="tender">Tender</option></select>
-          </div>
-          <div className="mt-2 flex flex-wrap gap-2">
-            {Object.keys(toggles).map((key)=> (
-              <button key={key} type="button" onClick={()=>setToggles({...toggles,[key]:!toggles[key]})} className={`rounded-full px-2 py-1 ${toggles[key]?"bg-cyan-500 text-slate-900":"bg-white/10"}`}>{key}</button>
-            ))}
-          </div>
+        {banner && <div className="mb-3 rounded border border-amber-300/20 bg-amber-500/10 px-3 py-2 text-sm">{banner}</div>}
+
+        <div className="mb-3 grid grid-cols-1 gap-2 rounded-xl border border-white/10 bg-white/5 p-3 md:grid-cols-4">
+          <label className="text-xs">Port<input value={planning.port} onChange={(e) => planning.setPlanMeta({ port: e.target.value })} className="mt-1 w-full rounded bg-white/10 px-2 py-1" /></label>
+          <label className="text-xs">Arrival<input type="time" value={planning.arrivalTime} onChange={(e) => planning.setPlanMeta({ arrivalTime: e.target.value })} className="mt-1 w-full rounded bg-white/10 px-2 py-1" /></label>
+          <label className="text-xs">All aboard<input type="time" value={planning.allAboardTime} onChange={(e) => planning.setPlanMeta({ allAboardTime: e.target.value })} className="mt-1 w-full rounded bg-white/10 px-2 py-1" /></label>
+          <label className="text-xs">Walking
+            <select value={planning.walkingPreference} onChange={(e) => planning.setPlanMeta({ walkingPreference: e.target.value as any })} className="mt-1 w-full rounded bg-white/10 px-2 py-1">
+              <option value="minimal">minimal</option><option value="moderate">moderate</option><option value="active">active</option>
+            </select>
+          </label>
         </div>
-
-
-        <div className="mb-3 grid gap-3 rounded-xl border border-white/10 bg-white/5 p-3 text-xs text-slate-200 md:grid-cols-2">
-          <div>
-            <p className="font-medium">Walking level filter</p>
-            <div className="mt-2 flex gap-2">
-              {(["minimal","moderate","active"] as const).map((lvl)=>(
-                <button key={lvl} type="button" onClick={()=>setWalkingLevel(lvl)} className={`rounded-full px-3 py-1 ${walkingLevel===lvl?"bg-cyan-500 text-slate-900":"bg-white/10"}`}>{lvl}</button>
-              ))}
-            </div>
-            <p className="mt-2">Crowd timing insights: {crowdInsight}</p>
-          </div>
-          <div>
-            <p className="font-medium">Risk visual indicator</p>
-            <span className={`mt-2 inline-block rounded-full px-3 py-1 font-semibold ${riskBadge==="Green"?"bg-emerald-500/30":riskBadge==="Red"?"bg-rose-500/30":"bg-amber-500/30"}`}>{riskBadge}</span>
-            <div className="mt-3 flex flex-wrap gap-2">
-              <button type="button" onClick={compareShipExcursion} className="rounded bg-white/10 px-3 py-1">Compare to Ship Excursion</button>
-              <button type="button" onClick={savePlan} className="rounded bg-cyan-500 px-3 py-1 text-slate-900">Save This Plan</button>
-              <button type="button" onClick={editPlan} className="rounded bg-white/10 px-3 py-1">Edit Plan</button>
-              <button type="button" onClick={addStop} className="rounded bg-white/10 px-3 py-1">Add Stop</button>
-              <button type="button" onClick={recalculateRoute} className="rounded bg-white/10 px-3 py-1">Recalculate Route</button>
-              {savedItineraryId && <a className="rounded bg-white/10 px-3 py-1" href={`/api/itineraries/${savedItineraryId}/pdf`}>Download PDF</a>}
-              {savedItineraryId && <span className="rounded bg-white/10 px-3 py-1">Share: /api/itineraries/{savedItineraryId}</span>}
-            </div>
-          </div>
-        </div>
-
-        {itineraryBlocks.length > 0 && (
-          <div className="mb-3 rounded-xl border border-white/10 bg-white/5 p-3 text-xs">
-            <p className="font-medium">Editable itinerary blocks</p>
-            <div className="mt-2 space-y-2">
-              {itineraryBlocks.map((b, idx)=>(
-                <div key={idx} className="grid grid-cols-1 gap-2 md:grid-cols-5">
-                  <input value={b.start} onChange={(e)=>setItineraryBlocks((arr)=>arr.map((x,i)=>i===idx?{...x,start:e.target.value}:x))} className="rounded bg-white/10 px-2 py-1" />
-                  <input value={b.end} onChange={(e)=>setItineraryBlocks((arr)=>arr.map((x,i)=>i===idx?{...x,end:e.target.value}:x))} className="rounded bg-white/10 px-2 py-1" />
-                  <input value={b.title} onChange={(e)=>setItineraryBlocks((arr)=>arr.map((x,i)=>i===idx?{...x,title:e.target.value}:x))} className="rounded bg-white/10 px-2 py-1" />
-                  <input value={b.notes} onChange={(e)=>setItineraryBlocks((arr)=>arr.map((x,i)=>i===idx?{...x,notes:e.target.value}:x))} className="rounded bg-white/10 px-2 py-1" />
-                  <button type="button" onClick={()=>setItineraryBlocks((arr)=>arr.filter((_,i)=>i!==idx))} className="rounded bg-rose-500/30 px-2 py-1">Remove</button>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Banner */}
-        {banner && (
-          <div className="mb-3 rounded-xl border border-amber-400/30 bg-amber-500/10 px-3 py-2 text-sm text-amber-200">
-            {banner}
-          </div>
-        )}
-
-        {/* Usage */}
-        <div className="mb-3 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-300">
-          {isFinite(limit) ? (
-            <>Usage: <strong>{count}</strong> / {limit} this month ({Math.max(0, limit - count)} left)</>
-          ) : (
-            <>Usage: <strong>{count}</strong> / ∞</>
-          )}
-        </div>
-
 
         <div className="mb-3 flex flex-wrap gap-2">
-          {(["chat","timeline","map","budget"] as const).map((t)=>(
-            <button key={t} type="button" onClick={()=>setActiveTab(t)} className={`rounded-full px-3 py-1 text-sm ${activeTab===t?"bg-cyan-500 text-slate-900":"bg-white/10"}`}>
-              {t === "chat" ? "Tab 1 – Chat" : t === "timeline" ? "Tab 2 – Timeline Builder" : t === "map" ? "Tab 3 – Map View" : "Tab 4 – Budget"}
+          {(["chat", "timeline", "map", "budget"] as const).map((tab) => (
+            <button key={tab} onClick={() => setActiveTab(tab)} className={`rounded-full px-3 py-1 text-sm transition ${activeTab === tab ? "bg-cyan-500 text-slate-900" : "bg-white/10"}`}>
+              {tab === "chat" ? "Tab 1 – Chat" : tab === "timeline" ? "Tab 2 – Timeline Builder" : tab === "map" ? "Tab 3 – Map View" : "Tab 4 – Budget"}
             </button>
           ))}
         </div>
 
-        {/* Chat area */}
-        {activeTab === "chat" && (
-          <div
-            ref={scrollerRef}
-            className="min-h-[60vh] space-y-3 rounded-[24px] border border-white/15 bg-white/5 p-4 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:p-6"
-          >
-            {messages.map((m, i) => <Bubble key={i} role={m.role} content={m.content} onAddStop={addFromMessage} />)}
-            {loading && <TypingBubble />}
-            {atLimit && (
-              <UpgradePrompt onPro={() => startCheckout("pro")} onUnlimited={() => startCheckout("unlimited")} />
-            )}
-          </div>
-        )}
+        <div className="relative overflow-hidden rounded-2xl border border-white/15 bg-white/5 p-4 transition-all duration-300">
+          {activeTab === "chat" && (
+            <>
+              <div ref={scrollerRef} className="min-h-[50vh] space-y-3">
+                {messages.map((m, i) => <Bubble key={i} role={m.role} content={m.content} onAddStop={(c) => planning.addStop({ name: c.slice(0, 40), startTime: planning.arrivalTime, endTime: planning.arrivalTime, durationMinutes: 45, transitFromPrevious: { method: "walk", durationMinutes: 10, cost: 0 }, visitCost: 0, lat: 41.38, lng: 2.17, notes: "Added from chat" })} />)}
+                {loading && <p className="text-sm text-slate-300">Planning…</p>}
+              </div>
+              <form onSubmit={handleSend} className="mt-3 flex gap-2">
+                <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="Ask: 6 hour plan Barcelona 09:00–15:00" className="flex-1 rounded-xl bg-white/10 px-3 py-2" />
+                <button disabled={atLimit || loading} className="rounded-xl bg-cyan-500 px-4 py-2 font-medium text-slate-900">Ask</button>
+              </form>
+            </>
+          )}
 
-        {activeTab === "timeline" && (
-          <div className="min-h-[60vh] rounded-[24px] border border-white/15 bg-white/5 p-4">
-            <p className="text-sm text-slate-300">Timeline Builder: drag-and-drop can be added next; currently supports inline edit, add, remove, and recalculation with AI context.</p>
-          </div>
-        )}
+          {activeTab === "timeline" && (
+            <>
+              <div className="space-y-3">
+                {planning.stops.map((s) => (
+                  <div key={s.id} className="rounded-xl border border-white/10 bg-white/5 p-3 transition-all duration-300">
+                    <div className="grid grid-cols-1 gap-2 md:grid-cols-6">
+                      <input value={s.startTime} onChange={(e) => planning.updateStop(s.id, { startTime: e.target.value })} className="rounded bg-white/10 px-2 py-1" />
+                      <input value={s.endTime} onChange={(e) => planning.updateStop(s.id, { endTime: e.target.value })} className="rounded bg-white/10 px-2 py-1" />
+                      <input value={s.name} onChange={(e) => planning.updateStop(s.id, { name: e.target.value })} className="rounded bg-white/10 px-2 py-1" />
+                      <input value={s.durationMinutes} onChange={(e) => planning.updateStop(s.id, { durationMinutes: Number(e.target.value || 0) })} className="rounded bg-white/10 px-2 py-1" />
+                      <input value={s.visitCost} onChange={(e) => planning.updateStop(s.id, { visitCost: Number(e.target.value || 0) })} className="rounded bg-white/10 px-2 py-1" />
+                      <div className="flex gap-1">
+                        <button onClick={() => planning.reorderStops(s.id, "up")} className="rounded bg-white/10 px-2">↑</button>
+                        <button onClick={() => planning.reorderStops(s.id, "down")} className="rounded bg-white/10 px-2">↓</button>
+                        <button onClick={() => planning.deleteStop(s.id)} className="rounded bg-rose-500/30 px-2">✕</button>
+                      </div>
+                    </div>
+                    <p className="mt-2 text-xs text-slate-300">{s.startTime} – {s.endTime} {emojiForTransit(s.transitFromPrevious.method)} {s.transitFromPrevious.method} to {s.name}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-3 flex gap-2">
+                <button onClick={() => setShowAdd(true)} className="rounded bg-white/10 px-3 py-1">Add stop</button>
+                <button onClick={planning.recalculate} className="rounded bg-cyan-500 px-3 py-1 text-slate-900">Recalculate</button>
+              </div>
+              {showAdd && (
+                <div className="mt-3 rounded-xl border border-white/10 bg-slate-900/90 p-3">
+                  <input value={newStopName} onChange={(e) => setNewStopName(e.target.value)} placeholder="Stop name" className="rounded bg-white/10 px-2 py-1" />
+                  <button onClick={() => { planning.addStop({ name: newStopName || "Custom stop", startTime: planning.arrivalTime, endTime: planning.arrivalTime, durationMinutes: 45, transitFromPrevious: { method: "taxi", durationMinutes: 12, cost: 14 }, visitCost: 10, lat: 41.39, lng: 2.17, notes: "" }); setShowAdd(false); setNewStopName(""); planning.recalculate(); }} className="ml-2 rounded bg-cyan-500 px-3 py-1 text-slate-900">Save</button>
+                </div>
+              )}
+            </>
+          )}
 
-        {activeTab === "map" && (
-          <div className="min-h-[60vh] rounded-[24px] border border-white/15 bg-white/5 p-4 text-sm text-slate-300">
-            <p>Map View: stops plotted as sequential route.</p>
-            <ul className="mt-2 list-disc pl-5">
-              {itineraryBlocks.map((b, i) => <li key={i}>{b.start}-{b.end}: {b.title} · <a className="underline" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.title)}`} target="_blank" rel="noopener noreferrer">Open map</a></li>)}
-            </ul>
-          </div>
-        )}
+          {activeTab === "map" && <MapView stops={planning.stops} port={planning.port} safeReturnTime={planning.safeReturnTime} />}
 
-        {activeTab === "budget" && (
-          <div className="min-h-[60vh] rounded-[24px] border border-white/15 bg-white/5 p-4 text-sm text-slate-300">
-            <p>Total route estimate: €{itineraryBlocks.reduce((s,b)=>s+(b.costEur||0),0)}</p>
-            <p>Ship excursion benchmark: €119</p>
-            <p>Estimated savings: €{Math.max(0,119-itineraryBlocks.reduce((s,b)=>s+(b.costEur||0),0))}</p>
-          </div>
-        )}
-
-        {activeTab === "chat" && (<>
-        {/* Chips */}
-        <div className="mt-3 flex flex-wrap gap-2">
-          {chips.map((c) => (
-            <button
-              key={c}
-              onClick={() => setInput(c)}
-              disabled={atLimit}
-              className="rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-sm hover:bg-white/15 disabled:opacity-60"
-            >
-              {c}
-            </button>
-          ))}
-        </div>
-
-        {/* Composer */}
-        <form onSubmit={handleSend} className="sticky bottom-0">
-          <div className="mt-2 flex gap-2">
-            <input
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              placeholder='Ask anything (e.g., “Barcelona · 6 hours · best plan from the cruise terminal?”)'
-              disabled={atLimit}
-              className="flex-1 rounded-2xl border border-white/15 bg-white/10 px-4 py-3 shadow-inner placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-400/40 disabled:opacity-60"
-            />
-            <button
-              type="submit"
-              disabled={loading || atLimit}
-              className="rounded-2xl bg-gradient-to-br from-sky-500 to-indigo-600 px-6 py-3 font-medium text-white shadow-lg shadow-indigo-900/30 hover:from-sky-400 hover:to-indigo-500 disabled:opacity-60"
-            >
-              {atLimit ? "Limit reached" : loading ? "Planning…" : "Ask"}
-            </button>
-          </div>
-          <p className="mt-2 text-[11px] text-slate-300">
-            Tip: include <strong>arrival → all-aboard</strong> time + preferences (kids, mobility, budget) for a sharper plan.
-          </p>
-        </form>
-        </>)}
-      </div>
-    </div>
-  );
-}
-
-/* ---------- UI Pieces (no avatars) ---------- */
-
-function UpgradePrompt({ onPro, onUnlimited }: { onPro: () => void; onUnlimited: () => void }) {
-  return (
-    <div className="rounded-2xl border border-white/15 bg-white/8 p-4 text-sm text-slate-200">
-      You’ve reached your plan’s chat limit. Upgrade to continue:
-      <div className="mt-2 flex gap-2">
-        <button
-          onClick={onPro}
-          className="rounded-lg bg-gradient-to-br from-sky-500 to-indigo-600 px-3 py-2 text-sm font-medium"
-        >
-          Upgrade to Pro (25/month)
-        </button>
-        <button
-          onClick={onUnlimited}
-          className="rounded-lg bg-white/10 px-3 py-2 text-sm font-medium hover:bg-white/15"
-        >
-          Go Unlimited
-        </button>
-      </div>
-    </div>
-  );
-}
-
-function Bubble({ role, content, onAddStop }: { role: Role; content: string; onAddStop?: (c: string) => void }) {
-  const isUser = role === "user";
-  const rowJustify = isUser ? "justify-end" : "justify-start";
-
-  return (
-    <div className={`flex w-full ${rowJustify}`}>
-      <div className="flex max-w-[85%] items-start gap-3">
-        <div
-          className={
-            isUser
-              ? "whitespace-pre-wrap rounded-2xl rounded-br-sm bg-gradient-to-br from-sky-500 to-indigo-600 px-4 py-3 leading-relaxed text-white shadow-lg shadow-indigo-900/30"
-              : "whitespace-pre-wrap rounded-2xl rounded-bl-sm border border-white/15 bg-white/8 px-4 py-3 leading-relaxed text-slate-100 shadow-sm backdrop-blur-md"
-          }
-          style={{ wordBreak: "break-word" }}
-        >
-          <Markdown text={content} />
-                  {!isUser && onAddStop && (
-            <button type="button" onClick={() => onAddStop(content)} className="mt-1 text-xs underline text-cyan-300">➕ Add this stop to my plan</button>
+          {activeTab === "budget" && (
+            <div className="space-y-2 text-sm">
+              <p>DIY Total: €{planning.totalBudget.toFixed(0)}</p>
+              <p>Ship Excursion: €{planning.shipExcursionBenchmark.toFixed(0)}</p>
+              <p className={savings >= 0 ? "text-emerald-300" : "text-rose-300"}>Savings: €{savings.toFixed(0)}</p>
+              {savings < 0 && <p className="rounded bg-rose-500/20 px-3 py-2">Warning: DIY currently exceeds ship benchmark.</p>}
+            </div>
           )}
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
-function TypingBubble() {
+function Bubble({ role, content, onAddStop }: { role: Role; content: string; onAddStop: (c: string) => void }) {
+  const isUser = role === "user";
   return (
-    <div className="flex justify-start">
-      <div className="flex items-start gap-3">
-        <div className="rounded-2xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-md">
-          <Dots />
-        </div>
+    <div className={`flex ${isUser ? "justify-end" : "justify-start"}`}>
+      <div className={`${isUser ? "bg-cyan-500 text-slate-900" : "bg-white/10"} max-w-[85%] rounded-xl px-3 py-2 text-sm whitespace-pre-wrap`}>
+        {content}
+        {!isUser && (
+          <button onClick={() => onAddStop(content)} className="mt-2 block text-xs underline text-cyan-300">➕ Add this stop to my plan</button>
+        )}
       </div>
     </div>
   );
 }
 
-function Dots() {
-  return (
-    <div className="flex items-center gap-1">
-      <span className="inline-block h-2 w-2 animate-bounce rounded-full bg-sky-400 [animation-delay:-0.2s]" />
-      <span className="inline-block h-2 w-2 animate-bounce rounded-full bg-sky-300 [animation-delay:-0.1s]" />
-      <span className="inline-block h-2 w-2 animate-bounce rounded-full bg-sky-200" />
-    </div>
-  );
+function emojiForTransit(m: string) {
+  if (m === "taxi") return "🚖";
+  if (m === "walk") return "🚶";
+  if (m === "metro") return "🚇";
+  return "🚌";
 }
 
-/* ---------- Minimal Markdown ---------- */
-function Markdown({ text }: { text: string }) {
-  const html = useMemo(() => {
-    if (!text) return "";
-    let t = text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    t = t.replace(/\n{2,}/g, "\n\n");
-    t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-    t = t.replace(/\*(.+?)\*/g, "<em>$1</em>");
+function SafeReturnCountdown({ safeReturnTime }: { safeReturnTime: string }) {
+  const [txt, setTxt] = useState("");
+  useEffect(() => {
+    const timer = setInterval(() => {
+      const now = new Date();
+      const [h, m] = safeReturnTime.split(":").map(Number);
+      const t = new Date();
+      t.setHours(h, m, 0, 0);
+      const diff = t.getTime() - now.getTime();
+      const mins = Math.max(0, Math.floor(diff / 60000));
+      setTxt(`T-${mins}m to safe return`);
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [safeReturnTime]);
+  return <span className="rounded-full bg-white/10 px-3 py-1">{txt}</span>;
+}
 
-    const lines = t.split("\n");
-    const out: string[] = [];
-    let ul = false, ol = false, justBroke = false;
-    const close = () => { if (ul) out.push("</ul>"), ul = false; if (ol) out.push("</ol>"), ol = false; };
+function MapView({ stops, port, safeReturnTime }: { stops: PlanStop[]; port: string; safeReturnTime: string }) {
+  const mapRef = useRef<HTMLDivElement>(null);
 
-    for (const line of lines) {
-      const mUL = line.match(/^\s*(?:-|•)\s+(.*)$/);
-      const mOL = line.match(/^\s*\d+\.\s+(.*)$/);
-
-      if (mUL) {
-        if (!ul) { close(); out.push("<ul class='pl-5 list-disc'>"); ul = true; }
-        out.push(`<li>${mUL[1]}</li>`); justBroke = false; continue;
+  useEffect(() => {
+    const key = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+    if (!key || !mapRef.current) return;
+    const id = "pt-gmaps";
+    const init = () => {
+      // @ts-ignore
+      const g = window.google;
+      if (!g || !mapRef.current) return;
+      const center = stops[0] ? { lat: stops[0].lat, lng: stops[0].lng } : { lat: 41.385, lng: 2.173 };
+      const map = new g.maps.Map(mapRef.current, { center, zoom: 12 });
+      const terminal = new g.maps.Marker({ position: center, map, label: "T" });
+      const pts = [center];
+      stops.forEach((s, i) => {
+        const p = { lat: s.lat, lng: s.lng };
+        pts.push(p);
+        new g.maps.Marker({ position: p, map, label: String(i + 1) });
+      });
+      new g.maps.Polyline({ path: pts, map, strokeColor: "#22d3ee", strokeWeight: 3 });
+      if (pts.length > 1) {
+        new g.maps.Polyline({ path: [pts[pts.length - 1], center], map, strokeColor: "#ef4444", strokeWeight: 4 });
       }
-      if (mOL) {
-        if (!ol) { close(); out.push("<ol class='pl-5 list-decimal'>"); ol = true; }
-        out.push(`<li>${mOL[1]}</li>`); justBroke = false; continue;
-      }
-      if (line.trim() === "") {
-        close();
-        if (!justBroke) out.push("<br/>");
-        justBroke = true;
-        continue;
-      }
-      close();
-      out.push(`<p>${line}</p>`); justBroke = false;
+      terminal.setMap(map);
+    };
+    // @ts-ignore
+    if (window.google?.maps) return init();
+    if (!document.getElementById(id)) {
+      const sc = document.createElement("script");
+      sc.id = id;
+      sc.src = `https://maps.googleapis.com/maps/api/js?key=${key}`;
+      sc.async = true;
+      sc.onload = init;
+      document.body.appendChild(sc);
     }
-    close();
-    return out.join("");
-  }, [text]);
+  }, [stops, port]);
 
-  return <div className="chat-md [&>p]:my-1 [&_ul]:my-1 [&_ol]:my-1 [&_li]:my-0.5" dangerouslySetInnerHTML={{ __html: html }} />;
+  return (
+    <div>
+      <p className="mb-2 text-sm text-slate-300">Map updates automatically when stops change. Final leg back to ship is highlighted in red. Safe return: {safeReturnTime}</p>
+      <div ref={mapRef} className="h-[420px] w-full rounded-xl bg-slate-900/80" />
+      {!process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY && (
+        <div className="mt-3 rounded bg-amber-500/20 px-3 py-2 text-sm">Google Maps key not configured. Add `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` to enable live map rendering.</div>
+      )}
+    </div>
+  );
 }

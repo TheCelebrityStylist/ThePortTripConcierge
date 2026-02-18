@@ -190,7 +190,7 @@ function buildSystemPrompt(intent) {
     "Use clean narrative blocks with timestamps exactly like 09:00–09:25 and blank lines between blocks.",
     "MANDATORY OUTPUT FORMAT:",
     "1) Port Summary Snapshot (dock type, distance to city center, typical travel time, risk level today, must return by time)",
-    "2) Time-Optimized Itinerary Table with explicit blocks (start-end, transit, transport + cost + minutes, duration, why this order)",
+    "2) Time-Optimized Itinerary blocks (no tables) with explicit start-end, transport, cost, duration, and why this order.",
     "3) Budget Comparison (ship excursion, DIY estimate, savings)",
     "4) Return-to-Ship Safety Logic (all-aboard, safe return, detailed buffers, risk explanation)",
     "5) Hidden Local Add-On (20-minute optional stop near terminal)",
@@ -307,16 +307,41 @@ export async function POST(req) {
 
     if (!/Port Summary Snapshot/i.test(text)) {
       text = [
-        "Port Summary Snapshot",
-        `- Dock type: ${structured.dockType}`,
-        `- Distance to city center: ${dbPort.distance_to_city_center_km} km`,
-        `- Typical transfer time: ${dbPort.average_transfer_time_minutes} min`,
-        `- Risk level today: ${computed.riskLevel}`,
-        `- Must return by: ${computed.safeReturn}`,
+        `Port Summary Snapshot`,
+        `Dock type: ${structured.dockType}`,
+        `Distance to city center: ${dbPort.distance_to_city_center_km} km`,
+        `Typical transfer time: ${dbPort.average_transfer_time_minutes} min`,
+        `Risk level today: ${computed.riskLevel}`,
+        `Must return by: ${computed.safeReturn}`,
         "",
         text,
       ].join("\n");
     }
+
+    const updatedStops = itinerarySeed.map((b) => ({
+      name: b.stop,
+      startTime: b.start,
+      endTime: b.end,
+      durationMinutes: b.duration,
+      transitFromPrevious: { method: (b.travel.mode || "taxi").toLowerCase().includes("walk") ? "walk" : "taxi", durationMinutes: b.travel.minutes, cost: b.travel.cost },
+      visitCost: Math.round((dbPort.attractions || []).find((a) => a.name === b.stop)?.entrance_fee_eur || 0),
+      lat: 41.385,
+      lng: 2.173,
+      notes: b.why,
+    }));
+
+    const payload = {
+      action: inferIntent(userQuery) === "shortlist" ? "answer_only" : (structured.raw.toLowerCase().includes("replace") ? "modify_plan" : "create_plan"),
+      updatedStops,
+      reasoning: text,
+      riskFactors: [
+        `traffic_window_${computed.buffers.traffic}`,
+        `port_congestion_${computed.buffers.portCongestion}`,
+        `tender_${computed.buffers.tender}`,
+        `risk_${computed.riskLevel}`,
+      ],
+      answer: text,
+    };
 
     if (isStripe) {
       if (!isUnlimited) await bumpStripeUsage(stripeCustomer, used);
@@ -324,7 +349,7 @@ export async function POST(req) {
       setCookie(headers, "pt_free_used", `${monthKey()}:${used + 1}`, { path: "/", maxAge: 60 * 60 * 24 * 31, sameSite: "Lax", secure: true });
     }
 
-    return new Response(text, { headers });
+    return new Response(JSON.stringify(payload), { headers: new Headers({ "Content-Type": "application/json" }) });
   } catch (err) {
     return new Response(JSON.stringify({ error: String(err) }), { status: 500, headers: new Headers({ "Content-Type": "application/json" }) });
   }

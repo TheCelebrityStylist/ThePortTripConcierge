@@ -1,86 +1,51 @@
-# PortTrip Product Rebuild Deliverables
+# PortTrip Cruise Operating System Deliverables
 
-## Blog folder structure
+## Updated folder structure (new/updated)
+- `app/components/PlanningProvider.tsx`
+- `app/chat/page.tsx` (state-driven tabs + builder integration)
+- `app/blog/[slug]/page.tsx` (dynamic SEO + schema + links)
+- `app/api/chat/route.js` (structured action output)
+- `app/layout.tsx` (global provider + persistent nav)
 
-- `app/blog/page.tsx` (index)
-- `app/blog/[slug]/page.tsx` (article)
-- `app/data/blog-cms.ts` (CMS content model + 15 long-form articles)
+## PlanningContext implementation
+- Centralized state engine in `PlanningProvider` holds:
+  - port, arrival/all-aboard, safe return time
+  - risk score
+  - walking preference
+  - typed stops array
+  - total budget + ship benchmark
+- All tabs read/write from the same store.
 
-## CMS model
+## Timeline component behavior
+- Functional vertical schedule blocks with:
+  - editable start/end/name/duration/cost
+  - add/delete
+  - reorder (up/down)
+  - recalculation of downstream times, risk, safe return, budget
 
-```ts
-BlogArticle {
-  slug: string
-  title: string
-  metaTitle: string
-  metaDescription: string
-  images: string[]
-  ctaText: string
-  faq: { question: string; answer: string }[]
-  sections: { h2: string; h3: string; paragraphs: string[] }[]
-  wordCount: number
-}
-```
+## Map integration
+- Google Maps JS API wiring in chat Map tab:
+  - terminal marker
+  - numbered stop markers
+  - route polyline
+  - final return leg highlighted red
+  - auto-refresh on stop changes
+- Fallback message appears if map key missing.
 
-## Itinerary DB schema
+## Budget logic
+- `totalBudget = Σ transit.cost + Σ visitCost`
+- `savings = shipExcursionBenchmark - totalBudget`
+- Warning rendered when DIY exceeds ship excursion benchmark.
 
-Migration file: `app/data/migrations/001_create_itineraries.sql`
-
-- id
-- user_id
-- port
-- ship_name
-- arrival_time
-- all_aboard_time
-- safety_buffer
-- risk_score
-- itinerary_json
-- created_at
-- updated_at
-
-Persistence APIs:
-- `POST/GET /api/itineraries`
-- `GET/PATCH/DELETE /api/itineraries/:id`
-- `GET /api/itineraries/:id/pdf`
-
-## Updated OpenAI system prompt
-
-Implemented in `app/api/chat/route.js`:
-- Cruise logistics planner persona
-- Priority order: DB > Tavily > reasoning
-- No generic phrasing
-- No ASCII/pipe table formatting
-- Structured sections enforced
-- Shortlist intent branch for “top 3 minimal walking” style queries
-
-## Example 3000-word blog snippet
-
-Each of the first 15 articles is generated with >3,200 words and multi-section transport/safety content. Example section excerpt:
-
-> Set a must-return-by time that includes traffic, terminal congestion, and dock/tender friction. For dock ports, 75 minutes is a practical minimum buffer; for tender ports, use 95 minutes or more depending on queue behavior. Trigger your return when either the clock hits the threshold or your transport reliability degrades—whichever comes first.
-
-## Example saved itinerary JSON
-
-```json
-{
-  "id": "it_x3q9k2ab",
-  "user_id": "guest",
-  "port": "Barcelona",
-  "ship_name": "Icon of the Seas",
-  "arrival_time": "09:00",
-  "all_aboard_time": "16:30",
-  "safety_buffer": 75,
-  "risk_score": 48,
-  "itinerary_json": {
-    "blocks": [
-      { "start": "09:00", "end": "09:25", "title": "Transit to city core", "notes": "Time-safe outbound segment", "costEur": 25 },
-      { "start": "09:25", "end": "10:45", "title": "Primary cluster", "notes": "Prioritized for low crowd density" }
-    ],
-    "comparison": { "shipExcursion": 119, "diy": 38, "savings": 81 }
-  }
-}
-```
+## Updated OpenAI integration logic
+- System prompt upgraded to “cruise logistics strategist” with no filler and no ASCII tables.
+- API returns structured payload:
+  - `action`
+  - `updatedStops`
+  - `reasoning`
+  - `riskFactors`
+  - `answer`
+- Chat consumes this payload and mutates planning state directly.
 
 ## Stripe confirmation
-
-Stripe checkout + plan gating logic remains intact and was not removed.
+- Stripe checkout and plan tiers remain untouched and operational.

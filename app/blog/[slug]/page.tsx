@@ -85,7 +85,9 @@ export default function BlogArticlePage({ params }: Props) {
         {article.sections.map((section) => (
           <section key={section.h2} id={section.h2.toLowerCase().replace(/[^a-z0-9]+/g, "-")} className="mt-8">
             <h2 className="text-2xl font-semibold">{section.h2}</h2>
-            <h3 className="mt-2 text-lg font-medium text-sky-300">{section.h3}</h3>
+            {/\d{1,2}:\d{2}\s*[–-]\s*\d{1,2}:\d{2}/.test(section.h3) ? (
+              <h3 className="mt-2 text-lg font-medium text-sky-300">{section.h3}</h3>
+            ) : null}
             {section.paragraphs.map((p, idx) => (
               <p key={idx} className="mt-3 text-slate-300">{p}</p>
             ))}
