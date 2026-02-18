@@ -20,7 +20,9 @@ const USE_EMBEDDINGS = (process.env.USE_EMBEDDINGS || "true").toLowerCase() !== 
 // Stripe price plan semantics (Pro=25/month, Unlimited=∞)
 const PRO_LIMIT = 25;
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const client = process.env.OPENAI_API_KEY
+  ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
+  : null;
 
 /* =======================================
    SMALL UTILS
@@ -57,6 +59,7 @@ function keywordScore(q, text) {
   return s;
 }
 async function embed(inputs) {
+  if (!client) return [];
   const res = await client.embeddings.create({ model: EMBED_MODEL, input: inputs });
   return res.data.map(d => d.embedding);
 }
@@ -311,6 +314,12 @@ function readStripeCustomer(req) {
    ROUTE
    ======================================= */
 export async function POST(req) {
+  if (!client) {
+    return new Response(JSON.stringify({ error: "Server missing OPENAI_API_KEY." }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" }
+    });
+  }
   // Prepare response headers (for setting cookies if needed)
   const headers = new Headers({ "Content-Type": "text/plain; charset=utf-8" });
 
