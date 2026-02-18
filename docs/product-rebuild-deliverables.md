@@ -1,51 +1,36 @@
-# PortTrip Cruise Operating System Deliverables
+# PortTrip SEO Domination Deliverables
 
-## Updated folder structure (new/updated)
-- `app/components/PlanningProvider.tsx`
-- `app/chat/page.tsx` (state-driven tabs + builder integration)
-- `app/blog/[slug]/page.tsx` (dynamic SEO + schema + links)
-- `app/api/chat/route.js` (structured action output)
-- `app/layout.tsx` (global provider + persistent nav)
+## Updated blog file structure
+- `app/blog/layout.tsx` — hub-level metadata + OG/Twitter
+- `app/blog/page.tsx` — Cruise Intelligence Library hub (filters, search, featured section, sticky planner CTA)
+- `app/blog/[slug]/page.tsx` — long-form article renderer with metadata + schema + related-link injection
+- `app/data/blog-cms.ts` — 15 high-intent long-form guides (3,000+ words each)
 
-## PlanningContext implementation
-- Centralized state engine in `PlanningProvider` holds:
-  - port, arrival/all-aboard, safe return time
-  - risk score
-  - walking preference
-  - typed stops array
-  - total budget + ship benchmark
-- All tabs read/write from the same store.
+## One fully written 3,000+ word article example
+- Example slug: `rome-cruise-port-guide-civitavecchia-diy-one-day`
+- Includes: 6 H2 sections, 12+ H3 subtopics, FAQ section, planner CTA, related guides, transport/risk/budget guidance.
 
-## Timeline component behavior
-- Functional vertical schedule blocks with:
-  - editable start/end/name/duration/cost
-  - add/delete
-  - reorder (up/down)
-  - recalculation of downstream times, risk, safe return, budget
+## Schema injection example
+Implemented on article pages:
+- Article schema (`@type: Article`) with headline, author org, publisher org, dates, image.
+- FAQPage schema from article FAQ list.
+- BreadcrumbList schema for Home → Library → Article.
 
-## Map integration
-- Google Maps JS API wiring in chat Map tab:
-  - terminal marker
-  - numbered stop markers
-  - route polyline
-  - final return leg highlighted red
-  - auto-refresh on stop changes
-- Fallback message appears if map key missing.
+## Metadata implementation example
+Per article `generateMetadata` now emits:
+- title
+- description
+- keywords
+- OpenGraph (`og:title`, `og:description`, `og:image`, `og:type=article`)
+- Twitter card (`summary_large_image`)
 
-## Budget logic
-- `totalBudget = Σ transit.cost + Σ visitCost`
-- `savings = shipExcursionBenchmark - totalBudget`
-- Warning rendered when DIY exceeds ship excursion benchmark.
+## Sitemap generation logic
+`app/sitemap.ts` composes:
+- static app routes
+- port guide routes
+- cruise question routes
+- all blog article routes from `blog-cms.ts`
 
-## Updated OpenAI integration logic
-- System prompt upgraded to “cruise logistics strategist” with no filler and no ASCII tables.
-- API returns structured payload:
-  - `action`
-  - `updatedStops`
-  - `reasoning`
-  - `riskFactors`
-  - `answer`
-- Chat consumes this payload and mutates planning state directly.
-
-## Stripe confirmation
-- Stripe checkout and plan tiers remain untouched and operational.
+## Stripe / auth confirmation
+- Stripe checkout, plan tiers, and gating semantics remain intact.
+- Authentication routes/pages remain intact.
