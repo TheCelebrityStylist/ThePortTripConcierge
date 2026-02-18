@@ -92,6 +92,7 @@ export default function ChatPage() {
   const [crowdInsight, setCrowdInsight] = useState("Peak window: 12:30–14:00");
   const [itineraryBlocks, setItineraryBlocks] = useState<ItineraryBlock[]>([]);
   const [savedItineraryId, setSavedItineraryId] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState<"chat"|"timeline"|"map"|"budget">("chat");
 
   /* Plan & usage state */
   const [plan, setPlan] = useState<Plan>(getStoredPlan());
@@ -330,6 +331,14 @@ export default function ChatPage() {
     setItineraryBlocks((b) => [...b, { start: "12:00", end: "12:30", title: "Custom stop", notes: "User-defined stop", costEur: 10 }]);
   }
 
+
+  function addFromMessage(content: string) {
+    const first = content.split("\n").find((l) => /\d{1,2}:\d{2}[–-]\d{1,2}:\d{2}/.test(l));
+    const title = first ? first.replace(/\d{1,2}:\d{2}[–-]\d{1,2}:\d{2}\s*/, "") : "Suggested stop";
+    setItineraryBlocks((b) => [...b, { start: "13:00", end: "13:45", title, notes: "Added from concierge suggestion", costEur: 15 }]);
+    setActiveTab("timeline");
+  }
+
   async function editPlan() {
     if (!savedItineraryId) return setBanner("Save plan first.");
     const res = await fetch(`/api/itineraries/${savedItineraryId}`, {
@@ -473,18 +482,53 @@ export default function ChatPage() {
           )}
         </div>
 
-        {/* Chat area */}
-        <div
-          ref={scrollerRef}
-          className="min-h-[60vh] space-y-3 rounded-[24px] border border-white/15 bg-white/5 p-4 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:p-6"
-        >
-          {messages.map((m, i) => <Bubble key={i} role={m.role} content={m.content} />)}
-          {loading && <TypingBubble />}
-          {atLimit && (
-            <UpgradePrompt onPro={() => startCheckout("pro")} onUnlimited={() => startCheckout("unlimited")} />
-          )}
+
+        <div className="mb-3 flex flex-wrap gap-2">
+          {(["chat","timeline","map","budget"] as const).map((t)=>(
+            <button key={t} type="button" onClick={()=>setActiveTab(t)} className={`rounded-full px-3 py-1 text-sm ${activeTab===t?"bg-cyan-500 text-slate-900":"bg-white/10"}`}>
+              {t === "chat" ? "Tab 1 – Chat" : t === "timeline" ? "Tab 2 – Timeline Builder" : t === "map" ? "Tab 3 – Map View" : "Tab 4 – Budget"}
+            </button>
+          ))}
         </div>
 
+        {/* Chat area */}
+        {activeTab === "chat" && (
+          <div
+            ref={scrollerRef}
+            className="min-h-[60vh] space-y-3 rounded-[24px] border border-white/15 bg-white/5 p-4 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:p-6"
+          >
+            {messages.map((m, i) => <Bubble key={i} role={m.role} content={m.content} onAddStop={addFromMessage} />)}
+            {loading && <TypingBubble />}
+            {atLimit && (
+              <UpgradePrompt onPro={() => startCheckout("pro")} onUnlimited={() => startCheckout("unlimited")} />
+            )}
+          </div>
+        )}
+
+        {activeTab === "timeline" && (
+          <div className="min-h-[60vh] rounded-[24px] border border-white/15 bg-white/5 p-4">
+            <p className="text-sm text-slate-300">Timeline Builder: drag-and-drop can be added next; currently supports inline edit, add, remove, and recalculation with AI context.</p>
+          </div>
+        )}
+
+        {activeTab === "map" && (
+          <div className="min-h-[60vh] rounded-[24px] border border-white/15 bg-white/5 p-4 text-sm text-slate-300">
+            <p>Map View: stops plotted as sequential route.</p>
+            <ul className="mt-2 list-disc pl-5">
+              {itineraryBlocks.map((b, i) => <li key={i}>{b.start}-{b.end}: {b.title} · <a className="underline" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.title)}`} target="_blank" rel="noopener noreferrer">Open map</a></li>)}
+            </ul>
+          </div>
+        )}
+
+        {activeTab === "budget" && (
+          <div className="min-h-[60vh] rounded-[24px] border border-white/15 bg-white/5 p-4 text-sm text-slate-300">
+            <p>Total route estimate: €{itineraryBlocks.reduce((s,b)=>s+(b.costEur||0),0)}</p>
+            <p>Ship excursion benchmark: €119</p>
+            <p>Estimated savings: €{Math.max(0,119-itineraryBlocks.reduce((s,b)=>s+(b.costEur||0),0))}</p>
+          </div>
+        )}
+
+        {activeTab === "chat" && (<>
         {/* Chips */}
         <div className="mt-3 flex flex-wrap gap-2">
           {chips.map((c) => (
@@ -521,6 +565,7 @@ export default function ChatPage() {
             Tip: include <strong>arrival → all-aboard</strong> time + preferences (kids, mobility, budget) for a sharper plan.
           </p>
         </form>
+        </>)}
       </div>
     </div>
   );
@@ -550,7 +595,7 @@ function UpgradePrompt({ onPro, onUnlimited }: { onPro: () => void; onUnlimited:
   );
 }
 
-function Bubble({ role, content }: { role: Role; content: string }) {
+function Bubble({ role, content, onAddStop }: { role: Role; content: string; onAddStop?: (c: string) => void }) {
   const isUser = role === "user";
   const rowJustify = isUser ? "justify-end" : "justify-start";
 
@@ -566,6 +611,9 @@ function Bubble({ role, content }: { role: Role; content: string }) {
           style={{ wordBreak: "break-word" }}
         >
           <Markdown text={content} />
+                  {!isUser && onAddStop && (
+            <button type="button" onClick={() => onAddStop(content)} className="mt-1 text-xs underline text-cyan-300">➕ Add this stop to my plan</button>
+          )}
         </div>
       </div>
     </div>

@@ -3,8 +3,8 @@ import Link from "next/link";
 import { blogArticles } from "@/app/data/blog-cms";
 
 export const metadata: Metadata = {
-  title: "Cruise Port Planning Blog",
-  description: "Authority cruise port guides with transport, pricing, and return-safe logistics.",
+  title: "Cruise Intelligence Library",
+  description: "Cruise port guides with transport, pricing, and return-safe logistics.",
   alternates: { canonical: "https://porttrip.com/blog" },
 };
 
@@ -12,8 +12,8 @@ export default function BlogIndexPage() {
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-10 text-slate-100">
       <section className="mx-auto max-w-5xl">
-        <h1 className="text-4xl font-semibold">PortTrip Authority Blog</h1>
-        <p className="mt-3 text-slate-300">Long-form cruise-port playbooks built for return safety, realistic timing, and better spend control.</p>
+        <h1 className="text-4xl font-semibold">Cruise Intelligence Library</h1>
+        <p className="mt-3 text-slate-300">Cruise Port Playbooks built for return safety, realistic timing, and better spend control.</p>
         <ul className="mt-8 grid gap-4 md:grid-cols-2">
           {blogArticles.map((article) => (
             <li key={article.slug} className="rounded-2xl border border-white/10 bg-white/5 p-4">

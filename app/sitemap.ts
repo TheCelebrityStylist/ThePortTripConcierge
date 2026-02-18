@@ -4,7 +4,7 @@ import { seoPorts } from "./data/seo-ports";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.NEXT_PUBLIC_SITE_URL || "https://porttrip.com";
-  const staticRoutes: MetadataRoute.Sitemap = ["", "/chat", "/ports", "/blog"].map((path, i) => ({
+  const staticRoutes: MetadataRoute.Sitemap = ["", "/plan", "/chat", "/ports", "/blog", "/login", "/signup", "/dashboard"].map((path, i) => ({
     url: `${base}${path}`,
     lastModified: new Date(),
     changeFrequency: "weekly",

@@ -36,16 +36,6 @@ export default function HomePage() {
         <div className="absolute -bottom-40 -right-40 h-[52rem] w-[52rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(56,189,248,0.18),_transparent_60%)] blur-2xl" />
       </div>
 
-      <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <div className="font-semibold tracking-wide">PortTrip Cruise Intelligence System</div>
-        <nav className="flex items-center gap-5 text-sm text-slate-300">
-          <a href="#features">Features</a>
-          <a href="/blog">Blog</a>
-          <a href="#pricing">Pricing</a>
-          <a href="/chat" className="rounded-lg bg-white/10 px-3 py-1.5">Plan My Port Day</a>
-        </nav>
-      </header>
-
       {banner && <div className="relative z-10 mx-auto max-w-4xl rounded-xl border border-amber-300/20 bg-amber-500/10 px-4 py-2 text-sm text-amber-200">{banner}</div>}
 
       <section className="relative z-10 mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 pb-10 pt-8 md:grid-cols-2">
