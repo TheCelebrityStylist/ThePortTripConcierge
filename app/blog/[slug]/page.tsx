@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ArticleHero from "@/app/components/blog/ArticleHero";
-import PlannerCTA from "@/app/components/blog/PlannerCTA";
 import { blogArticleMap, blogArticles } from "@/app/data/blog-cms";
 
 type Props = { params: { slug: string } };
@@ -51,6 +50,16 @@ const tone = {
   CTA: "border-cyan-300/30 bg-cyan-500/10",
 };
 
+
+
+const dedupeConsecutive = (items: string[]) => {
+  const out: string[] = [];
+  for (const item of items) {
+    if (!out.length || out[out.length - 1].trim() !== item.trim()) out.push(item);
+  }
+  return out;
+};
+
 export default function BlogArticlePage({ params }: Props) {
   const article = getArticle(params.slug);
   if (!article) return <main className="min-h-screen bg-slate-950 p-10 text-slate-100">Article not found.</main>;
@@ -86,22 +95,17 @@ export default function BlogArticlePage({ params }: Props) {
           <article className="space-y-8">
             <ArticleHero article={article} />
 
-            <PlannerCTA
-              title={`Plan ${article.portsMentioned?.[0] ?? article.region} now`}
-              description="Run this strategy in Cruise Day Planner and keep return cut rules visible."
-              label={article.plannerCta.label}
-              href={article.plannerCta.href}
-            />
+            <p className="text-sm text-slate-300">Want to turn this into a timed itinerary? <Link className="underline" href={article.plannerCta.href}>Open Cruise Day Planner</Link>.</p>
 
             {article.contentBlocks.map((block, idx) => (
               <section id={block.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")} key={`${block.kind}-${idx}`} className={`rounded-2xl border p-5 ${tone[block.kind]}`}>
                 <h2 className="text-2xl font-semibold">{block.title}</h2>
                 <div className="mt-3 space-y-3 text-slate-100">
-                  {block.lede.map((p) => <p key={p}>{p}</p>)}
+                  {dedupeConsecutive(block.lede).map((p) => <p key={p}>{p}</p>)}
                 </div>
 
                 <div className="mt-4 space-y-3 text-slate-100">
-                  {block.body.map((p) => <p key={p}>{p}</p>)}
+                  {dedupeConsecutive(block.body).map((p) => <p key={p}>{p}</p>)}
                 </div>
 
                 {block.bullets?.length ? (
@@ -118,15 +122,6 @@ export default function BlogArticlePage({ params }: Props) {
                 ) : null}
 
                 {block.localTip ? <p className="mt-4 text-sm text-cyan-100">{block.localTip}</p> : null}
-
-                {idx === Math.floor(article.contentBlocks.length / 2) ? (
-                  <PlannerCTA
-                    title="Mid-article checkpoint"
-                    description="Convert this section into a timed planner sequence before continuing."
-                    label="Plan My Port Day"
-                    href={article.plannerCta.href}
-                  />
-                ) : null}
               </section>
             ))}
 
@@ -151,7 +146,6 @@ export default function BlogArticlePage({ params }: Props) {
               </ul>
             </section>
 
-            <PlannerCTA title="Ready to finalize your plan?" description="Lock this strategy with hard return cutoffs and fallback routes." label="Plan My Port Day" href={article.plannerCta.href} />
           </article>
 
           <aside className="hidden lg:block">
@@ -163,7 +157,6 @@ export default function BlogArticlePage({ params }: Props) {
                   return <li key={`${id}-${i}`}><a className="hover:text-cyan-200" href={`#${id}`}>{block.title}</a></li>;
                 })}
               </ol>
-              <Link href={article.plannerCta.href} className="inline-flex rounded-lg bg-cyan-400 px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-cyan-300">Plan My Port Day</Link>
             </div>
           </aside>
         </div>

@@ -20,10 +20,10 @@ export default function BlogHubPage() {
   const [traveler, setTraveler] = useState<(typeof travelers)[number]>("All");
   const [difficulty, setDifficulty] = useState<(typeof difficulties)[number]>("All");
   const [category, setCategory] = useState<(typeof categories)[number]>("All");
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-
     return blogArticles.filter((article) => {
       const qOk =
         !q ||
@@ -44,49 +44,55 @@ export default function BlogHubPage() {
     });
   }, [query, region, time, dock, traveler, difficulty, category]);
 
+  const toolbar = (
+    <div className="grid gap-3 md:grid-cols-4 xl:grid-cols-7">
+      <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search title, port, keyword" className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm" />
+      <select value={region} onChange={(e) => setRegion(e.target.value as (typeof regions)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{regions.map((v) => <option key={v}>{v}</option>)}</select>
+      <select value={time} onChange={(e) => setTime(e.target.value as (typeof times)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{times.map((v) => <option key={v}>{v}</option>)}</select>
+      <select value={dock} onChange={(e) => setDock(e.target.value as (typeof docking)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{docking.map((v) => <option key={v}>{v}</option>)}</select>
+      <select value={traveler} onChange={(e) => setTraveler(e.target.value as (typeof travelers)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{travelers.map((v) => <option key={v}>{v}</option>)}</select>
+      <select value={difficulty} onChange={(e) => setDifficulty(e.target.value as (typeof difficulties)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{difficulties.map((v) => <option key={v}>{v}</option>)}</select>
+      <select value={category} onChange={(e) => setCategory(e.target.value as (typeof categories)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{categories.map((v) => <option key={v}>{v}</option>)}</select>
+    </div>
+  );
+
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-10 text-slate-100">
       <section className="mx-auto max-w-7xl">
         <div className="rounded-3xl border border-cyan-300/25 bg-gradient-to-br from-slate-900 via-slate-900 to-cyan-950/80 p-6 md:p-8">
           <p className="text-xs uppercase tracking-[0.2em] text-cyan-200/80">PortTrip Editorial</p>
           <h1 className="mt-3 text-4xl font-semibold md:text-5xl">Cruise Intelligence Library</h1>
-          <p className="mt-3 max-w-3xl text-slate-200">
-            Cruise-specific planning intelligence built for timing control, transfer reliability, and safer ship return outcomes.
-          </p>
+          <p className="mt-3 max-w-3xl text-slate-200">Cruise-specific planning intelligence built for timing control, transfer reliability, and safer ship return outcomes.</p>
           <div className="mt-5 flex flex-wrap gap-3">
-            <Link href="/planner" className="rounded-lg bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-cyan-300">Plan your port day</Link>
             <Link href="/library/ports" className="rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold hover:bg-white/10">Browse port categories</Link>
           </div>
         </div>
 
-        <section className="sticky top-16 z-20 mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4 backdrop-blur">
-          <div className="grid gap-3 md:grid-cols-4 xl:grid-cols-7">
-            <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search title, port, keyword" className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm" />
-            <select value={region} onChange={(e) => setRegion(e.target.value as (typeof regions)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{regions.map((v) => <option key={v}>{v}</option>)}</select>
-            <select value={time} onChange={(e) => setTime(e.target.value as (typeof times)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{times.map((v) => <option key={v}>{v}</option>)}</select>
-            <select value={dock} onChange={(e) => setDock(e.target.value as (typeof docking)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{docking.map((v) => <option key={v}>{v}</option>)}</select>
-            <select value={traveler} onChange={(e) => setTraveler(e.target.value as (typeof travelers)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{travelers.map((v) => <option key={v}>{v}</option>)}</select>
-            <select value={difficulty} onChange={(e) => setDifficulty(e.target.value as (typeof difficulties)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{difficulties.map((v) => <option key={v}>{v}</option>)}</select>
-            <select value={category} onChange={(e) => setCategory(e.target.value as (typeof categories)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{categories.map((v) => <option key={v}>{v}</option>)}</select>
+        <section className="mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4">
+          <div className="hidden md:block">{toolbar}</div>
+          <div className="md:hidden">
+            <button onClick={() => setMobileOpen(true)} className="rounded-lg border border-white/20 px-3 py-2 text-sm font-semibold">Filters</button>
           </div>
         </section>
 
+        {mobileOpen && (
+          <div className="fixed inset-0 z-50 bg-slate-950/80 p-4 md:hidden" role="dialog" aria-modal="true">
+            <div className="mx-auto max-w-lg rounded-2xl border border-white/10 bg-slate-900 p-4">
+              <div className="mb-3 flex items-center justify-between">
+                <h2 className="text-lg font-semibold">Filters</h2>
+                <button onClick={() => setMobileOpen(false)} className="rounded bg-white/10 px-3 py-1 text-sm">Close</button>
+              </div>
+              {toolbar}
+            </div>
+          </div>
+        )}
+
         <div className="mt-4 flex items-center justify-between">
           <p className="text-sm text-slate-400">{filtered.length} guides matched</p>
-          <Link href="/planner" className="text-sm font-semibold text-cyan-200 underline">Plan My Port Day</Link>
         </div>
 
         <ul className="mt-4 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-          {filtered.flatMap((article, index) => [
-            <BlogCard key={article.slug} article={article} />,
-            (index + 1) % 6 === 0 ? (
-              <li key={`${article.slug}-cta`} className="rounded-2xl border border-cyan-300/30 bg-cyan-500/10 p-5">
-                <h3 className="text-xl font-semibold">Start Planning Your Port</h3>
-                <p className="mt-2 text-sm text-slate-200">Convert any guide into a timed, ship-safe itinerary in Cruise Day Planner.</p>
-                <Link href="/planner" className="mt-4 inline-flex rounded-lg bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-900">Open Planner</Link>
-              </li>
-            ) : null,
-          ])}
+          {filtered.map((article) => <BlogCard key={article.slug} article={article} />)}
         </ul>
       </section>
     </main>
