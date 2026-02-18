@@ -45,6 +45,16 @@ function setUsage(u: { month: string; count: number }) {
 type Role = "user" | "assistant";
 type ChatMsg = { role: Role; content: string };
 
+type CruiseContext = {
+  cruiseLine: string;
+  shipName: string;
+  arrivalTime: string;
+  allAboardTime: string;
+  dockType: "dock" | "tender";
+  terminalName: string;
+};
+
+
 /* ---------- Page ---------- */
 export default function ChatPage() {
   const [messages, setMessages] = useState<ChatMsg[]>([
@@ -57,6 +67,25 @@ export default function ChatPage() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [banner, setBanner] = useState<string | null>(null);
+  const [cruiseContext, setCruiseContext] = useState<CruiseContext>({
+    cruiseLine: "Royal Caribbean",
+    shipName: "Icon of the Seas",
+    arrivalTime: "08:00",
+    allAboardTime: "16:30",
+    dockType: "dock",
+    terminalName: "Main Cruise Terminal",
+  });
+  const [toggles, setToggles] = useState<Record<string, boolean>>({
+    firstTimeCruiser: true,
+    travelingWithKids: false,
+    seniorFriendly: false,
+    budgetMode: true,
+    luxuryMode: false,
+    adventureMode: false,
+    sixHourPort: true,
+    eightHourPort: false,
+    tenPlusHourPort: false,
+  });
 
   /* Plan & usage state */
   const [plan, setPlan] = useState<Plan>(getStoredPlan());
@@ -177,7 +206,9 @@ export default function ChatPage() {
           plan,
           usage: next,
           messages: nextHistory,
-          history: nextHistory
+          history: nextHistory,
+          cruiseContext,
+          personalization: toggles
         }),
         credentials: "include"
       });
@@ -304,6 +335,23 @@ export default function ChatPage() {
             >
               Go Unlimited
             </button>
+          </div>
+        </div>
+
+        <div className="mb-3 rounded-xl border border-white/10 bg-white/5 p-3 text-xs text-slate-200">
+          <p className="mb-2 font-medium">Ship-Aware Intelligence Layer</p>
+          <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
+            <input value={cruiseContext.cruiseLine} onChange={(e)=>setCruiseContext({...cruiseContext, cruiseLine:e.target.value})} className="rounded bg-white/10 px-2 py-1" placeholder="Cruise line" />
+            <input value={cruiseContext.shipName} onChange={(e)=>setCruiseContext({...cruiseContext, shipName:e.target.value})} className="rounded bg-white/10 px-2 py-1" placeholder="Ship name" />
+            <input value={cruiseContext.terminalName} onChange={(e)=>setCruiseContext({...cruiseContext, terminalName:e.target.value})} className="rounded bg-white/10 px-2 py-1" placeholder="Terminal name" />
+            <input value={cruiseContext.arrivalTime} onChange={(e)=>setCruiseContext({...cruiseContext, arrivalTime:e.target.value})} className="rounded bg-white/10 px-2 py-1" type="time" />
+            <input value={cruiseContext.allAboardTime} onChange={(e)=>setCruiseContext({...cruiseContext, allAboardTime:e.target.value})} className="rounded bg-white/10 px-2 py-1" type="time" />
+            <select value={cruiseContext.dockType} onChange={(e)=>setCruiseContext({...cruiseContext, dockType:e.target.value as "dock"|"tender"})} className="rounded bg-white/10 px-2 py-1"><option value="dock">Dock</option><option value="tender">Tender</option></select>
+          </div>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {Object.keys(toggles).map((key)=> (
+              <button key={key} type="button" onClick={()=>setToggles({...toggles,[key]:!toggles[key]})} className={`rounded-full px-2 py-1 ${toggles[key]?"bg-cyan-500 text-slate-900":"bg-white/10"}`}>{key}</button>
+            ))}
           </div>
         </div>
 
