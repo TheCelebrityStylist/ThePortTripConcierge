@@ -43,32 +43,6 @@ export default function HomePage() {
         <div className="absolute -bottom-40 -right-40 h-[52rem] w-[52rem] rounded-full bg-[radial-gradient(circle_at_center,_rgba(99,102,241,0.18),_transparent_60%)] blur-2xl" />
       </div>
 
-      {/* Header */}
-      <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <div className="flex items-center gap-3">
-          <img
-            src="/logo-mark.svg"
-            alt="PortTrip"
-            className="h-8 w-8"
-            width={32}
-            height={32}
-          />
-          <span className="sr-only">PortTrip Concierge</span>
-        </div>
-
-        <nav className="flex items-center gap-6 text-sm text-slate-300">
-          <a href="#features" className="hover:text-white/90">Features</a>
-          <a href="#pricing" className="hover:text-white/90">Pricing</a>
-          <a href="#faq" className="hover:text-white/90">FAQ</a>
-          <a
-            href="/chat"
-            className="rounded-lg bg-white/10 px-3 py-1.5 font-medium hover:bg-white/15"
-          >
-            Launch app
-          </a>
-        </nav>
-      </header>
-
       {/* Top banner (errors, etc.) */}
       {banner && (
         <div className="relative z-10 mx-auto max-w-3xl px-6">
