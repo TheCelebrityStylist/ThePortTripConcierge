@@ -21,18 +21,52 @@ function paragraph(port: PortProfile, sectionTitle: string, index: number): stri
   const friction = port.timingFriction[index % port.timingFriction.length];
   const safeRule = port.returnSafeRules[index % port.returnSafeRules.length];
   const scenario = port.failureScenarios[index % port.failureScenarios.length];
+  const style = [
+    `If you treat ${sectionTitle.toLowerCase()} in ${port.cityName} like a fixed script, you will feel behind by lunch.`,
+    `A stronger approach in ${port.cityName} is to run ${sectionTitle.toLowerCase()} as a decision tree.`,
+    `Cruisers who do well in ${port.cityName} keep ${sectionTitle.toLowerCase()} flexible until midday.`
+  ][index % 3];
 
-  return `${sectionTitle} in ${port.cityName} works best when you plan it like a story with checkpoints, not a checklist with wishful timing. ${reality} A smart morning usually starts at ${anchorA}, then flows toward ${anchorB} only if your first transition is clean. Travelers who ignore ${friction} often feel rushed by lunch, then overcorrect with expensive last-minute transport. Keep this one line in your head all day: ${safeRule} If that still sounds abstract, use this concrete trigger from real port days: ${scenario}`;
+  return `${style} ${reality} Start around ${anchorA}, then move toward ${anchorB} only after checking your clock and transfer reliability. The hidden drain is usually ${friction}, which is why locals and repeat cruisers follow one strict rule: ${safeRule} If the day begins to slide, use this real-world trigger immediately: ${scenario}`;
+}
+
+function signatureBlock(port: PortProfile): BlogContentBlock {
+  const title = port.portType === "tender"
+    ? "Tender Strategy & First-Boat Advantage"
+    : port.difficulty === "Complex"
+      ? "The Transfer Corridor (and how to not lose 90 minutes)"
+      : "The 2-Zone Loop";
+
+  return {
+    kind: "RoutePlans",
+    title,
+    lede: [
+      `Who this is for: cruisers who want a realistic independent day in ${port.cityName} without all-aboard stress.`,
+      `What you can realistically do in ${port.typicalTimeInPortRange} at ${port.cityName}: one primary zone done well, one optional secondary zone, and a protected return corridor.`
+    ],
+    body: [
+      `${port.cityName} rewards travelers who choose shape over volume. Pick a first zone anchored around ${port.cityAnchors[0]}, then commit to a second zone only if your midday checkpoint is still healthy.`,
+      `In ${port.cityName}, the fastest way to lose control is to zig-zag between anchors with weak transfer certainty. Keep the spine simple, then layer optional experiences only when buffer remains intact.`,
+      `A signature move for this port is using ${port.cityAnchors[1]} as a pivot: if queues grow, stay local; if flow is smooth, extend once and then turn back early.`,
+    ],
+    bullets: [
+      `Primary zone anchor: ${port.cityAnchors[0]}`,
+      `Secondary zone only if on-time: ${port.cityAnchors[1]}`,
+      `Hard return cue: ${port.returnSafeRules[0]}`,
+    ],
+    callout: { title: "If you’re running late", text: `Skip your secondary zone and execute ${port.quickPlanOptions[0]} only.` },
+    localTip: `Local tip: use ${port.cityAnchors[2]} as your final meaningful stop before shifting into return mode.`,
+  };
 }
 
 function buildBlock(port: PortProfile, kind: BlogBlockKind, title: string, opener: string): BlogContentBlock {
-  const paragraphs = Array.from({ length: 6 }, (_, idx) => paragraph(port, title, idx));
+  const paragraphs = Array.from({ length: 5 }, (_, idx) => paragraph(port, title, idx));
   return {
     kind,
     title,
     lede: [
-      `${opener} ${port.cityName} is the terminal rhythm, not the postcard view. ${port.terminalReality[0]} This guide keeps the same section structure, but each section reads like a practical cruise-day narrative you can actually follow from gangway to all-aboard.`,
-      `In the ${title} section for ${port.cityName}, think of this as a travel journal with built-in cut rules. You will see where time drains, where crowds form, and how to preserve one calm return corridor so you can enjoy the city without gambling on the ship clock.`,
+      `${opener} ${port.cityName} is the terminal rhythm, not the postcard view. ${port.terminalReality[0]}`,
+      `In ${port.cityName}, this section explains how to move through ${title.toLowerCase()} with narrative checkpoints around ${port.cityAnchors[0]} and ${port.cityAnchors[1]}.`
     ],
     body: paragraphs,
     bullets: [
@@ -43,26 +77,27 @@ function buildBlock(port: PortProfile, kind: BlogBlockKind, title: string, opene
     ],
     callout: {
       title: "If you’re running late",
-      text: `In ${port.cityName}, trigger a hard cut the moment this condition appears: ${port.failureScenarios[1]}. Then apply this rule immediately: ${port.returnSafeRules[1]}`,
+      text: `In ${port.cityName}, trigger a hard cut when this appears: ${port.failureScenarios[1]}. Then apply: ${port.returnSafeRules[1]}`,
     },
-    localTip: `Local tip for ${port.cityName}: build your last unskippable stop around ${port.cityAnchors[2]} so your return is still practical when ${port.timingFriction[1]} appears.`,
+    localTip: `Local tip for ${port.cityName}: build your last unskippable stop around ${port.cityAnchors[2]} so return stays practical when ${port.timingFriction[1]} appears.`,
   };
 }
 
 function faqForPort(port: PortProfile) {
-  return Array.from({ length: 10 }, (_, i) => ({
-    q: `How should I handle ${port.cityName} scenario #${i + 1} without overreacting?`,
-    a: `Use a calm sequence: verify your current anchor (${port.cityAnchors[i % port.cityAnchors.length]}), compare it with your buffer, and then apply the matching return rule (${port.returnSafeRules[i % port.returnSafeRules.length]}). The key is acting early instead of compensating late.`,
+  return Array.from({ length: 8 }, (_, i) => ({
+    q: `What should I do first in ${port.cityName} if my disembarkation is delayed?`,
+    a: `Prioritize your most time-sensitive anchor (${port.cityAnchors[i % port.cityAnchors.length]}) and immediately drop one optional segment. Follow this rule: ${port.returnSafeRules[i % port.returnSafeRules.length]}`,
   }));
 }
 
 export function generatePortArticle(port: PortProfile): BlogArticle {
-  const contentBlocks = blockMeta.map((m) => buildBlock(port, m.kind, m.title, m.opener));
+  const generated = blockMeta.map((m) => buildBlock(port, m.kind, m.title, m.opener));
+  const contentBlocks = [generated[0], signatureBlock(port), ...generated.slice(1)];
   const today = new Date().toISOString().slice(0, 10);
 
   return {
     slug: port.slug,
-    title: `${port.cityName} Cruise Port Guide: Real DIY Day Plan with Return-Safe Rules`,
+    title: `${port.cityName} Cruise Port Guide: DIY Day Plan with Return-Safe Rules`,
     subtitle: `${port.portType === "tender" ? "Tender" : "Dock"} day playbook • ${port.typicalTimeInPortRange} • ${port.difficulty} difficulty`,
     metaTitle: `${port.cityName} Cruise Port Guide | Cruise Intelligence Library`,
     metaDescription: `Long-form ${port.cityName} cruise guide with terminal realities, route models, crowd strategy, scam awareness, accessibility notes, and planner-ready cut rules.`,
@@ -74,10 +109,10 @@ export function generatePortArticle(port: PortProfile): BlogArticle {
     tenderOrDock: port.portType === "tender" ? "Tender" : "Dock",
     timeInPortModel: port.typicalTimeInPortRange,
     dataConfidence: "estimated",
-    excerpt: `A practical long-form ${port.cityName} day plan built around real bottlenecks, flexible route models, and safer return discipline.`,
+    excerpt: `A practical ${port.cityName} port-day narrative with clear cut rules, realistic loops, and return-safe timing decisions.`,
     contentBlocks,
     faq: faqForPort(port),
-    internalLinks: port.internalLinks.slice(0, 8).map((href, i) => ({
+    internalLinks: port.internalLinks.slice(0, 8).map((href) => ({
       title: href.startsWith("/blog/") ? `Compare with ${href.replace("/blog/", "").replace(/-/g, " ")}` : "Cruise Day Planner",
       href,
       anchorText: href === "/planner" ? "Build this plan in Cruise Day Planner" : `Compare this approach to ${href.replace("/blog/", "").replace(/-/g, " ")}`,

@@ -1,17 +1,19 @@
 "use client";
 
 import React, { createContext, useContext, useMemo, useState } from "react";
-import type { DelayScenario, ItineraryPlan, ItineraryStop, StopType } from "../lib/types";
-import { applyScenarioDelay, minToTime, parseTimeToMin, sortByStart } from "../lib/plannerUtils";
+import type { DelayScenario, ItineraryPlan, ItineraryStop, StopType, TripMode } from "../lib/types";
+import { applyScenarioDelay, breachRepair, computeRisk, minToTime, optimizePlan, parseTimeToMin, sortByStart } from "../lib/plannerUtils";
 
 export type { ItineraryStop as PlanStop };
 
 type Ctx = {
   plan: ItineraryPlan;
   stops: ItineraryStop[];
+  scheduledStops: ItineraryStop[];
   unscheduledStops: ItineraryStop[];
   checkpoints: { label: string; time: string; status: "ok" | "warn" | "late" }[];
   cutSuggestions: string[];
+  commandBanner: string;
   setPlanMeta: (v: Partial<ItineraryPlan>) => void;
   addStop: (s: Omit<ItineraryStop, "id">) => void;
   updateStop: (id: string, partial: Partial<ItineraryStop>) => void;
@@ -19,33 +21,25 @@ type Ctx = {
   reorderStops: (id: string, dir: "up" | "down") => void;
   replaceStops: (stops: ItineraryStop[]) => void;
   recalculate: () => void;
-  autoSequence: () => void;
+  autoOptimize: () => void;
   applyDelayScenario: (scenario: DelayScenario) => void;
+  setTripMode: (mode: TripMode) => void;
   budgetByType: Record<StopType, number>;
   totalBudget: number;
+  wastedMinutes: number;
   arrivalTime: string;
   allAboardTime: string;
   safeReturnTime: string;
   shipExcursionBenchmark: number;
-  riskScore: ItineraryPlan["riskLevel"];
+  riskScore: number;
+  riskLevel: ItineraryPlan["riskLevel"];
   port: string;
 };
 
 const PlanningContext = createContext<Ctx | null>(null);
+const uid = () => `st_${Math.random().toString(36).slice(2, 10)}`;
 
-function uid() {
-  return `st_${Math.random().toString(36).slice(2, 10)}`;
-}
-
-function riskFromPlan(stops: ItineraryStop[], mustReturnByTime: string): ItineraryPlan["riskLevel"] {
-  const scheduled = stops.filter((s) => s.startTime && s.endTime);
-  if (!scheduled.length) return "low";
-  const last = scheduled[scheduled.length - 1];
-  const left = parseTimeToMin(mustReturnByTime) - parseTimeToMin(last.endTime);
-  if (left < 20) return "high";
-  if (left < 45) return "amber";
-  return "low";
-}
+const riskLevelFromScore = (score: number): ItineraryPlan["riskLevel"] => score >= 70 ? "high" : score >= 40 ? "amber" : "low";
 
 export function PlanningProvider({ children }: { children: React.ReactNode }) {
   const [plan, setPlan] = useState<ItineraryPlan>({
@@ -53,126 +47,96 @@ export function PlanningProvider({ children }: { children: React.ReactNode }) {
     portSlug: "barcelona",
     date: new Date().toISOString().slice(0, 10),
     allAboardTime: "16:30",
-    mustReturnByTime: "15:15",
+    mustReturnByTime: "15:30",
+    bufferMinutes: 60,
+    tripMode: "balanced",
     riskLevel: "low",
+    riskScore: 20,
     stops: [],
-    assumptions: ["Traffic variance can expand last transfer by 10–20m", "Keep at least one hard buffer before return"],
+    assumptions: ["Traffic can add 10–25m to late transfers", "Queue spikes happen at headline sights"],
     shipExcursionBenchmark: 119,
+    transportReliability: { walk: 1, taxi: 2, metro: 2, bus: 3 },
   });
 
   const recalculate = () => {
     setPlan((prev) => {
-      const sorted = sortByStart(prev.stops);
-      const withDuration = sorted.map((s) => {
-        if (!s.startTime || !s.durationMin) return s;
-        return { ...s, endTime: minToTime(parseTimeToMin(s.startTime) + s.durationMin) };
-      });
-      const riskLevel = riskFromPlan(withDuration, prev.mustReturnByTime);
-      return { ...prev, stops: withDuration, riskLevel };
+      const score = computeRisk(prev.stops, prev.mustReturnByTime);
+      return { ...prev, riskScore: score, riskLevel: riskLevelFromScore(score) };
     });
   };
 
-  const autoSequence = () => {
+  const autoOptimize = () => {
     setPlan((prev) => {
-      const scheduled = sortByStart(prev.stops.filter((s) => s.startTime));
-      let cursor = scheduled[0]?.startTime ? parseTimeToMin(scheduled[0].startTime) : parseTimeToMin("09:00");
-      const sequenced: ItineraryStop[] = [];
-      scheduled.forEach((stop, idx) => {
-        const start = idx === 0 ? cursor : cursor + 10;
-        const end = start + stop.durationMin;
-        sequenced.push({ ...stop, startTime: minToTime(start), endTime: minToTime(end) });
-        cursor = end;
-        if (idx < scheduled.length - 1) {
-          sequenced.push({
-            id: uid(),
-            title: `Buffer before ${scheduled[idx + 1].title}`,
-            type: "buffer",
-            startTime: minToTime(cursor),
-            endTime: minToTime(cursor + 15),
-            durationMin: 15,
-            location: { name: "Transit/queue margin" },
-            costEstimate: 0,
-            notes: "Auto-inserted safety buffer",
-            source: "manual",
-          });
-          cursor += 15;
-        }
-      });
-      const unscheduled = prev.stops.filter((s) => !s.startTime);
-      const nextStops = [...sequenced, ...unscheduled];
-      return { ...prev, stops: nextStops, riskLevel: riskFromPlan(sequenced, prev.mustReturnByTime) };
+      const stops = optimizePlan(prev);
+      const score = computeRisk(stops, prev.mustReturnByTime);
+      return { ...prev, stops, riskScore: score, riskLevel: riskLevelFromScore(score) };
     });
   };
 
-  const applyDelayScenario = (scenario: DelayScenario) => {
+  const applyDelay = (scenario: DelayScenario) => {
     setPlan((prev) => {
-      const scheduled = sortByStart(prev.stops.filter((s) => s.startTime));
-      const delayed = applyScenarioDelay(scheduled, scenario);
-      const unscheduled = prev.stops.filter((s) => !s.startTime);
-      const merged = [...delayed, ...unscheduled];
-      return { ...prev, stops: merged, riskLevel: riskFromPlan(delayed, prev.mustReturnByTime) };
+      const delayed = applyScenarioDelay(sortByStart(prev.stops), scenario);
+      const repaired = breachRepair(delayed, prev.mustReturnByTime);
+      const score = computeRisk(repaired.fixed, prev.mustReturnByTime);
+      return { ...prev, stops: repaired.fixed, assumptions: [...prev.assumptions, repaired.suggestion], riskScore: score, riskLevel: riskLevelFromScore(score) };
     });
   };
 
   const value = useMemo<Ctx>(() => {
-    const scheduled = sortByStart(plan.stops.filter((s) => s.startTime));
-    const unscheduledStops = plan.stops.filter((s) => !s.startTime);
-    const checkpointTimes = [
-      { label: "Checkpoint A", time: minToTime(parseTimeToMin(plan.mustReturnByTime) - 180) },
-      { label: "Checkpoint B", time: minToTime(parseTimeToMin(plan.mustReturnByTime) - 120) },
-      { label: "Checkpoint C", time: minToTime(parseTimeToMin(plan.mustReturnByTime) - 60) },
-    ];
-    const lastEnd = scheduled.length ? parseTimeToMin(scheduled[scheduled.length - 1].endTime) : 0;
+    const scheduledStops = sortByStart(plan.stops.filter((s) => s.startTime && !s.optional));
+    const unscheduledStops = plan.stops.filter((s) => !s.startTime || s.optional);
+    const checkpointTimes = [180, 120, 60].map((v, i) => ({ label: `Checkpoint ${String.fromCharCode(65 + i)}`, time: minToTime(parseTimeToMin(plan.mustReturnByTime) - v) }));
+    const lastEnd = scheduledStops.length ? parseTimeToMin(scheduledStops[scheduledStops.length - 1].endTime) : 0;
     const checkpoints = checkpointTimes.map((c) => {
       const t = parseTimeToMin(c.time);
       const status: "ok" | "warn" | "late" = lastEnd <= t ? "ok" : lastEnd <= t + 20 ? "warn" : "late";
       return { ...c, status };
     });
-    const byType = scheduled.reduce<Record<StopType, number>>(
-      (acc, s) => {
-        acc[s.type] += s.costEstimate || 0;
-        return acc;
-      },
-      { attraction: 0, food: 0, transport: 0, buffer: 0 }
-    );
-    const cutSuggestions = plan.riskLevel === "high"
-      ? scheduled.filter((s) => s.type !== "transport").slice(-2).map((s) => `Cut '${s.title}' to recover ${s.durationMin}m.`)
-      : plan.riskLevel === "amber"
-      ? ["Consider skipping one optional attraction to increase return margin."]
-      : ["Plan is currently within return-safe margin."];
+
+    const byType = scheduledStops.reduce<Record<StopType, number>>((acc, s) => {
+      acc[s.type] += s.costEstimate || 0;
+      return acc;
+    }, { attraction: 0, food: 0, transport: 0, buffer: 0 });
+
+    const wastedMinutes = scheduledStops.reduce((acc, s) => acc + (s.type === "buffer" ? s.durationMin : 0) + (s.tags?.highQueue ? 10 : 0), 0);
+    const cutSuggestions = plan.assumptions.slice(-2);
 
     return {
       plan,
       stops: plan.stops,
+      scheduledStops,
       unscheduledStops,
       checkpoints,
       cutSuggestions,
+      commandBanner: plan.riskLevel === "high" ? "High risk: run Auto-Optimize or cut one optional stop." : plan.riskLevel === "amber" ? "Amber risk: review simulator and keep return buffer protected." : "Return-safe posture is healthy.",
       setPlanMeta: (v) => setPlan((p) => ({ ...p, ...v })),
       addStop: (s) => setPlan((p) => ({ ...p, stops: [...p.stops, { ...s, id: uid() }] })),
       updateStop: (id, partial) => setPlan((p) => ({ ...p, stops: p.stops.map((s) => (s.id === id ? { ...s, ...partial } : s)) })),
       deleteStop: (id) => setPlan((p) => ({ ...p, stops: p.stops.filter((s) => s.id !== id) })),
-      reorderStops: (id, dir) =>
-        setPlan((p) => {
-          const idx = p.stops.findIndex((s) => s.id === id);
-          if (idx < 0) return p;
-          const n = dir === "up" ? idx - 1 : idx + 1;
-          if (n < 0 || n >= p.stops.length) return p;
-          const arr = [...p.stops];
-          const [item] = arr.splice(idx, 1);
-          arr.splice(n, 0, item);
-          return { ...p, stops: arr };
-        }),
+      reorderStops: (id, dir) => setPlan((p) => {
+        const idx = p.stops.findIndex((s) => s.id === id);
+        if (idx < 0) return p;
+        const n = dir === "up" ? idx - 1 : idx + 1;
+        if (n < 0 || n >= p.stops.length) return p;
+        const arr = [...p.stops];
+        const [item] = arr.splice(idx, 1);
+        arr.splice(n, 0, item);
+        return { ...p, stops: arr };
+      }),
       replaceStops: (stops) => setPlan((p) => ({ ...p, stops })),
       recalculate,
-      autoSequence,
-      applyDelayScenario,
+      autoOptimize,
+      applyDelayScenario: applyDelay,
+      setTripMode: (mode) => setPlan((p) => ({ ...p, tripMode: mode, bufferMinutes: mode === "aggressive" ? 45 : mode === "relaxed" ? 75 : 60 })),
       budgetByType: byType,
       totalBudget: Object.values(byType).reduce((a, b) => a + b, 0),
-      arrivalTime: scheduled[0]?.startTime || "09:00",
+      wastedMinutes,
+      arrivalTime: scheduledStops[0]?.startTime || "09:00",
       allAboardTime: plan.allAboardTime,
       safeReturnTime: plan.mustReturnByTime,
       shipExcursionBenchmark: plan.shipExcursionBenchmark,
-      riskScore: plan.riskLevel,
+      riskScore: plan.riskScore,
+      riskLevel: plan.riskLevel,
       port: plan.portSlug,
     };
   }, [plan]);

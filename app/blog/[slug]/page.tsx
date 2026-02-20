@@ -52,10 +52,14 @@ const tone = {
 
 
 
-const dedupeConsecutive = (items: string[]) => {
+const dedupeParagraphs = (items: string[]) => {
+  const seen = new Set<string>();
   const out: string[] = [];
   for (const item of items) {
-    if (!out.length || out[out.length - 1].trim() !== item.trim()) out.push(item);
+    const key = item.trim();
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    out.push(item);
   }
   return out;
 };
@@ -76,6 +80,16 @@ export default function BlogArticlePage({ params }: Props) {
     mainEntityOfPage: `https://porttrip.com/blog/${article.slug}`,
   };
 
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: article.faq.slice(0, 6).map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -101,11 +115,11 @@ export default function BlogArticlePage({ params }: Props) {
               <section id={block.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")} key={`${block.kind}-${idx}`} className={`rounded-2xl border p-5 ${tone[block.kind]}`}>
                 <h2 className="text-2xl font-semibold">{block.title}</h2>
                 <div className="mt-3 space-y-3 text-slate-100">
-                  {dedupeConsecutive(block.lede).map((p) => <p key={p}>{p}</p>)}
+                  {dedupeParagraphs(block.lede).map((p) => <p key={p}>{p}</p>)}
                 </div>
 
                 <div className="mt-4 space-y-3 text-slate-100">
-                  {dedupeConsecutive(block.body).map((p) => <p key={p}>{p}</p>)}
+                  {dedupeParagraphs(block.body).map((p) => <p key={p}>{p}</p>)}
                 </div>
 
                 {block.bullets?.length ? (
@@ -164,6 +178,7 @@ export default function BlogArticlePage({ params }: Props) {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </main>
   );
 }

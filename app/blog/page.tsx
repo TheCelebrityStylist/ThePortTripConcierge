@@ -8,41 +8,32 @@ import { blogArticles } from "@/app/data/blog-cms";
 const regions = ["All", "Mediterranean", "Northern Europe", "Caribbean", "Global"] as const;
 const times = ["All", "5–7 hours", "7–9 hours", "10–12 hours", "All windows"] as const;
 const docking = ["All", "Dock", "Tender", "Mixed", "Both"] as const;
-const travelers = ["All", "first-time", "family", "mobility", "budget", "luxury"] as const;
 const difficulties = ["All", "Easy", "Moderate", "Complex"] as const;
 const categories = ["All", "Port Guide", "Safety", "Budget", "Strategy"] as const;
+const curatedModes = ["Most Popular", "Best for First-Timers", "Tender Ports: High Risk", "Short Calls (≤6 hours)"] as const;
 
 export default function BlogHubPage() {
   const [query, setQuery] = useState("");
   const [region, setRegion] = useState<(typeof regions)[number]>("All");
   const [time, setTime] = useState<(typeof times)[number]>("All");
   const [dock, setDock] = useState<(typeof docking)[number]>("All");
-  const [traveler, setTraveler] = useState<(typeof travelers)[number]>("All");
   const [difficulty, setDifficulty] = useState<(typeof difficulties)[number]>("All");
   const [category, setCategory] = useState<(typeof categories)[number]>("All");
+  const [curated, setCurated] = useState<(typeof curatedModes)[number]>("Most Popular");
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return blogArticles.filter((article) => {
-      const qOk =
-        !q ||
-        [article.title, article.portsMentioned?.join(" "), article.subtitle, article.excerpt, article.keywords.join(" ")]
-          .join(" ")
-          .toLowerCase()
-          .includes(q);
-
-      return (
-        qOk &&
-        (region === "All" || article.region === region) &&
-        (time === "All" || article.timeInPortModel === time) &&
-        (dock === "All" || article.tenderOrDock === dock) &&
-        (traveler === "All" || article.keywords.some((keyword) => keyword.toLowerCase().includes(traveler))) &&
-        (difficulty === "All" || article.difficulty === difficulty) &&
-        (category === "All" || article.category === category)
-      );
+    const base = blogArticles.filter((article) => {
+      const qOk = !q || [article.title, article.portsMentioned?.join(" "), article.subtitle, article.excerpt, article.keywords.join(" ")].join(" ").toLowerCase().includes(q);
+      return qOk && (region === "All" || article.region === region) && (time === "All" || article.timeInPortModel === time) && (dock === "All" || article.tenderOrDock === dock) && (difficulty === "All" || article.difficulty === difficulty) && (category === "All" || article.category === category);
     });
-  }, [query, region, time, dock, traveler, difficulty, category]);
+
+    if (curated === "Best for First-Timers") return [...base].sort((a, b) => (a.difficulty === "Easy" ? -1 : 1) - (b.difficulty === "Easy" ? -1 : 1));
+    if (curated === "Tender Ports: High Risk") return [...base].sort((a, b) => (b.tenderOrDock === "Tender" ? 1 : 0) - (a.tenderOrDock === "Tender" ? 1 : 0));
+    if (curated === "Short Calls (≤6 hours)") return [...base].sort((a, b) => (a.timeInPortModel.includes("5–7") ? -1 : 1) - (b.timeInPortModel.includes("5–7") ? -1 : 1));
+    return [...base].sort((a, b) => b.updatedDate.localeCompare(a.updatedDate));
+  }, [query, region, time, dock, difficulty, category, curated]);
 
   const toolbar = (
     <div className="grid gap-3 md:grid-cols-4 xl:grid-cols-7">
@@ -50,9 +41,9 @@ export default function BlogHubPage() {
       <select value={region} onChange={(e) => setRegion(e.target.value as (typeof regions)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{regions.map((v) => <option key={v}>{v}</option>)}</select>
       <select value={time} onChange={(e) => setTime(e.target.value as (typeof times)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{times.map((v) => <option key={v}>{v}</option>)}</select>
       <select value={dock} onChange={(e) => setDock(e.target.value as (typeof docking)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{docking.map((v) => <option key={v}>{v}</option>)}</select>
-      <select value={traveler} onChange={(e) => setTraveler(e.target.value as (typeof travelers)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{travelers.map((v) => <option key={v}>{v}</option>)}</select>
       <select value={difficulty} onChange={(e) => setDifficulty(e.target.value as (typeof difficulties)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{difficulties.map((v) => <option key={v}>{v}</option>)}</select>
       <select value={category} onChange={(e) => setCategory(e.target.value as (typeof categories)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{categories.map((v) => <option key={v}>{v}</option>)}</select>
+      <select value={curated} onChange={(e) => setCurated(e.target.value as (typeof curatedModes)[number])} className="rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-sm">{curatedModes.map((v) => <option key={v}>{v}</option>)}</select>
     </div>
   );
 
@@ -63,37 +54,30 @@ export default function BlogHubPage() {
           <p className="text-xs uppercase tracking-[0.2em] text-cyan-200/80">PortTrip Editorial</p>
           <h1 className="mt-3 text-4xl font-semibold md:text-5xl">Cruise Intelligence Library</h1>
           <p className="mt-3 max-w-3xl text-slate-200">Cruise-specific planning intelligence built for timing control, transfer reliability, and safer ship return outcomes.</p>
-          <div className="mt-5 flex flex-wrap gap-3">
-            <Link href="/library/ports" className="rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold hover:bg-white/10">Browse port categories</Link>
+          <div className="mt-4 grid gap-2 text-xs text-slate-300 sm:grid-cols-3">
+            <span>{blogArticles.length} ports</span>
+            <span>{blogArticles.length} playbooks</span>
+            <span>Updated weekly</span>
           </div>
+          <div className="mt-5 flex flex-wrap gap-3"><Link href="/library/ports" className="rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold hover:bg-white/10">Browse port categories</Link></div>
         </div>
 
         <section className="mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4">
           <div className="hidden md:block">{toolbar}</div>
-          <div className="md:hidden">
-            <button onClick={() => setMobileOpen(true)} className="rounded-lg border border-white/20 px-3 py-2 text-sm font-semibold">Filters</button>
-          </div>
+          <div className="md:hidden"><button onClick={() => setMobileOpen(true)} className="rounded-lg border border-white/20 px-3 py-2 text-sm font-semibold">Filters</button></div>
         </section>
 
         {mobileOpen && (
           <div className="fixed inset-0 z-50 bg-slate-950/80 p-4 md:hidden" role="dialog" aria-modal="true">
             <div className="mx-auto max-w-lg rounded-2xl border border-white/10 bg-slate-900 p-4">
-              <div className="mb-3 flex items-center justify-between">
-                <h2 className="text-lg font-semibold">Filters</h2>
-                <button onClick={() => setMobileOpen(false)} className="rounded bg-white/10 px-3 py-1 text-sm">Close</button>
-              </div>
+              <div className="mb-3 flex items-center justify-between"><h2 className="text-lg font-semibold">Filters</h2><button onClick={() => setMobileOpen(false)} className="rounded bg-white/10 px-3 py-1 text-sm">Close</button></div>
               {toolbar}
             </div>
           </div>
         )}
 
-        <div className="mt-4 flex items-center justify-between">
-          <p className="text-sm text-slate-400">{filtered.length} guides matched</p>
-        </div>
-
-        <ul className="mt-4 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-          {filtered.map((article) => <BlogCard key={article.slug} article={article} />)}
-        </ul>
+        <div className="mt-4 flex items-center justify-between"><p className="text-sm text-slate-400">{filtered.length} guides matched</p></div>
+        <ul className="mt-4 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{filtered.map((article) => <BlogCard key={article.slug} article={article} />)}</ul>
       </section>
     </main>
   );
