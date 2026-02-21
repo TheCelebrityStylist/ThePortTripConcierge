@@ -62,7 +62,7 @@ export default function BlogHubPage() {
           <div className="mt-5 flex flex-wrap gap-3"><Link href="/library/ports" className="rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold hover:bg-white/10">Browse port categories</Link></div>
         </div>
 
-        <section className="mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4">
+        <section className="mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4 md:sticky md:top-4 md:z-30">
           <div className="hidden md:block">{toolbar}</div>
           <div className="md:hidden"><button onClick={() => setMobileOpen(true)} className="rounded-lg border border-white/20 px-3 py-2 text-sm font-semibold">Filters</button></div>
         </section>

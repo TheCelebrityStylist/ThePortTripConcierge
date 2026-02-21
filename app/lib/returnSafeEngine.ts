@@ -61,6 +61,10 @@ export function runReturnSafeEngine(plan: ItineraryPlan): EngineOutput {
         source: "manual",
         priority: 5,
         flexibility: "fixed",
+        category: "view",
+        indoorFriendly: true,
+        crowdSensitive: false,
+        keywordTags: ["buffer"],
       });
       cursor += transfer + buffer;
     }
@@ -83,6 +87,10 @@ export function runReturnSafeEngine(plan: ItineraryPlan): EngineOutput {
       priority: 1,
       flexibility: "fixed",
       tags: { returnCorridor: true },
+      category: "view",
+      indoorFriendly: true,
+      crowdSensitive: false,
+      keywordTags: ["return","buffer"],
     });
   }
 

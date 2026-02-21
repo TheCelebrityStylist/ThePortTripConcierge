@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ArticleHero from "@/app/components/blog/ArticleHero";
 import { blogArticleMap, blogArticles } from "@/app/data/blog-cms";
+import { assertNoDuplicateParagraphs } from "@/app/lib/content/renderGuard";
 
 type Props = { params: { slug: string } };
 
@@ -109,9 +110,10 @@ export default function BlogArticlePage({ params }: Props) {
           <article className="space-y-8">
             <ArticleHero article={article} />
 
-            <p className="text-sm text-slate-300">Want to turn this into a timed itinerary? <Link className="underline" href={article.plannerCta.href}>Open Cruise Day Planner</Link>.</p>
-
-            {article.contentBlocks.map((block, idx) => (
+                        {article.contentBlocks.map((block, idx) => {
+              const combined = [...block.lede, ...block.body];
+              assertNoDuplicateParagraphs(block.title, combined);
+              return (
               <section id={block.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")} key={`${block.kind}-${idx}`} className={`rounded-2xl border p-5 ${tone[block.kind]}`}>
                 <h2 className="text-2xl font-semibold">{block.title}</h2>
                 <div className="mt-3 space-y-3 text-slate-100">
@@ -137,7 +139,8 @@ export default function BlogArticlePage({ params }: Props) {
 
                 {block.localTip ? <p className="mt-4 text-sm text-cyan-100">{block.localTip}</p> : null}
               </section>
-            ))}
+            );
+            })}
 
             <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
               <h2 className="text-2xl font-semibold">FAQ</h2>

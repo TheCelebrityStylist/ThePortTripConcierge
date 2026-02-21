@@ -27,7 +27,12 @@ export type ItineraryStop = {
   flexibility: "fixed" | "flex";
   optional?: boolean;
   locked?: boolean;
+  category: "iconic"|"culture"|"food"|"beach"|"view"|"shopping"|"nature"|"museum";
+  indoorFriendly: boolean;
+  crowdSensitive: boolean;
+  bestTimeWindows?: { start: string; end: string }[];
   tags?: StopTags;
+  keywordTags: string[];
 };
 
 export type ItineraryPlan = {
