@@ -20,7 +20,6 @@ export default function BlogHubPage() {
   const [difficulty, setDifficulty] = useState<(typeof difficulties)[number]>("All");
   const [category, setCategory] = useState<(typeof categories)[number]>("All");
   const [curated, setCurated] = useState<(typeof curatedModes)[number]>("Most Popular");
-  const [mobileOpen, setMobileOpen] = useState(false);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -62,19 +61,15 @@ export default function BlogHubPage() {
           <div className="mt-5 flex flex-wrap gap-3"><Link href="/library/ports" className="rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold hover:bg-white/10">Browse port categories</Link></div>
         </div>
 
-        <section className="mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4 md:sticky md:top-4 md:z-30">
+        <section className="mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4">
           <div className="hidden md:block">{toolbar}</div>
-          <div className="md:hidden"><button onClick={() => setMobileOpen(true)} className="rounded-lg border border-white/20 px-3 py-2 text-sm font-semibold">Filters</button></div>
-        </section>
-
-        {mobileOpen && (
-          <div className="fixed inset-0 z-50 bg-slate-950/80 p-4 md:hidden" role="dialog" aria-modal="true">
-            <div className="mx-auto max-w-lg rounded-2xl border border-white/10 bg-slate-900 p-4">
-              <div className="mb-3 flex items-center justify-between"><h2 className="text-lg font-semibold">Filters</h2><button onClick={() => setMobileOpen(false)} className="rounded bg-white/10 px-3 py-1 text-sm">Close</button></div>
-              {toolbar}
-            </div>
+          <div className="md:hidden">
+            <details className="rounded-lg border border-white/20 p-2">
+              <summary className="cursor-pointer text-sm font-semibold">Filters</summary>
+              <div className="mt-2">{toolbar}</div>
+            </details>
           </div>
-        )}
+        </section>
 
         <div className="mt-4 flex items-center justify-between"><p className="text-sm text-slate-400">{filtered.length} guides matched</p></div>
         <ul className="mt-4 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{filtered.map((article) => <BlogCard key={article.slug} article={article} />)}</ul>

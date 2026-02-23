@@ -1,34 +1,38 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { applyFixAction, computeRiskBreakdown, generatePlan } from "../engine";
-import type { BriefState } from "../types";
+import { generatePlan, optimizePlan, simulatePlan } from "../engine";
+import { portsRegistry } from "@/app/data/ports";
+import type { PlanInput } from "../types";
 
-const brief: BriefState = {
+const input: PlanInput = {
   portSlug: "barcelona",
   onboardTime: "08:30",
   allAboardTime: "16:30",
-  targetBufferMin: 60,
+  mustReturnBufferMin: 60,
   walkingLevel: "moderate",
-  interests: ["food", "culture", "views"],
   pace: "normal",
   mode: "balanced",
+  interests: ["food", "culture", "views"],
+  budgetSensitivity: "medium",
+  mustDoStops: [],
+  riskTolerance: "balanced",
+  avoidCrowds: false,
 };
 
-test("generatePlan is deterministic with same seed inputs", () => {
-  const a = generatePlan(brief);
-  const b = generatePlan(brief);
-  assert.deepEqual(a.stops.map((s) => s.title), b.stops.map((s) => s.title));
+test("generatePlan is deterministic for same seed", () => {
+  const a = generatePlan(input);
+  const b = generatePlan(input);
+  assert.deepEqual(a.plan.blocks.map((block) => block.title), b.plan.blocks.map((block) => block.title));
 });
 
-test("risk breakdown returns bounded score", () => {
-  const plan = generatePlan(brief);
-  const risk = computeRiskBreakdown(plan);
-  assert.ok(risk.total >= 0 && risk.total <= 100);
-  assert.equal(risk.items.length, 5);
+test("simulatePlan produces bounded score", () => {
+  const generated = generatePlan(input);
+  const score = simulatePlan(generated.plan, portsRegistry[input.portSlug], input);
+  assert.ok(score.totalScore >= 0 && score.totalScore <= 100);
 });
 
-test("fix action mutates plan structure", () => {
-  const plan = generatePlan(brief);
-  const fixed = applyFixAction(plan, "trim-farthest");
-  assert.notDeepEqual(fixed.stops.map((s) => s.durationMin), plan.stops.map((s) => s.durationMin));
+test("optimizePlan modifies block sequence or durations", () => {
+  const generated = generatePlan(input);
+  const optimized = optimizePlan(generated.plan, { action: "trim-far-stop" }, portsRegistry[input.portSlug]);
+  assert.notDeepEqual(optimized.blocks.map((block) => block.durationMin), generated.plan.blocks.map((block) => block.durationMin));
 });

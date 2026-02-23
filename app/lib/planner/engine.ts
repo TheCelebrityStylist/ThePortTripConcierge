@@ -1,211 +1,265 @@
-import { portProfiles } from "./ports";
-import type { BriefState, Plan, PlannedStop, PlanMode, PortProfile, RiskBreakdown, StopTemplate } from "./types";
+import { portsRegistry } from "@/app/data/ports";
+import type { InterestTag, PlanBlock, PlanInput, PlanOutput, Port, ScoreCard } from "./types";
 
 const toMin = (time: string) => {
   const [h, m] = time.split(":").map(Number);
   return h * 60 + m;
 };
-const toTime = (m: number) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
+const toTime = (minutes: number) => `${String(Math.floor(minutes / 60)).padStart(2, "0")}:${String(minutes % 60).padStart(2, "0")}`;
 
-const seedNum = (seed: string) => Array.from(seed).reduce((acc, char) => (acc * 31 + char.charCodeAt(0)) % 2147483647, 7);
-const rng = (seed: string) => {
-  let state = seedNum(seed);
+const seedInt = (seed: string) => Array.from(seed).reduce((acc, c) => (acc * 33 + c.charCodeAt(0)) % 2147483647, 97);
+const seeded = (seed: string) => {
+  let x = seedInt(seed);
   return () => {
-    state = (state * 48271) % 2147483647;
-    return state / 2147483647;
+    x = (x * 48271) % 2147483647;
+    return x / 2147483647;
   };
 };
 
-const uid = (prefix: string, n: number) => `${prefix}-${n}`;
-
-function pickStops(profile: PortProfile, mode: PlanMode, interests: BriefState["interests"], rand: () => number) {
-  const interestTags = new Set(interests);
-  const anchors = [...profile.anchors].sort(() => rand() - 0.5).filter((s) => {
-    if (interestTags.has("culture") && (s.tags.includes("culture") || s.tags.includes("shopping"))) return true;
-    if (interestTags.has("views") && s.tags.includes("views")) return true;
+const uniqueByTitle = (blocks: PlanBlock[]) => {
+  const seen = new Set<string>();
+  return blocks.filter((block) => {
+    const key = block.title.toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
     return true;
   });
+};
 
-  const food = [...profile.foodAnchors].sort(() => rand() - 0.5);
-  const scenic = [...profile.scenicBlocks].sort(() => rand() - 0.5);
+const interestMatch = (tags: InterestTag[], selected: InterestTag[]) => tags.some((tag) => selected.includes(tag));
 
-  const count = mode === "aggressive" ? 5 : mode === "conservative" ? 3 : 4;
-  const picks: StopTemplate[] = [anchors[0], anchors[1], food[0], scenic[0]].filter(Boolean);
-  while (picks.length < count) picks.push((anchors[picks.length % anchors.length] || scenic[0]));
+const routeMode = (port: Port, input: PlanInput) => {
+  if (input.mode === "conservative") return "Conservative corridor";
+  if (input.mode === "aggressive") return "Far-leg first";
+  if (input.mode === "weather-safe") return "Indoor-first fallback";
+  if (input.mode === "mobility-easy") return "Low-walk loop";
+  return port.dockingMode === "tender" ? "Tender-aware balanced loop" : "Balanced loop";
+};
 
-  if (mode === "weather-safe") {
-    const indoor = [...food, ...profile.anchors].find((s) => s.indoor);
-    if (indoor) picks[1] = indoor;
-  }
-  if (mode === "mobility-easy") {
-    picks.sort((a, b) => a.walkMin - b.walkMin);
-  }
-  return picks;
-}
+const describeStop = (port: Port, title: string, from: string, watchOut: string, fallback: string, preferenceReason: string, mode: string) =>
+  `You’ll spend this block at ${title} with a ${mode.toLowerCase()} strategy. From ${from}, use ${mode.includes("Low-walk") ? "taxi-first routing" : "the quickest available connection"} and keep transitions deliberate. Watch for ${watchOut.toLowerCase()} in this window, and if you lose 20+ minutes, switch to ${fallback}. This stop fits because ${preferenceReason}.`;
 
-export function generatePlan(input: BriefState): Plan {
-  const profile = portProfiles[input.portSlug] ?? portProfiles.barcelona;
-  const seed = `${input.portSlug}-${input.mode}-${input.allAboardTime}-${input.targetBufferMin}-${input.interests.join(",")}-${input.pace}-${input.walkingLevel}`;
-  const rand = rng(seed);
-  const selected = pickStops(profile, input.mode, input.interests, rand);
+export function generatePlan(input: PlanInput): PlanOutput {
+  const port = portsRegistry[input.portSlug] ?? portsRegistry.barcelona;
+  const seed = `${input.portSlug}-${input.mode}-${input.allAboardTime}-${input.mustReturnBufferMin}-${input.interests.join("|")}-${input.pace}-${input.walkingLevel}-${input.budgetSensitivity}`;
+  const rng = seeded(seed);
+  const modeLabel = routeMode(port, input);
 
-  const allAboardMin = toMin(input.allAboardTime);
-  const onboardMin = toMin(input.onboardTime);
-  const hardReturn = allAboardMin - input.targetBufferMin;
-  const transferToCity = profile.transferToCityMin + (profile.tender ? 8 : 0);
+  const candidateStops = [...port.attractionClusters]
+    .filter((stop) => interestMatch(stop.tags, input.interests))
+    .sort((a, b) => (rng() > 0.5 ? 1 : -1));
 
-  let cursor = onboardMin;
-  const stops: PlannedStop[] = [];
-  stops.push({ id: uid("stop", 0), title: profile.transferBlocks[0].title, category: "transfer", startTime: toTime(cursor), endTime: toTime(cursor + transferToCity), durationMin: transferToCity, walkMin: 4, costEUR: profile.transferBlocks[0].costEUR, crowd: profile.transferBlocks[0].crowd, notes: "Exit terminal and enter city corridor.", mustDo: false, locked: true, templateId: profile.transferBlocks[0].id });
-  cursor += transferToCity;
+  const selected = candidateStops.slice(0, input.mode === "aggressive" ? 5 : input.mode === "conservative" ? 3 : 4);
+  const now = toMin(input.onboardTime);
+  const hardReturn = toMin(input.allAboardTime) - input.mustReturnBufferMin;
+  let cursor = now;
 
-  selected.forEach((template, index) => {
-    const paceAdj = input.pace === "intense" ? 0.85 : input.pace === "chill" ? 1.15 : 1;
-    const walkAdj = input.walkingLevel === "minimal" ? 0.8 : input.walkingLevel === "active" ? 1.1 : 1;
-    const duration = Math.max(35, Math.round(template.durationMin * paceAdj));
-    const walk = Math.round(template.walkMin * walkAdj);
-    stops.push({ id: uid("stop", index + 1), title: template.title, category: template.category, startTime: toTime(cursor), endTime: toTime(cursor + duration), durationMin: duration, walkMin: walk, costEUR: template.costEUR, crowd: template.crowd, notes: `Chosen for ${template.tags.join(" + ")} fit.`, mustDo: index === 0, locked: false, templateId: template.id });
+  const blocks: PlanBlock[] = [];
+
+  const transferLead = port.transportProfiles.sort((a, b) => a.reliabilityRank - b.reliabilityRank)[0];
+  const firstTransferDuration = Math.max(12, transferLead.typicalTimeMin[0] + (port.dockingMode === "tender" ? 8 : 0));
+  blocks.push({
+    id: `${port.slug}-transfer-start`,
+    title: `${transferLead.mode.toUpperCase()} corridor: terminal to city core`,
+    type: "transfer",
+    startTime: toTime(cursor),
+    endTime: toTime(cursor + firstTransferDuration),
+    durationMin: firstTransferDuration,
+    costEUR: transferLead.costRangeEUR[0],
+    transitMode: transferLead.mode,
+    whyThisHere: "Fastest reliable start leg to avoid wasting the first operational hour.",
+    guidance: `Board at controlled stand only; avoid unmetered solicitations.`,
+    runningLateDecision: "If queue exceeds 15m, jump to backup mode from transport profile rank #2.",
+    lock: true,
+  });
+  cursor += firstTransferDuration;
+
+  selected.forEach((stop, index) => {
+    const duration = Math.max(stop.typicalDurationMin[0], Math.min(stop.typicalDurationMin[1], stop.typicalDurationMin[0] + Math.round(rng() * 20)));
+    const transferMode = port.transportProfiles[Math.min(index % port.transportProfiles.length, 3)];
+    const transferDuration = Math.max(10, transferMode.typicalTimeMin[0] + Math.round(rng() * 10));
+
+    const preferenceReason = `it aligns with your ${input.interests.join(", ")} priorities and ${input.walkingLevel} walking tolerance`;
+    blocks.push({
+      id: stop.id,
+      title: stop.name,
+      type: "stop",
+      startTime: toTime(cursor),
+      endTime: toTime(cursor + duration),
+      durationMin: duration,
+      costEUR: stop.costRangeEUR[0] + Math.round(rng() * (stop.costRangeEUR[1] - stop.costRangeEUR[0])),
+      transitMode: transferMode.mode,
+      whyThisHere: `${stop.cluster} chosen to satisfy ${input.interests.join("/")} while protecting return rhythm.`,
+      guidance: describeStop(port, stop.name, index === 0 ? "the arrival corridor" : selected[index - 1]?.name ?? "the prior stop", stop.watchOut, `${port.displayName} Near-Port Fallback Loop`, preferenceReason, modeLabel),
+      runningLateDecision: `If ${index + 1} checkpoint is +${15 + index * 5}m late, trim this block by 20m and continue on corridor route.`,
+      lock: input.mustDoStops.includes(stop.name),
+    });
     cursor += duration;
 
     if (index < selected.length - 1) {
-      const hop = Math.max(12, profile.transferBlocks[0].durationMin + Math.round(rand() * 8));
-      stops.push({ id: uid("transfer", index), title: profile.transferBlocks[0].title, category: "transfer", startTime: toTime(cursor), endTime: toTime(cursor + hop), durationMin: hop, walkMin: 5, costEUR: profile.transferBlocks[0].costEUR, crowd: "medium", notes: "Planned connection between clusters.", mustDo: false, locked: false, templateId: profile.transferBlocks[0].id });
-      cursor += hop;
+      blocks.push({
+        id: `${stop.id}-transfer`,
+        title: `${transferMode.mode.toUpperCase()} link: ${stop.cluster} → ${selected[index + 1].cluster}`,
+        type: "transfer",
+        startTime: toTime(cursor),
+        endTime: toTime(cursor + transferDuration),
+        durationMin: transferDuration,
+        costEUR: transferMode.costRangeEUR[0],
+        transitMode: transferMode.mode,
+        whyThisHere: "Explicit transfer leg keeps timing realistic and non-generic.",
+        guidance: `Keep boarding/payment ready. If delay starts stacking, skip to return corridor early.`,
+        runningLateDecision: "If transfer slips by >12m, drop the next optional cluster.",
+        lock: false,
+      });
+      cursor += transferDuration;
     }
   });
 
-  const buffer = Math.max(25, hardReturn - cursor);
-  stops.push({ id: uid("buffer", 1), title: profile.tender ? "Tender queue + return buffer" : "Return buffer to ship", category: "buffer", startTime: toTime(cursor), endTime: toTime(cursor + buffer), durationMin: buffer, walkMin: 5, costEUR: 0, crowd: profile.tender ? "high" : "low", notes: "Protected final return corridor.", mustDo: true, locked: true });
+  const remaining = Math.max(20, hardReturn - cursor);
+  blocks.push({
+    id: `${port.slug}-return-buffer`,
+    title: `Return-safe corridor buffer (${port.displayName})`,
+    type: "buffer",
+    startTime: toTime(cursor),
+    endTime: toTime(cursor + remaining),
+    durationMin: remaining,
+    costEUR: 0,
+    transitMode: port.dockingMode === "tender" ? "ferry" : "walk",
+    whyThisHere: "Protected final leg to absorb queue/traffic variance before all-aboard.",
+    guidance: `Use this time to re-stage at terminal approach and clear security calmly.`,
+    runningLateDecision: "If already behind here, skip all optional activity and board immediately.",
+    lock: true,
+  });
+
+  const normalized = uniqueByTitle(blocks);
+  const score = simulatePlan({ input, blocks: normalized, assumptions: [`Route model: ${modeLabel}`, `Docking mode: ${port.dockingMode}`, `Peak windows: ${port.peakCrowdWindows.join(" / ")}`] }, port, input);
 
   return {
-    portSlug: profile.slug,
-    onboardTime: input.onboardTime,
-    allAboardTime: input.allAboardTime,
-    targetBufferMin: input.targetBufferMin,
-    mode: input.mode,
-    preferences: { walkingLevel: input.walkingLevel, interests: input.interests, pace: input.pace },
-    stops,
+    plan: {
+      input,
+      blocks: normalized,
+      assumptions: [
+        `Gangway open assumed at ${port.defaultTimeWindows.gangwayOpen}.`,
+        `Last far outbound cutoff: ${port.defaultTimeWindows.lastOutboundCutoff}.`,
+        ...port.returnSafeRules.hardRules,
+      ],
+    },
+    score,
+    recommendations: [
+      { label: "Reduce farthest stop by 25 min", action: "trim-far-stop" },
+      { label: "Swap transit mode to higher reliability", action: "swap-transit" },
+      { label: "Move lunch earlier to avoid queues", action: "move-lunch-earlier" },
+      { label: "Convert to balanced loop near corridor", action: "balanced-loop" },
+    ],
+    narrative: `Here’s how your ${port.displayName} day flows: start fast off the ship, hit one anchor early, layer in cluster-based stops matched to ${input.interests.join(", ")}, then collapse toward a protected return corridor before all-aboard. This is a ${modeLabel.toLowerCase()} profile tuned for ${input.riskTolerance} risk tolerance with ${input.mustReturnBufferMin} minutes buffered.`,
   };
 }
 
-export function computeRiskBreakdown(plan: Plan): RiskBreakdown {
-  const profile = portProfiles[plan.portSlug];
-  const bufferStop = plan.stops.find((stop) => stop.category === "buffer");
-  const bufferScore = Math.max(20, Math.min(100, Math.round(((bufferStop?.durationMin || 20) / plan.targetBufferMin) * 100)));
-  const lateFar = plan.stops.some((s) => s.walkMin > 18 && toMin(s.startTime) > toMin(plan.allAboardTime) - 180);
-  const distanceScore = lateFar ? 58 : 84;
-  const transferCount = plan.stops.filter((s) => s.category === "transfer").length;
-  const transferScore = Math.max(45, 90 - transferCount * 12);
-  const crowdOverlap = plan.stops.some((s) => profile.peakTrafficWindows.some((w) => {
-    const [a, b] = w.split("-");
-    const time = toMin(s.startTime);
-    return time >= toMin(a) && time <= toMin(b) && s.crowd === "high";
+export function simulatePlan(plan: { input: PlanInput; blocks: PlanBlock[]; assumptions?: string[] }, port: Port, input: PlanInput): ScoreCard {
+  const violations: string[] = [];
+  const returnBlock = plan.blocks.find((block) => block.type === "buffer");
+  const bufferHealth = Math.min(100, Math.round(((returnBlock?.durationMin ?? 0) / input.mustReturnBufferMin) * 100));
+
+  const farLate = plan.blocks.some((block) => block.type === "stop" && toMin(block.startTime) > toMin(input.allAboardTime) - 180 && block.durationMin > 60);
+  const distanceRisk = farLate ? 42 : 82;
+
+  const transferCount = plan.blocks.filter((block) => block.type === "transfer").length;
+  const transferCountRisk = Math.max(30, 92 - transferCount * 12);
+
+  const crowdOverlap = plan.blocks.some((block) => port.peakCrowdWindows.some((window) => {
+    const [start, end] = window.split("-");
+    const minute = toMin(block.startTime);
+    return minute >= toMin(start) && minute <= toMin(end) && block.type === "stop";
   }));
-  const crowdScore = crowdOverlap ? 55 : 82;
-  const tenderScore = profile.tender ? 62 : 90;
+  const crowdOverlapRisk = crowdOverlap ? 48 : 80;
 
-  const items: RiskBreakdown["items"] = [
-    { key: "buffer", label: "Buffer health", score: bufferScore, why: `Protected return window is ${bufferStop?.durationMin ?? 0} minutes.`, fixLabel: "Move lunch earlier", action: "move-lunch-earlier" },
-    { key: "distance", label: "Distance risk", score: distanceScore, why: lateFar ? "A long-walk stop sits late in the day." : "Far stops are not stacked late.", fixLabel: "Reduce farthest stop by 25 min", action: "trim-farthest" },
-    { key: "transfers", label: "Transfer count", score: transferScore, why: `${transferCount} transfer segments in this plan.`, fixLabel: "Swap transit mode", action: "swap-transit" },
-    { key: "crowd", label: "Crowd overlap", score: crowdScore, why: crowdOverlap ? "High-crowd stop overlaps peak traffic window." : "Peak windows are mostly avoided.", fixLabel: "Move lunch earlier", action: "move-lunch-earlier" },
-    { key: "tender", label: "Tender friction", score: tenderScore, why: profile.tender ? "Tender operations add uncertainty." : "Docking mode is stable.", fixLabel: "Convert to Balanced Loop", action: "balanced-loop" },
-  ];
+  const tenderFrictionRisk = port.dockingMode === "tender" ? 58 : 88;
 
-  const total = Math.round(items.reduce((sum, item) => sum + item.score, 0) / items.length);
-  return { total, items };
+  if ((returnBlock?.durationMin ?? 0) < input.mustReturnBufferMin) violations.push("Buffer below requested threshold.");
+  if (transferCount > 4) violations.push("Transfer count too high for cruise day reliability.");
+  if (farLate) violations.push("Late far-leg activity increases miss-ship exposure.");
+  if (port.dockingMode === "tender" && input.mode === "aggressive") violations.push("Aggressive mode at tender port needs stricter return trigger.");
+
+  const totalScore = Math.round((bufferHealth + distanceRisk + transferCountRisk + crowdOverlapRisk + tenderFrictionRisk) / 5);
+  return { bufferHealth, distanceRisk, transferCountRisk, crowdOverlapRisk, tenderFrictionRisk, totalScore, violations };
 }
 
-export function applyFixAction(plan: Plan, action: RiskBreakdown["items"][number]["action"]): Plan {
-  const next: Plan = { ...plan, stops: plan.stops.map((s) => ({ ...s })) };
-  if (action === "trim-farthest") {
-    const far = next.stops.filter((s) => s.category !== "buffer").sort((a, b) => b.walkMin - a.walkMin)[0];
-    if (far) far.durationMin = Math.max(30, far.durationMin - 25);
+export function optimizePlan(plan: { input: PlanInput; blocks: PlanBlock[]; assumptions: string[] }, constraints: { action: "trim-far-stop" | "swap-transit" | "move-lunch-earlier" | "balanced-loop" }, port?: Port) {
+  const activePort = port ?? portsRegistry[plan.input.portSlug] ?? portsRegistry.barcelona;
+  const blocks = plan.blocks.map((block) => ({ ...block }));
+
+  if (constraints.action === "trim-far-stop") {
+    const candidate = [...blocks].reverse().find((block) => block.type === "stop" && !block.lock);
+    if (candidate) candidate.durationMin = Math.max(30, candidate.durationMin - 25);
   }
-  if (action === "swap-transit") {
-    next.stops = next.stops.map((s) => s.category === "transfer" ? { ...s, durationMin: Math.max(14, s.durationMin - 6), notes: "Transit mode swapped to faster option." } : s);
+
+  if (constraints.action === "swap-transit") {
+    const better = activePort.transportProfiles.sort((a, b) => a.reliabilityRank - b.reliabilityRank)[0];
+    blocks.forEach((block) => {
+      if (block.type === "transfer") {
+        block.transitMode = better.mode;
+        block.title = `${better.mode.toUpperCase()} transfer: optimized connection`;
+        block.durationMin = Math.max(10, block.durationMin - 6);
+      }
+    });
   }
-  if (action === "move-lunch-earlier") {
-    const lunch = next.stops.find((s) => s.category === "food");
-    if (lunch) lunch.startTime = toTime(Math.max(toMin(plan.onboardTime) + 140, toMin(lunch.startTime) - 45));
+
+  if (constraints.action === "move-lunch-earlier") {
+    const lunch = blocks.find((block) => block.type === "stop" && block.title.toLowerCase().includes("market"));
+    if (lunch) lunch.durationMin = Math.max(35, lunch.durationMin - 10);
   }
-  if (action === "balanced-loop") {
-    const profile = portProfiles[next.portSlug];
-    const fallback = profile.fallbackLoop[0];
+
+  if (constraints.action === "balanced-loop") {
+    const keep = blocks.filter((block) => block.lock || block.type === "buffer" || block.type === "transfer").slice(0, 6);
+    const fallback = activePort.attractionClusters.find((cluster) => cluster.name.includes("Fallback"));
     if (fallback) {
-      next.stops = next.stops.filter((s) => s.category !== "anchor" || s.mustDo).slice(0, 5);
-      const buffer = next.stops.find((s) => s.category === "buffer");
-      next.stops.splice(Math.max(2, next.stops.length - 1), 0, {
-        id: `fallback-${fallback.id}`,
-        templateId: fallback.id,
-        title: fallback.title,
-        category: fallback.category,
-        startTime: buffer?.startTime || next.onboardTime,
-        endTime: buffer?.startTime || next.onboardTime,
-        durationMin: fallback.durationMin,
-        walkMin: fallback.walkMin,
-        costEUR: fallback.costEUR,
-        crowd: fallback.crowd,
-        notes: "Closer loop to reduce return risk.",
-        mustDo: false,
-        locked: false,
+      keep.splice(Math.max(2, keep.length - 1), 0, {
+        id: `${fallback.id}-optimized`,
+        title: fallback.name,
+        type: "stop",
+        startTime: "00:00",
+        endTime: "00:00",
+        durationMin: fallback.typicalDurationMin[0],
+        costEUR: fallback.costRangeEUR[0],
+        transitMode: "walk",
+        whyThisHere: "Closer loop selected to remove outer-leg volatility.",
+        guidance: `Stay in corridor; skip all distant legs.`,
+        runningLateDecision: "If still late, proceed directly to terminal.",
+        lock: false,
       });
     }
+    return reflow({ ...plan, blocks: keep }, activePort, plan.input);
   }
-  return regenerateTimeline(next);
+
+  return reflow({ ...plan, blocks }, activePort, plan.input);
 }
 
-export function applySimulation(plan: Plan, scenario: "disembark" | "traffic" | "tender" | "museum") {
-  const deltas = { disembark: 25, traffic: 20, tender: 30, museum: 18 } as const;
-  const delta = deltas[scenario];
-  const next = regenerateTimeline({ ...plan, stops: plan.stops.map((s) => ({ ...s })) }, delta);
-  const risk = computeRiskBreakdown(next);
-  const suggested = risk.items.sort((a, b) => a.score - b.score)[0];
-  return { plan: next, suggestion: suggested };
-}
-
-export function regenerateTimeline(plan: Plan, addMinutes = 0): Plan {
-  const copy = plan.stops.map((s) => ({ ...s }));
-  let cursor = toMin(plan.onboardTime) + addMinutes;
-  copy.forEach((stop) => {
-    stop.startTime = toTime(cursor);
-    stop.endTime = toTime(cursor + stop.durationMin);
-    cursor += stop.durationMin;
+function reflow(plan: { input: PlanInput; blocks: PlanBlock[]; assumptions: string[] }, port: Port, input: PlanInput) {
+  let cursor = toMin(input.onboardTime);
+  const withTimes = plan.blocks.map((block) => {
+    const next = { ...block, startTime: toTime(cursor), endTime: toTime(cursor + block.durationMin) };
+    cursor += block.durationMin;
+    return next;
   });
-  return { ...plan, stops: copy };
-}
-
-export function conciergeBrief(plan: Plan, risk: RiskBreakdown) {
-  const profile = portProfiles[plan.portSlug];
-  const highlights = plan.stops.filter((s) => s.category !== "transfer" && s.category !== "buffer").slice(0, 3).map((s) => s.title);
+  const score = simulatePlan({ input, blocks: withTimes }, port, input);
   return {
-    narrative: `Your ${profile.name} day starts with a direct push into ${highlights[0] || "the core district"}, then shifts through ${highlights[1] || "a lighter mid-day block"} before wrapping with ${highlights[2] || "a controlled return corridor"}.`,
-    why: [
-      `Stops prioritize ${plan.preferences.interests.join(", ")} while staying inside a ${plan.targetBufferMin} minute return buffer.`,
-      `Transfer count is capped to ${plan.stops.filter((s) => s.category === "transfer").length} to avoid compounding delays.`,
-      profile.tender ? "Tender friction is treated as a hard constraint with an expanded return block." : "Dock operations allow tighter but still protected sequencing.",
-    ],
-    bookAvoid: [
-      `Book timed entry only for your top anchor if it starts before ${profile.peakTrafficWindows[0]}.`,
-      `Avoid adding a new far stop after ${plan.allAboardTime.slice(0, 2)}:00 local time.`,
-    ],
-    pacing: `Pace is ${plan.preferences.pace} with walking load tuned for ${plan.preferences.walkingLevel} mobility. Current return-safe score: ${risk.total}.`,
-    lateTree: [
-      "If 15–20 minutes late: trim the longest scenic block and keep lunch.",
-      "If 25–35 minutes late: switch one transfer to faster mode and skip non-must-do stop.",
-      "If >35 minutes late: run balanced-loop fallback and head shipward immediately after one highlight.",
-    ],
+    ...plan,
+    blocks: withTimes,
+    assumptions: [...plan.assumptions, `Optimization applied: ${new Date().toISOString()}`],
+    score,
   };
 }
 
-export function chatReply(plan: Plan, risk: RiskBreakdown, question: string) {
-  const lower = question.toLowerCase();
-  const lunch = plan.stops.find((s) => s.category === "food");
-  if (lower.includes("less walking")) {
-    return `I’d cut ${plan.stops.sort((a, b) => b.walkMin - a.walkMin)[0]?.title} by 20 minutes and shift to a faster transfer. That lowers walking load while protecting your ${plan.targetBufferMin} minute buffer.`;
+export function buildAgentResponse(plan: PlanOutput, question: string) {
+  const q = question.toLowerCase();
+  if (q.includes("late")) {
+    return `You are currently running a score of ${plan.score.totalScore}. If you're 20+ minutes late by midpoint, immediately apply “${plan.recommendations[0].label}”, then head to ${plan.plan.blocks.find((b) => b.type === "buffer")?.title}.`;
   }
-  if (lower.includes("lunch")) {
-    return lunch ? `Best lunch anchor in your current plan is ${lunch.title} at ${lunch.startTime}. Moving it 30 minutes earlier will avoid peak crowd pressure.` : "Add a lunch anchor near your mid-day cluster to stabilize pacing.";
+  if (q.includes("lunch") || q.includes("food")) {
+    const foodStop = plan.plan.blocks.find((block) => block.title.toLowerCase().includes("market") || block.title.toLowerCase().includes("food"));
+    return foodStop
+      ? `Your best food anchor is ${foodStop.title} at ${foodStop.startTime}. It sits before peak crowd pressure and keeps return safety intact.`
+      : "Use a corridor-adjacent food stop before 13:30 to avoid queue drag and protect your return buffer.";
   }
-  return `Based on ${plan.portSlug}, current mode ${plan.mode}, and risk score ${risk.total}, I recommend focusing on ${plan.stops.filter((s) => s.category === "anchor").slice(0, 2).map((s) => s.title).join(" + ")} and keeping your final buffer untouched.`;
+  return `Based on ${plan.plan.input.portSlug}, your ${plan.plan.input.mode} strategy, and current risks (${plan.score.violations.join(" ") || "none critical"}), keep your final two blocks corridor-adjacent and avoid adding a new far leg late.`;
 }

@@ -1,86 +1,97 @@
+export type InterestTag = "food" | "culture" | "views" | "shopping" | "beach" | "history" | "nightlife" | "family";
+export type WalkingLevel = "minimal" | "moderate" | "active";
+export type PaceLevel = "chill" | "normal" | "intense";
+export type RiskTolerance = "conservative" | "balanced" | "aggressive";
 export type PlanMode = "conservative" | "balanced" | "aggressive" | "weather-safe" | "mobility-easy";
-export type PlanCategory = "anchor" | "food" | "scenic" | "museum" | "shopping" | "beach" | "transfer" | "buffer";
-export type CrowdLevel = "low" | "medium" | "high";
 
-export type StopTemplate = {
-  id: string;
-  title: string;
-  category: Exclude<PlanCategory, "buffer">;
-  durationMin: number;
-  walkMin: number;
-  costEUR: number;
-  crowd: CrowdLevel;
-  tags: string[];
-  indoor?: boolean;
-  nearPort?: boolean;
-};
-
-export type PortProfile = {
-  slug: string;
+export type Corridor = {
   name: string;
-  tender: boolean;
-  peakTrafficWindows: string[];
-  transferToCityMin: number;
-  anchors: StopTemplate[];
-  foodAnchors: StopTemplate[];
-  scenicBlocks: StopTemplate[];
-  transferBlocks: StopTemplate[];
-  fallbackLoop: StopTemplate[];
+  distanceKmRange: [number, number];
+  timeRangeMin: [number, number];
+  notes: string;
 };
 
-export type PlannedStop = {
+export type TransportProfile = {
+  mode: "walk" | "taxi" | "metro" | "bus" | "tram" | "ferry";
+  reliabilityRank: number;
+  typicalTimeMin: [number, number];
+  costRangeEUR: [number, number];
+  notes: string;
+};
+
+export type ClusterStop = {
   id: string;
-  templateId?: string;
+  name: string;
+  cluster: string;
+  tags: InterestTag[];
+  typicalDurationMin: [number, number];
+  costRangeEUR: [number, number];
+  distanceFromCorridorKm: number;
+  bestWindow: string;
+  watchOut: string;
+};
+
+export type Port = {
+  slug: string;
+  displayName: string;
+  country: string;
+  region: "Europe" | "Caribbean";
+  dockingMode: "dock" | "tender";
+  defaultTimeWindows: { gangwayOpen: string; lastOutboundCutoff: string };
+  typicalTransitRisks: string[];
+  corridors: Corridor[];
+  transportProfiles: TransportProfile[];
+  peakCrowdWindows: string[];
+  trafficWindows: string[];
+  returnSafeRules: { hardRules: string[]; triggers: string[] };
+  attractionClusters: ClusterStop[];
+  weatherFallbacks: string[];
+  scamNotes: string[];
+};
+
+export type PlanInput = {
+  portSlug: string;
+  onboardTime: string;
+  allAboardTime: string;
+  mustReturnBufferMin: number;
+  walkingLevel: WalkingLevel;
+  pace: PaceLevel;
+  mode: PlanMode;
+  interests: InterestTag[];
+  budgetSensitivity: "low" | "medium" | "high";
+  mustDoStops: string[];
+  riskTolerance: RiskTolerance;
+  avoidCrowds: boolean;
+};
+
+export type PlanBlock = {
+  id: string;
   title: string;
-  category: PlanCategory;
+  type: "stop" | "transfer" | "buffer";
   startTime: string;
   endTime: string;
   durationMin: number;
-  walkMin: number;
   costEUR: number;
-  crowd: CrowdLevel;
-  notes: string;
-  mustDo: boolean;
-  locked: boolean;
+  transitMode: string;
+  whyThisHere: string;
+  guidance: string;
+  runningLateDecision: string;
+  lock: boolean;
 };
 
-export type PlanPreferences = {
-  walkingLevel: "minimal" | "moderate" | "active";
-  interests: Array<"food" | "culture" | "views" | "shopping" | "beach">;
-  pace: "chill" | "normal" | "intense";
+export type ScoreCard = {
+  bufferHealth: number;
+  distanceRisk: number;
+  transferCountRisk: number;
+  crowdOverlapRisk: number;
+  tenderFrictionRisk: number;
+  totalScore: number;
+  violations: string[];
 };
 
-export type Plan = {
-  portSlug: string;
-  onboardTime: string;
-  allAboardTime: string;
-  targetBufferMin: number;
-  mode: PlanMode;
-  preferences: PlanPreferences;
-  stops: PlannedStop[];
-};
-
-export type RiskItem = {
-  key: "buffer" | "distance" | "transfers" | "crowd" | "tender";
-  label: string;
-  score: number;
-  why: string;
-  fixLabel: string;
-  action: "trim-farthest" | "swap-transit" | "move-lunch-earlier" | "balanced-loop";
-};
-
-export type RiskBreakdown = {
-  total: number;
-  items: RiskItem[];
-};
-
-export type BriefState = {
-  portSlug: string;
-  onboardTime: string;
-  allAboardTime: string;
-  targetBufferMin: number;
-  walkingLevel: "minimal" | "moderate" | "active";
-  interests: Array<"food" | "culture" | "views" | "shopping" | "beach">;
-  pace: "chill" | "normal" | "intense";
-  mode: PlanMode;
+export type PlanOutput = {
+  plan: { input: PlanInput; blocks: PlanBlock[]; assumptions: string[] };
+  score: ScoreCard;
+  recommendations: Array<{ label: string; action: "trim-far-stop" | "swap-transit" | "move-lunch-earlier" | "balanced-loop" }>;
+  narrative: string;
 };
