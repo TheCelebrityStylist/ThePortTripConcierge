@@ -28,7 +28,8 @@ export type PlanMeta = {
   mobility: "limited" | "moderate" | "high";
   interests: string[];
   generatedAt?: string;
-  partySize: number;
+  adults: number;
+  hasKids: boolean;
   tenderDock: "dock" | "tender";
 };
 

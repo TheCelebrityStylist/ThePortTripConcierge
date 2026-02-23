@@ -19,7 +19,7 @@ export default function PlannerHeader({ hasPlan, onPrimary, onAction }: Props) {
           <details className="relative">
             <summary className="cursor-pointer rounded-lg bg-slate-800 px-3 py-2 text-sm">⋯</summary>
             <div className="absolute right-0 mt-2 w-40 rounded-lg border border-white/10 bg-slate-900 p-1 text-sm">
-              { ["Simulate", "Export", "Save", "Compare"].map((item) => <button key={item} className="block w-full rounded px-2 py-1 text-left hover:bg-white/10" onClick={() => onAction(item.toLowerCase())}>{item}</button>) }
+              { ["Brief", "Simulate", "Export", "Save", "Compare"].map((item) => <button key={item} className="block w-full rounded px-2 py-1 text-left hover:bg-white/10" onClick={() => onAction(item.toLowerCase())}>{item}</button>) }
             </div>
           </details>
         </div>

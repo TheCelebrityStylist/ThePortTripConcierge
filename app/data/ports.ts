@@ -7,8 +7,12 @@ export type PortCluster = {
 export type PlannerPortData = {
   portSlug: string;
   dockType: "dock" | "tender";
+  dockTypeDefault: "dock" | "tender";
+  typicalCallHoursRange: [number, number];
   typicalTransferToCity: number;
+  typicalTransferToCityMin: number;
   peakTrafficWindows: string[];
+  recommendedBufferMin: { low: number; med: number; high: number };
   reliabilityRanking: Array<"walk" | "taxi" | "metro" | "bus">;
   recommendedClusters: PortCluster[];
 };
@@ -17,8 +21,12 @@ export const plannerPorts: Record<string, PlannerPortData> = {
   barcelona: {
     portSlug: "barcelona",
     dockType: "dock",
+    dockTypeDefault: "dock",
+    typicalCallHoursRange: [8, 10],
     typicalTransferToCity: 25,
+    typicalTransferToCityMin: 25,
     peakTrafficWindows: ["11:00-13:30", "15:00-16:30"],
+    recommendedBufferMin: { low: 75, med: 60, high: 45 },
     reliabilityRanking: ["walk", "metro", "taxi", "bus"],
     recommendedClusters: [
       { name: "Gothic Quarter core", minutes: 90, walkingIntensity: "moderate" },
@@ -34,8 +42,12 @@ export const plannerPorts: Record<string, PlannerPortData> = {
   marseille: {
     portSlug: "marseille",
     dockType: "dock",
+    dockTypeDefault: "dock",
+    typicalCallHoursRange: [8, 10],
     typicalTransferToCity: 30,
+    typicalTransferToCityMin: 30,
     peakTrafficWindows: ["10:30-12:00", "15:30-16:30"],
+    recommendedBufferMin: { low: 80, med: 60, high: 45 },
     reliabilityRanking: ["taxi", "metro", "bus", "walk"],
     recommendedClusters: [
       { name: "Vieux-Port circuit", minutes: 80, walkingIntensity: "low" },
@@ -51,8 +63,12 @@ export const plannerPorts: Record<string, PlannerPortData> = {
   "athens-piraeus": {
     portSlug: "athens-piraeus",
     dockType: "dock",
+    dockTypeDefault: "dock",
+    typicalCallHoursRange: [9, 11],
     typicalTransferToCity: 35,
+    typicalTransferToCityMin: 35,
     peakTrafficWindows: ["08:30-10:00", "16:00-17:00"],
+    recommendedBufferMin: { low: 85, med: 65, high: 50 },
     reliabilityRanking: ["taxi", "metro", "bus", "walk"],
     recommendedClusters: [
       { name: "Acropolis perimeter", minutes: 90, walkingIntensity: "high" },
@@ -68,8 +84,12 @@ export const plannerPorts: Record<string, PlannerPortData> = {
   santorini: {
     portSlug: "santorini",
     dockType: "tender",
+    dockTypeDefault: "tender",
+    typicalCallHoursRange: [7, 9],
     typicalTransferToCity: 45,
+    typicalTransferToCityMin: 45,
     peakTrafficWindows: ["08:00-10:30", "14:00-16:00"],
+    recommendedBufferMin: { low: 95, med: 75, high: 55 },
     reliabilityRanking: ["walk", "taxi", "bus", "metro"],
     recommendedClusters: [
       { name: "Fira core", minutes: 80, walkingIntensity: "high" },
@@ -85,8 +105,12 @@ export const plannerPorts: Record<string, PlannerPortData> = {
   mykonos: {
     portSlug: "mykonos",
     dockType: "tender",
+    dockTypeDefault: "tender",
+    typicalCallHoursRange: [7, 9],
     typicalTransferToCity: 30,
+    typicalTransferToCityMin: 30,
     peakTrafficWindows: ["09:00-11:00", "15:00-16:30"],
+    recommendedBufferMin: { low: 90, med: 70, high: 50 },
     reliabilityRanking: ["walk", "taxi", "bus", "metro"],
     recommendedClusters: [
       { name: "Old town lanes", minutes: 75, walkingIntensity: "moderate" },

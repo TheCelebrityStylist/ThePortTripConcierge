@@ -8,7 +8,8 @@ import PlannerHeader from "@/app/components/planner/PlannerHeader";
 import RunningLateModal from "@/app/components/planner/RunningLateModal";
 import Tabs, { type Tab } from "@/app/components/planner/Tabs";
 import TimelineBoard from "@/app/components/planner/TimelineBoard";
-import TripBriefWizard from "@/app/components/planner/TripBriefWizard";
+import TripBriefModal from "@/app/components/planner/TripBriefModal";
+import { defaultBriefForPort } from "@/app/lib/planner/brief";
 import { applyPlanPatch } from "@/app/lib/planner/patch";
 import { computeMetrics } from "@/app/lib/planner/score";
 import type { AgentSuggestion, Brief, PlanMeta, PlanStop, PlannerAgentResponse } from "@/app/lib/planner/types";
@@ -18,22 +19,21 @@ const toMin = (time: string) => {
   return h * 60 + m;
 };
 const toTime = (min: number) => `${String(Math.floor(min / 60)).padStart(2, "0")}:${String(min % 60).padStart(2, "0")}`;
-
 const uid = () => Math.random().toString(36).slice(2, 9);
 
 function generatePlan(meta: PlanMeta): PlanStop[] {
   const port = plannerPorts[meta.portSlug] ?? plannerPorts.barcelona;
-  const start = toMin(meta.disembarkTime);
+  const start = toMin(meta.disembarkTime || "08:30");
   const end = toMin(meta.allAboardTime) - meta.returnBufferMin;
-  const clusters = port.recommendedClusters.slice(0, 6);
+  const clusters = port.recommendedClusters.slice(0, 8);
   const stops: PlanStop[] = [];
   let cursor = start;
 
-  stops.push({ id: uid(), title: "Port transfer to city core", category: "transit", startTime: toTime(cursor), endTime: toTime(cursor + port.typicalTransferToCity), durationMin: port.typicalTransferToCity, costEUR: 12, walkMin: 5, crowdRisk: "medium" });
-  cursor += port.typicalTransferToCity;
+  stops.push({ id: uid(), title: "Transfer from terminal", category: "transit", startTime: toTime(cursor), endTime: toTime(cursor + port.typicalTransferToCityMin), durationMin: port.typicalTransferToCityMin, costEUR: 12, walkMin: 5, crowdRisk: "medium" });
+  cursor += port.typicalTransferToCityMin;
 
   for (const cluster of clusters) {
-    if (cursor + cluster.minutes + 20 > end) break;
+    if (cursor + cluster.minutes + 20 > end || stops.length >= 8) break;
     stops.push({
       id: uid(),
       title: cluster.name,
@@ -48,46 +48,63 @@ function generatePlan(meta: PlanMeta): PlanStop[] {
     cursor += cluster.minutes;
   }
 
-  stops.push({ id: uid(), title: "Return buffer + transit to port", category: "buffer", startTime: toTime(cursor), endTime: toTime(end), durationMin: Math.max(20, end - cursor), costEUR: 10, walkMin: 5, crowdRisk: "low", lockInclusion: true });
-
+  stops.push({ id: uid(), title: "Return buffer + port transfer", category: "buffer", startTime: toTime(cursor), endTime: toTime(Math.max(end, cursor + 20)), durationMin: Math.max(20, end - cursor), costEUR: 8, walkMin: 5, crowdRisk: "low", lockInclusion: true });
   return stops;
 }
 
-const defaultMeta: PlanMeta = {
-  portSlug: "barcelona",
-  allAboardTime: "16:30",
-  disembarkTime: "08:30",
-  returnBufferMin: 60,
-  riskTolerance: "med",
-  pace: "balanced",
-  budgetLevel: "med",
-  mobility: "moderate",
-  interests: ["food", "history"],
-  partySize: 2,
-  tenderDock: "dock",
-};
+function mergeLockedStops(previous: PlanStop[], regenerated: PlanStop[]) {
+  const locked = previous.filter((stop) => stop.lockInclusion || stop.lockTime);
+  let next = [...regenerated];
+  locked.forEach((lockedStop) => {
+    const match = next.findIndex((s) => s.title === lockedStop.title);
+    if (match >= 0) next[match] = { ...next[match], ...lockedStop };
+    else next.splice(Math.max(1, next.length - 1), 0, lockedStop);
+  });
+  return next;
+}
 
-const defaultBrief: Brief = { mustDo: "", avoid: "", walkingLimitMin: 180, noStairs: false, avoidQueues: false, avoidTaxis: false, avoidBuses: false, planStyle: "mixed", foodAnchors: true, photoMoments: true, heatTolerance: "medium" };
+const defaults = defaultBriefForPort("barcelona");
 
 export default function ChatPage() {
   const [tab, setTab] = useState<Tab>("timeline");
-  const [showWizard, setShowWizard] = useState(true);
+  const [showBrief, setShowBrief] = useState(true);
   const [showLate, setShowLate] = useState(false);
-  const [meta, setMeta] = useState<PlanMeta>(defaultMeta);
-  const [brief, setBrief] = useState<Brief>(defaultBrief);
+  const [meta, setMeta] = useState<PlanMeta>(defaults.meta);
+  const [brief, setBrief] = useState<Brief>(defaults.brief);
   const [variant, setVariant] = useState<"balanced" | "low-risk" | "max-experience">("balanced");
   const [stops, setStops] = useState<PlanStop[]>([]);
   const [assistantHash, setAssistantHash] = useState<string[]>([]);
+  const [error, setError] = useState("");
+  const [toast, setToast] = useState("");
 
   const metrics = useMemo(() => computeMetrics(stops, meta), [stops, meta]);
 
-  const regenerate = (selectedVariant: typeof variant) => {
-    const baseMeta = { ...meta };
-    if (selectedVariant === "low-risk") baseMeta.returnBufferMin = 80;
-    if (selectedVariant === "max-experience") baseMeta.returnBufferMin = 45;
+  const generateFromBrief = (selectedVariant: typeof variant) => {
+    if (!meta.portSlug || !meta.allAboardTime) {
+      setError("Please choose a port and all aboard time.");
+      return;
+    }
+
+    const updatedMeta = { ...meta, generatedAt: new Date().toISOString() };
+    if (selectedVariant === "low-risk") updatedMeta.returnBufferMin = Math.max(meta.returnBufferMin, 75);
+    if (selectedVariant === "max-experience") updatedMeta.returnBufferMin = Math.min(meta.returnBufferMin, 45);
+
+    const regenerated = generatePlan(updatedMeta);
+    setStops((prev) => prev.length ? mergeLockedStops(prev, regenerated) : regenerated);
+    setMeta(updatedMeta);
     setVariant(selectedVariant);
-    setStops(generatePlan(baseMeta));
-    setShowWizard(false);
+    setError("");
+    setShowBrief(false);
+    setTab("timeline");
+    setToast("Plan generated. Your timeline is ready.");
+    setTimeout(() => setToast(""), 2600);
+  };
+
+  const skipDefaults = () => {
+    const next = defaultBriefForPort(meta.portSlug || "barcelona", meta.allAboardTime || "16:30", meta.riskTolerance);
+    setMeta(next.meta);
+    setBrief(next.brief);
+    generateFromBrief("balanced");
   };
 
   const onToggle = (id: string, key: "lockTime" | "lockInclusion") => setStops((prev) => prev.map((s) => (s.id === id ? { ...s, [key]: !s[key] } : s)));
@@ -105,7 +122,7 @@ export default function ChatPage() {
     if (s.actionType === "add") {
       const payload = s.payload as Partial<PlanStop>;
       const after = stops[stops.length - 2];
-      const start = after ? toMin(after.endTime) : toMin(meta.disembarkTime);
+      const start = after ? toMin(after.endTime) : toMin(meta.disembarkTime || "08:30");
       const duration = Number(payload.durationMin ?? 45);
       const next: PlanStop = {
         id: uid(),
@@ -129,7 +146,7 @@ export default function ChatPage() {
   };
 
   const applyRunningLate = (mode: "safe" | "salvage", delayMin: number) => {
-    setStops((prev) => prev.filter((stop, idx) => mode === "safe" ? (!stop.optional && idx !== 2) : (idx !== 3)).map((s) => ({ ...s, durationMin: Math.max(20, s.durationMin - Math.floor(delayMin / 4)) })));
+    setStops((prev) => prev.filter((_, idx) => mode === "safe" ? idx !== 2 : idx !== 3).map((s) => ({ ...s, durationMin: Math.max(20, s.durationMin - Math.floor(delayMin / 4)) })));
     setShowLate(false);
   };
 
@@ -142,27 +159,33 @@ export default function ChatPage() {
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
-      <PlannerHeader hasPlan={stops.length > 0} onPrimary={() => (stops.length ? regenerate(variant) : setShowWizard(true))} onAction={(key) => key === "simulate" && setShowLate(true)} />
-      <TripBriefWizard open={showWizard} meta={meta} brief={brief} setMeta={setMeta} setBrief={setBrief} onGenerate={() => regenerate("balanced")} />
+      <PlannerHeader hasPlan={stops.length > 0} onPrimary={() => (stops.length ? generateFromBrief(variant) : setShowBrief(true))} onAction={(key) => {
+        if (key === "simulate") setShowLate(true);
+        if (key === "brief") setShowBrief(true);
+      }} />
+
+      <TripBriefModal open={showBrief} hasPlan={stops.length > 0} meta={meta} brief={brief} error={error} onClose={() => setShowBrief(false)} onSkip={skipDefaults} setMeta={setMeta} setBrief={setBrief} onGenerate={() => generateFromBrief(variant)} />
       <RunningLateModal open={showLate} onClose={() => setShowLate(false)} onApply={applyRunningLate} />
+
+      {toast && <div className="fixed bottom-4 left-1/2 z-40 -translate-x-1/2 rounded-lg bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-900">{toast}</div>}
 
       <div className="mx-auto max-w-6xl px-2 pb-20 sm:px-4">
         <Tabs active={tab} setActive={setTab} />
-
         <div className="mt-3 flex flex-wrap gap-2">
           {(["balanced", "low-risk", "max-experience"] as const).map((option) => (
-            <button key={option} onClick={() => regenerate(option)} className={`rounded-full px-3 py-1 text-xs ${variant === option ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>{option}</button>
+            <button key={option} onClick={() => generateFromBrief(option)} className={`rounded-full px-3 py-1 text-xs ${variant === option ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>{option}</button>
           ))}
+          <button className="rounded-full bg-slate-800 px-3 py-1 text-xs" onClick={() => setShowBrief(true)}>Brief</button>
           <button className="rounded-full bg-amber-500/90 px-3 py-1 text-xs text-slate-900" onClick={() => setShowLate(true)}>I&apos;m running late</button>
         </div>
 
         <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_300px]">
           <section className="min-w-0">
-            {tab === "timeline" && <TimelineBoard stops={stops} onToggle={onToggle} onAsk={(_, action) => setTab(action ? "chat" : "timeline")} onMove={onMove} />}
+            {tab === "timeline" && <TimelineBoard stops={stops} onToggle={onToggle} onAsk={() => setTab("chat")} onMove={onMove} />}
             {tab === "chat" && <AgentChat requestPayload={(message) => ({ portSlug: meta.portSlug, brief, currentPlan: stops, userMessage: message, mode: variant })} onApplySuggestion={applySuggestion} onReply={onReply} />}
-            {tab === "map" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm text-slate-300">Sequential route preview: {stops.map((s) => s.title).join(" → ")}</div>}
-            {tab === "budget" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Per-stop budget total €{metrics.totalCost}. Benchmark compare input coming from overflow action.</div>}
-            {tab === "risk" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Risk contributors: farthest {metrics.farthestDistanceEstimate}km, transfers {metrics.transfersCount}, tender {meta.tenderDock}, peak overlap {(metrics.riskFlags.includes("Peak traffic overlap") ? "yes" : "no")}, buffer {metrics.bufferMinutesRemaining}m.</div>}
+            {tab === "map" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm text-slate-300">Route preview: {stops.map((s) => s.title).join(" → ")}</div>}
+            {tab === "budget" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Per-stop budget total €{metrics.totalCost}. Compare against ship excursion in overflow actions.</div>}
+            {tab === "risk" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Risk contributors: farthest {metrics.farthestDistanceEstimate}km, transfers {metrics.transfersCount}, tender {meta.tenderDock}, peak overlap {metrics.riskFlags.includes("Peak traffic overlap") ? "yes" : "no"}, buffer {metrics.bufferMinutesRemaining}m.</div>}
           </section>
           <div className="min-w-0">
             <PlanQualityPanel metrics={metrics} />
