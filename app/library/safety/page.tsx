@@ -5,7 +5,7 @@ export default function LibrarySafetyPage() {
   const posts = blogArticles.filter((article) => article.category === "Safety");
 
   return (
-    <main className="min-h-screen bg-slate-950 px-6 py-10 text-slate-100">
+    <main className="min-h-screen bg-slate-950 px-6 pb-10 pt-24 text-slate-100">
       <section className="mx-auto max-w-5xl">
         <h1 className="text-3xl font-semibold">Library Category: Safety Systems</h1>
         <p className="mt-2 text-slate-300">Risk-control frameworks for all-aboard protection, tender variance, and disruption management.</p>

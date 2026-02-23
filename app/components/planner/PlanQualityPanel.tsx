@@ -1,29 +1,22 @@
+import type { RiskBreakdown } from "@/app/lib/planner/types";
 
-type Metrics = {
-  returnSafeScore: number;
-  totalCost: number;
-  totalWalk: number;
-  transfersCount: number;
-  farthestDistanceEstimate: number;
-  riskFlags: string[];
-  queueRisk: number;
-  transitComplexity: number;
-  bufferMinutesRemaining: number;
-};
-
-export default function PlanQualityPanel({ metrics }: { metrics: Metrics }) {
+export default function PlanQualityPanel({ risk, onFix }: { risk: RiskBreakdown; onFix: (action: RiskBreakdown["items"][number]["action"]) => void }) {
   return (
     <aside className="rounded-xl border border-white/10 bg-slate-900/70 p-3 text-sm">
-      <p className="font-semibold">Plan Quality</p>
-      <ul className="mt-2 space-y-1 text-slate-300">
-        <li>Return-safe score: {metrics.returnSafeScore}</li>
-        <li>Budget: €{metrics.totalCost}</li>
-        <li>Walking load: {metrics.totalWalk} min</li>
-        <li>Queue risk: {metrics.queueRisk}</li>
-        <li>Transit complexity: {metrics.transitComplexity}</li>
-        <li>Buffer remaining: {metrics.bufferMinutesRemaining} min</li>
-      </ul>
-      {metrics.riskFlags.length > 0 && <p className="mt-2 text-amber-300">Risks: {metrics.riskFlags.join(", ")}</p>}
+      <p className="font-semibold">Return-Safe Intelligence</p>
+      <p className="mt-1 text-2xl font-bold text-cyan-300">{risk.total}</p>
+      <div className="mt-3 space-y-2">
+        {risk.items.map((item) => (
+          <div key={item.key} className="rounded-lg bg-slate-800 p-2">
+            <div className="flex items-center justify-between">
+              <p className="font-medium">{item.label}</p>
+              <span className="text-xs text-slate-300">{item.score}</span>
+            </div>
+            <p className="mt-1 text-xs text-slate-300">{item.why}</p>
+            <button onClick={() => onFix(item.action)} className="mt-2 rounded bg-cyan-400 px-2 py-1 text-xs font-semibold text-slate-900">{item.fixLabel}</button>
+          </div>
+        ))}
+      </div>
     </aside>
   );
 }

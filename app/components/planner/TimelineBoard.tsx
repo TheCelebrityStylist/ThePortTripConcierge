@@ -1,13 +1,18 @@
 "use client";
 
-import type { PlanStop } from "@/app/lib/planner/types";
+import type { PlannedStop } from "@/app/lib/planner/types";
 import StopCard from "./StopCard";
 
-export default function TimelineBoard({ stops, onToggle, onAsk, onMove }: {
-  stops: PlanStop[];
-  onToggle: (id: string, key: "lockTime" | "lockInclusion") => void;
-  onAsk: (id: string, action: string) => void;
-  onMove: (id: string, direction: "up" | "down") => void;
+export default function TimelineBoard({ stops, onEdit, onMove }: {
+  stops: PlannedStop[];
+  onEdit: (id: string, field: keyof PlannedStop, value: string | number | boolean) => void;
+  onMove: (from: number, to: number) => void;
 }) {
-  return <div className="space-y-3">{stops.map((stop) => <StopCard key={stop.id} stop={stop} onToggle={onToggle} onAsk={onAsk} onMove={onMove} />)}</div>;
+  return (
+    <div className="space-y-3 pb-20 sm:pb-0">
+      {stops.map((stop, index) => (
+        <StopCard key={stop.id} stop={stop} index={index} onEdit={onEdit} onMove={onMove} />
+      ))}
+    </div>
+  );
 }
