@@ -21,7 +21,7 @@ export default function CruiseDashboard({ cruise, dashboard, plansByDayId, onGen
         {cruise.itinerary.map((day) => (
           <div key={day.id} className="flex items-center justify-between rounded border border-white/10 p-2 text-xs">
             <div>
-              <p>{day.date} · {day.portSlug}</p>
+              <p>{day.date} · {day.portName || day.portSlug}</p>
               <p className="text-slate-400">{day.status} · score {plansByDayId[day.id]?.score.totalScore ?? "--"}</p>
             </div>
             <span className={`rounded px-2 py-1 ${day.locked ? "bg-cyan-500 text-slate-900" : "bg-slate-700"}`}>{day.locked ? "Locked" : "Editable"}</span>

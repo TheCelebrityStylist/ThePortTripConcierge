@@ -290,6 +290,7 @@ export function createPortDayFromPort(portSlug: string, date: string): PortDay {
     id: `${portSlug}-${date}`,
     date,
     portSlug,
+    portName: port.name,
     arrivalTime: port.defaultTimeWindows.gangwayOpen,
     onboardTime: port.defaultTimeWindows.gangwayOpen,
     allAboardTime: "18:00",

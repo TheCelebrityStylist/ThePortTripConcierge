@@ -8,6 +8,7 @@ export type PlanMode = "conservative" | "balanced" | "aggressive" | "weather-saf
 
 export type PlanInput = {
   portSlug: string;
+  portName?: string;
   onboardTime: string;
   allAboardTime: string;
   mustReturnBufferMin: number;
@@ -57,6 +58,7 @@ export type PortDay = {
   id: string;
   date: string;
   portSlug: string;
+  portName?: string;
   arrivalTime: string;
   onboardTime: string;
   allAboardTime: string;
