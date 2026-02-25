@@ -2,22 +2,22 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import AgentChat from "@/app/components/planner/AgentChat";
-import ConciergeBrief from "@/app/components/planner/ConciergeBrief";
-import CruiseBuilder from "@/app/components/planner/CruiseBuilder";
-import CruiseDashboard from "@/app/components/planner/CruiseDashboard";
-import PlanBuilder from "@/app/components/planner/PlanBuilder";
+import AIAssistantPanel from "@/app/components/planner/AIAssistantPanel";
+import CruiseOverview from "@/app/components/planner/CruiseOverview";
+import CruiseSetupCard from "@/app/components/planner/CruiseSetupCard";
+import MobilePlannerShell from "@/app/components/planner/MobilePlannerShell";
 import PlannerHeader from "@/app/components/planner/PlannerHeader";
 import PlanQualityPanel from "@/app/components/planner/PlanQualityPanel";
 import SimulationDrawer from "@/app/components/planner/SimulationDrawer";
-import Tabs, { type Tab } from "@/app/components/planner/Tabs";
 import TimelineBoard from "@/app/components/planner/TimelineBoard";
 import UpgradeModal from "@/app/components/planner/UpgradeModal";
 import { gateMessage, getEntitlements, hasFeature } from "@/app/lib/cruise/gates";
-import { buildAgentResponse, buildCruiseDashboard, createPortDayFromPort, generatePortDayPlan, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
+import { buildCruiseDashboard, createPortDayFromPort, generatePortDayPlan, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
 import type { Cruise, FeatureGateKey, FeatureTier, PlanBlock, PlanInput, PlanOutput, PortDay } from "@/app/lib/planner/types";
 
-const DRAFT_KEY = "porttrip_cruise_draft_v1";
+const DRAFT_KEY = "porttrip_cruise_draft_v2";
+
+type DayError = { port?: string; times?: string };
 
 const defaultInput: PlanInput = {
   portSlug: "barcelona",
@@ -34,58 +34,71 @@ const defaultInput: PlanInput = {
   avoidCrowds: false,
 };
 
+const addDays = (startDate: string, count: number) =>
+  Array.from({ length: count }, (_, idx) => {
+    const date = new Date(new Date(startDate).getTime() + idx * 86400000).toISOString().slice(0, 10);
+    return createPortDayFromPort(idx % 2 === 0 ? "barcelona" : "marseille", date);
+  });
+
 const createDefaultCruise = (): Cruise => ({
   id: "cruise-local",
-  cruiseName: "My Cruise",
+  cruiseName: "Mediterranean Sprint",
   cruiseLine: "",
   ship: "",
   startDate: new Date().toISOString().slice(0, 10),
-  durationDays: 7,
-  timezone: "Local",
-  itinerary: [
-    createPortDayFromPort("barcelona", new Date().toISOString().slice(0, 10)),
-    createPortDayFromPort("marseille", new Date(Date.now() + 86400000).toISOString().slice(0, 10)),
-  ],
+  durationDays: 5,
+  timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || "Local",
+  itinerary: addDays(new Date().toISOString().slice(0, 10), 5),
 });
 
-const isDayValid = (day: PortDay) => !!day.portSlug && day.arrivalTime < day.allAboardTime;
+const validateDay = (day: PortDay): DayError => {
+  const error: DayError = {};
+  if (!day.portSlug) error.port = "Select a port.";
+  if (!day.arrivalTime || !day.allAboardTime || day.arrivalTime >= day.allAboardTime) error.times = "Arrival must be before all aboard.";
+  return error;
+};
 
 export default function ChatPage() {
   const searchParams = useSearchParams();
-  const [tab, setTab] = useState<Tab>("timeline");
   const [tier, setTier] = useState<FeatureTier>("free");
   const [mode, setMode] = useState<"single-port" | "full-cruise">("full-cruise");
+  const [detailTab, setDetailTab] = useState<"timeline" | "map" | "risk" | "budget">("timeline");
+  const [mobileTab, setMobileTab] = useState<"plan" | "chat" | "risk" | "budget">("plan");
+  const [assistantMode, setAssistantMode] = useState<"day" | "cruise">("day");
   const [input, setInput] = useState<PlanInput>(defaultInput);
-  const [output, setOutput] = useState<PlanOutput | null>(null);
   const [cruise, setCruise] = useState<Cruise>(createDefaultCruise);
-  const [selectedDayId, setSelectedDayId] = useState<string | undefined>(undefined);
+  const [selectedDayId, setSelectedDayId] = useState<string>();
   const [plansByDayId, setPlansByDayId] = useState<Record<string, PlanOutput>>({});
+  const [generation, setGeneration] = useState<{ running: boolean; done: number; total: number }>({ running: false, done: 0, total: 0 });
   const [toast, setToast] = useState("");
   const [simOpen, setSimOpen] = useState(false);
   const [upgradeGate, setUpgradeGate] = useState<FeatureGateKey | null>(null);
 
   const entitlements = useMemo(() => getEntitlements(tier, searchParams.toString()), [tier, searchParams]);
+  const selectedDay = cruise.itinerary.find((day) => day.id === selectedDayId) ?? cruise.itinerary[0];
+  const output = selectedDay ? plansByDayId[selectedDay.id] ?? null : null;
   const dashboard = useMemo(() => buildCruiseDashboard(cruise, plansByDayId), [cruise, plansByDayId]);
+  const dayErrors = useMemo(() => Object.fromEntries(cruise.itinerary.map((day) => [day.id, validateDay(day)])), [cruise.itinerary]);
 
   useEffect(() => {
     const raw = localStorage.getItem(DRAFT_KEY);
     if (!raw) return;
     try {
-      const parsed = JSON.parse(raw) as { cruise: Cruise; selectedDayId?: string; mode: "single-port" | "full-cruise" };
+      const parsed = JSON.parse(raw) as { cruise: Cruise; mode: "single-port" | "full-cruise"; selectedDayId?: string };
       setCruise(parsed.cruise);
-      setSelectedDayId(parsed.selectedDayId);
       setMode(parsed.mode);
+      setSelectedDayId(parsed.selectedDayId);
     } catch {
       // ignore malformed draft
     }
   }, []);
 
   useEffect(() => {
-    const id = window.setTimeout(() => {
-      localStorage.setItem(DRAFT_KEY, JSON.stringify({ cruise, selectedDayId, mode }));
-    }, 300);
-    return () => clearTimeout(id);
-  }, [cruise, selectedDayId, mode]);
+    const timer = window.setTimeout(() => {
+      localStorage.setItem(DRAFT_KEY, JSON.stringify({ cruise, mode, selectedDayId }));
+    }, 250);
+    return () => clearTimeout(timer);
+  }, [cruise, mode, selectedDayId]);
 
   useEffect(() => {
     if (!selectedDayId && cruise.itinerary[0]) setSelectedDayId(cruise.itinerary[0].id);
@@ -97,197 +110,290 @@ export default function ChatPage() {
     return true;
   };
 
-  const selectedDay = cruise.itinerary.find((day) => day.id === selectedDayId) ?? cruise.itinerary[0];
-
-  const generateSelectedDay = () => {
-    if (!selectedDay || !isDayValid(selectedDay)) {
-      setToast("Please fix selected day (port + times). ");
-      return;
-    }
-    const planInput: PlanInput = {
-      ...input,
-      portSlug: selectedDay.portSlug,
-      onboardTime: selectedDay.onboardTime,
-      allAboardTime: selectedDay.allAboardTime,
-      walkingLevel: selectedDay.walkingPreference,
-      pace: selectedDay.pace,
-      interests: selectedDay.interests,
-      riskTolerance: selectedDay.riskTolerance,
-    };
-    const next = generatePortDayPlan(planInput, selectedDay.portSlug);
-    setOutput(next);
-    setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: next }));
-    setCruise({ ...cruise, itinerary: cruise.itinerary.map((day) => (day.id === selectedDay.id ? { ...day, status: "draft", score: next.score.totalScore } : day)) });
-    setTab("timeline");
-    setToast(`Generated ${selectedDay.portSlug} day plan.`);
-    setTimeout(() => setToast(""), 1400);
+  const updateDay = (id: string, patch: Partial<PortDay>) => {
+    setCruise((prev) => ({ ...prev, itinerary: prev.itinerary.map((day) => (day.id === id ? { ...day, ...patch } : day)) }));
   };
 
-  const generateAll = () => {
-    if (triggerGate("generateAll")) return;
-    const next: Record<string, PlanOutput> = {};
-    cruise.itinerary.forEach((day) => {
-      if (!isDayValid(day)) return;
-      const planInput: PlanInput = {
-        ...input,
-        portSlug: day.portSlug,
-        onboardTime: day.onboardTime,
-        allAboardTime: day.allAboardTime,
-        walkingLevel: day.walkingPreference,
-        pace: day.pace,
-        interests: day.interests,
-        riskTolerance: day.riskTolerance,
-      };
-      next[day.id] = generatePortDayPlan(planInput, day.portSlug);
+  const onCruiseChange = (patch: Partial<Cruise>) => {
+    setCruise((prev) => ({ ...prev, ...patch }));
+  };
+
+  const onAddDay = () => {
+    setCruise((prev) => {
+      const index = prev.itinerary.length;
+      const date = new Date(new Date(prev.startDate).getTime() + index * 86400000).toISOString().slice(0, 10);
+      const day = createPortDayFromPort("cozumel", date);
+      setSelectedDayId(day.id);
+      return { ...prev, durationDays: index + 1, itinerary: [...prev.itinerary, day] };
     });
-    setPlansByDayId(next);
-    setCruise({ ...cruise, itinerary: cruise.itinerary.map((day) => ({ ...day, status: next[day.id] ? "optimized" : day.status, score: next[day.id]?.score.totalScore })) });
-    setToast("Generated all valid days.");
-    setTimeout(() => setToast(""), 1600);
   };
 
-  const optimizeCruiseFlow = () => {
-    if (triggerGate("generateAll")) return;
-    const intense = cruise.itinerary.filter((day) => day.pace === "intense");
-    if (intense.length > 2) {
-      setCruise({ ...cruise, itinerary: cruise.itinerary.map((day, index) => (index % 3 === 2 ? { ...day, pace: "chill" } : day)) });
-      setToast("Energy pacing adjusted.");
-      setTimeout(() => setToast(""), 1500);
-    }
-  };
-
-  const addDay = () => {
-    const index = cruise.itinerary.length;
-    const nextDate = new Date(new Date(cruise.startDate).getTime() + index * 86400000).toISOString().slice(0, 10);
-    const day = createPortDayFromPort("cozumel", nextDate);
-    setCruise({ ...cruise, itinerary: [...cruise.itinerary, day] });
-    setSelectedDayId(day.id);
-  };
-
-  const removeDay = (id: string) => {
-    const remaining = cruise.itinerary.filter((day) => day.id !== id);
-    setCruise({ ...cruise, itinerary: remaining });
+  const onRemoveDay = (id: string) => {
+    setCruise((prev) => {
+      const itinerary = prev.itinerary.filter((day) => day.id !== id);
+      return { ...prev, durationDays: itinerary.length, itinerary };
+    });
     setPlansByDayId((prev) => {
       const next = { ...prev };
       delete next[id];
       return next;
     });
-    if (selectedDayId === id) setSelectedDayId(remaining[0]?.id);
+    if (selectedDayId === id) setSelectedDayId(cruise.itinerary.find((day) => day.id !== id)?.id);
+  };
+
+  const onDuplicatePortToAll = (id: string) => {
+    const source = cruise.itinerary.find((day) => day.id === id);
+    if (!source?.portSlug) return;
+    setCruise((prev) => ({
+      ...prev,
+      itinerary: prev.itinerary.map((day) => ({ ...day, portSlug: source.portSlug, portName: source.portName ?? day.portName })),
+    }));
+    setToast(`Applied ${source.portName ?? source.portSlug} across all days.`);
+    setTimeout(() => setToast(""), 1500);
+  };
+
+  const onAutoFillDay = (id: string) => {
+    const day = cruise.itinerary.find((item) => item.id === id);
+    if (!day) return;
+    const fallbackArrival = day.arrivalTime || "08:00";
+    const fallbackAboard = day.allAboardTime && day.allAboardTime > fallbackArrival ? day.allAboardTime : "17:00";
+    updateDay(id, { arrivalTime: fallbackArrival, onboardTime: fallbackArrival, allAboardTime: fallbackAboard });
+  };
+
+  const buildInputFromDay = (day: PortDay): PlanInput => ({
+    ...input,
+    portSlug: day.portSlug,
+    portName: day.portName,
+    onboardTime: day.arrivalTime,
+    allAboardTime: day.allAboardTime,
+    walkingLevel: day.walkingPreference,
+    pace: day.pace,
+    riskTolerance: day.riskTolerance,
+    interests: day.interests,
+  });
+
+  const generateSelected = () => {
+    if (!selectedDay) return;
+    const errors = validateDay(selectedDay);
+    if (errors.port || errors.times) {
+      setToast(errors.port || errors.times || "Fix the day first.");
+      return;
+    }
+    const next = generatePortDayPlan(buildInputFromDay(selectedDay), selectedDay.portSlug);
+    setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: next }));
+    setCruise((prev) => ({ ...prev, itinerary: prev.itinerary.map((day) => (day.id === selectedDay.id ? { ...day, score: next.score.totalScore, status: "draft" } : day)) }));
+    setToast(`Generated Day ${cruise.itinerary.findIndex((day) => day.id === selectedDay.id) + 1}.`);
+    setTimeout(() => setToast(""), 1400);
+  };
+
+  const generateAll = async () => {
+    if (triggerGate("generateAll")) return;
+    const validDays = cruise.itinerary.filter((day) => {
+      const errs = validateDay(day);
+      return !errs.port && !errs.times;
+    });
+    setGeneration({ running: true, done: 0, total: validDays.length });
+    const nextPlans: Record<string, PlanOutput> = { ...plansByDayId };
+
+    for (let i = 0; i < validDays.length; i += 1) {
+      const day = validDays[i];
+      nextPlans[day.id] = generatePortDayPlan(buildInputFromDay(day), day.portSlug);
+      setGeneration({ running: true, done: i + 1, total: validDays.length });
+      // keeps progress visible
+      await new Promise((resolve) => setTimeout(resolve, 80));
+    }
+
+    setPlansByDayId(nextPlans);
+    setCruise((prev) => ({
+      ...prev,
+      itinerary: prev.itinerary.map((day) => (nextPlans[day.id] ? { ...day, status: "optimized", score: nextPlans[day.id].score.totalScore } : day)),
+    }));
+    setGeneration({ running: false, done: 0, total: 0 });
+    setToast(`Generated ${validDays.length} day plans.`);
+    setTimeout(() => setToast(""), 1800);
+  };
+
+  const applyAssistantAction = (action: PlanOutput["recommendations"][number]["action"], scope: "day" | "cruise") => {
+    if (scope === "cruise") {
+      if (triggerGate("generateAll")) return;
+      const next: Record<string, PlanOutput> = { ...plansByDayId };
+      Object.entries(next).forEach(([dayId, plan]) => {
+        const updatedPlan = optimizePlan(plan.plan, { action });
+        next[dayId] = { ...plan, plan: updatedPlan, score: simulateRisk(updatedPlan, updatedPlan.input.portSlug) };
+      });
+      setPlansByDayId(next);
+      return;
+    }
+
+    if (!selectedDay || !output) return;
+    const optimized = optimizePlan(output.plan, { action });
+    setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: { ...output, plan: optimized, score: simulateRisk(optimized, optimized.input.portSlug) } }));
   };
 
   const updateBlocks = (updater: (blocks: PlanBlock[]) => PlanBlock[]) => {
-    if (!output) return;
+    if (!selectedDay || !output) return;
     const nextPlan = { ...output.plan, blocks: updater(output.plan.blocks) };
-    const nextScore = simulateRisk(nextPlan, nextPlan.input.portSlug);
-    setOutput({ ...output, plan: nextPlan, score: nextScore });
+    setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: { ...output, plan: nextPlan, score: simulateRisk(nextPlan, nextPlan.input.portSlug) } }));
   };
+
+  const content = (
+    <>
+      <div className="mx-auto max-w-7xl px-3 pb-24 pt-3 sm:px-4">
+        <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
+          <button onClick={() => setTier("free")} className={`rounded-full px-3 py-1 ${tier === "free" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Free</button>
+          <button onClick={() => setTier("trip-pass")} className={`rounded-full px-3 py-1 ${tier === "trip-pass" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Trip Pass</button>
+          <button onClick={() => setTier("pro")} className={`rounded-full px-3 py-1 ${tier === "pro" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Pro</button>
+          {process.env.NODE_ENV === "development" && process.env.NEXT_PUBLIC_DEV_UNLOCK === "true" && (
+            <span className="rounded-full bg-emerald-500/20 px-2 py-1 text-emerald-200">DEV: Pro unlocked</span>
+          )}
+          {entitlements.bypassEnabled && <span className="rounded-full bg-emerald-500/20 px-2 py-1 text-emerald-200">Bypass active</span>}
+          <button
+            onClick={() => {
+              localStorage.removeItem(DRAFT_KEY);
+              setCruise(createDefaultCruise());
+              setPlansByDayId({});
+              setSelectedDayId(undefined);
+            }}
+            className="ml-auto rounded bg-slate-800 px-3 py-1"
+          >
+            Reset draft
+          </button>
+        </div>
+
+        <CruiseSetupCard
+          cruise={cruise}
+          mode={mode}
+          selectedDayId={selectedDayId}
+          dayErrors={dayErrors}
+          onModeChange={setMode}
+          onCruiseChange={onCruiseChange}
+          onDayChange={updateDay}
+          onAddDay={onAddDay}
+          onRemoveDay={onRemoveDay}
+          onDuplicatePortToAll={onDuplicatePortToAll}
+          onAutoFillDay={onAutoFillDay}
+          onSelectDay={setSelectedDayId}
+        />
+
+        <div className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,1fr)_350px]">
+          <section className="space-y-4">
+            <div className="sticky top-28 z-20 rounded-xl border border-white/10 bg-slate-900/90 p-3 backdrop-blur">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div>
+                  <p className="text-sm font-semibold">Plan radar</p>
+                  <p className="text-xs text-slate-400">Energy {dashboard.energyPacingScore} · Savings €{dashboard.savingsEstimateTotal}</p>
+                </div>
+                <button onClick={() => (mode === "full-cruise" ? generateAll() : generateSelected())} className="rounded-lg bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-900">
+                  {Object.keys(plansByDayId).length ? "Update plan" : "Generate plan"}
+                </button>
+              </div>
+              {generation.running && <p className="mt-2 text-xs text-cyan-200">Generating full cruise... {generation.done}/{generation.total}</p>}
+              {toast && <p className="mt-2 rounded bg-cyan-400 px-2 py-1 text-xs font-semibold text-slate-900">{toast}</p>}
+            </div>
+
+            <CruiseOverview cruise={cruise} plansByDayId={plansByDayId} selectedDayId={selectedDayId} onSelectDay={setSelectedDayId} />
+
+            {output && (
+              <section className="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                <div className="mb-3 flex gap-2 text-xs">
+                  {(["timeline", "map", "risk", "budget"] as const).map((tab) => (
+                    <button key={tab} onClick={() => setDetailTab(tab)} className={`rounded-full px-3 py-1 ${detailTab === tab ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>{tab}</button>
+                  ))}
+                </div>
+                {detailTab === "timeline" && (
+                  <TimelineBoard
+                    blocks={output.plan.blocks}
+                    onEdit={(id, field, value) => updateBlocks((blocks) => blocks.map((block) => (block.id === id ? { ...block, [field]: value } : block)))}
+                    onMove={(from, to) =>
+                      updateBlocks((blocks) => {
+                        if (to < 0 || to >= blocks.length) return blocks;
+                        const next = [...blocks];
+                        const [item] = next.splice(from, 1);
+                        next.splice(to, 0, item);
+                        return next;
+                      })
+                    }
+                  />
+                )}
+                {detailTab === "map" && <div className="rounded-lg border border-white/10 bg-slate-950/60 p-3 text-sm">Route: {output.plan.blocks.map((block) => block.title).join(" → ")}</div>}
+                {detailTab === "risk" && <div className="rounded-lg border border-white/10 bg-slate-950/60 p-3 text-sm">{output.score.violations.join(" ") || "No critical return-safe issues."}</div>}
+                {detailTab === "budget" && <div className="rounded-lg border border-white/10 bg-slate-950/60 p-3 text-sm">Estimated spend: €{output.plan.blocks.reduce((sum, block) => sum + block.costEUR, 0)}</div>}
+              </section>
+            )}
+
+            {output && (
+              <div className="relative">
+                <PlanQualityPanel output={output} onApplyRecommendation={(action) => applyAssistantAction(action, "day")} />
+                {!hasFeature(entitlements, "exportBundle") && (
+                  <div className="pointer-events-none absolute inset-0 rounded-xl bg-slate-900/45 backdrop-blur-[2px]">
+                    <div className="absolute inset-x-3 top-3 rounded bg-slate-950/90 p-2 text-xs text-slate-200">Preview mode: upgrade to unlock edits/export for premium outputs.</div>
+                  </div>
+                )}
+              </div>
+            )}
+          </section>
+
+          <section className="hidden lg:block">
+            <div className="sticky top-28 h-[calc(100vh-8rem)]">
+              <AIAssistantPanel
+                cruise={cruise}
+                selectedDay={selectedDay}
+                selectedPlan={output ?? undefined}
+                mode={assistantMode}
+                onModeChange={setAssistantMode}
+                onApplyAction={applyAssistantAction}
+              />
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <MobilePlannerShell active={mobileTab} onChange={setMobileTab}>
+        <div className="mx-3 space-y-3 lg:hidden">
+          {mobileTab === "chat" && (
+            <AIAssistantPanel
+              cruise={cruise}
+              selectedDay={selectedDay}
+              selectedPlan={output ?? undefined}
+              mode={assistantMode}
+              onModeChange={setAssistantMode}
+              onApplyAction={applyAssistantAction}
+            />
+          )}
+          {mobileTab === "risk" && output && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-3 text-sm">{output.score.violations.join(" ") || "No critical risk flags."}</div>}
+          {mobileTab === "budget" && output && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-3 text-sm">Spend €{output.plan.blocks.reduce((sum, block) => sum + block.costEUR, 0)}</div>}
+        </div>
+      </MobilePlannerShell>
+    </>
+  );
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
       <PlannerHeader
         hasPlan={!!output}
-        onPrimary={generateSelectedDay}
+        onPrimary={() => (mode === "full-cruise" ? generateAll() : generateSelected())}
         onAction={(action) => {
           if (action === "simulate") {
             if (!triggerGate("simulation")) setSimOpen(true);
             return;
           }
-          if (action === "export") {
-            if (triggerGate("exportBundle")) return;
-          }
+          if (action === "export" && triggerGate("exportBundle")) return;
           setToast(`${action} queued`);
           setTimeout(() => setToast(""), 1200);
         }}
       />
 
-      <div className="mx-auto max-w-6xl px-2 pb-24 pt-3 sm:px-4">
-        <div className="mb-3 flex flex-wrap items-center gap-2">
-          <button onClick={() => setTier("free")} className={`rounded-full px-3 py-1 text-xs ${tier === "free" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Free</button>
-          <button onClick={() => setTier("trip-pass")} className={`rounded-full px-3 py-1 text-xs ${tier === "trip-pass" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Trip Pass</button>
-          <button onClick={() => setTier("pro")} className={`rounded-full px-3 py-1 text-xs ${tier === "pro" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Pro</button>
-          {entitlements.bypassEnabled && <span className="rounded-full bg-emerald-500/20 px-2 py-1 text-[11px] text-emerald-200">Pro bypass enabled</span>}
-          <button onClick={() => {
-            if (!confirm("Reset cruise draft?")) return;
-            localStorage.removeItem(DRAFT_KEY);
-            setCruise(createDefaultCruise());
-            setSelectedDayId(undefined);
-            setPlansByDayId({});
-            setOutput(null);
-          }} className="ml-auto rounded bg-slate-800 px-3 py-1 text-xs">Reset draft</button>
-        </div>
-
-        <CruiseBuilder
-          cruise={cruise}
-          setCruise={setCruise}
-          mode={mode}
-          setMode={setMode}
-          selectedDayId={selectedDayId}
-          setSelectedDayId={setSelectedDayId}
-          onAddDay={addDay}
-          onRemoveDay={removeDay}
-        />
-
-        <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_320px]">
-          <section className="space-y-4 min-w-0">
-            <CruiseDashboard cruise={cruise} dashboard={dashboard} plansByDayId={plansByDayId} onGenerateAll={generateAll} onOptimizeFlow={optimizeCruiseFlow} />
-            {mode === "single-port" && <PlanBuilder input={input} setInput={setInput} onGenerate={generateSelectedDay} />}
-            {toast && <div className="rounded bg-cyan-400 px-3 py-2 text-xs font-semibold text-slate-900">{toast}</div>}
-          </section>
-          <section className="space-y-3 min-w-0">
-            <div className="rounded-xl border border-white/10 bg-slate-900/70 p-3 text-sm">
-              <p className="font-semibold">Free vs Premium</p>
-              <ul className="mt-2 list-disc pl-5 text-xs text-slate-300">
-                <li>Free: create/edit cruise and generate selected day</li>
-                <li>Trip Pass/Pro: generate all + optimize cruise + exports</li>
-                <li>Pro: simulations + offline pack</li>
-              </ul>
-            </div>
-          </section>
-        </div>
-
-        {output && (
-          <>
-            <Tabs active={tab} setActive={setTab} />
-            <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_320px]">
-              <section className="space-y-4 min-w-0">
-                {tab === "timeline" && <TimelineBoard blocks={output.plan.blocks} onEdit={(id, field, value) => updateBlocks((blocks) => blocks.map((block) => (block.id === id ? { ...block, [field]: value } : block)))} onMove={(from, to) => updateBlocks((blocks) => {
-                  if (to < 0 || to >= blocks.length) return blocks;
-                  const next = [...blocks];
-                  const [item] = next.splice(from, 1);
-                  next.splice(to, 0, item);
-                  return next;
-                })} />}
-                {tab === "map" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Route: {output.plan.blocks.map((block) => block.title).join(" → ")}</div>}
-                {tab === "budget" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Estimated day spend: €{output.plan.blocks.reduce((sum, block) => sum + block.costEUR, 0)}.</div>}
-                {tab === "risk" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">{output.score.violations.length ? output.score.violations.join(" ") : "No critical return-safe violations."}</div>}
-                {tab === "chat" && <AgentChat onAsk={(question) => buildAgentResponse(output, question)} />}
-                <ConciergeBrief output={output} />
-              </section>
-              <section className="space-y-3 min-w-0">
-                <PlanQualityPanel output={output} onApplyRecommendation={(action) => {
-                  const optimized = optimizePlan(output.plan, { action });
-                  setOutput({ ...output, plan: optimized, score: simulateRisk(optimized, optimized.input.portSlug) });
-                }} />
-              </section>
-            </div>
-          </>
-        )}
-      </div>
+      {content}
 
       <SimulationDrawer
         open={simOpen}
         onClose={() => setSimOpen(false)}
         onRun={(scenario) => {
-          if (!output) return;
           const action = scenario === "museum" ? "move-lunch-earlier" : scenario === "tender" ? "balanced-loop" : "trim-far-stop";
-          const optimized = optimizePlan(output.plan, { action });
-          setOutput({ ...output, plan: optimized, score: simulateRisk(optimized, optimized.input.portSlug) });
+          applyAssistantAction(action, "day");
           setSimOpen(false);
-          setToast(`Simulation applied: ${scenario}`);
-          setTimeout(() => setToast(""), 1700);
         }}
       />
-
       <UpgradeModal open={!!upgradeGate} message={upgradeGate ? gateMessage(upgradeGate) : ""} onClose={() => setUpgradeGate(null)} />
     </main>
   );

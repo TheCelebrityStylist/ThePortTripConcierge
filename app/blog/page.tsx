@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import BlogCard from "@/app/components/blog/BlogCard";
 import { blogArticles } from "@/app/data/blog-cms";
 
@@ -20,6 +20,15 @@ export default function BlogHubPage() {
   const [difficulty, setDifficulty] = useState<(typeof difficulties)[number]>("All");
   const [category, setCategory] = useState<(typeof categories)[number]>("All");
   const [curated, setCurated] = useState<(typeof curatedModes)[number]>("Most Popular");
+  const [stickyFilters, setStickyFilters] = useState(false);
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setStickyFilters(window.scrollY > 240);
+    onScroll();
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -61,15 +70,24 @@ export default function BlogHubPage() {
           <div className="mt-5 flex flex-wrap gap-3"><Link href="/library/ports" className="rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold hover:bg-white/10">Browse port categories</Link></div>
         </div>
 
-        <section className="mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4">
+        <section className={`mt-7 rounded-2xl border border-white/10 bg-slate-900/95 p-4 ${stickyFilters ? "md:sticky md:top-16 md:z-20" : ""}`}>
           <div className="hidden md:block">{toolbar}</div>
           <div className="md:hidden">
-            <details className="rounded-lg border border-white/20 p-2">
-              <summary className="cursor-pointer text-sm font-semibold">Filters</summary>
-              <div className="mt-2">{toolbar}</div>
-            </details>
+            <button onClick={() => setMobileFiltersOpen(true)} className="rounded-lg border border-white/20 px-3 py-2 text-sm">Filters</button>
           </div>
         </section>
+
+        {mobileFiltersOpen && (
+          <div className="fixed inset-0 z-40 bg-black/60 p-4 md:hidden">
+            <div className="max-h-full overflow-y-auto rounded-2xl border border-white/10 bg-slate-900 p-4">
+              <div className="mb-3 flex items-center justify-between">
+                <p className="font-semibold">Filters</p>
+                <button onClick={() => setMobileFiltersOpen(false)} className="rounded bg-slate-800 px-3 py-1 text-sm">Done</button>
+              </div>
+              {toolbar}
+            </div>
+          </div>
+        )}
 
         <div className="mt-4 flex items-center justify-between"><p className="text-sm text-slate-400">{filtered.length} guides matched</p></div>
         <ul className="mt-4 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{filtered.map((article) => <BlogCard key={article.slug} article={article} />)}</ul>

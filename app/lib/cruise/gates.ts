@@ -31,6 +31,7 @@ const featureMatrix: Record<FeatureTier, Record<FeatureGateKey, boolean>> = {
 };
 
 const envBypassEnabled = () => process.env.NEXT_PUBLIC_PRO_BYPASS?.toLowerCase() === "true";
+const devUnlockEnabled = () => process.env.NODE_ENV === "development" && process.env.NEXT_PUBLIC_DEV_UNLOCK?.toLowerCase() === "true";
 
 const queryBypassEnabled = (search?: string) => {
   const params = new URLSearchParams(search ?? "");
@@ -39,7 +40,7 @@ const queryBypassEnabled = (search?: string) => {
 };
 
 export function getEntitlements(baseTier: FeatureTier, search?: string): Entitlements {
-  const bypassEnabled = envBypassEnabled() || queryBypassEnabled(search);
+  const bypassEnabled = envBypassEnabled() || queryBypassEnabled(search) || devUnlockEnabled();
   const tier: FeatureTier = bypassEnabled ? "pro" : baseTier;
   return {
     tier,
