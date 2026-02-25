@@ -1,17 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import AgentChat from "@/app/components/planner/AgentChat";
 import ConciergeBrief from "@/app/components/planner/ConciergeBrief";
+import CruiseBuilder from "@/app/components/planner/CruiseBuilder";
+import CruiseDashboard from "@/app/components/planner/CruiseDashboard";
 import PlanBuilder from "@/app/components/planner/PlanBuilder";
 import PlannerHeader from "@/app/components/planner/PlannerHeader";
 import PlanQualityPanel from "@/app/components/planner/PlanQualityPanel";
 import SimulationDrawer from "@/app/components/planner/SimulationDrawer";
 import Tabs, { type Tab } from "@/app/components/planner/Tabs";
 import TimelineBoard from "@/app/components/planner/TimelineBoard";
-import { buildAgentResponse, generatePlan, optimizePlan, simulatePlan } from "@/app/lib/planner/engine";
-import { portsRegistry } from "@/app/data/ports";
-import type { PlanBlock, PlanInput, PlanOutput } from "@/app/lib/planner/types";
+import UpgradeModal from "@/app/components/planner/UpgradeModal";
+import { gateMessage, hasFeature } from "@/app/lib/cruise/gates";
+import { buildAgentResponse, buildCruiseDashboard, createPortDayFromPort, generatePortDayPlan, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
+import { portsRegistry } from "@/app/lib/ports";
+import type { Cruise, FeatureGateKey, FeatureTier, PlanBlock, PlanInput, PlanOutput } from "@/app/lib/planner/types";
 
 const defaultInput: PlanInput = {
   portSlug: "barcelona",
@@ -28,84 +32,159 @@ const defaultInput: PlanInput = {
   avoidCrowds: false,
 };
 
+const defaultCruise: Cruise = {
+  id: "cruise-local",
+  cruiseName: "My Cruise",
+  cruiseLine: "",
+  ship: "",
+  startDate: new Date().toISOString().slice(0, 10),
+  durationDays: 7,
+  timezone: "Local",
+  itinerary: [
+    createPortDayFromPort("barcelona", new Date().toISOString().slice(0, 10)),
+    createPortDayFromPort("marseille", new Date(Date.now() + 86400000).toISOString().slice(0, 10)),
+  ],
+};
+
 export default function ChatPage() {
+  const [tab, setTab] = useState<Tab>("timeline");
+  const [tier, setTier] = useState<FeatureTier>("free");
+  const [mode, setMode] = useState<"single-port" | "full-cruise">("full-cruise");
   const [input, setInput] = useState<PlanInput>(defaultInput);
   const [output, setOutput] = useState<PlanOutput | null>(null);
-  const [tab, setTab] = useState<Tab>("timeline");
+  const [cruise, setCruise] = useState<Cruise>(defaultCruise);
+  const [plansByDayId, setPlansByDayId] = useState<Record<string, PlanOutput>>({});
   const [toast, setToast] = useState("");
   const [simOpen, setSimOpen] = useState(false);
+  const [upgradeGate, setUpgradeGate] = useState<FeatureGateKey | null>(null);
+
+  const dashboard = useMemo(() => buildCruiseDashboard(cruise, plansByDayId), [cruise, plansByDayId]);
+
+  const triggerGate = (gate: FeatureGateKey) => {
+    if (hasFeature(tier, gate)) return false;
+    setUpgradeGate(gate);
+    return true;
+  };
 
   const runGenerate = () => {
-    const next = generatePlan(input);
+    const next = generatePortDayPlan(input);
     setOutput(next);
     setToast("Plan generated.");
     setTab("timeline");
-    setTimeout(() => setToast(""), 1600);
+    setTimeout(() => setToast(""), 1500);
+  };
+
+  const generateAll = () => {
+    if (triggerGate("generateAll")) return;
+    const next: Record<string, PlanOutput> = {};
+    cruise.itinerary.forEach((day) => {
+      const planInput: PlanInput = {
+        ...input,
+        portSlug: day.portSlug,
+        onboardTime: day.onboardTime,
+        allAboardTime: day.allAboardTime,
+        walkingLevel: day.walkingPreference,
+        pace: day.pace,
+        interests: day.interests,
+        riskTolerance: day.riskTolerance,
+      };
+      next[day.id] = generatePortDayPlan(planInput, day.portSlug);
+    });
+    setPlansByDayId(next);
+    setCruise({ ...cruise, itinerary: cruise.itinerary.map((day) => ({ ...day, status: next[day.id] ? "optimized" : day.status, score: next[day.id]?.score.totalScore })) });
+    setToast("Cruise plans generated.");
+    setTimeout(() => setToast(""), 1700);
+  };
+
+  const optimizeCruiseFlow = () => {
+    const intense = cruise.itinerary.filter((day) => day.pace === "intense");
+    if (intense.length > 2) {
+      setCruise({
+        ...cruise,
+        itinerary: cruise.itinerary.map((day, index) => (index % 3 === 2 ? { ...day, pace: "chill" } : day)),
+      });
+      setToast("Energy pacing adjusted: inserted chill days.");
+      setTimeout(() => setToast(""), 1800);
+    }
   };
 
   const updateBlocks = (updater: (blocks: PlanBlock[]) => PlanBlock[]) => {
     if (!output) return;
     const nextPlan = { ...output.plan, blocks: updater(output.plan.blocks) };
-    const port = portsRegistry[nextPlan.input.portSlug] ?? portsRegistry.barcelona;
-    const score = simulatePlan(nextPlan, port, nextPlan.input);
-    setOutput({ ...output, plan: nextPlan, score });
-  };
-
-  const onEdit = (id: string, field: keyof PlanBlock, value: string | number | boolean) => {
-    updateBlocks((blocks) => blocks.map((block) => (block.id === id ? { ...block, [field]: value } : block)));
-  };
-
-  const onMove = (from: number, to: number) => {
-    if (!output || from === to || to < 0 || to >= output.plan.blocks.length) return;
-    updateBlocks((blocks) => {
-      const next = [...blocks];
-      const [item] = next.splice(from, 1);
-      next.splice(to, 0, item);
-      return next;
-    });
+    const nextScore = simulateRisk(nextPlan, nextPlan.input.portSlug);
+    setOutput({ ...output, plan: nextPlan, score: nextScore });
   };
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
       <PlannerHeader
         hasPlan={!!output}
-        onPrimary={runGenerate}
+        onPrimary={() => (mode === "single-port" ? runGenerate() : generateAll())}
         onAction={(action) => {
-          if (action === "simulate") setSimOpen(true);
-          else setToast(`${action} action queued`);
-          setTimeout(() => setToast(""), 1400);
+          if (action === "simulate") {
+            if (!triggerGate("simulation")) setSimOpen(true);
+          } else if (action === "export" && triggerGate("exportBundle")) {
+            return;
+          } else {
+            setToast(`${action} queued`);
+            setTimeout(() => setToast(""), 1200);
+          }
         }}
       />
 
       <div className="mx-auto max-w-6xl px-2 pb-24 pt-3 sm:px-4">
-        <PlanBuilder input={input} setInput={setInput} onGenerate={runGenerate} />
-        {toast && <div className="mt-2 rounded-lg bg-cyan-400 px-3 py-2 text-xs font-semibold text-slate-900">{toast}</div>}
+        <div className="mb-3 flex gap-2">
+          <button onClick={() => setTier("free")} className={`rounded-full px-3 py-1 text-xs ${tier === "free" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Free</button>
+          <button onClick={() => setTier("trip-pass")} className={`rounded-full px-3 py-1 text-xs ${tier === "trip-pass" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Trip Pass</button>
+          <button onClick={() => setTier("pro")} className={`rounded-full px-3 py-1 text-xs ${tier === "pro" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Pro</button>
+        </div>
 
-        <Tabs active={tab} setActive={setTab} />
+        <CruiseBuilder cruise={cruise} setCruise={setCruise} mode={mode} setMode={setMode} onAddDay={() => setCruise({ ...cruise, itinerary: [...cruise.itinerary, createPortDayFromPort("cozumel", new Date(Date.now() + cruise.itinerary.length * 86400000).toISOString().slice(0, 10))] })} />
+
+        <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_320px]">
+          <section className="space-y-4 min-w-0">
+            <CruiseDashboard cruise={cruise} dashboard={dashboard} plansByDayId={plansByDayId} onGenerateAll={generateAll} onOptimizeFlow={optimizeCruiseFlow} />
+            {mode === "single-port" && <PlanBuilder input={input} setInput={setInput} onGenerate={runGenerate} />}
+            {toast && <div className="rounded bg-cyan-400 px-3 py-2 text-xs font-semibold text-slate-900">{toast}</div>}
+          </section>
+          <section className="space-y-3 min-w-0">
+            <div className="rounded-xl border border-white/10 bg-slate-900/70 p-3 text-sm">
+              <p className="font-semibold">Monetization gates</p>
+              <ul className="mt-2 list-disc pl-5 text-xs text-slate-300">
+                <li>Free: single-day planning + basic intelligence</li>
+                <li>Trip Pass: full cruise flow + generate all + exports + offline pack</li>
+                <li>Pro Annual: unlimited cruises + analytics + early ports</li>
+              </ul>
+            </div>
+          </section>
+        </div>
 
         {output && (
-          <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_320px]">
-            <section className="space-y-4 min-w-0">
-              {tab === "timeline" && <TimelineBoard blocks={output.plan.blocks} onEdit={onEdit} onMove={onMove} />}
-              {tab === "map" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Route: {output.plan.blocks.map((block) => block.title).join(" → ")}</div>}
-              {tab === "budget" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Estimated spend: €{output.plan.blocks.reduce((sum, block) => sum + block.costEUR, 0)}.</div>}
-              {tab === "risk" && (
-                <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">
-                  <p className="font-medium">Violation checks</p>
-                  <ul className="mt-2 list-disc pl-5 text-slate-300">{output.score.violations.length ? output.score.violations.map((issue) => <li key={issue}>{issue}</li>) : <li>No critical violation detected.</li>}</ul>
-                </div>
-              )}
-              {tab === "chat" && <AgentChat onAsk={(question) => buildAgentResponse(output, question)} />}
-              <ConciergeBrief output={output} />
-            </section>
-            <section className="space-y-3 min-w-0">
-              <PlanQualityPanel output={output} onApplyRecommendation={(recommendation) => setOutput((prev) => {
-                if (!prev) return prev;
-                const optimized = optimizePlan(prev.plan, { action: recommendation }, portsRegistry[prev.plan.input.portSlug]);
-                return { ...prev, plan: { input: optimized.input, blocks: optimized.blocks, assumptions: optimized.assumptions }, score: optimized.score };
-              })} />
-            </section>
-          </div>
+          <>
+            <Tabs active={tab} setActive={setTab} />
+            <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_320px]">
+              <section className="space-y-4 min-w-0">
+                {tab === "timeline" && <TimelineBoard blocks={output.plan.blocks} onEdit={(id, field, value) => updateBlocks((blocks) => blocks.map((block) => (block.id === id ? { ...block, [field]: value } : block)))} onMove={(from, to) => updateBlocks((blocks) => {
+                  if (to < 0 || to >= blocks.length) return blocks;
+                  const next = [...blocks];
+                  const [item] = next.splice(from, 1);
+                  next.splice(to, 0, item);
+                  return next;
+                })} />}
+                {tab === "map" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Route: {output.plan.blocks.map((block) => block.title).join(" → ")}</div>}
+                {tab === "budget" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">Estimated day spend: €{output.plan.blocks.reduce((sum, block) => sum + block.costEUR, 0)}.</div>}
+                {tab === "risk" && <div className="rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm">{output.score.violations.length ? output.score.violations.join(" ") : "No critical return-safe violations."}</div>}
+                {tab === "chat" && <AgentChat onAsk={(question) => buildAgentResponse(output, question)} />}
+                <ConciergeBrief output={output} />
+              </section>
+              <section className="space-y-3 min-w-0">
+                <PlanQualityPanel output={output} onApplyRecommendation={(action) => {
+                  const optimized = optimizePlan(output.plan, { action });
+                  setOutput({ ...output, plan: optimized, score: simulateRisk(optimized, optimized.input.portSlug) });
+                }} />
+              </section>
+            </div>
+          </>
         )}
       </div>
 
@@ -114,16 +193,16 @@ export default function ChatPage() {
         onClose={() => setSimOpen(false)}
         onRun={(scenario) => {
           if (!output) return;
-          const delta = scenario === "disembark" ? 15 : scenario === "traffic" ? 10 : scenario === "tender" ? 20 : 12;
-          const shifted = optimizePlan(output.plan, { action: "trim-far-stop" }, portsRegistry[output.plan.input.portSlug]);
-          const note = `Scenario applied: ${scenario}. Delays modeled at +${delta}m with protective trim.`;
-          const score = simulatePlan(shifted, portsRegistry[output.plan.input.portSlug], output.plan.input);
-          setOutput({ ...output, plan: shifted, score, narrative: `${output.narrative} ${note}` });
+          const action = scenario === "museum" ? "move-lunch-earlier" : scenario === "tender" ? "balanced-loop" : "trim-far-stop";
+          const optimized = optimizePlan(output.plan, { action });
+          setOutput({ ...output, plan: optimized, score: simulateRisk(optimized, optimized.input.portSlug) });
           setSimOpen(false);
-          setToast(note);
-          setTimeout(() => setToast(""), 2200);
+          setToast(`Simulation applied: ${scenario}`);
+          setTimeout(() => setToast(""), 1700);
         }}
       />
+
+      <UpgradeModal open={!!upgradeGate} message={upgradeGate ? gateMessage(upgradeGate) : ""} onClose={() => setUpgradeGate(null)} />
     </main>
   );
 }

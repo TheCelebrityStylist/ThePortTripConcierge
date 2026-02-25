@@ -1,7 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { generatePlan, optimizePlan, simulatePlan } from "../engine";
-import { portsRegistry } from "@/app/data/ports";
+import { generatePortDayPlan, optimizePlan, simulateRisk } from "../engine";
 import type { PlanInput } from "../types";
 
 const input: PlanInput = {
@@ -19,20 +18,20 @@ const input: PlanInput = {
   avoidCrowds: false,
 };
 
-test("generatePlan is deterministic for same seed", () => {
-  const a = generatePlan(input);
-  const b = generatePlan(input);
+test("generatePortDayPlan deterministic with same seed", () => {
+  const a = generatePortDayPlan(input);
+  const b = generatePortDayPlan(input);
   assert.deepEqual(a.plan.blocks.map((block) => block.title), b.plan.blocks.map((block) => block.title));
 });
 
-test("simulatePlan produces bounded score", () => {
-  const generated = generatePlan(input);
-  const score = simulatePlan(generated.plan, portsRegistry[input.portSlug], input);
+test("simulateRisk returns bounded score", () => {
+  const plan = generatePortDayPlan(input);
+  const score = simulateRisk(plan.plan, input.portSlug);
   assert.ok(score.totalScore >= 0 && score.totalScore <= 100);
 });
 
-test("optimizePlan modifies block sequence or durations", () => {
-  const generated = generatePlan(input);
-  const optimized = optimizePlan(generated.plan, { action: "trim-far-stop" }, portsRegistry[input.portSlug]);
-  assert.notDeepEqual(optimized.blocks.map((block) => block.durationMin), generated.plan.blocks.map((block) => block.durationMin));
+test("optimizePlan mutates block durations", () => {
+  const plan = generatePortDayPlan(input);
+  const optimized = optimizePlan(plan.plan, { action: "trim-far-stop" });
+  assert.notDeepEqual(optimized.blocks.map((block) => block.durationMin), plan.plan.blocks.map((block) => block.durationMin));
 });

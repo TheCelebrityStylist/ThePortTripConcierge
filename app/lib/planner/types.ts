@@ -1,53 +1,10 @@
+import type { PortProfile } from "@/app/lib/ports/types";
+
 export type InterestTag = "food" | "culture" | "views" | "shopping" | "beach" | "history" | "nightlife" | "family";
 export type WalkingLevel = "minimal" | "moderate" | "active";
 export type PaceLevel = "chill" | "normal" | "intense";
 export type RiskTolerance = "conservative" | "balanced" | "aggressive";
 export type PlanMode = "conservative" | "balanced" | "aggressive" | "weather-safe" | "mobility-easy";
-
-export type Corridor = {
-  name: string;
-  distanceKmRange: [number, number];
-  timeRangeMin: [number, number];
-  notes: string;
-};
-
-export type TransportProfile = {
-  mode: "walk" | "taxi" | "metro" | "bus" | "tram" | "ferry";
-  reliabilityRank: number;
-  typicalTimeMin: [number, number];
-  costRangeEUR: [number, number];
-  notes: string;
-};
-
-export type ClusterStop = {
-  id: string;
-  name: string;
-  cluster: string;
-  tags: InterestTag[];
-  typicalDurationMin: [number, number];
-  costRangeEUR: [number, number];
-  distanceFromCorridorKm: number;
-  bestWindow: string;
-  watchOut: string;
-};
-
-export type Port = {
-  slug: string;
-  displayName: string;
-  country: string;
-  region: "Europe" | "Caribbean";
-  dockingMode: "dock" | "tender";
-  defaultTimeWindows: { gangwayOpen: string; lastOutboundCutoff: string };
-  typicalTransitRisks: string[];
-  corridors: Corridor[];
-  transportProfiles: TransportProfile[];
-  peakCrowdWindows: string[];
-  trafficWindows: string[];
-  returnSafeRules: { hardRules: string[]; triggers: string[] };
-  attractionClusters: ClusterStop[];
-  weatherFallbacks: string[];
-  scamNotes: string[];
-};
 
 export type PlanInput = {
   portSlug: string;
@@ -94,4 +51,51 @@ export type PlanOutput = {
   score: ScoreCard;
   recommendations: Array<{ label: string; action: "trim-far-stop" | "swap-transit" | "move-lunch-earlier" | "balanced-loop" }>;
   narrative: string;
+};
+
+export type PortDay = {
+  id: string;
+  date: string;
+  portSlug: string;
+  arrivalTime: string;
+  onboardTime: string;
+  allAboardTime: string;
+  dockMode: "dock" | "tender";
+  walkingPreference: WalkingLevel;
+  pace: PaceLevel;
+  riskTolerance: RiskTolerance;
+  interests: InterestTag[];
+  locked: boolean;
+  status: "not-planned" | "draft" | "optimized" | "locked";
+  score?: number;
+};
+
+export type Cruise = {
+  id: string;
+  cruiseName: string;
+  cruiseLine?: string;
+  ship?: string;
+  startDate: string;
+  durationDays: number;
+  timezone: string;
+  itinerary: PortDay[];
+};
+
+export type CruiseDashboard = {
+  energyPacingScore: number;
+  riskConcentrationDayId?: string;
+  budgetEstimateTotal: number;
+  excursionBenchmarkTotal: number;
+  savingsEstimateTotal: number;
+};
+
+export type FeatureTier = "free" | "trip-pass" | "pro";
+
+export type FeatureGateKey = "fullCruiseMode" | "generateAll" | "exportBundle" | "simulation" | "offlinePack";
+
+export type CruiseContext = {
+  cruise: Cruise;
+  selectedDayId?: string;
+  plansByDayId: Record<string, PlanOutput>;
+  ports: Record<string, PortProfile>;
 };

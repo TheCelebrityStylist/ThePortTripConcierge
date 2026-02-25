@@ -1,3 +1,1 @@
-import { portsRegistry } from "@/app/data/ports";
-
-export const portProfiles = portsRegistry;
+export { portsRegistry as portProfiles, portsByRegion } from "@/app/lib/ports";

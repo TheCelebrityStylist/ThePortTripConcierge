@@ -1,4 +1,4 @@
-import { generatePlan } from "../app/lib/planner/engine";
+import { generatePortDayPlan } from "../app/lib/planner/engine";
 import type { PlanInput } from "../app/lib/planner/types";
 
 const base: Omit<PlanInput, "portSlug"> = {
@@ -15,9 +15,9 @@ const base: Omit<PlanInput, "portSlug"> = {
   avoidCrowds: false,
 };
 
-["barcelona", "santorini", "st-maarten"].forEach((portSlug) => {
-  const output = generatePlan({ ...base, portSlug });
+["barcelona", "cozumel", "juneau"].forEach((portSlug) => {
+  const output = generatePortDayPlan({ ...base, portSlug });
   console.log(`\n=== ${portSlug} ===`);
-  console.log(`score: ${output.score.totalScore}`);
-  output.plan.blocks.slice(0, 4).forEach((block) => console.log(`${block.startTime} ${block.title}`));
+  console.log(`score=${output.score.totalScore}; violations=${output.score.violations.length}`);
+  output.plan.blocks.slice(0, 5).forEach((block) => console.log(`${block.startTime} ${block.title}`));
 });

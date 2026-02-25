@@ -10,7 +10,7 @@ export default function PlanBuilder({ input, setInput, onGenerate }: { input: Pl
   return (
     <section className="rounded-2xl border border-white/10 bg-slate-900/60 p-3 sm:p-4">
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        <label className="text-xs text-slate-300">Port<select className="mt-1 w-full rounded bg-slate-800 p-2 text-sm" value={input.portSlug} onChange={(e) => setInput({ ...input, portSlug: e.target.value })}>{Object.values(portsRegistry).map((port) => <option key={port.slug} value={port.slug}>{port.displayName}</option>)}</select></label>
+        <label className="text-xs text-slate-300">Port<select className="mt-1 w-full rounded bg-slate-800 p-2 text-sm" value={input.portSlug} onChange={(e) => setInput({ ...input, portSlug: e.target.value })}>{Object.values(portsRegistry).map((port) => <option key={port.slug} value={port.slug}>{port.name}</option>)}</select></label>
         <label className="text-xs text-slate-300">Onboard<input type="time" className="mt-1 w-full rounded bg-slate-800 p-2 text-sm" value={input.onboardTime} onChange={(e) => setInput({ ...input, onboardTime: e.target.value })} /></label>
         <label className="text-xs text-slate-300">All aboard<input type="time" className="mt-1 w-full rounded bg-slate-800 p-2 text-sm" value={input.allAboardTime} onChange={(e) => setInput({ ...input, allAboardTime: e.target.value })} /></label>
         <label className="text-xs text-slate-300">Walking<select className="mt-1 w-full rounded bg-slate-800 p-2 text-sm" value={input.walkingLevel} onChange={(e) => setInput({ ...input, walkingLevel: e.target.value as PlanInput["walkingLevel"] })}><option>minimal</option><option>moderate</option><option>active</option></select></label>
