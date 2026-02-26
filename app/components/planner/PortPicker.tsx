@@ -1,139 +1,146 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import { popularPortSlugs, portsByRegion, portsRegistry } from "@/app/lib/ports";
+import { useMemo, useRef, useState } from "react";
+import { portIndex } from "@/app/data/ports";
 
 type PortPickerProps = {
   value: string;
   onChange: (port: { slug: string; name: string; region: string }) => void;
-  id?: string;
 };
 
-const FLAT_PORTS = Object.entries(portsByRegion).flatMap(([region, ports]) => ports.map((port) => ({ ...port, region })));
+type Item = { kind: "header"; label: string } | { kind: "port"; id: string; name: string; region: string; country: string };
 
-export default function PortPicker({ value, onChange, id }: PortPickerProps) {
+const ROW_HEIGHT = 36;
+const VISIBLE_COUNT = 8;
+
+export default function PortPicker({ value, onChange }: PortPickerProps) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [active, setActive] = useState(0);
+  const [scrollTop, setScrollTop] = useState(0);
   const [recent, setRecent] = useState<string[]>([]);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLDivElement>(null);
 
-  const grouped = useMemo(() => {
+  const groupedItems = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const filtered = FLAT_PORTS.filter((port) => {
-      if (!q) return true;
-      return `${port.name} ${port.country} ${port.region}`.toLowerCase().includes(q);
-    });
-    return filtered.reduce<Record<string, typeof filtered>>((acc, port) => {
+    const filtered = portIndex
+      .filter((p) => !q || p.search.includes(q) || p.aliases.some((alias) => alias.toLowerCase().includes(q)))
+      .slice(0, 200);
+
+    const grouped = filtered.reduce<Record<string, typeof filtered>>((acc, port) => {
       (acc[port.region] ||= []).push(port);
       return acc;
     }, {});
+
+    const items: Item[] = [];
+    Object.entries(grouped).forEach(([region, ports]) => {
+      items.push({ kind: "header", label: region });
+      ports.forEach((port) => items.push({ kind: "port", id: port.id, name: port.name, region: port.region, country: port.country }));
+    });
+    return items;
   }, [query]);
 
-  const flattened = useMemo(() => Object.values(grouped).flat(), [grouped]);
+  const portItems = groupedItems.filter((item): item is Extract<Item, { kind: "port" }> => item.kind === "port");
+  const selected = portIndex.find((p) => p.id === value || p.name.toLowerCase() === value.toLowerCase());
+  const popular = ["barcelona", "civitavecchia", "marseille", "cozumel", "nassau", "juneau", "singapore"];
 
-  useEffect(() => {
-    if (!open) return;
-    const onClick = (event: MouseEvent) => {
-      if (containerRef.current && !containerRef.current.contains(event.target as Node)) setOpen(false);
-    };
-    window.addEventListener("mousedown", onClick);
-    return () => window.removeEventListener("mousedown", onClick);
-  }, [open]);
-
-  const selectedName = portsRegistry[value]?.name ?? "Select port";
-
-  const select = (slug: string) => {
-    const port = portsRegistry[slug];
+  const pick = (id: string) => {
+    const port = portIndex.find((p) => p.id === id);
     if (!port) return;
-    onChange({ slug: port.slug, name: port.name, region: port.region });
-    setRecent((prev) => [slug, ...prev.filter((item) => item !== slug)].slice(0, 5));
-    setQuery("");
-    setActiveIndex(0);
+    onChange({ slug: port.id, name: port.name, region: port.region });
+    setRecent((prev) => [id, ...prev.filter((x) => x !== id)].slice(0, 5));
     setOpen(false);
+    setQuery("");
   };
 
-  const chipPorts = [...recent, ...popularPortSlugs.filter((slug) => !recent.includes(slug))].slice(0, 7);
+  const start = Math.floor(scrollTop / ROW_HEIGHT);
+  const end = Math.min(groupedItems.length, start + VISIBLE_COUNT + 6);
+  const visible = groupedItems.slice(start, end);
 
   return (
-    <div ref={containerRef} className="relative">
-      <button
-        id={id}
-        type="button"
-        className="w-full rounded-lg border border-white/15 bg-slate-900 px-3 py-2 text-left text-sm"
-        onClick={() => setOpen((prev) => !prev)}
+    <div className="relative">
+      <input
+        role="combobox"
         aria-expanded={open}
-        aria-haspopup="listbox"
-      >
-        {selectedName}
-      </button>
+        aria-controls="port-picker-list"
+        value={open ? query : selected?.name ?? value ?? ""}
+        placeholder="Search ports, countries, regions..."
+        className="w-full rounded-lg border border-white/15 bg-slate-900 px-3 py-2 text-sm"
+        onFocus={() => setOpen(true)}
+        onChange={(e) => {
+          setOpen(true);
+          setQuery(e.target.value);
+          setActive(0);
+        }}
+        onKeyDown={(e) => {
+          if (!open) return;
+          if (e.key === "ArrowDown") {
+            e.preventDefault();
+            setActive((x) => Math.min(portItems.length - 1, x + 1));
+          }
+          if (e.key === "ArrowUp") {
+            e.preventDefault();
+            setActive((x) => Math.max(0, x - 1));
+          }
+          if (e.key === "Enter" && portItems[active]) {
+            e.preventDefault();
+            pick(portItems[active].id);
+          }
+          if (e.key === "Escape") setOpen(false);
+        }}
+      />
 
       {open && (
-        <div className="absolute z-30 mt-2 w-full rounded-xl border border-white/10 bg-slate-950 p-3 shadow-2xl shadow-cyan-900/20">
-          <input
-            autoFocus
-            value={query}
-            onChange={(event) => {
-              setQuery(event.target.value);
-              setActiveIndex(0);
-            }}
-            onKeyDown={(event) => {
-              if (event.key === "ArrowDown") {
-                event.preventDefault();
-                setActiveIndex((idx) => Math.min(flattened.length - 1, idx + 1));
-              }
-              if (event.key === "ArrowUp") {
-                event.preventDefault();
-                setActiveIndex((idx) => Math.max(0, idx - 1));
-              }
-              if (event.key === "Enter" && flattened[activeIndex]) {
-                event.preventDefault();
-                select(flattened[activeIndex].slug);
-              }
-              if (event.key === "Escape") setOpen(false);
-            }}
-            placeholder="Search port, country, region"
-            className="w-full rounded-lg border border-white/10 bg-slate-900 px-3 py-2 text-sm"
-          />
-
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            {chipPorts.map((slug) => (
-              <button
-                key={slug}
-                type="button"
-                onClick={() => select(slug)}
-                className="rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-200 hover:bg-slate-700"
-              >
-                {portsRegistry[slug]?.name ?? slug}
-              </button>
-            ))}
+        <div className="absolute z-40 mt-2 w-full rounded-xl border border-white/10 bg-slate-950 p-2 shadow-2xl">
+          <div className="mb-2 flex flex-wrap gap-1">
+            {[...recent, ...popular.filter((p) => !recent.includes(p))].slice(0, 7).map((id) => {
+              const port = portIndex.find((p) => p.id === id);
+              if (!port) return null;
+              return (
+                <button key={id} type="button" onClick={() => pick(id)} className="rounded-full bg-slate-800 px-2 py-1 text-[11px]">
+                  {port.name}
+                </button>
+              );
+            })}
           </div>
-
-          <div className="mt-3 max-h-64 overflow-y-auto" role="listbox">
-            {Object.entries(grouped).map(([region, ports]) => (
-              <div key={region} className="mb-2">
-                <p className="sticky top-0 bg-slate-950 py-1 text-[11px] uppercase tracking-wide text-cyan-300/80">{region}</p>
-                <div className="space-y-1">
-                  {ports.map((port) => {
-                    const idx = flattened.findIndex((item) => item.slug === port.slug);
-                    const active = idx === activeIndex;
-                    return (
-                      <button
-                        key={port.slug}
-                        type="button"
-                        onMouseEnter={() => setActiveIndex(idx)}
-                        onClick={() => select(port.slug)}
-                        className={`block w-full rounded-md px-2 py-2 text-left text-sm ${active ? "bg-cyan-500/20 text-cyan-100" : "text-slate-200 hover:bg-white/5"}`}
-                      >
-                        {port.name}
-                        <span className="ml-2 text-xs text-slate-400">{port.country}</span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            ))}
-            {flattened.length === 0 && <p className="py-4 text-center text-sm text-slate-400">No ports found.</p>}
+          <div
+            id="port-picker-list"
+            ref={listRef}
+            role="listbox"
+            className="max-h-72 overflow-y-auto rounded border border-white/10"
+            onScroll={(e) => setScrollTop(e.currentTarget.scrollTop)}
+            style={{ height: ROW_HEIGHT * VISIBLE_COUNT }}
+          >
+            <div style={{ height: groupedItems.length * ROW_HEIGHT, position: "relative" }}>
+              {visible.map((item, idx) => {
+                const absoluteIndex = start + idx;
+                const top = absoluteIndex * ROW_HEIGHT;
+                if (item.kind === "header") {
+                  return (
+                    <div key={`${item.label}-${absoluteIndex}`} style={{ position: "absolute", top, height: ROW_HEIGHT }} className="w-full bg-slate-950 px-2 py-2 text-[11px] uppercase tracking-wide text-cyan-300/80">
+                      {item.label}
+                    </div>
+                  );
+                }
+                const portIdx = portItems.findIndex((p) => p.id === item.id);
+                const isActive = portIdx === active;
+                return (
+                  <button
+                    key={item.id + absoluteIndex}
+                    type="button"
+                    role="option"
+                    aria-selected={isActive}
+                    onMouseEnter={() => setActive(portIdx)}
+                    onClick={() => pick(item.id)}
+                    style={{ position: "absolute", top, height: ROW_HEIGHT }}
+                    className={`w-full px-2 text-left text-sm ${isActive ? "bg-cyan-500/20" : "hover:bg-white/5"}`}
+                  >
+                    {item.name}
+                    <span className="ml-2 text-xs text-slate-400">{item.country}</span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
       )}
