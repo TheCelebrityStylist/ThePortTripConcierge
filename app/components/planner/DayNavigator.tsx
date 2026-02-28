@@ -10,31 +10,48 @@ type Props = {
   onAddDay: () => void;
 };
 
+const scoreTone = (score?: number) => {
+  if (!score) return "bg-slate-500";
+  if (score >= 80) return "bg-emerald-400";
+  if (score >= 65) return "bg-amber-300";
+  return "bg-rose-400";
+};
+
 export default function DayNavigator({ cruise, plansByDayId, selectedDayId, onSelectDay, onAddDay }: Props) {
   return (
-    <aside className="rounded-2xl border border-white/10 bg-slate-900/70 p-3">
-      <div className="mb-2 flex items-center justify-between">
-        <p className="text-sm font-semibold">Cruise days</p>
-        <button onClick={onAddDay} className="rounded bg-slate-800 px-2 py-1 text-xs">+ Day</button>
+    <aside className="flex h-full flex-col rounded-2xl bg-slate-900/70 p-3">
+      <div className="mb-3">
+        <p className="text-xs uppercase tracking-[0.16em] text-cyan-200/80">Cruise days</p>
+        <p className="truncate text-sm font-semibold">{cruise.cruiseName}</p>
       </div>
-      <div className="space-y-2">
+
+      <div className="min-h-0 flex-1 space-y-2 overflow-y-auto pr-1">
         {cruise.itinerary.map((day, index) => {
           const active = selectedDayId === day.id;
+          const score = plansByDayId[day.id]?.score.totalScore;
           const planned = !!plansByDayId[day.id];
           return (
             <button
               key={day.id}
               type="button"
               onClick={() => onSelectDay(day.id)}
-              className={`block w-full rounded-lg border p-2 text-left ${active ? "border-cyan-400/60 bg-cyan-500/10" : "border-white/10 hover:bg-white/5"}`}
+              className={`w-full rounded-xl px-3 py-2 text-left transition ${active ? "bg-cyan-500/15 shadow" : "bg-slate-950/40 hover:bg-white/5"}`}
             >
-              <p className="text-xs text-slate-400">Day {index + 1} · {day.date}</p>
-              <p className="text-sm">{day.portName || day.portSlug}</p>
-              <p className="text-[11px] text-slate-400">{day.arrivalTime}–{day.allAboardTime} {planned ? `· Score ${plansByDayId[day.id].score.totalScore}` : "· Not planned"}</p>
+              <div className="flex items-center justify-between gap-2">
+                <p className="text-xs text-slate-400">Day {index + 1}</p>
+                <span className={`h-2.5 w-2.5 rounded-full ${scoreTone(score)}`} aria-hidden />
+              </div>
+              <p className="mt-1 line-clamp-1 text-sm font-medium">{day.portName || day.portSlug}</p>
+              <div className="mt-1 flex items-center justify-between text-[11px] text-slate-400">
+                <span>{day.date}</span>
+                <span className={`rounded-full px-2 py-0.5 ${planned ? "bg-emerald-500/20 text-emerald-200" : "bg-slate-700/70 text-slate-300"}`}>{planned ? "Planned" : "Not planned"}</span>
+              </div>
             </button>
           );
         })}
       </div>
+
+      <button onClick={onAddDay} className="mt-3 rounded-xl bg-slate-800 px-3 py-2 text-sm hover:bg-slate-700">+ Add day</button>
     </aside>
   );
 }

@@ -15,61 +15,55 @@ type Props = {
   onApplyAction: (action: AssistantAction, mode: "day" | "cruise") => void;
 };
 
-const actionMap: Array<{ label: string; action: AssistantAction; hint: string }> = [
-  { label: "Reduce walking", action: "balanced-loop", hint: "Keeps route close to port corridor." },
-  { label: "Move lunch earlier", action: "move-lunch-earlier", hint: "Avoids noon crowd spikes." },
-  { label: "Swap activity", action: "trim-far-stop", hint: "Cuts the furthest leg for reliability." },
-  { label: "Faster transfers", action: "swap-transit", hint: "Prioritizes high reliability transport." },
+const actionMap: Array<{ label: string; action: AssistantAction }> = [
+  { label: "Optimize walking", action: "balanced-loop" },
+  { label: "Increase buffer safety", action: "trim-far-stop" },
+  { label: "Make it more relaxed", action: "move-lunch-earlier" },
+  { label: "Add signature highlight", action: "swap-transit" },
 ];
 
 export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mode, onModeChange, onApplyAction }: Props) {
   const [message, setMessage] = useState("");
   const [history, setHistory] = useState<Array<{ role: "assistant" | "user"; text: string }>>([
-    { role: "assistant", text: "Ask: ‘optimize for minimal walking’ or tap a suggestion chip to update your plan instantly." },
+    { role: "assistant", text: "I’m watching your day in real time. Ask for pace, buffer, or walking adjustments." },
   ]);
 
-  const profileCue = useMemo(() => {
-    if (!selectedDay) return "Set a day to get personalized cues.";
+  const todayFocus = useMemo(() => {
+    if (!selectedDay) return "Pick a day and I’ll draft a calm, return-safe game plan.";
     const port = portsRegistry[selectedDay.portSlug];
-    if (!port) return "Pick a port to unlock local risk cues.";
-    return `${port.name}: ${port.dockingModeDefault === "tender" ? "Tender operations" : "Docked arrival"}. Watch ${port.typicalTransitRisks[0]?.toLowerCase() ?? "transfer bottlenecks"}. Keep final leg near ${port.corridorZones[0]?.name ?? "the terminal corridor"}.`;
+    if (!port) return `This day has a ${selectedDay.arrivalTime}–${selectedDay.allAboardTime} window. We can keep it efficient and low-stress.`;
+    const corridor = port.corridorZones[0]?.name ?? "near-port corridor";
+    return `${port.name} is ${port.dockingModeDefault === "tender" ? "a tender" : "a docked"} call today. With a ${selectedDay.arrivalTime}–${selectedDay.allAboardTime} window, we can explore confidently and still protect return buffer near ${corridor}.`;
   }, [selectedDay]);
-
-  const why = selectedPlan
-    ? `Why this works: score ${selectedPlan.score.totalScore}. Current risk is ${selectedPlan.score.violations[0] ?? "well-buffered return posture"}.`
-    : "Why this works: we sequence stops to protect return buffer and reduce transfer volatility.";
 
   const submit = () => {
     if (!message.trim()) return;
     const normalized = message.toLowerCase();
-    const picked = normalized.includes("walking")
+    const picked = normalized.includes("walk")
       ? "balanced-loop"
-      : normalized.includes("lunch")
-      ? "move-lunch-earlier"
-      : normalized.includes("swap")
+      : normalized.includes("buffer") || normalized.includes("safe")
       ? "trim-far-stop"
-      : normalized.includes("transfer")
+      : normalized.includes("relax") || normalized.includes("pace")
+      ? "move-lunch-earlier"
+      : normalized.includes("highlight") || normalized.includes("signature")
       ? "swap-transit"
       : null;
 
     setHistory((prev) => [...prev, { role: "user", text: message }]);
-
     if (picked) {
       onApplyAction(picked, mode);
-      const label = actionMap.find((chip) => chip.action === picked)?.label ?? "update";
-      setHistory((prev) => [...prev, { role: "assistant", text: `Applied: ${label}. ${why}` }]);
+      setHistory((prev) => [...prev, { role: "assistant", text: "Done. I applied that adjustment and kept your return-safe posture intact." }]);
     } else {
-      setHistory((prev) => [...prev, { role: "assistant", text: `I can apply schedule edits now. Try: reduce walking, move lunch earlier, or faster transfers. ${why}` }]);
+      setHistory((prev) => [...prev, { role: "assistant", text: "I can tune this instantly. Try: optimize walking, increase buffer safety, or make it more relaxed." }]);
     }
-
     setMessage("");
   };
 
   return (
-    <aside className="flex h-full flex-col rounded-2xl border border-white/10 bg-slate-900/80 p-3">
+    <aside className="flex h-full flex-col rounded-2xl bg-slate-900/70 p-4">
       <div className="mb-3 flex items-center justify-between gap-2">
         <div>
-          <p className="text-sm font-semibold">AI Travel Agent</p>
+          <p className="text-sm font-semibold">Your Cruise Co-Pilot</p>
           <p className="text-[11px] text-slate-400">{cruise.cruiseName}</p>
         </div>
         <div className="flex rounded-full bg-slate-800 p-1 text-[11px]">
@@ -78,30 +72,28 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
         </div>
       </div>
 
-      <div className="mb-3 rounded-lg border border-cyan-500/20 bg-cyan-500/10 p-2 text-xs text-cyan-100">
-        <p className="font-medium">Personalized cue</p>
-        <p>{profileCue}</p>
+      <div className="mb-3 rounded-xl bg-cyan-500/10 p-3 text-sm text-cyan-100">
+        <p className="mb-1 text-xs uppercase tracking-wide text-cyan-200/80">Today’s focus</p>
+        <p>{todayFocus}</p>
       </div>
 
-      <div className="mb-2 flex flex-wrap gap-1">
+      <div className="mb-3 grid grid-cols-2 gap-2">
         {actionMap.map((chip) => (
-          <button key={chip.action} onClick={() => onApplyAction(chip.action, mode)} className="rounded-full bg-slate-800 px-2 py-1 text-[11px] text-slate-200 hover:bg-slate-700" title={chip.hint}>
-            {chip.label}
-          </button>
+          <button key={chip.action} onClick={() => onApplyAction(chip.action, mode)} className="rounded-lg bg-slate-800 px-2 py-2 text-xs hover:bg-slate-700">{chip.label}</button>
         ))}
       </div>
 
-      <div className="min-h-0 flex-1 space-y-2 overflow-y-auto rounded-lg border border-white/10 bg-slate-950/60 p-2">
+      <div className="min-h-0 flex-1 space-y-2 overflow-y-auto rounded-xl bg-slate-950/40 p-2">
         {history.map((item, idx) => (
-          <div key={idx} className={`rounded-md p-2 text-xs ${item.role === "assistant" ? "bg-slate-900 text-slate-200" : "bg-slate-800 text-white"}`}>{item.text}</div>
+          <div key={idx} className={`rounded-lg p-2 text-xs ${item.role === "assistant" ? "bg-slate-900 text-slate-200" : "bg-slate-800 text-white"}`}>{item.text}</div>
         ))}
+        {selectedPlan && <p className="text-[11px] text-slate-400">Current score: {selectedPlan.score.totalScore}</p>}
       </div>
 
-      <div className="mt-2 flex gap-2">
-        <input value={message} onChange={(e) => setMessage(e.target.value)} onKeyDown={(e) => e.key === "Enter" && submit()} placeholder="Ask for edits..." className="w-full rounded-lg bg-slate-800 px-3 py-2 text-sm" />
-        <button onClick={submit} className="rounded-lg bg-cyan-400 px-3 py-2 text-sm font-semibold text-slate-900">Send</button>
+      <div className="mt-3 flex gap-2">
+        <input value={message} onChange={(e) => setMessage(e.target.value)} onKeyDown={(e) => e.key === "Enter" && submit()} placeholder="Ask your co-pilot..." className="w-full rounded-xl bg-slate-800 px-3 py-2 text-sm" />
+        <button onClick={submit} className="rounded-xl bg-cyan-400 px-3 py-2 text-sm font-semibold text-slate-900">Send</button>
       </div>
-      <p className="mt-2 text-[11px] text-slate-400">{why}</p>
     </aside>
   );
 }
