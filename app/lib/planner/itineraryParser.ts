@@ -17,15 +17,24 @@ export const parseItineraryText = (text: string): PortDay[] => {
     .split(/\n+/)
     .map((line) => line.trim())
     .filter(Boolean)
-    .map((line) => {
+    .reduce<PortDay[]>((acc, line) => {
       const match = line.match(linePattern);
-      if (!match?.groups) return null;
+      if (!match?.groups) return acc;
+
       const date = normalizeDate(match.groups.date);
       const candidate = match.groups.port.toLowerCase();
       const mapped = portIndex.find((port) => candidate.includes(port.name.toLowerCase()) || port.aliases.some((alias) => candidate.includes(alias.toLowerCase())));
       const portSlug = mapped?.id ?? "barcelona";
       const day = createPortDayFromPort(portSlug, date);
-      return { ...day, portName: mapped?.name ?? match.groups.port, arrivalTime: match.groups.arrival, onboardTime: match.groups.arrival, allAboardTime: match.groups.aboard };
-    })
-    .filter((v): v is PortDay => v !== null);
+
+      acc.push({
+        ...day,
+        portName: mapped?.name ?? match.groups.port,
+        arrivalTime: match.groups.arrival,
+        onboardTime: match.groups.arrival,
+        allAboardTime: match.groups.aboard,
+      });
+
+      return acc;
+    }, []);
 };

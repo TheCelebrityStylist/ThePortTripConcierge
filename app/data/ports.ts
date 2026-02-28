@@ -1,5 +1,7 @@
 import { portsRegistry as sourceRegistry } from "@/app/lib/ports";
 
+export const portsRegistry = sourceRegistry;
+
 export type PortRecord = {
   id: string;
   name: string;
