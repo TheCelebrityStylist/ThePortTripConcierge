@@ -12,6 +12,7 @@ type Props = {
 export default function StopCard({ block, index, onEdit, onMove }: Props) {
   return (
     <article
+      data-timeline-item={index}
       draggable
       onDragStart={(event) => event.dataTransfer.setData("text/plain", String(index))}
       onDragOver={(event) => event.preventDefault()}

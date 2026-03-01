@@ -1,13 +1,14 @@
 "use client";
 
 import type { Cruise, PlanOutput } from "@/app/lib/planner/types";
+import QuickAddDayRow from "./QuickAddDayRow";
 
 type Props = {
   cruise: Cruise;
   plansByDayId: Record<string, PlanOutput>;
   selectedDayId?: string;
   onSelectDay: (id: string) => void;
-  onAddDay: () => void;
+  onQuickAdd: (payload: { portSlug: string; portName: string; arrivalTime: string; allAboardTime: string }) => void;
 };
 
 const scoreTone = (score?: number) => {
@@ -17,7 +18,7 @@ const scoreTone = (score?: number) => {
   return "bg-rose-400";
 };
 
-export default function DayNavigator({ cruise, plansByDayId, selectedDayId, onSelectDay, onAddDay }: Props) {
+export default function DayNavigator({ cruise, plansByDayId, selectedDayId, onSelectDay, onQuickAdd }: Props) {
   return (
     <aside className="flex h-full flex-col rounded-2xl bg-slate-900/70 p-3">
       <div className="mb-3">
@@ -33,6 +34,7 @@ export default function DayNavigator({ cruise, plansByDayId, selectedDayId, onSe
           return (
             <button
               key={day.id}
+              data-day-id={day.id}
               type="button"
               onClick={() => onSelectDay(day.id)}
               className={`w-full rounded-xl px-3 py-2 text-left transition ${active ? "bg-cyan-500/15 shadow" : "bg-slate-950/40 hover:bg-white/5"}`}
@@ -51,7 +53,10 @@ export default function DayNavigator({ cruise, plansByDayId, selectedDayId, onSe
         })}
       </div>
 
-      <button onClick={onAddDay} className="mt-3 rounded-xl bg-slate-800 px-3 py-2 text-sm hover:bg-slate-700">+ Add day</button>
+      <div className="mt-3 space-y-2 border-t border-white/10 pt-3">
+        <p className="text-xs text-slate-400">Quick add day</p>
+        <QuickAddDayRow onAdd={onQuickAdd} compact />
+      </div>
     </aside>
   );
 }
