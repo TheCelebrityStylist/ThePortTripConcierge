@@ -11,18 +11,19 @@ type Props = {
   selectedDay?: PortDay;
   selectedPlan?: PlanOutput;
   mode: "day" | "cruise";
+  editingTitle?: string;
+  changeLog?: string[];
   onModeChange: (mode: "day" | "cruise") => void;
   onApplyAction: (action: AssistantAction, mode: "day" | "cruise") => void;
 };
 
-const actionMap: Array<{ label: string; action: AssistantAction }> = [
-  { label: "Make it more relaxed", action: "move-lunch-earlier" },
-  { label: "Reduce walking", action: "balanced-loop" },
-  { label: "Add 1 signature highlight", action: "swap-transit" },
-  { label: "Keep me ship-safe", action: "trim-far-stop" },
+const actionGroups: Array<{ title: string; chips: Array<{ label: string; action: AssistantAction }> }> = [
+  { title: "Safety", chips: [{ label: "Keep me ship-safe", action: "trim-far-stop" }] },
+  { title: "Comfort", chips: [{ label: "Make it more relaxed", action: "move-lunch-earlier" }, { label: "Reduce walking", action: "balanced-loop" }] },
+  { title: "Highlights", chips: [{ label: "Add signature highlight", action: "swap-transit" }] },
 ];
 
-export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mode, onModeChange, onApplyAction }: Props) {
+export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mode, editingTitle, changeLog = [], onModeChange, onApplyAction }: Props) {
   const [message, setMessage] = useState("");
   const [history, setHistory] = useState<Array<{ role: "assistant" | "user"; text: string }>>([{ role: "assistant", text: "Ask me anything. I can rebalance pace, walking, budget, and return-safety." }]);
 
@@ -33,9 +34,9 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
     return `${port.name} (${selectedDay.arrivalTime}-${selectedDay.allAboardTime}) · pace ${selectedDay.pace} · walking ${selectedDay.walkingPreference} · risk ${selectedDay.riskTolerance}.`;
   }, [selectedDay]);
 
-  const respond = (picked: AssistantAction | null) => {
-    if (!picked) return "(1) Plan change summary: no structured action yet. (2) What changed: none. (3) Why safer/better: keeping baseline avoids accidental risk spikes. (4) Watch out: port transport variability. (5) Fallback: ask for a direct action chip.";
-    return "(1) Plan change summary: applied your request. (2) What changed: adjusted sequence/transit while preserving locked stops. (3) Why safer/better: improves return buffer and route reliability. (4) Watch out: monitor crowd-heavy windows. (5) Fallback: keep a taxi-back option for final leg.";
+  const apply = (action: AssistantAction) => {
+    onApplyAction(action, mode);
+    setHistory((prev) => [...prev, { role: "assistant", text: "Applied update. I preserved locks and rebalanced for safer timing." }]);
   };
 
   const submit = () => {
@@ -44,8 +45,12 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
     const picked = normalized.includes("walk") ? "balanced-loop" : normalized.includes("safe") || normalized.includes("buffer") ? "trim-far-stop" : normalized.includes("relax") ? "move-lunch-earlier" : normalized.includes("highlight") ? "swap-transit" : null;
 
     setHistory((prev) => [...prev, { role: "user", text: message }]);
-    if (picked) onApplyAction(picked, mode);
-    setHistory((prev) => [...prev, { role: "assistant", text: respond(picked) }]);
+    if (picked) {
+      apply(picked);
+      setHistory((prev) => [...prev, { role: "assistant", text: "(1) Plan change summary: updated. (2) What changed: adjusted sequence/transit. (3) Why better: stronger return reliability. (4) Watch out: crowd windows. (5) Fallback: taxi for final leg." }]);
+    } else {
+      setHistory((prev) => [...prev, { role: "assistant", text: "Try: Make it more relaxed, Reduce walking, Keep me ship-safe." }]);
+    }
     setMessage("");
   };
 
@@ -65,14 +70,27 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
       <div className="mb-3 rounded-xl bg-cyan-500/10 p-3 text-sm text-cyan-100">
         <p className="mb-1 text-xs uppercase tracking-wide text-cyan-200/80">Today’s focus</p>
         <p>{todayFocus}</p>
+        {editingTitle && <p className="mt-2 rounded bg-slate-950/40 px-2 py-1 text-xs">Editing: {editingTitle}</p>}
       </div>
 
-      <div className="mb-3 grid grid-cols-2 gap-2">
-        {actionMap.map((chip) => <button key={chip.action} onClick={() => onApplyAction(chip.action, mode)} className="rounded-lg bg-slate-800 px-2 py-2 text-xs hover:bg-slate-700">{chip.label}</button>)}
+      <div className="mb-3 space-y-2">
+        {actionGroups.map((group) => (
+          <div key={group.title}>
+            <p className="mb-1 text-[10px] uppercase tracking-[0.15em] text-slate-400">{group.title}</p>
+            <div className="flex flex-wrap gap-2">{group.chips.map((chip) => <button key={chip.label} onClick={() => apply(chip.action)} className="rounded-lg bg-slate-800 px-2 py-1.5 text-xs hover:bg-slate-700">{chip.label}</button>)}</div>
+          </div>
+        ))}
       </div>
+
+      {changeLog.length > 0 && (
+        <div className="mb-3 rounded-xl bg-slate-950/40 p-2">
+          <p className="text-[10px] uppercase tracking-[0.14em] text-slate-400">What changed</p>
+          <ul className="mt-1 list-disc space-y-1 pl-4 text-xs text-slate-300">{changeLog.slice(0, 4).map((line) => <li key={line}>{line}</li>)}</ul>
+        </div>
+      )}
 
       <div className="min-h-0 flex-1 space-y-2 overflow-y-auto rounded-xl bg-slate-950/40 p-2">
-        {history.map((item, idx) => <div key={idx} className={`rounded-lg p-2 text-xs ${item.role === "assistant" ? "bg-slate-900 text-slate-200" : "bg-slate-800 text-white"}`}>{item.text}</div>)}
+        {history.map((item, idx) => <div key={`${item.role}-${idx}`} className={`rounded-lg p-2 text-xs ${item.role === "assistant" ? "bg-slate-900 text-slate-200" : "bg-slate-800 text-white"}`}>{item.text}</div>)}
         {selectedPlan && <p className="text-[11px] text-slate-400">Score now: {selectedPlan.score.totalScore}</p>}
       </div>
 

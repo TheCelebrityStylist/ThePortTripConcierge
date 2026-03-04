@@ -13,7 +13,7 @@ type PortOption = {
 
 const RECENT_KEY = "porttrip_recent_ports_v1";
 
-export default function PortCombobox({ value, onChange, autoFocus = false }: { value: string; onChange: (slug: string) => void; autoFocus?: boolean }) {
+export function PortSearchCombobox({ value, onChange, autoFocus = false, onSelectComplete }: { value: string; onChange: (slug: string) => void; autoFocus?: boolean; onSelectComplete?: () => void }) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
@@ -30,7 +30,7 @@ export default function PortCombobox({ value, onChange, autoFocus = false }: { v
   useEffect(() => {
     try {
       const parsed = JSON.parse(localStorage.getItem(RECENT_KEY) ?? "[]") as string[];
-      setRecent(Array.isArray(parsed) ? parsed.slice(0, 6) : []);
+      setRecent(Array.isArray(parsed) ? parsed.slice(0, 8) : []);
     } catch {
       setRecent([]);
     }
@@ -39,36 +39,38 @@ export default function PortCombobox({ value, onChange, autoFocus = false }: { v
   const matching = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return [];
-    return all.filter((port) => {
-      const aliases = (port.aliases ?? []).join(" ");
-      return `${port.name} ${port.country} ${port.region} ${aliases}`.toLowerCase().includes(q);
-    }).slice(0, 40);
+    return all
+      .filter((port) => {
+        const aliases = (port.aliases ?? []).join(" ");
+        return `${port.name} ${port.country} ${port.region} ${aliases}`.toLowerCase().includes(q);
+      })
+      .slice(0, 50);
   }, [all, query]);
 
-  const nearby = useMemo(() => {
-    if (!selected) return [];
-    return all.filter((port) => port.region === selected.region && port.slug !== selected.slug).slice(0, 6);
-  }, [all, selected]);
+  const groupedByRegion = useMemo(() => {
+    const items = matching.length ? matching : all.slice(0, 24);
+    const grouped = new Map<string, PortOption[]>();
+    for (const port of items) {
+      grouped.set(port.region, [...(grouped.get(port.region) ?? []), port]);
+    }
+    return Array.from(grouped.entries()).map(([region, items]) => ({ label: region, items }));
+  }, [all, matching]);
 
   const grouped = useMemo(() => {
     const rec = recent.map((slug) => all.find((port) => port.slug === slug)).filter(Boolean) as PortOption[];
     const pop = popularPortSlugs.map((slug) => all.find((port) => port.slug === slug)).filter(Boolean) as PortOption[];
-    return [
-      { label: "Recent", items: rec },
-      { label: "Popular", items: pop },
-      { label: "Matching", items: matching },
-      { label: "Nearby", items: nearby },
-    ].filter((group) => group.items.length > 0);
-  }, [all, matching, nearby, recent]);
+    return [{ label: "Recent", items: rec }, { label: "Popular", items: pop }, ...groupedByRegion].filter((group) => group.items.length > 0);
+  }, [all, groupedByRegion, recent]);
 
   const flatItems = grouped.flatMap((group) => group.items);
 
   const select = (slug: string) => {
     onChange(slug);
+    onSelectComplete?.();
     setOpen(false);
     setQuery("");
     setActive(0);
-    const next = [slug, ...recent.filter((item) => item !== slug)].slice(0, 6);
+    const next = [slug, ...recent.filter((item) => item !== slug)].slice(0, 8);
     setRecent(next);
     localStorage.setItem(RECENT_KEY, JSON.stringify(next));
   };
@@ -98,8 +100,11 @@ export default function PortCombobox({ value, onChange, autoFocus = false }: { v
             event.preventDefault();
             select(flatItems[active]?.slug ?? value);
           }
+          if (event.key === "Escape") {
+            setOpen(false);
+          }
         }}
-        placeholder={selected ? `${selected.name}, ${selected.country}` : "Search port by name, alias, country..."}
+        placeholder={selected ? `${selected.name} — ${selected.country}` : "Search by port, alias, country, region"}
         className="w-full rounded-lg border border-white/10 bg-slate-900/70 px-3 py-2 text-sm"
         aria-label="Search ports"
       />
@@ -109,7 +114,7 @@ export default function PortCombobox({ value, onChange, autoFocus = false }: { v
           const port = all.find((item) => item.slug === slug);
           if (!port) return null;
           return (
-            <button key={slug} type="button" className="rounded-full bg-slate-800 px-2 py-1 text-[11px]" onClick={() => select(slug)}>
+            <button key={slug} type="button" className="rounded-full bg-slate-800 px-2 py-1 text-[11px] hover:bg-slate-700" onClick={() => select(slug)}>
               {port.name}
             </button>
           );
@@ -117,7 +122,7 @@ export default function PortCombobox({ value, onChange, autoFocus = false }: { v
       </div>
 
       {open && (
-        <div className="absolute z-30 mt-2 max-h-80 w-full overflow-y-auto rounded-xl border border-white/10 bg-slate-950 p-2 shadow-2xl">
+        <div className="absolute z-30 mt-2 max-h-96 w-full overflow-y-auto rounded-xl border border-white/10 bg-slate-950 p-2 shadow-2xl">
           {grouped.map((group) => (
             <div key={group.label} className="mb-2 last:mb-0">
               <p className="px-2 text-[10px] uppercase tracking-[0.16em] text-slate-400">{group.label}</p>
@@ -131,7 +136,7 @@ export default function PortCombobox({ value, onChange, autoFocus = false }: { v
                       onMouseDown={() => select(port.slug)}
                       className={`block w-full rounded-lg px-2 py-2 text-left text-sm ${index === active ? "bg-cyan-500/20" : "hover:bg-white/5"}`}
                     >
-                      {port.name} <span className="text-xs text-slate-400">· {port.country} · {port.region}</span>
+                      {port.name} <span className="text-xs text-slate-400">— {port.country}</span>
                     </button>
                   );
                 })}
@@ -143,3 +148,5 @@ export default function PortCombobox({ value, onChange, autoFocus = false }: { v
     </div>
   );
 }
+
+export default PortSearchCombobox;

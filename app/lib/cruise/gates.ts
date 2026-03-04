@@ -15,14 +15,14 @@ const featureMatrix: Record<FeatureTier, Record<FeatureGateKey, boolean>> = {
     offlinePack: false,
   },
   "trip-pass": {
-    fullCruiseMode: false,
+    fullCruiseMode: true,
     generateAll: true,
     exportBundle: true,
     simulation: false,
     offlinePack: false,
   },
   pro: {
-    fullCruiseMode: false,
+    fullCruiseMode: true,
     generateAll: true,
     exportBundle: true,
     simulation: true,
