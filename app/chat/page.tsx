@@ -184,9 +184,9 @@ export default function ChatPage() {
     setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: { ...output, plan: updated, score: simulateRisk(updated, updated.input.portSlug) } }));
   };
 
-  const updateBlocks = (updater: (blocks: PlanBlock[]) => PlanBlock[]) => {
+  const updateBlocks = (nextBlocks: PlanBlock[]) => {
     if (!selectedDay || !output) return;
-    const nextPlan = { ...output.plan, blocks: updater(output.plan.blocks) };
+    const nextPlan = { ...output.plan, blocks: nextBlocks };
     setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: { ...output, plan: nextPlan, score: simulateRisk(nextPlan, nextPlan.input.portSlug) } }));
   };
 
@@ -249,14 +249,9 @@ export default function ChatPage() {
               <div className={timelinePulse ? "rounded-2xl ring-1 ring-cyan-300/50" : ""}>
                 <TimelineBoard
                   blocks={output.plan.blocks}
-                  onEdit={(id, field, value) => updateBlocks((blocks) => blocks.map((block) => (block.id === id ? { ...block, [field]: value } : block)))}
-                  onMove={(from, to) => updateBlocks((blocks) => {
-                    if (to < 0 || to >= blocks.length) return blocks;
-                    const next = [...blocks];
-                    const [item] = next.splice(from, 1);
-                    next.splice(to, 0, item);
-                    return next;
-                  })}
+                  dayStart={selectedDay?.arrivalTime ?? "08:00"}
+                  dayEnd={selectedDay?.allAboardTime ?? "18:00"}
+                  onChange={updateBlocks}
                 />
                 <PlanQualityPanel output={output} onApplyRecommendation={(action) => applyRecommendation(action, "day")} />
               </div>
@@ -281,14 +276,9 @@ export default function ChatPage() {
           ) : output ? (
             <TimelineBoard
               blocks={output.plan.blocks}
-              onEdit={(id, field, value) => updateBlocks((blocks) => blocks.map((block) => (block.id === id ? { ...block, [field]: value } : block)))}
-              onMove={(from, to) => updateBlocks((blocks) => {
-                if (to < 0 || to >= blocks.length) return blocks;
-                const next = [...blocks];
-                const [item] = next.splice(from, 1);
-                next.splice(to, 0, item);
-                return next;
-              })}
+              dayStart={selectedDay?.arrivalTime ?? "08:00"}
+              dayEnd={selectedDay?.allAboardTime ?? "18:00"}
+              onChange={updateBlocks}
             />
           ) : (
             <div className="rounded-2xl bg-slate-900/70 p-6 text-sm text-slate-300">Select a day and generate when ready.</div>
