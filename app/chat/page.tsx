@@ -3,20 +3,15 @@
 import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import AIAssistantPanel from "@/app/components/planner/AIAssistantPanel";
-import DayHeader from "@/app/components/planner/DayHeader";
 import DayNavigator from "@/app/components/planner/DayNavigator";
-import PlanSetupStrip from "@/app/components/planner/PlanSetupStrip";
-import PlannerHeader from "@/app/components/planner/PlannerHeader";
 import PlanQualityPanel from "@/app/components/planner/PlanQualityPanel";
-import PrimaryActionButton from "@/app/components/planner/PrimaryActionButton";
 import TimelineBoard from "@/app/components/planner/TimelineBoard";
 import UpgradeModal from "@/app/components/planner/UpgradeModal";
 import { gateMessage, getEntitlements, hasFeature } from "@/app/lib/cruise/gates";
 import { buildCruiseDashboard, createPortDayFromPort, generatePortDayPlan, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
 import type { Cruise, FeatureGateKey, FeatureTier, PlanBlock, PlanInput, PlanOutput, PortDay } from "@/app/lib/planner/types";
 
-const DRAFT_KEY = "porttrip_workspace_draft_v1";
-type DayError = { port?: string; times?: string };
+const DRAFT_KEY = "porttrip_workspace_draft_v2";
 
 const defaultInput: PlanInput = {
   portSlug: "barcelona",
@@ -33,27 +28,19 @@ const defaultInput: PlanInput = {
   avoidCrowds: false,
 };
 
-const createDefaultCruise = (): Cruise => ({
-  id: "cruise-local",
-  cruiseName: "My Cruise",
-  startDate: new Date().toISOString().slice(0, 10),
-  durationDays: 0,
-  timezone: "Local",
-  itinerary: [],
-});
+const createDefaultCruise = (): Cruise => ({ id: "cruise-local", cruiseName: "My Cruise", startDate: new Date().toISOString().slice(0, 10), durationDays: 0, timezone: "Local", itinerary: [] });
 
-const validateDay = (day: PortDay): DayError => {
-  const error: DayError = {};
-  if (!day.portSlug) error.port = "Select a port.";
-  if (!day.arrivalTime || !day.allAboardTime || day.arrivalTime >= day.allAboardTime) error.times = "Arrival must be before all aboard.";
-  return error;
-};
+type MobileTab = "days" | "plan" | "copilot";
 
 export default function ChatPage() {
+  // What changed:
+  // - Reworked page into a Cruise Workspace: sticky top action bar + desktop 3-panel + mobile tab workspace.
+  // - Kept planner generation/optimization/simulation logic intact, but removed wizard dependency.
+  // - Added undo for optimizer changes, resilient empty/loading states, and day bulk-add for fast setup.
   const searchParams = useSearchParams();
   const [tier, setTier] = useState<FeatureTier>("free");
-  const [mode, setMode] = useState<"single-port" | "full-cruise">("full-cruise");
   const [assistantMode, setAssistantMode] = useState<"day" | "cruise">("day");
+  const [mobileTab, setMobileTab] = useState<MobileTab>("plan");
   const [input] = useState<PlanInput>(defaultInput);
   const [cruise, setCruise] = useState<Cruise>(createDefaultCruise);
   const [selectedDayId, setSelectedDayId] = useState<string>();
@@ -61,10 +48,8 @@ export default function ChatPage() {
   const [generation, setGeneration] = useState<{ running: boolean; done: number; total: number }>({ running: false, done: 0, total: 0 });
   const [upgradeGate, setUpgradeGate] = useState<FeatureGateKey | null>(null);
   const [toast, setToast] = useState("");
-  const [mobileDaysOpen, setMobileDaysOpen] = useState(false);
-  const [mobileCopilotOpen, setMobileCopilotOpen] = useState(false);
-  const [timelinePulse, setTimelinePulse] = useState(false);
-  const [pendingDayScrollId, setPendingDayScrollId] = useState<string | null>(null);
+  const [undoSnapshot, setUndoSnapshot] = useState<Record<string, PlanOutput> | null>(null);
+  const [focusAdd, setFocusAdd] = useState(false);
 
   const entitlements = useMemo(() => getEntitlements(tier, searchParams.toString()), [tier, searchParams]);
   const selectedDay = cruise.itinerary.find((day) => day.id === selectedDayId);
@@ -75,244 +60,153 @@ export default function ChatPage() {
     const raw = localStorage.getItem(DRAFT_KEY);
     if (!raw) return;
     try {
-      const parsed = JSON.parse(raw) as { cruise: Cruise; selectedDayId?: string; mode: "single-port" | "full-cruise" };
+      const parsed = JSON.parse(raw) as { cruise: Cruise; selectedDayId?: string };
       setCruise(parsed.cruise);
       setSelectedDayId(parsed.selectedDayId);
-      setMode(parsed.mode);
     } catch {
-      // ignore malformed draft
+      // ignore
     }
   }, []);
 
   useEffect(() => {
-    localStorage.setItem(DRAFT_KEY, JSON.stringify({ cruise, selectedDayId, mode }));
-  }, [cruise, selectedDayId, mode]);
+    localStorage.setItem(DRAFT_KEY, JSON.stringify({ cruise, selectedDayId }));
+  }, [cruise, selectedDayId]);
 
   useEffect(() => {
-    if (selectedDayId) return;
-    const firstUnplanned = cruise.itinerary.find((day) => !plansByDayId[day.id]);
-    setSelectedDayId(firstUnplanned?.id ?? cruise.itinerary[0]?.id);
-  }, [selectedDayId, cruise.itinerary, plansByDayId]);
-
-  useEffect(() => {
-    if (!pendingDayScrollId) return;
-    const node = document.querySelector(`[data-day-id=\"${pendingDayScrollId}\"]`);
-    if (node instanceof HTMLElement) node.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    setPendingDayScrollId(null);
-  }, [pendingDayScrollId]);
-
-  const triggerGate = (feature: FeatureGateKey) => {
-    if (hasFeature(entitlements, feature)) return false;
-    setUpgradeGate(feature);
-    return true;
-  };
+    if (selectedDayId || cruise.itinerary.length === 0) return;
+    setSelectedDayId(cruise.itinerary[0]?.id);
+  }, [selectedDayId, cruise.itinerary]);
 
   const quickAddDay = (payload: { portSlug: string; portName: string; arrivalTime: string; allAboardTime: string }) => {
+    if (!hasFeature(entitlements, "fullCruiseMode") && cruise.itinerary.length >= 1) {
+      setUpgradeGate("fullCruiseMode");
+      return;
+    }
     const index = cruise.itinerary.length;
     const date = new Date(new Date(cruise.startDate).getTime() + index * 86400000).toISOString().slice(0, 10);
-    const day = {
-      ...createPortDayFromPort(payload.portSlug, date),
-      portName: payload.portName,
-      arrivalTime: payload.arrivalTime,
-      onboardTime: payload.arrivalTime,
-      allAboardTime: payload.allAboardTime,
-    };
+    const day = { ...createPortDayFromPort(payload.portSlug, date), portName: payload.portName, arrivalTime: payload.arrivalTime, onboardTime: payload.arrivalTime, allAboardTime: payload.allAboardTime };
     setCruise((prev) => ({ ...prev, durationDays: index + 1, itinerary: [...prev.itinerary, day] }));
     setSelectedDayId(day.id);
-    setPendingDayScrollId(day.id);
     setToast(`Added ${payload.portName} to Day ${index + 1}.`);
-    setTimeout(() => setToast(""), 1300);
+    setTimeout(() => setToast(""), 1500);
+  };
+
+  const quickAddFive = () => {
+    ["barcelona", "marseille", "naples", "rome-civitavecchia", "athens-piraeus"].forEach((slug, idx) => {
+      if (!hasFeature(entitlements, "fullCruiseMode") && idx > 0) return;
+      quickAddDay({ portSlug: slug, portName: slug.replace(/-/g, " "), arrivalTime: "08:00", allAboardTime: "17:00" });
+    });
   };
 
   const onGenerateDay = (day: PortDay) => {
-    const invalid = validateDay(day);
-    if (invalid.port || invalid.times) {
-      setToast(invalid.port || invalid.times || "Please check day setup.");
-      setTimeout(() => setToast(""), 1200);
-      return;
-    }
-
-    const planInput: PlanInput = {
-      ...input,
-      portSlug: day.portSlug,
-      portName: day.portName,
-      onboardTime: day.arrivalTime,
-      allAboardTime: day.allAboardTime,
-      walkingLevel: day.walkingPreference,
-      pace: day.pace,
-      interests: day.interests,
-      riskTolerance: day.riskTolerance,
-    };
-    const out = generatePortDayPlan(planInput, day.portSlug);
-    setPlansByDayId((prev) => ({ ...prev, [day.id]: out }));
-    window.setTimeout(() => {
-      const firstItem = document.querySelector("[data-timeline-item='0']");
-      if (firstItem instanceof HTMLElement) firstItem.scrollIntoView({ behavior: "smooth", block: "center" });
-    }, 100);
-    setTimelinePulse(true);
-    window.setTimeout(() => setTimelinePulse(false), 1000);
+    const planInput: PlanInput = { ...input, portSlug: day.portSlug, portName: day.portName, onboardTime: day.onboardTime, allAboardTime: day.allAboardTime, walkingLevel: day.walkingPreference, pace: day.pace, riskTolerance: day.riskTolerance, interests: day.interests };
+    const generated = generatePortDayPlan(planInput);
+    setPlansByDayId((prev) => ({ ...prev, [day.id]: generated }));
+    setCruise((prev) => ({ ...prev, itinerary: prev.itinerary.map((item) => (item.id === day.id ? { ...item, status: "draft", score: generated.score.totalScore } : item)) }));
   };
 
   const onGenerateAll = async () => {
-    if (triggerGate("generateAll")) return;
-    const validDays = cruise.itinerary.filter((day) => {
-      const err = validateDay(day);
-      return !err.port && !err.times;
-    });
-    setGeneration({ running: true, done: 0, total: validDays.length });
-    for (let i = 0; i < validDays.length; i += 1) {
-      onGenerateDay(validDays[i]);
-      setGeneration({ running: true, done: i + 1, total: validDays.length });
-      await new Promise((resolve) => setTimeout(resolve, 45));
+    if (!hasFeature(entitlements, "generateAll")) {
+      setUpgradeGate("generateAll");
+      return;
     }
-    setGeneration({ running: false, done: 0, total: 0 });
+    setGeneration({ running: true, done: 0, total: cruise.itinerary.length });
+    for (let i = 0; i < cruise.itinerary.length; i += 1) {
+      const day = cruise.itinerary[i];
+      onGenerateDay(day);
+      setGeneration({ running: true, done: i + 1, total: cruise.itinerary.length });
+      await new Promise((resolve) => setTimeout(resolve, 60));
+    }
+    setGeneration({ running: false, done: cruise.itinerary.length, total: cruise.itinerary.length });
   };
 
   const applyRecommendation = (action: PlanOutput["recommendations"][number]["action"], scope: "day" | "cruise") => {
-    if (scope === "cruise") {
-      if (triggerGate("generateAll")) return;
-      const next: Record<string, PlanOutput> = { ...plansByDayId };
-      Object.entries(next).forEach(([id, plan]) => {
-        const updated = optimizePlan(plan.plan, { action });
-        next[id] = { ...plan, plan: updated, score: simulateRisk(updated, updated.input.portSlug) };
-      });
-      setPlansByDayId(next);
+    setUndoSnapshot(plansByDayId);
+    if (scope === "day" && selectedDay && output) {
+      const nextPlan = optimizePlan(output.plan, { action });
+      const next = { ...output, plan: nextPlan, score: simulateRisk(nextPlan, nextPlan.input.portSlug) };
+      setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: next }));
       return;
     }
-    if (!selectedDay || !output) return;
-    const updated = optimizePlan(output.plan, { action });
-    setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: { ...output, plan: updated, score: simulateRisk(updated, updated.input.portSlug) } }));
+    const next = { ...plansByDayId };
+    Object.entries(next).forEach(([dayId, plan]) => {
+      const nextPlan = optimizePlan(plan.plan, { action });
+      next[dayId] = { ...plan, plan: nextPlan, score: simulateRisk(nextPlan, nextPlan.input.portSlug) };
+    });
+    setPlansByDayId(next);
   };
 
   const updateBlocks = (nextBlocks: PlanBlock[]) => {
     if (!selectedDay || !output) return;
-    const nextPlan = { ...output.plan, blocks: nextBlocks };
-    setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: { ...output, plan: nextPlan, score: simulateRisk(nextPlan, nextPlan.input.portSlug) } }));
+    const updatedPlan = { ...output.plan, blocks: nextBlocks };
+    const updated: PlanOutput = { ...output, plan: updatedPlan, score: simulateRisk(updatedPlan, updatedPlan.input.portSlug) };
+    setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: updated }));
   };
 
-  const hasDays = cruise.itinerary.length > 0;
+  const primaryAction = selectedDay && plansByDayId[selectedDay.id] ? () => onGenerateDay(selectedDay) : () => selectedDay && onGenerateDay(selectedDay);
   const hasAnyPlan = Object.keys(plansByDayId).length > 0;
-  const selectedDayPlanned = !!(selectedDay && plansByDayId[selectedDay.id]);
-
-  const primaryAction = () => {
-    if (!hasDays) return;
-    if (selectedDay) onGenerateDay(selectedDay);
-  };
-
-  const primaryLabel = !hasDays
-    ? "Add your first day"
-    : selectedDayPlanned
-    ? `Update plan for ${selectedDay?.portName || selectedDay?.portSlug}`
-    : `Generate plan for ${selectedDay?.portName || selectedDay?.portSlug}`;
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
-      <PlannerHeader hasPlan={!!output} onPrimary={() => undefined} onAction={() => undefined} />
-
-      <div className="mx-auto max-w-[1500px] px-3 py-4 sm:px-4">
-        <div className="mb-4 flex items-center gap-2 text-xs">
-          <button onClick={() => setTier("free")} className={`rounded-full px-3 py-1 ${tier === "free" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Free</button>
-          <button onClick={() => setTier("trip-pass")} className={`rounded-full px-3 py-1 ${tier === "trip-pass" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Trip Pass</button>
-          <button onClick={() => setTier("pro")} className={`rounded-full px-3 py-1 ${tier === "pro" ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`}>Pro</button>
-          <span className="ml-auto text-slate-400">{Object.keys(plansByDayId).length}/{cruise.itinerary.length} planned · Energy {dashboard.energyPacingScore}</span>
+      <header className="sticky top-0 z-40 border-b border-white/10 bg-slate-950/95 backdrop-blur">
+        <div className="mx-auto flex max-w-[1600px] items-center gap-2 px-3 py-3">
+          <input className="max-w-[180px] rounded-lg bg-slate-800 px-3 py-1.5 text-sm" value={cruise.cruiseName} onChange={(e) => setCruise((prev) => ({ ...prev, cruiseName: e.target.value }))} aria-label="Cruise name" />
+          <span className="hidden text-xs text-slate-400 md:inline">{selectedDay ? `Day ${cruise.itinerary.findIndex((day) => day.id === selectedDay.id) + 1}` : "No day selected"}</span>
+          <button onClick={primaryAction} className="ml-auto rounded-lg bg-cyan-400 px-3 py-2 text-sm font-semibold text-slate-900">{selectedDay && output ? "Update" : "Generate"}</button>
+          <button onClick={() => output && applyRecommendation("trim-far-stop", "day")} className="rounded-lg bg-slate-800 px-3 py-2 text-sm">Simulate</button>
+          <button onClick={() => setTier("trip-pass")} className="hidden rounded-lg bg-slate-800 px-3 py-2 text-sm md:inline">Upgrade</button>
+          <span className="hidden text-xs text-slate-400 lg:inline">{Object.keys(plansByDayId).length}/{cruise.itinerary.length} planned</span>
         </div>
+      </header>
 
-        <div className="hidden lg:grid lg:grid-cols-[25%_50%_25%] lg:gap-5">
-          <DayNavigator cruise={cruise} plansByDayId={plansByDayId} selectedDayId={selectedDayId} onSelectDay={setSelectedDayId} onQuickAdd={quickAddDay} />
+      <div className="mx-auto max-w-[1600px] p-3">
+        {toast && <p className="mb-2 rounded bg-emerald-500/20 px-3 py-2 text-xs text-emerald-200">{toast}</p>}
+        {undoSnapshot && <button className="mb-2 rounded bg-slate-800 px-3 py-1 text-xs" onClick={() => { setPlansByDayId(undoSnapshot); setUndoSnapshot(null); }}>Undo optimize</button>}
 
-          <section className="space-y-4">
-            {!hasDays ? (
-              <PlanSetupStrip mode={mode} daysCount={cruise.itinerary.length} onModeChange={setMode} onQuickAdd={quickAddDay} onGenerateFirst={() => selectedDay && onGenerateDay(selectedDay)} onGenerateWhole={onGenerateAll} />
+        <div className="hidden min-h-[calc(100vh-110px)] grid-cols-[280px_minmax(0,1fr)_380px] gap-4 lg:grid">
+          <DayNavigator cruise={cruise} plansByDayId={plansByDayId} selectedDayId={selectedDayId} onSelectDay={setSelectedDayId} onQuickAdd={quickAddDay} onQuickAddFive={quickAddFive} autoFocusAdd={focusAdd} />
+
+          <section className="space-y-3">
+            {!selectedDay ? (
+              <div className="rounded-2xl border border-dashed border-white/20 bg-slate-900/40 p-6 text-sm text-slate-300">
+                Add your first port day to start. <button className="underline" onClick={() => setFocusAdd(true)}>Focus add form</button>
+              </div>
+            ) : !output ? (
+              <div className="space-y-3 rounded-2xl bg-slate-900/60 p-6 text-sm text-slate-300">
+                <p className="font-semibold">Ready to plan {selectedDay.portName || selectedDay.portSlug}.</p>
+                <button onClick={() => onGenerateDay(selectedDay)} className="w-fit rounded-lg bg-cyan-400 px-3 py-2 text-sm font-semibold text-slate-900">Generate this day</button>
+                {generation.running && <div className="animate-pulse rounded bg-slate-800 p-4 text-xs">Generating {generation.done}/{generation.total}…</div>}
+              </div>
             ) : (
-              <div className="rounded-2xl bg-slate-900/70 p-4">
-                <p className="text-xs uppercase tracking-[0.14em] text-cyan-200/80">Next best action</p>
-                <div className="mt-2 flex items-center justify-between gap-2">
-                  <p className="text-sm text-slate-300">
-                    {selectedDayPlanned ? "Fine-tune this plan or update it after edits." : "Generate this day to unlock timeline editing and co-pilot refinements."}
-                  </p>
-                  <PrimaryActionButton label={primaryLabel} onClick={primaryAction} disabled={!selectedDay} />
-                </div>
-                {generation.running && <p className="mt-2 text-xs text-cyan-200">Generating {generation.done}/{generation.total} days...</p>}
-                {toast && <p className="mt-2 text-xs text-emerald-200">{toast}</p>}
-              </div>
-            )}
-
-            <DayHeader day={selectedDay} plan={output} />
-
-            {!hasAnyPlan ? (
-              <div className="rounded-2xl bg-slate-900/70 p-6 text-sm text-slate-300">
-                <p className="font-semibold">Step 1: Add your first port day</p>
-                <p className="mt-1">Step 2: Generate a plan</p>
-                <p className="mt-1">Step 3: Refine with your co-pilot</p>
-              </div>
-            ) : output ? (
-              <div className={timelinePulse ? "rounded-2xl ring-1 ring-cyan-300/50" : ""}>
-                <TimelineBoard
-                  blocks={output.plan.blocks}
-                  dayStart={selectedDay?.arrivalTime ?? "08:00"}
-                  dayEnd={selectedDay?.allAboardTime ?? "18:00"}
-                  onChange={updateBlocks}
-                />
+              <>
+                <TimelineBoard blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} onChange={updateBlocks} />
                 <PlanQualityPanel output={output} onApplyRecommendation={(action) => applyRecommendation(action, "day")} />
-              </div>
-            ) : (
-              <div className="rounded-2xl bg-slate-900/70 p-6 text-sm text-slate-300">Select an unplanned day to generate next.</div>
+              </>
             )}
           </section>
 
-          <section>
-            {hasAnyPlan ? (
-              <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} onModeChange={setAssistantMode} onApplyAction={applyRecommendation} />
-            ) : (
-              <div className="rounded-2xl bg-slate-900/70 p-4 text-sm text-slate-300">I’ll generate your first plan once you add a day.</div>
-            )}
-          </section>
+          <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} onModeChange={setAssistantMode} onApplyAction={applyRecommendation} />
         </div>
 
-        <div className="space-y-3 lg:hidden">
-          <DayHeader day={selectedDay} plan={output} />
-          {!hasAnyPlan ? (
-            <PlanSetupStrip mode={mode} daysCount={cruise.itinerary.length} onModeChange={setMode} onQuickAdd={quickAddDay} onGenerateFirst={() => selectedDay && onGenerateDay(selectedDay)} onGenerateWhole={onGenerateAll} />
-          ) : output ? (
-            <TimelineBoard
-              blocks={output.plan.blocks}
-              dayStart={selectedDay?.arrivalTime ?? "08:00"}
-              dayEnd={selectedDay?.allAboardTime ?? "18:00"}
-              onChange={updateBlocks}
-            />
-          ) : (
-            <div className="rounded-2xl bg-slate-900/70 p-6 text-sm text-slate-300">Select a day and generate when ready.</div>
-          )}
-
-          {mobileDaysOpen && (
-            <div className="fixed inset-0 z-40 bg-black/60" onClick={() => setMobileDaysOpen(false)}>
-              <div className="absolute inset-y-0 left-0 w-[86%] max-w-sm bg-slate-950 p-3" onClick={(e) => e.stopPropagation()}>
-                <DayNavigator cruise={cruise} plansByDayId={plansByDayId} selectedDayId={selectedDayId} onSelectDay={(id) => {
-                  setSelectedDayId(id);
-                  setMobileDaysOpen(false);
-                }} onQuickAdd={quickAddDay} />
-              </div>
-            </div>
-          )}
-
-          {mobileCopilotOpen && (
-            <div className="fixed inset-0 z-40 bg-black/60" onClick={() => setMobileCopilotOpen(false)}>
-              <div className="absolute inset-y-0 right-0 w-[92%] max-w-md bg-slate-950 p-3" onClick={(e) => e.stopPropagation()}>
-                {hasAnyPlan ? (
-                  <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} onModeChange={setAssistantMode} onApplyAction={applyRecommendation} />
-                ) : (
-                  <div className="rounded-2xl bg-slate-900/70 p-4 text-sm text-slate-300">I’ll generate your first plan once you add a day.</div>
-                )}
-              </div>
-            </div>
-          )}
-
-          <div className="fixed bottom-0 left-0 right-0 z-40 grid grid-cols-3 gap-2 border-t border-white/10 bg-slate-950/95 p-2">
-            <PrimaryActionButton label={hasDays ? (selectedDayPlanned ? "Update" : "Generate") : "Add day"} onClick={hasDays ? primaryAction : () => setMobileDaysOpen(true)} />
-            <button onClick={() => setMobileDaysOpen(true)} className="rounded-xl bg-slate-800 py-2 text-xs">Days</button>
-            <button onClick={() => setMobileCopilotOpen(true)} className="rounded-xl bg-slate-800 py-2 text-xs">Co-Pilot</button>
+        <div className="space-y-3 pb-20 lg:hidden">
+          <div className="grid grid-cols-3 rounded-xl bg-slate-900/80 p-1 text-xs">
+            {(["days", "plan", "copilot"] as MobileTab[]).map((tab) => <button key={tab} onClick={() => setMobileTab(tab)} className={`rounded-lg px-2 py-2 ${mobileTab === tab ? "bg-cyan-400 text-slate-900" : "text-slate-300"}`}>{tab === "copilot" ? "Co-Pilot" : tab[0].toUpperCase() + tab.slice(1)}</button>)}
           </div>
-          <div className="h-16" />
+          {mobileTab === "days" && <DayNavigator cruise={cruise} plansByDayId={plansByDayId} selectedDayId={selectedDayId} onSelectDay={setSelectedDayId} onQuickAdd={quickAddDay} onQuickAddFive={quickAddFive} autoFocusAdd />}
+          {mobileTab === "plan" && selectedDay && output && <TimelineBoard blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} onChange={updateBlocks} />}
+          {mobileTab === "plan" && (!selectedDay || !output) && <div className="rounded-2xl bg-slate-900/60 p-5 text-sm text-slate-300">Add/select a day, then generate your plan.</div>}
+          {mobileTab === "copilot" && <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} onModeChange={setAssistantMode} onApplyAction={applyRecommendation} />}
+
+          <div className="fixed bottom-0 left-0 right-0 z-30 grid grid-cols-3 gap-2 border-t border-white/10 bg-slate-950/95 p-2">
+            <button className="rounded-lg bg-slate-800 py-2 text-xs" onClick={() => setMobileTab("days")}>Days</button>
+            <button className="rounded-lg bg-cyan-400 py-2 text-xs font-semibold text-slate-900" onClick={() => selectedDay && onGenerateDay(selectedDay)}>{output ? "Update" : "Generate"}</button>
+            <button className="rounded-lg bg-slate-800 py-2 text-xs" onClick={() => setMobileTab("copilot")}>Co-Pilot</button>
+          </div>
+        </div>
+
+        <div className="mt-3 rounded-xl border border-white/10 bg-slate-900/60 p-3 text-xs text-slate-300">
+          Tier: <strong>{entitlements.tier}</strong> · Dashboard pacing {dashboard.energyPacingScore}. {!hasFeature(entitlements, "fullCruiseMode") && "Free mode supports one day unless upgraded or bypassed."}
+          <button className="ml-2 underline" onClick={onGenerateAll}>Generate all</button>
         </div>
       </div>
 

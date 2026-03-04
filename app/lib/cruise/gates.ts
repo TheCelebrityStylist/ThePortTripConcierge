@@ -8,21 +8,21 @@ type Entitlements = {
 
 const featureMatrix: Record<FeatureTier, Record<FeatureGateKey, boolean>> = {
   free: {
-    fullCruiseMode: true,
+    fullCruiseMode: false,
     generateAll: false,
     exportBundle: false,
     simulation: false,
     offlinePack: false,
   },
   "trip-pass": {
-    fullCruiseMode: true,
+    fullCruiseMode: false,
     generateAll: true,
     exportBundle: true,
     simulation: false,
     offlinePack: false,
   },
   pro: {
-    fullCruiseMode: true,
+    fullCruiseMode: false,
     generateAll: true,
     exportBundle: true,
     simulation: true,
@@ -30,8 +30,8 @@ const featureMatrix: Record<FeatureTier, Record<FeatureGateKey, boolean>> = {
   },
 };
 
-const envBypassEnabled = () => process.env.NEXT_PUBLIC_PRO_BYPASS?.toLowerCase() === "true";
-const devUnlockEnabled = () => process.env.NODE_ENV === "development" && process.env.NEXT_PUBLIC_DEV_UNLOCK?.toLowerCase() === "true";
+const envBypassEnabled = () => process.env.NEXT_PUBLIC_PRO_BYPASS?.toLowerCase() === "true" || process.env.NEXT_PUBLIC_DEV_BYPASS_PAYWALL?.toLowerCase() === "true";
+const devUnlockEnabled = () => process.env.NODE_ENV !== "production" && process.env.NEXT_PUBLIC_DEV_UNLOCK?.toLowerCase() === "true";
 
 const queryBypassEnabled = (search?: string) => {
   const params = new URLSearchParams(search ?? "");
@@ -53,7 +53,7 @@ export const hasFeature = (entitlements: Entitlements, feature: FeatureGateKey) 
 
 export const gateMessage = (feature: FeatureGateKey) => {
   const messages: Record<FeatureGateKey, string> = {
-    fullCruiseMode: "Full Cruise mode is available to all users.",
+    fullCruiseMode: "Full Cruise mode is unlocked with Trip Pass or Pro.",
     generateAll: "Generate All is unlocked with Trip Pass or Pro.",
     exportBundle: "Export bundle is unlocked with Trip Pass or Pro.",
     simulation: "Cruise simulation is unlocked with Pro.",

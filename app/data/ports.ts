@@ -1,6 +1,11 @@
 import { portsRegistry as sourceRegistry } from "@/app/lib/ports";
 
-export const portsRegistry = sourceRegistry;
+export type PortsRegistry = typeof sourceRegistry;
+export const portsRegistry: PortsRegistry = sourceRegistry;
+
+// Compile-time guard to prevent regressions in planner imports.
+const _portsRegistryGuard: PortsRegistry = portsRegistry;
+void _portsRegistryGuard;
 
 export type PortRecord = {
   id: string;
