@@ -2,9 +2,11 @@
 
 import { useMemo, useState } from "react";
 import { portsRegistry } from "@/app/lib/ports";
+import { buildChatContext } from "@/app/lib/planner/chatContextBuilder";
+import { detectChatIntent } from "@/app/lib/planner/chatActions";
+import { formatChatResponse } from "@/app/lib/planner/chatResponseFormatter";
+import type { PlannerIntent } from "@/app/lib/planner/planMutations";
 import type { Cruise, PlanOutput, PortDay } from "@/app/lib/planner/types";
-
-type AssistantAction = "trim-far-stop" | "move-lunch-earlier" | "balanced-loop" | "swap-transit";
 
 type Props = {
   cruise: Cruise;
@@ -14,70 +16,88 @@ type Props = {
   editingTitle?: string;
   changeLog?: string[];
   onModeChange: (mode: "day" | "cruise") => void;
-  onApplyAction: (action: AssistantAction, mode: "day" | "cruise") => void;
+  onApplyIntent: (intent: PlannerIntent, mode: "day" | "cruise") => void;
 };
 
-const actionGroups: Array<{ title: string; chips: Array<{ label: string; action: AssistantAction }> }> = [
-  { title: "Safety", chips: [{ label: "Keep me ship-safe", action: "trim-far-stop" }] },
-  { title: "Comfort", chips: [{ label: "Make it more relaxed", action: "move-lunch-earlier" }, { label: "Reduce walking", action: "balanced-loop" }] },
-  { title: "Budget", chips: [{ label: "Swap transit mode", action: "swap-transit" }] },
-  { title: "Highlights", chips: [{ label: "Add signature highlight", action: "swap-transit" }] },
+type ChatMessage =
+  | { role: "user"; text: string }
+  | { role: "assistant"; summary: string; why: string[]; applyNow: Array<{ label: string; intent: PlannerIntent }>; fallback?: string };
+
+const quickIntents: Array<{ label: string; intent: PlannerIntent; group: string }> = [
+  { label: "Keep me ship-safe", intent: "make-safer", group: "Safety" },
+  { label: "I’m 30 minutes behind", intent: "running-late", group: "Safety" },
+  { label: "Reduce walking", intent: "reduce-walking", group: "Comfort" },
+  { label: "Family-friendly", intent: "family-friendly", group: "Comfort" },
+  { label: "Make it cheaper", intent: "make-cheaper", group: "Budget" },
+  { label: "Add food stop", intent: "add-food-stop", group: "Budget" },
+  { label: "Add signature highlight", intent: "add-signature-highlight", group: "Highlights" },
+  { label: "Weather-safe", intent: "weather-safe", group: "Highlights" },
 ];
 
-export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mode, editingTitle, changeLog = [], onModeChange, onApplyAction }: Props) {
+export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mode, editingTitle, changeLog = [], onModeChange, onApplyIntent }: Props) {
   const [message, setMessage] = useState("");
   const [dockToast, setDockToast] = useState("");
-  const [history, setHistory] = useState<Array<{ role: "assistant" | "user"; text: string }>>([{ role: "assistant", text: "I’m your cruise co-pilot. Ask for pacing, comfort, safety, or budget optimization." }]);
+  const [thinking, setThinking] = useState(false);
+  const [history, setHistory] = useState<ChatMessage[]>([
+    {
+      role: "assistant",
+      summary: "I’m your cruise co-pilot. I can optimize walking, safety, budget, highlights, or recovery mode in one click.",
+      why: ["I use your live itinerary state.", "I preserve locked / must-do stops."],
+      applyNow: [
+        { label: "Keep me ship-safe", intent: "make-safer" },
+        { label: "Reduce walking", intent: "reduce-walking" },
+      ],
+    },
+  ]);
+
+  const chatContext = useMemo(
+    () => buildChatContext({ cruise, selectedDay, selectedPlan, scope: mode }),
+    [cruise, selectedDay, selectedPlan, mode]
+  );
 
   const todayFocus = useMemo(() => {
     if (!selectedDay) return "Pick a day and I’ll craft a return-safe plan.";
     const port = portsRegistry[selectedDay.portSlug];
     if (!port) return "Balancing time, walking, and risk for this selected day.";
-    return `${port.name}: ${selectedDay.arrivalTime}-${selectedDay.allAboardTime}. Pace ${selectedDay.pace}, walking ${selectedDay.walkingPreference}, risk ${selectedDay.riskTolerance}.`;
+    return `${port.name}: ${selectedDay.arrivalTime}-${selectedDay.allAboardTime}. Pace ${selectedDay.pace}, walking ${selectedDay.walkingPreference}.`;
   }, [selectedDay]);
 
-  const apply = (action: AssistantAction, label: string) => {
-    onApplyAction(action, mode);
+  const applyIntent = (intent: PlannerIntent, label: string) => {
+    onApplyIntent(intent, mode);
     setDockToast(`Applied: ${label}`);
-    setTimeout(() => setDockToast(""), 1500);
-    setHistory((prev) => [...prev, { role: "assistant", text: "Done. I updated your plan while preserving lock/must-do stops." }]);
+    setTimeout(() => setDockToast(""), 1400);
   };
 
-  const submit = () => {
+  const submit = async () => {
     if (!message.trim()) return;
-    const normalized = message.toLowerCase();
-    const picked: { action: AssistantAction; label: string } | null = normalized.includes("walk") ? { action: "balanced-loop", label: "Reduce walking" } : normalized.includes("safe") || normalized.includes("buffer") ? { action: "trim-far-stop", label: "Keep me ship-safe" } : normalized.includes("relax") ? { action: "move-lunch-earlier", label: "Make it more relaxed" } : normalized.includes("highlight") ? { action: "swap-transit", label: "Add signature highlight" } : null;
-
-    setHistory((prev) => [...prev, { role: "user", text: message }]);
-    if (picked) {
-      apply(picked.action, picked.label);
-      setHistory((prev) => [...prev, { role: "assistant", text: "What changed: adjusted sequencing, reduced volatility, and improved return-safe confidence." }]);
-    } else {
-      setHistory((prev) => [...prev, { role: "assistant", text: "Try one of the quick intents above for instant updates." }]);
-    }
+    const userText = message.trim();
+    setHistory((prev) => [...prev, { role: "user", text: userText }]);
     setMessage("");
+    setThinking(true);
+
+    const intentResult = detectChatIntent(userText);
+    const response = formatChatResponse({ context: chatContext, intent: intentResult.intent, confidence: intentResult.confidence });
+    setHistory((prev) => [...prev, { role: "assistant", ...response }]);
+    setThinking(false);
   };
 
   return (
     <aside className="flex h-full flex-col rounded-[24px] border border-white/10 bg-[#0D1526] p-6">
       <div className="mb-4">
-        <p className="text-[13px] uppercase tracking-[0.14em] text-cyan-200/80">Co-Pilot Dock</p>
-        <p className="text-lg font-semibold">{cruise.cruiseName}</p>
-      </div>
-
-      <div className="mb-4 rounded-2xl border border-white/10 bg-slate-900/60 p-3">
         <div className="mb-2 flex items-center justify-between">
-          <p className="text-xs uppercase tracking-[0.14em] text-cyan-200/80">Today’s focus</p>
-          <span className="rounded-full bg-emerald-500/20 px-2 py-1 text-[10px] text-emerald-200">Safety high</span>
+          <p className="text-[13px] uppercase tracking-[0.14em] text-cyan-200/80">Co-Pilot Dock</p>
+          <span className={`rounded-full px-2 py-1 text-[10px] ${selectedPlan && selectedPlan.score.totalScore >= 75 ? "bg-emerald-500/20 text-emerald-200" : "bg-amber-500/20 text-amber-200"}`}>{selectedPlan && selectedPlan.score.totalScore >= 75 ? "Ship-safe" : "Watch risk"}</span>
         </div>
         <p className="line-clamp-2 text-sm text-slate-200">{todayFocus}</p>
         {editingTitle && <p className="mt-2 rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-300">Context: Editing {editingTitle}</p>}
       </div>
 
       <div className="mb-4 grid grid-cols-2 gap-2">
-        {actionGroups.map((group) => group.chips.map((chip) => (
-          <button key={`${group.title}-${chip.label}`} onClick={() => apply(chip.action, chip.label)} className="rounded-xl border border-white/10 bg-slate-900/60 px-2 py-2 text-xs hover:border-cyan-300/40 hover:bg-slate-800">{chip.label}</button>
-        )))}
+        {quickIntents.map((chip) => (
+          <button key={chip.label} onClick={() => applyIntent(chip.intent, chip.label)} className="rounded-xl border border-white/10 bg-slate-900/60 px-2 py-2 text-xs hover:border-cyan-300/40 hover:bg-slate-800">
+            {chip.label}
+          </button>
+        ))}
       </div>
 
       {changeLog.length > 0 && (
@@ -88,11 +108,27 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
       )}
 
       <div className="min-h-0 flex-1 space-y-2 overflow-y-auto rounded-2xl bg-slate-950/50 p-3">
-        {history.map((item, idx) => (
-          <div key={`${item.role}-${idx}`} className={`max-w-[90%] rounded-2xl px-3 py-2 text-sm ${item.role === "assistant" ? "mr-auto bg-slate-800 text-slate-100" : "ml-auto bg-cyan-500/20 text-cyan-100"}`}>
-            {item.text}
-          </div>
-        ))}
+        {history.map((item, idx) =>
+          item.role === "user" ? (
+            <div key={`u-${idx}`} className="ml-auto max-w-[90%] rounded-2xl bg-cyan-500/20 px-3 py-2 text-sm text-cyan-100">
+              {item.text}
+            </div>
+          ) : (
+            <div key={`a-${idx}`} className="mr-auto max-w-[95%] rounded-2xl bg-slate-800 px-3 py-2 text-sm text-slate-100">
+              <p>{item.summary}</p>
+              <ul className="mt-2 list-disc space-y-1 pl-4 text-xs text-slate-300">{item.why.map((line) => <li key={line}>{line}</li>)}</ul>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {item.applyNow.map((action) => (
+                  <button key={action.label} onClick={() => applyIntent(action.intent, action.label)} className="rounded-full border border-white/20 bg-slate-900 px-2 py-1 text-[11px] hover:border-cyan-300/60">
+                    {action.label}
+                  </button>
+                ))}
+              </div>
+              {item.fallback && <p className="mt-2 text-xs text-cyan-100">Fallback: {item.fallback}</p>}
+            </div>
+          )
+        )}
+        {thinking && <p className="text-xs text-slate-400">Thinking… evaluating route safety and itinerary constraints.</p>}
         {selectedPlan && <p className="text-[11px] text-slate-400">Plan score: {selectedPlan.score.totalScore}</p>}
       </div>
 

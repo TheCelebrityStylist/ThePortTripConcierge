@@ -9,7 +9,11 @@ import PlanQualityPanel from "@/app/components/planner/PlanQualityPanel";
 import TimelineBoard from "@/app/components/planner/TimelineBoard";
 import UpgradeModal from "@/app/components/planner/UpgradeModal";
 import { gateMessage, getEntitlements, hasFeature } from "@/app/lib/cruise/gates";
-import { buildCruiseDashboard, createPortDayFromPort, generatePortDayPlan, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
+import { buildCruiseDashboard, createPortDayFromPort, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
+import { generateSmartPlan } from "@/app/lib/planner/generatePlan";
+import { buildConciergeBrief } from "@/app/lib/planner/planNarrative";
+import { buildPortIntelligence } from "@/app/lib/planner/planHeuristics";
+import { applyPlannerIntent, type PlannerIntent } from "@/app/lib/planner/planMutations";
 import type { Cruise, FeatureGateKey, FeatureTier, PlanBlock, PlanInput, PlanOutput, PortDay } from "@/app/lib/planner/types";
 
 const DRAFT_KEY = "porttrip_workspace_draft_v4";
@@ -33,6 +37,12 @@ const createDefaultCruise = (): Cruise => ({ id: "cruise-local", cruiseName: "My
 type MobileTab = "days" | "plan" | "copilot";
 
 export default function ChatPage() {
+  /*
+   * Architecture notes:
+   * - Workspace shell: command bar + day rail + plan board + co-pilot dock.
+   * - Engine remains deterministic; smart wrappers enrich plans and responses.
+   * - Chat uses deterministic intent orchestration bound to live planner state.
+   */
   const searchParams = useSearchParams();
   const [tier] = useState<FeatureTier>("free");
   const [assistantMode, setAssistantMode] = useState<"day" | "cruise">("day");
@@ -108,7 +118,7 @@ export default function ChatPage() {
       riskTolerance: day.riskTolerance,
       interests: day.interests,
     };
-    const generated = generatePortDayPlan(planInput);
+    const generated = generateSmartPlan(planInput);
     setPlansByDayId((prev) => ({ ...prev, [day.id]: generated }));
     setCruise((prev) => ({ ...prev, itinerary: prev.itinerary.map((item) => (item.id === day.id ? { ...item, status: "draft", score: generated.score.totalScore } : item)) }));
     setChangeLog([`Generated ${day.portName || day.portSlug} with score ${generated.score.totalScore}.`, "Built return-safe block.", "Added reliability-weighted transfers."]);
@@ -156,7 +166,29 @@ export default function ChatPage() {
     setChangeLog(["Manual board edits applied.", "Updated block details.", "Score recalculated."]);
   };
 
+
+  const applyIntent = (intent: PlannerIntent, scope: "day" | "cruise") => {
+    if (scope === "day" && selectedDay && output) {
+      const { next, changes } = applyPlannerIntent(output, intent);
+      setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: next }));
+      setChangeLog(changes);
+      return;
+    }
+    if (scope === "cruise") {
+      const nextMap = { ...plansByDayId };
+      const merged: string[] = [];
+      Object.entries(nextMap).forEach(([dayId, plan]) => {
+        const mutated = applyPlannerIntent(plan, intent);
+        nextMap[dayId] = mutated.next;
+        merged.push(...mutated.changes);
+      });
+      setPlansByDayId(nextMap);
+      setChangeLog(Array.from(new Set(merged)).slice(0, 4));
+    }
+  };
+
   const plannedCount = Object.keys(plansByDayId).length;
+  const conciergeBrief = output ? buildConciergeBrief(output, buildPortIntelligence(output.plan.input), selectedDay) : null;
 
   const topBar = (
     <div className="flex h-[72px] items-center justify-between gap-3 px-6">
@@ -206,19 +238,22 @@ export default function ChatPage() {
         </div>
       ) : (
         <>
-          <div className="rounded-[24px] border border-white/10 bg-[#0D1526] p-5">
-            <p className="text-[13px] uppercase tracking-[0.14em] text-cyan-200/80">Day summary</p>
-            <p className="mt-1 text-xl font-semibold">{selectedDay.portName || selectedDay.portSlug}</p>
-            <div className="mt-3 flex flex-wrap gap-2 text-xs">
-              <span className="rounded-full bg-slate-900 px-3 py-1">{selectedDay.arrivalTime}-{selectedDay.allAboardTime}</span>
-              <span className="rounded-full bg-slate-900 px-3 py-1">Pace {selectedDay.pace}</span>
-              <span className="rounded-full bg-slate-900 px-3 py-1">Walking {selectedDay.walkingPreference}</span>
-              <span className="rounded-full bg-slate-900 px-3 py-1">Risk {selectedDay.riskTolerance}</span>
+          <div className="grid gap-3 lg:grid-cols-[1.2fr_1fr]">
+            <div className="rounded-[24px] border border-white/10 bg-[#0D1526] p-5">
+              <p className="text-[13px] uppercase tracking-[0.14em] text-cyan-200/80">Concierge brief</p>
+              <p className="mt-1 text-xl font-semibold">{conciergeBrief?.howTodayFeels ?? (selectedDay.portName || selectedDay.portSlug)}</p>
+              <div className="mt-3 grid gap-2 text-xs">
+                <p><span className="text-slate-400">Must-not-miss:</span> {conciergeBrief?.mustNotMiss}</p>
+                <p><span className="text-slate-400">Biggest risk:</span> {conciergeBrief?.biggestRisk}</p>
+                <p><span className="text-slate-400">Fallback loop:</span> {conciergeBrief?.fallbackLoop}</p>
+              </div>
             </div>
-            <div className="mt-3 flex flex-wrap gap-2">
-              <button onClick={() => applyRecommendation("move-lunch-earlier", "day")} className="rounded-full border border-white/10 px-3 py-1 text-xs">Make it more relaxed</button>
-              <button onClick={() => applyRecommendation("balanced-loop", "day")} className="rounded-full border border-white/10 px-3 py-1 text-xs">Reduce walking</button>
-              <button onClick={() => applyRecommendation("trim-far-stop", "day")} className="rounded-full border border-white/10 px-3 py-1 text-xs">Keep me ship-safe</button>
+            <div className="rounded-[24px] border border-white/10 bg-[#0D1526] p-5">
+              <p className="text-[13px] uppercase tracking-[0.14em] text-cyan-200/80">Confidence + fragility</p>
+              <p className="mt-1 text-3xl font-semibold">{conciergeBrief?.confidenceScore ?? output.score.totalScore}</p>
+              <p className="mt-2 text-xs text-slate-300">Fragile leg: {conciergeBrief?.fragileLeg}</p>
+              <p className="mt-1 text-xs text-slate-300">If +20m behind, cut first: {conciergeBrief?.cutFirstIfBehind}</p>
+              <button onClick={() => applyIntent("running-late", "day")} className="mt-3 rounded-full border border-cyan-300/40 px-3 py-1 text-xs text-cyan-100">Recovery mode</button>
             </div>
           </div>
           <TimelineBoard blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} onChange={updateBlocks} onSelectBlock={(block) => setEditingTitle(block?.title)} />
@@ -228,7 +263,7 @@ export default function ChatPage() {
     </section>
   );
 
-  const rightColumn = <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} editingTitle={editingTitle} changeLog={changeLog} onModeChange={setAssistantMode} onApplyAction={applyRecommendation} />;
+  const rightColumn = <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} editingTitle={editingTitle} changeLog={changeLog} onModeChange={setAssistantMode} onApplyIntent={applyIntent} />;
 
   const mobile = (
     <div className="space-y-3 px-3 pb-24 pt-3">

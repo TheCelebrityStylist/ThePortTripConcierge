@@ -46,7 +46,7 @@ export default function TimelineBoard({ blocks, dayStart, dayEnd, onChange, onSe
       <div className="relative pl-6">
         <div className="absolute bottom-0 left-1.5 top-0 w-px bg-gradient-to-b from-cyan-300/50 via-cyan-300/20 to-transparent" />
         <div className="space-y-4">
-          {sorted.map((block) => (
+          {sorted.map((block, index) => (
             <div
               key={block.id}
               draggable
@@ -60,6 +60,9 @@ export default function TimelineBoard({ blocks, dayStart, dayEnd, onChange, onSe
                 setDraggingId(null);
               }}
             >
+              {index === 0 && <p className="mb-2 text-[10px] uppercase tracking-[0.16em] text-cyan-200/80">Start</p>}
+              {index === Math.floor(sorted.length / 2) && sorted.length > 2 && <p className="mb-2 text-[10px] uppercase tracking-[0.16em] text-slate-400">Midpoint</p>}
+              {index === sorted.length - 1 && <p className="mb-2 text-[10px] uppercase tracking-[0.16em] text-emerald-200/80">Return corridor</p>}
               <PlanCard
                 block={block}
                 selected={expandedId === block.id}
