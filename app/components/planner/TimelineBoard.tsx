@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { PlanBlock } from "@/app/lib/planner/types";
 import { toMinutes } from "./timelineUtils";
+import PlanCard from "./PlanCard";
 
 const move = <T,>(items: T[], from: number, to: number) => {
   const next = [...items];
@@ -29,27 +30,25 @@ const draftBlock = (type: PlanBlock["type"]): PlanBlock => ({
 export default function TimelineBoard({ blocks, dayStart, dayEnd, onChange, onSelectBlock }: { blocks: PlanBlock[]; dayStart: string; dayEnd: string; onChange: (next: PlanBlock[]) => void; onSelectBlock?: (block?: PlanBlock) => void }) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [draggingId, setDraggingId] = useState<string | null>(null);
-  const [focusMode, setFocusMode] = useState(true);
+  const [showAddMenu, setShowAddMenu] = useState(false);
 
   const sorted = useMemo(() => [...blocks].sort((a, b) => toMinutes(a.startTime) - toMinutes(b.startTime)), [blocks]);
 
   const update = (id: string, updater: (block: PlanBlock) => PlanBlock) => onChange(sorted.map((block) => (block.id === id ? updater(block) : block)));
 
   return (
-    <section className="space-y-3 rounded-2xl border border-white/10 bg-slate-900/60 p-3">
-      <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-300">
-        <p>{dayStart} → {dayEnd}</p>
-        <div className="flex items-center gap-2">
-          <button onClick={() => onChange([...sorted, draftBlock("stop")])} className="rounded-lg bg-slate-800 px-2 py-1 hover:bg-slate-700">+ Add stop</button>
-          <button onClick={() => setFocusMode((prev) => !prev)} className="rounded-lg bg-slate-800 px-2 py-1 hover:bg-slate-700">Focus mode: {focusMode ? "On" : "Off"}</button>
-        </div>
+    <section className="relative rounded-[24px] border border-white/10 bg-[#0D1526] p-6">
+      <div className="mb-5 rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-slate-300">
+        <p className="text-[13px] uppercase tracking-[0.14em] text-cyan-200/80">Day Board</p>
+        <p className="mt-1 text-base font-semibold text-slate-100">{dayStart} → {dayEnd}</p>
       </div>
 
-      <div className="space-y-2">
-        {sorted.map((block, index) => (
-          <div key={block.id}>
-            {!focusMode && index > 0 && <div className="mb-2 ml-4 border-l border-dashed border-cyan-400/50 pl-4 text-[11px] text-cyan-100">Route leg · {sorted[index - 1].transitMode || "walk"} → {block.transitMode || "walk"}</div>}
-            <article
+      <div className="relative pl-6">
+        <div className="absolute bottom-0 left-1.5 top-0 w-px bg-gradient-to-b from-cyan-300/50 via-cyan-300/20 to-transparent" />
+        <div className="space-y-4">
+          {sorted.map((block) => (
+            <div
+              key={block.id}
               draggable
               onDragStart={() => setDraggingId(block.id)}
               onDragOver={(event) => event.preventDefault()}
@@ -60,38 +59,34 @@ export default function TimelineBoard({ blocks, dayStart, dayEnd, onChange, onSe
                 onChange(move(sorted, from, to));
                 setDraggingId(null);
               }}
-              className="rounded-xl border border-white/10 bg-slate-950/70 p-3 shadow-sm"
             >
-              <div className="flex items-center justify-between gap-2">
-                <button
-                  className="text-left"
-                  onClick={() => {
-                    const next = expandedId === block.id ? null : block.id;
-                    setExpandedId(next);
-                    onSelectBlock?.(next ? block : undefined);
-                  }}
-                >
-                  <p className="text-sm font-semibold">{block.title}</p>
-                  <p className="text-xs text-slate-400">{block.startTime} - {block.endTime} · {block.durationMin}m · €{block.costEUR} · {block.transitMode}</p>
-                </button>
-                <div className="flex items-center gap-2">
-                  <button className="rounded bg-slate-800 px-2 py-1 text-xs" onClick={() => update(block.id, (draft) => ({ ...draft, type: draft.type === "transfer" ? "stop" : "transfer" }))}>Convert</button>
-                  <button className={`rounded px-2 py-1 text-xs ${block.lock ? "bg-cyan-400 text-slate-900" : "bg-slate-800"}`} onClick={() => update(block.id, (draft) => ({ ...draft, lock: !draft.lock }))}>{block.lock ? "Locked / Must-do" : "Lock"}</button>
-                </div>
-              </div>
+              <PlanCard
+                block={block}
+                selected={expandedId === block.id}
+                expanded={expandedId === block.id}
+                onExpand={() => {
+                  const next = expandedId === block.id ? null : block.id;
+                  setExpandedId(next);
+                  onSelectBlock?.(next ? block : undefined);
+                }}
+                onLock={() => update(block.id, (draft) => ({ ...draft, lock: !draft.lock }))}
+                onConvert={() => update(block.id, (draft) => ({ ...draft, type: draft.type === "transfer" ? "stop" : "transfer" }))}
+                onUpdate={(next) => update(block.id, (draft) => ({ ...draft, ...next }))}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
 
-              {expandedId === block.id && (
-                <div className="mt-3 grid gap-2 md:grid-cols-2">
-                  <label className="text-xs text-slate-300">Title<input value={block.title} onChange={(event) => update(block.id, (draft) => ({ ...draft, title: event.target.value }))} className="mt-1 w-full rounded bg-slate-800 p-2" /></label>
-                  <label className="text-xs text-slate-300">Duration<input type="number" min={10} value={block.durationMin} onChange={(event) => update(block.id, (draft) => ({ ...draft, durationMin: Number(event.target.value) }))} className="mt-1 w-full rounded bg-slate-800 p-2" /></label>
-                  <label className="text-xs text-slate-300">Transit mode<select value={block.transitMode} onChange={(event) => update(block.id, (draft) => ({ ...draft, transitMode: event.target.value }))} className="mt-1 w-full rounded bg-slate-800 p-2"><option>walk</option><option>taxi</option><option>bus</option><option>metro</option><option>tram</option></select></label>
-                  <label className="text-xs text-slate-300">Cost (EUR)<input type="number" min={0} value={block.costEUR} onChange={(event) => update(block.id, (draft) => ({ ...draft, costEUR: Number(event.target.value) }))} className="mt-1 w-full rounded bg-slate-800 p-2" /></label>
-                  <label className="text-xs text-slate-300 md:col-span-2">Notes<input value={block.guidance} onChange={(event) => update(block.id, (draft) => ({ ...draft, guidance: event.target.value }))} className="mt-1 w-full rounded bg-slate-800 p-2" /></label>
-                </div>
-              )}
-            </article>
+      <div className="absolute bottom-6 right-6">
+        <button onClick={() => setShowAddMenu((prev) => !prev)} className="rounded-2xl bg-cyan-400 px-4 py-3 text-sm font-semibold text-slate-900 shadow-[0_16px_34px_rgba(34,211,238,0.28)]">+ Add stop</button>
+        {showAddMenu && (
+          <div className="absolute bottom-14 right-0 w-44 rounded-2xl border border-white/10 bg-slate-900 p-2 text-xs">
+            <button onClick={() => { onChange([...sorted, draftBlock("stop")]); setShowAddMenu(false); }} className="block w-full rounded-xl px-2 py-2 text-left hover:bg-white/10">Attraction / Food</button>
+            <button onClick={() => { onChange([...sorted, draftBlock("transfer")]); setShowAddMenu(false); }} className="block w-full rounded-xl px-2 py-2 text-left hover:bg-white/10">Transfer</button>
+            <button onClick={() => { onChange([...sorted, draftBlock("buffer")]); setShowAddMenu(false); }} className="block w-full rounded-xl px-2 py-2 text-left hover:bg-white/10">Buffer</button>
           </div>
-        ))}
+        )}
       </div>
     </section>
   );

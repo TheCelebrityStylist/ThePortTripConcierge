@@ -10,16 +10,14 @@ type Props = {
 
 export default function CruiseWorkspaceLayout({ topBar, left, center, right, mobile }: Props) {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100">
-      <header className="sticky top-0 z-40 border-b border-white/10 bg-slate-950/95 backdrop-blur">{topBar}</header>
-      <div className="mx-auto max-w-[1700px] px-3 py-3">
-        <div className="hidden h-[calc(100vh-86px)] grid-cols-[290px_minmax(0,1fr)_390px] gap-4 lg:grid">
-          <section className="min-h-0 overflow-auto">{left}</section>
-          <section className="min-h-0 overflow-auto">{center}</section>
-          <section className="min-h-0 overflow-auto">{right}</section>
-        </div>
-        <div className="lg:hidden">{mobile}</div>
+    <main className="h-screen overflow-hidden bg-[#070C17] text-slate-100">
+      <div className="mx-auto hidden h-full max-w-[1800px] grid-cols-[300px_minmax(0,1fr)_390px] grid-rows-[72px_1fr] gap-4 px-4 py-4 lg:grid">
+        <header className="col-span-3 row-start-1 rounded-[24px] border border-white/10 bg-[#0D1526]/95 backdrop-blur">{topBar}</header>
+        <section className="row-start-2 min-h-0 overflow-y-auto">{left}</section>
+        <section className="row-start-2 min-h-0 overflow-y-auto">{center}</section>
+        <section className="row-start-2 min-h-0 overflow-y-auto">{right}</section>
       </div>
+      <div className="h-full overflow-y-auto lg:hidden">{mobile}</div>
     </main>
   );
 }
