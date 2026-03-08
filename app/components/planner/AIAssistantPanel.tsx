@@ -5,6 +5,7 @@ import { portsRegistry } from "@/app/lib/ports";
 import { buildChatContext } from "@/app/lib/planner/chatContextBuilder";
 import { detectChatIntent } from "@/app/lib/planner/chatActions";
 import { formatChatResponse } from "@/app/lib/planner/chatResponseFormatter";
+import { researchPortContext } from "@/app/lib/planner/researchPortContext";
 import type { PlannerIntent } from "@/app/lib/planner/planMutations";
 import type { Cruise, PlanOutput, PortDay } from "@/app/lib/planner/types";
 
@@ -50,10 +51,7 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
     },
   ]);
 
-  const chatContext = useMemo(
-    () => buildChatContext({ cruise, selectedDay, selectedPlan, scope: mode }),
-    [cruise, selectedDay, selectedPlan, mode]
-  );
+  const chatContext = useMemo(() => buildChatContext({ cruise, selectedDay, selectedPlan, scope: mode }), [cruise, selectedDay, selectedPlan, mode]);
 
   const todayFocus = useMemo(() => {
     if (!selectedDay) return "Pick a day and I’ll craft a return-safe plan.";
@@ -77,13 +75,18 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
 
     const intentResult = detectChatIntent(userText);
     const response = formatChatResponse({ context: chatContext, intent: intentResult.intent, confidence: intentResult.confidence });
-    setHistory((prev) => [...prev, { role: "assistant", ...response }]);
+    const live = await researchPortContext(selectedDay?.portSlug);
+    const enriched = {
+      ...response,
+      why: [...response.why, `${live.source === "live" ? "Live context" : "Fallback context"}: ${live.summary}`],
+    };
+    setHistory((prev) => [...prev, { role: "assistant", ...enriched }]);
     setThinking(false);
   };
 
   return (
-    <aside className="flex h-full flex-col rounded-[24px] border border-white/10 bg-[#0D1526] p-6">
-      <div className="mb-4">
+    <aside className="flex h-full min-h-0 flex-col rounded-[24px] border border-white/10 bg-[#0D1526] p-6">
+      <div className="shrink-0">
         <div className="mb-2 flex items-center justify-between">
           <p className="text-[13px] uppercase tracking-[0.14em] text-cyan-200/80">Co-Pilot Dock</p>
           <span className={`rounded-full px-2 py-1 text-[10px] ${selectedPlan && selectedPlan.score.totalScore >= 75 ? "bg-emerald-500/20 text-emerald-200" : "bg-amber-500/20 text-amber-200"}`}>{selectedPlan && selectedPlan.score.totalScore >= 75 ? "Ship-safe" : "Watch risk"}</span>
@@ -92,7 +95,7 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
         {editingTitle && <p className="mt-2 rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-300">Context: Editing {editingTitle}</p>}
       </div>
 
-      <div className="mb-4 grid grid-cols-2 gap-2">
+      <div className="my-4 grid shrink-0 grid-cols-2 gap-2">
         {quickIntents.map((chip) => (
           <button key={chip.label} onClick={() => applyIntent(chip.intent, chip.label)} className="rounded-xl border border-white/10 bg-slate-900/60 px-2 py-2 text-xs hover:border-cyan-300/40 hover:bg-slate-800">
             {chip.label}
@@ -101,7 +104,7 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
       </div>
 
       {changeLog.length > 0 && (
-        <div className="mb-3 rounded-2xl bg-slate-900/60 p-3">
+        <div className="mb-3 shrink-0 rounded-2xl bg-slate-900/60 p-3">
           <p className="text-[10px] uppercase tracking-[0.14em] text-slate-400">What changed</p>
           <ul className="mt-2 list-disc space-y-1 pl-4 text-xs text-slate-300">{changeLog.slice(0, 4).map((line) => <li key={line}>{line}</li>)}</ul>
         </div>
@@ -110,13 +113,11 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
       <div className="min-h-0 flex-1 space-y-2 overflow-y-auto rounded-2xl bg-slate-950/50 p-3">
         {history.map((item, idx) =>
           item.role === "user" ? (
-            <div key={`u-${idx}`} className="ml-auto max-w-[90%] rounded-2xl bg-cyan-500/20 px-3 py-2 text-sm text-cyan-100">
-              {item.text}
-            </div>
+            <div key={`u-${idx}`} className="ml-auto max-w-[90%] rounded-2xl bg-cyan-500/20 px-3 py-2 text-sm text-cyan-100">{item.text}</div>
           ) : (
             <div key={`a-${idx}`} className="mr-auto max-w-[95%] rounded-2xl bg-slate-800 px-3 py-2 text-sm text-slate-100">
               <p>{item.summary}</p>
-              <ul className="mt-2 list-disc space-y-1 pl-4 text-xs text-slate-300">{item.why.map((line) => <li key={line}>{line}</li>)}</ul>
+              <ul className="mt-2 list-disc space-y-1 pl-4 text-xs text-slate-300">{item.why.slice(0, 4).map((line) => <li key={line}>{line}</li>)}</ul>
               <div className="mt-2 flex flex-wrap gap-2">
                 {item.applyNow.map((action) => (
                   <button key={action.label} onClick={() => applyIntent(action.intent, action.label)} className="rounded-full border border-white/20 bg-slate-900 px-2 py-1 text-[11px] hover:border-cyan-300/60">
@@ -132,9 +133,9 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
         {selectedPlan && <p className="text-[11px] text-slate-400">Plan score: {selectedPlan.score.totalScore}</p>}
       </div>
 
-      {dockToast && <p className="mt-2 rounded-xl bg-cyan-500/20 px-3 py-2 text-xs text-cyan-100">{dockToast}</p>}
+      {dockToast && <p className="mt-2 shrink-0 rounded-xl bg-cyan-500/20 px-3 py-2 text-xs text-cyan-100">{dockToast}</p>}
 
-      <div className="sticky bottom-0 mt-3 border-t border-white/10 bg-[#0D1526] pt-3">
+      <div className="mt-3 shrink-0 border-t border-white/10 bg-[#0D1526] pt-3">
         <div className="mb-2 flex rounded-full bg-slate-900 p-1 text-xs">
           <button className={`flex-1 rounded-full px-2 py-1 ${mode === "day" ? "bg-cyan-400 text-slate-900" : "text-slate-300"}`} onClick={() => onModeChange("day")}>This Day</button>
           <button className={`flex-1 rounded-full px-2 py-1 ${mode === "cruise" ? "bg-cyan-400 text-slate-900" : "text-slate-300"}`} onClick={() => onModeChange("cruise")}>Whole Cruise</button>

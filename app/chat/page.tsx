@@ -8,12 +8,14 @@ import DayNavigator from "@/app/components/planner/DayNavigator";
 import PlanQualityPanel from "@/app/components/planner/PlanQualityPanel";
 import TimelineBoard from "@/app/components/planner/TimelineBoard";
 import UpgradeModal from "@/app/components/planner/UpgradeModal";
+import RecoveryModeDrawer from "@/app/components/planner/RecoveryModeDrawer";
 import { gateMessage, getEntitlements, hasFeature } from "@/app/lib/cruise/gates";
 import { buildCruiseDashboard, createPortDayFromPort, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
 import { generateSmartPlan } from "@/app/lib/planner/generatePlan";
 import { buildConciergeBrief } from "@/app/lib/planner/planNarrative";
 import { buildPortIntelligence } from "@/app/lib/planner/planHeuristics";
 import { applyPlannerIntent, type PlannerIntent } from "@/app/lib/planner/planMutations";
+import { buildRecoveryPlan } from "@/app/lib/planner/buildRecoveryPlan";
 import type { Cruise, FeatureGateKey, FeatureTier, PlanBlock, PlanInput, PlanOutput, PortDay } from "@/app/lib/planner/types";
 
 const DRAFT_KEY = "porttrip_workspace_draft_v4";
@@ -41,7 +43,9 @@ export default function ChatPage() {
    * Architecture notes:
    * - Workspace shell: command bar + day rail + plan board + co-pilot dock.
    * - Engine remains deterministic; smart wrappers enrich plans and responses.
-   * - Chat uses deterministic intent orchestration bound to live planner state.
+   * - Plan content resolves from local port intelligence + deterministic engine wrappers.
+   * - Live research enrichment is fetched in the co-pilot via researchPortContext fallback flow.
+   * - Co-pilot actions mutate state via applyPlannerIntent/buildRecoveryPlan in this workspace.
    */
   const searchParams = useSearchParams();
   const [tier] = useState<FeatureTier>("free");
@@ -58,6 +62,7 @@ export default function ChatPage() {
   const [editingTitle, setEditingTitle] = useState<string>();
   const [changeLog, setChangeLog] = useState<string[]>([]);
   const [boardKey, setBoardKey] = useState(0);
+  const [recoveryOpen, setRecoveryOpen] = useState(false);
 
   const entitlements = useMemo(() => getEntitlements(tier, searchParams.toString()), [tier, searchParams]);
   const selectedDay = cruise.itinerary.find((day) => day.id === selectedDayId);
@@ -169,6 +174,12 @@ export default function ChatPage() {
 
   const applyIntent = (intent: PlannerIntent, scope: "day" | "cruise") => {
     if (scope === "day" && selectedDay && output) {
+      if (intent === "running-late") {
+        const recovery = buildRecoveryPlan(output, 20);
+        setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: recovery.next }));
+        setChangeLog([recovery.summary, ...recovery.cuts]);
+        return;
+      }
       const { next, changes } = applyPlannerIntent(output, intent);
       setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: next }));
       setChangeLog(changes);
@@ -253,7 +264,8 @@ export default function ChatPage() {
               <p className="mt-1 text-3xl font-semibold">{conciergeBrief?.confidenceScore ?? output.score.totalScore}</p>
               <p className="mt-2 text-xs text-slate-300">Fragile leg: {conciergeBrief?.fragileLeg}</p>
               <p className="mt-1 text-xs text-slate-300">If +20m behind, cut first: {conciergeBrief?.cutFirstIfBehind}</p>
-              <button onClick={() => applyIntent("running-late", "day")} className="mt-3 rounded-full border border-cyan-300/40 px-3 py-1 text-xs text-cyan-100">Recovery mode</button>
+              <button onClick={() => setRecoveryOpen(true)} className="mt-3 rounded-full border border-cyan-300/40 px-3 py-1 text-xs text-cyan-100">Recovery mode</button>
+              <p className="mt-2 text-[11px] text-slate-400">Cruise pacing score {dashboard.energyPacingScore}</p>
             </div>
           </div>
           <TimelineBoard blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} onChange={updateBlocks} onSelectBlock={(block) => setEditingTitle(block?.title)} />
@@ -285,6 +297,12 @@ export default function ChatPage() {
     <>
       <CruiseWorkspaceLayout topBar={topBar} left={leftColumn} center={centerColumn} right={rightColumn} mobile={mobile} />
       <UpgradeModal open={!!upgradeGate} message={upgradeGate ? gateMessage(upgradeGate) : ""} onClose={() => setUpgradeGate(null)} />
+      <RecoveryModeDrawer open={recoveryOpen} onClose={() => setRecoveryOpen(false)} onApply={(minutes) => {
+        if (!selectedDay || !output) return;
+        const recovery = buildRecoveryPlan(output, minutes);
+        setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: recovery.next }));
+        setChangeLog([recovery.summary, ...recovery.cuts]);
+      }} />
     </>
   );
 }
