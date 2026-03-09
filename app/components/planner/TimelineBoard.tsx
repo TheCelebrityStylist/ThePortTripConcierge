@@ -14,7 +14,7 @@ const move = <T,>(items: T[], from: number, to: number) => {
 
 const draftBlock = (type: PlanBlock["type"]): PlanBlock => ({ id: `draft-${Date.now()}`, title: type === "stop" ? "New stop" : type === "transfer" ? "Transfer leg" : "Safety buffer", type, startTime: "09:00", endTime: "09:30", durationMin: 30, costEUR: 0, transitMode: "walk", whyThisHere: "User-added draft block.", guidance: "Edit details inline.", runningLateDecision: "Skip optional segments.", lock: false });
 
-export default function TimelineBoard({ blocks, dayStart, dayEnd, onChange, onSelectBlock }: { blocks: PlanBlock[]; dayStart: string; dayEnd: string; onChange: (next: PlanBlock[]) => void; onSelectBlock?: (block?: PlanBlock) => void }) {
+export default function TimelineBoard({ blocks, dayStart, dayEnd, highlightedIds = [], onChange, onSelectBlock }: { blocks: PlanBlock[]; dayStart: string; dayEnd: string; highlightedIds?: string[]; onChange: (next: PlanBlock[]) => void; onSelectBlock?: (block?: PlanBlock) => void }) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [draggingId, setDraggingId] = useState<string | null>(null);
   const [showAddMenu, setShowAddMenu] = useState(false);
@@ -40,7 +40,7 @@ export default function TimelineBoard({ blocks, dayStart, dayEnd, onChange, onSe
 
       <div className="space-y-4">
         {sorted.map((block) => (
-          <div key={block.id} draggable onDragStart={() => setDraggingId(block.id)} onDragOver={(event) => event.preventDefault()} onDrop={() => {
+          <div key={block.id} className={highlightedIds.includes(block.id) ? "animate-pulse" : ""} draggable onDragStart={() => setDraggingId(block.id)} onDragOver={(event) => event.preventDefault()} onDrop={() => {
             if (!draggingId || draggingId === block.id) return;
             const from = sorted.findIndex((item) => item.id === draggingId);
             const to = sorted.findIndex((item) => item.id === block.id);

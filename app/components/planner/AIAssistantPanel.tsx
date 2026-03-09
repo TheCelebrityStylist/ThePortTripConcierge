@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { portsRegistry } from "@/app/lib/ports";
 import { buildChatContext } from "@/app/lib/planner/chatContextBuilder";
-import { parseIntent } from "@/app/lib/planner/chat/parseIntent";
+import { parseIntent } from "@/app/lib/planner/mutations/parseIntent";
 import { formatChatResponse } from "@/app/lib/planner/chatResponseFormatter";
 import { researchPortContext } from "@/app/lib/planner/researchPortContext";
 import type { PlannerIntent } from "@/app/lib/planner/planMutations";
@@ -75,6 +75,7 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
           </div>
         </div>
         <p className="text-xs text-slate-300">{todayFocus}</p>
+        {selectedPlan && <div className="mt-2 grid grid-cols-2 gap-1 text-[11px] text-slate-300"><span className="rounded bg-slate-900 px-2 py-1">Walk load {selectedPlan.plan.blocks.filter((b) => b.transitMode === "walk").length}</span><span className="rounded bg-slate-900 px-2 py-1">Safety {selectedPlan.score.bufferHealth}</span><span className="rounded bg-slate-900 px-2 py-1">Fragile {selectedPlan.score.violations[0] || "none"}</span><span className="rounded bg-slate-900 px-2 py-1">Budget €{selectedPlan.plan.blocks.reduce((s,b)=>s+b.costEUR,0)}</span></div>}
         {editingTitle && <p className="mt-1 text-xs text-slate-400">Editing: {editingTitle}</p>}
       </div>
 
