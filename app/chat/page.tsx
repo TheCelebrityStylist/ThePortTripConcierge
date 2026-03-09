@@ -11,14 +11,14 @@ import UpgradeModal from "@/app/components/planner/UpgradeModal";
 import RecoveryModeDrawer from "@/app/components/planner/RecoveryModeDrawer";
 import { gateMessage, getEntitlements, hasFeature } from "@/app/lib/cruise/gates";
 import { buildCruiseDashboard, createPortDayFromPort, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
-import { generateSmartPlan } from "@/app/lib/planner/generatePlan";
-import { buildConciergeBrief } from "@/app/lib/planner/planNarrative";
-import { buildPortIntelligence } from "@/app/lib/planner/planHeuristics";
+import { generatePremiumDayPlan } from "@/app/lib/planner/generation/generatePremiumDayPlan";
+import { buildDayHero } from "@/app/lib/planner/generation/buildDayHero";
 import type { PlannerIntent } from "@/app/lib/planner/planMutations";
 import { parseIntent } from "@/app/lib/planner/mutations/parseIntent";
-import { executeMutation } from "@/app/lib/planner/mutations/executeMutation";
+import { executePlanMutation } from "@/app/lib/planner/mutations/executePlanMutation";
 import { buildPlanningContext } from "@/app/lib/planner/context/buildPlanningContext";
 import { buildPremiumConciergeBrief } from "@/app/lib/planner/generation/buildConciergeBrief";
+import { buildChatResponse } from "@/app/lib/planner/chat/buildChatResponse";
 import { buildRecoveryMode } from "@/app/lib/planner/generation/buildRecoveryMode";
 import type { Cruise, FeatureGateKey, FeatureTier, PlanBlock, PlanInput, PlanOutput, PortDay } from "@/app/lib/planner/types";
 
@@ -46,7 +46,7 @@ export default function ChatPage() {
   /*
    * Maintainer note:
    * - Itinerary state lives in `plansByDayId` keyed by cruise day id.
-   * - Generate/update flow uses deterministic planner engine wrappers (`generateSmartPlan`, `optimizePlan`).
+   * - Generate/update flow uses deterministic planner engine wrappers (`generatePremiumDayPlan`, `optimizePlan`).
    * - AI prompt/actions mutate actual itinerary through `executeMutation` (intent -> state diff -> risk recompute).
    * - Retrieval for AI rationale is assembled via `buildPlanningContext` (local port data + live Tavily context).
    */
@@ -127,7 +127,7 @@ export default function ChatPage() {
     });
   };
 
-  const onGenerateDay = (day: PortDay) => {
+  const onGenerateDay = async (day: PortDay) => {
     const planInput: PlanInput = {
       ...input,
       portSlug: day.portSlug,
@@ -139,19 +139,20 @@ export default function ChatPage() {
       riskTolerance: day.riskTolerance,
       interests: day.interests,
     };
-    const next = generateSmartPlan(planInput);
+    const next = await generatePremiumDayPlan(planInput);
     setPlansByDayId((prev) => ({ ...prev, [day.id]: next }));
     setCruise((prev) => ({ ...prev, itinerary: prev.itinerary.map((item) => (item.id === day.id ? { ...item, status: "draft", score: next.score.totalScore } : item)) }));
   };
 
-  const onGenerateAll = () => {
+  const onGenerateAll = async () => {
     if (!hasFeature(entitlements, "generateAll")) {
       setUpgradeGate("generateAll");
       return;
     }
     setGeneration({ running: true, done: 0, total: cruise.itinerary.length });
     const nextMap: Record<string, PlanOutput> = {};
-    cruise.itinerary.forEach((day, index) => {
+    for (let index = 0; index < cruise.itinerary.length; index += 1) {
+      const day = cruise.itinerary[index];
       const planInput: PlanInput = {
         ...input,
         portSlug: day.portSlug,
@@ -163,9 +164,9 @@ export default function ChatPage() {
         riskTolerance: day.riskTolerance,
         interests: day.interests,
       };
-      nextMap[day.id] = generateSmartPlan(planInput);
+      nextMap[day.id] = await generatePremiumDayPlan(planInput);
       setGeneration((prev) => ({ ...prev, done: index + 1 }));
-    });
+    }
     setPlansByDayId(nextMap);
     setGeneration({ running: false, done: cruise.itinerary.length, total: cruise.itinerary.length });
   };
@@ -206,7 +207,7 @@ export default function ChatPage() {
         setTimeout(() => setHighlightedIds([]), 1800);
         return;
       }
-      const mutation = executeMutation(output, intent);
+      const mutation = executePlanMutation(output, intent);
       setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: mutation.next }));
       setChangeLog([mutation.rationale, ...mutation.changes]);
       setHighlightedIds(mutation.diff.changedBlockIds.slice(0, 4));
@@ -218,7 +219,7 @@ export default function ChatPage() {
       const merged: string[] = [];
       const changed: string[] = [];
       Object.entries(nextMap).forEach(([dayId, plan]) => {
-        const mutation = executeMutation(plan, intent);
+        const mutation = executePlanMutation(plan, intent);
         nextMap[dayId] = mutation.next;
         merged.push(...mutation.changes);
         changed.push(...mutation.diff.changedBlockIds);
@@ -233,19 +234,38 @@ export default function ChatPage() {
   const submitCopilotPrompt = async (prompt: string, scope: "day" | "cruise") => {
     const parsed = parseIntent(prompt);
     if (!parsed.intent) return null;
+    if (scope === "day" && output) {
+      const mutation = executePlanMutation(output, parsed.intent);
+      applyIntent(parsed.intent, scope);
+      const context = await buildPlanningContext({ scope, intent: parsed.intent, selectedDay, selectedPlan: mutation.next, cruise });
+      const chat = buildChatResponse({
+        intent: parsed.intent,
+        context,
+        changes: mutation.changes,
+        changedBlockIds: mutation.diff.changedBlockIds,
+        scoreDelta: mutation.diff.scoreDelta,
+      });
+      return {
+        summary: chat.summary,
+        why: chat.rationale,
+        applyNow: chat.applyNow,
+        fallback: chat.diffLabel,
+      };
+    }
+
     applyIntent(parsed.intent, scope);
     const context = await buildPlanningContext({ scope, intent: parsed.intent, selectedDay, selectedPlan: output, cruise });
     const brief = buildPremiumConciergeBrief(context);
     return {
-      summary: `Applied ${parsed.intent.replace(/-/g, " ")} to ${scope === "day" ? "this day" : "whole cruise"}.`,
-      why: [`Risk watch: ${brief.risk}`, `Must not miss: ${brief.mustNotMiss}`],
+      summary: `Applied ${parsed.intent.replace(/-/g, " ")} to whole cruise.`,
+      why: [`Risk watch: ${brief.risk}`, `Live note: ${brief.liveNote}`],
       applyNow: [{ label: "Keep me ship-safe", intent: "make-safer" as PlannerIntent }, { label: "Reduce walking", intent: "reduce-walking" as PlannerIntent }],
       fallback: `Fallback loop: ${brief.fallbackLoop}`,
     };
   };
 
   const plannedCount = Object.keys(plansByDayId).length;
-  const conciergeBrief = output ? buildConciergeBrief(output, buildPortIntelligence(output.plan.input), selectedDay) : null;
+  const dayHero = selectedDay && output ? buildDayHero(selectedDay, output) : null;
   const healthChip = !output ? "No plan" : output.score.totalScore >= 82 ? "Flexible" : output.score.totalScore >= 72 ? "Ship-safe" : output.score.totalScore >= 62 ? "Tight" : "Fragile";
 
   const topBar = (
@@ -267,7 +287,7 @@ export default function ChatPage() {
       <div className="flex items-center gap-2">
         <button onClick={() => setPaletteOpen(true)} className="hidden h-10 rounded-2xl bg-slate-900 px-3 text-sm md:inline">⌘K</button>
         <button onClick={() => selectedDay && onGenerateDay(selectedDay)} className="h-10 rounded-2xl bg-cyan-400 px-4 text-sm font-semibold text-slate-900">{selectedDay && output ? "Update" : "Generate"}</button>
-        <button onClick={() => output && applyRecommendation("trim-far-stop", "day")} className="h-10 rounded-2xl bg-slate-900 px-3 text-sm">Simulate</button>
+        <button onClick={() => output && applyRecommendation("trim-far-stop", "day")} className="h-10 rounded-2xl bg-slate-900 px-3 text-sm">Simulate day</button>
         <button onClick={() => setUpgradeGate("exportBundle")} className="hidden h-10 rounded-2xl bg-slate-900 px-3 text-sm md:inline">Export</button>
         <button onClick={() => setUpgradeGate("generateAll")} className="h-10 rounded-2xl border border-white/10 bg-slate-900 px-3 text-sm">Upgrade</button>
       </div>
@@ -299,15 +319,19 @@ export default function ChatPage() {
         </div>
       ) : (
         <>
-          <div className="rounded-[24px] border border-white/10 bg-[#0D1526] p-5">
-            <p className="text-xl font-semibold">{conciergeBrief?.howTodayFeels ?? (selectedDay.portName || selectedDay.portSlug)}</p>
-            <p className="mt-2 text-sm text-slate-300">Must-not-miss: {conciergeBrief?.mustNotMiss} · Risk: {conciergeBrief?.biggestRisk} · Fallback: {conciergeBrief?.fallbackLoop}</p>
-            <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-300">
-              <span className="rounded-full bg-slate-900 px-3 py-1">Confidence {conciergeBrief?.confidenceScore ?? output.score.totalScore}</span>
-              <span className="rounded-full bg-slate-900 px-3 py-1">Fragile leg: {conciergeBrief?.fragileLeg}</span>
-              <span className="rounded-full bg-slate-900 px-3 py-1">Cut first: {conciergeBrief?.cutFirstIfBehind}</span>
-              <button onClick={() => setRecoveryOpen(true)} className="rounded-full border border-cyan-300/40 px-3 py-1 text-cyan-100">Recovery mode</button>
+          <div className="rounded-[28px] border border-white/10 bg-gradient-to-br from-[#13213c] to-[#0D1526] p-6">
+            <p className="text-xs text-slate-300">{dayHero?.title} · {dayHero?.window}</p>
+            <p className="mt-1 text-2xl font-semibold">{dayHero?.summary}</p>
+            <p className="mt-2 text-sm text-slate-300">Must not miss: {dayHero?.mustNotMiss}</p>
+            <p className="text-sm text-slate-300">Watch out for: {dayHero?.watchOutFor}</p>
+            <p className="text-sm text-slate-300">Fallback: {dayHero?.fallback}</p>
+            <div className="mt-4 flex flex-wrap items-center gap-2 text-xs text-slate-300">
+              <span className="rounded-full bg-slate-900 px-3 py-1">Plan health {healthChip}</span>
+              <span className="rounded-full bg-slate-900 px-3 py-1">Confidence {output.score.totalScore}</span>
+              <button onClick={() => applyIntent("reduce-walking", "day")} className="rounded-full bg-cyan-400 px-3 py-1 font-semibold text-slate-900">Refine this day</button>
+              <button onClick={() => setRecoveryOpen(true)} className="rounded-full border border-cyan-300/40 px-3 py-1 text-cyan-100">I’m behind</button>
             </div>
+            <details className="mt-3 text-xs text-slate-300"><summary className="cursor-pointer text-slate-400">Why this day works</summary><p className="mt-2">{dayHero?.whyThisWorks}</p></details>
           </div>
           <TimelineBoard blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} highlightedIds={highlightedIds} onChange={updateBlocks} onSelectBlock={(block) => setEditingTitle(block?.title)} />
           <div className="fixed bottom-8 right-[34%] z-30 hidden items-center gap-2 lg:flex">

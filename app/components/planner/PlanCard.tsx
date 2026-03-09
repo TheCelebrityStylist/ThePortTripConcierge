@@ -34,6 +34,7 @@ export default function PlanCard({
           <div className="min-w-0">
             <p className="truncate text-base font-semibold">{block.title}</p>
             <p className="text-sm text-slate-400">{block.startTime}–{block.endTime}</p>
+            <p className="mt-1 line-clamp-1 text-xs text-slate-400">{block.whyThisHere}</p>
             <div className="mt-2 flex flex-wrap gap-2 text-[11px]">
               <span className="rounded-full bg-slate-900 px-2 py-1">{block.durationMin}m</span>
               <span className="rounded-full bg-slate-900 px-2 py-1">€{block.costEUR}</span>

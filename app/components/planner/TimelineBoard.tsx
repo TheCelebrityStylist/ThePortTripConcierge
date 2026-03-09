@@ -14,27 +14,34 @@ const move = <T,>(items: T[], from: number, to: number) => {
 
 const draftBlock = (type: PlanBlock["type"]): PlanBlock => ({ id: `draft-${Date.now()}`, title: type === "stop" ? "New stop" : type === "transfer" ? "Transfer leg" : "Safety buffer", type, startTime: "09:00", endTime: "09:30", durationMin: 30, costEUR: 0, transitMode: "walk", whyThisHere: "User-added draft block.", guidance: "Edit details inline.", runningLateDecision: "Skip optional segments.", lock: false });
 
+const segIcon = (block: PlanBlock) => (block.type === "buffer" ? "🛟" : block.type === "transfer" ? "🚕" : /food|market|tapas/i.test(block.title) ? "🍽️" : "✨");
+
 export default function TimelineBoard({ blocks, dayStart, dayEnd, highlightedIds = [], onChange, onSelectBlock }: { blocks: PlanBlock[]; dayStart: string; dayEnd: string; highlightedIds?: string[]; onChange: (next: PlanBlock[]) => void; onSelectBlock?: (block?: PlanBlock) => void }) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [draggingId, setDraggingId] = useState<string | null>(null);
   const [showAddMenu, setShowAddMenu] = useState(false);
   const sorted = useMemo(() => [...blocks].sort((a, b) => toMinutes(a.startTime) - toMinutes(b.startTime)), [blocks]);
-  const totalDuration = Math.max(sorted.reduce((sum, block) => sum + block.durationMin, 0), 1);
 
   const update = (id: string, updater: (block: PlanBlock) => PlanBlock) => onChange(sorted.map((block) => (block.id === id ? updater(block) : block)));
 
   return (
     <section className="relative rounded-[24px] border border-white/10 bg-[#0D1526] p-6">
       <div className="mb-4 rounded-2xl border border-white/10 bg-slate-900/50 p-4">
-        <p className="text-sm font-semibold text-cyan-100">Journey Canvas</p>
+        <p className="text-sm font-semibold text-cyan-100">Today’s flow</p>
         <p className="text-xs text-slate-400">{dayStart} → {dayEnd}</p>
-        <div className="mt-3 flex overflow-x-auto rounded-xl bg-slate-950/60 p-1">
-          {sorted.map((block) => (
-            <button key={`seg-${block.id}`} onClick={() => { setExpandedId(block.id); onSelectBlock?.(block); }} className={`h-12 min-w-[72px] rounded-lg px-2 text-left text-[10px] ${expandedId === block.id ? "bg-cyan-400/30" : block.type === "buffer" ? "bg-emerald-500/20" : block.type === "transfer" ? "bg-violet-500/20" : "bg-slate-700/60"}`} style={{ width: `${Math.max((block.durationMin / totalDuration) * 100, 8)}%` }}>
-              <p className="truncate font-semibold">{block.title}</p>
-              <p>{block.startTime}</p>
-            </button>
-          ))}
+
+        <div className="mt-4 overflow-x-auto">
+          <div className="flex min-w-[900px] items-center gap-2">
+            {sorted.map((block, index) => (
+              <div key={`seg-${block.id}`} className="flex items-center gap-2">
+                <button onClick={() => { setExpandedId(block.id); onSelectBlock?.(block); }} className={`w-44 rounded-xl border px-3 py-2 text-left ${expandedId === block.id ? "border-cyan-300 bg-cyan-500/10" : block.type === "buffer" ? "border-emerald-300/40 bg-emerald-500/10" : block.type === "transfer" ? "border-violet-300/40 bg-violet-500/10" : "border-white/10 bg-slate-800/70"}`}>
+                  <p className="text-[11px] text-slate-300">{segIcon(block)} {block.startTime} · {block.durationMin}m</p>
+                  <p className="truncate text-sm font-semibold">{block.title}</p>
+                </button>
+                {index < sorted.length - 1 && <div className="h-px w-6 bg-white/30" />}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
