@@ -15,6 +15,10 @@ import { generateSmartPlan } from "@/app/lib/planner/generatePlan";
 import { buildConciergeBrief } from "@/app/lib/planner/planNarrative";
 import { buildPortIntelligence } from "@/app/lib/planner/planHeuristics";
 import { applyPlannerIntent, type PlannerIntent } from "@/app/lib/planner/planMutations";
+import { parseIntent } from "@/app/lib/planner/chat/parseIntent";
+import { executeIntent } from "@/app/lib/planner/chat/executeIntent";
+import { buildPlanningContext } from "@/app/lib/planner/context/buildPlanningContext";
+import { buildPremiumConciergeBrief } from "@/app/lib/planner/generation/buildConciergeBrief";
 import { buildRecoveryPlan } from "@/app/lib/planner/buildRecoveryPlan";
 import type { Cruise, FeatureGateKey, FeatureTier, PlanBlock, PlanInput, PlanOutput, PortDay } from "@/app/lib/planner/types";
 
@@ -198,6 +202,20 @@ export default function ChatPage() {
     }
   };
 
+  const submitCopilotPrompt = async (prompt: string, scope: "day" | "cruise") => {
+    const parsed = parseIntent(prompt);
+    if (!parsed.intent) return null;
+    if (scope === "day" && selectedDay && output) {
+      const { assistant } = executeIntent({ dayId: selectedDay.id, output, intent: parsed.intent });
+      applyIntent(parsed.intent, "day");
+      const context = await buildPlanningContext({ scope, intent: parsed.intent, selectedDay, selectedPlan: output, cruise });
+      const brief = buildPremiumConciergeBrief(context);
+      return { ...assistant, why: [...assistant.why, `Risk now: ${brief.risk}`] };
+    }
+    applyIntent(parsed.intent, scope);
+    return null;
+  };
+
   const plannedCount = Object.keys(plansByDayId).length;
   const conciergeBrief = output ? buildConciergeBrief(output, buildPortIntelligence(output.plan.input), selectedDay) : null;
 
@@ -275,7 +293,7 @@ export default function ChatPage() {
     </section>
   );
 
-  const rightColumn = <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} editingTitle={editingTitle} changeLog={changeLog} onModeChange={setAssistantMode} onApplyIntent={applyIntent} />;
+  const rightColumn = <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} editingTitle={editingTitle} changeLog={changeLog} onModeChange={setAssistantMode} onApplyIntent={applyIntent} onSubmitPrompt={submitCopilotPrompt} />;
 
   const mobile = (
     <div className="space-y-3 px-3 pb-24 pt-3">
