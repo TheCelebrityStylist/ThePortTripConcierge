@@ -114,6 +114,63 @@ function toMinutes(hhmm) {
 }
 
 
+
+function parseRarelyWornItems(userQuery, body) {
+  const fromBody = Array.isArray(body?.rarelyWornItems) ? body.rarelyWornItems : [];
+  if (fromBody.length) return fromBody.map((item) => String(item).trim()).filter(Boolean);
+
+  const q = String(userQuery || "");
+  const marker = q.match(/rarely worn items?\s*[:\-]\s*(.+)$/i);
+  if (!marker) return [];
+  return marker[1].split(/,|\|/).map((item) => item.trim()).filter(Boolean);
+}
+
+const wardrobeUpgradeMap = [
+  { match: /blazer|jacket|coat/i, piece: "Slim crew-neck tee in black or white", maxPrice: 28, why: "Makes structured outerwear easy for casual and smart-casual outfits." },
+  { match: /dress shirt|button[- ]?down/i, piece: "Dark-wash straight jeans", maxPrice: 55, why: "Dresses down formal tops so they become weeknight-ready." },
+  { match: /skirt|dress/i, piece: "Cropped neutral cardigan", maxPrice: 40, why: "Adds layering flexibility and extends seasonal use." },
+  { match: /heels|boots/i, piece: "Relaxed wide-leg trousers", maxPrice: 45, why: "Balances dressy footwear for daytime looks." },
+  { match: /graphic tee|printed top/i, piece: "Solid overshirt in olive or navy", maxPrice: 48, why: "Creates polished contrast so statement tops feel intentional." },
+];
+
+function fallbackUpgrade(item) {
+  return {
+    piece: "Neutral knit polo",
+    maxPrice: 35,
+    why: "Bridges casual and polished outfits with minimal effort.",
+    shoppingSearchUrl: `https://www.google.com/search?tbm=shop&q=${encodeURIComponent('affordable neutral knit polo under 35')}`,
+  };
+}
+
+function buildWardrobeSuggestions(rarelyWornItems) {
+  const picks = rarelyWornItems.slice(0, 5).map((item) => {
+    const rule = wardrobeUpgradeMap.find((entry) => entry.match.test(item));
+    const selected = rule || fallbackUpgrade(item);
+    const query = `${selected.piece} under $${selected.maxPrice} versatile wardrobe`;
+    return {
+      rarelyWornItem: item,
+      suggestedPiece: selected.piece,
+      budgetTargetUsd: selected.maxPrice,
+      rationale: selected.why,
+      shoppingSearchUrl: selected.shoppingSearchUrl || `https://www.google.com/search?tbm=shop&q=${encodeURIComponent(query)}`,
+    };
+  });
+
+  return {
+    action: "wardrobe_upgrade_suggestions",
+    title: "Affordable upgrades to make your rarely worn pieces more versatile",
+    suggestions: picks,
+    answer: picks.length
+      ? picks.map((p, i) => `${i + 1}) Pair ${p.rarelyWornItem} with ${p.suggestedPiece} (target: $${p.budgetTargetUsd}). ${p.rationale} Shop: ${p.shoppingSearchUrl}`).join("\n")
+      : "Share your rarely worn items (comma-separated) and I will recommend affordable, versatile pieces with shopping links.",
+  };
+}
+
+function isWardrobeIntent(userQuery, body) {
+  const q = String(userQuery || "").toLowerCase();
+  return /rarely worn|wardrobe|closet|outfit versatility|what should i buy/i.test(q) || Array.isArray(body?.rarelyWornItems);
+}
+
 function inferIntent(raw) {
   const q = (raw || "").toLowerCase();
   const asksTop = /top\s*3|three\s+sights|minimal walking|low walking|walkability/i.test(q);
@@ -247,6 +304,12 @@ export async function POST(req) {
 
     const { body, history, userQuery } = await parseBody(req);
     if (!userQuery) return new Response("Please ask a question (no text received).", { status: 400, headers });
+
+    if (isWardrobeIntent(userQuery, body)) {
+      const rarelyWornItems = parseRarelyWornItems(userQuery, body);
+      const wardrobe = buildWardrobeSuggestions(rarelyWornItems);
+      return new Response(JSON.stringify(wardrobe), { headers: new Headers({ "Content-Type": "application/json" }) });
+    }
 
     // Keep Stripe/payment gating untouched semantically.
     const stripeCustomer = getCookie(req, "pt_customer");
