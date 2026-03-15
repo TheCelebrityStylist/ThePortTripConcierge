@@ -2,12 +2,11 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import AIAssistantPanel from "@/app/components/planner/AIAssistantPanel";
+import AIActionStudio from "@/app/components/planner/AIActionStudio";
 import CruiseWorkspaceLayout from "@/app/components/planner/CruiseWorkspaceLayout";
 import DayNavigator from "@/app/components/planner/DayNavigator";
-import PlanQualityPanel from "@/app/components/planner/PlanQualityPanel";
 import DayHeroCard from "@/app/components/planner/DayHeroCard";
-import ItineraryFlow from "@/app/components/planner/ItineraryFlow";
+import VisualRouteBoard from "@/app/components/planner/VisualRouteBoard";
 import StopDetailDrawer from "@/app/components/planner/StopDetailDrawer";
 import QuickAddDayRow from "@/app/components/planner/QuickAddDayRow";
 import UpgradeModal from "@/app/components/planner/UpgradeModal";
@@ -66,6 +65,7 @@ export default function ChatPage() {
   const [toast, setToast] = useState("");
   const [undoSnapshot, setUndoSnapshot] = useState<Record<string, PlanOutput> | null>(null);
   const [editingTitle, setEditingTitle] = useState<string>();
+  const [studioOpen, setStudioOpen] = useState(true);
   const [changeLog, setChangeLog] = useState<string[]>([]);
   const [boardKey, setBoardKey] = useState(0);
   const [recoveryOpen, setRecoveryOpen] = useState(false);
@@ -341,20 +341,24 @@ export default function ChatPage() {
       ) : (
         <>
           {dayHero && <DayHeroCard hero={dayHero} healthChip={healthChip} confidence={output.score.totalScore} onRefine={() => applyIntent("reduce-walking", "day")} onRecovery={() => setRecoveryOpen(true)} />}
-          {proposalLabel && <p className="rounded-xl border border-cyan-300/40 bg-cyan-500/10 px-3 py-2 text-xs text-cyan-100">{proposalLabel}</p>}
-          <ItineraryFlow blocks={output.plan.blocks} highlightedIds={highlightedIds} onOpenStop={(id) => { setDetailBlockId(id); setEditingTitle(output.plan.blocks.find((b) => b.id === id)?.title); }} />
-          <div className="fixed bottom-8 right-[34%] z-30 hidden items-center gap-2 lg:flex">
-            <button onClick={() => setBoardKey((prev) => prev + 1)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">+ Add stop</button>
-            <button onClick={() => setRecoveryOpen(true)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">Recovery mode</button>
-            <button onClick={() => applyIntent("reduce-walking", "day")} className="rounded-full bg-cyan-400 px-3 py-2 text-xs font-semibold text-slate-900">Optimize with AI</button>
+          <VisualRouteBoard blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} changedIds={highlightedIds} diffLabel={proposalLabel || undefined} onOpenStop={(id) => { setDetailBlockId(id); setEditingTitle(output.plan.blocks.find((b) => b.id === id)?.title); }} />
+          <div className="rounded-2xl border border-white/10 bg-[#0D1526] p-4 text-xs text-slate-300">
+            <p className="font-semibold text-slate-100">Plan insight</p>
+            <p className="mt-2">Confidence: {output.score.totalScore} · Fragility: {output.score.violations[0] || "Stable"}</p>
+            <p className="mt-1">Cut first if delayed: {output.plan.blocks.filter((b) => b.type === "stop" && !b.lock).slice(-1)[0]?.title || "Last optional stop"}</p>
+            <p className="mt-1">Why this day works: {dayHero?.whyThisWorks}</p>
           </div>
-          <PlanQualityPanel output={output} onApplyRecommendation={(action) => applyRecommendation(action, "day")} />
+          <div className="fixed bottom-8 right-8 z-30 hidden items-center gap-2 lg:flex">
+            <button onClick={() => setBoardKey((prev) => prev + 1)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">+ Add stop</button>
+            <button onClick={() => setRecoveryOpen(true)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">I&apos;m behind</button>
+            <button onClick={() => setStudioOpen((v) => !v)} className="rounded-full bg-cyan-400 px-3 py-2 text-xs font-semibold text-slate-900">{studioOpen ? "Hide AI" : "Show AI"}</button>
+          </div>
         </>
       )}
     </section>
   );
 
-  const rightColumn = <AIAssistantPanel cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} editingTitle={editingTitle} changeLog={changeLog} onModeChange={setAssistantMode} onApplyIntent={applyIntent} onSubmitPrompt={submitCopilotPrompt} />;
+  const actionStudio = studioOpen ? <div className="pointer-events-auto fixed bottom-6 right-6 z-40 hidden h-[78vh] w-[350px] lg:block"><AIActionStudio cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} changeLog={changeLog} onModeChange={setAssistantMode} onApplyIntent={applyIntent} onSubmitPrompt={submitCopilotPrompt} /></div> : null;
 
   const mobile = (
     <div className="space-y-3 px-3 pb-24 pt-3">
@@ -363,7 +367,7 @@ export default function ChatPage() {
       </div>
       {mobileTab === "days" && leftColumn}
       {mobileTab === "plan" && centerColumn}
-      {mobileTab === "copilot" && rightColumn}
+      {mobileTab === "copilot" && <AIActionStudio cruise={cruise} selectedDay={selectedDay} selectedPlan={output} mode={assistantMode} changeLog={changeLog} onModeChange={setAssistantMode} onApplyIntent={applyIntent} onSubmitPrompt={submitCopilotPrompt} />}
       <div className="fixed bottom-0 left-0 right-0 z-30 grid grid-cols-3 gap-2 border-t border-white/10 bg-[#070C17]/95 p-2">
         <button className="rounded-xl bg-slate-900 py-2 text-xs" onClick={() => setMobileTab("days")}>Days</button>
         <button className="rounded-xl bg-cyan-400 py-2 text-xs font-semibold text-slate-900" onClick={() => selectedDay && onGenerateDay(selectedDay)}>{output ? "Update" : "Generate"}</button>
@@ -374,7 +378,8 @@ export default function ChatPage() {
 
   return (
     <>
-      <CruiseWorkspaceLayout topBar={topBar} left={leftColumn} center={centerColumn} right={rightColumn} mobile={mobile} />
+      <CruiseWorkspaceLayout topBar={topBar} left={leftColumn} center={centerColumn} mobile={mobile} />
+      {actionStudio}
       <UpgradeModal open={!!upgradeGate} message={upgradeGate ? gateMessage(upgradeGate) : ""} onClose={() => setUpgradeGate(null)} />
       <RecoveryModeDrawer open={recoveryOpen} onClose={() => setRecoveryOpen(false)} onApply={(minutes) => {
         if (!selectedDay || !output) return;
