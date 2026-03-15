@@ -6,11 +6,14 @@ import AIAssistantPanel from "@/app/components/planner/AIAssistantPanel";
 import CruiseWorkspaceLayout from "@/app/components/planner/CruiseWorkspaceLayout";
 import DayNavigator from "@/app/components/planner/DayNavigator";
 import PlanQualityPanel from "@/app/components/planner/PlanQualityPanel";
-import TimelineBoard from "@/app/components/planner/TimelineBoard";
+import DayHeroCard from "@/app/components/planner/DayHeroCard";
+import JourneyCanvas from "@/app/components/planner/JourneyCanvas";
+import StopDetailDrawer from "@/app/components/planner/StopDetailDrawer";
+import QuickAddDayRow from "@/app/components/planner/QuickAddDayRow";
 import UpgradeModal from "@/app/components/planner/UpgradeModal";
 import RecoveryModeDrawer from "@/app/components/planner/RecoveryModeDrawer";
 import { gateMessage, getEntitlements, hasFeature } from "@/app/lib/cruise/gates";
-import { buildCruiseDashboard, createPortDayFromPort, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
+import { createPortDayFromPort, optimizePlan, simulateRisk } from "@/app/lib/planner/engine";
 import { generatePremiumDayPlan } from "@/app/lib/planner/generation/generatePremiumDayPlan";
 import { buildDayHero } from "@/app/lib/planner/generation/buildDayHero";
 import type { PlannerIntent } from "@/app/lib/planner/planMutations";
@@ -47,7 +50,7 @@ export default function ChatPage() {
    * Maintainer note:
    * - Itinerary state lives in `plansByDayId` keyed by cruise day id.
    * - Generate/update flow uses deterministic planner engine wrappers (`generatePremiumDayPlan`, `optimizePlan`).
-   * - AI prompt/actions mutate actual itinerary through `executeMutation` (intent -> state diff -> risk recompute).
+   * - AI prompt/actions mutate actual itinerary through `executePlanMutation` (intent -> state diff -> risk recompute).
    * - Retrieval for AI rationale is assembled via `buildPlanningContext` (local port data + live Tavily context).
    */
   const searchParams = useSearchParams();
@@ -68,11 +71,13 @@ export default function ChatPage() {
   const [recoveryOpen, setRecoveryOpen] = useState(false);
   const [paletteOpen, setPaletteOpen] = useState(false);
   const [highlightedIds, setHighlightedIds] = useState<string[]>([]);
+  const [proposalLabel, setProposalLabel] = useState("");
+  const [addDayOpen, setAddDayOpen] = useState(false);
+  const [detailBlockId, setDetailBlockId] = useState<string>();
 
   const entitlements = useMemo(() => getEntitlements(tier, searchParams.toString()), [tier, searchParams]);
   const selectedDay = cruise.itinerary.find((day) => day.id === selectedDayId);
   const output = selectedDay ? plansByDayId[selectedDay.id] : undefined;
-  const dashboard = useMemo(() => buildCruiseDashboard(cruise, plansByDayId), [cruise, plansByDayId]);
 
   useEffect(() => {
     const raw = localStorage.getItem(DRAFT_KEY);
@@ -210,6 +215,8 @@ export default function ChatPage() {
       const mutation = executePlanMutation(output, intent);
       setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: mutation.next }));
       setChangeLog([mutation.rationale, ...mutation.changes]);
+      setProposalLabel(`Applied: ${intent.replace(/-/g, " ")}`);
+      setTimeout(() => setProposalLabel(""), 1800);
       setHighlightedIds(mutation.diff.changedBlockIds.slice(0, 4));
       setTimeout(() => setHighlightedIds([]), 1800);
       return;
@@ -226,6 +233,8 @@ export default function ChatPage() {
       });
       setPlansByDayId(nextMap);
       setChangeLog(Array.from(new Set(merged)).slice(0, 4));
+      setProposalLabel(`Applied cruise-wide: ${intent.replace(/-/g, " ")}`);
+      setTimeout(() => setProposalLabel(""), 1800);
       setHighlightedIds(Array.from(new Set(changed)).slice(0, 6));
       setTimeout(() => setHighlightedIds([]), 1800);
     }
@@ -264,6 +273,18 @@ export default function ChatPage() {
     };
   };
 
+  const editBlockField = (field: keyof PlanBlock, value: string | number | boolean) => {
+    if (!selectedDay || !output || !detailBlockId) return;
+    const nextBlocks = output.plan.blocks.map((block) => (block.id === detailBlockId ? { ...block, [field]: value } : block));
+    updateBlocks(nextBlocks);
+  };
+
+  const deleteBlock = () => {
+    if (!selectedDay || !output || !detailBlockId) return;
+    updateBlocks(output.plan.blocks.filter((block) => block.id !== detailBlockId));
+    setDetailBlockId(undefined);
+  };
+
   const plannedCount = Object.keys(plansByDayId).length;
   const dayHero = selectedDay && output ? buildDayHero(selectedDay, output) : null;
   const healthChip = !output ? "No plan" : output.score.totalScore >= 82 ? "Flexible" : output.score.totalScore >= 72 ? "Ship-safe" : output.score.totalScore >= 62 ? "Tight" : "Fragile";
@@ -294,7 +315,7 @@ export default function ChatPage() {
     </div>
   );
 
-  const leftColumn = <DayNavigator cruise={cruise} plansByDayId={plansByDayId} selectedDayId={selectedDayId} onSelectDay={setSelectedDayId} onQuickAdd={quickAddDay} onQuickAddFive={loadSample} />;
+  const leftColumn = <DayNavigator cruise={cruise} plansByDayId={plansByDayId} selectedDayId={selectedDayId} onSelectDay={setSelectedDayId} onOpenAddDay={() => setAddDayOpen(true)} />;
 
   const centerColumn = (
     <section key={boardKey} className="space-y-4 pb-6">
@@ -319,21 +340,8 @@ export default function ChatPage() {
         </div>
       ) : (
         <>
-          <div className="rounded-[28px] border border-white/10 bg-gradient-to-br from-[#13213c] to-[#0D1526] p-6">
-            <p className="text-xs text-slate-300">{dayHero?.title} · {dayHero?.window}</p>
-            <p className="mt-1 text-2xl font-semibold">{dayHero?.summary}</p>
-            <p className="mt-2 text-sm text-slate-300">Must not miss: {dayHero?.mustNotMiss}</p>
-            <p className="text-sm text-slate-300">Watch out for: {dayHero?.watchOutFor}</p>
-            <p className="text-sm text-slate-300">Fallback: {dayHero?.fallback}</p>
-            <div className="mt-4 flex flex-wrap items-center gap-2 text-xs text-slate-300">
-              <span className="rounded-full bg-slate-900 px-3 py-1">Plan health {healthChip}</span>
-              <span className="rounded-full bg-slate-900 px-3 py-1">Confidence {output.score.totalScore}</span>
-              <button onClick={() => applyIntent("reduce-walking", "day")} className="rounded-full bg-cyan-400 px-3 py-1 font-semibold text-slate-900">Refine this day</button>
-              <button onClick={() => setRecoveryOpen(true)} className="rounded-full border border-cyan-300/40 px-3 py-1 text-cyan-100">I’m behind</button>
-            </div>
-            <details className="mt-3 text-xs text-slate-300"><summary className="cursor-pointer text-slate-400">Why this day works</summary><p className="mt-2">{dayHero?.whyThisWorks}</p></details>
-          </div>
-          <TimelineBoard blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} highlightedIds={highlightedIds} onChange={updateBlocks} onSelectBlock={(block) => setEditingTitle(block?.title)} />
+          {dayHero && <DayHeroCard hero={dayHero} healthChip={healthChip} confidence={output.score.totalScore} onRefine={() => applyIntent("reduce-walking", "day")} onRecovery={() => setRecoveryOpen(true)} />}
+          <JourneyCanvas blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} highlightedIds={highlightedIds} proposal={proposalLabel} onOpenStop={(id) => { setDetailBlockId(id); setEditingTitle(output.plan.blocks.find((b) => b.id === id)?.title); }} />
           <div className="fixed bottom-8 right-[34%] z-30 hidden items-center gap-2 lg:flex">
             <button onClick={() => setBoardKey((prev) => prev + 1)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">+ Add stop</button>
             <button onClick={() => setRecoveryOpen(true)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">Recovery mode</button>
@@ -372,9 +380,29 @@ export default function ChatPage() {
         const recovery = buildRecoveryMode(output, minutes);
         setPlansByDayId((prev) => ({ ...prev, [selectedDay.id]: recovery.next }));
         setChangeLog([`Recovery +${minutes}m`, recovery.summary, ...recovery.cuts]);
+        setProposalLabel(`Recovery plan ready (+${minutes}m behind)`);
         setHighlightedIds(recovery.next.plan.blocks.slice(0, 2).map((b) => b.id));
         setTimeout(() => setHighlightedIds([]), 1800);
       }} />
+
+      <StopDetailDrawer
+        open={!!detailBlockId}
+        block={output?.plan.blocks.find((block) => block.id === detailBlockId)}
+        onClose={() => setDetailBlockId(undefined)}
+        onEdit={editBlockField}
+        onDelete={deleteBlock}
+      />
+
+      {addDayOpen && (
+        <div className="fixed inset-0 z-50 bg-black/60 p-4" onClick={() => setAddDayOpen(false)}>
+          <div className="mx-auto mt-20 max-w-lg rounded-3xl border border-white/10 bg-[#0D1526] p-5" onClick={(e) => e.stopPropagation()}>
+            <p className="text-lg font-semibold">Add a new cruise day</p>
+            <p className="text-sm text-slate-400">Keep the rail focused on navigation.</p>
+            <div className="mt-4"><QuickAddDayRow onAdd={(payload) => { quickAddDay(payload); setAddDayOpen(false); }} /></div>
+            <button onClick={loadSample} className="mt-3 rounded-xl bg-slate-900 px-3 py-2 text-xs">Paste sample itinerary</button>
+          </div>
+        </div>
+      )}
 
       {paletteOpen && (
         <div className="fixed inset-0 z-50 grid place-items-start bg-black/50 pt-24" onClick={() => setPaletteOpen(false)}>
