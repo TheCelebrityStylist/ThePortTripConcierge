@@ -86,9 +86,15 @@ export default function AIAssistantPanel({ cruise, selectedDay, selectedPlan, mo
         ))}
       </div>
 
-      {changeLog.length > 0 && <div className="mb-2 rounded-xl bg-slate-900/60 p-2 text-xs text-slate-300"><p className="mb-1 text-[10px] text-slate-400">Live change feed</p>{changeLog.slice(0, 4).map((line) => <p key={line}>• {line}</p>)}</div>}
+      <div className="mb-2 rounded-xl bg-slate-900/50 p-2 text-xs text-slate-300">
+        <p className="mb-1 text-[10px] text-slate-400">What changed</p>
+        {changeLog.length ? changeLog.slice(0, 4).map((line) => <p key={line}>• {line}</p>) : <p className="text-slate-500">No changes yet — tap an action to improve this day.</p>}
+      </div>
 
-      <div className="min-h-0 flex-1 space-y-2 overflow-y-auto rounded-2xl bg-slate-950/50 p-3">
+      <div className="min-h-0 flex-1 space-y-2 overflow-y-auto rounded-2xl bg-slate-950/30 p-3">
+        {history.length === 0 && <div className="rounded-xl border border-white/10 bg-slate-900/40 p-3 text-xs text-slate-300">
+          Try: “reduce walking while keeping {selectedDay?.portName || "today"} highlights”
+        </div>}
         {history.map((item, idx) => item.role === "user" ? (
           <div key={idx} className="ml-auto max-w-[90%] rounded-2xl bg-cyan-500/20 px-3 py-2 text-sm">{item.text}</div>
         ) : (

@@ -7,7 +7,7 @@ import CruiseWorkspaceLayout from "@/app/components/planner/CruiseWorkspaceLayou
 import DayNavigator from "@/app/components/planner/DayNavigator";
 import PlanQualityPanel from "@/app/components/planner/PlanQualityPanel";
 import DayHeroCard from "@/app/components/planner/DayHeroCard";
-import JourneyCanvas from "@/app/components/planner/JourneyCanvas";
+import ItineraryFlow from "@/app/components/planner/ItineraryFlow";
 import StopDetailDrawer from "@/app/components/planner/StopDetailDrawer";
 import QuickAddDayRow from "@/app/components/planner/QuickAddDayRow";
 import UpgradeModal from "@/app/components/planner/UpgradeModal";
@@ -341,7 +341,8 @@ export default function ChatPage() {
       ) : (
         <>
           {dayHero && <DayHeroCard hero={dayHero} healthChip={healthChip} confidence={output.score.totalScore} onRefine={() => applyIntent("reduce-walking", "day")} onRecovery={() => setRecoveryOpen(true)} />}
-          <JourneyCanvas blocks={output.plan.blocks} dayStart={selectedDay.arrivalTime} dayEnd={selectedDay.allAboardTime} highlightedIds={highlightedIds} proposal={proposalLabel} onOpenStop={(id) => { setDetailBlockId(id); setEditingTitle(output.plan.blocks.find((b) => b.id === id)?.title); }} />
+          {proposalLabel && <p className="rounded-xl border border-cyan-300/40 bg-cyan-500/10 px-3 py-2 text-xs text-cyan-100">{proposalLabel}</p>}
+          <ItineraryFlow blocks={output.plan.blocks} highlightedIds={highlightedIds} onOpenStop={(id) => { setDetailBlockId(id); setEditingTitle(output.plan.blocks.find((b) => b.id === id)?.title); }} />
           <div className="fixed bottom-8 right-[34%] z-30 hidden items-center gap-2 lg:flex">
             <button onClick={() => setBoardKey((prev) => prev + 1)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">+ Add stop</button>
             <button onClick={() => setRecoveryOpen(true)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">Recovery mode</button>
