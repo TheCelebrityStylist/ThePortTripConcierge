@@ -5,7 +5,7 @@ import QuickAddDayRow from "../QuickAddDayRow";
 import RecoveryModeDrawer from "../RecoveryModeDrawer";
 import StopDetailDrawer from "../StopDetailDrawer";
 import UpgradeModal from "../UpgradeModal";
-import VisualRouteBoard from "../VisualRouteBoard";
+import TimelineHero from "../TimelineHero";
 import { usePlannerWorkspace } from "./PlannerWorkspaceProvider";
 
 export default function PlannerCenterSurface() {
@@ -36,20 +36,14 @@ export default function PlannerCenterSurface() {
         ) : (
           <>
             {dayHero && <DayHeroCard hero={dayHero} healthChip={healthChip} confidence={selectedPlan.score.totalScore} onRefine={() => actions.applyIntent("reduce-walking", "day")} onRecovery={() => actions.setRecoveryOpen(true)} />}
-            <VisualRouteBoard
+            <TimelineHero
               blocks={selectedPlan.plan.blocks}
               dayStart={selectedDay.arrivalTime}
               dayEnd={selectedDay.allAboardTime}
               changedIds={state.highlightedIds}
-              diffLabel={state.proposalLabel || undefined}
+              weakLegId={selectedPlan.plan.blocks.filter((block) => block.type === "stop" && !block.lock).slice(-1)[0]?.id}
               onOpenStop={actions.openStopDetails}
             />
-            <div className="rounded-2xl border border-white/10 bg-[#0D1526] p-4 text-xs text-slate-300">
-              <p className="font-semibold text-slate-100">Plan insight</p>
-              <p className="mt-2">Confidence: {selectedPlan.score.totalScore} · Fragility: {selectedPlan.score.violations[0] || "Stable"}</p>
-              <p className="mt-1">Cut first if delayed: {selectedPlan.plan.blocks.filter((block) => block.type === "stop" && !block.lock).slice(-1)[0]?.title || "Last optional stop"}</p>
-              <p className="mt-1">Why this day works: {dayHero?.whyThisWorks}</p>
-            </div>
             <div className="fixed bottom-8 right-8 z-30 hidden items-center gap-2 lg:flex">
               <button onClick={actions.incrementBoardKey} className="rounded-full bg-slate-900 px-3 py-2 text-xs">+ Add stop</button>
               <button onClick={() => actions.setRecoveryOpen(true)} className="rounded-full bg-slate-900 px-3 py-2 text-xs">I&apos;m behind</button>
