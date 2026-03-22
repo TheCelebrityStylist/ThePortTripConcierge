@@ -21,7 +21,7 @@ type PortListItem = { id: string; name: string; region: string };
 
 /* ---------- Data Loader ---------- */
 async function loadDB(): Promise<DB> {
-  const file = path.join(process.cwd(), "data", "porttrip.json");
+  const file = path.join(process.cwd(), "porttrip.json");
   const raw = await readFile(file, "utf-8");
   return JSON.parse(raw) as DB;
 }
