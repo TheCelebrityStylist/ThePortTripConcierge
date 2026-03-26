@@ -1,0 +1,93 @@
+{
+  "ports": [
+    {
+      "slug": "barcelona",
+      "name": "Barcelona",
+      "aliases": ["barcelona", "barcelona cruise port"],
+      "cruise_terminal_location": "Adossat Cruise Terminal",
+      "tender": false,
+      "distance_to_city_center_km": 3.2,
+      "average_transfer_time_minutes": 20,
+      "high_risk_traffic_hours": ["14:30-17:30"],
+      "common_scams": ["Pickpocketing on Las Ramblas", "Unofficial taxi solicitation"],
+      "must_see_spots": ["Gothic Quarter", "La Boqueria", "Sagrada Família"],
+      "walkability_score": 8,
+      "attractions": [
+        {
+          "name": "Gothic Quarter",
+          "location_coords": [41.3838, 2.1765],
+          "average_visit_time_minutes": 75,
+          "entrance_fee_eur": 0,
+          "crowd_peak_hours": ["11:30-15:00"],
+          "category": "historic",
+          "distance_from_terminal_km": 2.9,
+          "walking_difficulty": "low"
+        },
+        {
+          "name": "La Boqueria",
+          "location_coords": [41.3822, 2.1718],
+          "average_visit_time_minutes": 45,
+          "entrance_fee_eur": 0,
+          "crowd_peak_hours": ["12:00-14:00"],
+          "category": "food market",
+          "distance_from_terminal_km": 3.1,
+          "walking_difficulty": "low"
+        },
+        {
+          "name": "Sagrada Família",
+          "location_coords": [41.4036, 2.1744],
+          "average_visit_time_minutes": 90,
+          "entrance_fee_eur": 26,
+          "crowd_peak_hours": ["10:30-14:30"],
+          "category": "landmark",
+          "distance_from_terminal_km": 6.2,
+          "walking_difficulty": "moderate"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "La Cova Fumada",
+          "near_terminal_flag": true,
+          "avg_price_eur": 15,
+          "cuisine_type": "tapas"
+        },
+        {
+          "name": "Bar Cañete",
+          "near_terminal_flag": false,
+          "avg_price_eur": 35,
+          "cuisine_type": "catalan"
+        }
+      ]
+    },
+    {
+      "slug": "naples",
+      "name": "Naples",
+      "aliases": ["naples", "napoli"],
+      "cruise_terminal_location": "Stazione Marittima",
+      "tender": false,
+      "distance_to_city_center_km": 1.5,
+      "average_transfer_time_minutes": 15,
+      "high_risk_traffic_hours": ["15:00-18:00"],
+      "common_scams": ["Taxi overcharging near port"],
+      "must_see_spots": ["Spaccanapoli", "Via Toledo", "Pompeii"],
+      "walkability_score": 7,
+      "attractions": [],
+      "restaurants": []
+    },
+    {
+      "slug": "santorini",
+      "name": "Santorini",
+      "aliases": ["santorini", "thira"],
+      "cruise_terminal_location": "Skala Tender Pier",
+      "tender": true,
+      "distance_to_city_center_km": 0.5,
+      "average_transfer_time_minutes": 25,
+      "high_risk_traffic_hours": ["13:00-17:00"],
+      "common_scams": ["ATV rental upsell"],
+      "must_see_spots": ["Fira", "Oia"],
+      "walkability_score": 5,
+      "attractions": [],
+      "restaurants": []
+    }
+  ]
+}

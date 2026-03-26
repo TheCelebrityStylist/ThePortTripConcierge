@@ -1,0 +1,10 @@
+export type BlogCategory = "Port Guide" | "Strategy" | "Budget" | "Safety";
+export type BlogDifficulty = "Easy" | "Moderate" | "Complex";
+export type TenderOrDock = "Tender" | "Dock" | "Mixed" | "Both";
+export type TimeInPortModel = "3–4 hours" | "5–7 hours" | "7–9 hours" | "10–12 hours" | "All windows";
+export type DataConfidence = "estimated" | "verified";
+export type BlogBlockKind = "KeyPoints" | "TimeModel" | "RoutePlans" | "BudgetModel" | "FailureScenarios" | "CrowdAvoidance" | "PortSpecificScams" | "Accessibility" | "QuickDecision" | "CTA";
+export type BlogContentBlock = { kind: BlogBlockKind; title: string; lede: string[]; body: string[]; bullets?: string[]; callout?: { title: string; text: string }; localTip?: string };
+export type BlogFaq = { q: string; a: string };
+export type BlogInternalLink = { title: string; href: string; anchorText: string };
+export type BlogArticle = { slug: string; title: string; subtitle: string; metaTitle: string; metaDescription: string; keywords: string[]; category: BlogCategory; region: string; portsMentioned?: string[]; difficulty: BlogDifficulty; tenderOrDock: TenderOrDock; timeInPortModel: TimeInPortModel; dataConfidence: DataConfidence; excerpt: string; contentBlocks: BlogContentBlock[]; faq: BlogFaq[]; internalLinks: BlogInternalLink[]; plannerCta: { label: string; href: string; prefillPort?: string }; publishedDate: string; updatedDate: string };

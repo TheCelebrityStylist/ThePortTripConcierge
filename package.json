@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "next build"
+    "vercel-build": "next build",
+    "blog:validate": "node scripts/validate-blog-uniqueness.mjs",
+    "prebuild": "npm run validate:guides",
+    "predev": "npm run validate:guides",
+    "validate:guides": "rm -rf .tmp-validate && tsc --module commonjs --target es2020 --moduleResolution node --esModuleInterop --skipLibCheck --outDir .tmp-validate scripts/validate-guides.ts app/data/blog-cms.ts app/data/blog-types.ts app/data/ports/ports.ts app/lib/content/generatePortArticle.ts app/lib/content/contentQuality.ts && node .tmp-validate/scripts/validate-guides.js"
   },
   "dependencies": {
     "@types/node": "20.6.2",

@@ -1,0 +1,24 @@
+{
+  "ports": [
+    {
+      "slug": "barcelona",
+      "name": "Barcelona",
+      "country": "Spain",
+      "terminal_name": "Adossat Cruise Terminal",
+      "dock_type": "dock",
+      "arrival_windows": ["07:00", "08:00"],
+      "all_aboard_windows": ["16:30", "17:00"],
+      "tender_wait_estimate_minutes": [0, 0],
+      "scams": ["pickpocketing"],
+      "closure_risks": ["Sunday retail closures"],
+      "strike_risk": "medium"
+    }
+  ],
+  "attractions": [],
+  "restaurants": [],
+  "cruise_lines": [],
+  "ships": [],
+  "blog_posts": [],
+  "seo_pages": [],
+  "user_itineraries": []
+}
