@@ -1,0 +1,37 @@
+{
+  "previewPort": 3000,
+  "healthPath": "/",
+  "startCommand": "docker compose -f docker-compose.base44.yml up -d",
+  "secrets": [
+    {
+      "name": "OPENAI_API_KEY",
+      "description": "OpenAI API key for the AI chat concierge (gpt-4o-mini + embeddings). Get it from https://platform.openai.com/api-keys",
+      "requiredAtBoot": false
+    },
+    {
+      "name": "STRIPE_SECRET_KEY",
+      "description": "Stripe secret key for checkout and subscription management. Get it from https://dashboard.stripe.com/apikeys",
+      "requiredAtBoot": false
+    },
+    {
+      "name": "STRIPE_WEBHOOK_SECRET",
+      "description": "Stripe webhook signing secret for verifying webhook events. Get it from https://dashboard.stripe.com/webhooks",
+      "requiredAtBoot": false
+    },
+    {
+      "name": "STRIPE_PRICE_PRO_ID",
+      "description": "Stripe Price ID for the Pro plan ($25/mo). Get it from https://dashboard.stripe.com/products",
+      "requiredAtBoot": false
+    },
+    {
+      "name": "STRIPE_PRICE_UNLIMITED_ID",
+      "description": "Stripe Price ID for the Unlimited plan. Get it from https://dashboard.stripe.com/products",
+      "requiredAtBoot": false
+    },
+    {
+      "name": "TAVILY_API_KEY",
+      "description": "Tavily API key for web search in the chat route. Get it from https://app.tavily.com/api-keys",
+      "requiredAtBoot": false
+    }
+  ]
+}
