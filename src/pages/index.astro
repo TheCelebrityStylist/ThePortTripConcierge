@@ -43,13 +43,13 @@ const jsonLd = [
     <a href={app('/day/dubrovnik?aa=18%3A00')} class="btn-dark sm:w-64" rel="nofollow">Plan a port free</a>
     <a href="#vs-ai" class="btn-light sm:w-64">Why not ChatGPT?</a>
   </Panel>
-  <section id="try" class="bg-navy text-white">
+  <section id="try" class="bg-paper text-navy">
     <div class="wrap grid items-center gap-10 py-16 sm:py-24 lg:grid-cols-[1fr_1.05fr] lg:gap-16">
       <div>
         <h2 class="text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl">Drag your all-aboard.<br />Watch the day move.</h2>
-        <p class="mt-5 max-w-md text-lg text-white/75">Every leave-by time counts the trip back and the queue at the pier. The striped part of each bar is the time the way back takes.</p>
+        <p class="mt-5 max-w-md text-lg text-navy/75">Every leave-by time counts the trip back and the queue at the pier. The red stripe on each bar is the time the way back takes.</p>
         <div class="mt-8 flex flex-wrap gap-2" role="tablist" aria-label="Choose a port">
-          {DEMO.map((d, i) => <button type="button" role="tab" aria-selected={i === 0 ? 'true' : 'false'} data-demo-tab={d.s} class="rounded-full px-4 py-2 text-sm font-semibold ring-1 ring-white/25 transition-colors aria-selected:bg-signal aria-selected:text-navy aria-selected:ring-signal hover:bg-white/10 aria-selected:hover:bg-signal">{d.city}</button>)}
+          {DEMO.map((d, i) => <button type="button" role="tab" aria-selected={i === 0 ? 'true' : 'false'} data-demo-tab={d.s} class="rounded-full bg-white/70 px-4 py-2 text-sm font-bold ring-1 ring-navy/15 transition-colors hover:bg-white aria-selected:bg-navy aria-selected:text-white aria-selected:ring-navy aria-selected:hover:bg-navy">{d.city}</button>)}
         </div>
         <p class="mt-8"><a href={app('/day/santorini?aa=17%3A30')} data-demo-plan class="btn-signal" rel="nofollow">Plan this port free</a></p>
       </div>

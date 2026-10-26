@@ -4,20 +4,22 @@
 
 @layer base {
   html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
-  body { @apply bg-white text-navy antialiased; font-feature-settings: 'cv11', 'ss01'; }
+  body { @apply bg-paper text-navy antialiased; font-feature-settings: 'cv11', 'ss01'; }
+  h1, h2, .display { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; letter-spacing: -0.01em; }
+  .time { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; font-variant-numeric: tabular-nums; }
   :focus-visible { @apply outline-2 outline-offset-2 outline-sea; outline-style: solid; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 }
 @layer components {
   .wrap { @apply mx-auto w-full max-w-6xl px-5 sm:px-8; }
-  .btn-dark { @apply inline-flex h-11 items-center justify-center rounded bg-ink/85 px-6 text-sm font-medium text-white transition-colors hover:bg-ink; }
-  .btn-light { @apply inline-flex h-11 items-center justify-center rounded bg-white/80 px-6 text-sm font-medium text-ink backdrop-blur-sm transition-colors hover:bg-white; }
-  .btn-signal { @apply inline-flex h-12 items-center justify-center rounded-lg bg-signal px-6 font-semibold text-navy transition-colors hover:bg-signalHover; }
-  .btn-navy { @apply inline-flex h-12 items-center justify-center rounded-lg bg-navy px-6 font-semibold text-white transition-colors hover:bg-navy/90; }
-  .h-section { @apply text-2xl font-semibold tracking-tight sm:text-3xl; }
-  .card { @apply rounded-2xl bg-white ring-1 ring-navy/10; }
+  .btn-dark { @apply inline-flex h-11 items-center justify-center rounded-xl bg-ink/85 px-6 text-sm font-medium text-white transition-colors hover:bg-ink; }
+  .btn-light { @apply inline-flex h-11 items-center justify-center rounded-xl bg-white/80 px-6 text-sm font-medium text-ink backdrop-blur-sm transition-colors hover:bg-white; }
+  .btn-signal { @apply inline-flex h-12 items-center justify-center rounded-xl bg-signal px-6 font-bold text-navy transition-colors hover:bg-signalHover; }
+  .btn-navy { @apply inline-flex h-12 items-center justify-center rounded-xl bg-navy px-6 font-bold text-white transition-colors hover:bg-navy/90; }
+  .h-section { @apply font-display text-2xl font-black sm:text-3xl; }
+  .card { @apply rounded-3xl bg-white/80 shadow-[0_1px_0_rgba(18,50,74,0.08)] ring-1 ring-navy/[0.06]; }
   .eyebrow-free { @apply text-sm text-navy/60; }
-  .doc { @apply prose prose-slate max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-headings:text-navy prose-a:text-sea prose-a:underline-offset-2 prose-strong:text-navy prose-table:text-sm prose-th:text-left; }
+  .doc { @apply prose prose-slate max-w-none prose-headings:text-navy prose-h3:font-sans prose-h3:font-bold prose-a:text-sea prose-a:underline-offset-2 prose-strong:text-navy prose-table:text-sm prose-th:text-left; }
 }
 
 .kenburns { animation: kenburns 22s ease-out both; transform-origin: 60% 40%; }

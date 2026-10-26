@@ -27,7 +27,7 @@ const ld = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
   {lcpImage && <link rel="preload" as="image" imagesrcset={lcpImage.srcset} imagesizes="100vw" href={lcpImage.src} fetchpriority="high" />}
   {ld.filter(Boolean).map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
 </head>

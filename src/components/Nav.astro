@@ -2,16 +2,16 @@
 import { app } from '../lib/site.js';
 const { dark = false } = Astro.props;
 ---
-<header id="nav" data-dark={dark ? '1' : '0'} class:list={['fixed inset-x-0 top-0 z-40 transition-colors duration-200', dark ? 'text-white' : 'border-b border-navy/10 bg-white/90 text-navy backdrop-blur']}>
+<header id="nav" data-dark={dark ? '1' : '0'} class:list={['fixed inset-x-0 top-0 z-40 transition-colors duration-200', dark ? 'text-white' : 'border-b border-navy/10 bg-paper/90 text-navy backdrop-blur']}>
   <div class="wrap flex h-14 items-center gap-6">
-    <a href="/" class="text-lg font-semibold tracking-tight">PortTrip</a>
+    <a href="/" class="inline-flex items-center gap-2 text-base font-black tracking-tight"><span class="grid h-7 w-7 place-items-center rounded-lg bg-anchor text-white shadow-sm"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="3"/><path d="M12 22V8M5 12H2a10 10 0 0 0 20 0h-3"/></svg></span>PortTrip</a>
     <nav aria-label="Main" class="ml-auto hidden items-center gap-6 text-sm md:flex">
       <a href="/ports" class="opacity-80 hover:opacity-100">Ports</a>
       <a href="/cruise-port-index" class="opacity-80 hover:opacity-100">Port index</a>
       <a href="/blog" class="opacity-80 hover:opacity-100">Guides</a>
       <a href="/pricing" class="opacity-80 hover:opacity-100">Pricing</a>
       <a href={app('/login')} class="opacity-80 hover:opacity-100" rel="nofollow">Sign in</a>
-      <a href={app('/day/dubrovnik?aa=18%3A00')} class:list={['rounded px-4 py-2 font-medium', dark ? 'nav-cta bg-white/15 ring-1 ring-white/30 backdrop-blur hover:bg-white/25' : 'bg-navy text-white hover:bg-navy/90']} rel="nofollow">Plan free</a>
+      <a href={app('/day/dubrovnik?aa=18%3A00')} class:list={['rounded-xl px-4 py-2 font-bold', dark ? 'nav-cta bg-white/15 ring-1 ring-white/30 backdrop-blur hover:bg-white/25' : 'bg-navy text-white hover:bg-navy/90']} rel="nofollow">Plan free</a>
     </nav>
     <details class="relative ml-auto md:hidden">
       <summary class="list-none cursor-pointer rounded p-2 [&::-webkit-details-marker]:hidden" aria-label="Menu">
@@ -32,7 +32,7 @@ const { dark = false } = Astro.props;
   <script is:inline>
     (function () {
       var n = document.getElementById('nav'); if (!n) return;
-      var light = ['border-b','border-navy/10','bg-white/90','text-navy','backdrop-blur'];
+      var light = ['border-b','border-navy/10','bg-paper/90','text-navy','backdrop-blur'];
       function on() { var top = window.scrollY < 40; n.classList.toggle('text-white', top); light.forEach(function (c) { n.classList.toggle(c, !top); }); }
       on(); window.addEventListener('scroll', on, { passive: true });
     })();

@@ -1,0 +1,100 @@
+---
+// Viator tours for one port, checked against the time you have ashore.
+// Snapshot from the Viator API (src/data/tours.json); booking happens on Viator at the live price.
+import TOURS from '../data/tours.json';
+import { fmt, toMin, dur } from '../lib/site.js';
+const { slug, city, ashore = null, defaultAA = '17:30', leaveMin = null } = Astro.props;
+const data = TOURS[slug];
+const tours = data?.tours || [];
+const aa = toMin(defaultAA);
+const ash = ashore ? toMin(ashore) : null;
+// Window = ashore until you must leave the centre (leave-by already counts the way back and the queue).
+const windowMin = ash != null && leaveMin != null ? aa - leaveMin - ash : null;
+const fit = (t) => windowMin == null ? null : t.max <= windowMin - 60 ? 'fits' : t.max <= windowMin ? 'tight' : 'long';
+const LABEL = { fits: 'Fits your day', tight: 'Tight: start early', long: 'Too long for this call' };
+const TONE = { fits: 'bg-sea/90 text-white', tight: 'bg-buoy/90 text-navy', long: 'bg-plimsoll/90 text-white' };
+const durLabel = (t) => t.min === t.max ? dur(t.min) : `${dur(t.min)}–${dur(t.max)}`;
+const from = tours.length ? Math.min(...tours.map((t) => t.price)) : null;
+---
+{tours.length > 0 && (
+<section id="tours" class="scroll-mt-28" data-tours data-window={windowMin ?? ''} data-ashore={ash ?? ''} data-leave={leaveMin ?? ''}>
+  <div class="flex flex-wrap items-end justify-between gap-3">
+    <h2 class="h-section">Tours in {city}</h2>
+    <p class="text-sm text-navy/60">{tours.length} top-rated on Viator, from €{from}</p>
+  </div>
+  <p class="mt-3 max-w-2xl text-navy/75">Each tour is checked against your time ashore{windowMin != null ? <> (<span data-window-out>{dur(windowMin)}</span> on a <span data-aa-label>{defaultAA}</span> all-aboard)</> : ''}. If a tour you booked yourself runs late, the ship does not wait.</p>
+  <div class="mt-5 flex flex-wrap gap-2" role="group" aria-label="Filter tours">
+    {[['all', 'All'], ['fits', 'Fits my day'], ['short', 'Under 3 hours'], ['shore', 'Made for cruise passengers'], ['free', 'Free cancellation']].map(([k, l], i) => (
+      <button type="button" data-filter={k} aria-pressed={i === 0 ? 'true' : 'false'} class="rounded-full border border-navy/15 bg-white/70 px-4 py-2 text-sm font-bold text-navy/75 transition-colors hover:text-navy aria-pressed:border-navy aria-pressed:bg-navy aria-pressed:text-white">{l}</button>
+    ))}
+  </div>
+  <ul class="mt-6 grid gap-4 sm:grid-cols-2">
+    {tours.map((t) => { const f = fit(t); return (
+      <li data-tour data-max={t.max} data-shore={t.shore ? '1' : ''} data-free={t.free ? '1' : ''}>
+        <a href={t.url} rel="sponsored nofollow noopener" target="_blank" class="group flex h-full flex-col overflow-hidden rounded-3xl bg-white/80 ring-1 ring-navy/[0.06] transition hover:-translate-y-0.5 hover:shadow-[0_12px_30px_-12px_rgba(18,50,74,0.35)]">
+          <span class="relative block aspect-[3/2] overflow-hidden bg-seaSoft">
+            <img src={t.img} alt="" loading="lazy" decoding="async" width="480" height="320" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            {f && <span class:list={['absolute left-3 top-3 rounded-full px-2.5 py-1 text-xs font-bold backdrop-blur', TONE[f]]} data-fit>{LABEL[f]}</span>}
+          </span>
+          <span class="flex flex-1 flex-col p-4">
+            <span class="line-clamp-2 font-bold leading-snug text-navy">{t.title}</span>
+            <span class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-navy/70">
+              <span><span class="text-buoy" aria-hidden="true">★</span> {t.rating.toFixed(1)} <span class="text-navy/50">({t.reviews.toLocaleString('en-GB')})</span></span>
+              <span>{durLabel(t)}</span>
+            </span>
+            <span class="mt-2 flex flex-wrap gap-1.5 text-xs font-semibold">
+              {t.shore && <span class="rounded-full bg-seaSoft px-2 py-0.5 text-sea">For cruise passengers</span>}
+              {t.free && <span class="rounded-full bg-paper px-2 py-0.5 text-navy/70">Free cancellation</span>}
+              {t.private && <span class="rounded-full bg-paper px-2 py-0.5 text-navy/70">Private</span>}
+            </span>
+            <span class="mt-auto flex items-end justify-between pt-4">
+              <span class="text-sm text-navy/60">from <span class="time text-2xl text-navy">€{t.price}</span></span>
+              <span class="text-sm font-bold text-sea group-hover:underline">See on Viator</span>
+            </span>
+          </span>
+        </a>
+      </li>
+    ); })}
+  </ul>
+  <p class="mt-4 text-xs text-navy/55">Prices are Viator’s “from” prices in euros, checked 27 October 2026. You book and pay on Viator. If you book through these links we may earn a commission; it never changes the price or what we recommend.</p>
+</section>
+)}
+<script is:inline>
+(function () {
+  if (window.__tours) return; window.__tours = 1;
+  function d(m) { var h = Math.floor(m / 60), r = m % 60; return h ? h + ' h' + (r ? ' ' + r + ' min' : '') : r + ' min'; }
+  var LABEL = { fits: 'Fits your day', tight: 'Tight: start early', long: 'Too long for this call' };
+  var TONE = { fits: 'bg-sea/90 text-white', tight: 'bg-buoy/90 text-navy', long: 'bg-plimsoll/90 text-white' };
+  function init() { document.querySelectorAll('[data-tours]').forEach(function (s) {
+    var win = s.getAttribute('data-window'); win = win === '' ? null : +win;
+    var ash = s.getAttribute('data-ashore'), leave = s.getAttribute('data-leave');
+    var mode = 'all';
+    function classify(max) { return win == null ? null : max <= win - 60 ? 'fits' : max <= win ? 'tight' : 'long'; }
+    function apply() {
+      s.querySelectorAll('[data-tour]').forEach(function (li) {
+        var max = +li.getAttribute('data-max'), f = classify(max), show = true;
+        var chip = li.querySelector('[data-fit]');
+        if (chip && f) { chip.textContent = LABEL[f]; chip.className = 'absolute left-3 top-3 rounded-full px-2.5 py-1 text-xs font-bold backdrop-blur ' + TONE[f]; }
+        if (mode === 'fits') show = f === 'fits' || f === 'tight';
+        if (mode === 'short') show = max <= 180;
+        if (mode === 'shore') show = !!li.getAttribute('data-shore');
+        if (mode === 'free') show = !!li.getAttribute('data-free');
+        li.hidden = !show;
+      });
+    }
+    s.querySelectorAll('[data-filter]').forEach(function (b) { b.addEventListener('click', function () {
+      mode = b.getAttribute('data-filter');
+      s.querySelectorAll('[data-filter]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      apply();
+    }); });
+    window.addEventListener('pt:aa', function (e) {
+      if (ash === '' || leave === '') return;
+      win = e.detail.aa - (+leave) - (+ash);
+      var o = s.querySelector('[data-window-out]'); if (o) o.textContent = d(Math.max(0, win));
+      var l = s.querySelector('[data-aa-label]'); if (l) l.textContent = e.detail.label;
+      apply();
+    });
+  }); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();
+</script>
