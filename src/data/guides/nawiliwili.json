@@ -1,0 +1,394 @@
+{
+ "slug": "nawiliwili",
+ "city": "Nawiliwili (Lihue)",
+ "portName": "Nawiliwili Harbor",
+ "townName": "Lihue",
+ "country": "USA",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English (Hawaiian place names are widely used)",
+ "timezone": "HST (UTC-10), no daylight saving time",
+ "lastVerified": "October 2026",
+ "seoTitle": "Nawiliwili cruise port guide: Kalapaki, Lihue and Kauai",
+ "seoDescription": "Ships dock at Nawiliwili, 3 km from Lihue. Kalapaki Beach is a 20-min walk; Kauai Museum $15 (2026). Waimea Canyon closed after Hurricane Lowell (Oct 2026).",
+ "quickAnswer": "Ships dock at a pier in Nawiliwili Harbor, so there is no tender. Kalapaki Beach and the Anchor Cove and Harbor Mall shops are within walking distance, but Lihue is about 3 km away and best reached by taxi, ride-hail or rental car (about 10 minutes). Be back at the ship at least 60 minutes before all-aboard, and 90 minutes or more if you drive to the south or north shore.",
+ "intro": "Nawiliwili is Kauai's main harbour, a short drive below Lihue, the island's commercial and government centre. The pier sits close to Kalapaki Bay, a sheltered beach with restaurants, so a slow day needs no transport at all. Everything else on Kauai is spread along one main road around the island, which is why many passengers rent a car. In autumn 2026 the day is also shaped by Hurricane Lowell: Waimea Canyon and Koke'e state parks remained closed in mid-October, and access to parts of the Wailua River was restricted. Check current closures before you plan anything beyond Lihue.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Nawiliwili Harbor cruise pier",
+   "distanceToCentreKm": 3,
+   "notes": "Ships berth alongside; no tendering. Rental car company shuttles wait at the terminal to take you to their offices, and taxis and ride-hail cars pick up nearby. Some ships, including Norwegian's Pride of America, stay overnight here."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 20,
+  "km": 3,
+  "detail": "Kalapaki Beach is about a 20-minute walk from the terminal, and the Anchor Cove and Harbor Mall shops are closer. Lihue itself is about 3 km away by road and is not a sensible walk; take a car for 10 minutes instead."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot to Kalapaki Beach and the harbour shops",
+   "cost": "Free",
+   "time": "About 20 min to Kalapaki Beach",
+   "detail": "Follow the harbour road towards Kalapaki Bay. Harbor Mall and Anchor Cove Shopping Center are on the way and closer to the pier."
+  },
+  {
+   "mode": "Taxi or ride-hail (Uber, Lyft)",
+   "cost": "Metered or app fare; agree or check before you go",
+   "time": "About 10 min to Lihue",
+   "detail": "Available at or near the port. Fine for Lihue, the Kauai Museum and Kilohana; costly for longer trips around the island."
+  },
+  {
+   "mode": "Rental car",
+   "cost": "Book ahead; prices vary by date",
+   "time": "About 30 min to Poipu, about 1 hour to Hanalei",
+   "detail": "The most flexible way to see the island. Agency shuttles meet passengers at the terminal and take them to the rental offices. There is essentially one main road around the island, so navigation is simple but traffic can slow returns."
+  },
+  {
+   "mode": "The Kaua'i Bus",
+   "cost": "Pay by contactless card or phone (Visa, Mastercard, Discover, Apple Pay, Google Pay) or Holomua card; check kauai.gov for the current fare",
+   "time": "Varies by route",
+   "detail": "County bus with routes through Lihue, including Route 70 Lihue and the 100/200 and 400/500 mainline routes. There is no service on Sundays. Generally not practical for a timed cruise day."
+  },
+  {
+   "mode": "Free shopping shuttles",
+   "cost": "Free",
+   "time": "Short ride",
+   "detail": "Shuttles to Lihue shopping centres are often available on ship days. Who runs them and how often varies by ship; check the pier on arrival."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the ship 60 minutes before all-aboard from Kalapaki or Lihue. If you drive to Poipu or the north shore, leave 90 minutes plus the full drive time.",
+  "detail": "Kauai's main road is the only route for most trips, so one accident or roadworks can stop traffic. Hurricane Lowell recovery work was still under way in October 2026, and rain can slow the scenic drives. Return the rental car early enough to ride the agency shuttle back to the pier.",
+  "emergencyFallback": "If you are running late, call a taxi or ride-hail straight to Nawiliwili Harbor rather than waiting for a bus. If you will miss all-aboard, call the port agent number in your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Kauai Museum, Lihue",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$15 adult admission (2026) plus a short taxi or ride-hail",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "Wailua River and Fern Grotto boat trip",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Book Smith's boat tour directly; rental car or taxi to Wailua",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "For Kalapaki Beach, Lihue and the Kauai Museum you do not need a ship tour. A rental car is the best value for a couple or family who want Poipu, Spouting Horn or the north shore, as long as you leave a generous return margin. Ship tours earn their price for helicopter flights, boat trips along the coast, and anywhere the drive back is long, because the ship waits for its own tours. While Waimea Canyon and Koke'e are closed after Hurricane Lowell, do not book any tour that depends on them without confirming it is running.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Off the ship. Take a rental car shuttle from the terminal, or a taxi or ride-hail to Lihue."
+   },
+   {
+    "time": "09:15",
+    "what": "Kauai Museum on Rice Street, Lihue (opens 09:00 Monday to Friday; closed Sundays)."
+   },
+   {
+    "time": "10:45",
+    "what": "Kilohana Plantation: the plantation estate, its railway and the Koloa Rum Company tasting room."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch in Lihue, for example saimin at Hamura Saimin."
+   },
+   {
+    "time": "13:15",
+    "what": "Back towards the harbour. Swim and relax at Kalapaki Beach; no lifeguards, so stay inside the bay."
+   },
+   {
+    "time": "15:30",
+    "what": "Snack at Kalapaki Beach Hut or a drink at Duke's Kauai. Return any rental car by 15:30 if you have one."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Kalapaki Beach",
+   "why": "A sheltered sandy bay next to the harbour with gentle slopes and calm water for swimming and paddleboarding.",
+   "timeNeeded": "1–3 hours",
+   "cost": "Free",
+   "tip": "There are no lifeguards. Breakwalls usually keep it calm, but winter swells can bring rip currents."
+  },
+  {
+   "name": "Kauai Museum",
+   "why": "The island's history in a lava-rock building on Rice Street: geology, early Hawaiian life, Captain Cook's arrival at Waimea and the monarchy.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "$15 adult, $12 seniors, $10 ages 8–17 (2026)",
+   "tip": "Open 09:00–16:00 Monday to Friday and closed on Sundays."
+  },
+  {
+   "name": "Kilohana Plantation",
+   "why": "A former plantation estate near Lihue with a railway, orchard, Gaylord's restaurant and the Koloa Rum Company.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Railway, tastings and meals priced separately",
+   "tip": "Easy to pair with the Kauai Museum on a short taxi loop."
+  },
+  {
+   "name": "Wailua River and the Fern Grotto",
+   "why": "Kauai's best-known river trip; Smith's Motor Boat Tours run upriver to the Fern Grotto landing.",
+   "timeNeeded": "2.5–3 hours including the drive",
+   "cost": "Boat tour priced by the operator",
+   "tip": "After Hurricane Lowell the river reopened with limits in September 2026: hiking beyond the trailhead and access to Uluwehi (Secret) Falls were closed, and individual kayakers could not enter the Fern Grotto. Check before you go."
+  },
+  {
+   "name": "Poipu and Spouting Horn",
+   "why": "The sunny south shore, about 30 minutes' drive, with Poipu Beach Park and the Spouting Horn blowhole at the end of Lawai Road.",
+   "timeNeeded": "3–4 hours including the drive",
+   "cost": "Parking on site; no entry fee stated by sources",
+   "tip": "Spouting Horn is best when a south swell is running. Plan the drive back with a 90-minute margin."
+  },
+  {
+   "name": "Waimea Canyon State Park",
+   "why": "Normally Kauai's most famous view, about an hour's drive each way from the port.",
+   "timeNeeded": "5–6 hours including the drive",
+   "cost": "When open, non-residents pay $5 per person entry plus $10 per car parking (2026)",
+   "tip": "Closed until further notice after Hurricane Lowell, together with Koke'e State Park and Koke'e Road (as of 13 October 2026). Do not plan it unless the state parks website shows it open."
+  },
+  {
+   "name": "Anchor Cove and Harbor Mall",
+   "why": "Shops and cafés within walking distance of the pier, useful for a short or rainy day.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free",
+   "tip": "Good last stop before reboarding."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Kalapaki Beach",
+   "howToGetThere": "Walk from the cruise terminal",
+   "time": "About 20 min on foot",
+   "cost": "Free",
+   "note": "Sheltered by breakwalls; restrooms, shade, gear rental and restaurants. No lifeguards."
+  },
+  {
+   "name": "Poipu Beach Park",
+   "howToGetThere": "Rental car, taxi or ride-hail",
+   "time": "About 30 min by car",
+   "cost": "No entry fee stated by sources",
+   "note": "South-shore beach park; allow a 90-minute return margin because of the drive."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fresh fish and Hawaiian-style seafood",
+   "where": "Duke's Kauai, oceanfront on Kalapaki Bay",
+   "price": null
+  },
+  {
+   "dish": "Burgers and shave ice",
+   "where": "Kalapaki Beach Hut, Rice Street (footbridge at the south end of Kalapaki Beach)",
+   "price": null
+  },
+  {
+   "dish": "Saimin (Hawaiian noodle soup)",
+   "where": "Hamura Saimin, Lihue",
+   "price": null
+  },
+  {
+   "dish": "Banana macadamia nut pancakes or oxtail soup",
+   "where": "Tip Top Cafe & Bakery, Lihue",
+   "price": null
+  },
+  {
+   "dish": "Lunch on the plantation",
+   "where": "The Plantation House by Gaylord's, Kilohana Plantation",
+   "price": null
+  },
+  {
+   "dish": "Rum tasting",
+   "where": "Koloa Rum Company, Kilohana Plantation",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning a Waimea Canyon drive in autumn 2026.",
+   "fix": "Waimea Canyon, Koke'e and Koke'e Road were closed after Hurricane Lowell as of mid-October 2026. Check the state parks site before you plan, and choose Poipu or Lihue instead."
+  },
+  {
+   "mistake": "Trying to walk to Lihue.",
+   "fix": "It is about 3 km along busy roads. Walk to Kalapaki Beach and take a car for Lihue."
+  },
+  {
+   "mistake": "Counting on the county bus on a Sunday.",
+   "fix": "The Kaua'i Bus does not run on Sundays. Use a rental car, taxi or ride-hail."
+  },
+  {
+   "mistake": "Returning a rental car at the last minute.",
+   "fix": "Allow time to return the car and ride the agency shuttle to the pier; aim to drop it 2 hours before all-aboard."
+  },
+  {
+   "mistake": "Swimming at Kalapaki in winter surf without checking conditions.",
+   "fix": "There are no lifeguards and winter swells can cause rip currents. Swim only when the bay is calm."
+  }
+ ],
+ "safety": "Kauai is generally safe for visitors. The main hazards are the ocean and the roads. Kalapaki Beach has no lifeguards, and rip currents can form in rough winter conditions, so follow posted signs and stay in calm water. Do not leave valuables in a parked car at beaches or lookouts. After Hurricane Lowell in September 2026, many state lands closed; obey closure signs and barricades, which exist because of fallen trees and damaged trails. Carry your ship card and photo ID.",
+ "scams": [
+  "Unlicensed drivers offering rides: use licensed taxis, the app-based ride-hail services or your pre-booked rental car shuttle."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The ship docks alongside, so there is no tender transfer. The area near the pier, the harbour shops and the paved path at Kalapaki Beach are the easiest places to explore; the beach itself is sand. Listings show accessible parking and an accessible restroom at the Kauai Museum; confirm on arrival. Accessible vans should be booked in advance. Many outdoor sights involve sand, steps or uneven trails.",
+ "rainyDay": "Kauai's rainiest months are typically March, October and December. Spend the morning in the Kauai Museum (closed Sundays), then lunch in Lihue and the shops at Kilohana, Anchor Cove or Harbor Mall. Scenic drives lose their views in low cloud and can be slowed by rain, so stay close to the port.",
+ "crowdTips": "Rental car shuttles and taxis are busiest straight after the ship clears, when most passengers leave at once. Book a rental car in advance, or spend the first part of the morning at Kalapaki Beach and the harbour shops and head out once the queue has gone. Kalapaki is calmest early, before passengers on beach days arrive. Check the cruise schedule on the Hawaii DOT Harbors site to see whether another ship is in port on your date.",
+ "faqs": [
+  {
+   "q": "Is Nawiliwili a tender port?",
+   "a": "No. Ships dock at a pier in Nawiliwili Harbor."
+  },
+  {
+   "q": "Is Lihue walkable from the Nawiliwili cruise port?",
+   "a": "Not really. Lihue is about 3 km away along busy roads. Kalapaki Beach and the harbour shops are walkable, about 20 minutes to the beach."
+  },
+  {
+   "q": "How do I get from Nawiliwili cruise port to Lihue?",
+   "a": "Taxi or ride-hail takes about 10 minutes. Rental car shuttles also run from the terminal to agency offices."
+  },
+  {
+   "q": "Beaches near Nawiliwili cruise port?",
+   "a": "Kalapaki Beach is a 20-minute walk and sheltered by breakwalls, but has no lifeguards. Poipu Beach Park is about 30 minutes by car."
+  },
+  {
+   "q": "Is Waimea Canyon open in October 2026?",
+   "a": "No. Waimea Canyon and Koke'e state parks remained closed until further notice after Hurricane Lowell as of 13 October 2026."
+  },
+  {
+   "q": "What can I do in Kauai in one day from a cruise ship?",
+   "a": "Kalapaki Beach, the Kauai Museum and Kilohana Plantation near Lihue, or a drive to Poipu and Spouting Horn."
+  },
+  {
+   "q": "Does the Kauai bus run on Sundays?",
+   "a": "No. The Kaua'i Bus has no Sunday service."
+  },
+  {
+   "q": "Is Kauai safe for cruise passengers?",
+   "a": "Yes. Take care in the ocean, where there are often no lifeguards, and do not leave valuables in cars."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Kalapaki Beach"
+  },
+  {
+   "name": "Kauai Museum"
+  },
+  {
+   "name": "Kilohana Plantation"
+  },
+  {
+   "name": "Wailua River and Fern Grotto"
+  },
+  {
+   "name": "Poipu Beach Park"
+  },
+  {
+   "name": "Spouting Horn"
+  },
+  {
+   "name": "Waimea Canyon State Park"
+  }
+ ],
+ "sources": [
+  {
+   "title": "County of Kaua'i – The Kaua'i Bus schedules",
+   "url": "https://kauai.gov/busschedules"
+  },
+  {
+   "title": "County of Kaua'i – The Kaua'i Bus announces new payment methods (August 2026)",
+   "url": "https://www.kauai.gov/County-Press-Releases/The-Kaua‘i-Bus-announces-new-payment-methods-for-bus-fares-2026"
+  },
+  {
+   "title": "Hawaii DOT Harbors Division – FAQs",
+   "url": "https://hidot.hawaii.gov/harbors/faqs"
+  },
+  {
+   "title": "Hawaii DOT Harbors Division – harbors overview",
+   "url": "https://hidot.hawaii.gov/harbors/?p=23"
+  },
+  {
+   "title": "Hawaii DLNR State Parks – Waimea Canyon State Park",
+   "url": "https://dlnr.hawaii.gov/dsp/parks/waimea-canyon-state-park/"
+  },
+  {
+   "title": "Go Hawaii (Hawaii Tourism Authority) – Kaua'i Museum",
+   "url": "https://www.gohawaii.com/islands/kauai/regions/lihue/kauai-museum"
+  },
+  {
+   "title": "Hawaii News Now – Haena State Park to reopen after Hurricane Lowell closure (October 2026)",
+   "url": "https://www.hawaiinewsnow.com/2026/10/14/haena-state-park-reopen-oct-15-after-hurricane-lowell-closure/"
+  },
+  {
+   "title": "Hawaii News Now – DLNR lands on Kauai closed due to storm damage (September 2026)",
+   "url": "https://www.hawaiinewsnow.com/2026/09/17/dlnr-lands-kauai-closed-foreseeable-future-due-storm-damage/"
+  },
+  {
+   "title": "The Garden Island – DLNR announces limited reopening of select Kaua'i lands (September 2026)",
+   "url": "https://www.thegardenisland.com/?p=425011"
+  },
+  {
+   "title": "Hawaii News Now – Kauai County free transit cards (January 2026)",
+   "url": "https://www.hawaiinewsnow.com/2026/01/03/kauai-county-offers-free-transit-cards-celebrate-new-bus-routes/"
+  },
+  {
+   "title": "Hawaii Guide – Kauai Museum (2026)",
+   "url": "https://www.hawaii-guide.com/kauai/sights/kauai-museum"
+  },
+  {
+   "title": "Hawaii Guide – Kauai casual dining",
+   "url": "https://aws.hawaii-guide.com/blog/kauai-casual-dining"
+  },
+  {
+   "title": "Cruise Sheet – Kauai (Nawiliwili) port",
+   "url": "https://cruisesheet.com/port/kauai"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Nawiliwili, Kauai (checked May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/nawiliwili-kauai-hawaii/"
+  },
+  {
+   "title": "What's In Port – Nawiliwili, Kauai",
+   "url": "https://www.whatsinport.com/Nawiliwili-Kauai-Hawaii.htm"
+  },
+  {
+   "title": "Makana Charters – Kalapaki Beach",
+   "url": "https://makanacharters.com/kalapaki-beach/"
+  },
+  {
+   "title": "Makana Charters – Things to do in Kauai on a cruise ship",
+   "url": "https://makanacharters.com/?p=8178"
+  },
+  {
+   "title": "OpenTable – Restaurants near Nawiliwili",
+   "url": "https://www.opentable.co.uk/landmark/restaurants-near-nawiliwili-harbor"
+  },
+  {
+   "title": "Nautical Flock – Pride of America itinerary",
+   "url": "https://www.nauticalflock.com/ships/pride-of-america/sailings/62985"
+  }
+ ],
+ "uncertain": [
+  "Current Kaua'i Bus adult fare and day-pass price for 2026 (only undated figures found)",
+  "Whether any Kaua'i Bus route stops at the cruise pier",
+  "Kauai Museum Saturday opening hours (sources disagree)",
+  "Status of the Wailua Falls lookout after Hurricane Lowell",
+  "Taxi fares from the pier to Lihue, Poipu or Wailua",
+  "Typical arrival and all-aboard times for Nawiliwili calls",
+  "Smith's Fern Grotto boat tour prices and 2026 schedule"
+ ]
+}

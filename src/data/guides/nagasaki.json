@@ -1,0 +1,369 @@
+{
+ "slug": "nagasaki",
+ "city": "Nagasaki",
+ "portName": "Port of Nagasaki (Matsugae International Terminal)",
+ "townName": "central Nagasaki",
+ "country": "Japan",
+ "currency": "JPY",
+ "currencySymbol": "¥",
+ "language": "Japanese",
+ "timezone": "JST (UTC+9), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Nagasaki cruise port guide: Matsugae, Glover Garden, trams",
+ "seoDescription": "Matsugae terminal is a 3-min walk from the tram and 10–15 min from Glover Garden (¥1,300, 2026). Tram ¥150 a ride, day pass ¥600. Peace Park by tram.",
+ "quickAnswer": "Nagasaki is a docking port: most ships berth at the Matsugae International Terminal, in town below Glover Garden. You can walk to Glover Garden, Oura Cathedral and Chinatown in 5–15 minutes, and the Oura Kaigan-dori tram stop is 3 minutes away for the Peace Park (¥150 a ride). Leave the Peace Park area 90 minutes before all-aboard and the Glover Garden area 60–75 minutes before.",
+ "intro": "Nagasaki's cruise terminal sits on the harbour in the old foreign quarter, so Glover Garden, Oura Cathedral and Chinatown are all on foot. The Peace Park, the hypocentre and the Atomic Bomb Museum are in the north of the city and need the tram or a taxi. The port has one large cruise berth at Matsugae; a second berth extending it south is being built, so on busy days a smaller ship may be sent to the Tokiwa-Dejima pier nearby or, on Sundays, to Kosakaki-Yanagi further down the harbour. Note the April 2026 fee changes at city-run sights.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Matsugae International Terminal (Matsugae Pier)",
+   "distanceToCentreKm": null,
+   "notes": "Main cruise berth, built for ships up to about 160,000 GT. Two terminal buildings, an information space, free Wi-Fi and a one-day tram pass on sale. Oura Kaigan-dori tram stop is about 3 minutes' walk; JR Nagasaki station about 10 minutes by taxi. A second berth, 410 m extending the quay south, is under construction; a 2022 government evaluation put completion in fiscal 2028."
+  },
+  {
+   "name": "Tokiwa-Dejima pier",
+   "distanceToCentreKm": null,
+   "notes": "Smaller cruise berth for ships of about 70,000 GT and under, about 6 minutes' walk from Matsugae. Used when two ships are in."
+  },
+  {
+   "name": "Kosakaki-Yanagi wharf",
+   "distanceToCentreKm": null,
+   "notes": "Cargo wharf further down the harbour, available to cruise ships on Sundays only. If your ship is here, ask the ship how you reach the city before you go ashore."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": null,
+  "detail": "From Matsugae, Oura Cathedral and Glover Garden are about 10–15 minutes uphill, Chinatown 5–10 minutes and Dejima 10–15 minutes on the flat. The Peace Park and the Atomic Bomb Museum are too far for most cruise walkers; use the tram."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5–15 min to Chinatown, Dejima, Oura Cathedral and Glover Garden",
+   "detail": "The slope up to Glover Garden is steep in places. The Shikairo restaurant at the start of Minami-Yamate street is right by the terminal."
+  },
+  {
+   "mode": "Tram (Nagasaki Electric Tramway)",
+   "cost": "¥150 a ride; one-day pass ¥600, 24-hour pass ¥700 (2026)",
+   "time": "Oura Kaigan-dori stop is 3 min from the terminal",
+   "detail": "For the Peace Park: line 5 from Oura Kaigan-dori two stops to Shinchi Chinatown, cross to the other platform, then line 1 towards Akasako to Peace Park (stop 19). Pay when you get off. Trams take credit cards and contactless; app passes are shown on your phone, and a one-day pass is sold at the terminal."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; credit cards accepted",
+   "time": "About 10 min to JR Nagasaki station",
+   "detail": "Taxis wait at the terminal. A good choice for the Peace Park area on the way back if you are short of time."
+  },
+  {
+   "mode": "Bus",
+   "cost": "Check fare on board",
+   "time": "10–15 min from JR Nagasaki station",
+   "detail": "Buses from Nagasaki station run to Oura Tenshudo Shimo and Glover Garden Iriguchi; mainly useful if you are returning from the station area."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave the Peace Park and Atomic Bomb Museum area 90 minutes before all-aboard (16:00 for 17:30). Leave Glover Garden, Chinatown or Dejima 60–75 minutes before (by 16:15).",
+  "detail": "The tram to the north of the city needs a change at Shinchi Chinatown and trams can be full when several ships are in. The foreign-quarter sights are a short walk from the terminal, so only allow the walk plus an hour on board.",
+  "emergencyFallback": "Take a taxi from any main street and say Matsugae cruise terminal. If you will miss all-aboard, call the port agent number on your daily programme. The 24-hour Japan Visitor Hotline is 050-3816-2787."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Glover Garden and Peace Park",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Glover Garden ¥1,300 + Atomic Bomb Museum ¥200 + one-day tram pass ¥600 = ¥2,100 (2026)",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Nagasaki is one of the easiest ports in Japan to do alone: the old foreign quarter is on the doorstep and the tram reaches everything else. The ship's tour is worth it for Gunkanjima (Hashima), which needs a booked boat and is weather-dependent, and for anything outside the city. If your ship is at Kosakaki-Yanagi, a tour or ship transport also solves getting into town.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Matsugae at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk up to Oura Cathedral and Glover Garden (opens 08:00). Go early, before tour groups."
+   },
+   {
+    "time": "10:00",
+    "what": "Walk down to the Oura Kaigan-dori tram stop. Buy a one-day pass (¥600) at the terminal or in the app."
+   },
+   {
+    "time": "10:15",
+    "what": "Tram line 5 to Shinchi Chinatown, change to line 1 for Peace Park."
+   },
+   {
+    "time": "10:45",
+    "what": "Peace Park, the hypocentre and the Atomic Bomb Museum (¥200). Allow at least 90 minutes for the museum."
+   },
+   {
+    "time": "13:00",
+    "what": "Tram back to Shinchi Chinatown. Lunch: champon, or kakuni manju at Iwasaki Honpo."
+   },
+   {
+    "time": "14:15",
+    "what": "Walk to Dejima, the former Dutch trading post."
+   },
+   {
+    "time": "15:45",
+    "what": "Walk back to Matsugae along the harbour, 10–15 minutes."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Glover Garden",
+   "why": "Hillside garden of 19th-century Western merchants' houses, with views over the harbour.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "¥1,300 adult from 1 April 2026",
+   "tip": "Open 08:00–18:00; from 12 October to 31 December 2026 it stays open to 20:00 (later on some October evenings). Last entry 20 minutes before closing."
+  },
+  {
+   "name": "Oura Cathedral",
+   "why": "Japan's oldest surviving church, on the way up to Glover Garden.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "¥1,000 including a small museum (2025)",
+   "tip": "Open 08:30–18:00. Visit on the way to Glover Garden."
+  },
+  {
+   "name": "Nagasaki Atomic Bomb Museum",
+   "why": "The history of the 9 August 1945 bombing, the city's most important visit.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "¥200 adult (unchanged from April 2026); free for high school students and younger",
+   "tip": "Open 08:30–17:30 from September to April and 08:30–18:30 from May to August; last entry 30 minutes before closing."
+  },
+  {
+   "name": "Peace Park and the hypocentre",
+   "why": "Memorial park with the Peace Statue, close to the point the bomb exploded.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Combine with the museum. Tram line 1 to Peace Park (stop 19)."
+  },
+  {
+   "name": "Dejima",
+   "why": "The reconstructed Dutch trading post, Japan's only window on the West during its isolation period.",
+   "timeNeeded": "1 hour",
+   "cost": "Admission charged; check at the gate",
+   "tip": "10–15 minutes' walk from the terminal."
+  },
+  {
+   "name": "Shinchi Chinatown",
+   "why": "Compact Chinatown with snack stalls and champon restaurants.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "5–10 minutes' walk from the terminal, and the tram interchange for the Peace Park."
+  },
+  {
+   "name": "Mt Inasa Observatory",
+   "why": "Hilltop viewpoint over the whole harbour.",
+   "timeNeeded": "2 hours including travel",
+   "cost": "Ropeway fare charged; check before you go",
+   "tip": "Open 09:00–22:00. The ropeway ride takes about 5 minutes. Best on a long or evening call."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Champon (noodles with seafood, pork and vegetables)",
+   "where": "Shikairo, by Matsugae terminal at the start of Minami-Yamate street (lunch 11:30–15:00)",
+   "price": null
+  },
+  {
+   "dish": "Sara udon (crispy noodles)",
+   "where": "Shikairo",
+   "price": null
+  },
+  {
+   "dish": "Kakuni manju (pork-belly bun)",
+   "where": "Iwasaki Honpo, Chinatown",
+   "price": null
+  },
+  {
+   "dish": "Toruko rice",
+   "where": "Tsuruchan café",
+   "price": null
+  },
+  {
+   "dish": "Castella sponge cake",
+   "where": "Fukusaya",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk to the Peace Park and Atomic Bomb Museum.",
+   "fix": "They are in the north of the city. Take tram 5 then tram 1 with a change at Shinchi Chinatown, or a taxi."
+  },
+  {
+   "mistake": "Planning with pre-2026 prices.",
+   "fix": "Nagasaki City revised fees on 1 April 2026; Glover Garden is now ¥1,300 for adults. The Atomic Bomb Museum stayed at ¥200."
+  },
+  {
+   "mistake": "Doing the Peace Park last and racing back.",
+   "fix": "Go north in the morning and finish near the terminal at Glover Garden, Dejima or Chinatown."
+  },
+  {
+   "mistake": "Assuming every ship uses Matsugae.",
+   "fix": "When two ships are in, one may use the Tokiwa-Dejima pier nearby or, on Sundays, Kosakaki-Yanagi further out. Check your berth."
+  },
+  {
+   "mistake": "Expecting a cruise shuttle into town.",
+   "fix": "None is usually needed or provided at Matsugae; walk or use the tram."
+  }
+ ],
+ "safety": "Nagasaki is safe and calm for visitors. The main hazards are the steep slopes around Glover Garden and Oura in heat or rain, and typhoons, which peak from July to September and can change the ship's schedule. Japan drives on the left, so look the right way when crossing. Japan is an earthquake zone; follow staff instructions if tsunami alerts sound.",
+ "scams": [
+  "Bar overcharging: the UK government reports disputes over very large bar bills in Japan. Check prices and any cover charge before ordering.",
+  "Street touts: touting is illegal but happens in nightlife areas. Do not follow a tout into a bar.",
+  "Drink spiking with card fraud: reported in Japanese nightlife districts. Do not leave drinks unattended."
+ ],
+ "emergencyNumber": "110 (police), 119 (ambulance and fire)",
+ "accessibility": "The Matsugae terminal is level, with an automatic door, a ramp and lift to the roof lawn, a 24-hour accessible toilet and wheelchair rental. The tram stop is 3 minutes away. Glover Garden and Oura Cathedral are on a steep hill, so a taxi to the top entrance area helps. Shikairo, next to the terminal, has lifts and an accessible toilet. Trams vary; some are low-floor.",
+ "rainyDay": "Spend more time in the Atomic Bomb Museum and the reconstructed Dejima buildings, and have a long lunch in Chinatown or at Shikairo, which has a free champon museum on its second floor. Glover Garden's slopes are slippery in rain.",
+ "crowdTips": "Several ships can call on the same day in autumn. Glover Garden and Oura Cathedral fill with tour groups from mid-morning, so go first thing. The Atomic Bomb Museum is busiest around 9 August. Trams back towards Shinchi Chinatown get crowded in the late afternoon.",
+ "faqs": [
+  {
+   "q": "Where do cruise ships dock in Nagasaki?",
+   "a": "At the Matsugae International Terminal in the city, below Glover Garden. A second ship may use the Tokiwa-Dejima pier nearby or, on Sundays, Kosakaki-Yanagi."
+  },
+  {
+   "q": "Is Nagasaki walkable from the cruise port?",
+   "a": "Yes for Glover Garden, Oura Cathedral, Chinatown and Dejima, all 5–15 minutes on foot. Use the tram for the Peace Park."
+  },
+  {
+   "q": "How do I get from Nagasaki cruise port to the Peace Park?",
+   "a": "Tram 5 from Oura Kaigan-dori to Shinchi Chinatown, then tram 1 to Peace Park. ¥150 a ride, or a ¥600 one-day pass."
+  },
+  {
+   "q": "Is Nagasaki a tender port?",
+   "a": "No. Ships berth alongside."
+  },
+  {
+   "q": "How much is Glover Garden?",
+   "a": "¥1,300 for adults from 1 April 2026. Open 08:00–18:00, later in the autumn evening season."
+  },
+  {
+   "q": "What can I do in Nagasaki in one day from a cruise ship?",
+   "a": "Glover Garden and Oura Cathedral early, the Peace Park and Atomic Bomb Museum by tram, then Chinatown and Dejima on the way back."
+  },
+  {
+   "q": "Is the second cruise berth in Nagasaki open?",
+   "a": "Not as far as official sources show. It is being built south of the current Matsugae berth; a 2022 evaluation put completion in fiscal 2028."
+  },
+  {
+   "q": "Is Nagasaki safe?",
+   "a": "Yes. Take care on the steep slopes and watch typhoon warnings in late summer."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Glover Garden"
+  },
+  {
+   "name": "Oura Cathedral"
+  },
+  {
+   "name": "Nagasaki Atomic Bomb Museum"
+  },
+  {
+   "name": "Peace Park"
+  },
+  {
+   "name": "Dejima"
+  },
+  {
+   "name": "Shinchi Chinatown"
+  },
+  {
+   "name": "Mt Inasa"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Discover Nagasaki (official) – Nagasaki Port Matsugae International Terminal",
+   "url": "https://www.discover-nagasaki.com/en/sightseeing/100790"
+  },
+  {
+   "title": "Discover Nagasaki (official) – From Nagasaki Port to Peace Park by tram",
+   "url": "https://www.discover-nagasaki.com/en/featured-topics/fromnagasakiport"
+  },
+  {
+   "title": "Discover Nagasaki (official) – Spot hours",
+   "url": "https://www.discover-nagasaki.com/en/featured-topics/nc-spot"
+  },
+  {
+   "title": "Nagasaki Prefecture tourism – Nagasaki Port cruise facilities brochure",
+   "url": "https://www.nagasaki-tabinet.com/downloads/media/12435"
+  },
+  {
+   "title": "MLIT Kyushu – Nagasaki Port Matsugae project evaluation (2022)",
+   "url": "https://www.qsr.mlit.go.jp/site_files/file/s_top/jigyo-hyoka/221219/03_02_nagasakikoumatugaetiku.pdf"
+  },
+  {
+   "title": "Nagasaki Prefecture – Matsugae two-berth project (PFI study)",
+   "url": "https://www.pref.nagasaki.jp/shared/uploads/2024/01/1704972422.pdf"
+  },
+  {
+   "title": "MLIT Kyushu Nagasaki Port Office – Magazine 2024 No. 14 (cruise calls)",
+   "url": "https://www.pa.qsr.mlit.go.jp/nagasaki/magazine/magazine_2024_NO.14.pdf"
+  },
+  {
+   "title": "Glover Garden (official) – Guide, fees and hours",
+   "url": "https://www.glover-garden.jp/guide/"
+  },
+  {
+   "title": "Nagasaki City – Atomic Bomb Museum fee revision, April 2026",
+   "url": "https://www.city.nagasaki.lg.jp/page/72428.html"
+  },
+  {
+   "title": "Nagasaki Electric Tramway – Streetcar pass (Jorudan)",
+   "url": "https://ticket.jorudan.co.jp/naga-den/en/"
+  },
+  {
+   "title": "Nagasaki City tourism – Matsugae International Terminal barrier-free information",
+   "url": "https://en.at-nagasaki.jp/barrierfree/64176"
+  },
+  {
+   "title": "Nagasaki City tourism – Shikairo barrier-free information",
+   "url": "https://en.at-nagasaki.jp/barrierfree/64150"
+  },
+  {
+   "title": "Forever Karen – Nagasaki cruise port (2025)",
+   "url": "https://foreverkaren.com/travel/nagasaki-cruise-port/"
+  },
+  {
+   "title": "CruiseMapper – Nagasaki port",
+   "url": "https://www.cruisemapper.com/ports/nagasaki-port-537"
+  },
+  {
+   "title": "Culture Trip – Best restaurants in Nagasaki",
+   "url": "https://theculturetrip.com/asia/japan/articles/the-best-restaurants-in-nagasaki"
+  },
+  {
+   "title": "GOV.UK – Japan travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/japan/safety-and-security"
+  },
+  {
+   "title": "Japan Tourism Agency – Safety information for visitors",
+   "url": "https://www.mlit.go.jp/kankocho/en/shisaku/kokusai/content/001471575.pdf"
+  }
+ ],
+ "uncertain": [
+  "Whether the second Matsugae berth's completion target has moved since the 2022 evaluation",
+  "How passengers reach the city from Kosakaki-Yanagi wharf, and its distance",
+  "Dejima admission price after the April 2026 city fee revision",
+  "Mt Inasa ropeway fare",
+  "Tram journey time from Oura Kaigan-dori to Peace Park",
+  "Typical call length and all-aboard time"
+ ]
+}

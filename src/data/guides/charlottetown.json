@@ -1,0 +1,379 @@
+{
+ "slug": "charlottetown",
+ "city": "Charlottetown",
+ "portName": "Port Charlottetown (Charlottetown Marine Terminal)",
+ "townName": "downtown Charlottetown",
+ "country": "Canada",
+ "currency": "CAD",
+ "currencySymbol": "C$",
+ "language": "English",
+ "timezone": "Atlantic Time: AST (UTC−4), ADT (UTC−3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Charlottetown cruise port guide: downtown, Green Gables",
+ "seoDescription": "Ships dock on Charlottetown's waterfront next to Founders' Food Hall, so downtown is walkable. Green Gables is 40 km away; adult entry C$10 in peak season.",
+ "quickAnswer": "Ships berth on the Charlottetown waterfront, next to Founders' Food Hall, and you walk straight into downtown; no transport is needed. When a second large ship is in port, one may anchor and tender to the same pier. Be back at the ship 60 minutes before all-aboard, or 90 minutes if you are tendering or have gone out to Cavendish.",
+ "intro": "Charlottetown is a small provincial capital where the cruise pier sits at the foot of the old town. The waterfront boardwalk, Peake's Wharf, Victoria Row and St Dunstan's Basilica are all within walking distance, and the Founders' Food Hall in the restored 1906 railway station is the first building you reach. The big decision is whether to stay in town or go 40 km to Cavendish for Green Gables and the north-shore beaches of PEI National Park. There is no direct public link to Cavendish that suits a port day, so that trip means a ship tour, a private tour or a taxi.",
+ "isTender": false,
+ "tenderNotes": "Normally a docked port. When more than one large ship calls on the same day, a ship may anchor in the harbour and tender passengers to the same terminal pier. Your daily programme will say which applies.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Port Charlottetown cruise pier and terminal (Charlottetown Marine Terminal)",
+   "distanceToCentreKm": null,
+   "notes": "Pier at the foot of downtown, opened in 2007. The terminal has information desks and craft counters; excursion buses load beside it. Founders' Food Hall & Market, with free Wi‑Fi, is directly across from it."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": null,
+  "detail": "The waterfront, Peake's Wharf and Founders' Food Hall are a few minutes' walk from the gangway. The downtown grid (Queen Street, Great George Street, Victoria Row) begins just uphill from the waterfront. Victoria Park is about 38 minutes' walk along the boardwalk."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5 min to the waterfront shops; downtown sights a short walk further",
+   "detail": "Walk off the pier past Founders' Food Hall into downtown. The boardwalk runs west from the port to Victoria Park."
+  },
+  {
+   "mode": "Taxi or Kari (local ride-hailing app)",
+   "cost": "Fares not verified; agree or check the price before you set off",
+   "time": "About 45 min each way to Cavendish (Green Gables)",
+   "detail": "The practical way to reach Brackley Beach, Cavendish or Kinlock Beach on your own. Tourism PEI describes Kari as the Island's version of Uber."
+  },
+  {
+   "mode": "E-bike hire",
+   "cost": "Prices not verified",
+   "time": "Varies",
+   "detail": "Rising Tide Electric Bicycles on Queen Street rents e-bikes and, according to Tourism PEI's Ask an Islander, will suggest a safe route, for example across the harbour to Kinlock Beach."
+  },
+  {
+   "mode": "Ship or private tour",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "Half day to Cavendish and the north shore",
+   "detail": "Cruise lines run tours to the national park, Avonlea Village and the north-shore coast. These take care of the timing on the 40 km road to Cavendish."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the gangway 60 minutes before all-aboard if you stayed downtown. If your ship is tendering, or you went out to Cavendish or the north-shore beaches, allow 90 minutes.",
+  "detail": "Downtown is a few minutes from the pier, so the risk is small if you stay in town. The road trip to Cavendish takes about 45 minutes each way, and summer traffic at Green Gables is heavy; Parks Canada expected very high visitor numbers in 2026.",
+  "emergencyFallback": "Downtown, walk back down to the waterfront: the pier is next to Founders' Food Hall. From Cavendish, a taxi or Kari is the only quick option; set off early. If you will miss all-aboard, call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Green Gables Heritage Place",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Adult entry C$10 (1 July to Labour Day) or C$8.25 (May, June, September, October), Parks Canada rates; plus a taxi or ride-hail fare each way",
+   "saving": "Depends on the taxi fare and group size"
+  },
+  {
+   "item": "Harbour Hopper (amphibious harbour tour)",
+   "ship": "From $79 on Holland America's US site (about 1 hour)",
+   "diy": "Booking direct not verified",
+   "saving": "Not verified"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Charlottetown itself: the pier is in town and the downtown streets, waterfront and basilica are easy to see alone. A tour is worth it for Cavendish, Green Gables and the north-shore beaches, because the island has no convenient public transport for that trip and the round trip is about 90 minutes by road before you add time on site. If several of you share a taxi or Kari, an independent Green Gables trip is possible on a long call, but leave a wide margin.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship. Coffee at Founders' Food Hall & Market across from the terminal."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk up into downtown: Victoria Row, Queen Street and Great George Street."
+   },
+   {
+    "time": "09:45",
+    "what": "St Dunstan's Basilica, 65 Great George Street (listed as open daily 09:00–16:00)."
+   },
+   {
+    "time": "10:30",
+    "what": "Confederation Centre of the Arts and its art gallery. Check whether Province House has reopened; it was listed as closed in September 2025."
+   },
+   {
+    "time": "12:00",
+    "what": "Lunch on the waterfront: lobster or PEI mussels at Peake's Wharf, or oysters at the food hall."
+   },
+   {
+    "time": "13:15",
+    "what": "Walk the boardwalk west to Victoria Park, about 38 minutes. Ice cream at the Kiwanis Dairy Bar."
+   },
+   {
+    "time": "15:00",
+    "what": "Walk back along the boardwalk to Peake's Wharf for a last look round and COWS ice cream."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Downtown Charlottetown and Victoria Row",
+   "why": "Compact Victorian streets; Victoria Row is a one-block pedestrian strip of patios, shops and live music.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "Start at the waterfront and work uphill; the streets are short and easy to loop."
+  },
+  {
+   "name": "St Dunstan's Basilica",
+   "why": "High Victorian Gothic cathedral built 1897–1907, a National Historic Site visible across the city.",
+   "timeNeeded": "30 minutes",
+   "cost": "No admission fee listed by Discover Charlottetown",
+   "tip": "Listed as open daily 09:00–16:00; services may limit visiting."
+  },
+  {
+   "name": "Province House National Historic Site",
+   "why": "Where the 1864 Charlottetown Conference met, the starting point of Canadian Confederation.",
+   "timeNeeded": "View from outside: 10 minutes",
+   "cost": "Closed to visitors when last checked",
+   "tip": "Parks Canada listed it as closed for a conservation project in September 2025, with no reopening date. The Confederation Chamber replica at the Confederation Centre closed in October 2024. Check Parks Canada before you plan around it."
+  },
+  {
+   "name": "Confederation Centre of the Arts",
+   "why": "The city's arts centre, with an art gallery, theatre and public library next to Province House.",
+   "timeNeeded": "45 minutes",
+   "cost": "Not verified; check the centre's site",
+   "tip": "The gallery has been listed as open Tuesday–Saturday 10:00–17:00 and Sunday 13:00–17:00, closed Mondays."
+  },
+  {
+   "name": "Peake's Wharf and the waterfront boardwalk",
+   "why": "Shops, seafood shacks, ice cream and boat tours, including seal-watching trips, a few minutes from the pier.",
+   "timeNeeded": "1 hour",
+   "cost": "Free to walk",
+   "tip": "Good for the last hour of the day because it is so close to the ship."
+  },
+  {
+   "name": "Victoria Park",
+   "why": "Large waterfront park with woodland trails, a floating dock and harbour views at the end of the boardwalk.",
+   "timeNeeded": "1.5–2 hours including the walk",
+   "cost": "Free",
+   "tip": "About 38 minutes' walk from the port to the Brighton Range Front Light. It is a waterfront access point, not a swimming beach."
+  },
+  {
+   "name": "Green Gables Heritage Place, Cavendish",
+   "why": "The farmhouse and grounds that inspired L. M. Montgomery's Anne of Green Gables, inside PEI National Park.",
+   "timeNeeded": "Half day including about 45 minutes each way by road",
+   "cost": "Adult C$10 (1 July–Labour Day), C$8.25 (May, June, September, October); under-18s free (Parks Canada)",
+   "tip": "Open daily 09:00–17:00 from 1 May to 31 October (2026). Free entry with the Canada Strong Pass from 19 June to 7 September 2026; check eligibility. Expect crowds in July and August."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Brackley Beach (PEI National Park)",
+   "howToGetThere": "Taxi, Kari or a tour; no walking route",
+   "time": "Travel time not verified",
+   "cost": "Taxi or ride fare; national park entry may apply",
+   "note": "Sandy north-shore beach in the national park, suggested by Tourism PEI for cruise visitors with transport."
+  },
+  {
+   "name": "Kinlock Beach",
+   "howToGetThere": "E-bike, taxi or Kari across the harbour; over 1.5 hours on foot",
+   "time": "Varies by transport",
+   "cost": "Taxi, ride or bike hire cost",
+   "note": "The closest beach for a swim or walk, best at low tide."
+  },
+  {
+   "name": "Victoria Park waterfront",
+   "howToGetThere": "Walk the boardwalk from the port",
+   "time": "About 38 min walk",
+   "cost": "Free",
+   "note": "Harbour views and a floating dock. Not a swimming beach."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Lobster",
+   "where": "Lobster on the Wharf, Charlottetown waterfront",
+   "price": null
+  },
+  {
+   "dish": "PEI oysters",
+   "where": "Oyster bar at Founders' Food Hall & Market, opposite the cruise terminal",
+   "price": null
+  },
+  {
+   "dish": "COWS ice cream",
+   "where": "COWS, Peake's Quay or Queen Street",
+   "price": null
+  },
+  {
+   "dish": "Island chocolate",
+   "where": "Anne of Green Gables Chocolates, Queen Street",
+   "price": null
+  },
+  {
+   "dish": "Local beer and pub food",
+   "where": "The Gahan House, downtown",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning the day around a tour of Province House.",
+   "fix": "It was listed as closed for conservation in September 2025. Check Parks Canada's page first, and plan St Dunstan's and the Confederation Centre instead."
+  },
+  {
+   "mistake": "Expecting a swimming beach within walking distance.",
+   "fix": "Victoria Park is waterfront, not a beach. For sand and swimming you need transport to Brackley Beach, Cavendish or Kinlock Beach."
+  },
+  {
+   "mistake": "Trying to reach Green Gables by public bus.",
+   "fix": "Use a ship tour, a private tour, or a taxi or Kari. Cavendish is about 45 minutes away by road."
+  },
+  {
+   "mistake": "Leaving Cavendish late on a busy summer afternoon.",
+   "fix": "Aim to be back at the pier 90 minutes before all-aboard. Parks Canada warned of very high visitation in 2026."
+  },
+  {
+   "mistake": "Assuming your ship will dock when another big ship is in port.",
+   "fix": "Check the daily programme. A second ship may anchor and tender, which adds queue time each way."
+  }
+ ],
+ "safety": "Charlottetown is a small, quiet city and the downtown is safe to walk by day. The main hazards are ordinary ones: traffic on the waterfront roads, the open edges of the boardwalk by the water, and sun on exposed north-shore beaches. At the national park beaches, swim only where lifeguards are on duty. Canada's emergency number is 911.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The pier, terminal, Founders' Food Hall and the waterfront boardwalk are close together, so step-free distances are short. Victoria Park has an accessible playground. The Harbour Hopper amphibious tour needs you to climb about 12 steps and cannot take wheelchairs, scooters, walkers or strollers. Green Gables lists accessible services; ask Parks Canada for details. On a tender day, ask the ship whether wheelchair users can transfer.",
+ "rainyDay": "Spend the morning at the Confederation Centre of the Arts gallery (closed Mondays) and St Dunstan's Basilica, then take a long lunch at Founders' Food Hall, which seats about 500 under one roof next to the ship. Shops on Victoria Row and Queen Street fill the rest of the time.",
+ "crowdTips": "Port Charlottetown had a record 94 ship calls and over 220,000 passengers in 2024, and autumn brings the most calls. On two-ship days the waterfront and food hall are busiest just after arrival and again before all-aboard. Go uphill into downtown first, eat lunch a little early or late, and leave Peake's Wharf for the end of the day. At Green Gables, July and August are the busiest months.",
+ "faqs": [
+  {
+   "q": "Is Charlottetown walkable from the cruise port?",
+   "a": "Yes. Ships berth at the foot of downtown, next to Founders' Food Hall, and the waterfront shops are about five minutes' walk away."
+  },
+  {
+   "q": "Is Charlottetown a tender port?",
+   "a": "Usually not. If two large ships call on the same day, one may anchor in the harbour and tender passengers to the same pier."
+  },
+  {
+   "q": "How far is Green Gables from Charlottetown cruise port?",
+   "a": "About 40 km, roughly 45 minutes by road. Go with a tour, taxi or Kari, and allow at least half a day."
+  },
+  {
+   "q": "Is Province House open?",
+   "a": "Parks Canada listed it as closed for a conservation project in September 2025, with no reopening date. Check before you go."
+  },
+  {
+   "q": "Beaches near Charlottetown cruise port?",
+   "a": "None within an easy walk. Kinlock Beach is closest by e-bike or taxi; Brackley Beach in PEI National Park needs a taxi or tour."
+  },
+  {
+   "q": "What can I do in Charlottetown in one day from a cruise ship?",
+   "a": "Walk downtown and Victoria Row, visit St Dunstan's Basilica and the Confederation Centre, eat seafood on the waterfront and walk the boardwalk to Victoria Park. On a long call, take a tour to Green Gables."
+  },
+  {
+   "q": "Is Charlottetown safe?",
+   "a": "Yes. It is a small, quiet city; take normal care with traffic and with sea conditions at the beaches."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Victoria Row"
+  },
+  {
+   "name": "St Dunstan's Basilica"
+  },
+  {
+   "name": "Province House National Historic Site"
+  },
+  {
+   "name": "Confederation Centre of the Arts"
+  },
+  {
+   "name": "Peake's Wharf"
+  },
+  {
+   "name": "Victoria Park"
+  },
+  {
+   "name": "Green Gables Heritage Place"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Parks Canada – Province House NHS, plan your visit (closed for conservation, Sept 2025)",
+   "url": "https://parks.canada.ca/lhn-nhs/pe/provincehouse/visit"
+  },
+  {
+   "title": "Parks Canada – Green Gables Heritage Place, hours of operation (2026)",
+   "url": "https://parks.canada.ca/lhn-nhs/pe/greengables/visit/heures-hours"
+  },
+  {
+   "title": "Parks Canada – Green Gables Heritage Place, plan your visit",
+   "url": "https://www.parks.canada.ca/lhn-nhs/pe/greengables/visit"
+  },
+  {
+   "title": "Parks Canada – Green Gables Heritage Place, fees",
+   "url": "https://www.parks.canada.ca/lhn-nhs/pe/greengables/visit/tarifs-fees"
+  },
+  {
+   "title": "Parks Canada – Canada Strong visitor information 2026 (Green Gables)",
+   "url": "https://parks.canada.ca/lhn-nhs/pe/greengables/visit/pass-canada"
+  },
+  {
+   "title": "Tourism PEI – Record cruise ship numbers for Port Charlottetown (2024)",
+   "url": "https://tourismpei.com/news/record-cruise-ship-numbers-for-port-charlottetown"
+  },
+  {
+   "title": "Tourism PEI – Ask an Islander: beaches from the cruise terminal",
+   "url": "https://www.tourismpei.com/askanislander/questions/we-will-be-walking-from-the-cruise-terminal-what-beach-can-we-get-to-easily"
+  },
+  {
+   "title": "Tourism PEI – Founders Food Hall and Market",
+   "url": "https://www.tourismpei.com/search/OperatorDetails/op_id/13792"
+  },
+  {
+   "title": "Discover Charlottetown – Top things to do in Charlottetown",
+   "url": "https://www.discovercharlottetown.com/blog/top-things-to-do-charlottetown/"
+  },
+  {
+   "title": "Confederation Centre of the Arts – Confederation Chamber replica closure (2024)",
+   "url": "https://confederationcentre.com/confederation-chamber-replica-closure/"
+  },
+  {
+   "title": "CTV News Atlantic – Port Charlottetown welcomes first cruise ship of the season (2025)",
+   "url": "https://ctvnews.ca/atlantic/prince-edward-island/article/port-charlottetown-welcomes-first-cruise-ship-of-the-season"
+  },
+  {
+   "title": "Holland America – Charlottetown by Harbour Hopper",
+   "url": "https://www.hollandamerica.com/en/us/cruise-destinations/canada-new-england-cruises/canada-new-england-ports/ych/46044"
+  },
+  {
+   "title": "Holland America – Charlottetown walking tour from Founders' Food Hall",
+   "url": "https://www.hollandamerica.com/en/cruise-destinations/canada-new-england-cruises/canada-new-england-ports/ych/46039"
+  },
+  {
+   "title": "Celebrity Cruises – Charlottetown shore excursions",
+   "url": "https://www.celebritycruises.com/ports/charlottetown/shore-excursions"
+  },
+  {
+   "title": "What's In Port – Charlottetown, Prince Edward Island",
+   "url": "https://www.whatsinport.com/Charlottetown-Prince-Edward-Island.htm"
+  },
+  {
+   "title": "CruiseWeb – Charlottetown, Canada port guide",
+   "url": "https://cruiseweb.com/ports/charlottetown-canada"
+  },
+  {
+   "title": "Beyond Ships – Charlottetown cruise port",
+   "url": "https://www.beyondships3.com/cruise-destination-charlottetown-cruise-port.html"
+  }
+ ],
+ "uncertain": [
+  "Exact walking distance in km from the pier to Province House and Victoria Row",
+  "Taxi and Kari fares to Cavendish and Brackley Beach",
+  "Whether Province House reopened during the 2026 season",
+  "Typical all-aboard time at Charlottetown (day plan uses 17:30)",
+  "Confederation Centre art gallery admission price",
+  "Whether non-Canadian visitors qualify for the 2026 Canada Strong Pass free entry"
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "slug": "cobh",
+ "city": "Cobh",
+ "portName": "Port of Cork – Cobh Cruise Terminal",
+ "townName": "Cobh town centre",
+ "country": "Ireland",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "English and Irish",
+ "timezone": "GMT (UTC+0), IST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Cobh cruise port guide: train to Cork, Spike Island, Titanic",
+ "seoDescription": "Ships berth in Cobh town, 3 min from the promenade. Station opposite: trains to Cork Kent take 25 min. Spike Island €27.95 with ferry (2026). Return early.",
+ "quickAnswer": "Most ships berth at the dedicated Cobh Cruise Terminal, about three minutes' walk from the town promenade, with the railway station directly opposite. Trains to Cork Kent take about 25 minutes, usually hourly with extra trains on big-ship days. For a 17:30 all-aboard, be at Kent Station for the 15:00 train back; in Cobh itself, be on board 60 minutes before all-aboard.",
+ "intro": "Cobh is one of the easiest cruise calls in Europe: you step off the ship onto the town's waterfront, and the train to Cork leaves from a station across the road. The town itself fills a day on its own, with the Titanic and emigration stories, St Colman's Cathedral on the hill and Spike Island in the harbour. Cork city is 25 minutes away by train for the English Market, or a base for Blarney. A few ships use the Ringaskiddy deep-water berth across the harbour instead, which changes the day completely, so check your berth.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Cobh Cruise Terminal (dedicated cruise berth)",
+   "distanceToCentreKm": 0.2,
+   "notes": "Takes ships up to 350 m. About three minutes' walk to the promenade. The railway station, in the red-brick Victorian station building opposite the terminal, houses a tourist information centre."
+  },
+  {
+   "name": "Ringaskiddy deep-water berth",
+   "distanceToCentreKm": 2.4,
+   "notes": "Used by the largest ships (up to 360 m). An industrial area about 1.5 miles across the water from Cobh, with no walking route to sights. Use your cruise line's transport or a taxi. The Port of Cork suggests taxi or bus to Passage West, the cross-river foot ferry, a 10-minute flat walk to Carrigaloe station, then the train."
+  },
+  {
+   "name": "Cork City – North Custom House Quay",
+   "distanceToCentreKm": null,
+   "notes": "Small ships only (up to 152 m). Berth in Cork city centre."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 3,
+  "km": 0.2,
+  "detail": "From the Cobh berth you walk straight into town. The waterfront and Casement Square are flat; St Colman's Cathedral is a steep climb by steps or a side road. Ships at Ringaskiddy are not walkable to anywhere useful."
+ },
+ "transportSections": [
+  {
+   "mode": "Train Cobh – Cork Kent",
+   "cost": "Adult day return €8.80 or less on Irish Rail's Cork commuter zones; Leap cheaper (2026)",
+   "time": "About 25 min",
+   "detail": "The station is opposite the cruise terminal. On weekdays trains leave Cobh at half past the hour and Cork on the hour; on large-ship days extra trains usually run about every 30 minutes. Check the day's timetable at the station. Kent Station is about a 7-minute walk from Cork city centre. Only Cobh and Cork stations are fully wheelchair accessible."
+  },
+  {
+   "mode": "Train to Fota or Midleton",
+   "cost": "Irish Rail Cork commuter zone fare (2026)",
+   "time": "Fota is on the Cobh line; for Midleton change at Glounthaune",
+   "detail": "Fota station serves Fota House, Gardens and Wildlife Park. Midleton is the home of the Jameson Distillery."
+  },
+  {
+   "mode": "Bus 215 to Blarney (from Cork)",
+   "cost": "Check the fare on board",
+   "time": "Allow for a 10-minute walk from Kent Station to the bus station",
+   "detail": "Leaves from the bus station on Parnell Place. Return buses drop off on Grand Parade, 10–15 minutes' walk from Kent Station."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; agree the fare for longer trips",
+   "time": "Varies",
+   "detail": "Only licensed taxis with roof signs can be hailed or use ranks; hackneys must be booked. Cobh firms named by the Port of Cork include Cove Cabs (021 481 2299) and Island Taxis (021 481 1111)."
+  },
+  {
+   "mode": "Spike Island ferry",
+   "cost": "Included in the €27.95 adult ticket (2026)",
+   "time": "About 15 min each way",
+   "detail": "Leaves from Kennedy Pier in Cobh. The return sailing is usually about 3.5 hours after departure."
+  }
+ ],
+ "returnTiming": {
+  "rule": "In Cobh, be back on board 60 minutes before all-aboard. From Cork, be at Kent Station for a train that reaches Cobh at least 90 minutes before all-aboard: for a 17:30 all-aboard, take the 15:00 train (150 minutes before), or the 15:30 only if extra cruise-day trains are confirmed. Leave Cork city centre 165 minutes before all-aboard.",
+  "detail": "With hourly trains, missing one costs an hour. From Blarney you depend on bus 215 and then the train, so leave Blarney at least four hours before all-aboard (240 minutes). On Spike Island, choose a return sailing that lands at Kennedy Pier at least 60 minutes before all-aboard.",
+  "emergencyFallback": "If you miss the train in Cork, take a licensed taxi from the rank at Kent Station or in the city centre to the Cobh Cruise Terminal. Call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Spike Island",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€27.95 adult including ferry and guided tour (2026)",
+   "saving": "Depends on the tour"
+  },
+  {
+   "item": "Titanic Experience Cobh",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€13 adult (2026)",
+   "saving": "Depends on the tour"
+  },
+  {
+   "item": "Blarney Castle",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€22 adult entry (2026) plus train and bus",
+   "saving": "Depends on the tour"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Cobh and Cork city: the town is at the gangway and the train runs to Cork in 25 minutes. Spike Island is also easy to book yourself from Kennedy Pier. A ship tour is worth considering for Blarney, because the trip needs a train, a walk and a bus each way, or for Kinsale and anything else beyond the rail line. If your ship berths at Ringaskiddy, the ship's transport or a tour is usually the simplest option.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the Cobh Cruise Terminal at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk ashore. Pick up a map at the tourist information centre in the station building and stroll the waterfront."
+   },
+   {
+    "time": "09:30",
+    "what": "Cobh Heritage Centre (The Queenstown Story) on Deepwater Quay, opens 09:30."
+   },
+   {
+    "time": "10:30",
+    "what": "Titanic Experience Cobh, 20 Casement Square."
+   },
+   {
+    "time": "11:30",
+    "what": "Climb to St Colman's Cathedral for the view over the harbour."
+   },
+   {
+    "time": "12:30",
+    "what": "Train to Cork Kent (about 25 minutes); walk 7 minutes into the city."
+   },
+   {
+    "time": "13:15",
+    "what": "Lunch and browsing at the English Market."
+   },
+   {
+    "time": "14:45",
+    "what": "Walk back to Kent Station."
+   },
+   {
+    "time": "15:00",
+    "what": "Train to Cobh, arriving about 15:25."
+   },
+   {
+    "time": "16:00",
+    "what": "Back on board, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Spike Island",
+   "why": "Former fortress and prison island in Cork Harbour, reached by ferry from Cobh, with a guided tour on arrival.",
+   "timeNeeded": "About 3.5 hours including the ferry",
+   "cost": "€27.95 adult including return ferry and guided tour (2026)",
+   "tip": "Book online and pick a sailing; summer sailings run between about 10:00 and 14:30. Check the booking calendar for your date, as opening outside May–September is limited. The walk from the island pier to the fort is 400 m with a short steep slope."
+  },
+  {
+   "name": "Titanic Experience Cobh",
+   "why": "Guided experience in the White Star Line building, where the Titanic's last passengers from Queenstown boarded tenders.",
+   "timeNeeded": "Allow 1 hour",
+   "cost": "€13 adult; €11.50 student and senior (2026)",
+   "tip": "Open 10:00–18:00, last admission 17:00 (winter hours). Book a slot on busy ship days."
+  },
+  {
+   "name": "Cobh Heritage Centre – The Queenstown Story",
+   "why": "Three centuries of emigration, naval and maritime history beside the cruise berth on Deepwater Quay.",
+   "timeNeeded": "1 hour",
+   "cost": "Paid entry; see the centre's website for current prices",
+   "tip": "Open daily 09:30–17:30, last admission 16:30. The closest sight to the ship."
+  },
+  {
+   "name": "St Colman's Cathedral",
+   "why": "Neo-Gothic cathedral consecrated in 1919, with a spire of about 91 m and a 49-bell carillon, high above the harbour.",
+   "timeNeeded": "45 minutes including the climb",
+   "cost": "Free; donations welcome",
+   "tip": "The walk up is steep. Summer carillon recitals are usually on Sundays at 16:30, May to September. Avoid visiting during Mass."
+  },
+  {
+   "name": "English Market, Cork",
+   "why": "Cork's covered food market, the easiest way to taste local produce in one stop.",
+   "timeNeeded": "1 hour",
+   "cost": "Free to enter",
+   "tip": "About 15–20 minutes' walk from Kent Station. Check opening hours before you go."
+  },
+  {
+   "name": "Blarney Castle and Gardens",
+   "why": "Castle about 600 years old, home of the Blarney Stone, with large gardens, 8 km north-west of Cork.",
+   "timeNeeded": "About 3 hours on site, plus travel",
+   "cost": "€22 adult (2026)",
+   "tip": "No timed slots; buy online or at the gate. The castle is not accessible, though parts of the gardens are. Only for a long call."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Local cheeses, breads and spiced beef",
+   "where": "English Market stalls, Cork",
+   "price": null
+  },
+  {
+   "dish": "Seafood chowder",
+   "where": "Pubs and cafés on Cobh's waterfront",
+   "price": null
+  },
+  {
+   "dish": "A pint of a Cork stout",
+   "where": "Pubs in Cork city centre",
+   "price": null
+  },
+  {
+   "dish": "Tea and scones",
+   "where": "Cafés around Casement Square, Cobh",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Catching the last train from Cork that would get you back just before all-aboard.",
+   "fix": "Trains are usually hourly. For a 17:30 all-aboard take the 15:00 from Kent, so a delay or a full train does not leave you stranded."
+  },
+  {
+   "mistake": "Assuming the ship is at Cobh when it is at Ringaskiddy.",
+   "fix": "Check the berth. Ringaskiddy is across the harbour in an industrial area; use the ship's transport or a taxi."
+  },
+  {
+   "mistake": "Trying to fit Blarney and Cork city into a short call.",
+   "fix": "Blarney needs a train, a walk and a bus each way plus 3 hours on site. Choose one, or take the ship's tour."
+  },
+  {
+   "mistake": "Turning up at Kennedy Pier for Spike Island without a booking.",
+   "fix": "Book online and choose a sailing whose return lands at least an hour before all-aboard."
+  },
+  {
+   "mistake": "Hailing an unmarked car or a hackney as a taxi.",
+   "fix": "Only taxis with roof signs can be hailed or use ranks; hackneys must be pre-booked."
+  }
+ ],
+ "safety": "Cobh is a small, safe town. The main hazard is the steep climb to St Colman's Cathedral in wet weather. Cork city is safe for visitors with normal city care for bags and phones. Traffic drives on the left; look right first when crossing.",
+ "scams": [],
+ "emergencyNumber": "112 or 999",
+ "accessibility": "The Cobh berth, station and promenade are close together and flat. Cobh and Cork Kent are the only fully wheelchair-accessible stations on the line. Spike Island has wheelchair-accessible pontoons in Cobh and on the island, and 10 of its 12 exhibition spaces are accessible, though the 400 m walk to the fort includes a short steep slope. St Colman's Cathedral is up a steep hill; take a taxi. Blarney Castle itself is not accessible.",
+ "rainyDay": "Stay in Cobh for the Cobh Heritage Centre and the Titanic Experience, both beside the waterfront, then take the train to Cork for the covered English Market. Skip Spike Island and Blarney's gardens in heavy rain.",
+ "crowdTips": "The Port of Cork expected 93 ship calls and over 175,000 passengers in 2026. When two ships are in, the Titanic Experience and the morning trains fill first. Go to Cork early and see Cobh's sights in the afternoon, or the other way round, opposite to the crowd from your ship.",
+ "faqs": [
+  {
+   "q": "Is Cobh walkable from the cruise port?",
+   "a": "Yes. The berth is in the town, about three minutes' walk from the promenade."
+  },
+  {
+   "q": "How do I get from Cobh cruise port to Cork city?",
+   "a": "Take the train from the station opposite the terminal to Cork Kent, about 25 minutes. Trains are usually hourly, with extra ones on big ship days."
+  },
+  {
+   "q": "Is Cobh a tender port?",
+   "a": "No. Ships berth at the Cobh Cruise Terminal, or the largest at Ringaskiddy deep-water berth across the harbour."
+  },
+  {
+   "q": "How long is the train from Cobh to Cork?",
+   "a": "About 24–25 minutes. Cork Kent is about 7 minutes' walk from the city centre."
+  },
+  {
+   "q": "What can I do in Cobh in one day from a cruise ship?",
+   "a": "The Titanic Experience, Cobh Heritage Centre and St Colman's Cathedral in town, plus either Spike Island or a train trip to Cork's English Market."
+  },
+  {
+   "q": "Can I visit Blarney Castle from Cobh on my own?",
+   "a": "Yes on a long call: train to Cork, walk to the bus station on Parnell Place and take bus 215. Allow about 3 hours at the castle and leave Blarney four hours before all-aboard."
+  },
+  {
+   "q": "How much is Spike Island?",
+   "a": "€27.95 per adult in 2026, including the return ferry from Kennedy Pier and a guided tour."
+  },
+  {
+   "q": "Is Cobh safe?",
+   "a": "Yes. Take care on the steep streets up to the cathedral."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Spike Island"
+  },
+  {
+   "name": "Titanic Experience Cobh"
+  },
+  {
+   "name": "Cobh Heritage Centre"
+  },
+  {
+   "name": "St Colman's Cathedral"
+  },
+  {
+   "name": "English Market"
+  },
+  {
+   "name": "Blarney Castle"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port of Cork – Frequently asked questions (cruise passengers)",
+   "url": "https://www.portofcork.ie/frequently-asked-questions/"
+  },
+  {
+   "title": "Port of Cork – Cruise facilities",
+   "url": "https://www.portofcork.ie/cruise-facilities/"
+  },
+  {
+   "title": "Irish Rail – Cork commuter rail fares (Cork, Cobh, Midleton)",
+   "url": "https://www.irishrail.ie/en-ie/rail-fares-and-tickets/fares-info/cork-cobh-midleton"
+  },
+  {
+   "title": "Spike Island – Visit us",
+   "url": "https://www.spikeislandcork.ie/visit-us/"
+  },
+  {
+   "title": "Spike Island – Sailing schedule",
+   "url": "https://www.spikeislandcork.ie/sailing-schedule/"
+  },
+  {
+   "title": "Titanic Experience Cobh",
+   "url": "https://titanicexperiencecobh.ie"
+  },
+  {
+   "title": "Cobh Heritage Centre – The Queenstown Story",
+   "url": "https://cobhheritage.com/?p=2080"
+  },
+  {
+   "title": "Blarney Castle & Gardens",
+   "url": "https://blarneycastle.ie/?p=8"
+  },
+  {
+   "title": "Hospitality Ireland – Port of Cork opens 2026 cruise season",
+   "url": "https://www.hospitalityireland.com/general-industry/port-of-cork-opens-2026-cruise-season-215012"
+  },
+  {
+   "title": "CruiseMapper – Cobh-Cork port",
+   "url": "https://www.cruisemapper.com/ports/cobh-cork-port-558"
+  },
+  {
+   "title": "Go to Ireland – St Colman's Cathedral, Cobh",
+   "url": "https://www.go-to-ireland.com/what-to-see/st-colmans-cathedral-cobh/"
+  }
+ ],
+ "uncertain": [
+  "Exact adult fare Cobh–Cork Kent: Irish Rail's zone table did not show which zone applies (the Port of Cork's FAQ quotes an older €9.50 return).",
+  "Bus 215 fare and journey time to Blarney.",
+  "Cobh Heritage Centre admission price.",
+  "English Market opening hours and Sunday closure (the official page did not load its hours).",
+  "Typical all-aboard time at Cobh; the day plan uses 17:30.",
+  "Whether the extra half-hourly cruise-day trains run on any given date.",
+  "Documented scams targeting cruise passengers: none found in sources, so none listed."
+ ]
+}

@@ -1,0 +1,382 @@
+{
+ "slug": "sete",
+ "city": "Sète",
+ "portName": "Port Sud de France (Port of Sète)",
+ "townName": "Sète town centre and canals",
+ "country": "France",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "French",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Sète cruise port guide: canals, Montpellier, Carcassonne",
+ "seoDescription": "Sète cruise quays are a 5–10 minute walk from the canals and market. Montpellier is 14–25 min by direct train; Carcassonne over 1 hour, château €13 (2026).",
+ "quickAnswer": "Cruise ships dock at quays in or near the centre of Sète; from Quai d'Alger the canals and covered market are a 5–10 minute walk, and outer berths have a free shuttle to the port gate. Montpellier is an easy trip by direct train (14–25 minutes), Carcassonne a long one. Be back on board 60 minutes before all-aboard from Sète, and leave Carcassonne 4 hours before.",
+ "intro": "Sète is a fishing and commercial port built around canals, with the hill of Mont Saint-Clair rising behind it. Since 2020 the port has taken only smaller ships, up to 240 m, so calls are quieter than in big Mediterranean ports. The town itself fills a day easily: the canals and quays, the covered market, the hilly Quartier Haut and the view from Mont Saint-Clair. Montpellier is close by train. Carcassonne is the famous day trip but the furthest, and direct trains are few.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Quai d'Alger (downtown cruise terminal)",
+   "distanceToCentreKm": 0.2,
+   "notes": "In the heart of town, for ships up to 200 m. A 5–10 minute walk to the centre. Terminal with Wi-Fi, a tourist information desk and currency exchange; taxi stand and coach parking alongside."
+  },
+  {
+   "name": "Outer cruise berths (P35 / M2 area)",
+   "distanceToCentreKm": null,
+   "notes": "Used for larger ships, depending on size. A free shuttle runs from the ship to the port's main gate; from there the town is within walking distance."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": null,
+  "detail": "From Quai d'Alger the main canal, the centre and the covered market are about 10 minutes on foot. From the outer berths take the free shuttle to the port gate first. The Quartier Haut and Mont Saint-Clair are steep."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5–10 min from Quai d'Alger to the centre",
+   "detail": "Walk along the quays to the main canal and the Halles. The Sète train station is within walking distance of the town."
+  },
+  {
+   "mode": "Port shuttle",
+   "cost": "Free",
+   "time": "About 5 min to the port gate",
+   "detail": "Runs from the outer berths to the port exit. Not needed at the downtown Quai d'Alger terminal."
+  },
+  {
+   "mode": "Town bus to Mont Saint-Clair",
+   "cost": "Check the fare on board",
+   "time": "Short ride uphill",
+   "detail": "Line 3 from Passage le Dauphin to La Croix Saint-Clair for the viewpoint; line 5 to Les Pierres Blanches for the forest and panoramic view. Lines 3, 9 and 915 serve the Quartier Haut."
+  },
+  {
+   "mode": "Train to Montpellier",
+   "cost": "Fares vary; buy before boarding",
+   "time": "14–25 min on a direct train",
+   "detail": "Frequent direct trains (TER liO and other SNCF services) to Montpellier Saint-Roch, about 28 km. From Saint-Roch, tram line 3 reaches Place de la Comédie in about 10 minutes, or walk into the pedestrian old town (Écusson)."
+  },
+  {
+   "mode": "Train to Carcassonne",
+   "cost": "Fares vary; buy before boarding",
+   "time": "About 1 h 7 min to 1 h 35 min on a direct train",
+   "detail": "Only a few direct trains a day; others need changes and take up to 2 h 30 min. Carcassonne station is about 2.2 km (26 minutes' walk) from the medieval Cité. Plan the return train before you leave."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered",
+   "time": "Varies",
+   "detail": "Taxis are usually available at the pier and at the Quai d'Alger stand."
+  }
+ ],
+ "returnTiming": {
+  "rule": "From Sète town, be back on board 60 minutes before all-aboard; from Mont Saint-Clair, leave 90 minutes before. From Montpellier, leave Place de la Comédie 2.5 hours before all-aboard. From Carcassonne, leave the Cité 4 hours before all-aboard.",
+  "detail": "Train returns need a 90-minute buffer at the ship. Carcassonne has only a few direct trains a day, so missing one can mean a long wait or a slower train with changes; plan around a specific direct train that reaches Sète at least 2 hours before all-aboard. Montpellier trains are frequent, but allow for the tram, the walk to the ship and any port shuttle.",
+  "emergencyFallback": "If a train is cancelled or late, take a taxi from the station to the quay. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Carcassonne medieval Cité",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Direct train plus 26-minute walk; château and ramparts €13 adult (2026)",
+   "saving": "Depends on fares; the ship's tour carries the guarantee that the ship waits"
+  },
+  {
+   "item": "Montpellier old town",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Direct train, 14–25 min each way",
+   "saving": "Most of the tour price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Sète: the canals, market and quays are a short walk from the ship, and the bus goes up Mont Saint-Clair. Montpellier is easy by train on your own. Carcassonne is where the ship's tour earns its price: it is the longest trip, direct trains are few, and the ship waits for its own coaches. Go independently only on a long call, with a confirmed direct train back.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at Quai d'Alger and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk 10 minutes to the main canal and the Halles de Sète, the covered market, open every morning."
+   },
+   {
+    "time": "09:30",
+    "what": "Bus line 3 from Passage le Dauphin up to La Croix Saint-Clair for the view over the sea, the Thau lagoon and the shellfish farms."
+   },
+   {
+    "time": "11:00",
+    "what": "Walk down via the Musée Paul Valéry, which overlooks the Cimetière marin and the sea."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch of tielle or bourride on the old port quays."
+   },
+   {
+    "time": "14:00",
+    "what": "Wander the Quartier Haut for its street art, then the canals and the cafés on Quai Maximin Licciardi. Option on a long call: train to Montpellier instead, leaving Place de la Comédie by 15:00."
+   },
+   {
+    "time": "16:00",
+    "what": "Back towards Quai d'Alger along the quays."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Canals and old port",
+   "why": "Sète's canals, quays, trawlers and waterfront buildings earned it the nickname 'little Venice of the Languedoc'.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Start at Quai d'Alger and finish with a drink on Quai Maximin Licciardi, where locals sit."
+  },
+  {
+   "name": "Halles de Sète",
+   "why": "The covered market for fish, shellfish and local specialities such as tielle, with a terrace.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free to enter",
+   "tip": "Mornings only; go first thing."
+  },
+  {
+   "name": "Mont Saint-Clair and Les Pierres Blanches",
+   "why": "The hill above Sète, with views over the Mediterranean, the Thau lagoon, the shellfish farms and the lido; the Pyrenees on clear days.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Bus fare",
+   "tip": "Bus 3 to La Croix Saint-Clair or bus 5 to Les Pierres Blanches. Wear proper shoes if you walk."
+  },
+  {
+   "name": "Musée Paul Valéry and the Cimetière marin",
+   "why": "The town museum on the slopes of Mont Saint-Clair, on a terrace overlooking the Cimetière marin and the sea.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Included in the €15 five-museum pass (2026); free on the first Sunday of each month",
+   "tip": "Check opening hours with the Sète tourist office before you go."
+  },
+  {
+   "name": "Quartier Haut",
+   "why": "The hilly old quarter settled by Neapolitan fishermen, with street art on its walls.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Steep in places; buses 3, 9 and 915 serve it."
+  },
+  {
+   "name": "MIAM (Musée International des Arts Modestes)",
+   "why": "A museum of popular and everyday art, part of Sète's museum circuit.",
+   "timeNeeded": "1 hour",
+   "cost": "Included in the €15 five-museum pass (2026)",
+   "tip": "Buses 3 and 8 stop at Passage le Dauphin for the cultural sites."
+  },
+  {
+   "name": "Montpellier old town (Écusson)",
+   "why": "A largely pedestrian historic centre around Place de la Comédie, with the Musée Fabre, Cathédrale Saint-Pierre and the Promenade du Peyrou.",
+   "timeNeeded": "Half a day including the train",
+   "cost": "Train fare",
+   "tip": "The walk from Place de la Comédie to the Peyrou takes under 25 minutes. Leave Comédie 2.5 hours before all-aboard."
+  },
+  {
+   "name": "Château and ramparts of the Cité de Carcassonne",
+   "why": "The medieval walled city, with a visit route that includes a full circuit of the ramparts.",
+   "timeNeeded": "Full day including travel",
+   "cost": "€13 adult (2026); audio guide €5",
+   "tip": "The ticket office closes 45 minutes before closing time from April to September and 30 minutes before from October to March. Leave the Cité 4 hours before all-aboard."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Sète beaches (towards Marseillan)",
+   "howToGetThere": "Cycle the coastal greenway towards Marseillan, or take a taxi",
+   "time": "Varies; the sandy shore stretches over 12 km",
+   "cost": "Free",
+   "note": "More than 12 km of sandy beaches. Follow lifeguard flags."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Tielle (Sète's seafood pie)",
+   "where": "Halles de Sète",
+   "price": null
+  },
+  {
+   "dish": "Fresh fish and shellfish",
+   "where": "Halles de Sète, inside or on the terrace",
+   "price": null
+  },
+  {
+   "dish": "Bourride de baudroie (monkfish stew)",
+   "where": "Restaurants along the old port quays",
+   "price": null
+  },
+  {
+   "dish": "Macaronade (beef and pasta)",
+   "where": "Restaurants along the old port quays",
+   "price": null
+  },
+  {
+   "dish": "Coffee or an aperitif by the canal",
+   "where": "Cafés on Quai Maximin Licciardi",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Going to Carcassonne by train without checking the return.",
+   "fix": "Only a few trains a day are direct. Pick a direct train that reaches Sète 2 hours before all-aboard, and leave the Cité 4 hours before."
+  },
+  {
+   "mistake": "Arriving at the Halles in the afternoon.",
+   "fix": "The market is a morning affair; go first thing."
+  },
+  {
+   "mistake": "Walking up Mont Saint-Clair in the midday heat.",
+   "fix": "Take bus 3 or 5 up and walk down."
+  },
+  {
+   "mistake": "Assuming the shuttle drops you in town.",
+   "fix": "From the outer berths the free shuttle goes only to the port gate; walk on from there."
+  },
+  {
+   "mistake": "Adding a full tip in restaurants.",
+   "fix": "Service is included in French restaurant bills by law; a tip is optional."
+  }
+ ],
+ "safety": "Sète is a safe town for visitors. The main risk is theft: pickpockets work in pairs, with one distracting you, especially in stations and crowded spots and near cash machines. Keep bags zipped and across your body, and keep valuables in separate places. On Mont Saint-Clair and in the hills, wildfire risk is high in hot, dry weather; follow any access restrictions. Call 112 for emergencies or 18 for fire.",
+ "scams": [
+  "Distraction theft: one person distracts you while another goes through your bag, especially at stations, attractions and cash machines.",
+  "Drink spiking in bars: buy your own drinks and keep them in sight."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "From Quai d'Alger the quays and canals are close and mostly level. The Quartier Haut and Mont Saint-Clair are steep; use the town buses rather than walking. Larger ships at outer berths rely on the port shuttle to the gate, so ask the ship about accessible transport. Montpellier's centre is largely pedestrian and the tram links the station to Place de la Comédie.",
+ "rainyDay": "Use the five-museum pass (€15, 2026): Musée Paul Valéry, MIAM, the Musée de la Mer, Espace Georges-Brassens and the Chapelle du Quartier Haut. The Halles are covered for a long lunch. Montpellier's Musée Fabre is a good wet-weather alternative, a short train ride away.",
+ "crowdTips": "Sète now takes only ships up to 240 m, typically 600–800 passengers, so cruise crowds are small. Locals fill the Halles in the morning and the canal-side cafés at aperitif time. In summer the Wednesday market and fireworks evenings bring extra visitors.",
+ "faqs": [
+  {
+   "q": "Is Sète walkable from the cruise port?",
+   "a": "Yes. From the downtown Quai d'Alger terminal the centre is 5–10 minutes on foot. From outer berths take the free shuttle to the port gate, then walk."
+  },
+  {
+   "q": "Is Sète a tender port?",
+   "a": "No. Cruise ships dock at quays in or near the town centre."
+  },
+  {
+   "q": "How do I get from Sète cruise port to Montpellier?",
+   "a": "Walk to Sète station and take a direct train to Montpellier Saint-Roch, 14–25 minutes. Leave Place de la Comédie 2.5 hours before all-aboard."
+  },
+  {
+   "q": "Can I visit Carcassonne from Sète on a cruise?",
+   "a": "Yes, but it is the longest trip: about 1 h 7 min to 1 h 35 min by direct train, then 26 minutes' walk to the Cité. Leave the Cité 4 hours before all-aboard, or take the ship's tour."
+  },
+  {
+   "q": "What can I do in Sète in one day from a cruise ship?",
+   "a": "The canals and Halles market, the bus up Mont Saint-Clair, the Musée Paul Valéry above the Cimetière marin, and the Quartier Haut."
+  },
+  {
+   "q": "Are there beaches near Sète cruise port?",
+   "a": "Sète has more than 12 km of sandy beaches towards Marseillan, reached by bike along the coastal greenway or by taxi."
+  },
+  {
+   "q": "Is Sète safe?",
+   "a": "Yes. Watch for distraction pickpockets in crowds and stations."
+  },
+  {
+   "q": "Is there a shuttle at Sète cruise port?",
+   "a": "Yes, a free shuttle runs from the outer berths to the port gate. At Quai d'Alger you walk straight into town."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Sète canals"
+  },
+  {
+   "name": "Halles de Sète"
+  },
+  {
+   "name": "Mont Saint-Clair"
+  },
+  {
+   "name": "Musée Paul Valéry"
+  },
+  {
+   "name": "Cimetière marin"
+  },
+  {
+   "name": "Montpellier"
+  },
+  {
+   "name": "Cité de Carcassonne"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Archipel de Thau tourist office – Cruises and ferries",
+   "url": "https://www.archipel-thau.com/en/sea-side/cruises-and-ferries/"
+  },
+  {
+   "title": "Archipel de Thau tourist office – 23 hours in Sète (visitor guide PDF)",
+   "url": "https://www.tourisme-sete.com/medias/documents/documentation/documentation-23JOURSETE-UK.pdf"
+  },
+  {
+   "title": "Sète tourist office – Bateau-bus de Sète",
+   "url": "https://en.tourisme-sete.com/bateau-bus-de-sete-sete.html"
+  },
+  {
+   "title": "MedCruise – Cruise to Sète (port data, 2017)",
+   "url": "https://www.medcruise.com/news/cruise-to-sete"
+  },
+  {
+   "title": "TourMaG – Sète trace sa voie vers une croisière haut de gamme et raisonnée (April 2025)",
+   "url": "https://www.tourmag.com/Sete-trace-sa-voie-vers-une-croisiere-haut-de-gamme-et-raisonnee-ABO_a126880.html"
+  },
+  {
+   "title": "What's in Port – Sète",
+   "url": "https://www.whatsinport.com/Sete.htm"
+  },
+  {
+   "title": "Celebrity Cruises – Sète cruise port guide",
+   "url": "https://www.celebritycruises.com/ports/sete"
+  },
+  {
+   "title": "Omio – Trains from Sète to Montpellier",
+   "url": "https://www.omio.fr/trains/sete/montpellier"
+  },
+  {
+   "title": "Virail – Trains Sète to Montpellier",
+   "url": "https://www.virail.fr/trains-sete-montpellier"
+  },
+  {
+   "title": "Omio – Trains from Sète to Carcassonne",
+   "url": "https://www.omio.fr/trains/sete/cite-de-carcassonne-wm0pj"
+  },
+  {
+   "title": "Tourisme Occitanie – Château et remparts de la Cité de Carcassonne",
+   "url": "https://www.tourisme-occitanie.com/fr/fiche/patrimoine-culturel/chateau-et-remparts-de-la-cite-de-carcassonne-carcassonne_TFOPCULAR0110000002/"
+  },
+  {
+   "title": "Tourisme Occitanie – Musée Paul Valéry",
+   "url": "https://www.tourisme-occitanie.com/fr/fiche/patrimoine-culturel/musee-paul-valery-sete_TFOPCULAR0340000101/"
+  },
+  {
+   "title": "ViaTravelers – Écusson, Montpellier",
+   "url": "https://viatravelers.com/neighborhoods/ecusson-montpellier/"
+  },
+  {
+   "title": "GOV.UK – France travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/france/safety-and-security"
+  }
+ ],
+ "uncertain": [
+  "Train fares Sète–Montpellier and Sète–Carcassonne: aggregator sites quote advance fares from €1 and averages of about €8–9 and €19–26; not confirmed on SNCF.",
+  "Exact number and times of direct Sète–Carcassonne trains (sources give 3 to 10 a day).",
+  "Walking time from the cruise quays to Sète railway station.",
+  "Opening hours and individual ticket price of the Musée Paul Valéry and MIAM; Carcassonne château opening hours.",
+  "Whether the breakwater dolphin berth with tenders (listed by What's in Port for 240–350 m ships) is still used, given the port now takes ships up to 240 m.",
+  "Whether the 2017-listed free shuttle into the city centre (rather than to the port gate) still runs, and berth naming (P35 / M2 vs P2).",
+  "Bateau-bus 2026 fare and hours; it runs from Mas Coulet car park, not from the cruise quays.",
+  "The port's typical all-aboard time (17:30 used as a default)."
+ ]
+}

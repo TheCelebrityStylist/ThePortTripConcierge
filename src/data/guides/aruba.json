@@ -1,0 +1,434 @@
+{
+  "slug": "aruba",
+  "city": "Oranjestad",
+  "portName": "Aruba Cruise Terminal, Port of Oranjestad",
+  "townName": "downtown Oranjestad",
+  "country": "Aruba",
+  "currency": "USD",
+  "currencySymbol": "US$",
+  "priceSymbol": "US$",
+  "language": "Papiamento and Dutch; English widely spoken",
+  "timezone": "AST (UTC-4), no daylight saving",
+  "lastVerified": "October 2026",
+  "seoTitle": "Aruba cruise port guide: Oranjestad, Eagle Beach, buses",
+  "seoDescription": "Aruba cruise port 2026: downtown Oranjestad is a short walk. Arubus bus US$2.60, taxi to Eagle Beach US$28, Palm Beach US$33. Leave the beach by 15:30.",
+  "quickAnswer": "Ships dock at the Aruba Cruise Terminal on the edge of downtown Oranjestad, so you walk off the ship and into town in a few minutes. For the beaches, the Arubus bus station is across the road: line 10A runs along the hotel strip to Eagle and Palm Beach about every 20 minutes for US$2.60, or a government-fixed taxi costs US$28 to Eagle Beach. Leave the beach by 15:30 for a 17:30 all-aboard.",
+  "intro": "Aruba is a docking port with the capital on the doorstep. The terminal sits on the northern side of downtown Oranjestad, and the island's best-known beaches, Eagle and Palm Beach, are a ten-minute drive up the west coast. Prices are commonly quoted in US dollars, taxis charge fixed government fares, and a cheap public bus serves the beach strip from right outside the port. Departure times vary widely, from 16:00 to 23:00, so check yours: on a late call you can add the national park or the south coast. Up to six ships can call on one day in high season.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 9,
+  "terminals": [
+    {
+      "name": "Aruba Cruise Terminal (three terminal buildings, four docks)",
+      "distanceToCentreKm": 1.0,
+      "notes": "All ships berth at the cruise facility on Lloyd G. Smith Boulevard on the northern side of downtown. The walk from the ship to the boulevard takes 5–10 minutes depending on the dock. The terminals are air-conditioned, with information booths, an ATM, a Setar phone and Wi-Fi desk and shops. Taxis and tour buses wait at the terminal; the Arubus main bus station is across the street."
+    }
+  ],
+  "walkability": {
+    "verdict": "Yes",
+    "minutes": 10,
+    "km": 1.0,
+    "detail": "Flat. Walk out through the port gate to Lloyd G. Smith Boulevard (5–10 minutes depending on your dock), then into Havenstraat, Schelpstraat and Main Street, or along the waterfront to the Renaissance Marketplace. Museums and Fort Zoutman are 5–10 minutes further. Surfside Beach, the closest beach, is about 15 minutes on foot. There is little shade at midday."
+  },
+  "transportSections": [
+    {
+      "mode": "On foot",
+      "cost": "Free",
+      "time": "5–10 min to Lloyd G. Smith Boulevard; downtown shops a few minutes beyond",
+      "detail": "Follow the crowd out of the port gate. The shopping streets, Renaissance Marketplace and Fort Zoutman are all within a 15-minute flat walk."
+    },
+    {
+      "mode": "Arubus line 10A (Oranjestad – Eagle Beach – Palm Beach – Arashi)",
+      "cost": "US$2.60 (AWG 4.50) single, cash on the bus; Retour card US$5; Day Pass US$15 (2026)",
+      "time": "Eagle Beach is a 10-minute drive; allow extra for stops and waiting",
+      "detail": "The Oranjestad main bus station is across the road from the cruise terminal. Line 10A is the daytime tourist service along the hotel strip, about every 20 minutes. Retour cards and day passes are sold at the station booth (Monday to Friday 06:00–14:00) and at The Market Aruba and some hotel gift shops, not on the bus. Lines 10B and 10C are limited services; take 10A."
+    },
+    {
+      "mode": "Arubus lines L2 / L3A to San Nicolas, then L900 to Baby Beach",
+      "cost": "US$2.60 per ride (2026)",
+      "time": "Long trip with a change; L900 runs about every 60 minutes",
+      "detail": "L2 and L3A run frequently from Oranjestad to San Nicolas; the L900 shuttle links San Nicolas and Baby Beach about once an hour. Only sensible on a long call; a missed hourly connection costs you an hour."
+    },
+    {
+      "mode": "Taxi (government fixed fares)",
+      "cost": "Cruise terminal to Eagle Beach US$28, Palm Beach US$33, Baby Beach US$62 (2026)",
+      "time": "About 10 min to Eagle Beach, 10–15 min to Palm Beach, about 45 min to Baby Beach",
+      "detail": "No meters: fares are set by the government and cover up to four passengers; each extra passenger (up to seven) is US$3. A US$5 surcharge applies once per trip on Sundays, public holidays and at night. Waiting time costs US$1 a minute. Pay in US dollars or florins at the fixed rate of AWG 1.80 to US$1. Complaints go to the Department of Public Transportation (DTP)."
+    }
+  ],
+  "returnTiming": {
+    "rule": "Leave Eagle or Palm Beach by 15:30 for a 17:30 all-aboard, and be back on board by 16:30.",
+    "detail": "A taxi from Eagle Beach takes about 10 minutes and from Palm Beach 10–15 minutes, but the 10A bus runs every 20 minutes or so and stops often, and taxi queues form at the hotels when several ships leave together. Leaving at 15:30 gives you a missed bus and a slow taxi as margin. From Baby Beach or Arikok (30–45 minutes' drive), leave by 15:00.",
+    "emergencyFallback": "Ask any hotel front desk on the beach strip to call a taxi; fares to the cruise terminal are fixed (US$33 from Palm Beach). If you will miss all-aboard, call the port agent number on your daily programme at once."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": 10,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {
+      "item": "Eagle Beach day",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Bus US$2.60 each way (2026)",
+      "saving": "Large; sunbeds or shade are extra"
+    },
+    {
+      "item": "Oranjestad and Fort Zoutman",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Walk free; Historical Museum US$5 (2026)",
+      "saving": "No transport needed"
+    },
+    {
+      "item": "Arikok National Park and Natural Pool",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Park fee US$22 adult (2026) plus a 4x4 for Conchi",
+      "saving": "Small once you add a 4x4; the tour is usually simpler"
+    },
+    {
+      "item": "Butterfly Farm",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "US$19 adult (2026) plus bus or taxi to Palm Beach",
+      "saving": "Large"
+    }
+  ],
+  "excursionAdvice": "Skip the ship tour for Oranjestad and the west-coast beaches: the town is a short walk and Eagle and Palm Beach are a cheap bus or fixed-fare taxi away. A ship tour, or a reputable 4x4 tour, earns its price for Arikok National Park and the Conchi Natural Pool, which can only be reached by 4x4 over rough tracks, and for a full island loop to the north coast and Baby Beach, where independent bus connections are hourly.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 on a weekday and all-aboard is 17:30. On a late departure, add Arikok or Baby Beach.",
+    "steps": [
+      {
+        "time": "08:30",
+        "what": "Walk off the ship and out to Lloyd G. Smith Boulevard. Get cash or check the information booth at the terminal."
+      },
+      {
+        "time": "09:00",
+        "what": "Walk to Fort Zoutman and the Willem III Tower; the Historical Museum inside opens at 09:00 on weekdays (US$5)."
+      },
+      {
+        "time": "10:00",
+        "what": "Walk Main Street and the waterfront to the Renaissance Marketplace."
+      },
+      {
+        "time": "11:00",
+        "what": "Pastechi or a local lunch in town, for example at The Pastechi House or Gostoso."
+      },
+      {
+        "time": "12:00",
+        "what": "Cross to the Arubus station opposite the terminal and take line 10A to Eagle Beach (US$2.60 cash)."
+      },
+      {
+        "time": "12:30",
+        "what": "Swim and rest at Eagle Beach. Bring shade or rent it; the sun is strong."
+      },
+      {
+        "time": "15:30",
+        "what": "Leave the beach: bus 10A back to Oranjestad, or a fixed-fare taxi if a bus is not due."
+      },
+      {
+        "time": "16:30",
+        "what": "Back on board, 60 minutes before all-aboard."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "Fort Zoutman and the Historical Museum",
+      "why": "Aruba's oldest building, with the Willem III Tower, and a small museum on the island's history.",
+      "timeNeeded": "45 minutes",
+      "cost": "US$5 adult (2026)",
+      "tip": "Open Monday to Friday 09:00–18:00 and Saturday 10:00–14:00; closed Sunday. The Tuesday-night Bon Bini Festival has not restarted."
+    },
+    {
+      "name": "Downtown Oranjestad",
+      "why": "Dutch-Caribbean pastel buildings on Main Street, Havenstraat and Schelpstraat, plus the waterfront marketplace.",
+      "timeNeeded": "1–2 hours",
+      "cost": "Free",
+      "tip": "Go in the morning before the midday heat."
+    },
+    {
+      "name": "Eagle Beach",
+      "why": "A long, wide white-sand beach with the fofoti trees often photographed here.",
+      "timeNeeded": "2–4 hours",
+      "cost": "Free; bus US$2.60 each way (2026)",
+      "tip": "About a ten-minute drive from the port. Take bus 10A or a fixed-fare taxi."
+    },
+    {
+      "name": "Palm Beach",
+      "why": "Calm water along the high-rise hotel strip, with bars, water sports and restaurants.",
+      "timeNeeded": "2–4 hours",
+      "cost": "Free; taxi US$33 from the terminal (2026)",
+      "tip": "Busier and more built-up than Eagle Beach."
+    },
+    {
+      "name": "Arikok National Park",
+      "why": "Covers a large part of the island: desert landscape, caves with Arawak drawings, and the Conchi Natural Pool on the rugged north coast.",
+      "timeNeeded": "Half a day",
+      "cost": "US$22 adult, under-18s free (2026)",
+      "tip": "San Fuego entrance open 08:00–16:00. Conchi is in a 4x4-only zone; a normal hire car will not get there. UTVs and ATVs are banned."
+    },
+    {
+      "name": "The Butterfly Farm",
+      "why": "Walk-through garden with guided tours on the butterfly life cycle, near Palm Beach.",
+      "timeNeeded": "1 hour",
+      "cost": "US$19 adult, US$10 child 4–17 (2026)",
+      "tip": "Open daily 08:30–16:30; the last guided tour starts at 16:00. Easy to combine with Palm Beach."
+    },
+    {
+      "name": "California Lighthouse",
+      "why": "Landmark lighthouse on the island's northern tip with views over the dunes and the west coast.",
+      "timeNeeded": "30–60 minutes plus travel",
+      "cost": "Official taxi fare from the terminal to the Boca Catalina–Lighthouse zone US$43 one way (2026)",
+      "tip": "Bus 10A runs to Arashi, about 0.5 km short; walk up the access road."
+    },
+    {
+      "name": "Baby Beach",
+      "why": "Shallow lagoon on the far south-east tip.",
+      "timeNeeded": "Half a day including travel",
+      "cost": "Taxi US$62 one way from the terminal (2026)",
+      "tip": "About 45 minutes by road. Only on a long call."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Surfside Beach",
+      "howToGetThere": "Walk south from the port",
+      "time": "About 15 min on foot",
+      "cost": "Free",
+      "note": "The closest beach to the ship. Smaller than the west-coast beaches."
+    },
+    {
+      "name": "Druif (Divi) Beach",
+      "howToGetThere": "Taxi or bus 10A",
+      "time": "About 5 min by road",
+      "cost": "Free; bus US$2.60 (2026)",
+      "note": "Quieter strip south of Eagle Beach."
+    },
+    {
+      "name": "Eagle Beach",
+      "howToGetThere": "Bus 10A or taxi",
+      "time": "About 10 min by road",
+      "cost": "Bus US$2.60; taxi US$28 from the terminal (2026)",
+      "note": "Wide sand and low-rise hotels; the best all-round choice."
+    },
+    {
+      "name": "Palm Beach",
+      "howToGetThere": "Bus 10A or taxi",
+      "time": "10–15 min by road",
+      "cost": "Bus US$2.60; taxi US$33 from the terminal (2026)",
+      "note": "Calm water, hotels, bars and water sports."
+    },
+    {
+      "name": "Baby Beach",
+      "howToGetThere": "Taxi, or bus to San Nicolas and the hourly L900",
+      "time": "About 45 min by road",
+      "cost": "Taxi US$62 one way (2026)",
+      "note": "Shallow lagoon; too far for a short call."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Pastechi (fried pastry with savoury filling)",
+      "where": "The Pastechi House, Oranjestad",
+      "price": null
+    },
+    {
+      "dish": "Funchi and pan bati",
+      "where": "Gostoso, Oranjestad",
+      "price": null
+    },
+    {
+      "dish": "Sopi (local soup of the day)",
+      "where": "Peanuts Restaurant, Oranjestad",
+      "price": null
+    },
+    {
+      "dish": "Stoba (stew)",
+      "where": "The West Deck, Oranjestad waterfront",
+      "price": null
+    },
+    {
+      "dish": "Fresh fried fish and shrimp on the pier",
+      "where": "Zeerovers, Savaneta (cash only; kitchen 11:00–21:00, closed Mondays)",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Agreeing a taxi fare 'per person'.",
+      "fix": "Fares are fixed per trip for up to four people: US$28 to Eagle Beach and US$33 to Palm Beach from the terminal (2026)."
+    },
+    {
+      "mistake": "Planning to buy a bus day pass on the bus.",
+      "fix": "Pay US$2.60 cash per ride on board, or buy the Retour card or day pass at the station booth (weekdays 06:00–14:00) or The Market Aruba first."
+    },
+    {
+      "mistake": "Driving a normal hire car to the Natural Pool.",
+      "fix": "Conchi is in a 4x4-only zone of Arikok. Take a 4x4 tour or skip it."
+    },
+    {
+      "mistake": "Heading to Baby Beach by bus on a short call.",
+      "fix": "It needs a change in San Nicolas and the L900 runs about hourly. Take a taxi or choose a west-coast beach."
+    },
+    {
+      "mistake": "Assuming every ship leaves late.",
+      "fix": "Departures here range from 16:00 to 23:00. Check your own all-aboard time before planning."
+    }
+  ],
+  "safety": "Aruba is generally regarded as one of the safer Caribbean ports, and the terminal and downtown are well organised for visitors. The main risks are sun and dehydration: shade is scarce at midday on the beaches and in Arikok, so carry water and sun protection. Keep valuables out of sight on the beach and in hire cars. Swim on the calm west coast; the north coast is rough and not for swimming.",
+  "scams": [
+    "Taxi overcharging: fares are set by the government and published in an official fare table. Check the fare before you get in and report overcharging to the Department of Public Transportation (DTP).",
+    "Surcharges added twice: the US$5 Sunday, holiday and night surcharge may be charged only once per trip.",
+    "Change in florins at a poor rate: taxi fares use a fixed rate of AWG 1.80 to US$1. Carry small US dollar notes so you can pay the exact fare."
+  ],
+  "emergencyNumber": "911",
+  "accessibility": "The terminal area is flat, with step-free access, and wheelchair-accessible taxis and vans are available at the port. The walk into downtown Oranjestad is level, though pavements vary and the docks furthest out add 5–10 minutes. Beaches are soft sand without boardwalks in most places. Arikok's rough tracks and the steps down to the Natural Pool are not suitable for wheelchairs.",
+  "rainyDay": "Rain is usually brief. Spend the time in Fort Zoutman's Historical Museum, the shops on Main Street and the indoor Renaissance Mall near the port, which has public restrooms. The Butterfly Farm's guided tour works in light rain.",
+  "crowdTips": "Aruba regularly sees several ships at once; one day in November 2026 had six ships and over 24,000 passengers and crew. On those days taxis queue at the terminal and bus 10A fills. Walk town first while the beach crowds are leaving, take the bus to the beach around midday, and leave before the late-afternoon rush. Eagle Beach is long enough to find space if you walk away from the hotel accesses.",
+  "faqs": [
+    {
+      "q": "Is Aruba a tender port?",
+      "a": "No. Ships dock at the Aruba Cruise Terminal in Oranjestad."
+    },
+    {
+      "q": "Is downtown Oranjestad walkable from the cruise port?",
+      "a": "Yes. The boulevard is 5–10 minutes from the ship and the main shopping streets a few minutes beyond."
+    },
+    {
+      "q": "How do I get from the Aruba cruise port to Eagle Beach?",
+      "a": "Take Arubus line 10A from the station opposite the terminal (US$2.60) or a taxi at the fixed fare of US$28 (2026). It is about a ten-minute drive."
+    },
+    {
+      "q": "How much is a taxi from the Aruba cruise port to Palm Beach?",
+      "a": "US$33 for up to four people, plus US$5 on Sundays and holidays (2026)."
+    },
+    {
+      "q": "Can I use US dollars in Aruba?",
+      "a": "Yes. The Aruban florin is the local currency, but US dollars are widely accepted and taxis take both at AWG 1.80 to US$1."
+    },
+    {
+      "q": "What can I do in Aruba in one day from a cruise ship?",
+      "a": "Walk Oranjestad and Fort Zoutman in the morning, then bus or taxi to Eagle or Palm Beach. On a late departure, add Arikok National Park with a 4x4 tour."
+    },
+    {
+      "q": "What beach is closest to the Aruba cruise port?",
+      "a": "Surfside Beach, about 15 minutes on foot. Eagle Beach is a ten-minute drive."
+    },
+    {
+      "q": "Is Aruba safe for cruise passengers?",
+      "a": "Yes, it is considered one of the safer Caribbean ports. Take care with sun and keep valuables out of sight on the beach."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "Eagle Beach"
+    },
+    {
+      "name": "Palm Beach"
+    },
+    {
+      "name": "Arikok National Park"
+    },
+    {
+      "name": "Fort Zoutman"
+    },
+    {
+      "name": "Downtown Oranjestad"
+    },
+    {
+      "name": "The Butterfly Farm"
+    },
+    {
+      "name": "California Lighthouse"
+    },
+    {
+      "name": "Baby Beach"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aruba Tourism Authority – Aruba cruise port",
+      "url": "https://www.aruba.com/us/plan-your-visit/aruba-by-cruise/cruise-port"
+    },
+    {
+      "title": "Aruba Tourism Authority – Aruba cruise port travel, beaches and more",
+      "url": "https://www.aruba.com/uk/plan-your-visit-today/aruba-by-cruise/aruba-cruise-port-travel-beaches--more"
+    },
+    {
+      "title": "Government of Aruba – Official taxi fares (18 May 2026)",
+      "url": "https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/images/taxi-fares-2026-05-18.pdf"
+    },
+    {
+      "title": "VisitAruba – Taxi and limo guide (May 2026)",
+      "url": "https://www.visitaruba.com/getting-around/taxis-and-limos/"
+    },
+    {
+      "title": "Arubus – FAQ",
+      "url": "https://arubus.com/faq/"
+    },
+    {
+      "title": "Arubus – Fares",
+      "url": "https://arubus.com/fares/"
+    },
+    {
+      "title": "Arubus – Routes",
+      "url": "https://arubus.com/routes/"
+    },
+    {
+      "title": "VisitAruba – Cruise ship visitors",
+      "url": "https://www.visitaruba.com/aruba-by-cruise/"
+    },
+    {
+      "title": "Cruise Critic – Aruba cruise port information",
+      "url": "https://www.cruisecritic.com/articles/aruba-cruise-port-terminal-information"
+    },
+    {
+      "title": "My Aruba Guide – Cruise to Aruba",
+      "url": "https://www.myarubaguide.com/traveling-to-aruba/cruise-to-aruba"
+    },
+    {
+      "title": "VisitAruba – The Historical Museum of Aruba",
+      "url": "https://www.visitaruba.com/things-to-do/museums/the-historical-museum-of-aruba/"
+    },
+    {
+      "title": "VisitAruba – Bon Bini Festival 2026 update",
+      "url": "https://www.visitaruba.com/blog/entertainment/is-the-bon-bini-festival-running-in-2026-heres-the-latest-update/"
+    },
+    {
+      "title": "VisitAruba – Arikok National Park",
+      "url": "https://www.visitaruba.com/arikok-national-park-aruba/"
+    },
+    {
+      "title": "Nomadic Niko – Arikok National Park (updated April 2026)",
+      "url": "https://nomadicniko.com/aruba/arikok-national-park"
+    },
+    {
+      "title": "The Butterfly Farm – Visitor information",
+      "url": "https://thebutterflyfarm.com/visitor-information"
+    },
+    {
+      "title": "Aruba Tourism Authority – Zeerover",
+      "url": "https://www.aruba.com/us/explore/zeerover"
+    },
+    {
+      "title": "Aruba Tourism Authority – Food in Aruba",
+      "url": "https://www.aruba.com/us/blog/food-in-aruba"
+    },
+    {
+      "title": "Gangwaze – Oranjestad cruise schedule, November 2026",
+      "url": "https://gangwaze.com/cruise-port-schedule/oranjestad-aruba/november-2026"
+    },
+    {
+      "title": "CruiseMapper – Oranjestad, Aruba port schedule",
+      "url": "https://www.cruisemapper.com/ports/oranjestad-aruba-port-452"
+    }
+  ],
+  "uncertain": [
+    "Free downtown streetcar/trolley: tourism pages still describe it, but none confirms it is operating in 2026. Left out.",
+    "California Lighthouse tower climb: one 2026 blog says free; no official price or hours found. Left out.",
+    "Arikok fee (US$22) comes from a blog updated April 2026; the park's own site could not be opened.",
+    "Bus journey time from Oranjestad to Eagle/Palm Beach is not published; only drive times are given.",
+    "Historical Museum: a VisitAruba page still carries an old COVID closure notice beside the hours; a 2026 VisitAruba article says the fort is open.",
+    "VisitAruba lists Oranjestad–Eagle Beach at US$16, but the official fare table lists US$28 from the cruise terminal; US$28 used.",
+    "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null.",
+    "Restaurant prices not verified."
+  ]
+}

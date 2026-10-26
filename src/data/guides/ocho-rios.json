@@ -1,0 +1,384 @@
+{
+ "slug": "ocho-rios",
+ "city": "Ocho Rios",
+ "portName": "Ocho Rios Cruise Ship Pier and Reynolds Pier",
+ "townName": "Ocho Rios town centre (Main Street)",
+ "country": "Jamaica",
+ "currency": "JMD",
+ "currencySymbol": "J$",
+ "priceSymbol": "US$",
+ "language": "English (Jamaican Patois widely spoken)",
+ "timezone": "EST (UTC−5) all year; no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Ocho Rios cruise port guide: Dunn's River and town",
+ "seoDescription": "Ocho Rios ships dock a 10-min walk from Main Street. Dunn's River Falls is 3 km west: US$25 adult entry (2026). Leave the falls 90 min before all-aboard.",
+ "quickAnswer": "Ships dock at Ocho Rios, either at the main cruise pier by Turtle Bay or at Reynolds Pier about 15 minutes' walk further west; there is no tender. Main Street is about a 10-minute walk from the main pier, and Dunn's River Falls is a short taxi ride of about 3 km. Leave the falls or Mystic Mountain 90 minutes before all-aboard and be back on board 60 minutes before.",
+ "intro": "Ocho Rios is a small north-coast resort town where the cruise pier sits on the bay next to the beach and shops. The main pier reopened on 11 November 2025 after almost two years of repairs, after a ship was blown onto it in February 2024, and Dunn's River Falls reopened the same week after closing for Hurricane Melissa. Most passengers spend the day at the falls and the neighbouring Mystic Mountain park, both a few minutes west by road. Those two sites are busiest on multi-ship days, so the order you do things in matters more than how you get there.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Ocho Rios Cruise Ship Pier (Turtle Bay)",
+   "distanceToCentreKm": 0.8,
+   "notes": "Main berth. Reopened 11 November 2025 after US$20 million of repairs overseen by the Port Authority of Jamaica. Covered waiting area, toilets, a café, vendor stalls, a taxi line and tour desks. No steps around the pier. Turtle Beach is to the left as you leave and a beachfront Margaritaville to the right."
+  },
+  {
+   "name": "Reynolds Pier (also called James Bond Pier)",
+   "distanceToCentreKm": 1.5,
+   "notes": "Second berth, used when more than one ship is in. Recently upgraded for larger ships (new fenders, mooring dolphins, wider access road). A taxi stand and information kiosk but little else. About 15 minutes' walk further from town than the main pier."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 10,
+  "km": 0.8,
+  "detail": "Main Street, the craft market, Island Village and the town beach are all walkable from the main pier; add about 15 minutes from Reynolds Pier. Dunn's River Falls and Mystic Mountain are about 3 km west along the main road and need a taxi or tour."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 10 min to Main Street from the main pier; about 25 min from Reynolds Pier",
+   "detail": "Walk out of the terminal towards the town. Vendors approach you as you leave the pier; a polite, firm no is enough."
+  },
+  {
+   "mode": "Licensed taxi (JUTA, JCAL or JTB-approved)",
+   "cost": "Fixed displayed rates; confirm the fare before you get in (2026)",
+   "time": "About 5–10 min to Dunn's River Falls or Mystic Mountain",
+   "detail": "Licensed taxis wait at the pier. Licensed vehicles carry red and white plates, and JTB-approved drivers carry photo ID and a blue JTB windscreen sticker. Some drivers at the pier are unlicensed and quote high; confirm the price, in which currency, and whether it is per person or per car. Arrange the return pick-up time in advance."
+  },
+  {
+   "mode": "Ship or independent tour",
+   "cost": "Varies; Norwegian lists Sky Explorer, Bobsled and Dunn's River from US$139.99 adult (2026)",
+   "time": "About 4.5 hours for that combination",
+   "detail": "Tours include transport and entry and are guaranteed to return in time."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave Dunn's River Falls or Mystic Mountain 90 minutes before all-aboard and be back on board 60 minutes before. For a 17:30 all-aboard, leave the falls by 16:00 and board by 16:30.",
+  "detail": "The drive is short, but on cruise days the coast road between the falls and town is busy with tour buses, and you may wait for your taxi. From Main Street or Island Village, start walking back 75 minutes before all-aboard. If your ship is at Reynolds Pier, add 15 minutes to any walk.",
+  "emergencyFallback": "If your taxi does not appear, ask park staff at the Dunn's River entrance to call a licensed taxi, or join another cruise group's bus back to the pier if they will take you. If you will miss all-aboard, call the port agent number on your daily programme immediately."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Dunn's River Falls",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "About US$25 adult, US$17 child 4–12 entry (2026), plus a short taxi each way",
+   "saving": "Depends on taxi fare and group size"
+  },
+  {
+   "item": "Mystic Mountain, bobsled and Dunn's River combined",
+   "ship": "Norwegian: from US$139.99 adult, US$119 child (2026)",
+   "diy": "Buy Mystic Mountain tickets direct and add Dunn's River entry and taxis",
+   "saving": "Not verified; compare the park's own prices on the day"
+  }
+ ],
+ "excursionAdvice": "Dunn's River Falls is easy to do independently: it is a short taxi ride, the entry fee includes a park guide for the climb, and you can time your visit away from the bus crowds. The ship tour earns its price if you want Mystic Mountain and the falls on the same day without arranging taxis, if you prefer not to deal with pier touts, or if you are going further afield such as river tubing, where the return depends on one driver.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the main pier at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Leave the ship with water shoes, swimwear under your clothes and cash in small US dollar notes. Agree a fare with a licensed taxi at the pier for Dunn's River Falls and a return pick-up time."
+   },
+   {
+    "time": "08:30",
+    "what": "Arrive at Dunn's River Falls early, ahead of the late-morning tour buses. Rent a locker and join a park guide for the climb."
+   },
+   {
+    "time": "10:00",
+    "what": "Finish the climb, change and dry off. Optionally, walk to Mystic Mountain next door if you have booked it."
+   },
+   {
+    "time": "11:30",
+    "what": "Taxi back to town. Lunch on Main Street, for example at Miss T's Kitchen just off it."
+   },
+   {
+    "time": "13:00",
+    "what": "Browse Island Village and the craft market, or swim at Ocho Rios Bay Beach (Turtle Beach) beside the pier."
+   },
+   {
+    "time": "15:30",
+    "what": "Last drink near the beach, within ten minutes of the gangway."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Dunn's River Falls and Park",
+   "why": "A 180 m (600 ft) terraced waterfall you climb in a human chain from the sea to the top with a park guide.",
+   "timeNeeded": "2–3 hours including the climb (45–90 min), changing and travel",
+   "cost": "About US$25 adult, US$17 child 4–12 (2026); lockers extra",
+   "tip": "Arrive early or after 14:00, wear water shoes with grip, and bring a waterproof phone case. Locker hire, water shoes and phone cases are sold at the entry courtyard."
+  },
+  {
+   "name": "Mystic Mountain (Rainforest Adventures)",
+   "why": "Chairlift up the hill above the coast, with a rainforest bobsled ride and zip lines at the top.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Varies by package; buy direct or through your ship",
+   "tip": "It sits next to Dunn's River, so the two fit together in one morning. Minimum height and health rules apply to the bobsled and zip lines."
+  },
+  {
+   "name": "Ocho Rios Bay Beach (Turtle Beach)",
+   "why": "The town's public beach, to the left of the main cruise pier, run by the Urban Development Corporation.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Small entry fee",
+   "tip": "Reopened in November 2025 after Hurricane Melissa. The nearest swim to the ship."
+  },
+  {
+   "name": "Island Village",
+   "why": "Beachfront shopping and food complex a short walk from the pier, with the Reggae Xplosion museum.",
+   "timeNeeded": "1 hour",
+   "cost": "Free to walk round",
+   "tip": "Easy last stop before reboarding."
+  },
+  {
+   "name": "Main Street and the craft market",
+   "why": "The town centre's shops, cafés and craft stalls, about 10 minutes from the main pier.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Haggle at the craft stalls and walk away if pressured."
+  },
+  {
+   "name": "Turtle River Park",
+   "why": "Small landscaped public park in town with lawns, ponds and walking paths.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free entry",
+   "tip": "Reopened in November 2025; a quiet, shaded break from the shopping streets."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Ocho Rios Bay Beach (Turtle Beach)",
+   "howToGetThere": "Walk left from the main cruise pier",
+   "time": "A few minutes on foot",
+   "cost": "Small entry fee",
+   "note": "Public beach with toilets and showers; busiest on multi-ship days."
+  },
+  {
+   "name": "Dunn's River beach",
+   "howToGetThere": "Taxi to Dunn's River Falls; the beach is at the foot of the falls inside the park",
+   "time": "About 5–10 min by taxi",
+   "cost": "Included in park entry",
+   "note": "Small beach where the falls meet the sea; good for a swim after the climb."
+  },
+  {
+   "name": "Mahogany Beach",
+   "howToGetThere": "Short taxi ride east of town",
+   "time": "About 5–10 min by taxi",
+   "cost": "Entry fee charged",
+   "note": "Small beach with loungers and toilets, quieter than the town beach."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Curry goat, oxtail or lobster rundown",
+   "where": "Miss T's Kitchen, just off Main Street",
+   "price": null
+  },
+  {
+   "dish": "Jerk chicken and pork with festival and roast breadfruit",
+   "where": "Scotchies, Drax Hall (about 10 min by taxi west of the port)",
+   "price": null
+  },
+  {
+   "dish": "Jerk chicken with rice and peas",
+   "where": "Ocho Rios Jerk Centre, town centre",
+   "price": null
+  },
+  {
+   "dish": "Escovitch fish",
+   "where": "Sharkies Seafood Restaurant, Salem, St Ann (west of town)",
+   "price": null
+  },
+  {
+   "dish": "Drinks and bar food by the beach",
+   "where": "Margaritaville, beside the main cruise pier",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Climbing Dunn's River Falls in ordinary sandals or bare feet.",
+   "fix": "Wear closed water shoes with grip; the rock is slippery. Shoes are sold at the park but cost more there."
+  },
+  {
+   "mistake": "Arriving at the falls at 11:00 with the tour buses.",
+   "fix": "Go early or after 14:00, and check how many ships are in port that day."
+  },
+  {
+   "mistake": "Getting into a taxi without agreeing the fare.",
+   "fix": "Use a licensed taxi and confirm the price, currency and whether it is per person before you set off."
+  },
+  {
+   "mistake": "Assuming your ship is at the main pier.",
+   "fix": "Check whether you are at Reynolds Pier and add 15 minutes to every walk back."
+  },
+  {
+   "mistake": "Carrying a phone or wallet up the falls.",
+   "fix": "Rent a locker and take only a waterproofed phone."
+  }
+ ],
+ "safety": "Ocho Rios's tourist areas are generally safe by day, but Jamaica has high violent-crime rates and both the US and UK governments advise caution. The US rates Jamaica Level 2 (exercise increased caution, June 2026) and advises against public buses and walking after dark; use licensed taxis instead. The US advisory names Steer Town in St Ann parish as an area to reconsider. Keep valuables on the ship, carry small notes, and stay in busy areas. At the falls, follow the guide and hold hands on the steep sections.",
+ "scams": [
+  "Unlicensed or overcharging taxis at the pier: use licensed taxis with red and white plates or JTB-approved drivers with a blue windscreen sticker and photo ID, and agree the fare first.",
+  "Aggressive souvenir sellers leaving the pier: be polite and firm, and haggle only if you want to buy.",
+  "Fare quotes that change at the destination: confirm whether the price is in US or Jamaican dollars and per car or per person before setting off."
+ ],
+ "emergencyNumber": "119 (police); 110 (fire and ambulance)",
+ "accessibility": "Both piers are step-free. Main Street and Island Village are reachable on flat but busy pavements from the main pier. Dunn's River Falls has barrier-free toilets and entry near the car park and accessible viewing decks at the falls guide areas, but the climb itself is unsuitable for wheelchair users or anyone unsteady on their feet. Mystic Mountain's bobsled and zip lines have health and height restrictions.",
+ "rainyDay": "Light rain matters little at the falls, since you get wet anyway, but the rocks are slippery and the views from Mystic Mountain disappear in low cloud. On a wet day, spend time at Island Village and the Reggae Xplosion museum, Main Street's shops and cafés, and lunch indoors.",
+ "crowdTips": "Two ships can bring over 6,000 passengers, and on busy days Dunn's River can see 2,000–3,000 visitors, mostly on tour buses arriving late morning. Midweek is often busiest. Go to the falls early or after 14:00, eat lunch early, and leave shopping in town for the afternoon when the crowds are at the attractions.",
+ "faqs": [
+  {
+   "q": "Is Ocho Rios a tender port?",
+   "a": "No. Ships dock at the main cruise pier by Turtle Bay or at Reynolds Pier."
+  },
+  {
+   "q": "Is Ocho Rios walkable from the cruise port?",
+   "a": "The town is. Main Street is about 10 minutes on foot from the main pier, 25 from Reynolds Pier. Dunn's River Falls needs a taxi."
+  },
+  {
+   "q": "How do I get from Ocho Rios cruise port to Dunn's River Falls?",
+   "a": "Take a licensed taxi from the pier; it is about 3 km and 5–10 minutes. Agree the fare and a pick-up time first."
+  },
+  {
+   "q": "How much is Dunn's River Falls?",
+   "a": "About US$25 for adults and US$17 for children 4–12 in 2026. The entry includes a park guide; lockers cost extra."
+  },
+  {
+   "q": "Is the Ocho Rios cruise pier open again?",
+   "a": "Yes. It reopened on 11 November 2025 after repairs to storm damage from February 2024."
+  },
+  {
+   "q": "What can I do in Ocho Rios in one day from a cruise ship?",
+   "a": "Climb Dunn's River Falls early, add Mystic Mountain if you like, then lunch in town and swim at the beach beside the pier."
+  },
+  {
+   "q": "Beaches near Ocho Rios cruise port?",
+   "a": "Ocho Rios Bay Beach (Turtle Beach) is next to the main pier. Dunn's River has a small beach, and Mahogany Beach is a short taxi ride east."
+  },
+  {
+   "q": "Is Ocho Rios safe?",
+   "a": "The tourist areas are generally safe by day. Use licensed taxis, avoid public buses and quiet areas, and keep valuables on the ship."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Dunn's River Falls"
+  },
+  {
+   "name": "Mystic Mountain"
+  },
+  {
+   "name": "Ocho Rios Bay Beach"
+  },
+  {
+   "name": "Island Village"
+  },
+  {
+   "name": "Turtle River Park"
+  },
+  {
+   "name": "Main Street, Ocho Rios"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Dunn's River Falls and Park (official site, UDC)",
+   "url": "https://www.dunnsriverfallsja.com/"
+  },
+  {
+   "title": "UDC – Dunn's River entry fees for Jamaicans unchanged (Nov 2025)",
+   "url": "https://udcja.com/?p=5681763"
+  },
+  {
+   "title": "UDC – Turtle River Park reopens (Nov 2025)",
+   "url": "https://udcja.com/?p=5681765"
+  },
+  {
+   "title": "US Department of State – Jamaica Travel Advisory (June 2026)",
+   "url": "https://www.travel.state.gov/content/travel/en/traveladvisories/traveladvisories/jamaica-travel-advisory.html"
+  },
+  {
+   "title": "UK FCDO – Jamaica travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security"
+  },
+  {
+   "title": "JIS – Jamaica emergency numbers",
+   "url": "https://jis.gov.jm/jamaica-to-go-global-with-emergency-numbers/"
+  },
+  {
+   "title": "Ministry of Local Government – call emergency numbers (Jamaica Fire Brigade)",
+   "url": "https://www.localgovjamaica.gov.jm/jfb-official-encourages-persons-to-call-emergency-numbers/"
+  },
+  {
+   "title": "Jamaica Gleaner – JHTA and St Ann Chamber welcome reopening of Ocho Rios pier (Nov 2025)",
+   "url": "https://jamaica-gleaner.com/article/news/20251120/jhta-st-ann-chamber-welcome-reopening-ocho-rios-pier"
+  },
+  {
+   "title": "Jamaica Gleaner – Dunn's River Falls among UDC attractions to reopen after Melissa (Nov 2025)",
+   "url": "https://jamaica-gleaner.com/article/news/20251110/dunns-river-falls-among-udc-attractions-reopen-following-melissa"
+  },
+  {
+   "title": "Jamaica Gleaner – UDC says Dunn's River entry fees for Jamaicans unchanged",
+   "url": "https://jamaica-gleaner.com/article/news/20251113/udc-says-entry-fees-jamaicans-dunns-river-falls-have-not-changed"
+  },
+  {
+   "title": "CruiseMapper – Ocho Rios port reopens",
+   "url": "https://www.cruisemapper.com/news/15505-ocho-rios-port-reopens"
+  },
+  {
+   "title": "World Ports – Reynolds Pier Phase 1 expansion",
+   "url": "https://www.worldports.org/?p=640186"
+  },
+  {
+   "title": "Cruise Critic – Ocho Rios cruise port terminal information",
+   "url": "https://www.cruisecritic.com/articles/ocho-rios-cruise-port-terminal-information"
+  },
+  {
+   "title": "Cruise Hive – Ocho Rios cruise port: piers, amenities and what's nearby",
+   "url": "https://www.cruisehive.com/things-to-do-in-ocho-rios-jamaica-for-cruisers/29017"
+  },
+  {
+   "title": "What's In Port – Ocho Rios",
+   "url": "https://www.whatsinport.com/Ocho-Rios.htm"
+  },
+  {
+   "title": "The Trip Verdict – Dunn's River Falls tickets and tips (May 2026)",
+   "url": "https://www.thetripverdict.com/dunns-river-falls-tickets-tips"
+  },
+  {
+   "title": "HeyJamaica – Dunn's River Falls (2026)",
+   "url": "https://www.heyjamaica.com/dunns-river-falls-jamaica"
+  },
+  {
+   "title": "Norwegian Cruise Line – Sky Explorer, Bobsled and Dunn's River",
+   "url": "https://www.ncl.com/shore-excursions/OCJ_43/Sky-Explorer-Bobsled-And-Dunn-s-River"
+  },
+  {
+   "title": "Princess Cruises – A foodie's guide to Ocho Rios",
+   "url": "https://www.princess.com/en-uk/blog/a-foodies-guide-to-ocho-rios-jamaica"
+  },
+  {
+   "title": "Adventures from Elle – The 10 best restaurants in Ocho Rios (2026)",
+   "url": "https://adventuresfromelle.com/2026/04/03/ocho-rios-restaurants/"
+  }
+ ],
+ "uncertain": [
+  "Taxi fares from the pier to Dunn's River Falls (no current published fixed rate found)",
+  "Dunn's River Falls cruise-day opening time (one source says 07:00 on cruise days, another 08:30 daily)",
+  "Mystic Mountain ticket prices and opening hours (official site not opened)",
+  "Exact entry fees for Ocho Rios Bay Beach and Mahogany Beach",
+  "Typical all-aboard time for Ocho Rios calls"
+ ]
+}

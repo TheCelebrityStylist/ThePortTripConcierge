@@ -1,0 +1,352 @@
+{
+ "slug": "colon",
+ "city": "Colón",
+ "portName": "Colón 2000 Cruise Terminal (and Cristóbal Pier)",
+ "townName": "the Panama Canal's Atlantic locks (Agua Clara and Gatún)",
+ "country": "Panama",
+ "currency": "USD (Panamanian balboa at par)",
+ "currencySymbol": "$",
+ "language": "Spanish",
+ "timezone": "EST (UTC−5) all year; no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Colón cruise port guide: Agua Clara locks and forts",
+ "seoDescription": "Colón 2000 is a gated terminal; don't walk into the city. Agua Clara locks are 25–35 min by taxi, $10 adult entry (2026). Leave 105 min before all-aboard.",
+ "quickAnswer": "Most ships dock at the gated Colón 2000 terminal, with overflow at Cristóbal Pier a short taxi ride away; there is no tender. Do not walk into Colón city: take a registered taxi from the terminal dispatch or a tour to the Agua Clara Visitor Centre, 25–35 minutes away, where non-resident adults pay $10. Leave Agua Clara 105 minutes before all-aboard and be back on board 60 minutes before.",
+ "intro": "Colón sits at the Caribbean entrance of the Panama Canal. The cruise terminal is a secure enclave of shops and cafés; the city outside it is poor and is not a place to wander. The reason to come ashore is the canal: the Agua Clara Visitor Centre overlooks the expanded locks and Gatún Lake, and its ticket includes the Gatún Locks viewing deck. Fort San Lorenzo and Portobelo, both part of a UNESCO World Heritage site that has been on the In Danger list since 2012, are realistic half-day trips. Panama City and Miraflores are 1–1.5 hours away by road, too far to do safely without a ship's tour.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Colón 2000 Cruise Terminal",
+   "distanceToCentreKm": null,
+   "notes": "Main berth. A gated complex with a duty-free mall, craft shops, a bar-café, a supermarket, restaurants and a taxi and tour dispatch. Also a homeport for some Royal Caribbean sailings. Ride-hailing cars cannot enter the gates."
+  },
+  {
+   "name": "Cristóbal Pier",
+   "distanceToCentreKm": null,
+   "notes": "Industrial overflow pier with a small terminal shopping area. A short taxi ride to Colón 2000; check your daily programme for which berth you are at."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": null,
+  "detail": "You can walk around inside the Colón 2000 complex, but not beyond it: cruise guides and the UK government warn of muggings in Colón city. Everything worth seeing needs a taxi or tour."
+ },
+ "transportSections": [
+  {
+   "mode": "Registered tourist taxi from the terminal dispatch",
+   "cost": "Agree the fare, including waiting time, before you leave (2026)",
+   "time": "25–35 min to Agua Clara; about 45 min to Fort San Lorenzo; about 1 hour to Portobelo",
+   "detail": "Use the official dispatch stand at Colón 2000, not drivers who approach you outside. Fix the price for the whole round trip with waiting time, and pay at the end. Carry small US dollar notes."
+  },
+  {
+   "mode": "Ship or independent tour",
+   "cost": "Varies; Princess lists Panama Canal Railway and New Locks from $199.95 adult (2026)",
+   "time": "Half or full day; about 6 hours for the railway tour",
+   "detail": "The only sensible way to see Panama City, Miraflores Locks, the Panama Canal Railway or Gatún Lake by boat. Canal lock timings and traffic can delay tours, and the ship waits for its own."
+  },
+  {
+   "mode": "Local buses",
+   "cost": "Not recommended",
+   "time": "",
+   "detail": "Not practical for a cruise call and they start from Colón city, where walking is unsafe."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. Leave Agua Clara or the Gatún Locks deck 105 minutes before all-aboard, Fort San Lorenzo 135 minutes before, and Portobelo 165 minutes before.",
+  "detail": "Distances are short but roads around Colón are congested and the route to Fort San Lorenzo crosses the Atlantic Bridge. Traffic and rain cause delays. For a 17:30 all-aboard, leave Agua Clara by 15:45 and Portobelo by 14:45.",
+  "emergencyFallback": "Ask staff at the Agua Clara Visitor Centre to call a taxi if your driver has not returned. If you will miss all-aboard, call the port agent number on your daily programme immediately."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Agua Clara Visitor Centre and Gatún Locks deck",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$10 adult, $5 child 6–12 entry (2026), plus a round-trip taxi with waiting time",
+   "saving": "Depends on taxi fare and group size"
+  },
+  {
+   "item": "Panama Canal Railway and New Locks",
+   "ship": "Princess: from $199.95 adult (2026)",
+   "diy": "Not practical independently on a port day",
+   "saving": "None; take the tour"
+  }
+ ],
+ "excursionAdvice": "Agua Clara is the one canal visit worth doing on your own: it is close, has a fixed entry price, and you can watch ships in the locks without a tour. Take the ship's tour for the Panama Canal Railway, Miraflores Locks, Panama City, a Gatún Lake boat trip or an Emberá village visit. These involve long drives, train timings or boats, and only the ship's own tours are guaranteed a wait if they run late. Portobelo and Fort San Lorenzo are possible with a trusted taxi on a long call, but a tour removes the worry about getting back.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Colón 2000 at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Take a registered taxi from the Colón 2000 dispatch to Agua Clara. Agree a round-trip fare with waiting time."
+   },
+   {
+    "time": "09:00",
+    "what": "Agua Clara Visitor Centre (open from 08:00): pay $10, watch the 12-minute film and the locks from the viewpoint."
+   },
+   {
+    "time": "10:15",
+    "what": "Walk the 1 km country road for close views of ships in the locks, or the short ecological trail."
+   },
+   {
+    "time": "11:00",
+    "what": "Use the centre's transport to the Gatún Locks viewing deck, included in your ticket, for the original 1914 locks."
+   },
+   {
+    "time": "12:30",
+    "what": "Taxi back to Colón 2000."
+   },
+   {
+    "time": "13:15",
+    "what": "Lunch at one of the terminal's restaurants, then browse the duty-free mall."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Agua Clara Visitor Centre",
+   "why": "Viewpoint over the expanded canal's Atlantic locks, Gatún Lake and the canal's Caribbean entrance, with a film and two short trails.",
+   "timeNeeded": "1.5–3 hours plus 25–35 min each way",
+   "cost": "$10 adult, $5 child 6–12, under 6 free (2026)",
+   "tip": "Open daily 08:00–16:00; tickets sold until 15:30. Check the canal transit schedule on the visitor site so you arrive while ships are moving."
+  },
+  {
+   "name": "Gatún Locks viewing deck",
+   "why": "Close views of ships in the original 1914 locks, with a crossing of the Atlantic Bridge.",
+   "timeNeeded": "1 hour",
+   "cost": "Included in the Agua Clara ticket (2026)",
+   "tip": "Open daily 08:30–16:30, 400 people per session. Transport runs from the Agua Clara centre, about 16 km."
+  },
+  {
+   "name": "Fort San Lorenzo",
+   "why": "Spanish fort on a cliff at the mouth of the Chagres River, part of the Portobelo–San Lorenzo World Heritage site.",
+   "timeNeeded": "1 hour on site, plus about 45 min each way",
+   "cost": "Check locally",
+   "tip": "Paths can be slippery and there are few railings. Often combined with Agua Clara."
+  },
+  {
+   "name": "Portobelo",
+   "why": "Colonial port town with the San Jerónimo and Santiago forts, part of the same UNESCO site, and a national park with beaches and reefs.",
+   "timeNeeded": "2 hours on site, plus about 1 hour each way",
+   "cost": "Check locally",
+   "tip": "Only on a long call. Leave Portobelo 165 minutes before all-aboard."
+  },
+  {
+   "name": "Colón 2000 terminal and duty-free mall",
+   "why": "Secure shopping and food without leaving the port, on the edge of the Colón Free Zone.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "The easy option if you prefer not to leave the gates."
+  },
+  {
+   "name": "Panama Canal Railway",
+   "why": "Train along the canal and across causeways on Gatún Lake between Colón and Panama City.",
+   "timeNeeded": "About 6 hours as a cruise tour",
+   "cost": "Princess: from $199.95 adult (2026)",
+   "tip": "Departures are limited and mainly for cruise groups; book through your ship."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Portobelo National Park beaches",
+   "howToGetThere": "Taxi or tour to Portobelo, then local boat",
+   "time": "About 1 hour by road, plus the boat",
+   "cost": "Check locally",
+   "note": "Too far for most calls; there are no good beaches near the terminal."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Lunch or coffee in air-conditioned comfort",
+   "where": "Restaurants and cafés inside the Colón 2000 terminal complex",
+   "price": null
+  },
+  {
+   "dish": "Snacks with a view of the locks",
+   "where": "Snack bar at the Agua Clara Visitor Centre",
+   "price": null
+  },
+  {
+   "dish": "Sancocho (chicken stew) and patacones (fried plantain)",
+   "where": "Local restaurants on Panama's Caribbean coast; ask your taxi driver or guide",
+   "price": null
+  },
+  {
+   "dish": "Ceviche and seafood",
+   "where": "Waterfront restaurants in Portobelo",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Walking out of the Colón 2000 gates into the city.",
+   "fix": "Stay inside the complex unless you are in a registered taxi or on a tour."
+  },
+  {
+   "mistake": "Trying to reach Panama City or Miraflores independently.",
+   "fix": "It is 1–1.5 hours each way on congested roads. Take the ship's tour, or visit Agua Clara instead."
+  },
+  {
+   "mistake": "Taking a taxi from a driver who approaches you outside.",
+   "fix": "Use the official dispatch stand and agree a round-trip price with waiting time."
+  },
+  {
+   "mistake": "Arriving at Agua Clara when no ships are moving.",
+   "fix": "Check the transit schedule on the canal's visitor website before you go."
+  },
+  {
+   "mistake": "Forgetting which berth your ship is at.",
+   "fix": "Check whether you are at Colón 2000 or Cristóbal and tell your driver."
+  }
+ ],
+ "safety": "Panama is rated Level 2 (exercise increased caution) by the US government in August 2026, mainly for crime. The UK government warns of muggings in Colón city and notes that protests can be particularly large there. Stay inside the gated terminal unless you are in a registered taxi or on a tour, keep phones and jewellery out of sight, and do not resist a robbery. Taxis in Panama can be in poor condition; use the terminal dispatch. Avoid demonstrations.",
+ "scams": [
+  "Unofficial taxi drivers outside the terminal: use the registered dispatch stand inside Colón 2000.",
+  "Open-ended taxi fares: agree the full round-trip price, including waiting time, before you set off."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The Colón 2000 complex is compact and mostly level. The Agua Clara centre has a viewpoint and theatre, but its trails include medium-difficulty sections. Fort San Lorenzo and Portobelo's forts have uneven ground and few railings. For wheelchair users, a ship's tour with an adapted vehicle is the most practical way to see the locks.",
+ "rainyDay": "Rain is common on the Caribbean coast. Agua Clara is still worthwhile: the film and indoor areas work in the rain and ships keep moving. Skip Fort San Lorenzo, where paths become slippery. Otherwise, stay in the terminal's shops and cafés.",
+ "crowdTips": "Panama expected 246 cruise calls in the October–April 2025–26 season, including homeport turnarounds at Colón 2000. Arrive at Agua Clara soon after it opens at 08:00 to get ahead of ship tour groups. Check the canal transit schedule, because a quiet lock is a bigger disappointment than a crowd.",
+ "faqs": [
+  {
+   "q": "Is Colón walkable from the cruise port?",
+   "a": "No. You can walk inside the gated Colón 2000 complex, but walking into the city is unsafe. Use a registered taxi or a tour."
+  },
+  {
+   "q": "Is Colón a tender port?",
+   "a": "No. Ships dock at Colón 2000 or Cristóbal Pier."
+  },
+  {
+   "q": "How do I get from Colón cruise port to the Panama Canal locks?",
+   "a": "Take a registered taxi from the terminal dispatch to the Agua Clara Visitor Centre, 25–35 minutes away, or book a ship's tour."
+  },
+  {
+   "q": "How much is the Agua Clara Visitor Centre?",
+   "a": "$10 for non-resident adults and $5 for children 6–12 in 2026. It includes the Gatún Locks viewing deck."
+  },
+  {
+   "q": "Can I visit Panama City from Colón on a cruise?",
+   "a": "Only on a ship's tour. It is 1–1.5 hours each way by road."
+  },
+  {
+   "q": "What can I do in Colón in one day from a cruise ship?",
+   "a": "Agua Clara and the Gatún Locks deck, then Fort San Lorenzo or Portobelo on a long call, or the Panama Canal Railway as a ship's tour."
+  },
+  {
+   "q": "Beaches near Colón cruise port?",
+   "a": "None worth visiting near the terminal. Portobelo's national park has beaches but is about an hour away."
+  },
+  {
+   "q": "Is Colón safe?",
+   "a": "The terminal is secure, but muggings occur in Colón city. Stay inside the gates unless you are in a registered taxi or on a tour."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Agua Clara Visitor Centre"
+  },
+  {
+   "name": "Gatún Locks"
+  },
+  {
+   "name": "Fort San Lorenzo"
+  },
+  {
+   "name": "Portobelo"
+  },
+  {
+   "name": "Panama Canal Railway"
+  },
+  {
+   "name": "Colón Free Zone"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Panama Canal Authority – Visitor centre ticket prices (Dec 2025)",
+   "url": "https://pancanal.com/wp-content/uploads/2025/12/2095-0100-ENTRADAS-CV.pdf"
+  },
+  {
+   "title": "Visit Canal de Panamá (ACP) – Agua Clara Visitor Center",
+   "url": "https://visitcanaldepanama.com/en/points-of-interest/agua-clara-visitor-center/"
+  },
+  {
+   "title": "Panama Canal Authority – Agua Clara Visitor Centre reopens",
+   "url": "https://pancanal.com/centro-de-visitantes-de-agua-clara-reabre-sus-puertas/"
+  },
+  {
+   "title": "Panama Canal Authority – Visitor centres summer activities in Panamá and Colón",
+   "url": "https://pancanal.com/centros-de-visitantes-se-suman-al-verano-canal-con-actividades-en-panama-y-colon/"
+  },
+  {
+   "title": "Panama Canal Railway – Passenger service",
+   "url": "https://panarail.com/en/passenger/main.html"
+  },
+  {
+   "title": "UNESCO – Fortifications on the Caribbean Side of Panama: Portobelo-San Lorenzo",
+   "url": "https://whc.unesco.org/en/list/135/"
+  },
+  {
+   "title": "US Department of State – Panama Travel Advisory (Aug 2026)",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/panama-travel-advisory.html"
+  },
+  {
+   "title": "UK FCDO – Panama travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/panama/safety-and-security"
+  },
+  {
+   "title": "Panamá América – Unification of emergency lines (911)",
+   "url": "https://panamaamerica.com.pa/sociedad/como-va-la-unificacion-de-las-lineas-de-emergencia-en-panama-1158034"
+  },
+  {
+   "title": "La Estrella de Panamá – 2025–2026 cruise season begins (Oct 2025)",
+   "url": "https://www.laestrella.com.pa/economia/inicia-la-temporada-de-cruceros-2025-2026-cifra-record-en-panama-HK16495651"
+  },
+  {
+   "title": "Princess Cruises – Panama Canal Railway and New Locks of the Canal Expansion",
+   "url": "https://gb-www.princess.com/ports-excursions/panama-canal-partial-transit-excursions/panama-canal-railway-and-new-locks-of-the-canal-expansion"
+  },
+  {
+   "title": "CruiseMapper – Colón (Panama) port",
+   "url": "https://cruisemapper.com/ports/colon-port-87"
+  },
+  {
+   "title": "Bucket List Guides – Colón Panama cruise port guide (Aug 2026)",
+   "url": "https://bucketlistguides.com/colon-panama-cruise-port-guide/"
+  },
+  {
+   "title": "Adventour Begins – Colón Panama cruise port guide (updated Nov 2025)",
+   "url": "https://www.adventourbegins.com/colon-panama-cruise-port-guide/"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Colón (Colón 2000)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/colon-colon-2000-panama/"
+  },
+  {
+   "title": "Jetsetter Guide – Colón cruise port",
+   "url": "https://jetsetterguide.com/cruise-port/colon"
+  },
+  {
+   "title": "World Travel Guide – Panama food and drink",
+   "url": "https://www.worldtravelguide.net/?p=5189"
+  }
+ ],
+ "uncertain": [
+  "Taxi fares from Colón 2000 to Agua Clara, Fort San Lorenzo and Portobelo (only unofficial estimates found)",
+  "Entry fees at Fort San Lorenzo and the Portobelo forts",
+  "Exact distance from Colón 2000 to Agua Clara (sources give 12 km and 20 km) and to Cristóbal Pier (3.2 km and 5 km)",
+  "Panama Canal Railway public passenger timetable and fares",
+  "Typical all-aboard time at Colón (one source suggests departures around 19:00)",
+  "Named independent restaurants in Colón city and Portobelo that are currently operating"
+ ]
+}

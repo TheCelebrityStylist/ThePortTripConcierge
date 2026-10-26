@@ -1,0 +1,365 @@
+{
+ "slug": "icy-strait-point",
+ "city": "Hoonah",
+ "portName": "Icy Strait Point (Ocean Landing and Wilderness Landing)",
+ "townName": "Hoonah",
+ "country": "USA",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "AKST (UTC−9), AKDT (UTC−8) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Icy Strait Point cruise port: ZipRider, whales, Hoonah",
+ "seoDescription": "Icy Strait Point has two docks; a free gondola links them. Hoonah is 1.5 miles away, a 20–30 min walk or 5 min shuttle. ZipRider from $199 on HAL (2026).",
+ "quickAnswer": "Ships dock at one of Icy Strait Point's two floating piers, Ocean Landing or Wilderness Landing, so there is normally no tender; a free transporter gondola links Wilderness Landing to the cannery area. Hoonah town is about 1.5 miles away: a flat 20–30 minute walk beside the road, or a short shuttle ride for a small fee. Leave Hoonah at least 90 minutes before all-aboard.",
+ "intro": "Icy Strait Point is a cruise destination built around a restored 1912 salmon cannery outside Hoonah, Alaska's largest Tlingit village. It is owned and run by Huna Totem Corporation, an Alaska Native corporation, and most of what you do here is either on its grounds or booked through it: the ZipRider, the SkyGlider gondola, whale and bear trips, and cultural shows. The cannery, beach, shops and restaurants are free to wander. For something unpackaged, walk the road into Hoonah, a working fishing town with a harbour, a brewery and a seafood shack.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Ocean Landing (also called Adventure Landing)",
+   "distanceToCentreKm": 2.4,
+   "notes": "The original floating dock, opened in 2016, closest to the historic cannery: about 7 minutes' walk along the beach trail or boardwalk. The Adventure Center (tour check-in) is near this pier."
+  },
+  {
+   "name": "Wilderness Landing",
+   "distanceToCentreKm": 3.2,
+   "notes": "Second floating pier, opened in August 2021 for larger ships, about half a mile south of the cannery area. Vehicle-free. A free transporter gondola links it to the cannery side; walking takes about 15 minutes. Duck Point Smokehouse and the SkyGlider gondola are near this pier."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 30,
+  "km": 2.4,
+  "detail": "The cannery, shops and beach are a short walk from either pier. Hoonah is about 1.5 miles (2.4 km) from the cannery on a flat path beside the road, 20–30 minutes on foot. Add 15 minutes if your ship is at Wilderness Landing and you walk rather than take the gondola."
+ },
+ "transportSections": [
+  {
+   "mode": "Transporter gondola (Wilderness Landing to the cannery)",
+   "cost": "Free",
+   "time": "About 11 minutes",
+   "detail": "Links the two piers through the trees. Wheelchair and scooter accessible. Walking paths also connect the piers, about 15 minutes."
+  },
+  {
+   "mode": "On foot to Hoonah",
+   "cost": "Free",
+   "time": "20–30 minutes",
+   "detail": "From the boardwalk follow signs towards the town shuttle; the walking path starts beside the ticket booth, where you can pick up a Hoonah map. The route is flat with a sidewalk and passes the Old Bear Clan Cemetery."
+  },
+  {
+   "mode": "Hoonah town shuttle",
+   "cost": "Small fee; buy at the Icy Strait Point ticket booth",
+   "time": "About 5 minutes",
+   "detail": "Leaves from beside the ticket booth. Tickets are sold at the booth, not on the bus. The return pick-up in Hoonah is in front of Icy Strait Brewing. There are no taxis or rideshare."
+  },
+  {
+   "mode": "SkyGlider gondola (Hoonah Mountain)",
+   "cost": "Paid; check at the Adventure Center or in your cruise planner",
+   "time": "About 6–7 minutes up",
+   "detail": "Climbs to about 1,300–1,600 ft near the ZipRider launch, with views over Icy Strait."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave Hoonah 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). If your ship is at Wilderness Landing, be at the cannery-side gondola station at least 75 minutes before.",
+  "detail": "The walk from Hoonah takes up to 30 minutes and there are no taxis if the shuttle is busy. The gondola transfer to Wilderness Landing adds about 11 minutes, more if there is a queue. Ship excursions return you to the pier on time; independent plans do not.",
+  "emergencyFallback": "If you miss the shuttle in Hoonah, walk: it is flat and about 30 minutes. If you will miss all-aboard, tell Icy Strait Point staff at the Adventure Center or ticket booth and call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "ZipRider Adventure with gondola",
+   "ship": "From $199 on Holland America (2026)",
+   "diy": "Sold through cruise lines and Icy Strait Point; no cheaper independent version",
+   "saving": "None; book early as it sells out"
+  },
+  {
+   "item": "Hoonah town visit",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk free, or the town shuttle for a small fee",
+   "saving": "Most of a guided town tour's price"
+  },
+  {
+   "item": "Cannery museum and beach",
+   "ship": "Not needed",
+   "diy": "Free",
+   "saving": "Free"
+  }
+ ],
+ "excursionAdvice": "Almost everything here worth paying for is run by or through Icy Strait Point itself, and prices are often the same whether you book on the ship or with the port. Book the ZipRider and whale-watching trips before you sail, because they sell out. The Whale & Marine Mammals Cruise (2.5 hours) is the strongest buy: humpbacks gather off Point Adolphus. Bear searches never guarantee a sighting. Skip any paid tour for the cannery and Hoonah: both are easy and free on foot.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Ocean Landing at 08:00 and all-aboard is 17:30, with a pre-booked whale-watching cruise.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk along the beach trail to the cannery (about 7 minutes). Look at the free cannery museum before the shops fill."
+   },
+   {
+    "time": "09:00",
+    "what": "Check in at the Adventure Center for a pre-booked Whale & Marine Mammals Cruise (2.5 hours)."
+   },
+   {
+    "time": "12:00",
+    "what": "Lunch at The Cookhouse (halibut and chips) or The Crab House in the cannery."
+   },
+   {
+    "time": "13:00",
+    "what": "Walk the flat path to Hoonah (20–30 minutes), past the Old Bear Clan Cemetery."
+   },
+   {
+    "time": "13:30",
+    "what": "Walk the Hoonah Sea Walk and harbour; stop at Icy Strait Brewing or The Fisherman's Daughter."
+   },
+   {
+    "time": "15:00",
+    "what": "Shuttle or walk back to Icy Strait Point. Watch for whales from the beach."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Historic cannery and museum",
+   "why": "Restored Hoonah Packing Company cannery from 1912, with a free museum, a dozen shops including Alaska Native-owned ones, and restaurants.",
+   "timeNeeded": "45 minutes–1 hour",
+   "cost": "Free",
+   "tip": "A few minutes from Ocean Landing; go early before the excursion crowds return."
+  },
+  {
+   "name": "ZipRider",
+   "why": "Six side-by-side cables over 5,000 ft long with a vertical drop of about 1,300 ft, ending on the beach; opened in 2007.",
+   "timeNeeded": "About 1.5 hours including the gondola",
+   "cost": "From $199 with gondola on Holland America (2026)",
+   "tip": "Weight 75–275 lb. Not for pregnant guests or those with back or neck problems. Book before you sail."
+  },
+  {
+   "name": "Whale & Marine Mammals Cruise",
+   "why": "Boat trip towards Point Adolphus, a known humpback feeding area, with a naturalist on board.",
+   "timeNeeded": "2.5 hours",
+   "cost": "Check your cruise planner",
+   "tip": "Humpbacks and orcas are sometimes visible from shore too, so bring binoculars to the beach."
+  },
+  {
+   "name": "Hoonah",
+   "why": "Alaska's largest Tlingit village, a working fishing town with a harbour and sea walk.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free on foot",
+   "tip": "The flat walk is part of the visit. Return shuttles stop in front of Icy Strait Brewing."
+  },
+  {
+   "name": "SkyGlider gondola and mountaintop",
+   "why": "Gondola up Hoonah Mountain near the ZipRider launch, with views over Icy Strait.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Check at the Adventure Center",
+   "tip": "The ZipRider package includes the ride up. Cloud can hide the view."
+  },
+  {
+   "name": "Hoonah Sightseeing & Culture Experience",
+   "why": "Guided Hoonah tour with a cultural show at the Heritage Center.",
+   "timeNeeded": "1.5 hours",
+   "cost": "Check your cruise planner",
+   "tip": "The easiest way to see Tlingit dance and storytelling on a short call."
+  },
+  {
+   "name": "Spasski River Valley Wildlife & Bear Search",
+   "why": "Guided trip to viewing areas on Chichagof Island, which has one of the densest brown bear populations in Alaska.",
+   "timeNeeded": "2.5 hours",
+   "cost": "Check your cruise planner",
+   "tip": "Sightings are not guaranteed; salmon runs later in summer improve the odds."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Icy Strait Point beach",
+   "howToGetThere": "Walk from either pier along the beach trail",
+   "time": "A few minutes",
+   "cost": "Free",
+   "note": "Stony shoreline for watching whales, sea otters and eagles rather than swimming. The ZipRider lands here."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Crab cooked to order and a crab-garnished Bloody Mary",
+   "where": "The Crab House, Icy Strait Point (by the cannery)",
+   "price": null
+  },
+  {
+   "dish": "Halibut and chips, smash burgers",
+   "where": "The Cookhouse Restaurant, in the historic cannery",
+   "price": null
+  },
+  {
+   "dish": "Smoked salmon dishes and brick-oven pizza",
+   "where": "Duck Point Smokehouse Restaurant, near Wilderness Landing and the Adventure Center",
+   "price": null
+  },
+  {
+   "dish": "Halibut or salmon tacos",
+   "where": "The Fisherman's Daughter, Hoonah",
+   "price": null
+  },
+  {
+   "dish": "Local beer, pizza and salmon cakes",
+   "where": "Icy Strait Brewing, Hoonah",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Waiting until you are ashore to book the ZipRider.",
+   "fix": "Book through your cruise line before sailing; it regularly sells out."
+  },
+  {
+   "mistake": "Assuming there will be a taxi back from Hoonah.",
+   "fix": "There are no taxis or rideshare. Use the shuttle or walk, and leave Hoonah 90 minutes before all-aboard."
+  },
+  {
+   "mistake": "Forgetting the gondola transfer when the ship is at Wilderness Landing.",
+   "fix": "Allow 11 minutes on the gondola or 15 minutes on foot between the cannery and the pier, plus any queue."
+  },
+  {
+   "mistake": "Dressing for summer.",
+   "fix": "Bring a waterproof and layers. Rain is common and can cancel outdoor activities."
+  },
+  {
+   "mistake": "Hiking alone on the trails.",
+   "fix": "This is brown bear country. Stay on marked trails, keep in a group and make noise."
+  }
+ ],
+ "safety": "Crime is not a concern for visitors here. The real risks are wildlife and weather. Chichagof Island has a very high density of brown bears, so stay on marked trails, walk in groups, make noise and never approach wildlife. The ZipRider has weight, height and health limits; read them before booking. The road to Hoonah carries light traffic; use the sidewalk path. Weather changes quickly, so carry a waterproof layer even on a dry morning.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "Icy Strait Point's boardwalks and paths are designed for accessibility, and staff have compact vehicles to help guests between areas. The transporter gondola between Wilderness Landing and the cannery is wheelchair and scooter accessible. Some tours are listed as ADA accessible, including the Mountain Top Forest Excursion; the ZipRider is not wheelchair accessible, and the Wilderness Hike does not allow mobility devices. The walk to Hoonah is flat with a sidewalk.",
+ "rainyDay": "Spend more time in the cannery: the free museum, a dozen shops and The Cookhouse are all under cover. Boat trips usually still run in light rain, but heavy weather can cancel outdoor activities, and cloud can hide the view from the gondola. A cultural show at the Heritage Center in Hoonah is an indoor option. Pack a waterproof jacket regardless.",
+ "crowdTips": "Icy Strait Point can host two ships at once, one at each pier. On two-ship days restaurants such as Duck Point Smokehouse have long waits, so eat early or late. Excursions leave from the Adventure Center in the morning, which is a good time to see the cannery and beach before groups return. Hoonah itself is quieter than the port all day.",
+ "faqs": [
+  {
+   "q": "Is Icy Strait Point a tender port?",
+   "a": "Not normally. Ships dock at Ocean Landing or Wilderness Landing, the two floating piers."
+  },
+  {
+   "q": "Can you walk from Icy Strait Point to Hoonah?",
+   "a": "Yes. It is about 1.5 miles on a flat path beside the road, 20–30 minutes each way."
+  },
+  {
+   "q": "How do I get from Icy Strait Point to Hoonah town?",
+   "a": "Walk, or buy a town shuttle ticket at the Icy Strait Point ticket booth for a ride of about 5 minutes. There are no taxis."
+  },
+  {
+   "q": "How much is the ZipRider at Icy Strait Point?",
+   "a": "Holland America lists it from $199 with the gondola in 2026; prices vary by cruise line. Book before you sail."
+  },
+  {
+   "q": "What can I do in Icy Strait Point in one day from a cruise ship?",
+   "a": "A whale-watching cruise or the ZipRider in the morning, lunch at the cannery, then a walk into Hoonah in the afternoon."
+  },
+  {
+   "q": "Can you see whales from shore at Icy Strait Point?",
+   "a": "Sometimes. Humpbacks and orcas are occasionally visible from the beach; a boat trip towards Point Adolphus gives a much better chance."
+  },
+  {
+   "q": "Is the gondola at Icy Strait Point free?",
+   "a": "The transporter gondola between Wilderness Landing and the cannery is free. The SkyGlider up Hoonah Mountain is paid."
+  },
+  {
+   "q": "Is Icy Strait Point safe?",
+   "a": "Yes. Follow bear-safety advice on trails and dress for rain."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "ZipRider"
+  },
+  {
+   "name": "Historic cannery museum"
+  },
+  {
+   "name": "Whale watching at Point Adolphus"
+  },
+  {
+   "name": "Hoonah"
+  },
+  {
+   "name": "SkyGlider gondola"
+  },
+  {
+   "name": "Spasski River Valley bear viewing"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Icy Strait Point – Official site and excursions",
+   "url": "https://icystraitpoint.com/"
+  },
+  {
+   "title": "Icy Strait Point – FAQs",
+   "url": "https://icystraitpoint.com/faqs/"
+  },
+  {
+   "title": "Icy Strait Point – Dine and shop",
+   "url": "https://icystraitpoint.com/dine-and-shop/"
+  },
+  {
+   "title": "Travel Alaska (state tourism) – Hoonah and Icy Strait Point",
+   "url": "https://www.travelalaska.com/destinations/cities-towns/hoonah-icy-strait-point"
+  },
+  {
+   "title": "Holland America – The ZipRider Adventure & Sky Peak Gondola",
+   "url": "https://www.hollandamerica.com/en/us/cruise-destinations/alaska-cruises/alaska-yukon-ports/is1/79315"
+  },
+  {
+   "title": "ZipRider – Icy Strait Point ride",
+   "url": "https://ziprider.com/rides/icy-strait-point/"
+  },
+  {
+   "title": "Cruise Industry News – Disney signs 15-year agreement at Icy Strait Point (July 2026)",
+   "url": "https://cruiseindustrynews.com/cruise-news/2026/07/disney-signs-15-year-agreement-for-preferred-access-at-icy-strait-point/"
+  },
+  {
+   "title": "Seatrade Cruise News – Norwegian Encore first ship at Wilderness Landing (2021)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/norwegian-encore-first-cruise-ship-at-icy-strait-s-new-wilderness-landing"
+  },
+  {
+   "title": "Seatrade Cruise News – Norwegian reveals Icy Strait gondolas (2019)",
+   "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/norwegian-reveals-new-icy-strait-draws-including-travel-by-gondola"
+  },
+  {
+   "title": "Cruise Hive – Icy Strait Point cruise port guide",
+   "url": "https://www.cruisehive.com/icy-strait-point-cruise-port/155716"
+  },
+  {
+   "title": "Huna Totem – Icy Strait Point cruise port",
+   "url": "https://hunatotem.com/?p=8160"
+  },
+  {
+   "title": "Life Well Cruised – Things to do at Icy Strait Point",
+   "url": "https://lifewellcruised.com/best-things-to-do-icy-strait-point-alaska/"
+  },
+  {
+   "title": "Cruzely – Tips for Icy Strait Point",
+   "url": "https://www.cruzely.com/cruise-guide-8-tips-things-to-know-for-icy-strait-point-hoonah-alaska/"
+  },
+  {
+   "title": "Flashpacking America – Icy Strait Point to Hoonah shuttle",
+   "url": "https://www.flashpackingamerica.com/alaska-travel/icy-strait-point-to-hoonah-shuttle/"
+  },
+  {
+   "title": "What's In Port – Icy Strait Point",
+   "url": "https://www.whatsinport.com/Icy-Strait-Point-AK.htm"
+  }
+ ],
+ "uncertain": [
+  "Hoonah town shuttle fare for 2026 (reports range from $5 to $10 return, 2023–2025)",
+  "SkyGlider (mountaintop) gondola ticket price for 2026 (one 2025 report gives $50)",
+  "ZipRider exact length and top speed (sources differ: 5,330 ft or 5,495 ft; 60 or 65 mph)",
+  "Shuttle frequency and operating hours",
+  "Typical all-aboard time (17:30 used as a default)",
+  "Prices for whale-watching and bear-search excursions in 2026"
+ ]
+}

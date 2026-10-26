@@ -1,0 +1,378 @@
+{
+ "slug": "thessaloniki",
+ "city": "Thessaloniki",
+ "portName": "Port of Thessaloniki (ThPA cruise terminal)",
+ "townName": "the city centre (Aristotelous Square)",
+ "country": "Greece",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Greek",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Thessaloniki cruise port guide: walk, metro, White Tower",
+ "seoDescription": "Thessaloniki's cruise berth is a 10-minute walk from the centre and 15 from the White Tower. Metro and bus €0.60 (2026); Archaeological Museum €10.",
+ "quickAnswer": "Ships dock at the Port of Thessaloniki, right next to the city centre, so there is no tender. Walk: about 10 minutes to the centre, 15 to the White Tower and 20 to the Archaeological Museum; buses and the metro cost €0.60 a ride (2026). Be back at the ship 60 minutes before all-aboard, and leave the Upper Town 90 minutes before.",
+ "intro": "Thessaloniki is a big working city, and the port sits on the edge of its centre. You leave through the port gates into the old warehouse district of Ladadika, then reach a long, flat waterfront that runs to the White Tower. Most of the Roman and Byzantine sights, the markets and Aristotelous Square are within walking distance. The Upper Town (Ano Poli) and its walls are uphill and best reached by taxi. The new metro, opened in November 2024, runs under the centre and has Roman street remains on show at Venizelou station.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Cruise passenger terminal, Pier 2 (quays 9 and 10)",
+   "distanceToCentreKm": null,
+   "notes": "Renovated building on Pier 2, in use since June 2023. Quay 10 is about 320 m long and takes cruise ships of any size. Tourist information staff meet passengers. Exit is through controlled port gates; the route out varies by berth."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": null,
+  "detail": "About 10 minutes on foot to the centre, 15 to the White Tower and 20 to the Archaeological Museum. The first stretch through the port area is plain; the waterfront beyond is flat. The Upper Town and some market lanes are hilly and uneven."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "10 min to the centre, 15 min to the White Tower",
+   "detail": "Follow the port exit into Ladadika, then walk east along the waterfront (Nikis Avenue) past Aristotelous Square to the White Tower."
+  },
+  {
+   "mode": "Metro",
+   "cost": "€0.60 single, valid 70 minutes; 10+1 tickets €5.80 (2026)",
+   "time": "Short hops between central stations",
+   "detail": "One line with 13 stations from the New Railway Station through Venizelou, Agia Sofia and Sintrivani to Nea Elvetia. Runs 05:30–00:30 Sunday to Thursday and to 02:30 on Friday and Saturday. A metro ride and a bus ride need separate tickets."
+  },
+  {
+   "mode": "City bus (OASTH)",
+   "cost": "€0.60 single urban ticket, valid 70 minutes; 24-hour ticket €2.50 (2026)",
+   "time": "Varies",
+   "detail": "The 24-hour ticket covers buses and metro but not the airport and special lines (X1, X2, Cultural Route 50), which cost €2.00."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered",
+   "time": "Varies with traffic",
+   "detail": "Best for the Upper Town (Ano Poli) and for the return in heat. Use the meter or agree the fare first. Uber and Free Now supply licensed cabs in Greece. Do not rely on an app pickup at the port gate."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the ship 60 minutes before all-aboard. Leave the White Tower 75 minutes before and the Upper Town (by taxi) 90 minutes before.",
+  "detail": "The walk from the White Tower to the berth is about 15 minutes, but you still have to pass the port gates and security. City traffic slows taxis in the late afternoon, which matters most from the Upper Town and for any trip out of the city.",
+  "emergencyFallback": "Take a taxi to the port gate and show your cruise card. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "City highlights (White Tower, Rotunda, Archaeological Museum)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "On foot; Archaeological Museum €10 (2026)",
+   "saving": "Most of the cost of the tour"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for the city: the waterfront, the White Tower, the Rotunda, Agios Dimitrios and the Archaeological Museum are all walkable from the berth. A panoramic tour is worth it only if you cannot walk far and want the Upper Town walls without arranging a taxi. Take the ship's tour for Vergina or Pella: both are outside the city, traffic is unpredictable, and the ship waits for its own coaches.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk out through Ladadika to the waterfront and east to the White Tower, about 15 minutes."
+   },
+   {
+    "time": "08:45",
+    "what": "White Tower: climb the 92-step spiral stair through the history floors to the roof terrace."
+   },
+   {
+    "time": "10:00",
+    "what": "Walk inland to the Archaeological Museum (about 20 minutes from the port, less from the tower)."
+   },
+   {
+    "time": "11:30",
+    "what": "Walk up to the Rotunda and the Arch of Galerius."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch and bougatsa or meze around the Modiano and Kapani markets (closed on Sundays)."
+   },
+   {
+    "time": "13:30",
+    "what": "Visit Agios Dimitrios church and its crypt."
+   },
+   {
+    "time": "14:30",
+    "what": "Option A: taxi to the Upper Town and the Heptapyrgion walls; leave by 16:00. Option B: see the Roman street at Venizelou metro station, then Aristotelous Square and the waterfront."
+   },
+   {
+    "time": "16:00",
+    "what": "Walk back along the waterfront through Ladadika to the port gate."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "White Tower",
+   "why": "The 16th-century waterfront tower, now a museum of the city's history over six floors, with a roof terrace looking over the bay.",
+   "timeNeeded": "1 hour",
+   "cost": "Ticketed; buy at the entrance",
+   "tip": "Open 08:00–20:00 in summer (to 21:00 daily until 1 November 2026), 08:30–15:30 from November to March. Last entry 20 minutes before closing. Only 70 visitors are allowed in at once, so go early."
+  },
+  {
+   "name": "Waterfront, Aristotelous Square and the Umbrellas",
+   "why": "The promenade from the port warehouses along Nikis Avenue to the White Tower, the city's main square, and the Zongolopoulos Umbrellas sculpture on the Nea Paralia.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Flat and easy; walk it on the way back to the ship."
+  },
+  {
+   "name": "Archaeological Museum of Thessaloniki",
+   "why": "Finds from ancient Macedonia, the city's main archaeology collection.",
+   "timeNeeded": "1.5 hours",
+   "cost": "€10 full, €5 reduced (2026)",
+   "tip": "Open daily 09:00–17:00. About 20 minutes' walk from the port, at 6 Manoli Andronikou Street."
+  },
+  {
+   "name": "Rotunda and Arch of Galerius",
+   "why": "An early 4th-century round building, later a church and a mosque, beside the carved Roman arch (Kamara) built for Galerius's victory over the Persians. A UNESCO-listed monument.",
+   "timeNeeded": "45 minutes",
+   "cost": "Arch free; Rotunda admission charged",
+   "tip": "Rotunda open 08:00–20:00. It is still a working church, so dress modestly."
+  },
+  {
+   "name": "Agios Dimitrios",
+   "why": "The city's largest church, dedicated to its patron saint, with a crypt. UNESCO-listed since 1988.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free, including the crypt",
+   "tip": "The crypt stairs are slippery and the ceiling is low."
+  },
+  {
+   "name": "Venizelou metro station",
+   "why": "The Roman main street (Decumanus Maximus), marble-paved and later a Byzantine market, displayed where it was found inside the station.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Metro ticket €0.60 (2026) if you ride",
+   "tip": "Combine with the markets and Aristotelous Square, which are close by."
+  },
+  {
+   "name": "Upper Town (Ano Poli) and the Heptapyrgion",
+   "why": "Cobbled lanes, Ottoman-era houses, Byzantine churches and the walls and fortress at the top of the city, with wide views.",
+   "timeNeeded": "2 hours including taxi",
+   "cost": "Free to walk around; taxi fare",
+   "tip": "Take a taxi up and walk down. It is steep and uneven, and the farthest point from the ship."
+  },
+  {
+   "name": "Modiano and Kapani markets",
+   "why": "Modiano is the city's largest covered food market, in a 1930 building with about 75 stalls; Kapani is the open-air market for herbs, spices, olives and cheese.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Closed on Sundays."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Nea Paralia (new waterfront)",
+   "howToGetThere": "Walk east along the seafront past the White Tower",
+   "time": "15 min from the port to the White Tower, where it begins",
+   "cost": "Free",
+   "note": "A landscaped promenade and gardens, not a swimming beach. The city centre has no swimming beach within walking distance of the port."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Bougatsa (filo pastry with semolina cream, cinnamon and icing sugar)",
+   "where": "Bougatsa shops in the city centre, the local breakfast",
+   "price": null
+  },
+  {
+   "dish": "Koulouri (sesame bread rings), said to have originated in Thessaloniki",
+   "where": "Bakeries and street sellers across the centre",
+   "price": null
+  },
+  {
+   "dish": "Tsoureki (sweet braided bread)",
+   "where": "Terkenli patisserie",
+   "price": null
+  },
+  {
+   "dish": "Syrup-soaked sweets and kazan dipi",
+   "where": "Hatzis patisserie",
+   "price": null
+  },
+  {
+   "dish": "Meze with ouzo or tsipouro",
+   "where": "Ouzeries in Ladadika and around the Modiano and Kapani markets",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning a market visit on a Sunday.",
+   "fix": "Modiano and Kapani are closed on Sundays. Swap in the waterfront and the Upper Town."
+  },
+  {
+   "mistake": "Walking up to the Upper Town in the afternoon heat.",
+   "fix": "Take a taxi up and walk down, and leave the top 90 minutes before all-aboard."
+  },
+  {
+   "mistake": "Buying one ticket for a bus plus metro journey.",
+   "fix": "A single ticket covers transfers only within the same mode for 70 minutes. Bus and metro need two tickets, or buy the €2.50 24-hour ticket (2026)."
+  },
+  {
+   "mistake": "Going to Vergina or Pella independently on a short call.",
+   "fix": "Both are outside the city and traffic is unpredictable. Use the ship's tour or allow a large buffer."
+  },
+  {
+   "mistake": "Expecting an app taxi to collect you at the port gate.",
+   "fix": "Walk to the street or use a taxi rank, and confirm the meter is on."
+  }
+ ],
+ "safety": "Thessaloniki is generally safe for visitors. The main risk is theft: passports, wallets and handbags are stolen in crowded places, on public transport and in the markets. Keep valuables split up and zipped away. Carry ID, because the police may not accept a photocopy. Summer heat is serious, so carry water and avoid steep walks at midday. Wildfire risk is high from April to October; never discard cigarettes or glass.",
+ "scams": [
+  "Pickpocketing in crowded markets and on public transport: keep bags closed and in front of you.",
+  "Drink spiking in bars: watch your drink and do not leave it unattended.",
+  "Taxi overcharging: use the meter or agree the fare first; Uber and Free Now supply licensed cabs."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The waterfront and the route from the port to Aristotelous Square are mostly flat, though the port exit varies by berth. The Upper Town and some market lanes are steep and uneven and are hard going for wheelchair users. The White Tower's upper floors are reached by a 92-step spiral stair; visitors who cannot climb can take a virtual tour at information stations on the ground floor, which has no toilets. The crypt at Agios Dimitrios has slippery stairs.",
+ "rainyDay": "Spend the day indoors in the centre: the Archaeological Museum (open 09:00–17:00), the White Tower, the Rotunda and Agios Dimitrios. The covered Modiano Market works in the rain, except on Sundays. Skip the Upper Town, where wet cobbles are slippery.",
+ "crowdTips": "The White Tower admits only 70 people at once, so visit at opening, before tour groups arrive. Thessaloniki is a large city, so cruise passengers spread out quickly once they leave the waterfront. If one sight is busy, the next is a short walk away.",
+ "faqs": [
+  {
+   "q": "Is Thessaloniki walkable from the cruise port?",
+   "a": "Yes. The centre is about 10 minutes' walk, the White Tower 15 and the Archaeological Museum 20."
+  },
+  {
+   "q": "Is Thessaloniki a tender port?",
+   "a": "No. Ships dock at the port beside the city centre; the cruise terminal is on Pier 2."
+  },
+  {
+   "q": "How do I get from Thessaloniki cruise port to the White Tower?",
+   "a": "Walk east along the waterfront for about 15 minutes. It is flat all the way."
+  },
+  {
+   "q": "Does the Thessaloniki metro go near the cruise port?",
+   "a": "The metro runs under the centre, with stations including Venizelou and Agia Sofia. A ride costs €0.60 (2026). For most cruise visitors walking is quicker."
+  },
+  {
+   "q": "What can I do in Thessaloniki in one day from a cruise ship?",
+   "a": "The White Tower, the Archaeological Museum, the Rotunda, Agios Dimitrios and the markets on foot, plus a taxi to the Upper Town on a long call."
+  },
+  {
+   "q": "Are there beaches near Thessaloniki cruise port?",
+   "a": "Not within walking distance. The seafront is a promenade, not a swimming beach."
+  },
+  {
+   "q": "Is Thessaloniki safe?",
+   "a": "Yes, generally. Watch for pickpockets in crowds and markets, and take care in the summer heat."
+  },
+  {
+   "q": "How much does the Archaeological Museum of Thessaloniki cost?",
+   "a": "€10 full and €5 reduced in 2026; open daily 09:00–17:00."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "White Tower"
+  },
+  {
+   "name": "Archaeological Museum of Thessaloniki"
+  },
+  {
+   "name": "Rotunda"
+  },
+  {
+   "name": "Arch of Galerius"
+  },
+  {
+   "name": "Agios Dimitrios"
+  },
+  {
+   "name": "Aristotelous Square"
+  },
+  {
+   "name": "Ano Poli and the Heptapyrgion"
+  }
+ ],
+ "sources": [
+  {
+   "title": "GTP Headlines – Thessaloniki's new cruise passenger terminal begins operations (June 2023)",
+   "url": "https://news.gtp.gr/2023/06/06/thessalonikis-new-cruise-passenger-terminal-begins-operations/"
+  },
+  {
+   "title": "MedCruise – Cruise to Thessaloniki (port data)",
+   "url": "https://www.medcruise.com/news/cruise-to-thessaloniki"
+  },
+  {
+   "title": "Wikipedia – Port of Thessaloniki",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Thessaloniki"
+  },
+  {
+   "title": "OSETH (Thessaloniki transport authority) – Frequently asked questions: fares",
+   "url": "https://oseth.com.gr/en/frequently-asked-questions?page=0"
+  },
+  {
+   "title": "Proto Thema – Thessaloniki metro starts operating today: the operating hours (November 2024)",
+   "url": "https://origin01-en.protothema.gr/2024/11/30/thessaloniki-metro-starts-operating-today-the-operating-hours"
+  },
+  {
+   "title": "Greek Reporter – Venizelou metro station turned museum (December 2024)",
+   "url": "https://greekreporter.com/2024/12/03/venizelou-thessaloniki-metro-station-museum-archaeology/"
+  },
+  {
+   "title": "Archaeological Museum of Thessaloniki – Visit",
+   "url": "https://www.amth.gr/en/visit"
+  },
+  {
+   "title": "Museum of Byzantine Culture – Extension of the White Tower's opening hours until 21:00 (August 2026)",
+   "url": "https://www.mbp.gr/en/news/extension-of-the-white-towers-opening-hours-until-2100/"
+  },
+  {
+   "title": "Thessaloniki Tourism Organisation – White Tower Museum",
+   "url": "https://thessaloniki.travel/exploring-the-city/art-culture/museums/white-tower-museum/"
+  },
+  {
+   "title": "Discover Greece – White Tower of Thessaloniki",
+   "url": "https://www.discovergreece.com/travel-services/museums-sites/white-tower-thessaloniki"
+  },
+  {
+   "title": "Thessaloniki Tourism Organisation – Rotunda (UNESCO monument)",
+   "url": "https://thessaloniki.travel/exploring-the-city/religion/greek-orthodox-churches/rotunda-unesco-monument/"
+  },
+  {
+   "title": "Discover Greece – 11 things to do in Thessaloniki",
+   "url": "https://www.discovergreece.com/travel-ideas/best-of/11-things-do-thessaloniki"
+  },
+  {
+   "title": "Discover Greece – A culinary tour of Thessaloniki",
+   "url": "https://www.discovergreece.com/experiences/culinary-tour-thessaloniki"
+  },
+  {
+   "title": "Thessaloniki Tourism Organisation blog – 10 practical tips to explore Thessaloniki like a local",
+   "url": "https://blog.thessaloniki.travel/en/experience/tips/287-ten-practical-tips-to-explore-thessaloniki-like-a-local"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Thessaloniki port guide",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/thessaloniki-greece/"
+  },
+  {
+   "title": "Thatch – 24 hours in Thessaloniki",
+   "url": "https://thatch.co/guide/2408ksd10bav2/view"
+  },
+  {
+   "title": "GOV.UK – Greece travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/greece/safety-and-security"
+  }
+ ],
+ "uncertain": [
+  "White Tower ticket price: the Thessaloniki Tourism Organisation gives €8 full / €4 reduced, Discover Greece gives €6 summer / €3 winter.",
+  "Rotunda ticket price and closing day: one undated third-party guide gives €6 and closed on Tuesdays; not confirmed officially.",
+  "Combined ticket covering the White Tower, Rotunda, Archaeological Museum and Museum of Byzantine Culture: price and validity not confirmed officially.",
+  "The brief names Pier 1 as the cruise terminal; the 2023 GTP report places the renovated cruise terminal on Pier 2 (quays 9 and 10). Whether some ships still berth at Pier 1 is not confirmed.",
+  "Whether the metro extension to Kalamaria has opened.",
+  "Walking distances in km from the berth and the port's typical all-aboard time."
+ ]
+}

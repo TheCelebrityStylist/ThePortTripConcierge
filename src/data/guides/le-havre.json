@@ -1,0 +1,418 @@
+{
+ "slug": "le-havre",
+ "city": "Le Havre",
+ "portName": "Port of Le Havre cruise terminals (Pointe de Floride)",
+ "townName": "the city centre",
+ "country": "France",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "French",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Le Havre cruise port guide: centre, Paris, Honfleur",
+ "seoDescription": "Le Havre cruise port is 2–2.5 km from the centre. Taxi €10–12 (2026), LiA tram €1.80 an hour. Paris is 2h03–2h13 by train each way: high return risk.",
+ "quickAnswer": "Ships berth at the Pointe de Floride terminals, about 2–2.5 km from the city centre and the station. Most lines run a shuttle bus into town (free or charged depending on the line), a taxi to the station takes 10–15 minutes for about €10–12 (2026), and the walk takes 25–30 minutes. If you leave Le Havre by train or bus, be back at Le Havre station at least two hours before all-aboard.",
+ "intro": "Le Havre is a working container port with a city centre rebuilt in concrete by Auguste Perret after 80% of it was destroyed in the Second World War; the reconstruction is a UNESCO World Heritage Site. Cruise ships use the new terminal complex at the Pointe de Floride, at the harbour entrance. Many passengers treat Le Havre as the gateway to Paris, but the train takes over two hours each way, so a Paris day leaves little time and carries real return risk. Honfleur, Étretat and Rouen are closer, and the city itself is worth a few hours for St Joseph's Church, the MuMa art museum and the seafront.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Pointe de Floride cruise terminals (Quai Roger Meunier, Quai Pierre Callet, Quai Joannes Couvert)",
+   "distanceToCentreKm": 2.5,
+   "notes": "Three berths with new terminals at the harbour entrance, being completed in 2025–2026 with shore power on all three quays. Terminal facilities include a tourist information point and free wifi. The city centre and Le Havre station are about 2–2.5 km away."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 30,
+  "km": 2.5,
+  "detail": "The walk to the centre is flat and takes 25–30 minutes, but the first part runs through port roads. Most people take the shuttle or a taxi in, then walk around the compact centre and seafront."
+ },
+ "transportSections": [
+  {
+   "mode": "Cruise shuttle bus",
+   "cost": "Varies by line; free on some, charged on others (2026)",
+   "time": "About 10–15 min",
+   "detail": "Most lines arrange a shuttle to the city centre. Details are usually announced on board the evening before; check your daily programme for the drop-off point and the last return time."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "About €10–12 to Le Havre station (2026)",
+   "time": "10–15 min",
+   "detail": "Taxis wait at the terminal. Best for reaching the station quickly for a train or regional bus."
+  },
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "25–30 min",
+   "detail": "About 2–2.5 km, flat. Follow the signed route out of the port area towards the centre."
+  },
+  {
+   "mode": "LiA tram and city buses",
+   "cost": "€1.80 for one hour, €4.50 for 24 hours (2026)",
+   "time": "A few minutes between central stops",
+   "detail": "The tram links Le Havre Gares (the station), Hôtel de Ville, Palais de Justice, St Roch and La Plage (the beach). One ticket covers trams and buses for an hour. Tickets are sold at LiA agencies, partner shops, online, by app and by SMS."
+  },
+  {
+   "mode": "Train to Paris Saint-Lazare",
+   "cost": "From €17 one way, 2nd class, booked online (2026)",
+   "time": "2h03 fastest, about 2h13 on average, each way",
+   "detail": "About 14 trains a day from Le Havre station, first around 07:08. Book in advance on SNCF Connect. Trains are direct or stop at Rouen and a few smaller towns."
+  },
+  {
+   "mode": "Train to Rouen",
+   "cost": "Check SNCF Connect for the fare",
+   "time": "43–50 min",
+   "detail": "About 18 trains a day to Rouen Rive Droite from Le Havre station, mostly TER regional trains."
+  },
+  {
+   "mode": "Nomad coach 122 to Honfleur",
+   "cost": "Check the fare on nomad.normandie.fr; pay by card or cash to the driver",
+   "time": "About 30 min",
+   "detail": "Express line 122 (Le Havre–Honfleur–Caen) leaves from Le Havre Gare Routière, next to the station, and crosses the Pont de Normandie. Timetables change by season and Sunday service is thin, so check the return times before you go."
+  },
+  {
+   "mode": "Bus to Étretat",
+   "cost": "LiA ticket €1.80 (2026); check the journey time and timetable",
+   "time": "Check the timetable",
+   "detail": "LiA line 21 runs from Le Havre Gares to Étretat; LiA line 13 runs from Grand Hameau; Nomad line 509 runs Le Havre–Étretat–Fécamp along the coast, with a faster summer Rapid'Bus 509. There is no direct train."
+  }
+ ],
+ "returnTiming": {
+  "rule": "If you leave Le Havre by train or coach, be back at Le Havre station at least 2 hours before all-aboard. From the city centre, be back on board 60 minutes before all-aboard.",
+  "detail": "The station is 10–15 minutes from the ship by taxi, and taxis can be scarce when trains arrive. A delayed train from Paris has no quick alternative: there are only about 14 trains a day and the drive takes about 2h45–3h. Do not book the last train that would just make it.",
+  "emergencyFallback": "If a train or coach is delayed, call the port agent number on your daily programme at once. From Le Havre station take a taxi straight to the terminal."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Paris for the day",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Train from €17 each way, booked ahead (2026), plus taxis to and from the station",
+   "saving": "Depends on fares on the day"
+  },
+  {
+   "item": "Honfleur",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Nomad coach 122, about 30 min each way",
+   "saving": "Usually large"
+  },
+  {
+   "item": "Le Havre city centre",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Shuttle or taxi, then on foot; LiA tram €1.80 an hour (2026)",
+   "saving": "Usually large"
+  }
+ ],
+ "excursionAdvice": "Paris is where the ship's tour earns its price: the ship waits for its own coaches, and it does not wait for a delayed train. If you go independently, take an early train and come back on one that leaves plenty of slack. Honfleur and Le Havre itself are easy alone. Étretat is possible by bus, but the timetables are the risk; a ship tour or a taxi is simpler on a short call. D-Day beach tours from Le Havre involve long drives and are better booked through the ship or a reputable operator.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, with a day in Le Havre and Sainte-Adresse rather than Paris.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Shuttle or taxi to the city centre. Pick up a map at the terminal tourist information point."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk the Perret centre: Hôtel de Ville, Avenue Foch and the reconstructed blocks."
+   },
+   {
+    "time": "09:45",
+    "what": "St Joseph's Church: the 107 m tower lit by thousands of panes of coloured glass."
+   },
+   {
+    "time": "11:00",
+    "what": "MuMa on the seafront: Boudin, Dufy, Monet and other Impressionists (closed Mondays)."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch on or near the beach promenade."
+   },
+   {
+    "time": "14:00",
+    "what": "Walk the beach promenade or take the tram to La Plage; continue to the Hanging Gardens for the estuary view."
+   },
+   {
+    "time": "15:30",
+    "what": "Back towards the centre; see the Catène de Containers arches and Le Volcan."
+   },
+   {
+    "time": "16:00",
+    "what": "Shuttle or taxi back to the terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "On board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "St Joseph's Church",
+   "why": "Perret's concrete church, finished in 1957, with a 107 m lantern tower holding 12,768 panes of coloured glass; a memorial to the bombing victims.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Check on site",
+   "tip": "Go on a sunny morning or afternoon, when the light through the glass is strongest."
+  },
+  {
+   "name": "Perret's reconstructed city centre (UNESCO)",
+   "why": "A whole city centre rebuilt after 1945 on a single concrete grid; a World Heritage Site.",
+   "timeNeeded": "1–1.5 hours on foot",
+   "cost": "Free to walk",
+   "tip": "Start at the Hôtel de Ville and walk Avenue Foch towards the sea."
+  },
+  {
+   "name": "MuMa – André Malraux Museum of Modern Art",
+   "why": "One of France's largest Impressionist collections outside Paris, with many works by Boudin and Dufy, in a glass building facing the sea.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Check the museum's current price; free for under-26s",
+   "tip": "Closed on Mondays and some public holidays; opens at 11:00."
+  },
+  {
+   "name": "Appartement témoin Perret (show flat)",
+   "why": "A furnished 1950s flat showing how residents were rehoused after the war.",
+   "timeNeeded": "About 1 hour",
+   "cost": "Check with the tourist office",
+   "tip": "Check visit times with the tourist office before you plan around it."
+  },
+  {
+   "name": "Les Jardins Suspendus (Hanging Gardens)",
+   "why": "Gardens and greenhouses on a 19th-century fort above the city, opened in 2008, with views over the Seine estuary.",
+   "timeNeeded": "1 hour plus travel",
+   "cost": "Check locally",
+   "tip": "Combine with a taxi; it is uphill from the centre."
+  },
+  {
+   "name": "Beach and Catène de Containers",
+   "why": "A 2 km shingle beach with a promenade about 500 m from the centre, and Vincent Ganivet's 2017 arches of stacked shipping containers.",
+   "timeNeeded": "45 minutes–1 hour",
+   "cost": "Free",
+   "tip": "The tram's La Plage stop is the end of the line by the beach."
+  },
+  {
+   "name": "Honfleur",
+   "why": "Old harbour town across the Seine estuary, reached in about 30 minutes by Nomad coach 122.",
+   "timeNeeded": "3–4 hours including travel",
+   "cost": "Coach fare; check nomad.normandie.fr",
+   "tip": "Check the return coach times before you leave Le Havre; Sundays are thin."
+  },
+  {
+   "name": "Étretat cliffs",
+   "why": "Chalk cliffs and arches on the coast north of Le Havre.",
+   "timeNeeded": "Half a day including travel",
+   "cost": "LiA ticket €1.80 (2026) on line 21",
+   "tip": "There is no train; check the bus timetable both ways, or take a taxi or tour on a short call."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Le Havre beach",
+   "howToGetThere": "Tram to La Plage, or walk from the centre",
+   "time": "About 500 m from the centre",
+   "cost": "Free",
+   "note": "Shingle, with a long promenade and cycle lane next to the marina."
+  },
+  {
+   "name": "Étretat",
+   "howToGetThere": "LiA bus 21 from Le Havre Gares or Nomad 509",
+   "time": "Check the timetable",
+   "cost": "LiA ticket €1.80 (2026)",
+   "note": "Shingle beach below the cliffs; better for walking than swimming."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Moules-frites and seafood",
+   "where": "Restaurants along the beach promenade",
+   "price": null
+  },
+  {
+   "dish": "Normandy cheeses such as Camembert",
+   "where": "Cafés and delis in the city centre",
+   "price": null
+  },
+  {
+   "dish": "Cider and pommeau",
+   "where": "Bars and shops in the centre and in Honfleur",
+   "price": null
+  },
+  {
+   "dish": "Seafood platters",
+   "where": "Around the Vieux Bassin in Honfleur",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming Paris is close.",
+   "fix": "The train is at least 2h03 each way, plus taxis to and from the station. On a typical call you get 3–4 hours in Paris at best."
+  },
+  {
+   "mistake": "Taking a late train back from Paris.",
+   "fix": "Plan to be back at Le Havre station two hours before all-aboard, and book a train that leaves slack for a delay."
+  },
+  {
+   "mistake": "Not checking the shuttle details.",
+   "fix": "Read the daily programme: the shuttle price, drop-off point and last return time differ by line."
+  },
+  {
+   "mistake": "Relying on a Sunday coach to Honfleur.",
+   "fix": "Coach 122 runs far fewer services on Sundays and holidays and the timetable changes by season. Check the return before you go."
+  },
+  {
+   "mistake": "Visiting MuMa on a Monday.",
+   "fix": "The museum is closed on Mondays. Do St Joseph's Church and the beach instead."
+  }
+ ],
+ "safety": "Le Havre is a working port and a normal French city; take the usual care with bags and phones in busy places such as the station and on trams. The port area around the terminals has heavy-vehicle traffic, so stick to marked walking routes or use the shuttle. Paris has well-known pickpocketing in its main sights and on the Métro; keep valuables in a zipped inner pocket there.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The city centre is flat, with wide pavements laid out on Perret's grid, and the tram is low-floor. Ask your ship about the shuttle's accessibility. The gangway has been described as long and steep; ask the crew for assistance if you need it. The Hanging Gardens are uphill and the Étretat cliff paths are steep and uneven.",
+ "rainyDay": "Le Havre handles rain well: spend longer in MuMa, see St Joseph's Church, and see the Perret show flat if a visit fits. Rouen is 43–50 minutes away by train if you would rather spend the day in another city. Skip Étretat in heavy rain; the cliff paths become slippery.",
+ "crowdTips": "Le Havre had 139 scheduled cruise calls in 2026, and the terminals are designed for up to 13,500 passengers a day. Book Paris train seats ahead on busy days. Coaches to Honfleur fill up when several ships are in, so go early.",
+ "faqs": [
+  {
+   "q": "Is Le Havre cruise port walkable to the city centre?",
+   "a": "Partly. It is about 2–2.5 km, 25–30 minutes on foot. Most people use the cruise shuttle or a taxi, about €10–12 to the station (2026)."
+  },
+  {
+   "q": "How do I get from Le Havre cruise port to Paris?",
+   "a": "Taxi to Le Havre station, then a train to Paris Saint-Lazare: 2h03 at fastest, from €17 one way if booked ahead (2026). Allow two hours' margin on the way back."
+  },
+  {
+   "q": "Is Le Havre a tender port?",
+   "a": "No. Ships berth at the Pointe de Floride terminals."
+  },
+  {
+   "q": "Can I visit Honfleur from Le Havre cruise port?",
+   "a": "Yes. Nomad coach 122 from Le Havre Gare Routière takes about 30 minutes. Check the return times, especially on Sundays."
+  },
+  {
+   "q": "How do I get to Étretat from Le Havre?",
+   "a": "LiA bus 21 from Le Havre Gares, LiA bus 13 from Grand Hameau, or Nomad 509. There is no direct train."
+  },
+  {
+   "q": "What can I do in Le Havre in one day from a cruise ship?",
+   "a": "Walk Perret's UNESCO centre, see St Joseph's Church and MuMa, then the beach and the Hanging Gardens."
+  },
+  {
+   "q": "How far is Rouen from Le Havre?",
+   "a": "43–50 minutes by train, with about 18 trains a day."
+  },
+  {
+   "q": "Is Le Havre safe?",
+   "a": "Yes. Take normal city precautions, and more care with pickpockets if you go to Paris."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "St Joseph's Church"
+  },
+  {
+   "name": "Perret reconstructed city centre"
+  },
+  {
+   "name": "MuMa"
+  },
+  {
+   "name": "Appartement témoin Perret"
+  },
+  {
+   "name": "Les Jardins Suspendus"
+  },
+  {
+   "name": "Catène de Containers"
+  },
+  {
+   "name": "Honfleur"
+  },
+  {
+   "name": "Étretat"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Le Havre Seine Métropole – Cruises, a new horizon (terminal facilities)",
+   "url": "https://www.lehavreseinemetropole.fr/cruises-new-horizon"
+  },
+  {
+   "title": "LiA – Trouver mon tarif (fares)",
+   "url": "https://www.transports-lia.fr/fr/trouver-mon-tarif"
+  },
+  {
+   "title": "LiA – home page (tram service, network)",
+   "url": "https://www.transports-lia.fr"
+  },
+  {
+   "title": "Nomad Normandie – Grille tarifaire 2026",
+   "url": "https://nomad.normandie.fr/sites/default/files/pdf-citykomi/A4_Grille%20tarifaire_Nomad_2026.pdf"
+  },
+  {
+   "title": "Nomad Normandie – Line 122 timetable, June 2026",
+   "url": "https://nomad.normandie.fr/sites/default/files/2026-06/122_juin_0.pdf"
+  },
+  {
+   "title": "Nomad Normandie – Guide pratique 2026",
+   "url": "https://nomad.normandie.fr/sites/default/files/2026-06/Guide%20Pratique_De%CC%81pliant_10x21_NOMAD%202026%20web.pdf"
+  },
+  {
+   "title": "Étretat – Public transport access to the Grand Site (2025)",
+   "url": "https://etretat.fr/wp-content/uploads/2025/08/acces-transports-en-commun-etretat-grand-site-2025.pdf"
+  },
+  {
+   "title": "SNCF Connect – Le Havre to Paris trains",
+   "url": "https://www.sncf-connect.com/en-en/train/route/le-havre/paris"
+  },
+  {
+   "title": "SNCF Connect – Le Havre to Rouen timetables",
+   "url": "https://www.sncf-connect.com/train/horaires/le-havre/rouen"
+  },
+  {
+   "title": "Normandy Tourism – Things to see and do in Le Havre",
+   "url": "https://en.normandie-tourisme.fr/unmissable-sites/le-havre/things-to-see-and-do-in-le-havre/"
+  },
+  {
+   "title": "MuMa – Admission",
+   "url": "https://muma-lehavre.fr/en/practical/informations/getting-to-museum/admission"
+  },
+  {
+   "title": "Ulysse – Le Havre's three zero-emission terminals and 139 calls in 2026",
+   "url": "https://ulysse.com/news/le-havre-verrazzano-terminal-croisiere-electrifie-2026"
+  },
+  {
+   "title": "Cruising Journal – Pointe de Floride 2026",
+   "url": "https://cruisingjournal.com/en/cruise-industry/cruise-destinations-news/pointe-de-floride-2026-new-era-for-the-port-of-le-havre"
+  },
+  {
+   "title": "Nomado Travel – Le Havre cruise port guide",
+   "url": "https://www.nomadotravel.app/en/guides/le-havre-cruise-port-guide"
+  },
+  {
+   "title": "Nomado Travel – MuMa",
+   "url": "https://www.nomadotravel.app/fr/attractions/musee-art-moderne-andre-malraux"
+  },
+  {
+   "title": "FAIRTIQ – Tickets available in Normandy",
+   "url": "https://support.fairtiq.com/hc/en-us/articles/12174984844050"
+  },
+  {
+   "title": "WhatsInPort – Le Havre",
+   "url": "https://www.whatsinport.com/Le-Havre.htm"
+  }
+ ],
+ "uncertain": [
+  "Whether the cruise shuttle is free or charged for a given line, and its 2026 price (an older source quotes €10 return for a local shuttle and a charge on Princess).",
+  "Nomad coach 122 fare for Le Havre–Honfleur (only Caen–Le Havre €11 and Caen–Honfleur €8 are published).",
+  "Journey times and frequency of LiA bus 21, LiA 13 and Nomad 509 to Étretat, and whether a single one-hour LiA ticket covers the whole trip.",
+  "MuMa 2026 adult admission price (the official page found still shows 2023 prices: €7 standard, €10 during the summer exhibition) and weekday closing time.",
+  "Admission prices and tour times for the Appartement témoin Perret and the Hanging Gardens.",
+  "Exact walking route and distance from each of the three new terminals (one older source gives 4 km).",
+  "Typical cruise all-aboard time and typical call length at Le Havre.",
+  "A reported free station–terminal shuttle every 30 minutes (likely for embarking passengers only).",
+  "Documented scams specific to Le Havre: none found."
+ ]
+}

@@ -1,0 +1,381 @@
+{
+ "slug": "nafplio",
+ "city": "Nafplio",
+ "portName": "Nafplio anchorage (tender pier on the Old Town waterfront)",
+ "townName": "Nafplio Old Town",
+ "country": "Greece",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Greek",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Nafplio cruise port guide: tender, Palamidi, Mycenae",
+ "seoDescription": "Nafplio is a tender port; the pier is on the Old Town waterfront. Palamidi €20 (2026), taxi up about €10. Mycenae and Epidaurus €20 each, 30–40 min away.",
+ "quickAnswer": "Nafplio is a tender port: ships anchor in the Argolic Gulf and tenders land at a pier on the Old Town waterfront, a short walk from Syntagma Square. The town, Akronafplia and Arvanitia beach are on foot, Palamidi is a taxi ride (about €10) or a long stair climb, and Mycenae and Epidaurus need a tour or a hired car. Be in the tender queue 90 minutes before all-aboard.",
+ "intro": "Nafplio's Old Town of Venetian and neoclassical streets starts a few minutes from the tender pier. Three fortifications frame the town: Palamidi on its 216 m hill, Akronafplia on the headland and the small island castle of Bourtzi in the harbour. Many ships here leave at 17:00 or 18:00, so the day is shorter than it looks once the tender is counted. The main choice is between a full day in town and a timed road trip to Mycenae, Tiryns or Epidaurus.",
+ "isTender": true,
+ "tenderNotes": "Ships anchor offshore and tender passengers to a pier on the Old Town waterfront, a short walk from the promenade and Syntagma Square. Taxis wait by the pier and a tourist information centre is a short walk away. Allow for queues in the last two hours before all-aboard. Greece charges a cruise passenger fee for each passenger who goes ashore at ports other than Santorini and Mykonos: €5 from June to September, €3 in April, May and October, €1 from November to March (2026). It is charged once per port, to your onboard account, and only if you leave the ship.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Tender pier (Old Town waterfront)",
+   "distanceToCentreKm": null,
+   "notes": "Short walk to Syntagma (Constitution) Square and the Old Town lanes; the Archaeological Museum is about 10 minutes on foot. Taxis wait at the pier, and a hop-on hop-off bus links the pier with Palamidi."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": null,
+  "detail": "Most Old Town sights are within 15 minutes' walk of the tender pier. Palamidi is a long, exposed stair climb or about 4 km by road. Arvanitia beach is about 15 minutes' walk from Syntagma Square. Mycenae, Tiryns and Epidaurus are not walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "Up to 15 min to most Old Town sights",
+   "detail": "From the pier walk along the waterfront into the Old Town. Staikopoulou Street is the main café and restaurant street; Syntagma Square is the centre."
+  },
+  {
+   "mode": "Taxi to Palamidi",
+   "cost": "About €10 one way (2026)",
+   "time": "About 10 min by road",
+   "detail": "Taxis wait at the tender pier. Many visitors ride up and walk down the stairs into town. Uber does not operate in Nafplio; taxis can be booked through the Beat app."
+  },
+  {
+   "mode": "Hop-on hop-off bus",
+   "cost": "Check the price at the stop",
+   "time": "Short ride",
+   "detail": "A sightseeing bus links the cruise pier with Palamidi and stops near the main attractions."
+  },
+  {
+   "mode": "Hired car with driver to Mycenae, Tiryns or Epidaurus",
+   "cost": "Around €120 and up for a half day covering two sites (2026)",
+   "time": "Mycenae about 30 min; Tiryns about 10 min; Epidaurus about 40 min",
+   "detail": "Agree the sites, the price and the return time before you leave. A Mycenae and Tiryns morning fits an eight-hour call; adding Epidaurus leaves little margin."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be in the tender queue 90 minutes before all-aboard (15:00 for a 16:30 all-aboard). Leave Palamidi and Arvanitia beach 2 hours before all-aboard, Tiryns 1 hour 45 minutes before, Mycenae 2 hours 40 minutes before and Epidaurus 2 hours 50 minutes before.",
+  "detail": "Tenders run from one pier and queues build in the last two hours. Palamidi's stairs are long and steep and taxis at the gate are not guaranteed, so leave margin. From the ancient sites, the road time plus the tender buffer is what counts; a late start at the site is the usual cause of trouble.",
+  "emergencyFallback": "From anywhere in town a taxi can reach the waterfront quickly. If you are delayed on the road from Mycenae or Epidaurus, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Mycenae and Epidaurus",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Hired car around €120 and up for a half day (per car), plus €20 entry at each site (2026)",
+   "saving": "Depends on group size and the tour price"
+  },
+  {
+   "item": "Palamidi",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi about €10 up, walk down; entry €20 (2026)",
+   "saving": "Usually large; no tour needed"
+  }
+ ],
+ "excursionAdvice": "Nafplio itself, Palamidi and Akronafplia need no tour: everything starts at the tender pier. The ship's tour is worth it for Mycenae and Epidaurus together, especially on a short call or for solo travellers, because a hired car costs much the same split between fewer people and the return to the tender is your responsibility. A group of three or four on a long call can do Mycenae and Tiryns by pre-booked car for less.",
+ "dayPlan": {
+  "allAboard": "16:30",
+  "intro": "Assumes the ship anchors at 08:00, first tenders ashore by 08:30, a 16:30 all-aboard (many ships here sail at 17:00) and a summer day.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Tender ashore. Take a taxi from the pier up to Palamidi before the heat builds (opens 08:00 from May to August)."
+   },
+   {
+    "time": "08:45",
+    "what": "Palamidi (€20). Walk the bastions, then walk down the stairs into the Old Town."
+   },
+   {
+    "time": "10:30",
+    "what": "Archaeological Museum on Syntagma Square (open 08:30–15:30, closed Tuesdays), then the Old Town lanes."
+   },
+   {
+    "time": "12:00",
+    "what": "Lunch, for example at Karamalis taverna or one of the fish restaurants on Bouboulinas Street."
+   },
+   {
+    "time": "13:00",
+    "what": "Walk the Arvanitia promenade below Akronafplia to Arvanitia beach for a swim."
+   },
+   {
+    "time": "14:15",
+    "what": "Walk back towards the waterfront, about 20–30 minutes at an easy pace."
+   },
+   {
+    "time": "14:45",
+    "what": "Coffee or ice cream within sight of the tender pier."
+   },
+   {
+    "time": "15:00",
+    "what": "Join the tender queue, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Palamidi fortress",
+   "why": "Venetian fortress of the early 18th century with eight linked bastions on a 216 m hill, with views over the town and the Argolic Gulf. Kolokotronis, a hero of the War of Independence, was imprisoned in the Miltiades bastion.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "€20 adult, €10 reduced (2026)",
+   "tip": "Open 08:00–20:00 from 2 May to 31 August, closing earlier in spring and autumn (18:00 in late October). The stairs are known as the '999 steps', though counts vary from about 860 to 910; ride up and walk down."
+  },
+  {
+   "name": "Nafplio Old Town and Syntagma Square",
+   "why": "Venetian and neoclassical streets around the main square, lined with cafés.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free",
+   "tip": "Most sights are within 15 minutes' walk of the tender pier."
+  },
+  {
+   "name": "Akronafplia",
+   "why": "The oldest of Nafplio's castles, on the headland above the Old Town, with walls that go back to the Bronze Age.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Open at any time; walk up the paved road and combine it with the Arvanitia promenade below."
+  },
+  {
+   "name": "Archaeological Museum of Nafplio",
+   "why": "Mycenaean finds from Mycenae, Tiryns, Asini and Dendra, including the bronze Dendra armour, in a Venetian building of 1713.",
+   "timeNeeded": "45 minutes",
+   "cost": "Pay at the desk",
+   "tip": "Open 08:30–15:30, closed Tuesdays. Go in the morning."
+  },
+  {
+   "name": "Bourtzi",
+   "why": "The small Venetian castle, fortified in 1473, on an islet in the harbour.",
+   "timeNeeded": "About 1.5 hours including the boat",
+   "cost": "Boat and entry paid locally; confirm the price before boarding",
+   "tip": "Boats leave from the harbourfront and the crossing takes about 10 minutes. Open April to October."
+  },
+  {
+   "name": "Mycenae",
+   "why": "Citadel of the Mycenaean civilisation, with the Cyclopean walls and the Treasury of Atreus (Tomb of Agamemnon).",
+   "timeNeeded": "4 hours including travel",
+   "cost": "€20 adult, €10 reduced; includes the site, museum and Treasury of Atreus (2026)",
+   "tip": "About 30 minutes' drive. Open 08:00–20:00 from May to August, 08:00–18:00 in late October. The site is exposed; go early."
+  },
+  {
+   "name": "Epidaurus theatre and Sanctuary of Asklepios",
+   "why": "The ancient theatre famed for its acoustics, and the healing sanctuary of Asklepios, a UNESCO site since 1988.",
+   "timeNeeded": "4 hours including travel",
+   "cost": "€20 adult, €10 reduced; includes the museum (2026)",
+   "tip": "About 40 minutes' drive. Open 08:00–20:00 from May to August; last entry 20 minutes before closing."
+  },
+  {
+   "name": "Tiryns",
+   "why": "Mycenaean citadel with massive 'Cyclopean' walls, about 8 km from Nafplio.",
+   "timeNeeded": "1.5–2 hours including travel",
+   "cost": "€10 adult, €5 reduced (2026)",
+   "tip": "Hellenic Heritage lists hours of 08:30–15:30 all year. About 10 minutes' drive; the quickest ancient site from the pier."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Arvanitia",
+   "howToGetThere": "Walk the promenade below Akronafplia from the western end of the waterfront",
+   "time": "About 15 min from Syntagma Square",
+   "cost": "Free access; a few sunbeds and a small bar",
+   "note": "A small pebble beach under the cliffs. The promenade itself is one of the best walks in town."
+  },
+  {
+   "name": "Neraki",
+   "howToGetThere": "Coastal path from Arvanitia towards Karathona",
+   "time": "About halfway along the 2.5 km path",
+   "cost": "Free",
+   "note": "Small pebble cove."
+  },
+  {
+   "name": "Karathona",
+   "howToGetThere": "Coastal path or taxi from Arvanitia Square",
+   "time": "2.5 km from Arvanitia Square; the path has one short steep section",
+   "cost": "Free access",
+   "note": "Longer beach in a Natura 2000 area. Allow time for the walk back to the tender pier."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Home-cooked taverna dishes in large portions",
+   "where": "Karamalis taverna, Nafplio",
+   "price": null
+  },
+  {
+   "dish": "Modern Greek cooking",
+   "where": "The Corner of Kavalaris, about two minutes from Syntagma Square (closed Mondays)",
+   "price": null
+  },
+  {
+   "dish": "Traditional and fusion Greek dishes",
+   "where": "Pidalio Tavern, a short walk from the Old Town (closed Tuesdays)",
+   "price": null
+  },
+  {
+   "dish": "Grilled fish",
+   "where": "Fish restaurants on Bouboulinas Street, on the waterfront",
+   "price": null
+  },
+  {
+   "dish": "Coffee and pastries",
+   "where": "Cafés and pastry shops on Staikopoulou Street",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Walking up to Palamidi at midday in summer.",
+   "fix": "Take a taxi up early (about €10) and walk down. The stairs are long and unshaded."
+  },
+  {
+   "mistake": "Expecting the old combined Argolida ticket or winter half-price tickets.",
+   "fix": "Since April 2025 Palamidi, Mycenae and Epidaurus each cost €20 all year and are ticketed separately."
+  },
+  {
+   "mistake": "Assuming Tiryns keeps summer hours.",
+   "fix": "The official listing shows 08:30–15:30 all year. Do it in the morning."
+  },
+  {
+   "mistake": "Arriving at the Archaeological Museum in the afternoon or on a Tuesday.",
+   "fix": "It is open 08:30–15:30 and closed Tuesdays."
+  },
+  {
+   "mistake": "Planning around the sailing time instead of all-aboard.",
+   "fix": "Many ships here sail at 17:00. Work back from all-aboard and add 90 minutes for the tender queue."
+  }
+ ],
+ "safety": "Nafplio is a relaxed, low-crime town. The real risks are heat and sun at Palamidi, Mycenae and Epidaurus, which have little shade, and worn stone on the Palamidi stairs. Carry water, a hat and shoes with grip. Watch for traffic on the narrow roads by the waterfront.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "Tender transfers depend on the sea state; ask the ship whether wheelchair users can go ashore. The waterfront and Syntagma Square are flat. Palamidi's stairs are unsuitable for wheelchairs; vehicles reach the entrance by road, but the fortress interior is uneven. Mycenae has facilities for disabled visitors at the museum, but the citadel paths are rough and sloping, as are those at Epidaurus.",
+ "rainyDay": "Spend the morning at the Archaeological Museum on Syntagma Square (closed Tuesdays), then shelter in cafés on Staikopoulou Street. Skip the Palamidi stairs when wet. If you are already on a tour, the museums at Mycenae and Epidaurus are indoor options.",
+ "crowdTips": "Tour groups head out to Mycenae and Epidaurus first, so the Old Town is quietest in the morning and busiest at lunch. At the sites, an early start beats both the heat and the coaches. Visit Palamidi at opening.",
+ "faqs": [
+  {
+   "q": "Is Nafplio a tender port?",
+   "a": "Yes. Ships anchor in the Argolic Gulf and tender passengers to a pier on the Old Town waterfront."
+  },
+  {
+   "q": "Is Nafplio walkable from the cruise port?",
+   "a": "Yes. Most Old Town sights are within 15 minutes' walk of the tender pier."
+  },
+  {
+   "q": "How much is Palamidi?",
+   "a": "€20 per adult, €10 reduced, in 2026. A taxi up from the pier is about €10."
+  },
+  {
+   "q": "How many steps are there to Palamidi?",
+   "a": "They are called the '999 steps', but counts are lower, around 860–910. Most people ride up and walk down."
+  },
+  {
+   "q": "Can I visit Mycenae and Epidaurus from Nafplio on a cruise day?",
+   "a": "Yes, by ship tour or hired car. Mycenae is about 30 minutes' drive and Epidaurus about 40 minutes; each costs €20 to enter."
+  },
+  {
+   "q": "What can I do in Nafplio in one day from a cruise ship?",
+   "a": "Palamidi early, the Archaeological Museum and Old Town before lunch, then the Arvanitia promenade and a swim."
+  },
+  {
+   "q": "Are there beaches near Nafplio cruise port?",
+   "a": "Arvanitia is about 15 minutes' walk from Syntagma Square. Karathona is 2.5 km further along a coastal path."
+  },
+  {
+   "q": "Is Nafplio safe?",
+   "a": "Yes. The main risks are heat and the steep Palamidi stairs."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Palamidi"
+  },
+  {
+   "name": "Nafplio Old Town"
+  },
+  {
+   "name": "Akronafplia"
+  },
+  {
+   "name": "Archaeological Museum of Nafplio"
+  },
+  {
+   "name": "Bourtzi"
+  },
+  {
+   "name": "Mycenae"
+  },
+  {
+   "name": "Epidaurus"
+  },
+  {
+   "name": "Tiryns"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Visit Greece (Greek National Tourism Organisation) – Palamidi",
+   "url": "https://www.visitgreece.gr/en/experiences/culture/fortifications/palamidi"
+  },
+  {
+   "title": "Visit Greece – The Sanctuary of Asklepios at Epidaurus",
+   "url": "https://www.visitgreece.gr/experiences/culture/archaeological-sites-and-monuments/the-sanctuary-of-asklepios-at-epidaurus/"
+  },
+  {
+   "title": "Hellenic Heritage (Ministry of Culture / ODAP) – Mycenae",
+   "url": "https://www.hh.gr/en/destinations/mycenae/"
+  },
+  {
+   "title": "Hellenic Heritage – Tiryns",
+   "url": "https://www.hh.gr/en/destinations/tiryns/"
+  },
+  {
+   "title": "Hellenic Heritage – Sanctuary of Asclepius at Epidaurus",
+   "url": "https://www.hh.gr/en/?p=2352"
+  },
+  {
+   "title": "Ministry of Culture and Sports (Odysseus) – Mycenae archaeological site",
+   "url": "http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2573"
+  },
+  {
+   "title": "Municipality of Nafplio – Public and private museums",
+   "url": "https://nafplio.gr/en/aksiotheata/public-private-museums/"
+  },
+  {
+   "title": "Discover Nafplio – Archaeological Museum",
+   "url": "https://www.discovernafplio.gr/en/articles/museums/archaeological-museum"
+  },
+  {
+   "title": "MSC Cruises – Greek cruise passenger fee",
+   "url": "https://www.msccruisesusa.com/cruise-passenger-fee"
+  },
+  {
+   "title": "Celebrity Cruises – Nafplio port guide",
+   "url": "https://www.celebritycruises.com/ports/nafplio"
+  },
+  {
+   "title": "CruiseMapper – Nafplio cruise schedule",
+   "url": "https://www.cruisemapper.com/?poi=224"
+  },
+  {
+   "title": "Geotour – Revised ticketing policy for Greek sites from April 2025",
+   "url": "https://www.geotour.gr/the-revised-ticketing-policy-for-archaeological-sites-and-museums-in-greece-effective-april-2025/"
+  },
+  {
+   "title": "Jennifer Eremeeva – 8 hours in Nafplion: the cruise port day",
+   "url": "https://jennifereremeeva.com/?p=56321"
+  },
+  {
+   "title": "Dave's Travel Pages – Things to do in Nafplio (updated August 2026)",
+   "url": "https://www.davestravelpages.com/things-to-do-in-nafplio/"
+  }
+ ],
+ "uncertain": [
+  "Bourtzi boat fare (sources give €4.50 and €7) and Bourtzi entry fee",
+  "Archaeological Museum of Nafplio ticket price (a non-official page gives €6; not confirmed on an official 2025–2026 page)",
+  "KTEL Argolidas bus timetables and fares to Mycenae and Epidaurus (operator site blocks automated access)",
+  "Exact walking distance from the tender pier to Syntagma Square",
+  "Official all-aboard times for 2026 calls",
+  "Documented visitor scams (none found)"
+ ]
+}

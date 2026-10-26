@@ -1,0 +1,383 @@
+{
+ "slug": "lerwick",
+ "city": "Lerwick",
+ "portName": "Port of Lerwick (Lerwick Port Authority)",
+ "townName": "Lerwick town centre (Commercial Street and the Esplanade)",
+ "country": "Scotland (United Kingdom)",
+ "currency": "GBP",
+ "currencySymbol": "£",
+ "language": "English",
+ "timezone": "GMT (UTC+0), BST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Lerwick cruise port guide: shuttle, tenders and Jarlshof",
+ "seoDescription": "Lerwick ships berth at Holmsgarth or Mair's Pier (1.6–1.9 km, free shuttle) or tender to Victoria Pier. Last shuttle 45 min before sailing. Bus 6 to Sumburgh.",
+ "quickAnswer": "Ships either berth at Holmsgarth or Mair's Pier, 20–40 minutes' walk north of the centre with a free shuttle to Harrison Square, or anchor and tender to pontoons at Victoria Pier in the town centre. Lerwick itself is small and easy on foot. Be back at the shuttle stop 90 minutes before all-aboard, or at the tender pontoon 120 minutes before; the last shuttle leaves 45 minutes before the ship departs.",
+ "intro": "Lerwick is Shetland's main port and Britain's most northerly cruise destination. The centre runs along Commercial Street and the Esplanade by the old harbour, with the Shetland Museum at Hay's Dock a short walk north. The port expects 147 cruise calls and about 130,000 passengers in 2026, and up to 4,000 passengers can be ashore at once. The weather can change through four seasons in a day, and the best of Shetland's scenery, Jarlshof, Sumburgh Head and Eshaness, is an hour or more away by road.",
+ "isTender": false,
+ "tenderNotes": "Larger ships often anchor and tender passengers to modern landing pontoons at Victoria Pier, in a sheltered dock in the town centre. From the inner anchorage (0.3 miles out) the tender ride takes about 5 minutes; from the Brei Wick anchorage it takes 10–20 minutes depending on the weather. On tender days Victoria Pier may be partly or fully closed to the public.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Holmsgarth (No. 5 berth)",
+   "distanceToCentreKm": 1.6,
+   "notes": "About 1 mile from the centre, 20–30 minutes on foot. Free shuttle to Harrison Square. The Toll Clock Shopping Centre and a supermarket are nearby."
+  },
+  {
+   "name": "Mair's Pier",
+   "distanceToCentreKm": 1.9,
+   "notes": "The main cruise berth, with 275 m of usable quay, about 1.2 miles from the centre (30–40 minutes on foot). Free shuttle to Harrison Square. Dredging of the approaches and the North Ness channel was due for completion in early 2026 to let larger ships use more of the quay."
+  },
+  {
+   "name": "Victoria Pier (berth and tender pontoons)",
+   "distanceToCentreKm": null,
+   "notes": "In the historic town centre, within easy walking distance of the shops. Used by smaller ships alongside and as the tender landing. Public toilets are on the Esplanade opposite."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 35,
+  "km": 1.9,
+  "detail": "From Holmsgarth allow 20–30 minutes and from Mair's Pier 30–40 minutes on foot to the centre. If you tender or berth at Victoria Pier, you step straight into town. The centre itself is compact and easy to explore on foot."
+ },
+ "transportSections": [
+  {
+   "mode": "Free cruise shuttle (Holmsgarth and Mair's Pier to Harrison Square)",
+   "cost": "Free (2026)",
+   "time": "Short ride at regular intervals",
+   "detail": "Runs at regular intervals from both berths to Harrison Square in the town centre. For cruise passengers only, not for guided tours. The last shuttle leaves the town centre 45 minutes before the ship's departure."
+  },
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "20–40 min from the berths",
+   "detail": "Holmsgarth is about 1.6 km and Mair's Pier about 1.9 km from the centre. The iCentre (tourist information) gives out a printed walking circuit of the town."
+  },
+  {
+   "mode": "Public bus 6 to Sumburgh",
+   "cost": "Check fares at zettrans.org.uk",
+   "time": "About 58–80 min to Sumburgh Airport",
+   "detail": "From the Viking Bus Station in Lerwick to Sumburgh Airport, with stops at Sumburgh (opposite the hotel road end) and Grutness, the closest stops for Jarlshof and Sumburgh Head. Some weekday journeys run on school days only. Check the return times before you leave."
+  },
+  {
+   "mode": "Public bus 4 to Scalloway",
+   "cost": "Check fares at zettrans.org.uk",
+   "time": "Check the timetable",
+   "detail": "To Shetland's former capital, with a castle and museum. Shetland ponies often graze in the field next to Scalloway Museum."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree the fare before setting off",
+   "time": "Depends on destination",
+   "detail": "Local firms include Allied Taxis (01595 690069), King's Taxis (01595 696500) and Sinclair's Taxis (01595 696060). Seven-seaters are available. Spaces near the berths are limited and allocated first come, first served."
+  },
+  {
+   "mode": "Wildlife boat trip",
+   "cost": "Check with the operator",
+   "time": "Several hours",
+   "detail": "Boat tours leave Victoria Pier daily for the seabird cliffs of Bressay and Noss."
+  }
+ ],
+ "returnTiming": {
+  "rule": "If docked at Holmsgarth or Mair's Pier, be at the Harrison Square shuttle stop 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). If your ship is at anchor, be at the Victoria Pier tender pontoons 120 minutes before all-aboard. From Sumburgh or Jarlshof by bus, leave at least three hours before all-aboard.",
+  "detail": "The last shuttle leaves 45 minutes before departure, which is far too late to rely on. With up to 4,000 passengers ashore, shuttle and tender queues build in the last hours. Tenders from the Brei Wick anchorage take 10–20 minutes, and longer in poor weather. Bus 6 from Sumburgh takes up to 80 minutes and does not run frequently.",
+  "emergencyFallback": "In town, take a taxi to your berth; Mair's Pier and Holmsgarth are under 2 km away. From the South Mainland, call a taxi rather than waiting for the next bus. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Jarlshof and Sumburgh Head",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Bus 6 each way (fare at zettrans.org.uk) plus Jarlshof entry; HES gives 25% off for arriving by bus, bike or train",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Lerwick town needs no tour: the Lodberries, Commercial Street, Fort Charlotte and the Shetland Museum are all walkable. The ship's tour is worth it for the South Mainland (Jarlshof, Sumburgh Head, Mousa) and Northmavine (Eshaness), which are an hour or more each way on roads with infrequent buses. Bus 6 to Sumburgh works on a long weekday call if you check both directions first. Local tour operators get busy on big-ship days, so book any private tour in advance.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Mair's Pier at 08:00 and all-aboard is 17:30, on a weekday in summer.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Free shuttle from Mair's Pier to Harrison Square."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk down to Commercial Street and the Esplanade. Pick up the walking circuit at the iCentre (opens 09:00)."
+   },
+   {
+    "time": "09:15",
+    "what": "Fort Charlotte, the 17th-century artillery fort in the town centre. The grounds are open to the public."
+   },
+   {
+    "time": "10:00",
+    "what": "South along Commercial Street to the Lodberries, the old traders' houses on the waterfront (the Jimmy Perez house in the Shetland TV series). It is private; photos from outside only."
+   },
+   {
+    "time": "11:00",
+    "what": "Walk north along the waterfront to the Shetland Museum and Archives at Hay's Dock. Entry is free; check the day's opening hours."
+   },
+   {
+    "time": "12:45",
+    "what": "Lunch at Mareel's café next door, or fish and chips at The Fort Cafe."
+   },
+   {
+    "time": "14:00",
+    "what": "Option A: a walk round Clickimin Loch to the Iron Age Clickimin Broch. Option B: shopping for Fair Isle knitwear on Commercial Street."
+   },
+   {
+    "time": "15:30",
+    "what": "Back towards Harrison Square."
+   },
+   {
+    "time": "16:00",
+    "what": "Shuttle back to Mair's Pier, 90 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, an hour before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Shetland Museum and Archives",
+   "why": "Shetland's history, boats, textiles and daily life in a modern building on the last stretch of original dock on the Lerwick waterfront.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free; donations welcome",
+   "tip": "No booking needed. Free Wi-Fi and a self-service honesty café, the Hays Dock Community Cafe."
+  },
+  {
+   "name": "Commercial Street and the Lodberries",
+   "why": "The main shopping street of old Lerwick, and at its south end the traders' houses built into the sea, used as Jimmy Perez's home in the Shetland TV series.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "The Perez house is privately owned; photograph it from outside only."
+  },
+  {
+   "name": "Fort Charlotte",
+   "why": "A 17th-century artillery fort, rebuilt in 1781, that never saw military action.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "The grounds are open; some buildings are used by the military."
+  },
+  {
+   "name": "Clickimin Broch and Loch",
+   "why": "An Iron Age stone roundhouse on the shore of Clickimin Loch, with a paved circular path round the loch.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "The loch path suits all abilities. Ask the Meet and Greet team for the walking route."
+  },
+  {
+   "name": "Mareel",
+   "why": "Music, cinema and arts centre beside the museum at Hay's Dock, with a café overlooking the harbour.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to enter",
+   "tip": "Closed on Mondays. Free Wi-Fi."
+  },
+  {
+   "name": "Jarlshof Prehistoric and Norse Settlement",
+   "why": "Prehistoric and Norse settlement remains spanning about 5,000 years, at Sumburgh in the South Mainland.",
+   "timeNeeded": "5–6 hours including the bus",
+   "cost": "Check the price when booking with Historic Environment Scotland; 25% off if you arrive by bus",
+   "tip": "Open 1 April to 30 September, 09:30–17:00 (last entry 16:30). Book a timed slot online. Take bus 6 to Sumburgh."
+  },
+  {
+   "name": "Sumburgh Head",
+   "why": "Lighthouse, visitor centre and RSPB reserve on the southern tip of Shetland, with puffins and other seabirds on the cliffs in summer.",
+   "timeNeeded": "Combine with Jarlshof; a full day from Lerwick",
+   "cost": "Check prices at sumburghhead.com",
+   "tip": "The visitor centre and toilets are open from April to September. The nearest public toilets otherwise are at Grutness Pier."
+  },
+  {
+   "name": "Böd of Gremista",
+   "why": "Former home of Arthur Anderson, co-founder of P&O, now a textile museum north of the centre.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check before visiting",
+   "tip": "Ask the Meet and Greet team for directions and opening days."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Fish and chips (haddock)",
+   "where": "The Fort Cafe, Lerwick",
+   "price": null
+  },
+  {
+   "dish": "Coffee, paninis and cakes",
+   "where": "Peerie Shop Cafe, Esplanade (closed Sundays)",
+   "price": null
+  },
+  {
+   "dish": "Lunch with a harbour view",
+   "where": "Mareel café, Hay's Dock",
+   "price": null
+  },
+  {
+   "dish": "Self-service snacks and drinks",
+   "where": "Hays Dock Community Cafe, inside the Shetland Museum",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Relying on the last shuttle.",
+   "fix": "It leaves 45 minutes before departure. Aim to be at Harrison Square 90 minutes before all-aboard."
+  },
+  {
+   "mistake": "Trying to see Jarlshof, Sumburgh Head and Eshaness in one day.",
+   "fix": "Sumburgh is up to 80 minutes each way by bus and Eshaness is in Northmavine, far to the north. Choose one area, or take the ship's tour."
+  },
+  {
+   "mistake": "Leaving tour bookings until the day.",
+   "fix": "Up to 4,000 passengers can be ashore at once and local operators fill up. Book in advance."
+  },
+  {
+   "mistake": "Dressing for the morning weather.",
+   "fix": "Shetland can have four seasons in a day; even July and August average 14–18°C. Bring a waterproof and a warm layer."
+  },
+  {
+   "mistake": "Expecting shops to be open on Sunday.",
+   "fix": "Most shops open 09:00–17:00 Monday to Saturday; only some open on Sundays. Supermarkets open daily."
+  }
+ ],
+ "safety": "Lerwick is a small, safe town. The main risks are weather and terrain: wind and rain arrive quickly, cliff paths at Sumburgh Head and elsewhere are exposed, and paving and steps are slippery when wet. Keep out of the port's operational areas and the restricted zones beside the cruise berths, which are controlled under the port security plan. Police non-emergency: 101.",
+ "scams": [],
+ "emergencyNumber": "999 (112 also works)",
+ "accessibility": "Passengers with mobility needs should contact Lerwick Port Authority in advance (info@lerwick-harbour.co.uk). The shuttle runs from Holmsgarth and Mair's Pier to Harrison Square. Commercial Street is paved; some of the lanes rising from it are steep. The path round Clickimin Loch is paved and suitable for all abilities. On tender days, transfers depend on the swell; ask the ship.",
+ "rainyDay": "Spend the morning in the Shetland Museum and Archives (free) and the afternoon at Mareel, with café stops on the Esplanade. Commercial Street's knitwear and craft shops are a good dry browse. Skip the cliff walks and boat trips to Noss in poor weather.",
+ "crowdTips": "The port expects 147 calls in 2026, and up to 4,000 cruise passengers can be ashore at once. The Lodberries, Commercial Street and the museum are busiest in late morning. Go to the far end of town first, and visit the museum early or after lunch. Check Lerwick Port Authority's 2026 cruise list for the number of ships on your date.",
+ "faqs": [
+  {
+   "q": "Is Lerwick a tender port?",
+   "a": "Sometimes. Ships berth at Holmsgarth, Mair's Pier or Victoria Pier, while larger ships may anchor and tender to the pontoons at Victoria Pier in the town centre."
+  },
+  {
+   "q": "Is Lerwick walkable from the cruise port?",
+   "a": "Yes, with some effort: 20–30 minutes from Holmsgarth and 30–40 minutes from Mair's Pier. A free shuttle runs from both to Harrison Square."
+  },
+  {
+   "q": "Where does the Lerwick cruise shuttle stop?",
+   "a": "At Harrison Square in the town centre. The last shuttle leaves 45 minutes before the ship departs."
+  },
+  {
+   "q": "What can I do in Lerwick in one day from a cruise ship?",
+   "a": "Walk Commercial Street to the Lodberries, see Fort Charlotte and the free Shetland Museum, and walk round Clickimin Loch. On a long call, take bus 6 to Jarlshof and Sumburgh Head."
+  },
+  {
+   "q": "Can I see puffins from Lerwick?",
+   "a": "Yes in summer at Sumburgh Head, at the south tip of Shetland. Take bus 6 (58–80 minutes) or a tour, or take a boat trip from Victoria Pier to the seabird cliffs of Noss."
+  },
+  {
+   "q": "Where can I see Shetland ponies near Lerwick?",
+   "a": "They are rarely seen in Lerwick. Take bus 4 to Scalloway and look in the field next to Scalloway Museum, or book a tour."
+  },
+  {
+   "q": "Where is Jimmy Perez's house in Lerwick?",
+   "a": "At the Lodberries, at the south end of Commercial Street. It is privately owned; photos from outside are fine."
+  },
+  {
+   "q": "Is Lerwick safe?",
+   "a": "Yes. The main risks are fast-changing weather and exposed cliff paths outside town."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Shetland Museum and Archives"
+  },
+  {
+   "name": "The Lodberries"
+  },
+  {
+   "name": "Fort Charlotte"
+  },
+  {
+   "name": "Clickimin Broch"
+  },
+  {
+   "name": "Jarlshof"
+  },
+  {
+   "name": "Sumburgh Head"
+  },
+  {
+   "name": "Mareel"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Lerwick Port Authority – Cruise ship operations",
+   "url": "https://www.lerwick-harbour.co.uk/sectors/cruise/arrivals"
+  },
+  {
+   "title": "Lerwick Port Authority – For cruise passengers",
+   "url": "https://www.lerwick-harbour.co.uk/sectors/cruise/passengers"
+  },
+  {
+   "title": "Lerwick Port Authority – Passenger leaflet (English)",
+   "url": "https://www.lerwick-harbour.co.uk/resources/eng"
+  },
+  {
+   "title": "Lerwick Port Authority – Lerwick set to welcome the 2026 cruise season (April 2026)",
+   "url": "https://www.lerwick-harbour.co.uk/news/lerwick-set-to-welcome-the-2026-cruise-season"
+  },
+  {
+   "title": "Lerwick Port Authority – Targeting cruise tourism (Sept 2025)",
+   "url": "https://www.lerwick-harbour.co.uk/news/targeting-cruise-tourism"
+  },
+  {
+   "title": "Promote Shetland – Cruise FAQ",
+   "url": "https://Shetland.org/cruise/faq"
+  },
+  {
+   "title": "Promote Shetland – Unique attractions for cruise passengers",
+   "url": "https://www.shetland.org/blog/unique-attractions-shetland-cruise-passengers"
+  },
+  {
+   "title": "Shetland Museum and Archives – Visit",
+   "url": "https://www.shetlandmuseumandarchives.org.uk/visit"
+  },
+  {
+   "title": "Historic Environment Scotland – Jarlshof prices and times",
+   "url": "https://www.historicenvironment.scot/visit-a-place/places/jarlshof-prehistoric-and-norse-settlement/prices-times/"
+  },
+  {
+   "title": "Historic Environment Scotland – Jarlshof getting here",
+   "url": "https://www.historicenvironment.scot/visit-a-place/places/jarlshof-prehistoric-and-norse-settlement/getting-here/"
+  },
+  {
+   "title": "RSPB – Sumburgh Head",
+   "url": "https://www.rspb.org.uk/days-out/reserves/sumburgh-head"
+  },
+  {
+   "title": "Shetland Amenity Trust – Visit Sumburgh Head",
+   "url": "https://shetlandamenity.org/visit-sumburgh-head"
+  },
+  {
+   "title": "bustimes.org – Service 6 Lerwick–Sumburgh",
+   "url": "https://bustimes.org/services/6-lerwick-sumburgh"
+  },
+  {
+   "title": "Shetland News – Port authority strongly opposes cruise levy idea (July 2026)",
+   "url": "https://www.shetnews.co.uk/2026/03/20/port-authority-strongly-opposes-idea/"
+  },
+  {
+   "title": "Wikivoyage (German) – Lerwick",
+   "url": "https://de.wikivoyage.org/wiki/Lerwick"
+  },
+  {
+   "title": "Eatible – Peerie Shop Cafe, Esplanade",
+   "url": "https://www.eatible.co.uk/scotland/shetland-islands/peerie-shop-cafe-esplanade-lerwick-shetland-ze1-0ll"
+  }
+ ],
+ "uncertain": [
+  "Cruise levy: the Scottish Government consulted on a cruise ship levy in 2026; Lerwick Port Authority opposes it and no rate or start date was confirmed in the sources opened.",
+  "New deep-water berths: the only 2025–2026 change confirmed was dredging at Mair's Pier and the North Ness channel; no new cruise berth opening was confirmed.",
+  "Jarlshof adult ticket price and Sumburgh Head visitor centre prices and hours.",
+  "Bus 6 and bus 4 fares, Sunday service and exact return times.",
+  "Shetland Museum opening hours (one secondary source gave Tuesday–Saturday 10:00–17:00 and Sunday 12:00–17:00, closed Monday; not confirmed on the museum's own page).",
+  "Typical all-aboard time at Lerwick (17:30 used as a default)."
+ ]
+}

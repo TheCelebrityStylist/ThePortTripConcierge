@@ -1,0 +1,138 @@
+{
+  "slug": "chania",
+  "city": "Chania",
+  "portName": "Port of Souda (Souda Bay)",
+  "townName": "Chania Old Town and Venetian Harbour",
+  "country": "Greece",
+  "currency": "EUR",
+  "currencySymbol": "€",
+  "language": "Greek",
+  "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+  "lastVerified": "October 2026",
+  "seoTitle": "Chania cruise port guide: Souda Bay to the old harbour",
+  "seoDescription": "Ships dock at Souda, 6.5–7 km from Chania. City bus 13 costs €1.80 (2026), shuttle about €5–6 return, 15–25 min. Archaeological Museum €15. Return plan inside.",
+  "quickAnswer": "Cruise ships dock at Souda, a working naval and ferry port about 6.5–7 km east of Chania, so you cannot walk to town. Take the cruise shuttle (about €5–6 return, 15–25 minutes) or city bus 13 (€1.80 if you buy the ticket before boarding, 2026) to the Municipal Market, then walk 10 minutes to the Venetian Harbour. Be back at the shuttle stop in Chania 105 minutes before all-aboard.",
+  "intro": "Souda is a functional port at the head of a long, sheltered bay shared with the Greek Navy and NATO, and there is nothing to see inside the gates. The day happens in Chania, a Venetian and Ottoman harbour town 15–25 minutes away by road. Its Old Town is compact and flat, so once the shuttle drops you by the Municipal Market everything is on foot: the harbour front, the lighthouse breakwater, the Firkas fortress and the lanes of Topanas and Splantzia. The two things to manage are the shuttle queue on multi-ship days and the walk out to the Archaeological Museum, which has moved to Halepa, 30 minutes from the centre.",
+  "isTender": false,
+  "tenderNotes": "Large ships dock at Souda; tendering is not normally required. Anchoring is permitted in the bay, and an occasional small ship may anchor and tender. Check your daily programme.",
+  "typicalHours": 8,
+  "terminals": [
+    {"name": "Souda cruise and ferry piers", "distanceToCentreKm": 6.5, "notes": "Ships berth at the passenger port at the head of Souda Bay. Shuttle buses and the city bus leave from near the pier; taxis wait at the taxi rank. A new passenger terminal was under construction, with official completion set for June 2026. Several ships may be in port; the shuttle can stop at more than one ship on the way back."}
+  ],
+  "walkability": {"verdict": "No", "minutes": null, "km": 6.5, "detail": "Souda is 6.5–7 km from Chania by a busy main road. Take the shuttle, city bus or a taxi. Once in Chania, the Old Town and harbour are flat and walkable, with uneven, polished paving."},
+  "transportSections": [
+    {"mode": "Cruise shuttle bus", "cost": "About €5–6 return (2026, subject to change)", "time": "15–25 min", "detail": "Leaves from near the pier and is signposted. Drops you near the Municipal Market (Agora), about 10 minutes' walk from the Venetian Harbour. Runs frequently on ship days. Photograph the pick-up point and check the last departure. On the return, the bus may stop at several ships; make sure you get off at yours."},
+    {"mode": "City bus 13 (Souda Port – Naval Hospital)", "cost": "€1.80 bought before boarding; €2.80 bought on board (Zone B, 2026)", "time": "About 20–25 min", "detail": "Run by the Chania urban bus company (Astiko KTEL Chanion). Roughly hourly; check the weekday, Saturday or Sunday timetable on chaniabus.gr for your date. Buy tickets from a kiosk or ticket point before boarding to save €1; on-board tickets are cash only. Not timed around ships, so the shuttle is easier unless you are travelling light on money."},
+    {"mode": "Taxi", "cost": "Agree the fare before you leave", "time": "About 15–20 min", "detail": "Taxis take up to four people and wait at the port, but can be scarce when several ships arrive together. Souda Radio Taxi: +30 28210 89555. Ride-hailing apps are not reliable here."},
+    {"mode": "On foot in Chania", "cost": "Free", "time": "10 min from the Municipal Market to the harbour", "detail": "Walk down from the market through the Old Town to the harbour front. The full harbour and lighthouse breakwater loop takes 45–60 minutes."}
+  ],
+  "returnTiming": {
+    "rule": "Be at the shuttle stop by the Municipal Market by 15:45 for a 17:30 all-aboard (105 minutes before). Be back on board 60 minutes before all-aboard.",
+    "detail": "The ride is 15–25 minutes, but on multi-ship days the late-afternoon shuttle queue builds and return buses may stop at more than one ship. Taxis are also hard to find when everyone heads back at once. If you use city bus 13, which runs roughly hourly, catch one that reaches Souda at least 60 minutes before all-aboard.",
+    "emergencyFallback": "Take a taxi from the rank in town or call Souda Radio Taxi (+30 28210 89555); the ride is about 15–20 minutes. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": 19,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {"item": "Chania Old Town and harbour", "ship": "Varies by line; check your cruise planner", "diy": "Shuttle about €5–6 return, or bus €1.80 each way; walking is free (2026)", "saving": "Large; the Old Town is easy alone"},
+    {"item": "Chania with the Archaeological Museum", "ship": "Varies by line; check your cruise planner", "diy": "Bus €3.60 return + museum €15 (2026)", "saving": "Large"},
+    {"item": "Aptera and Souda Bay views", "ship": "Varies by line; check your cruise planner", "diy": "Taxi only; agree the fare", "saving": "Small; taxi waiting time adds up"}
+  ],
+  "excursionAdvice": "Do Chania on your own: the shuttle or bus drops you a 10-minute walk from the harbour and the Old Town needs no guide. The ship's tour is worth it for Aptera, the Akrotiri monasteries or a wine and olive countryside loop, which need a car and have no practical public transport. Skip any attempt at Balos or Elafonisi on a port day; both are more than 1.5 hours from Chania each way.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 at Souda, a 17:30 all-aboard and that the cruise shuttle is running. Avoid a Tuesday if the Archaeological Museum matters to you; it is closed that day.",
+    "steps": [
+      {"time": "08:30", "what": "Walk to the shuttle stop near the pier, or to the city bus 13 stop with a ticket bought in advance."},
+      {"time": "09:00", "what": "Arrive by the Municipal Market (Agora). Note the return pick-up point and the last shuttle time."},
+      {"time": "09:15", "what": "Walk down to the Venetian Harbour and out along the breakwater to the lighthouse while it is cool, about 45–60 minutes."},
+      {"time": "10:30", "what": "Firkas fortress and the Maritime Museum area at the western end of the harbour."},
+      {"time": "11:30", "what": "Topanas and Splantzia quarters: the cathedral, the Yali Mosque on the harbour front, and the side lanes."},
+      {"time": "12:45", "what": "Lunch two or three lanes back from the waterfront, where prices fall."},
+      {"time": "14:00", "what": "Option A: Archaeological Museum in Halepa (taxi 12 minutes or walk 30; closed Tuesdays). Option B: a swim at Nea Chora beach, 20–25 minutes' walk west of the Old Town."},
+      {"time": "15:45", "what": "Be at the shuttle stop by the Municipal Market."},
+      {"time": "16:30", "what": "Back on board, 60 minutes before all-aboard."}
+    ]
+  },
+  "sights": [
+    {"name": "Venetian Harbour and lighthouse", "why": "The harbour front of Venetian and Ottoman buildings, with a breakwater walk out to the lighthouse and views back to town.", "timeNeeded": "45–60 minutes", "cost": "Free", "tip": "The lighthouse cannot be entered. The breakwater is exposed and uneven; walk it early or late in summer."},
+    {"name": "Archaeological Museum of Chania", "why": "The region's main collection, now in a modern building in Halepa.", "timeNeeded": "1–1.5 hours", "cost": "€15 full, €8 reduced (2026)", "tip": "Open 08:00–20:00 from April to October and 08:30–15:30 from November to March, closed Tuesdays. It is about 30 minutes' walk or 12 minutes by car from the Municipal Market."},
+    {"name": "Firkas fortress and Maritime Museum of Crete", "why": "A 16th-century Venetian fort at the harbour entrance; the Maritime Museum next to it has ship models and naval history.", "timeNeeded": "45 minutes", "cost": "Fortress grounds free to view; check the museum fee on site", "tip": "A good rain or heat stop at the western end of the harbour."},
+    {"name": "Old Town lanes (Topanas and Splantzia)", "why": "Narrow streets of Venetian houses, small squares and the Cathedral of the Presentation of the Virgin Mary.", "timeNeeded": "1.5–2 hours", "cost": "Free", "tip": "Easy to get lost; save the market pick-up point on your phone."},
+    {"name": "Yali Mosque (Mosque of the Janissaries)", "why": "Ottoman mosque on the harbour front, now used for exhibitions.", "timeNeeded": "15 minutes", "cost": "Free to view outside", "tip": "Best photographed from the breakwater."},
+    {"name": "Municipal Market (Agora)", "why": "The cross-shaped market hall that marks the edge of the Old Town and the shuttle stop.", "timeNeeded": "15–30 minutes", "cost": "Free", "tip": "Use it as your meeting point and return landmark."},
+    {"name": "Aptera", "why": "Ancient Greek and Roman city with a theatre and large cisterns above Souda Bay, about 15 minutes from the port.", "timeNeeded": "1.5–2 hours including transport", "cost": "Taxi fare; entry fee not verified", "tip": "Needs a taxi or tour; easy to combine with the trip back to Souda."}
+  ],
+  "beaches": [
+    {"name": "Nea Chora", "howToGetThere": "Walk west from the Old Town", "time": "20–25 min on foot from the harbour", "cost": "Free; sunbeds extra", "note": "The nearest town beach, with tavernas behind it."},
+    {"name": "Agii Apostoli", "howToGetThere": "Taxi, or city bus 15 or 21 from Chania", "time": "15–20 min by taxi", "cost": "Bus or taxi fare", "note": "Sheltered sandy coves west of town. Leave plenty of time to get back to the shuttle."},
+    {"name": "Chrysi Akti (Golden Beach)", "howToGetThere": "Taxi, or city bus 15 or 21", "time": "15–20 min by taxi", "cost": "Bus or taxi fare", "note": "Longer sandy beach next to Agii Apostoli."}
+  ],
+  "food": [
+    {"dish": "Cretan meze, dakos and grilled fish", "where": "Tavernas two or three lanes back from the Venetian Harbour", "price": null},
+    {"dish": "Greek salad and drinks with a harbour view", "where": "Harbour-front cafés, Venetian Harbour (expect higher prices)", "price": null},
+    {"dish": "Freddo cappuccino and Greek ice cream", "where": "Cafés around the Old Town and harbour", "price": null},
+    {"dish": "Local produce, cheese and honey to take home", "where": "Around the Municipal Market (Agora)", "price": null}
+  ],
+  "commonMistakes": [
+    {"mistake": "Trying to walk from Souda to Chania.", "fix": "It is 6.5–7 km on a busy road. Take the shuttle, bus 13 or a taxi."},
+    {"mistake": "Getting on the return shuttle for the wrong ship, or getting off at the wrong pier.", "fix": "Check the ship name on the bus. Return buses may stop at several ships in Souda."},
+    {"mistake": "Planning the Archaeological Museum on a Tuesday, or expecting it in the Old Town.", "fix": "It is closed on Tuesdays and is in Halepa, 30 minutes' walk from the centre."},
+    {"mistake": "Booking a day trip to Balos or Elafonisi from the port.", "fix": "Both are more than 1.5 hours each way. Choose Nea Chora or Agii Apostoli."},
+    {"mistake": "Buying a bus ticket on board.", "fix": "Buy before boarding: €1.80 instead of €2.80, and on-board sales are cash only."}
+  ],
+  "safety": "Chania is a safe town for visitors. Keep an eye on bags and phones in the crowded harbour front and market area. The breakwater to the lighthouse is exposed, uneven and has no railing in places, so take care in wind. Summer heat is the main risk, especially while waiting for shuttles. Watch for wind, rocks and swimming flags at the beaches.",
+  "scams": [
+    "Beach or countryside offers made at the port with no stated return time: agree the price, the return time and the drop-off point at Souda before you go.",
+    "Overpriced harbour-front menus: check prices before ordering, or eat a few lanes back from the water.",
+    "Horse-and-cart rides on the harbour: agree the price and the route before getting in."
+  ],
+  "emergencyNumber": "112",
+  "accessibility": "Ships dock, so there is no tender transfer. Old Town paving is uneven and polished, with kerbs and narrow lanes; the harbour front is flat but busy. The lighthouse breakwater is not suitable for wheelchairs. City buses and taxis may not take wheelchairs without advance arrangement; a ship shuttle or a pre-booked accessible transfer is the safer choice. Stay around the harbour front for the most level route.",
+  "rainyDay": "Chania's wettest months are December to February; in shoulder season, rain makes the old paving slippery. Use the Archaeological Museum in Halepa (closed Tuesdays) and the Maritime Museum by the Firkas fortress, with long café stops in the Old Town.",
+  "crowdTips": "Souda handles around 200 cruise calls a year. On multi-ship days the shuttle queues are longest in the first hour and from mid-afternoon, and the harbour front is busiest from mid-morning. Walk the breakwater first, then go into the back lanes when the harbour fills. Greece charges cruise passengers a per-person fee at each port (€5 in the summer high season at ports other than Santorini and Mykonos in 2025); most lines include it in the fare.",
+  "faqs": [
+    {"q": "Is Chania a tender port?", "a": "No. Cruise ships dock at Souda, about 6.5–7 km from Chania. Tendering is rare."},
+    {"q": "Is Chania walkable from the cruise port?", "a": "No. Souda is 6.5–7 km away. Take the shuttle, bus 13 or a taxi, then walk the Old Town."},
+    {"q": "How do I get from Souda cruise port to Chania Old Town?", "a": "Take the cruise shuttle (about €5–6 return) or city bus 13 (€1.80 bought before boarding, 2026). Both take 15–25 minutes to the Municipal Market, 10 minutes' walk from the harbour."},
+    {"q": "How much is a taxi from Souda to Chania?", "a": "Agree the fare before you leave. The ride takes about 15–20 minutes."},
+    {"q": "What can I do in Chania in one day from a cruise ship?", "a": "Walk the Venetian Harbour and lighthouse breakwater, explore the Old Town lanes, then visit the Archaeological Museum or swim at Nea Chora."},
+    {"q": "Are there beaches near Chania cruise port?", "a": "Not at Souda. In Chania, Nea Chora is 20–25 minutes' walk from the harbour; Agii Apostoli and Golden Beach are 15–20 minutes by taxi."},
+    {"q": "Is Chania safe?", "a": "Yes. Watch your belongings in crowds and take care on the exposed breakwater."}
+  ],
+  "topAttractions": [
+    {"name": "Venetian Harbour"},
+    {"name": "Chania lighthouse"},
+    {"name": "Archaeological Museum of Chania"},
+    {"name": "Firkas fortress"},
+    {"name": "Maritime Museum of Crete"},
+    {"name": "Yali Mosque"},
+    {"name": "Aptera"}
+  ],
+  "sources": [
+    {"title": "Chania Urban KTEL – Tickets (fares and zones)", "url": "https://www.chaniabus.gr/eisitiria"},
+    {"title": "Chania Urban KTEL – Routes (line 13 Souda Port)", "url": "https://www.chaniabus.gr/dromologia"},
+    {"title": "Chania Urban KTEL – Home and announcements", "url": "https://www.chaniabus.gr/"},
+    {"title": "Hellenic Heritage (hh.gr) – Archaeological Museum of Chania", "url": "https://www.hh.gr/en/?p=6847"},
+    {"title": "Adventour Begins – Chania cruise port guide (May 2026)", "url": "https://www.adventourbegins.com/chania-port-guide-souda/"},
+    {"title": "Cruise Deals Tips and Tricks – Chania (Souda) port guide (2026)", "url": "https://www.cruisedealstipsandtricks.com/ports/chania-souda-crete-greece/"},
+    {"title": "CruiseMapper – Souda-Chania port", "url": "https://cruisemapper.com/ports/souda-chania-port-17202"},
+    {"title": "Greeka – Chania ports", "url": "https://greeka.com/crete/chania/ports"},
+    {"title": "The Mediterranean Traveller – Chania bus guide", "url": "https://www.themediterraneantraveller.com/chania-bus-guide"},
+    {"title": "Argophilia – Souda port infrastructure upgrades", "url": "https://www.argophilia.com/news/chania-souda-infrastructure-upgrades/247448"},
+    {"title": "Paul and Carole Love to Travel – Chania cruise port information", "url": "https://paulandcarolelovetotravel.com/chania-crete-cruise-port-information"},
+    {"title": "iefimerida – Cruise passenger levy on Greek islands", "url": "https://www.iefimerida.gr/english/cruise-passengers-face-increased-levy-popular-greek-islands"}
+  ],
+  "uncertain": [
+    "Shuttle price (about €5–6 return) is from one 2026 guide; the operator was not identified. One source says shuttles go to the central bus station rather than the Municipal Market.",
+    "Bus 13 timetable and its exact Chania terminus could not be read on chaniabus.gr; 'roughly hourly' comes from Greeka.",
+    "Whether the new Souda passenger terminal opened on schedule in 2026 is not confirmed.",
+    "Taxi fare Souda–Chania: no current published figure.",
+    "Maritime Museum of Crete and Aptera entry fees and hours not verified.",
+    "Whether the Municipal Market hall interior is fully open after restoration was not verified.",
+    "The 2026 cruise passenger fee rates were not confirmed; the €5 figure is the 2025 high-season rate.",
+    "No named restaurant verified from a current source; food entries name areas only.",
+    "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null."
+  ]
+}

@@ -1,0 +1,366 @@
+{
+ "slug": "shimizu",
+ "city": "Shimizu (Shizuoka City)",
+ "portName": "Port of Shimizu (Hinode Wharf)",
+ "townName": "Shimizu town and JR Shimizu Station",
+ "country": "Japan",
+ "currency": "JPY",
+ "currencySymbol": "¥",
+ "language": "Japanese",
+ "timezone": "JST (UTC+9), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Shimizu cruise port guide: Mt Fuji views, Miho, water bus",
+ "seoDescription": "Ships dock at Hinode Wharf, 8 min on foot from Dream Plaza. Water bus to Miho or Shimizu Station ¥1,000 (2026), 10–15 min. Miho no Matsubara and Kunozan.",
+ "quickAnswer": "Shimizu is a docking port: cruise ships berth at Hinode Wharf in the harbour, about 8 minutes' walk from the S-Pulse Dream Plaza and a short bus or shuttle ride from JR Shimizu Station. The Miho Hagoromo water bus links Hinode with Shimizu Station (10 min) and Miho (15 min) for ¥1,000 a ride in 2026. Be back at Hinode 60 minutes before all-aboard, and leave Miho no Matsubara or Kunozan 90 minutes before.",
+ "intro": "Shimizu is the port for Shizuoka City and the closest cruise stop to Mt Fuji, which you can see across the bay on clear days. Ships berth at Hinode Wharf, rebuilt in 2024 so a large cruise ship and a cargo ship can berth together. The harbour has three short trips: the Dream Plaza and fish market on foot or by water bus, the Miho no Matsubara pine beach, part of the Fujisan World Heritage site, and the Nihondaira plateau with the ropeway to Kunozan Toshogu shrine. Fuji is often hidden by cloud, so go for the view early.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Hinode Wharf (Hinode No. 1 and No. 2 quays)",
+   "distanceToCentreKm": null,
+   "notes": "Cruise berths for ships of the 150,000-ton class; No. 2 is dedicated to cruise ships and No. 1 is shared with cargo. Passenger terminal and a tourist information office. The Hatoba Verkehr Museum bus stop is about 4–5 minutes' walk, and the water bus Hinode pier is beside the wharf."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 8,
+  "km": null,
+  "detail": "The S-Pulse Dream Plaza, with shops, the sushi alley and the Ferris wheel, is about 8 minutes on foot. For Shimizu Station and the Kashi no Ichi fish market, the water bus or a shuttle is quickest; Miho no Matsubara and Nihondaira need the water bus, a bus or a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "Miho Hagoromo water bus",
+   "cost": "¥1,000 adult per ride (from 1 April 2026)",
+   "time": "Hinode–Ejiri (Shimizu Station) 10 min; Ejiri–Miho 15 min; Miho–Hinode 15 min",
+   "detail": "Seven sailings a day; the first leaves Hinode at 09:55 and the last at 15:55. The Ejiri pier is by the Kashi no Ichi fish market and JR Shimizu Station. Sailings can be cancelled in rough seas, bad weather or during events."
+  },
+  {
+   "mode": "Free shuttle bus to JR Shimizu Station",
+   "cost": "Free where provided",
+   "time": "Varies",
+   "detail": "Passengers in 2019 and 2025 reported a complimentary shuttle from the pier to Shimizu Station. Check your daily programme for times."
+  },
+  {
+   "mode": "Shizutetsu Justline bus",
+   "cost": "Pay when you get off; national IC cards accepted",
+   "time": "About 7 min from Shimizu Station west exit to Hatoba Verkehr Museum, then 4–5 min walk",
+   "detail": "Miho-bound buses from JR Shimizu Station (Miho Yamanote route from stop 3, west exit) call at Hatoba Verkehr Museum, the stop for Hinode. For Miho no Matsubara, buses from Shimizu Station take about 25 minutes to Miho no Matsubara Iriguchi, then walk about 15 minutes; at weekends some run to the Sekai Isan Miho no Matsubara stop, 5 minutes' walk away."
+  },
+  {
+   "mode": "Dream Plaza free shuttle",
+   "cost": "Free",
+   "time": "About 10 min",
+   "detail": "Runs between the JR Shimizu Station east exit and S-Pulse Dream Plaza, 8 minutes' walk from Hinode. A useful way back from the station."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; a passenger reported about ¥11,000 for a 1.5-hour round trip to Miho with waiting (2025)",
+   "time": "About 20 min from Shimizu Station to Nihondaira",
+   "detail": "The practical way to Nihondaira and the Kunozan ropeway on a cruise day."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard (16:30 for 17:30). Leave Miho no Matsubara and Nihondaira or Kunozan 90 minutes before all-aboard (16:00).",
+  "detail": "Miho and Nihondaira depend on buses, the water bus or taxis. The water bus runs only seven times a day: the last sailing from Miho, at 16:35, is too late for a 17:30 all-aboard, so check the board at the pier and take an earlier one.",
+  "emergencyFallback": "Take a taxi and say Hinode Wharf cruise terminal. If you will miss all-aboard, call the port agent number on your daily programme. The 24-hour Japan Visitor Hotline is 050-3816-2787."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Miho no Matsubara",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Water bus ¥1,000 each way (2026); the pine grove and the Miho Shirube centre are free",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Miho no Matsubara and the harbour are easy alone by water bus. Nihondaira and Kunozan are doable by taxi. The ship's tour earns its price for anything closer to Mt Fuji itself, such as the Fuji Five Lakes, where an independent return on public transport would be hard to time; and remember Fuji may be hidden by cloud whichever way you go.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Hinode at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Look for Mt Fuji from the wharf or the deck before the clouds build. Then walk 8 minutes to Dream Plaza."
+   },
+   {
+    "time": "09:55",
+    "what": "First water bus from Hinode to Miho (15 min, ¥1,000)."
+   },
+   {
+    "time": "10:15",
+    "what": "Walk to Miho no Matsubara: the pine beach, the Hagoromo pine and the Miho Shirube centre (free, 09:00–16:30)."
+   },
+   {
+    "time": "12:30",
+    "what": "Water bus from Miho to Ejiri (15 min), for the Kashi no Ichi fish market by Shimizu Station."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch at Maguro Hall in Kashi no Ichi (closed Wednesdays): tuna bowl or kaisen-don."
+   },
+   {
+    "time": "14:15",
+    "what": "Free shuttle from the station east exit to Dream Plaza, or the water bus from Ejiri to Hinode."
+   },
+   {
+    "time": "14:45",
+    "what": "Dream Plaza: Shimizu Sushi Museum and the sushi alley, or the Ferris wheel."
+   },
+   {
+    "time": "16:15",
+    "what": "Walk back to Hinode Wharf, 8 minutes."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Miho no Matsubara",
+   "why": "Pine-lined beach with the classic view of Mt Fuji across the bay, part of the Fujisan World Heritage site since 2013.",
+   "timeNeeded": "2–2.5 hours including travel",
+   "cost": "Free",
+   "tip": "The Miho Shirube culture centre explains the Hagoromo legend and the Fuji views, free, 09:00–16:30."
+  },
+  {
+   "name": "Mt Fuji views",
+   "why": "Shimizu faces Fuji across Suruga Bay; the wharf, Miho and Nihondaira all give a view on clear days.",
+   "timeNeeded": "Any time",
+   "cost": "Free",
+   "tip": "Look first thing; cloud often covers the summit by mid-morning."
+  },
+  {
+   "name": "Kunozan Toshogu shrine",
+   "why": "Tokugawa-era shrine with over 400 years of history, reached by ropeway from Nihondaira or 1,159 stone steps from below.",
+   "timeNeeded": "3 hours including travel",
+   "cost": "Shrine admission and ropeway fares charged; check on the day",
+   "tip": "Ropeway from the top of Nihondaira takes about 5 minutes and runs 09:10–17:00. The steps from Kunozan-shita take about 20 minutes."
+  },
+  {
+   "name": "Nihondaira",
+   "why": "Plateau above the city with a wide view over Shimizu, the bay and Mt Fuji.",
+   "timeNeeded": "1 hour plus travel",
+   "cost": "Free",
+   "tip": "About 20 minutes by car from Shimizu Station. Combine it with the ropeway to Kunozan."
+  },
+  {
+   "name": "S-Pulse Dream Plaza",
+   "why": "Waterfront complex with the Shimizu Sushi Museum, the sushi alley, shops and a Ferris wheel.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free to enter",
+   "tip": "Shops 10:00–20:00, restaurants 11:00–21:00. About 8 minutes' walk from the ship."
+  },
+  {
+   "name": "Kashi no Ichi fish market",
+   "why": "Shimizu's tuna and seafood market: Ichiba Hall for shopping, Maguro Hall with 14 seafood restaurants.",
+   "timeNeeded": "1 hour",
+   "cost": "Free to enter",
+   "tip": "Closed Wednesdays. Ichiba Hall 09:30–17:30. Gets busy from about 11:00; go early for lunch."
+  },
+  {
+   "name": "Shimizu harbour by water bus",
+   "why": "The water bus loop between Hinode, Ejiri and Miho is itself a short harbour trip.",
+   "timeNeeded": "40 minutes for the full loop",
+   "cost": "¥1,000 a ride (2026)",
+   "tip": "Seven sailings a day; plan legs around the timetable."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Miho no Matsubara beach",
+   "howToGetThere": "Water bus from Hinode to Miho, or bus from Shimizu Station to Miho no Matsubara Iriguchi then 15 minutes' walk",
+   "time": "15 min by water bus; about 25 min by bus from Shimizu Station",
+   "cost": "Free",
+   "note": "A beach for walking and the Fuji view rather than a swimming beach."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Tuna bowl (maguro-don) or kaisen-don",
+   "where": "Maguro Hall, Kashi no Ichi fish market",
+   "price": null
+  },
+  {
+   "dish": "Sashimi set meal with sakura shrimp kakiage",
+   "where": "Ryoshi-Meshi Kishiya, first floor of Maguro Hall, Kashi no Ichi",
+   "price": null
+  },
+  {
+   "dish": "Sushi",
+   "where": "Shimizu Sushi Yokocho (sushi alley), S-Pulse Dream Plaza",
+   "price": null
+  },
+  {
+   "dish": "Shirasu (whitebait) bowl",
+   "where": "Donburi House, Mochimune fishing port (only when the shirasu boats are out)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Waiting until the afternoon to look for Mt Fuji.",
+   "fix": "Look from the deck or wharf first thing; cloud often hides the summit by mid-morning."
+  },
+  {
+   "mistake": "Planning to take the last water bus back from Miho.",
+   "fix": "It leaves Miho at 16:35, too late for a 17:30 all-aboard. Take an earlier sailing or the bus."
+  },
+  {
+   "mistake": "Going to the fish market on a Wednesday.",
+   "fix": "Kashi no Ichi closes on Wednesdays. Use the Dream Plaza sushi alley instead."
+  },
+  {
+   "mistake": "Trying to reach the Fuji Five Lakes or fifth station independently.",
+   "fix": "They are well inland from Shimizu. Take the ship's tour or stay with Miho and Nihondaira."
+  },
+  {
+   "mistake": "Missing the quick rides to Shimizu Station and the fish market.",
+   "fix": "Use the water bus to Ejiri, the shuttle, or the Miho-line bus from Hatoba Verkehr Museum."
+  }
+ ],
+ "safety": "Shimizu is a quiet, safe port town. The main risks are weather: typhoons peak from July to September and can cancel the water bus or change the ship's schedule. The Kunozan steps are long and steep, so wear proper shoes and allow time. Japan is an earthquake zone and Shimizu is on the coast; follow staff instructions and evacuation signs if a tsunami alert sounds.",
+ "scams": [
+  "Bar overcharging: the UK government reports disputes over very large bar bills in Japan. Check prices and any cover charge before ordering.",
+  "Street touts: touting is illegal but happens in nightlife areas. Do not follow a tout into a bar.",
+  "Drink spiking with card fraud: reported in Japanese nightlife districts. Do not leave drinks unattended."
+ ],
+ "emergencyNumber": "110 (police), 119 (ambulance and fire)",
+ "accessibility": "Hinode Wharf has a passenger terminal and the walk to Dream Plaza is short and level. The water bus is the easiest way to Miho and the station; ask the crew about wheelchair boarding. At Miho the beach is sand and the walk from the bus stop is 5–15 minutes. Kunozan is reached either by the ropeway and about 100 steps, or by 1,159 steps from below, so it is not suitable for wheelchair users.",
+ "rainyDay": "Fuji will not be visible and the water bus may be cancelled in rough weather. Spend the day at Dream Plaza and the Shimizu Sushi Museum, and the covered Kashi no Ichi market by Shimizu Station (not Wednesdays).",
+ "crowdTips": "Several ships can call in a week in autumn and two can be in on the same day. Kashi no Ichi's restaurants fill from about 11:00, so eat early. Miho is quieter on weekdays, but weekend buses run closer to the pine grove.",
+ "faqs": [
+  {
+   "q": "Where do cruise ships dock in Shimizu?",
+   "a": "At Hinode Wharf in Shimizu harbour, rebuilt in 2024 for ships of the 150,000-ton class."
+  },
+  {
+   "q": "Is Shimizu walkable from the cruise port?",
+   "a": "Partly. Dream Plaza is 8 minutes on foot. For Shimizu Station, the fish market and Miho, use the water bus, the shuttle or a bus."
+  },
+  {
+   "q": "Can you see Mt Fuji from Shimizu cruise port?",
+   "a": "Yes on clear days, from the ship and the wharf. Clouds often cover it by mid-morning, so look early."
+  },
+  {
+   "q": "How do I get from Shimizu cruise port to Miho no Matsubara?",
+   "a": "Water bus from Hinode to Miho, 15 minutes for ¥1,000 in 2026, or a bus from Shimizu Station (about 25 minutes) and a 15-minute walk."
+  },
+  {
+   "q": "Is Shimizu a tender port?",
+   "a": "No. Ships berth alongside at Hinode Wharf."
+  },
+  {
+   "q": "How do I get to Shimizu Station from the cruise port?",
+   "a": "Water bus to Ejiri (10 minutes), a free shuttle if your ship runs one, or a Shizutetsu bus from the Hatoba Verkehr Museum stop (about 7 minutes)."
+  },
+  {
+   "q": "What can I do in Shimizu in one day from a cruise ship?",
+   "a": "Fuji from the deck early, Miho no Matsubara by water bus, lunch at Kashi no Ichi, and Dream Plaza before re-boarding. Or Nihondaira and Kunozan by taxi."
+  },
+  {
+   "q": "Is Shimizu safe?",
+   "a": "Yes. Watch typhoon warnings in late summer and take care on the Kunozan steps."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Miho no Matsubara"
+  },
+  {
+   "name": "Mt Fuji"
+  },
+  {
+   "name": "Kunozan Toshogu"
+  },
+  {
+   "name": "Nihondaira"
+  },
+  {
+   "name": "S-Pulse Dream Plaza"
+  },
+  {
+   "name": "Kashi no Ichi fish market"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Japan Tourism Agency (MLIT) – Cruise port detail: Shimizu",
+   "url": "https://www.mlit.go.jp/kankocho/cruise/detail/025/index.html"
+  },
+  {
+   "title": "MLIT Chubu Shimizu Port Office – Hinode quay improvement completion (March 2024)",
+   "url": "https://www.shimizu.pa.cbr.mlit.go.jp/file/kouhoushi/press/20240301.pdf"
+  },
+  {
+   "title": "Mt. Fuji Shimizu Port Cruise – Water bus",
+   "url": "https://www.shimizu-cruise.co.jp/en/waterbus/"
+  },
+  {
+   "title": "Mt. Fuji Shimizu Port Cruise – Fares and timetable (April 2026)",
+   "url": "https://www.shimizu-cruise.co.jp/en/fare/"
+  },
+  {
+   "title": "Visit Shizuoka – Shimizu Port Water Bus",
+   "url": "https://www.visit-shizuoka.com/en/spot/detail_15.html"
+  },
+  {
+   "title": "Visit Shizuoka – Shimizu area map (English)",
+   "url": "https://www.visit-shizuoka.com/asset/pamphlet/shimizu-map-en.pdf"
+  },
+  {
+   "title": "Visit Shizuoka – Tuna in Shizuoka City: Shimizu Port and Mochimune",
+   "url": "https://www.visit-shizuoka.com/en/feature/detail_28.html"
+  },
+  {
+   "title": "Shizuoka City – Miho no Matsubara Culture & Creativity Center (Miho Shirube)",
+   "url": "https://www.city.shizuoka.lg.jp/documents/11152/000889519.pdf"
+  },
+  {
+   "title": "Kunozan Toshogu – Access",
+   "url": "https://www.toshogu.or.jp/english/access/"
+  },
+  {
+   "title": "Explore Shizuoka – Kashi no Ichi market",
+   "url": "https://exploreshizuoka.jp/en/blog/kashi-no-ichi-market-taste-the-seafood-in-tuna-town-shimizu/"
+  },
+  {
+   "title": "Good Luck Trip – Nihondaira Ropeway",
+   "url": "https://www.gltjp.com/en/directory/item/15940/"
+  },
+  {
+   "title": "Forever Karen – Shimizu cruise port (2025)",
+   "url": "https://foreverkaren.com/?p=26206"
+  },
+  {
+   "title": "My Cruise Stories – Shimizu cruise ship port (2019)",
+   "url": "https://mycruisestories.com/2019/08/02/shimizu-japan-cruise-ship-port/"
+  },
+  {
+   "title": "CruiseMapper – Shimizu port schedule",
+   "url": "https://www.cruisemapper.com/ports/shimizu-port-538"
+  },
+  {
+   "title": "GOV.UK – Japan travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/japan/safety-and-security"
+  },
+  {
+   "title": "Japan Tourism Agency – Safety information for visitors",
+   "url": "https://www.mlit.go.jp/kankocho/en/shisaku/kokusai/content/001471575.pdf"
+  }
+ ],
+ "uncertain": [
+  "Whether an 'Edosaki' berth is used by cruise ships at Shimizu; no official source found",
+  "Whether the free shuttle to Shimizu Station runs for every call in 2026, and its journey time",
+  "Walking time from Hinode Wharf to JR Shimizu Station",
+  "Walking time from the Miho water bus pier to the pine grove",
+  "Nihondaira Ropeway fare and Kunozan Toshogu admission in 2026",
+  "Shizutetsu bus fares",
+  "Typical call length and all-aboard time"
+ ]
+}

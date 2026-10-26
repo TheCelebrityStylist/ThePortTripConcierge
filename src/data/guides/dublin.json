@@ -1,0 +1,359 @@
+{
+ "slug": "dublin",
+ "city": "Dublin",
+ "portName": "Dublin Port (Alexandra Basin)",
+ "townName": "Dublin city centre",
+ "country": "Ireland",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "English and Irish",
+ "timezone": "GMT (UTC+0), IST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Dublin cruise port: Alexandra Basin, Luas and Dún Laoghaire",
+ "seoDescription": "Large ships berth at Alexandra Basin, 2 km from the centre, and you cannot walk out. Port bus to Branch Road, Luas €2 by Leap (2026). Leave town 90 min early.",
+ "quickAnswer": "Large ships berth at Alexandra Basin (Alexandra Quay, also called Ocean Pier), about 2 km from the city centre, inside a working port you may not walk through. Take your cruise line's shuttle, a taxi, or the port bus to No. 2 Branch Road and then the Luas tram from The Point (€2 with a Leap card in 2026). Leave the city centre 90 minutes before all-aboard; if your ship anchors off Dún Laoghaire instead, leave 150 minutes before.",
+ "intro": "Dublin Port is a busy cargo and ferry port, and cruise ships fit in around that traffic. Most large ships berth at Alexandra Basin on the north bank of the Liffey, a restricted operational area where passengers are bused to the gate. Smaller ships can use Berth 18 on the North Wall Quay Extension, or sail up the river closer to the centre. The port limits large cruise calls to about two a week in summer, so some lines list 'Dublin' but anchor off Dún Laoghaire, 12–13 km south, and tender passengers ashore. Check which one your ship uses before planning the day.",
+ "isTender": false,
+ "tenderNotes": "Dublin Port itself is not a tender port. Ships listed as calling at Dún Laoghaire for Dublin anchor offshore and tender passengers into Dún Laoghaire Harbour; from there the DART train runs to central Dublin. MSC warns that tenders may not suit passengers with reduced mobility.",
+ "typicalHours": 10,
+ "terminals": [
+  {
+   "name": "Alexandra Basin – Alexandra Quay East and West (Berths 30, 33, 37; 'Ocean Pier 33')",
+   "distanceToCentreKm": 2,
+   "notes": "Main berths for large ships. A restricted working area: a shuttle bus takes passengers to No. 2 Branch Road, where taxis wait. From there it is about 1.4 km (17 minutes) on foot to the Luas Red Line stop at The Point."
+  },
+  {
+   "name": "Berth 18, North Wall Quay Extension (in front of the Tom Clarke Bridge)",
+   "distanceToCentreKm": 2,
+   "notes": "Passengers can walk out through the blue gates on East Wall Road. The Point Luas stop is about 750 m (9 minutes) away."
+  },
+  {
+   "name": "Dún Laoghaire Harbour (tender landing)",
+   "distanceToCentreKm": 13,
+   "notes": "Used by ships that anchor south of Dublin. Tenders land in the harbour; the DART station is close by and trains reach central Dublin in about 20–35 minutes."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 30,
+  "km": 2,
+  "detail": "You cannot walk from a ship at Alexandra Basin to the port entrance; take the port shuttle bus to No. 2 Branch Road first. From there the city is walkable along the north quays (about 30 minutes to O'Connell Street), or walk 17 minutes to the Luas at The Point. From Berth 18 you can walk straight out. Access routes can change with berth, freight traffic or road works, so follow port staff."
+ },
+ "transportSections": [
+  {
+   "mode": "Cruise line shuttle",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "20–40 min by road, longer in traffic",
+   "detail": "Most lines run a shuttle into the centre; drop-off is often on or near Kildare Street. Confirm the drop-off point, price and last return time with your ship."
+  },
+  {
+   "mode": "Port shuttle bus + Luas Red Line",
+   "cost": "Port bus free; Luas €2 adult with a Leap card (TFI 90 Minute Fare, 2026)",
+   "time": "Port bus to Branch Road, 17 min walk to The Point, then five stops to Abbey Street",
+   "detail": "The port shuttle drops you at No. 2 Branch Road. Walk to The Point stop by the 3Arena and take the Red Line west towards the city. Touch your Leap card on before boarding and off at the end. Paper tickets are sold at stop machines. Adult Leap fares rise in January 2027 (the 90-minute fare goes to €2.30)."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; legal maximum €4.40 start then €1.32 per km, 08:00–20:00 Mon–Sat (2026). Higher rate evenings and Sundays",
+   "time": "20–40 min to the centre, longer in traffic",
+   "detail": "Taxis wait at No. 2 Branch Road. Each extra adult costs €1. For a small group a taxi can work out close to a paid shuttle."
+  },
+  {
+   "mode": "DART train (ships at Dún Laoghaire only)",
+   "cost": "Leap card or ticket machine at the station",
+   "time": "About 20–35 min to Pearse Street; trains about every 15 min",
+   "detail": "From the tender landing walk to Dún Laoghaire station. Get off at Pearse Street for Trinity College, or Tara Street or Connolly for the north side."
+  }
+ ],
+ "returnTiming": {
+  "rule": "From the city centre, leave 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). If your ship is at Dún Laoghaire, board a DART at Pearse Street 150 minutes before all-aboard.",
+  "detail": "The road to Alexandra Basin crosses the port and the East Wall area, which carries heavy freight and ferry traffic, and you need the port shuttle from Branch Road to the ship. At Dún Laoghaire, work back from the last tender time, not the sailing time: queues build in the final hour.",
+  "emergencyFallback": "Take a taxi to the port and ask for No. 2 Branch Road (Alexandra Basin) or the East Wall Road gate (Berth 18). From Dún Laoghaire town a taxi or the next DART is the only quick option. Call the port agent number on your daily programme as soon as you think you will be late."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Getting into the city",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Port bus free, then Luas €2 by Leap (2026)",
+   "saving": "Depends on your line's shuttle fare"
+  },
+  {
+   "item": "Guinness Storehouse",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "From €26 online (2026)",
+   "saving": "Depends on the tour"
+  },
+  {
+   "item": "Book of Kells Experience",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "From €25 online (2026)",
+   "saving": "Depends on the tour"
+  }
+ ],
+ "excursionAdvice": "Dublin is easy to do on your own: the centre is compact, the Luas and taxis are straightforward, and the main sights sell timed tickets online. A ship tour is worth it if you want to go beyond the city, for example Glendalough or the Wicklow Mountains, where you rely on road traffic to get back. It also makes sense at Dún Laoghaire if you would rather not manage tender times and the DART yourself.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Alexandra Basin at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Port shuttle bus to No. 2 Branch Road, then cruise shuttle, taxi or the walk to the Luas at The Point."
+   },
+   {
+    "time": "09:15",
+    "what": "Trinity College. Book of Kells Experience on a pre-booked timed ticket (opens 09:00 Monday to Saturday)."
+   },
+   {
+    "time": "11:00",
+    "what": "Walk up Grafton Street to St Stephen's Green."
+   },
+   {
+    "time": "12:00",
+    "what": "Lunch in a pub in the Temple Bar area; cross the Ha'penny Bridge afterwards."
+   },
+   {
+    "time": "13:15",
+    "what": "Taxi or walk west to the Guinness Storehouse; allow at least 90 minutes inside."
+   },
+   {
+    "time": "15:15",
+    "what": "Taxi back towards the quays. Walk past the Famine sculptures on Custom House Quay, or visit the EPIC museum if you skipped the Storehouse."
+   },
+   {
+    "time": "16:00",
+    "what": "Leave the centre by shuttle, taxi or Luas for Alexandra Basin, 90 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Book of Kells Experience, Trinity College",
+   "why": "The 9th-century illuminated gospel book, the Old Library and a digital exhibition in the Red Pavilion.",
+   "timeNeeded": "90 minutes for the full experience; 45 minutes for the Book of Kells and Old Library ticket",
+   "cost": "From €25 online; Book of Kells and Old Library only from €19 (2026)",
+   "tip": "Opens 09:00 Monday to Saturday, 09:30 on Sunday. Book ahead: timed slots sell out. Most books have been removed from the Long Room during the Old Library redevelopment."
+  },
+  {
+   "name": "Guinness Storehouse",
+   "why": "Seven floors on brewing and advertising at St James's Gate, ending at the rooftop Gravity Bar.",
+   "timeNeeded": "At least 90 minutes",
+   "cost": "Adults from €26 online; €2 more at the door (2026)",
+   "tip": "Opens 09:30; last entry 17:00 Sunday to Thursday, 18:00 Friday and Saturday. It is on the far west side of the centre, so take a taxi rather than walking from the ship."
+  },
+  {
+   "name": "EPIC The Irish Emigration Museum",
+   "why": "Interactive museum on the Irish who left, in the CHQ building on the north quays, the closest major sight to the cruise berths.",
+   "timeNeeded": "90 minutes",
+   "cost": "€22 adult online (2026)",
+   "tip": "Opens 10:00 (09:00 in June, July and August). Fully wheelchair accessible."
+  },
+  {
+   "name": "St Stephen's Green and Grafton Street",
+   "why": "Victorian park at the top of Dublin's main shopping street.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Close to Kildare Street, where many cruise shuttles drop off."
+  },
+  {
+   "name": "Temple Bar and the Ha'penny Bridge",
+   "why": "Cobbled pub quarter on the south bank, linked to the north side by the 19th-century iron footbridge.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free to walk",
+   "tip": "Busiest from mid-afternoon; go late morning for photos."
+  },
+  {
+   "name": "Docklands riverside walk",
+   "why": "The north quays from Custom House Quay past the Famine sculptures to the Samuel Beckett Bridge, on the way back towards the port.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "Easy to combine with EPIC at CHQ before heading back to the ship."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Irish stew and a pint of Guinness",
+   "where": "Traditional pubs in the Temple Bar area",
+   "price": null
+  },
+  {
+   "dish": "A pint of Guinness with a city view",
+   "where": "Gravity Bar, Guinness Storehouse",
+   "price": null
+  },
+  {
+   "dish": "Seafood chowder with brown bread",
+   "where": "Pubs and cafés around Grafton Street",
+   "price": null
+  },
+  {
+   "dish": "Fish and chips",
+   "where": "Chippers in the city centre",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk off the quay at Alexandra Basin.",
+   "fix": "It is a restricted working port. Take the shuttle bus to No. 2 Branch Road before walking anywhere."
+  },
+  {
+   "mistake": "Assuming 'Dublin' on the itinerary means Dublin Port.",
+   "fix": "Some ships anchor off Dún Laoghaire, 12–13 km south. Check your daily programme and plan for the tender and DART."
+  },
+  {
+   "mistake": "Turning up at the Book of Kells or Guinness Storehouse without a ticket.",
+   "fix": "Book timed tickets online; Trinity slots sell out and the Storehouse charges €2 more at the door."
+  },
+  {
+   "mistake": "Leaving the city at the last minute in afternoon traffic.",
+   "fix": "Allow 20–40 minutes by road plus the port shuttle. Leave the centre 90 minutes before all-aboard."
+  },
+  {
+   "mistake": "Getting on a Luas without touching on.",
+   "fix": "Touch your Leap card on the platform validator before boarding and touch off when you get off, or buy a paper ticket from the machine."
+  }
+ ],
+ "safety": "Dublin is a large city and the usual city precautions apply. Keep bags closed and phones in front pockets in crowded places such as Temple Bar, Grafton Street and O'Connell Street, and on the Luas. Inside the port, stay on the shuttle and follow staff directions: freight vehicles move constantly around Alexandra Basin. Traffic drives on the left; look right first when crossing.",
+ "scams": [],
+ "emergencyNumber": "112 or 999",
+ "accessibility": "At Alexandra Basin the port shuttle bus is the only way off the quay, so ask the ship about an accessible transfer. The Luas is step-free from the platform. The Guinness Storehouse is fully accessible with ramps and lifts and lends wheelchairs (accessible entrance on Market Street). EPIC is wheelchair accessible, with lifts at the entrance. Trinity offers a Low Sensory Hour for the Book of Kells. If your ship anchors off Dún Laoghaire, tenders may not be suitable for passengers with reduced mobility.",
+ "rainyDay": "Dublin's main sights are indoors. Combine the Book of Kells Experience, EPIC and the Guinness Storehouse, using taxis between the far ends of the city. Keep the parks and the Docklands walk for a dry spell.",
+ "crowdTips": "Dublin Port takes about two large cruise ships a week in summer, so on most call days you share the city with one ship's passengers plus other visitors. The pressure points are timed tickets: the Book of Kells and Guinness Storehouse sell out in summer, so book before you sail. Temple Bar is calmer before lunch.",
+ "faqs": [
+  {
+   "q": "Can you walk from Dublin cruise port to the city centre?",
+   "a": "Not from Alexandra Basin: you must take the port shuttle bus to No. 2 Branch Road. From there it is about 30 minutes' walk along the quays, or 17 minutes to the Luas. Ships at Berth 18 can walk straight out."
+  },
+  {
+   "q": "How do I get from Dublin cruise port to the city centre?",
+   "a": "Use your cruise line's shuttle, a taxi from Branch Road, or walk to The Point and take the Luas Red Line (€2 with a Leap card in 2026)."
+  },
+  {
+   "q": "Is Dublin a tender port?",
+   "a": "Dublin Port is not. Ships that anchor off Dún Laoghaire, 12–13 km south, tender passengers ashore and use the DART into Dublin."
+  },
+  {
+   "q": "How far is Dublin cruise port from the city?",
+   "a": "About 2 km. Allow 20–40 minutes by road, longer in traffic."
+  },
+  {
+   "q": "What can I do in Dublin in one day from a cruise ship?",
+   "a": "Book of Kells at Trinity College, Grafton Street and St Stephen's Green, lunch near Temple Bar, then the Guinness Storehouse or EPIC."
+  },
+  {
+   "q": "How much is a taxi from Dublin cruise port?",
+   "a": "Taxis are metered: in 2026 the daytime legal maximum is €4.40 to start and €1.32 per km, plus €1 for each extra adult."
+  },
+  {
+   "q": "How do I get from Dún Laoghaire to Dublin?",
+   "a": "Take the DART from Dún Laoghaire station to Pearse Street; trains run about every 15 minutes and take about 20–35 minutes."
+  },
+  {
+   "q": "Is Dublin safe for cruise passengers?",
+   "a": "Yes, with normal city care for bags and phones in crowded areas."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Book of Kells Experience"
+  },
+  {
+   "name": "Guinness Storehouse"
+  },
+  {
+   "name": "EPIC The Irish Emigration Museum"
+  },
+  {
+   "name": "St Stephen's Green"
+  },
+  {
+   "name": "Temple Bar"
+  },
+  {
+   "name": "Ha'penny Bridge"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Dublin Port Company – Cruise liners (berths, shuttle, Luas)",
+   "url": "https://dublinport.ie/cruise-liners"
+  },
+  {
+   "title": "Dublin Port Company – Cruise consultation and North Wall Quay Extension berths",
+   "url": "https://www.dublinport.ie/port-business/cruise/"
+  },
+  {
+   "title": "Dublin Port Company – Dublin Port shuttle bus (Alexandra Road closure, 2025)",
+   "url": "https://www.dublinport.ie/dublin-port-shuttle-bus/"
+  },
+  {
+   "title": "Transport for Ireland – Luas fares",
+   "url": "https://transportforireland.ie/fares/luas-fares"
+  },
+  {
+   "title": "Irish Statute Book – Taxi Regulation (Maximum Fares) Order 2024",
+   "url": "https://www.irishstatutebook.ie/eli/2024/si/479/made/en/print"
+  },
+  {
+   "title": "Visit Trinity – Book of Kells tickets",
+   "url": "https://www.visittrinity.ie/book-now/"
+  },
+  {
+   "title": "Guinness Storehouse – FAQ",
+   "url": "https://www.guinness-storehouse.com/de/faq"
+  },
+  {
+   "title": "EPIC The Irish Emigration Museum – Visitor information",
+   "url": "https://epicchq.com/?p=36"
+  },
+  {
+   "title": "Travel Extra – Cruise ship calls at Dublin port",
+   "url": "https://www.travelextra.ie/?p=78992"
+  },
+  {
+   "title": "Travel Extra – Cruise ship calls to Dún Laoghaire in 2026",
+   "url": "https://www.travelextra.ie/?p=83685"
+  },
+  {
+   "title": "Travel Extra – NTA announces 15% average fare increase (September 2026)",
+   "url": "https://www.travelextra.ie/?p=146054"
+  },
+  {
+   "title": "ITTN – Dublin Port to restrict cruise ship visits",
+   "url": "https://ittn.ie/?p=52697"
+  },
+  {
+   "title": "What's in Port – Dublin",
+   "url": "https://www.whatsinport.com/Dublin.htm"
+  },
+  {
+   "title": "What's in Port – Dún Laoghaire",
+   "url": "https://www.whatsinport.com/Dun-Laoghaire.htm"
+  },
+  {
+   "title": "CruiseMapper – Dublin port",
+   "url": "https://www.cruisemapper.com/ports/dublin-port-555"
+  },
+  {
+   "title": "MSC Cruises – Dublin via Dún Laoghaire",
+   "url": "https://www.msccruises.com/int/our-cruises/destinations/northern-europe/ireland/Dun-Laoghaire"
+  }
+ ],
+ "uncertain": [
+  "Whether the new large-ship cruise berths at North Wall Quay Extension, described by Dublin Port as due for the 2026 season, are in use in 2026.",
+  "Cruise line shuttle fares (one undated source says about €10 when charged).",
+  "DART fare from Dún Laoghaire to central Dublin, and whether a free shuttle runs from the tender landing to the station (sources disagree).",
+  "Taxi fare from Dún Laoghaire to Dublin (one undated source gives €25–35).",
+  "Luas journey time from The Point to Abbey Street and paper single-ticket prices.",
+  "Whether the 2025 Alexandra Road closure still affects the walk from No. 2 Branch Road in 2026.",
+  "Documented taxi or street scams targeting cruise passengers: none found in sources, so none listed."
+ ]
+}

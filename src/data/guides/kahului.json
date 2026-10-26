@@ -1,0 +1,377 @@
+{
+ "slug": "kahului",
+ "city": "Kahului",
+ "portName": "Kahului Harbor",
+ "townName": "Kahului town centre",
+ "country": "United States (Hawaii)",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English (Hawaiian is also an official language)",
+ "timezone": "HST (UTC−10), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Kahului cruise port guide: Haleakalā, ʻĪao and Road to Hana",
+ "seoDescription": "Ships dock at Kahului Harbor, 1–2 miles from town; no tender. Haleakalā $30 per car (2026), ʻĪao and Waiʻānapanapa need booking. Road to Hana is 8–10 hours.",
+ "quickAnswer": "Ships dock at Kahului Harbor, a working commercial port about 1–2 miles from the town centre, so there is no tender but little within walking distance. Most passengers take a taxi, ride-hail or rental car (the airport is about 2.5 miles away); the Maui Bus costs $2 a ride. Book ʻĪao Valley or Waiʻānapanapa in advance, and allow 60 minutes to get back on board from anywhere near Kahului.",
+ "intro": "Kahului is Maui's commercial port, not a resort town, so the day is about getting out to the island. The big three are Haleakalā's summit, the ʻĪao Valley and the Road to Hana, and each needs a plan: Haleakalā is a long climb by car, ʻĪao and Waiʻānapanapa need state park reservations, and the full Road to Hana takes longer than most port calls. Lahaina is reopening in stages after the 2023 fire; visitors are welcome at open businesses but must keep out of closed areas.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Kahului Harbor cruise berth",
+   "distanceToCentreKm": null,
+   "notes": "A working cargo harbour. A fenced walkway leads from the ship to the main road at the port entrance in a few minutes. Only licensed taxis can pick up inside the restricted area; ride-hail pickups are across the road outside the port. Taxis, tour coaches and some rental-car shuttles meet ships at the pier."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": null,
+  "km": null,
+  "detail": "Kahului town and its shopping centres are about 1–2 miles away; some passengers walk to Queen Kaʻahumanu Center, but the walk through the port area is not pleasant. All the main sights need a car or tour."
+ },
+ "transportSections": [
+  {
+   "mode": "Rental car",
+   "cost": "Varies; book well ahead",
+   "time": "Kahului Airport is about 2.5 miles, under 10 min, from the port",
+   "detail": "The most flexible option for Haleakalā, ʻĪao or Paia. Most rental desks are at the airport; some companies run a shuttle from the port, otherwise take a taxi or ride-hail. Allow time to return the car and get back to the pier."
+  },
+  {
+   "mode": "Taxi or ride-hail",
+   "cost": "Agree or check the fare before you set off",
+   "time": "About 20 min to ʻĪao Valley; about 15 min to Paia",
+   "detail": "Licensed taxis can enter the port; ride-hail drivers pick up outside the gate. Demand can spike when a ship is in."
+  },
+  {
+   "mode": "Maui Bus",
+   "cost": "$2 a ride, $4 day pass (2026)",
+   "time": "Slower than driving",
+   "detail": "A cheap way to reach Kahului's shopping centres and Wailuku. Check routes and times in the Maui Bus app or at mauicounty.gov/bus before relying on it for the return."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. Leave the Haleakalā summit three and a half hours before all-aboard, and Hana-side stops at least four and a half hours before.",
+  "detail": "The summit is about 90 minutes to two hours' drive from the port. The return from the far end of the Road to Hana takes two and a half to three hours on a narrow road with one-lane bridges, and most single-car accidents on it happen on the way back. If you have a rental car, add the time to return it at the airport and get a taxi to the pier.",
+  "emergencyFallback": "Call a licensed taxi, which can drive into the port. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Haleakalā summit (daytime)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Rental car plus $30 park entry per vehicle, valid three days (2026)",
+   "saving": "Depends on group size and rental price"
+  },
+  {
+   "item": "ʻĪao Valley",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$5 entry per non-resident plus $10 parking, reservation required (2026)",
+   "saving": "Large"
+  }
+ ],
+ "excursionAdvice": "Take the ship's tour for the Road to Hana: the full drive takes 8–10 hours, the return alone two and a half to three hours, and Waiʻānapanapa needs a timed reservation, so it is hard to do independently and get back in time. A ship's tour is also the safer choice for Haleakalā if you are not confident driving a long mountain road with no guard rails. ʻĪao Valley, Wailuku and Paia are easy to do on your own with a rental car or taxi.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, with a rental car booked at Kahului Airport.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Taxi or rental shuttle to the airport rental desks, about 10 minutes."
+   },
+   {
+    "time": "09:00",
+    "what": "Drive up to Haleakalā (about 90 minutes to two hours). No reservation is needed for daytime entry. Bring warm layers and water; nothing is sold in the park."
+   },
+   {
+    "time": "11:00",
+    "what": "Summit area and overlooks. Pay the $30 vehicle fee at the entrance."
+   },
+   {
+    "time": "12:30",
+    "what": "Drive down to Makawao for lunch, for example stick donuts or malasadas at Komoda Store & Bakery."
+   },
+   {
+    "time": "14:00",
+    "what": "Paia, the start of the Road to Hana, for a short look around."
+   },
+   {
+    "time": "15:15",
+    "what": "Return the car at the airport."
+   },
+   {
+    "time": "16:00",
+    "what": "Taxi from the airport to the pier."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Haleakalā National Park (summit)",
+   "why": "The volcano summit high above the island, reached by a long, winding road.",
+   "timeNeeded": "5–6 hours including the drive",
+   "cost": "$30 per private vehicle, valid three days; $15 per person on foot or bicycle (2026)",
+   "tip": "Sunrise entry (03:00–07:00) needs a $1 Recreation.gov reservation, released 60 days ahead at 07:00 HST, and is only practical if your ship stays overnight. Daytime entry needs no reservation. Conditions around dawn and dusk are regularly wet, windy and below freezing; no food, fuel or clothing is sold in the park."
+  },
+  {
+   "name": "ʻĪao Valley State Monument",
+   "why": "A green valley in the West Maui Mountains with a short paved walk (about 0.6 mile) to the view of Kukaʻemoku, the ʻĪao Needle.",
+   "timeNeeded": "1–1.5 hours plus 20 min each way",
+   "cost": "$5 per non-resident, $10 parking (2026)",
+   "tip": "Out-of-state visitors must book at gostateparks.hawaii.gov. Open 07:00–18:00. Check the State Parks notices before you go: the park closed for safety work in summer 2026."
+  },
+  {
+   "name": "Road to Hana and Waiʻānapanapa State Park",
+   "why": "The winding coastal highway east of Paia, with around 600 curves and dozens of one-lane bridges; Waiʻānapanapa is the best-known stop near Hana.",
+   "timeNeeded": "8–10 hours for the full route",
+   "cost": "Waiʻānapanapa $5 per non-resident plus $10 parking per time slot (2026)",
+   "tip": "Waiʻānapanapa reservations open up to 30 days ahead and same-day entry is not available. Paia to Waiʻānapanapa is over two hours without stops. On most port calls, go only part of the way or take a tour."
+  },
+  {
+   "name": "Paia",
+   "why": "The small town where the Road to Hana begins, about 15 minutes east of the port.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Fill up with fuel here if you are heading east; Lower Paia's Shell is the last easy gas before Hana."
+  },
+  {
+   "name": "Wailuku and Kepaniwai Heritage Gardens",
+   "why": "Wailuku, next to Kahului, has long-running local eateries; Kepaniwai Heritage Gardens is a separate county park beside the ʻĪao Valley area.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Kepaniwai reopened in June 2026 after storm repairs, though some picnic pavilions remained closed."
+  },
+  {
+   "name": "Lahaina (north end of Front Street)",
+   "why": "The historic town is reopening in stages after the August 2023 fire, which killed 102 people.",
+   "timeNeeded": "2 hours plus the drive",
+   "cost": "Free",
+   "tip": "Front Street from Pāpalaua to Shaw Street reopened to vehicles on 1 August 2026, and restaurants at the north end are open. Stay out of fenced, closed and private areas. Residents ask visitors driving through not to stop or walk around, and not to treat damaged areas as a photo stop. The Courthouse and Baldwin Home remain closed."
+  },
+  {
+   "name": "Kaʻanapali Beach",
+   "why": "The resort beach in West Maui, about 45 minutes from the port.",
+   "timeNeeded": "Half a day including travel",
+   "cost": "Free",
+   "tip": "Only worth it on a long call; keep the drive back in mind."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Waiʻānapanapa State Park",
+   "howToGetThere": "Road to Hana by car or tour",
+   "time": "Over 2 hours each way from Paia",
+   "cost": "$5 per non-resident plus $10 parking (2026)",
+   "note": "Advance reservation required; time slots such as 07:00–10:00 or 10:00–12:30. Too far for most port calls on your own."
+  },
+  {
+   "name": "Kaʻanapali Beach",
+   "howToGetThere": "Car or taxi",
+   "time": "About 45 min",
+   "cost": "Free",
+   "note": "West Maui resort beach; Kapalua Bay and Nāpili Bay are also open West Maui beaches."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Dry mein and homemade manju",
+   "where": "Sam Sato's, Wailuku",
+   "price": null
+  },
+  {
+   "dish": "Chili pepper poke",
+   "where": "Kaohu Store, Wailuku",
+   "price": null
+  },
+  {
+   "dish": "Kau Kau Tin plate lunches (pork belly, garlic shrimp, mochiko chicken)",
+   "where": "Tin Roof Maui, Kahului",
+   "price": null
+  },
+  {
+   "dish": "Stick donuts and guava malasadas",
+   "where": "Komoda Store & Bakery, Makawao",
+   "price": null
+  },
+  {
+   "dish": "Local seafood, menu changes daily",
+   "where": "Mama's Fish House, Paia",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Setting off on the full Road to Hana on a normal port day.",
+   "fix": "The return alone takes two and a half to three hours. Go part of the way, or take a tour."
+  },
+  {
+   "mistake": "Driving to ʻĪao Valley or Waiʻānapanapa without a reservation.",
+   "fix": "Non-residents must book at gostateparks.hawaii.gov in advance; you will be turned away otherwise."
+  },
+  {
+   "mistake": "Booking a Haleakalā sunrise reservation for a day the ship only arrives in the morning.",
+   "fix": "Sunrise (03:00–07:00 entry) is only possible with an overnight call. Go in daytime instead; no reservation is needed."
+  },
+  {
+   "mistake": "Going up Haleakalā in beach clothes.",
+   "fix": "Take warm layers and water. The park says conditions around dawn and dusk are regularly wet, windy and below freezing, and nothing is sold in the park."
+  },
+  {
+   "mistake": "Treating Lahaina as a sightseeing stop for the fire damage.",
+   "fix": "Visit open businesses at the north end of Front Street and keep out of closed and fenced areas."
+  }
+ ],
+ "safety": "Kahului is safe for visitors; the main risks are on the road and in the water. The Haleakalā road has no streetlights or guard rails, and the Road to Hana is narrow with many one-lane bridges: use pullouts to let local drivers pass and take care on the way back when tired. Do not swim in fresh water with open cuts (leptospirosis is present), never cross a flooded road, and keep off private land along the Hana Highway. In Lahaina, follow all closure signs.",
+ "scams": [
+  "Fake recovery charities: 'Lāhainā Strong' is a non-registered, for-profit organisation, not the Maui Strong Fund. Give through registered funds."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The walk from the ship to the port entrance is short and on a marked walkway, and licensed taxis can drive into the port. The ʻĪao Valley walk is paved. At Haleakalā the summit and overlooks are reached by car, with parking in designated lots. The Road to Hana is a long, winding drive of several hours each way.",
+ "rainyDay": "On a wet day, keep to Wailuku, Paia and Kahului, and avoid flooded roads and streams on the Hana Highway. Check the park weather page before driving up Haleakalā.",
+ "crowdTips": "ʻĪao and Waiʻānapanapa control numbers with timed reservations, so book early for your date. Taxi and ride-hail demand spikes when a ship arrives; a pre-booked rental car or tour avoids the queue. At Haleakalā, parking is limited to set lots, which close when full; the Leleiwi and Kalahaku overlooks are quieter.",
+ "faqs": [
+  {
+   "q": "Is Kahului a tender port?",
+   "a": "No. Ships dock at Kahului Harbor."
+  },
+  {
+   "q": "Is Kahului walkable from the cruise port?",
+   "a": "Only partly. The town and its shopping centres are about 1–2 miles away. Sights need a car, taxi or tour."
+  },
+  {
+   "q": "Can I see the Haleakalā sunrise from a cruise ship?",
+   "a": "Only if the ship stays overnight. Sunrise entry needs a $1 Recreation.gov reservation, and the summit is 90 minutes to two hours from the port."
+  },
+  {
+   "q": "Can I do the Road to Hana from a cruise ship?",
+   "a": "Not the full route on a normal call: it takes 8–10 hours. Go part of the way, or take a tour."
+  },
+  {
+   "q": "Do I need a reservation for ʻĪao Valley?",
+   "a": "Yes, if you are not a Hawaii resident. Book at gostateparks.hawaii.gov; entry is $5 per person and parking $10."
+  },
+  {
+   "q": "Is Lahaina open to visitors?",
+   "a": "Partly. Front Street reopened to vehicles from Pāpalaua to Shaw Street on 1 August 2026 and north-end restaurants are open, but large areas remain closed."
+  },
+  {
+   "q": "What can I do in Kahului in one day from a cruise ship?",
+   "a": "Haleakalā in daytime, or ʻĪao Valley with Wailuku and Paia."
+  },
+  {
+   "q": "How do I get from Kahului cruise port to the airport car rentals?",
+   "a": "A taxi or ride-hail takes under 10 minutes; some rental firms run a port shuttle."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Haleakalā National Park"
+  },
+  {
+   "name": "ʻĪao Valley State Monument"
+  },
+  {
+   "name": "Road to Hana"
+  },
+  {
+   "name": "Waiʻānapanapa State Park"
+  },
+  {
+   "name": "Paia"
+  },
+  {
+   "name": "Lahaina"
+  },
+  {
+   "name": "Kaʻanapali Beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "NPS – Haleakalā fees and passes",
+   "url": "https://www.nps.gov/hale/planyourvisit/fees.htm"
+  },
+  {
+   "title": "NPS – Haleakalā sunrise reservations",
+   "url": "https://www.nps.gov/hale/planyourvisit/sunrise.htm"
+  },
+  {
+   "title": "Hawaii State Parks (DLNR) – ʻĪao Valley State Monument",
+   "url": "https://dlnr.hawaii.gov/dsp/parks/maui/iao-valley-state-monument/"
+  },
+  {
+   "title": "Hawaii State Parks – Waiʻānapanapa reservations",
+   "url": "https://gostateparks.hawaii.gov/waianapanapa/about"
+  },
+  {
+   "title": "Hawaii State Parks – Waiʻānapanapa FAQ",
+   "url": "https://gostateparks.hawaii.gov/waianapanapa/faq"
+  },
+  {
+   "title": "County of Maui – Maui Bus fare and route changes (June 2026)",
+   "url": "https://www.mauicounty.gov/CivicAlerts.aspx?AID=18987"
+  },
+  {
+   "title": "Aloha State Daily – Maui council expands fare-free bus access (August 2026)",
+   "url": "https://alohastatedaily.com/2026/08/11/maui-county-council-votes-to-expand-fare-free-bus-access/"
+  },
+  {
+   "title": "Hawaii-Guide – Visiting Lahaina summer 2026",
+   "url": "https://www.hawaii-guide.com/blog/visiting-lahaina-summer-2026-whats-open"
+  },
+  {
+   "title": "Hawaii.com – Visiting Lahaina in 2026",
+   "url": "https://hawaii.com/blog/visiting-lahaina-maui-2026"
+  },
+  {
+   "title": "Hawaii Tribune-Herald – Lahaina Harbor begins phased reopening (December 2025)",
+   "url": "https://www.hawaiitribune-herald.com/2025/12/15/hawaii-news/lahaina-harbor-begins-phased-reopening-a-key-milestone-after-2023-fires/"
+  },
+  {
+   "title": "Hawaii-Guide – Road to Hana route",
+   "url": "https://www.hawaii-guide.com/maui/routes/road-to-hana"
+  },
+  {
+   "title": "Hawaii's Best Travel – ʻĪao Valley closed 2026",
+   "url": "https://hawaiisbesttravel.com/iao-valley-closed-2026/"
+  },
+  {
+   "title": "Hawaii Travel with Kids – Hawaii reservations 2026",
+   "url": "https://hawaiitravelwithkids.com/?p=31528"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Kahului (checked May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/kahului-maui/"
+  },
+  {
+   "title": "CruiseSheet – Kahului port",
+   "url": "https://cruisesheet.com/port/kahului"
+  },
+  {
+   "title": "Forever Karen – Maui cruise port (updated November 2025)",
+   "url": "https://foreverkaren.com/travel/maui-cruise-port/"
+  },
+  {
+   "title": "Travelling with Nikki – Disney Wonder in Kahului",
+   "url": "https://www.travellingwithnikki.com/2022/06/disney-wonder-hawaii-cruise-day-two-kahului-maui/"
+  },
+  {
+   "title": "The Infatuation – Maui restaurants",
+   "url": "https://www.theinfatuation.com/maui/guides/maui-restaurants"
+  }
+ ],
+ "uncertain": [
+  "The pier number used by cruise ships at Kahului Harbor (Pier 1 is commonly cited but no official Hawaii DOT Harbors page confirming it was found).",
+  "Whether ʻĪao Valley actually reopened on its rescheduled date of 7 August 2026.",
+  "Whether Waiʻānapanapa reopened as scheduled on 29 September after storm closures; the DLNR notice did not give the year.",
+  "Maui Bus route numbers and timetables from the harbour to Wailuku, Paia or Lahaina.",
+  "Drive time from Kahului to Lahaina.",
+  "Current taxi and ride-hail fares from the port to the airport or ʻĪao Valley.",
+  "A typical all-aboard time for Kahului calls; the day plan uses 17:30."
+ ]
+}

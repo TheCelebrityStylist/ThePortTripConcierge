@@ -1,0 +1,378 @@
+{
+ "slug": "kalamata",
+ "city": "Kalamata",
+ "portName": "Port of Kalamata",
+ "townName": "Kalamata historic centre",
+ "country": "Greece",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Greek",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Kalamata cruise port guide: castle, old town, Messene",
+ "seoDescription": "Ships dock in Kalamata port, 20 min on foot from the centre along Faron Street. Castle €5, museum €10 (2026). Ancient Messene €15 is about 40 min by car.",
+ "quickAnswer": "Kalamata is a docking port: ships berth in the city harbour, and a signed, level walk along Faron Street reaches the centre in about 20 minutes. The historic centre and castle are further north, so a taxi or city bus saves time, and the city beach starts next to the port. Be back on board 60 minutes before all-aboard, or 90 minutes before if you go out to Ancient Messene or Mystras.",
+ "intro": "Kalamata is a working city at the head of the Messinian Gulf, better known in Greece for its olives and its role in the 1821 War of Independence than for cruise calls, which are few. Ships berth in the city port, with Mount Taygetos rising behind the town. The day divides naturally between the city itself, a low-key mix of castle, museums, old-town lanes and a long pebble beach, and a road trip to the walled ancient city of Messene, about 40 minutes away.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Port of Kalamata (cruise berth)",
+   "distanceToCentreKm": null,
+   "notes": "Artificial harbour on the north-east of the Messinian Gulf, certified for cruise ships carrying up to 3,500 passengers. Teloneiou (Customs House) Square is the focal point of the port. Taxis wait across from the dock and city bus 1 stops in front of it. Greece charges a cruise passenger fee for each passenger who goes ashore at ports other than Santorini and Mykonos: €5 from June to September, €3 in April, May and October, €1 from November to March (2026), added to your onboard account."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 20,
+  "km": null,
+  "detail": "Faron Street, a wide, red-paved, signed pedestrian route with ramps and benches, reaches the city centre in about 20 minutes. The historic centre around the Holy Apostles church is about 1.5 km from the dock, and the castle is about another 18 minutes' walk north of the central square, so many visitors take a taxi or bus one way. The city beach is about 200 m from the dock."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 20 min to the centre",
+   "detail": "Follow the signs along Faron Street, part of a 5.5 km pedestrian walkway. An alternative route runs through the Municipal Railway Park, reached by the bike path along the port."
+  },
+  {
+   "mode": "City bus 1",
+   "cost": "Cash to the driver; check the fare at the stop",
+   "time": "Short ride to the historic centre",
+   "detail": "Stops in front of the cruise dock and loops between the beach, the port and the historic centre. Reported to run about every 15 minutes on weekdays, 20 on Saturdays and 30 on Sundays."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree the fare or use the meter",
+   "time": "About 10 min to the castle or the Archaeological Museum",
+   "detail": "Taxis, some offering tours, wait across from the dock. For Ancient Messene or Mystras, agree the price, waiting time and return time before setting off."
+  },
+  {
+   "mode": "Hired car or driver to Ancient Messene or Mystras",
+   "cost": "Agree in advance",
+   "time": "Ancient Messene about 40 min; Mystras about 1 hour; Palace of Nestor about 1 hour",
+   "detail": "These sites are not practical by public transport on a cruise day. A ship tour removes the return risk."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard (16:30 for a 17:30 all-aboard). Leave the historic centre 90 minutes before all-aboard, the castle 1 hour 40 minutes before, Ancient Messene 2 hours 10 minutes before and Mystras 2 hours 30 minutes before.",
+  "detail": "The walk back from the historic centre is longer than it looks on a map, and the city bus runs less often at weekends. From Ancient Messene and Mystras the drive is on country and mountain roads; allow for traffic entering Kalamata.",
+  "emergencyFallback": "In town, take a taxi to the port; it is a short ride from anywhere in the centre. If you are delayed on the road from Messene or Mystras, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Ancient Messene",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi or driver about 40 min each way, plus €15 entry (2026)",
+   "saving": "Depends on group size and the driver's price"
+  },
+  {
+   "item": "Kalamata castle, old town and museum",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk or bus; castle €5, Archaeological Museum €10 (2026)",
+   "saving": "Usually large; no tour needed"
+  }
+ ],
+ "excursionAdvice": "Kalamata itself needs no tour: the centre is a level walk from the ship and the castle, museum and beach are cheap and easy. The ship's tour earns its price for Mystras, an hour away over the mountains, and for anyone who wants Ancient Messene without arranging a driver. A small group on a long call can do Messene by pre-booked taxi with an agreed return time.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, on a summer weekday other than Tuesday.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Take a taxi or bus 1 from the dock to the castle."
+   },
+   {
+    "time": "08:30",
+    "what": "Kalamata castle (€5) at opening, before the heat."
+   },
+   {
+    "time": "09:30",
+    "what": "Walk down through the historic centre: the Holy Apostles church, the Kalograion convent and the Paplomatadika lanes."
+   },
+   {
+    "time": "10:30",
+    "what": "Archaeological Museum of Messenia (€10), on the site of the old municipal market."
+   },
+   {
+    "time": "12:00",
+    "what": "Lunch in the historic centre, for example souvlaki at Tzimis on Holy Apostles Square or roast piglet at Thiasos on Ypapantis Street."
+   },
+   {
+    "time": "13:15",
+    "what": "Walk south through the centre and along Aristomenous Street to the Municipal Railway Park."
+   },
+   {
+    "time": "14:15",
+    "what": "Swim at the city beach next to the port."
+   },
+   {
+    "time": "16:00",
+    "what": "Dry off and walk the last few hundred metres to the dock."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Kalamata castle",
+   "why": "Frankish castle built by Geoffrey I Villehardouin in the 13th century on the ancient acropolis of Pharai, with views over the city and the gulf.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "€5 adult, €3 reduced (2026)",
+   "tip": "Open 08:00–20:00 from April to August, closing earlier from September. The official listing shows Tuesday closures, so plan it for another day."
+  },
+  {
+   "name": "Historic centre (Paplomatadika) and Holy Apostles church",
+   "why": "Lanes of cafés, ouzeries and small shops around the church linked to the start of the 1821 War of Independence.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "About 1.5 km from the dock; walk down to it from the castle."
+  },
+  {
+   "name": "Archaeological Museum of Messenia",
+   "why": "Finds from across Messenia, including a gold cup from the Mycenaean tholos tombs of Peristeria.",
+   "timeNeeded": "1 hour",
+   "cost": "€10 adult, €5 reduced (2026)",
+   "tip": "Open 08:00–20:00 from April to October, but only from 12:30 on Tuesdays."
+  },
+  {
+   "name": "Kalograion convent",
+   "why": "Convent founded in 1796 near the castle, where nuns weave the silk for which Kalamata is known.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free to look around; silk sold in the shop",
+   "tip": "Dress modestly. Combine it with the castle."
+  },
+  {
+   "name": "Municipal Railway Park",
+   "why": "A 54,000 m² park and open-air museum of steam locomotives and rolling stock.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "On the walking route between the port and the centre; good with children."
+  },
+  {
+   "name": "Ancient Messene",
+   "why": "A city founded in the 4th century BC, with its perimeter walls, the Arcadian Gate, a theatre, the agora and a stadium.",
+   "timeNeeded": "3.5–4 hours including travel",
+   "cost": "€15 adult, €8 reduced (2026)",
+   "tip": "About 40 minutes by car. Open 08:00–20:00 from April to August, 08:00–18:00 in late October. The site is large and exposed; take water and a hat."
+  },
+  {
+   "name": "Mystras",
+   "why": "Byzantine castle town climbing a fortified hillside near Sparta.",
+   "timeNeeded": "Most of the day",
+   "cost": "€20 adult, €10 reduced (2026)",
+   "tip": "About an hour each way over the mountains. Steep, uphill walking on two levels. Best as a ship tour."
+  },
+  {
+   "name": "Palace of Nestor",
+   "why": "Mycenaean palace linked to the legendary King Nestor.",
+   "timeNeeded": "Most of the day",
+   "cost": "€10 adult, €5 reduced (2026)",
+   "tip": "About an hour by car. Only for a long call or on a tour."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Kalamata city beach",
+   "howToGetThere": "Walk east from the dock",
+   "time": "About 200 m from the dock",
+   "cost": "Free; sunbeds at beach bars extra",
+   "note": "A long pebble and shingle beach running from the port towards Verga, with beach bars and tavernas along Navarinou Street."
+  },
+  {
+   "name": "Verga and Almyros",
+   "howToGetThere": "Taxi east along the coast",
+   "time": "Within about 20 min by car",
+   "cost": "Free; beach-bar sunbeds extra",
+   "note": "Bays with beach bars and water sports below the Taygetos foothills."
+  },
+  {
+   "name": "Mikri Mantineia and Kitries",
+   "howToGetThere": "Taxi",
+   "time": "Within about 20 min by car",
+   "cost": "Free",
+   "note": "Smaller bays further along the eastern coast; agree a return pickup time."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Roast piglet (gourounopoula) and meze",
+   "where": "Thiasos ouzerie, Ypapantis 7",
+   "price": null
+  },
+  {
+   "dish": "Souvlaki and pork gyros",
+   "where": "Tzimis Souvlakia, Holy Apostles Square",
+   "price": null
+  },
+  {
+   "dish": "Fish of the day and boiled greens",
+   "where": "Mouria Fish Taverna, Kallipoleos 10",
+   "price": null
+  },
+  {
+   "dish": "Sfela cheese, Mani sausage and home cooking",
+   "where": "Mageireion Versailles, Evangelistrias 46",
+   "price": null
+  },
+  {
+   "dish": "Galaktoboureko (custard pie)",
+   "where": "Zaxaroplasteio Skiada, Ypapantis Street",
+   "price": null
+  },
+  {
+   "dish": "Kalamata olives and olive oil to take home",
+   "where": "Trofopolion 51",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Thinking the historic centre is next to the port.",
+   "fix": "It is about 1.5 km north, and the castle further still. Ride up and walk down."
+  },
+  {
+   "mistake": "Visiting the castle or museum on a Tuesday morning.",
+   "fix": "The castle is listed as closed on Tuesdays and the museum opens at 12:30 that day."
+  },
+  {
+   "mistake": "Trying to reach Ancient Messene or Mystras by public bus.",
+   "fix": "Use a ship tour or a driver with an agreed return time."
+  },
+  {
+   "mistake": "Planning Mystras on a short call.",
+   "fix": "It is an hour each way plus steep walking. Choose Ancient Messene, 40 minutes away, instead."
+  },
+  {
+   "mistake": "Leaving the beach too late because the ship is in sight.",
+   "fix": "Allow time to change and walk to the gangway; aim to be aboard 60 minutes before all-aboard."
+  }
+ ],
+ "safety": "Kalamata is a safe, ordinary Greek city. The main risks are summer heat at the castle and at Ancient Messene, which has little shade, and traffic on the busy coast road by the beach. Carry water and a hat, and cross at marked crossings.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "Faron Street, the route from the port to the centre, is level, with ramps and benches. The beach is next to the port. The historic centre has some slopes and uneven paving, and the castle is on a low hill with rough surfaces. Ancient Messene is a large site with uneven ground; Mystras is steep and unsuitable for wheelchairs.",
+ "rainyDay": "Spend the morning at the Archaeological Museum of Messenia and the Historical and Folklore Museum, then shelter in the cafés and arcades of Aristomenous Street and the historic centre. Skip the beach and the open ancient sites.",
+ "crowdTips": "Kalamata sees few cruise calls, and the city rarely feels crowded. The busiest places are the beach bars on summer weekends and Ancient Messene when several coach groups arrive at once; go to Messene early.",
+ "faqs": [
+  {
+   "q": "Is Kalamata a tender port?",
+   "a": "No. Ships berth in the city port, which is certified for cruise ships of up to 3,500 passengers."
+  },
+  {
+   "q": "Is Kalamata walkable from the cruise port?",
+   "a": "Partly. The centre is about 20 minutes on foot along Faron Street; the historic centre and castle are further, so many people take a taxi or bus one way."
+  },
+  {
+   "q": "How do I get from Kalamata cruise port to the old town?",
+   "a": "Walk about 20–30 minutes, or take city bus 1, which stops in front of the dock, or a taxi."
+  },
+  {
+   "q": "Can I visit Ancient Messene from Kalamata on a cruise day?",
+   "a": "Yes. It is about 40 minutes by car and costs €15 to enter (2026). Use a tour or a driver."
+  },
+  {
+   "q": "What can I do in Kalamata in one day from a cruise ship?",
+   "a": "The castle and historic centre in the morning, the Archaeological Museum, lunch, then a swim at the city beach by the port."
+  },
+  {
+   "q": "Are there beaches near Kalamata cruise port?",
+   "a": "Yes. The city beach starts about 200 m from the dock, and Verga and Almyros are within 20 minutes by car."
+  },
+  {
+   "q": "Is Kalamata safe?",
+   "a": "Yes. The main risks are summer heat and traffic on the coast road."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Kalamata castle"
+  },
+  {
+   "name": "Historic centre and Holy Apostles church"
+  },
+  {
+   "name": "Archaeological Museum of Messenia"
+  },
+  {
+   "name": "Municipal Railway Park"
+  },
+  {
+   "name": "Ancient Messene"
+  },
+  {
+   "name": "Mystras"
+  },
+  {
+   "name": "Palace of Nestor"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Municipality of Kalamata – Cruise guide (English)",
+   "url": "https://kalamata.gr/images/arthra/2016/08/01-9998/odhgos-krouazieras-agglika.pdf"
+  },
+  {
+   "title": "Hellenic Heritage (Ministry of Culture / ODAP) – Kalamata castle",
+   "url": "https://www.hh.gr/en/destinations/kalamata-castle/"
+  },
+  {
+   "title": "Hellenic Heritage – Archaeological Museum of Messenia",
+   "url": "https://www.hh.gr/en/destinations/messinia-museum/"
+  },
+  {
+   "title": "Hellenic Heritage – Ancient Messene",
+   "url": "https://www.hh.gr/en/destinations/ancient-messene/"
+  },
+  {
+   "title": "Hellenic Heritage – Mystras",
+   "url": "https://www.hh.gr/en/destinations/mystras/"
+  },
+  {
+   "title": "Hellenic Heritage – Palace of Nestor",
+   "url": "https://www.hh.gr/en/destinations/nestor-palace/"
+  },
+  {
+   "title": "Discover Greece (Greek tourism sector) – Kalamata",
+   "url": "https://www.discovergreece.com/peloponnese/kalamata"
+  },
+  {
+   "title": "MSC Cruises – Greek cruise passenger fee",
+   "url": "https://www.msccruisesusa.com/cruise-passenger-fee"
+  },
+  {
+   "title": "What's in Port – Kalamata",
+   "url": "https://www.whatsinport.com/Kalamata.htm"
+  },
+  {
+   "title": "CruiseMapper – Kalamata cruise schedule",
+   "url": "https://www.cruisemapper.com/ports/kalamata-port-361"
+  },
+  {
+   "title": "Cruise1st – Kalamata",
+   "url": "https://www.cruise1st.co.uk/destinations/southern-europe/kalamata"
+  },
+  {
+   "title": "Nautical Flock – Kalamata port",
+   "url": "https://www.nauticalflock.com/ports/kalamata-greece"
+  },
+  {
+   "title": "TravelGo – 8 places for excellent food in Kalamata (April 2025)",
+   "url": "https://www.travelgo.gr/en/food/501611/8-places-excellent-food-kalamata"
+  }
+ ],
+ "uncertain": [
+  "City bus 1 fare (one undated source gives €1.30) and an official 2026 timetable",
+  "Taxi fares from the port",
+  "Exact walking distance in km from the berth to the central square",
+  "Typical all-aboard time (very few calls listed for 2026)",
+  "Documented visitor scams (none found)"
+ ]
+}

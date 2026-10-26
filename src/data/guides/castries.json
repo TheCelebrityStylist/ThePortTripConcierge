@@ -1,0 +1,421 @@
+{
+ "slug": "castries",
+ "city": "Castries",
+ "portName": "Port Castries (Pointe Seraphine and La Place Carenage)",
+ "townName": "central Castries",
+ "country": "Saint Lucia",
+ "currency": "XCD",
+ "currencySymbol": "EC$",
+ "priceSymbol": "US$",
+ "language": "English (Kwéyòl widely spoken)",
+ "timezone": "AST (UTC-4), no daylight saving time",
+ "lastVerified": "October 2026",
+ "seoTitle": "Castries cruise port guide: berths, taxis and Pigeon Island",
+ "seoDescription": "Castries has two cruise berths: Pointe Seraphine, a 20-min walk from town, and La Place Carenage in the centre. Taxi to Rodney Bay US$20 for 1–3 (2023).",
+ "quickAnswer": "Ships dock at Pointe Seraphine, about a 20-minute walk round the harbour from central Castries, or at La Place Carenage, which is in the town centre. Beaches and Pigeon Island need a taxi; the government fare schedule lists US$20 to Rodney Bay and US$25 to Pigeon Island for 1–3 passengers. Leave Rodney Bay or Pigeon Island two hours before all-aboard, because the road back into Castries can be slow.",
+ "intro": "Castries is a working capital rather than a resort town, and the cruise berths sit inside its harbour. Central Castries is small: the market, Derek Walcott Square and the basilica are close together and easy on foot. The beaches people come for are north of town, at Vigie, Reduit (Rodney Bay) and Pigeon Island, and the Pitons and Soufrière are over an hour's drive south. On busy days up to five ships can call, so taxis, the market and the roads all fill at once. Decide early whether you are staying near town or heading north, and treat Soufrière as a ship-tour day.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Pointe Seraphine",
+   "distanceToCentreKm": 1.5,
+   "notes": "The main cruise terminal, with two cruise berths and a duty-free shopping centre. A tourist information centre opens when ships are in. About 20 minutes' walk to the centre along the harbour footpath; water taxis also cross the harbour to La Place Carenage. Global Ports Holding, which has run the port since April 2024, is upgrading Berth 1 here, with full completion planned for 2027."
+  },
+  {
+   "name": "La Place Carenage",
+   "distanceToCentreKm": 0.2,
+   "notes": "A single cruise berth at the Queen Elizabeth II docks on the edge of downtown, with an air-conditioned duty-free mall. Castries Market is about three minutes' walk away."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 20,
+  "km": 1.5,
+  "detail": "Central Castries is walkable from either berth: about 20 minutes from Pointe Seraphine via the harbour footpath, and a few minutes from La Place Carenage. Vigie Beach is about 25 minutes' walk north of Pointe Seraphine. Everything else (Rodney Bay, Pigeon Island, Morne Fortune, Soufrière) needs a taxi or tour."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 20 min from Pointe Seraphine; 3–5 min from La Place Carenage",
+   "detail": "From Pointe Seraphine follow the harbour footpath round to the town centre. It is hot at midday; carry water."
+  },
+  {
+   "mode": "Water taxi across the harbour",
+   "cost": "Fare set locally; ask before boarding",
+   "time": "A few minutes",
+   "detail": "Water taxis run between Pointe Seraphine and La Place Carenage, which saves the walk round the harbour."
+  },
+  {
+   "mode": "Taxi (fixed government fares)",
+   "cost": "US$8 within Castries/Vigie, US$20 to Rodney Bay, Morne Fortune or La Toc, US$25 to Pigeon Island or Marigot Bay, for 1–3 passengers (official schedule, 2023 revision)",
+   "time": "About 20 min to Reduit Beach/Rodney Bay in normal traffic",
+   "detail": "Licensed taxis queue outside both terminals. They are unmetered: confirm the fare, and whether it is in US or EC dollars, before setting off. The schedule charges more for four to six passengers. Drivers expect a tip of about 10%."
+  },
+  {
+   "mode": "Local minibus",
+   "cost": "Cash fare paid to the driver",
+   "time": "No fixed timetable",
+   "detail": "Minibuses have number plates starting with M. Buses heading north towards Gros Islet and Cap Estate leave from Jeremy Street near the market. They are cheap but crowded and run without a timetable, so they suit a long call and an early return."
+  },
+  {
+   "mode": "Uber",
+   "cost": "App price",
+   "time": "Varies",
+   "detail": "Uber is the only ride-share app operating in Saint Lucia. Availability at the cruise terminals on busy days is not guaranteed; the taxi rank is the reliable option."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. Leave Rodney Bay or Pigeon Island 2 hours before all-aboard, and Soufrière at least 3 hours before.",
+  "detail": "The road between Rodney Bay and Castries is the island's busiest, and journey times can double at peak times. On multi-ship days everyone heads back at once and the taxi ranks empty. Know which berth your ship is at: Pointe Seraphine and La Place Carenage are on opposite sides of the harbour.",
+  "emergencyFallback": "In town, a licensed taxi to either berth costs US$8 for 1–3 passengers on the official schedule. If you will miss all-aboard, call the port agent number in your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Pigeon Island transfer",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi US$25 each way for 1–3 passengers (official schedule, 2023 revision) plus the park entrance fee",
+   "saving": "Depends on your line's price and group size"
+  },
+  {
+   "item": "Reduit Beach (Rodney Bay)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi US$20 each way for 1–3 passengers (official schedule, 2023 revision)",
+   "saving": "Depends on your line's price and group size"
+  },
+  {
+   "item": "Soufrière and the Pitons",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi US$90 for 1–3 passengers to Soufrière (official schedule, 2023 revision), plus site fees",
+   "saving": "Often small once fees and waiting are added; the return risk is higher"
+  }
+ ],
+ "excursionAdvice": "Do Castries, Vigie Beach, Reduit and Pigeon Island on your own: the distances are short and taxi fares are set by the government. The ship's tour is worth it for Soufrière, the Pitons, Sulphur Springs and Diamond Falls. They are over an hour away on a winding road, and on a ship's tour the ship waits if the coach is late. If your call is short or several ships are in, the guaranteed return matters more than the price.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Pointe Seraphine at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Off the ship. Walk the harbour footpath into Castries (about 20 minutes), or take a water taxi across to La Place Carenage."
+   },
+   {
+    "time": "09:00",
+    "what": "Castries Central Market while it is cooler: spices, cocoa, crafts and the food stalls."
+   },
+   {
+    "time": "09:45",
+    "what": "Derek Walcott Square and the Cathedral Basilica of the Immaculate Conception next to it."
+   },
+   {
+    "time": "10:30",
+    "what": "Licensed taxi from the La Place Carenage rank to Pigeon Island. Agree the fare first (US$25 for 1–3 passengers on the official schedule)."
+   },
+   {
+    "time": "11:00",
+    "what": "Pigeon Island: climb to Fort Rodney before the heat peaks, then the ruins and the interpretation centre."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch at the park's restaurant, or a short taxi hop to Reduit Beach for Spinnaker's."
+   },
+   {
+    "time": "13:45",
+    "what": "Swim at one of Pigeon Island's two beaches."
+   },
+   {
+    "time": "15:30",
+    "what": "Taxi back to Pointe Seraphine, two hours before all-aboard."
+   },
+   {
+    "time": "16:10",
+    "what": "Duty-free shops at Pointe Seraphine within sight of the ship."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Castries Central Market",
+   "why": "Over 300 vendors selling produce, spices such as nutmeg and cinnamon, cocoa, crafts and cooked local food.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Open 07:00–18:00, closed Sundays; busiest on Saturdays. Three minutes from La Place Carenage."
+  },
+  {
+   "name": "Derek Walcott Square",
+   "why": "The shaded central square, named after the Nobel Prize-winning poet, with his bust.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free",
+   "tip": "Combine with the basilica on the same block."
+  },
+  {
+   "name": "Cathedral Basilica of the Immaculate Conception",
+   "why": "Castries' main church, beside Derek Walcott Square, about 0.5 km from La Place Carenage.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "It is a working church; cover shoulders and avoid service times."
+  },
+  {
+   "name": "Pigeon Island National Landmark",
+   "why": "A former island joined to the mainland by a causeway, with the ruins of Fort Rodney, a hilltop view over Rodney Bay, two beaches and a small museum. Run by the Saint Lucia National Trust.",
+   "timeNeeded": "3 hours plus 2 × 30 min taxi",
+   "cost": "Taxi US$25 each way for 1–3 passengers (official schedule, 2023 revision); entrance fee paid at the gate",
+   "tip": "Open 09:30–17:00 (2026). There is no ATM inside, so bring cash."
+  },
+  {
+   "name": "Morne Fortune and Fort Charlotte",
+   "why": "The hill above Castries with old British fortifications and views over the harbour and your ship.",
+   "timeNeeded": "1–1.5 hours by taxi",
+   "cost": "Taxi US$20 for 1–3 passengers (official schedule, 2023 revision)",
+   "tip": "Walking up is steep and hot; take a taxi and ask the driver to wait."
+  },
+  {
+   "name": "Pointe Seraphine and La Place Carenage duty-free centres",
+   "why": "Duty-free shopping and local crafts beside the ships.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free to browse",
+   "tip": "Leave shopping until the end of the day so you are close to the ship."
+  },
+  {
+   "name": "Soufrière, the Pitons and Sulphur Springs",
+   "why": "The UNESCO-listed volcanic peaks, the drive-in volcano at Sulphur Springs and Diamond Falls Botanical Gardens, in the south-west.",
+   "timeNeeded": "Full day; over an hour each way by road",
+   "cost": "Taxi to Soufrière US$90 for 1–3 passengers (official schedule, 2023 revision), plus site fees",
+   "tip": "Best done as a ship's tour. Independently, leave Soufrière at least 3 hours before all-aboard."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Vigie Beach",
+   "howToGetThere": "Walk north from Pointe Seraphine, or a short taxi",
+   "time": "About 25 min walk; about 5 min by taxi",
+   "cost": "Free; taxi US$8 for 1–3 passengers (official schedule, 2023 revision)",
+   "note": "Calm bay next to George F. L. Charles Airport, with snack vendors and beach bars. The closest beach to the ships."
+  },
+  {
+   "name": "Reduit Beach (Rodney Bay)",
+   "howToGetThere": "Taxi north to Rodney Bay",
+   "time": "About 20 min in normal traffic",
+   "cost": "Free; taxi US$20 for 1–3 passengers (official schedule, 2023 revision)",
+   "note": "Long sandy beach with bars and restaurants, good for swimming. Leave 2 hours before all-aboard."
+  },
+  {
+   "name": "Pigeon Island beaches",
+   "howToGetThere": "Taxi to Pigeon Island National Landmark",
+   "time": "About 30 min",
+   "cost": "Taxi US$25 for 1–3 passengers (official schedule, 2023 revision); park entrance fee",
+   "note": "Two beaches inside the park for swimming and snorkelling, with showers and toilets."
+  },
+  {
+   "name": "La Toc Beach",
+   "howToGetThere": "Taxi south of Castries",
+   "time": "About 10 min",
+   "cost": "Taxi US$20 for 1–3 passengers (official schedule, 2023 revision)",
+   "note": "Good snorkelling, but most of the shore belongs to a Sandals resort, so public space is limited."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Green fig (green banana) and saltfish, the national dish",
+   "where": "Food stalls at Castries Central Market",
+   "price": null
+  },
+  {
+   "dish": "Bouyon, callaloo soup or lambi (conch)",
+   "where": "Castries Central Market food stalls",
+   "price": null
+  },
+  {
+   "dish": "French-Caribbean lunch by the water",
+   "where": "The Coal Pot, Vigie Marina (lunch Monday–Friday)",
+   "price": null
+  },
+  {
+   "dish": "Creole lunch in a historic house",
+   "where": "Pink Plantation House, Castries (closed Saturdays)",
+   "price": null
+  },
+  {
+   "dish": "Grilled fish and drinks on the sand",
+   "where": "Spinnaker's Beach Bar & Grill, Reduit Beach",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Not checking which berth the ship is at.",
+   "fix": "Pointe Seraphine and La Place Carenage face each other across the harbour. Note your berth before you leave and tell the taxi driver."
+  },
+  {
+   "mistake": "Getting in a taxi without settling the fare and the currency.",
+   "fix": "Confirm the price and whether it is US or EC dollars before you leave. The government schedule lists fares by number of passengers."
+  },
+  {
+   "mistake": "Leaving Rodney Bay late in the afternoon.",
+   "fix": "The road into Castries is busy and times can double. Leave 2 hours before all-aboard."
+  },
+  {
+   "mistake": "Trying Soufrière and the Pitons independently on a short call.",
+   "fix": "It is over an hour each way on a winding road. Take the ship's tour, or stay in the north."
+  },
+  {
+   "mistake": "Paying everything in US dollars cash.",
+   "fix": "US dollars are accepted, but change often comes back at a poor rate. The fixed rate is US$1 = EC$2.70; carry some EC dollars from an ATM."
+  }
+ ],
+ "safety": "Castries is generally safe for cruise visitors in daytime, but the UK government reports serious crime on the island, including armed robbery and gang-related gun crime. Stick to main streets, avoid isolated areas and empty beaches, and do not carry large amounts of cash or jewellery. Use only licensed taxis. Currents can be strong and not all beaches have lifeguards or warning flags, so swim where others are and obey local warnings. The hurricane season runs from June to November and can bring flash floods and landslides.",
+ "scams": [
+  "Fare confusion: a price agreed in 'dollars' can turn out to mean US rather than EC dollars. Taxis are unmetered; confirm the amount and currency before you set off.",
+  "Unlicensed drivers offering rides at the terminals: use the licensed taxis at the official ranks.",
+  "Poor change in US dollars: vendors who accept US cash often give change at a bad rate. Pay in EC dollars where you can."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "Both berths are on the level harbour front, and the walk from La Place Carenage into the town centre is short and flat. The 20-minute harbour walk from Pointe Seraphine is long in the heat; the water taxi or a taxi is easier, but boarding a small boat may not suit wheelchair users. Pavements in central Castries are uneven and the market is crowded. Morne Fortune and Fort Rodney on Pigeon Island involve steep climbs. Ask your cruise line about accessible excursions and adapted vehicles before the call.",
+ "rainyDay": "Showers are common, especially from September to November, and usually pass quickly. Stay in town: the covered market, the basilica and the air-conditioned La Place Carenage mall work in the rain. Avoid the Soufrière road after heavy rain, which can bring flash floods and landslides.",
+ "crowdTips": "Up to five ships can call on one day in the October–April season. On those days taxis to Rodney Bay and Pigeon Island go quickly in the first hour and the ranks are thin when everyone returns. Go north early, visit the market before the tours arrive, and keep the duty-free shops for the last hour. Saturday is the busiest market day; on Sunday the market is closed and town is quiet.",
+ "faqs": [
+  {
+   "q": "Is Castries walkable from the cruise port?",
+   "a": "Yes. From Pointe Seraphine it is about 20 minutes on foot along the harbour; from La Place Carenage the centre is a few minutes away."
+  },
+  {
+   "q": "Is Castries a tender port?",
+   "a": "No. Ships dock at Pointe Seraphine or La Place Carenage."
+  },
+  {
+   "q": "How do I get from Castries cruise port to Rodney Bay or Reduit Beach?",
+   "a": "Take a licensed taxi; the official schedule lists US$20 for 1–3 passengers and the drive takes about 20 minutes in normal traffic."
+  },
+  {
+   "q": "How much is a taxi from Castries cruise port to Pigeon Island?",
+   "a": "US$25 for 1–3 passengers on the government fare schedule (2023 revision). Confirm the fare and currency before leaving."
+  },
+  {
+   "q": "What can I do in Castries in one day from a cruise ship?",
+   "a": "The market, Derek Walcott Square and the basilica in the morning, then Pigeon Island or Reduit Beach. Leave the north 2 hours before all-aboard."
+  },
+  {
+   "q": "Beaches near Castries cruise port",
+   "a": "Vigie Beach is about 25 minutes' walk from Pointe Seraphine. Reduit Beach and Pigeon Island are 20–30 minutes north by taxi."
+  },
+  {
+   "q": "Can I see the Pitons from a Castries cruise stop?",
+   "a": "Yes, but Soufrière is over an hour each way by road. A ship's tour is the safer choice."
+  },
+  {
+   "q": "Is Castries safe?",
+   "a": "Generally yes in daytime in busy areas. Avoid isolated places, carry little cash and use licensed taxis."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Castries Central Market"
+  },
+  {
+   "name": "Derek Walcott Square"
+  },
+  {
+   "name": "Cathedral Basilica of the Immaculate Conception"
+  },
+  {
+   "name": "Pigeon Island National Landmark"
+  },
+  {
+   "name": "Reduit Beach"
+  },
+  {
+   "name": "Morne Fortune"
+  },
+  {
+   "name": "The Pitons"
+  }
+ ],
+ "sources": [
+  {
+   "title": "SLASPA – Cruise and ferry services (Pointe Seraphine, La Place Carenage)",
+   "url": "https://storage.slaspa.com/contentPages/view/cruise-and-ferry-services"
+  },
+  {
+   "title": "Government of Saint Lucia – Port Castries to host mega cruise ships",
+   "url": "https://www.govt.lc/news/port-castries-to-host-mega-cruise-ships-in-december"
+  },
+  {
+   "title": "Global Ports Holding – Cruise infrastructure programme across five destinations (September 2025)",
+   "url": "https://www.globalportsholding.com/whats-new-insights/global-ports-holding-advances-cruise-infrastructure-program-across-five-destinations/"
+  },
+  {
+   "title": "Laws of Saint Lucia – Motor Vehicles and Road Traffic Act, taxi fares in US$ (2023 revision)",
+   "url": "https://www.attorneygeneralchambers.com/laws-of-saint-lucia/motor-vehicles-and-road-traffic-act/part-2-taxi-fares-in-uss"
+  },
+  {
+   "title": "GOV.UK – St Lucia travel advice: safety and security",
+   "url": "https://gov.uk/foreign-travel-advice/st-lucia/safety-and-security"
+  },
+  {
+   "title": "Saint Lucia Tourism Authority – Plan your trip",
+   "url": "https://stlucia.org/en/plan-your-trip/"
+  },
+  {
+   "title": "Celebrity Cruises – Castries port guide",
+   "url": "https://www.celebritycruises.com/ports/castries"
+  },
+  {
+   "title": "Cunard – Castries, St Lucia",
+   "url": "https://www.cunard.com/en-us/ports/castries-st-lucia"
+  },
+  {
+   "title": "Cruise Hive – St Lucia cruise port guide",
+   "url": "https://www.cruisehive.com/st-lucia-cruise-port/138214"
+  },
+  {
+   "title": "Cruise Hive – Port operator takes over at St Lucia",
+   "url": "https://www.cruisehive.com/port-operator-takes-over-at-st-lucia-expansion-on-the-horizon/131938"
+  },
+  {
+   "title": "Seatrade Cruise News – GPH two-year timeline for St Lucia upgrades",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/gph-sets-out-two-year-timeline-to-complete-st-lucia-cruise-upgrades"
+  },
+  {
+   "title": "The Traveler – Pigeon Island entrance fee and opening hours",
+   "url": "https://www.thetraveler.org/pigeon-island-entrance-fee-opening-hours-guide/"
+  },
+  {
+   "title": "The Traveler – Rodney Bay to Pigeon Island transport guide",
+   "url": "https://www.thetraveler.org/rodney-bay-to-pigeon-island-complete-transport-guide/"
+  },
+  {
+   "title": "The Voice – Longer hours at Pigeon Island National Landmark (2022)",
+   "url": "https://thevoiceslu.com/2022/08/longer-hours-and-new-attractions-at-pigeon-island-national-landmark-for-august/"
+  },
+  {
+   "title": "Frommer's – Getting around St Lucia",
+   "url": "https://www.frommers.com/destinations/st-lucia/planning-a-trip/getting-around"
+  },
+  {
+   "title": "Frommer's – The Coal Pot",
+   "url": "https://www.frommers.com/destinations/st-lucia/restaurants/the-coal-pot"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Castries, St Lucia",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/castries-st-lucia/"
+  }
+ ],
+ "uncertain": [
+  "Pigeon Island entrance fee amount (one 2026 source reports about US$10 per adult; not confirmed by the Saint Lucia National Trust)",
+  "Route number and fare of the minibus from Castries to Gros Islet",
+  "Water taxi fare between Pointe Seraphine and La Place Carenage",
+  "Sulphur Springs entry price",
+  "Whether the taxi fare schedule in the 2023 revised laws is the version currently in force, and waiting-time charges",
+  "Whether the Berth 1 works at Pointe Seraphine change which berth ships use in the 2026–27 season",
+  "Typical all-aboard time for Castries calls"
+ ]
+}

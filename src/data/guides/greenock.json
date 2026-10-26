@@ -1,0 +1,349 @@
+{
+ "slug": "greenock",
+ "city": "Greenock",
+ "portName": "Greenock Ocean Terminal",
+ "townName": "Greenock town centre",
+ "country": "United Kingdom (Scotland)",
+ "currency": "GBP",
+ "currencySymbol": "£",
+ "language": "English",
+ "timezone": "GMT (UTC+0), BST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Greenock cruise port guide: train to Glasgow, Loch Lomond",
+ "seoDescription": "Greenock Ocean Terminal is a 10–15 min walk from Greenock Central; trains reach Glasgow in about 40 min, 3–4 an hour. Kelvingrove is free. Return rule inside.",
+ "quickAnswer": "Ships berth alongside at Greenock Ocean Terminal, so there is no tender. Greenock Central and Greenock West stations are each about a 15-minute walk away, and ScotRail trains reach Glasgow Central in about 40 minutes, usually three to four an hour. Board a train back from Glasgow Central at least 160 minutes before all-aboard.",
+ "intro": "Greenock is the cruise port for Glasgow, on the south bank of the Firth of Clyde about 25 miles west of the city. The terminal was rebuilt with a £20 million visitor centre that opened in 2023, including the Wyllieum gallery, Scotts restaurant and a 200-metre floating pontoon berth. Most passengers take the train to Glasgow; a smaller number stay in Greenock, where the McLean Museum, Victoria Tower and the view from Lyle Hill fill a few hours. Loch Lomond is possible by public transport but needs two trains and a change in Glasgow.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Greenock Ocean Terminal",
+   "distanceToCentreKm": null,
+   "notes": "Two cruise berths, one a 200-metre floating pontoon. The visitor centre holds the arrivals hall run by Peel Ports Clydeport, the Wyllieum gallery, Scotts restaurant and a base for the Inverclyde Tourist Group, whose volunteers greet ships and offer free walking tours. Taxis usually wait when ships are in port."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": null,
+  "detail": "Greenock town centre is a short walk from the terminal. ScotRail puts Greenock Central at 10–15 minutes on foot, and Greenock West is about 15 minutes. Glasgow itself is not walkable: take the train."
+ },
+ "transportSections": [
+  {
+   "mode": "Train to Glasgow (ScotRail)",
+   "cost": "About £14.60 anytime return from Greenock West, £8.90 single (2026)",
+   "time": "About 40 min (34–51 min depending on the service)",
+   "detail": "From Greenock Central or Greenock West to Glasgow Central, usually three to four trains an hour. Buy at the ticket office or machine, from on-train staff, online or in the ScotRail app."
+  },
+  {
+   "mode": "Rail and City Sightseeing combined ticket",
+   "cost": "Ask at Greenock Central ticket office",
+   "time": "Bus tour runs about every 15–30 min, 09:30–16:30",
+   "detail": "Standard Class rail plus a 21-stop open-top hop-on, hop-off bus in Glasgow. Board at Stop 8 outside the Radisson Blu on Oswald Street, or Stop 1 at George Square, about 10 minutes' walk from Glasgow Central. Show the ticket to the driver and keep it for the train back."
+  },
+  {
+   "mode": "Train to Loch Lomond (Balloch)",
+   "cost": "Check ScotRail fares",
+   "time": "About 40 min to Glasgow, then about 50 min from Glasgow Queen Street",
+   "detail": "Change in Glasgow and cross the city centre to Queen Street. Balloch station is a short walk from Loch Lomond Shores and the Sweeney's Cruises boats."
+  },
+  {
+   "mode": "Taxi to Glasgow",
+   "cost": "Agree the fare first",
+   "time": "30–45 min depending on traffic",
+   "detail": "Usually available outside the terminal when ships are in. Worth it only shared, or if trains are disrupted."
+  },
+  {
+   "mode": "Bus to Glasgow",
+   "cost": "Check locally",
+   "time": "50–70 min",
+   "detail": "From Greenock town centre. Slower than the train."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Board a train back from Glasgow Central at least 160 minutes before all-aboard (by 14:50 for a 17:30 all-aboard). From Balloch, start back 240 minutes before. In Greenock itself, be back on board 60 minutes before.",
+  "detail": "The Glasgow rule covers the slowest scheduled journey (51 minutes), the 15-minute walk from Greenock Central or West, and a 90-minute buffer for a missed or cancelled train. The Balloch rule adds the second train and the change between Glasgow Queen Street and Glasgow Central.",
+  "emergencyFallback": "If trains are cancelled, take a taxi from Glasgow city centre (30–45 minutes in normal traffic) and call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Glasgow day",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "About £14.60 anytime return by train (2026); Kelvingrove free",
+   "saving": "Varies"
+  }
+ ],
+ "excursionAdvice": "Glasgow is easy on your own: the trains are frequent, the walk to the station is short, and the main museums are free. Loch Lomond by public transport is possible but needs two trains, a cross-city change and a long margin, so on a short call a ship or coach tour is the safer choice. Tours that combine Loch Lomond with Stirling Castle typically take 6–8 hours and are not practical independently in one port day.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, on a day when Kelvingrove opens at 10:00 (Monday to Thursday or Saturday).",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Off the ship and walk to Greenock Central (10–15 minutes)."
+   },
+   {
+    "time": "09:00",
+    "what": "Train to Glasgow Central, about 40 minutes. Buy a return, or the combined rail and City Sightseeing ticket."
+   },
+   {
+    "time": "09:45",
+    "what": "Arrive Glasgow Central. Join the City Sightseeing bus at Stop 8 on Oswald Street or walk to George Square."
+   },
+   {
+    "time": "10:30",
+    "what": "Kelvingrove Art Gallery and Museum (free), about 90 minutes."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch in the city centre or the West End."
+   },
+   {
+    "time": "13:15",
+    "what": "Finish the bus loop or walk the city centre around George Square."
+   },
+   {
+    "time": "14:45",
+    "what": "Train from Glasgow Central back to Greenock, no later than 14:50."
+   },
+   {
+    "time": "15:35",
+    "what": "Arrive Greenock Central and walk back to the terminal."
+   },
+   {
+    "time": "16:00",
+    "what": "Back on board, 90 minutes before all-aboard. With spare time, look round the Wyllieum at the terminal first."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Kelvingrove Art Gallery and Museum",
+   "why": "Glasgow's large free art gallery and museum on Argyle Street, in the West End.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free",
+   "tip": "Open 10:00–17:00 Monday to Thursday and Saturday, 11:00–17:00 Friday and Sunday. Kelvinhall subway is about half a mile away."
+  },
+  {
+   "name": "Glasgow City Sightseeing bus tour",
+   "why": "21-stop open-top loop of the city, sold with the train ticket at Greenock Central.",
+   "timeNeeded": "1.5–3 hours",
+   "cost": "Combined ticket; ask at the station",
+   "tip": "Buses run about every 15–30 minutes from 09:30 to 16:30, so the last loop ends too late for most ships."
+  },
+  {
+   "name": "The Wyllieum",
+   "why": "Gallery at the Ocean Terminal holding the world's largest collection of work by artist George Wyllie, who worked in Greenock as a customs officer.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check on arrival",
+   "tip": "It is in the terminal building, so it fits the start or end of the day."
+  },
+  {
+   "name": "McLean Museum and Art Gallery",
+   "why": "Free museum on James Watt, Egyptology, local and maritime history, and over 430 oil paintings including the Glasgow Boys.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "15 Kelly Street, near Greenock West station. Open Wednesday to Saturday, 10:00–16:00; may close 12:00–13:00 and on public holidays."
+  },
+  {
+   "name": "Victoria Tower and the Municipal Buildings",
+   "why": "The 245 ft tower, built in 1889, dominates the town centre near Cathcart Square and the Lyle Fountain.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free to view",
+   "tip": "Combine with the 1818 Custom House on the waterfront."
+  },
+  {
+   "name": "Lyle Hill",
+   "why": "Hill behind the town at 426 ft with views over the Clyde and towards Glasgow, and the Free French Forces Memorial Cross.",
+   "timeNeeded": "1.5–2 hours on foot",
+   "cost": "Free",
+   "tip": "Hillwalking boots are recommended; paths can be rough."
+  },
+  {
+   "name": "Loch Lomond at Balloch",
+   "why": "The southern end of the loch, gateway to the national park, with boat trips and a gentle 30-minute walk from Loch Lomond Shores.",
+   "timeNeeded": "Full day including two trains",
+   "cost": "Rail fares plus any boat trip",
+   "tip": "Only on a long call; start back 240 minutes before all-aboard."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Fish and chips with a Clyde view",
+   "where": "Scotts Greenock, Ocean Terminal",
+   "price": null
+  },
+  {
+   "dish": "Chargrilled langoustines or Scotch steak",
+   "where": "Scotts Greenock, Ocean Terminal",
+   "price": null
+  },
+  {
+   "dish": "Coffee and a light lunch by the loch",
+   "where": "Café Zest, Loch Lomond Shores, Balloch",
+   "price": null
+  },
+  {
+   "dish": "Coffee and cake",
+   "where": "Thornton's Caffe, Loch Lomond Shores, Balloch",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Leaving Glasgow on a late-afternoon train.",
+   "fix": "Board by 160 minutes before all-aboard. Some services take 51 minutes, and you still have a 15-minute walk at the Greenock end."
+  },
+  {
+   "mistake": "Trying to do Loch Lomond and Glasgow in one day by train.",
+   "fix": "Pick one. Loch Lomond alone needs two trains and a change across Glasgow."
+  },
+  {
+   "mistake": "Planning Kelvingrove for 10:00 on a Friday or Sunday.",
+   "fix": "It opens at 11:00 on those days; do the bus tour first."
+  },
+  {
+   "mistake": "Assuming the McLean Museum is open every day.",
+   "fix": "It opens Wednesday to Saturday only."
+  },
+  {
+   "mistake": "Coming ashore without rain gear.",
+   "fix": "The west of Scotland weather changes quickly; carry a waterproof."
+  }
+ ],
+ "safety": "Greenock and Glasgow are generally safe for visitors. Use normal city sense in Glasgow, especially around the stations, and keep bags closed on busy trains. The bigger risk is the return: rail disruption can happen, so keep the 90-minute buffer and have the port agent number to hand. Lyle Hill paths can be rough and slippery after rain. Emergency number 999 (112 also works).",
+ "scams": [],
+ "emergencyNumber": "999",
+ "accessibility": "The terminal is a modern building on the waterfront and the walk into Greenock town centre is short. ScotRail trains to Glasgow are frequent; book passenger assistance in advance if you need help boarding. Kelvingrove has lift access to all public areas, accessible toilets on every floor and a hearing loop. Lyle Hill is unsuitable for wheelchairs. Ask the McLean Museum about access on 01475 715624.",
+ "rainyDay": "Rain does not stop a Glasgow day: Kelvingrove is free and indoors. In Greenock, the Wyllieum at the terminal and the McLean Museum (Wednesday to Saturday) are the indoor options. Skip Lyle Hill and Loch Lomond in heavy rain or low cloud.",
+ "crowdTips": "The terminal was built for about 150,000 passengers a year and passed that target in 2023, with 89 calls that season. If a train is full, wait for the next one; three to four run each hour. Do Kelvingrove early, before tour groups arrive.",
+ "faqs": [
+  {
+   "q": "Is Greenock a tender port?",
+   "a": "No. Ships berth alongside at Greenock Ocean Terminal."
+  },
+  {
+   "q": "Is Greenock walkable from the cruise port?",
+   "a": "Yes. The town centre is a short walk, and Greenock Central and Greenock West stations are about 15 minutes on foot."
+  },
+  {
+   "q": "How do I get from Greenock cruise port to Glasgow?",
+   "a": "Walk to Greenock Central or Greenock West and take a ScotRail train to Glasgow Central: about 40 minutes, usually three to four trains an hour."
+  },
+  {
+   "q": "How much is the train from Greenock to Glasgow?",
+   "a": "About £8.90 single or £14.60 anytime return from Greenock West in 2026."
+  },
+  {
+   "q": "Can I visit Loch Lomond from Greenock on a cruise?",
+   "a": "Yes on a long call: train to Glasgow, then about 50 minutes from Glasgow Queen Street to Balloch. Start back 240 minutes before all-aboard, or take a tour."
+  },
+  {
+   "q": "What can I do in Greenock in one day from a cruise ship?",
+   "a": "The Wyllieum at the terminal, the McLean Museum, Victoria Tower and a walk up Lyle Hill; or spend the day in Glasgow."
+  },
+  {
+   "q": "How long is the train from Greenock to Glasgow?",
+   "a": "About 40 minutes; scheduled services take 34–51 minutes."
+  },
+  {
+   "q": "Is Greenock safe?",
+   "a": "Yes. Use normal city sense in Glasgow and keep a margin for rail disruption."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Kelvingrove Art Gallery and Museum"
+  },
+  {
+   "name": "Glasgow City Sightseeing"
+  },
+  {
+   "name": "The Wyllieum"
+  },
+  {
+   "name": "McLean Museum and Art Gallery"
+  },
+  {
+   "name": "Victoria Tower"
+  },
+  {
+   "name": "Lyle Hill"
+  },
+  {
+   "name": "Loch Lomond"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Inverclyde Council – New £20m Inverclyde cruise visitor centre launched (2023)",
+   "url": "https://www.inverclyde.gov.uk/news/2023/aug/new-20m-inverclyde-cruise-visitor-centre-launched"
+  },
+  {
+   "title": "ScotRail – Cruise ship passengers",
+   "url": "https://www.scotrail.co.uk/scotland-by-rail/things-do/cruise-ship-passengers"
+  },
+  {
+   "title": "ScotRail – Enjoy Loch Lomond by train",
+   "url": "https://www.scotrail.co.uk/scotland-by-rail/destinations/enjoy-loch-lomond-by-train"
+  },
+  {
+   "title": "Visit Glasgow – Unmissable day trips from Glasgow",
+   "url": "https://www.visitglasgow.com/unmissable-day-trips-from-glasgow"
+  },
+  {
+   "title": "Glasgow Life – Kelvingrove Art Gallery and Museum visitor and access information",
+   "url": "https://glasgowlife.org.uk/museums/kelvingrove/visit/Pages/Accessibility-Information.aspx"
+  },
+  {
+   "title": "Art UK – McLean Museum and Art Gallery",
+   "url": "https://batch.artuk.org/visit/venues/mclean-museum-and-art-gallery-6988"
+  },
+  {
+   "title": "Wikipedia – McLean Museum",
+   "url": "https://en.wikipedia.org/wiki/McLean_Museum"
+  },
+  {
+   "title": "Inverclyde Chamber of Commerce – Scotts Greenock",
+   "url": "https://inverclydechamber.co.uk/scotts-greenock/"
+  },
+  {
+   "title": "The Arts Society – Reasons to visit the Wyllieum",
+   "url": "https://theartssociety.org/arts-news-features/7-great-reasons-visit-wyllieum"
+  },
+  {
+   "title": "Trainline – Greenock Central to Glasgow train times",
+   "url": "https://www.thetrainline.com/train-times/greenock-central-to-glasgow"
+  },
+  {
+   "title": "TrainTickets.com – Greenock West to Glasgow Central",
+   "url": "https://www.traintickets.com/train-times/greenock-west-to-glasgow-central/"
+  },
+  {
+   "title": "Adventour Begins – Glasgow cruise port guide (Greenock), updated 2026",
+   "url": "https://adventourbegins.com/glasgow-port-guide/"
+  },
+  {
+   "title": "Beyond Ships – Glasgow (Greenock) cruise port",
+   "url": "https://beyondships3.com/glasgow-greenock-cruise-port.html"
+  },
+  {
+   "title": "My Voyage Scotland – Things to do in Greenock",
+   "url": "https://www.myvoyagescotland.com/things-to-do-in-greenock-hotels"
+  }
+ ],
+ "uncertain": [
+  "Wyllieum opening hours and admission",
+  "Scotts Greenock opening hours and prices",
+  "Rail fares from Greenock Central (only Greenock West fares were checked) and the price of the combined rail and City Sightseeing ticket",
+  "Walking time between Glasgow Central and Glasgow Queen Street",
+  "Taxi fares from Greenock to Glasgow or Balloch",
+  "Typical all-aboard times at Greenock",
+  "Ship excursion prices for Glasgow and Loch Lomond"
+ ]
+}

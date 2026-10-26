@@ -1,0 +1,375 @@
+{
+ "slug": "gdynia",
+ "city": "Gdynia",
+ "portName": "Port of Gdynia (French Quay / Nabrzeże Francuskie)",
+ "townName": "Gdynia city centre",
+ "country": "Poland",
+ "currency": "PLN",
+ "currencySymbol": "zł",
+ "language": "Polish",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Gdynia cruise port guide: SKM to Gdańsk and Sopot",
+ "seoDescription": "Big ships dock at Gdynia's French Quay, a 30-minute walk from the station. SKM trains reach Sopot in 15 min and Gdańsk in 30–40. Leave Gdańsk 3 h early.",
+ "quickAnswer": "Large cruise ships dock at the French Quay (Nabrzeże Francuskie) in Gdynia's working port, about 30 minutes on foot from Gdynia Główna station; smaller ships may use the Pomeranian Quay, about 10 minutes from the centre. Most passengers take a shuttle or taxi to the station, then the SKM commuter train to Gdańsk (30–40 min) or Sopot (about 15 min). Leave Gdańsk's Main Town at least 3 hours before all-aboard.",
+ "intro": "Gdynia is the cruise gateway to the Tricity: Gdynia itself, the resort town of Sopot and historic Gdańsk. Gdynia is a 1920s port city with modernist buildings, a long seafront and two museum ships, but most passengers head for Gdańsk's rebuilt Main Town. The berths are in an industrial area with few facilities, so the day starts with a shuttle, taxi or a long walk to the station. The SKM trains are frequent and simple, but the total return journey from Gdańsk is well over an hour, which is where people get caught out.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "French Quay (Nabrzeże Francuskie)",
+   "distanceToCentreKm": null,
+   "notes": "Used by most large cruise ships. In the industrial port, with no passenger terminal facilities and no Wi-Fi. About a 30-minute walk to Gdynia Główna station and the centre. Shuttles and taxis meet the ships. The Emigration Museum in the historic Marine Station is near this quay."
+  },
+  {
+   "name": "Pomeranian Quay (Nabrzeże Pomorskie)",
+   "distanceToCentreKm": null,
+   "notes": "Used by some smaller ships. About a 10-minute walk to the city centre."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 30,
+  "km": null,
+  "detail": "From the French Quay it is about a 30-minute walk through the port to the centre and Gdynia Główna station; from the Pomeranian Quay it is about 10 minutes. Gdańsk and Sopot need the train or a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "Shuttle bus (ship or port)",
+   "cost": "Varies; check your daily programme",
+   "time": "About 10 min to the centre",
+   "detail": "Shuttles to Gdynia city centre are usually offered from the French Quay because there are no facilities at the berth. Check where it drops you and when the last shuttle back leaves."
+  },
+  {
+   "mode": "SKM commuter train to Gdańsk Główny",
+   "cost": "Check the fare at the machine or ticket office",
+   "time": "30–40 min",
+   "detail": "From Gdynia Główna, take any SKM train towards Gdańsk and get off at Gdańsk Główny, the closest stop to the centre. Trains run about every 10–15 minutes between 05:00 and 19:00, less often later. Buy SKM tickets from platform machines (English menu), the SKM ticket office or apps such as jakdojade or moBILET. Paper tickets must be stamped in the yellow validators before you travel. Buying from the conductor costs more."
+  },
+  {
+   "mode": "SKM commuter train to Sopot",
+   "cost": "Check the fare at the machine or ticket office",
+   "time": "About 15 min",
+   "detail": "Same SKM line; get off at Sopot. Monte Cassino Street and the pier are a short walk from the station."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree or check the fare before setting off",
+   "time": "About 10 min to Gdynia centre; longer to Sopot and Gdańsk",
+   "detail": "Use taxis from a company, with its logo and phone number on the side and roof. Ask whether the driver speaks English."
+  },
+  {
+   "mode": "Walk from Gdańsk Główny to the Main Town",
+   "cost": "Free",
+   "time": "About 15 min to Długa Street",
+   "detail": "Walk south from the station to the start of the Royal Route and the Main Town."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave Gdańsk's Main Town 3 hours before all-aboard. Leave Sopot 2 hours before all-aboard. From Gdynia city centre, start back 90 minutes before all-aboard.",
+  "detail": "The return from Gdańsk adds up: 15 minutes' walk to Gdańsk Główny, a wait, 30–40 minutes on the SKM, then a shuttle, taxi or 30-minute walk from Gdynia Główna to the French Quay. Last shuttles often leave well before all-aboard, so check the time.",
+  "emergencyFallback": "If a train is cancelled or late, take a taxi or Bolt from Gdańsk or Sopot straight to the French Quay; tell the driver the quay name. If you will miss all-aboard, call the port agent number in your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Gdańsk Main Town",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Shuttle or taxi to Gdynia Główna, then SKM to Gdańsk Główny (30–40 min)",
+   "saving": "Usually most of the tour price, but you carry the return-timing risk"
+  },
+  {
+   "item": "Sopot pier and Monte Cassino Street",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "SKM from Gdynia Główna to Sopot, about 15 min",
+   "saving": "Most of the tour price"
+  }
+ ],
+ "excursionAdvice": "Gdańsk is easy to do alone by SKM, and the trains are frequent, so most confident travellers can skip the ship tour. Take the ship's Gdańsk tour if you have mobility problems, a short call or an early all-aboard, because the ship waits for its own coaches and the DIY return from the French Quay is long. Tours to Malbork Castle or the Westerplatte and Solidarity sites are worth booking through the ship, because the travel is longer and the timings are harder to control.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the French Quay at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Shuttle or taxi from the French Quay to Gdynia Główna station, or walk about 30 minutes."
+   },
+   {
+    "time": "09:00",
+    "what": "Buy and validate SKM tickets, then take a train towards Gdańsk."
+   },
+   {
+    "time": "09:40",
+    "what": "Arrive at Gdańsk Główny and walk about 15 minutes to the Main Town."
+   },
+   {
+    "time": "10:00",
+    "what": "Walk the Royal Route along Długa Street to the Long Market and the Neptune Fountain."
+   },
+   {
+    "time": "11:00",
+    "what": "St Mary's Basilica; climb the tower if you have the legs for it."
+   },
+   {
+    "time": "12:00",
+    "what": "Walk Mariacka Street to the riverside and the medieval Crane."
+   },
+   {
+    "time": "12:45",
+    "what": "Lunch in the Main Town: pierogi or fish."
+   },
+   {
+    "time": "14:00",
+    "what": "Short walk back through the Main Town for a last look or coffee."
+   },
+   {
+    "time": "14:30",
+    "what": "Leave the Main Town for Gdańsk Główny, 3 hours before all-aboard."
+   },
+   {
+    "time": "15:00",
+    "what": "SKM back to Gdynia Główna, then shuttle or taxi to the French Quay."
+   },
+   {
+    "time": "16:00",
+    "what": "Back on board, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Gdańsk Main Town, Długa Street and the Long Market",
+   "why": "The rebuilt merchant city with the Neptune Fountain, Artus Court and the Main Town Hall.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Free to walk; Main Town Hall about 15–20 zł (2026)",
+   "tip": "Long Market fills with tour groups from mid-morning; walk it early and the side streets later."
+  },
+  {
+   "name": "St Mary's Basilica, Gdańsk",
+   "why": "Gdańsk's great brick church, with a tower view over the Main Town.",
+   "timeNeeded": "45 minutes–1 hour with the tower",
+   "cost": "Nave free; tower about 15–20 zł (2026)",
+   "tip": "The tower climb is long and narrow; skip it if you have heart or knee problems."
+  },
+  {
+   "name": "The Crane (Żuraw), Gdańsk",
+   "why": "The medieval port crane on the Motława, part of the National Maritime Museum.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "About 20–25 zł (2026)",
+   "tip": "Opening hours in 2026: Tuesday and Thursday to Sunday 09:00–17:00, Wednesday 13:00–17:00, closed Mondays. Last entry an hour before closing."
+  },
+  {
+   "name": "Dar Pomorza museum ship, Gdynia",
+   "why": "A preserved sailing ship, now a branch of the National Maritime Museum, on the Gdynia seafront.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check the museum's ticket page",
+   "tip": "Open Tuesday to Sunday 10:00–17:00 until 31 October 2026; last entry 60 minutes before closing. Closed Mondays."
+  },
+  {
+   "name": "Emigration Museum, Gdynia",
+   "why": "Polish emigration history in the historic Marine Station (Dworzec Morski), near the French Quay.",
+   "timeNeeded": "1.5 hours",
+   "cost": "Check polska1.pl for ticket prices",
+   "tip": "Closed Mondays. Open Tuesday 12:00–20:00 and Wednesday to Sunday 10:00–18:00; the ticket office closes an hour earlier. A good choice if you want to stay close to the ship."
+  },
+  {
+   "name": "Sopot: the pier and Monte Cassino Street",
+   "why": "The Tricity's seaside resort, with a pier, the Grand Hotel and a pedestrian main street.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Free to walk the street",
+   "tip": "About 15 minutes from Gdynia by SKM, so it fits a short call better than Gdańsk."
+  },
+  {
+   "name": "European Solidarity Centre, Gdańsk",
+   "why": "Museum of the Solidarity movement at the former shipyard gate.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "About 30–35 zł for the permanent exhibition (2026)",
+   "tip": "Combine with the Main Town only on a long call."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Sopot beach",
+   "howToGetThere": "SKM from Gdynia Główna to Sopot, then walk down Monte Cassino Street",
+   "time": "About 15 min by train plus the walk",
+   "cost": "Train fare; beach free",
+   "note": "The main resort beach, next to the pier."
+  },
+  {
+   "name": "Gdynia city beach",
+   "howToGetThere": "From the centre, walk along the seafront past the museum ships",
+   "time": "A short walk from the city centre",
+   "cost": "Free",
+   "note": "The town's own beach; handy if you do not want to take the train."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Pierogi (filled dumplings)",
+   "where": "Restaurants on and around Długa Street, Gdańsk Main Town",
+   "price": null
+  },
+  {
+   "dish": "Baltic fish such as herring or cod",
+   "where": "Riverside restaurants along the Motława (Długie Pobrzeże), Gdańsk",
+   "price": null
+  },
+  {
+   "dish": "Cheap Polish home cooking",
+   "where": "Bar mleczny (milk bars) in Gdańsk and Gdynia",
+   "price": null
+  },
+  {
+   "dish": "Coffee and cake by the sea",
+   "where": "Monte Cassino Street, Sopot",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Leaving Gdańsk an hour before all-aboard.",
+   "fix": "Leave the Main Town 3 hours before. The walk, the train and the transfer from Gdynia Główna to the French Quay add up to well over an hour."
+  },
+  {
+   "mistake": "Boarding the SKM without stamping a paper ticket.",
+   "fix": "Validate paper tickets in the yellow machines before you travel. Inspectors fine unvalidated tickets."
+  },
+  {
+   "mistake": "Paying in euros in shops.",
+   "fix": "Pay by card in złoty or carry złoty. Shops that accept euros often use a poor rate."
+  },
+  {
+   "mistake": "Planning a museum day on a Monday.",
+   "fix": "The Crane, Dar Pomorza and the Emigration Museum are closed on Mondays. Walk the Main Town and Sopot instead."
+  },
+  {
+   "mistake": "Missing the last shuttle back to the French Quay.",
+   "fix": "Note the last shuttle time from your daily programme. If you miss it, a taxi from Gdynia Główna is quick."
+  }
+ ],
+ "safety": "The Tricity is generally safe for visitors. Watch your bags in the crowds on Długa Street and the Long Market, at Gdańsk Główny and on busy trains. The French Quay is a working port, so stay on marked routes and use the shuttle or a taxi rather than wandering through cargo areas. Take a company taxi or a booking app rather than unmarked cars.",
+ "scams": [
+  "Fake amber: Gdańsk is full of amber shops, and some sell imitations. Buy from established shops and ask for a certificate.",
+  "Unmarked taxis: use only taxis with a company logo and phone number on the side and roof, or book through an app.",
+  "Euro pricing: shops and stalls that accept euros often apply a poor exchange rate; pay in złoty."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The French Quay has no terminal building, and the walk to town is long, so wheelchair users should take the ship's shuttle or an accessible taxi. Gdańsk's Main Town is largely flat but has cobbles and kerbs. Tower climbs, including St Mary's, are stepped and unsuitable for wheelchairs. For a step-free day, the ship's coach tour to Gdańsk is the simplest option.",
+ "rainyDay": "Stay in Gdynia for the Emigration Museum and the Dar Pomorza, or go to Gdańsk for St Mary's Basilica, the Main Town Hall, the Crane and the European Solidarity Centre. Avoid Sopot, which is mostly outdoors. Note that most of these museums are closed on Mondays.",
+ "crowdTips": "Gdańsk's Long Market and Długa Street are busiest from late morning, when coach tours from the ship arrive. Take an early train to beat them, go up St Mary's tower first, and leave the riverside for later. Mid-morning trains from Gdynia are quieter than the commuter peak.",
+ "faqs": [
+  {
+   "q": "Is Gdynia walkable from the cruise port?",
+   "a": "Partly. From the French Quay it is about a 30-minute walk to the centre and the station; from the Pomeranian Quay about 10 minutes."
+  },
+  {
+   "q": "How do I get from Gdynia cruise port to Gdańsk?",
+   "a": "Shuttle or taxi to Gdynia Główna, then an SKM train to Gdańsk Główny (30–40 minutes), then a 15-minute walk to the Main Town."
+  },
+  {
+   "q": "Is Gdynia a tender port?",
+   "a": "No. Ships dock at the French Quay or the Pomeranian Quay."
+  },
+  {
+   "q": "How often do SKM trains run from Gdynia to Gdańsk?",
+   "a": "About every 10–15 minutes between 05:00 and 19:00, less often in the evening."
+  },
+  {
+   "q": "What can I do in Gdynia in one day from a cruise ship?",
+   "a": "Most passengers spend the day in Gdańsk's Main Town. On a shorter call, visit Sopot or stay in Gdynia for the Emigration Museum and Dar Pomorza."
+  },
+  {
+   "q": "Beaches near Gdynia cruise port",
+   "a": "Gdynia has a city beach near the centre; Sopot's resort beach is about 15 minutes away by SKM."
+  },
+  {
+   "q": "How early should I leave Gdańsk to get back to the ship in Gdynia?",
+   "a": "Leave the Main Town 3 hours before all-aboard."
+  },
+  {
+   "q": "Is Gdynia safe?",
+   "a": "Yes. Watch for pickpockets in Gdańsk's crowds and use marked company taxis."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Gdańsk Main Town"
+  },
+  {
+   "name": "St Mary's Basilica"
+  },
+  {
+   "name": "Gdańsk Crane"
+  },
+  {
+   "name": "Sopot Pier"
+  },
+  {
+   "name": "Dar Pomorza"
+  },
+  {
+   "name": "Emigration Museum"
+  },
+  {
+   "name": "European Solidarity Centre"
+  }
+ ],
+ "sources": [
+  {
+   "title": "City of Gdynia – Cruise Gdynia: Seehafen Gdynia",
+   "url": "https://gdynia.pl/cruise-en/cruise-gdynia-3,7305/seehafen-gdynia,498663"
+  },
+  {
+   "title": "Emigration Museum in Gdynia – How to get to the museum",
+   "url": "https://polska1.pl/?p=8890"
+  },
+  {
+   "title": "National Maritime Museum – Opening hours (2026)",
+   "url": "https://nmm.pl/en/opening-hours/"
+  },
+  {
+   "title": "Visit Gdańsk Tourist Card – Museum opening hours notice",
+   "url": "https://kartaturysty.visitgdansk.com/en/news/museum-opening-hours-during-the-christmas-and-new-year-period-2025–2026-28437322"
+  },
+  {
+   "title": "Cruise Europe – Gdynia",
+   "url": "https://www.cruiseeurope.com/destinations/gdynia/"
+  },
+  {
+   "title": "CruiseMapper – Gdynia-Gdańsk port",
+   "url": "https://www.cruisemapper.com/ports/gdynia-gdansk-port-136"
+  },
+  {
+   "title": "What's in Port – Gdynia/Gdańsk",
+   "url": "https://www.whatsinport.com/Gdynia-Gdansk.htm"
+  },
+  {
+   "title": "In Your Pocket – SKM trains",
+   "url": "https://www.inyourpocket.com/77080f"
+  },
+  {
+   "title": "In Your Pocket – Gdynia public transport",
+   "url": "https://www.inyourpocket.com/poland/gdynia/venues/public-transport"
+  },
+  {
+   "title": "Free Walking Tour Gdańsk – How to get around Gdańsk",
+   "url": "https://freewalkingtour.com/how-to-get-around-gdansk-and-vicinity-a-few-useful-tips/"
+  },
+  {
+   "title": "Tourism Attractions – Gdańsk attraction ticket prices (2026)",
+   "url": "https://tourismattractions.net/poland/gdańsk-attraction-ticket-prices"
+  }
+ ],
+ "uncertain": [
+  "Current (2026) SKM fares from Gdynia Główna to Gdańsk Główny and to Sopot: the only figures found were undated or old, and the operator's site could not be opened.",
+  "Shuttle price from the French Quay: only an undated figure was found.",
+  "Taxi fares from the French Quay to Gdynia, Sopot and Gdańsk: only undated figures were found.",
+  "Ticket prices for Dar Pomorza and the Emigration Museum.",
+  "Whether a new cruise terminal building has opened at the French Quay; the sources opened describe no terminal facilities.",
+  "Typical all-aboard time for Gdynia calls.",
+  "Exact walking distances in kilometres from the French and Pomeranian Quays to the centre (sources give only walking times, and one gives about 0.5 km to the centre)."
+ ]
+}

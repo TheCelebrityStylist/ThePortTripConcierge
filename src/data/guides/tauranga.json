@@ -1,0 +1,381 @@
+{
+ "slug": "tauranga",
+ "city": "Tauranga",
+ "portName": "Port of Tauranga (Mount Maunganui cruise berth)",
+ "townName": "Mount Maunganui",
+ "country": "New Zealand",
+ "currency": "NZD",
+ "currencySymbol": "NZ$",
+ "language": "English (and te reo Māori)",
+ "timezone": "NZST (UTC+12), NZDT (UTC+13) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Tauranga cruise port guide: Mount Maunganui, bus, Mauao",
+ "seoDescription": "Ships berth 1 km from Mount Maunganui, a 5-min walk. Bus 5 to Tauranga city NZ$4 cash (2026), about 22 min. Mauao tracks and hot pools closed in October 2026.",
+ "quickAnswer": "Ships berth at the Port of Tauranga in Mount Maunganui, about 1 km and a five-minute walk from the township and Main Beach, so no transport is needed for the beach and shops. Tauranga city is about 10 minutes away by taxi or about 22 minutes on Baybus route 5 (NZ$4 cash, NZ$3.10 Bee Card, 2026). Be back on board 60 minutes before all-aboard, and leave Rotorua or Hobbiton early enough to allow for a 1–1.5 hour drive.",
+ "intro": "Tauranga is a docked port with the beach on the doorstep. The cruise berth sits beside Pilot Bay at Mount Maunganui, and the township, Main Beach and Maunganui Road cafés are a short walk away. The big change for 2026 is Mauao itself: after the landslides of January 2026 the mountain, its summit and base tracks, and the Mount Hot Pools were still closed in October 2026, with a 30 m exclusion zone around the base and shore. Plan a beach and town day, a trip across the harbour bridge to Tauranga city, or an organised trip inland to Rotorua or Hobbiton.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Port of Tauranga cruise berth (beside Pilot Bay, Mount Maunganui)",
+   "distanceToCentreKm": 1,
+   "notes": "About 1 km from Mount Maunganui township and 7 km from Tauranga city. A pop-up i-SITE operates inside the port for larger ship arrivals, selling tours and hire cars. Pre-booked and same-day tours leave from outside the port gates. Carry photo ID for port security."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 1,
+  "detail": "Mount Maunganui township is about a five-minute walk from the port. Turn right out of the port for Main Beach and the waterfront, left for Pilot Bay. Tauranga city is 7 km away across the harbour bridge and is not a sensible walk."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5 min to the township",
+   "detail": "Walk out of the port gates into Mount Maunganui. Maunganui Road is the main café and shopping street; Main Beach is on the ocean side, Pilot Bay on the harbour side."
+  },
+  {
+   "mode": "Baybus route 5 to Tauranga city",
+   "cost": "NZ$4.00 cash, NZ$3.10 Bee Card, adult one way (from 20 July 2026)",
+   "time": "About 22 min from Mount Maunganui to Durham St",
+   "detail": "Board at Maunganui Rd – Mt Drury Reserve. Buses run about every 15 minutes on weekdays and about every 30 minutes at weekends. In the city, buses stop at Durham St (Stand A3 towards the Mount, B3 towards the city). The timetable shows no effective date, so check baybus.co.nz on the day."
+  },
+  {
+   "mode": "Hop On Hop Off bus",
+   "cost": "NZ$60 adult, NZ$35 child (2026)",
+   "time": "1.5 hours for a full loop; buses every 30 minutes",
+   "detail": "Leaves from the port, first trip at 09:00. Seven stops including Main Beach, Maunganui Road, Bayfair, Classic Flyers, The Elms, Tauranga city centre and art gallery, and The Historic Village. Buy online or at the port i-SITE."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; ask for a fare estimate",
+   "time": "About 10 min to Tauranga city",
+   "detail": "Tauranga Mount Taxis: (07) 578 6086. The port i-SITE can arrange taxis and hire cars."
+  },
+  {
+   "mode": "Tour to Rotorua or Hobbiton",
+   "cost": "Varies by operator",
+   "time": "Rotorua about 1–1.5 hours each way (86 km); Hobbiton about 1 hour 15 min each way",
+   "detail": "Hobbiton is visited by guided tour only, and timed attractions should be booked ahead. Ship tours or operators that guarantee the return are the safer choice for these long trips."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. From Tauranga city, be on the bus or in a taxi 105 minutes before all-aboard (15:45 for a 17:30 all-aboard). From Rotorua or Hobbiton, leave at least three hours before all-aboard.",
+  "detail": "The walk from the township is short, so most passengers can stay out until late afternoon. The risk is the drive back from Rotorua or Hobbiton, which takes 1–1.5 hours and can slow on the state highways and the harbour bridge approaches. Weekend buses run only every 30 minutes.",
+  "emergencyFallback": "From Tauranga city take a taxi; the drive to the Mount is about 10 minutes. If you will miss all-aboard, call the port agent number in your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Tauranga city return",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "NZ$8.00 return by bus with cash, NZ$6.20 with a Bee Card (2026)",
+   "saving": "Depends on the ship's shuttle price"
+  },
+  {
+   "item": "Sightseeing loop",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Hop On Hop Off NZ$60 adult (2026)",
+   "saving": "Depends on the ship's tour price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Mount Maunganui: the township and beach are a five-minute walk. Tauranga city is easy on the bus or the Hop On Hop Off. The ship's tour, or a local operator that commits to the ship's timings, earns its price for Rotorua and Hobbiton, which are 1–1.5 hours away each way, and Hobbiton can only be visited on a guided tour. Do not plan a Mauao climb in October 2026: the tracks are closed.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship and out of the port gates to Mount Maunganui township, about five minutes."
+   },
+   {
+    "time": "08:45",
+    "what": "Turn right to Main Beach for a walk along the sand. Keep out of the fenced exclusion zone around the base of Mauao."
+   },
+   {
+    "time": "10:00",
+    "what": "Coffee and breakfast on Maunganui Road."
+   },
+   {
+    "time": "10:45",
+    "what": "Catch Baybus route 5 from Maunganui Rd – Mt Drury Reserve to Tauranga city, about 22 minutes."
+   },
+   {
+    "time": "11:30",
+    "what": "Walk to The Elms (15 Mission Street, open Tuesday to Saturday 11:00–15:00) for a guided tour of the mission house."
+   },
+   {
+    "time": "12:45",
+    "what": "Lunch and a walk along The Strand waterfront."
+   },
+   {
+    "time": "14:15",
+    "what": "Bus back to Mount Maunganui."
+   },
+   {
+    "time": "14:45",
+    "what": "Ice cream at Pilot Bay and a last look at the harbour."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Mount Maunganui Main Beach",
+   "why": "The ocean beach right by the port, popular for surfing and long walks.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Mount Maunganui has several surf schools, including Mount Maunganui Surf Academy and Hibiscus Surf School. Stay out of the 30 m exclusion zone at the Mauao end."
+  },
+  {
+   "name": "Pilot Bay",
+   "why": "The calm harbour-side beach next to the cruise berth, with paddleboard hire and ice cream.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Mauao Adventures runs stand-up paddleboard lessons here."
+  },
+  {
+   "name": "Mauao (Mount Maunganui)",
+   "why": "The mountain at the end of the peninsula, normally the main walk of the day.",
+   "timeNeeded": "View from the beach only",
+   "cost": "Free",
+   "tip": "Closed to the public in October 2026 after the January 2026 landslides; the council aims for a partial reopening in summer but has set no date. Check tauranga.govt.nz/mauao-landslide before you go."
+  },
+  {
+   "name": "Maunganui Road",
+   "why": "The main street of the Mount, with cafés, boutiques, galleries and souvenir shops.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "The Route 5 bus stop at Mt Drury Reserve is on this road."
+  },
+  {
+   "name": "The Elms Te Papa Tauranga",
+   "why": "A historic mission house and library with grounds, shown on a guided tour.",
+   "timeNeeded": "1 hour",
+   "cost": "NZ$20 adult, children up to 18 free (2026)",
+   "tip": "Open 11:00–15:00 Tuesday to Saturday only; closed Sundays and Mondays. No booking needed; tours start as people arrive."
+  },
+  {
+   "name": "Tauranga city and The Strand",
+   "why": "The harbourside city centre with waterfront dining and the art gallery.",
+   "timeNeeded": "2 hours",
+   "cost": "Bus NZ$4 cash each way (2026)",
+   "tip": "Free EOL Wi-Fi is available along The Strand."
+  },
+  {
+   "name": "Rotorua",
+   "why": "Geothermal parks and Māori cultural experiences such as Te Puia, Whakarewarewa and Hell's Gate.",
+   "timeNeeded": "5–6 hours including travel",
+   "cost": "Varies by tour",
+   "tip": "About 86 km away. At Wai-O-Tapu, Lady Knox Geyser erupts around 10:15, so late arrivals miss it."
+  },
+  {
+   "name": "Hobbiton Movie Set",
+   "why": "The film set from The Lord of the Rings and The Hobbit, on a working farm near Matamata.",
+   "timeNeeded": "Half a day or more including travel",
+   "cost": "Varies by tour",
+   "tip": "Guided tours only; book ahead. About 1 hour 15 minutes each way by road."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Mount Maunganui Main Beach",
+   "howToGetThere": "Walk out of the port and turn right",
+   "time": "About 5–10 min walk",
+   "cost": "Free",
+   "note": "Ocean surf beach. Swim between the flags when lifeguards are on duty, and keep clear of the fenced area near Mauao."
+  },
+  {
+   "name": "Pilot Bay",
+   "howToGetThere": "Walk out of the port and turn left",
+   "time": "About 5 min walk",
+   "cost": "Free",
+   "note": "Sheltered harbour beach, calmer water. The boat ramp can close at short notice for Mauao remediation work."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Waffle-cone ice cream",
+   "where": "Copenhagen Cones, Pilot Bay",
+   "price": null
+  },
+  {
+   "dish": "Steak and cocktails",
+   "where": "Fife Lane, on the main road in Mount Maunganui",
+   "price": null
+  },
+  {
+   "dish": "Brunch or lunch",
+   "where": "Astrolabe, Mount Maunganui (open daily from 09:00)",
+   "price": null
+  },
+  {
+   "dish": "Breakfast made from local produce",
+   "where": "The General, Mount Maunganui",
+   "price": null
+  },
+  {
+   "dish": "Vietnamese dishes",
+   "where": "Rice Rice Baby, Mount Maunganui",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning to climb Mauao.",
+   "fix": "The summit and base tracks were closed in October 2026 after the landslides. Check the council's Mauao landslide page; if still closed, walk the beaches instead."
+  },
+  {
+   "mistake": "Bringing swimwear for the Mount Hot Pools.",
+   "fix": "The pools are inside the exclusion zone and closed until further notice. Swim at Main Beach or Pilot Bay instead."
+  },
+  {
+   "mistake": "Going to The Elms on a Sunday or Monday.",
+   "fix": "It opens Tuesday to Saturday, 11:00–15:00 only."
+  },
+  {
+   "mistake": "Booking an independent Hobbiton or Rotorua trip with no margin.",
+   "fix": "Each is 1–1.5 hours each way. Use the ship's tour or an operator that commits to your all-aboard, and leave at least three hours before it."
+  },
+  {
+   "mistake": "Leaving photo ID on the ship.",
+   "fix": "Port security asks for a passport or driver's licence when you return."
+  },
+  {
+   "mistake": "Dressing for the beach on an inland tour.",
+   "fix": "Spring and autumn can be windy and cool, and Rotorua and Hobbiton are inland. Take a layer and sunscreen."
+  }
+ ],
+ "safety": "Tauranga and Mount Maunganui are low-crime places for visitors; keep valuables out of sight. The real hazard in 2026 is Mauao: the mountain is closed and a 30 m exclusion zone surrounds its base and shore, so obey fences and signs. A siren test for the Mauao alarm system runs on Mondays at 10:00 and needs no action. Main Beach is a surf beach; swim between the flags. Wear sunscreen and a hat from spring to early autumn.",
+ "scams": [],
+ "emergencyNumber": "111",
+ "accessibility": "The walk from the berth to the township is short and flat. Main Beach and Pilot Bay have flat promenades, but sand access varies. Hop On Hop Off has wheelchair-accessible vehicles in Tauranga. Baybus publishes accessible timetables. At The Elms the house and library have small steps with no ramp, and the grounds have crushed shell and stone paths.",
+ "rainyDay": "Take Baybus route 5 or the Hop On Hop Off into Tauranga city for the art gallery and The Strand cafés, or visit Classic Flyers Aviation Centre and The Historic Village, which are both Hop On Hop Off stops. Bayfair Shopping Centre, a short ride from the Mount, has over 140 shops.",
+ "crowdTips": "Ships of up to about 4,900 passengers call in the 2026–27 season, and the Mount fills quickly when they do. Head to Main Beach or into Tauranga city early, and come back to Maunganui Road cafés after the tour coaches have left for Rotorua and Hobbiton. Book timed attractions ahead.",
+ "faqs": [
+  {
+   "q": "Is Tauranga a tender port?",
+   "a": "No. Ships berth at the Port of Tauranga in Mount Maunganui and passengers walk ashore."
+  },
+  {
+   "q": "Is Mount Maunganui walkable from the cruise port?",
+   "a": "Yes. The township is about 1 km away, roughly a five-minute walk."
+  },
+  {
+   "q": "How do I get from Tauranga cruise port to Tauranga city?",
+   "a": "Take Baybus route 5 from Maunganui Rd – Mt Drury Reserve, about 22 minutes, NZ$4 cash or NZ$3.10 Bee Card (2026). A taxi takes about 10 minutes. The Hop On Hop Off also stops in the city."
+  },
+  {
+   "q": "Can I climb Mount Maunganui (Mauao) from the cruise ship?",
+   "a": "Not in October 2026. Mauao and its tracks were closed after the January 2026 landslides, with a partial reopening aimed for summer but no date set."
+  },
+  {
+   "q": "Are the Mount Hot Pools open?",
+   "a": "No. In October 2026 they were closed until further notice because they sit inside the Mauao exclusion zone."
+  },
+  {
+   "q": "Can I visit Hobbiton or Rotorua from Tauranga on a cruise?",
+   "a": "Yes, on a tour. Hobbiton is about 1 hour 15 minutes away and guided tours only; Rotorua is 1–1.5 hours away. Leave at least three hours before all-aboard."
+  },
+  {
+   "q": "What can I do in Tauranga in one day from a cruise ship?",
+   "a": "Main Beach and Pilot Bay in the morning, then Tauranga city, The Elms and The Strand by bus, or a full-day tour to Rotorua or Hobbiton."
+  },
+  {
+   "q": "Beaches near Tauranga cruise port?",
+   "a": "Main Beach and Pilot Bay are both about a five-minute walk from the berth."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Mount Maunganui Main Beach"
+  },
+  {
+   "name": "Pilot Bay"
+  },
+  {
+   "name": "Mauao"
+  },
+  {
+   "name": "The Elms Te Papa Tauranga"
+  },
+  {
+   "name": "The Strand"
+  },
+  {
+   "name": "Rotorua"
+  },
+  {
+   "name": "Hobbiton Movie Set"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Tourism New Zealand – Tauranga and Rotorua cruise overview",
+   "url": "https://www.newzealand.com/uk/feature/tauranga-and-rotorua-cruise-overview/"
+  },
+  {
+   "title": "Port of Tauranga – Cruise schedule 2026–27",
+   "url": "https://www.port-tauranga.co.nz/?p=502"
+  },
+  {
+   "title": "Tourism Bay of Plenty – Cruise FAQs",
+   "url": "https://bayofplentynz.com/about-tourism-bay-of-plenty/frequently-asked-questions/"
+  },
+  {
+   "title": "Tourism Bay of Plenty – Cruise shore excursions",
+   "url": "https://bayofplentynz.com/cruise/shore-excursions/"
+  },
+  {
+   "title": "Tourism Bay of Plenty – 12 hours in Mount Maunganui",
+   "url": "https://bayofplentynz.com/experiences/highlights/explore-12-hours-in-mount-maunganui/"
+  },
+  {
+   "title": "Tauranga City Council – Mauao landslide updates (16 October 2026)",
+   "url": "https://www.tauranga.govt.nz/Council/Mauao-Landslide"
+  },
+  {
+   "title": "Tauranga City Council – Mauao landslide FAQs",
+   "url": "https://www.tauranga.govt.nz/Council/Mauao-Landslide/Mauao-landslide-frequently-asked-questions"
+  },
+  {
+   "title": "1News – Summer reopening aimed for landslide-hit tracks (September 2026)",
+   "url": "https://www.1news.co.nz/2026/09/18/summer-reopening-aimed-for-landslide-hit-tracks-in-mt-maunganui/"
+  },
+  {
+   "title": "Baybus – New bus fares July 2026",
+   "url": "https://www.baybus.co.nz/news/new-bus-fares-july-2026/"
+  },
+  {
+   "title": "Baybus – Route 5 Tauranga City–Mt Maunganui–Bayfair timetable",
+   "url": "https://www.baybus.co.nz/assets/Timetables/Accessible/TaurangaWesternBay/Route-5-Accessible-TGA-City-Mt-Maunganui-Bayfair.pdf"
+  },
+  {
+   "title": "Hop On Hop Off – Tauranga bus tours",
+   "url": "https://hoponhopoff.nz/tauranga-bus-tours/"
+  },
+  {
+   "title": "The Elms Te Papa Tauranga – Plan your visit",
+   "url": "https://theelms.org.nz/plan-your-visit/"
+  },
+  {
+   "title": "Adventour Begins – Tauranga cruise port guide (updated May 2026)",
+   "url": "https://www.adventourbegins.com/?p=4103"
+  }
+ ],
+ "uncertain": [
+  "Whether cruise lines run a paid shuttle to Tauranga city in 2026–27 and its price (check your ship).",
+  "Hobbiton and Rotorua attraction ticket prices for 2026.",
+  "The ship's typical all-aboard time at Tauranga (17:30 assumed).",
+  "Exact date Mauao tracks or Mount Hot Pools will reopen.",
+  "Taxi fares from the port to Tauranga city.",
+  "Current status of a passenger ferry between Pilot Bay (Salisbury Wharf) and The Strand (last confirmed as a 2022 pilot)."
+ ]
+}

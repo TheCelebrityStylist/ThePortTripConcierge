@@ -1,0 +1,380 @@
+{
+ "slug": "vigo",
+ "city": "Vigo",
+ "portName": "Port of Vigo (Muelle de Trasatlánticos)",
+ "townName": "the Casco Vello (old town)",
+ "country": "Spain",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Spanish and Galician",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Vigo cruise port guide: old town, Cíes Islands, Santiago",
+ "seoDescription": "Vigo ships dock at Muelle de Trasatlánticos, 200 yards from the old town. Cíes ferry 40 min with a Xunta permit in season; Santiago 52–58 min by train.",
+ "quickAnswer": "Vigo is a docking port: ships berth at the Muelle de Trasatlánticos in the city centre, and the old town (Casco Vello) is about 200 yards away across a footbridge, a 5–10 minute walk with a gentle climb. You need no transport for the town. Be back on board 60 minutes before all-aboard, or 90 minutes if you have been to Santiago, Baiona or the Cíes Islands.",
+ "intro": "Vigo's cruise quay sits right at its centre. The old town climbs the hill behind the terminal, with oyster stalls on Rúa Pescadería and the Castro fortress park above. The ferry terminal for the Cíes Islands is next door, but from Easter and from 15 May to 15 September you need a free Xunta de Galicia authorisation before you can buy a ticket, and places are capped. Santiago de Compostela is under an hour away by train, which makes it a realistic but tight trip on a long call.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Muelle de Trasatlánticos (Estación Marítima / Vigo Cruise Terminal)",
+   "distanceToCentreKm": 0.2,
+   "notes": "700 m quay with the historic 1958 Estación Marítima, which houses the Vigo Cruise Terminal and Atlantic Vigo Cruise Terminal. Tourist information desk, free WiFi, taxis and city bus stops just outside. A Laxe shopping centre is on the dock."
+  },
+  {
+   "name": "Muelle de Comercio (El Tinglado terminal)",
+   "distanceToCentreKm": null,
+   "notes": "290 m quay with a public terminal run by the Port Authority, used on days with more than one ship. Also in the city centre."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.2,
+  "detail": "The terminal's front door faces the old town, about 200 yards away across a footbridge. The walk takes 5–10 minutes with a gradual uphill section. To avoid the climb, go through A Laxe shopping centre and use its lift to the upper level. The main shopping street, Rúa do Príncipe, is about five minutes away."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5–10 min to the Casco Vello",
+   "detail": "Cross the footbridge from the terminal into the old town. Streets are cobbled and uphill in places."
+  },
+  {
+   "mode": "City bus (Vitrasa)",
+   "cost": "€1.63 single (fare in force from February 2025)",
+   "time": "Varies by route",
+   "detail": "Vitrasa bus stops are a few steps from the terminal. Useful for longer trips across the city; the old town and Rúa do Príncipe are quicker on foot."
+  },
+  {
+   "mode": "Ferry to the Cíes Islands (Mar de Ons)",
+   "cost": "Mar de Ons lists an adult fare of €27.50 from Vigo and €12 for children aged 5–12 (2026)",
+   "time": "About 40 min each way",
+   "detail": "Boats leave from the Estación Marítima de Ría (Vigo passenger ferry terminal, Rúa Cánovas del Castillo 26), about two minutes' walk from the cruise terminal. In Easter Week and from 15 May to 15 September you must first get a free authorisation from the Xunta de Galicia online, then use its code to buy a ferry ticket within two hours. The daily cap is about 1,600–1,800 visitors. The rest of the year, visits are only in guided groups."
+  },
+  {
+   "mode": "Train to Santiago de Compostela (Renfe)",
+   "cost": "From about €7 one way; on-the-day fares average about €12 (2026)",
+   "time": "52–58 min",
+   "detail": "Trains leave from Vigo-Urzáiz, about 15 minutes' walk or a short taxi ride from the port. About 10–12 trains a day. Book your return train before you go."
+  },
+  {
+   "mode": "Regional bus to Baiona",
+   "cost": "Check bus.gal for the current fare",
+   "time": "Quoted at between about 20 min and 1 h 10 min depending on the service",
+   "detail": "Buses run from Vigo's intermodal station at Urzáiz. Services and stops differ, so check the timetable on bus.gal and plan for the slowest option."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered",
+   "time": "About 15 min to Samil beach",
+   "detail": "Taxis wait just outside the terminal."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard from the city. From Santiago, Baiona or the Cíes Islands, be back at the port 90 minutes before all-aboard.",
+  "detail": "Out-of-town trips depend on fixed train, bus and ferry times, and ferries can change or be cancelled for weather or demand. Choose a return train or ferry that lands you in Vigo with at least 90 minutes to spare, not the last one before all-aboard.",
+  "emergencyFallback": "If a train or ferry is cancelled, take a taxi straight to the cruise terminal from the station or ferry terminal. If you will miss all-aboard, phone the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Santiago de Compostela",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Train from about €7 each way (2026)",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "Cíes Islands",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Mar de Ons adult fare €27.50 from Vigo (2026), plus a free Xunta authorisation",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Vigo itself: the old town, the oyster street and the Castro park are all on foot from the gangway. Santiago is the case where a ship tour can be worth it. You can do it by train in under an hour each way, but you spend about two hours travelling and need to walk to and from the station, so on a short call the ship's coach removes the timing risk. For the Cíes Islands, the ship tour is worth it if you cannot get a Xunta authorisation for your date, because without one you cannot buy a ferry ticket in season.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship and pick up a map at the terminal's tourist information desk."
+   },
+   {
+    "time": "08:45",
+    "what": "Cross the footbridge into the Casco Vello and walk its lanes and squares before the tour groups arrive."
+   },
+   {
+    "time": "10:00",
+    "what": "Climb (or take a taxi) to Monte O Castro for the fortress walls and views over the Ría de Vigo."
+   },
+   {
+    "time": "11:30",
+    "what": "Walk back down to Rúa do Príncipe for shops and a coffee."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch of oysters and seafood tapas on Rúa Pescadería (Rúa das Ostras) with a glass of Albariño."
+   },
+   {
+    "time": "14:00",
+    "what": "Option: taxi to Samil beach for a walk on the sand, about 15 minutes each way."
+   },
+   {
+    "time": "15:45",
+    "what": "Back near the port. Browse A Laxe shopping centre on the dock."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Casco Vello (old town)",
+   "why": "The historic centre on the hill behind the port, with cobbled lanes, small squares and seafood bars.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free",
+   "tip": "Use the A Laxe lift if you want to avoid the first climb from the waterfront."
+  },
+  {
+   "name": "Rúa Pescadería (Rúa das Ostras)",
+   "why": "The oyster street, where ostreiras open oysters to eat with beer or wine.",
+   "timeNeeded": "45 minutes",
+   "cost": "Pay per plate",
+   "tip": "Go at lunchtime for the full row of stalls and bars."
+  },
+  {
+   "name": "Monte O Castro",
+   "why": "Hilltop park and fortress with a covered lookout and views over the Ría de Vigo and the city.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "No admission fee listed by the provincial tourist board",
+   "tip": "The walk up is steep; a taxi up and a walk down saves effort."
+  },
+  {
+   "name": "Rúa do Príncipe",
+   "why": "Vigo's main pedestrian shopping street, flat and about five minutes from the terminal.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free",
+   "tip": "Good for a coffee stop between the old town and the port."
+  },
+  {
+   "name": "Cíes Islands (Atlantic Islands of Galicia National Park)",
+   "why": "Protected islands at the mouth of the ría, with marked walking routes and beaches, about 40 minutes by ferry.",
+   "timeNeeded": "4–6 hours including ferries",
+   "cost": "Mar de Ons adult fare €27.50 from Vigo (2026); Xunta authorisation free",
+   "tip": "Apply for the authorisation as soon as you know your date; in season tickets cannot be bought without it. Walk only on the marked routes."
+  },
+  {
+   "name": "Santiago de Compostela Cathedral",
+   "why": "The end point of the Camino de Santiago, on Praza do Obradoiro, with a daily pilgrims' Mass at midday.",
+   "timeNeeded": "Full day including 52–58 min train each way",
+   "cost": "Free to attend Mass; the museum, Pórtico da Gloria and rooftops need tickets",
+   "tip": "Book a rooftop tour in advance online. Book your return train before leaving Vigo."
+  },
+  {
+   "name": "Baiona and Monterreal fortress",
+   "why": "Seaside town at the mouth of the ría whose walled headland holds a Parador hotel; you can walk the path around the walls.",
+   "timeNeeded": "Half a day including the bus",
+   "cost": "Bus fare; check bus.gal",
+   "tip": "Bus times vary widely by service, so check the timetable before you go."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Praia de Samil",
+   "howToGetThere": "Taxi from the terminal",
+   "time": "About 15 min by taxi",
+   "cost": "Taxi fare; beach free",
+   "note": "City beach reached by taxi. Atlantic water is cold even in summer."
+  },
+  {
+   "name": "Cíes Islands beaches (Rodas area)",
+   "howToGetThere": "Ferry from the Estación Marítima de Ría, next to the cruise terminal",
+   "time": "About 40 min by ferry",
+   "cost": "Mar de Ons adult fare €27.50 from Vigo (2026)",
+   "note": "Needs a Xunta authorisation in Easter Week and from 15 May to 15 September."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fresh oysters with Albariño",
+   "where": "Rúa Pescadería (Rúa das Ostras), Casco Vello",
+   "price": null
+  },
+  {
+   "dish": "Seafood and fresh fish tapas",
+   "where": "Bars in the Casco Vello",
+   "price": null
+  },
+  {
+   "dish": "Marisco de cortello (local shellfish)",
+   "where": "Seafood bars in the Casco Vello and Bouzas",
+   "price": null
+  },
+  {
+   "dish": "Tapas route",
+   "where": "Ensanche, Calvario and Travesas districts",
+   "price": null
+  },
+  {
+   "dish": "Ribeiro or Albariño wine",
+   "where": "Bars on and around Rúa Pescadería",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Turning up at the Cíes ferry in summer without a Xunta authorisation.",
+   "fix": "Apply online at autorizacionillasatlanticas.xunta.gal for your date first; you need its code to buy a ferry ticket. Daily places are capped."
+  },
+  {
+   "mistake": "Taking the last train back from Santiago.",
+   "fix": "Pick a train that gets you to Vigo-Urzáiz at least 90 minutes before all-aboard, and allow 15 minutes to walk to the port."
+  },
+  {
+   "mistake": "Assuming Baiona is a quick 20-minute bus hop.",
+   "fix": "Some services take over an hour. Check the timetable on bus.gal and plan around the slower times."
+  },
+  {
+   "mistake": "Expecting a flat walk into the old town.",
+   "fix": "Wear shoes with grip for the cobbled, uphill lanes, or use the A Laxe lift."
+  },
+  {
+   "mistake": "Planning a Cíes trip on an off-season call.",
+   "fix": "Outside Easter and 15 May–15 September, visits run only in guided groups, so book a group trip or choose another excursion."
+  }
+ ],
+ "safety": "Vigo is an ordinary working city and a straightforward port day. The main hazards are slips on wet, steep cobbles in the old town and on the Castro paths, and the cold Atlantic water at the beaches. Atlantic weather changes fast, so carry a light jacket. On the Cíes Islands stay on the marked routes; walking is restricted to them inside the national park.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The terminal has boarding bridges and opens onto a footbridge towards the old town. The old town itself is cobbled and uphill, which is hard going in a wheelchair. A Laxe shopping centre on the dock has a lift to the upper level, which avoids the first climb. Rúa do Príncipe is flat and pedestrianised. Monte O Castro involves a steep approach; a taxi to the top is the easier option. Ask your ferry operator about step-free boarding before planning a Cíes trip.",
+ "rainyDay": "Atlantic weather changes quickly here. On a wet day, skip the Cíes Islands and Monte O Castro. Spend the morning in the covered A Laxe centre and the shops of Rúa do Príncipe, then a long seafood lunch in the old town. Santiago de Compostela, with its cathedral and museum, is a good indoor option by train if your call is long enough.",
+ "crowdTips": "On multi-ship days the Muelle de Comercio is used as well as the main quay, and several thousand passengers arrive in a compact centre. The terminal exit and the old town fill first. Go up to Monte O Castro early, then come down to the old town after the tour groups have moved on. Cíes places are capped daily, so apply for your authorisation as early as you can.",
+ "faqs": [
+  {
+   "q": "Is Vigo a tender port?",
+   "a": "No. Ships dock at the Muelle de Trasatlánticos, or at the nearby Muelle de Comercio on busy days, both in the city centre."
+  },
+  {
+   "q": "Is Vigo walkable from the cruise port?",
+   "a": "Yes. The old town is about 200 yards from the terminal across a footbridge, a 5–10 minute walk with some uphill."
+  },
+  {
+   "q": "How do I get from Vigo cruise port to the old town?",
+   "a": "Walk out of the terminal's front door and over the footbridge. Use the A Laxe lift if you want to skip the first climb."
+  },
+  {
+   "q": "Can I visit the Cíes Islands from a cruise ship?",
+   "a": "Yes, by the 40-minute ferry from next to the cruise terminal. In Easter Week and from 15 May to 15 September you need a free Xunta authorisation before you can buy a ticket, and daily places are limited."
+  },
+  {
+   "q": "Can I get to Santiago de Compostela from Vigo cruise port?",
+   "a": "Yes. Trains from Vigo-Urzáiz take 52–58 minutes and the station is about 15 minutes' walk from the port. Be back 90 minutes before all-aboard."
+  },
+  {
+   "q": "What can I do in Vigo in one day from a cruise ship?",
+   "a": "The old town and Rúa Pescadería oysters, Monte O Castro for the views, and either Samil beach, the Cíes Islands or a train to Santiago."
+  },
+  {
+   "q": "Beaches near Vigo cruise port?",
+   "a": "Samil is about 15 minutes by taxi. The Cíes Islands beaches are 40 minutes by ferry and need an authorisation in season."
+  },
+  {
+   "q": "Is Vigo safe?",
+   "a": "Yes. Take care on wet cobbles and in the cold Atlantic water."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Casco Vello"
+  },
+  {
+   "name": "Rúa Pescadería"
+  },
+  {
+   "name": "Monte O Castro"
+  },
+  {
+   "name": "Cíes Islands"
+  },
+  {
+   "name": "Santiago de Compostela Cathedral"
+  },
+  {
+   "name": "Baiona"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Autoridad Portuaria de Vigo – Cruceros Vigo (PDF)",
+   "url": "https://apvigo.es/es/descargas/descargar/4072/CRUCEROS%20VIGO.pdf"
+  },
+  {
+   "title": "Turismo de Vigo – Cruiser tourism",
+   "url": "https://turismodevigo.org/en/node/2411"
+  },
+  {
+   "title": "Turismo de Vigo – Food and tapas in Vigo",
+   "url": "https://turismo.vigo.org/en/node/7683"
+  },
+  {
+   "title": "Atlantic Islands of Galicia National Park (Xunta) – Visit Cíes",
+   "url": "https://illasatlanticas.gal/en/visit-the-park/visit-cies"
+  },
+  {
+   "title": "Mar de Ons – Xunta authorisation for the Cíes Islands",
+   "url": "https://mardeons.es/en/authorization"
+  },
+  {
+   "title": "Mar de Ons – Prices and schedules",
+   "url": "https://mardeons.es/en/prices-and-schedules/"
+  },
+  {
+   "title": "Turismo Rías Baixas – Mirador Monte de O Castro",
+   "url": "https://turismoriasbaixas.com/en/search/mirador-monte-de-o-castro"
+  },
+  {
+   "title": "Spain.info – Santiago de Compostela, a day of culture",
+   "url": "https://www.spain.info/en/camino-santiago/santiago-compostela-a-day-of-culture/"
+  },
+  {
+   "title": "Metropolitano.gal – Vitrasa fare update (February 2025)",
+   "url": "https://metropolitano.gal/enfoque/vitrasa-actualiza-oficialmente-sus-precios-y-esto-es-lo-que-costara-el-billete-de-bus-en-vigo"
+  },
+  {
+   "title": "Omio – Trains Vigo Urzáiz to Santiago de Compostela",
+   "url": "https://www.omio.es/trenes/vigo-urzaiz/santiago-de-compostela-xgfnr"
+  },
+  {
+   "title": "Omio – Buses Vigo to Baiona",
+   "url": "https://www.omio.es/autobuses/vigo/baiona-l4tst"
+  },
+  {
+   "title": "Adventour Begins – Vigo cruise port guide (updated March 2026)",
+   "url": "https://www.adventourbegins.com/port-vigo-cruise-guide/"
+  },
+  {
+   "title": "Packing Up The Pieces – Baiona guide",
+   "url": "https://www.packing-up-the-pieces.com/baiona-spain-guide/"
+  },
+  {
+   "title": "Viaje Camino de Santiago – Cost to enter Santiago Cathedral",
+   "url": "https://viajecaminodesantiago.com/en/faq/how-much-does-it-cost-to-enter-the-cathedral-of-santiago-de-compostela"
+  }
+ ],
+ "uncertain": [
+  "Whether the Mar de Ons €27.50 adult fare from Vigo is a return fare (the page also lists a separate €14 'rate of return' from Cíes to Vigo).",
+  "Exact 2026 Cíes ferry departure and return times from Vigo (the operator lists only morning and afternoon).",
+  "Vigo–Baiona bus fare and the exact operator and line for 2026 (one blog cites Lugove line XG883 at about €2.35).",
+  "Whether the Vitrasa €1.63 single fare is unchanged in 2026, and which Vitrasa lines serve Samil from the port.",
+  "Prices and hours for Santiago Cathedral's museum, Pórtico da Gloria and rooftop tours.",
+  "Monterreal fortress walk entry fee and hours in Baiona.",
+  "Taxi fare from the cruise terminal to Samil beach.",
+  "Typical cruise call hours and all-aboard time in Vigo (17:30 used as a default)."
+ ]
+}

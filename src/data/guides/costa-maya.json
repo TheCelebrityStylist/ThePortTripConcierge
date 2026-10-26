@@ -1,0 +1,386 @@
+{
+ "slug": "costa-maya",
+ "city": "Costa Maya",
+ "portName": "Puerto Costa Maya cruise pier",
+ "townName": "Mahahual",
+ "country": "Mexico",
+ "currency": "MXN",
+ "currencySymbol": "MX$",
+ "priceSymbol": "US$",
+ "language": "Spanish",
+ "timezone": "EST (UTC-5) all year; Quintana Roo does not change its clocks",
+ "lastVerified": "October 2026",
+ "seoTitle": "Costa Maya cruise port: Mahahual, Chacchoben, return times",
+ "seoDescription": "Costa Maya ships dock at a long pier; Mahahual is about 3 km away, taxi US$5 a person (2026). Chacchoben ruins: 1 hr inland, MX$155, last entry 14:30.",
+ "quickAnswer": "Ships dock at the long Puerto Costa Maya pier, so there is no tender. The village of Mahahual is about 3 km away: a taxi costs about US$5 a person each way (2026) and takes 5-10 minutes; walking takes 30-45 minutes in heat. Leave Mahahual 90 minutes before all-aboard, because getting back through the pier complex adds 10-15 minutes.",
+ "intro": "Costa Maya is a purpose-built cruise complex on an empty stretch of the southern Quintana Roo coast. The pier leads into a shopping village with pools, but there is no sea swimming inside it. The real town is Mahahual, a small fishing village with a car-free seafront walk and beach clubs a short taxi ride away. The classic inland trip is the Maya site of Chacchoben, about an hour away by road, which closes early in the afternoon. Royal Caribbean Group took over running the port in 2025, and up to four ships can berth at once, so Mahahual can be crowded on busy days.",
+ "isTender": false,
+ "tenderNotes": "Not a tender port in normal operation. The pier has four berths; if more ships call, extra ships may anchor and tender.",
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Puerto Costa Maya pier and port village",
+   "distanceToCentreKm": 3,
+   "notes": "Long pier with four berths, three for large ships. A trolley runs along the pier; you can also walk it. The pier leads into a shopping and pool complex, and getting out to the taxi rank takes 10-15 minutes because the layout is a maze. Taxis, a shuttle to Mahahual and golf-cart rental are at the exit."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 45,
+  "km": 3,
+  "detail": "Mahahual is about 3 km (2 miles) from the port. The walk is flat but unshaded, hot and humid, and takes 30-45 minutes to the beach. Most people take a taxi. Once in Mahahual, the seafront walk (malecón) is about a mile long and car-free."
+ },
+ "transportSections": [
+  {
+   "mode": "Pier trolley",
+   "cost": "Free",
+   "time": "A few minutes",
+   "detail": "Runs along the long pier between the ships and the port village. You can walk instead."
+  },
+  {
+   "mode": "Taxi to Mahahual",
+   "cost": "About US$5 a person each way (2026)",
+   "time": "5-10 min",
+   "detail": "Taxis wait at the exit of the port complex and usually drop you at the lighthouse (El Faro) at the start of the malecón. Fares are quoted per person; agree the price before you get in and walk away from higher quotes. Taxis back to the port leave from the lighthouse."
+  },
+  {
+   "mode": "Shuttle to Mahahual",
+   "cost": "About US$5 a person each way (2026)",
+   "time": "5-7 min",
+   "detail": "A shuttle runs between the port and Mahahual for a small fee. Carry small US dollar notes."
+  },
+  {
+   "mode": "Golf cart hire",
+   "cost": "About US$60 a day (2026)",
+   "time": "Self-drive",
+   "detail": "Booth at the port exit. Useful for reaching quieter beaches south of the village."
+  },
+  {
+   "mode": "Organised tour to Chacchoben",
+   "cost": "Varies by line; Norwegian lists from £120.61 an adult (2026)",
+   "time": "About 4 hours including about 1 hour each way by road",
+   "detail": "Most passengers visit the ruins on a ship tour or a pre-booked local tour. The site is about an hour inland and the last entry is 14:30."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave Mahahual 90 minutes before all-aboard (16:00 for a 17:30 all-aboard) and be on board 60 minutes before.",
+  "detail": "The taxi takes 5-10 minutes, but you then walk through the port village maze and along a long pier. On four-ship days the taxi line at the lighthouse and the trolley can both have queues. From Chacchoben, allow about an hour on the road, so leave the site by 14:45 at the latest for a 17:30 all-aboard.",
+  "emergencyFallback": "If the taxi line in Mahahual is long, taxis can also be picked up at Jaime's at the Blue Reef. Do not take unlicensed drivers. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Chacchoben ruins",
+   "ship": "Norwegian lists from £120.61 an adult, about 4 hours (2026); other lines vary",
+   "diy": "Entry MX$155 for foreign visitors (2026) plus transport, which needs a car or private driver",
+   "saving": "Not calculated: independent transport prices were not verified"
+  },
+  {
+   "item": "Mahahual beach day",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi about US$5 a person each way (2026); beach clubs charge a minimum spend or all-inclusive fee",
+   "saving": "Usually large; Mahahual is easy to do alone"
+  }
+ ],
+ "excursionAdvice": "Skip the ship's tour for Mahahual: the taxi is short and cheap and the beach clubs are easy to book yourself. Chacchoben is the case for a ship tour or a well-reviewed local tour: it is about an hour inland on a single road, it closes to new visitors at 14:30, and an independent return depends on finding a reliable driver. A ship tour also protects you if the road or the port access is blocked, which happened for nearly four hours during a residents' protest in February 2026.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30. A Chacchoben tour would replace the morning.",
+  "steps": [
+   {
+    "time": "08:00",
+    "what": "Off the ship. Take the trolley or walk the pier, then allow 10-15 minutes to get through the port village to the taxi rank."
+   },
+   {
+    "time": "08:30",
+    "what": "Taxi to Mahahual (about US$5 a person, agree it first). Get out at the lighthouse."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk the malecón while it is cool and quiet. The far end has fewer businesses and free sand."
+   },
+   {
+    "time": "10:00",
+    "what": "Settle at a beach club such as Jaime's at the Blue Reef or The Krazy Lobster. Snorkel the reef if the sea is calm."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch at the beach club or at La Curvita in the village."
+   },
+   {
+    "time": "15:30",
+    "what": "Walk back to the lighthouse and join the taxi line. Leave by 16:00 at the latest."
+   },
+   {
+    "time": "16:00",
+    "what": "Back at the port. A last look at the port village shops or pool."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Mahahual malecón",
+   "why": "A car-free seafront walk of about a mile, lined with palms, shops and beach clubs, in a small fishing village.",
+   "timeNeeded": "1-3 hours",
+   "cost": "Free",
+   "tip": "Start at the lighthouse where the taxis drop you, and go in the morning before the heat and the crowds."
+  },
+  {
+   "name": "Chacchoben Maya site",
+   "why": "The classic inland trip: Maya temples in forest, including the Gran Basamento platform.",
+   "timeNeeded": "About 4 hours including the road",
+   "cost": "MX$155 foreign visitors (2026); extra fee for video and professional cameras",
+   "tip": "Open daily 09:00-15:00, last entry 14:30 (INAH). Temple steps cannot be climbed. Bring insect repellent, especially May to October."
+  },
+  {
+   "name": "Mahahual beach and reef",
+   "why": "Sandy beach in front of the village with a reef offshore for snorkelling.",
+   "timeNeeded": "2-4 hours",
+   "cost": "Free beach access; loungers come with a minimum spend",
+   "tip": "Mexican beaches are public, but chairs and umbrellas belong to the clubs. Walk to the quieter end for a free spot."
+  },
+  {
+   "name": "Puerto Costa Maya port village",
+   "why": "Shops, saltwater pools, the Aviarus bird aviary, Kakaw chocolate exhibit and a tequila display, steps from the ship.",
+   "timeNeeded": "1-2 hours",
+   "cost": "Free to enter; attractions vary",
+   "tip": "Good for a short call or the last hour. There is no sea swimming inside the port."
+  },
+  {
+   "name": "Kohunlich Maya site",
+   "why": "A second Maya site in southern Quintana Roo, around 1,500 years old, where some structures can be climbed.",
+   "timeNeeded": "Most of the day",
+   "cost": "MX$210 general admission (2026)",
+   "tip": "About 1-1.5 hours from the port each way. Only on a long call, and best on an organised tour."
+  },
+  {
+   "name": "Maya Chan beach day resort",
+   "why": "All-inclusive beach day resort about five miles south of the port with limited daily numbers.",
+   "timeNeeded": "4-5 hours",
+   "cost": "Day pass; check the resort's own site",
+   "tip": "Book ahead. It is not in the village, so you need its transfer or a taxi."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Mahahual village beach",
+   "howToGetThere": "Taxi to the lighthouse, then walk along the malecón",
+   "time": "5-10 min by taxi",
+   "cost": "Free; loungers with a food and drink purchase",
+   "note": "Barriers keep sargassum seaweed off most of the village beach, but it can still pile up and smell in some seasons."
+  },
+  {
+   "name": "Jaime's at the Blue Reef",
+   "howToGetThere": "Taxi from the port; taxis also wait outside to return",
+   "time": "About 10 min",
+   "cost": "All-inclusive fee; check its website",
+   "note": "Small club with limited places, so book ahead."
+  },
+  {
+   "name": "The Krazy Lobster Beach Club",
+   "howToGetThere": "Taxi to Mahahual, then walk the malecón",
+   "time": "5-10 min by taxi",
+   "cost": "Loungers with food and drink purchase",
+   "note": "Lockers, umbrellas, Wi-Fi and kayaks."
+  },
+  {
+   "name": "Beaches south of the village",
+   "howToGetThere": "Golf cart or taxi along the coastal road",
+   "time": "10-20 min",
+   "cost": "Golf cart about US$60 a day (2026)",
+   "note": "Quieter, with eco-hotels and fewer facilities."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Grilled lobster on the beach",
+   "where": "El Faro, inside the Puerto Costa Maya port village",
+   "price": null
+  },
+  {
+   "dish": "Mexican lunch and cold beer under a palapa",
+   "where": "Cantina Latina, inside the port village",
+   "price": null
+  },
+  {
+   "dish": "Local breakfast and lunch",
+   "where": "La Curvita, Mahahual village",
+   "price": null
+  },
+  {
+   "dish": "Shrimp tacos",
+   "where": "Casa del Mar, Mahahual",
+   "price": null
+  },
+  {
+   "dish": "Coffee and pastries",
+   "where": "Panadería La Tartaleta, Mahahual",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Staying in the port village and thinking it is the town.",
+   "fix": "Costa Maya is the cruise complex; Mahahual is the village 3 km away. Take a taxi for the real seafront."
+  },
+  {
+   "mistake": "Getting in a taxi without agreeing the fare.",
+   "fix": "The going rate is about US$5 a person each way (2026). Confirm per-person price before you sit down."
+  },
+  {
+   "mistake": "Planning an afternoon visit to Chacchoben.",
+   "fix": "INAH lists last entry at 14:30 and the drive is about an hour. Go in the morning."
+  },
+  {
+   "mistake": "Leaving Mahahual 30 minutes before all-aboard.",
+   "fix": "Leave 90 minutes before. The port complex and long pier take time after the taxi ride."
+  },
+  {
+   "mistake": "Not asking which currency your change will be in.",
+   "fix": "Dollars are widely taken but change may come in pesos. Carry small US dollar notes and confirm before paying."
+  }
+ ],
+ "safety": "The US State Department rates Quintana Roo at Level 2, exercise increased caution, because of crime; the advice centres on Cancún, Playa del Carmen, Tulum and Cozumel, and on staying alert after dark. Mahahual on a port day is a small village with daytime crowds, but use taxis from the port rank or the lighthouse rank rather than unlicensed drivers. The UK warns that sea conditions can be unpredictable and some beaches are unpatrolled. Hurricane season runs from June to November and can cancel calls. In February 2026 residents blocked access to the cruise pier for nearly four hours during a protest, which stopped passengers leaving the port.",
+ "scams": [
+  "Inflated taxi fares: drivers sometimes quote double the usual per-person fare. Ask another driver; the normal rate is about US$5 a person each way (2026).",
+  "Unlicensed taxis: UK and US advice warns that unlicensed drivers have robbed passengers in Mexico. Use the organised rank at the port exit and the lighthouse.",
+  "Change given in pesos at a poor rate: confirm before paying whether change will be in dollars or pesos."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The pier is long, but the trolley runs along it. The port village is level but busy and maze-like. Mahahual's malecón is a flat paved walkway, while the beach itself is soft sand. Chacchoben involves forest paths and a raised platform reached by steps; Norwegian rates its tour as moderate and unsuitable for guests with walking difficulties.",
+ "rainyDay": "Rain is usually short tropical showers, but sea swimming and snorkelling may be poor. The port village has covered shops and the Kakaw chocolate and tequila exhibits. Chacchoben still works in light rain, though paths get slippery and insects are worse in the rainy season (May to October).",
+ "crowdTips": "Up to four ships can berth, which can put around 15,000 passengers into a village of a few streets. The taxi line at the port exit is longest in the first hour; leave a little later or walk the pier slowly. Go to the malecón early, then claim a beach club spot. Return before the mid-afternoon rush to the lighthouse taxi rank.",
+ "faqs": [
+  {
+   "q": "Is Costa Maya a tender port?",
+   "a": "No. Ships dock at a long pier with four berths, and a trolley runs along it."
+  },
+  {
+   "q": "Is Mahahual walkable from the Costa Maya cruise port?",
+   "a": "Just. It is about 3 km and takes 30-45 minutes in heat with little shade. A taxi takes 5-10 minutes for about US$5 a person (2026)."
+  },
+  {
+   "q": "How do I get from Costa Maya cruise port to Mahahual?",
+   "a": "Walk out through the port village to the taxi rank, then take a taxi or shuttle to the lighthouse at the start of the malecón."
+  },
+  {
+   "q": "Can I visit Chacchoben ruins on my own from Costa Maya?",
+   "a": "It is about an hour by road and has no public transport link from the port, so most people use a ship tour or pre-booked local tour. Entry is MX$155 for foreign visitors (2026), last entry 14:30."
+  },
+  {
+   "q": "What can I do in Costa Maya in one day from a cruise ship?",
+   "a": "A morning at Chacchoben on a tour, or a day in Mahahual: the malecón, a beach club and the reef."
+  },
+  {
+   "q": "Beaches near Costa Maya cruise port",
+   "a": "There is no sea beach in the port. Mahahual's beach and beach clubs are 5-10 minutes away by taxi."
+  },
+  {
+   "q": "Is Costa Maya safe?",
+   "a": "Quintana Roo carries a US Level 2 advisory. Use licensed taxis, watch the sea conditions and keep to busy areas."
+  },
+  {
+   "q": "Is there a cruise passenger tax in Mexico?",
+   "a": "Yes. Mexico charges foreign cruise passengers a federal fee, collected through the cruise line, set at the equivalent of US$10 from 1 August 2026 to 30 June 2027."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Mahahual malecón"
+  },
+  {
+   "name": "Chacchoben"
+  },
+  {
+   "name": "Mahahual reef"
+  },
+  {
+   "name": "Puerto Costa Maya port village"
+  },
+  {
+   "name": "Kohunlich"
+  },
+  {
+   "name": "Maya Chan"
+  }
+ ],
+ "sources": [
+  {
+   "title": "INAH (Lugares INAH) – Chacchoben archaeological zone: hours and fees",
+   "url": "https://lugares.inah.gob.mx/en/node/5626"
+  },
+  {
+   "title": "Diario Oficial de la Federación – Decree on the migration fee for cruise passengers (30 June 2025)",
+   "url": "https://sidof.segob.gob.mx/notas/docFuente/5761557"
+  },
+  {
+   "title": "US State Department – Mexico travel advisory (May 2026)",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html"
+  },
+  {
+   "title": "US State Department – Mexico country information",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Mexico.html"
+  },
+  {
+   "title": "UK FCDO – Mexico travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/mexico/safety-and-security"
+  },
+  {
+   "title": "Celebrity Cruises – Costa Maya port guide",
+   "url": "https://www.celebritycruises.com/mx/es/ports/costa-maya-mexico"
+  },
+  {
+   "title": "Norwegian Cruise Line – Chacchoben Mayan Ruins excursion",
+   "url": "https://www.ncl.com/uk/en/shore-excursions/CMA_10/Chacchoben-Mayan-Ruins"
+  },
+  {
+   "title": "El Congresista – 2026 INAH prices in Quintana Roo",
+   "url": "https://elcongresista.mx/politica/quintana-roo/aumenta-el-costo-de-acceso-a-zonas-arqueologicas-en-quintana-roo-para-2026"
+  },
+  {
+   "title": "Riviera Maya News – Cruise passenger fee rises to US$10 in August 2026",
+   "url": "https://www.rivieramayanews.mx/cruise-passenger-fee-at-mexican-ports-to-rise-to-10-in-august/"
+  },
+  {
+   "title": "Por Esto – Residents block Mahahual cruise pier (February 2026)",
+   "url": "https://www.poresto.com/quintana-roo/chetumal/2026/2/14/cierre-del-muelle-en-mahahual-deja-perdidas-por-casi-3-millones-de-pesos.amp.html"
+  },
+  {
+   "title": "CruiseMapper – Costa Maya port",
+   "url": "https://cruisemapper.com/ports/costa-maya-port-455"
+  },
+  {
+   "title": "Cruzely – Full guide to Costa Maya (August 2026)",
+   "url": "https://www.cruzely.com/port-guide-costa-maya-mahahual-mexico/"
+  },
+  {
+   "title": "Adventour Begins – Costa Maya cruise port guide (updated November 2025)",
+   "url": "https://www.adventourbegins.com/costa-maya-cruise-port-guide/"
+  },
+  {
+   "title": "Royal Caribbean Blog – Mahahual on a cruise day",
+   "url": "https://www.royalcaribbeanblog.com/2023/03/06/mahahual-mexico-cruise-tour"
+  },
+  {
+   "title": "Chacchoben Ruins Tours – FAQ",
+   "url": "https://chacchobenruins.com/faq"
+  },
+  {
+   "title": "Wikivoyage – Mahahual",
+   "url": "https://en.wikivoyage.org/wiki/Mahahual"
+  }
+ ],
+ "uncertain": [
+  "The official Puerta Costa Maya website could not be opened (it blocks automated access), so port-village facilities come from cruise-line and third-party pages.",
+  "A local tour company lists different Chacchoben opening hours from INAH; the guide uses INAH's.",
+  "Road distance to Chacchoben is given as 70 km by one source and 90 km by another; the guide uses only the agreed drive time of about an hour.",
+  "Independent taxi or private-driver prices to Chacchoben were not verified.",
+  "Whether Royal Caribbean's planned Perfect Day Mexico development will change port operations: reports say Mexico rejected it in May 2026, but no official statement was opened."
+ ]
+}

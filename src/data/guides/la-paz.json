@@ -1,0 +1,374 @@
+{
+ "slug": "la-paz",
+ "city": "La Paz",
+ "portName": "Port of Pichilingue (La Paz)",
+ "townName": "the malecón and downtown La Paz",
+ "country": "Mexico",
+ "currency": "MXN",
+ "currencySymbol": "MX$",
+ "priceSymbol": "US$",
+ "language": "Spanish",
+ "timezone": "MST (UTC−7), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "La Paz cruise port guide: Pichilingue, shuttle and Balandra",
+ "seoDescription": "La Paz ships dock at Pichilingue, about 17 km from town. Carnival shuttle US$10 return (2025), about 30 min; taxi about US$40 one way. Balandra MX$120 (2025).",
+ "quickAnswer": "Cruise ships dock at Pichilingue, next to the ferry terminal and about 17 km north-east of La Paz, so you cannot walk to town. The cruise line shuttle takes about 30 minutes to the downtown bus terminal by the malecón (Carnival charged US$10 return in 2025); a taxi is about US$40 one way. Board a return shuttle at least two hours before all-aboard, because the last shuttle can leave town well before the ship sails.",
+ "intro": "La Paz is a working state capital rather than a cruise town, and the ship sits far out at the industrial ferry port of Pichilingue. The day therefore turns on transport: the shuttle into the 5 km malecón, or a taxi to Balandra and Tecolote, the clear, shallow beaches close to the port. Boat trips to Isla Espíritu Santo and, in winter, to the whale sharks in the bay are the big draws. Cruise calls are few, around 40 a year in 2025, so the town rarely feels crowded.",
+ "isTender": false,
+ "tenderNotes": "Larger ships berth alongside at Pichilingue, near the ferry terminal, and passengers walk off. Seabourn's port page describes its ships anchoring in the Bay of La Paz, so small luxury ships may tender; check your daily programme.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Pichilingue cruise berth (beside the ferry terminal)",
+   "distanceToCentreKm": 17,
+   "notes": "Industrial port about 17 km (10 miles) from La Paz. Shuttle buses, taxi vendors and tour vans wait at the pier; a small market of stalls is set up at the dock on ship days."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 17,
+  "detail": "The port is about 17 km from the malecón along a coastal highway with no practical walking route. Once you reach the malecón, downtown La Paz is flat and easy on foot."
+ },
+ "transportSections": [
+  {
+   "mode": "Cruise line shuttle bus",
+   "cost": "Carnival: US$10 return age 13+, US$8 age 6–12, under-6s free (2025)",
+   "time": "About 30 min (20 min to Coromuel beach, then about 10 min more to downtown)",
+   "detail": "Carnival started charging for this previously free shuttle in February 2025; other lines may differ. The bus stops at Playa Coromuel, then ends at the downtown bus terminal between the cathedral and the malecón. Show your cruise card to reboard. On one January 2025 call buses ran into town from 08:15 to 13:30 and returned every 20 minutes, with the last at 15:30; times follow your ship's hours."
+  },
+  {
+   "mode": "Taxi from the pier",
+   "cost": "About US$40 one way to downtown for up to four; US$5 each extra person (2025)",
+   "time": "About 30 min",
+   "detail": "Vendors at the terminal sell rides. A three-hour hire was quoted at US$150 for up to four, and a run to Balandra or Tecolote at US$25 (2025). Agree the price and the pick-up time before you get in."
+  },
+  {
+   "mode": "Ship or local tour",
+   "cost": "Varies; check your cruise planner",
+   "time": "Half day or longer",
+   "detail": "Boat trips to Isla Espíritu Santo and whale shark swims need a licensed operator. Tour vans also wait at the downtown bus terminal."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Board a return shuttle downtown at least 120 minutes before all-aboard, and know the time of the last shuttle before you leave the ship.",
+  "detail": "The ride is about 30 minutes, and on some calls the last shuttle has left town 2–2.5 hours before the ship sailed. Miss it and you need a taxi, at around US$40, for a 17 km ride.",
+  "emergencyFallback": "Take a taxi from the malecón to Pichilingue (about 30 minutes) and call the port agent number on your daily programme if you will be late. Carry US dollars or pesos in cash for this."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Downtown La Paz and the malecón",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Shuttle US$10 return (Carnival, 2025)",
+   "saving": "Usually large; the malecón itself is free"
+  },
+  {
+   "item": "Balandra beach",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi about US$25 each way per cab (2025) plus MX$120 entry each (2025)",
+   "saving": "Depends on group size"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for downtown: the shuttle and a walk along the malecón cover it. A tour is worth it for Isla Espíritu Santo and for whale sharks, because both need a licensed boat and a fixed return time, and the long ride back to Pichilingue leaves little margin. For Balandra, a ship tour or a taxi with an agreed pick-up time are both reasonable; going alone without a return booked is the risky option.",
+ "dayPlan": {
+  "allAboard": "16:30",
+  "intro": "Assumes the ship docks at 08:00 and sails at 17:00, with all-aboard at 16:30 and a shuttle running to downtown.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Take an early shuttle from the pier. Note the time of the last return shuttle."
+   },
+   {
+    "time": "08:45",
+    "what": "Arrive at the downtown bus terminal. Walk to the Cathedral of Nuestra Señora de La Paz."
+   },
+   {
+    "time": "09:15",
+    "what": "Museo Regional de Antropología e Historia (opens 09:00, closed Mondays)."
+   },
+   {
+    "time": "10:30",
+    "what": "Walk the malecón: the La Paz sign and the bronze sculptures along the seafront."
+   },
+   {
+    "time": "12:00",
+    "what": "Fish tacos for lunch, for example at El Estadio near the cathedral."
+   },
+   {
+    "time": "13:00",
+    "what": "Browse Mercado Bravo or sit by the water on the malecón."
+   },
+   {
+    "time": "14:20",
+    "what": "Board a return shuttle at the downtown bus terminal."
+   },
+   {
+    "time": "15:00",
+    "what": "Back on board, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Malecón de La Paz",
+   "why": "A 5 km seafront promenade with bay views, sculptures, cafés and the La Paz sign.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Walk it in the morning; there is little shade at midday."
+  },
+  {
+   "name": "Playa Balandra",
+   "why": "A protected bay of shallow, clear water and white sand close to Pichilingue.",
+   "timeNeeded": "3 hours including travel",
+   "cost": "MX$120 per person, foreign and national visitors (2025)",
+   "tip": "Entry runs in two shifts, 08:00–12:00 and 13:00–17:00, with 450 people per shift (2025). There are no shops or restaurants, so take water and food."
+  },
+  {
+   "name": "Isla Espíritu Santo",
+   "why": "A UNESCO-listed island off La Paz known for its sea lion colony and snorkelling.",
+   "timeNeeded": "Most of the day",
+   "cost": "Varies by operator",
+   "tip": "Only book a tour that guarantees a return in time for your ship."
+  },
+  {
+   "name": "Whale sharks in the Bay of La Paz",
+   "why": "Licensed boats take swimmers to whale sharks around El Mogote, in front of the malecón.",
+   "timeNeeded": "3–4 hours",
+   "cost": "Varies by operator",
+   "tip": "Winter only (the 2025–26 season ran from November to April). The season was suspended in early 2025 because few sharks appeared, so check before booking."
+  },
+  {
+   "name": "Museo Regional de Antropología e Historia de Baja California Sur",
+   "why": "The state's history, from cave paintings to the missions, in a downtown museum run by INAH.",
+   "timeNeeded": "1 hour",
+   "cost": "MX$145 foreign visitors (INAH, 2026)",
+   "tip": "Open Tuesday to Sunday, 09:00–18:00."
+  },
+  {
+   "name": "Cathedral of Nuestra Señora de La Paz",
+   "why": "The city's cathedral, holding paintings brought from defunct missions in the region.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "It is close to the shuttle drop-off, so it makes an easy first stop."
+  },
+  {
+   "name": "Mercado Bravo",
+   "why": "The local market downtown, for food stalls and everyday La Paz.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "Carry small peso notes."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Playa Coromuel",
+   "howToGetThere": "Cruise shuttle stop on the way into town",
+   "time": "About 20 min from the pier by shuttle",
+   "cost": "Free beach; shuttle fare applies",
+   "note": "The easiest beach to combine with the shuttle."
+  },
+  {
+   "name": "Playa Balandra",
+   "howToGetThere": "Taxi from the pier",
+   "time": "Short taxi ride from Pichilingue",
+   "cost": "Taxi about US$25 (2025); entry MX$120 (2025)",
+   "note": "Capped numbers in two shifts; no services on site."
+  },
+  {
+   "name": "Playa El Tecolote",
+   "howToGetThere": "Taxi from the pier",
+   "time": "Short taxi ride from Pichilingue",
+   "cost": "Taxi about US$25 (2025)",
+   "note": "A longer beach just beyond Balandra; some beaches on this road have restaurants and washrooms."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Battered fish tacos with self-serve toppings",
+   "where": "El Estadio, downtown near the cathedral",
+   "price": null
+  },
+  {
+   "dish": "Fish tacos and guacamole",
+   "where": "Asadero Rancho Viejo, opposite La Paz Marina",
+   "price": null
+  },
+  {
+   "dish": "Battered fish tacos",
+   "where": "Claros Fish Jr.",
+   "price": null
+  },
+  {
+   "dish": "Crispy fish and shrimp tacos",
+   "where": "TacoFish",
+   "price": null
+  },
+  {
+   "dish": "Ice cream",
+   "where": "La Fuente, on the malecón",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming you can walk into town from the ship.",
+   "fix": "Pichilingue is about 17 km away. Book the shuttle or agree a taxi before you leave the pier."
+  },
+  {
+   "mistake": "Planning to come back on the last shuttle.",
+   "fix": "The last shuttle can leave town well before sailing. Take one two hours before all-aboard."
+  },
+  {
+   "mistake": "Turning up at Balandra in the afternoon expecting to get in.",
+   "fix": "Numbers are capped per shift. Arrive before a shift starts and carry cash for the MX$120 fee."
+  },
+  {
+   "mistake": "Booking a whale shark swim without checking the season.",
+   "fix": "Sharks are in the bay in winter only, and the 2025 season was cut short. Use a licensed operator and confirm sightings."
+  },
+  {
+   "mistake": "Getting in a taxi without a price.",
+   "fix": "Agree the fare in dollars or pesos, and the return pick-up time, before setting off."
+  }
+ ],
+ "safety": "The US State Department rates Baja California Sur at Level 2, exercise increased caution, the same as Mexico overall (May 2026). Visitors on the malecón and at the beaches mostly face practical risks: strong sun and heat, no shade at Balandra, and boat trips with unlicensed operators. Use the cruise shuttle, licensed tours and taxis from the official rank, keep valuables out of sight, and carry water.",
+ "scams": [
+  "Taxi overcharging: there are no meters on the port run, so agree the fare and the number of passengers before you get in.",
+  "Unlicensed boat operators: whale shark and island trips must use authorised operators; ask to see their permit and avoid touts on the malecón."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The Carnival shuttle has carried wheelchairs and scooters. The malecón is a long, flat, paved promenade and suits wheelchair users. Downtown streets have kerbs and uneven pavements. Balandra is reached on foot over sand with no facilities, and boat trips to Espíritu Santo or the whale sharks need you to climb into small open boats, which is hard for anyone with limited mobility.",
+ "rainyDay": "Rain is rare except in the late summer storm season, when Pacific hurricanes can also cancel calls in the Sea of Cortez. On a wet or windy day stay downtown: the anthropology museum, the cathedral and the markets are all within a short walk of the shuttle stop.",
+ "crowdTips": "La Paz had about 40 cruise calls in 2025 and 51 scheduled for 2026, so you will rarely share it with another ship. The pressure points are the shuttle queues at the pier first thing and before the last return, and Balandra's capped shifts at weekends and holidays. Go out on an early shuttle and come back on an early afternoon one.",
+ "faqs": [
+  {
+   "q": "Is La Paz walkable from the cruise port?",
+   "a": "No. Ships dock at Pichilingue, about 17 km from the malecón. Use the shuttle or a taxi."
+  },
+  {
+   "q": "How do I get from La Paz cruise port to the malecón?",
+   "a": "Take the cruise line shuttle, about 30 minutes to the downtown bus terminal (Carnival: US$10 return in 2025), or a taxi at about US$40 one way."
+  },
+  {
+   "q": "Is La Paz a tender port?",
+   "a": "Usually not. Larger ships berth at Pichilingue. Some small luxury ships anchor in the bay and tender."
+  },
+  {
+   "q": "What can I do in La Paz in one day from a cruise ship?",
+   "a": "Walk the malecón and visit the cathedral and museum, spend the morning at Balandra, or join a boat trip to Isla Espíritu Santo."
+  },
+  {
+   "q": "Beaches near La Paz cruise port?",
+   "a": "Balandra and El Tecolote are a short taxi ride from Pichilingue; Playa Coromuel is a stop on the shuttle route."
+  },
+  {
+   "q": "How much does Balandra cost?",
+   "a": "MX$120 per visitor in 2025, with two shifts a day (08:00–12:00 and 13:00–17:00) capped at 450 people each."
+  },
+  {
+   "q": "Can I swim with whale sharks from a cruise in La Paz?",
+   "a": "Only in winter, roughly November to April, and only with a licensed operator. Book a trip that guarantees your return."
+  },
+  {
+   "q": "Is La Paz safe?",
+   "a": "The US rates Baja California Sur at Level 2, increased caution. Use licensed transport and guard against sun and heat."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Malecón de La Paz"
+  },
+  {
+   "name": "Playa Balandra"
+  },
+  {
+   "name": "Isla Espíritu Santo"
+  },
+  {
+   "name": "Playa El Tecolote"
+  },
+  {
+   "name": "Museo Regional de Antropología e Historia de Baja California Sur"
+  },
+  {
+   "name": "Cathedral of Nuestra Señora de La Paz"
+  }
+ ],
+ "sources": [
+  {
+   "title": "INAH – Museo Regional de Antropología e Historia de Baja California Sur",
+   "url": "https://lugares.inah.gob.mx/en/node/4523"
+  },
+  {
+   "title": "US State Department – Mexico travel advisory (May 2026)",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html"
+  },
+  {
+   "title": "Seabourn – Pichilingue (La Paz), Mexico port page",
+   "url": "https://www.seabourn.com/en_US/ports/pichilingue-la-paz-mexico.html"
+  },
+  {
+   "title": "Cruise Hive – Carnival now charging for previously free shuttle (February 2025)",
+   "url": "https://www.cruisehive.com/carnival-now-charging-fee-for-previously-free-shuttle-service/160453"
+  },
+  {
+   "title": "Forever Karen – La Paz Mexico activities from a cruise (updated November 2025)",
+   "url": "https://foreverkaren.com/travel/la-paz-mexico-activities/"
+  },
+  {
+   "title": "Gringo Gazette – Cruise ship visits reach highest number (February 2026)",
+   "url": "https://gringogazette.com/cruise-ship-visits-reach-highest-number/"
+  },
+  {
+   "title": "Gringo Gazette – New cruise ships dock in La Paz (2023)",
+   "url": "https://gringogazette.com/?p=26701"
+  },
+  {
+   "title": "Seatrade Cruise News – API Baja California Sur tender for Pichilingue cruise facility",
+   "url": "https://www.seatrade-cruise.com/news/api-baja-california-sur-issues-tender-pichilingue-cruise-facility"
+  },
+  {
+   "title": "POSTA – Guía para visitar Balandra: horarios, reservas y costos (July 2025)",
+   "url": "https://www.posta.com.mx/bcs/guia-para-visitar-balandra-sin-contratiempos-horarios-reservas-y-costos/vl2064539"
+  },
+  {
+   "title": "POSTA – Temporada del tiburón ballena en La Paz (November 2025)",
+   "url": "https://www.posta.com.mx/bcs/temporada-del-tiburon-ballena-en-bcs-cuando-ir-y-donde-verlo-en-la-paz/vl2122447"
+  },
+  {
+   "title": "Luz Noticias – Cuánto mide el malecón de La Paz (February 2025)",
+   "url": "https://www.luznoticias.mx/2025-02-27/mexico/cuanto-mide-el-malecon-de-la-paz-bcs-y-que-actividades-hacer/236197"
+  },
+  {
+   "title": "CruiseMapper – Mexico doubles cruise passenger fee (July 2026)",
+   "url": "https://www.cruisemapper.com/news/16527-mexico-doubles-cruise-passenger-tourism-fee"
+  },
+  {
+   "title": "Thoroughly Travel – Best restaurants in La Paz (updated October 2026)",
+   "url": "https://www.thoroughlytravel.com/restaurants-la-paz-mexico"
+  },
+  {
+   "title": "What's In Port – La Paz",
+   "url": "https://www.whatsinport.com/La-Paz.htm"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – La Paz Mexico cruise port (May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/la-paz-mexico-cruise-port/"
+  },
+  {
+   "title": "Cruise Critic boards – La Paz suggestions",
+   "url": "https://boards.cruisecritic.co.uk/topic/1321045-la-paz-suggestions/"
+  }
+ ],
+ "uncertain": [
+  "Exact berth name at Pichilingue and whether the planned expansion to two cruise berths has been completed.",
+  "Shuttle prices and schedules for lines other than Carnival.",
+  "Local public bus from Pichilingue to the Terminal Malecón (an older source lists hourly buses 07:00–18:00 and an US$8–10 taxi; not confirmed for 2026).",
+  "Taxi travel time from Balandra or Tecolote back to the pier.",
+  "Whether Mexico's cruise passenger fee (reported as US$10 per person from August 2026) is added to cruise fares or collected separately.",
+  "Restaurant prices and current opening hours."
+ ]
+}

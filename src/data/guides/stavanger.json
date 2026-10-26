@@ -1,0 +1,392 @@
+{
+ "slug": "stavanger",
+ "city": "Stavanger",
+ "portName": "Port of Stavanger (Vågen: Strandkaien and Skagenkaien)",
+ "townName": "Vågen and Old Stavanger",
+ "country": "Norway",
+ "currency": "NOK",
+ "currencySymbol": "kr",
+ "language": "Norwegian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Stavanger cruise port guide: Vågen, Lysefjord, Pulpit Rock",
+ "seoDescription": "Stavanger cruise ships berth in Vågen, 500 m from the centre. Pulpit Rock: 8 km, about 4 hours on foot plus 1 hour by bus each way. Cathedral NOK 75 (2026).",
+ "quickAnswer": "Ships normally berth at Strandkaien or Skagenkaien in Vågen, the inner harbour, about 500 m from the city centre, so you walk off the ship into town. Old Stavanger, the cathedral and the Petroleum Museum are all on foot. For Pulpit Rock, be on a return bus that reaches Stavanger at least 90 minutes before all-aboard.",
+ "intro": "Stavanger is a dock-in-town port. The cruise quays line Vågen, the old harbour, with Old Stavanger's white wooden houses rising on one side and the cathedral a few minutes away. The town itself fills a half day easily on foot. The big decision is whether to go out to the Lysefjord: either a 3–3.5 hour fjord cruise from the same harbour, or the Preikestolen (Pulpit Rock) hike, which uses most of a normal call and leaves little margin if anything runs late.",
+ "isTender": false,
+ "tenderNotes": "Ships normally berth. Anchorage in the Åmøyfjord with tendering is possible, and on busy days a ship may be given a berth outside the centre, in which case shuttle buses are often provided; check your ship's daily programme.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Strandkaien (Vågen, west side)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Main cruise quay, 309 m. Below Old Stavanger. No dedicated terminal building; you step off onto the harbour front."
+  },
+  {
+   "name": "Skagenkaien (Vågen, east side)",
+   "distanceToCentreKm": 0.5,
+   "notes": "149 m quay on the east side of the harbour, by the tourist office and the old sea houses."
+  },
+  {
+   "name": "Skansekaien and Konserthuskaien",
+   "distanceToCentreKm": 0.8,
+   "notes": "Further quays at the harbour mouth used when several ships call. The port lists berths as 100–800 m from the tourist information."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.5,
+  "detail": "From the Vågen quays the centre, Old Stavanger and the cathedral are a short, mostly level walk. Old Stavanger's lanes are cobbled and slope up from the harbour. If your ship is sent to a berth outside the centre, use the shuttle."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5–15 min to most central sights",
+   "detail": "Old Stavanger is directly above Strandkaien. The cathedral is a few minutes inland from the head of the harbour. The Lysefjord boats leave from Strandkaien, 10–15 minutes from the moorings."
+  },
+  {
+   "mode": "Kolumbus local bus",
+   "cost": "NOK 49 one zone, NOK 87 two zones; NOK 20 extra if bought on board (2026)",
+   "time": "Ticket valid 60 min in one zone",
+   "detail": "Buy in the Kolumbus Billett app, Entur app or at ticket machines before boarding. You do not need a bus for the centre."
+  },
+  {
+   "mode": "Express bus to Preikestolen",
+   "cost": "Book online in advance; tickets are not sold on the bus",
+   "time": "About 1 hour each way to Preikestolen BaseCamp",
+   "detail": "Seasonal, April to September. Departs from Olav Vs gate 3, by the Radisson Blu Atlantic Hotel, about 500 m from Strandkaien/Skagenkaien. Return tickets are generally not valid on another company's bus."
+  },
+  {
+   "mode": "Lysefjord sightseeing boat",
+   "cost": "Listed at NOK 890 on the operator's site (2026)",
+   "time": "3–3.5 hours",
+   "detail": "Rødne's Lysefjord cruise leaves from Strandkaien in Vågen and passes below Preikestolen. Be at the boat 20 minutes before departure; seats are not allocated."
+  }
+ ],
+ "returnTiming": {
+  "rule": "From the centre, start back 70 minutes before all-aboard. From Preikestolen, take a return bus that reaches Stavanger at least 90 minutes before all-aboard: for a 17:30 all-aboard, that is the 15:00 bus from the trailhead.",
+  "detail": "The hike is about 8 km return with around 500 m of climbing and needs about four hours; with an hour's bus each way, the trip takes roughly six hours. There is one road route and seasonal buses at fixed times, so a slow walker or a missed bus has no quick fix. The Lysefjord boat returns to Strandkaien, a 10–15 minute walk from the ship.",
+  "emergencyFallback": "If you miss your return bus from Preikestolen, call the bus operator straight away and then the port agent number on your ship's daily programme. A taxi is the only other fast option back to Stavanger, and it is expensive."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Lysefjord cruise",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "NOK 890 listed on the operator's site (2026), from Strandkaien",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "Preikestolen hike",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Express bus booked online plus a self-guided hike",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship's tour for Stavanger itself: everything central is a short walk. The independent Lysefjord boat leaves from the same harbour and is easy to do alone. Preikestolen is the case for the ship's tour: it takes about six hours door to door, buses sell out in summer, and the ship will wait for its own tour if the bus or the weather causes delays. Book independently only if your call is at least nine hours and you are a confident hiker.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at Strandkaien and all-aboard is 17:30, in summer.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk up from the quay into Old Stavanger and wander the lanes of white wooden houses."
+   },
+   {
+    "time": "09:30",
+    "what": "Walk round the head of the harbour to Stavanger Cathedral (NOK 75)."
+   },
+   {
+    "time": "10:15",
+    "what": "Øvre Holmegate, the colour street, then the Vågen harbour front and the tourist office at Skagenkaien."
+   },
+   {
+    "time": "11:00",
+    "what": "Norwegian Petroleum Museum (NOK 180; open 10:00–19:00 in summer)."
+   },
+   {
+    "time": "12:45",
+    "what": "Lunch by the harbour, for example seafood at Fisketorget."
+   },
+   {
+    "time": "14:00",
+    "what": "Option: climb to Valberg Tower for the view over Vågen, or rest on the harbour front. On a long call, take the Lysefjord boat instead of the museum."
+   },
+   {
+    "time": "16:20",
+    "what": "Start back towards the quay."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Old Stavanger (Gamle Stavanger)",
+   "why": "More than 170 preserved white wooden houses on cobbled lanes just above the cruise quay.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free",
+   "tip": "Go first, before the lanes fill with tour groups."
+  },
+  {
+   "name": "Stavanger Cathedral",
+   "why": "Begun around 1125, the only medieval cathedral in Norway that has kept its original architecture; restored 2015–2024.",
+   "timeNeeded": "30 minutes",
+   "cost": "NOK 75 for visitors (2026)",
+   "tip": "It closes to visitors during services and events; check the day's hours."
+  },
+  {
+   "name": "Norwegian Petroleum Museum",
+   "why": "How oil and gas shaped modern Norway, on the harbour front.",
+   "timeNeeded": "1.5 hours",
+   "cost": "NOK 180 adult (2026)",
+   "tip": "Open daily 10:00–19:00 from June to August; shorter hours the rest of the year."
+  },
+  {
+   "name": "Øvre Holmegate (Fargegaten)",
+   "why": "A short street of brightly painted facades with cafés and small shops.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "Combine with the harbour front on the east side of Vågen."
+  },
+  {
+   "name": "Vågen harbour front",
+   "why": "The old sea houses along Strandkaien and Skagenkaien, now restaurants and bars.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "The tourist office is on Skagenkaien."
+  },
+  {
+   "name": "Valberg Tower (Valbergtårnet)",
+   "why": "A former watchtower above the east side of Vågen with a view over the harbour.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to view from outside",
+   "tip": "A short, steep climb from the harbour."
+  },
+  {
+   "name": "Lysefjord cruise",
+   "why": "Sails up the Lysefjord and below Preikestolen, 604 m above the water.",
+   "timeNeeded": "3–3.5 hours",
+   "cost": "NOK 890 listed (2026)",
+   "tip": "Leaves from Strandkaien; be there 20 minutes early."
+  },
+  {
+   "name": "Preikestolen (Pulpit Rock)",
+   "why": "The flat-topped cliff 604 m above the Lysefjord.",
+   "timeNeeded": "About 6 hours including the bus",
+   "cost": "Express bus booked online",
+   "tip": "About 8 km return and 500 m of climbing on rock, stairs and boardwalk. Wear walking shoes and carry rain gear and water."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Solastranden",
+   "howToGetThere": "Taxi, or Kolumbus bus (plan the route in the Kolumbus app)",
+   "time": "Near Stavanger Airport, about 14 km from the port",
+   "cost": "Free",
+   "note": "Long sandy beach. Too far for a short call; the water is cold even in summer."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fresh seafood: prawns, fish, shellfish",
+   "where": "Fisketorget, on the Vågen harbour front",
+   "price": null
+  },
+  {
+   "dish": "Seasonal Norwegian dishes",
+   "where": "Matbaren (Victoria Hotel), near the harbour",
+   "price": null
+  },
+  {
+   "dish": "Produce-led seasonal menu",
+   "where": "Egget, central Stavanger",
+   "price": null
+  },
+  {
+   "dish": "Fish soup (fiskesuppe)",
+   "where": "Restaurants around Vågen; ask whether it is made in-house",
+   "price": null
+  },
+  {
+   "dish": "Skillingsboller (cinnamon buns) or waffles with brunost",
+   "where": "Bakeries and cafés in the centre",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning Preikestolen on a short call.",
+   "fix": "Allow about six hours. Only go on a call of nine hours or more, or take the ship's tour."
+  },
+  {
+   "mistake": "Turning up for the Preikestolen bus without a ticket.",
+   "fix": "Book online in advance; tickets are not sold on the bus and summer departures sell out."
+  },
+  {
+   "mistake": "Hiking in town shoes and no rain layer.",
+   "fix": "The trail is rock, stairs and boggy ground, and plateau weather differs from the harbour. Wear walking shoes and carry a waterproof."
+  },
+  {
+   "mistake": "Buying a bus ticket on board.",
+   "fix": "It costs NOK 20 extra. Use the Kolumbus app, or simply walk: the centre needs no bus."
+  },
+  {
+   "mistake": "Assuming your ship berths in Vågen.",
+   "fix": "On busy days ships can be placed further out. Check the daily programme for the berth and any shuttle."
+  }
+ ],
+ "safety": "Stavanger is a safe city for visitors. The main risks are outdoors: the Preikestolen plateau has unfenced cliff edges and the trail can be slippery when wet. Keep well back from the edge and turn round if the weather closes in. In town, Old Stavanger's cobbles are slippery in rain.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The Vågen quays and harbour front are level, and the cathedral and Petroleum Museum are a short, flat walk. Old Stavanger is cobbled and slopes up from the harbour, so it is hard going for wheelchairs. Preikestolen is unsuitable for wheelchairs despite trail improvements. The Lysefjord boat is the step-light way to see the fjord; ask the operator about access before booking.",
+ "rainyDay": "Rain is common. Spend longer in the Norwegian Petroleum Museum and the cathedral, then eat by the harbour. The Lysefjord boat still runs in rain, but the view may be lost in low cloud. Skip Preikestolen in heavy rain or fog: the rock is slippery and the view will be gone.",
+ "crowdTips": "Several ships can call on the same day. Old Stavanger and the harbour front are busiest mid-morning, when groups come off the ships. Go up into Old Stavanger first, visit the museum around midday, and book Preikestolen buses and Lysefjord boats early in high season.",
+ "faqs": [
+  {
+   "q": "Is Stavanger walkable from the cruise port?",
+   "a": "Yes. Ships berth in Vågen, about 500 m from the centre. Old Stavanger is right above the quay."
+  },
+  {
+   "q": "Is Stavanger a tender port?",
+   "a": "Normally no; ships berth at Strandkaien or Skagenkaien. Tendering is possible but uncommon, and on busy days a ship may berth further out with a shuttle."
+  },
+  {
+   "q": "Can I hike Pulpit Rock from a cruise ship in Stavanger?",
+   "a": "Only on a long call. The bus takes about an hour each way and the hike about four hours. Be on a return bus that reaches Stavanger at least 90 minutes before all-aboard."
+  },
+  {
+   "q": "How long is the Lysefjord cruise from Stavanger?",
+   "a": "3–3.5 hours, leaving from Strandkaien in Vågen, a 10–15 minute walk from the cruise moorings."
+  },
+  {
+   "q": "What can I do in Stavanger in one day from a cruise ship?",
+   "a": "Old Stavanger, the cathedral, Øvre Holmegate and the Petroleum Museum on foot, or a Lysefjord boat trip."
+  },
+  {
+   "q": "How much does Stavanger Cathedral cost?",
+   "a": "NOK 75 for tourists and visitors (2026)."
+  },
+  {
+   "q": "Do I need a bus in Stavanger?",
+   "a": "Not for the centre. A Kolumbus single ticket costs NOK 49 for one zone (2026), bought in the app."
+  },
+  {
+   "q": "Is Stavanger safe?",
+   "a": "Yes. Take care on the Preikestolen cliffs and on wet cobbles."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Old Stavanger"
+  },
+  {
+   "name": "Stavanger Cathedral"
+  },
+  {
+   "name": "Norwegian Petroleum Museum"
+  },
+  {
+   "name": "Øvre Holmegate"
+  },
+  {
+   "name": "Lysefjord"
+  },
+  {
+   "name": "Preikestolen (Pulpit Rock)"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cruise Norway – Stavanger port profile, part 1",
+   "url": "https://cruise-norway.no/wp-content/uploads/2021/09/Stavanger-1.pdf"
+  },
+  {
+   "title": "Cruise Norway – Stavanger port profile, part 2",
+   "url": "https://cruise-norway.no/wp-content/uploads/2021/09/Stavanger-2.pdf"
+  },
+  {
+   "title": "Cruise Europe – Stavanger port information",
+   "url": "https://www.cruiseeurope.com/port-information/stavanger"
+  },
+  {
+   "title": "Kolumbus – Single bus and train tickets",
+   "url": "https://www.kolumbus.no/en/tickets/-prices-and-products/single-tickets/"
+  },
+  {
+   "title": "Kolumbus – Prices for boats and ferries",
+   "url": "https://www.kolumbus.no/en/tickets/-prices-and-products/single-ferry-tickets/"
+  },
+  {
+   "title": "Fjord Norway – Vågen, Stavanger harbour area",
+   "url": "https://fjordnorway.com/en/see-and-do/vagen-stavanger-harbour-area"
+  },
+  {
+   "title": "Fjord Norway – Stavanger Cathedral",
+   "url": "https://fjordnorway.com/en/see-and-do/stavanger-cathedral"
+  },
+  {
+   "title": "Visit Norway – Bus and ferry to Preikestolen",
+   "url": "https://www.visitnorway.com/places-to-go/fjord-norway/the-stavanger-region/listings-stavanger/bus-and-ferry-to-preikestolen/190831/"
+  },
+  {
+   "title": "Norsk Oljemuseum – Information",
+   "url": "https://www.norskolje.museum.no/en/category/information/"
+  },
+  {
+   "title": "Rødne – Fjord experiences from Stavanger",
+   "url": "https://rodne.no/en/fjord-experiences/stavanger/"
+  },
+  {
+   "title": "Rødne – FAQ travel information",
+   "url": "https://rodne.no/en/faq-travel-information"
+  },
+  {
+   "title": "Go Fjords – From the cruise ship to the Preikestolen bus",
+   "url": "https://gofjords.com/ufaq/how-long-does-it-take-to-get-from-the-cruise-ship-to-the-preikestolen-bus/"
+  },
+  {
+   "title": "Go Fjords – Preikestolen from a cruise ship in Stavanger",
+   "url": "https://gofjords.com/inspiration/preikestolen-cruise-ship-stavanger-guide/"
+  },
+  {
+   "title": "Fjord Line – Preikestolen, a hike to remember",
+   "url": "https://fjordline.com/en/norway/travelguide/sirdal-snow-experiences-for-the-whole-family/inspiration/preikestolen-a-hike-to-remember"
+  },
+  {
+   "title": "Life in Norway – How to get to Preikestolen (2026)",
+   "url": "https://www.lifeinnorway.net/how-to-get-to-preikestolen/"
+  },
+  {
+   "title": "Norway Explained – Things to do in Stavanger (2026)",
+   "url": "https://norwayexplained.com/?p=1989"
+  },
+  {
+   "title": "Norway Explained – Traditional Norwegian food in Stavanger (2026)",
+   "url": "https://norwayexplained.com/?p=1879"
+  },
+  {
+   "title": "CruiseMapper – Stavanger port",
+   "url": "https://www.cruisemapper.com/ports/stavanger-port-181"
+  },
+  {
+   "title": "The Local Norway – How the new cruise tax will work (March 2026)",
+   "url": "https://www.thelocal.no/20260323/100-kroner-per-passenger-norway-reveals-how-new-cruise-tax-will-work"
+  }
+ ],
+ "uncertain": [
+  "Norway proposed (March 2026) letting municipalities charge NOK 100 per cruise passenger per 24 hours from 1 January 2027; not confirmed whether it is adopted or whether Stavanger will apply it.",
+  "Which out-of-centre berth is used on busy days: one blog names Mekjarvik, about 10 km north-west; not confirmed by the port.",
+  "Lysefjord boat departure times for 2026–27, and fares by ticket type (adult, child, concession).",
+  "Preikestolen express bus fares.",
+  "Norwegian Canning Museum opening hours and price.",
+  "Taxi fares from Stavanger to Preikestolen.",
+  "No documented cruise-specific scams found for Stavanger."
+ ]
+}

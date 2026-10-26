@@ -1,0 +1,393 @@
+{
+ "slug": "sitka",
+ "city": "Sitka",
+ "portName": "Sitka Sound Cruise Terminal (Halibut Point Road)",
+ "townName": "downtown Sitka",
+ "country": "USA",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "AKST (UTC−9), AKDT (UTC−8) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Sitka cruise port guide: shuttle, tenders and totems",
+ "seoDescription": "Sitka's cruise terminal is 5–6 miles from town; free shuttle every 10–15 min, about 12 min. Raptor Center $17 (2026). Last shuttle 30 min before all-aboard.",
+ "quickAnswer": "Most large ships dock at the Sitka Sound Cruise Terminal on Halibut Point Road, 5–6 miles north of downtown; a free shuttle runs every 10–15 minutes and takes about 12 minutes to Harrigan Centennial Hall. Some ships anchor and tender to Crescent Harbor or the O'Connell Bridge dock, both a short walk from downtown. The last shuttle leaves downtown 30 minutes before all-aboard, but aim to be in the shuttle line 90 minutes before.",
+ "intro": "Sitka is a small, walkable town with Tlingit and Russian history packed into a few streets, but the main cruise dock is not in it. Ships at the Sitka Sound Cruise Terminal rely on a free shuttle to Harrigan Centennial Hall, which is the hub for everything: the visitor desk, tour vendors and the return shuttle line. From there the Russian Bishop's House, St Michael's Cathedral and Castle Hill are minutes away on foot, and the totem trail at Sitka National Historical Park and the Alaska Raptor Center are about 20 minutes' walk. Ships that anchor land passengers right by Harrigan, so tender days need no shuttle at all.",
+ "isTender": false,
+ "tenderNotes": "Most major lines dock at the Sitka Sound Cruise Terminal. Some ships anchor in Sitka Sound near Crescent Harbor and tender to the Crescent Harbor tender dock (about a 1-minute walk from Harrigan Centennial Hall) or the O'Connell Bridge dock (about a 5–7 minute walk). Small expedition ships sometimes use the Petro Marine dock or Gary Paxton Industrial Park and usually provide their own transport. Check the Visit Sitka cruise calendar or your daily programme for your ship's berth.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Sitka Sound Cruise Terminal, 4513 Halibut Point Road",
+   "distanceToCentreKm": 8.5,
+   "notes": "Main dock for most large ships, 5–6 miles (about 8–10 km) north of downtown. Free shuttle from the top of the ramp to Harrigan Centennial Hall. Shops, a seafood restaurant open in cruise season and the Alaska Odyssey Dome are on site. Ramps to each building; shuttles have lifts."
+  },
+  {
+   "name": "Crescent Harbor tender dock",
+   "distanceToCentreKm": 0.1,
+   "notes": "Tender landing next to Harrigan Centennial Hall, about a 1-minute walk."
+  },
+  {
+   "name": "O'Connell Bridge dock",
+   "distanceToCentreKm": 0.4,
+   "notes": "Tender landing by the bridge, about a 5–7 minute walk to Harrigan Centennial Hall."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": null,
+  "km": 8.5,
+  "detail": "Not walkable from the Sitka Sound Cruise Terminal: it is 5–6 miles out along Halibut Point Road, so take the free shuttle. Once downtown, or if you tender, everything central is on foot: the Russian Bishop's House and St Michael's Cathedral are about 3 minutes from Harrigan Centennial Hall, Castle Hill about 10, and Sitka National Historical Park and the Alaska Raptor Center about 20 along the sea walk."
+ },
+ "transportSections": [
+  {
+   "mode": "Free cruise shuttle (from the Sitka Sound Cruise Terminal)",
+   "cost": "Free",
+   "time": "About 12 minutes (10–15)",
+   "detail": "Runs every 10–15 minutes while ships are docked, between the terminal and Harrigan Centennial Hall. You can reserve a shuttle time at sitkadock.com; without one you join the standby line, and reservation holders board first. The last shuttle leaves downtown 30 minutes before all-aboard. The downtown return line is by Harrigan, near the town's stoplight."
+  },
+  {
+   "mode": "Tender (ships at anchor)",
+   "cost": "Free",
+   "time": "Varies by ship",
+   "detail": "Tenders land at Crescent Harbor (1 minute from Harrigan) or the O'Connell Bridge dock (5–7 minutes). You are downtown on arrival."
+  },
+  {
+   "mode": "On foot (downtown)",
+   "cost": "Free",
+   "time": "1–20 minutes to the main sights",
+   "detail": "Downtown is compact. The sea walk past Crescent Harbor leads to Sitka National Historical Park; the Raptor Center is a similar distance."
+  },
+  {
+   "mode": "The Ride (public bus)",
+   "cost": "Exact US cash; check fares at ridesitka.com",
+   "time": "Hourly",
+   "detail": "Runs Monday to Friday, 06:30–18:30, and is designed for residents. The Blue Route serves the Alaska Raptor Center and Gary Paxton Industrial Park (5–10 minutes' walk from Fortress of the Bear); the Red Route runs out Halibut Point Road past the cruise terminal. All buses are wheelchair accessible. No weekend service."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree or check the fare when booking",
+   "time": "Varies",
+   "detail": "Taxis are limited and can be hard to reach on busy ship days. Uber and Lyft do not operate in Sitka."
+  },
+  {
+   "mode": "Bike or e-bike hire",
+   "cost": "Check with local rental firms",
+   "time": "Varies",
+   "detail": "Sitka is relatively flat and has bike-friendly streets. Book ahead in summer."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Ship at the cruise terminal: be in the shuttle line at Harrigan Centennial Hall 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). Tender ships: be at your tender dock 90 minutes before all-aboard.",
+  "detail": "The last shuttle leaves downtown 30 minutes before all-aboard, which leaves no room for a full bus or a long standby line. Reserved riders board first, so standby passengers can wait longer at peak return times. From Sitka National Historical Park or the Raptor Center allow about 20 minutes to walk back to Harrigan.",
+  "emergencyFallback": "If the shuttle line is long, tell the terminal staff your all-aboard time. Taxis are scarce on ship days, so do not count on one. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Totem trail and Russian Bishop's House",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free shuttle and walk; park entry free (2026)",
+   "saving": "The full excursion price"
+  },
+  {
+   "item": "Alaska Raptor Center",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$17 adult, $8 child 12 and under (2026), pay on arrival; 20-minute walk from Harrigan",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Downtown, the totem trail and the Raptor Center are easy to do alone with the free shuttle and a 20-minute walk. A ship or pre-booked tour is worth it for wildlife and sea-otter boat trips, and for Fortress of the Bear, which is about 2 hours' walk from downtown, is not on a weekend bus and sells timed tickets that can run out on ship days. Check your ticket: pre-sold morning tours often leave from the terminal, afternoon and independent tours from downtown.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the Sitka Sound Cruise Terminal at 08:00 and all-aboard is 17:30, in summer.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk up the ramp and take the free shuttle to Harrigan Centennial Hall (about 12 minutes). Pick up a map at the information desk."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk 20 minutes to the Alaska Raptor Center, which opens at 08:00 in summer. Allow about an hour."
+   },
+   {
+    "time": "10:15",
+    "what": "Walk to Sitka National Historical Park and the visitor centre; walk the totem trail (about an hour for the full two miles)."
+   },
+   {
+    "time": "12:00",
+    "what": "Walk back along the sea walk past Crescent Harbor to Lincoln Street for lunch."
+   },
+   {
+    "time": "13:15",
+    "what": "Russian Bishop's House (ask at the park about the 30-minute ranger tour of the upper floor) and St Michael's Cathedral, both about 3 minutes from Harrigan."
+   },
+   {
+    "time": "14:30",
+    "what": "Climb Castle Hill (Baranof Castle State Historic Site) for the harbour view, then browse Lincoln Street."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the shuttle line at Harrigan Centennial Hall, 90 minutes before all-aboard, to be on board by 16:30."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Sitka National Historical Park (totem trail)",
+   "why": "Tlingit and Haida totem poles along two miles of easy forest and shore trails, site of the 1804 battle.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free; no entrance pass required (2026)",
+   "tip": "About 20 minutes' walk from Harrigan along the sea walk. Trails are day-use only."
+  },
+  {
+   "name": "Russian Bishop's House",
+   "why": "Restored Russian-era building, part of the national historical park; rangers run 30-minute tours of the furnished upper floor in summer.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Check at the park visitor centre",
+   "tip": "About 3 minutes from Harrigan. Tours usually run from late May; see the park calendar."
+  },
+  {
+   "name": "Alaska Raptor Center",
+   "why": "Rehabilitation centre for bald eagles and other birds of prey, with a flight training centre you can watch.",
+   "timeNeeded": "About 1 hour",
+   "cost": "$17 adult, $8 child 12 and under, under 5 free, veterans $11 (2026)",
+   "tip": "Summer hours 08:00–16:00 daily, last admission 15:30. Tickets are sold only on arrival."
+  },
+  {
+   "name": "St Michael's Cathedral",
+   "why": "Russian Orthodox cathedral in the middle of Lincoln Street, the town's landmark.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Check at the door",
+   "tip": "About 3 minutes from Harrigan."
+  },
+  {
+   "name": "Baranof Castle State Historic Site (Castle Hill)",
+   "why": "Where Russia handed Alaska to the United States in 1867; a short climb with views over the harbour.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "About 10 minutes from Harrigan."
+  },
+  {
+   "name": "Sitka Sound Science Center",
+   "why": "Small aquarium and touch tanks focused on local marine life.",
+   "timeNeeded": "45 minutes",
+   "cost": "Admission charged; check on arrival",
+   "tip": "About 9 minutes' walk from Harrigan, on the way to the national park."
+  },
+  {
+   "name": "Sitka History Museum",
+   "why": "Town history, inside Harrigan Centennial Hall.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Admission charged; check on arrival",
+   "tip": "One minute from the shuttle drop; good while you wait."
+  },
+  {
+   "name": "Fortress of the Bear",
+   "why": "Rescued brown and black bears in large enclosures, south of town on Sawmill Creek Road.",
+   "timeNeeded": "2–3 hours including transport",
+   "cost": "Check fortressofthebear.org; buy tickets online",
+   "tip": "Open 10:00–16:00 daily May to September, last admission 15:30, closed 4 July. Tickets can sell out on cruise days. Too far to walk."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Seared salmon and local seafood",
+   "where": "Beak Restaurant, 2 Lincoln Street",
+   "price": null
+  },
+  {
+   "dish": "King salmon and scallops",
+   "where": "Ludvig's Bistro, 256 Katlian Street",
+   "price": null
+  },
+  {
+   "dish": "Pizza and salads with a harbour view",
+   "where": "Mean Queen, near the O'Connell Bridge",
+   "price": null
+  },
+  {
+   "dish": "Seafood and local beer",
+   "where": "Bayview Pub, downtown",
+   "price": null
+  },
+  {
+   "dish": "Coffee, bagels and sandwiches",
+   "where": "Highliner Coffee",
+   "price": null
+  },
+  {
+   "dish": "Crab and chowder without going to town",
+   "where": "Halibut Point Crab & Chowder, at the cruise terminal (cruise season only)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk from the cruise terminal to town.",
+   "fix": "It is 5–6 miles along Halibut Point Road. Take the free shuttle."
+  },
+  {
+   "mistake": "Treating the last shuttle (30 minutes before all-aboard) as the plan.",
+   "fix": "Be in the shuttle line 90 minutes before all-aboard. A full bus or a long standby queue can leave you with no margin."
+  },
+  {
+   "mistake": "Going to the wrong meeting point for a tour.",
+   "fix": "Check your ticket: morning ship tours often start at the terminal, afternoon and independent tours at Harrigan Centennial Hall."
+  },
+  {
+   "mistake": "Planning around the public bus at the weekend.",
+   "fix": "The Ride runs only Monday to Friday, hourly, and takes exact US cash. Walk or book a tour instead."
+  },
+  {
+   "mistake": "Expecting Uber or an easy taxi.",
+   "fix": "There is no rideshare and taxis are limited on ship days. Book in advance if you need one."
+  },
+  {
+   "mistake": "Turning up at Fortress of the Bear without a ticket on a busy day.",
+   "fix": "Buy online in advance; tickets can sell out on cruise days."
+  }
+ ],
+ "safety": "Sitka is a small town and visitors face few crime problems; the practical risks are weather, wet trails and traffic on the roads out of town. Brown bears live around Sitka and are occasionally seen in the national historical park, though they generally avoid people; stay on trails, keep together and do not approach wildlife. Park trails have no lighting and are day-use only. Mobile coverage is usually good in town but can be patchy at the ends of the road system or on the water. Dress in layers and bring a waterproof.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The cruise terminal has ramps to each building, the shuttles have lifts, and staff can drive passengers up the ramp by cart. Downtown is compact and fairly flat. A paved path with curb cuts runs from downtown to the national park visitor centre, which has barrier-free exhibits, a captioned film and a wheelchair to borrow; park trails are about six feet wide, relatively flat and surfaced with crushed gravel, but can be muddy or icy. The Russian Bishop's House is accessible on the ground floor only, with uneven floors and stairs to the upper floor; tablets offer a virtual tour. Fortress of the Bear describes itself as wheelchair accessible. Buses on The Ride are wheelchair accessible. Ask your ship whether tendering is possible for wheelchair users on anchor days.",
+ "rainyDay": "Stay downtown and keep indoor stops close together: the Sitka History Museum in Harrigan Centennial Hall, St Michael's Cathedral, the Russian Bishop's House and the national park visitor centre, which shows a film and exhibits. The Sitka Sound Science Center's aquarium is also indoors. The totem trail is under trees and still worth walking in light rain with a waterproof.",
+ "crowdTips": "The terminal can hold two large ships but rarely hosts more than one; on busy days the pressure points are the shuttle queues and Harrigan Centennial Hall at the start and end of the day. Reserve a shuttle time at sitkadock.com if you can. Go to the Raptor Center or the totem trail first, while tour groups are still arriving, and do the downtown sights around midday. Fortress of the Bear tickets can sell out on ship days, so book ahead.",
+ "faqs": [
+  {
+   "q": "Is Sitka walkable from the cruise port?",
+   "a": "Not from the Sitka Sound Cruise Terminal, which is 5–6 miles north of town. Take the free shuttle. Tender passengers land downtown and can walk everywhere central."
+  },
+  {
+   "q": "How do I get from Sitka cruise port to downtown?",
+   "a": "A free shuttle runs every 10–15 minutes to Harrigan Centennial Hall and takes about 12 minutes. You can reserve a time at sitkadock.com or join the standby line."
+  },
+  {
+   "q": "Is Sitka a tender port?",
+   "a": "Sometimes. Most large ships dock at the Sitka Sound Cruise Terminal, but some anchor and tender to Crescent Harbor or the O'Connell Bridge dock, both by downtown."
+  },
+  {
+   "q": "When is the last shuttle back to the ship in Sitka?",
+   "a": "It leaves downtown 30 minutes before all-aboard. Aim to be in the line 90 minutes before."
+  },
+  {
+   "q": "What can I do in Sitka in one day from a cruise ship?",
+   "a": "Take the shuttle downtown, walk to the Alaska Raptor Center and the totem trail at Sitka National Historical Park, then see the Russian Bishop's House, St Michael's Cathedral and Castle Hill."
+  },
+  {
+   "q": "How much is the Alaska Raptor Center?",
+   "a": "$17 for adults and $8 for children 12 and under in 2026, paid on arrival. Summer hours are 08:00–16:00 daily."
+  },
+  {
+   "q": "Is Sitka National Historical Park free?",
+   "a": "Yes. No entrance pass is needed. The totem trail is about 20 minutes' walk from the shuttle drop."
+  },
+  {
+   "q": "Is Sitka safe?",
+   "a": "Yes. Take care on wet trails, give any wildlife space, and keep an eye on the shuttle times."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Sitka National Historical Park"
+  },
+  {
+   "name": "Alaska Raptor Center"
+  },
+  {
+   "name": "Russian Bishop's House"
+  },
+  {
+   "name": "St Michael's Cathedral"
+  },
+  {
+   "name": "Baranof Castle State Historic Site"
+  },
+  {
+   "name": "Fortress of the Bear"
+  },
+  {
+   "name": "Sitka Sound Science Center"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Visit Sitka – Transportation in Sitka: getting around town",
+   "url": "https://visitsitka.org/blog/transportation-in-sitka-getting-around-town"
+  },
+  {
+   "title": "Visit Sitka – FAQs (docks, tenders, shuttle reservations)",
+   "url": "https://visitsitka.org/learn/faqs"
+  },
+  {
+   "title": "Visit Sitka – A day ashore in Sitka",
+   "url": "https://visitsitka.org/blog/a-day-ashore-in-sitka"
+  },
+  {
+   "title": "Visit Sitka – 2026 attractions map (PDF)",
+   "url": "https://visitsitka.org/wp-content/uploads/2026/04/VS_26_AttractionsMap_ForWeb.pdf"
+  },
+  {
+   "title": "Visit Sitka – Fortress of the Bear listing",
+   "url": "https://visitsitka.org/member/fortress-of-the-bear"
+  },
+  {
+   "title": "NPS – Sitka National Historical Park basic information",
+   "url": "https://home.nps.gov/sitk/planyourvisit/basicinfo.htm"
+  },
+  {
+   "title": "NPS – Sitka NHP operating hours and seasons",
+   "url": "https://home.nps.gov/sitk/planyourvisit/hours.htm"
+  },
+  {
+   "title": "NPS – Sitka NHP fees and passes",
+   "url": "https://www.nps.gov/sitk/planyourvisit/fees.htm"
+  },
+  {
+   "title": "NPS – Sitka NHP frequently asked questions",
+   "url": "https://www.nps.gov/sitk/faqs.htm"
+  },
+  {
+   "title": "NPS – Sitka NHP accessibility",
+   "url": "https://www.nps.gov/sitk/planyourvisit/accessibility.htm"
+  },
+  {
+   "title": "NPS – Sitka NHP ranger-led programs",
+   "url": "https://www.nps.gov/sitk/planyourvisit/ranger-led-programs.htm"
+  },
+  {
+   "title": "Alaska Raptor Center – Visit us",
+   "url": "https://alaskaraptor.org/visit-us/"
+  },
+  {
+   "title": "Alaska State Libraries, Archives & Museums – Sheldon Jackson Museum information",
+   "url": "https://lam.alaska.gov/sjm-info"
+  },
+  {
+   "title": "Fodor's – Sitka restaurants",
+   "url": "https://cdn.fodors.com/world/north-america/usa/alaska/juneau-the-inside-passage-and-southeast-alaska/places/sitka/restaurants"
+  },
+  {
+   "title": "Gondwana Ecotours – Where to stay and eat in Sitka",
+   "url": "https://www.gondwanaecotours.com/trip-tips-alaska/where-to-stay-and-eat-in-sitka-alaska/"
+  },
+  {
+   "title": "Cruise Hive – Sitka cruise port guide",
+   "url": "https://www.cruisehive.com/sitka-cruise-port/161947"
+  }
+ ],
+ "uncertain": [
+  "Fortress of the Bear adult admission price (a third-party site gives $15, not confirmed on an official page)",
+  "Fares on The Ride public bus (only 'exact US cash' confirmed)",
+  "Taxi fares from the terminal or downtown",
+  "Russian Bishop's House tour times and any fee for 2026",
+  "St Michael's Cathedral opening hours and any entry donation",
+  "Sheldon Jackson Museum: closed for renovation until about 2 December 2026 per the state museum site; reopening hours not yet published, so it is left out of the sights",
+  "Tender ride times and how often Sitka calls are tendered rather than docked",
+  "Typical all-aboard time (17:30 used as a default)"
+ ]
+}

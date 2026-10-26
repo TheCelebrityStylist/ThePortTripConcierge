@@ -1,0 +1,348 @@
+{
+ "slug": "invergordon",
+ "city": "Invergordon",
+ "portName": "Port of Cromarty Firth (Invergordon)",
+ "townName": "Invergordon High Street",
+ "country": "United Kingdom (Scotland)",
+ "currency": "GBP",
+ "currencySymbol": "£",
+ "language": "English",
+ "timezone": "GMT (UTC+0), BST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Invergordon cruise port guide: town, Inverness and Loch Ness",
+ "seoDescription": "Invergordon cruise port is a 5–10 min walk from town. Trains to Inverness average 1 h 13 min, from £19.10 return (2026), up to 4 a day. Culloden £12.50.",
+ "quickAnswer": "Ships dock alongside at Invergordon, a 5–10 minute walk from the High Street and its murals. Inverness is about 40 km away: ScotRail gives an average of 1 hour 13 minutes with up to four trains a day and returns from £19.10 (2026), and Stagecoach's X25 bus runs roughly hourly in the daytime. Be back on board 90 minutes before all-aboard if you go to Inverness, and check the return times before you leave.",
+ "intro": "Invergordon is a small town on the Cromarty Firth, north of Inverness, and the Port of Cromarty Firth's cruise season in 2026 runs from April to mid-October with around 95 calls. The town itself takes an hour or two: a mural trail and a children's Duck Trail along the High Street, a small museum and cafés. Most passengers use the call to reach Inverness, Loch Ness, Culloden or Dunrobin Castle, all of which need a coach, a train or a taxi. Public transport is thin, so a do-it-yourself day needs planning around the return times.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 10,
+ "terminals": [
+  {
+   "name": "Port of Cromarty Firth cruise berths, Invergordon",
+   "distanceToCentreKm": null,
+   "notes": "Working piers next to the town, a 5–10 minute walk from the centre. The Invergordon Tourism Alliance cabin on the quayside hands out printed town maps. Port Office: Shore Road, Invergordon, IV18 0HD, tel. 01349 852308. Check your berth in the daily programme."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": null,
+  "detail": "The port says the town centre is a 5–10 minute walk. Invergordon station is about a 10–12 minute walk from the port. Inverness, Loch Ness and the castles are not walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5–10 min to the High Street",
+   "detail": "The mural trail and the Duck Trail start as soon as you come ashore. Pick up a map at the quayside cabin."
+  },
+  {
+   "mode": "Train to Inverness (ScotRail)",
+   "cost": "From £19.10 return (2026)",
+   "time": "Average 1 h 13 min; up to 4 trains a day on a Monday timetable; about 10–12 min walk to Invergordon station",
+   "detail": "Trains are infrequent: ScotRail lists the last Inverness to Invergordon train at 18:40. Check the return times on scotrail.co.uk before you go and plan your day around them. Weekend journeys may take slightly longer."
+  },
+  {
+   "mode": "Bus X25 to Inverness (Stagecoach)",
+   "cost": "Check fares with Stagecoach",
+   "time": "Roughly hourly in the daytime; the timetable shows about 45 min from Invergordon to Inverness bus station",
+   "detail": "Stops in Invergordon include Station Road and Donkey Bridge. Check Sunday times separately, and check the last return journey before you leave."
+  },
+  {
+   "mode": "Taxi or private tour",
+   "cost": "Agree a fixed price before you set off",
+   "time": "About 40 min by road to Inverness",
+   "detail": "Taxis wait outside the port area on ship days, and many offer half-day or full-day Highland tours."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard from the town, and 90 minutes before from Inverness, Loch Ness, Culloden or Dunrobin. By train or bus, choose a service that reaches Invergordon at least 90 minutes before all-aboard.",
+  "detail": "Invergordon itself is low risk. The risk is the return from Inverness: trains run only a few times a day, so missing one can leave a gap of hours. Buses are more frequent but still about hourly. Check the return times the day before the call.",
+  "emergencyFallback": "If you miss your train or bus in Inverness, take a taxi to the port (about 40 minutes by road) and call the port agent number in your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Inverness",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Train from £19.10 return (2026), or the X25 bus",
+   "saving": "Most of a transfer excursion, if the return times suit your call"
+  },
+  {
+   "item": "Culloden Battlefield",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Visitor centre £12.50 adult (2026), plus travel via Inverness",
+   "saving": "Depends on travel; hard to combine with Loch Ness alone"
+  },
+  {
+   "item": "Glenmorangie distillery, Tain",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Classic Tour £27 per person, about 1 hour (2026), plus taxi or bus to Tain",
+   "saving": "Depends on the taxi fare"
+  }
+ ],
+ "excursionAdvice": "For Loch Ness, Urquhart Castle, Dunrobin or a Culloden-and-Inverness combination, the ship's tour or a pre-booked private tour is the practical choice: these places are spread out, public transport is sparse, and the ship waits for its own coaches. Inverness alone is fine by train or bus if the return times fit your call. Skip a tour for Invergordon itself: the murals and the Duck Trail are free and start at the quayside.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, with a do-it-yourself trip to Inverness by bus or train. Check the times the day before; trains run only a few times a day.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk ashore and pick up a map at the Invergordon Tourism Alliance cabin on the quayside."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk to Invergordon station (about 10–12 minutes) or the X25 stop on Station Road."
+   },
+   {
+    "time": "09:30",
+    "what": "Train or X25 bus to Inverness, about 45 minutes by bus or around an hour and a quarter by train."
+   },
+   {
+    "time": "10:45",
+    "what": "Walk Inverness city centre and along the River Ness."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch in Inverness city centre."
+   },
+   {
+    "time": "14:00",
+    "what": "Take a train or bus back that reaches Invergordon by about 15:30."
+   },
+   {
+    "time": "15:30",
+    "what": "Walk part of the mural trail on the High Street on the way back to the port."
+   },
+   {
+    "time": "16:00",
+    "what": "Back on board, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Invergordon mural trail",
+   "why": "Murals on buildings around the town telling its history, with a free location-aware app, 'Invergordon Off the Wall'.",
+   "timeNeeded": "45 minutes–1 hour",
+   "cost": "Free",
+   "tip": "Starts near the port; use the app or the quayside map."
+  },
+  {
+   "name": "Invergordon Duck Trail",
+   "why": "A free family trail of duck stickers in shop windows along the High Street.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "Combine it with the murals; both run the length of the town."
+  },
+  {
+   "name": "Invergordon Museum",
+   "why": "Small local museum in the town, listed by the port among things to see on foot.",
+   "timeNeeded": "30 minutes",
+   "cost": "Check locally",
+   "tip": "Ask at the quayside cabin whether it is open on the day."
+  },
+  {
+   "name": "Culloden Battlefield",
+   "why": "Site of the 1746 battle, 5 miles east of Inverness, with a visitor centre, museum and open battlefield.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "£12.50 adult, £11 concession, £33 family (2026); battlefield free",
+   "tip": "Visitor centre open daily 09:00–17:00 from 2 March to 1 November 2026, last entry 16:30. Level access, free wheelchairs and an accessible toilet."
+  },
+  {
+   "name": "Urquhart Castle, Loch Ness",
+   "why": "Castle ruins on the shore of Loch Ness by Drumnadrochit, run by Historic Environment Scotland.",
+   "timeNeeded": "1–1.5 hours on site",
+   "cost": "Check prices on the Historic Environment Scotland site",
+   "tip": "Tickets are booked for a date and time slot. Loch Ness is about 1.5 hours from the port, so most people go by ship's tour or private tour."
+  },
+  {
+   "name": "Dunrobin Castle",
+   "why": "Castle and gardens near Golspie, north of Invergordon, about 45 minutes' drive away.",
+   "timeNeeded": "Half a day including travel",
+   "cost": "Check prices on the castle's site; under-6s and carers free",
+   "tip": "Expected to open daily from 1 April to 31 October; last entry 16:30 (16:00 in October). Not fully wheelchair accessible."
+  },
+  {
+   "name": "Glenmorangie distillery, Tain",
+   "why": "Working whisky distillery with a visitor centre, shop and tasting bar.",
+   "timeNeeded": "1 hour tour plus travel",
+   "cost": "Classic Tour £27 per person (2026)",
+   "tip": "Open daily 10:00–17:00 in June to August, weekdays only from September to May. Booking recommended; tours run every 30 minutes in summer."
+  },
+  {
+   "name": "Inverness",
+   "why": "The Highland capital, on the River Ness, with the widest choice of shops and restaurants.",
+   "timeNeeded": "Half a day including travel",
+   "cost": "Free to walk; train from £19.10 return (2026)",
+   "tip": "Fix your return train or bus before you set off."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Coffee and cake",
+   "where": "Independent cafés on Invergordon High Street",
+   "price": null
+  },
+  {
+   "dish": "Lunch",
+   "where": "Inverness city centre",
+   "price": null
+  },
+  {
+   "dish": "Light lunch on a Culloden visit",
+   "where": "Café at the Culloden visitor centre (National Trust for Scotland)",
+   "price": null
+  },
+  {
+   "dish": "Whisky by the glass or flight",
+   "where": "Tasting Bar at Glenmorangie distillery, Tain",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming trains to Inverness run often.",
+   "fix": "ScotRail lists up to four trains a day. Check the return times before you leave the ship, or use the X25 bus."
+  },
+  {
+   "mistake": "Trying Loch Ness, Culloden and Inverness on your own in one call.",
+   "fix": "They are spread out and Loch Ness alone is about 1.5 hours away. Pick one, or take a tour."
+  },
+  {
+   "mistake": "Turning up at Glenmorangie on a weekend outside summer.",
+   "fix": "The distillery opens daily only from June to August; from September to May it is weekdays only."
+  },
+  {
+   "mistake": "Turning up at Urquhart Castle without a ticket.",
+   "fix": "Tickets are booked for a date and time slot; book ahead on the Historic Environment Scotland site."
+  },
+  {
+   "mistake": "Taking a taxi tour without agreeing the price.",
+   "fix": "Agree a fixed price and the return time before you set off."
+  }
+ ],
+ "safety": "Invergordon and Inverness are low-crime places for visitors. The practical risks are the weather, which can turn cold, wet and windy quickly, and the return journey from Inverness on infrequent public transport. Roads to Loch Ness and the north are mainly two-lane, so allow for slow traffic behind coaches. In an emergency call 999 or 112.",
+ "scams": [],
+ "emergencyNumber": "999 or 112",
+ "accessibility": "The walk from the berths to the High Street is short. At Culloden there is level access from the main entrance to the ticket desk, café and shop, free wheelchairs, an accessible toilet, disabled parking and a hearing loop. Dunrobin Castle is not fully accessible; wheelchair access to the gardens can be arranged on request. Historic Environment Scotland publishes access details for Urquhart Castle on its site. Ask your cruise line about adapted coaches for tours.",
+ "rainyDay": "The Culloden visitor centre and museum are indoors, as are the Glenmorangie tours and the Invergordon Museum. Inverness has the most indoor options for shopping and cafés. The murals and the Duck Trail are short enough to do between showers.",
+ "crowdTips": "Invergordon's cruise season runs from April to mid-October, and most ships arrive between 07:00 and 10:00 and leave between 16:00 and 20:00. Excursion coaches leave in waves after arrival. If you are going to Inverness by train, the few trains can fill on busy ship days, so be at the station early. Book Urquhart Castle and Glenmorangie tours in advance.",
+ "faqs": [
+  {
+   "q": "Is Invergordon walkable from the cruise port?",
+   "a": "Yes. The town centre is a 5–10 minute walk from the berths, and the murals start near the port."
+  },
+  {
+   "q": "How do I get from Invergordon cruise port to Inverness?",
+   "a": "Walk 10–12 minutes to Invergordon station for the ScotRail train (average 1 h 13 min, from £19.10 return in 2026, up to four a day), take Stagecoach's X25 bus (roughly hourly, about 45 minutes), or take a taxi (about 40 minutes)."
+  },
+  {
+   "q": "Is Invergordon a tender port?",
+   "a": "No. Ships normally dock alongside at the Port of Cromarty Firth's berths next to the town."
+  },
+  {
+   "q": "Can I see Loch Ness from Invergordon on my own?",
+   "a": "It is hard by public transport: Loch Ness is about 1.5 hours from the port. A ship's tour or private tour is more practical."
+  },
+  {
+   "q": "What can I do in Invergordon in one day from a cruise ship?",
+   "a": "Walk the mural trail and the Duck Trail, then go to Inverness by train or bus, or take a tour to Culloden, Loch Ness, Dunrobin Castle or Glenmorangie."
+  },
+  {
+   "q": "How much is Culloden Battlefield?",
+   "a": "The visitor centre costs £12.50 for adults, £11 concession and £33 for a family (2026). The battlefield itself is open free all year."
+  },
+  {
+   "q": "Is Invergordon safe?",
+   "a": "Yes. The main risk is missing an infrequent train or bus back from Inverness."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Invergordon mural trail"
+  },
+  {
+   "name": "Inverness"
+  },
+  {
+   "name": "Culloden Battlefield"
+  },
+  {
+   "name": "Urquhart Castle and Loch Ness"
+  },
+  {
+   "name": "Dunrobin Castle"
+  },
+  {
+   "name": "Glenmorangie distillery"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port of Cromarty Firth – Welcome to Invergordon (cruise)",
+   "url": "https://pocf.co.uk/cruise/"
+  },
+  {
+   "title": "Port of Cromarty Firth – Passenger information",
+   "url": "https://pocf.co.uk/your-gateway-to-a-highland-adventure-passenger-information/"
+  },
+  {
+   "title": "Port of Cromarty Firth – Cruise list 2026 (10 April 2026)",
+   "url": "https://pocf.co.uk/wp-content/uploads/2026/04/Cruise-List-2026-04-10.pdf"
+  },
+  {
+   "title": "ScotRail – Inverness to Invergordon train times",
+   "url": "https://www.scotrail.co.uk/train-times/inverness-to-invergordon"
+  },
+  {
+   "title": "bustimes.org – Stagecoach X25 Inverness–Alness–Tain–Brora (October 2026 data)",
+   "url": "https://bustimes.org/services/x25-inverness-alness"
+  },
+  {
+   "title": "National Trust for Scotland – Culloden: planning your visit",
+   "url": "https://www.nts.org.uk/visit/places/culloden/planning-your-visit"
+  },
+  {
+   "title": "Historic Environment Scotland – Urquhart Castle prices and times",
+   "url": "https://www.historicenvironment.scot/visit-a-place/places/urquhart-castle/prices-times/"
+  },
+  {
+   "title": "Historic Environment Scotland – Urquhart Castle: getting here",
+   "url": "https://www.historicenvironment.scot/visit-a-place/places/urquhart-castle/getting-here"
+  },
+  {
+   "title": "Dunrobin Castle – FAQs",
+   "url": "https://dunrobincastle.co.uk/faqs"
+  },
+  {
+   "title": "Glenmorangie – Distillery tours",
+   "url": "https://www.glenmorangie.com/pages/distillery-tours"
+  },
+  {
+   "title": "Invergordon Off the Wall – Mural trail",
+   "url": "https://invergordonoffthewall.org.uk/"
+  },
+  {
+   "title": "Inverness Courier – Highland Council backs cruise levy powers (May 2025)",
+   "url": "https://inverness-courier.co.uk/news/highland-council-backs-government-proposal-to-have-option-to-383394"
+  },
+  {
+   "title": "Adventour Begins – Invergordon cruise port guide (updated 2026)",
+   "url": "https://adventourbegins.com/invergordon-cruise-port-guide/"
+  }
+ ],
+ "uncertain": [
+  "Berth names: the brief names Queen's Dock and Admiralty Pier, a 2026 travel guide names Admiralty Pier and Saltburn Pier, and the port's 2026 cruise list uses the codes 'SB' and 'S/Pier' without explanation. No berth name is used in this guide.",
+  "Invergordon to Inverness train times in that direction and the summer 2026 timetable: the ScotRail figures (average 1 h 13 min, up to 4 trains, last train 18:40) are for the Inverness to Invergordon direction on a Monday.",
+  "X25 bus fares, Sunday times and the last return journey from Inverness.",
+  "Status of a Highland cruise passenger levy: proposed in 2025 (the port cited a projected minimum of £5 per passenger ashore); not confirmed as in force.",
+  "Urquhart Castle and Dunrobin Castle 2026 ticket prices.",
+  "Invergordon Museum opening hours and prices.",
+  "Taxi fares from the port.",
+  "Typical all-aboard time for Invergordon calls."
+ ]
+}

@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import { BY_SLUG } from '../../lib/blog.js';
+import PUB from '../../data/published.json';
+const SOURCE = { 'best-mediterranean-cruise-ports': 'best-mediterranean-cruise-ports-diy' };
+const posts = PUB.blog.map((s) => ({ s, p: BY_SLUG[SOURCE[s] || s] })).filter((x) => x.p)
+  .sort((a, b) => String(b.p.updated || b.p.date).localeCompare(String(a.p.updated || a.p.date)));
+---
+<Base title="Cruise Port Guides and Articles | PortTrip" description="Checked, dated guides to cruise port days: getting to town, what it costs, tender ports and exactly when to head back to the ship." path="/blog">
+  <div class="wrap pb-20 pt-10">
+    <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">Guides and articles</h1>
+    <p class="mt-3 max-w-2xl text-lg text-navy/75">Every article is checked against our port guides and their sources. If something is out of date, email hello@porttrip.com.</p>
+    <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {posts.map(({ s, p }) => (
+        <li><a href={`/blog/${s}`} class="card block h-full p-5 transition-shadow hover:shadow-lg">
+          <span class="block text-lg font-semibold leading-snug">{p.title}</span>
+          <span class="mt-2 block text-sm text-navy/70 line-clamp-3">{p.description || p.excerpt}</span>
+        </a></li>
+      ))}
+    </ul>
+  </div>
+</Base>

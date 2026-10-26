@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import { RULE_ENTRIES as E, RULES_CHECKED } from '../lib/ports.js';
+const STATUS = { 'in-force': ['In force', 'bg-emerald-600/10 text-emerald-800'], announced: ['Announced', 'bg-sky-600/10 text-sky-800'], proposed: ['Proposed', 'bg-amber-500/15 text-amber-900'], 'not-in-force': ['Not in force', 'bg-navy/5 text-navy/60'] };
+const TYPE = { fee: 'Fee', tax: 'Tax', cap: 'Visitor cap', ban: 'Ban', 'emission rule': 'Emission rule', 'terminal change': 'Terminal change' };
+const regions = [...new Set(E.map((e) => e.region))].sort();
+const FAQS = [
+  ['Do cruise passengers pay the Venice access fee?', 'Day visitors aged 14 and over pay on the set fee days if they enter the historic centre between 08:30 and 16:00. Passengers who only pass through the cruise terminal do not. See the Venice entry for amounts and dates.'],
+  ['Is there a cruise passenger fee in Greece?', 'Yes. Greece charges a per-passenger fee that is highest in Santorini and Mykonos in summer. The amounts by season are in the Greece entries.'],
+  ['Which cruise ports limit passenger numbers?', 'Several ports cap ships or passengers per day, including Dubrovnik, Bergen, Cannes, Juneau and Bar Harbor (July and August). Each cap and its status is listed on this page.'],
+  ['Are these fees included in my cruise fare?', 'It depends on the port and the cruise line. Where the source says who pays and how, the entry says so. If it does not, check with your cruise line.'],
+  ['Can I cite this page?', 'Yes. Link to porttrip.com/cruise-port-rules, or to a single entry with its # link.'],
+];
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Dataset', name: 'Cruise port rules, caps and fees 2026–2027', description: `${E.length} rules, visitor caps, fees and taxes that affect cruise passengers, each with its status and sources. Checked ${RULES_CHECKED}.`, url: 'https://porttrip.com/cruise-port-rules', creator: { '@type': 'Person', name: 'Elke' }, license: 'https://creativecommons.org/licenses/by/4.0/' },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQS.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title="Cruise Port Rules, Caps and Fees 2026–27 | PortTrip" description={`${E.length} cruise port fees, taxes, visitor caps and bans for 2026–27, each with its status, who pays and official sources. Checked ${RULES_CHECKED}.`} path="/cruise-port-rules" jsonLd={jsonLd}>
+  <div class="wrap pb-20 pt-10">
+    <h1 class="max-w-4xl text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">Cruise port rules, caps and fees 2026–27</h1>
+    <p class="mt-4 max-w-3xl text-lg text-navy/75">{E.length} fees, taxes, visitor caps and bans that affect cruise passengers. Each has its status, who pays and the sources it was checked against ({RULES_CHECKED}). Link to any entry with its # link.</p>
+    {regions.map((reg) => (
+      <section class="mt-12">
+        <h2 class="text-2xl font-semibold tracking-tight">{reg}</h2>
+        <div class="mt-4 grid gap-4 lg:grid-cols-2">
+          {E.filter((e) => e.region === reg).map((e) => (
+            <article id={e.id} class="card scroll-mt-20 p-5">
+              <div class="flex flex-wrap items-center gap-2 text-xs font-semibold">
+                <span class="rounded-full bg-fog px-2.5 py-1">{TYPE[e.type] || e.type}</span>
+                <span class:list={['rounded-full px-2.5 py-1', (STATUS[e.statusKey] || STATUS['not-in-force'])[1]]}>{(STATUS[e.statusKey] || ['See note'])[0]}</span>
+                <a href={`#${e.id}`} class="ml-auto text-navy/40 hover:text-navy" aria-label={`Link to ${e.port} entry`}>#</a>
+              </div>
+              <h3 class="mt-3 text-lg font-semibold">{e.port}, {e.country}</h3>
+              <p class="mt-1 text-navy/85">{e.summary}</p>
+              <dl class="mt-3 space-y-1.5 text-sm">
+                {e.amount && <div><dt class="inline font-semibold">Amount: </dt><dd class="inline text-navy/80">{e.amount}</dd></div>}
+                {e.whoPays && <div><dt class="inline font-semibold">Who pays: </dt><dd class="inline text-navy/80">{e.whoPays}</dd></div>}
+                {e.effective && <div><dt class="inline font-semibold">When: </dt><dd class="inline text-navy/80">{e.effective}</dd></div>}
+                {e.status && <div><dt class="inline font-semibold">Status: </dt><dd class="inline text-navy/80">{e.status}</dd></div>}
+              </dl>
+              {e.sources?.length > 0 && <p class="mt-3 text-xs text-navy/60">Sources: {e.sources.map((s, i) => <>{i > 0 && ' · '}<a href={s.url} class="underline" rel="noopener nofollow">{s.title}</a></>)}</p>}
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+    <section class="mt-14 max-w-3xl">
+      <h2 class="text-xl font-semibold">Common questions</h2>
+      <div class="mt-3 divide-y divide-navy/10 border-y border-navy/10">{FAQS.map(([q, a]) => <details class="group"><summary class="flex cursor-pointer list-none justify-between gap-4 py-4 [&::-webkit-details-marker]:hidden"><h3 class="font-semibold">{q}</h3><span class="text-sea group-open:rotate-45 transition-transform" aria-hidden="true">+</span></summary><p class="pb-4 text-navy/80">{a}</p></details>)}</div>
+    </section>
+  </div>
+</Base>

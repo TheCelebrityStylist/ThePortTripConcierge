@@ -1,0 +1,384 @@
+{
+ "slug": "juneau",
+ "city": "Juneau",
+ "portName": "Port of Juneau (downtown cruise docks)",
+ "townName": "downtown Juneau",
+ "country": "USA",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "AKST (UTC−9), AKDT (UTC−8) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Juneau cruise port guide: docks, tram and Mendenhall",
+ "seoDescription": "Juneau's docks line downtown; AJ Dock is about 1 mile south. Tram $60 (2026), Mendenhall 12 miles out, $5 fee, city bus $2 each way. 16,000-a-day cap.",
+ "quickAnswer": "Juneau is a docking port: ships tie up along the downtown waterfront, and most berths are a short walk from South Franklin Street; the AJ Dock is about a mile south and has a paid shuttle. Mendenhall Glacier is 12 miles away, about 30 minutes by private glacier shuttle or up to 1.5 hours each way by $2 city bus plus a 30-minute walk. Be back on board an hour before all-aboard, or 90 minutes if you rely on the city bus.",
+ "intro": "Juneau is Alaska's capital, and the cruise docks run straight along its downtown waterfront, with the Mount Roberts Tramway base station beside the docks. The day usually splits between the tram and downtown on foot, and the trip out to Mendenhall Glacier, which is too far to walk. From 2026 the city caps cruise visitors at 16,000 a day and 12,000 on Saturdays, down from peaks of about 21,000, but downtown is still busy when five ships are in. Two new docks are planned but not yet open: Huna Totem's Aak'w Landing downtown and Goldbelt's two-berth port on Douglas Island, both expected for the 2028 season.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "South Franklin Street Dock (Franklin Dock)",
+   "distanceToCentreKm": 0.3,
+   "notes": "Main landing area for many ships, a few minutes' walk from downtown. Step-free, with restrooms and a visitor information booth."
+  },
+  {
+   "name": "Juneau Cruise Ship Terminal (CT Dock, two berths)",
+   "distanceToCentreKm": 0.3,
+   "notes": "Two berths, each built for ships of about 1,000 ft, just above the Franklin Dock and slightly closer to downtown. Taxi pick-up point. The Mount Roberts Tramway base station is at the edge of this dock area (490 S. Franklin Street)."
+  },
+  {
+   "name": "Alaska Steamship Dock",
+   "distanceToCentreKm": null,
+   "notes": "One of the downtown berths. We could not verify its exact position or facilities; check your ship's daily programme for which dock you are using."
+  },
+  {
+   "name": "AJ Dock",
+   "distanceToCentreKm": 1.6,
+   "notes": "Roughly 1 mile south of the centre (about 20 minutes on foot) and the only dock not within a short walk. A paid shuttle runs to downtown, dropping at the tram station or near the Alaska State Museum. Indoor waiting area, restrooms and taxis."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 10,
+  "km": 0.5,
+  "detail": "Downtown, the tram and the waterfront are walkable from the Franklin Dock and Cruise Ship Terminal. From the AJ Dock it is about a mile; most people use the shuttle. Mendenhall Glacier, 12 miles away, is not walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "A few minutes from the Franklin Dock and Cruise Ship Terminal to South Franklin Street",
+   "detail": "The tram base, the shops on South Franklin Street and the Alaska State Museum are all within walking distance of the main downtown berths."
+  },
+  {
+   "mode": "AJ Dock shuttle",
+   "cost": "Paid per person; check the fare at the dock",
+   "time": "Short ride, about a mile",
+   "detail": "Runs continuously to downtown on ship days, stopping at the Mount Roberts Tramway station or near the Alaska State Museum."
+  },
+  {
+   "mode": "Private glacier shuttle",
+   "cost": "Varies by operator; tickets at dock booths, on board or in advance",
+   "time": "About 30 min each way",
+   "detail": "Several companies run round-trip shuttles from downtown to the Mendenhall Glacier Visitor Center. These are private tours, separate from the city buses. Confirm the last return departure when you buy."
+  },
+  {
+   "mode": "Capital Transit city bus to Mendenhall",
+   "cost": "$2 adult, $1 youth 6–18, cash and exact change only (2026)",
+   "time": "Up to 1.5 hours each way, including a 30-minute walk",
+   "detail": "Routes 3 or 4 (Mendenhall Valley) or Route 8 (Valley Express) from the Downtown Transit Center to the Dredge Lake Road stop, then 1.5 miles (2.4 km) on a flat paved bike path to the visitor centre. Last bus back on Sundays leaves about 17:25; later on other days. Some cruise docks are up to 1.5 miles from the transit centre, adding 30 minutes' walking each way."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; ask for an estimate",
+   "time": "About 12 miles to Mendenhall",
+   "detail": "Taxis wait at the Cruise Ship Terminal and AJ Dock."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard from downtown or a private glacier shuttle; 90 minutes before if you are using the city bus to Mendenhall.",
+  "detail": "The city bus trip to the glacier takes up to 1.5 hours each way including the walk, so it leaves little margin on a short call. Shuttles and the AJ Dock shuttle get busy as five ships' passengers return together. Tram hours change with the weather on the mountain, so do not leave the descent until the last moment.",
+  "emergencyFallback": "From Mendenhall, take a taxi straight back to your dock. If you will miss all-aboard, call the port agent number on your ship's daily programme immediately."
+ },
+ "shipExcursionAvg": 124,
+ "diyAvg": 9,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Mendenhall Glacier",
+   "ship": "Holland America Mendenhall Glacier & Glacier Gardens from $124, about 4 hours (2026)",
+   "diy": "City bus $2 each way plus $5 visitor centre fee: $9 (2026), but up to 3 hours' travel in total",
+   "saving": "Not like-for-like: the ship tour adds Glacier Gardens and removes the bus-timing risk"
+  },
+  {
+   "item": "Whale watching from Auke Bay",
+   "ship": "Holland America Whale Watching & Wildlife Quest from $214, about 4 hours (2026)",
+   "diy": "Independent operators sell tours from the docks; prices vary",
+   "saving": "Varies"
+  },
+  {
+   "item": "Mount Roberts Tramway",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$60 adult, $45 child 3–12 at the counter or online (2026)",
+   "saving": "Varies"
+  }
+ ],
+ "excursionAdvice": "Do the tram and downtown yourself: both start at the docks. Mendenhall Glacier is the real choice. A private glacier shuttle is the easy middle option; the city bus is cheap but slow and only sensible on a long call. Whale watching leaves from Auke Bay, a coach ride away, and a ship tour or an operator who handles the transfer is worth it there, because timing and return are taken care of.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at a downtown berth and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk off the ship to the Mount Roberts Tramway base at 490 S. Franklin Street. If you are at the AJ Dock, take the shuttle to the tram station."
+   },
+   {
+    "time": "08:30",
+    "what": "Ride the tram up Mount Roberts and look round the Mountain House at the upper station."
+   },
+   {
+    "time": "10:15",
+    "what": "Back down. Buy a round-trip glacier shuttle ticket from a booth by the docks."
+   },
+   {
+    "time": "10:45",
+    "what": "Shuttle to the Mendenhall Glacier Visitor Center, about 30 minutes."
+   },
+   {
+    "time": "11:15",
+    "what": "Photo Point and the visitor centre ($5 fee, 16 and over), then walk the shore trail to Nugget Falls."
+   },
+   {
+    "time": "13:30",
+    "what": "Shuttle back downtown."
+   },
+   {
+    "time": "14:15",
+    "what": "Late lunch of king crab at Tracy's King Crab Shack, 432 S. Franklin Street."
+   },
+   {
+    "time": "15:15",
+    "what": "Walk to the Alaska State Museum on Whittier Street, or browse South Franklin Street."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Mount Roberts Tramway (Goldbelt Tram)",
+   "why": "Aerial tram from the downtown waterfront up Mount Roberts, with views over Juneau. The upper station has the Mountain House (café, shop, gallery, theatre) and the Timberline Restaurant.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "$60 adult, $45 child 3–12 (2026)",
+   "tip": "Hours change daily and with weather on the mountain. Go early if the cloud is high; there is little to see in low cloud."
+  },
+  {
+   "name": "Mendenhall Glacier Visitor Center and Photo Point",
+   "why": "The road-accessible glacier, about half a mile wide, fed by the Juneau Icefield, 12 miles from downtown in the Tongass National Forest.",
+   "timeNeeded": "3–4 hours including travel",
+   "cost": "$5 per person aged 16 and over; 15 and under free (2026)",
+   "tip": "Visitor centre open 09:00–18:00 daily in the 2026 season. The fee covers the visitor centre, Photo Point Trail and Steep Creek."
+  },
+  {
+   "name": "Nugget Falls Trail",
+   "why": "Lakeshore walk from the visitor centre area to a waterfall beside the glacier.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free; the trail is outside the fee area",
+   "tip": "The trail is open even if you do not enter the visitor centre."
+  },
+  {
+   "name": "Alaska State Museum",
+   "why": "History, art and culture of Alaska's regions in the Father Andrew P. Kashevaroff building, a short walk from the docks.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Admission charged; ages 18 and under free",
+   "tip": "Check current hours before you go. A good choice in rain."
+  },
+  {
+   "name": "South Franklin Street",
+   "why": "The downtown street running behind the docks, with shops, cafés and the historic centre.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Busiest late morning when shuttles and tours load. Walk it early or late."
+  },
+  {
+   "name": "Whale watching from Auke Bay",
+   "why": "Humpback whales feed in Stephens Passage in summer; boats leave from Auke Bay, north of downtown.",
+   "timeNeeded": "About 4 hours with transfers",
+   "cost": "Holland America's tour from $214 (2026); independent tours vary",
+   "tip": "Holland America's operator guarantees a whale sighting in June to August or refunds $100 cash."
+  },
+  {
+   "name": "Glacier Gardens",
+   "why": "Gardens with an indoor floral pavilion, a short ride from downtown, often paired with Mendenhall on tours.",
+   "timeNeeded": "Part of a 4-hour combined tour with Mendenhall",
+   "cost": "Included in combination tours; check direct prices",
+   "tip": "Outdoor plantings may not be in bloom in May; the indoor pavilion is."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "King crab legs",
+   "where": "Tracy's King Crab Shack, 432 S. Franklin Street, by the docks",
+   "price": null
+  },
+  {
+   "dish": "Crab bisque and crab cakes",
+   "where": "Tracy's King Crab Shack Shack 2 (open-air), 300 Whittier Street",
+   "price": null
+  },
+  {
+   "dish": "Seafood, burgers and pub food",
+   "where": "The Hangar on the Wharf, Marine Way, beside the Seawalk",
+   "price": null
+  },
+  {
+   "dish": "Breakfast and lunch",
+   "where": "The Rookery Cafe, near Seward and Front Streets",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning to walk to Mendenhall Glacier.",
+   "fix": "It is 12 miles from downtown. Use a glacier shuttle, a taxi, or the city bus plus a 1.5-mile walk."
+  },
+  {
+   "mistake": "Taking the city bus to the glacier on a short call.",
+   "fix": "Allow up to 1.5 hours each way and carry exact change ($2). On Sundays the last bus back leaves Dredge Lake Road about 17:25."
+  },
+  {
+   "mistake": "Assuming every dock is downtown.",
+   "fix": "Check your berth. The AJ Dock is about a mile south; add the shuttle to your timing."
+  },
+  {
+   "mistake": "Riding the tram in thick cloud.",
+   "fix": "Look at the summit from the dock first. If it is hidden, do the glacier or museum first and try the tram later."
+  },
+  {
+   "mistake": "Paying the glacier fee to see Nugget Falls.",
+   "fix": "Nugget Falls Trail is outside the fee area. The $5 fee covers the visitor centre, Photo Point and Steep Creek."
+  }
+ ],
+ "safety": "Juneau's downtown is generally safe for visitors. The real risks are weather and terrain: rain is frequent, trails are wet, and conditions on Mount Roberts change quickly. Wear waterproof layers and shoes with grip. At Mendenhall, keep to marked trails and do not approach the ice or the waterfall's spray zone. Downtown streets around the docks are crowded with tour coaches when several ships are in, so cross with care. Emergency number is 911.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The Franklin Dock and Cruise Ship Terminal are step-free and close to downtown. The Mendenhall Glacier Visitor Center is reached from its car parks by stairs, lifts and an easy ramp, and the 1.5-mile path from the Dredge Lake Road bus stop is flat, paved and wheelchair accessible. Holland America lists its Mendenhall and whale-watching tours as not wheelchair accessible; ask the ship about adapted transport. Check tram accessibility with the operator before you go.",
+ "rainyDay": "Rain is normal in Juneau, so plan for it. The Alaska State Museum is the main indoor option near the docks. Mendenhall works in rain if you have waterproofs, and the visitor centre is indoors. Skip the tram if the cloud is down on Mount Roberts, because the view is the point.",
+ "crowdTips": "From 2026 the city limits cruise visitors to 16,000 a day and 12,000 on Saturdays, against peaks of about 21,000 before the cap, and lines have agreed to no more than five large ships a day. On five-ship days the tram queue and South Franklin Street are busiest late morning. Ride the tram early and do the glacier in the middle of the day, or the reverse if your ship arrives late. The Mendenhall Glacier Visitor Center is open 09:00–18:00 in the 2026 season; arriving near opening or late afternoon avoids the tour peak.",
+ "faqs": [
+  {
+   "q": "Is Juneau a tender port?",
+   "a": "No. Large ships dock along the downtown waterfront. A small float between the Cruise Ship Terminal and Franklin Dock is used mainly for tenders and small vessels."
+  },
+  {
+   "q": "Is Juneau walkable from the cruise port?",
+   "a": "Yes from the Franklin Dock and Cruise Ship Terminal, a few minutes to downtown. From the AJ Dock, about a mile south, most people use the paid shuttle."
+  },
+  {
+   "q": "How do I get from Juneau cruise port to Mendenhall Glacier?",
+   "a": "By private glacier shuttle from the docks (about 30 minutes), by taxi (12 miles), or by Capital Transit Routes 3, 4 or 8 to Dredge Lake Road and a 1.5-mile walk ($2 cash each way, up to 1.5 hours)."
+  },
+  {
+   "q": "How much is the Mount Roberts Tramway?",
+   "a": "$60 for adults and $45 for children aged 3–12 in 2026. The base station is at 490 S. Franklin Street by the docks."
+  },
+  {
+   "q": "Is there a fee at Mendenhall Glacier?",
+   "a": "Yes, $5 per person aged 16 and over for the visitor centre, Photo Point and Steep Creek (2026). Nugget Falls and other trails are free."
+  },
+  {
+   "q": "What can I do in Juneau in one day from a cruise ship?",
+   "a": "The tram early, then Mendenhall Glacier and Nugget Falls by shuttle, then king crab and the State Museum downtown. Whale watching from Auke Bay takes about four hours."
+  },
+  {
+   "q": "How many cruise passengers can visit Juneau a day?",
+   "a": "From 2026 the cap is 16,000 a day and 12,000 on Saturdays, enforced through scheduling."
+  },
+  {
+   "q": "Is Juneau safe?",
+   "a": "Yes for visitors. Prepare for rain and slippery trails, and watch for coach traffic near the docks."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Mendenhall Glacier"
+  },
+  {
+   "name": "Mount Roberts Tramway"
+  },
+  {
+   "name": "Nugget Falls"
+  },
+  {
+   "name": "Alaska State Museum"
+  },
+  {
+   "name": "Whale watching from Auke Bay"
+  },
+  {
+   "name": "Glacier Gardens"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Juneau Independent – Cruise season starts with new daily passenger limits (April 2026)",
+   "url": "https://www.juneauindependent.com/post/cruise-season-starts-monday-with-new-daily-passenger-limits-mendenhall-glacier-visitor-center-s-cap"
+  },
+  {
+   "title": "Juneau Independent – $15 charge proposed at Mendenhall Glacier Visitor Center (May 2026)",
+   "url": "https://www.juneauindependent.com/post/15-charge-instead-of-5-at-mendenhall-glacier-visitor-center-other-fee-changes-proposed-by-us-fore"
+  },
+  {
+   "title": "USDA Forest Service – Mendenhall Glacier Visitor Center",
+   "url": "https://www.fs.usda.gov/r10/tongass/offices/mendenhall-glacier-visitor-center"
+  },
+  {
+   "title": "USDA Forest Service – Mendenhall fees and passes",
+   "url": "https://www.fs.usda.gov/r10/tongass/offices/mendenhall-fees-and-passes"
+  },
+  {
+   "title": "Capital Transit (City and Borough of Juneau) – How to ride to the Mendenhall Glacier Visitor Center",
+   "url": "https://juneaucapitaltransit.org/glacier"
+  },
+  {
+   "title": "Goldbelt Tram – Tram tickets",
+   "url": "https://www.goldbelttram.com/activities/tram-tickets/"
+  },
+  {
+   "title": "Travel Alaska – Alaska State Museum",
+   "url": "https://www.travelalaska.com/juneau/museums-arts-history/museums/alaska-state-museum"
+  },
+  {
+   "title": "Alaska Division of Libraries, Archives and Museums – Summer hours release",
+   "url": "https://lam.alaska.gov/press/releases/alaska-state-library-archives-museum-shift-to-summer-hours"
+  },
+  {
+   "title": "Holland America – Mendenhall Glacier & Glacier Gardens",
+   "url": "https://www.hollandamerica.com/en/us/cruise-destinations/alaska-cruises/alaska-yukon-ports/jnu/23005"
+  },
+  {
+   "title": "Holland America – Whale Watching & Wildlife Quest",
+   "url": "https://www.hollandamerica.com/en/us/cruise-destinations/alaska-cruises/alaska-yukon-ports/juneau-alaska-us-jnu/whale-watching-wildlife-quest"
+  },
+  {
+   "title": "Cruise Hive – Juneau cruise port overview",
+   "url": "https://www.cruisehive.com/juneau-cruise-port-guide/99168"
+  },
+  {
+   "title": "Alaska.org – Mendenhall Glacier Visitor Center",
+   "url": "https://www.alaska.org/detail/mendenhall-glacier-visitor-center"
+  },
+  {
+   "title": "Alaska Cruise Association – Juneau's new Cruise Ship Terminal dock",
+   "url": "https://akcruise.org/2590/"
+  },
+  {
+   "title": "Tracy's King Crab Shack – Locations",
+   "url": "https://kingcrabshack.com/pages/locations"
+  },
+  {
+   "title": "Juneau Empire – Tracy's King Crab Shack gets new spot on S. Franklin",
+   "url": "https://juneauempire.com/news/tracys-king-crab-shack-gets-new-spot-on-s-franklin"
+  },
+  {
+   "title": "Princess Cruises – Best Juneau and Ketchikan restaurants near the cruise ports",
+   "url": "https://www.princess.com/blog/alaska-food-eat-like-a-local-at-these-restaurants"
+  },
+  {
+   "title": "Juneau Independent – Ketchikan set to surpass Juneau in cruise passengers (2026)",
+   "url": "https://www.juneauindependent.com/post/ketchikan-set-to-surpass-juneau-in-cruise-passengers-for-the-first-time-due-to-limits-set-in-capita"
+  }
+ ],
+ "uncertain": [
+  "AJ Dock shuttle fare for 2026 (one guide reports $5; not confirmed by an official source)",
+  "Exact position and facilities of the Alaska Steamship Dock",
+  "Alaska State Museum 2026 summer admission price and opening hours (sources conflict)",
+  "Mount Roberts Tramway daily operating hours, ride time and upper-station elevation",
+  "Prices of private Mendenhall glacier shuttles",
+  "Whether the proposed rise in the Mendenhall fee from $5 to $15 will take effect in 2027"
+ ]
+}

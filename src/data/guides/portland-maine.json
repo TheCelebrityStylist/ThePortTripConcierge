@@ -1,0 +1,391 @@
+{
+ "slug": "portland-maine",
+ "city": "Portland",
+ "portName": "Port of Portland, Maine (Ocean Gateway and Portland Ocean Terminal)",
+ "townName": "the Old Port",
+ "country": "United States",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "Eastern Time (UTC-5), EDT (UTC-4) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Portland cruise port guide: Old Port, Head Light, ferry",
+ "seoDescription": "Ships dock at Ocean Gateway on Commercial Street, a short walk to the Old Port. Portland Head Light 15–20 min by taxi, museum $2. Peaks ferry $16 return (2026).",
+ "quickAnswer": "Portland is a docking port: most ships berth at Ocean Gateway and some larger ships at the Portland Ocean Terminal on the Maine State Pier, both on Commercial Street at the edge of the Old Port. You walk into town in minutes and need no transport unless you go to Portland Head Light, which is a 15–20 minute taxi or rideshare away. Be back at the ship 60 minutes before all-aboard.",
+ "intro": "Portland's cruise berths sit on the working waterfront, so the Old Port's brick streets, seafood restaurants and the Casco Bay ferries are all within walking distance of the gangway. The peninsula is under 4 miles end to end and easy to cover on foot. The one sight most passengers want that is not walkable is Portland Head Light in Cape Elizabeth, reached by taxi, rideshare or a tour. Mornings can be cool and breezy even in summer, so bring a layer.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Ocean Gateway (14 Ocean Gateway Pier)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Where most ships dock and passengers clear customs. The Visit Portland Information Center is in the building: maps, restrooms, free Wi-Fi, staff advice and the pick-up point for excursions and local tours. Seasonal hours to 1 November 2026: Monday–Saturday 09:00–16:00, Sunday 10:00–15:00."
+  },
+  {
+   "name": "Portland Ocean Terminal, Maine State Pier",
+   "distanceToCentreKm": 0.5,
+   "notes": "Used by some larger ships, further along Commercial Street next to the Casco Bay Lines ferry terminal (Commercial and Franklin Streets). A small welcome shed hands out maps and brochures while ships are in port."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.5,
+  "detail": "Both berths are on Commercial Street, the waterfront edge of the Old Port. Streets are flat along the water and climb inland towards Congress Street, the Arts District and Munjoy Hill. Some Old Port streets are cobbled."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5–15 min to the heart of the Old Port",
+   "detail": "Walk west along Commercial Street from either berth. The Portland Museum of Art in Congress Square is uphill and further; allow extra time."
+  },
+  {
+   "mode": "Taxi or rideshare (Uber, Lyft)",
+   "cost": "Metered or app fare; check the app quote",
+   "time": "About 15–20 min to Portland Head Light, Bug Light or Spring Point Ledge Light",
+   "detail": "The practical way to reach Fort Williams Park in Cape Elizabeth. Book your return in the app before you are short of time; pick-up waits can build when several ships are in."
+  },
+  {
+   "mode": "Casco Bay Lines ferry to Peaks Island",
+   "cost": "$16 adult round trip in peak season (fare from June 2026; peak season ran to 12 October 2026)",
+   "time": "Roughly hourly sailings in the daytime",
+   "detail": "The terminal is at Commercial and Franklin Streets, next to the Maine State Pier. Off-peak schedules and fares differ; check the current timetable at the terminal before you sail and note your return sailing."
+  },
+  {
+   "mode": "Greater Portland Metro bus",
+   "cost": "$2.25 single ride, $6.50 daily cap; Metro BREEZ $4.50 (from 1 August 2026)",
+   "time": "Varies by route",
+   "detail": "Tap-to-ride with a bank card or phone was introduced in 2026. Metro serves Portland, South Portland and towns north to Freeport and Brunswick, but not Cape Elizabeth, so it is no help for Portland Head Light."
+  },
+  {
+   "mode": "Maine Narrow Gauge Railroad",
+   "cost": "$18.85 adult coach (2026)",
+   "time": "40 min round trip",
+   "detail": "Leaves from 65 Thames Street, next to Ocean Gateway, along the Eastern Promenade. Departures at 10:00, 11:00, 12:00, 14:00, 15:00, 16:00 and 17:00, Tuesday to Sunday, until 25 October 2026."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the ship 60 minutes before all-aboard. From Portland Head Light, leave 80 minutes before all-aboard. From Peaks Island, be on a ferry leaving the island at least 2 hours before all-aboard.",
+  "detail": "Everything in the Old Port is a short walk, so the main risks are a late taxi or rideshare from Cape Elizabeth and missing a ferry back from the islands. Ferries are roughly hourly, so one missed sailing costs you an hour.",
+  "emergencyFallback": "From Cape Elizabeth or South Portland, call a taxi or open a rideshare app straight away. From Peaks Island there is no road link, so you must wait for the next ferry. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Portland Head Light",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi or rideshare both ways plus the $2 museum (2026); the park is free to walk in",
+   "saving": "Depends on group size; sharing a car with four people is usually the cheapest independent option"
+  },
+  {
+   "item": "Old Port and waterfront",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot",
+   "saving": "The full cost of any walking or trolley tour you skip"
+  },
+  {
+   "item": "Casco Bay islands",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$16 adult ferry round trip to Peaks Island (peak 2026)",
+   "saving": "Depends on the tour offered"
+  }
+ ],
+ "excursionAdvice": "Skip ship tours of the Old Port: the town starts at the berth and is easy alone. A ship tour makes sense if you want several lighthouses in one trip (Portland Head Light, Bug Light and Spring Point Ledge Light) without arranging cars, or if you want to go further afield, such as Freeport or Kennebunkport, where traffic makes an independent return less predictable. For Portland Head Light alone, a shared taxi or rideshare is simple.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Ocean Gateway at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship. Pick up a map at the Visit Portland Information Center in Ocean Gateway (opens 09:00 Monday to Saturday, 10:00 on Sunday)."
+   },
+   {
+    "time": "09:00",
+    "what": "Taxi or rideshare to Fort Williams Park in Cape Elizabeth, about 15–20 minutes."
+   },
+   {
+    "time": "09:30",
+    "what": "Walk the cliff paths at Portland Head Light. The museum opens at 10:00 ($2 adult)."
+   },
+   {
+    "time": "11:00",
+    "what": "Ride back to the Old Port."
+   },
+   {
+    "time": "11:30",
+    "what": "Walk Commercial Street, Exchange Street and the cobbled lanes of the Old Port."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch, for example the brown butter lobster roll at Eventide Oyster Co. on Middle Street."
+   },
+   {
+    "time": "13:45",
+    "what": "Option A: the Portland Museum of Art in Congress Square. Option B: walk the Eastern Promenade or take the 14:00 Narrow Gauge train from Thames Street."
+   },
+   {
+    "time": "15:45",
+    "what": "Back towards Commercial Street for last shopping within a few minutes of the berth."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Portland Head Light and Fort Williams Park",
+   "why": "Maine's best-known lighthouse on a rocky headland, with cliff paths and the ruins of an old fort in the park.",
+   "timeNeeded": "2–2.5 hours including the ride",
+   "cost": "Park free on foot; museum $2 adult, $1 ages 6–18",
+   "tip": "Park open sunrise to sunset every day. The museum and gift shop open 10:00–16:00 from Memorial Day to Indigenous Peoples Day, so outside that season only the grounds are open."
+  },
+  {
+   "name": "The Old Port",
+   "why": "Brick 19th-century warehouses, cobbled streets, independent shops and the working waterfront, right next to the berth.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free",
+   "tip": "On some cruise days local makers set up a market along Commercial Street."
+  },
+  {
+   "name": "Portland Museum of Art",
+   "why": "Maine's largest art museum, with American art including Winslow Homer, and a sculpture garden.",
+   "timeNeeded": "1.5 hours",
+   "cost": "$20 adult, $18 seniors; 21 and under free",
+   "tip": "Open daily 10:00–18:00, Friday to 20:00. Free for everyone on Fridays from 16:00 and all day on third Thursdays."
+  },
+  {
+   "name": "Eastern Promenade",
+   "why": "A hillside park and shore trail on Munjoy Hill with views over Casco Bay and its islands.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Food trucks often park here in season."
+  },
+  {
+   "name": "Maine Narrow Gauge Railroad",
+   "why": "A 40-minute heritage train ride along the Eastern Promenade, starting next to Ocean Gateway, with a small rail museum.",
+   "timeNeeded": "1 hour",
+   "cost": "$18.85 adult coach, $24.10 first class (2026)",
+   "tip": "Runs Tuesday to Sunday to 25 October 2026; no service on Mondays except 19 October."
+  },
+  {
+   "name": "Portland Observatory",
+   "why": "An 1807 signal tower on Munjoy Hill with views across the city and harbour from the top.",
+   "timeNeeded": "45 minutes for the tour, plus an uphill walk to Munjoy Hill",
+   "cost": "$10 adult (2025 season price)",
+   "tip": "Seasonal: the 2025 season ran from late May to mid-October. 87 stairs to the top; not fully accessible."
+  },
+  {
+   "name": "Peaks Island",
+   "why": "The closest Casco Bay island, with a quiet shore road and views back to the city.",
+   "timeNeeded": "2.5–3 hours",
+   "cost": "$16 adult ferry round trip (peak season 2026)",
+   "tip": "Note the return sailing times before you leave the mainland."
+  },
+  {
+   "name": "Bug Light and Spring Point Ledge Light",
+   "why": "Two small South Portland lighthouses facing the city across the harbour.",
+   "timeNeeded": "1.5 hours including the ride",
+   "cost": "Free to walk",
+   "tip": "About 10–15 minutes by car; easy to combine with Portland Head Light."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Fort Williams Park shore",
+   "howToGetThere": "Taxi or rideshare to Cape Elizabeth",
+   "time": "15–20 min by car",
+   "cost": "Free on foot",
+   "note": "Rocky shore rather than a sandy beach; most visitors come for the lighthouse and paths."
+  },
+  {
+   "name": "Peaks Island shore",
+   "howToGetThere": "Casco Bay Lines ferry",
+   "time": "Ferry plus a short walk",
+   "cost": "$16 adult ferry round trip (peak 2026)",
+   "note": "Rocky coves and small beaches; check your return ferry first."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Brown butter lobster roll",
+   "where": "Eventide Oyster Co., 86 Middle Street (Old Port)",
+   "price": "$23 (2026)"
+  },
+  {
+   "dish": "Raw Maine oysters",
+   "where": "Maine Oyster Co. (Old Port)",
+   "price": null
+  },
+  {
+   "dish": "Lobster roll from a food truck",
+   "where": "Eastern Promenade, in season",
+   "price": null
+  },
+  {
+   "dish": "Whoopie pies",
+   "where": "Bakeries in the Old Port",
+   "price": null
+  },
+  {
+   "dish": "Craft beer flight",
+   "where": "Portland breweries, for example Orange Bike Brewing",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk or take a bus to Portland Head Light.",
+   "fix": "It is in Cape Elizabeth and Metro buses do not go there. Use a taxi, rideshare or tour; allow 15–20 minutes each way."
+  },
+  {
+   "mistake": "Expecting the lighthouse museum to be open late in the season.",
+   "fix": "The museum closes after Indigenous Peoples Day in October; the park stays open."
+  },
+  {
+   "mistake": "Missing the return ferry from Peaks Island.",
+   "fix": "Sailings are about hourly. Plan to be on a ferry leaving the island at least 2 hours before all-aboard."
+  },
+  {
+   "mistake": "Dressing for summer only.",
+   "fix": "Mornings and evenings on the water are cool and breezy; bring a windproof layer."
+  },
+  {
+   "mistake": "Waiting until the last minute to book a rideshare back from Cape Elizabeth.",
+   "fix": "Request your car 80 minutes before all-aboard, earlier on multi-ship days."
+  }
+ ],
+ "safety": "Portland is a small, easy city for visitors and the Old Port is busy in the daytime. Take normal city precautions with bags and phones. Commercial Street carries lorries and traffic to the working piers, so cross with care. At Portland Head Light, stay behind the fences on the cliffs: the rocks are slippery and waves can be strong. Casco Bay water is cold, so swim only at a beach and not off the rocks.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The berths and Commercial Street are flat, but some Old Port side streets are cobbled and the streets climb steeply towards Congress Street and Munjoy Hill. The Portland Museum of Art offers accessibility help by phone. The Portland Observatory has 87 stairs and is not fully accessible. Fort Williams Park has paved paths near the lighthouse. Ask your taxi or rideshare service for an accessible vehicle in advance.",
+ "rainyDay": "Spend the time in the Portland Museum of Art, the Old Port's shops, cafés and breweries, and the Narrow Gauge railroad museum. The lighthouse cliffs are exposed and much less pleasant in rain and wind.",
+ "crowdTips": "Portland gets about 100 cruise calls a year from April to early November, and the Old Port is busiest when two ships are in. Visit Portland Head Light first thing, before the excursion coaches, and save the Old Port for the afternoon. Check the cruise schedule for your date.",
+ "faqs": [
+  {
+   "q": "Is Portland, Maine a tender port?",
+   "a": "No. Ships dock at Ocean Gateway or the Portland Ocean Terminal at the Maine State Pier, both on Commercial Street."
+  },
+  {
+   "q": "Is Portland walkable from the cruise port?",
+   "a": "Yes. The Old Port starts at the berths; most of it is within a 5–15 minute walk."
+  },
+  {
+   "q": "How do I get from Portland cruise port to Portland Head Light?",
+   "a": "Take a taxi or rideshare to Fort Williams Park in Cape Elizabeth, about 15–20 minutes. No Metro bus goes there."
+  },
+  {
+   "q": "How much is the Portland Head Light museum?",
+   "a": "$2 for adults and $1 for ages 6–18; the park is free on foot. The museum is open 10:00–16:00 from Memorial Day to Indigenous Peoples Day."
+  },
+  {
+   "q": "What can I do in Portland, Maine in one day from a cruise ship?",
+   "a": "Portland Head Light in the morning, lunch and a walk in the Old Port, then the Portland Museum of Art, the Eastern Promenade or a ferry to Peaks Island."
+  },
+  {
+   "q": "Are there beaches near Portland cruise port?",
+   "a": "Portland is not a beach stop. The shore at Fort Williams Park and on Peaks Island is mostly rocky, and Casco Bay water is cold."
+  },
+  {
+   "q": "Is there a cruise passenger fee in Portland, Maine?",
+   "a": "The city charges cruise lines $21 per passenger (tariff and infrastructure fee), rising to $25 from 1 January 2027. It is billed to the cruise line, not paid at the pier."
+  },
+  {
+   "q": "Is Portland, Maine safe?",
+   "a": "Yes. Take normal city precautions and care on the cliffs at Portland Head Light."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Portland Head Light"
+  },
+  {
+   "name": "The Old Port"
+  },
+  {
+   "name": "Portland Museum of Art"
+  },
+  {
+   "name": "Eastern Promenade"
+  },
+  {
+   "name": "Maine Narrow Gauge Railroad"
+  },
+  {
+   "name": "Portland Observatory"
+  },
+  {
+   "name": "Peaks Island"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Visit Portland – Ocean Gateway visitor information (2026 hours)",
+   "url": "https://www.visitportland.com/visit/resources/visitor-information/"
+  },
+  {
+   "title": "Visit Portland – 8-hour shore itinerary for cruise passengers",
+   "url": "https://www.visitportland.com/blog/2025/03/02/ultimate-shore-itinerary-for-cruise-passengers/"
+  },
+  {
+   "title": "Visit Portland – What to do during a fall cruise stop",
+   "url": "https://www.visitportland.com/blog/2025/09/05/what-to-do-in-greater-portland-during-a-fall-cruise/"
+  },
+  {
+   "title": "Portland Head Light – Park information, hours and fees",
+   "url": "https://portlandheadlight.com/contact"
+  },
+  {
+   "title": "Casco Bay Lines – Fall 2026 ferry schedule (PDF)",
+   "url": "https://www.cascobaylines.com/uploads/131630-_-CASCO-Fall-Ferry-Schedule-PROOF.pdf"
+  },
+  {
+   "title": "Portland Press Herald – Casco Bay Lines fare increase (April 2026)",
+   "url": "https://www.pressherald.com/?p=7631148"
+  },
+  {
+   "title": "Greater Portland Metro fare change notice, effective 1 August 2026",
+   "url": "https://groups.google.com/g/pbpac/c/KfZFU9CqsDc"
+  },
+  {
+   "title": "Portland Museum of Art – Visit",
+   "url": "https://www.portlandmuseum.org/visit/"
+  },
+  {
+   "title": "Maine Narrow Gauge Railroad – Narrated train ride (2026)",
+   "url": "https://mainenarrowgauge.org/narrated-train-ride-2-3/"
+  },
+  {
+   "title": "Greater Portland Landmarks – Portland Observatory FAQ",
+   "url": "https://www.portlandlandmarks.org/faq-observatory"
+  },
+  {
+   "title": "AOL – Portland, Maine to raise cruise passenger tariff fees",
+   "url": "https://www.aol.com/articles/popular-cruise-port-raise-cruise-120826091.html"
+  },
+  {
+   "title": "Eventide Oyster Co. – Online ordering menu",
+   "url": "https://toast.app/r/eventide/order"
+  },
+  {
+   "title": "TravelPulse – Portland, Maine and the Ocean Gateway berth",
+   "url": "https://www.travelpulse.com/news/cruise/portland-maine-capitalizing-on-growing-cruise-industry"
+  },
+  {
+   "title": "Mainebiz – Portland welcomes first cruise ship of the season",
+   "url": "https://mainebiz.biz/article/portland-welcomes-first-cruise-ship-in-expected-record-season"
+  }
+ ],
+ "uncertain": [
+  "Off-peak Casco Bay Lines fare and timetable after 12 October 2026",
+  "Portland Observatory 2026 season dates and prices (2025 figures shown)",
+  "Typical all-aboard time (17:30 assumed)",
+  "Exact taxi and rideshare fares to Cape Elizabeth",
+  "Ferry crossing time to Peaks Island"
+ ]
+}

@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import { CAT } from '../lib/ports.js';
+import { app, PRICES } from '../lib/site.js';
+const total = Object.keys(CAT).length;
+---
+<Base title="What is PortTrip? The cruise port day planner | PortTrip" description={`PortTrip tells cruise passengers the latest time to leave each part of town to make all-aboard, in port and ship time, for ${total} checked ports.`} path="/what-is-porttrip">
+  <div class="mx-auto max-w-3xl px-5 pb-20 pt-10 sm:px-8">
+    <h1 class="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">What is PortTrip?</h1>
+    <div class="doc mt-8">
+      <p class="lead">PortTrip is a planner for cruise port days. It answers the question that decides whether going it alone works: <strong>what is the latest I can leave, given my all-aboard time?</strong></p>
+      <h2>In one sentence</h2>
+      <p>Checked guides for {total} cruise ports, a free planner that times each port day to your ship, and a Cruise Pass ({PRICES.pass}) that does your whole sailing and goes live on the day with Google Maps travel time and alerts.</p>
+      <h2>What makes it different</h2>
+      <ul>
+        <li><strong>Leave-by times per part of town.</strong> Not one rule like "two hours before", but a time for the old town, the beach, the train station, the next village.</li>
+        <li><strong>Queues counted.</strong> Tender lines, cable cars and terminal security are built into the times.</li>
+        <li><strong>Two clocks.</strong> All-aboard is in ship time; your phone shows port time. PortTrip shows both.</li>
+        <li><strong>Sources on every page.</strong> Each guide lists the official sources it was checked against, and when.</li>
+      </ul>
+      <h2>Who it's for</h2>
+      <p>Cruisers who would rather see a port on their own than on a coach, and want to be sure of getting back. Especially useful on a first cruise, at tender ports, and anywhere the sights are a train ride from the ship.</p>
+      <h2>Price</h2>
+      <p>Guides and the single-port planner are free. Cruise Pass {PRICES.pass} for one sailing (up to 10 ports), Year Pass {PRICES.year} for every cruise in 12 months. <a href="/pricing">See pricing</a>.</p>
+      <p><a href={app('/day/dubrovnik?aa=18%3A00')} rel="nofollow">Try the planner on Dubrovnik</a>.</p>
+    </div>
+  </div>
+</Base>

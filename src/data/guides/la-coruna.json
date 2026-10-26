@@ -1,0 +1,350 @@
+{
+ "slug": "la-coruna",
+ "city": "A Coruña",
+ "portName": "Port of A Coruña (Muelle de Trasatlánticos)",
+ "townName": "the city centre and Old Town",
+ "country": "Spain",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Spanish and Galician",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "A Coruña cruise port guide: Old Town, tower, Santiago",
+ "seoDescription": "A Coruña cruise port is 0.5 km from the centre. City bus €1.30 cash (2026); Tower of Hercules 2.6 km. Santiago trains take 26–35 min, about 27 a day.",
+ "quickAnswer": "Ships berth at the Muelle de Trasatlánticos, about 0.5 km from the city centre, so you walk into town in about five minutes; a second berth, Calvo Sotelo, is used on busy days. City buses cost €1.30 cash (2026) and lines 3, 3A and 5 run to the Tower of Hercules. If you take the train to Santiago de Compostela, be back at A Coruña station at least two hours before all-aboard.",
+ "intro": "A Coruña is one of the easiest cruise calls in Spain: the main quay sits at the edge of the city centre, next to the Marina's glass-balconied waterfront and the Old Town. The Tower of Hercules, the oldest Roman lighthouse still in use and a UNESCO World Heritage Site, is 2.6 km away on the headland. Santiago de Compostela is under 40 minutes by train, which makes it the most popular independent day trip. The port expected about 180 calls in 2026 and sometimes hosts several ships at once, when the central squares fill quickly.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Cruise terminal, Muelle de Trasatlánticos",
+   "distanceToCentreKm": 0.5,
+   "notes": "The main cruise quay, in the city centre beside the marina. Passengers walk through a small terminal. The quay is being upgraded and shore power is planned from 2027."
+  },
+  {
+   "name": "Muelle de Calvo Sotelo (north and south)",
+   "distanceToCentreKm": null,
+   "notes": "Second cruise berth, close to Trasatlánticos in the commercial part of the port, used when more than one ship is in."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.5,
+  "detail": "From the Trasatlánticos quay the centre is about five minutes' walk. The Tower of Hercules is 2.6 km, about 40 minutes on foot; most people take the bus or a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5 min to the centre",
+   "detail": "Walk off the quay towards Avenida da Mariña and the Marina's glass galleries; the Old Town and María Pita square are close by."
+  },
+  {
+   "mode": "City bus (Tranvías Coruña)",
+   "cost": "€1.30 a single journey, cash only (2026)",
+   "time": "Short ride to the Tower of Hercules",
+   "detail": "Lines 3, 3A and 5 serve the Tower of Hercules, with stops along Avenida da Mariña near the terminal. Carry coins; the single fare is cash only."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; check the fare before longer trips",
+   "time": "About 10 min to the railway station",
+   "detail": "Taxis wait outside the port area and in the centre. Drivers also offer city tours and trips to Santiago."
+  },
+  {
+   "mode": "Train to Santiago de Compostela",
+   "cost": "From about €5–8 one way, depending on the train (2026)",
+   "time": "26–35 min",
+   "detail": "About 27 direct trains a day (Renfe Avant, Media Distancia and Alvia) from A Coruña station, about 2.5 km from the port, to Santiago de Compostela. Check times on Renfe and book your return before you go."
+  }
+ ],
+ "returnTiming": {
+  "rule": "If you go to Santiago by train, be back at A Coruña station at least 2 hours before all-aboard. From the city centre, be back on board 60 minutes before all-aboard.",
+  "detail": "The station is about 10 minutes from the port by taxi. Trains are frequent, but you still have to get from Santiago's old town back to Santiago station, and taxis at A Coruña station may have queues when several ships are in.",
+  "emergencyFallback": "If a train is cancelled or late, call the port agent number on your daily programme and take a taxi; drivers in A Coruña and Santiago run trips between the two cities."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Santiago de Compostela",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Train from about €5–8 each way (2026), plus taxis to and from A Coruña station",
+   "saving": "Usually large"
+  },
+  {
+   "item": "Tower of Hercules",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "City bus €1.30 each way (2026)",
+   "saving": "Usually large"
+  }
+ ],
+ "excursionAdvice": "A Coruña itself needs no tour: the quay is in the centre and the Tower of Hercules is a short bus ride. Santiago is easy by train for most people. The ship's tour is worth it if you want a guide in the cathedral, are on a short call, or are uneasy about train timings. Finisterre, about an hour away by car, is better done on an organised tour.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at the Muelle de Trasatlánticos and all-aboard is 17:30, with a day in A Coruña.",
+  "steps": [
+   {
+    "time": "08:45",
+    "what": "Walk off the quay to Avenida da Mariña and catch bus 3, 3A or 5 to the Tower of Hercules (€1.30 cash)."
+   },
+   {
+    "time": "09:15",
+    "what": "Walk around the Tower of Hercules and the headland paths. Check whether interior visits are open during the 2026 works."
+   },
+   {
+    "time": "11:00",
+    "what": "Bus or taxi back to the centre."
+   },
+   {
+    "time": "11:30",
+    "what": "The Marina's glass galleries, María Pita square and the Old Town lanes."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch: Galician octopus and seafood in the Old Town or around the centre."
+   },
+   {
+    "time": "14:30",
+    "what": "Walk to Orzán and Riazor beaches along the promenade."
+   },
+   {
+    "time": "16:00",
+    "what": "Head back towards the port, a short walk from the centre."
+   },
+   {
+    "time": "16:30",
+    "what": "On board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Tower of Hercules",
+   "why": "The oldest Roman lighthouse still in service, a UNESCO World Heritage Site on the headland north of the centre.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Check current ticket sales: individual tickets were suspended for works from March 2026",
+   "tip": "2.6 km from the port; take bus 3, 3A or 5. The pedestrian staircase stayed open during the works."
+  },
+  {
+   "name": "The Marina's glass galleries (Avenida da Mariña)",
+   "why": "The waterfront row of white glazed balconies that gives A Coruña the name 'city of glass'.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free",
+   "tip": "It is right by the cruise quay; see it first in morning light or last before boarding."
+  },
+  {
+   "name": "María Pita square and the Old Town",
+   "why": "The main square by the city hall and the small lanes and churches of the old quarter behind it.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "Go early on multi-ship days; the central squares fill by late morning."
+  },
+  {
+   "name": "Orzán and Riazor beaches",
+   "why": "Two city beaches on the open Atlantic side of the isthmus, linked by the seafront promenade.",
+   "timeNeeded": "1 hour or more",
+   "cost": "Free",
+   "tip": "Swim only where lifeguards are on duty and follow the flags."
+  },
+  {
+   "name": "Santiago de Compostela",
+   "why": "The cathedral city at the end of the Camino de Santiago, 26–35 minutes by train.",
+   "timeNeeded": "4–5 hours including travel",
+   "cost": "Train from about €5–8 each way (2026); cathedral entry free",
+   "tip": "Masses and events can restrict tourist access inside the cathedral; check before you go."
+  },
+  {
+   "name": "The first Zara shop",
+   "why": "Zara's first store, opened in 1975, close to the cruise terminal.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free",
+   "tip": "A quick stop on the way back to the ship."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Orzán",
+   "howToGetThere": "Walk from the centre across the isthmus",
+   "time": "Short walk from the centre",
+   "cost": "Free",
+   "note": "City beach on the Atlantic side of the isthmus."
+  },
+  {
+   "name": "Riazor",
+   "howToGetThere": "Walk along the promenade from Orzán",
+   "time": "Next to Orzán",
+   "cost": "Free",
+   "note": "Joins Orzán along the same bay."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Pulpo á feira (Galician octopus)",
+   "where": "Tapas bars in the Old Town and city centre",
+   "price": null
+  },
+  {
+   "dish": "Seafood and shellfish",
+   "where": "Restaurants around the centre and the Marina",
+   "price": null
+  },
+  {
+   "dish": "Tapas",
+   "where": "Bars in the streets behind María Pita square",
+   "price": null
+  },
+  {
+   "dish": "Tarta de Santiago (almond cake)",
+   "where": "Cafés and bakeries in Santiago's old town",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming you can go inside the Tower of Hercules.",
+   "fix": "Works started on 16 March 2026 and individual ticket sales were suspended. Check the current status before planning around a visit inside."
+  },
+  {
+   "mistake": "Paying the bus with a card.",
+   "fix": "The single fare (€1.30 in 2026) is cash only. Carry coins."
+  },
+  {
+   "mistake": "Cutting the Santiago return fine.",
+   "fix": "Be back at A Coruña station two hours before all-aboard, and allow time to get from Santiago's old town back to its station."
+  },
+  {
+   "mistake": "Visiting María Pita square at midday on a multi-ship day.",
+   "fix": "On busy days the central squares can become hard to walk through. Go early or late."
+  },
+  {
+   "mistake": "Not checking which berth your ship uses.",
+   "fix": "Most ships use the Trasatlánticos quay in the centre, but busy days put ships at Calvo Sotelo; check your daily programme."
+  }
+ ],
+ "safety": "A Coruña is a safe city for visitors. Take normal care with bags in the busy centre and on crowded days. The Atlantic beaches can have strong waves; swim only where it is supervised and follow the flags.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from the Trasatlánticos quay to the centre is short and level, and the Marina promenade is flat. The Old Town has some slopes and cobbles. The Tower of Hercules site was under works in 2026 that include improving access. Ask your ship which berth it will use if you have limited mobility.",
+ "rainyDay": "A Coruña has frequent Atlantic rain. The glass galleries, shops and tapas bars of the centre are close to the ship; Santiago's cathedral is also an indoor option by train.",
+ "crowdTips": "A Coruña expected about 180 calls in 2026 and received 465,000 cruise passengers in 2025. On days with three or more ships, the record being five ships and about 14,500 people ashore in April 2025, the squares around the centre become very crowded. Head to the Tower of Hercules or the beaches first and save the centre for later, or take an early train to Santiago.",
+ "faqs": [
+  {
+   "q": "Is A Coruña walkable from the cruise port?",
+   "a": "Yes. The Trasatlánticos quay is about 0.5 km from the centre, around five minutes on foot."
+  },
+  {
+   "q": "Is A Coruña a tender port?",
+   "a": "No. Ships berth at the Muelle de Trasatlánticos or the Calvo Sotelo quay."
+  },
+  {
+   "q": "How do I get from A Coruña cruise port to the Tower of Hercules?",
+   "a": "City bus 3, 3A or 5 from Avenida da Mariña (€1.30 cash in 2026), a taxi, or a 40-minute walk of 2.6 km."
+  },
+  {
+   "q": "How do I get from A Coruña to Santiago de Compostela?",
+   "a": "Take a taxi to A Coruña station (about 10 minutes), then a direct train: 26–35 minutes, about 27 a day, from about €5–8 one way."
+  },
+  {
+   "q": "Can I go inside the Tower of Hercules in 2026?",
+   "a": "Works began on 16 March 2026 and individual tickets were suspended. Check the current situation before you go."
+  },
+  {
+   "q": "What can I do in A Coruña in one day from a cruise ship?",
+   "a": "The Tower of Hercules in the morning, the Marina, María Pita square and the Old Town at midday, and the Orzán and Riazor beaches in the afternoon."
+  },
+  {
+   "q": "Are there beaches near A Coruña cruise port?",
+   "a": "Yes. Orzán and Riazor are city beaches a short walk from the centre."
+  },
+  {
+   "q": "Is A Coruña safe?",
+   "a": "Yes. Take normal city precautions and care in the Atlantic surf."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Tower of Hercules"
+  },
+  {
+   "name": "Avenida da Mariña glass galleries"
+  },
+  {
+   "name": "María Pita square"
+  },
+  {
+   "name": "Old Town"
+  },
+  {
+   "name": "Orzán and Riazor beaches"
+  },
+  {
+   "name": "Santiago de Compostela Cathedral"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Tranvías Coruña – Tarifas y bonos",
+   "url": "https://tranviascoruna.com/tarifas/"
+  },
+  {
+   "title": "Tranvías Coruña – home page",
+   "url": "https://tranviascoruna.com"
+  },
+  {
+   "title": "Tranvías Coruña – Características básicas del servicio",
+   "url": "https://tranviascoruna.com/wp-content/uploads/2021/11/CARACTERISTICAS-BASICAS-DEL-SERVICIO.pdf"
+  },
+  {
+   "title": "Xunta de Galicia – Tower of Hercules improvement works (June 2025)",
+   "url": "https://www.xunta.gal/es/notas-de-prensa/-/nova/013762/xunta-licitara-finales-este-verano-las-obras-mejora-torre-hercules-por-cerca"
+  },
+  {
+   "title": "Cruise Europe – A Coruña",
+   "url": "https://www.cruiseeurope.com/destinations/a-coruna/"
+  },
+  {
+   "title": "El Español (Quincemil) – Tower of Hercules works begin, individual tickets suspended (March 2026)",
+   "url": "https://www.elespanol.com/quincemil/a-coruna/20260313/obras-torre-hercules-coruna-empiezan-lunes-suspende-venta-entradas-individuales/1003744168100_0.amp.html"
+  },
+  {
+   "title": "El Español (Quincemil) – Triple cruise call, 180 calls in 2026 (April 2026)",
+   "url": "https://www.elespanol.com/quincemil/economia/turismo/20260428/cruceristas-visitan-coruna-triple-escala-martes/1003744225701_0.html"
+  },
+  {
+   "title": "El Debate – Record cruise day in A Coruña (April 2025)",
+   "url": "https://www.eldebate.com/espana/galicia/la-coruna/20250422/lleno-total-coruna-record-cruceristas-millon-euros-retorno-economico-dia_290216.html"
+  },
+  {
+   "title": "Omio – A Coruña to Santiago de Compostela trains",
+   "url": "https://www.omio.es/trenes/a-coruna/santiago-de-compostela"
+  },
+  {
+   "title": "WhatsInPort – La Coruña",
+   "url": "https://www.whatsinport.com/La-Coruna.htm"
+  },
+  {
+   "title": "Adventour Begins – La Coruña cruise port guide",
+   "url": "https://www.adventourbegins.com/la-coruna-cruise-port-guide/"
+  },
+  {
+   "title": "Felices Vacaciones – Santiago Cathedral entry",
+   "url": "https://blog.felicesvacaciones.es/cuanto-hay-que-pagar-para-entrar-en-la-catedral-de-santiago"
+  }
+ ],
+ "uncertain": [
+  "Whether the Tower of Hercules interior has reopened to individual visitors by October 2026, and its ticket price and hours.",
+  "Puerto de A Coruña's own cruise pages and Renfe's own timetable were not opened; train times and fares come from Omio's listing of Renfe services.",
+  "Walking time from the Calvo Sotelo berth to the centre and whether a shuttle runs from it.",
+  "Whether city buses now accept contactless bank cards (the official fare page lists the single fare as cash only).",
+  "Santiago Cathedral opening hours and museum/rooftop prices in 2026.",
+  "Walking time from Santiago station to the cathedral.",
+  "Typical all-aboard time at A Coruña (sample 2026 departures were 19:00).",
+  "Taxi fares to the station and to Santiago.",
+  "Named restaurants with verified details.",
+  "Documented scams specific to A Coruña: none found."
+ ]
+}

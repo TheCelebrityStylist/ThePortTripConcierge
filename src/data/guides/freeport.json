@@ -1,0 +1,391 @@
+{
+ "slug": "freeport",
+ "city": "Freeport",
+ "portName": "Lucayan Harbour Cruise Facility (Freeport Harbour)",
+ "townName": "Port Lucaya",
+ "country": "Bahamas",
+ "currency": "BSD",
+ "currencySymbol": "B$",
+ "priceSymbol": "US$",
+ "language": "English",
+ "timezone": "EST (UTC−5), EDT (UTC−4) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Freeport cruise port guide: Port Lucaya, beaches, taxis",
+ "seoDescription": "Freeport's Lucayan Harbour is industrial: nothing to walk to. Port Lucaya and Lucaya Beach: 16 km, 15–25 min by taxi van. Leave 90 min before all-aboard.",
+ "quickAnswer": "Ships dock at the Lucayan Harbour Cruise Facility in Freeport's industrial harbour, and there is nothing to walk to, so you need a taxi or taxi van. Port Lucaya Marketplace and Lucaya Beach are about 16 km away, 15–25 minutes by road. Leave Port Lucaya or the beaches 90 minutes before all-aboard, because shared vans wait to fill and queues build in the afternoon.",
+ "intro": "Freeport is a docked port, but not a walkable one. The cruise pier sits in a working harbour on the west side of Grand Bahama, and everything visitors come for, from Port Lucaya Marketplace to Lucaya and Taino beaches, is a drive away. The day comes down to agreeing a taxi fare at the pier, choosing one area, and getting back in good time. Carnival ships may instead call at Celebration Key, Carnival's own destination on the south coast, which opened in July 2025 and works very differently.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Lucayan Harbour Cruise Facility (Freeport Harbour)",
+   "distanceToCentreKm": 16,
+   "notes": "Basic terminal in an industrial harbour with room for up to three ships. Straw market, craft and souvenir stalls, tour desks, car hire desks, Senor Frog's and Robinson's Seafood Delight are inside the port area. Taxis and taxi vans wait a few minutes' walk from the ship. Distance given is to Port Lucaya; downtown Freeport is about 10 km (6 miles)."
+  },
+  {
+   "name": "Celebration Key (Carnival Cruise Line only)",
+   "distanceToCentreKm": null,
+   "notes": "Carnival's private destination on the south coast, about 32 km (20 miles) east of Freeport, opened in July 2025. It is self-contained; to leave it you need a taxi from the transport hub."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 16,
+  "detail": "Nothing of interest is within walking distance of Lucayan Harbour beyond the terminal's own stalls. There is no safe pedestrian route out of the gated port; reaching the main road for a public bus means a long walk past truck traffic."
+ },
+ "transportSections": [
+  {
+   "mode": "Taxi van (shared)",
+   "cost": "About US$5–15 per person each way to Port Lucaya (2025–2026 reports)",
+   "time": "15–25 min to Port Lucaya",
+   "detail": "Most taxis are vans that leave when full. Agree the fare per person, and the return pickup if any, before you get in. Drop-off is normally at Port Lucaya Marketplace. Return waits of 20–30 minutes are reported at peak times in the afternoon."
+  },
+  {
+   "mode": "Private taxi",
+   "cost": "About US$20–30 each way to the Lucaya area; government meter rate US$3 for the first quarter mile plus US$0.40 a mile, US$3 per extra passenger (2025)",
+   "time": "15–25 min to Port Lucaya; 45–50 min to Lucayan National Park",
+   "detail": "Drivers often quote a flat fare instead of using the meter. Confirm the total before the car moves. For remote places such as Lucayan National Park or Paradise Cove, book a firm return pickup time, because there is no taxi rank there."
+  },
+  {
+   "mode": "Public bus",
+   "cost": "US$1.50 adult (2025)",
+   "time": "Varies",
+   "detail": "Buses run between Freeport and Lucaya but do not enter the port. Not practical for a cruise day."
+  },
+  {
+   "mode": "Car hire",
+   "cost": "Prices vary; check with the desks at the terminal",
+   "time": "Self-drive",
+   "detail": "Avis, Hertz and Dollar are among the firms at the port. Driving is on the left. Uber and Lyft do not operate on Grand Bahama."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave Port Lucaya, Lucaya Beach or Taino Beach 90 minutes before all-aboard. From Lucayan National Park or the East End, leave at least two hours before.",
+  "detail": "The ride back to Lucayan Harbour takes 15–25 minutes, but shared vans may wait to fill, and the busiest return window is mid-afternoon. Freeport roads can flood during and after heavy rain, according to the US State Department.",
+  "emergencyFallback": "At Port Lucaya, take any private taxi rather than waiting for a van to fill, and pay the higher fare. If you are stuck at a remote beach or the national park, call the driver you booked, or the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Port Lucaya and Lucaya Beach",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi van about US$5–15 each way per person (2025–2026 reports); beach and marketplace free",
+   "saving": "Usually large; the trip is easy to do alone"
+  },
+  {
+   "item": "Lucayan National Park",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Park entry US$15 adult (BNT, VAT included); private taxi with waiting time on top",
+   "saving": "Depends on group size; small groups may pay similar money for less risk on a tour"
+  }
+ ],
+ "excursionAdvice": "Do Port Lucaya and Lucaya or Taino Beach on your own: it is a short, cheap taxi van ride and there is little to gain from a tour. A ship excursion is worth it for Lucayan National Park, the East End, snorkelling trips and anything on the water. The park is 45–50 minutes away with no taxi rank, and the US State Department warns that jet ski and boat operators are poorly regulated, so a vetted operator with a guaranteed return is the safer choice.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Off the ship. Walk to the taxi area, agree a per-person fare to Port Lucaya Marketplace and get in a van."
+   },
+   {
+    "time": "09:00",
+    "what": "Arrive at Port Lucaya. Walk round the marketplace and the marina before it gets hot."
+   },
+   {
+    "time": "09:45",
+    "what": "Walk 5–7 minutes to Lucaya Beach for a swim. Keep valuables with you and swim with someone."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch: conch at Billy Joe's on Lucaya Beach, or back at the marketplace."
+   },
+   {
+    "time": "13:30",
+    "what": "Live music in Count Basie Square, or shopping for straw work and batik."
+   },
+   {
+    "time": "15:45",
+    "what": "Head for the taxi pick-up at Port Lucaya. Take a private taxi if no van is filling."
+   },
+   {
+    "time": "16:00",
+    "what": "Leave Port Lucaya, 90 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Port Lucaya Marketplace and Count Basie Square",
+   "why": "Nearly 10 acres of shops, bars and restaurants around a central square with live music on ship days.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free",
+   "tip": "Taxi vans drop off here; it makes a good base for the day because Lucaya Beach is a few minutes' walk away."
+  },
+  {
+   "name": "Lucaya Beach",
+   "why": "Long sandy beach with calm water, beach bars and water sports, next to Port Lucaya.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Free public beach",
+   "tip": "5–7 minutes' walk from the marketplace. Avoid unlicensed jet ski operators."
+  },
+  {
+   "name": "Taino Beach",
+   "why": "Wide beach east of Lucaya with beach bars and picnic areas, popular with families.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Free public access",
+   "tip": "About 25 minutes by taxi from the port. Tony Macaroni's Conch Experience is here."
+  },
+  {
+   "name": "Lucayan National Park",
+   "why": "Ben's Cave and Burial Mound Cave lead into one of the world's largest underwater cave systems; boardwalks run through mangroves to Gold Rock Beach.",
+   "timeNeeded": "Half day including 45–50 min each way by road",
+   "cost": "US$15 adult, US$10 senior (60+), US$8 child 6–14, VAT included (BNT)",
+   "tip": "Gold Rock Beach is best at low tide. There is no taxi rank: book a return pickup time."
+  },
+  {
+   "name": "Garden of the Groves",
+   "why": "Botanical garden in Freeport with native and exotic plants, birds and the Grand Bahama Labyrinth.",
+   "timeNeeded": "1–1.5 hours plus about 30 min each way by road",
+   "cost": "Check current prices with the garden",
+   "tip": "Listed as open daily 09:00–17:00 (until 22:00 on Fridays)."
+  },
+  {
+   "name": "Rand Nature Centre",
+   "why": "Over 100 acres of trails through native forest.",
+   "timeNeeded": "1–1.5 hours plus about 15 min each way by road",
+   "cost": "Not verified",
+   "tip": "A quieter alternative to the beaches on a hot day."
+  },
+  {
+   "name": "Port Lucaya Marina",
+   "why": "Marina next to the marketplace, base for UNEXSO dive and dolphin programmes and boat trips.",
+   "timeNeeded": "30 minutes to browse",
+   "cost": "Free to walk; activities priced separately",
+   "tip": "Check a boat trip's return time against your all-aboard before you book."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Lucaya Beach",
+   "howToGetThere": "Taxi van to Port Lucaya Marketplace, then walk 5–7 min",
+   "time": "15–25 min by road",
+   "cost": "Free; taxi van about US$5–15 each way per person (2025–2026 reports)",
+   "note": "The easiest beach for a cruise day, with bars and facilities next to the marketplace."
+  },
+  {
+   "name": "Taino Beach",
+   "howToGetThere": "Taxi",
+   "time": "About 25 min",
+   "cost": "Free public access; resort day passes cost extra",
+   "note": "Beach bars and Tony Macaroni's conch stand."
+  },
+  {
+   "name": "Xanadu Beach",
+   "howToGetThere": "Taxi",
+   "time": "About 10 min",
+   "cost": "Free; taxi fare",
+   "note": "The closest beach to the port; quiet with calm water."
+  },
+  {
+   "name": "Gold Rock Beach (Lucayan National Park)",
+   "howToGetThere": "Taxi with booked return, or tour",
+   "time": "45–50 min",
+   "cost": "Park entry US$15 adult (BNT)",
+   "note": "Remote; best at low tide. Do not go without a confirmed ride back."
+  },
+  {
+   "name": "Paradise Cove (Deadman's Reef)",
+   "howToGetThere": "Taxi with booked return, or tour",
+   "time": "20–25 min",
+   "cost": "Not verified",
+   "note": "Snorkelling from the shore on a reef."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fried fish and conch",
+   "where": "Robinson's Seafood Delight, inside the cruise port",
+   "price": null
+  },
+  {
+   "dish": "Conch salad and seafood",
+   "where": "Tony Macaroni's Conch Experience, Taino Beach",
+   "price": null
+  },
+  {
+   "dish": "Cracked conch",
+   "where": "Billy Joe's, Lucaya Beach",
+   "price": null
+  },
+  {
+   "dish": "Conch fritters and seafood",
+   "where": "Banana Bay, Fortune Beach",
+   "price": null
+  },
+  {
+   "dish": "Seafood with marina views",
+   "where": "Flying Fish GastroBar, Lucaya",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk out of the port.",
+   "fix": "There is nothing to walk to and no safe pedestrian route. Take a taxi van from the rank by the terminal."
+  },
+  {
+   "mistake": "Getting into a taxi without agreeing the fare.",
+   "fix": "Agree the total, per person or per car, before the vehicle moves. Carry small US dollar notes."
+  },
+  {
+   "mistake": "Leaving Port Lucaya 30 minutes before all-aboard.",
+   "fix": "Leave 90 minutes before. Vans wait to fill, and the afternoon queue is the busiest time."
+  },
+  {
+   "mistake": "Going to Lucayan National Park or a remote beach without a return booked.",
+   "fix": "Book a firm pickup time with your driver, or take a tour; there is no taxi rank there."
+  },
+  {
+   "mistake": "Renting a jet ski from a beach operator.",
+   "fix": "The US State Department warns operators are poorly regulated and some are unlicensed or uninsured. Use a ship-vetted operator or skip it."
+  }
+ ],
+ "safety": "The US State Department rates The Bahamas at Level 2, exercise increased caution, because of crime, and notes that most crime happens in Nassau and Freeport. Stay in busy tourist areas such as Port Lucaya and the main beaches, keep valuables out of sight, and do not resist a robbery. On the water, never swim alone, watch for boats near shore and be aware of currents. Do not swim inside the port. Firearms and ammunition, even a single stray round in a bag, are illegal. Dial 911 or 919 for police and ambulance.",
+ "scams": [
+  "Taxi fares that change: drivers may avoid the meter and quote high flat fares. Agree the total before you get in.",
+  "Card surcharges: some drivers with card readers add a 3–5% fee. Carry cash in small notes.",
+  "Unlicensed jet ski and boat operators on beaches: reported by the US State Department, with injuries and assaults recorded. Book water activities through a vetted operator."
+ ],
+ "emergencyNumber": "911 or 919",
+ "accessibility": "The walk from the ship to the taxi area is short. Most taxis are vans with steps; ask for help with folding wheelchairs. Port Lucaya Marketplace is a flat, open shopping area. Beaches are soft sand, and Lucayan National Park has boardwalks but also steps down into the caves. Ask your cruise line about accessible transport before you sail, because availability on the island is not easy to check in advance.",
+ "rainyDay": "Port Lucaya Marketplace has covered shops and restaurants and is the simplest rainy-day option. The terminal's own stalls and Robinson's Seafood Delight are under cover too. Avoid long drives in heavy rain: the US State Department notes that Freeport roads often flood during and after storms.",
+ "crowdTips": "Usually only one ship calls at Lucayan Harbour, so the island rarely feels crowded. Cruise arrivals on Grand Bahama rose sharply in 2025 after Celebration Key opened, but those Carnival passengers stay mostly at Celebration Key on the south coast. Go to the beach in the morning and shop at Port Lucaya at midday; head back before the mid-afternoon taxi queue.",
+ "faqs": [
+  {
+   "q": "Is Freeport walkable from the cruise port?",
+   "a": "No. Lucayan Harbour is an industrial port with nothing to walk to. Take a taxi van to Port Lucaya, about 15–25 minutes."
+  },
+  {
+   "q": "How do I get from Freeport cruise port to Port Lucaya Marketplace?",
+   "a": "Take a taxi van from the rank at the terminal. Expect about US$5–15 per person each way; agree the price first."
+  },
+  {
+   "q": "Is Freeport a tender port?",
+   "a": "No. Ships dock at the Lucayan Harbour Cruise Facility. Carnival ships may call at Celebration Key instead, which is also a pier."
+  },
+  {
+   "q": "Beaches near Freeport cruise port?",
+   "a": "Xanadu Beach is about 10 minutes away. Lucaya Beach, next to Port Lucaya Marketplace, is the easiest choice; Taino Beach is about 25 minutes away."
+  },
+  {
+   "q": "What is happening with the new Grand Bahama cruise port?",
+   "a": "In January 2026 MSC Cruises signed a US$450 million agreement to build a new berthing complex at Billy Cay in Freeport Harbour, with a beach club and refurbished retail village. No opening date had been given."
+  },
+  {
+   "q": "What can I do in Freeport in one day from a cruise ship?",
+   "a": "Taxi to Port Lucaya, swim at Lucaya Beach, eat conch and shop at the marketplace. On a tour, visit Lucayan National Park's caves and Gold Rock Beach."
+  },
+  {
+   "q": "Is Freeport safe for cruise passengers?",
+   "a": "The US rates The Bahamas Level 2 (increased caution) for crime. Stay in tourist areas, agree taxi fares and avoid unlicensed jet ski operators."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Port Lucaya Marketplace"
+  },
+  {
+   "name": "Lucaya Beach"
+  },
+  {
+   "name": "Taino Beach"
+  },
+  {
+   "name": "Lucayan National Park"
+  },
+  {
+   "name": "Gold Rock Beach"
+  },
+  {
+   "name": "Garden of the Groves"
+  },
+  {
+   "name": "Rand Nature Centre"
+  }
+ ],
+ "sources": [
+  {
+   "title": "US State Department – The Bahamas travel advisory (Level 2, July 2026)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/the-bahamas.html"
+  },
+  {
+   "title": "Bahamas National Trust – Lucayan National Park",
+   "url": "https://bnt.bs/park/lucayan-national-park/"
+  },
+  {
+   "title": "Bahamas Ministry of Tourism – Grand Bahama Labyrinth (Garden of the Groves)",
+   "url": "https://www.bahamas.com/plan-your-trip/things-to-do/grand-bahama-labyrinth"
+  },
+  {
+   "title": "Bahamas Ministry of Tourism – The Bahamas at Seatrade Cruise Global (April 2025)",
+   "url": "https://www.bahamas.com/pressroom/the-bahamas-shines-at-seatrade-cruise-global--advancing-the-future-of-the-destinations-cruise-industry"
+  },
+  {
+   "title": "Hutchison Ports – Freeport (Lucayan Harbour) first scheduled homeport operation",
+   "url": "https://hutchisonports.com/media/news/freeport-bahamas-handles-its-first-scheduled-homeport-operation/"
+  },
+  {
+   "title": "Seatrade Cruise News – MSC Cruises in $450m project to develop Freeport Harbour (January 2026)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/msc-cruises-in-450m-project-to-develop-bahamas-freeport-harbour"
+  },
+  {
+   "title": "Eye Witness News – $80m cruise port and water park project at Freeport Harbour (2024)",
+   "url": "https://ewnews.com/80-million-cruise-port-and-water-park-project-to-be-developed-at-freeport-harbour"
+  },
+  {
+   "title": "Cruise Hive – Freeport, Bahamas cruise port: amenities and getting around (2025)",
+   "url": "https://www.cruisehive.com/freeport-bahamas-cruise-port/178077"
+  },
+  {
+   "title": "Bucket List Guides – Freeport cruise port guide 2026",
+   "url": "https://bucketlistguides.com/freeport-grand-bahama-cruise-port-guide/"
+  },
+  {
+   "title": "Adventour Begins – Freeport cruise port guide (updated 2025)",
+   "url": "https://adventourbegins.com/freeport-cruise-port-guide-bahamas/"
+  },
+  {
+   "title": "What's In Port – Freeport",
+   "url": "https://www.whatsinport.com/Freeport.htm"
+  },
+  {
+   "title": "Cruise Critic – Celebration Key, Carnival's Grand Bahama cruise port",
+   "url": "https://www.cruisecritic.com/articles/celebration-key-carnival-s-grand-bahama-cruise-port"
+  },
+  {
+   "title": "AAA TripCanvas – Freeport Cruise Port",
+   "url": "https://www.aaa.com/tripcanvas/attraction/freeport-cruise-port-VA4197"
+  },
+  {
+   "title": "AAA TripCanvas – Port Lucaya Marketplace",
+   "url": "https://www.aaa.com/tripcanvas/attraction/port-lucaya-marketplace-VA1700"
+  }
+ ],
+ "uncertain": [
+  "Garden of the Groves admission price (sources conflict: Bahamas.com lists a US$3–15 range, a 2026 blog gives US$17 adult)",
+  "Weekday opening hours of Lucayan National Park (BNT lists only Saturday and Sunday 09:00–16:00)",
+  "Whether a paid port shuttle to Port Lucaya runs in 2026 (one 2026 guide reports a US$15 return shuttle; a 2025 guide says the shuttle was discontinued)",
+  "Opening date or construction start of the MSC Billy Cay cruise berths and whether Royal Caribbean remains involved",
+  "Typical all-aboard time at Freeport (day plan uses 17:30)",
+  "Rand Nature Centre and Paradise Cove entry fees"
+ ]
+}

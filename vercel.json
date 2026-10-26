@@ -1,0 +1,1035 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/planner",
+      "destination": "https://porttrip.base44.app/planner",
+      "permanent": false
+    },
+    {
+      "source": "/planner/:path*",
+      "destination": "https://porttrip.base44.app/planner/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/port-day-live",
+      "destination": "https://porttrip.base44.app/port-day-live",
+      "permanent": false
+    },
+    {
+      "source": "/port-day-live/:path*",
+      "destination": "https://porttrip.base44.app/port-day-live/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/login",
+      "destination": "https://porttrip.base44.app/login",
+      "permanent": false
+    },
+    {
+      "source": "/login/:path*",
+      "destination": "https://porttrip.base44.app/login/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/my-cruises",
+      "destination": "https://porttrip.base44.app/my-cruises",
+      "permanent": false
+    },
+    {
+      "source": "/my-cruises/:path*",
+      "destination": "https://porttrip.base44.app/my-cruises/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/checkout-return",
+      "destination": "https://porttrip.base44.app/checkout-return",
+      "permanent": false
+    },
+    {
+      "source": "/checkout-return/:path*",
+      "destination": "https://porttrip.base44.app/checkout-return/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-radar",
+      "destination": "https://porttrip.base44.app/cruise-radar",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-radar/:path*",
+      "destination": "https://porttrip.base44.app/cruise-radar/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/travel-advisors",
+      "destination": "https://porttrip.base44.app/travel-advisors",
+      "permanent": false
+    },
+    {
+      "source": "/travel-advisors/:path*",
+      "destination": "https://porttrip.base44.app/travel-advisors/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/advisors",
+      "destination": "https://porttrip.base44.app/advisors",
+      "permanent": false
+    },
+    {
+      "source": "/advisors/:path*",
+      "destination": "https://porttrip.base44.app/advisors/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-ships-in",
+      "destination": "https://porttrip.base44.app/cruise-ships-in",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-ships-in/:path*",
+      "destination": "https://porttrip.base44.app/cruise-ships-in/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/account",
+      "destination": "https://porttrip.base44.app/account",
+      "permanent": false
+    },
+    {
+      "source": "/account/:path*",
+      "destination": "https://porttrip.base44.app/account/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/settings",
+      "destination": "https://porttrip.base44.app/settings",
+      "permanent": false
+    },
+    {
+      "source": "/settings/:path*",
+      "destination": "https://porttrip.base44.app/settings/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/hq",
+      "destination": "https://porttrip.base44.app/hq",
+      "permanent": false
+    },
+    {
+      "source": "/hq/:path*",
+      "destination": "https://porttrip.base44.app/hq/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/preview",
+      "destination": "https://porttrip.base44.app/preview",
+      "permanent": false
+    },
+    {
+      "source": "/preview/:path*",
+      "destination": "https://porttrip.base44.app/preview/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/day/:slug",
+      "destination": "https://porttrip.base44.app/day/:slug",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-dashboard",
+      "destination": "https://porttrip.base44.app/cruise-dashboard",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-dashboard/:path*",
+      "destination": "https://porttrip.base44.app/cruise-dashboard/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/blog/kotor-cruise-port-guide",
+      "destination": "/blog/kotor-cruise-port-guide-diy",
+      "permanent": true
+    },
+    {
+      "source": "/blog/athens-piraeus-cruise-port-guide",
+      "destination": "/blog/athens-cruise-port-guide-diy",
+      "permanent": true
+    },
+    {
+      "source": "/blog/santorini-cruise-port-diy-guide",
+      "destination": "/blog/santorini-cruise-port-without-excursion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/one-day-santorini-cruise-ship",
+      "destination": "/blog/santorini-cruise-port-without-excursion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-many-people-miss-cruise-ship",
+      "destination": "/blog/how-many-people-miss-cruise-ship-port",
+      "permanent": true
+    },
+    {
+      "source": "/blog/are-cruise-excursions-worth-it-analysis",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/blog/livorno-to-florence-cruise-guide",
+      "destination": "/blog/florence-livorno-cruise-port-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/civitavecchia-to-rome-train-cruise-2026",
+      "destination": "/blog/how-to-get-from-civitavecchia-to-rome",
+      "permanent": true
+    },
+    {
+      "source": "/blog/never-miss-cruise-ship-port",
+      "destination": "/blog/how-to-return-cruise-ship-on-time",
+      "permanent": true
+    },
+    {
+      "source": "/blog/one-day-rome-cruise-ship",
+      "destination": "/blog/rome-cruise-port-without-excursion",
+      "permanent": true
+    },
+    {
+      "source": "/BlogCategory",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/BlogPost",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/Home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/CruiseLine",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/CruiseLineSEO",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortComparison",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortComparisonPage",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortGuide",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortLongTailPage",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortSEOPage",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortSubSEOPage",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/barcelona-cruise-stop-without-excursion",
+      "destination": "/ports/barcelona",
+      "permanent": true
+    },
+    {
+      "source": "/best-mediterranean-cruise-ports",
+      "destination": "/blog/best-mediterranean-cruise-ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-excursion-price-tracker",
+      "destination": "/blog/how-much-do-cruise-excursions-cost",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-excursion-pricing",
+      "destination": "/blog/how-much-do-cruise-excursions-cost",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-ports/best-mediterranean",
+      "destination": "/blog/best-mediterranean-cruise-ports",
+      "permanent": true
+    },
+    {
+      "source": "/dubrovnik-cruise-port-first-timers",
+      "destination": "/ports/dubrovnik",
+      "permanent": true
+    },
+    {
+      "source": "/how-many-people-miss-their-cruise-ship",
+      "destination": "/blog/how-many-people-miss-cruise-ship-port",
+      "permanent": true
+    },
+    {
+      "source": "/how-porttrip-scores-ports",
+      "destination": "/methodology",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-do-naples-cruise-port-on-your-own",
+      "destination": "/ports/naples",
+      "permanent": true
+    },
+    {
+      "source": "/is-santorini-worth-cruise-excursion",
+      "destination": "/ports/santorini",
+      "permanent": true
+    },
+    {
+      "source": "/naples-cruise-port-safety",
+      "destination": "/ports/naples",
+      "permanent": true
+    },
+    {
+      "source": "/rome-cruise-port-common-mistakes",
+      "destination": "/ports/rome",
+      "permanent": true
+    },
+    {
+      "source": "/protection",
+      "destination": "/how-to-never-miss-your-cruise-ship",
+      "permanent": true
+    },
+    {
+      "source": "/protection/terms",
+      "destination": "/how-to-never-miss-your-cruise-ship",
+      "permanent": true
+    },
+    {
+      "source": "/avoid-missing-your-cruise-ship",
+      "destination": "/how-to-never-miss-your-cruise-ship",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-get-back-to-cruise-ship-on-time",
+      "destination": "/how-to-return-to-your-cruise-ship-on-time",
+      "permanent": true
+    },
+    {
+      "source": "/are-cruise-excursions-worth-it",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/should-i-book-cruise-excursion",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/should-you-book-cruise-excursions",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/how-much-do-cruise-excursions-cost",
+      "destination": "/blog/how-much-do-cruise-excursions-cost",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-do-rome-without-a-cruise-tour",
+      "destination": "/blog/rome-cruise-port-without-excursion",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-do-santorini-yourself",
+      "destination": "/blog/santorini-cruise-port-without-excursion",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-explore-barcelona-from-cruise-port",
+      "destination": "/ports/barcelona",
+      "permanent": true
+    },
+    {
+      "source": "/porttrip-index",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/discover",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/ultimate-cruise-port-guide",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/features",
+      "destination": "/what-is-porttrip",
+      "permanent": true
+    },
+    {
+      "source": "/about-porttrip-intelligence",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/report",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/report/2026",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-budget-rankings",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-data",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-difficulty",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-independence-index",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-independent-travel-report",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-intelligence-report",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-missed-ship-risk",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-return-risk-index",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-return-time-study",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-risk",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-safety-rankings",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-savings-index",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-statistics",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-stress-rankings",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-tender-data",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-tourist-trap-index",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-transport-reliability-rankings",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-ports-longest-tender-delays",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/easiest-cruise-ports-to-explore-independently",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/summer-cruise-port-risk",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/live/:path*",
+      "destination": "/cruise-port-index",
+      "permanent": true
+    },
+    {
+      "source": "/affiliates",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/agency",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/avoid-cruise-excursion-overpaying",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/best-cruise-lines-for-independent-port-days",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/best-cruise-ports-elderly-mobility",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/best-cruise-ports-for-diy",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/best-cruise-ports-to-save-money",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cheapest-cruise-ports",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cheapest-cruise-ports-to-diy",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/compare",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-builder",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-day-plan-generator",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-excursion-alternative",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-excursion-overpayment-calculator",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-excursion-overprice-ranking",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-excursion-savings-calculator",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-excursions-marked-up-312-percent",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-excursions-vs-diy",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-hub",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-intelligence",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-itinerary",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-itinerary-planner",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-line-excursion-comparison",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-money-waste-calculator",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-overpayment-map",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-cost-calculator",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-excursion-pricing",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-hidden-costs",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-planner",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-price-intelligence",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-scams",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-taxi-vs-excursion",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-transport-finder",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-transport-guide",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-updates",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-ports",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-ports-where-tourists-waste-most-money",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-tools",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/do-i-need-a-cruise-excursion",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/excursion-markup",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/excursion-overprice-checker",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/first-cruise",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/hidden-costs-of-cruise-excursions",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/how-much-am-i-overpaying",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/how-much-do-cruise-lines-mark-up-excursions",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/how-porttrip-calculates-risk",
+      "destination": "/how-to-never-miss-your-cruise-ship",
+      "permanent": true
+    },
+    {
+      "source": "/how-porttrip-collects-data",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/how-porttrip-predicts-port-conditions",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/how-porttrip-validates-routes",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/independent-cruise-port-guide",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/independent-cruiser-manifesto",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/institute",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/is-it-safe-to-explore-cruise-ports-yourself",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/is-this-cruise-port-walkable",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/labs",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/leave-the-ship-calculator",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/local-cruise-excursions",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/media",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/mediterranean-crowd-calendar",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/most-overpriced-cruise-excursions",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/my-cruise-score",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/partners",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/plan-my-cruise-port-day",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/ports-where-you-do-not-need-an-excursion",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/ports-you-should-not-diy",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/porttrip-vs-cruise-excursions",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/press",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/research",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/resources",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/ship-safe-port-planning",
+      "destination": "/how-to-never-miss-your-cruise-ship",
+      "permanent": true
+    },
+    {
+      "source": "/tender-delay-predictor",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/the-economics-of-cruise-excursions",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/today",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/tools/taxi-fare-validator",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-do-at-cruise-port",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-do-if-your-excursion-runs-late",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/why-smart-cruisers-skip-excursions",
+      "destination": "/blog/are-cruise-excursions-worth-it",
+      "permanent": true
+    },
+    {
+      "source": "/WhatToDoInCruisePort",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortTransportGuide",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortTransportSEOPage",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PortDayGuide",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/PublicPlan",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/SharedPlan",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/SixHourCruiseItinerary",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/CruiseDashboard",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/CruiseItinerary",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/hq/HQDeals",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/compare/:path*",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/port-comparisons/:path*",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/guides/:path*",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-lines/:path*",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-line/:path*",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-itinerary/:path*",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-intelligence/:path*",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/getting-to-:path*",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-transport/:city",
+      "destination": "/ports/:city",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-port-day/:city",
+      "destination": "/ports/:city",
+      "permanent": true
+    },
+    {
+      "source": "/ports/:city/:sub",
+      "destination": "/ports/:city",
+      "permanent": true
+    },
+    {
+      "source": "/ports/:city/:sub/:more*",
+      "destination": "/ports/:city",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/embed/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}

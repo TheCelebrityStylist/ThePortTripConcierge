@@ -1,0 +1,385 @@
+{
+ "slug": "grand-turk",
+ "city": "Grand Turk",
+ "portName": "Grand Turk Cruise Center",
+ "townName": "Cockburn Town (Front Street)",
+ "country": "Turks and Caicos Islands",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "Eastern Time: EST (UTC−5), EDT (UTC−4) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Grand Turk cruise port guide: beaches, taxis, Cockburn Town",
+ "seoDescription": "Ships dock at the Grand Turk Cruise Center, 390 ft from beach and pool. Governor's Beach 1 mile north, Cockburn Town 10 min by taxi; museum $5 (2026).",
+ "quickAnswer": "Ships dock at the Carnival-built Grand Turk Cruise Center, a 390-foot walk from its beach, pool and Margaritaville. Governor's Beach is about a mile north and Cockburn Town a 10-minute taxi ride; taxis wait at the cruise center and fares from it are fixed by government, so confirm the fare before you get in. Be back at the cruise center 90 minutes before all-aboard if you leave it, because the return depends on a taxi.",
+ "intro": "Grand Turk is a small, flat island, about 7 miles long, where the cruise center is the destination for many passengers: a beachfront complex of nearly 18 acres at the southern end of the island with a large pool, shops, Margaritaville and a FlowRider. For more, Governor's Beach is a shaded stretch of sand about a mile north, and Cockburn Town, the capital, has the National Museum in Guinep House on Front Street. Two things catch people out: you cannot walk to Governor's Beach along the shore, and the islands' strict ban on ammunition covers even a single stray cartridge or casing in a bag.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Grand Turk Cruise Center",
+   "distanceToCentreKm": null,
+   "notes": "Beachfront complex of nearly 18 acres at the southern end of the island, a 390-foot (about 120 m) walk from the ships. Pool with loungers and cabanas, FlowRider, Margaritaville, Beached Whale Bar & Grill on South Beach, a 45,000 sq ft shopping area, Starbucks and a First Caribbean ATM next to the Harley-Davidson store. Taxis and rental cars are available at the cruise center."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": null,
+  "km": 1.6,
+  "detail": "Everything inside the cruise center is a short walk from the ship. Governor's Beach is about 1.6 km (1 mile) north, but you cannot walk along the shore because the port blocks the coast; the road route has no pavements and few signs. Walking to Cockburn Town is not recommended; take a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (inside the cruise center)",
+   "cost": "Free",
+   "time": "A few minutes",
+   "detail": "Beach, pool, Margaritaville and shops are a 390-foot walk from the ship. The beach beside the pier is the least appealing stretch; walk north for better sand and water. South of the complex it is quieter but rocky."
+  },
+  {
+   "mode": "Taxi to Governor's Beach",
+   "cost": "Fixed fare from the cruise center; confirm before you get in",
+   "time": "3–5 min",
+   "detail": "Taxis wait at the cruise center. Fares from the cruise center are set by government, but they apply only from the cruise center, not back to it, and some drivers ask for more. Confirm the fare and whether it is per person or per group before you get in. Pay cash in US dollars."
+  },
+  {
+   "mode": "Taxi to Cockburn Town",
+   "cost": "Fixed fare from the cruise center; confirm before you get in",
+   "time": "About 10 min",
+   "detail": "Drops you near Front Street and the National Museum. Agree the return pick-up time and fare with the driver."
+  },
+  {
+   "mode": "Taxi to Grand Turk Lighthouse",
+   "cost": "Fixed fare from the cruise center; confirm before you get in",
+   "time": "About 20 min",
+   "detail": "At the northern tip of the island, the furthest point from the ship. Arrange the return pick-up before the driver leaves."
+  },
+  {
+   "mode": "Rental car or golf cart",
+   "cost": "Book in advance; prices vary",
+   "time": "—",
+   "detail": "The port lists Island Auto Rentals, Island View Rentals and Wildplay Adventures (golf carts). Drive on the left; 20 mph in town and on side roads, 40 mph on highways. A licence from your home country is accepted. Livestock often crosses the roads. Golf carts sell out quickly on busy days."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the cruise center 90 minutes before all-aboard from Governor's Beach or Cockburn Town, and 2 hours before from the lighthouse. Inside the cruise center, be on board 60 minutes before.",
+  "detail": "There is no public transport, so the return depends on finding a taxi or on a pick-up you have arranged. The government fixed fares apply only from the cruise center, so agree the return fare too. Walking back from Governor's Beach is about a mile on a road with no pavements.",
+  "emergencyFallback": "Ask a taxi driver or vendor to call a driver to take you to the cruise center; Governor's Beach and Cockburn Town are both short rides away. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Governor's Beach",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi at the fixed cruise-center fare each way; beach free",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "FlowRider at the cruise center",
+   "ship": "$37.99 adult, $34.99 child, 30-minute session (Carnival, 2026)",
+   "diy": "Same attraction; book through your line",
+   "saving": "None"
+  }
+ ],
+ "excursionAdvice": "You do not need a ship tour for Governor's Beach or Cockburn Town: both are short taxi rides. A tour is the only practical way to Gibbs Cay, where you can see stingrays in the shallows, and dive and snorkel boat trips are also best booked, because the snorkelling near the port and at Governor's Beach has little coral.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30. Calls at Grand Turk are often short, so check your own all-aboard time and cut the plan to fit.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship through the cruise center to the taxis."
+   },
+   {
+    "time": "08:45",
+    "what": "Taxi to Cockburn Town, about 10 minutes. Agree the fare first."
+   },
+   {
+    "time": "09:00",
+    "what": "Turks and Caicos National Museum in Guinep House on Front Street, $5 adult (2026); it usually opens about 09:00 on ship days."
+   },
+   {
+    "time": "10:00",
+    "what": "Walk Front Street and the historic district."
+   },
+   {
+    "time": "10:45",
+    "what": "Taxi to Governor's Beach. Swim in the shade of the casuarina trees."
+   },
+   {
+    "time": "13:00",
+    "what": "Taxi back to the cruise center. Lunch at Margaritaville or the Beached Whale on South Beach."
+   },
+   {
+    "time": "14:15",
+    "what": "Pool or Cruise Center Beach; walk north from the pier for better sand."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Governor's Beach",
+   "why": "Shaded beach in Columbus Landfall National Park, named after Waterloo, the Governor's residence nearby.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Free; taxi at the fixed cruise-center fare",
+   "tip": "No lifeguards. Toilets on site, and vendors sell cold drinks when ships are in. Fishing and taking shells or coral are illegal in the park."
+  },
+  {
+   "name": "Turks and Caicos National Museum",
+   "why": "The country's main museum, in Guinep House on Front Street, with finds from the Molasses Reef wreck, a Lucayan duho and a Fresnel lens from the lighthouse.",
+   "timeNeeded": "45 minutes",
+   "cost": "$5 adult; under-12s free with an adult (2026)",
+   "tip": "Hours follow the ship schedule, generally from about 09:00 for three to four hours; if a ship arrives after 09:00 it opens an hour after arrival. Go in the morning."
+  },
+  {
+   "name": "Cockburn Town and Front Street",
+   "why": "The small capital, with Bermudian and colonial-style buildings and historic churches.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free; taxi at the fixed cruise-center fare",
+   "tip": "Combine with the museum before it closes."
+  },
+  {
+   "name": "Grand Turk Lighthouse",
+   "why": "Lighthouse built in 1852 on the island's northern tip.",
+   "timeNeeded": "1.5 hours including taxi",
+   "cost": "Taxi at the fixed cruise-center fare; agree the return fare",
+   "tip": "Arrange a pick-up time with your driver; it is the furthest point from the ship."
+  },
+  {
+   "name": "Cruise Center pool and beach",
+   "why": "One of the Caribbean's largest pools, by Margaritaville, with loungers on the beach in front.",
+   "timeNeeded": "As long as you like",
+   "cost": "Loungers free; cabanas and FlowRider extra",
+   "tip": "Cabanas are limited; book through your cruise line."
+  },
+  {
+   "name": "John Glenn memorial",
+   "why": "Memorial marking John Glenn's 1962 Mercury mission, whose splashdown brought him to Grand Turk.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free",
+   "tip": "At the cruise center."
+  },
+  {
+   "name": "Gibbs Cay",
+   "why": "Small uninhabited cay where stingrays gather in the shallows.",
+   "timeNeeded": "Half day",
+   "cost": "Tour price only",
+   "tip": "Boat access only; book an excursion."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Cruise Center Beach",
+   "howToGetThere": "Walk from the ship",
+   "time": "A few minutes",
+   "cost": "Free loungers",
+   "note": "Very crowded on ship days. Walk north from the pier for better sand; south is quieter but rocky."
+  },
+  {
+   "name": "Governor's Beach",
+   "howToGetThere": "Taxi from the cruise center",
+   "time": "3–5 min",
+   "cost": "Free; fixed taxi fare from the cruise center",
+   "note": "Shade, toilets and drink vendors; snorkelling is mainly around the remains of an old rock jetty, with little coral."
+  },
+  {
+   "name": "Boaby Rock Point",
+   "howToGetThere": "Walk south along the beach from the cruise center",
+   "time": "Short walk",
+   "cost": "Free",
+   "note": "Secluded, rocky shoreline at the island's southern tip, near snorkelling reefs."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Bar and grill food and frozen drinks",
+   "where": "Jimmy Buffett's Margaritaville, by the cruise center pool",
+   "price": null
+  },
+  {
+   "dish": "Local dishes and seafood",
+   "where": "Beached Whale Bar & Grill, South Beach at the cruise center",
+   "price": null
+  },
+  {
+   "dish": "American and international grill food",
+   "where": "Jack's Shack, a short walk up the coast from the cruise center",
+   "price": null
+  },
+  {
+   "dish": "Coffee",
+   "where": "Starbucks at the Grand Turk Cruise Center",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Packing a stray bullet or empty casing in a bag.",
+   "fix": "Check every bag before the cruise. Firearms and ammunition, including single cartridges and spent casings, are illegal; offenders may face 12 years or more in prison."
+  },
+  {
+   "mistake": "Trying to walk to Governor's Beach along the shore.",
+   "fix": "The port blocks the coast. Take a taxi; the road walk has no pavements."
+  },
+  {
+   "mistake": "Not agreeing whether a taxi fare is per person or per group.",
+   "fix": "Confirm the fare before getting in. The fixed fares apply only from the cruise center, so agree the return fare as well."
+  },
+  {
+   "mistake": "Arriving at the National Museum in the afternoon.",
+   "fix": "Its hours follow the ship schedule and it usually closes in the early afternoon. Go first."
+  },
+  {
+   "mistake": "Assuming the ship leaves late.",
+   "fix": "Calls at Grand Turk are often short. Check your all-aboard time before you leave the cruise center."
+  }
+ ],
+ "safety": "The US State Department rates the Turks and Caicos at Level 2, exercise increased caution, for crime (July 2026), and the UK FCDO notes that Providenciales and Grand Turk have seen higher levels of serious crime than other islands. Most crime is opportunistic theft, so keep valuables with you on the beach. The most serious legal risk for visitors is the firearms law: guns and ammunition are illegal, including a single cartridge or spent casing left in a bag. Traffic drives on the left and livestock often crosses the roads. Governor's Beach has no lifeguards. The State Department says tap water is generally safe in most areas.",
+ "scams": [
+  "Taxi overcharging: fares from the cruise center are fixed by government, but some drivers ask more at the destination. Confirm the fare per person before getting in.",
+  "'Free' gifts from vendors that are followed by a demand for money, as the US State Department warns.",
+  "Aggressive vendors and overcharging in tourist areas, also flagged by the US State Department. Agree prices first."
+ ],
+ "emergencyNumber": "911 or 999",
+ "accessibility": "The cruise center is a 390-foot walk from the ship, so you can reach the pool, shops and restaurants with little walking. The beaches are soft sand. Outside the complex there are no pavements on the road to Governor's Beach. Ask at the taxis for a van with space for a mobility aid.",
+ "rainyDay": "Stay inside the cruise center, where the shops and restaurants are, or take a taxi to the National Museum in Cockburn Town in the morning while it is open.",
+ "crowdTips": "The cruise center beach and pool fill quickly when more than one ship is in. Walk north along Cruise Center Beach for more space, or take a taxi to Governor's Beach early. Check the port schedule for your date and book golf carts in advance on busy days.",
+ "faqs": [
+  {
+   "q": "Is Grand Turk a tender port?",
+   "a": "No. Ships dock at the Grand Turk Cruise Center pier, a 390-foot walk from the complex."
+  },
+  {
+   "q": "Is Cockburn Town walkable from the Grand Turk cruise port?",
+   "a": "Not realistically. Take a taxi, about 10 minutes."
+  },
+  {
+   "q": "How do I get from Grand Turk cruise port to Governor's Beach?",
+   "a": "Taxi from the cruise center, 3–5 minutes, at a government-set fare. Confirm the fare and whether it is per person before you get in. You cannot walk along the shore."
+  },
+  {
+   "q": "What can I do in Grand Turk in one day from a cruise ship?",
+   "a": "Cockburn Town and the National Museum in the morning, Governor's Beach at midday, then the cruise center pool or beach."
+  },
+  {
+   "q": "Beaches near Grand Turk cruise port",
+   "a": "Cruise Center Beach at the pier, Governor's Beach about a mile north, and quieter rocky shore at Boaby Rock Point to the south. All beaches are public."
+  },
+  {
+   "q": "Is Grand Turk safe?",
+   "a": "Take normal precautions with valuables; the US rates the islands Level 2 for crime. Never carry ammunition: even one cartridge can lead to arrest."
+  },
+  {
+   "q": "What time zone is Grand Turk in?",
+   "a": "US Eastern Time, including daylight saving: UTC−5 in winter and UTC−4 from March to November."
+  },
+  {
+   "q": "Can I see stingrays from Grand Turk?",
+   "a": "Yes, at Gibbs Cay, but only by boat on an organised trip."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Governor's Beach"
+  },
+  {
+   "name": "Turks and Caicos National Museum"
+  },
+  {
+   "name": "Cockburn Town"
+  },
+  {
+   "name": "Grand Turk Lighthouse"
+  },
+  {
+   "name": "Gibbs Cay"
+  },
+  {
+   "name": "Grand Turk Cruise Center"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port of Grand Turk – Port information",
+   "url": "https://www.grandturkport.com/port-information/"
+  },
+  {
+   "title": "Port of Grand Turk – Location information",
+   "url": "https://www.grandturkport.com/location-information/"
+  },
+  {
+   "title": "Port of Grand Turk – FAQs",
+   "url": "https://www.grandturkport.com/faqs/"
+  },
+  {
+   "title": "Port of Grand Turk – Taxi and rental car information",
+   "url": "https://www.grandturkport.com/port-information/taxi-rental-car-information/"
+  },
+  {
+   "title": "US State Department – Turks and Caicos Islands travel information (2026)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/TurksandCaicosIslands.html"
+  },
+  {
+   "title": "UK FCDO – Turks and Caicos Islands travel advice (updated March 2026)",
+   "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands"
+  },
+  {
+   "title": "UK FCDO – Turks and Caicos Islands safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands/safety-and-security"
+  },
+  {
+   "title": "Turks and Caicos Islands Tourist Board – Grand Turk",
+   "url": "https://www.visitturksandcaicos.com/turks-caicos-islands/grand-turk"
+  },
+  {
+   "title": "Turks and Caicos National Museum – Grand Turk museum and admission",
+   "url": "https://www.tcmuseum.org/?p=4"
+  },
+  {
+   "title": "Turks and Caicos National Museum – Location and directions",
+   "url": "https://www.tcmuseum.org/location-directions/"
+  },
+  {
+   "title": "Carnival – Grand Turk FlowRider Experience",
+   "url": "https://www.carnival.com/shore-excursions/grand-turk/grand-turk-flowrider-experience-440027"
+  },
+  {
+   "title": "Carnival – Top 10 things to do in Grand Turk",
+   "url": "https://www.carnival.com/awaywego/cruising-fun/shore-excursions/top-10-things-to-do-in-grand-turk"
+  },
+  {
+   "title": "Cruise Industry News – Grand Turk Cruise Center access guidelines (August 2024)",
+   "url": "https://cruiseindustrynews.com/cruise-news/2024/08/grand-turk-cruise-center-introduce-new-access-guidelines/"
+  },
+  {
+   "title": "timeanddate.com – Turks and Caicos time zone",
+   "url": "https://timeanddate.com/time/zone/turks-caicos"
+  },
+  {
+   "title": "Visit Turks and Caicos Islands (visittci.com) – Grand Turk Cruise Center",
+   "url": "https://visittci.com/grand-turk-cruise-center"
+  },
+  {
+   "title": "Visit Turks and Caicos Islands (visittci.com) – Governor's Beach",
+   "url": "https://visittci.com/grand-turk/governors-beach"
+  },
+  {
+   "title": "Visit Turks and Caicos Islands (visittci.com) – Grand Turk taxis",
+   "url": "https://www.visittci.com/grand-turk/getting-around/taxis"
+  }
+ ],
+ "uncertain": [
+  "Taxi fare amounts from the cruise center: the government fixed-fare list was not found on any official page (the port's taxi page lists only rental firms). Amounts reported in a November 2025 blog and on visittci.com are left out of the guide.",
+  "Typical all-aboard time at Grand Turk: no port or cruise-line page with times could be opened; the day plan uses the default 17:30.",
+  "Whether a separate cruise passenger fee or head tax applies on Grand Turk in 2026; none found on a government page.",
+  "Golf cart and rental car prices.",
+  "Step-free access and accessible toilets at the pier and cruise center: not confirmed on an official page.",
+  "Number of berths and weekly ship calls."
+ ]
+}

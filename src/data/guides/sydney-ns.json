@@ -1,0 +1,352 @@
+{
+ "slug": "sydney-ns",
+ "city": "Sydney",
+ "portName": "Port of Sydney (Sydney Marine Terminal, Joan Harriss Cruise Pavilion)",
+ "townName": "downtown Sydney",
+ "country": "Canada",
+ "currency": "CAD",
+ "currencySymbol": "C$",
+ "language": "English",
+ "timezone": "AST (UTC−4), ADT (UTC−3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Sydney NS cruise port guide: Big Fiddle and Louisbourg",
+ "seoDescription": "Sydney NS ships dock on the Esplanade by the Big Fiddle; downtown is a short walk. Louisbourg is 35 min by road, C$9.50 adult in autumn (2026), open 09:30–17:00.",
+ "quickAnswer": "Ships berth at the Sydney Marine Terminal on the Esplanade, beside the Joan Harriss Cruise Pavilion and the Big Fiddle, and downtown Sydney is a short walk with no shuttle needed. On busy days a second ship uses the second berth a few hundred metres away, and further ships anchor and tender. The Fortress of Louisbourg is about 35 minutes by road: go with a tour or a booked car, and leave the fortress at least two hours before all-aboard.",
+ "intro": "Sydney is a small city on Cape Breton Island, and the cruise pier sits right on its waterfront. The town itself is quick to see: the Big Fiddle, the pavilion's market and music, and three historic buildings from the late 1700s and early 1800s within a few minutes' walk. Most passengers come for what lies beyond it, above all the Fortress of Louisbourg, a reconstructed 18th-century French town about 35 minutes away. The season peaks in September and October, when several ships can call on the same day.",
+ "isTender": false,
+ "tenderNotes": "Two ships can berth: one at the main berth by the Joan Harriss Cruise Pavilion and one at the 287 m second berth, several hundred metres away. When more ships call, extra ships anchor in the harbour and tender passengers to the Marine Terminal.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Main berth, Joan Harriss Cruise Pavilion (Sydney Marine Terminal, Esplanade)",
+   "distanceToCentreKm": null,
+   "notes": "On the downtown waterfront at the edge of the historic North End. The pavilion has a market of Cape Breton crafts, a visitor centre, a stage for fiddle and step-dance shows and a restaurant upstairs. The Big Fiddle stands outside."
+  },
+  {
+   "name": "Second berth",
+   "distanceToCentreKm": null,
+   "notes": "A 287 m berth built for ships the size of Queen Mary 2, several hundred metres from the pavilion. The port has run a free shuttle to the pavilion; in 2025 it broke down and was replaced by hired vans and a school bus. Ask on board how transfers work on your day."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": null,
+  "km": null,
+  "detail": "Downtown Sydney is within walking distance of the main berth, and no town shuttle is offered. St Patrick's Church Museum is directly across the street; Jost House, Cossit House and St George's Church are a short walk into the North End. From the second berth add the walk or shuttle to the pavilion."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "A few minutes to the North End historic buildings",
+   "detail": "Walk out of the pavilion along the Esplanade. Charlotte Street, the main downtown street, runs parallel inland."
+  },
+  {
+   "mode": "Second-berth shuttle",
+   "cost": "Free (port service)",
+   "time": "A few minutes",
+   "detail": "Links the second berth with the pavilion. Its operation changed in 2025 after the port's bus broke down, so check the arrangements for your call."
+  },
+  {
+   "mode": "Tour or booked car to Louisbourg",
+   "cost": "Varies; check your cruise planner or the operator",
+   "time": "About 35 min each way",
+   "detail": "There is no simple public transport to the fortress. Ship tours, local operators such as Cabot Discovery Tours, taxis or rental cars are the options. On multi-ship days coaches and drivers on the island are in short supply, so book ahead."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the pavilion 60 minutes before all-aboard. Leave the Fortress of Louisbourg at least 125 minutes before all-aboard. Add 30 minutes if your ship is tendering.",
+  "detail": "Louisbourg is about 35 minutes away by road, and the walk from the fortress's reconstructed town back to the visitor centre, plus its shuttle bus, takes extra time. On days with four or five ships, coaches and taxis are stretched.",
+  "emergencyFallback": "If your transport from Louisbourg fails, ask the fortress visitor reception centre to call a taxi, and call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Fortress of Louisbourg",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Admission C$9.50 adult from mid-September to 31 October, C$22 in July to mid-September (2026); transport extra",
+   "saving": "Depends on transport cost and group size"
+  },
+  {
+   "item": "Sydney historic walk",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Jost House and Cossit House each under C$5 (2026); St Patrick's free",
+   "saving": "Most of the ship price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Sydney itself: the historic buildings are a few minutes' walk and cost little. Louisbourg is where the ship excursion earns its price for most passengers: the fortress is 35 minutes away, there is no easy public transport, and on busy days independent cars and coaches run short. Groups of three or four who book a local tour or car in advance can do it alone. The Cabot Trail is too long for a port day; tours cover only part of it.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the main berth at 08:00 and all-aboard is 17:30, on an autumn day with a booked tour or car to Louisbourg.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk off the ship past the Big Fiddle and look round the pavilion market."
+   },
+   {
+    "time": "08:45",
+    "what": "Meet your booked tour or car at the terminal and leave for Louisbourg."
+   },
+   {
+    "time": "09:30",
+    "what": "Arrive at the Fortress of Louisbourg as it opens (09:30). Take the site bus from the visitor reception centre to the reconstructed town."
+   },
+   {
+    "time": "12:00",
+    "what": "Lunch: bring a snack or ask at reception which on-site café is open, as autumn services are reduced."
+   },
+   {
+    "time": "13:00",
+    "what": "Leave Louisbourg, well over two hours before all-aboard."
+   },
+   {
+    "time": "13:45",
+    "what": "Back in Sydney. Walk to St Patrick's Church Museum across the street, then Jost House and Cossit House."
+   },
+   {
+    "time": "15:00",
+    "what": "Seafood chowder or a lobster roll at Governor's Pub and Eatery on the Esplanade."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Fortress of Louisbourg National Historic Site",
+   "why": "A reconstruction of the French fortified town of 1713–1758, the largest historical reconstruction in North America.",
+   "timeNeeded": "3–4 hours on site; 5 hours including travel",
+   "cost": "C$22 adult July to mid-September; C$9.50 adult mid-September to 31 October; free under 18 (2026)",
+   "tip": "Open daily 09:30–17:00 until 31 October 2026. In September and October only some buildings are staffed; ask at reception for the day's activities."
+  },
+  {
+   "name": "The Big Fiddle",
+   "why": "A fiddle about 60 feet (18 m) tall outside the cruise pavilion, a nod to Cape Breton's music.",
+   "timeNeeded": "10 minutes",
+   "cost": "Free",
+   "tip": "Photograph it before the crowds leave the ship."
+  },
+  {
+   "name": "Joan Harriss Cruise Pavilion",
+   "why": "Market of Cape Breton crafts and a stage for fiddle and step-dance performances.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Check the day's performance times on arrival."
+  },
+  {
+   "name": "St Patrick's Church Museum",
+   "why": "A stone church from 1828, the town's oldest Roman Catholic church, now a museum.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free; donations welcome",
+   "tip": "Directly across the street from the port."
+  },
+  {
+   "name": "Jost Heritage House",
+   "why": "A house from 1786 with three centuries of furnishings and objects.",
+   "timeNeeded": "30 minutes",
+   "cost": "Under C$5 (2026)",
+   "tip": "Combine with Cossit House, a short walk away."
+  },
+  {
+   "name": "Cossit House Museum",
+   "why": "Built in 1787, one of Sydney's oldest surviving buildings.",
+   "timeNeeded": "30 minutes",
+   "cost": "Under C$5 (2026)",
+   "tip": "St George's Church, the oldest building in Sydney, is nearby."
+  },
+  {
+   "name": "Cape Breton Miners' Museum",
+   "why": "Coal-mining history with underground exhibits, a common tour stop.",
+   "timeNeeded": "2 hours including travel",
+   "cost": "Check the museum for prices",
+   "tip": "Needs a car or tour."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Seafood chowder and lobster roll",
+   "where": "Governor's Pub and Eatery, 233 Esplanade",
+   "price": null
+  },
+  {
+   "dish": "Mussels, crab cakes and haddock",
+   "where": "Flavor H2O, upstairs in the Joan Harriss Cruise Pavilion",
+   "price": null
+  },
+  {
+   "dish": "Haddock wrap and fusion dishes",
+   "where": "Flavor Downtown, 16 Pitt Street (closed Sundays)",
+   "price": null
+  },
+  {
+   "dish": "Seafood linguine and lobster risotto",
+   "where": "7 by 7, 272 Charlotte Street (closed Mondays and Tuesdays)",
+   "price": null
+  },
+  {
+   "dish": "Breakfast and lunch",
+   "where": "Selkie's Neighbourhood Diner, 390 Charlotte Street (closed Mondays and Tuesdays)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning to reach Louisbourg by public transport.",
+   "fix": "Book a ship tour, a local tour or a car before arrival."
+  },
+  {
+   "mistake": "Trying to drive the Cabot Trail on a port day.",
+   "fix": "It is too long. Choose Louisbourg, the Miners' Museum or a partial Cabot Trail tour."
+  },
+  {
+   "mistake": "Expecting a full costumed programme at Louisbourg in October.",
+   "fix": "From mid-September only some buildings are open and staffed. Admission is cheaper to match."
+  },
+  {
+   "mistake": "Assuming your ship will be at the pavilion.",
+   "fix": "On busy days you may be at the second berth or at anchor. Allow time for the shuttle or tender."
+  },
+  {
+   "mistake": "Arriving at a restaurant on its closed day.",
+   "fix": "Several downtown places close on Sundays or on Mondays and Tuesdays; check before you go."
+  }
+ ],
+ "safety": "Sydney is a small, quiet city and safe for visitors. At Louisbourg the ground is uneven and the coastal weather turns cold and wet quickly in autumn; take a warm, waterproof layer and shoes with grip. Take care crossing the Esplanade on multi-ship days, when coaches are busy.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The pavilion and the Esplanade are level. Walking from the second berth to the pavilion is not an option for everyone with reduced mobility; ask the ship in advance how transfers will run. Tender boarding depends on the sea. Louisbourg's reconstructed town has uneven ground and historic buildings with steps; the site bus links the reception centre and the town. Holland America describes its Sydney walking tour as unsuitable for wheelchairs.",
+ "rainyDay": "Stay close to the pier: the pavilion's market and performances, St Patrick's Church Museum, Jost House and Cossit House are all indoors and within a short walk. Louisbourg is largely outdoors and exposed, so in heavy rain or wind it is far less rewarding.",
+ "crowdTips": "Sydney had about 110 ship calls in 2025, mostly in September and October, and up to four ships have berthed or anchored on one day. On those days coaches and taxis on the island run short, so book transport before arrival. Head out to Louisbourg first and see the town in the afternoon.",
+ "faqs": [
+  {
+   "q": "Is Sydney NS walkable from the cruise port?",
+   "a": "Yes. The pier is on the downtown waterfront and the historic buildings are a few minutes' walk. No town shuttle is needed."
+  },
+  {
+   "q": "Is Sydney NS a tender port?",
+   "a": "Usually not. Two ships can berth; on days with more ships, the extra ones anchor and tender."
+  },
+  {
+   "q": "How do I get from Sydney cruise port to the Fortress of Louisbourg?",
+   "a": "By ship tour, local tour, taxi or rental car. The drive is about 35 minutes. There is no simple public transport."
+  },
+  {
+   "q": "How much is the Fortress of Louisbourg?",
+   "a": "C$22 per adult from 1 July to mid-September and C$9.50 from mid-September to 31 October (2026). Under-18s are free."
+  },
+  {
+   "q": "What can I do in Sydney NS in one day from a cruise ship?",
+   "a": "The Big Fiddle and pavilion, the historic North End buildings, and a half-day trip to the Fortress of Louisbourg."
+  },
+  {
+   "q": "Where is the Big Fiddle in Sydney?",
+   "a": "Directly outside the Joan Harriss Cruise Pavilion at the cruise terminal."
+  },
+  {
+   "q": "Is Sydney Nova Scotia safe?",
+   "a": "Yes. Dress for changeable weather, especially at Louisbourg."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Fortress of Louisbourg"
+  },
+  {
+   "name": "The Big Fiddle"
+  },
+  {
+   "name": "Joan Harriss Cruise Pavilion"
+  },
+  {
+   "name": "St Patrick's Church Museum"
+  },
+  {
+   "name": "Jost Heritage House"
+  },
+  {
+   "name": "Cossit House Museum"
+  },
+  {
+   "name": "Cape Breton Miners' Museum"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Parks Canada – Fortress of Louisbourg hours of operation",
+   "url": "https://parks.canada.ca/lhn-nhs/ns/louisbourg/visit/heures-hours"
+  },
+  {
+   "title": "Parks Canada – Fortress of Louisbourg fees",
+   "url": "https://parks.canada.ca/lhn-nhs/ns/louisbourg/visit/tarifs-fees"
+  },
+  {
+   "title": "Tourism Nova Scotia – Fortress of Louisbourg National Historic Site",
+   "url": "https://novascotia.com/listing/fortress-of-louisbourg-national-historic-site/"
+  },
+  {
+   "title": "Tourism Nova Scotia – Cruise Sydney port profile",
+   "url": "https://www.novascotia.com/wp-content/uploads/2025/05/Cruise-Sydney-May2023.pdf"
+  },
+  {
+   "title": "Government of Canada – Second cruise ship berth at the Port of Sydney (2017)",
+   "url": "https://www.canada.ca/en/housing-infrastructure-communities/news/2017/01/second-cruise-ship-berth-port-sydney-will-increase-tourism-cape-breton.html"
+  },
+  {
+   "title": "CBC News – School bus enlisted to move Sydney cruise passengers (July 2025)",
+   "url": "https://www.cbc.ca/lite/story/1.7590302"
+  },
+  {
+   "title": "CBC News – Second berth for cruise ships in Sydney harbour (2017)",
+   "url": "https://amp.cbc.ca/news/canada/nova-scotia/second-berth-for-cruise-ships-will-be-built-in-sydney-harbour-1.3948203"
+  },
+  {
+   "title": "CTV News – Cape Breton sets record with five cruise ships in one day",
+   "url": "https://atlantic.ctvnews.ca/more/cape-breton-sets-new-record-with-5-cruise-ships-in-one-day-1.7059961"
+  },
+  {
+   "title": "Holland America – Sydney historic walking tour",
+   "url": "https://www.hollandamerica.com/en/au/cruise-destinations/canada-new-england-cruises/canada-new-england-ports/yqy/43604"
+  },
+  {
+   "title": "Forever Karen – Sydney Nova Scotia cruise port (April 2026)",
+   "url": "https://foreverkaren.com/cruising/sydney-nova-scotia-cruise-port/"
+  },
+  {
+   "title": "CruiseMapper – Sydney NS port",
+   "url": "https://www.cruisemapper.com/ports/sydney-ns-port-3667"
+  },
+  {
+   "title": "Beyond Ships – Sydney Nova Scotia cruise port",
+   "url": "https://www.beyondships3.com/cruise-destination-sydney-nova-scotia-cruise-port.html"
+  },
+  {
+   "title": "Cruise & Ferry – Expanding the excitement to more cruise guests (2018)",
+   "url": "https://cruiseandferry.net/articles/expanding-the-excitement-to-more-cruise-guests"
+  },
+  {
+   "title": "Cruise Critic boards – Sydney, Canada (2023)",
+   "url": "https://boards.cruisecritic.com.au/topic/2965045-sydney-canada/"
+  },
+  {
+   "title": "Cruise Critic – Food and drink in Sydney (Nova Scotia)",
+   "url": "https://www.cruisecritic.com/memberreviews/shore-excursions/port/604"
+  },
+  {
+   "title": "Fodor's – Restaurants in Sydney, Cape Breton Island",
+   "url": "https://www.fodors.com/world/north-america/canada/nova-scotia/cape-breton-island/places/sydney/restaurants"
+  }
+ ],
+ "uncertain": [
+  "Road distance from Sydney to Louisbourg in kilometres (sources give a 35-minute drive; one forum gives 20–30 miles).",
+  "Taxi fares from the pier to Louisbourg and within Sydney.",
+  "How the second-berth shuttle operates in 2026 after the 2025 breakdown.",
+  "Walking time in minutes from the pavilion to Charlotte Street and the North End buildings.",
+  "Typical docking and all-aboard times for Sydney calls.",
+  "Opening hours and exact prices of Jost House, Cossit House, St Patrick's Church Museum and the Miners' Museum."
+ ]
+}

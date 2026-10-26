@@ -1,0 +1,5 @@
+port,diy_score,recommended_option,typical_saving_eur_per_person,return_risk,tender,transport_complexity,minimum_return_buffer_minutes,confidence,last_verified
+Barcelona,88,diy,82,Low,No,Low,90,94,2026-08-19
+Naples,81,diy,118,Low to moderate,No,Moderate,90,91,2026-08-19
+Rome,77,diy,147,Moderate,No,Moderate,102,92,2026-08-19
+Santorini,48,independent_excursion,58,Elevated,Yes,High,150,86,2026-08-19

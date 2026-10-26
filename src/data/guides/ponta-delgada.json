@@ -1,0 +1,392 @@
+{
+ "slug": "ponta-delgada",
+ "city": "Ponta Delgada",
+ "portName": "Ponta Delgada cruise terminal (Portas do Mar)",
+ "townName": "the historic centre",
+ "country": "Portugal",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Portuguese",
+ "timezone": "Azores time (UTC-1), UTC+0 in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Ponta Delgada cruise port guide: Sete Cidades and Furnas",
+ "seoDescription": "Portas do Mar is 200 m from Ponta Delgada centre. Sete Cidades is 30–40 min by car, Furnas 45 min; Terra Nostra €16 (2026). Go early: crater fog by 11:00.",
+ "quickAnswer": "Ships dock at the Portas do Mar terminal on the seafront, about 200 m from the historic centre, so you walk into town in about 10 minutes; there is no tender. For Sete Cidades (30–40 minutes), Furnas (about 45 minutes) or Lagoa do Fogo, take a taxi tour or a booked tour from the pier. Be back 60 minutes before all-aboard from town, and set off from the crater lakes or Furnas at least 2 hours before all-aboard.",
+ "intro": "Ponta Delgada is the main town of São Miguel, the largest island of the Azores, and the cruise terminal sits right on its seafront avenue. The black-and-white basalt centre, the City Gates and the main church are a short stroll from the gangway. The island's real draws are volcanic: the twin lakes of Sete Cidades, the crater lake of Lagoa do Fogo and the hot springs and steaming ground of Furnas. All three are within an hour by road, but mountain weather decides the day. Cloud often fills the craters by late morning, so the rule here is simple: go high early, and keep the town for the afternoon.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Portas do Mar cruise terminal",
+   "distanceToCentreKm": 0.2,
+   "notes": "Berth 360 m long for ships up to 340 m. Air-conditioned terminal with tourist information, toilets, a pharmacy, a bank, cafés and shops. Taxis and car hire are at the terminal; excursion coaches park on the terminal roof. The port also has commercial berths about 2 km from the centre; check which berth your ship uses."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.2,
+  "detail": "A flat walk along the seafront promenade brings you to the City Gates and the centre in about 10 minutes. The centre itself is compact; pavements are traditional basalt and limestone cobbles, which are slippery when wet."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 10 min to the City Gates",
+   "detail": "Turn along the seafront avenue (Avenida Infante D. Henrique) from the terminal. The City Gates, the main church and the main squares are all within a few minutes of each other."
+  },
+  {
+   "mode": "Taxi tour",
+   "cost": "Agree the price for the route and hours before you set off",
+   "time": "Half day for Sete Cidades; 6–7 hours for Furnas and Lagoa do Fogo",
+   "detail": "Taxis wait outside the terminal and can be hired by the hour. Choose a driver who speaks your language well enough to agree the route and return time."
+  },
+  {
+   "mode": "Small-group van tours",
+   "cost": "Varies by operator; check what is included",
+   "time": "4–8 hours",
+   "detail": "Local operators pick up at the pier. Typical Furnas days include Vila Franca do Campo, the Furnas lake and hot springs, Pico do Ferro, the Gorreana tea plantation and Santa Iria viewpoint. Entry to Terra Nostra and the cozido lunch are usually extra."
+  },
+  {
+   "mode": "Rental car",
+   "cost": "Book ahead; prices vary by date",
+   "time": "30–40 min to Sete Cidades, about 45 min to Furnas",
+   "detail": "Car hire is available at the terminal. Mountain roads are narrow and cloud can drop visibility quickly. From 1 June to 30 September the Lagoa do Fogo road is closed to private cars between 09:00 and 19:00."
+  },
+  {
+   "mode": "Ponta Delgada minibus and island buses",
+   "cost": "Check the current fare on board",
+   "time": "Varies",
+   "detail": "Small municipal minibuses run around the centre. Island buses reach Sete Cidades village and Furnas, but they are infrequent and do not stop at the crater viewpoints, so they rarely suit a cruise call."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the terminal 60 minutes before all-aboard from the town centre. From Sete Cidades, Lagoa do Fogo or Furnas, set off back at least 2 hours before all-aboard.",
+  "detail": "Drives are 30–45 minutes each way, but fog on the highland roads slows traffic, and tour vans make extra stops. On the way back the terminal is on the seafront avenue, so ask your driver to drop you at the Portas do Mar entrance rather than in the centre.",
+  "emergencyFallback": "If you are running late in town, walk straight down to the seafront and along to the terminal; it is about 10 minutes from the City Gates. If you are out on the island, phone the port agent number in your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Furnas with Terra Nostra Garden",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi tour or local van tour, plus Terra Nostra €16 adult (2026)",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "Sete Cidades crater lakes",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi tour from the terminal; viewpoints are free",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Ponta Delgada's centre needs no tour: walk off the ship and explore. For the island, local taxi tours and small-group vans from the pier usually beat ship coaches on flexibility, and they can change the order of stops when cloud covers a crater. A ship tour is worth it if your call is short, if you want a guaranteed return, or if you want Furnas and Lagoa do Fogo on one day, which is a long and weather-dependent loop.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Off the ship. Agree a half-day taxi tour at the terminal for Sete Cidades, with a fixed return time."
+   },
+   {
+    "time": "09:00",
+    "what": "Vista do Rei viewpoint over the twin lakes, before the cloud arrives."
+   },
+   {
+    "time": "09:30",
+    "what": "Boca do Inferno viewpoint: about 20 minutes' uphill walk from the rim road. Bring a layer; it is several degrees cooler."
+   },
+   {
+    "time": "10:45",
+    "what": "Down to Sete Cidades village and the lake shore, then back towards town."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch in the centre, for example at Taberna Açor or A Tasca."
+   },
+   {
+    "time": "13:30",
+    "what": "Walk the centre: the City Gates, the Igreja Matriz, Jardim António Borges."
+   },
+   {
+    "time": "15:00",
+    "what": "Forte de São Brás at the western end of the seafront avenue, then stroll back along the promenade."
+   },
+   {
+    "time": "16:15",
+    "what": "Coffee near Portas do Mar."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Sete Cidades",
+   "why": "A huge volcanic crater with linked blue and green lakes and a village on the shore, 30–40 minutes west of town.",
+   "timeNeeded": "3–4 hours including the drive",
+   "cost": "Free viewpoints",
+   "tip": "Be at Vista do Rei before 09:00 if you can. Cloud often reaches the rim by 11:00 in summer; check the webcams and swap the day around if the crater is covered."
+  },
+  {
+   "name": "Furnas and Terra Nostra Garden",
+   "why": "A valley of hot springs and fumaroles where cozido stew is cooked in the ground, and a historic garden with a warm, iron-rich thermal pool.",
+   "timeNeeded": "5–6 hours including the drive",
+   "cost": "Terra Nostra €16 adult, €13.60 seniors and ages 6–7 (2026)",
+   "tip": "The garden opens 10:30–16:30 to the public. Wear old swimwear; the orange water stains."
+  },
+  {
+   "name": "Lagoa do Fogo",
+   "why": "A crater lake in the island's central mountains, with a viewpoint on the road and a trail down to the shore.",
+   "timeNeeded": "3–4 hours including the drive",
+   "cost": "Viewpoint free; summer shuttle fare charged",
+   "tip": "From 1 June to 30 September private cars are barred from the road between 09:00 and 19:00; use the shuttle from Caldeira Velha or Casa da Água. The walk to the lake is about 4 km return and takes 1.5–2.5 hours."
+  },
+  {
+   "name": "Portas da Cidade (City Gates)",
+   "why": "The 18th-century gates that mark the old harbour and are the city's symbol.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free",
+   "tip": "About 10 minutes' walk from the terminal; a good starting point for the centre."
+  },
+  {
+   "name": "Igreja Matriz de São Sebastião",
+   "why": "The main parish church, with a Manueline doorway framed in dark basalt.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free to view",
+   "tip": "Look closely at the carved stone doorway."
+  },
+  {
+   "name": "Jardim António Borges",
+   "why": "A central garden with lakes, grottoes, trails and a collection of ancient plant species.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "A shaded break from the cobbles on a hot day."
+  },
+  {
+   "name": "Forte de São Brás",
+   "why": "The coastal fort at the western end of the seafront avenue.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check at the gate",
+   "tip": "Combine with the promenade walk back to the ship."
+  },
+  {
+   "name": "Augusto Arruda pineapple greenhouses",
+   "why": "The oldest pineapple greenhouses in the Azores, from the 19th century, in Fajã de Baixo on the edge of town.",
+   "timeNeeded": "45–60 minutes plus a short taxi ride",
+   "cost": "Check the website before you go",
+   "tip": "There is a pineapple café on site."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Piscina do Pesqueiro",
+   "howToGetThere": "Walk from the Portas do Mar area",
+   "time": "A few minutes on foot",
+   "cost": "Check on site",
+   "note": "A renovated natural sea pool by the seafront; the most convenient swim for a short call."
+  },
+  {
+   "name": "Terra Nostra thermal pool, Furnas",
+   "howToGetThere": "Taxi tour, van tour or rental car",
+   "time": "About 45 min by road",
+   "cost": "Included in Terra Nostra entry, €16 adult (2026)",
+   "note": "Warm, iron-rich water; wear old swimwear and rinse well afterwards."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Cozido das Furnas (meat and vegetable stew cooked in volcanic ground)",
+   "where": "Furnas village restaurants, including the restaurant at Terra Nostra Garden Hotel",
+   "price": null
+  },
+  {
+   "dish": "Bolo lêvedo (sweet Azorean muffin bread)",
+   "where": "Bakeries in Furnas village",
+   "price": null
+  },
+  {
+   "dish": "Fresh local fish and Azorean dishes",
+   "where": "A Tasca, Ponta Delgada centre (busy; go early)",
+   "price": null
+  },
+  {
+   "dish": "Azorean petiscos (small plates)",
+   "where": "Taberna Açor, Ponta Delgada centre",
+   "price": null
+  },
+  {
+   "dish": "Traditional Azorean cooking",
+   "where": "O Museu, Ponta Delgada",
+   "price": null
+  },
+  {
+   "dish": "Azorean pineapple",
+   "where": "Café at the Augusto Arruda pineapple greenhouses, Fajã de Baixo",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Leaving Sete Cidades or Lagoa do Fogo until the afternoon.",
+   "fix": "Go first thing. Cloud often fills the craters by late morning and you may see nothing."
+  },
+  {
+   "mistake": "Planning to drive to Lagoa do Fogo in summer.",
+   "fix": "From 1 June to 30 September the road is closed to private cars from 09:00 to 19:00. Use the shuttle, a taxi tour or go outside those hours."
+  },
+  {
+   "mistake": "Wearing good swimwear in the Terra Nostra pool.",
+   "fix": "The iron-rich water stains fabric orange. Bring old swimwear and a towel you do not mind spoiling."
+  },
+  {
+   "mistake": "Not agreeing the taxi tour route and return time.",
+   "fix": "Fix the price, stops and the time you must be back at Portas do Mar before you get in."
+  },
+  {
+   "mistake": "Dressing for the seafront.",
+   "fix": "The crater rims can be 8–10°C cooler and windy; take a warm layer and a rain jacket."
+  }
+ ],
+ "safety": "Ponta Delgada is a safe, quiet town. The main risks are weather and terrain. Highland roads can go from clear to thick cloud in minutes, so drive slowly and do not stop on blind bends for photos. Crater rim paths are exposed and slippery after rain. At the Furnas hot springs, stay behind barriers around boiling water and fumaroles, and step away if the wind blows sulphur gas towards you. In town, the basalt and limestone cobbles are slick when wet.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The ship berths alongside, and the terminal is air-conditioned with a short, level walk to the seafront avenue. The promenade into town is flat, but the centre's traditional cobbled pavements are uneven and slippery in rain. Vista do Rei at Sete Cidades has a car park at the viewpoint and needs no walking, so it is the best step-free crater view. Boca do Inferno involves a 20-minute uphill walk, and the Lagoa do Fogo lake trail is a 4 km return hike.",
+ "rainyDay": "Rain and low cloud are common. If the craters are hidden, stay low: the Gruta do Carvão lava tube on the edge of town runs guided visits (book ahead), and the town's churches, the Arruda pineapple greenhouses and a long lunch fill the day. Furnas still works in light rain, since the hot pools and steaming ground are best when it is cool. Check the Sete Cidades webcams before committing to a drive west.",
+ "crowdTips": "Tour coaches reach Vista do Rei at around 09:30–10:00 in summer, so a taxi tour that leaves the pier promptly beats both the coaches and the cloud. Book small-group tours and the Gruta do Carvão before the call, as group sizes are limited. Save the compact town centre for the afternoon, when the crater viewpoints are usually clouded anyway.",
+ "faqs": [
+  {
+   "q": "Is Ponta Delgada a tender port?",
+   "a": "No. Ships berth at the Portas do Mar terminal on the seafront."
+  },
+  {
+   "q": "Is Ponta Delgada walkable from the cruise port?",
+   "a": "Yes. The centre is about 200 m from the terminal, roughly 10 minutes on foot along the promenade."
+  },
+  {
+   "q": "How do I get from the Ponta Delgada cruise port to Sete Cidades?",
+   "a": "By taxi tour, rental car or booked tour, 30–40 minutes each way. Buses do not reach the viewpoints."
+  },
+  {
+   "q": "Can I visit Furnas from a cruise ship in Ponta Delgada?",
+   "a": "Yes, on a normal day call. It is about 45 minutes by road; allow 5–6 hours and set off back 2 hours before all-aboard."
+  },
+  {
+   "q": "Can I drive to Lagoa do Fogo?",
+   "a": "Not between 09:00 and 19:00 from 1 June to 30 September, when a shuttle runs instead. From October to May you can drive up."
+  },
+  {
+   "q": "What can I do in Ponta Delgada in one day from a cruise ship?",
+   "a": "Sete Cidades early in the morning, then the City Gates, main church and gardens in town; or a full day in Furnas."
+  },
+  {
+   "q": "How much is Terra Nostra Garden?",
+   "a": "€16 per adult in 2026, open 10:30–16:30."
+  },
+  {
+   "q": "Is Ponta Delgada safe?",
+   "a": "Yes. Take care with mountain fog on the roads and slippery paths in rain."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Sete Cidades"
+  },
+  {
+   "name": "Furnas"
+  },
+  {
+   "name": "Terra Nostra Garden"
+  },
+  {
+   "name": "Lagoa do Fogo"
+  },
+  {
+   "name": "Portas da Cidade"
+  },
+  {
+   "name": "Igreja Matriz de São Sebastião"
+  },
+  {
+   "name": "Gorreana tea plantation"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Visit Azores – Azores Cruise: Ponta Delgada port",
+   "url": "https://azorescruise.visitazores.com/en/ports/ponta-delgada/"
+  },
+  {
+   "title": "Azores Regional Government – Lagoa do Fogo shuttle service",
+   "url": "https://portal.azores.gov.pt/en/web/comunicacao/-/gacs-6352"
+  },
+  {
+   "title": "Azores Tourism (turismo.azores.gov.pt) – Estufas de Ananases Augusto Arruda",
+   "url": "https://turismo.azores.gov.pt/en/pin/estufas-de-ananases-augusto-arruda/"
+  },
+  {
+   "title": "Bensaude Hotels – Terra Nostra Garden",
+   "url": "https://bensaudehotels.com/en/experiences/terra-nostra-garden"
+  },
+  {
+   "title": "Azores Getaways – Sete Cidades guide (September 2026)",
+   "url": "https://azoresgetaways.com/en-eu/destination/azores/sao-miguel/sete-cidades-guide"
+  },
+  {
+   "title": "Azores Getaways – Lagoa do Fogo hike, viewpoint and shuttle (September 2026)",
+   "url": "https://azoresgetaways.com/en-eu/destination/azores/sao-miguel/lagoa-do-fogo"
+  },
+  {
+   "title": "Unusual Nomad – Sete Cidades day trip (updated October 2026)",
+   "url": "https://unusualnomad.com/sete-cidades-day-trip-itinerary-sao-miguel/"
+  },
+  {
+   "title": "By Açores – Public transport in the Azores",
+   "url": "https://byacores.com/en/public-transport/"
+  },
+  {
+   "title": "By Açores – Carvão Cave",
+   "url": "https://byacores.com/en/carvao-cave/"
+  },
+  {
+   "title": "Geeky Explorer – Things to do in Ponta Delgada",
+   "url": "https://www.geekyexplorer.com/ponta-delgada-azores/"
+  },
+  {
+   "title": "Triptins – Parque Terra Nostra",
+   "url": "https://triptins.com/parque-terra-nostra/"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Ponta Delgada (checked May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/ponta-delgada-azores/"
+  },
+  {
+   "title": "What's In Port – Ponta Delgada, São Miguel",
+   "url": "https://www.whatsinport.com/Ponta-Delgada-Sao-Miguel.htm"
+  },
+  {
+   "title": "Donna Gawell – Ponta Delgada on a transatlantic cruise",
+   "url": "https://donnagawell.com/europe/transatlantic-cruise/azores/"
+  },
+  {
+   "title": "Musement – São Miguel Furnas tour",
+   "url": "https://www.musement.com/uk/sao-miguel/sao-miguel-furnas-tour-2-421489/"
+  }
+ ],
+ "uncertain": [
+  "2026 Ponta Delgada minibus fare (latest figure found dates from January 2025)",
+  "Island bus line numbers and timetables to Sete Cidades and Furnas for 2026 (operator naming differs between sources)",
+  "2026 Lagoa do Fogo shuttle fare (the official figure found is from 2023)",
+  "Gruta do Carvão 2026 ticket prices and tour times (latest figures found date from 2024)",
+  "Taxi tour rates from the terminal",
+  "Whether the Gorreana tea plantation visit and tasting are free",
+  "Current status of the Mercado da Graça renovation",
+  "Typical arrival and all-aboard times for Ponta Delgada calls"
+ ]
+}

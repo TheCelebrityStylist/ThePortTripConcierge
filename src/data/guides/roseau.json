@@ -1,0 +1,393 @@
+{
+ "slug": "roseau",
+ "city": "Roseau",
+ "portName": "Roseau Cruise Ship Berth (Bayfront) and Woodbridge Bay Port",
+ "townName": "downtown Roseau (Bayfront and Old Market)",
+ "country": "Dominica",
+ "currency": "XCD",
+ "currencySymbol": "EC$",
+ "language": "English (Kwéyòl widely spoken)",
+ "timezone": "AST (UTC−4), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Roseau cruise port guide: Dominica berths, falls, reefs",
+ "seoDescription": "Roseau's cruise berth is on the Bayfront, 5 min walk from the Old Market; Woodbridge Bay is about 1 km north. Trafalgar Falls is 25–30 min by taxi.",
+ "quickAnswer": "Most ships dock at the Roseau Cruise Ship Berth on the Bayfront, about 5 minutes' walk from the Old Market and the museum; larger ships use Woodbridge Bay Port, about 1 km north, a 10–15 minute walk along Dame Eugenia Charles Boulevard. Trafalgar Falls and Champagne Reef need a taxi or tour, and taxi fares are agreed with the driver. Be back on board 60 minutes before all-aboard from town, and leave the falls or the reef 90 minutes before.",
+ "intro": "Roseau is Dominica's small, busy capital, squeezed between the sea and steep green hills. The main cruise berth is right on the Bayfront, so you step off into town. Dominica's appeal is its rainforest and volcanic landscape rather than its beaches: Trafalgar Falls is about half an hour inland, the bubbling Champagne Reef is a short drive south, and the Botanic Gardens and Morne Bruce viewpoint are within walking distance. Most national park sites need a site pass, which you buy on site, not online. Roads are narrow and afternoon traffic in Roseau is slow, so build in time to get back.",
+ "isTender": false,
+ "tenderNotes": "Large ships dock. Small expedition ships sometimes tender into Roseau.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Roseau Cruise Ship Berth (Bayfront)",
+   "distanceToCentreKm": 0.1,
+   "notes": "On the Bayfront in downtown Roseau, opposite the Old Market and the tourism office. Souvenir stalls are just past the gangway, and taxis, minibuses and tour buses wait at the berth. It takes one ship at a time."
+  },
+  {
+   "name": "Woodbridge Bay Port",
+   "distanceToCentreKm": 1,
+   "notes": "Deep-water port on the northern edge of Roseau, used when the town berth is taken and by the largest ships; the government says it is the island's only port with two gangways. About 10–15 minutes' walk into town along Dame Eugenia Charles Boulevard. Confirm where tour operators will collect you."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.3,
+  "detail": "From the Bayfront berth, the Old Market, the Dominica Museum and the shops are about 5 minutes' walk, and the Botanic Gardens about 15 minutes. Morne Bruce viewpoint is a further 20–30 minutes uphill from the gardens. From Woodbridge Bay add 10–15 minutes each way. Trafalgar Falls, Champagne Reef and Emerald Pool are not walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5 min to the Old Market; 15 min to the Botanic Gardens",
+   "detail": "Pavements in central Roseau are narrow and busy. From Woodbridge Bay, walk south along Dame Eugenia Charles Boulevard, 10–15 minutes."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree the fare with the driver before you set off",
+   "time": "10–15 min to Champagne Reef; 25–30 min to Trafalgar Falls; 40–45 min to Emerald Pool",
+   "detail": "Taxis wait at the cruise berth. Licensed taxis have number plates starting H, HA or HB; the US State Department advises using only clearly marked official taxis. No official fare list for cruise passengers was found, so agree the price, whether it is per person or per vehicle, the currency and the return time before you get in."
+  },
+  {
+   "mode": "Minibus",
+   "cost": "Low, standardised fares set by the government",
+   "time": "Varies",
+   "detail": "Shared minibuses run from stops around Roseau during the day, but routes and times are not obvious to visitors and they are not suited to night travel. Use them only for trips where a delay will not threaten your return."
+  },
+  {
+   "mode": "Rental car",
+   "cost": "Varies; plus a local temporary driving licence",
+   "time": "—",
+   "detail": "Drive on the left. You need a local temporary licence, available from rental offices or the Traffic Department in Roseau; the tourist board gives the age limits as 25–65 with two years' driving experience. Roads are often narrow, steep and potholed, so most cruise passengers are better off with a taxi or tour."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be on board 60 minutes before all-aboard from downtown Roseau (add 15 minutes if the ship is at Woodbridge Bay). Leave Trafalgar Falls, Champagne Reef or Mero Beach 90 minutes before all-aboard, and Emerald Pool 2 hours before.",
+  "detail": "Afternoon traffic in Roseau is slow and the inland roads are narrow and winding, so the drive back can take longer than the drive out. Agree the return time with your driver when you are dropped off, and do not go to the falls after heavy rain.",
+  "emergencyFallback": "Ask your driver or a vendor to call a taxi; Roseau is 10–15 minutes from Champagne Reef and about 30 minutes from Trafalgar Falls. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Trafalgar Falls",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi (agree the fare) plus a site pass bought at the reception centre",
+   "saving": "Depends on the excursion price and the taxi fare you agree"
+  },
+  {
+   "item": "Botanic Gardens and Morne Bruce",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk from the berth",
+   "saving": "Whole excursion price"
+  }
+ ],
+ "excursionAdvice": "Roseau, the Botanic Gardens and Morne Bruce need no tour. A ship excursion is worth it for whale watching, for diving, and for longer inland trips such as Emerald Pool or the Kalinago Territory (about an hour each way), where the slow roads make a guaranteed return valuable. For Trafalgar Falls or Champagne Reef, a taxi with an agreed fare and return time works well if you start early.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at the Bayfront berth and all-aboard is 17:30. Departure times vary by ship, so check your own all-aboard time and move the plan earlier if needed. At Woodbridge Bay, add 15 minutes each way for the walk.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk off onto the Bayfront and look round the Old Market."
+   },
+   {
+    "time": "08:45",
+    "what": "Taxi to Trafalgar Falls, about 25–30 minutes. Agree the fare and a pick-up time first."
+   },
+   {
+    "time": "09:20",
+    "what": "Buy a site pass at the reception centre and walk 10–15 minutes to the viewing platform."
+   },
+   {
+    "time": "10:30",
+    "what": "Taxi back to Roseau."
+   },
+   {
+    "time": "11:15",
+    "what": "Walk to the Botanic Gardens, about 15 minutes, then climb to Morne Bruce for the view over the town."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch in Roseau; browse Roseau Market Plaza or the Old Market for coffee, spices and fruit."
+   },
+   {
+    "time": "14:15",
+    "what": "Taxi south to Champagne Reef, 10–15 minutes, and snorkel among the bubbles."
+   },
+   {
+    "time": "16:00",
+    "what": "Taxi back to the Bayfront, 90 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Trafalgar Falls",
+   "why": "Twin waterfalls, about 125 ft and 75 ft high, in Morne Trois Pitons National Park, seen from a viewing platform.",
+   "timeNeeded": "About 2.5 hours including the taxi",
+   "cost": "Site pass required, bought at the reception centre; taxi extra",
+   "tip": "The walk to the platform is about 10–15 minutes. Do not go after heavy rain, wear shoes with grip, and do not try the boulder scramble to the base alone."
+  },
+  {
+   "name": "Champagne Reef",
+   "why": "Snorkelling site in the Soufrière Scotts Head Marine Reserve, named after the bubbles from volcanic springs on the sea floor.",
+   "timeNeeded": "2 hours",
+   "cost": "Taxi extra; check any charges on site",
+   "tip": "About 7 km south of Roseau, 10–15 minutes by taxi. Bring your own mask if you have one."
+  },
+  {
+   "name": "Roseau Botanic Gardens",
+   "why": "40-acre gardens opened in 1889, the largest green space in Roseau and home to Sisserou parrots, Dominica's national bird.",
+   "timeNeeded": "1 hour",
+   "cost": "No fee listed by the tourist board",
+   "tip": "About 15 minutes' walk from the Bayfront berth. Combine with Morne Bruce."
+  },
+  {
+   "name": "Morne Bruce viewpoint",
+   "why": "Hilltop view over Roseau, the harbour and your ship.",
+   "timeNeeded": "1 hour return from the gardens",
+   "cost": "Free on foot",
+   "tip": "A fairly steep 20–30 minute walk up from the Botanic Gardens; bring water. You can also go by car."
+  },
+  {
+   "name": "Dominica Museum and the Old Market",
+   "why": "Small museum in a former post office built in 1810, facing the Old Market, the site of colonial-era slave trading and now a market selling local produce.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check at the door",
+   "tip": "Right by the Bayfront berth."
+  },
+  {
+   "name": "Emerald Pool",
+   "why": "Rainforest pool where a waterfall drops about 50 ft; a swim is possible.",
+   "timeNeeded": "3–4 hours including the drive",
+   "cost": "Site pass required; taxi or tour extra",
+   "tip": "About 40–45 minutes from the port. Go with a tour or a driver who will wait, and leave 2 hours before all-aboard."
+  },
+  {
+   "name": "Titou Gorge and Wotten Waven",
+   "why": "Narrow gorge in Wotten Waven, the village known for its hot springs.",
+   "timeNeeded": "2–3 hours including the drive",
+   "cost": "Taxi extra; check charges on site",
+   "tip": "About 10 minutes from Trafalgar Falls, so the two pair well; do not try to add many more sites in one day."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Champagne Reef",
+   "howToGetThere": "Taxi south from Roseau",
+   "time": "10–15 min",
+   "cost": "Taxi fare",
+   "note": "Better for snorkelling than for sunbathing."
+  },
+  {
+   "name": "Mero Beach",
+   "howToGetThere": "Taxi north from Roseau",
+   "time": "20–30 min",
+   "cost": "Taxi fare",
+   "note": "Beach on the west coast with InDee's beach bar. Busiest on Sundays, when local families hold barbecues."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Cassava bread, fresh fruit and Dominican rum",
+   "where": "Old Market, Roseau Bayfront",
+   "price": null
+  },
+  {
+   "dish": "Coffee, fresh fruit and cooking spices to take home",
+   "where": "Roseau Market Plaza",
+   "price": null
+  },
+  {
+   "dish": "Creole fish",
+   "where": "InDee's Beach Bar and Restaurant, Mero Beach",
+   "price": null
+  },
+  {
+   "dish": "Lobster with plantains",
+   "where": "InDee's Beach Bar and Restaurant, Mero Beach",
+   "price": null
+  },
+  {
+   "dish": "Dark chocolate made on the estate",
+   "where": "Bois Cotlette Estate chocolate tour",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Getting in a taxi without agreeing the fare.",
+   "fix": "No official cruise fare list is published. Agree the price, per person or per vehicle, the currency and the return time before you set off."
+  },
+  {
+   "mistake": "Expecting to buy the national park site pass online or by card.",
+   "fix": "Passes cannot be bought online. Buy one at the site reception centre (Trafalgar Falls, Emerald Pool, Indian River) and carry cash."
+  },
+  {
+   "mistake": "Underestimating the drive back.",
+   "fix": "Roads are narrow and winding and afternoon traffic in Roseau is slow. Leave the falls and the reef 90 minutes before all-aboard."
+  },
+  {
+   "mistake": "Visiting the waterfalls after heavy rain.",
+   "fix": "Rivers rise quickly and rocks get slippery. Choose Champagne Reef or the Botanic Gardens instead on a wet morning."
+  },
+  {
+   "mistake": "Forgetting which berth the ship is at.",
+   "fix": "If the ship is at Woodbridge Bay, about 1 km north, tell your driver and allow 10–15 minutes more on foot."
+  }
+ ],
+ "safety": "The US State Department rates Dominica Level 1, exercise normal precautions (May 2026), and the UK FCDO says the crime rate is low. Theft and vehicle break-ins do happen, so do not leave valuables unattended and avoid walking alone on empty streets or isolated beaches after dark. Use only clearly marked official taxis. Sea currents can be stronger than they look and not all beaches have lifeguards. Roads are often narrow and in poor condition. Hurricane season runs from June to November. Tap water is generally safe to drink, and ambulance cover is limited, so a taxi to hospital may be faster after an injury.",
+ "scams": [
+  "Unofficial taxis: the US State Department advises using only clearly marked official taxis; licensed ones have H, HA or HB number plates.",
+  "Taxi fares disputed at the end of the trip: agree the price, per person or per vehicle, and the currency before you set off."
+ ],
+ "emergencyNumber": "999",
+ "accessibility": "The Bayfront berth puts you straight into flat downtown streets, but pavements are narrow and busy and the Botanic Gardens and Morne Bruce involve slopes. Trafalgar Falls has a short walk to the viewing platform, and most other nature sites involve rough or wet paths. Woodbridge Bay adds a 1 km walk or a taxi ride into town. Book a suitable vehicle in advance if you use a wheelchair.",
+ "rainyDay": "Rain is common in the interior. Stay in Roseau for the Dominica Museum, the Old Market and the Market Plaza, or snorkel at Champagne Reef, and skip the waterfalls after heavy rain, when rivers run high.",
+ "crowdTips": "On days with more than one ship, larger ships use Woodbridge Bay and the popular sites such as Trafalgar Falls fill as tour groups arrive. Start early, go to the falls first, and leave Roseau's sights for the afternoon. Mero Beach is busiest on Sundays.",
+ "faqs": [
+  {
+   "q": "Is Roseau a tender port?",
+   "a": "No for most ships. They dock at the Roseau Cruise Ship Berth on the Bayfront or at Woodbridge Bay Port. Some small expedition ships tender."
+  },
+  {
+   "q": "Is Roseau walkable from the cruise port?",
+   "a": "Yes from the Bayfront berth: the Old Market is about 5 minutes away and the Botanic Gardens about 15. From Woodbridge Bay it is a 10–15 minute walk into town."
+  },
+  {
+   "q": "How do I get from Roseau cruise port to Trafalgar Falls?",
+   "a": "By taxi or tour, about 25–30 minutes each way. Agree the fare and pick-up time first, and buy a site pass at the reception centre."
+  },
+  {
+   "q": "What can I do in Roseau in one day from a cruise ship?",
+   "a": "Trafalgar Falls in the morning, the Botanic Gardens and Morne Bruce at midday, and snorkelling at Champagne Reef in the afternoon."
+  },
+  {
+   "q": "Beaches near Roseau cruise port?",
+   "a": "Champagne Reef, 10–15 minutes south by taxi, is the best for snorkelling. Mero Beach is 20–30 minutes north. There is no beach within walking distance of the berth."
+  },
+  {
+   "q": "Do I need a site pass in Dominica?",
+   "a": "Yes for national park sites such as Trafalgar Falls and Emerald Pool. Buy it on site; passes cannot be bought online."
+  },
+  {
+   "q": "Is Roseau safe for cruise passengers?",
+   "a": "Generally yes. The US rates Dominica Level 1 and the UK says crime is low. Take normal care with valuables and use marked official taxis."
+  },
+  {
+   "q": "What currency is used in Dominica?",
+   "a": "The Eastern Caribbean dollar (EC$). Carry cash, as cards may carry a fee and ATMs are sometimes out of order."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Trafalgar Falls"
+  },
+  {
+   "name": "Champagne Reef"
+  },
+  {
+   "name": "Roseau Botanic Gardens"
+  },
+  {
+   "name": "Morne Bruce"
+  },
+  {
+   "name": "Dominica Museum and Old Market"
+  },
+  {
+   "name": "Emerald Pool"
+  },
+  {
+   "name": "Titou Gorge"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Discover Dominica Authority – Travel to Dominica by cruise",
+   "url": "https://discoverdominica.com/en/travel-dominica-cruise"
+  },
+  {
+   "title": "Discover Dominica Authority – Island transportation",
+   "url": "https://discoverdominica.com/island-transportation"
+  },
+  {
+   "title": "Discover Dominica Authority – Park fee user programme",
+   "url": "https://discoverdominica.com/user-fee-program"
+  },
+  {
+   "title": "Discover Dominica Authority – Cruise day trips",
+   "url": "https://legacy.discoverdominica.com/en/lists/18/cruise-day-trips"
+  },
+  {
+   "title": "Government of Dominica – Dominica plans major port upgrades to boost cruise (August 2025)",
+   "url": "https://news.gov.dm/news/news-items/dominica-plans-major-port-upgrades-to-boost-cruise"
+  },
+  {
+   "title": "Government of Dominica – Cabinet approves new bus fares and taxi rates (March 2023)",
+   "url": "https://news.gov.dm/news/news-items/cabinet-approves-the-implementation-of-new-bus-fares-and-taxi-rates-2"
+  },
+  {
+   "title": "Forestry, Wildlife and Parks Division – User fees programmes",
+   "url": "https://www.forestry.gov.dm/units/national-parks-section/user-fees-programmes"
+  },
+  {
+   "title": "Forestry, Wildlife and Parks Division – Site pass terms (July 2025)",
+   "url": "https://sitepass.forestry.gov.dm/Home/Terms"
+  },
+  {
+   "title": "Ministry of Tourism, Dominica – Trafalgar Falls brochure",
+   "url": "https://www.tourism.gov.dm/en/news/brochures/trafalgar-falls"
+  },
+  {
+   "title": "Ecotourism Site User Fee (Amendment) Regulations, S.R.O. 22 of 2008 (FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/dmi111738.pdf"
+  },
+  {
+   "title": "US State Department – Dominica travel information (2026)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Dominica.html"
+  },
+  {
+   "title": "UK FCDO – Dominica safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/dominica/safety-and-security"
+  },
+  {
+   "title": "Celebrity Cruises – Things to do in Dominica",
+   "url": "https://www.celebritycruises.com/blog/things-to-do-in-dominica"
+  },
+  {
+   "title": "Nature Island – Cruise port Dominica (updated April 2026)",
+   "url": "https://www.nature-island.com/cruise-port-dominica/"
+  },
+  {
+   "title": "Nature Island – Trafalgar Falls (updated April 2026)",
+   "url": "https://www.nature-island.com/places-to-go/trafalgar-falls/"
+  },
+  {
+   "title": "Adventure Begins – Roseau cruise port guide (updated December 2025)",
+   "url": "https://www.adventourbegins.com/?p=11496"
+  },
+  {
+   "title": "CruiseMapper – Roseau port and ship schedule",
+   "url": "https://www.cruisemapper.com/ports/roseau-port-463"
+  },
+  {
+   "title": "Domnik – Arriving in Roseau",
+   "url": "https://en.domnik.net/en/o/dominica/roseau/112.html"
+  }
+ ],
+ "uncertain": [
+  "Site pass prices: the Forestry Division's page lists US$8 per site and US$50 for a week pass, while the Discover Dominica page and the 2008 regulations list US$5 and US$12 (and a private guide adds US$40 a year); the online shop's prices could not be read. The guide gives no amount.",
+  "Whether cruise passengers pay a different site pass rate, and whether Titou Gorge or Champagne Reef charge a fee.",
+  "Taxi fares from the cruise berths: the 2023 government fare schedule is published only as images that could not be read, and covers airport routes.",
+  "Current minibus fare range: the tourist board gives EC$1.50–EC$10.25, but fares were revised in March 2023 and the page may predate that.",
+  "Typical all-aboard time: no port or cruise-line page with times was found; schedule listings show many 17:00 departures, but the day plan uses the default 17:30.",
+  "Dominica Museum and Botanic Gardens opening hours and admission.",
+  "Timing of the planned Roseau berth and Woodbridge Bay upgrades and any disruption to passengers."
+ ]
+}

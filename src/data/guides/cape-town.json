@@ -1,0 +1,387 @@
+{
+ "slug": "cape-town",
+ "city": "Cape Town",
+ "portName": "Cape Town Cruise Terminal (E Berth, Duncan Dock)",
+ "townName": "the V&A Waterfront and city centre",
+ "country": "South Africa",
+ "currency": "ZAR",
+ "currencySymbol": "R",
+ "language": "English, Afrikaans and isiXhosa",
+ "timezone": "SAST (UTC+2), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Cape Town cruise port guide: Table Mountain, Waterfront",
+ "seoDescription": "Ships berth at the Cape Town Cruise Terminal, E Berth, by the V&A Waterfront. Table Mountain cableway R475 return online (2026). Robben Island ferries 09:00–13:00.",
+ "quickAnswer": "Cape Town is a docking port: ships berth at the Cape Town Cruise Terminal at E Berth in Duncan Dock, next to the V&A Waterfront, which you can walk to in daylight. Table Mountain needs a taxi, Uber, City Sightseeing bus or MyCiTi bus plus the free shuttle; buy cableway tickets online (R475 return, 2026) and go early, because wind closes it. Be back at the ship 60 minutes before all-aboard, and leave the mountain 90 minutes before.",
+ "intro": "Few cruise ports put you this close to so much. The terminal sits on the edge of the V&A Waterfront, with Table Mountain directly behind the city and Robben Island ferries leaving from the same harbour. The day is ruled by the weather on the mountain: the cableway runs only when wind and cloud allow, so check it the moment you dock and switch plans if it is closed. Crime is a real concern, so use booked taxis or Uber rather than walking between areas, and do not walk anywhere after dark.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 10,
+ "terminals": [
+  {
+   "name": "Cape Town Cruise Terminal, E Berth (Duncan Dock)",
+   "distanceToCentreKm": null,
+   "notes": "A converted fruit-export building at the edge of the V&A Waterfront, with immigration, customs, an information kiosk and parking. The V&A Waterfront information centre is about five minutes' walk away. Metered taxis, MyCiTi buses and City Sightseeing buses are within walking distance. Some ships may use other quays in Duncan Dock that are further away; check with your line."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 5,
+  "km": null,
+  "detail": "The V&A Waterfront is walkable from the terminal in daylight, and is described as within walking distance of the city centre. Table Mountain, Kirstenbosch, Camps Bay and the Cape Peninsula need transport. Do not walk between areas after dark."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot to the V&A Waterfront",
+   "cost": "Free",
+   "time": "About 5 min to the Waterfront information centre",
+   "detail": "Daylight only. The Waterfront has the Robben Island ferry gateway, the Two Oceans Aquarium, Zeitz MOCAA and many restaurants."
+  },
+  {
+   "mode": "City Sightseeing hop-on hop-off bus",
+   "cost": "R315 adult Classic one-day ticket (2026)",
+   "time": "90-minute loop, every 20 minutes",
+   "detail": "Starts at the Two Oceans Aquarium, passes the V&A Waterfront Clock Tower and goes directly to the Table Mountain cableway. Other routes reach Kirstenbosch. Buy from City Sightseeing offices or the driver."
+  },
+  {
+   "mode": "MyCiTi bus to Table Mountain",
+   "cost": "Fare loaded on a myconnect card; no cash on board",
+   "time": "Varies",
+   "detail": "Routes 106 and 107 (Civic Centre–Camps Bay) stop at the top of Kloof Nek Road; a free shuttle runs from the Lower Tafelberg Road stop to the Lower Cable Station. Each passenger needs their own card."
+  },
+  {
+   "mode": "Uber or booked metered taxi",
+   "cost": "Metered taxis typically R10–20 per km; agree or check the fare first (2026)",
+   "time": "Varies with traffic",
+   "detail": "Do not hail taxis in the street. Book by phone or app, sit in the back and confirm the driver and plate. For Table Mountain, ask to be dropped at the Lower Tafelberg Road stop if the road is congested."
+  },
+  {
+   "mode": "Robben Island ferry",
+   "cost": "Check the current price on the official booking channel",
+   "time": "3.5–4 hours including two 30-minute crossings",
+   "detail": "Leaves from the Nelson Mandela Gateway at the V&A Waterfront, usually at 09:00, 11:00 and 13:00, weather permitting. Book in advance; tours sell out from November to March."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. Leave the Lower Cable Station 90 minutes before all-aboard, and Kirstenbosch 2 hours before. On Robben Island, take a tour that returns at least 90 minutes before all-aboard.",
+  "detail": "Waterfront and city traffic builds in the afternoon, and the cableway can stop suddenly when the wind rises, leaving people queueing for the last cars down. Robben Island ferries can be delayed by weather.",
+  "emergencyFallback": "If the cableway stops while you are at the top, follow staff instructions; do not try to hike down to make up time. Order an Uber or call a booked taxi from the Lower Cable Station. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Table Mountain",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "R475 cableway return online, plus City Sightseeing R315 or an Uber (2026)",
+   "saving": "Depends on the tour offered"
+  },
+  {
+   "item": "V&A Waterfront",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot",
+   "saving": "The full cost of any tour"
+  },
+  {
+   "item": "Kirstenbosch",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "R270 international adult entry (2026–27) plus transport",
+   "saving": "Depends on the tour offered"
+  }
+ ],
+ "excursionAdvice": "Do the Waterfront and Table Mountain on your own: both are close and well served. A ship tour is the better choice for the Cape Peninsula, Cape Point and the Boulders Beach penguins, or the Winelands, which are long drives where traffic and safety make an independent return riskier. If your call is short, a ship tour also removes the risk of being caught by cableway closures or late taxis.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 07:00 and all-aboard is 17:30, on a clear day with the cableway running.",
+  "steps": [
+   {
+    "time": "07:30",
+    "what": "Check the cableway status on its website or app. If it is closed, swap the morning for Robben Island or Kirstenbosch."
+   },
+   {
+    "time": "08:00",
+    "what": "Uber or booked taxi from the terminal to the Lower Cable Station, with tickets bought online (R475 return)."
+   },
+   {
+    "time": "08:30",
+    "what": "First car up. Walk the paths on the summit plateau."
+   },
+   {
+    "time": "10:30",
+    "what": "Cable car down and ride back towards the city."
+   },
+   {
+    "time": "11:15",
+    "what": "Bo-Kaap: walk the coloured streets and visit the Bo-Kaap Museum on Wale Street (R80 international adult)."
+   },
+   {
+    "time": "12:30",
+    "what": "Cape Malay lunch at Bo-Kaap Kombuis or Biesmiellah."
+   },
+   {
+    "time": "13:45",
+    "what": "Taxi or Uber to the V&A Waterfront. Visit Zeitz MOCAA in the Silo District or walk the quays."
+   },
+   {
+    "time": "15:45",
+    "what": "Walk back towards the cruise terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Table Mountain Aerial Cableway",
+   "why": "A rotating cable car to the flat summit above the city, with views over Table Bay and the peninsula.",
+   "timeNeeded": "2.5–3 hours including travel",
+   "cost": "R475 adult return online, R530 at the ticket office (1 July 2026–30 June 2027)",
+   "tip": "Weather permitting only; check status first. Tickets are valid for 7 days, so a closed day can be used later in the week or refunded. Only buy official tickets; third-party sales at the stations are not allowed."
+  },
+  {
+   "name": "V&A Waterfront",
+   "why": "The working harbour next to the terminal, with shops, restaurants, the Two Oceans Aquarium and the Robben Island gateway.",
+   "timeNeeded": "1–3 hours",
+   "cost": "Free to walk",
+   "tip": "ATMs are plentiful here and safer to use than street machines."
+  },
+  {
+   "name": "Robben Island",
+   "why": "The former prison where Nelson Mandela was held, now a museum and World Heritage Site.",
+   "timeNeeded": "3.5–4 hours",
+   "cost": "Check the current price when booking",
+   "tip": "Ferries usually leave at 09:00, 11:00 and 13:00 from the Nelson Mandela Gateway. The 09:00 or 11:00 sailing suits most cruise calls. Weather can cancel sailings."
+  },
+  {
+   "name": "Zeitz MOCAA",
+   "why": "A contemporary African art museum in a converted grain silo at the Waterfront.",
+   "timeNeeded": "1.5 hours",
+   "cost": "R250 adult (2025 price); 18 and under free",
+   "tip": "Open daily 10:00–18:00."
+  },
+  {
+   "name": "Bo-Kaap",
+   "why": "A historic Cape Malay neighbourhood of brightly painted houses on the slopes above the city centre.",
+   "timeNeeded": "1.5 hours",
+   "cost": "Free to walk; Bo-Kaap Museum R80 international adult",
+   "tip": "A free 20-minute audio tour on VoiceMap starts at the museum at 71 Wale Street. This is a residential area; be respectful when taking photos."
+  },
+  {
+   "name": "Kirstenbosch National Botanical Garden",
+   "why": "Botanical gardens on the eastern slopes of Table Mountain, showing the Cape's native flora.",
+   "timeNeeded": "3 hours including travel",
+   "cost": "R270 international adult (2026–27), card only, online via Webtickets",
+   "tip": "Open 08:00–19:00 from September to March. 13 km from the city centre; the City Sightseeing bus stops at Gate 1."
+  },
+  {
+   "name": "Two Oceans Aquarium",
+   "why": "Marine life of the Atlantic and Indian Oceans, at the Waterfront.",
+   "timeNeeded": "1.5 hours",
+   "cost": "Check current prices",
+   "tip": "A good option if the mountain is closed by wind."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Camps Bay",
+   "howToGetThere": "Uber or taxi, or MyCiTi routes 106/107",
+   "time": "Varies with traffic",
+   "cost": "Free",
+   "note": "A wide sandy beach below the Twelve Apostles. The Atlantic water is very cold; most people sunbathe rather than swim."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Cape Malay curry tasting platter",
+   "where": "Bo-Kaap Kombuis, 7 August Street, Bo-Kaap",
+   "price": null
+  },
+  {
+   "dish": "Cape Malay curries, chilli bites and samosas (halal)",
+   "where": "Biesmiellah Restaurant, Wale Street, Bo-Kaap",
+   "price": null
+  },
+  {
+   "dish": "Koesisters (spiced doughnuts)",
+   "where": "Rose Corner Café, 100 Wale Street, Bo-Kaap",
+   "price": null
+  },
+  {
+   "dish": "Pan-African platter with game meats",
+   "where": "Marco's African Place, 15 Rose Street",
+   "price": null
+  },
+  {
+   "dish": "Seafood and harbour-side lunch",
+   "where": "Restaurants on the V&A Waterfront quays",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Leaving Table Mountain until the afternoon.",
+   "fix": "Go first thing. Wind and cloud often close the cableway later in the day."
+  },
+  {
+   "mistake": "Buying cableway tickets at the ticket office.",
+   "fix": "Buy online: R475 rather than R530 (2026), and less queueing."
+  },
+  {
+   "mistake": "Walking between the Waterfront, the city and Bo-Kaap with valuables on show.",
+   "fix": "Use Uber or a booked taxi between areas, keep phones and cameras away, and never walk after dark."
+  },
+  {
+   "mistake": "Hiking up or down Table Mountain alone on a cruise day.",
+   "fix": "Attacks on hikers have been reported on Table Mountain, Lion's Head and Signal Hill. Use the cableway, or hike only in a group with a guide and plenty of time."
+  },
+  {
+   "mistake": "Turning up for Robben Island without a booking.",
+   "fix": "Book in advance; tours sell out in the peak season from November to March."
+  },
+  {
+   "mistake": "Trying to fit Cape Point and the penguins into a short call on your own.",
+   "fix": "Take a ship tour or allow a full day with a reliable driver."
+  }
+ ],
+ "safety": "Cape Town has a high level of crime, including muggings and robberies in tourist areas. The V&A Waterfront is busy and well patrolled in the daytime. Do not walk anywhere after dark, keep phones, jewellery and cameras out of sight, and keep bags on your lap in restaurants. Do not hail taxis in the street: use Uber or a taxi booked by phone, sit in the back and check the plate. Attacks on hikers have been reported on Table Mountain, Lion's Head and Signal Hill, including in car parks, so do not hike alone. Power cuts (load shedding) can affect ATMs and traffic lights.",
+ "scams": [
+  "Help at the ATM: strangers offering to help, or machines that keep your card after you enter your PIN. Use ATMs inside a bank or the Waterfront mall, cover your PIN and refuse help.",
+  "Unofficial cableway tickets: only tickets bought through the cableway's own channels (Webtickets, its partners, WhatsApp) are valid; third-party sales at the stations are not allowed.",
+  "Express kidnapping: there have been cases where taxi or rideshare drivers forced passengers to withdraw cash. Use an app or a reputable firm, confirm the driver and plate, and never share a ride with strangers.",
+  "Fake police: criminals have impersonated police at illegal roadblocks. This mainly affects people driving hire cars."
+ ],
+ "emergencyNumber": "10111 (police), 10177 (ambulance)",
+ "accessibility": "The cruise terminal is a modern building with parking and a short, flat route to the Waterfront. The Waterfront itself is largely level. Ask the cableway about step-free access to the cars before you go. Bo-Kaap streets are steep and cobbled. Kirstenbosch has paved paths in parts of the garden. Book an accessible vehicle in advance.",
+ "rainyDay": "Rain or wind usually closes the cableway. Spend the time at Zeitz MOCAA and the Two Oceans Aquarium, both at the Waterfront, or visit the Bo-Kaap Museum. Robben Island ferries may also be cancelled in rough weather.",
+ "crowdTips": "The 2026–27 cruise season opened in mid-September, and the summer months from November to March are the busiest, with the longest cableway and Robben Island queues. Book both online, go up the mountain on the first cars, and leave the Waterfront for the afternoon.",
+ "faqs": [
+  {
+   "q": "Is Cape Town a tender port?",
+   "a": "No. Ships berth at the Cape Town Cruise Terminal at E Berth in Duncan Dock, next to the V&A Waterfront."
+  },
+  {
+   "q": "Is Cape Town walkable from the cruise port?",
+   "a": "The V&A Waterfront is, in daylight; its information centre is about five minutes' walk from the terminal. For Table Mountain, Bo-Kaap and beaches, use Uber, a booked taxi or a tourist bus."
+  },
+  {
+   "q": "How do I get from Cape Town cruise port to Table Mountain?",
+   "a": "Uber or a booked taxi, the City Sightseeing bus from the Waterfront (R315 adult day ticket, 2026), or MyCiTi routes 106/107 to Kloof Nek plus the free shuttle."
+  },
+  {
+   "q": "How much is the Table Mountain cable car?",
+   "a": "R475 return for adults online, or R530 at the ticket office, from 1 July 2026 to 30 June 2027. Tickets are valid for 7 days."
+  },
+  {
+   "q": "Can I visit Robben Island on a cruise day?",
+   "a": "Yes on most calls. The tour takes 3.5–4 hours from the Nelson Mandela Gateway at the Waterfront. Book ahead and take a morning sailing."
+  },
+  {
+   "q": "What can I do in Cape Town in one day from a cruise ship?",
+   "a": "Table Mountain by cableway early, Bo-Kaap and a Cape Malay lunch, then the V&A Waterfront and Zeitz MOCAA."
+  },
+  {
+   "q": "Beaches near Cape Town cruise port?",
+   "a": "Camps Bay is the nearest well-known beach, reached by Uber, taxi or MyCiTi. The water is very cold."
+  },
+  {
+   "q": "Is Cape Town safe for cruise passengers?",
+   "a": "The Waterfront is safe in daylight. Elsewhere, use booked transport, hide valuables, do not hike alone and do not walk after dark."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Table Mountain"
+  },
+  {
+   "name": "V&A Waterfront"
+  },
+  {
+   "name": "Robben Island"
+  },
+  {
+   "name": "Zeitz MOCAA"
+  },
+  {
+   "name": "Bo-Kaap"
+  },
+  {
+   "name": "Kirstenbosch National Botanical Garden"
+  },
+  {
+   "name": "Two Oceans Aquarium"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Table Mountain Aerial Cableway – Ticket prices (2026–27)",
+   "url": "https://www.tablemountain.net/plan-your-visit/ticket-prices/"
+  },
+  {
+   "title": "Table Mountain Aerial Cableway – Getting here",
+   "url": "https://www.tablemountain.net/plan-your-visit/getting-here"
+  },
+  {
+   "title": "SANBI – Kirstenbosch visitor information and fees 2026–2027",
+   "url": "https://www.sanbi.org/gardens/kirstenboch/visitor-information/information/"
+  },
+  {
+   "title": "Cape Town Tourism – The traveller's guide to Bo-Kaap (2026)",
+   "url": "https://capetown.travel/the-travellers-guide-to-bo-kaap/"
+  },
+  {
+   "title": "Government of Canada – South Africa travel advice",
+   "url": "https://travel.gc.ca/destinations/south-africa"
+  },
+  {
+   "title": "ATTA – FCDO updates South Africa travel advice (April 2026)",
+   "url": "https://atta.travel/resource/fcdo-updates-south-africa-travel-advice.html"
+  },
+  {
+   "title": "Azamara – Cape Town port directions (PDF)",
+   "url": "https://www.azamara.com/static-assets/resources/Port-Information/Cape-Town-Port-Directions.pdf"
+  },
+  {
+   "title": "Cruise & Ferry – Welcome at Cape Town's E Berth terminal",
+   "url": "https://www.cruiseandferry.net/articles/why-cruise-guests-can-expect-an-exceptional-welcome-at-cape-town-1"
+  },
+  {
+   "title": "CruiseMapper – Pacific World opens Cape Town's 2026–27 season",
+   "url": "https://www.cruisemapper.com/news/16758-pacific-world-ship-opens-cape-town-cruise-season"
+  },
+  {
+   "title": "Cruise Critic – Cape Town port guide",
+   "url": "https://www.cruisecritic.com/ports/newport.cfm?ID=227"
+  },
+  {
+   "title": "What's In Port – Cape Town",
+   "url": "https://www.whatsinport.com/Cape-Town.htm"
+  },
+  {
+   "title": "Time Out – Robben Island Museum",
+   "url": "https://www.timeout.com/cape-town/things-to-do/robben-island-museum"
+  },
+  {
+   "title": "Private Tours Cape Town – Robben Island tour guide (May 2026)",
+   "url": "https://www.privatetourscapetown.com/blog/robben-island-tour-guide"
+  },
+  {
+   "title": "Time Out – Zeitz MOCAA",
+   "url": "https://www.timeout.com/cape-town/things-to-do/zeitz-museum-of-contemporary-art-africa"
+  },
+  {
+   "title": "MyCiTi – Single trip cards media release",
+   "url": "https://www.myciti.org.za/en/contact/media-releases/single-trip-cards-selling-like-hotcakes/"
+  }
+ ],
+ "uncertain": [
+  "Robben Island 2026 ticket price for foreign adults (sources conflict: R1,400 in 2025 vs about R600 in 2026) and the current official booking channel",
+  "Current MyCiTi fares and card prices",
+  "Walking time from the terminal to the city centre",
+  "Travel time by road from the terminal to the Lower Cable Station",
+  "Two Oceans Aquarium prices",
+  "Typical all-aboard time (17:30 assumed)",
+  "Zeitz MOCAA 2026 price (2025 figure shown)"
+ ]
+}

@@ -1,0 +1,159 @@
+---
+import Base from '../layouts/Base.astro';
+import Panel from '../components/Panel.astro';
+import { app, fmt, toMin, PRICES, unsplash, srcset } from '../lib/site.js';
+import { CAT, REGIONS, leaveRows, cityShort } from '../lib/ports.js';
+import { HOME_FAQS } from '../data/homeFaqs.js';
+
+const AA = '18:00';
+const leave = (slug, match) => { const r = leaveRows(slug).find((x) => x.from.includes(match)); return r ? fmt(toMin(AA) - r.minutesBeforeAllAboard) : ''; };
+const WEEK = [['Mon', 'barcelona', 'Sagrada'], ['Tue', 'marseille', 'Vieux-Port'], ['Wed', 'livorno', 'Florence'], ['Thu', 'rome', 'San Pietro'], ['Fri', 'naples', 'Pompeii']]
+  .map(([d, s, m]) => { const r = leaveRows(s).find((x) => x.from.includes(m)); return r && CAT[s] ? { d, s, city: cityShort(CAT[s].city), from: r.from.split(' (')[0], t: fmt(toMin(AA) - r.minutesBeforeAllAboard) } : null; }).filter(Boolean);
+const PASS = [
+  'Every port of your cruise timed to your all-aboard, in port time and ship time',
+  'Live on the day: Google Maps travel time back to the pier, alerts at 30, 15 and 0 minutes',
+  'The full planner for each port, with a Plan B if you run late',
+  'An offline copy for when there is no signal',
+];
+const VS = [
+  ['Your all-aboard, on two clocks', 'Doesn’t know if your ship keeps its own time', 'Port time and ship time, side by side'],
+  ['Tender and cable-car queues', 'Usually left out of the timing', 'Counted in every leave-by time, port by port'],
+  ['Where the facts come from', 'Can’t always say. Sometimes the wrong pier, or last year’s price', 'Checked against official sources, dated, linked'],
+  ['Where you are right now', 'Can’t see you', 'Live Google Maps travel time back to the pier'],
+  ['Telling you it’s time', 'Only if you ask it', 'Alerts at 30, 15 and 0 minutes'],
+];
+const total = Object.keys(CAT).length;
+const hero = '1555990793-da11153b2473';
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: 'PortTrip', url: 'https://porttrip.com/' },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: HOME_FAQS.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
+---
+<Base title="When to Head Back to Your Cruise Ship, Port by Port | PortTrip"
+  description={`The latest time to leave each part of town for your cruise ship, in port time and ship time, with tender queues counted. Checked guides for ${total} ports. Free.`}
+  path="/" darkNav jsonLd={jsonLd} lcpImage={{ src: unsplash(hero, 1600), srcset: srcset(hero) }}>
+
+  <Panel first id={hero} pos="50% 60%" alt="Dubrovnik old town and harbour from above" title="Cruise port days, timed to your ship."
+    sub="The latest you can leave each part of town, in port time and ship time, with the queues counted.">
+    <a href={app('/day/dubrovnik?aa=18%3A00')} class="btn-dark sm:w-64" rel="nofollow">Plan a port free</a>
+    <a href="#vs-ai" class="btn-light sm:w-64">Why not ChatGPT?</a>
+  </Panel>
+  <Panel id="1552832230-c0197dd311b5" pos="50% 70%" alt="The Colosseum in Rome" title="Rome"
+    sub="The ship’s coach is $129.99. The train is €9.20 return.">
+    <a href={app('/day/rome?aa=18%3A00')} class="btn-dark sm:w-64" rel="nofollow">Plan Rome</a>
+    <a href="/ports/rome" class="btn-light sm:w-64">Read the guide</a>
+  </Panel>
+  <Panel tone="dark" id="1533105079780-92b9be482077" pos="50% 40%" alt="Santorini caldera from a whitewashed lane" title="Santorini"
+    sub={`All aboard at ${AA}? Be at the Fira cable car by ${leave('santorini', 'Fira')}. The queue is already counted.`}>
+    <a href={app('/day/santorini?aa=18%3A00')} class="btn-dark sm:w-64" rel="nofollow">Plan Santorini</a>
+    <a href="/ports/santorini" class="btn-light sm:w-64">Read the guide</a>
+  </Panel>
+  <Panel strong id="1516483638261-f4dbaf036963" pos="50% 60%" alt="Manarola in the Cinque Terre" title="Cinque Terre"
+    sub={`Leave the villages by ${leave('la-spezia', 'Cinque Terre')} port time. If your ship keeps its own clock, you see both.`}>
+    <a href={app('/day/la-spezia?aa=18%3A00')} class="btn-dark sm:w-64" rel="nofollow">Plan La Spezia</a>
+    <a href="/ports/la-spezia" class="btn-light sm:w-64">Read the guide</a>
+  </Panel>
+  <Panel strong id="1548574505-5e239809ee19" alt="Cruise ships at the pier from above" title="Live on the day"
+    sub={`Google Maps travel time back to the pier, alerts at 30, 15 and 0 minutes. Cruise Pass ${PRICES.pass}, one sailing.`}>
+    <a href={app('/pricing')} class="btn-dark sm:w-64" rel="nofollow">Get the Cruise Pass</a>
+    <a href="#pricing" class="btn-light sm:w-64">Compare passes</a>
+  </Panel>
+
+  <section id="vs-ai" class="scroll-mt-16 bg-navy px-5 py-16 text-white sm:px-8 sm:py-24">
+    <div class="mx-auto max-w-5xl">
+      <h2 class="text-3xl font-semibold tracking-tight sm:text-5xl">Ask ChatGPT for ideas.<br />Don’t ask it when to leave.</h2>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-white/75">A chatbot can suggest what to see. It can’t see your ship’s clock, the tender queue or where you’re standing at 3 pm. That last hour is where people miss the ship.</p>
+      <div class="mt-10 overflow-hidden rounded-2xl ring-1 ring-white/15">
+        <div class="hidden grid-cols-[1.1fr_1fr_1fr] bg-white/[0.06] px-6 py-3 text-sm font-semibold text-white/70 sm:grid"><span></span><span>ChatGPT and other AI</span><span class="text-signal">PortTrip</span></div>
+        {VS.map(([w, ai, pt], i) => (
+          <div class:list={['grid gap-2 px-4 py-4 text-sm sm:grid-cols-[1.1fr_1fr_1fr] sm:gap-3 sm:px-6 sm:text-[15px]', i > 0 && 'border-t border-white/10', 'sm:border-t sm:border-white/10']}>
+            <span class="font-semibold">{w}</span>
+            <span class="text-white/65"><span class="font-semibold sm:hidden">AI: </span>{ai}</span>
+            <span><span class="font-semibold text-signal sm:hidden">PortTrip: </span>{pt}</span>
+          </div>
+        ))}
+      </div>
+      <div class="mt-8 grid gap-4 text-sm text-white/70 sm:grid-cols-2">
+        <blockquote class="border-l-2 border-signal pl-4">“Timelines were totally unrealistic.”<footer class="mt-1 text-white/50">Cruise Critic member on AI cruise planning, <a href="https://www.cruisecritic.com/articles/dos-donts-ai-cruise-planning" class="underline" rel="noopener">Cruise Critic, 2026</a></footer></blockquote>
+        <blockquote class="border-l-2 border-signal pl-4">“ChatGPT guessed incorrectly which port we’d dock at.”<footer class="mt-1 text-white/50"><a href="https://www.royalcaribbeanblog.com/2025/06/26/we-used-ai-cruise-tour-planning-advice-and-were-surprised-what-we-found" class="underline" rel="noopener">Royal Caribbean Blog test, 2025</a></footer></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-mist px-5 py-16 sm:px-8 sm:py-24">
+    <div class="mx-auto max-w-3xl">
+      <p class="text-xl leading-[1.55] text-navy sm:text-2xl">PortTrip is built by Elke, in Maastricht. I started it after watching cruise passengers pay for a coach tour to a city they could have reached on a €3 bus — and after seeing how stressful the return to the ship is when you're doing it alone. PortTrip plans the day around your all-aboard time so you can go on your own with a clear plan. If something in a guide is wrong, email hello@porttrip.com and I'll fix it.</p>
+      <p class="mt-6 text-lg font-semibold text-sea">Elke</p>
+    </div>
+  </section>
+
+  <section id="pricing" class="scroll-mt-16 bg-fog px-5 py-16 sm:px-8 sm:py-24">
+    <div class="mx-auto max-w-6xl">
+      <div class="grid items-center gap-10 lg:grid-cols-[1fr_1.05fr] lg:gap-16">
+        <div>
+          <h2 class="text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">One port is free. Your whole cruise is {PRICES.pass}.</h2>
+          <p class="mt-5 text-lg leading-relaxed text-navy/80">Every port has its own queues, transport and clock. The Cruise Pass times all of them to your ship, then watches the clock for you on the day.</p>
+          <ul class="mt-6 space-y-2.5">{PASS.map((f) => <li class="flex gap-3 text-navy/85"><span class="mt-1 h-2 w-2 flex-shrink-0 rounded-full bg-sea"></span>{f}</li>)}</ul>
+        </div>
+        <figure class="rounded-[1.4rem] bg-white shadow-[0_24px_60px_-30px_rgba(15,46,68,0.45)] ring-1 ring-navy/10">
+          <div class="flex items-center justify-between rounded-t-[1.4rem] bg-navy px-5 py-3 text-white"><span class="text-sm font-semibold">Your cruise with the Cruise Pass</span><span class="text-xs text-white/70">Example: all aboard {AA}</span></div>
+          <ol class="divide-y divide-navy/10">{WEEK.map((w) => (
+            <li class="grid grid-cols-[2.75rem_1fr_auto] items-center gap-3 px-5 py-3.5">
+              <span class="text-xs font-bold text-navy/50">{w.d}</span>
+              <span class="min-w-0"><a href={`/ports/${w.s}`} class="block font-semibold hover:underline">{w.city}</a><span class="block truncate text-sm text-navy/60">Leave {w.from}</span></span>
+              <span class="rounded-lg bg-signal px-2.5 py-1 text-lg font-semibold tabular-nums">{w.t}</span>
+            </li>))}</ol>
+          <figcaption class="rounded-b-[1.4rem] bg-mist px-5 py-3 text-xs text-navy/60">Times from each port’s checked guide. Your pass uses your ship’s real times.</figcaption>
+        </figure>
+      </div>
+      <div class="mt-16 grid gap-4 lg:grid-cols-[1fr_1.25fr_1fr]">
+        <div class="flex flex-col rounded-2xl bg-white/60 p-6 ring-1 ring-navy/10">
+          <h3 class="text-lg font-semibold">Free</h3><p class="mt-1 text-3xl font-semibold tracking-tight">Nothing to pay</p>
+          <ul class="mt-4 flex-1 space-y-2 text-[15px] text-navy/80"><li>Leave-by times for every checked port</li><li>Port time and ship time</li><li>The full guide and day plan for each port</li></ul>
+          <a href={app('/day/dubrovnik')} class="mt-6 inline-flex h-12 items-center justify-center rounded-lg border border-navy/25 font-semibold hover:bg-white" rel="nofollow">Plan a port free</a>
+        </div>
+        <div class="flex flex-col rounded-2xl bg-navy p-7 text-white shadow-[0_30px_60px_-30px_rgba(15,46,68,0.7)] lg:-my-4">
+          <h3 class="text-lg font-semibold">Cruise Pass</h3><p class="mt-1 text-4xl font-semibold tracking-tight">{PRICES.pass}</p>
+          <p class="text-sm text-white/65">One sailing, up to 10 ports. Pay once, nothing renews.</p>
+          <ul class="mt-5 flex-1 space-y-2.5 text-[15px] text-white/90">{PASS.map((f) => <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-signal"></span>{f}</li>)}</ul>
+          <a href={app('/pricing')} class="btn-signal mt-6" rel="nofollow">Get the Cruise Pass</a>
+          <p class="mt-3 text-center text-xs text-white/60">30-day full refund.</p>
+        </div>
+        <div class="flex flex-col rounded-2xl bg-white p-6 ring-1 ring-navy/10">
+          <h3 class="text-lg font-semibold">Year Pass</h3><p class="mt-1 text-3xl font-semibold tracking-tight">{PRICES.year}<span class="text-base font-normal text-navy/55"> a year</span></p>
+          <p class="text-sm text-navy/65">Every cruise for 12 months.</p>
+          <p class="mt-4 flex-1 text-[15px] text-navy/80">Everything in the Cruise Pass, for as many sailings as you take. Cancel any time.</p>
+          <a href={app('/pricing')} class="btn-navy mt-6" rel="nofollow">Get the Year Pass</a>
+        </div>
+      </div>
+      <p class="mt-6 text-center text-xs text-navy/55">Prices in euros; US visitors pay $17 and $45. Secure checkout with Stripe.</p>
+    </div>
+  </section>
+
+  <section class="bg-white px-5 py-16 sm:px-8 sm:py-24">
+    <div class="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
+      <div><h2 class="text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">Questions people ask before they book</h2><p class="mt-4 text-lg text-navy/75">Something else? Email <a href="mailto:hello@porttrip.com" class="font-semibold text-sea underline underline-offset-4">hello@porttrip.com</a>. Elke answers.</p></div>
+      <div class="divide-y divide-navy/10 border-y border-navy/10">
+        {HOME_FAQS.map((f) => (
+          <details class="group"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-5 [&::-webkit-details-marker]:hidden"><h3 class="text-lg font-semibold">{f.q}</h3><span class="text-2xl leading-none text-sea transition-transform group-open:rotate-45" aria-hidden="true">+</span></summary><p class="pb-5 pr-8 leading-relaxed text-navy/75">{f.a}</p></details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-fog px-5 py-16 sm:px-8 sm:py-20">
+    <div class="mx-auto max-w-6xl">
+      <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Find your port</h2>
+      <p class="mt-3 max-w-2xl text-lg text-navy/75">{total} cruise ports, each checked against official sources: how to get to town, what it costs, and when to head back.</p>
+      <div class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {Object.entries(REGIONS).map(([region, slugs]) => (
+          <details class="group rounded-xl bg-white ring-1 ring-navy/10">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-4 [&::-webkit-details-marker]:hidden"><span class="font-semibold">{region}</span><span class="text-sm tabular-nums text-navy/55">{slugs.length} {slugs.length === 1 ? 'port' : 'ports'} ›</span></summary>
+            <ul class="flex flex-wrap gap-x-4 gap-y-2 px-5 pb-5 text-[15px]">{slugs.filter((s) => CAT[s]).map((s) => <li><a href={`/ports/${s}`} class="text-navy/80 underline-offset-4 hover:text-sea hover:underline">{CAT[s].city}</a></li>)}</ul>
+          </details>
+        ))}
+      </div>
+      <p class="mt-8 flex flex-wrap gap-x-6 gap-y-2 font-semibold"><a href="/cruise-port-index" class="text-sea underline underline-offset-4">How all {total} ports rank</a><a href="/cruise-port-rules" class="text-sea underline underline-offset-4">Port fees, taxes and visitor caps 2026–27</a></p>
+    </div>
+  </section>
+</Base>

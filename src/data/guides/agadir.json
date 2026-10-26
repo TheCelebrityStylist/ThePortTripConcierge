@@ -1,0 +1,341 @@
+{
+ "slug": "agadir",
+ "city": "Agadir",
+ "portName": "Port of Agadir (commercial port)",
+ "townName": "the beach promenade and city centre",
+ "country": "Morocco",
+ "currency": "MAD",
+ "currencySymbol": "MAD",
+ "language": "Arabic and Amazigh (Tamazight); French widely used",
+ "timezone": "UTC+1 (moves to UTC+0 during Ramadan)",
+ "lastVerified": "October 2026",
+ "seoTitle": "Agadir cruise port guide: shuttle, kasbah, souk and beach",
+ "seoDescription": "Ships dock in Agadir's commercial port, 4–6 km from the beach. Shuttle or petit taxi about 10–15 min. Souk El Had closed Mondays. Be back 60 min early.",
+ "quickAnswer": "Cruise ships dock in Agadir's large commercial and fishing port, about 4–6 km north of the city centre and beach; walking out is not practical. Take the port shuttle (a fee is charged) or a metered orange petit taxi from outside the port gates, about 10–15 minutes to the centre. Leave the beach or Souk El Had 75 minutes before all-aboard.",
+ "intro": "Agadir was rebuilt after the 1960 earthquake, so it is a modern resort city rather than an old medina town. The day splits three ways: the hilltop ruins of the Agadir Oufella kasbah just above the port, Souk El Had, one of the largest markets in Morocco, and the long sandy beach with its promenade in front of the centre. The cruise berth is in an industrial port with almost no facilities, so you need a shuttle or taxi for everything. Souk El Had closes on Mondays, which decides the plan on a Monday call. A new dedicated cruise terminal is at the study stage, with no opening date.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Port of Agadir cruise berth (commercial port)",
+   "distanceToCentreKm": null,
+   "notes": "Ships dock alongside in the commercial and fishing port at the north end of Agadir Bay; no tender. The berth has minimal facilities. Taxis wait just outside the port security gates. Sources give 4–6 km to the centre and beach. A new cruise terminal outside the current basin, near the marina, is being studied (contracts for studies expected late 2026); nothing has been built yet."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": null,
+  "detail": "The centre is 4–6 km away through an industrial port, with heat and little shade. Use the shuttle or a petit taxi. Once at the beach, the promenade and the centre are easy on foot; Souk El Had and the kasbah need a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "Port shuttle",
+   "cost": "A fee is charged; amount set per call",
+   "time": "About 10 minutes to downtown",
+   "detail": "A paid shuttle bus runs from the berth to a central drop-off; in 2025 one ship's shuttle dropped passengers downtown near the beach promenade. Check the drop-off point, the price and the last return time in your daily programme."
+  },
+  {
+   "mode": "Petit taxi (orange)",
+   "cost": "Metered; insist the meter is switched on",
+   "time": "About 10–15 minutes to the centre, beach or Souk El Had",
+   "detail": "Orange petit taxis work within the city and take up to three passengers. Ask for the meter before you set off, or agree the fare first. Drivers may try to pick up other passengers. Pay in dirhams; some drivers take euros but give change in dirhams."
+  },
+  {
+   "mode": "Grand taxi",
+   "cost": "Agree the price before departure",
+   "time": "Varies",
+   "detail": "Larger shared taxis for groups and for trips outside the city, such as the beaches around Taghazout to the north. Agree the fare, the waiting time and the return to the port in advance."
+  },
+  {
+   "mode": "Cable car to Agadir Oufella",
+   "cost": "Check at the ticket office",
+   "time": "About 12 minutes up, over 1.7 km",
+   "detail": "The cable car opened in 2022 and runs from the Pont Tildi station on Rue Echouhada, in the city, up to the kasbah. Take a taxi to the lower station, then ride up."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave the beach promenade, the city centre or Souk El Had 75 minutes before all-aboard, and be at the ship 60 minutes before. If you use the shuttle, take one that arrives at the port at least 60 minutes before all-aboard.",
+  "detail": "The run back is short, but you have to find a taxi, pass the port gate and possibly walk to the ship within the port. Afternoon traffic in the centre and the queue at the last shuttles add time. Souk El Had has many gates: note the one you used so you can find taxis quickly.",
+  "emergencyFallback": "Take any petit taxi and ask for the port (le port, the cruise ship), showing your cruise card at the gate. If you will miss all-aboard, call the port agent number in your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Agadir Oufella kasbah, Souk El Had and the beach",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Petit taxis between each stop, metered",
+   "saving": "Usually large; all three are 10–15 minutes apart by taxi"
+  },
+  {
+   "item": "Marrakech",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Not recommended",
+   "saving": "Take the ship's tour; it is about 3 hours each way by road"
+  }
+ ],
+ "excursionAdvice": "Agadir's three main sights are close together and simple to do by petit taxi, so a ship's city tour adds little beyond a guide. Book the ship's excursion for Marrakech, about three hours away by road, or Taroudant, 88 km from the port; on these the ship waits for its own tours, and an independent delay would not be covered.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00, all-aboard is 17:30, and the call is not on a Monday (when Souk El Had is closed).",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Ashore. Take a petit taxi from outside the port gates to the Agadir Oufella kasbah, about 10 minutes, or to the cable car's Pont Tildi station."
+   },
+   {
+    "time": "09:00",
+    "what": "Agadir Oufella: the ruined walls and the view over the bay and port, before the heat."
+   },
+   {
+    "time": "10:15",
+    "what": "Petit taxi to Souk El Had. Note the gate you enter by."
+   },
+   {
+    "time": "10:30",
+    "what": "Souk El Had: spices, crafts, leather goods and produce. Haggle politely."
+   },
+   {
+    "time": "12:30",
+    "what": "Petit taxi to the beach. Lunch at a restaurant on the promenade."
+   },
+   {
+    "time": "13:45",
+    "what": "Walk the promenade and spend time on the beach."
+   },
+   {
+    "time": "16:15",
+    "what": "Petit taxi or shuttle back to the port, 75 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Agadir Oufella kasbah",
+   "why": "Hilltop ruins of the 16th-century fortified town, the only part of old Agadir left after the 1960 earthquake, with views over the bay.",
+   "timeNeeded": "1 hour",
+   "cost": "Check on arrival",
+   "tip": "About 10 minutes by taxi from the port, or ride the cable car up from Pont Tildi. Go early: the hilltop has little shade."
+  },
+  {
+   "name": "Souk El Had",
+   "why": "Agadir's biggest market, walled, with about 6,000 stalls selling spices, produce, crafts, clothes and household goods.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free",
+   "tip": "Open 06:00–20:30, closed Mondays; many stalls close for a few hours on Friday afternoons for prayers. About 15 minutes by taxi from the port."
+  },
+  {
+   "name": "Agadir beach and promenade",
+   "why": "A wide sandy beach of more than 8 km with a long seafront promenade lined with restaurants.",
+   "timeNeeded": "1–3 hours",
+   "cost": "Free",
+   "tip": "The promenade has ramps for wheelchair users. Keep valuables out of sight on the sand."
+  },
+  {
+   "name": "Agadir cable car",
+   "why": "Cable car over 1.7 km from the city to Agadir Oufella, opened in 2022.",
+   "timeNeeded": "45 minutes including the ride up and down",
+   "cost": "Check at the ticket office",
+   "tip": "The lower station is Pont Tildi on Rue Echouhada; take a taxi there from the port."
+  },
+  {
+   "name": "Agadir Memorial Museum",
+   "why": "Small museum on the 1960 earthquake and how the city was rebuilt.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Check on arrival",
+   "tip": "An indoor stop for a hot afternoon; check opening hours before you go."
+  },
+  {
+   "name": "Amazigh Museum",
+   "why": "Ethnographic collection of Amazigh (Berber) jewellery, textiles and objects.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check on arrival",
+   "tip": "Check opening hours before you go."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Agadir city beach",
+   "howToGetThere": "Shuttle or petit taxi from the port",
+   "time": "About 10–15 minutes by road",
+   "cost": "Free",
+   "note": "More than 8 km of sand in front of the centre, with the promenade behind it. This is the tourist beach; the Canadian government advises using tourist beaches rather than public ones."
+  },
+  {
+   "name": "Taghazout area beaches",
+   "howToGetThere": "Grand taxi with an agreed price and return",
+   "time": "Check the drive time with the driver; north of the port along the coast",
+   "cost": "Agree the fare in advance",
+   "note": "Surf beaches north of Agadir. Only on a long call, with the return fixed in advance."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Spices, dates and fresh produce",
+   "where": "Souk El Had",
+   "price": null
+  },
+  {
+   "dish": "Seafront lunch",
+   "where": "Restaurants on the Agadir beach promenade",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk from the ship into town.",
+   "fix": "The berth is in an industrial port 4–6 km from the centre. Take the shuttle or a petit taxi."
+  },
+  {
+   "mistake": "Planning Souk El Had on a Monday.",
+   "fix": "The souk is closed on Mondays. Swap in the kasbah, the museums and the beach."
+  },
+  {
+   "mistake": "Getting into a taxi without the meter on.",
+   "fix": "Ask for the meter before you move off, or agree the fare first."
+  },
+  {
+   "mistake": "Losing your bearings in Souk El Had.",
+   "fix": "It has many gates. Note the gate you used and a landmark near it."
+  },
+  {
+   "mistake": "Carrying only US dollars or cards.",
+   "fix": "Dollars are not widely accepted and souk stalls and taxis want cash. Get dirhams from a cash machine in the centre; the dirham cannot be taken out of Morocco, so spend it before you leave."
+  }
+ ],
+ "safety": "Agadir is a busy resort city and most visits pass without trouble. Pickpocketing and bag snatching are common in markets, on beaches and in crowded tourist areas, and thieves on motorbikes sometimes grab bags and jewellery, so keep valuables out of sight. Card fraud and ATM theft occur: use cash machines inside banks or businesses and cover the keypad. Women travelling alone may face verbal harassment. Foreign governments also advise that there is a threat of terrorism in Morocco, including at crowded tourist places. Emergency numbers: police 190, ambulance and fire 150, Gendarmerie Royale 177.",
+ "scams": [
+  "Unofficial guides: people posing as official guides approach tourists; an official guide carries a badge and authorisation from the local authority.",
+  "Guide commissions in the souk: guides often steer visitors to stalls that pay them commission, which pushes up prices. Agree any guide fee in advance.",
+  "Goods swapped at purchase: sellers may switch the item you chose for an inferior one; watch it being wrapped.",
+  "Card and ATM fraud: card skimming and theft at cash machines are reported; use ATMs inside banks and keep your card in sight.",
+  "Taxi meter not used: drivers may skip the meter or add passengers; ask for the meter at the start."
+ ],
+ "emergencyNumber": "190 (police), 150 (ambulance and fire)",
+ "accessibility": "Everything starts with a vehicle, so ask the ship whether the port shuttle is accessible, or book an accessible taxi in advance. The beach promenade is flat and has ramps. Agadir Oufella is on a hilltop with uneven ground; the cable car is the easier way up, but check access at the lower station. Souk El Had is flat but crowded, with narrow lanes.",
+ "rainyDay": "On a cool or wet day spend the time at the Agadir Memorial Museum and the Amazigh Museum, then Souk El Had (not Mondays).",
+ "crowdTips": "Agadir handled about 91,000 cruise passengers in 2025, more than 50% up on the year before. Go to the kasbah as soon as you are ashore, before the heat, and reach the souk by mid-morning. The beach promenade is easiest in the early afternoon, when you can walk it at your own pace before the return.",
+ "faqs": [
+  {
+   "q": "Is Agadir walkable from the cruise port?",
+   "a": "No. The berth is in an industrial port about 4–6 km from the centre and beach. Take the shuttle or a petit taxi."
+  },
+  {
+   "q": "How do I get from Agadir cruise port to the beach?",
+   "a": "By the paid port shuttle, about 10 minutes, or an orange petit taxi from outside the port gates. Ask for the meter."
+  },
+  {
+   "q": "Is Agadir a tender port?",
+   "a": "No. Ships dock alongside in the commercial port."
+  },
+  {
+   "q": "Is Souk El Had open on Sunday?",
+   "a": "Yes. It opens 06:00–20:30 and closes on Mondays; many stalls also close for a few hours on Friday afternoons."
+  },
+  {
+   "q": "What can I do in Agadir in one day from a cruise ship?",
+   "a": "Agadir Oufella kasbah in the morning, Souk El Had late morning, then lunch and the beach promenade. All are 10–15 minutes apart by taxi."
+  },
+  {
+   "q": "Can I visit Marrakech from Agadir on a cruise?",
+   "a": "Only on the ship's tour. It is about three hours each way by road, which leaves little time and a real return risk."
+  },
+  {
+   "q": "Beaches near Agadir cruise port?",
+   "a": "The city beach, more than 8 km of sand, is 10–15 minutes from the port. Taghazout's surf beaches lie north along the coast and need a grand taxi."
+  },
+  {
+   "q": "Is Agadir safe?",
+   "a": "Generally yes. Watch for pickpockets in the souk and on the beach, use metered taxis and keep valuables out of sight."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Agadir Oufella kasbah"
+  },
+  {
+   "name": "Souk El Had"
+  },
+  {
+   "name": "Agadir beach and promenade"
+  },
+  {
+   "name": "Agadir cable car"
+  },
+  {
+   "name": "Agadir Memorial Museum"
+  },
+  {
+   "name": "Amazigh Museum"
+  }
+ ],
+ "sources": [
+  {
+   "title": "GOV.UK – Morocco travel advice: safety and security (2026)",
+   "url": "https://gov.uk/foreign-travel-advice/morocco/safety-and-security"
+  },
+  {
+   "title": "U.S. Department of State – Morocco international travel information (2026)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Morocco.html"
+  },
+  {
+   "title": "Government of Canada – Morocco travel advice (2026)",
+   "url": "https://travel.gc.ca/destinations/Morocco"
+  },
+  {
+   "title": "Le360 – Port d'Agadir: future cruise terminal (October 2026)",
+   "url": "https://fr.le360.ma/economie/port-dagadir-du-concret-pour-le-futur-terminal-de-croisieres_LII6LMWD25FPNBB5BWCNBHVYJI/"
+  },
+  {
+   "title": "Le360 – Agadir cable car tariffs (2022)",
+   "url": "https://fr.le360.ma/societe/agadir-voici-les-nouveaux-tarifs-du-telepherique-valables-jusquau-15-decembre-prochain-268346/"
+  },
+  {
+   "title": "Le360 – Agadir petit taxi fares (2022)",
+   "url": "https://fr.le360.ma/societe/agadir-hausse-inattendue-du-tarif-des-courses-en-petit-taxi-les-professionnels-sen-expliquent-257247/"
+  },
+  {
+   "title": "Cruisesheet – Agadir port guide",
+   "url": "https://cruisesheet.com/port/agadir"
+  },
+  {
+   "title": "CruiseDig – Agadir cruise port guide",
+   "url": "https://cruisedig.com/agadir-morocco-cruise-port-guide-info"
+  },
+  {
+   "title": "Worldtrippers – Agadir by cruise ship (2025)",
+   "url": "https://www.worldtrippers.com/25crystal/250404_sky/l250424.htm"
+  },
+  {
+   "title": "Frommer's – Planning a trip to Agadir",
+   "url": "https://www.frommers.com/destinations/agadir/planning-a-trip/"
+  },
+  {
+   "title": "Culture Trip – An essential guide to Souk El Had",
+   "url": "https://theculturetrip.com/africa/morocco/articles/an-essential-guide-to-souk-el-had"
+  },
+  {
+   "title": "Pixidia – Téléphérique Agadir Oufella (2026)",
+   "url": "https://pixidia.com/exp-act/telepherique-agadir-oufella/"
+  },
+  {
+   "title": "Civitatis – Agadir cable car tour",
+   "url": "https://www.civitatis.com/fr/agadir/telepherique-agadir/"
+  }
+ ],
+ "uncertain": [
+  "Cable car ticket price: sources conflict (MAD 60–80 return in 2022; a 2026 visitor reports MAD 130) and hours are reported only by one visitor.",
+  "Port shuttle price and exact drop-off point: a fee is charged, but the amount and stop vary by call.",
+  "Current petit taxi fare from the port to the centre: only an undated guidebook figure and a 2022 minimum fare were found.",
+  "Entry fees and opening hours for Agadir Oufella, the Agadir Memorial Museum and the Amazigh Museum: not confirmed.",
+  "Exact walking route out of the port and distance from berth to gate: varies by berth.",
+  "Typical all-aboard time for Agadir calls: not found; the day plan uses 17:30."
+ ]
+}

@@ -1,0 +1,382 @@
+{
+ "slug": "kirkwall",
+ "city": "Kirkwall",
+ "portName": "Hatston Pier, Kirkwall (Orkney Islands Council Harbour Authority)",
+ "townName": "Kirkwall town centre",
+ "country": "Scotland (United Kingdom)",
+ "currency": "GBP",
+ "currencySymbol": "£",
+ "language": "English",
+ "timezone": "GMT (UTC+0), BST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Kirkwall cruise port guide: Hatston shuttle and Skara Brae",
+ "seoDescription": "Hatston Pier is 4 km from Kirkwall; a free shuttle takes 7 minutes to the Travel Centre. Last bus leaves 60 min before sailing. Skara Brae £14 online (2026).",
+ "quickAnswer": "Most ships dock at Hatston Pier, about 4 km from Kirkwall, and a free council shuttle takes around seven minutes to the Kirkwall Travel Centre, two minutes' walk from the shops. Smaller ships use Kirkwall Pier or anchor in the bay and tender into Kirkwall Harbour, right in town. Be back at the Travel Centre 90 minutes before all-aboard (120 minutes at the tender landing if you anchored); the last shuttle leaves town 60 minutes before the ship's departure.",
+ "intro": "Kirkwall is Orkney's main town, built around the red and yellow sandstone St Magnus Cathedral. The famous Neolithic sites, Skara Brae, the Ring of Brodgar and the Stones of Stenness, are 17 to 27 km away in the West Mainland, so the day splits into two choices: a relaxed town day on foot, or a trip out to the monuments. Orkney receives more than 100 cruise calls a year at Hatston, and on big-ship days the shuttle, the cathedral and the main sites fill quickly. Weather changes fast; bring a waterproof whatever the forecast.",
+ "isTender": false,
+ "tenderNotes": "Most calls dock at Hatston Pier. Some ships berth at Kirkwall Pier in the town centre, and others anchor in Kirkwall Bay and tender to Kirkwall Harbour, which lands you in the town centre close to the shops and restaurants. On tender days, allow extra time for the queue back to the ship.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Hatston Pier (main cruise berth)",
+   "distanceToCentreKm": 4,
+   "notes": "Orkney's main cruise berth, about 4 km (2.5 miles) from Kirkwall. Free council shuttle to the Kirkwall Travel Centre. Free internet at the pier. Ship coach tours leave from the pier near the gangways."
+  },
+  {
+   "name": "Kirkwall Pier / tender landing in Kirkwall Harbour",
+   "distanceToCentreKm": null,
+   "notes": "Used by smaller ships alongside and by tenders from ships anchored in Kirkwall Bay. You land in the town centre within walking distance of the shops, cathedral and restaurants."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 50,
+  "km": 4,
+  "detail": "From Hatston the walk into town takes 40 minutes to an hour on pavements for most of the route; follow the road and passenger signs. Most people take the free shuttle. If you land at Kirkwall Pier or by tender, everything in the centre is a short walk."
+ },
+ "transportSections": [
+  {
+   "mode": "Free cruise shuttle (Hatston Pier to Kirkwall Travel Centre)",
+   "cost": "Free (2026)",
+   "time": "About 7 min",
+   "detail": "Run for Orkney Islands Council by Orkney Transport. Starts at 08:30, or later if your ship arrives after 08:30, and runs on a continuous rotation according to demand rather than a fixed timetable. The last bus leaves town 60 minutes before the ship's scheduled departure, or at 18:00 if the ship sails after 19:00. The Travel Centre is a two-minute walk from the main shopping area, and Meet and Greet staff there give directions and local bus information."
+  },
+  {
+   "mode": "On foot from Hatston",
+   "cost": "Free",
+   "time": "40–60 min",
+   "detail": "About 4 km, with pavements for most of the route. Follow the passenger signs. Only worth it in good weather or if you want the exercise."
+  },
+  {
+   "mode": "Stagecoach bus X1 (Kirkwall to Stromness)",
+   "cost": "Check fares with Stagecoach (01856 870555)",
+   "time": "About 30 min to Stromness",
+   "detail": "Leaves from Stance 2 at the Kirkwall Travel Centre, roughly every 30 minutes on weekday daytimes, less often in the evening and on Sundays. On the enhanced summer timetable (6 April to 30 October 2026) some X1 journeys also call at Stenness, the Ring of Brodgar and Skara Brae Visitor Centre, roughly hourly. Check the current timetable on the council's bus page before relying on it for the return."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree the fare before setting off",
+   "time": "Depends on destination",
+   "detail": "Taxis can take you anywhere on the Mainland. Road distances from Kirkwall: Italian Chapel 12.9 km, Stones of Stenness 17.7 km, Ring of Brodgar 19.3 km, Skara Brae 27.3 km."
+  },
+  {
+   "mode": "Ship or private tour",
+   "cost": "Varies; check your cruise planner",
+   "time": "Half or full day",
+   "detail": "Ship tours board coaches on the pier near the gangways. Private tour operators notify the harbour team in advance, and Meet and Greet staff direct you to your guide."
+  }
+ ],
+ "returnTiming": {
+  "rule": "If docked at Hatston, be at the Kirkwall Travel Centre 90 minutes before all-aboard (by 16:00 for a 17:30 all-aboard). If your ship is at anchor, be at the tender landing in Kirkwall Harbour 120 minutes before all-aboard.",
+  "detail": "The shuttle runs to demand, so on big-ship days the queue at the Travel Centre builds in the last hour as everyone heads back at once. The last shuttle leaves town 60 minutes before the scheduled departure, which is later than you should aim for. If you go out to the West Mainland by bus, buses to Skara Brae are roughly hourly even in summer; leave Skara Brae at least two and a half hours before all-aboard so a missed or late bus does not strand you.",
+  "emergencyFallback": "From town, take a taxi to Hatston Pier; it is about 4 km. From the West Mainland, take a taxi straight to the pier rather than waiting for the next bus. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Skara Brae",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "£14 online or £16 at the door, adult (2026), plus bus fare or taxi",
+   "saving": "Depends on your line's price and the transport you choose"
+  },
+  {
+   "item": "Italian Chapel",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "£4 adult entry (2026) plus taxi; no public bus to the chapel is listed in the council bus guide",
+   "saving": "Small for a group sharing a taxi"
+  }
+ ],
+ "excursionAdvice": "Kirkwall itself needs no tour: the shuttle drops you two minutes from the cathedral, and the town centre is small and walkable. A ship tour earns its price for the West Mainland, because Skara Brae, the Ring of Brodgar, the Stones of Stenness and the Italian Chapel are spread across 13 to 27 km of road and the buses that reach them run only about hourly. If you want to go independently, do Skara Brae and the Ring of Brodgar by summer X1 bus on a long call with a weekday timetable, or share a pre-booked local guide or taxi. On short calls or Sundays, the ship tour removes the return risk.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Hatston Pier at 08:00 and all-aboard is 17:30, on a weekday in summer.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Take the first free shuttle from Hatston to the Kirkwall Travel Centre, about seven minutes."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk two minutes into the centre. Pick up the free Welcome to Kirkwall map from the Meet and Greet staff."
+   },
+   {
+    "time": "09:00",
+    "what": "St Magnus Cathedral before the tour groups arrive. Entry is free; a £5 donation is requested."
+   },
+   {
+    "time": "10:00",
+    "what": "Bishop's and Earl's Palaces across the road (April to September), then the Orkney Museum in Tankerness House on Broad Street (opens 10:30)."
+   },
+   {
+    "time": "12:00",
+    "what": "Lunch, for example Orkney crab or soup and bere bannock at the Judith Glue Real Food Cafe on Broad Street, opposite the cathedral."
+   },
+   {
+    "time": "13:15",
+    "what": "Option A: walk down Albert Street and along the harbour front, with time for shops. Option B, only if pre-booked: a Highland Park distillery tour on Holm Road (over-18s, card payment)."
+   },
+   {
+    "time": "15:30",
+    "what": "Back towards the Travel Centre. Last coffee nearby."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the shuttle queue at the Travel Centre, 90 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, an hour before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "St Magnus Cathedral",
+   "why": "Red and yellow sandstone Romanesque cathedral begun in 1137 by Rognvald, nephew of St Magnus. The centre of Kirkwall.",
+   "timeNeeded": "45 minutes; 75 minutes for the Upper Levels tour",
+   "cost": "Free; £5 donation requested. Upper Levels tour £15.60 (from 1 May 2026)",
+   "tip": "From October to March it is open Monday to Saturday 09:00–17:00 and closed to visitors on Sundays apart from the 11:15 service. The Upper Levels tour climbs narrow spiral stairs to the bells and clock, minimum age 12, and must be booked with the custodians or on 01856 874894. It may also close for weddings or funerals."
+  },
+  {
+   "name": "Bishop's and Earl's Palaces",
+   "why": "Two ruined palaces beside the cathedral, run by Historic Environment Scotland.",
+   "timeNeeded": "45 minutes",
+   "cost": "£7.50 online or £8.50 at the door, adult (2026)",
+   "tip": "Open 1 April to 30 September only, 10:00–16:30 with a lunch closure 12:30–13:00. The upper level of the Moosie Tower is closed."
+  },
+  {
+   "name": "The Orkney Museum (Tankerness House)",
+   "why": "Orkney's story from the Stone Age through the Picts and Vikings to today, in a former family home on Broad Street.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Check on arrival; the council page states no admission charge",
+   "tip": "Open Monday to Saturday, 10:30–17:00. A good choice if it rains."
+  },
+  {
+   "name": "Skara Brae",
+   "why": "A Neolithic village of stone houses on the west coast of the Mainland, the best-known of Orkney's prehistoric sites.",
+   "timeNeeded": "3.5–4.5 hours including travel",
+   "cost": "£14 online or £16 at the door, adult (2026)",
+   "tip": "27.3 km from Kirkwall. Open daily 09:30–17:30 from April to September (10:00–16:00 October to March), last entry an hour before closing. Book online for the lower price and guaranteed entry."
+  },
+  {
+   "name": "Ring of Brodgar",
+   "why": "A great stone circle and henge, with prehistoric burial mounds and a large rock-cut ditch around it.",
+   "timeNeeded": "45 minutes on site",
+   "cost": "Open all year; HES lists no ticket price",
+   "tip": "19.3 km from Kirkwall. Some summer X1 buses stop here on the way to Skara Brae. Exposed to wind and rain; wear waterproofs."
+  },
+  {
+   "name": "Italian Chapel, Lamb Holm",
+   "why": "A chapel made from two Nissen huts by Italian prisoners of war held at Camp 60, with an interior painted by Domenico Chiocchetti.",
+   "timeNeeded": "1.5–2 hours including travel",
+   "cost": "£4 adult; children 12 and under free (2026)",
+   "tip": "12.9 km from Kirkwall. Open 09:00–17:30 June to August, 09:00–17:00 May and September, 10:00–16:00 April and October. Go by taxi or tour."
+  },
+  {
+   "name": "Highland Park Distillery",
+   "why": "Whisky distillery on Holm Road at the southern edge of Kirkwall, with tours and tastings.",
+   "timeNeeded": "1.5–2 hours including travel",
+   "cost": "Check prices when booking",
+   "tip": "All tours must be booked in advance and paid by card. Strictly over 18s; Challenge 25 applies, so carry photo ID. Small groups of five to ten, so book early for cruise days."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Westray crab, Orkney smoked salmon, or soup with bere meal bannock",
+   "where": "Judith Glue Real Food Cafe, 25 Broad Street (opposite the cathedral)",
+   "price": null
+  },
+  {
+   "dish": "Small sharing plates with local produce, and lunch",
+   "where": "Twenty One, 21 Albert Street",
+   "price": null
+  },
+  {
+   "dish": "Pub food with local beer",
+   "where": "Helgi's, Harbour Street",
+   "price": null
+  },
+  {
+   "dish": "A dram of Highland Park whisky",
+   "where": "Highland Park Distillery, Holm Road (pre-booked tours, over 18s)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming Skara Brae and the Ring of Brodgar are near the port.",
+   "fix": "They are 19–27 km away in the West Mainland. Book a tour, or check the summer X1 timetable before setting out."
+  },
+  {
+   "mistake": "Turning up at Skara Brae without a ticket on a big-ship day.",
+   "fix": "Book online in advance: it is cheaper (£14 instead of £16 in 2026) and guarantees entry."
+  },
+  {
+   "mistake": "Planning on the last shuttle.",
+   "fix": "The last bus leaves 60 minutes before departure. Join the queue 90 minutes before all-aboard instead."
+  },
+  {
+   "mistake": "Planning to see the Bishop's and Earl's Palaces outside summer.",
+   "fix": "They open only from 1 April to 30 September, with a lunch closure 12:30–13:00. Spend the time in the cathedral and the Orkney Museum instead."
+  },
+  {
+   "mistake": "Dressing for the forecast.",
+   "fix": "Orkney weather changes quickly and the Neolithic sites are exposed. Take a waterproof, a warm layer and shoes that cope with wet grass."
+  }
+ ],
+ "safety": "Kirkwall is a small, safe town. The main hazards are weather and roads: wind and rain can arrive quickly, the Neolithic sites are exposed with no shelter, and the paths at Brodgar and Skara Brae are grassy and slippery when wet. Country roads are narrow and many have no pavement, so do not walk along them between sites. On tender days, follow crew instructions at the landing, especially in a swell.",
+ "scams": [],
+ "emergencyNumber": "999 (112 also works)",
+ "accessibility": "The shuttle links Hatston Pier and the Kirkwall Travel Centre; ask the ship about step-free boarding. The town centre is compact but has slopes and some uneven stone paving. St Magnus Cathedral has an accessible toilet, but access to St Rognvald's Chapel is limited, and the Upper Levels tour is on narrow spiral stairs and unsuitable for anyone with limited mobility. The upper level of the Moosie Tower at the Bishop's Palace is closed. Outdoor sites such as the Ring of Brodgar are on grass paths. On tender days, ask the ship whether wheelchair users can transfer; this depends on the sea.",
+ "rainyDay": "Stay in town. Spend time in St Magnus Cathedral and the Orkney Museum, book a Highland Park distillery tour, and have a long lunch on Broad Street or Albert Street. The West Mainland sites are outdoors and exposed, so they are a poor choice in heavy rain.",
+ "crowdTips": "Orkney receives more than 100 cruise calls a year, and on large-ship days the shuttle, the cathedral and the main sites get busy. Go to the cathedral first thing, before the coach tours return to town, and pre-book Skara Brae and the distillery. On big-ship days, avoid joining the shuttle queue in the last hour, when it is longest. Check the Orkney Harbours cruise arrivals list for your date to see how many ships are in.",
+ "faqs": [
+  {
+   "q": "Is Kirkwall a tender port?",
+   "a": "Usually not. Most ships dock at Hatston Pier, 4 km from town. Some smaller ships use Kirkwall Pier, and ships anchored in Kirkwall Bay tender into the harbour in the town centre."
+  },
+  {
+   "q": "Is Kirkwall walkable from the cruise port?",
+   "a": "Partly. From Hatston it is 40–60 minutes on foot, mostly on pavements. The free shuttle takes about seven minutes."
+  },
+  {
+   "q": "How do I get from Hatston Pier to Kirkwall town centre?",
+   "a": "Take the free council shuttle to the Kirkwall Travel Centre, a two-minute walk from the shops. It starts at 08:30 and runs continuously according to demand."
+  },
+  {
+   "q": "What time is the last shuttle bus back to the ship in Kirkwall?",
+   "a": "Normally 60 minutes before the ship's scheduled departure, or 18:00 if the ship sails after 19:00. Aim to be in the queue 90 minutes before all-aboard."
+  },
+  {
+   "q": "Can I visit Skara Brae on my own from a cruise ship?",
+   "a": "Yes on a long call. It is 27 km from Kirkwall. In summer some X1 buses from the Travel Centre call at Skara Brae roughly hourly, or take a taxi. Book tickets online (£14 adult in 2026)."
+  },
+  {
+   "q": "What can I do in Kirkwall in one day from a cruise ship?",
+   "a": "St Magnus Cathedral, the Bishop's and Earl's Palaces and the Orkney Museum in town, or a trip to Skara Brae, the Ring of Brodgar and the Italian Chapel."
+  },
+  {
+   "q": "How much is the Italian Chapel in Orkney?",
+   "a": "£4 per adult in 2026; children 12 and under are free. It is on Lamb Holm, 13 km from Kirkwall."
+  },
+  {
+   "q": "Is Kirkwall safe?",
+   "a": "Yes. Take care with sudden changes in weather at exposed sites and on narrow country roads without pavements."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "St Magnus Cathedral"
+  },
+  {
+   "name": "Skara Brae"
+  },
+  {
+   "name": "Ring of Brodgar"
+  },
+  {
+   "name": "Italian Chapel"
+  },
+  {
+   "name": "Bishop's and Earl's Palaces"
+  },
+  {
+   "name": "The Orkney Museum"
+  },
+  {
+   "name": "Highland Park Distillery"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cruise Orkney (Orkney Islands Council Marine Services) – home and arrivals",
+   "url": "https://www.cruise-orkney.com"
+  },
+  {
+   "title": "Cruise Orkney – Arriving in Kirkwall",
+   "url": "https://www.cruise-orkney.com/info/kirkwall"
+  },
+  {
+   "title": "Cruise Orkney – Kirkwall transport",
+   "url": "https://www.cruise-orkney.com/transport/kirkwall"
+  },
+  {
+   "title": "Orkney Islands Council – Cruise shuttle bus contract awarded (Feb 2025)",
+   "url": "https://www.orkney.gov.uk/latest-news/cruise-shuttle-bus-contract-awarded"
+  },
+  {
+   "title": "Orkney Islands Council – Planning ahead for Meraviglia visit (2018)",
+   "url": "https://www.orkney.gov.uk/latest-news/planning-ahead-for-meraviglia-visit"
+  },
+  {
+   "title": "Orkney Islands Council – Council backs cruise ship levy (Feb 2025)",
+   "url": "https://orkney.gov.uk/latest-news/council-backs-cruise-ship-levy"
+  },
+  {
+   "title": "Orkney Islands Council – Public bus guide, summer 2026",
+   "url": "https://www.orkney.gov.uk/media/e0vhtvq2/public-bus-guide-summer-2026-web-v4.pdf"
+  },
+  {
+   "title": "Orkney Islands Council – X1 timetable, summer 2026",
+   "url": "https://www.orkney.gov.uk/media/koxpdzl5/x1-st-margarets-hope-stromness-s26-v3.pdf"
+  },
+  {
+   "title": "Orkney Islands Council – St Magnus Cathedral",
+   "url": "https://www.orkney.gov.uk/our-services/leisure-and-culture/arts-museums-and-heritage/st-magnus-cathedral"
+  },
+  {
+   "title": "Orkney Islands Council – The Orkney Museum",
+   "url": "https://orkney.gov.uk/our-services/leisure-and-culture/arts-museums-and-heritage/museums-and-visitor-centres/the-orkney-museum"
+  },
+  {
+   "title": "Orkney.com – St Magnus Cathedral tours (2026)",
+   "url": "https://orkney.com/events/cathedral-tours"
+  },
+  {
+   "title": "Historic Environment Scotland – Skara Brae prices and opening times",
+   "url": "https://www.historicenvironment.scot/visit-a-place/places/skara-brae/prices-and-opening-times/"
+  },
+  {
+   "title": "Historic Environment Scotland – Bishop's and Earl's Palaces prices and opening times",
+   "url": "https://www.historicenvironment.scot/visit-a-place/places/bishop-s-and-earl-s-palaces-kirkwall/prices-and-opening-times/"
+  },
+  {
+   "title": "Historic Environment Scotland – Ring of Brodgar",
+   "url": "https://www.historicenvironment.scot/visit-a-place/places/ring-of-brodgar-stone-circle-and-henge/prices-and-opening-times/"
+  },
+  {
+   "title": "Orkney.com – The Italian Chapel",
+   "url": "https://www.orkney.com/listings/italian-chapel"
+  },
+  {
+   "title": "Highland Park – Distillery FAQs",
+   "url": "https://www.highlandparkwhisky.com/en/distillery-orkney-faqs"
+  },
+  {
+   "title": "Orkney.com – Judith Glue Real Food Cafe",
+   "url": "https://www.orkney.com/listings/judith-glue-shop-cafe"
+  },
+  {
+   "title": "Orkney.com – Twenty One",
+   "url": "https://www.orkney.com/listings/twenty-one"
+  },
+  {
+   "title": "Archaeology Orkney – Places to eat and drink in Kirkwall",
+   "url": "https://archaeologyorkney.com/conferences/places-to-eat-and-drink-in-kirkwall/"
+  },
+  {
+   "title": "Cruise Britain – New cruise information site for Kirkwall",
+   "url": "https://www.cruisebritain.org/news/new-cruise-information-site-kirkwall-orkney/?pdf=2455"
+  }
+ ],
+ "uncertain": [
+  "Cruise passenger levy: Orkney Islands Council backed a cruise ship levy in February 2025, pending Scottish Government consultation and legislation; no amount or start date was confirmed in the sources opened.",
+  "Maeshowe: Historic Environment Scotland's page shows timed tickets but no price, tour schedule or season; not included as a recommendation.",
+  "St Magnus Cathedral summer opening hours (only October–March hours were published on the pages opened).",
+  "Stagecoach X1 fares, and exact eastbound return times from Skara Brae.",
+  "Typical all-aboard time at Kirkwall (17:30 used as a default)."
+ ]
+}

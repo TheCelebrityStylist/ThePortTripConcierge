@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { fixLinks } from '../lib/site.js';
+import SNAP from '../data/snap.json';
+const { path, title: t, description: d, wide = false } = Astro.props;
+const s = SNAP[path];
+const title = t || s.title; const description = d || s.desc;
+---
+<Base title={title} description={description} path={path}>
+  <div class:list={['mx-auto px-5 pb-20 pt-10 sm:px-8', wide ? 'max-w-5xl' : 'max-w-3xl']}>
+    <div class="doc doc-snap" set:html={fixLinks(s.html)} />
+  </div>
+</Base>
+<style is:global>
+  .doc-snap h1 { font-size: 2.4rem; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: .6em; }
+  .doc-snap table { display: block; overflow-x: auto; }
+  .doc-snap ol li span, .doc-snap ol li a + span { margin-left: .5em; color: rgb(15 46 68 / .6); }
+</style>

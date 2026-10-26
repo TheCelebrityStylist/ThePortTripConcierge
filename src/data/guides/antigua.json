@@ -1,0 +1,382 @@
+{
+ "slug": "antigua",
+ "city": "St John's",
+ "portName": "Antigua Cruise Port, St John's (Heritage Quay, Redcliffe Quay, Nevis Street Pier, Deep Water Harbour)",
+ "townName": "St John's",
+ "country": "Antigua and Barbuda",
+ "currency": "XCD",
+ "currencySymbol": "EC$",
+ "priceSymbol": "US$",
+ "language": "English",
+ "timezone": "AST (UTC-4), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Antigua cruise port guide: St John's and Nelson's Dockyard",
+ "seoDescription": "Most ships dock at Heritage or Redcliffe Quay in central St John's. Bus 17 to Nelson's Dockyard runs about every 30 min, 45+ min each way. Taxis unmetered.",
+ "quickAnswer": "Most ships dock at Heritage Quay, Redcliffe Quay or the Nevis Street Pier, right in central St John's, so you walk straight into town. If your ship is at the Deep Water Harbour, take a taxi (10-20 minutes) rather than walking. For Nelson's Dockyard, bus 17 takes at least 45 minutes each way; leave English Harbour 2 hours 45 minutes before all-aboard by bus.",
+ "intro": "St John's is the capital and the cruise piers run right into its shopping streets, so on most calls you step off the ship into Heritage Quay. The town itself is a short visit: the cathedral, the museum in the old Court House and the public market. Most passengers head out for one of two things: Nelson's Dockyard and Shirley Heights on the south coast, or a beach such as Dickenson Bay or Jolly Beach. Taxis are unmetered and priced by zone, so agree the fare first. The one berth to watch for is the Deep Water Harbour, an industrial pier with no facilities where you need a taxi.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Heritage Quay and Redcliffe Quay",
+   "distanceToCentreKm": null,
+   "notes": "In central St John's, walking distance to shops, banks and restaurants, with tourist information, taxi ranks and toilets."
+  },
+  {
+   "name": "Nevis Street Pier",
+   "distanceToCentreKm": null,
+   "notes": "Fifth berth built by Global Ports Holding, completed around November 2020, able to take the largest Royal Caribbean ships. In St John's harbour beside the town."
+  },
+  {
+   "name": "Deep Water Harbour",
+   "distanceToCentreKm": null,
+   "notes": "Industrial port with no passenger services. The road has no pavement; take a taxi into town (10-20 minutes depending on traffic)."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": null,
+  "detail": "From Heritage and Redcliffe Quays you are already in town; the banks at High and Market Streets are about five minutes' walk. Not walkable from the Deep Water Harbour. Traffic drives on the left, so look right first when crossing."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (Heritage Quay, Redcliffe Quay, Nevis Street Pier)",
+   "cost": "Free",
+   "time": "5-10 min to the town centre",
+   "detail": "The piers lead straight into the Heritage Quay pedestrian street. The cathedral is uphill on the edge of the centre."
+  },
+  {
+   "mode": "Taxi from the Deep Water Harbour",
+   "cost": "Agree the fare before you get in",
+   "time": "10-20 min",
+   "detail": "There are no facilities at this berth. Allow extra time for the return, as downtown traffic backs up in rain."
+  },
+  {
+   "mode": "Taxi (island trips)",
+   "cost": "Unmetered; fares are set by zone. Agree the price, and the currency, before setting off",
+   "time": "Dickenson Bay is about 3 miles from the cruise terminals",
+   "detail": "Ranks are a short walk up the Heritage Quay pedestrian street and on Thames Street. Cruise taxi rates went up 10% for the 2023-24 season, the first rise since 2005-06. Sharing a van brings the cost per person down."
+  },
+  {
+   "mode": "Bus 17 to English Harbour (Nelson's Dockyard)",
+   "cost": "Cash fare; carry small EC$ notes",
+   "time": "At least 45 min each way; about every 30 min",
+   "detail": "Minibuses stop wherever they are flagged, which makes the trip slow. St John's has two bus stations; ask for the English Harbour bus. Check when the last convenient bus back leaves before you go."
+  }
+ ],
+ "returnTiming": {
+  "rule": "From St John's, start back 75 minutes before all-aboard (90 if your ship is at the Deep Water Harbour). From Dickenson Bay leave 90 minutes before, from Jolly Beach 2 hours before, and from English Harbour 2 hours by taxi or 2 hours 45 minutes by bus.",
+  "detail": "Bus 17 takes at least 45 minutes and runs about every 30 minutes, so a missed bus costs half an hour. Downtown St John's backs up in rain and in the evening rush.",
+  "emergencyFallback": "Take a taxi straight to your pier and agree the fare first. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": 129,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Nelson's Dockyard and Shirley Heights",
+   "ship": "From US$129, about 3 hours (Holland America 'Scenic Antigua', 2026)",
+   "diy": "Bus 17 each way plus a taxi up to Shirley Heights, fares agreed locally",
+   "saving": "Large, but the timing risk is yours"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for St John's: the town starts at the pier. Dickenson Bay is a short taxi ride and easy alone. Nelson's Dockyard is the borderline case: the bus is cheap but slow and the return is on you. On a short call, or if you also want Shirley Heights, a ship tour or a taxi booked for the whole trip is the safer choice.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Heritage Quay at 08:00 and all-aboard is 17:30. Check your ship's actual berth and times.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off into Heritage Quay. Find the taxi rank and get some EC$ or small US$ notes."
+   },
+   {
+    "time": "08:45",
+    "what": "St John's: the Museum of Antigua and Barbuda in the 1747 Court House, then up to St John's Cathedral."
+   },
+   {
+    "time": "10:00",
+    "what": "Bus 17 to English Harbour (at least 45 minutes), or a taxi with the fare agreed."
+   },
+   {
+    "time": "11:00",
+    "what": "Nelson's Dockyard: the restored Georgian dockyard, museum and marina."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch at the Dockyard."
+   },
+   {
+    "time": "13:30",
+    "what": "Optional: taxi up to Shirley Heights for the view over English and Falmouth Harbours."
+   },
+   {
+    "time": "14:45",
+    "what": "Leave English Harbour by bus, 2 hours 45 minutes before all-aboard."
+   },
+   {
+    "time": "16:00",
+    "what": "Back in St John's. Last shopping at Heritage or Redcliffe Quay."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Nelson's Dockyard",
+   "why": "Georgian naval dockyard at English Harbour, built mostly 1780-1820, still a working marina and a UNESCO World Heritage Site since 2016.",
+   "timeNeeded": "4-5 hours including the bus",
+   "cost": "Entrance fee payable on site",
+   "tip": "Go early; the bus is slow and you need to leave 2 hours 45 minutes before all-aboard."
+  },
+  {
+   "name": "Shirley Heights Lookout",
+   "why": "Restored military lookout about 150 m up, with the classic view over English and Falmouth Harbours.",
+   "timeNeeded": "1 hour plus travel",
+   "cost": "Taxi fare from the Dockyard, agreed first",
+   "tip": "The Sunday party runs 16:00-22:00, too late for almost every cruise call."
+  },
+  {
+   "name": "Dow's Hill Fortification",
+   "why": "Fort site near Shirley Heights run by the National Parks Authority.",
+   "timeNeeded": "1 hour",
+   "cost": "US$25 / EC$65 per person, reservation required (2026)",
+   "tip": "Book ahead through National Parks Antigua."
+  },
+  {
+   "name": "St John's Cathedral",
+   "why": "Anglican cathedral of 1845 on the hill above town, visible across St John's.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to view",
+   "tip": "Uphill on the edge of the centre; go before the midday heat."
+  },
+  {
+   "name": "Museum of Antigua and Barbuda",
+   "why": "The island's history, in the former Court House of 1747, the oldest building in the city still in use.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check at the door",
+   "tip": "Close to the piers; a good shaded stop."
+  },
+  {
+   "name": "Heritage Quay and Redcliffe Quay",
+   "why": "Duty-free shops, bars and craft stalls right by the cruise berths.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Many bars here offer free Wi-Fi."
+  },
+  {
+   "name": "Public Market Complex",
+   "why": "Local produce market at the end of Market Street, near the pier.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Carry small EC$ notes."
+  },
+  {
+   "name": "Fort James",
+   "why": "One of the island's old forts, now largely ruins; Segway and horseback tours visit the forts.",
+   "timeNeeded": "1-1.5 hours including taxi",
+   "cost": "Taxi fare, agreed first",
+   "tip": "Combine with a beach stop on the way back."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Dickenson Bay",
+   "howToGetThere": "Taxi from the pier rank",
+   "time": "About 3 miles from the cruise terminals",
+   "cost": "Taxi fare agreed first",
+   "note": "Long white-sand beach with beach bars, watersports and restaurants."
+  },
+  {
+   "name": "Jolly Beach",
+   "howToGetThere": "Taxi",
+   "time": "Allow for traffic",
+   "cost": "Taxi fare agreed first",
+   "note": "Reported free loungers and umbrellas at Mangroves Beach Bar."
+  },
+  {
+   "name": "Ffryes Beach",
+   "howToGetThere": "Taxi",
+   "time": "Allow for traffic",
+   "cost": "Taxi fare agreed first",
+   "note": "Not all beaches have lifeguards or flags; currents can be strong."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fungee and pepperpot, the national dish",
+   "where": "Local restaurants in St John's",
+   "price": null
+  },
+  {
+   "dish": "Ducana, johnnycakes and goatwater",
+   "where": "Local cafés and stalls around the Public Market, St John's",
+   "price": null
+  },
+  {
+   "dish": "Beach lunch",
+   "where": "Mangroves Beach Bar, Jolly Beach",
+   "price": null
+  },
+  {
+   "dish": "Rum punch with English Harbour or Cavalier rum",
+   "where": "Bars at Heritage Quay and Redcliffe Quay",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Walking into town from the Deep Water Harbour.",
+   "fix": "The road has no pavement. Take a taxi and allow extra time for the return."
+  },
+  {
+   "mistake": "Getting in a taxi without agreeing the fare and currency.",
+   "fix": "Taxis are unmetered and priced by zone. Agree the total, and whether it is EC$ or US$, before setting off."
+  },
+  {
+   "mistake": "Catching the last possible bus back from English Harbour.",
+   "fix": "Bus 17 takes at least 45 minutes and runs about every 30 minutes. Leave 2 hours 45 minutes before all-aboard."
+  },
+  {
+   "mistake": "Planning on the Shirley Heights Sunday party.",
+   "fix": "It runs 16:00-22:00, after most ships sail. Visit the lookout in daylight instead."
+  },
+  {
+   "mistake": "Using the waterfront ATMs.",
+   "fix": "The kiosks by the waterfront dispense only US dollars and charge fees. Banks at High and Market Streets are five minutes' walk."
+  }
+ ],
+ "safety": "Antigua is visited without trouble by most cruise passengers, but the UK government notes violent crime including armed robbery and sexual assault. Stay on main streets, avoid isolated areas including empty beaches, carry little cash and jewellery, and use only licensed taxis. Sea currents can be strong and not every beach has lifeguards or warning flags. Traffic drives on the left and roads have potholes, unmarked speed bumps and pedestrians on the carriageway. Drug possession carries severe penalties.",
+ "scams": [
+  "Taxi fares changed after the ride: taxis are unmetered and priced by zone, so agree the price and currency before setting off.",
+  "Drivers offering to act as a guide without a price: agree what the tour includes and costs before you get in."
+ ],
+ "emergencyNumber": "911 or 999",
+ "accessibility": "Heritage Quay and Redcliffe Quay are level with the town centre, but streets have kerbs and uneven pavements, and the cathedral is uphill. The Deep Water Harbour has no facilities and no pavement, so a taxi is essential. Minibuses are not adapted. Holland America states its Scenic Antigua tour to Nelson's Dockyard and Shirley Heights cannot take wheelchairs, walkers or scooters. Shirley Heights is reached by road or a steep trail.",
+ "rainyDay": "Use the Museum of Antigua and Barbuda, the cathedral and the covered shops at Heritage and Redcliffe Quays. Nelson's Dockyard has a museum, shops and restaurants for a wet day, but allow longer: downtown traffic backs up when it rains.",
+ "crowdTips": "St John's has five cruise berths, so several large ships can be in at once. On those days the Heritage Quay pedestrian street and taxi ranks are busiest when the ships first open their gangways. Head for the Dockyard or a beach early, and do the town and the market in the late afternoon when tours are returning.",
+ "faqs": [
+  {
+   "q": "Is Antigua a tender port?",
+   "a": "No. Ships dock at Heritage Quay, Redcliffe Quay, the Nevis Street Pier or the Deep Water Harbour in St John's."
+  },
+  {
+   "q": "Is St John's walkable from the cruise port?",
+   "a": "Yes from Heritage Quay, Redcliffe Quay and the Nevis Street Pier, which are in town. From the Deep Water Harbour take a taxi."
+  },
+  {
+   "q": "How do I get from Antigua cruise port to Nelson's Dockyard?",
+   "a": "Bus 17 to English Harbour (at least 45 minutes, about every 30 minutes), a taxi with the fare agreed first, or a ship tour."
+  },
+  {
+   "q": "How much are taxis in Antigua?",
+   "a": "Taxis are unmetered and priced by zone. Agree the fare and the currency before you set off."
+  },
+  {
+   "q": "What can I do in Antigua in one day from a cruise ship?",
+   "a": "St John's on foot, then either Nelson's Dockyard and Shirley Heights, or a beach such as Dickenson Bay."
+  },
+  {
+   "q": "Beaches near Antigua cruise port",
+   "a": "Dickenson Bay is about 3 miles from the terminals. Jolly Beach and Ffryes Beach are other popular choices by taxi."
+  },
+  {
+   "q": "Is Antigua safe?",
+   "a": "Generally yes for visitors on main streets and busy beaches. Avoid isolated areas, use licensed taxis and watch for strong currents."
+  },
+  {
+   "q": "What currency do I need in Antigua?",
+   "a": "The Eastern Caribbean dollar (about EC$2.7 to US$1). US dollars are widely accepted, but change often comes in EC$."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Nelson's Dockyard"
+  },
+  {
+   "name": "Shirley Heights Lookout"
+  },
+  {
+   "name": "St John's Cathedral"
+  },
+  {
+   "name": "Museum of Antigua and Barbuda"
+  },
+  {
+   "name": "Heritage Quay"
+  },
+  {
+   "name": "Dickenson Bay"
+  },
+  {
+   "name": "Jolly Beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "National Parks Antigua – Nelson's Dockyard National Park",
+   "url": "https://www.nationalparksantigua.com/tours/nelsons-dockyard-national-park/"
+  },
+  {
+   "title": "National Parks Antigua – Book now (Dow's Hill, Clarence House)",
+   "url": "https://www.nationalparksantigua.com/book-now/"
+  },
+  {
+   "title": "National Parks Antigua – Land",
+   "url": "https://www.nationalparksantigua.com/land/"
+  },
+  {
+   "title": "Visit Antigua & Barbuda – Shirley Heights Lookout",
+   "url": "https://www.visitantiguabarbuda.com/things-to-do/shirley-heights-lookout/"
+  },
+  {
+   "title": "UK FCDO – Antigua and Barbuda travel advice",
+   "url": "https://www.gov.uk/foreign-travel-advice/antigua-and-barbuda/print"
+  },
+  {
+   "title": "Cruise Critic – Antigua (St John's) port guide",
+   "url": "https://www.cruisecritic.com/find-a-cruise/port-antigua-st-johns"
+  },
+  {
+   "title": "Celebrity Cruises – St John's, Antigua cruise port guide",
+   "url": "https://celebritycruises.com/ports/antigua"
+  },
+  {
+   "title": "Holland America – Scenic Antigua excursion",
+   "url": "https://www.hollandamerica.com/en/cruise-destinations/caribbean-cruises/caribbean-ports/anu/37601"
+  },
+  {
+   "title": "Cruise Critic – Reasons to go ashore in Antigua (2024)",
+   "url": "https://www.cruisecritic.com/articles/reasons-to-go-ashore-antigua"
+  },
+  {
+   "title": "Seatrade Cruise News – Antigua's new Oasis-class berth (2021)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/antigua-s-new-30m-oasis-class-cruise-berth-is-sparking-interest"
+  },
+  {
+   "title": "Caribbean Journal – Antigua cruise terminal (July 2025)",
+   "url": "https://www.caribjournal.com/2025/07/25/antigua-cruise-terminal"
+  },
+  {
+   "title": "Antigua Observer – 10% taxi fare increase for cruise services (2023)",
+   "url": "https://antiguaobserver.com/?p=275760"
+  },
+  {
+   "title": "Antigua Observer – Dockyard entrance fee (2022)",
+   "url": "https://antiguaobserver.com/?p=245201"
+  }
+ ],
+ "uncertain": [
+  "Current Nelson's Dockyard entrance fee for visitors: US$15 was reported in 2022; no 2026 official fee page found.",
+  "Nelson's Dockyard visitor opening hours: National Parks pages list 08:00-17:00 Monday-Saturday, but it is unclear whether these are site or office hours.",
+  "Government zone taxi fares from the cruise piers to English Harbour, Dickenson Bay and Jolly Beach (no official 2026 list opened).",
+  "Bus 17 fare and which of St John's two bus stations it leaves from.",
+  "Taxi journey time to English Harbour and to Jolly Beach.",
+  "Whether the new cruise terminal on Newgate Street (due by late 2025) is open and how it changes passenger flow.",
+  "Typical all-aboard time; the day plan uses a default 17:30."
+ ]
+}

@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { CAT, REGIONS } from '../../lib/ports.js';
+const total = Object.keys(CAT).length;
+---
+<Base title={`${total} Cruise Port Guides, Checked Against Official Sources | PortTrip`} description={`Every cruise port we cover: how to get to town, what it costs, tender or dock, and when to head back to the ship. ${total} ports, checked October 2026.`} path="/ports">
+  <div class="wrap pb-20 pt-10">
+    <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">{total} cruise port guides</h1>
+    <p class="mt-3 max-w-2xl text-lg text-navy/75">Each guide gives the leave-by time for every part of the port, how to get to town, what it costs and where people go wrong. Every fact links to its source.</p>
+    <div class="mt-10 space-y-10">
+      {Object.entries(REGIONS).map(([region, slugs]) => (
+        <section>
+          <h2 class="text-xl font-semibold">{region}</h2>
+          <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {slugs.filter((s) => CAT[s]).map((s) => { const c = CAT[s]; return (
+              <li><a href={`/ports/${s}`} class="card block h-full p-4 transition-shadow hover:shadow-md">
+                <span class="flex items-baseline justify-between gap-2"><span class="font-semibold">{c.city}</span><span class="text-xs text-navy/55">{c.isTender ? 'Tender' : c.walk === 'Yes' ? 'Walk to town' : 'Transport needed'}</span></span>
+                <span class="mt-1 block text-sm text-navy/70 line-clamp-2">{c.quickAnswer}</span>
+              </a></li>); })}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>

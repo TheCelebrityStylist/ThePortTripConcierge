@@ -1,0 +1,370 @@
+{
+ "slug": "hakodate",
+ "city": "Hakodate",
+ "portName": "Port of Hakodate (Wakamatsu Wharf / Minato-cho Wharf)",
+ "townName": "Hakodate Station and Bay Area",
+ "country": "Japan",
+ "currency": "JPY",
+ "currencySymbol": "¥",
+ "language": "Japanese",
+ "timezone": "JST (UTC+9), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Hakodate cruise port guide: Wakamatsu, tram, ropeway",
+ "seoDescription": "Most ships berth at Wakamatsu Wharf near Hakodate Station; big ships use Minato-cho, 6.5 km out. Tram ¥210–260, day pass ¥600. Ropeway closed 20 Oct–8 Nov 2026.",
+ "quickAnswer": "Most ships dock at Wakamatsu Wharf, near JR Hakodate Station and within walking distance of the Morning Market; the biggest ships use Minato-cho Wharf, about 6.5 km and a 20-minute drive from the centre, with shuttle buses into town. From the station, trams reach Goryokaku and the Mount Hakodate ropeway area for ¥210–260 a ride or ¥600 for a 1-day pass. Be back on board 60 minutes before all-aboard, and board the shuttle back from town 90 minutes before if you are at Minato-cho.",
+ "intro": "Hakodate is a compact port city at the southern tip of Hokkaido. The main cruise berth, Wakamatsu Wharf, sits beside the station district, with the Morning Market, the Bay Area warehouses and the tram network all close by. Larger ships berth at Minato-cho, further out, and rely on shuttles or taxis. The headline sights are the Mount Hakodate ropeway, the star-shaped Goryokaku fort and the slopes of Motomachi. Note that the ropeway is closed for maintenance from 20 October to 8 November 2026.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Wakamatsu Wharf (Hakodate Cruise Terminal)",
+   "distanceToCentreKm": 1.5,
+   "notes": "The main cruise berth, next to the Mashu Maru museum ship and near JR Hakodate Station. About 1.5 km, roughly a 20-minute walk, from the main sightseeing areas. The terminal opened in 2022 and is open to passengers only when a ship is in. City planning documents name the Diamond Princess (115,875 GT) as its largest target ship. Used for about 56 of 75 calls in the 2026 schedule."
+  },
+  {
+   "name": "Minato-cho Wharf (larger ships)",
+   "distanceToCentreKm": 6.5,
+   "notes": "Used by the largest ships, such as MSC Bellissima, Spectrum of the Seas and Ovation of the Seas. About 6.5 km and a 20-minute drive from the central sightseeing areas. Shuttle buses run into town; walking is not practical."
+  },
+  {
+   "name": "West (Nishi) Wharf (small ships)",
+   "distanceToCentreKm": null,
+   "notes": "For ships under 30,000 GT. About 15 minutes by tram to JR Hakodate Station."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 20,
+  "km": 1.5,
+  "detail": "From Wakamatsu Wharf you can walk to the Morning Market, the station area and the Bay Area. Goryokaku and the ropeway need a tram or taxi. From Minato-cho you need the shuttle or a taxi for everything."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (Wakamatsu Wharf)",
+   "cost": "Free",
+   "time": "Up to about 20 min to the main sightseeing areas",
+   "detail": "The Morning Market is next to JR Hakodate Station, a few minutes from the Hakodate-Ekimae tram stop. The Kanemori Red Brick Warehouses are about a 15-minute walk from the station."
+  },
+  {
+   "mode": "City tram",
+   "cost": "¥210–260 per ride, adult; 1-day pass ¥600 (2026)",
+   "time": "About 17 min Hakodate-Ekimae to Goryokaku-Koen-mae; about 5 min to Jujigai",
+   "detail": "Trams run 06:07–23:27 and come every 6–12 minutes in the day. Pay when you get off. IC cards such as Suica and Nimoca work; with cash, take a numbered ticket when boarding and use the change machine first, because the fare box gives no change. The 1-day pass pays off at three rides."
+  },
+  {
+   "mode": "Cruise shuttle bus (Minato-cho Wharf)",
+   "cost": "Varies; check your ship",
+   "time": "About 20 min by road to the centre",
+   "detail": "Shuttle buses link the port with central Hakodate. Check the drop-off point and the last return time when you get off."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; confirm the fare first",
+   "time": "About 20 min from Minato-cho to the centre",
+   "detail": "Useful for the ropeway, Goryokaku and the outer berth. Use official taxis and avoid touts."
+  },
+  {
+   "mode": "Mount Hakodate Ropeway",
+   "cost": "Reported at ¥1,800 return, ¥1,200 one way (2026); check at the station",
+   "time": "About 3 min up",
+   "detail": "From Jujigai tram stop, about a 7-minute uphill walk. Open 10:00–21:00 from 1 October to 19 April, 10:00–22:00 from 20 April to 30 September. Closed for maintenance 20 October to 8 November 2026."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. If your ship is at Minato-cho, board the shuttle back from town at least 90 minutes before all-aboard.",
+  "detail": "From Wakamatsu Wharf the return is a walk, so the risk is low. At Minato-cho you depend on the shuttle schedule and road traffic, and queues build for the last buses. From Goryokaku, allow for the tram, the walk to the stop and the walk back to the berth.",
+  "emergencyFallback": "Take a taxi from Goryokaku or the station area straight to your berth. If you will miss all-aboard, call the port agent number in your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": 3600,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Best of Hakodate (Morning Market, Goryokaku, Mount Hakodate)",
+   "ship": "From US$249 (Holland America, 2026)",
+   "diy": "Tram day pass ¥600 + Goryokaku Tower ¥1,200 + ropeway ¥1,800 return (2026) = ¥3,600",
+   "saving": "Large, if the ropeway is open; check its maintenance dates"
+  }
+ ],
+ "excursionAdvice": "From Wakamatsu Wharf, Hakodate is easy alone: walk to the Morning Market and the Bay Area, and take the tram to Goryokaku and the ropeway. A ship tour makes more sense if you are berthed at Minato-cho and do not want to depend on shuttles, or if you want to go further out. If the ropeway is closed, as it is from 20 October to 8 November 2026, tours may drive up Mount Hakodate by coach instead, which is hard to arrange alone.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Wakamatsu Wharf at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk from the cruise terminal to the Hakodate Morning Market by JR Hakodate Station."
+   },
+   {
+    "time": "08:30",
+    "what": "Breakfast in Donburi Yokocho: a seafood rice bowl, or catch a squid at the fishing stall in Ekini Ichiba."
+   },
+   {
+    "time": "10:00",
+    "what": "Buy a ¥600 1-day tram pass and ride from Hakodate-Ekimae to Goryokaku-Koen-mae, about 17 minutes."
+   },
+   {
+    "time": "10:30",
+    "what": "Goryokaku Tower (¥1,200) for the view of the star fort, then walk the park and the Magistrate's Office grounds."
+   },
+   {
+    "time": "12:30",
+    "what": "Tram back to Jujigai. Lunch in the Bay Area."
+   },
+   {
+    "time": "13:30",
+    "what": "Kanemori Red Brick Warehouses, then walk up the Motomachi slopes."
+   },
+   {
+    "time": "15:00",
+    "what": "Ropeway up Mount Hakodate if it is open (7-minute walk from Jujigai, 3-minute ride)."
+   },
+   {
+    "time": "16:00",
+    "what": "Tram or walk back towards the station and the berth."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Hakodate Morning Market",
+   "why": "Seafood stalls and small restaurants next to JR Hakodate Station, best known for squid, crab and rice bowls.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free to enter",
+   "tip": "Opens early (from 05:00 or 06:00 depending on season). Go before 10:00 for the best squid. Many stalls close around midday."
+  },
+  {
+   "name": "Mount Hakodate and the ropeway",
+   "why": "The best-known view over the city and harbour, reached by a 3-minute ropeway ride.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Ropeway reported at ¥1,800 return (2026)",
+   "tip": "Closed for maintenance 20 October to 8 November 2026. Otherwise open from 10:00. Crowded near sunset; most cruise calls end before dark."
+  },
+  {
+   "name": "Goryokaku Park and Goryokaku Tower",
+   "why": "A star-shaped Western-style fort; the tower's observation deck shows its shape from about 90 m up.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Tower ¥1,200 adult; park free",
+   "tip": "Tower open 09:00–18:00, tickets until 17:50. From Goryokaku-Koen-mae tram stop, walk 10–18 minutes."
+  },
+  {
+   "name": "Hakodate Magistrate's Office",
+   "why": "A faithful reconstruction of the historic office at the centre of Goryokaku Park.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Check on site",
+   "tip": "You remove your shoes inside."
+  },
+  {
+   "name": "Kanemori Red Brick Warehouses",
+   "why": "Renovated 1909 harbour warehouses with shops, restaurants and a beer hall.",
+   "timeNeeded": "1 hour",
+   "cost": "Free to enter",
+   "tip": "About 15 minutes' walk from the station, or 5 minutes by tram to Jujigai plus a 5-minute walk. A good rainy-day stop."
+  },
+  {
+   "name": "Motomachi slopes",
+   "why": "Sloping hillside streets above the harbour, a free walk between the tram and the waterfront.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "Walk uphill from Suehiro-cho or Jujigai tram stops; wear comfortable shoes."
+  },
+  {
+   "name": "Mashu Maru",
+   "why": "A museum ship moored beside the Wakamatsu cruise berth, which was built on the former Seikan ferry berth.",
+   "timeNeeded": "30 minutes",
+   "cost": "Check on site",
+   "tip": "Right next to the cruise terminal, so a good last stop."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Salmon and ikura (salmon roe) rice bowl",
+   "where": "Mako To Yasube, Donburi Yokocho, Hakodate Morning Market",
+   "price": null
+  },
+  {
+   "dish": "Live squid caught and served as sashimi",
+   "where": "Ganso Katsu Ika Tsuribori, Ekini Ichiba, Hakodate Morning Market",
+   "price": null
+  },
+  {
+   "dish": "\"Dancing squid\" rice bowl",
+   "where": "Ikkatei Tabiji, Donburi Yokocho, Hakodate Morning Market",
+   "price": null
+  },
+  {
+   "dish": "Grilled scallops, oysters and crab",
+   "where": "Isseki Nicho Hakodate Shiten, Hakodate Morning Market",
+   "price": null
+  },
+  {
+   "dish": "Sushi set",
+   "where": "Sushi Dokoro Hakodate, Donburi Yokocho (closed Thursdays)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning the ropeway between 20 October and 8 November 2026.",
+   "fix": "It is closed for maintenance. Use Goryokaku Tower for a high view, or take a ship tour that drives to the summit."
+  },
+  {
+   "mistake": "Assuming you can walk into town from any berth.",
+   "fix": "Check your berth. Wakamatsu is walkable; Minato-cho is about 6.5 km out and needs a shuttle or taxi."
+  },
+  {
+   "mistake": "Reaching the Morning Market at lunchtime.",
+   "fix": "Go first thing. It opens early and many stalls close around midday."
+  },
+  {
+   "mistake": "Paying tram fares with a large note.",
+   "fix": "The fare box gives no change. Use an IC card, the 1-day pass, or the change machine before your stop."
+  },
+  {
+   "mistake": "Relying on cards everywhere.",
+   "fix": "Carry yen cash for trams, market stalls and small shops; larger businesses take cards."
+  }
+ ],
+ "safety": "Hakodate is a safe city for visitors. The main hazards are traffic and tram tracks, steep and sometimes slippery slopes in Motomachi, and weather: July to September is the rainiest period, and winter brings snow and ice. Use official taxis and confirm the fare before you set off.",
+ "scams": [
+  "Unofficial taxi touts near the port: use licensed taxis and confirm the fare before departure."
+ ],
+ "emergencyNumber": "110 (police), 119 (fire and ambulance)",
+ "accessibility": "Wakamatsu Wharf, the station area, the Morning Market and the Bay Area are flat. Motomachi is steep. Goryokaku Park is large and walking distances are long. Holland America says its Hakodate tour is not suitable for wheelchair users or people with limited mobility. Check tram accessibility with the operator before relying on it.",
+ "rainyDay": "Stay around the Morning Market, the Kanemori Red Brick Warehouses and Goryokaku Tower, which are mostly under cover. Skip the Motomachi slopes and, in low cloud, the ropeway.",
+ "crowdTips": "Seven 2026 calls are on days with two ships in port. On those days the Morning Market fills early and Goryokaku Tower queues build mid-morning. Go to the market as soon as you are ashore, and visit Goryokaku before the tour coaches arrive or after lunch.",
+ "faqs": [
+  {
+   "q": "Where do cruise ships dock in Hakodate?",
+   "a": "Most dock at Wakamatsu Wharf near JR Hakodate Station. The largest ships use Minato-cho Wharf, about 6.5 km from the centre; small ships may use West Wharf."
+  },
+  {
+   "q": "Is Hakodate walkable from the cruise port?",
+   "a": "From Wakamatsu Wharf, yes: the Morning Market, station and Bay Area are within about 20 minutes on foot. From Minato-cho, no; use the shuttle or a taxi."
+  },
+  {
+   "q": "Is Hakodate a tender port?",
+   "a": "No. Ships berth alongside."
+  },
+  {
+   "q": "How do I get from Hakodate cruise port to Goryokaku?",
+   "a": "Take the tram from Hakodate-Ekimae to Goryokaku-Koen-mae, about 17 minutes, ¥210–260, then walk 10–18 minutes."
+  },
+  {
+   "q": "Is the Mount Hakodate ropeway open?",
+   "a": "It is closed for maintenance from 20 October to 8 November 2026. Otherwise it opens at 10:00."
+  },
+  {
+   "q": "What can I do in Hakodate in one day from a cruise ship?",
+   "a": "Morning Market breakfast, Goryokaku Tower and park, the Red Brick Warehouses and Motomachi, and the ropeway when it is open."
+  },
+  {
+   "q": "How much is the Hakodate tram?",
+   "a": "¥210–260 per ride, or ¥600 for a 1-day pass (2026). IC cards are accepted."
+  },
+  {
+   "q": "Is Hakodate safe?",
+   "a": "Yes. Take care on steep slopes and around tram tracks."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Hakodate Morning Market"
+  },
+  {
+   "name": "Mount Hakodate Ropeway"
+  },
+  {
+   "name": "Goryokaku Tower"
+  },
+  {
+   "name": "Goryokaku Park"
+  },
+  {
+   "name": "Kanemori Red Brick Warehouses"
+  },
+  {
+   "name": "Motomachi"
+  },
+  {
+   "name": "Mashu Maru"
+  }
+ ],
+ "sources": [
+  {
+   "title": "MLIT Hokkaido – Cruise Hokkaido: Hakodate port data",
+   "url": "https://wwwtb.mlit.go.jp/hokkaido/bunyabetsu/kaiun/cruise/web/Cruise_Hokkaido+(E)/Cruise_Hokkaido%20(E)/en/hakodate_data.html"
+  },
+  {
+   "title": "City of Hakodate – 2026 cruise ship schedule (Reiwa 8)",
+   "url": "https://joruri-cms.city.hakodate.hokkaido.jp/docs/2020102800153/file_contents/reiwa8nenndokuru-zusenn.pdf"
+  },
+  {
+   "title": "City of Hakodate – Hakodate Port Information 2024",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2019020800086/file_contents/HakodatePortInformation_2024.pdf"
+  },
+  {
+   "title": "City of Hakodate – Wakamatsu wharf cruise berth development",
+   "url": "https://joruri-cms.city.hakodate.hokkaido.jp/docs/2019022200044/file_contents/2019022200044_hk_docs_2019022200044_files_wakamatuhutouseibi.pdf"
+  },
+  {
+   "title": "Hakodate Tourism Association – Hakodate Special Ticket 2026 (tram, ropeway hours and closure)",
+   "url": "https://hakodate-kankou.com/en/en-specialticket"
+  },
+  {
+   "title": "Holland America – Hakodate port and Best of Hakodate tour",
+   "url": "https://www.hollandamerica.com/en/us/cruise-destinations/asia-cruises/asia-ports/hkd/20706"
+  },
+  {
+   "title": "ANA Japan Travel Planner – Hakodate area",
+   "url": "https://www.ana.co.jp/en/us/japan-travel-planner/rediscover-hokkaido/area5/"
+  },
+  {
+   "title": "japan-guide.com – Getting to and around Hakodate",
+   "url": "https://www.japan-guide.com/e/e5355.html"
+  },
+  {
+   "title": "Hakodate Station guide – Hakodate city tram",
+   "url": "https://www.hakodatestation.com/hakodate-city-tram/"
+  },
+  {
+   "title": "GLTJP – Goryokaku Tower travel guide",
+   "url": "https://www.gltjp.com/en/article/item/20360/"
+  },
+  {
+   "title": "TRVLOGUE – Hakodate Ropeway review (updated October 2026)",
+   "url": "https://www.trvlogue.com/en/hakodate-ropeway-night-view-review"
+  },
+  {
+   "title": "Japan Activity – Hakodate squid and kaisen-don guide (2026)",
+   "url": "https://japanactivity.com/hakodate-squid-and-kaisen-don-guide"
+  },
+  {
+   "title": "FUN! JAPAN – Hakodate Morning Market",
+   "url": "https://www.fun-japan.jp/en/articles/8868"
+  },
+  {
+   "title": "photoguide.jp – Hakodate port for cruise passengers",
+   "url": "https://photoguide.jp/log/2022/09/hakodate-port/"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Hakodate (checked May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/hakodate-japan/"
+  }
+ ],
+ "uncertain": [
+  "Exact walking time from Wakamatsu Wharf to JR Hakodate Station (city documents give only about 1.5 km / 20 min to the main sightseeing areas).",
+  "Whether the 2026 schedule label 'Minato A' is Minato-cho Wharf; Benten or Kokusai Suisan berths are not named in any 2026 source found.",
+  "Cruise shuttle fares, drop-off point and timetable from Minato-cho Wharf.",
+  "Ropeway fares from the operator's own site (only a 2026 review was available).",
+  "Combined tram and bus pass price (sources disagree: ¥1,000 vs ¥1,400).",
+  "Hakodate Magistrate's Office and Mashu Maru admission prices and hours.",
+  "Typical all-aboard time (17:30 assumed; 2026 departures at Wakamatsu range from 16:00 to 22:00)."
+ ]
+}

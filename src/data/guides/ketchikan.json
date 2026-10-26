@@ -1,0 +1,392 @@
+{
+ "slug": "ketchikan",
+ "city": "Ketchikan",
+ "portName": "Port of Ketchikan (downtown Berths 1–4) and Ward Cove",
+ "townName": "downtown Ketchikan",
+ "country": "USA",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "AKST (UTC−9), AKDT (UTC−8) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Ketchikan cruise port guide: Berths 1–4 and Ward Cove",
+ "seoDescription": "Ketchikan Berths 1–4 sit on the downtown waterfront; Creek Street is 10 min on foot. Ward Cove is 7–8 miles north with a free 20–30 min shuttle to Berth 4.",
+ "quickAnswer": "Ketchikan is a docking port with two areas. Berths 1–4 line the downtown waterfront, and Creek Street is about 10 minutes' walk from most of them; Ward Cove, used by Norwegian, Oceania, Regent and some Royal Caribbean ships, is 7–8 miles north, with a free shuttle of 20–30 minutes to Berth 4. Be back on board 60 minutes before all-aboard from downtown, or catch the Ward Cove shuttle at least 90 minutes before.",
+ "intro": "Ketchikan is a small, wet town strung along the Tongass Narrows, and the downtown berths put you within a few minutes of Creek Street, the totem centres and the Lumberjack Show. The complication is where your ship ties up. Berth 4, the northernmost downtown berth, is a 10–15 minute walk from the centre, and Ward Cove, a private facility opened in 2021 at a former pulp mill, is out of town altogether. 2026 is expected to be a record year, with over 1.6 million cruise passengers, partly because some Royal Caribbean calls moved from Juneau to Ward Cove.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Berths 1 and 2 (downtown)",
+   "distanceToCentreKm": 0.2,
+   "notes": "Steps from the Salmon Landing shops and the Great Alaskan Lumberjack Show. Berths are numbered from south to north along the waterfront, parallel to Front Street. A visitor information centre on the dock has restrooms and tour sales."
+  },
+  {
+   "name": "Berth 3 (downtown)",
+   "distanceToCentreKm": null,
+   "notes": "By the Tongass Trading Company shop on the harbour, a short walk to Front Street and Main Street."
+  },
+  {
+   "name": "Berth 4 (downtown, northernmost)",
+   "distanceToCentreKm": 1.0,
+   "notes": "The farthest downtown berth, about 10–15 minutes' walk from the centre. The Ward Cove shuttle drops passengers next to it."
+  },
+  {
+   "name": "Ward Cove (The Mill at Ward Cove)",
+   "distanceToCentreKm": 12,
+   "notes": "Private two-berth floating dock 7–8 miles north of downtown, opened in 2021 at a former pulp mill and used mainly by Norwegian Cruise Line ships. Some excursions start at the terminal. A free shuttle runs continuously to Berth 4, about 20–30 minutes each way."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 10,
+  "km": 0.8,
+  "detail": "From Berths 1–3 downtown, Creek Street and the main sights are about 10 minutes' walk. From Berth 4 allow 10–15 minutes to the centre. From Ward Cove you need the free shuttle; the town is 7–8 miles away."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (downtown berths)",
+   "cost": "Free",
+   "time": "About 10 min to Creek Street",
+   "detail": "Walk along Front Street; Creek Street boardwalk starts at the Stedman Street bridge. Main Street is one block inland."
+  },
+  {
+   "mode": "Ward Cove shuttle",
+   "cost": "Free",
+   "time": "20–30 min each way",
+   "detail": "Runs continuously throughout the day between Ward Cove and a drop-off next to Berth 4. A separate free shuttle runs from Ward Cove to Walmart. Check the last shuttle time on your ship's daily programme."
+  },
+  {
+   "mode": "Free downtown shuttles",
+   "cost": "Free",
+   "time": "Short hops",
+   "detail": "Free shuttles link the cruise terminals and key downtown locations from May to September."
+  },
+  {
+   "mode": "Silver Line public bus to Totem Bight",
+   "cost": "Cash fare, no change given; or the Token Transit app",
+   "time": "About 25 min from the cruise port",
+   "detail": "Northbound from the stop in front of the Alaska Coffee café near the cruise port, roughly hourly. The bus stops inside Totem Bight State Historical Park. Southbound buses return roughly hourly. A stop on the highway near Ward Cove is about 5 minutes from Totem Bight. Confirm times with the driver; buses can run late."
+  },
+  {
+   "mode": "Taxi or rideshare",
+   "cost": "Metered; ask for an estimate",
+   "time": "About 20–25 min to Totem Bight",
+   "detail": "Taxis and rideshare operate in Ketchikan. Totem Bight is about 10 miles north of downtown."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard if docked downtown. From Ward Cove, board the shuttle back at least 90 minutes before all-aboard. From Totem Bight by public bus, leave the park two hours before all-aboard.",
+  "detail": "The Ward Cove shuttle takes 20–30 minutes and queues build late in the afternoon. The Silver Line bus runs only about once an hour, so missing one costs an hour.",
+  "emergencyFallback": "Take a taxi or rideshare to your berth or to Ward Cove. If you will miss all-aboard, call the port agent number on your ship's daily programme straight away."
+ },
+ "shipExcursionAvg": 229,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Misty Fjords by boat",
+   "ship": "Holland America Misty Fjords & Wilderness Explorer Cruise from $229, 5¼ hours (2026)",
+   "diy": "Local operators sell boat and floatplane trips at the dock; prices vary",
+   "saving": "Varies"
+  },
+  {
+   "item": "Scenic trolley and Southeast Alaska Discovery Center",
+   "ship": "Norwegian Scenic Trolley & Southeast Discovery Center from $69.99 adult, 1.5 hours (2026)",
+   "diy": "Walk to the Discovery Center, a block from the docks: $5 entry (2025 rate)",
+   "saving": "Not like-for-like: the tour adds a narrated trolley ride"
+  },
+  {
+   "item": "Totem Bight",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Public bus each way plus the park entry fee",
+   "saving": "Varies"
+  }
+ ],
+ "excursionAdvice": "Downtown is easy on your own: Creek Street, the Discovery Center and the Lumberjack Show are all within walking distance of Berths 1–3. Misty Fjords is the trip where a ship tour or a well-reviewed local operator makes sense: the boat trip takes over five hours, and floatplanes depend on weather. Several flightseeing crashes in recent years are worth weighing before you choose a floatplane. Totem Bight works on your own by public bus if you plan around the hourly timetable; Saxman Totem Park is easiest on a tour.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at a downtown berth and all-aboard is 17:30. From Ward Cove, add the free shuttle (20–30 minutes) at each end.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk off the ship and along Front Street. From Ward Cove, take the free shuttle to Berth 4 instead."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk to the Silver Line stop by the Alaska Coffee café and catch the northbound bus to Totem Bight (about 25 minutes)."
+   },
+   {
+    "time": "09:15",
+    "what": "Walk the trail at Totem Bight State Historical Park: the totem poles and the clan house on the water."
+   },
+   {
+    "time": "10:15",
+    "what": "Southbound bus back to downtown."
+   },
+   {
+    "time": "11:00",
+    "what": "Southeast Alaska Discovery Center, a block from the docks."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch, for example salmon chowder at Alaska Fish House by Berth 1."
+   },
+   {
+    "time": "13:30",
+    "what": "Creek Street boardwalk and Dolly's House, then up the Married Man's Trail and along Ketchikan Creek."
+   },
+   {
+    "time": "15:00",
+    "what": "Totem Heritage Center in City Park, or the Great Alaskan Lumberjack Show by Berths 1 and 2."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard. From Ward Cove, be on the shuttle at Berth 4 by 16:00."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Creek Street",
+   "why": "Boardwalk on stilts over a tidal creek, once the red-light district, now shops and small museums.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free",
+   "tip": "Enter from Stedman Street or Dock Street. Salmon can be seen in the creek in autumn."
+  },
+  {
+   "name": "Totem Bight State Historical Park",
+   "why": "Totem poles and a clan house built by the Civilian Conservation Corps before the Second World War, on 33 acres at Mile 10 North Tongass Highway.",
+   "timeNeeded": "2–2.5 hours including the bus",
+   "cost": "Entry fee at a self-pay machine",
+   "tip": "About an hour on site is enough. The park is listed as ADA accessible, including its trails."
+  },
+  {
+   "name": "Southeast Alaska Discovery Center",
+   "why": "Over 20,000 sq ft of exhibits on the region's ecology, Native cultures and working life, run by the Forest Service, a block from the docks.",
+   "timeNeeded": "1 hour",
+   "cost": "$5 (2025 rate)",
+   "tip": "Summer hours were 09:00–17:00 daily in 2025. A good rain option."
+  },
+  {
+   "name": "Misty Fjords National Monument",
+   "why": "Fjords, cliffs and waterfalls east of Ketchikan, reached by boat or floatplane.",
+   "timeNeeded": "5¼ hours by boat",
+   "cost": "Holland America boat cruise from $229 (2026)",
+   "tip": "Boarding the tour boat can mean walking up to 300 yards and a steep ramp at low tide."
+  },
+  {
+   "name": "Great Alaskan Lumberjack Show",
+   "why": "Hour-long timber sports show with covered, heated seating near Berths 1 and 2.",
+   "timeNeeded": "1 hour",
+   "cost": "Check current prices",
+   "tip": "Up to four shows on busy days."
+  },
+  {
+   "name": "Dolly's House and the Married Man's Trail",
+   "why": "A former brothel turned museum on Creek Street, and the path once used to reach the district discreetly.",
+   "timeNeeded": "45 minutes",
+   "cost": "Admission charged at Dolly's House; trail free",
+   "tip": "The trail climbs into the forest above the creek and is often wet."
+  },
+  {
+   "name": "Totem Heritage Center",
+   "why": "Exhibits on totem poles in City Park, a walk from downtown past the Ketchikan Creek fish ladder.",
+   "timeNeeded": "45 minutes",
+   "cost": "Small entry fee",
+   "tip": "Go before Totem Bight or Saxman; it explains what you will see."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Salmon chowder, fish and chips, fish tacos",
+   "where": "Alaska Fish House, 3 Salmon Landing, by Berth 1",
+   "price": null
+  },
+  {
+   "dish": "Crab",
+   "where": "Ketchikan Crab & Go, Salmon Landing",
+   "price": null
+  },
+  {
+   "dish": "Seafood, steaks and chowder",
+   "where": "Annabelle's Famous Keg and Chowder House, Front Street",
+   "price": null
+  },
+  {
+   "dish": "Diner breakfasts and lunches",
+   "where": "The Pioneer Cafe, Mission Street",
+   "price": null
+  },
+  {
+   "dish": "Seafood and American dishes",
+   "where": "Bar Harbor Restaurant, Tongass Avenue, about a mile north",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming all ships dock downtown.",
+   "fix": "Check your berth. Ward Cove is 7–8 miles north; plan around the free shuttle to Berth 4."
+  },
+  {
+   "mistake": "Missing the hourly bus back from Totem Bight.",
+   "fix": "Note the southbound time when you arrive and leave the park two hours before all-aboard."
+  },
+  {
+   "mistake": "Coming without rain gear.",
+   "fix": "Ketchikan has about 232 rainy days a year. Bring a waterproof jacket and shoes that cope with wet boardwalks."
+  },
+  {
+   "mistake": "Booking a long Misty Fjords trip on a short call.",
+   "fix": "The boat trip takes over five hours. Check it returns well before all-aboard, especially from Ward Cove."
+  },
+  {
+   "mistake": "Leaving the Ward Cove shuttle until the last minute.",
+   "fix": "Be in the queue at Berth 4 at least 90 minutes before all-aboard."
+  }
+ ],
+ "safety": "Ketchikan is a safe town for visitors. Boardwalks, steps and trails are often wet and slippery, so wear shoes with grip. Traffic on Front Street and the Tongass Highway is heavy with coaches on busy days. If you book flightseeing, choose an established operator and accept weather cancellations; several floatplane accidents in the region have involved cruise passengers. Emergency number is 911.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The downtown berths are close to flat Front Street. Creek Street is a boardwalk, and the Married Man's Trail climbs into the forest on unpaved ground. Totem Bight is listed by Alaska State Parks as ADA accessible, including toilets, trails and historical features. Norwegian's trolley tour can take a wheelchair but not scooters. Holland America's Misty Fjords boat is listed as not wheelchair accessible, though it can accommodate standard manual wheelchairs. From Ward Cove, ask the ship about accessible shuttles.",
+ "rainyDay": "Rain is the norm. The Southeast Alaska Discovery Center, a block from the docks, is the best indoor stop, with a 200-seat theatre. The Totem Heritage Center and Dolly's House are also indoors. The Lumberjack Show has covered seating. Low cloud can ground floatplanes to Misty Fjords; the boat trips are less affected.",
+ "crowdTips": "Over 1.6 million cruise passengers were expected in 2026, a record, and Ketchikan has no daily cap. Front Street and Creek Street are busiest from mid-morning to early afternoon. Go out to Totem Bight early and see Creek Street late in the afternoon when tours have gone back to the ships. Ward Cove spreads some passengers away from downtown.",
+ "faqs": [
+  {
+   "q": "Is Ketchikan a tender port?",
+   "a": "No. Ships dock at downtown Berths 1–4 or at Ward Cove, 7–8 miles north."
+  },
+  {
+   "q": "Is Ketchikan walkable from the cruise port?",
+   "a": "Yes from the downtown berths: Creek Street is about 10 minutes away. Berth 4 is 10–15 minutes from the centre. From Ward Cove you need the free shuttle."
+  },
+  {
+   "q": "How do I get from Ward Cove to downtown Ketchikan?",
+   "a": "By the free shuttle, which runs continuously and takes 20–30 minutes to Berth 4."
+  },
+  {
+   "q": "How do I get to Totem Bight from the cruise port?",
+   "a": "Take the Silver Line public bus north, about 25 minutes; it stops inside the park. Buses run roughly hourly."
+  },
+  {
+   "q": "Can I see Misty Fjords on a cruise day?",
+   "a": "Yes, by boat (Holland America's trip takes 5¼ hours) or by floatplane, weather permitting."
+  },
+  {
+   "q": "What can I do in Ketchikan in one day from a cruise ship?",
+   "a": "Totem Bight by bus in the morning, the Discovery Center, then Creek Street, Dolly's House and the Totem Heritage Center."
+  },
+  {
+   "q": "Does it rain a lot in Ketchikan?",
+   "a": "Yes, about 232 days a year. Bring waterproofs."
+  },
+  {
+   "q": "Is Ketchikan safe?",
+   "a": "Yes. Watch your footing on wet boardwalks and trails."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Creek Street"
+  },
+  {
+   "name": "Misty Fjords National Monument"
+  },
+  {
+   "name": "Totem Bight State Historical Park"
+  },
+  {
+   "name": "Southeast Alaska Discovery Center"
+  },
+  {
+   "name": "Great Alaskan Lumberjack Show"
+  },
+  {
+   "name": "Totem Heritage Center"
+  },
+  {
+   "name": "Saxman Totem Park"
+  }
+ ],
+ "sources": [
+  {
+   "title": "KRBD – Ketchikan expected to see record number of cruise ship passengers (March 2026)",
+   "url": "https://www.krbd.org/2026/03/27/ketchikan-expected-to-see-record-number-of-cruise-ship-passengers/"
+  },
+  {
+   "title": "Juneau Independent – Ketchikan set to surpass Juneau in cruise passengers (2026)",
+   "url": "https://www.juneauindependent.com/post/ketchikan-set-to-surpass-juneau-in-cruise-passengers-for-the-first-time-due-to-limits-set-in-capita"
+  },
+  {
+   "title": "Alaska State Parks – Totem Bight State Historical Park",
+   "url": "https://dnr.alaska.gov/parks/aspunits/southeast/totembigshp.htm"
+  },
+  {
+   "title": "USDA Forest Service – Southeast Alaska Discovery Center",
+   "url": "https://www.fs.usda.gov/r10/tongass/offices/southeast-alaska-discovery-center-0"
+  },
+  {
+   "title": "USDA Forest Service – Summer hours and entrance fees begin at Southeast Alaska Discovery Center (2025)",
+   "url": "https://www.fs.usda.gov/r10/tongass/newsroom/releases/summer-hours-entrance-fees-begin-southeast-alaska-discovery-center"
+  },
+  {
+   "title": "Ketchikan Visitors Bureau – Totem Bight",
+   "url": "https://www.visitktn.com/plan/places-to-discover/totem-bight/"
+  },
+  {
+   "title": "Ketchikan Marine Industry Council – Cruise ship berths",
+   "url": "https://ketchikan-marine-industry.com/listing/cruise-ship-berths/"
+  },
+  {
+   "title": "Holland America – Misty Fjords & Wilderness Explorer Cruise",
+   "url": "https://www.hollandamerica.com/content/hal/global/en/cruise-destinations/alaska-cruises/alaska-yukon-ports/ktn/24236"
+  },
+  {
+   "title": "Norwegian Cruise Line – Scenic Trolley & Southeast Discovery Center",
+   "url": "https://www.ncl.com/shore-excursions/KTN_54/Scenic-Trolley-Southeast-Discovery-Center"
+  },
+  {
+   "title": "Celebrity Cruises – Ketchikan port guide",
+   "url": "https://www.celebritycruises.com/au/ports/ketchikan"
+  },
+  {
+   "title": "The Points Guy – Beginner's guide to visiting Ketchikan by cruise ship (2025)",
+   "url": "https://thepointsguy.com/cruise/beginners-guide-visiting-ketchikan-cruise-ship/"
+  },
+  {
+   "title": "Emma Cruises – Visiting Ketchikan by cruise ship",
+   "url": "https://emmacruises.com/visiting-ketchikan-by-cruise-ship-everything-you-need-to-know/"
+  },
+  {
+   "title": "Flashpacking America – Ketchikan bus to Totem Bight",
+   "url": "https://www.flashpackingamerica.com/alaska-travel/ketchikan-bus-to-totem-bight-state-historical-park/"
+  },
+  {
+   "title": "Frommer's – Things to do in Ketchikan",
+   "url": "https://www.frommers.com/destinations/ketchikan/things-to-do/"
+  },
+  {
+   "title": "Cruise Critic – The Great Alaskan Lumberjack Show",
+   "url": "https://www.cruisecritic.com/articles/the-great-alaskan-lumberjack-show-in-ketchikan-an-alaska-cruise-excursion"
+  },
+  {
+   "title": "Princess Cruises – Best Juneau and Ketchikan restaurants near the cruise ports",
+   "url": "https://www.princess.com/blog/alaska-food-eat-like-a-local-at-these-restaurants"
+  },
+  {
+   "title": "The Cruise Web – Ketchikan (Ward Cove)",
+   "url": "https://cruiseweb.com/ports/ketchikan-ward-cove-alaska"
+  }
+ ],
+ "uncertain": [
+  "2026 Silver Line fare amount and exact departure minutes (last source, from 2023, gave $2 cash and northbound about 25 minutes past the hour)",
+  "Totem Bight entry fee amount for 2026 (reported as $5 in 2023)",
+  "Southeast Alaska Discovery Center 2026 fee and hours (2025 figures used; a fee rise was proposed in 2026)",
+  "Great Alaskan Lumberjack Show 2026 ticket prices",
+  "Dolly's House and Totem Heritage Center 2026 prices and hours",
+  "Misty Fjords floatplane prices and flight times"
+ ]
+}

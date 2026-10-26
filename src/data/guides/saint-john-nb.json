@@ -1,0 +1,356 @@
+{
+ "slug": "saint-john-nb",
+ "city": "Saint John",
+ "portName": "Port Saint John (Marco Polo and Diamond Jubilee cruise terminals)",
+ "townName": "Uptown Saint John",
+ "country": "Canada",
+ "currency": "CAD",
+ "currencySymbol": "C$",
+ "language": "English (New Brunswick is officially bilingual, English and French)",
+ "timezone": "Atlantic Time: AST (UTC−4), ADT (UTC−3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Saint John cruise port guide: uptown, falls and Fundy tides",
+ "seoDescription": "Saint John cruise ships dock in uptown, 400 m from City Market. Reversing Rapids is 4 km. Hopewell Rocks tours take 7–8 hours; entry C$18.15 (2026).",
+ "quickAnswer": "Ships dock at the Marco Polo or Diamond Jubilee cruise terminals, or Long Wharf, right beside uptown Saint John, so you walk off the ship into town; most sights are within 15 minutes on foot. The Reversing Rapids are about 4 km away and Hopewell Rocks is a 7–8 hour tour. From uptown, start back 75 minutes before all-aboard.",
+ "intro": "Saint John is New Brunswick's port city on the Bay of Fundy, and its cruise berths sit at the foot of uptown. The City Market, the waterfront boardwalk and the shops of Market Square are minutes from the gangway. The day's theme is the Fundy tide: at the Reversing Rapids the river is pushed backwards at high tide, and at Hopewell Rocks the sea floor you walk on at low tide is under water a few hours later. Plan those around the tide table, not the other way round.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Marco Polo Cruise Terminal",
+   "distanceToCentreKm": 0.4,
+   "notes": "Built 2009, 388 m berth, with elevators, escalators, free wifi and an ATM dispensing Canadian dollars. The AREA 506 Waterfront Container Village is next door."
+  },
+  {
+   "name": "Diamond Jubilee Cruise Terminal",
+   "distanceToCentreKm": 0.4,
+   "notes": "Built 2012, with elevators, escalators and free wifi."
+  },
+  {
+   "name": "Long Wharf Terminal",
+   "distanceToCentreKm": 0.4,
+   "notes": "Third cruise berth, used when several ships are in; up to three ships can be handled at once."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": 0.4,
+  "detail": "Uptown starts at the terminals. The City Market is about 400 m from the pier and most uptown sights are within 15 minutes on foot. Uptown is built on a hill, so expect a climb from the waterfront. The Reversing Rapids, about 4 km away, are a long walk."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "Up to 15 min to most uptown sights",
+   "detail": "Pick up a map from the Welcome Crew at the terminal. Water Street is opposite the terminal; the City Market is on Charlotte Street facing King's Square."
+  },
+  {
+   "mode": "Harbour Passage walkway to the Reversing Rapids",
+   "cost": "Free",
+   "time": "About 4 km, roughly an hour each way",
+   "detail": "A waterfront walking route from uptown towards the gorge. Worth it on a dry day if you have the time; otherwise take a taxi."
+  },
+  {
+   "mode": "Saint John Transit bus",
+   "cost": "C$3 cash, exact change (2026)",
+   "time": "Varies by route",
+   "detail": "Single fare for ages 7 and over from 1 January 2026. Pay exact change or use the SJTRides mobile ticketing app."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered",
+   "time": "Short ride to the Reversing Rapids",
+   "detail": "Taxis wait near the terminals. Most ship tours also stop at the Reversing Rapids."
+  },
+  {
+   "mode": "Hopewell Rocks tour",
+   "cost": "Ship's tour or private tour; prices vary by group size",
+   "time": "7–8 hours",
+   "detail": "Hopewell Rocks is a long trip along the Fundy coast. Independent tours must return you to the terminal at least 90 minutes before all-aboard."
+  }
+ ],
+ "returnTiming": {
+  "rule": "From uptown, start back 75 minutes before all-aboard, to be on board 60 minutes before. From the Reversing Rapids on foot, leave two hours before. For Hopewell Rocks, take only a tour that is scheduled back at the terminal at least 90 minutes before all-aboard.",
+  "detail": "Uptown is next to the berths, so the town itself carries little risk. Hopewell Rocks is the risk: tours run 7–8 hours, the park visit is tied to the tide, and the return is a long drive with no alternative transport.",
+  "emergencyFallback": "If an independent tour is running late, call the port agent number on your ship's daily programme at once. Port Saint John's 24-hour security line is 506 636 5044."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Hopewell Rocks",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Private tour (price varies by group size) plus C$18.15 park entry plus tax (2026)",
+   "saving": "Depends on your line's price and group size"
+  }
+ ],
+ "excursionAdvice": "Do Saint John itself on your own: the market, the waterfront and uptown are next to the ship. The Reversing Rapids are easy by taxi or a long waterfront walk. Hopewell Rocks is where the ship's tour earns its price: it takes most of the day, the timing depends on the tide, and the ship waits for its own tours. Private tours are priced per person by group size, so they make most sense for a group.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at the Marco Polo Cruise Terminal and all-aboard is 17:30, on a weekday in summer.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship past the AREA 506 Waterfront Container Village and along the waterfront boardwalk."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk up to the Saint John City Market on Charlotte Street. Try dulse, the dried Fundy seaweed sold by vendors."
+   },
+   {
+    "time": "10:00",
+    "what": "Check the tide table, then walk the Harbour Passage towards the Reversing Rapids, or take a taxi."
+   },
+   {
+    "time": "11:00",
+    "what": "Reversing Rapids: the lookout at 200 Bridge Road (Skywalk opens 11:00) and the water-level viewpoint at 50 Fallsview Avenue."
+   },
+   {
+    "time": "12:30",
+    "what": "Taxi back to uptown. Lunch, for example seafood at Grannan's Seafood & Grill in Market Square."
+   },
+   {
+    "time": "14:00",
+    "what": "Browse Market Square, Water Street and King Street."
+   },
+   {
+    "time": "16:15",
+    "what": "Walk back to the terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Saint John City Market",
+   "why": "Canada's oldest continuously operating farmers' market, in an 1876 building with a roof like an upturned ship's hull; a National Historic Site.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free",
+   "tip": "Opens 07:30. Vendor hours are 10:00–18:00 Monday to Friday and 10:00–17:00 Saturday; Sunday opening is not guaranteed."
+  },
+  {
+   "name": "Reversing Rapids",
+   "why": "Fundy tides push the Saint John River backwards through a rocky gorge, with whirlpools at high tide and rapids at low tide.",
+   "timeNeeded": "1 hour on site",
+   "cost": "Free to view",
+   "tip": "Check the Saint John tide table. Slack water, when the gorge goes calm, lasts only about 20 minutes."
+  },
+  {
+   "name": "Skywalk Saint John",
+   "why": "A glass lookout over the largest whirlpool of the Reversing Rapids, with a small theatre and a live tide display.",
+   "timeNeeded": "45 minutes",
+   "cost": "Ticketed; check at the door",
+   "tip": "Opens at 11:00, so go after the market."
+  },
+  {
+   "name": "AREA 506 Waterfront Container Village",
+   "why": "A waterfront village built from shipping containers, right next to the Marco Polo terminal.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free",
+   "tip": "A good first or last stop beside the ship."
+  },
+  {
+   "name": "Harbour Passage",
+   "why": "A waterfront walking route from uptown towards the Reversing Rapids.",
+   "timeNeeded": "1 hour each way to the rapids",
+   "cost": "Free",
+   "tip": "Walk one way and take a taxi back to save time."
+  },
+  {
+   "name": "Hopewell Rocks",
+   "why": "The flowerpot sea stacks of the Bay of Fundy; at low tide you walk on the sea floor among them.",
+   "timeNeeded": "7–8 hours as a tour from the port",
+   "cost": "C$18.15 adult entry plus 15% tax (2026)",
+   "tip": "The seabed walk depends on the tide and is not guaranteed on a cruise-day timing. Open mid-May to late October."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Dulse (dried Fundy seaweed) and market meals to go",
+   "where": "Saint John City Market, 47 Charlotte Street",
+   "price": null
+  },
+  {
+   "dish": "Bay of Fundy seafood",
+   "where": "Grannan's Seafood & Grill, Market Square",
+   "price": null
+  },
+  {
+   "dish": "Fish and chips",
+   "where": "Gahan House Port City, uptown",
+   "price": null
+  },
+  {
+   "dish": "Waterfront lunch with bay views",
+   "where": "York Bistro & Pub, Harbour Front Hotel",
+   "price": null
+  },
+  {
+   "dish": "New Brunswick drinks",
+   "where": "Uncorked Tours & Tastings bar, Saint John City Market",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Visiting the Reversing Rapids without checking the tide.",
+   "fix": "Look up the Saint John tide table. The effect is strongest near high and low tide; at slack water the gorge looks like a calm river."
+  },
+  {
+   "mistake": "Booking an independent Hopewell Rocks tour that returns close to all-aboard.",
+   "fix": "Choose one scheduled back at least 90 minutes before all-aboard, or take the ship's tour."
+  },
+  {
+   "mistake": "Forgetting the time change.",
+   "fix": "Saint John is on Atlantic Time. Check whether the ship's clocks match local time before you plan your return."
+  },
+  {
+   "mistake": "Paying in US dollars and expecting US change.",
+   "fix": "Many shops near the pier take US dollars but give change in Canadian dollars. Use a card or the ATM at the Marco Polo terminal."
+  },
+  {
+   "mistake": "Planning the City Market for a Sunday.",
+   "fix": "Guaranteed vendor hours are Monday to Saturday only."
+  }
+ ],
+ "safety": "Saint John is relatively safe. Use normal city sense in uptown and leave unneeded valuables in your cabin safe. At the Reversing Rapids, stay at the viewpoints; the water in the gorge is dangerous outside the brief slack-tide window. At Hopewell Rocks, the park is closed outside opening hours because the tide rises quickly; follow staff instructions on the sea floor.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The Marco Polo and Diamond Jubilee terminals have large elevators and escalators and tide-adjusting gangways. Uptown is on a hill, so routes up from the waterfront are steep in places. The Reversing Rapids lookout at 200 Bridge Road is reached by road. At Hopewell Rocks, the walk to the sea floor involves about 100 steps. Some ship tours, such as trolley tours, cannot carry mobility devices; check before booking.",
+ "rainyDay": "Spend longer in the City Market and the indoor shops of Market Square, and eat uptown. The Skywalk at the Reversing Rapids is partly indoors, with a theatre and tide display. Skip the Harbour Passage walk in heavy rain and take a taxi instead.",
+ "crowdTips": "Up to three ships can be in at once. The City Market and the waterfront are busiest just after ships arrive. Go to the market first if it is a quiet day, or head to the Reversing Rapids first and do the market in the afternoon on a busy one. Check the Port Saint John cruise schedule for your date.",
+ "faqs": [
+  {
+   "q": "Is Saint John walkable from the cruise port?",
+   "a": "Yes. The terminals are next to uptown; the City Market is about 400 m away and most sights are within 15 minutes on foot."
+  },
+  {
+   "q": "Is Saint John a tender port?",
+   "a": "No. Ships dock at the Marco Polo, Diamond Jubilee or Long Wharf terminals."
+  },
+  {
+   "q": "How do I get from Saint John cruise port to the Reversing Falls?",
+   "a": "Walk the Harbour Passage, about 4 km, or take a taxi. Most ship tours stop there too."
+  },
+  {
+   "q": "When is the best time to see the Reversing Falls?",
+   "a": "Near high tide for whirlpools and near low tide for rapids. Check the Saint John tide table for your date."
+  },
+  {
+   "q": "Can I see Hopewell Rocks from a cruise ship in Saint John?",
+   "a": "Yes, on a 7–8 hour tour. Take the ship's tour or a private tour scheduled back 90 minutes before all-aboard."
+  },
+  {
+   "q": "How much is Hopewell Rocks?",
+   "a": "C$18.15 for an adult plus 15% tax (2026). The ticket is valid for two consecutive days."
+  },
+  {
+   "q": "What can I do in Saint John in one day from a cruise ship?",
+   "a": "The City Market, the waterfront and AREA 506, then the Reversing Rapids timed to the tide."
+  },
+  {
+   "q": "Is Saint John safe?",
+   "a": "Yes, relatively. Stay at the viewpoints at the rapids and follow staff at Hopewell Rocks."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Saint John City Market"
+  },
+  {
+   "name": "Reversing Rapids"
+  },
+  {
+   "name": "Skywalk Saint John"
+  },
+  {
+   "name": "AREA 506 Waterfront Container Village"
+  },
+  {
+   "name": "Hopewell Rocks"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port Saint John – For cruise lines",
+   "url": "https://www.sjport.com/cruise-lines"
+  },
+  {
+   "title": "Port Saint John – Visiting passengers",
+   "url": "https://www.sjport.com/visiting-passengers"
+  },
+  {
+   "title": "City of Saint John – Transit fares and passes",
+   "url": "https://saintjohn.ca/en/transit/fares-and-passes"
+  },
+  {
+   "title": "NB Parks – Hopewell Rocks dates and rates",
+   "url": "https://nbparks.ca/en/parks/33/hopewell-rocks-provincial-park/dates"
+  },
+  {
+   "title": "Discover Saint John – Skywalk Saint John",
+   "url": "https://discoversaintjohn.com/node/10319"
+  },
+  {
+   "title": "Discover Saint John – Food and drink guide",
+   "url": "https://www.discoversaintjohn.com/sites/default/files/inline-files/Food_EngLinked.pdf"
+  },
+  {
+   "title": "Saint John City Market",
+   "url": "https://sjcitymarket.ca/"
+  },
+  {
+   "title": "Bay of Fundy Tourism – Saint John's Reversing Rapids",
+   "url": "https://www.bayoffundy.com/articles/reversing-rapids-st-john/"
+  },
+  {
+   "title": "Cruise Canada New England – Saint John port profile",
+   "url": "https://www.cruisecanadanewengland.com/files/Brochure-Downloads/3149"
+  },
+  {
+   "title": "Holland America – Saint John port and Trolley 'Round Saint John",
+   "url": "https://www.hollandamerica.com/en/cruise-destinations/canada-new-england-cruises/canada-new-england-ports/ysj/44412"
+  },
+  {
+   "title": "P&O Cruises – Hopewell Rocks Tidal Discovery",
+   "url": "https://www.pocruises.com/shore-experiences/ysj/hopewell-rocks-tidal-discovery"
+  },
+  {
+   "title": "Shore Excursions Group – Private Hopewell Rocks tour",
+   "url": "https://www.shoreexcursionsgroup.com/tour/private-new-brunswick-hopewell-rocks-by-foot/cnsjpvtdiscovericoni"
+  },
+  {
+   "title": "Cruise Critic – Saint John (New Brunswick) port",
+   "url": "https://www.cruisecritic.com/find-a-cruise/port-saint-john-new-brunswick"
+  },
+  {
+   "title": "Frommer's – Saint John City Market",
+   "url": "https://www.frommers.com/destinations/saint-john/attractions/saint-john-city-market/"
+  },
+  {
+   "title": "OpenTable – Best lunch restaurants in Saint John (2026)",
+   "url": "https://www.opentable.ca/features/best-lunch-restaurants-saint-john-newbrunswick?lang=fr-ca"
+  },
+  {
+   "title": "CTV News – New Brunswick Museum opening delayed to 2028 (July 2025)",
+   "url": "https://www.ctvnews.ca/atlantic/new-brunswick/article/opening-of-revamped-new-brunswick-museum-delayed-to-2028/"
+  }
+ ],
+ "uncertain": [
+  "Pugsley Terminal: named in the brief but not listed on Port Saint John's current cruise page, which lists Marco Polo, Diamond Jubilee and Long Wharf.",
+  "Driving distance and time from Saint John to Hopewell Rocks.",
+  "Skywalk Saint John admission price and season.",
+  "Saint John Transit route numbers to the Reversing Rapids.",
+  "Taxi fares from the terminal to the Reversing Rapids.",
+  "Whether any New Brunswick Museum exhibition space is open to visitors in 2026; its new facility is due in 2028.",
+  "Private Hopewell Rocks tour prices: one seller lists $237.99–$1,103.99 per person by group size, currency not confirmed.",
+  "No documented cruise-specific scams found for Saint John."
+ ]
+}

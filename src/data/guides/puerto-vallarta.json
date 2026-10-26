@@ -1,0 +1,384 @@
+{
+  "slug": "puerto-vallarta",
+  "city": "Puerto Vallarta",
+  "portName": "Marina Vallarta Maritime and Cruise Terminal",
+  "townName": "the Malecón and El Centro",
+  "country": "Mexico",
+  "currency": "USD",
+  "currencySymbol": "US$",
+  "priceSymbol": "US$",
+  "language": "Spanish",
+  "timezone": "CST (UTC−6) all year; Jalisco does not use daylight saving time",
+  "lastVerified": "October 2026",
+  "seoTitle": "Puerto Vallarta cruise port guide: taxi, bus, Malecón",
+  "seoDescription": "Puerto Vallarta cruise port is 5 km north of the Malecón: taxi 10–15 min for about US$5–7, 'Centro' bus not 'Túnel', Los Muertos beach, US$10 Mexico fee.",
+  "quickAnswer": "Ships dock at the Marina Vallarta cruise terminal, about 5 km north of the Malecón and El Centro. A taxi from outside the port gate takes 10–15 minutes and costs about US$5–7; city buses marked 'Centro' are cheaper. Leave the Malecón by 16:00 for a 17:30 all-aboard, or by 15:45 from the Zona Romántica.",
+  "intro": "Puerto Vallarta is the busiest cruise port on Mexico's Pacific coast, and up to three ships dock at once at Marina Vallarta. The terminal sits in the hotel and marina district north of the old town, so the day starts with a short taxi or bus ride. What you get in return is a real city on Banderas Bay: the seafront Malecón, the crowned church of Our Lady of Guadalupe, the Río Cuale with its craft market, and the Zona Romántica and Los Muertos beach south of the river. Boat trips to Los Arcos and the Marietas Islands leave from the marina side. Traffic, not distance, is what makes returns tight.",
+  "isTender": false,
+  "tenderNotes": "Ships normally dock. When all berths are taken, a ship may anchor and tender passengers to the same terminal.",
+  "typicalHours": 9,
+  "terminals": [
+    {
+      "name": "Dock 1 (main terminal)",
+      "distanceToCentreKm": 5,
+      "notes": "Main air-conditioned terminal with information desks, shops, toilets and step-free access. Mainly Carnival and Royal Caribbean. A craft market runs beside it. No public Wi-Fi."
+    },
+    {
+      "name": "Dock 2",
+      "distanceToCentreKm": 5,
+      "notes": "The second-largest berth, mainly Norwegian and Princess. A short walk from Dock 1."
+    }
+  ],
+  "walkability": {
+    "verdict": "No",
+    "minutes": null,
+    "km": 5,
+    "detail": "The Malecón is about 5 km south along a busy main road. Walking is possible but long and hot; most people take a taxi or bus. Within 10 minutes' walk of the terminal are Walmart, Sam's Club and the Galerías Vallarta mall, with free Wi-Fi and air conditioning."
+  },
+  "transportSections": [
+    {
+      "mode": "Taxi",
+      "cost": "About US$5–7 to downtown, negotiable; under US$10",
+      "time": "10–15 min, depending on traffic",
+      "detail": "Walk out of the port gate: the yellow city taxis outside are cheaper than the federal-zone cabs offered inside. Agree the fare before you get in. Taxis are easy to find in the centre for the return."
+    },
+    {
+      "mode": "City bus",
+      "cost": "A few pesos in cash; no transfers",
+      "time": "Slower than a taxi; depends on traffic",
+      "detail": "Buses run frequently along the main road outside the port. Take one heading south marked 'Centro'; avoid buses marked 'Túnel', which bypass downtown. To come back, take a bus marked 'Marina' or 'Walmart'. Pay the driver; each ride needs a new ticket. Dollars are often taken, with change in pesos."
+    },
+    {
+      "mode": "Uber",
+      "cost": "Check the app",
+      "time": "10–15 min to downtown",
+      "detail": "Uber operates in Puerto Vallarta. Agree on the pick-up point in the app."
+    },
+    {
+      "mode": "Water taxi",
+      "cost": "Agree the price before boarding",
+      "time": "Varies",
+      "detail": "Water taxis leave from the pier at Playa de Los Muertos for beaches further along the south shore of the bay. Only go on a long call and confirm the last return boat."
+    }
+  ],
+  "returnTiming": {
+    "rule": "Leave the Malecón by 16:00 for a 17:30 all-aboard (90 minutes before), or the Zona Romántica and Los Muertos by 15:45.",
+    "detail": "The taxi ride is 10–15 minutes in normal traffic, but the main road north to the marina can slow down in the afternoon, and the bus is slower still. Allow 60 minutes on board before all-aboard plus a margin for traffic.",
+    "emergencyFallback": "Take a taxi rather than waiting for a bus. If you are delayed on a boat trip or in traffic, call the port agent number printed on your daily programme straight away."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": null,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {
+      "item": "Malecón, church and old town walk",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Taxi about US$5–7 each way per cab; walking is free",
+      "saving": "Large; this is easy on your own"
+    },
+    {
+      "item": "Los Arcos or Marietas Islands boat trip",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Local operators; prices not verified",
+      "saving": "Check the return time before you compare prices"
+    },
+    {
+      "item": "Resort day pass",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "From about US$89 adult, US$49 child, plus deposit (2024 report)",
+      "saving": "Depends on the resort"
+    }
+  ],
+  "excursionAdvice": "Do the Malecón, the church, the Río Cuale and Los Muertos beach on your own: a taxi gets you there in 15 minutes and everything is walkable once you are there. Book the ship's tour, or a reputable operator with a written return time, for the Marietas Islands, Los Arcos snorkelling and the Sierra Madre trips, which are out of town or on the water for hours.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30. Check your own ship's times.",
+    "steps": [
+      {
+        "time": "08:30",
+        "what": "Walk out of the port gate and take a yellow taxi, or a southbound 'Centro' bus, to the Malecón."
+      },
+      {
+        "time": "09:00",
+        "what": "Walk the Malecón southwards, past the sculptures and the arches at Plaza Morelos."
+      },
+      {
+        "time": "10:00",
+        "what": "Climb up to the Church of Our Lady of Guadalupe with its crowned tower, and the main square."
+      },
+      {
+        "time": "10:45",
+        "what": "Cross to the Río Cuale and browse the craft stalls of the Mercado Río Cuale."
+      },
+      {
+        "time": "11:45",
+        "what": "Cross the river into the Zona Romántica (Olas Altas) for street art and shops."
+      },
+      {
+        "time": "12:30",
+        "what": "Lunch on Playa de Los Muertos: fish tacos or pescado zarandeado at a beach restaurant."
+      },
+      {
+        "time": "13:45",
+        "what": "Swim or sit on the beach; watch your belongings."
+      },
+      {
+        "time": "15:45",
+        "what": "Take a taxi back from the Zona Romántica to the cruise terminal."
+      },
+      {
+        "time": "16:15",
+        "what": "Short stop at the craft market by the terminal if time allows."
+      },
+      {
+        "time": "16:30",
+        "what": "Back on board, 60 minutes before all-aboard."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "The Malecón",
+      "why": "The 12-block seafront promenade dating from the 1930s, with bronze sculptures and views over Banderas Bay.",
+      "timeNeeded": "1 hour",
+      "cost": "Free",
+      "tip": "Walk it south from the north end in the morning, before the heat."
+    },
+    {
+      "name": "Church of Our Lady of Guadalupe",
+      "why": "The city's landmark church, with a crown on top of its tower.",
+      "timeNeeded": "30 minutes",
+      "cost": "Free",
+      "tip": "In the 12 days up to 12 December, pilgrimages fill the streets around it; allow extra time."
+    },
+    {
+      "name": "Río Cuale and Mercado Río Cuale",
+      "why": "A crafts and souvenir market along the river that divides El Centro from the Zona Romántica.",
+      "timeNeeded": "45 minutes",
+      "cost": "Free to browse",
+      "tip": "Compare prices before buying; the stalls carry similar goods."
+    },
+    {
+      "name": "Zona Romántica (Olas Altas)",
+      "why": "The walkable old quarter south of the river, with street art, sculptures, restaurants and bars.",
+      "timeNeeded": "1 hour",
+      "cost": "Free",
+      "tip": "It leads straight to Los Muertos beach and pier."
+    },
+    {
+      "name": "Playa de Los Muertos and the pier",
+      "why": "The city's busiest beach, with water sports, beach restaurants and water taxis from the pier.",
+      "timeNeeded": "1.5–2 hours",
+      "cost": "Free; pay for loungers and food",
+      "tip": "Take the taxi back from here by 15:45 for a 17:30 all-aboard."
+    },
+    {
+      "name": "Los Arcos Marine Park",
+      "why": "Rock arches and islets in the bay, about 11 km from the port, popular for snorkelling.",
+      "timeNeeded": "3–4 hours by boat",
+      "cost": "Varies by operator",
+      "tip": "Book a tour with a fixed return to the marina."
+    },
+    {
+      "name": "Islas Marietas",
+      "why": "National park islands off the bay, visited by catamaran eco-tours with kayaking and snorkelling.",
+      "timeNeeded": "Most of the day",
+      "cost": "Varies; book through the ship",
+      "tip": "Take the ship's tour or a known operator; the trip is long."
+    },
+    {
+      "name": "Vallarta Botanical Garden",
+      "why": "Botanical gardens outside the city, with a restaurant.",
+      "timeNeeded": "3 hours including travel",
+      "cost": "Not verified",
+      "tip": "Taxi only; agree the return time with the driver."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Playa de Los Muertos",
+      "howToGetThere": "Taxi to the Zona Romántica, or walk south along the Malecón and across the Río Cuale",
+      "time": "A little further than the Malecón by taxi",
+      "cost": "Free; pay for loungers",
+      "note": "Busy, with water sports, bars and restaurants."
+    },
+    {
+      "name": "Playa Camarones",
+      "howToGetThere": "Taxi, or walk to the north end of the Malecón",
+      "time": "Near the north end of the Malecón",
+      "cost": "Free",
+      "note": "Quieter than Los Muertos."
+    },
+    {
+      "name": "Resort day passes near the port",
+      "howToGetThere": "Taxi",
+      "time": "Close to the port",
+      "cost": "From about US$89 adult, US$49 child, plus deposit (2024 report)",
+      "note": "All-inclusive food, drinks and pool; many beaches near the port are partly resort-owned."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Seafood and local beer",
+      "where": "Cervecería Chapultepec, a few minutes' walk from the terminal",
+      "price": null
+    },
+    {
+      "dish": "Pescado zarandeado (grilled split fish)",
+      "where": "Beach restaurants on Playa de Los Muertos",
+      "price": null
+    },
+    {
+      "dish": "Fish tacos",
+      "where": "Zona Romántica (Olas Altas)",
+      "price": null
+    },
+    {
+      "dish": "Snacks and street food",
+      "where": "Around the Mercado Río Cuale and the Malecón",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Taking a cab inside the port.",
+      "fix": "Walk out of the gate; the yellow city taxis outside are cheaper. Agree the fare first."
+    },
+    {
+      "mistake": "Boarding a bus marked 'Túnel'.",
+      "fix": "Take a bus marked 'Centro' to downtown and 'Marina' or 'Walmart' back."
+    },
+    {
+      "mistake": "Timing the return by the 10-minute taxi ride alone.",
+      "fix": "Afternoon traffic slows the road north. Leave the Malecón 90 minutes before all-aboard."
+    },
+    {
+      "mistake": "Booking a long boat trip with no fixed return time.",
+      "fix": "For Los Arcos and the Marietas, use the ship or an operator who puts the return time in writing."
+    },
+    {
+      "mistake": "Visiting in hurricane season without a plan B.",
+      "fix": "From June to November storms can cancel calls; in October 2026 Hurricane Simon removed Puerto Vallarta from Carnival Panorama's itinerary. Keep bookings refundable."
+    }
+  ],
+  "safety": "The US State Department rates Jalisco at Level 3, 'Reconsider travel', for crime and kidnapping, but places no restrictions on US government employees' travel to Puerto Vallarta or the Guadalajara area (advisory of 29 May 2026). The Malecón, El Centro and the Zona Romántica are busy with visitors during the day. Use taxis from the official ranks or Uber, keep valuables on the ship or out of sight, and stay in tourist areas. Drink bottled water. Rainy-season storms from June to November can bring heavy downpours and cancelled calls.",
+  "scams": [
+    "Federal-zone cabs inside the port quoting high fares: walk out of the gate to the yellow city taxis and agree the price first.",
+    "Prices quoted in dollars at a poor rate: ask for the peso price and compare, and carry small change.",
+    "Card surcharges of about 5% at some businesses: ask before you pay."
+  ],
+  "emergencyNumber": "911",
+  "accessibility": "The Dock 1 terminal is air-conditioned and step-free. Downtown needs a taxi or bus; city buses are not designed for wheelchairs, so use a taxi or a prebooked accessible vehicle. The Malecón is a flat seafront promenade. Beaches are soft sand. Ask the ship about accessible transport before booking a tour.",
+  "rainyDay": "Rain falls mainly from June to October, often in short heavy showers. Shelter in the Galerías Vallarta mall by the terminal, the church and the covered stalls of the Mercado Río Cuale, and take long lunches in El Centro. Boat trips are the first to be cancelled in bad weather.",
+  "crowdTips": "Up to three ships can dock at once. On busy days the taxi rank outside the gate and the north end of the Malecón fill first. Head south to the Río Cuale and the Zona Romántica early, and return before the rush in the last hour. In the 12 days to 12 December, Guadalupe processions crowd El Centro.",
+  "faqs": [
+    {
+      "q": "Is Puerto Vallarta walkable from the cruise port?",
+      "a": "Not really. The Malecón is about 5 km away. A taxi takes 10–15 minutes; Walmart and a mall are within 10 minutes' walk."
+    },
+    {
+      "q": "How do I get from Puerto Vallarta cruise port to the Malecón?",
+      "a": "Take a yellow taxi from outside the port gate, about US$5–7, or a southbound bus marked 'Centro'."
+    },
+    {
+      "q": "Is Puerto Vallarta a tender port?",
+      "a": "No. Ships dock at the Marina Vallarta terminal. A ship may tender only when all berths are full."
+    },
+    {
+      "q": "What can I do in Puerto Vallarta in one day from a cruise ship?",
+      "a": "Walk the Malecón, see the Guadalupe church, cross the Río Cuale market to the Zona Romántica and finish on Los Muertos beach."
+    },
+    {
+      "q": "Beaches near Puerto Vallarta cruise port?",
+      "a": "Los Muertos is the main town beach, south of the Río Cuale. Near the port, resort day passes give beach and pool access."
+    },
+    {
+      "q": "Is Puerto Vallarta safe for cruise passengers?",
+      "a": "Jalisco is at US Level 3, but the US places no travel restrictions on Puerto Vallarta. Stay in tourist areas and use official taxis."
+    },
+    {
+      "q": "How much is a taxi from the Puerto Vallarta cruise port to downtown?",
+      "a": "About US$5–7 from outside the gate, negotiable and agreed before you go."
+    },
+    {
+      "q": "When should I head back to the ship in Puerto Vallarta?",
+      "a": "Leave the Malecón 90 minutes before all-aboard; traffic north can slow the 15-minute ride."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "The Malecón"
+    },
+    {
+      "name": "Church of Our Lady of Guadalupe"
+    },
+    {
+      "name": "Mercado Río Cuale"
+    },
+    {
+      "name": "Zona Romántica"
+    },
+    {
+      "name": "Playa de Los Muertos"
+    },
+    {
+      "name": "Los Arcos Marine Park"
+    },
+    {
+      "name": "Islas Marietas"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Celebrity Cruises – Puerto Vallarta port guide",
+      "url": "https://www.celebritycruises.com/ports/puerto-vallarta"
+    },
+    {
+      "title": "Celebrity Cruises – Puerto Vallarta shore excursions",
+      "url": "https://www.celebritycruises.com/ports/puerto-vallarta/shore-excursions"
+    },
+    {
+      "title": "What's in Port – Puerto Vallarta",
+      "url": "https://www.whatsinport.com/Puerto-Vallarta.htm"
+    },
+    {
+      "title": "Cruise Hive – Puerto Vallarta cruise port: piers, getting around",
+      "url": "https://www.cruisehive.com/puerto-vallarta-cruise-port/131584"
+    },
+    {
+      "title": "Cruise Hive – Mexico cruise ports (updated June 2025)",
+      "url": "https://www.cruisehive.com/mexico-cruise-ports/148617"
+    },
+    {
+      "title": "Cruise Hive – Best time to cruise the Mexican Riviera",
+      "url": "https://www.cruisehive.com/when-is-the-best-time-to-cruise-the-mexican-riviera/86216"
+    },
+    {
+      "title": "Cruise Hive – Carnival Panorama cancels two Mexico ports over Hurricane Simon (October 2026)",
+      "url": "https://www.cruisehive.com/carnival-panorama-cancels-two-mexico-ports-over-hurricane-simon-swaps-in-ensenada/220752"
+    },
+    {
+      "title": "CruiseMapper – Mexico doubles cruise passenger fee to US$10 (2026)",
+      "url": "https://www.cruisemapper.com/news/16592-mexico-doubles-cruise-passenger-fee"
+    },
+    {
+      "title": "US State Department – Mexico travel advisory (29 May 2026)",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html"
+    },
+    {
+      "title": "Visit Los Cabos – Emergencies (Mexico emergency number 911)",
+      "url": "https://www.visitloscabos.travel/plan/useful-information/emergencies/"
+    }
+  ],
+  "uncertain": [
+    "City bus fare in 2026: sources give 7.50 and 10 pesos; neither is current.",
+    "Bus journey time from the port to El Centro.",
+    "Typical all-aboard time for Puerto Vallarta calls; 17:30 used as a default.",
+    "Water taxi fares and timetables from the Los Muertos pier to Yelapa, Las Ánimas and other south-shore beaches.",
+    "Los Arcos and Marietas tour prices, and any national park access fee or visitor limits at the Marietas.",
+    "Vallarta Botanical Garden admission and hours.",
+    "Ship excursion prices; no cruise line excursion page with prices could be opened, so shipExcursionAvg and savingPerPerson are null.",
+    "No official port authority (ASIPONA Puerto Vallarta) or city tourism page could be opened; Wikivoyage and puertovallarta.net were blocked.",
+    "Restaurant prices."
+  ]
+}

@@ -1,0 +1,380 @@
+{
+ "slug": "portofino",
+ "city": "Portofino",
+ "portName": "Portofino anchorage (Gulf of Tigullio)",
+ "townName": "Portofino harbour and Piazzetta",
+ "country": "Italy",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Italian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Portofino cruise port guide: tenders, red zones, ferries",
+ "seoDescription": "Portofino is a tender-only port. Tenders land in the harbour by the Piazzetta; Santa Margherita is 15 min by ferry. Castello Brown €5, San Fruttuoso €10 (2026).",
+ "quickAnswer": "Portofino is a tender port: ships anchor in the Gulf of Tigullio and tender passengers into the small harbour, a short walk from the Piazzetta. Some ships anchor off Santa Margherita Ligure instead; from there Portofino is about 15 minutes by ferry or a short bus ride. Join the tender queue 90 minutes before all-aboard.",
+ "intro": "Portofino is a tiny harbour village at the tip of a protected promontory, with one square, a ring of painted houses and a castle above. There is no cruise pier and no room for big crowds, which is why the town has crowd rules on its quays and why many 'Portofino' calls now anchor off Santa Margherita Ligure or Rapallo. Your day depends on two things: where your tender lands, and the boat and tender timetables. The village itself takes two or three hours; the rest of the day goes on the promontory walks, San Fruttuoso by boat or Santa Margherita.",
+ "isTender": true,
+ "tenderNotes": "No ship can berth: all calls anchor and tender. Since 2016 the anchorage off Portofino has been about 560 m from the coast, cutting the tender ride to around 5 minutes; expect longer when the sea is rough. Tenders land in the harbour in the centre of the village, close to the Piazzetta. Some ships, especially larger ones, anchor off Santa Margherita Ligure and land passengers there; in 2025 about three-quarters of the season's 140 calls used the anchorage off Santa Margherita, and the Rapallo anchorage was brought back into use. Check your daily programme for the landing point and the last tender time; the last tender is typically 1–2 hours before sailing.",
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Portofino harbour tender landing",
+   "distanceToCentreKm": 0.1,
+   "notes": "Tenders come into the harbour in the centre of the village. The Piazzetta (Piazza Martiri dell'Olivetta) is a short walk along the quay."
+  },
+  {
+   "name": "Santa Margherita Ligure tender landing (some ships)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Used when the ship anchors off Santa Margherita. Portofino is about 15 minutes away by the Tigullio ferry, or by ATP bus or taxi along the narrow coast road. Reviewers report a high step from the tender at Santa Margherita."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.3,
+  "detail": "If your tender lands in Portofino, everything in the village is on foot. The castle, the church of San Giorgio and the lighthouse path climb steeply above the harbour. If you land at Santa Margherita, Portofino is a ferry or bus ride away."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot in Portofino",
+   "cost": "Free",
+   "time": "A few minutes from the tender landing to the Piazzetta",
+   "detail": "Cobbled lanes, steps and steep paths. Wear shoes with grip for the castle and the lighthouse path."
+  },
+  {
+   "mode": "Tigullio ferry (Servizio Marittimo del Tigullio, line 1)",
+   "cost": "Buy at the ticket office on the quay; check the fare there",
+   "time": "Santa Margherita–Portofino about 15 min; Portofino–San Fruttuoso about 30 min",
+   "detail": "Line 1 links Rapallo, Santa Margherita, Portofino and San Fruttuoso all year on a seasonal timetable. Tickets are sold only at the ticket office. Boats can be cancelled in bad weather or at the captain's discretion, and timetables can change without notice."
+  },
+  {
+   "mode": "ATP bus, Santa Margherita–Portofino",
+   "cost": "Check the current fare at the stop or ticket outlet",
+   "time": "Short ride on the coast road",
+   "detail": "A frequent public bus runs along the coast road between Santa Margherita and Portofino. Unauthorised coaches are barred from the stretch from Rapallo and Santa Margherita towards Portofino."
+  },
+  {
+   "mode": "Boat to San Fruttuoso",
+   "cost": "Ferry fare at the ticket office; abbey €10 adult (2026)",
+   "time": "About 30 min each way from Portofino",
+   "detail": "Boats from Portofino are seasonal. Check the time of the last boat back before you go, because San Fruttuoso has no road."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be in the tender queue in Portofino by 16:00 for a 17:30 all-aboard (90 minutes before). If you went to Santa Margherita or San Fruttuoso, be back in Portofino by 15:30.",
+  "detail": "Tender capacity is the bottleneck. Everyone returns in the last two hours, and swell can slow the boats. Ferries to San Fruttuoso and Santa Margherita run to a timetable and can be cancelled in bad weather, so a missed or cancelled boat must still leave you time to get back.",
+  "emergencyFallback": "From Santa Margherita take the ATP bus or a taxi to Portofino if the ferry is cancelled. From San Fruttuoso the only alternatives to the boat are long trails, so never take the last boat. If you will miss the last tender, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Portofino and San Fruttuoso by boat",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Tigullio ferry fare plus abbey €10 (2026)",
+   "saving": "Not verified"
+  }
+ ],
+ "excursionAdvice": "You do not need a tour for Portofino itself: the village is a few minutes from the tender landing and is best on foot. A ship tour is worth considering if your ship anchors off Santa Margherita or Rapallo and you only want a guided visit to Portofino, because the tour handles the ferry or coach timing and the ship waits if the tour is late. A tour also makes sense for San Fruttuoso on a short call or in uncertain weather, since the public boats can be cancelled.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship anchors off Portofino at 08:00, first tenders land by 08:30, all-aboard is 17:30, and a summer day with the seasonal San Fruttuoso boats running.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Tender ashore. Walk round the harbour to the Piazzetta while it is still quiet."
+   },
+   {
+    "time": "09:00",
+    "what": "Climb to Castello Brown (€5) and on to the church of San Giorgio for the view over the harbour."
+   },
+   {
+    "time": "10:30",
+    "what": "Back down to the quay. Check the San Fruttuoso boat times and buy tickets at the ticket office."
+   },
+   {
+    "time": "11:00",
+    "what": "Boat to San Fruttuoso, about 30 minutes."
+   },
+   {
+    "time": "11:30",
+    "what": "Visit the Abbey of San Fruttuoso (€10). Swim from the small beach if it is not too crowded."
+   },
+   {
+    "time": "13:30",
+    "what": "Boat back to Portofino; check the return time before leaving the abbey."
+   },
+   {
+    "time": "14:15",
+    "what": "Late lunch in Portofino or a gelato on the harbour. Visit the Museo del Parco on Molo Umberto I."
+   },
+   {
+    "time": "15:30",
+    "what": "Last walk around the harbour, keeping off the red-zone quays where lingering is banned."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the tender queue, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Piazzetta and harbour",
+   "why": "The small square and painted harbour front that make up the classic Portofino view.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Go early, before the tour groups. Do not stop or gather on the signed red-zone stretches of the quay, where lingering is fined."
+  },
+  {
+   "name": "Castello Brown",
+   "why": "A fort above the harbour with gardens and a photo collection of famous visitors.",
+   "timeNeeded": "45 minutes plus the steep walk up",
+   "cost": "€5 adult (2024 listing)",
+   "tip": "Reached by a steep stepped path from the harbour."
+  },
+  {
+   "name": "Church of San Giorgio",
+   "why": "Church on the promontory between the harbour and the castle, rebuilt after wartime bombing, with views on both sides.",
+   "timeNeeded": "20 minutes",
+   "cost": "No ticket listed",
+   "tip": "Combine with Castello Brown on the same climb."
+  },
+  {
+   "name": "Abbey of San Fruttuoso",
+   "why": "A medieval abbey in a cove reachable only by boat or on foot, run by FAI. The underwater Christ of the Abyss statue is in the bay.",
+   "timeNeeded": "2.5–3 hours including the boat",
+   "cost": "€10 adult (2026)",
+   "tip": "Opens 10:00; closes 17:45 from June to mid-September, 16:45 from 15 September and in April–May, 15:45 from October to March. Last entry 45 minutes before closing. It closes if bad weather stops the boats. Many steps; hard for limited mobility."
+  },
+  {
+   "name": "Museo del Parco",
+   "why": "Open-air sculpture garden above the harbour with sea views.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check at the entrance",
+   "tip": "The paths climb; wear comfortable shoes."
+  },
+  {
+   "name": "Santa Margherita Ligure",
+   "why": "A larger resort town on the gulf with a seafront, churches and more restaurants at lower prices than Portofino.",
+   "timeNeeded": "2 hours plus 15 min each way",
+   "cost": "Ferry or bus fare",
+   "tip": "If your ship lands you here, spend the morning in Portofino first while the tenders and ferries are quieter."
+  },
+  {
+   "name": "Portofino Park trails",
+   "why": "About 70 km of marked paths across the promontory, through pine woods and scrub to the sea.",
+   "timeNeeded": "1–3 hours depending on the route",
+   "cost": "Free",
+   "tip": "The lighthouse path from the harbour is steep. Longer routes to San Fruttuoso need sturdy shoes and fit legs; use the boat on a cruise day."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Paraggi bay",
+   "howToGetThere": "Coastal path from Portofino through the park pines",
+   "time": "About 40 min walk",
+   "cost": "Walk is free; check beach charges on arrival",
+   "note": "A small sandy cove on the road to Santa Margherita. Allow the walk back in your return time."
+  },
+  {
+   "name": "San Fruttuoso",
+   "howToGetThere": "Seasonal boat from Portofino",
+   "time": "About 30 min by boat",
+   "cost": "Ferry fare",
+   "note": "A small pebble beach in front of the abbey. Very crowded in summer."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Seafood and handmade pasta",
+   "where": "Ristorante Puny, near the Piazzetta (closed Mondays and Tuesdays; cash only)",
+   "price": null
+  },
+  {
+   "dish": "Mediterranean dishes facing the yacht harbour",
+   "where": "Il Pitosforo, harbour front (closed Mondays and Tuesdays)",
+   "price": null
+  },
+  {
+   "dish": "Ligurian trattoria food",
+   "where": "Trattoria Tripoli, Piazza Martiri dell'Olivetta 49",
+   "price": null
+  },
+  {
+   "dish": "Clifftop lunch",
+   "where": "La Terrazza at Hotel Splendido, above the village",
+   "price": null
+  },
+  {
+   "dish": "Better-value seafood restaurants",
+   "where": "Santa Margherita Ligure seafront",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming the tender lands in Portofino.",
+   "fix": "Check the daily programme. Many 'Portofino' calls anchor off Santa Margherita or Rapallo, and you then need a ferry or bus."
+  },
+  {
+   "mistake": "Waiting for friends or a tour group on the quay by the Piazzetta.",
+   "fix": "Lingering and group gathering on the signed red-zone stretches was banned in season from 2023 and again in 2025, with fines up to €275. Meet away from the quay."
+  },
+  {
+   "mistake": "Taking the last boat back from San Fruttuoso.",
+   "fix": "San Fruttuoso has no road. Take a boat that gets you to Portofino by 15:30 for a 17:30 all-aboard."
+  },
+  {
+   "mistake": "Joining the tender queue 30 minutes before all-aboard.",
+   "fix": "Be in the queue 90 minutes before. Everyone returns at once and the sea can slow the tenders."
+  },
+  {
+   "mistake": "Only carrying a card.",
+   "fix": "Carry some euro cash; some restaurants, such as Puny, are cash only."
+  }
+ ],
+ "safety": "Portofino is safe for visitors. The real hazards are steep, uneven paths above the harbour, the step between tender and quay in a swell, and heat on the promontory trails in summer. The quays have no barriers in places, which is one reason the town restricts crowding there. Watch the weather: boats to San Fruttuoso and Santa Margherita stop in rough seas.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "Tender boarding depends on the sea, and reviewers report a high step at the Santa Margherita landing; ask the ship whether wheelchair users can go ashore. The harbour front and Piazzetta are fairly level, but the castle, San Giorgio, the Museo del Parco and the lighthouse path all climb on steps or steep paths. The Abbey of San Fruttuoso is hard for wheelchair users: steps from the landing, a stretch of beach and three levels joined by stairs. Disabled visitors and one companion enter the abbey free.",
+ "rainyDay": "In heavy rain the promontory paths are slippery and the ferries may stop, so stay in the village: Castello Brown's rooms, the churches and a long lunch. Santa Margherita by bus is the other option. If the sea is rough the tenders may be suspended altogether, so follow ship announcements.",
+ "crowdTips": "Portofino is very small and fills fast with day visitors and cruise groups from mid-morning. The town introduced red zones on the quays in 2023 and renewed them for 2025. Go ashore on an early tender, see the Piazzetta first, then climb to the castle or take a boat while the groups arrive. San Fruttuoso's beach is crowded in summer.",
+ "faqs": [
+  {
+   "q": "Is Portofino a tender port?",
+   "a": "Yes. Ships anchor in the Gulf of Tigullio and tender passengers ashore. Some ships anchor off Santa Margherita Ligure and land passengers there."
+  },
+  {
+   "q": "Where do Portofino cruise tenders land?",
+   "a": "In Portofino harbour, a short walk from the Piazzetta, or at Santa Margherita Ligure if your ship anchors there. Check your daily programme."
+  },
+  {
+   "q": "How do I get from Santa Margherita to Portofino?",
+   "a": "By the Tigullio ferry, about 15 minutes, by the ATP bus along the coast road, or by taxi."
+  },
+  {
+   "q": "Is Portofino walkable from the cruise tender?",
+   "a": "Yes, if the tender lands in Portofino. The village is tiny; only the castle and viewpoints involve steep climbs."
+  },
+  {
+   "q": "What can I do in Portofino in one day from a cruise ship?",
+   "a": "The Piazzetta and harbour, Castello Brown and San Giorgio, then a boat to the Abbey of San Fruttuoso or a walk to Paraggi bay."
+  },
+  {
+   "q": "Beaches near Portofino cruise port?",
+   "a": "Paraggi bay is about 40 minutes' walk on a coastal path. San Fruttuoso has a small beach reached by boat."
+  },
+  {
+   "q": "Are there tourist restrictions in Portofino?",
+   "a": "Yes. In 2023 and again in 2025 the town banned lingering and group gatherings on signed stretches of the harbour quays in season (to 15 October), with fines up to €275. Check signs on the quay for the current rules."
+  },
+  {
+   "q": "Is Portofino safe?",
+   "a": "Yes. Take care on steep paths and on the tender step, and keep an eye on the weather because boats stop in rough seas."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Piazzetta"
+  },
+  {
+   "name": "Castello Brown"
+  },
+  {
+   "name": "Church of San Giorgio"
+  },
+  {
+   "name": "Abbey of San Fruttuoso"
+  },
+  {
+   "name": "Museo del Parco"
+  },
+  {
+   "name": "Paraggi bay"
+  },
+  {
+   "name": "Santa Margherita Ligure"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Servizio Marittimo del Tigullio – Line 1 Rapallo, Santa Margherita, Portofino, San Fruttuoso",
+   "url": "https://traghettiportofino.it/en/lines-trips/line-1"
+  },
+  {
+   "title": "Servizio Marittimo del Tigullio – Tigullio Gulf, Portofino and San Fruttuoso excursions",
+   "url": "https://www.traghettiportofino.it/en/group-excursion/adults/sailing-tigullio-gulf-portofino-and-san-fruttuoso"
+  },
+  {
+   "title": "FAI – Abbazia di San Fruttuoso, visit information",
+   "url": "https://fondoambiente.it/luoghi/abbazia-di-san-fruttuoso/visita"
+  },
+  {
+   "title": "Città Metropolitana di Genova – ATP Santa Margherita–Portofino services",
+   "url": "https://www.cittametropolitana.genova.it/it/news/webnews/novit%C3%A0-atp-il-levante-dal-1-luglio-nuove-corse-smargherita-portofino-riparte-il-goa"
+  },
+  {
+   "title": "Italia.it – Monte di Portofino",
+   "url": "https://www.italia.it/it/liguria/genova/monte-di-portofino"
+  },
+  {
+   "title": "Shipping Italy – Rapallo anchorage returns for cruise calls (February 2025)",
+   "url": "https://shippingitaly.it/2025/02/27/la-rada-di-rapallo-torna-a-essere-approdo-crocieristico"
+  },
+  {
+   "title": "SiViaggia – Portofino's 2025 overtourism measures (May 2025)",
+   "url": "https://siviaggia.it/notizie/portofino-nuove-regole-overtourism/533637/"
+  },
+  {
+   "title": "Il Post – Portofino red zones (April 2023)",
+   "url": "https://www.ilpost.it/2023/04/11/portofino-liguria-turismo-zone-rosse/"
+  },
+  {
+   "title": "Libero – Portofino red zone ordinance (April 2023)",
+   "url": "https://www.liberoquotidiano.it/news/italia/35465242/portofino-zona-rossa-cosa-c-e-ordinanza/"
+  },
+  {
+   "title": "MedCruise – Marina di Portofino: ships to anchor closer to the coast",
+   "url": "https://www.medcruise.com/news/marina-di-portofino-cruise-ships-to-anchor-at-a-closer-distance-from-the-coast"
+  },
+  {
+   "title": "CruiseMapper – Portofino",
+   "url": "https://www.cruisemapper.com/ports/portofino-port-254"
+  },
+  {
+   "title": "Cruise Critic – Portofino port guide",
+   "url": "https://www.cruisecritic.com/en-gb/find-a-cruise/port-portofino"
+  },
+  {
+   "title": "Porthole – Cruise to Portofino: an onshore guide",
+   "url": "https://porthole.com/cruise-to-portofino-an-onshore-guide/"
+  },
+  {
+   "title": "ItalyPlanner – Portofino cruise tender guide 2026",
+   "url": "https://italyplanner.com/portofino-cruise-tender-guide.html"
+  },
+  {
+   "title": "MuseiOnline – Castello Brown",
+   "url": "https://www.museionline.info/liguria-musei-monumenti/castello-brown"
+  },
+  {
+   "title": "Wikivoyage (Italian) – Portofino",
+   "url": "https://it.wikivoyage.org/wiki/Portofino"
+  },
+  {
+   "title": "Mentelocale – Abbazia di San Fruttuoso: how to get there and opening hours (August 2026)",
+   "url": "https://www.mentelocale.it/genova/135186-abbazia-di-san-fruttuoso-come-arrivare-orari-di-apertura-battelli-sentieri-treni.htm"
+  }
+ ],
+ "uncertain": [
+  "Whether the red-zone ordinance was renewed for the 2026 season and its exact hours (10:30–18:00 in 2023).",
+  "Whether ships anchoring off Santa Margherita land passengers at Santa Margherita or tender them into Portofino; this varies by ship and line.",
+  "Individual ferry fares Santa Margherita–Portofino and Portofino–San Fruttuoso, and the 2026 San Fruttuoso boat timetable.",
+  "Santa Margherita–Portofino bus line number (sources give 82 and 782), current fare and frequency.",
+  "Castello Brown opening days and hours (sources conflict: weekends only vs daily in season).",
+  "Walking time to the Portofino lighthouse.",
+  "Whether a visitor counter or sea-arrival pause was actually introduced."
+ ]
+}

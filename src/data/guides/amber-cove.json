@@ -1,0 +1,394 @@
+{
+ "slug": "amber-cove",
+ "city": "Puerto Plata",
+ "portName": "Amber Cove Cruise Center",
+ "townName": "Puerto Plata town centre",
+ "country": "Dominican Republic",
+ "currency": "DOP",
+ "currencySymbol": "RD$",
+ "priceSymbol": "US$",
+ "language": "Spanish",
+ "timezone": "AST (UTC-4) all year",
+ "lastVerified": "October 2026",
+ "seoTitle": "Amber Cove cruise port: Puerto Plata taxi, cable car closed",
+ "seoDescription": "Amber Cove is about 12 km from Puerto Plata: taxi about US$35 a car each way, 15-20 min. Cable car closed for rebuilding in 2026. Leave town 90 min early.",
+ "quickAnswer": "Ships dock at Amber Cove's own pier, so there is no tender, but nothing outside the port is walkable. Puerto Plata town is about 12 km away: a taxi costs about US$35 a car each way for up to five people and takes 15-20 minutes. Leave town 90 minutes before all-aboard. The Puerto Plata cable car (Teleférico) is closed for a full rebuild throughout 2026.",
+ "intro": "Amber Cove is a self-contained cruise centre built by Carnival Corporation in Maimón Bay, west of Puerto Plata on the Dominican Republic's north coast, and used by Carnival Corporation's brands. Inside the gate there is a free pool, bars, a zip line and shops, so some passengers never leave. Puerto Plata town has a 16th-century fort, a seafront malecón and a small, colourful centre around Parque Central, but you need a taxi or tour to reach it. The city's signature trip, the cable car up Pico Isabel de Torres, has been shut since 2024 and is being rebuilt, so plan around it.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Amber Cove Cruise Center",
+   "distanceToCentreKm": 12,
+   "notes": "One pier with two berths, for Carnival Corporation brands only, and up to about 8,000 visitors a day. Free tuk-tuks run from the ship to the port entrance; the walk to the gate is roughly half a mile. Taxis and the shore-excursion pier are at the transport hub. Puerto Plata's other cruise port, Taino Bay, is in the town itself and is used by other lines."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 12,
+  "detail": "The port complex is easy to walk around, but nothing outside the gate is within walking distance. Puerto Plata town is about 12 km away by road."
+ },
+ "transportSections": [
+  {
+   "mode": "Port tuk-tuk",
+   "cost": "Free",
+   "time": "A few minutes",
+   "detail": "Runs from the ship to the port entrance. You can also walk; it is roughly half a mile."
+  },
+  {
+   "mode": "Taxi to Puerto Plata town",
+   "cost": "About US$35 a car each way, up to five people (reported 2023)",
+   "time": "15-20 min",
+   "detail": "Taxis wait at the port transport hub. Agree the fare, the drop-off point and the pick-up time before you set off; a return trip is about US$70 a car. US and UK advice is to use organised taxis rather than hailing cars in the street."
+  },
+  {
+   "mode": "Ship or local tour",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "Half day",
+   "detail": "Tours cover Puerto Plata town, Ocean World, the Damajagua (27 Charcos) waterfalls, beaches and a cacao or coffee visit. The ship holds a tour's return if it runs late."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave Puerto Plata town 90 minutes before all-aboard (16:00 for a 17:30 all-aboard) and be on board 60 minutes before.",
+  "detail": "The taxi takes 15-20 minutes, but town traffic can slow it, and you then need time to get from the gate to the ship. Agree a fixed pick-up time and place with your driver in the morning. For beaches such as Playa Dorada (about 30 minutes' drive) leave 90 minutes before all-aboard as well.",
+  "emergencyFallback": "If your driver does not appear, ask a hotel or restaurant to call a taxi; ride-hailing apps work in many areas of the country. If you will miss all-aboard, call the port agent number on your daily programme straight away. Tourist police (POLITUR): 809-222-2026."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Puerto Plata town and fort",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi about US$70 a car return, up to five people (reported 2023), plus fort entry",
+   "saving": "Large for a group of four or five sharing a taxi"
+  }
+ ],
+ "excursionAdvice": "For Puerto Plata town, a shared taxi is simple and cheap for a group; a ship tour mainly saves you from arranging the return. Take a tour for the Damajagua waterfalls, which need a guide and safety gear, and for anything combining several stops. Do not book anything that relies on the Puerto Plata cable car: it is closed in 2026, so check that any 'Mount Isabel de Torres' tour goes up by road.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:00",
+    "what": "Off the ship. Take the free tuk-tuk or walk to the port entrance."
+   },
+   {
+    "time": "08:20",
+    "what": "Agree a taxi fare and a 16:00 pick-up at the rank, then ride to Puerto Plata (15-20 min)."
+   },
+   {
+    "time": "08:45",
+    "what": "Fortaleza San Felipe at the end of the malecón: cannons, the old walls and views across the bay."
+   },
+   {
+    "time": "10:00",
+    "what": "Walk along the malecón towards the centre."
+   },
+   {
+    "time": "10:45",
+    "what": "Parque Central and the streets around it: Calle de las Sombrillas (Umbrella Street) on Calle San Felipe and the pink Paseo de Doña Blanca."
+   },
+   {
+    "time": "11:30",
+    "what": "Amber Museum on Calle Duarte."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch and Dominican coffee near the centre, for example El Rincón del Café on Umbrella Street."
+   },
+   {
+    "time": "14:00",
+    "what": "Shopping or a last stroll on the malecón."
+   },
+   {
+    "time": "15:45",
+    "what": "Back at the agreed pick-up point. Leave town by 16:00."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard. Use any spare time at the port pool."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Fortaleza San Felipe",
+   "why": "A fort built in 1577 to guard the harbour from pirates, now a museum with cannons facing the Atlantic and views of the coast.",
+   "timeNeeded": "45-60 minutes",
+   "cost": "Entry fee payable; check at the gate",
+   "tip": "Go first, before the midday heat. It sits beside La Puntilla park at the end of the malecón."
+  },
+  {
+   "name": "Calle de las Sombrillas (Umbrella Street)",
+   "why": "A pedestrian street on Calle San Felipe hung with coloured umbrellas, with a café, an ice-cream shop and a cigar roller.",
+   "timeNeeded": "20-30 minutes",
+   "cost": "Free",
+   "tip": "Plaza Independencia and the Paseo de Doña Blanca are a few metres away."
+  },
+  {
+   "name": "Parque Central (Plaza Independencia)",
+   "why": "The central square of the old town, next to Umbrella Street and the Paseo de Doña Blanca.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "A good meeting point for your taxi pick-up."
+  },
+  {
+   "name": "Amber Museum",
+   "why": "Fossils, plants and small animals preserved in amber, the stone the coast is named after.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check locally",
+   "tip": "On Calle Duarte, a short walk from Parque Central."
+  },
+  {
+   "name": "Puerto Plata malecón",
+   "why": "A seafront promenade of about three miles running from the fort along the bay.",
+   "timeNeeded": "30-60 minutes",
+   "cost": "Free",
+   "tip": "Walk the stretch nearest the fort; little shade at midday."
+  },
+  {
+   "name": "Amber Cove port facilities",
+   "why": "Free pool with water slides, a children's splash area, loungers, hammocks and 650-foot twin zip lines inside the gate.",
+   "timeNeeded": "2-4 hours",
+   "cost": "Free entry and pool; food, drinks, zip line and cabanas extra",
+   "tip": "Drinks are charged even if you have a drinks package on board."
+  },
+  {
+   "name": "Damajagua waterfalls (27 Charcos)",
+   "why": "A river canyon of pools and waterfalls you climb and jump through with a guide.",
+   "timeNeeded": "Half day",
+   "cost": "Varies by tour",
+   "tip": "About 30 minutes' drive beyond Puerto Plata. Not recommended for people with walking difficulties or small children. Go on an organised tour."
+  },
+  {
+   "name": "Pico Isabel de Torres",
+   "why": "The 855 m mountain behind the city with a Christ statue and botanical gardens.",
+   "timeNeeded": "Half day",
+   "cost": "Varies by tour",
+   "tip": "The cable car is closed for rebuilding in 2026; the summit is reached by road only."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Amber Cove pool and waterfront",
+   "howToGetThere": "Inside the port",
+   "time": "On site",
+   "cost": "Free pool access and loungers",
+   "note": "A pool, not a sea beach; watersports rentals are extra."
+  },
+  {
+   "name": "Playa Dorada",
+   "howToGetThere": "Taxi or tour",
+   "time": "About 30 min drive from Amber Cove",
+   "cost": "Taxi fare; agree it first",
+   "note": "Resort beach area reached by taxi or tour."
+  },
+  {
+   "name": "Playa Neptuno",
+   "howToGetThere": "Taxi",
+   "time": "Short taxi ride",
+   "cost": "Taxi fare; agree it first",
+   "note": "Calmer water with a small island about 300 m offshore."
+  },
+  {
+   "name": "Sosúa and Cabarete",
+   "howToGetThere": "Tour or pre-booked driver",
+   "time": "Long drive; tour only on a short call",
+   "cost": "Varies",
+   "note": "Sandy beaches along the north coast."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Organic Dominican coffee",
+   "where": "El Rincón del Café, Calle de las Sombrillas, Puerto Plata",
+   "price": null
+  },
+  {
+   "dish": "Ice cream",
+   "where": "Natural Ice Cream, next to El Rincón del Café on Calle de las Sombrillas",
+   "price": null
+  },
+  {
+   "dish": "Dominican chocolate",
+   "where": "Choco Museum, near Plaza Independencia",
+   "price": null
+  },
+  {
+   "dish": "Drinks with a view over the bay",
+   "where": "Sky Bar, Amber Cove",
+   "price": null
+  },
+  {
+   "dish": "Poolside drinks and snacks",
+   "where": "Cabana Bar, Amber Cove",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Expecting to walk into Puerto Plata.",
+   "fix": "The town is about 12 km away. Budget for a taxi or tour, or stay at the port."
+  },
+  {
+   "mistake": "Planning to ride the Puerto Plata cable car.",
+   "fix": "It has been closed since 2024 and is being rebuilt; the 18-month works only start after the contract award. Use a road tour if you want the summit."
+  },
+  {
+   "mistake": "Taking a taxi without agreeing the price and pick-up.",
+   "fix": "Agree the fare per car, the pick-up place and time before you get in."
+  },
+  {
+   "mistake": "Confusing Amber Cove with Taino Bay.",
+   "fix": "Taino Bay is the port in Puerto Plata town; Amber Cove is the separate Carnival-owned centre to the west. Directions and walking advice for Taino Bay do not apply."
+  },
+  {
+   "mistake": "Assuming your drinks package covers the port bars.",
+   "fix": "Food and drinks at Amber Cove are charged separately."
+  }
+ ],
+ "safety": "The US State Department rates the Dominican Republic at Level 2, exercise increased caution, because of crime, and the UK describes the crime rate as high, with bag-snatching, pickpocketing and robberies. In Puerto Plata keep valuables out of sight, stay in busy areas and use organised taxis rather than unregulated cars or motorbike taxis. Lifeguards may not be present on beaches, and the sea can be rough, especially in the June to November hurricane season. Inside Amber Cove the port is fenced and managed.",
+ "scams": [
+  "Unregulated taxis: US advice warns against unregulated taxis and against hailing cars in the street. Use the port rank and agree the fare first.",
+  "Card cloning: the UK warns of bank card cloning. Keep your card in sight or pay in cash.",
+  "Change in pesos: dollars are widely accepted but change may come in Dominican pesos. Agree the currency before paying."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The port complex is compact, with free tuk-tuks from the ship to the entrance and golf carts run by local drivers. Streets inside the port are cobbled. Taxis are ordinary cars, so ask at the rank about a vehicle for a folding wheelchair. Step-free access in Puerto Plata town and at the fort was not verified. The Damajagua waterfalls are not suitable for anyone with walking difficulties.",
+ "rainyDay": "Showers are common, especially from November to May. Use the morning for the Amber Museum and the fort museum, then a long café stop near Parque Central. Inside the port, the bars and shops give some cover.",
+ "crowdTips": "Amber Cove has two berths, so at most two ships share the port, but taxis at the rank are busiest in the first hour. Leave a little later or agree a taxi in advance through your ship. Taino Bay can add more passengers in town on the same day; see the fort early before groups arrive.",
+ "faqs": [
+  {
+   "q": "Is Amber Cove walkable to Puerto Plata?",
+   "a": "No. Puerto Plata town is about 12 km away. A taxi takes 15-20 minutes."
+  },
+  {
+   "q": "How much is a taxi from Amber Cove to Puerto Plata?",
+   "a": "About US$35 a car each way for up to five people, reported in 2023. Agree the price before you get in."
+  },
+  {
+   "q": "Is Amber Cove a tender port?",
+   "a": "No. Ships dock at a pier with two berths."
+  },
+  {
+   "q": "Is the Puerto Plata cable car open?",
+   "a": "No. It was closed in 2024 for safety and is being rebuilt; a tender for the works was opened in July 2026 with an 18-month build after award."
+  },
+  {
+   "q": "What can I do in Amber Cove in one day from a cruise ship?",
+   "a": "Stay at the free port pool and zip line, or taxi into Puerto Plata for the fort, the malecón and Umbrella Street. Tours go to the Damajagua waterfalls and beaches."
+  },
+  {
+   "q": "Can you swim at Amber Cove?",
+   "a": "There is a large free pool with slides inside the port. Sea beaches such as Playa Dorada need a taxi or tour."
+  },
+  {
+   "q": "Is Amber Cove safe?",
+   "a": "The port itself is fenced and managed. The Dominican Republic carries a US Level 2 advisory for crime, so use organised taxis and keep valuables out of sight in town."
+  },
+  {
+   "q": "What currency is used at Amber Cove?",
+   "a": "The Dominican peso, but US dollars are widely accepted. Change may come in pesos."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Fortaleza San Felipe"
+  },
+  {
+   "name": "Calle de las Sombrillas"
+  },
+  {
+   "name": "Parque Central"
+  },
+  {
+   "name": "Amber Museum"
+  },
+  {
+   "name": "Puerto Plata malecón"
+  },
+  {
+   "name": "Damajagua waterfalls"
+  },
+  {
+   "name": "Pico Isabel de Torres"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Go Dominican Republic (Ministry of Tourism) – Fortaleza San Felipe",
+   "url": "https://www.godominicanrepublic.com/things-to-do/fortaleza-san-felipe"
+  },
+  {
+   "title": "Carnival Cruise Line – Amber Cove",
+   "url": "https://www.carnival.com/awaywego/cruising-fun/shore-excursions/amber-cove"
+  },
+  {
+   "title": "US State Department – Dominican Republic travel advisory",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/dominican-republic-travel-advisory.html"
+  },
+  {
+   "title": "UK FCDO – Dominican Republic travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+  },
+  {
+   "title": "Holland America Line – Amber Cove port",
+   "url": "https://www.hollandamerica.com/en_US/ports/amber-cove-dominican-republic.html"
+  },
+  {
+   "title": "Cunard – Amber Cove port",
+   "url": "https://www.cunard.com/en-us/ports/amber-cove-dominican-republic"
+  },
+  {
+   "title": "Diario Libre – Puerto Plata cable car to close for safety (June 2024)",
+   "url": "https://diariolibre.com/actualidad/nacional/2024/06/06/cerraran-teleferico-de-puerto-plata-y-haran-otro-nuevo/2746829"
+  },
+  {
+   "title": "Diario Libre – Cable car rehabilitation announced (March 2026)",
+   "url": "https://diariolibre.com/economia/turismo/2026/03/30/anuncian-rehabilitacion-del-teleferico-de-puerto-plata-por-us20-mm/3486816"
+  },
+  {
+   "title": "El Caribe – Cable car rehabilitation project presented (March 2026)",
+   "url": "https://www.elcaribe.com.do/panorama/pais/presentan-proyecto-de-rehabilitacion-del-teleferico-de-puerto-plata-con-inversion-de-mas-de-us20-millones/"
+  },
+  {
+   "title": "Inmobiliario.do – Cable car tender receives two bids (July 2026)",
+   "url": "https://inmobiliario.do/rehabilitacion-del-teleferico-de-puerto-plata-proyectada-en-mas-de-us20-millones-recibe-dos-ofertas-internacionales/"
+  },
+  {
+   "title": "El Nuevo Diario – Museo Fortaleza San Felipe (November 2025)",
+   "url": "https://elnuevodiario.com.do/museo-fortaleza-colonial-san-felipe-estara-libre-de-costo-fines-de-semana-para-visitantes-nacionales/"
+  },
+  {
+   "title": "CruiseMapper – Puerto Plata Amber Cove",
+   "url": "https://www.cruisemapper.com/ports/puerto-plata-amber-cove-port-1936"
+  },
+  {
+   "title": "Adventour Begins – Puerto Plata cruise port guide: Amber Cove and Taino Bay",
+   "url": "https://adventourbegins.com/puerto-plata-cruise-port-guide-taino-bay-and-amber-cove/"
+  },
+  {
+   "title": "Cruzely – What to do in Puerto Plata on a cruise (2023)",
+   "url": "https://www.cruzely.com/what-to-do-in-puerto-plata-on-a-cruise-big-list-tips-things-to-know/"
+  },
+  {
+   "title": "Cruise Hive – Everything to know about Amber Cove",
+   "url": "https://www.cruisehive.com/everything-you-should-know-about-amber-cove-dominican-republic/23561"
+  },
+  {
+   "title": "Carefree Creative – Umbrella Street, Puerto Plata",
+   "url": "https://carefree-creative.com/umbrella-street/"
+  }
+ ],
+ "uncertain": [
+  "Fortaleza San Felipe admission price and opening hours: an older guide lists a fee and a weekly closing day, but no current official figure was found.",
+  "Amber Museum admission price and opening hours.",
+  "Taxi fares are from 2023 reports; no official 2026 Amber Cove tariff was found.",
+  "Whether ride-hailing cars can collect passengers at the Amber Cove gate.",
+  "Road travel time and taxi price to the summit of Pico Isabel de Torres while the cable car is closed.",
+  "The official Teleférico Puerto Plata website could not be opened."
+ ]
+}

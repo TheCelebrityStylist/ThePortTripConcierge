@@ -1,0 +1,394 @@
+{
+ "slug": "hilo",
+ "city": "Hilo",
+ "portName": "Hilo Harbor (Pier 1)",
+ "townName": "downtown Hilo",
+ "country": "USA",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English (Hawaiian place names are widely used)",
+ "timezone": "HST (UTC-10), no daylight saving time",
+ "lastVerified": "October 2026",
+ "seoTitle": "Hilo cruise port guide: Volcanoes, Rainbow Falls and town",
+ "seoDescription": "Hilo Pier 1 is 3 km from downtown. Hele-On buses are free until 2028. Volcanoes park $30 per car (2026), 45 min away; leave it 3 hours before all-aboard.",
+ "quickAnswer": "Ships dock at Pier 1 in Hilo Harbor, about 3 km from downtown; there is no tender. Liliuokalani Gardens is a 15-minute walk, but for downtown take a taxi or ride-hail (about 10 minutes) or the free Hele-On bus. Be back 60 minutes before all-aboard from town, and leave Hawaii Volcanoes National Park at least 3 hours before all-aboard.",
+ "intro": "Hilo is a working harbour town on the wet, green side of the Island of Hawaii. Pier 1 is mainly a cargo port that also handles cruise ships, so the walk out is along an industrial road rather than a promenade. The reasons to come are close by: Japanese gardens on the bay, Rainbow Falls on the edge of town, a large farmers market and black-sand swimming at Richardson Ocean Park. The big draw, Hawaii Volcanoes National Park, is about 45 minutes away by car, which makes it the day's main return risk. Expect rain at some point; Hilo is one of the rainier parts of Hawaii.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Hilo Harbor, Pier 1 cruise terminal",
+   "distanceToCentreKm": 3.2,
+   "notes": "Ships berth alongside at a cargo harbour; no tendering. Taxis and ride-hail cars wait outside the terminal gate, and rental car agencies run shuttles to their airport offices, about 15 minutes away."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 40,
+  "km": 3.2,
+  "detail": "Liliuokalani Gardens is about 15 minutes on foot. Downtown is about 3.2 km and roughly 40 minutes' walk along a busy industrial road, so most people ride. Once downtown, the bayfront and market area is compact and easy on foot."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot to Liliuokalani Gardens",
+   "cost": "Free",
+   "time": "About 15 min",
+   "detail": "The Japanese gardens on Banyan Drive are the one sight within an easy walk of the pier."
+  },
+  {
+   "mode": "Taxi or ride-hail",
+   "cost": "Metered or app fare; check before you go",
+   "time": "About 10 min to downtown",
+   "detail": "Taxis and ride-hail cars wait outside the terminal gate. Useful for downtown, Rainbow Falls and Richardson Ocean Park."
+  },
+  {
+   "mode": "Hele-On bus, Route 101 Keaukaha",
+   "cost": "Free for all passengers until 31 December 2028",
+   "time": "Short ride to downtown or Richardson Ocean Park",
+   "detail": "Runs seven days a week between the Mo'oheau Bus Terminal downtown and Hilo airport via Keaukaha. From the pier walk along Kuhio Street to the Kalanianaole Street junction. For downtown board at the stop next to the Oceanfront Kitchen; for Richardson Ocean Park cross the road and board next to Keaukaha Market."
+  },
+  {
+   "mode": "Hele-On bus, Route 11 Red Line to Hawaii Volcanoes National Park",
+   "cost": "Bus free; park entry $15 per person, paid to the bus operator (2026)",
+   "time": "Check the current timetable",
+   "detail": "The county itself warns that service between Hilo and the park is very limited and may not fit a cruise call. Use it only if the timetable leaves a wide margin."
+  },
+  {
+   "mode": "Rental car",
+   "cost": "Book ahead; prices vary by date",
+   "time": "About 45 min to Hawaii Volcanoes National Park, about 30 min to Akaka Falls",
+   "detail": "Agencies shuttle passengers to their airport offices. Allow at least an hour to collect the car at peak arrival times. Signal is patchy in the rainforest, so carry a paper map or offline maps."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at Pier 1 60 minutes before all-aboard from Hilo town. From Hawaii Volcanoes National Park, leave the park at least 3 hours before all-aboard.",
+  "detail": "The park visit needs about four hours inside the boundaries to be worthwhile, plus 45 minutes each way, so it only fits a long call. Rain, road works and several ships in port at once can slow traffic back into Hilo. Return a rental car early enough for the agency shuttle back to the pier.",
+  "emergencyFallback": "In town, take a taxi or ride-hail straight to the Pier 1 gate rather than waiting for a bus. If you will miss all-aboard, call the port agent number in your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Hilo highlights: Liliuokalani Gardens, farmers market, Rainbow Falls, Big Island Candies",
+   "ship": "From $129 (Holland America 'Explore Hilo's Highlights', about 3.5 hours, 2026)",
+   "diy": "Gardens free; Rainbow Falls $5 entry plus $10 parking per car for non-residents (2026); taxi or rental car extra",
+   "saving": "Depends on your transport"
+  },
+  {
+   "item": "Hawaii Volcanoes National Park",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$30 per private car or $15 per person on foot or by bus (2026), plus rental car",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Hilo town, Liliuokalani Gardens, Rainbow Falls and Richardson Ocean Park are easy to do yourself with a taxi or the free bus. Hawaii Volcanoes National Park is where a ship tour earns its price: the drive is 45 minutes each way, the county bus is too infrequent for most calls, and the park needs about four hours. If you drive yourself, start early and leave the park 3 hours before all-aboard. Akaka Falls is a reasonable DIY drive of about 30 minutes, but part of its trail was closed in October 2026.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk from Pier 1 to Liliuokalani Gardens (about 15 minutes) while it is quiet."
+   },
+   {
+    "time": "09:45",
+    "what": "Taxi, ride-hail or Hele-On Route 101 to downtown. Browse the Hilo Farmers Market at Mamo Street and Kamehameha Avenue; Wednesday and Saturday are the big days."
+   },
+   {
+    "time": "11:00",
+    "what": "Taxi to Rainbow Falls (non-residents $5 per person, card only), then on to Boiling Pots on the same ticket."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch: loco moco at Cafe 100 (closed Saturdays) or pancakes at Ken's House of Pancakes."
+   },
+   {
+    "time": "13:30",
+    "what": "'Imiloa Astronomy Center (closed Mondays) for the exhibit hall and a planetarium show."
+   },
+   {
+    "time": "15:00",
+    "what": "Richardson Ocean Park for a swim in the tide pools behind the lava breakwater."
+   },
+   {
+    "time": "16:15",
+    "what": "Taxi or ride-hail back to Pier 1, about 10 minutes."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Hawaii Volcanoes National Park",
+   "why": "Kilauea's summit crater, steam vents and an ongoing eruption, about 45 minutes' drive from the pier.",
+   "timeNeeded": "At least 5.5 hours including the drive",
+   "cost": "$30 per private car, $15 per person on foot or by bus (2026); cards only, no cash",
+   "tip": "Check park alerts the day before. In autumn 2026 the Keanakako'i area closed after earthquakes on 1 October, the Sulphur Banks bridge was closed (boardwalk open) and Kipukapuaulu Trail was shut. Leave the park 3 hours before all-aboard."
+  },
+  {
+   "name": "Rainbow Falls (Wailuku River State Park)",
+   "why": "A waterfall on the Wailuku River on the edge of town, about forty paved steps from the car park.",
+   "timeNeeded": "45 minutes with Boiling Pots",
+   "cost": "Non-residents $5 per person plus $10 per car parking (2026); credit card only",
+   "tip": "Open 07:00–17:30, gates lock at 18:00. Go in the morning; parking gets tight at midday when several ships are in."
+  },
+  {
+   "name": "Liliuokalani Gardens",
+   "why": "About 24 acres of Japanese gardens with bridges and ponds on Hilo Bay, built 1917–1919, 15 minutes' walk from the pier.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free",
+   "tip": "Mokuola (Coconut Island) was closed in 2026 while its footbridge is rebuilt."
+  },
+  {
+   "name": "Hilo Farmers Market",
+   "why": "Tropical fruit, flowers and local food in the heart of downtown.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free to browse",
+   "tip": "Open daily 07:00–15:00; Wednesday and Saturday have far more stalls. Bring small notes for fruit vendors."
+  },
+  {
+   "name": "'Imiloa Astronomy Center",
+   "why": "Hawaiian navigation and astronomy, with a planetarium, near the university.",
+   "timeNeeded": "2–3 hours",
+   "cost": "$19 adult, $17 seniors, $12 ages 5–12 (2026)",
+   "tip": "Open Tuesday to Sunday 09:00–16:30; closed Mondays."
+  },
+  {
+   "name": "Akaka Falls State Park",
+   "why": "A tall waterfall reached by a short rainforest loop, about 30 minutes north of Hilo.",
+   "timeNeeded": "2–2.5 hours including the drive",
+   "cost": "Non-residents $5 per person plus $10 per car parking (2026); credit card only",
+   "tip": "Open 08:30–17:00. Part of the 0.4-mile loop was closed because of fallen trees in October 2026. Pay online before you arrive, as reception is poor."
+  },
+  {
+   "name": "Richardson Ocean Park",
+   "why": "Black-sand beach with tide pools behind a lava breakwater, lifeguards and turtles most days.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "About 10 minutes by car, or Hele-On Route 101."
+  },
+  {
+   "name": "Pacific Tsunami Museum",
+   "why": "The story of the tsunamis that shaped downtown Hilo, on Kamehameha Avenue.",
+   "timeNeeded": "1 hour",
+   "cost": "Check before you go",
+   "tip": "Opening has been limited during a renovation in 2026. Phone ahead on (808) 935-0926."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Richardson Ocean Park",
+   "howToGetThere": "Taxi, ride-hail or Hele-On Route 101",
+   "time": "About 10 min by car",
+   "cost": "Free",
+   "note": "Black sand, calm tide pools inside a lava breakwater, lifeguards and restrooms. Do not touch the turtles."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Loco moco (rice, burger patty, egg, gravy)",
+   "where": "Cafe 100, Hilo (closed Saturdays)",
+   "price": null
+  },
+  {
+   "dish": "Pancakes and island breakfasts",
+   "where": "Ken's House of Pancakes, Kamehameha Avenue and Kanoelehua junction",
+   "price": null
+  },
+  {
+   "dish": "Poke by the pound or in a bowl",
+   "where": "Suisan Fish Market, Hilo (closed Wednesdays and Sundays)",
+   "price": null
+  },
+  {
+   "dish": "Shortbread and chocolate-dipped treats",
+   "where": "Big Island Candies, 585 Hinano Street (free samples)",
+   "price": null
+  },
+  {
+   "dish": "Tropical fruit and local snacks",
+   "where": "Hilo Farmers Market, Mamo Street and Kamehameha Avenue",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk to downtown Hilo.",
+   "fix": "It is about 40 minutes along an industrial road. Walk to Liliuokalani Gardens and ride the rest."
+  },
+  {
+   "mistake": "Staying at Hawaii Volcanoes National Park too long.",
+   "fix": "Leave the park 3 hours before all-aboard. The drive is 45 minutes each way and traffic and rain slow it."
+  },
+  {
+   "mistake": "Taking cash to the national park or state parks.",
+   "fix": "Hawaii Volcanoes does not accept cash, and Rainbow Falls and Akaka Falls are credit card only."
+  },
+  {
+   "mistake": "Relying on the county bus to reach the volcano.",
+   "fix": "Route 11 is very limited and may not fit your call. Use a rental car or a tour."
+  },
+  {
+   "mistake": "Assuming the farmers market is at full size every day.",
+   "fix": "It opens daily, but Wednesday and Saturday have more than twice as many stalls."
+  }
+ ],
+ "safety": "Hilo is a safe, relaxed town. The real hazards are natural. At Hawaii Volcanoes National Park, stay out of closed areas, watch air-quality alerts, and do not handle volcanic glass strands or ash. Closures can change at short notice after earthquakes. Expect heavy rain; trails and rocks get slippery. Swim only where lifeguards are on duty, such as Richardson Ocean Park, and keep a distance from turtles.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The ship docks alongside, so there is no tender transfer. The area around the pier is a working harbour with traffic, and the walk to town is long. Rainbow Falls has a paved viewpoint a short distance from the car park, the best step-light waterfall view near Hilo. Liliuokalani Gardens is flat but has bridges and uneven paths. Akaka Falls requires some physical exertion on its loop path. Book accessible taxis in advance.",
+ "rainyDay": "Rain is normal in Hilo, so plan for it rather than around it. 'Imiloa Astronomy Center (closed Mondays) is the best indoor option, with a planetarium. Big Island Candies and the covered parts of the farmers market work well too. Rainbow Falls runs at its strongest after rain. At the national park, low cloud can hide the crater, so decide on the morning's weather.",
+ "crowdTips": "When more than one ship is in, local roads, rental car counters and the Rainbow Falls car park get busy around midday. Book a rental car in advance, visit Rainbow Falls early, and reach the farmers market between 07:00 and 09:00 if you can. Liliuokalani Gardens is quietest straight after the ship clears.",
+ "faqs": [
+  {
+   "q": "Is Hilo a tender port?",
+   "a": "No. Ships dock at Pier 1 in Hilo Harbor."
+  },
+  {
+   "q": "Is downtown Hilo walkable from the cruise port?",
+   "a": "Only just. It is about 3.2 km and 40 minutes along an industrial road. Liliuokalani Gardens is 15 minutes' walk."
+  },
+  {
+   "q": "How do I get from Hilo cruise port to downtown?",
+   "a": "Taxi or ride-hail takes about 10 minutes from the terminal gate. Hele-On Route 101 is free and stops a short walk from the pier."
+  },
+  {
+   "q": "Can I visit Hawaii Volcanoes National Park from a cruise ship in Hilo?",
+   "a": "Yes on a long call. It is about 45 minutes by car; entry is $30 per car (2026). Leave the park 3 hours before all-aboard."
+  },
+  {
+   "q": "Is the Hele-On bus free?",
+   "a": "Yes. Hele-On is free for all passengers until 31 December 2028."
+  },
+  {
+   "q": "What can I do in Hilo in one day from a cruise ship?",
+   "a": "Liliuokalani Gardens, the farmers market, Rainbow Falls, 'Imiloa and Richardson Ocean Park, or a full day at the volcano."
+  },
+  {
+   "q": "Beaches near Hilo cruise port?",
+   "a": "Richardson Ocean Park is a black-sand beach with lifeguards and tide pools about 10 minutes away by car."
+  },
+  {
+   "q": "How much is Rainbow Falls?",
+   "a": "Non-residents pay $5 per person and $10 per car parking (2026), credit card only."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Hawaii Volcanoes National Park"
+  },
+  {
+   "name": "Rainbow Falls"
+  },
+  {
+   "name": "Liliuokalani Gardens"
+  },
+  {
+   "name": "Hilo Farmers Market"
+  },
+  {
+   "name": "'Imiloa Astronomy Center"
+  },
+  {
+   "name": "Akaka Falls State Park"
+  },
+  {
+   "name": "Richardson Ocean Park"
+  }
+ ],
+ "sources": [
+  {
+   "title": "National Park Service – Hawaii Volcanoes fees and passes",
+   "url": "https://www.nps.gov/hawaiivolcanoes/planyourvisit/fees.htm"
+  },
+  {
+   "title": "Hele-On (County of Hawai'i) – Take Hele-On to the ports",
+   "url": "https://heleonbus.hawaiicounty.gov/getting-around/take-hele-on-to-the-ports"
+  },
+  {
+   "title": "Hele-On (County of Hawai'i) – Fares",
+   "url": "https://www.heleonbus.hawaiicounty.gov/fares"
+  },
+  {
+   "title": "Hele-On – Route 11 Red Line, Hilo to Volcanoes National Park (effective February 2026)",
+   "url": "https://www.heleonbus.hawaiicounty.gov/getting-around/bus-schedules-and-maps/east-hawai-i/route-11-red-line-hilo-to-volcanoes-national-park"
+  },
+  {
+   "title": "Hawaii DLNR State Parks – 'Akaka Falls State Park",
+   "url": "https://dlnr.hawaii.gov/dsp/parks/hawaii/akaka-falls-state-park/"
+  },
+  {
+   "title": "Hawaii DLNR State Parks – Wailuku River State Park (Rainbow Falls)",
+   "url": "https://dlnr.hawaii.gov/dsp/?p=294"
+  },
+  {
+   "title": "Hawaii DLNR State Parks – Important park notices (October 2026)",
+   "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+  },
+  {
+   "title": "Go Hawaii (Hawaii Tourism Authority) – 'Imiloa Astronomy Center",
+   "url": "https://www.gohawaii.com/listing/university-of-hawaii-imiloa-astronomy-center-of-hawaii/1691"
+  },
+  {
+   "title": "Holland America – Explore Hilo's Highlights excursion",
+   "url": "https://www.hollandamerica.com/en/cruise-destinations/hawaii-cruises/hawaii-tahiti-ports/ito/22644"
+  },
+  {
+   "title": "Celebrity Cruises – Hilo port guide",
+   "url": "https://www.celebritycruises.com/gb/ports/hilo"
+  },
+  {
+   "title": "Princess Cruises – Hilo hop on hop off",
+   "url": "https://www.princess.com/shore-excursions/hilo-hawaii/hilo-hop-on-hop-off"
+  },
+  {
+   "title": "Fox Weather – Kilauea earthquakes prompt park closure (October 2026)",
+   "url": "https://www.foxweather.com/earth-space/nearly-100-earthquakes-shake-kilauea-volcanic-unrest-prompts-park-closure"
+  },
+  {
+   "title": "Hawaii Guide – national park alerts feed (October 2026)",
+   "url": "https://parks.hawaii-guide.com/alerts"
+  },
+  {
+   "title": "Beat of Hawaii – State park visitor fees at four more sites (November 2025)",
+   "url": "https://beatofhawaii.com/hawaii-expands-state-park-visitor-fees-at-four-more-hotspots"
+  },
+  {
+   "title": "Love Big Island – 'Imiloa Astronomy Center (updated August 2026)",
+   "url": "https://www.lovebigisland.com/hilo/imiloa-astronomy-center/"
+  },
+  {
+   "title": "Wanderlustyle – Hilo guide",
+   "url": "https://wanderlustyle.com/hilo-hawaii-guide/"
+  },
+  {
+   "title": "Hawaii Guide – Pacific Tsunami Museum",
+   "url": "https://www.hawaii-guide.com/big-island/sights/pacific-tsunami-museum"
+  },
+  {
+   "title": "Shore Excursions Group – Things to do in Hilo",
+   "url": "https://www.shoreexcursionsgroup.com/blog/best-things-to-do-in-hilo-hawaii-cruise-travel-guide/"
+  },
+  {
+   "title": "Tourism Attractions – One day in Hilo for cruise passengers",
+   "url": "https://tourismattractions.net/usa/one-day-in-hilo-itinerary-for-cruise-ship-passengers"
+  },
+  {
+   "title": "Jetsetter Guide – Hilo cruise port",
+   "url": "https://jetsetterguide.com/cruise-port/hilo-hawaii"
+  }
+ ],
+ "uncertain": [
+  "Pacific Tsunami Museum 2026 admission price and opening days (sources give $7, $8 and $15, and different days)",
+  "Hele-On Route 11 departure times for 2026",
+  "Whether the Keanakako'i area of Hawaii Volcanoes reopened after the 1 October 2026 closure",
+  "Taxi fares from Pier 1 to downtown, Rainbow Falls or the national park",
+  "Typical arrival and all-aboard times for Hilo calls",
+  "Mokuola (Coconut Island) footbridge reopening date"
+ ]
+}

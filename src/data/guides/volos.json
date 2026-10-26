@@ -1,0 +1,345 @@
+{
+ "slug": "volos",
+ "city": "Volos",
+ "portName": "Port of Volos",
+ "townName": "the Volos waterfront",
+ "country": "Greece",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Greek",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Volos cruise port guide: town, Pelion and Meteora timing",
+ "seoDescription": "Volos cruise berths are 300 m from the town, a 5-minute walk. Meteora is about 2 hours each way by road: leave it 3.5 hours before all-aboard. Museum €2.",
+ "quickAnswer": "Ships dock in the Port of Volos, about 300 m and a five-minute walk from the waterfront, so no tender or shuttle is normally needed. Meteora is the big excursion but it is about two hours each way by road; leave the monasteries at least 3.5 hours before all-aboard. In town, be back on board 60 minutes before all-aboard.",
+ "intro": "Volos is a working Greek port city at the foot of Mount Pelion, and the cruise berths are right beside its waterfront. The town itself is easy: a long seafront promenade, a small archaeological museum and a strong tsipouro-and-meze tradition. The real choice is how far to go. The Pelion villages of Portaria and Makrinitsa are close by road. Meteora, the cliff-top monasteries, is a long inland day that uses almost all of a normal call, so timing and closed days decide whether it works.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Cruise berths, tourist section of the Port of Volos",
+   "distanceToCentreKm": 0.3,
+   "notes": "Large ships dock at the piers in the port's tourist section. The taxi rank is close to the passenger station. If your ship is put further inside the industrial port, a shuttle may be provided; follow the marked route to the gate rather than crossing working areas."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.3,
+  "detail": "About 300 m and five minutes on foot to the city. The waterfront promenade from the Argo sculpture to the Kordoni is flat."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5 min to the waterfront",
+   "detail": "Leave by the port gate and walk along the seafront. The museum and the old industrial buildings are further along the town."
+  },
+  {
+   "mode": "Taxi (Pelion villages)",
+   "cost": "Agree the fare first",
+   "time": "Portaria is 11 km from Volos",
+   "detail": "The taxi rank is near the passenger station. Taxis suit short trips and the Pelion villages of Portaria and Makrinitsa. Pelion streets are steep and cobbled."
+  },
+  {
+   "mode": "Coach or private car to Meteora",
+   "cost": "Ship excursion or pre-booked private tour",
+   "time": "About 1 h 50 min to 2 h each way by road",
+   "detail": "Meteora is roughly 140 km inland. Book the ship's tour or a vetted private driver, and agree the price, route, waiting time and return time in writing."
+  },
+  {
+   "mode": "Public bus to Meteora",
+   "cost": "Not practical",
+   "time": "About 3 h 40 min or more each way",
+   "detail": "There is no fast direct service: KTEL buses go to Trikala (about three a day) and need a change to reach Kalambaka. Not workable on a cruise call."
+  }
+ ],
+ "returnTiming": {
+  "rule": "In Volos, be back on board 60 minutes before all-aboard. Leave Meteora 3.5 hours (210 minutes) before all-aboard. Leave Portaria or Makrinitsa 90 minutes before.",
+  "detail": "The Meteora drive is up to two hours each way, and traffic and monastery queues add time; a long-bus return also needs a 90-minute buffer at the ship. For a 17:30 all-aboard that means leaving Meteora by 14:00. The ship waits for its own excursion coaches, not for private tours.",
+  "emergencyFallback": "From Pelion, take a taxi straight to the port gate. If a private Meteora tour is running late, call the port agent number on your daily programme at once, before you are late, so the ship knows."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Meteora monasteries",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Private car or tour, price agreed in advance; cash entry fee at each monastery",
+   "saving": "Depends on group size; the ship's tour carries the guarantee that the ship waits"
+  },
+  {
+   "item": "Volos town and Archaeological Museum",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk; Athanasakeion Archaeological Museum €2 (2026)",
+   "saving": "Almost the whole tour price"
+  }
+ ],
+ "excursionAdvice": "For Meteora, the ship's excursion is usually the right call. It is a long road trip, the monasteries keep short hours and close on different days, and if a ship's coach is late the ship waits; a private driver has no such guarantee. Book a private tour only if you trust the operator and the return time leaves the full 3.5-hour margin. For Volos town, skip any tour and walk. For Portaria and Makrinitsa a taxi is simple, so a ship tour is optional.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, with a Meteora trip by pre-booked car or tour on a day when the monasteries you want are open.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Meet your driver or coach at the port and set off for Meteora, about two hours by road."
+   },
+   {
+    "time": "10:30",
+    "what": "Arrive at Meteora. Visit the Great Meteoron (closed on Tuesdays) first, wearing long trousers or a knee-length skirt and covered shoulders."
+   },
+   {
+    "time": "11:45",
+    "what": "Visit Varlaam (closed on Fridays) or Roussanou (closed on Wednesdays)."
+   },
+   {
+    "time": "13:00",
+    "what": "Quick lunch and photo stops at the viewpoints along the monastery road."
+   },
+   {
+    "time": "14:00",
+    "what": "Leave Meteora for Volos, 3.5 hours before all-aboard."
+   },
+   {
+    "time": "16:00",
+    "what": "Back on board, 90 minutes before all-aboard. If you stayed in Volos instead, walk the waterfront to the Argo sculpture, visit the Archaeological Museum (08:30–15:00, closed Mondays) and have tsipouro and meze before boarding by 16:30."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Meteora monasteries",
+   "why": "Six working Orthodox monasteries on top of rock pillars, a UNESCO World Heritage Site.",
+   "timeNeeded": "Full day: about 4 hours of driving plus 3 hours on site",
+   "cost": "Cash entry fee at each monastery",
+   "tip": "Each monastery closes one day a week in summer: Great Meteoron Tuesday, Varlaam Friday, Roussanou Wednesday, Holy Trinity Thursday, St Stephen's Monday, St Nicholas Anapausas Friday. All six are open on Saturday and Sunday. From November more days are closed, and monks can change hours without notice. Men need long trousers; women need a skirt below the knee and covered shoulders."
+  },
+  {
+   "name": "Waterfront and the Argo sculpture",
+   "why": "The city's promenade, starting at the Argo sculpture, the symbol of Volos, and running past neoclassical buildings to the Kordoni.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Flat and next to the port; ideal for the last hour before boarding."
+  },
+  {
+   "name": "Athanasakeion Archaeological Museum",
+   "why": "The city's archaeological museum, the main indoor sight in Volos.",
+   "timeNeeded": "1 hour",
+   "cost": "€2 (2026)",
+   "tip": "Open 08:30–15:00, closed on Mondays."
+  },
+  {
+   "name": "Museum of the City of Volos",
+   "why": "A small museum on the history of the modern city.",
+   "timeNeeded": "45 minutes",
+   "cost": "€2 (2026)",
+   "tip": "Open Tuesday to Sunday 10:30–13:30; also Wednesday and Friday evenings."
+  },
+  {
+   "name": "Tsalapatas brickworks and the industrial district",
+   "why": "Volos has about 52 old factory buildings turned into cinemas, venues and restaurants; Tsalapatas is the best-known example.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to see from outside",
+   "tip": "Combine with the City Museum."
+  },
+  {
+   "name": "Portaria",
+   "why": "The gateway village of Pelion, 11 km from Volos, with a chapel, a plane-shaded square and short walks to fountains and the Karavo waterfall.",
+   "timeNeeded": "2 hours including taxi",
+   "cost": "Taxi fare",
+   "tip": "Combine with Makrinitsa, which is on the same road."
+  },
+  {
+   "name": "Makrinitsa",
+   "why": "The 'balcony of Pelion', with views over the gulf to Volos, a square with a four-lion-head fountain and a huge plane tree, and the Kafenio tou Theofilou with its folk-art mural.",
+   "timeNeeded": "2–3 hours including taxi",
+   "cost": "Taxi fare",
+   "tip": "Steep cobbles; wear proper shoes and leave 90 minutes before all-aboard."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Plakes (beside Anavros beach)",
+   "howToGetThere": "Walk, cycle or taxi along the north-east side of Volos bay",
+   "time": "About 1.5 km from the centre",
+   "cost": "Free entry; umbrellas available",
+   "note": "Small pebble beach with a Blue Flag, below Goritsa hill and next to Anavros beach and park."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Tsipouro with meze, a Volos tradition dating to the 1930s",
+   "where": "Tsipouradika across Volos town",
+   "price": null
+  },
+  {
+   "dish": "Spetsofai (sausage with peppers)",
+   "where": "Tsipouradika and tavernas in Volos",
+   "price": null
+  },
+  {
+   "dish": "Cuttlefish with wild fennel",
+   "where": "Tsipouradika in Volos",
+   "price": null
+  },
+  {
+   "dish": "Taverna lunch on the village square",
+   "where": "Kritsa taverna, main square of Portaria",
+   "price": null
+  },
+  {
+   "dish": "Coffee and spoon sweets",
+   "where": "Kafenio tou Theofilou and shops on the main square of Makrinitsa",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Treating Meteora as a quick trip.",
+   "fix": "It is about two hours each way. Leave Meteora 3.5 hours before all-aboard, and skip it on a short call."
+  },
+  {
+   "mistake": "Arriving at a monastery on its closed day.",
+   "fix": "Check the closed days: Great Meteoron shuts on Tuesdays and Varlaam on Fridays. All six open on weekends in summer."
+  },
+  {
+   "mistake": "Wearing shorts or a sleeveless top to Meteora.",
+   "fix": "Men need long trousers; women need a knee-length skirt and covered shoulders. Wrap skirts are lent to women at some entrances, but nothing is lent to men."
+  },
+  {
+   "mistake": "Trying to reach Meteora by public bus.",
+   "fix": "It takes about 3 h 40 min each way with changes. Use the ship's tour or a pre-booked car."
+  },
+  {
+   "mistake": "Booking a private Meteora driver without fixing the return time.",
+   "fix": "Agree price, route, waiting time and return time in writing, and keep the port agent's number with you."
+  }
+ ],
+ "safety": "Volos is a safe, ordinary Greek city. Take normal care against pickpockets in crowded places and keep valuables split up. Carry ID, as the police may not accept a photocopy. In summer the heat inland at Meteora and on Pelion's steep lanes is the main hazard: carry water and a hat. Wildfire risk is high from April to October, so never discard cigarettes or glass.",
+ "scams": [
+  "Private tour prices or return times that change on the day: agree everything in writing before you set off for Meteora.",
+  "Pickpocketing in crowded places: keep bags closed and in front of you.",
+  "Drink spiking in bars: watch your drink and do not leave it unattended."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The port-to-town walk is short and the waterfront is flat, so Volos itself is manageable for most visitors. Pelion villages are steep and cobbled and hard for wheelchair users; arrange an accessible vehicle in advance. Step-free access at the Meteora monasteries is not confirmed here; ask the ship or your tour operator before booking.",
+ "rainyDay": "Stay in Volos: the Athanasakeion Archaeological Museum (closed Mondays) and the Museum of the City of Volos, then a long tsipouro lunch. Rain makes Pelion's cobbles slippery and can hide the views, so a long drive to Meteora is less worthwhile.",
+ "crowdTips": "Volos had 41 cruise calls in 2025 and expected about 51 in 2026, so the town is rarely crowded by cruise passengers. Meteora is busier. Go first to the monastery with the shortest hours, and remember that Sunday brings local worshippers as well as visitors.",
+ "faqs": [
+  {
+   "q": "Is Volos walkable from the cruise port?",
+   "a": "Yes. The town is about 300 m and five minutes on foot from the cruise berths."
+  },
+  {
+   "q": "Is Volos a tender port?",
+   "a": "No. Cruise ships dock at the piers in the port's tourist section."
+  },
+  {
+   "q": "Can I visit Meteora from Volos on a cruise?",
+   "a": "Yes, but it is about two hours each way by road. Leave Meteora at least 3.5 hours before all-aboard, and check which monasteries are closed that day."
+  },
+  {
+   "q": "Which Meteora monasteries are open on which days?",
+   "a": "In summer all six are open on Saturday and Sunday. Great Meteoron closes on Tuesdays, Varlaam and St Nicholas on Fridays, Roussanou on Wednesdays, Holy Trinity on Thursdays and St Stephen's on Mondays."
+  },
+  {
+   "q": "What can I do in Volos in one day from a cruise ship?",
+   "a": "Meteora on a full day, or a shorter day with the waterfront, the Archaeological Museum, a taxi to Portaria and Makrinitsa, and tsipouro and meze."
+  },
+  {
+   "q": "Are there beaches near Volos cruise port?",
+   "a": "Plakes and Anavros are on the bay about 1.5 km from the centre. Plakes is a small pebble beach with a Blue Flag."
+  },
+  {
+   "q": "Is Volos safe?",
+   "a": "Yes. Take normal care with valuables and with the summer heat."
+  },
+  {
+   "q": "What should I wear to Meteora?",
+   "a": "Long trousers for men; a skirt below the knee and covered shoulders for women. Sleeveless tops are not allowed."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Meteora"
+  },
+  {
+   "name": "Great Meteoron Monastery"
+  },
+  {
+   "name": "Varlaam Monastery"
+  },
+  {
+   "name": "Makrinitsa"
+  },
+  {
+   "name": "Portaria"
+  },
+  {
+   "name": "Athanasakeion Archaeological Museum"
+  },
+  {
+   "name": "Argo sculpture and Volos waterfront"
+  }
+ ],
+ "sources": [
+  {
+   "title": "MedCruise – Cruise to Volos (port data, 2017)",
+   "url": "https://www.medcruise.com/news/cruise-to-volos"
+  },
+  {
+   "title": "MedCruise – Recovery of cruise operations at the Port of Volos (January 2026)",
+   "url": "https://www.medcruise.com/news/recovery-of-cruise-operations-at-the-port-of-volos"
+  },
+  {
+   "title": "Proto Thema – Volos: cruise ship with over 5,000 people docked at the port (June 2025)",
+   "url": "https://origin01-en.protothema.gr/2025/06/17/volos-cruise-ship-with-over-5000-passengers-docked-at-the-port"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Volos port guide",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/volos-greece/"
+  },
+  {
+   "title": "Municipality of Volos – Museums",
+   "url": "https://dimosvolos.gr/en/museums"
+  },
+  {
+   "title": "Discover Greece – Volos",
+   "url": "https://www.discovergreece.com/thessaly-sporades/volos"
+  },
+  {
+   "title": "Discover Greece – Explore 12 unmissable villages in Pelion",
+   "url": "https://www.discovergreece.com/travel-ideas/cover-story/explore-12-unmissable-villages-pelion"
+  },
+  {
+   "title": "Visit Meteora – Monasteries opening hours and days (2026)",
+   "url": "https://visitmeteora.travel/monasteries-opening-hours-and-days/"
+  },
+  {
+   "title": "Maptrotting – Meteora monasteries opening hours 2026",
+   "url": "https://www.maptrotting.com/meteora-monasteries-opening-hours/"
+  },
+  {
+   "title": "Rome2rio – Volos to Meteora",
+   "url": "https://www.rome2rio.com/s/Volos/Meteora"
+  },
+  {
+   "title": "The Swim Guide – Plakes beach, Volos",
+   "url": "https://www.theswimguide.org/beach/11963"
+  },
+  {
+   "title": "GOV.UK – Greece travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/greece/safety-and-security"
+  }
+ ],
+ "uncertain": [
+  "Meteora monastery entry fee: Visit Meteora gives €5 at every monastery; Maptrotting gives €5 at Great Meteoron and €3 at the others.",
+  "Exact Meteora opening hours: sources differ (for example Great Meteoron closes at 15:00 per Visit Meteora and 16:00 per Maptrotting).",
+  "Whether a free port shuttle runs in 2026 (MedCruise listed one in 2017).",
+  "Taxi fares and travel times from Volos to Portaria and Makrinitsa, and KTEL bus times to Pelion villages.",
+  "The port's typical all-aboard time (17:30 used as a default).",
+  "Ship excursion prices for Meteora."
+ ]
+}

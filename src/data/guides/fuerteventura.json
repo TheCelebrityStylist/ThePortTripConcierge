@@ -1,0 +1,400 @@
+{
+ "slug": "fuerteventura",
+ "city": "Puerto del Rosario",
+ "portName": "Port of Puerto del Rosario",
+ "townName": "Puerto del Rosario town centre",
+ "country": "Spain (Canary Islands)",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Spanish",
+ "timezone": "WET (UTC+0), WEST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Fuerteventura cruise port: Puerto del Rosario guide",
+ "seoDescription": "Ships dock beside Puerto del Rosario town. Tiadhe bus 06 to Corralejo costs €3.40 (2026), about 30–40 min; bus 03 to Caleta de Fuste is €1.45.",
+ "quickAnswer": "Ships dock at the cruise pier in Puerto del Rosario, Fuerteventura's capital, and the town centre surrounds the port, so it is a short walk. For the Corralejo dunes, Tiadhe bus 06 leaves from the town bus station and costs €3.40 cash (2026), or take a taxi. If you go by bus, leave Corralejo 2.5 hours before all-aboard.",
+ "intro": "Puerto del Rosario is a working capital rather than a resort, and most passengers leave it straight away for the beaches. The town is worth an hour or two: a seafront promenade with more than 100 street sculptures, the house where Miguel de Unamuno lived in exile, and a small sheltered beach. The big draw is the Corralejo Natural Park in the north, a sweep of dunes about 10 km long that runs down to the sea. Wind and sun are the constant factors here. The other is the bus timetable, so check it before you set out.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Puerto del Rosario cruise terminal (cruise pier)",
+   "distanceToCentreKm": null,
+   "notes": "New terminal building opened on 21 May 2025 on the cruise pier, run by Global Ports Holding's Canary Islands arm. The town centre surrounds the port and the terminal is a few metres from the seafront road; the promenade and the Casa Museo Unamuno are just beyond the port gates."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": null,
+  "km": null,
+  "detail": "The town centre, promenade and Playa Chica are a short walk from the ship; the compact centre lies between the port and Avenida de la Constitución, where the bus station is. Playa Blanca, Caleta de Fuste, Corralejo, La Oliva and Betancuria need a bus, taxi or tour."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "A short walk to the centre",
+   "detail": "Walk out of the port onto the seafront road and promenade. The sculptures, the church and the Unamuno house are close together in the small centre."
+  },
+  {
+   "mode": "Tiadhe bus line 06 to Corralejo",
+   "cost": "€3.40 one way, cash (2026)",
+   "time": "About 30–40 min",
+   "detail": "Tiadhe is the island's public bus operator. Line 06 starts from the Puerto del Rosario bus station on Avenida de la Constitución, at the inland side of the centre. The official timetable shows departures every hour from 06:00 to 23:00 Monday to Saturday, with extra departures in most daytime hours; Sundays and holidays are roughly hourly. Return buses leave the Corralejo harbour (Muelle) 10 minutes before the times printed for Corralejo; the last one from the harbour is at 20:50. Pay the driver; notes above €50, or more than five times the fare, are not accepted."
+  },
+  {
+   "mode": "Tiadhe bus line 03 to Playa Blanca and Caleta de Fuste",
+   "cost": "€1.45 to Caleta de Fuste, cash (2026)",
+   "time": "Check the timetable",
+   "detail": "Line 03 runs from the Puerto del Rosario bus station via Las Rotondas shopping centre, Playa Blanca and the airport to Caleta de Fuste and Las Salinas, every day. The return calls at the same stops. Check departure times on the official line 03 timetable."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree or ask the fare before setting off",
+   "time": "About 23 min to the Corralejo dunes",
+   "detail": "Taxis wait near the port exit. Taxis only pick up within their own municipal zone, so a passing taxi elsewhere may not stop for you. Use a rank."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. From Corralejo by bus, leave 2.5 hours before all-aboard; by taxi, leave 90 minutes before. From Caleta de Fuste or Playa Blanca, leave 90 minutes before.",
+  "detail": "Buses run to a printed timetable, and on Sundays and holidays line 06 is roughly hourly, so a missed bus can cost an hour. Line 06 drops you at the bus station on Avenida de la Constitución, not at the pier, so allow time to walk back through the centre. Note your bus back before you leave Puerto del Rosario, and aim for the one before the last that works.",
+  "emergencyFallback": "If the bus does not come, take a taxi from the Corralejo rank. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Corralejo dunes or town transfer",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Tiadhe line 06, €3.40 each way (2026)",
+   "saving": "Usually large, but you carry the timetable risk"
+  },
+  {
+   "item": "Betancuria and the interior",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi or hire car",
+   "saving": "Small for couples; the tour covers several villages"
+  }
+ ],
+ "excursionAdvice": "The town needs no tour, and Corralejo is easy on your own if you check the bus times. A ship's transfer to the dunes or Corralejo town is worth it if you would rather not rely on the bus timetable, especially on a Sunday, a holiday or a short call. For Betancuria, the interior villages, La Oliva or a catamaran trip, a tour is the practical choice: there is no simple bus loop and taxis only pick up in their own zones.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00, all-aboard is 17:30, and the call is Monday to Saturday.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Off the ship. Walk to the Casa Museo Unamuno (weekdays, free) and the Iglesia de Nuestra Señora del Rosario."
+   },
+   {
+    "time": "09:30",
+    "what": "Walk through the centre to the bus station on Avenida de la Constitución."
+   },
+   {
+    "time": "10:00",
+    "what": "Tiadhe line 06 to Corralejo, €3.40 cash. Note the return times on the timetable."
+   },
+   {
+    "time": "10:45",
+    "what": "Arrive in Corralejo. Taxi from the rank to the dunes, about 8 minutes."
+   },
+   {
+    "time": "11:00",
+    "what": "Corralejo Natural Park: walk over the dunes and swim. Stay on marked paths."
+   },
+   {
+    "time": "12:45",
+    "what": "Back to Corralejo town for lunch and a walk round the old fishing quarter and Plaza de la Molina."
+   },
+   {
+    "time": "15:00",
+    "what": "Line 06 back to Puerto del Rosario, 2.5 hours before all-aboard."
+   },
+   {
+    "time": "15:45",
+    "what": "Arrive at the bus station. Walk back through town and along the promenade sculptures."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Corralejo Natural Park (dunes)",
+   "why": "A protected sweep of fine golden sand about 10.5 km long and 2.5 km wide, running down to the beaches of the north-east coast.",
+   "timeNeeded": "2–3 hours plus travel",
+   "cost": "Free",
+   "tip": "About 23 minutes by road from the port. Bring water and sun protection; there is little shade."
+  },
+  {
+   "name": "Corralejo town",
+   "why": "A former fishing village at the island's northern tip with beaches, a harbour and a busy centre; an old mill survives in Plaza de la Molina.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Bus €3.40 each way (2026)",
+   "tip": "Combine with the dunes, about 8 minutes away by road."
+  },
+  {
+   "name": "Casa Museo de Unamuno",
+   "why": "The former Hotel Fuerteventura, where the writer Miguel de Unamuno stayed in exile, with photographs, objects and texts from his time on the island.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Open Monday to Friday 08:00–14:00, so it is closed on weekend calls."
+  },
+  {
+   "name": "Sculpture trail (Parque Escultórico)",
+   "why": "More than 100 sculptures across the town, including works on the promenade and the main pier, and a 10 m whale sculpture near Playa Chica.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free",
+   "tip": "Best walked on the way back to the ship."
+  },
+  {
+   "name": "Iglesia de Nuestra Señora del Rosario",
+   "why": "The town's neoclassical parish church, a listed monument, with a 19th-century image of the Virgin of the Rosary.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free",
+   "tip": "In the old centre near the Cabildo building."
+  },
+  {
+   "name": "Casa de los Coroneles, La Oliva",
+   "why": "The Colonels' House, a large historic building in La Oliva in the north of the island.",
+   "timeNeeded": "45 minutes plus travel",
+   "cost": "Free traditional visit; theatrical visits cost extra",
+   "tip": "Open Tuesday to Saturday 10:00–20:00. Best by taxi or on a tour."
+  },
+  {
+   "name": "Betancuria",
+   "why": "The island's former capital in the western hills, with an archaeological and ethnographic museum.",
+   "timeNeeded": "Half a day including travel",
+   "cost": "Museum free",
+   "tip": "Museum open Tuesday to Saturday 10:00–18:00. Usually done on a tour or by hire car."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Playa Chica (Playa de los Pozos)",
+   "howToGetThere": "Walk from the port through the town to the end of Calle Primero de Mayo, by the Palacio de Congresos",
+   "time": "Short walk",
+   "cost": "Free",
+   "note": "About 100 m long and sheltered by two breakwaters, with almost no waves. Toilets and restaurants nearby."
+  },
+  {
+   "name": "Playa Blanca",
+   "howToGetThere": "Tiadhe line 03 from the bus station (it stops at Playa Blanca), or a taxi",
+   "time": "Short bus or taxi ride south of town",
+   "cost": "Bus fare or taxi",
+   "note": "About 500 m of golden sand with toilets, showers and a restaurant. Leave 90 minutes before all-aboard."
+  },
+  {
+   "name": "Corralejo dunes beaches",
+   "howToGetThere": "Line 06 bus to Corralejo then taxi, or taxi direct",
+   "time": "About 23 min by road",
+   "cost": "Free",
+   "note": "Long open beaches below the dunes. Can be very windy; parts are naturist."
+  },
+  {
+   "name": "Caleta de Fuste",
+   "howToGetThere": "Tiadhe line 03 from the bus station",
+   "time": "Check the line 03 timetable",
+   "cost": "€1.45 bus each way (2026)",
+   "note": "Resort town south of Puerto del Rosario. Leave 90 minutes before all-aboard."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Traditional Canarian dishes",
+   "where": "Casa Toño, Puerto del Rosario, a short walk from the port",
+   "price": null
+  },
+  {
+   "dish": "Mediterranean and Spanish plates, with vegetarian choices",
+   "where": "La Jaira de Demián, Puerto del Rosario",
+   "price": null
+  },
+  {
+   "dish": "Seafood",
+   "where": "El Bounty, Puerto del Rosario",
+   "price": null
+  },
+  {
+   "dish": "Queso majorero (local goat's cheese)",
+   "where": "Canarian restaurants and food shops in Puerto del Rosario and Corralejo",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Going to Corralejo without checking the bus timetable.",
+   "fix": "Open the line 06 timetable on tiadhe.com before the call, note the return times, and plan around the bus that leaves Corralejo 2.5 hours before all-aboard. On Sundays and holidays buses are roughly hourly."
+  },
+  {
+   "mistake": "Waiting for line 06 at the pier.",
+   "fix": "Island buses leave from the bus station on Avenida de la Constitución, on the far side of the centre. Allow time to walk there and back."
+  },
+  {
+   "mistake": "Planning the Casa Museo Unamuno on a weekend.",
+   "fix": "It opens Monday to Friday, 08:00–14:00. On a weekend, walk the sculpture trail instead."
+  },
+  {
+   "mistake": "Paying the bus with a large note.",
+   "fix": "Drivers do not accept notes above €50 or more than five times the fare. Carry coins and small notes for the €3.40 fare."
+  },
+  {
+   "mistake": "Expecting to hail any passing taxi.",
+   "fix": "Taxis only pick up in their own zone. Go to a rank, in Corralejo town for the return."
+  },
+  {
+   "mistake": "Underestimating sun and wind on the dunes.",
+   "fix": "Take water, a hat and sun cream. Wind-blown sand is hard on cameras and eyes."
+  }
+ ],
+ "safety": "Puerto del Rosario and Corralejo are low-risk for visitors; take normal care with bags in crowded places. The main hazards are the sun, the wind and the sea. The dunes have no shade, and some beaches have strong currents or surf, so follow the posted warnings and flags. Stay on marked paths in the natural park and do not disturb plants or wildlife. Carry your passport or ID: shops may ask for photo ID when you pay by card.",
+ "scams": [
+  "Unofficial tour sellers near the port: book through the ship, the tourist office or an operator you have checked."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from the port into the town centre is short. Expect uneven pavements, kerbs and sand in places. Confirm step-free gangway arrangements with your cruise line. Ship's coaches for some tours board by steps, though folding wheelchairs are usually taken. The dunes and most beaches are soft sand without boardwalks. Book an accessible taxi or private tour in advance if needed.",
+ "rainyDay": "Rain is rare but more likely in October, November and February. Stay in Puerto del Rosario: the Unamuno house (weekdays), the church, cafés and the Las Rotondas shopping centre, which line 03 serves. Strong wind is far more common than rain; on a very windy day pick a sheltered beach such as Playa Chica over the open dunes.",
+ "crowdTips": "Cruise calls peak in winter, and passenger numbers rose sharply in 2025. The first buses and taxis after the ships arrive are the busiest, as is the ship's dunes transfer. Head out early, or see the town first and travel to Corralejo once the first wave has gone. The dunes are large enough to find space if you walk a few minutes away from the road.",
+ "faqs": [
+  {
+   "q": "Is Puerto del Rosario walkable from the cruise port?",
+   "a": "Yes. The town centre surrounds the port, so the promenade, shops and cafés are a short walk."
+  },
+  {
+   "q": "Is Fuerteventura a tender port?",
+   "a": "No. Ships dock at the cruise pier in Puerto del Rosario."
+  },
+  {
+   "q": "How do I get from Fuerteventura cruise port to Corralejo?",
+   "a": "Walk to the bus station on Avenida de la Constitución and take Tiadhe line 06, €3.40 cash (2026), about 30–40 minutes. A taxi to the dunes takes about 23 minutes."
+  },
+  {
+   "q": "How much is the bus from Puerto del Rosario to Corralejo?",
+   "a": "€3.40 one way, paid in cash to the driver (2026 official timetable)."
+  },
+  {
+   "q": "Can I walk to the Corralejo dunes from the cruise port?",
+   "a": "No. They are in the north of the island, about 23 minutes away by road."
+  },
+  {
+   "q": "What can I do in Fuerteventura in one day from a cruise ship?",
+   "a": "The sculpture trail and Unamuno house in Puerto del Rosario, then the dunes and Corralejo town, back 2.5 hours before all-aboard if by bus."
+  },
+  {
+   "q": "Beaches near Fuerteventura cruise port",
+   "a": "Playa Chica is a short walk through town, and line 03 stops at Playa Blanca just south of town. The best beaches are at Corralejo."
+  },
+  {
+   "q": "Is Puerto del Rosario safe?",
+   "a": "Yes. The main risks are sun, wind and currents at the beaches."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Corralejo Natural Park"
+  },
+  {
+   "name": "Corralejo"
+  },
+  {
+   "name": "Casa Museo de Unamuno"
+  },
+  {
+   "name": "Puerto del Rosario sculpture trail"
+  },
+  {
+   "name": "Playa Blanca"
+  },
+  {
+   "name": "Casa de los Coroneles"
+  },
+  {
+   "name": "Betancuria"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Tiadhe – All routes and timetables",
+   "url": "https://tiadhe.com/todas-las-rutas/"
+  },
+  {
+   "title": "Tiadhe – Payment systems and fares",
+   "url": "https://tiadhe.com/sistemas-de-pago/"
+  },
+  {
+   "title": "Tiadhe – Line 06 Puerto del Rosario–Corralejo",
+   "url": "https://tiadhe.com/linea-06/"
+  },
+  {
+   "title": "Tiadhe – Line 06 official timetable and fares (sheet linked from tiadhe.com)",
+   "url": "https://docs.google.com/spreadsheets/d/1f7v-FFV_H4zt1TlL_1MxOXmFmzsKBImyzp14xSMkvpM/export?format=pdf&gid=931643835"
+  },
+  {
+   "title": "Tiadhe – Line 03 Puerto del Rosario–Caleta de Fuste–Las Salinas",
+   "url": "https://tiadhe.com/linea-03/"
+  },
+  {
+   "title": "Tiadhe – Line 03 official timetable, stops and fares (sheet linked from tiadhe.com)",
+   "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSBeKm761Zs-5UJ3RuC1uC-yxdm4EQ2M2tvvjFC3jcuFopCwWaPTw4WAdbC3h36uglqo7rKXZWBNra7/pubhtml?gid=364271304&single=true&single=false&widget=false&headers=false&chrome=false"
+  },
+  {
+   "title": "Spain.info (Turespaña) – Puerto del Rosario port",
+   "url": "https://www.spain.info/es/transporte/puerto-rosario-fuerteventura/"
+  },
+  {
+   "title": "BOE – Port Authority of Las Palmas cruise passenger service licence, Puerto del Rosario (February 2025)",
+   "url": "https://boe.es/boe/dias/2025/02/06/pdfs/BOE-B-2025-4061.pdf"
+  },
+  {
+   "title": "Hello Canary Islands – Corralejo Nature Reserve and fishing village (cruise excursions)",
+   "url": "https://hellocanaryislands.com/cruise-excursions/fuerteventura/corralejo-nature-reserve-and-tour-of-the-fishing-village-of"
+  },
+  {
+   "title": "RTVC – Puerto del Rosario inaugura una nueva terminal de cruceros (21 May 2025)",
+   "url": "https://rtvc.es/puerto-del-rosario-inaugura-una-nueva-terminal-de-cruceros-21-mayo-2025/"
+  },
+  {
+   "title": "inforMARE – Global Ports Holding to operate three more Canary Islands cruise terminals (2022)",
+   "url": "https://www.informare.it/news/gennews/2022/20221130-Global-Ports-Holding-gestira-altri-3-terminal-crociere-Canarieuk.asp"
+  },
+  {
+   "title": "Wikivoyage (de) – Puerto del Rosario",
+   "url": "https://de.wikivoyage.org/wiki/Puerto_del_Rosario"
+  },
+  {
+   "title": "Cruise Critic – Fuerteventura port",
+   "url": "https://www.cruisecritic.com/en-gb/find-a-cruise/port-fuerteventura"
+  },
+  {
+   "title": "CruiseMapper – Puerto del Rosario port",
+   "url": "https://www.cruisemapper.com/ports/puerto-del-rosario-port-1173"
+  },
+  {
+   "title": "Celebrity Cruises – Fuerteventura port guide",
+   "url": "https://www.celebritycruises.com/gb/ports/fuerteventura"
+  },
+  {
+   "title": "TUI – Puerto del Rosario cruise port",
+   "url": "https://www.tui.co.uk/cruise/canary-islands-and-atlantic/puerto-del-rosario-port/"
+  },
+  {
+   "title": "Capture the Atlas – Qué ver en Puerto del Rosario",
+   "url": "https://capturetheatlas.com/es/que-ver-en-puerto-del-rosario/"
+  },
+  {
+   "title": "Capture the Atlas – Museos de Fuerteventura",
+   "url": "https://capturetheatlas.com/es/museos-fuerteventura/"
+  }
+ ],
+ "uncertain": [
+  "Exact walking time and distance from the cruise pier to the town centre (sources say only 'a very short walk'; Spain.info gives 1.5 km from the port's Avenida Reyes de España address, which may not be the cruise pier)",
+  "Walking time from the cruise pier to the bus station on Avenida de la Constitución",
+  "Line 03 departure times and journey time (the published grid could not be read reliably)",
+  "Which line 06 departures are hotel or Parque Holandés variants (colour key not readable)",
+  "Taxi fares from the port to Corralejo and Playa Blanca",
+  "Typical all-aboard time for Puerto del Rosario calls",
+  "Whether ships ever berth elsewhere in the port when two ships are in"
+ ]
+}

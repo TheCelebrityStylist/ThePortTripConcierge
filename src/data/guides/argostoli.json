@@ -1,0 +1,401 @@
+{
+ "slug": "argostoli",
+ "city": "Argostoli",
+ "portName": "Port of Argostoli (cruise pier)",
+ "townName": "Argostoli town centre",
+ "country": "Greece",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Greek",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Argostoli cruise port guide: Melissani, Myrtos, Assos",
+ "seoDescription": "Argostoli's single cruise berth is 5–10 min on foot from the main square; a second ship tenders. Melissani is 40 min by car, Myrtos 45–60, Assos about 1 hour.",
+ "quickAnswer": "Argostoli has one cruise berth beside the town, and the main square and shops are 5–10 minutes' walk away; if a second ship calls, it anchors and tenders to the old harbour. Melissani, Myrtos and Assos are 40–60 minutes away by car, so use a tour or a pre-booked driver. Be back on board 60 minutes before all-aboard, or in the tender queue 90 minutes before if your ship is at anchor.",
+ "intro": "Argostoli is the capital of Kefalonia, largely rebuilt after the 1953 earthquake, so it is a working Greek town rather than an old-town showpiece. The cruise pier sits on the edge of the centre, and loggerhead sea turtles are often seen near the fishing boats on the promenade. The island's best-known sights are over the mountains: the cave lake of Melissani near Sami, the cliff-backed bay of Myrtos and the village of Assos. They make a good day out, but each involves a winding road and a fixed return time.",
+ "isTender": false,
+ "tenderNotes": "The pier has a single berth, usually given to the larger ship. Any second ship anchors in the bay and tenders passengers to the old harbour in the town. Greece charges a cruise passenger fee for each passenger who goes ashore at ports other than Santorini and Mykonos: €5 from June to September, €3 in April, May and October, €1 from November to March (2026). It is charged once per port, to your onboard account, and only if you leave the ship.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Argostoli cruise pier",
+   "distanceToCentreKm": null,
+   "notes": "One berth, reached along a 171.5 m access corridor, with the terminal building ashore. A tourist information office at the end of the pier has maps and bus timetables, and taxis usually wait near the terminal."
+  },
+  {
+   "name": "Old harbour tender landing",
+   "distanceToCentreKm": null,
+   "notes": "Used only when a second ship anchors in the bay. Lands passengers in the town."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": null,
+  "detail": "The main square, shops and cafés are 5–10 minutes' walk from the pier. The Saint Theodore lighthouse is a 25–30 minute walk. The Lassi beaches are better reached by bus or taxi; Melissani, Myrtos and Assos are not walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5–10 min to the main square",
+   "detail": "Walk along the waterfront into the centre, past the fishing boats where turtles are often seen."
+  },
+  {
+   "mode": "KTEL local bus to Lassi",
+   "cost": "Pay on the bus or at the KTEL office",
+   "time": "About 10 min",
+   "detail": "In summer the Argostoli–Lassi–Svoronata route runs daily from 08:30 to 21:00, roughly every 30 minutes, from a stop just outside the port. Get off at Makris Gialos or Platis Gialos."
+  },
+  {
+   "mode": "Tourist train",
+   "cost": "Pay on board",
+   "time": "About 40 min round trip",
+   "detail": "Leaves about 5 minutes' walk from the pier and stops briefly at the De Bosset Bridge."
+  },
+  {
+   "mode": "Taxi or private driver",
+   "cost": "Agree a fixed or hourly price before you set off",
+   "time": "Melissani about 40–45 min; Myrtos 45–60 min; Assos about 1 hour; Fiskardo about 1 hour 15 min",
+   "detail": "Taxis wait near the terminal. For Melissani plus Myrtos or Assos, book a driver for the day with an agreed return time."
+  },
+  {
+   "mode": "KTEL Kefalonia regional bus",
+   "cost": "Check at the KTEL office",
+   "time": "Check the current timetable",
+   "detail": "In summer there are three buses a day to Sami from Monday to Saturday (two on Sundays), one a day to Myrtos and buses to Assos only three times a week, so they are too sparse for a cruise day. The Myrtos bus stops at the Divarata junction, 2.5 km above the beach. The KTEL office is at Antoni Tritsi 5, Argostoli (+30 26710 22281)."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the gangway 60 minutes before all-aboard (16:30 for a 17:30 all-aboard), or in the tender queue at the old harbour 90 minutes before if your ship is at anchor. Leave Melissani 2 hours 15 minutes before all-aboard, and Myrtos or Assos 2 hours 30 minutes before.",
+  "detail": "The roads to Myrtos and Assos are narrow and winding. The 2.5 km road down to Myrtos from Divarata is steep with blind hairpins and fills with parked cars in summer. Coach traffic around Melissani peaks from late morning.",
+  "emergencyFallback": "If you are running late from the north of the island, call the port agent number on your daily programme straight away and keep your driver's number. In town, any taxi can reach the pier in a few minutes."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Melissani and Drogarati caves",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi or driver for the morning, plus cave tickets paid at the entrance",
+   "saving": "Depends on group size and the driver's price"
+  },
+  {
+   "item": "Myrtos and Assos",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Driver for the day; Myrtos and the Assos castle walk are free",
+   "saving": "Depends on group size and the driver's price"
+  }
+ ],
+ "excursionAdvice": "Stay independent if you only want Argostoli, the lighthouse walk or a beach at Lassi. For Melissani with Myrtos or Assos, a ship tour is the safer choice on a short call or if your ship is at anchor: the roads are slow, parking at Myrtos fills early in summer, and buses are too infrequent to rely on. A pre-booked private driver works well for a small group on a long docked call.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00, a 17:30 all-aboard, a summer day and a pre-booked driver.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk off the pier and meet your driver. Drive to Melissani, about 40–45 minutes."
+   },
+   {
+    "time": "09:15",
+    "what": "Melissani boat visit when it opens, before the coach groups and the midday peak."
+   },
+   {
+    "time": "10:15",
+    "what": "Drogarati Cave nearby, if it is open that day."
+   },
+   {
+    "time": "11:00",
+    "what": "Drive north to the Myrtos viewpoint, then on to Assos."
+   },
+   {
+    "time": "12:00",
+    "what": "Assos: walk up to the Venetian castle (30–40 minutes each way; carry water) or stay by Paris Square in the village."
+   },
+   {
+    "time": "13:30",
+    "what": "Lunch at one of the waterfront tavernas by Paris Square in Assos."
+   },
+   {
+    "time": "15:00",
+    "what": "Leave Assos for Argostoli, about an hour."
+   },
+   {
+    "time": "16:00",
+    "what": "Back in Argostoli. Look for turtles by the fishing boats on the promenade."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Melissani Cave Lake",
+   "why": "An underground lake lit through a 36 m opening in the collapsed cave roof, visited by small boat; the water turns blue when the sun is high.",
+   "timeNeeded": "3 hours including travel",
+   "cost": "Ticket paid at the entrance; reduced for children",
+   "tip": "Open from May to October, from 09:00. The light is best from about 11:00 to 13:00, which is also the busiest time; on a cruise day go early. The boat trip itself is short, 10–15 minutes."
+  },
+  {
+   "name": "Drogarati Cave",
+   "why": "A stalactite cave a short drive from Melissani.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Ticket paid at the entrance",
+   "tip": "Opening days are cut back outside summer; the Municipality of Sami announces the schedule."
+  },
+  {
+   "name": "Myrtos Beach",
+   "why": "A long white-pebble bay below high cliffs on the north-west coast, the island's best-known view.",
+   "timeNeeded": "Viewpoint 20 minutes; a swim 2–3 hours",
+   "cost": "Free; limited sunbeds €10–15 (2026)",
+   "tip": "45–60 minutes' drive. The 2.5 km road down from Divarata is steep with blind hairpins, and the free car park fills by about 09:30 in summer. On a cruise day the viewpoint above is the easier option."
+  },
+  {
+   "name": "Assos and its Venetian castle",
+   "why": "A small fishing village on a narrow isthmus below a Venetian fortress on a wooded headland.",
+   "timeNeeded": "2–3 hours plus about an hour's drive each way",
+   "cost": "Free",
+   "tip": "The mostly paved path to the castle takes 30–40 minutes with little shade. Parking in the village is very limited."
+  },
+  {
+   "name": "Argostoli promenade and the sea turtles",
+   "why": "Loggerhead sea turtles are often seen near the fishing boats along the waterfront.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free",
+   "tip": "Watch from the quay; do not feed or touch them."
+  },
+  {
+   "name": "Argostoli town centre",
+   "why": "The main square, pedestrian shopping streets and waterfront cafés of the island's capital.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "5–10 minutes' walk from the pier; keep it for the end of the day."
+  },
+  {
+   "name": "De Bosset Bridge and Saint Theodore lighthouse",
+   "why": "A stone bridge across the lagoon, and a round lighthouse on the peninsula north of town.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "The lighthouse is a 25–30 minute walk from the pier; the tourist train stops at the bridge."
+  },
+  {
+   "name": "Fiskardo",
+   "why": "A harbour village at the northern tip, one of the few places on the island that escaped the 1953 earthquake.",
+   "timeNeeded": "Most of the day",
+   "cost": "Free",
+   "tip": "About 1 hour 15 minutes each way by car. Only for long docked calls, ideally on a tour."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Makris Gialos (Lassi)",
+   "howToGetThere": "KTEL local bus from outside the port, or taxi",
+   "time": "About 10 min",
+   "cost": "Free; sunbeds and beach clubs extra",
+   "note": "The larger Lassi beach, with water sports and beach clubs such as Costa Costa."
+  },
+  {
+   "name": "Platis Gialos (Lassi)",
+   "howToGetThere": "KTEL local bus or taxi",
+   "time": "About 10 min",
+   "cost": "Free; sunbeds extra",
+   "note": "Smaller and quieter, with a simple café, sunbeds and showers."
+  },
+  {
+   "name": "Myrtos",
+   "howToGetThere": "Tour, taxi or driver",
+   "time": "45–60 min by car",
+   "cost": "Free; limited sunbeds €10–15 (2026)",
+   "note": "No permanent beach bars; bring water. Strong waves can roll into the open bay and the pebbles get very hot."
+  },
+  {
+   "name": "Antisamos",
+   "howToGetThere": "Tour, taxi or driver, often combined with Melissani",
+   "time": "45–50 min by car",
+   "cost": "Free",
+   "note": "Pebble beach with clear water near Sami."
+  },
+  {
+   "name": "Assos",
+   "howToGetThere": "Tour, taxi or driver",
+   "time": "About 1 hour by car",
+   "cost": "Free; umbrellas and loungers on the main beach",
+   "note": "Small pebble beach in front of the village restaurants."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Lunch by the beach",
+   "where": "Costa Costa Beach Club restaurant, Makris Gialos",
+   "price": null
+  },
+  {
+   "dish": "Taverna lunch by the water",
+   "where": "Waterfront tavernas around Paris Square, Assos",
+   "price": null
+  },
+  {
+   "dish": "Greek coffee and pastries",
+   "where": "Cafés on the Argostoli waterfront and main square",
+   "price": null
+  },
+  {
+   "dish": "Local olive oil, honey and wine to take home",
+   "where": "Shops in central Argostoli",
+   "price": null
+  },
+  {
+   "dish": "Snacks and drinks",
+   "where": "Kiosk at Melissani Cave; tavernas in Sami and Karavomylos",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning Melissani, Myrtos and Assos by public bus.",
+   "fix": "Buses to Myrtos run once a day and to Assos three times a week. Use a tour or a driver."
+  },
+  {
+   "mistake": "Arriving at Melissani at noon.",
+   "fix": "Noon to 13:00 is the busiest hour. On a cruise day go when it opens."
+  },
+  {
+   "mistake": "Driving down to Myrtos beach late in the morning.",
+   "fix": "The car park fills by about 09:30 in summer and the road has blind hairpins. Stop at the viewpoint instead."
+  },
+  {
+   "mistake": "Hiking to Assos castle without water.",
+   "fix": "It is 30–40 minutes each way with little shade. Carry water and allow for the hour's drive back."
+  },
+  {
+   "mistake": "Assuming every ship docks.",
+   "fix": "There is one berth. If your ship anchors, allow 90 minutes for the tender back from the old harbour."
+  }
+ ],
+ "safety": "Argostoli is a safe, easy-going town. The main risks are on the road: narrow, steep mountain roads with blind bends, especially the descent to Myrtos and the approach to Assos. Choose a driver rather than hiring a car if you are unsure of mountain driving. At Myrtos, strong waves can roll into the open bay; swim only in calm conditions.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The waterfront from the pier into the centre is flat. Melissani involves a descent and stepping into a small boat. Assos castle is reached by a steep path, and Myrtos beach is a pebble walk from the car park. The tourist train and taxis are the easiest ways to see more of Argostoli. If your ship is at anchor, ask whether wheelchair users can tender ashore.",
+ "rainyDay": "Melissani and Drogarati are both underground or partly so, and still work in light rain, though Melissani's blue light needs sun. In town, spend time in the cafés on the main square and the shops on the pedestrian streets. Skip the Myrtos descent and the Assos castle path when wet.",
+ "crowdTips": "Melissani is busiest from noon to 13:00, when coach tours arrive for the best light; go early. Myrtos car park fills by about 09:30 in summer. Argostoli itself is quiet compared with the island's sights, so return early and enjoy the town at the end of the day.",
+ "faqs": [
+  {
+   "q": "Is Argostoli a tender port?",
+   "a": "Usually not. There is one cruise berth next to the town. If two ships call, the second anchors and tenders to the old harbour."
+  },
+  {
+   "q": "Is Argostoli walkable from the cruise port?",
+   "a": "Yes. The main square and shops are 5–10 minutes' walk from the pier."
+  },
+  {
+   "q": "How do I get from Argostoli cruise port to Melissani Cave?",
+   "a": "By tour, taxi or private driver, about 40–45 minutes each way. KTEL buses to Sami run only two or three times a day."
+  },
+  {
+   "q": "Can I visit Myrtos Beach on a cruise day?",
+   "a": "Yes, by tour or driver, 45–60 minutes each way. In summer arrive before about 09:30 or just stop at the viewpoint."
+  },
+  {
+   "q": "What can I do in Argostoli in one day from a cruise ship?",
+   "a": "Melissani early, then the Myrtos viewpoint and Assos with a driver, and the turtles on the promenade on your way back."
+  },
+  {
+   "q": "Are there beaches near Argostoli cruise port?",
+   "a": "Argostoli has no proper beach. Makris Gialos and Platis Gialos at Lassi are about 10 minutes away by bus or taxi."
+  },
+  {
+   "q": "How far is Assos from Argostoli?",
+   "a": "About an hour by car each way; buses run only three times a week."
+  },
+  {
+   "q": "Is Argostoli safe?",
+   "a": "Yes. The main hazards are the mountain roads and the waves at Myrtos."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Melissani Cave Lake"
+  },
+  {
+   "name": "Myrtos Beach"
+  },
+  {
+   "name": "Assos"
+  },
+  {
+   "name": "Drogarati Cave"
+  },
+  {
+   "name": "De Bosset Bridge"
+  },
+  {
+   "name": "Saint Theodore lighthouse"
+  },
+  {
+   "name": "Fiskardo"
+  }
+ ],
+ "sources": [
+  {
+   "title": "KTEL Kefalonia – official site (office and contacts)",
+   "url": "https://ktelkefalonias.gr/"
+  },
+  {
+   "title": "Visit Greece (Greek National Tourism Organisation) – Kefalonia",
+   "url": "https://www.visitgreece.gr/en/islands/ionian-islands/kefalonia"
+  },
+  {
+   "title": "Discover Greece (Greek tourism sector) – Boating in Melissani Cave",
+   "url": "https://www.discovergreece.com/el/experiences/boating-melissani-cave"
+  },
+  {
+   "title": "Visit Kefalonia Island – Melissani and Drogarati opening hours, April 2026 (Municipality of Sami announcement)",
+   "url": "https://visitkefaloniaisland.gr/april-2026-opening-hours-for-melissani-drogarati-caves/"
+  },
+  {
+   "title": "MSC Cruises – Greek cruise passenger fee",
+   "url": "https://www.msccruisesusa.com/cruise-passenger-fee"
+  },
+  {
+   "title": "Celestyal Cruises – Argostoli cruise port guide",
+   "url": "https://celestyal.com/blog/argostoli-cruise-port-guide"
+  },
+  {
+   "title": "CruiseMapper – Kefalonia (Argostoli) port",
+   "url": "https://www.cruisemapper.com/ports/kefalonia-island-port-1235?tab=wiki"
+  },
+  {
+   "title": "Adventour Begins – Argostoli cruise port guide (updated April 2026)",
+   "url": "https://adventourbegins.com/argostoli-cruise-port-guide-kefalonia-greece/"
+  },
+  {
+   "title": "Greeka – KTEL buses in Kefalonia",
+   "url": "https://greeka.com/ionian/kefalonia/car-bus"
+  },
+  {
+   "title": "The World Travel Guy – Melissani Cave Lake (2026)",
+   "url": "https://theworldtravelguy.com/melissani-cave-lake/"
+  },
+  {
+   "title": "BeachAtlas – Myrtos Beach 2026 guide",
+   "url": "https://www.beachatlas.com/myrtos-beach-kefalonia-the-ultimate-2026-deep-dive-guide-1785617723781"
+  },
+  {
+   "title": "Dave's Travel Pages – Assos, Kefalonia (updated July 2026)",
+   "url": "https://www.davestravelpages.com/assos-kefalonia/"
+  }
+ ],
+ "uncertain": [
+  "Melissani ticket price: a 2026 travel blog gives €10 (€13 with Drogarati), Discover Greece gives €7; no official 2026 price found",
+  "Melissani closing time in summer (sources give 18:00 and 19:00)",
+  "Drogarati ticket price and summer opening days",
+  "KTEL fares and exact 2026 departure times (operator timetable pages could not be read)",
+  "Tourist train fare",
+  "Taxi and private driver rates",
+  "Typical all-aboard time and the walking distance in km from the pier to the centre",
+  "Documented visitor scams (none found)"
+ ]
+}

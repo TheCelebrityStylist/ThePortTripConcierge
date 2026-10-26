@@ -1,0 +1,362 @@
+{
+ "slug": "cherbourg",
+ "city": "Cherbourg-en-Cotentin",
+ "portName": "Cherbourg cruise terminal (Quai de France, Gare Maritime Transatlantique)",
+ "townName": "the town centre",
+ "country": "France",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "French",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Cherbourg cruise port guide: Cité de la Mer, D-Day, Bayeux",
+ "seoDescription": "Cherbourg cruise port is 1.2 km from the centre, 10–15 min on foot. Cité de la Mer €21 (2026) next to the ship. Bayeux 53–55 min by train; Utah Beach €10.",
+ "quickAnswer": "Ships berth at the Quai de France and passengers come ashore through the Art Deco Gare Maritime Transatlantique, which also houses the Cité de la Mer. The town centre is about 1.2 km away, a flat 10–15 minute walk, and on many calls a shuttle runs as well. For a train or bus trip, be back at Cherbourg station at least two hours before all-aboard; for the town, be back on board an hour before.",
+ "intro": "Cherbourg's cruise berth has the most striking arrival hall in northern France: you walk ashore through the former transatlantic liner terminal, now the Cité de la Mer, where the submarine Le Redoutable and a Titanic exhibition sit metres from the gangway. The port takes one cruise ship a day. The town itself is small and walkable. Most passengers come for the D-Day sites of the Cotentin peninsula, with Utah Beach the closest landing beach; Omaha Beach and Mont-Saint-Michel are much further and only make sense on an organised tour. Bayeux is an easy train trip, and Barfleur is reachable by local bus on a long call.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Cruise terminal, Quai de France (Gare Maritime Transatlantique)",
+   "distanceToCentreKm": 1.2,
+   "notes": "600 m berth with covered electric gangways into the renovated terminal in the Cité de la Mer's former baggage hall, reopened in September 2024. A tourist office desk is inside. Taxis and excursion coaches wait outside. Some ships use the neighbouring Quai de Normandie."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": 1.2,
+  "detail": "A flat 10–15 minute walk along the waterfront past the Bassin du Commerce to the centre. The train station is about 2 km, 20–25 minutes on foot."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "10–15 min to the centre",
+   "detail": "Follow the waterfront from the terminal along the Bassin du Commerce. The Cité de la Mer is in the terminal building itself."
+  },
+  {
+   "mode": "Cruise shuttle (tourist office and Cap Cotentin)",
+   "cost": "Check at the terminal tourist office",
+   "time": "Short loop through the centre",
+   "detail": "On many calls the Cotentin tourist office runs a shuttle with the Cap Cotentin network between the terminal and the centre, with stops at the tourist information office and the bus station. It does not run on every call; ask at the terminal desk."
+  },
+  {
+   "mode": "Cap Cotentin local buses",
+   "cost": "€1 for one hour, €1.50 bought on board, €4 for 24 hours (2025 fares)",
+   "time": "Varies by line",
+   "detail": "The local network for Cherbourg and the Cotentin. Line 12 runs from Cherbourg station to Barfleur. Check timetables on capcotentin.fr."
+  },
+  {
+   "mode": "Train to Bayeux",
+   "cost": "Check SNCF Connect for the fare",
+   "time": "53–55 min",
+   "detail": "About 9 direct TER trains a day from Cherbourg station, first at 06:52, calling at Valognes, Carentan and Lison on the way. Gaps between trains can be long, so plan the return first."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree or check the fare before setting off",
+   "time": "Short ride to the station or centre",
+   "detail": "Taxis wait outside the terminal, but there may not be enough for everyone on a big-ship day. Book a driver in advance for a D-Day day."
+  }
+ ],
+ "returnTiming": {
+  "rule": "If you leave Cherbourg by train or bus, be back at Cherbourg station at least 2 hours before all-aboard. From the town centre, be back on board 60 minutes before all-aboard.",
+  "detail": "Trains to Bayeux and buses to Barfleur run only a handful of times a day, so missing one can mean a gap of an hour or more. The station is a 20–25 minute walk from the ship, or a short taxi ride.",
+  "emergencyFallback": "If your train or bus is late, call the port agent number on your daily programme at once and take a taxi from the station straight to the Quai de France."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Cité de la Mer",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€21 adult, €15 child 5–17 (2026); in the terminal building",
+   "saving": "Usually large: no transport needed"
+  },
+  {
+   "item": "Bayeux",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Train, 53–55 min each way",
+   "saving": "Depends on the fare"
+  },
+  {
+   "item": "D-Day beaches (Utah, Omaha)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Pre-booked private driver or hire car; Utah Beach Museum €10 adult",
+   "saving": "Varies"
+  }
+ ],
+ "excursionAdvice": "Take the ship's tour, or a pre-booked private guide, for the D-Day beaches. Public transport to Utah and Omaha beaches is not practical on a cruise day, the sites are spread out, and Omaha and the American Cemetery are a long way east. Mont-Saint-Michel is 2.5–3 hours by road each way, so only go with the ship, which will wait for its coaches. The Cité de la Mer, the town, Fort du Roule and Bayeux are easy on your own.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, on a day between Tuesday and Friday in summer, spent in Cherbourg.",
+  "steps": [
+   {
+    "time": "09:30",
+    "what": "Cité de la Mer opens: go aboard the submarine Le Redoutable first, before the queues, then the Titanic exhibition and aquariums."
+   },
+   {
+    "time": "12:30",
+    "what": "Walk 10–15 minutes into the centre along the Bassin du Commerce; lunch in the old streets near Place du Général de Gaulle."
+   },
+   {
+    "time": "14:00",
+    "what": "Taxi or a steep walk up the Montagne du Roule to the Liberation Museum in Fort du Roule (reopens at 14:00 on weekdays) for the view over the harbour."
+   },
+   {
+    "time": "15:30",
+    "what": "Back down into town for a last walk around the centre and the marina."
+   },
+   {
+    "time": "16:15",
+    "what": "Walk back to the terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "On board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "La Cité de la Mer",
+   "why": "Ocean and seafaring museum in the 1930s transatlantic terminal, with Le Redoutable, a decommissioned nuclear submarine you can walk through, a Titanic exhibition and large aquariums.",
+   "timeNeeded": "About 4 hours for everything",
+   "cost": "€21 adult, €15 child 5–17; €30 with the VR experience (2026)",
+   "tip": "The ticket is valid all day with re-entry. Arrive at opening; last entry is 90 minutes before closing. Children under 5 cannot board the submarine."
+  },
+  {
+   "name": "Musée de la Libération (Fort du Roule)",
+   "why": "Museum of the 1944 liberation of Cherbourg in a fort on the hill above the town, with a view over the harbour.",
+   "timeNeeded": "1–1.5 hours plus the climb",
+   "cost": "€5 adult, free on Wednesdays and for under-26s (2025)",
+   "tip": "Closed on Mondays; on weekdays it closes 12:30–14:00. About 25 minutes on foot from the station, uphill."
+  },
+  {
+   "name": "Utah Beach Museum",
+   "why": "The D-Day landing museum on the beach at Sainte-Marie-du-Mont, the closest landing beach to Cherbourg.",
+   "timeNeeded": "1.5–2 hours on site",
+   "cost": "€10 adult; guided tour €2.50–5 extra (2026)",
+   "tip": "Open daily 09:30–19:00 from May to September and 10:00–18:00 from October to April; closed 16 November to 14 December. Go with a tour or a booked driver."
+  },
+  {
+   "name": "Bayeux",
+   "why": "Medieval town with its cathedral and the Bayeux Tapestry museum, under an hour by train.",
+   "timeNeeded": "4–5 hours including travel",
+   "cost": "Train fare; check SNCF Connect",
+   "tip": "Pick your return train before you set out; there are only about 9 a day."
+  },
+  {
+   "name": "Barfleur and Gatteville lighthouse",
+   "why": "Fishing harbour where William the Conqueror gathered his fleet in 1066, and a 75 m lighthouse 2 km away.",
+   "timeNeeded": "4–5 hours including travel",
+   "cost": "Lighthouse €3.50 (2026); check the bus fare on capcotentin.fr",
+   "tip": "Cap Cotentin line 12 takes about 45 minutes from Cherbourg station and runs only a few times a day. The lighthouse gallery closes in winds above 50 km/h."
+  },
+  {
+   "name": "Cherbourg town centre and marina",
+   "why": "Compact centre of shopping streets and squares beside the harbour and marina.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Start at the tourist information office, a stop on the cruise shuttle."
+  },
+  {
+   "name": "Mont-Saint-Michel",
+   "why": "The abbey island on the border of Normandy and Brittany.",
+   "timeNeeded": "A full day",
+   "cost": "Ship excursion price; check your cruise planner",
+   "tip": "2.5–3 hours by road each way. Only attempt it on the ship's own tour."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Utah Beach",
+   "howToGetThere": "Ship tour, private driver or hire car",
+   "time": "Check the drive time with your driver",
+   "cost": "Free beach; museum €10 (2026)",
+   "note": "A wide sandy D-Day beach; most visitors come for the museum and memorials."
+  },
+  {
+   "name": "Barfleur cove",
+   "howToGetThere": "Cap Cotentin bus 12, then walk north of the marine cemetery",
+   "time": "About 45 min by bus",
+   "cost": "Free beach; check the bus fare on capcotentin.fr",
+   "note": "Small sandy cove with a view of the Gatteville lighthouse."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Blondes de Barfleur mussels",
+   "where": "Restaurants around Barfleur harbour",
+   "price": null
+  },
+  {
+   "dish": "Seafood and fish",
+   "where": "Restaurants around the marina and the old streets of Cherbourg centre",
+   "price": null
+  },
+  {
+   "dish": "Normandy cider and Calvados",
+   "where": "Bars and shops in Cherbourg centre",
+   "price": null
+  },
+  {
+   "dish": "Local products",
+   "where": "The tourist office desk in the cruise terminal sells Cotentin produce",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to reach Omaha Beach or Mont-Saint-Michel independently.",
+   "fix": "Both are too far for public transport on a cruise day. Book the ship's tour or a reputable private guide."
+  },
+  {
+   "mistake": "Assuming the shuttle always runs.",
+   "fix": "It runs on many calls but not all. The walk is only 10–15 minutes anyway."
+  },
+  {
+   "mistake": "Missing the last useful train or bus.",
+   "fix": "Bayeux trains and Barfleur buses are infrequent. Plan to be back at Cherbourg station two hours before all-aboard."
+  },
+  {
+   "mistake": "Visiting the Liberation Museum on a Monday or at lunchtime.",
+   "fix": "It is closed on Mondays and from 12:30 to 14:00 on weekdays; weekends it opens at 13:00."
+  },
+  {
+   "mistake": "Leaving the Cité de la Mer until the end of the day.",
+   "fix": "It needs about four hours and last entry is 90 minutes before closing. Go first thing, since it is next to the ship."
+  }
+ ],
+ "safety": "Cherbourg is a small, quiet French port town and safe for visitors. Take normal care with bags in busy places. At the D-Day sites, stay on marked paths; dunes and old fortifications can be uneven. The walk up to Fort du Roule is steep.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The terminal has covered electric gangways, and the walk to the centre is flat. The Cité de la Mer main halls are on level floors; the submarine has narrow passages and is not suitable for everyone. Reduced prices apply with proof of disability at the Cité de la Mer, and the Liberation Museum is free for visitors with disabilities and a companion. The Fort du Roule hill and the 365 steps of Gatteville lighthouse are not accessible.",
+ "rainyDay": "Cherbourg is a good rainy-day port: the Cité de la Mer is indoors, next to the ship, and fills most of a day. Add the Liberation Museum, or take the train to Bayeux for the tapestry and cathedral.",
+ "crowdTips": "Cherbourg takes one cruise ship a day, with about 75 calls expected in 2026, so the town rarely feels crowded. The Cité de la Mer is busiest once ship tours return; go at opening. Taxis can run short when a large ship is in, so pre-book a driver for D-Day sites.",
+ "faqs": [
+  {
+   "q": "Is Cherbourg walkable from the cruise port?",
+   "a": "Yes. The centre is about 1.2 km away, a flat 10–15 minute walk."
+  },
+  {
+   "q": "Is Cherbourg a tender port?",
+   "a": "No. Ships berth at the Quai de France beside the Cité de la Mer."
+  },
+  {
+   "q": "Can I visit the D-Day beaches from Cherbourg cruise port?",
+   "a": "Yes, by ship tour, private guide or hire car. Utah Beach is the closest landing beach; Omaha is much further east. Public transport is not practical."
+  },
+  {
+   "q": "Can I get to Mont-Saint-Michel from Cherbourg on a cruise?",
+   "a": "Only on an organised tour. It is 2.5–3 hours by road each way."
+  },
+  {
+   "q": "How do I get from Cherbourg to Bayeux?",
+   "a": "Direct TER train from Cherbourg station, 53–55 minutes, about 9 a day."
+  },
+  {
+   "q": "What can I do in Cherbourg in one day from a cruise ship?",
+   "a": "The Cité de la Mer next to the ship, the town centre, and the Liberation Museum at Fort du Roule."
+  },
+  {
+   "q": "How much is the Cité de la Mer?",
+   "a": "€21 for adults and €15 for children aged 5–17 in 2026."
+  },
+  {
+   "q": "Is Cherbourg safe?",
+   "a": "Yes. It is a small, quiet port town."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "La Cité de la Mer"
+  },
+  {
+   "name": "Le Redoutable submarine"
+  },
+  {
+   "name": "Musée de la Libération"
+  },
+  {
+   "name": "Utah Beach Museum"
+  },
+  {
+   "name": "Bayeux"
+  },
+  {
+   "name": "Barfleur"
+  },
+  {
+   "name": "Gatteville lighthouse"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cruise Europe – Cherbourg destination information",
+   "url": "https://www.cruiseeurope.com/destination-information/cherbourg"
+  },
+  {
+   "title": "Le Cotentin – Cap Cotentin fares deliberation DEL2025_010",
+   "url": "https://www.lecotentin.fr/system/files/2025-04/DEL2025_010%20-%20Mobilit%C3%A9s%20-%20tarifs%20Cap%20Cotentin.pdf"
+  },
+  {
+   "title": "Le Cotentin – Cruise shuttles press release (2023)",
+   "url": "https://lecotentin.fr/sites/agglo/files/2023-02/CP%202023%20-%20Navettes%20Croisi%C3%A8res.pdf"
+  },
+  {
+   "title": "La Cité de la Mer – Brochure 2026",
+   "url": "https://www.citedelamer.com/wp-content/uploads/2026/01/BROCHURE-GRAND-PUBLIC-2026.pdf"
+  },
+  {
+   "title": "Cherbourg-en-Cotentin – Musée de la Libération leaflet (January 2025)",
+   "url": "https://cherbourg.fr/fileadmin/mediatheque/kiosque/MUSEE_LIBE_FR_plaquette_A5_janvier_2025_web.pdf"
+  },
+  {
+   "title": "Utah Beach Museum – practical information",
+   "url": "https://utah-beach.com/en/en-"
+  },
+  {
+   "title": "SNCF Connect – Cherbourg to Bayeux timetables",
+   "url": "https://www.sncf-connect.com/train/horaires/cherbourg/bayeux"
+  },
+  {
+   "title": "SNCF Connect – Cherbourg to Paris timetables",
+   "url": "https://www.sncf-connect.com/fr-be/train/horaires/cherbourg/paris"
+  },
+  {
+   "title": "Tendance Ouest – New Cherbourg cruise terminal inaugurated (2024)",
+   "url": "https://www.tendanceouest.com/actualite-422487-cherbourg-le-nouveau-terminal-croisiere-inaugure-pour-offrir-une-veritable-experience-aux-visiteurs"
+  },
+  {
+   "title": "Adventour Begins – Cherbourg cruise port guide",
+   "url": "https://www.adventourbegins.com/port-of-cherbourg-cruise-guide/"
+  },
+  {
+   "title": "WhatsInPort – Cherbourg",
+   "url": "https://www.whatsinport.com/Cherbourg.htm"
+  },
+  {
+   "title": "La Souris Globe-Trotteuse – Barfleur",
+   "url": "https://www.lasourisglobe-trotteuse.fr/barfleur/"
+  },
+  {
+   "title": "The Cruise Web – Cherbourg",
+   "url": "https://cruiseweb.com/ports/cherbourg-france"
+  }
+ ],
+ "uncertain": [
+  "2026 price and operating days of the cruise shuttle (it was a €4 day ticket in 2022; an older guide also gives €4 and a 12:30–13:30 break).",
+  "Whether Cap Cotentin fares changed for 2026 (latest deliberation found is April 2025).",
+  "Drive times from Cherbourg to Utah Beach, Sainte-Mère-Église and Omaha Beach.",
+  "Exact frequency and fare of Cap Cotentin line 12 to Barfleur.",
+  "Train fare Cherbourg–Bayeux (an older guide quotes €15 one way).",
+  "Typical taxi fares in Cherbourg.",
+  "Typical cruise all-aboard time and call length at Cherbourg.",
+  "Named restaurants with verified details.",
+  "Documented scams specific to Cherbourg: none found."
+ ]
+}

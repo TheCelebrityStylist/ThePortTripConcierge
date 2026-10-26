@@ -1,0 +1,364 @@
+{
+ "slug": "visby",
+ "city": "Visby",
+ "portName": "Visby cruise quay (Kryssningskajen)",
+ "townName": "the walled Old Town",
+ "country": "Sweden",
+ "currency": "SEK",
+ "currencySymbol": "kr",
+ "priceSymbol": "US$",
+ "language": "Swedish",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Visby cruise port guide: quay, ring wall and Old Town",
+ "seoDescription": "Visby's cruise quay takes two 340 m ships; the walled Old Town is about 1.2 km away on foot. Botanical Garden free, ring wall 3.5 km. Back 60 min before sailing.",
+ "quickAnswer": "Most ships berth at Visby's cruise quay, opened in 2018, which takes two ships of up to 340 m; ships that anchor send tenders to the cruise quay. The walled Old Town is about 1.2 km away along a marked path, so you can walk in, and the town itself is best seen on foot. Be back on board 60 minutes before all-aboard, or 90 minutes if your ship is tendering.",
+ "intro": "Visby is a medieval Hanseatic town inside one of the best-preserved town walls in northern Europe, and the cruise quay sits just south of it. Everything worth seeing on a short call is within the wall or along it: church ruins, the cathedral, rose-covered lanes, the Botanical Garden and Almedalen park. The streets are cobbled and the town climbs steeply from the harbour towards the eastern wall, so comfortable shoes matter more than transport here.",
+ "isTender": false,
+ "tenderNotes": "Ships normally berth at the cruise quay. Ships that anchor in the roads off Visby tender passengers to the cruise quay, so the walk into town is the same either way. Your line will say in advance whether your call is a tender call.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Visby cruise quay (Kryssningskajen, berths 14–15)",
+   "distanceToCentreKm": 1.2,
+   "notes": "Opened in April 2018, built by Region Gotland and operated by Copenhagen Malmö Port. Two ships of up to 340 m can berth at once. There is a 300 m² terminal building beside the quay and parking for tour coaches. Smaller ships may use berths in the inner harbour instead; check your daily programme for where your ship ties up."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 20,
+  "km": 1.2,
+  "detail": "About 1.2 km on a marked path from the cruise quay to the Old Town, roughly 15–20 minutes at an easy pace. Inside the wall the streets are cobbled and some climb steeply towards the cathedral and the eastern wall."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "15–20 min to the Old Town",
+   "detail": "Follow the marked path north from the quay along the harbour towards Almedalen and the wall. This is the best way in."
+  },
+  {
+   "mode": "Hop-on hop-off bus",
+   "cost": "Sold through some cruise lines' excursion programmes; check your planner",
+   "time": "Loop around Visby",
+   "detail": "A double-decker hop-on hop-off bus is offered as a shore excursion by some lines. Useful if walking the hills is hard."
+  },
+  {
+   "mode": "Ship's tour by coach",
+   "cost": "From US$69 for a three-hour Visby tour (Holland America, 2026)",
+   "time": "About 3 hours",
+   "detail": "Covers Gallows Hill, Almedalen, the Powder Tower, the Botanical Garden, the cathedral and part of the wall. Includes about two hours of walking on cobbles and slopes, and is not wheelchair accessible."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. On a tender call, be at the cruise quay tender landing 90 minutes before.",
+  "detail": "Allow 20 minutes to walk from the Old Town back to the quay, more from the eastern side of the wall or if you are walking uphill from Almedalen first. On a two-ship day the path and the quay are busy in the last hour.",
+  "emergencyFallback": "If you are short of time, take a taxi rather than walking uphill routes. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Visby walking tour of the Old Town and wall",
+   "ship": "From US$69 (Holland America three-hour Visby tour, 2026)",
+   "diy": "Free on foot",
+   "saving": "Up to the full tour price"
+  },
+  {
+   "item": "Botanical Garden",
+   "ship": "Included in some ship tours",
+   "diy": "Free entry",
+   "saving": "No cost on your own"
+  },
+  {
+   "item": "Gotland countryside (Högklint, Gnisvärd ship settings)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi or hire car only",
+   "saving": "Hard to do cheaply alone"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Visby itself. The Old Town is a short walk from the quay, the sights are mostly free, and narrow lanes make large groups slow and hard to hear. A ship tour is worth it for the countryside beyond Visby, such as the Högklint cliffs or the Bronze Age ship-shaped stone graves at Gnisvärd, which are awkward to reach without a car. It is also the easier choice if you cannot manage cobbles and hills.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the cruise quay at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk from the quay along the marked path towards the town, about 20 minutes."
+   },
+   {
+    "time": "09:00",
+    "what": "Almedalen park and the Powder Tower (Kruttornet), the oldest tower in the wall."
+   },
+   {
+    "time": "09:30",
+    "what": "Walk up Strandgatan, the old merchants' street, to the Botanical Garden (free) and the St Nicolai ruin."
+   },
+   {
+    "time": "10:30",
+    "what": "Sankta Maria Cathedral, then climb the steps beside it to Klinten for the view over the roofs and the sea."
+   },
+   {
+    "time": "11:15",
+    "what": "Stora Torget and the S:ta Karin ruin. Walk Fiskargränd for the roses."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch around Stora Torget or Donners plats. Try a Gotland saffron pancake with dewberry jam."
+   },
+   {
+    "time": "13:30",
+    "what": "Gotlands Museum Fornsalen on Strandgatan (open 11:00–16:00) for the picture stones and Viking silver."
+   },
+   {
+    "time": "15:00",
+    "what": "Walk outside the wall for a stretch to see its full height, then head back towards the harbour."
+   },
+   {
+    "time": "16:10",
+    "what": "Leave the Old Town for the quay, about 20 minutes on foot."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard (90 minutes if tendering)."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Visby town wall (Ringmuren)",
+   "why": "About 3.5 km long and up to 11 m high, completed in 1288; among the best-preserved town walls in northern Europe.",
+   "timeNeeded": "1–1.5 hours to walk a long section",
+   "cost": "Free",
+   "tip": "Walk outside the wall for the best view of its towers; Väktargången is a reconstructed rampart walk with a tower to climb."
+  },
+  {
+   "name": "Sankta Maria Cathedral",
+   "why": "Begun in the late 12th century and still in use; the only medieval church inside the wall that is not a ruin.",
+   "timeNeeded": "30 minutes",
+   "cost": "Not confirmed; check at the door",
+   "tip": "Climb the steps beside it to Klinten for the view."
+  },
+  {
+   "name": "Botanical Garden",
+   "why": "Garden founded in 1855 with fig and mulberry trees and many roses.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free, open year-round",
+   "tip": "Next to the St Nicolai ruin, so combine the two."
+  },
+  {
+   "name": "S:ta Karin ruin and Stora Torget",
+   "why": "Roofless Franciscan church founded in 1233, with high arches on the main square.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free to view from outside",
+   "tip": "The square is the centre for cafés and restaurants."
+  },
+  {
+   "name": "St Nicolai ruin",
+   "why": "Dominican church begun after 1226 and burnt in 1525.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free to view from outside",
+   "tip": "Some ruins host concerts or exhibitions in summer."
+  },
+  {
+   "name": "Gotlands Museum Fornsalen",
+   "why": "About 8,000 years of Gotland history, with picture stones, gold and silver hoards and medieval rooms.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Adult price on the museum's site; children and young people under 19 free",
+   "tip": "Strandgatan 14. Open daily 11:00–16:00 in October 2026; check summer hours before your call."
+  },
+  {
+   "name": "Almedalen and the Powder Tower",
+   "why": "Park on the old harbour, with Kruttornet, the oldest tower in the wall, built in the 1100s.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "On the way in from the cruise quay."
+  },
+  {
+   "name": "Fiskargränd and Klinten",
+   "why": "Narrow rose-covered lane and the 18th-century cottages on the slope above the cathedral.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Steep and cobbled; wear shoes with grip."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Norderstrand",
+   "howToGetThere": "Walk north along the coast from the Old Town",
+   "time": "About 30 min walk from Visby; about 1 km from the north end of the town wall",
+   "cost": "Free",
+   "note": "Stony sand with a rocky seabed and a swimming pier with ladders. The Baltic is cool even in summer."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Saffron pancake with whipped cream and dewberry jam",
+   "where": "Cafés around Stora Torget and Donners plats",
+   "price": null
+  },
+  {
+   "dish": "Lunch on the main square",
+   "where": "Restaurants on Stora Torget",
+   "price": null
+  },
+  {
+   "dish": "Harbour-side meals",
+   "where": "Restaurants on Strandgatan and Donners plats",
+   "price": null
+  },
+  {
+   "dish": "Café stop off the main square",
+   "where": "Hästgatan and Wallérs plats",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Wearing smooth-soled shoes.",
+   "fix": "Visby's lanes are cobbled and some are steep. Wear trainers or walking shoes with grip."
+  },
+  {
+   "mistake": "Taking a ship's coach tour just to see the Old Town.",
+   "fix": "It is a 15–20 minute walk from the quay and almost all town sights are free. Save the tour for the countryside."
+  },
+  {
+   "mistake": "Leaving the far side of town late.",
+   "fix": "The eastern wall is uphill and the furthest point from the quay. Start back at least 80 minutes before all-aboard from there."
+  },
+  {
+   "mistake": "Arriving during Medieval Week without expecting crowds.",
+   "fix": "Medieval Week in week 32 (early August) brings tens of thousands of visitors. Expect busy lanes and full restaurants."
+  },
+  {
+   "mistake": "Relying on cash.",
+   "fix": "Cards are widely accepted, but some small places set a minimum card purchase. Carry a card and a little SEK."
+  }
+ ],
+ "safety": "Visby is a low-crime town and safe for visitors on a port day. The main hazards are falls on wet or uneven cobbles and steep lanes, especially around Klinten and the eastern wall. Keep away from the edges of the wall and ruins, which are not fenced everywhere. Watch for cars in the narrow lanes, where there are often no pavements.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The path from the cruise quay to Almedalen is flat. Inside the wall, cobbles and steep slopes make wheelchair and walker use hard, especially towards the cathedral and the eastern side; the lower town near Strandgatan and Almedalen is the easiest part. Holland America lists its Visby walking tour as not wheelchair accessible. On a tender call, tender boarding depends on the swell; ask the ship whether wheelchair users can transfer.",
+ "rainyDay": "Gotlands Museum Fornsalen is the best indoor option, with a long visit possible. Sankta Maria Cathedral is a working church in the lower town. Otherwise use cafés on Stora Torget and Donners plats. Avoid the steep cobbled lanes and Klinten steps when they are wet.",
+ "crowdTips": "The quay can take two large ships at once, and on those days the path into town and the lanes around Stora Torget fill from mid-morning. Go first to the wall and the Botanical Garden while tour groups gather at the quay, then visit the museum over lunch. Medieval Week in early August is the busiest time of year. On one-ship days the town is calm.",
+ "faqs": [
+  {
+   "q": "Is Visby a tender port?",
+   "a": "Usually not. Most ships berth at the cruise quay opened in 2018. Ships that anchor tender to the cruise quay."
+  },
+  {
+   "q": "Is Visby walkable from the cruise port?",
+   "a": "Yes. The Old Town is about 1.2 km from the cruise quay on a marked path, about 15–20 minutes on foot."
+  },
+  {
+   "q": "How do I get from Visby cruise port to the Old Town?",
+   "a": "Walk the marked path north along the harbour to Almedalen and the town wall. Some lines also sell a hop-on hop-off bus."
+  },
+  {
+   "q": "What can I do in Visby in one day from a cruise ship?",
+   "a": "Walk the town wall, Almedalen, the Botanical Garden, Sankta Maria Cathedral, the S:ta Karin ruin on Stora Torget and Gotlands Museum Fornsalen."
+  },
+  {
+   "q": "Beaches near Visby cruise port",
+   "a": "Norderstrand, north of the town wall, is about 30 minutes' walk from Visby, with a swimming pier and stony sand."
+  },
+  {
+   "q": "Is Visby Botanical Garden free?",
+   "a": "Yes. It is open all year with no entrance fee."
+  },
+  {
+   "q": "How long is the Visby town wall?",
+   "a": "About 3.5 km, up to 11 m high, completed in 1288."
+  },
+  {
+   "q": "Is Visby safe?",
+   "a": "Yes. Take care on steep, slippery cobbles and around the ruins."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Visby town wall"
+  },
+  {
+   "name": "Sankta Maria Cathedral"
+  },
+  {
+   "name": "Botanical Garden"
+  },
+  {
+   "name": "S:ta Karin ruin"
+  },
+  {
+   "name": "Gotlands Museum Fornsalen"
+  },
+  {
+   "name": "Almedalen"
+  },
+  {
+   "name": "Fiskargränd"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Copenhagen Malmö Port (Cision) – Cruise quay in Visby has opened (2018)",
+   "url": "https://news.cision.com/copenhagen-malmo-port/r/cruise-quay-in-visby-has-opened,c2507969"
+  },
+  {
+   "title": "Seatrade Cruise News – Visby's new cruise berth officially opens (2018)",
+   "url": "https://www.seatrade-cruise.com/ship-operations/visby-s-new-cruise-berth-officially-opens"
+  },
+  {
+   "title": "Copenhagen Malmö Port – Cruises Visby",
+   "url": "https://cmport.com/services/cruise-ships-ferries/cruises-visby"
+  },
+  {
+   "title": "Swedish Maritime Administration – Guidelines and restrictions, Port of Visby (March 2026)",
+   "url": "https://sjofartsverket.se/globalassets/tjanster/lotsning/lo-kalmar/gotland/visby/guidelines-and-restrictions---port-of-visbysevis.pdf"
+  },
+  {
+   "title": "Gotland.com (Region Gotland) – Visby",
+   "url": "https://gotland.com/?p=11877"
+  },
+  {
+   "title": "Gotlands Museum",
+   "url": "http://www.gotlandsmuseum.se/"
+  },
+  {
+   "title": "Gotlands Museum – In English",
+   "url": "https://www.gotlandsmuseum.se/in-english/"
+  },
+  {
+   "title": "Holland America Line – Visby port and excursion",
+   "url": "https://www.hollandamerica.com/en/us/cruise-destinations/northern-europe-cruises/europe-northern-ports/vby/41902"
+  },
+  {
+   "title": "Princess Cruises – Cruises to Visby",
+   "url": "https://www.princess.com/cruise-destinations/european-cruises/cruises-to-visby"
+  },
+  {
+   "title": "CruiseMapper – Visby port",
+   "url": "https://www.cruisemapper.com/ports/visby-port-263"
+  },
+  {
+   "title": "What's In Port – Visby, Gotland",
+   "url": "https://www.whatsinport.com/Visby-Gotland.htm"
+  },
+  {
+   "title": "Camping.se – Visby Strandby Norderstrand",
+   "url": "https://camping.se/en/camping/3269/Visby-Strandby-Norderstrands-Camping"
+  },
+  {
+   "title": "Airial – Norderstrand Beach",
+   "url": "https://airial.travel/attractions/sweden/norderstrand-beach-HWLicITQ"
+  }
+ ],
+ "uncertain": [
+  "Gotlands Museum Fornsalen adult admission price for 2026 (only an unofficial estimate was found).",
+  "Fornsalen summer opening hours (only the October 2026 daily 11:00–16:00 hours were confirmed).",
+  "Whether a ship-run or port shuttle bus operates from the cruise quay in 2026, and its price.",
+  "Local bus routes and fares from the cruise quay.",
+  "Typical all-aboard time for Visby calls.",
+  "Taxi fares in Visby."
+ ]
+}

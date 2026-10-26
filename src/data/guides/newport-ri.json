@@ -1,0 +1,377 @@
+{
+ "slug": "newport-ri",
+ "city": "Newport",
+ "portName": "Newport Harbor (tender landing at Perrotti Park)",
+ "townName": "downtown Newport (Thames Street and the wharves)",
+ "country": "United States",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "Eastern Time (UTC-5), EDT (UTC-4) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Newport cruise port guide: tender, mansions, Cliff Walk",
+ "seoDescription": "Newport is a tender port: boats land at Perrotti Park downtown. The Breakers $32 timed ticket (2026). Route 67 trolley free to 31 Oct 2026. Cliff Walk partly closed.",
+ "quickAnswer": "Newport is a tender port: large ships anchor in the harbour and tenders land at Perrotti Park, right in downtown Newport by Thames Street and the wharves. The mansions and the Cliff Walk are a long walk away, so take RIPTA Route 67 along Bellevue Avenue, which is free until 31 October 2026, or a taxi. Be back in the tender queue at Perrotti Park 90 minutes before all-aboard.",
+ "intro": "Newport packs Gilded Age mansions, a clifftop path and a colonial harbour town into one small island city. The tender lands you on the downtown waterfront, so the wharves, Thames Street and the colonial streets are on your doorstep. The big draws, The Breakers and the Cliff Walk, sit on the far side of town along Bellevue Avenue. October is the busiest cruise month, with more than 20 calls scheduled in 2026, and a section of the Cliff Walk remains closed until repairs planned for 2027–2029.",
+ "isTender": true,
+ "tenderNotes": "Large ships anchor in the harbour and tender passengers to Perrotti Park on the downtown waterfront, a block from the visitor information centre. Some smaller ships instead dock at South Alofsin Pier at Fort Adams State Park, which is outside downtown. Bad weather can stop tendering, and calls are sometimes cancelled. If you booked a ship excursion you usually get priority tenders; independent passengers may need a tender ticket and should expect a wait at peak times.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Perrotti Park tender landing",
+   "distanceToCentreKm": 0.3,
+   "notes": "The tender landing for anchored ships, in the town centre beside America's Cup Avenue. The Gateway Transportation Center (23 America's Cup Avenue), where RIPTA Route 67 starts, is about a block away. In 2025, 85,152 passengers came ashore here by tender."
+  },
+  {
+   "name": "South Alofsin Pier, Fort Adams State Park",
+   "distanceToCentreKm": null,
+   "notes": "Used by some smaller ships. It is across the harbour from downtown; ask your line how it gets passengers into town."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 5,
+  "km": 0.3,
+  "detail": "Downtown, Thames Street, Bowen's and Bannister's Wharves and the colonial streets are a few minutes' walk from Perrotti Park. The mansions on Bellevue Avenue and the Cliff Walk are a long walk across town; most passengers use Route 67 or a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "A few minutes to Thames Street and the wharves",
+   "detail": "Walk from Perrotti Park along America's Cup Avenue to Thames Street, Bowen's Wharf and Bannister's Wharf."
+  },
+  {
+   "mode": "RIPTA Route 67 (Bellevue Avenue trolley)",
+   "cost": "Free from 22 May to 31 October 2026; check the fare from 1 November",
+   "time": "Hop on and off along the route",
+   "detail": "Starts at the Gateway Transportation Center, 23 America's Cup Avenue, near Perrotti Park. Stops at The Breakers, Marble House, Rosecliff and The Elms and near the Cliff Walk, Rough Point and Easton's (First) Beach. Check the schedule on the RIPTA website."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; ask the fare before you set off",
+   "time": "Short ride to the mansions",
+   "detail": "Taxis wait at the visitor centre on cruise days, but can be scarce when several thousand passengers come ashore at once."
+  },
+  {
+   "mode": "Narrated trolley or bus tour (Viking Tours)",
+   "cost": "Check the operator's current price",
+   "time": "Varies by tour",
+   "detail": "Leaves from the visitor centre and covers Bellevue Avenue and Ocean Drive, with optional mansion visits."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be in the tender queue at Perrotti Park 90 minutes before all-aboard. Leave the mansions or the Cliff Walk 2 hours before all-aboard.",
+  "detail": "Tender queues are longest in the last two hours as everyone returns at once. Route 67 and taxis are shared with other passengers and day visitors, so allow time for a full bus or a missing taxi on Bellevue Avenue.",
+  "emergencyFallback": "If Route 67 is full or late, call a taxi or walk back down to the waterfront; downtown is reachable on foot. If you will miss the last tender, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "The Breakers",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$32 timed ticket (2026) plus free Route 67 to 31 October 2026",
+   "saving": "Usually significant, but only if you book a timed slot in advance"
+  },
+  {
+   "item": "Two mansions",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "The Breakers + 1 ticket $45 (2026)",
+   "saving": "Depends on the tour offered"
+  },
+  {
+   "item": "Cliff Walk",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free, plus Route 67",
+   "saving": "The full cost of the tour"
+  }
+ ],
+ "excursionAdvice": "For The Breakers and the Cliff Walk, going alone is simple: book a timed Breakers ticket online and ride Route 67. The ship's tour is worth it if you want a guided drive along Ocean Drive and several mansions without managing tickets, or if you value priority tenders on a busy day. Late in the season, after Route 67's free period ends on 31 October, compare the cost again.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship anchors at 08:00, first independent tenders ashore by 09:00, and all-aboard is 17:30, in October.",
+  "steps": [
+   {
+    "time": "09:00",
+    "what": "Tender ashore at Perrotti Park. Walk a block to the Gateway Transportation Center."
+   },
+   {
+    "time": "09:15",
+    "what": "Route 67 to The Breakers."
+   },
+   {
+    "time": "09:45",
+    "what": "Visit The Breakers on a timed ticket booked in advance ($32). Opens 09:00; last admission 16:00 in October."
+   },
+   {
+    "time": "11:15",
+    "what": "Walk the open part of the Cliff Walk near The Breakers. Follow the detour signs around the closed section between Narragansett Avenue and Webster Street."
+   },
+   {
+    "time": "12:45",
+    "what": "Route 67 back towards downtown."
+   },
+   {
+    "time": "13:15",
+    "what": "Lunch on Bowen's Wharf, for example a lobster roll at Luke's Lobster or chowder at The Black Pearl on Bannister's Wharf."
+   },
+   {
+    "time": "14:30",
+    "what": "Walk Thames Street and the wharves."
+   },
+   {
+    "time": "15:30",
+    "what": "Head back towards Perrotti Park."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the tender queue, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "The Breakers",
+   "why": "The Vanderbilts' 70-room summer house, the largest of the Newport mansions.",
+   "timeNeeded": "1.5 hours plus travel",
+   "cost": "$32 adult, timed ticket (2026)",
+   "tip": "Open 09:00–17:00 daily in October, last admission 16:00. Book a date and time online before you sail."
+  },
+  {
+   "name": "Cliff Walk",
+   "why": "A 3.5-mile public path between the mansions' lawns and the Atlantic shore.",
+   "timeNeeded": "1–2 hours for a section",
+   "cost": "Free",
+   "tip": "The stretch between Narragansett Avenue and Webster Street has been closed since a 2022 collapse, with a detour through Salve Regina University. Repairs are planned for 2027–2029. Wear proper shoes: the southern section is unpaved and rocky."
+  },
+  {
+   "name": "Marble House",
+   "why": "A Vanderbilt house clad in marble, with a Chinese tea house on the lawn.",
+   "timeNeeded": "1 hour",
+   "cost": "$25 one-property ticket, or $45 for The Breakers + 1 (2026)",
+   "tip": "Open 09:00–17:00 daily in October and November, last admission 16:00."
+  },
+  {
+   "name": "Rosecliff",
+   "why": "A mansion modelled on a French garden palace, with a large ballroom.",
+   "timeNeeded": "1 hour",
+   "cost": "$25 one-property ticket (2026)",
+   "tip": "Open 09:00–16:00 to 1 November 2026, last admission 15:00; not listed as open after that."
+  },
+  {
+   "name": "Bowen's Wharf and Thames Street",
+   "why": "The waterfront wharves and main shopping street of the old harbour town, minutes from the tender landing.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Good for the last hour before the tender queue, as you stay within a short walk of Perrotti Park."
+  },
+  {
+   "name": "Touro Synagogue",
+   "why": "Described as the oldest synagogue building in the continental United States.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check current tour price",
+   "tip": "A short walk from downtown."
+  },
+  {
+   "name": "Easton's Beach (First Beach)",
+   "why": "Newport's town beach, at the northern end of the Cliff Walk.",
+   "timeNeeded": "1 hour",
+   "cost": "Free to walk on",
+   "tip": "Near Route 67; combine with the northern part of the Cliff Walk."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Easton's Beach (First Beach)",
+   "howToGetThere": "Route 67 towards Bellevue Avenue and the Cliff Walk, or taxi",
+   "time": "Short bus or taxi ride",
+   "cost": "Free to walk on",
+   "note": "Sandy town beach at the start of the Cliff Walk. Too cold for most swimmers in the autumn cruise season."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Lobster roll",
+   "where": "Luke's Lobster, 36 Bowen's Wharf",
+   "price": "$29–40 (2026)"
+  },
+  {
+   "dish": "New England clam chowder",
+   "where": "Luke's Lobster, 36 Bowen's Wharf",
+   "price": "$7–10 (2026)"
+  },
+  {
+   "dish": "Chowder and seafood",
+   "where": "The Black Pearl, 30 Bannister's Wharf",
+   "price": null
+  },
+  {
+   "dish": "Lobster rolls, chowder, stuffed quahogs",
+   "where": "Newport Chowder Co., 262 Thames Street",
+   "price": null
+  },
+  {
+   "dish": "Lobster rolls and lobster tacos",
+   "where": "The Lobster Bar, 31 Bowen's Wharf",
+   "price": null
+  },
+  {
+   "dish": "Oysters and raw bar",
+   "where": "Midtown Oyster Bar, 345 Thames Street",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Turning up at The Breakers without a timed ticket.",
+   "fix": "Book a specific date and time online before your cruise. Slots sell out on busy days."
+  },
+  {
+   "mistake": "Planning to walk the whole Cliff Walk end to end.",
+   "fix": "A section between Narragansett Avenue and Webster Street is closed with a detour, and the southern part is rocky. Walk a section near The Breakers and use Route 67."
+  },
+  {
+   "mistake": "Walking from the tender landing to the mansions.",
+   "fix": "It is a long walk across town. Route 67 starts a block from Perrotti Park."
+  },
+  {
+   "mistake": "Joining the tender queue 30 minutes before all-aboard.",
+   "fix": "Be in line 90 minutes before. Everyone returns in the last two hours."
+  },
+  {
+   "mistake": "Assuming the trolley is free all year.",
+   "fix": "The free Route 67 period ends on 31 October 2026; bring a payment method for later calls."
+  }
+ ],
+ "safety": "Newport is safe for visitors. The main hazard is the Cliff Walk: stay on the path, keep out of fenced areas, and take care on the rocky, unpaved southern section, especially in wet weather. Do not climb down to the water at the Forty Steps in rough seas. Downtown streets are busy with traffic on cruise days; cross at marked crossings. Keep spare cash in your cabin safe.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "Tender boarding depends on the sea state; ask the ship whether wheelchair users can transfer on the day. Downtown is mostly flat, though the wharves have uneven planks and cobbles. The Breakers, Marble House and Rosecliff are partly accessible: wheelchair users can enter the first floor, and a staff-operated lift reaches the second floor. The other Preservation Society houses are not accessible, and wheelchairs are not provided. Parts of the Cliff Walk near Memorial Boulevard are paved, but the southern section is rocky.",
+ "rainyDay": "Spend the day inside the mansions: The Breakers, Marble House and Rosecliff are all on Route 67. Downtown has shops and restaurants along Thames Street and the wharves. Skip the Cliff Walk in heavy rain, as the unpaved section becomes slippery.",
+ "crowdTips": "October is Newport's busiest cruise month, with more than 20 calls scheduled in 2026, and day visitors add to the crowds at weekends. Go to The Breakers on an early timed slot, before excursion groups arrive, and leave the wharves for the afternoon when you need to stay close to the tender landing.",
+ "faqs": [
+  {
+   "q": "Is Newport a tender port?",
+   "a": "Yes for large ships. They anchor in the harbour and tender passengers to Perrotti Park downtown. Some smaller ships dock at South Alofsin Pier at Fort Adams State Park."
+  },
+  {
+   "q": "Is Newport walkable from the cruise port?",
+   "a": "Downtown is. Thames Street and the wharves are a few minutes from Perrotti Park. The mansions and the Cliff Walk are a long walk; take Route 67."
+  },
+  {
+   "q": "How do I get from Newport cruise port to The Breakers?",
+   "a": "Take RIPTA Route 67 from the Gateway Transportation Center, a block from Perrotti Park. It is free until 31 October 2026. A taxi is the alternative."
+  },
+  {
+   "q": "Is the Newport Cliff Walk open?",
+   "a": "Mostly. The section between Narragansett Avenue and Webster Street has been closed since 2022, with a detour through Salve Regina University. Repairs are expected to run from 2027 to 2029."
+  },
+  {
+   "q": "How much are tickets for The Breakers?",
+   "a": "$32 for adults in 2026, with a timed entry slot. The Breakers + 1 ticket, adding one more house, is $45."
+  },
+  {
+   "q": "What can I do in Newport in one day from a cruise ship?",
+   "a": "The Breakers in the morning, a stretch of the Cliff Walk, then lunch and a stroll on Bowen's Wharf and Thames Street before the tender queue."
+  },
+  {
+   "q": "Are there beaches near Newport cruise port?",
+   "a": "Easton's Beach (First Beach) is at the northern end of the Cliff Walk, reachable by Route 67 or taxi."
+  },
+  {
+   "q": "Is Newport safe?",
+   "a": "Yes. Take care on the rocky parts of the Cliff Walk."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "The Breakers"
+  },
+  {
+   "name": "Cliff Walk"
+  },
+  {
+   "name": "Marble House"
+  },
+  {
+   "name": "Rosecliff"
+  },
+  {
+   "name": "Bowen's Wharf"
+  },
+  {
+   "name": "Touro Synagogue"
+  },
+  {
+   "name": "Easton's Beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "City of Newport – Cliff Walk",
+   "url": "https://www.newportri.gov/en-us/city-hall/departments/public-services/tree-parks-open-space/cliff-walk"
+  },
+  {
+   "title": "Preservation Society of Newport County – Tickets (2026)",
+   "url": "https://newportmansions.org/tickets"
+  },
+  {
+   "title": "Preservation Society of Newport County – Visitor info",
+   "url": "https://newportmansions.org/?p=30"
+  },
+  {
+   "title": "Preservation Society of Newport County – Plan a visit (operating schedule)",
+   "url": "https://newportmansions.org/plan-a-visit/"
+  },
+  {
+   "title": "Discover Newport – Free trolley (2026)",
+   "url": "https://www.discovernewport.org/blog/post/free-trolley/"
+  },
+  {
+   "title": "Discover Newport – Guide to outdoor eating and drinking (August 2026)",
+   "url": "https://www.discovernewport.org/blog/post/a-master-guide-to-al-fresco-eats-drinks-in-newport/"
+  },
+  {
+   "title": "Rhode Island General Assembly – Newport cruise passenger fee legislation (July 2024)",
+   "url": "https://www.rilegislature.gov/pressrelease/Lists/PressReleases/DispForm.aspx?ID=374794"
+  },
+  {
+   "title": "What's Up Newp – Newport's 2026 cruise season",
+   "url": "https://whatsupnewp.com/2026/04/newports-2026-cruise-ship-season-kicks-off-this-month-with-a-busy-fall-stretch-ahead/"
+  },
+  {
+   "title": "Rhode Island Current – City Council opposes cruise fee hike (March 2026)",
+   "url": "https://rhodeislandcurrent.com/?p=28859"
+  },
+  {
+   "title": "GoLocalProv – Newport allowed to raise cruise passenger fees",
+   "url": "https://www.golocalprov.com/news/ri-general-assembly-allows-newport-to-raise-cruise-ship-passenger-fees-over"
+  },
+  {
+   "title": "NBC 10 – Cliff Walk repairs clear major hurdle (October 2026)",
+   "url": "https://turnto10.com/news/local/newport-cliff-walk-repairs-clear-major-hurdle-with-completion-eyed-for-2029-october-15-2026"
+  },
+  {
+   "title": "Cruise Critic – Newport port guide",
+   "url": "https://www.cruisecritic.com/ports/newport.cfm?ID=34"
+  },
+  {
+   "title": "What's In Port – Newport, Rhode Island",
+   "url": "https://www.whatsinport.com/Newport-Rhode-Island.htm"
+  },
+  {
+   "title": "Luke's Lobster Newport – Menu (2026)",
+   "url": "https://lukeslobster.com/pages/newport"
+  }
+ ],
+ "uncertain": [
+  "Current per-passenger fee charged to cruise lines in 2026 and whether the proposed FY2027 state increase passed",
+  "Route 67 fare and frequency after 31 October 2026",
+  "Typical all-aboard time (17:30 assumed)",
+  "Taxi fares to the mansions",
+  "Walking time from Perrotti Park to the Cliff Walk",
+  "Touro Synagogue tour price and hours"
+ ]
+}

@@ -1,0 +1,809 @@
+{
+ "checked": "October 2026",
+ "entries": [
+  {
+   "port": "Venice",
+   "country": "Italy",
+   "region": "Mediterranean",
+   "type": "fee",
+   "summary": "Day visitors aged 14+ entering the historic centre between 08:30 and 16:00 on 60 set days must pay an access fee and carry a QR code; cruise passengers only passing through the Stazione Marittima terminal do not pay.",
+   "amount": "€5 if booked 4+ days ahead; €10 if booked within the last days before the visit",
+   "whoPays": "Passenger, paid directly on the city portal (not added by the cruise line). MSC says its own shore excursions include the fee.",
+   "effective": "3 April–26 July 2026 (fee days: Apr 3–6, 10–12, 17–19, 24–30; May 1–3, 8–10, 15–17, 22–24, 29–31; Jun 1–7, 12–14, 19–21, 26–28; Jul 3–5, 10–12, 17–19, 24–26)",
+   "status": "in force (2026 season); 2027 dates not yet published",
+   "sources": [
+    {
+     "title": "Calendar: when will you need to pay a fee to visit Venice in 2026 (The Local Italy)",
+     "url": "https://www.thelocal.it/20251209/calendar-when-will-you-need-to-pay-a-fee-to-visit-venice-in-2026"
+    },
+    {
+     "title": "Ticket di ingresso a Venezia 2026 confermato fino a 10 euro per 60 giornate (Qualitytravel.it)",
+     "url": "https://www.qualitytravel.it/ticket-di-ingresso-a-venezia-2026-confermato-fino-a-10-euro-per-60-giornate-ecco-quando/178750"
+    },
+    {
+     "title": "Destination fees and local charges (MSC Cruises)",
+     "url": "https://www.msccruises.com/manage-booking/before-you-go/cruise-passenger-fee"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "venice-fee"
+  },
+  {
+   "port": "Venice",
+   "country": "Italy",
+   "region": "Mediterranean",
+   "type": "ban",
+   "summary": "Ships over 25,000 gross tonnes (and others exceeding length, air-draught or fuel-sulphur limits) are banned from the San Marco Basin, San Marco Canal and Giudecca Canal; in 2026 large ships still use Fusina, Marghera and Chioggia rather than the historic centre.",
+   "amount": null,
+   "whoPays": "Cruise line (operational restriction)",
+   "effective": "1 August 2021 (decree-law 103/2021); unchanged for 2026",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Larger cruise ships banned from Venetian Lagoon starting August (Seatrade Cruise News)",
+     "url": "https://www.seatrade-cruise.com/ports-destinations/larger-cruise-ships-banned-from-venetian-lagoon-starting-august"
+    },
+    {
+     "title": "Al via la stagione crocieristica di Venezia nel 2026 (Shipping Italy)",
+     "url": "https://www.shippingitaly.it/2026/03/17/al-via-la-stagione-crocieristica-di-venezia-nel-2026-attesi-543-000-passegeri-12/?output=pdf"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "venice-ban"
+  },
+  {
+   "port": "Greek ports (other than Santorini and Mykonos)",
+   "country": "Greece",
+   "region": "Mediterranean",
+   "type": "fee",
+   "summary": "Every cruise passenger visiting a Greek port pays a per-port fee that varies by season.",
+   "amount": "€5 (1 Jun–30 Sep); €3 (1 Apr–31 May and October); €1 (1 Nov–31 Mar), per person per port",
+   "whoPays": "Passenger, all ages; lines add it to the onboard account (some only if you go ashore) and remit it to the Greek tax authority. AIDA will collect it directly from guests on 2027 cruises booked from 1 August 2026.",
+   "effective": "21 July 2025",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Destination fees and local charges (MSC Cruises)",
+     "url": "https://www.msccruises.com/manage-booking/before-you-go/cruise-passenger-fee"
+    },
+    {
+     "title": "Greece introduces cruise passenger tax to address overtourism (Eurofast)",
+     "url": "https://eurofast.eu/greece-introduces-cruise-passenger-tax-to-address-overtourism/"
+    },
+    {
+     "title": "AIDA Cruises to pass Greek taxes to guests (Cruise Industry News)",
+     "url": "https://cruiseindustrynews.com/cruise-news/2026/08/aida-cruises-to-pass-greek-taxes-to-guests/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "greek-ports-other-than-santorini-and-mykonos-fee"
+  },
+  {
+   "port": "Santorini",
+   "country": "Greece",
+   "region": "Mediterranean",
+   "type": "fee",
+   "summary": "Santorini carries the highest tier of the Greek cruise passenger fee.",
+   "amount": "€20 (1 Jun–30 Sep); €12 (1 Apr–31 May and October); €4 (1 Nov–31 Mar), per person per call",
+   "whoPays": "Passenger, all ages; usually charged to the onboard account by the cruise line",
+   "effective": "21 July 2025",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Destination fees and local charges (MSC Cruises)",
+     "url": "https://www.msccruises.com/manage-booking/before-you-go/cruise-passenger-fee"
+    },
+    {
+     "title": "Greece's new sustainable cruise tax officially begins (TravelPulse)",
+     "url": "https://www.travelpulse.com/news/destinations/greece-s-new-sustainable-cruise-tax-officially-begins-what-you-need-to-know"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "santorini-fee"
+  },
+  {
+   "port": "Mykonos",
+   "country": "Greece",
+   "region": "Mediterranean",
+   "type": "fee",
+   "summary": "Mykonos carries the same top-tier Greek cruise passenger fee as Santorini.",
+   "amount": "€20 (1 Jun–30 Sep); €12 (1 Apr–31 May and October); €4 (1 Nov–31 Mar), per person per call",
+   "whoPays": "Passenger, all ages; usually charged to the onboard account by the cruise line",
+   "effective": "21 July 2025",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Destination fees and local charges (MSC Cruises)",
+     "url": "https://www.msccruises.com/manage-booking/before-you-go/cruise-passenger-fee"
+    },
+    {
+     "title": "Greece introduces cruise passenger tax to address overtourism (Eurofast)",
+     "url": "https://eurofast.eu/greece-introduces-cruise-passenger-tax-to-address-overtourism/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "mykonos-fee"
+  },
+  {
+   "port": "Santorini",
+   "country": "Greece",
+   "region": "Mediterranean",
+   "type": "cap",
+   "summary": "Santorini limits cruise visitors to about 8,000 a day, down from peaks of 16,000–17,000.",
+   "amount": "8,000 cruise passengers per day",
+   "whoPays": "Cruise lines (arrival scheduling)",
+   "effective": "2025 season onwards (as reported)",
+   "status": "in force as reported by trade press; no official decree or legal text found",
+   "sources": [
+    {
+     "title": "Santorini caps cruise crowds as Europe tightens controls (Luxury Travel Advisor, 30 Jun 2026)",
+     "url": "https://www.luxurytraveladvisor.com/cruises/santorini-caps-cruise-crowds-europe-tightens-controls"
+    },
+    {
+     "title": "Greece to increase port fees and limit cruise ships at most popular islands (Maritime Executive, Sep 2024)",
+     "url": "https://maritime-executive.com/article/greece-to-increase-port-fees-and-limit-cruise-ships-at-most-popular-islands"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "santorini-cap"
+  },
+  {
+   "port": "Santorini",
+   "country": "Greece",
+   "region": "Mediterranean",
+   "type": "terminal change",
+   "summary": "Only 30% of tendered cruise passengers may land at Athinios each day; the other 70% must land at the old port (Ormos Fira), reached by cable car or 600 steps.",
+   "amount": null,
+   "whoPays": "Cruise lines (fines or suspension for non-compliance)",
+   "effective": "June 2026",
+   "status": "in force; legality questioned by the Naxos prosecutor",
+   "sources": [
+    {
+     "title": "Santorini implements new cruise tender limits (Cruise Industry News)",
+     "url": "https://cruiseindustrynews.com/cruise-news/2026/06/santorini-implements-new-cruise-tender-limits/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "santorini-terminal-change"
+  },
+  {
+   "port": "Dubrovnik",
+   "country": "Croatia",
+   "region": "Mediterranean",
+   "type": "cap",
+   "summary": "Dubrovnik allows at most two large cruise ships a day, each staying at least eight hours, and caps cruise visitors in the city at 4,000 at any one time; ships with 500 or fewer passengers are exempt from some rules.",
+   "amount": "2 ships per day; 4,000 cruise visitors at once",
+   "whoPays": "Cruise lines (berth allocation by the Port Authority)",
+   "effective": "2026 berthing regulations (published 29 July 2024); two-ship limit in place since 2019",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "2026 Cruise berthing regulations – Dubrovnik Port Authority (EU Transition Pathways for Tourism)",
+     "url": "https://transition-pathways.europa.eu/tourism/policy/2026-cruise-berthing-regulations-dubrovnik-port-authority"
+    },
+    {
+     "title": "Dubrovnik announces moves to stop overtourism in the city (Croatia Week, Sep 2025)",
+     "url": "https://www.croatiaweek.com/dubrovnik-announces-moves-to-stop-overtourism-in-the-city/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "dubrovnik-cap"
+  },
+  {
+   "port": "Barcelona",
+   "country": "Spain",
+   "region": "Mediterranean",
+   "type": "tax",
+   "summary": "Cruise passengers in port for under 12 hours pay the city tourist-tax surcharge plus the Catalan regional tax; the city plans to raise its part from €8 to €24.",
+   "amount": "Now: up to €8 municipal + €6 regional per person per day. Planned: €24 municipal + €6 regional = up to €30",
+   "whoPays": "Passenger, collected through the cruise line",
+   "effective": "Increase expected in 2027 (needs end-of-year fiscal ordinance); timing not fixed",
+   "status": "current rate in force; increase approved by city council, not yet in force",
+   "sources": [
+    {
+     "title": "Barcelona approves 24 euro tax for cruise passengers (Cruise Industry News, Jul 2026)",
+     "url": "https://cruiseindustrynews.com/cruise-news/2026/07/barcelona-approves-24-euro-tax-for-cruise-passengers/"
+    },
+    {
+     "title": "Acord PSC-ERC-Comuns per encarir fins a 30 euros la taxa turística als creueristes (betevé, Jun 2026)",
+     "url": "https://beteve.cat/politica/acord-psc-erc-comuns-encarir-30-euros-taxa-turistica-creuers-escala-barcelona/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "barcelona-tax"
+  },
+  {
+   "port": "Barcelona",
+   "country": "Spain",
+   "region": "Mediterranean",
+   "type": "terminal change",
+   "summary": "The port is cutting cruise terminals from seven to five: terminals A, B and C will be demolished and replaced by one new terminal for 7,000 passengers that prioritises home-port and smaller ships.",
+   "amount": null,
+   "whoPays": "Cruise lines",
+   "effective": "Works 2026–2030 (first step: close the south-wharf terminal and demolish terminal C)",
+   "status": "announced (agreement signed July 2025)",
+   "sources": [
+    {
+     "title": "Protocol with the port to improve the management of cruise ships (Barcelona City Council)",
+     "url": "https://www.barcelona.cat/infobarcelona/en/protocol-amb-el-port-per-a-una-gestio-millor-dels-creuers_1539063.html"
+    },
+    {
+     "title": "5 bans that will affect popular cruise ports in 2026 (Islands)",
+     "url": "https://www.islands.com/2122354/cruise-ports-ban-affect-travel-2026/"
+    }
+   ],
+   "statusKey": "announced",
+   "id": "barcelona-terminal-change"
+  },
+  {
+   "port": "Valencia",
+   "country": "Spain",
+   "region": "Mediterranean",
+   "type": "terminal change",
+   "summary": "The Dique del Este and Muelle de Levante berths are closed to cruise ships for the 2026 season because of building work, with priority for home-port calls.",
+   "amount": null,
+   "whoPays": "Cruise lines",
+   "effective": "2026 season",
+   "status": "in force; reports of a ban on ships over 5,000 passengers are unconfirmed by the port",
+   "sources": [
+    {
+     "title": "Procedimiento confirmación escalas cruceros 2026 (Valenciaport)",
+     "url": "https://www.valenciaport.com/wp-content/uploads/PROCEDIMIENTO-CONFIRMACION-ESCALAS-CRUCEROS-2026_Castellano.pdf"
+    },
+    {
+     "title": "5 bans that will affect popular cruise ports in 2026 (Islands)",
+     "url": "https://www.islands.com/2122354/cruise-ports-ban-affect-travel-2026/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "valencia-terminal-change"
+  },
+  {
+   "port": "Palma de Mallorca",
+   "country": "Spain",
+   "region": "Mediterranean",
+   "type": "cap",
+   "summary": "Palma allows three cruise ships a day, only one with more than 5,000 passengers, and cuts the summer daily average from 8,500 to 7,500 berths.",
+   "amount": "3 ships/day; 7,500 berths/day average June–September 2027–2029 (8,500 rest of year)",
+   "whoPays": "Cruise lines (voluntary agreement with the Balearic government, Palma council and CLIA)",
+   "effective": "Renewed 2026; summer cut applies 2027–2029; agreement runs five years",
+   "status": "announced (agreement signed)",
+   "sources": [
+    {
+     "title": "Palma to reduce cruise ship berths in summer from 2027 (Travel Weekly UK)",
+     "url": "https://travelweekly.co.uk/news/palma-to-reduce-cruise-ship-berths-in-summer-from-2027"
+    },
+    {
+     "title": "Renewed Palma cruise agreement tightens passenger limits (CruiseMapper, Jun 2026)",
+     "url": "https://www.cruisemapper.com/news/16392-renewed-palma-cruise-agreement-tightens-passenger-limits"
+    }
+   ],
+   "statusKey": "announced",
+   "id": "palma-de-mallorca-cap"
+  },
+  {
+   "port": "Nice and Villefranche-sur-Mer",
+   "country": "France",
+   "region": "Mediterranean",
+   "type": "ban",
+   "summary": "A mayoral decree capping ships at 450 passengers in Nice and 2,500 in Villefranche was suspended by the Nice administrative court, which ruled the mayor lacked the power.",
+   "amount": "Would have been: 450 passengers (Nice), 2,500 (Villefranche)",
+   "whoPays": "Cruise lines",
+   "effective": "Decree of 9 July 2025; suspended 13 July 2025",
+   "status": "suspended by court; not in force",
+   "sources": [
+    {
+     "title": "French court suspends cruise ship ban in Nice and Villefranche-sur-Mer (Seatrade Cruise News)",
+     "url": "https://www.seatrade-cruise.com/ports-destinations/french-court-suspends-cruise-ship-ban-in-nice-and-villefranche-sur-mer"
+    },
+    {
+     "title": "Mayor of Nice shouts 'get lost' at Royal Caribbean ship (Marine Insight)",
+     "url": "https://www.marineinsight.com/shipping-news/watch-mayor-of-nice-shouts-get-lost-at-royal-caribbean-ship-for-violating-cruise-ban/"
+    }
+   ],
+   "statusKey": "not-in-force",
+   "id": "nice-and-villefranche-sur-mer-ban"
+  },
+  {
+   "port": "Cannes",
+   "country": "France",
+   "region": "Mediterranean",
+   "type": "cap",
+   "summary": "Cannes caps cruise landings at 6,000 passengers a day and keeps ships carrying more than 1,000 passengers out of the harbour (they must anchor and tender).",
+   "amount": "6,000 passengers per day",
+   "whoPays": "Cruise lines",
+   "effective": "1 January 2026",
+   "status": "in force (voted by city council 2025)",
+   "sources": [
+    {
+     "title": "Cannes introduces cruise ship limits (TravelMole, Jul 2025)",
+     "url": "https://www.travelmole.com/news/cannes-introduces-cruise-ship-limits/"
+    },
+    {
+     "title": "Cannes limits daily cruise ship passengers to 6,000 (CruiseMapper)",
+     "url": "https://www.cruisemapper.com/news/14975-cannes-caps-daily-cruise-passenger-landings"
+    },
+    {
+     "title": "5 bans that will affect popular cruise ports in 2026 (Islands)",
+     "url": "https://www.islands.com/2122354/cruise-ports-ban-affect-travel-2026/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "cannes-cap"
+  },
+  {
+   "port": "Marseille",
+   "country": "France",
+   "region": "Mediterranean",
+   "type": "emission rule",
+   "summary": "Shore power went live at the cruise terminal, able to plug in three very large ships at once; connection is encouraged but no formal obligation or cap was found.",
+   "amount": null,
+   "whoPays": "Cruise lines",
+   "effective": "11 April 2026",
+   "status": "in force (infrastructure); no mandate confirmed",
+   "sources": [
+    {
+     "title": "Marseille eyes record 2.8M passengers as shore power goes live (Seatrade Cruise News, Sep 2026)",
+     "url": "https://www.seatrade-cruise.com/ports-destinations/marseille-eyes-record-2-8m-passengers-as-shore-power-goes-live"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "marseille-emission-rule"
+  },
+  {
+   "port": "Amsterdam",
+   "country": "Netherlands",
+   "region": "Northern Europe",
+   "type": "cap",
+   "summary": "Amsterdam caps sea-cruise calls at the central Veemkade terminal at 100 a year (down from about 190), will require shore power from 2027 and aims to move the terminal out of the centre by 2035.",
+   "amount": "100 calls per year",
+   "whoPays": "Cruise lines",
+   "effective": "2026 (cap); 2027 (shore power); 2035 (terminal out of centre)",
+   "status": "cap in force; relocation or full ban by 2035 still to be decided",
+   "sources": [
+    {
+     "title": "Amsterdam wil aantal cruiseschepen halveren en passagiersterminal verplaatsen (NOS)",
+     "url": "https://nos.nl/l/2526397"
+    },
+    {
+     "title": "Amsterdam considers banning cruise ships altogether (DutchNews, Jan 2026)",
+     "url": "https://www.dutchnews.nl/2026/01/amsterdam-considers-banning-cruise-ships-altogether/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "amsterdam-cap"
+  },
+  {
+   "port": "Amsterdam",
+   "country": "Netherlands",
+   "region": "Northern Europe",
+   "type": "tax",
+   "summary": "Cruise passengers pay Amsterdam's day-tourist tax for each day their ship is in the city.",
+   "amount": "€15 per person per day (municipal ordinance); one news report says €22 from 2026, not confirmed",
+   "whoPays": "Passenger, collected via the cruise line",
+   "effective": "Current ordinance version valid from 22 November 2025",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Verordening Dagtoeristenbelasting 2019, Amsterdam (overheid.nl)",
+     "url": "https://lokaleregelgeving.overheid.nl/CVDR614619"
+    },
+    {
+     "title": "Amsterdam plafonne les croisières à 100 navires en 2026 (Ulysse)",
+     "url": "https://ulysse.com/news/amsterdam-plafond-croisieres-100-2026"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "amsterdam-tax"
+  },
+  {
+   "port": "Geirangerfjord, Nærøyfjord and other World Heritage fjords",
+   "country": "Norway",
+   "region": "Northern Europe",
+   "type": "emission rule",
+   "summary": "Tourist ships and ferries under 10,000 gross tonnes must be zero-emission in Norway's five World Heritage fjords; larger ships must comply from 2032.",
+   "amount": null,
+   "whoPays": "Cruise lines",
+   "effective": "1 January 2026 (under 10,000 GT); 1 January 2032 (larger ships)",
+   "status": "in force for small ships; announced for large ships",
+   "sources": [
+    {
+     "title": "Introducing zero-emission requirements in the World Heritage Fjords (Government of Norway)",
+     "url": "https://www.regjeringen.no/en/whats-new/introducing-zero-emission-requirements-in-the-world-heritage-fjords/id3051481/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "geirangerfjord-n-r-yfjord-and-other-world-heritage-fjords-emission-rule"
+  },
+  {
+   "port": "All Norwegian ports (municipal choice)",
+   "country": "Norway",
+   "region": "Northern Europe",
+   "type": "fee",
+   "summary": "The government proposes letting municipalities charge cruise passengers a flat fee per started 24 hours in port; the enabling visitor-contribution law took effect on 1 July 2026.",
+   "amount": "NOK 100 per passenger per started 24 hours",
+   "whoPays": "Shipowner, operator and agent jointly liable (likely passed on to passengers)",
+   "effective": "Proposed from 1 January 2027",
+   "status": "proposed (consultation closed 22 June 2026)",
+   "sources": [
+    {
+     "title": "Regjeringen foreslår cruiseavgift (Government of Norway, 20 Mar 2026)",
+     "url": "https://www.regjeringen.no/no/aktuelt/regjeringen-foreslar-cruiseavgift/id3153251/"
+    },
+    {
+     "title": "100 kroner per passenger: Norway reveals how new cruise tax will work (The Local Norway)",
+     "url": "https://www.thelocal.no/20260323/100-kroner-per-passenger-norway-reveals-how-new-cruise-tax-will-work"
+    }
+   ],
+   "statusKey": "proposed",
+   "id": "all-norwegian-ports-municipal-choice-fee"
+  },
+  {
+   "port": "Oslo",
+   "country": "Norway",
+   "region": "Northern Europe",
+   "type": "fee",
+   "summary": "Oslo plans to use the new national rule to charge cruise passengers for each day a ship is in port.",
+   "amount": "Up to NOK 100 per passenger per day",
+   "whoPays": "Passenger (via the cruise line)",
+   "effective": "2027, if approved",
+   "status": "proposed (needs city council approval)",
+   "sources": [
+    {
+     "title": "Oslo planning new tax for cruise passengers (Cruise Industry News, Oct 2026)",
+     "url": "https://cruiseindustrynews.com/cruise-news/2026/10/oslo-planning-new-tax-for-cruise-passengers/"
+    }
+   ],
+   "statusKey": "proposed",
+   "id": "oslo-fee"
+  },
+  {
+   "port": "Bergen",
+   "country": "Norway",
+   "region": "Northern Europe",
+   "type": "cap",
+   "summary": "Bergen caps cruise traffic at four calls and 8,000 passengers a day and requires cruise ships to use shore power, aiming for all ships by 2026.",
+   "amount": "4 calls and 8,000 passengers per day",
+   "whoPays": "Cruise lines",
+   "effective": "Cap in place since 2017–18; shore-power target 100% in 2026",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "More cruise tourists to Bergen in 2025 (Bergen Havn)",
+     "url": "https://bergenhavn.no/en/news/more-cruise-tourists-to-bergen-in-2025"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "bergen-cap"
+  },
+  {
+   "port": "Svalbard protected areas",
+   "country": "Norway",
+   "region": "Northern Europe",
+   "type": "cap",
+   "summary": "Passenger ships may carry no more than 200 passengers inside Svalbard's eastern and western protected areas, and landings are limited to 43 mapped sites.",
+   "amount": "200 passengers per ship",
+   "whoPays": "Cruise lines",
+   "effective": "1 January 2025",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Nye miljøregler på Svalbard fra 1. januar (Government of Norway)",
+     "url": "https://www.regjeringen.no/no/aktuelt/nye-miljoregler-pa-svalbard-fra-1.-januar/id3081499/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "svalbard-protected-areas-cap"
+  },
+  {
+   "port": "All Icelandic ports",
+   "country": "Iceland",
+   "region": "Northern Europe",
+   "type": "fee",
+   "summary": "Cruise ships on international voyages pay an infrastructure fee for every passenger for each started 24 hours in Icelandic waters, whether or not passengers go ashore; it was cut for 2026.",
+   "amount": "ISK 1,600 per passenger per 24 hours (was ISK 2,500 in 2025)",
+   "whoPays": "Cruise operator; usually charged to passengers' onboard accounts",
+   "effective": "1 January 2026 (reduced rate); fee introduced 1 January 2025",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Gjöld á skemmtiferðaskip (Iceland Revenue and Customs)",
+     "url": "https://www.skatturinn.is/atvinnurekstur/skattar-og-gjold/skemmtiferdaskip/"
+    },
+    {
+     "title": "Skattabreytingar á árinu 2026 (Government of Iceland)",
+     "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2025/12/23/Skattabreytingar-a-arinu-2026/"
+    },
+    {
+     "title": "Destination fees and local charges (MSC Cruises)",
+     "url": "https://www.msccruises.com/manage-booking/before-you-go/cruise-passenger-fee"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "all-icelandic-ports-fee"
+  },
+  {
+   "port": "Lisbon",
+   "country": "Portugal",
+   "region": "Atlantic islands",
+   "type": "tax",
+   "summary": "Every cruise passenger who disembarks in Lisbon pays the city tourist tax.",
+   "amount": "€2 per passenger",
+   "whoPays": "Passenger; collected from the cruise operator via the ports' Single Logistics Window",
+   "effective": "1 January 2024",
+   "status": "in force (no 2025–27 change found)",
+   "sources": [
+    {
+     "title": "Taxa turística cobrada aos passageiros de cruzeiros em Lisboa a partir de 1 de janeiro (Forbes Portugal)",
+     "url": "https://www.forbespt.com/taxa-turistica-cobrada-aos-passageiros-de-cruzeiros-em-lisboa-a-partir-de-1-de-janeiro"
+    },
+    {
+     "title": "Lisbon launches €2 tourist tax for cruise ship passengers (CruiseMapper)",
+     "url": "https://www.cruisemapper.com/news/12771-lisbon-launches-tourist-tax-cruise-ship-passengers"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "lisbon-tax"
+  },
+  {
+   "port": "Funchal (Madeira)",
+   "country": "Portugal",
+   "region": "Atlantic islands",
+   "type": "tax",
+   "summary": "Funchal's municipal tourist tax extends to cruise passengers disembarking in the city.",
+   "amount": "€2 per passenger",
+   "whoPays": "Cruise operator, based on the passenger count",
+   "effective": "1 January 2025",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Taxa municipal turística do Funchal entra hoje em vigor (Câmara Municipal do Funchal)",
+     "url": "https://funchal.pt/taxa-municipal-turistica-do-funchal-entra-hoje-em-vigor-cmf-organiza-mais-duas-sessoes-de-esclarecimento-direccionadas-para-o-alojamento-local-local"
+    },
+    {
+     "title": "New cruise passenger tax gets Funchal €50,000 in only two days (Times of Madeira)",
+     "url": "https://www.timesofmadeira.com/new-cruise-passenger-tax-generates-50000-funchal"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "funchal-madeira-tax"
+  },
+  {
+   "port": "Juneau",
+   "country": "USA (Alaska)",
+   "region": "North America",
+   "type": "cap",
+   "summary": "Juneau limits cruise passengers to 16,000 a day (12,000 on Saturdays) and five large ships a day under agreements with the cruise lines; a bill to make the ship limit law was postponed.",
+   "amount": "16,000 passengers/day Sun–Fri; 12,000 Sat; 5 large ships/day",
+   "whoPays": "Cruise lines (voluntary agreements)",
+   "effective": "2026 season (first year of the passenger cap)",
+   "status": "in force (voluntary); mandatory ordinance postponed 31 Aug 2026",
+   "sources": [
+    {
+     "title": "Juneau's first cruise ship of 2026 kicks off first year of daily passenger limits (KTOO)",
+     "url": "https://www.ktoo.org/2026/04/27/juneaus-first-cruise-ship-of-2026-kicks-off-first-year-of-daily-passenger-limits/"
+    },
+    {
+     "title": "Limit of 16,000 cruise passengers daily, 12,000 on Saturdays, agreed (Juneau Empire)",
+     "url": "https://www.juneauempire.com/news/limit-of-16000-cruise-passengers-daily-12000-on-saturdays-agreed-to-by-cbj-and-industry"
+    },
+    {
+     "title": "Ketchikan set to surpass Juneau in cruise passengers (Juneau Independent, Jan 2026)",
+     "url": "https://www.juneauindependent.com/post/ketchikan-set-to-surpass-juneau-in-cruise-passengers-for-the-first-time-due-to-limits-set-in-capita"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "juneau-cap"
+  },
+  {
+   "port": "Sitka",
+   "country": "USA (Alaska)",
+   "region": "North America",
+   "type": "cap",
+   "summary": "Sitka voters rejected a proposed cap of 4,500 cruise passengers a day and 300,000 a season, so no cap applies.",
+   "amount": null,
+   "whoPays": "n/a",
+   "effective": "Vote 28 May 2025 (would have applied from 2026)",
+   "status": "rejected by voters",
+   "sources": [
+    {
+     "title": "Voters in Sitka to decide on limits for cruise ships (Alaska's News Source)",
+     "url": "https://www.alaskasnewssource.com/2025/05/28/voters-sitka-decide-limits-cruise-ships"
+    }
+   ],
+   "statusKey": "not-in-force",
+   "id": "sitka-cap"
+  },
+  {
+   "port": "Bar Harbor",
+   "country": "USA (Maine)",
+   "region": "North America",
+   "type": "cap",
+   "summary": "Bar Harbor's limit of 1,000 cruise passengers ashore per day can now be enforced only in July and August after a federal court ruled it unconstitutional in other months.",
+   "amount": "1,000 passengers per day (July–August only)",
+   "whoPays": "Cruise lines",
+   "effective": "Federal ruling 15 May 2026",
+   "status": "in force for July–August; appeal expected",
+   "sources": [
+    {
+     "title": "Federal judge overturns part of Bar Harbor's cruise ship ban (Bangor Daily News)",
+     "url": "https://www.bangordailynews.com/2026/05/15/hancock/hancock-police-courts/federal-judge-overturns-part-of-bar-harbors-cruise-ship-ban/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "bar-harbor-cap"
+  },
+  {
+   "port": "All Hawaiian ports",
+   "country": "USA (Hawaii)",
+   "region": "North America",
+   "type": "tax",
+   "summary": "Hawaii's transient accommodations tax ('green fee' law, Act 96) now applies to cruise fares, prorated by days docked in Hawaii against total voyage length.",
+   "amount": "TAT on cruise fares, prorated (11% is the stated TAT rate for accommodation; cruise rate not separately stated)",
+   "whoPays": "Cruise operator; may be passed on to passengers",
+   "effective": "1 January 2026",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Tax Announcement 2025-03 (Hawaii Department of Taxation)",
+     "url": "https://files.hawaii.gov/tax/news/announce/ann25-03.pdf"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "all-hawaiian-ports-tax"
+  },
+  {
+   "port": "All Mexican ports",
+   "country": "Mexico",
+   "region": "Caribbean & Mexico",
+   "type": "fee",
+   "summary": "Foreign cruise passengers pay a non-resident duty once per itinerary, rising in steps to US$21 by 2028.",
+   "amount": "US$5 (1 Jul 2025–31 Jul 2026); US$10 (1 Aug 2026–30 Jun 2027); US$15 (from 1 Jul 2027); US$21 (from 1 Aug 2028)",
+   "whoPays": "Passenger; collected by the cruise line in taxes and fees",
+   "effective": "1 July 2025 (US$10 from 1 August 2026)",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Cruise passenger fee at Mexican ports to rise to $10 in August (Riviera Maya News, Jul 2026)",
+     "url": "https://www.rivieramayanews.mx/cruise-passenger-fee-at-mexican-ports-to-rise-to-10-in-august/"
+    },
+    {
+     "title": "Mexico doubles cruise passenger fee to $10 (CruiseMapper, Aug 2026)",
+     "url": "https://www.cruisemapper.com/news/16592-mexico-doubles-cruise-passenger-fee"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "all-mexican-ports-fee"
+  },
+  {
+   "port": "Cozumel",
+   "country": "Mexico",
+   "region": "Caribbean & Mexico",
+   "type": "fee",
+   "summary": "Cozumel is the busiest port collecting Mexico's cruise non-resident duty; it is charged once per itinerary, so passengers who already paid at an earlier Mexican port (e.g. Mahahual) do not pay again.",
+   "amount": "US$10 from 1 August 2026 (US$5 before)",
+   "whoPays": "Passenger; collected by the cruise line",
+   "effective": "1 July 2025",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Cozumel's new tourist fee raises 1.5M pesos in 2 days (Riviera Maya News)",
+     "url": "https://www.rivieramayanews.mx/cozumel-and-mahahual-collect-15-million-pesos-with-new-tourist-fee/"
+    },
+    {
+     "title": "Cruise passenger fee at Mexican ports to rise to $10 in August (Riviera Maya News)",
+     "url": "https://www.rivieramayanews.mx/cruise-passenger-fee-at-mexican-ports-to-rise-to-10-in-august/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "cozumel-fee"
+  },
+  {
+   "port": "Nassau, Freeport and private islands",
+   "country": "Bahamas",
+   "region": "Caribbean & Mexico",
+   "type": "tax",
+   "summary": "Cruise passengers leaving the Bahamas pay a departure tax plus environmental and tourism-enhancement levies; no newer change was confirmed for 2025–27.",
+   "amount": "US$23 departure tax via Nassau/Freeport (US$25 from a private island only) + US$5 environmental levy + US$2 enhancement levy = US$30/US$32",
+   "whoPays": "Passenger; included in cruise taxes and fees",
+   "effective": "1 July 2023 (enhancement levy 1 January 2024)",
+   "status": "in force (per 2023 bill; later changes not confirmed)",
+   "sources": [
+    {
+     "title": "Gov't near-tripling cruise departure tax to $145m (The Tribune, Jun 2023)",
+     "url": "https://www.tribune242.com/comments/cr/124/111544/"
+    },
+    {
+     "title": "Industry in 'active' talks with Bahamas over cruise fee hikes (Seatrade Cruise News)",
+     "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/industry-in-active-talks-with-bahamas-over-cruise-fee-hikes"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "nassau-freeport-and-private-islands-tax"
+  },
+  {
+   "port": "Hamilton, St George's and Dockyard",
+   "country": "Bermuda",
+   "region": "Atlantic islands",
+   "type": "tax",
+   "summary": "Ships pay a departure tax per passenger per 24 hours in port plus a transport infrastructure tax at Dockyard, from April to October only; no 2025–27 change was confirmed.",
+   "amount": "US$20 per passenger per 24h (Hamilton/St George's, max US$60) or US$25 (Dockyard, max US$75); plus US$25 transport infrastructure tax at Dockyard",
+   "whoPays": "Ship owner, operator or agent (normally in passengers' taxes and fees)",
+   "effective": "Seasonal, 1 April–31 October",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Passenger Taxes (Government of Bermuda)",
+     "url": "https://www.gov.bm/node/12856"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "hamilton-st-george-s-and-dockyard-tax"
+  },
+  {
+   "port": "Galápagos Islands",
+   "country": "Ecuador",
+   "region": "South America",
+   "type": "fee",
+   "summary": "Foreign visitors, including expedition-cruise passengers, pay the national park entry fee on arrival.",
+   "amount": "US$200 (international); US$100 (CAN/Mercosur nationals); US$30 (Ecuadorians); under-2s free",
+   "whoPays": "Passenger",
+   "effective": "1 August 2024",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "Galápagos National Park entry fee increase 2024 (Galapagos Conservation Trust)",
+     "url": "https://galapagosconservation.org.uk/galapagos-national-park-entry-fee-increase-2024/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "gal-pagos-islands-fee"
+  },
+  {
+   "port": "All Japanese ports",
+   "country": "Japan",
+   "region": "Asia",
+   "type": "tax",
+   "summary": "Japan's International Tourist Tax, charged on every departure from Japan by air or sea, tripled.",
+   "amount": "¥3,000 per departure (was ¥1,000); under-2s exempt",
+   "whoPays": "Passenger; collected by the carrier (cruise lines add it to the onboard account)",
+   "effective": "1 July 2026",
+   "status": "in force",
+   "sources": [
+    {
+     "title": "International Tourist Tax notice (Japan Tourism Agency / MLIT)",
+     "url": "https://www.mlit.go.jp/kankocho/content/001996466.pdf"
+    },
+    {
+     "title": "Destination fees and local charges (MSC Cruises)",
+     "url": "https://www.msccruises.com/manage-booking/before-you-go/cruise-passenger-fee"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "all-japanese-ports-tax"
+  },
+  {
+   "port": "All New Zealand ports",
+   "country": "New Zealand",
+   "region": "Pacific",
+   "type": "fee",
+   "summary": "Most foreign visitors pay the International Visitor Conservation and Tourism Levy with their NZeTA or visa, which cruise passengers also need.",
+   "amount": "NZ$100 (was NZ$35)",
+   "whoPays": "Passenger, paid with the NZeTA or visa application",
+   "effective": "October 2024",
+   "status": "in force; official pages do not say in so many words that it applies to cruise passengers",
+   "sources": [
+    {
+     "title": "Tourist entry fee hiked to $100 (Otago Daily Times)",
+     "url": "https://www.odt.co.nz/news/national/tourist-entry-fee-hiked-100"
+    },
+    {
+     "title": "How the IVL works (MBIE)",
+     "url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism/tourism-funding/international-visitor-conservation-and-tourism-levy/how-the-ivl-works/"
+    }
+   ],
+   "statusKey": "in-force",
+   "id": "all-new-zealand-ports-fee"
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "slug": "sibenik",
+ "city": "Šibenik",
+ "portName": "Port of Šibenik (Vrulje Quay)",
+ "townName": "the Old Town",
+ "country": "Croatia",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Croatian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Šibenik cruise port guide: walk, fortresses and Krka",
+ "seoDescription": "Ships berth at Vrulje, about 0.5 km from Šibenik Old Town; larger ships tender. Krka €40 Jun–Sep (2026); bus to Skradin 20–30 min. Back 60 min early.",
+ "quickAnswer": "Smaller and mid-sized ships berth at Vrulje Quay, about 0.5 km from the Old Town, so you can walk to St James's Cathedral in around 10 minutes. Larger ships anchor off the town and tender in. Be back on board 60 minutes before all-aboard if docked, 90 minutes if tendering, and allow much more for Krka.",
+ "intro": "Šibenik is a compact stone town climbing a hill above its harbour, with a UNESCO-listed cathedral, a hilltop fortress and a maze of stepped lanes. The cruise quay at Vrulje is on the edge of the centre, so the town itself needs no transport. The big decision is Krka National Park: its waterfalls are close, but public buses to Skradin are hourly at best, so an independent trip needs a long call and careful timing.",
+ "isTender": false,
+ "tenderNotes": "The Port of Šibenik has two cruise berths at Vrulje Quay and can take two ships at once. Larger ships, or ships needing deeper water, use an anchorage (the port authority names Zablaće outside the channel, plus an inner anchorage west and south-west of the cathedral) and run their own tenders, which the port allows. Ask your ship where tenders land.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Vrulje Quay (cruise berths 10 and 12)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Shared ferry and cruise quay on the edge of the centre. The port authority puts it about 0.5 km from the city centre."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.5,
+  "detail": "The Old Town and St James's Cathedral are a short walk from Vrulje. Inside the Old Town, lanes are narrow and stepped; St Michael's Fortress is at the top of the hill."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 10 min to the cathedral",
+   "detail": "Walk from Vrulje into the Old Town; the cathedral stands on Trg Republike Hrvatske."
+  },
+  {
+   "mode": "Bus to Skradin (for Krka)",
+   "cost": "About €4–6 one way (2026)",
+   "time": "20–30 min",
+   "detail": "Buses leave from Šibenik bus station, hourly or every 90 minutes at peak times. Check times with Autotransport Šibenik (atpsi.hr) before you go, and note the return times. From Skradin the park boat to Skradinski buk is included in the ticket from April to October."
+  },
+  {
+   "mode": "Taxi or ride-hailing",
+   "cost": "About €5–7 to Banj beach by Bolt or Uber (2026)",
+   "time": "20–30 min by car to Krka",
+   "detail": "Traditional taxis are generally metered; ask for an estimate first. Bolt and Uber operate."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Docked at Vrulje: be back on board 60 minutes before all-aboard (16:30 for a 17:30 all-aboard). Tendering: be at the tender landing 90 minutes before. Krka by bus: catch a bus from Skradin at least 2 hours 30 minutes before all-aboard, and leave Skradinski buk at least 3 hours 30 minutes before.",
+  "detail": "The town is close, so the main risk is Krka. Buses run hourly or every 90 minutes and the park boat between the falls and Skradin takes about 25 minutes. Plan around the actual return timetable, not the outbound one.",
+  "emergencyFallback": "If you miss the last workable bus from Skradin, take a taxi or Bolt back to Šibenik (20–30 minutes by car). If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Krka National Park (Skradinski buk)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Park ticket €40 adult Jun–Sep, €20 Apr, May and Oct (2026), plus bus about €4–6 each way",
+   "saving": "Varies"
+  },
+  {
+   "item": "Old Town and fortress",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk; St Michael's Fortress €11.50 (2026)",
+   "saving": "Varies"
+  }
+ ],
+ "excursionAdvice": "Do the Old Town, cathedral and fortress on your own: they start a short walk from the quay. Krka is where the ship tour earns its price. Independent travel works only on a long call, because buses to Skradin are hourly at best and the park boat adds about 25 minutes each way; a ship tour removes the timetable risk.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Vrulje at 08:00 and all-aboard is 17:30. If your ship tenders, move every afternoon step 30 minutes earlier.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk from Vrulje into the Old Town (about 10 minutes)."
+   },
+   {
+    "time": "09:00",
+    "what": "Climb through the lanes to St Michael's Fortress as it opens (€11.50, or €15 for all three fortresses). A free audio guide is included."
+   },
+   {
+    "time": "10:30",
+    "what": "Walk back down the narrow streets to St James's Cathedral."
+   },
+   {
+    "time": "11:15",
+    "what": "The Four Wells square, the medieval garden of St Lawrence's monastery and the main street, Kalelarga."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch, for example at Nostalgija or Marenda."
+   },
+   {
+    "time": "13:30",
+    "what": "Walk about 10 minutes from the Old Town to Banj beach for a swim."
+   },
+   {
+    "time": "15:45",
+    "what": "Walk back through the Old Town towards Vrulje."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Cathedral of St James",
+   "why": "Built over more than a century in the 15th and 16th centuries by Juraj Dalmatinac and Nikola Firentinac, moving from Gothic to Renaissance; on the UNESCO World Heritage List since 2000.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Entry fee charged; check at the door",
+   "tip": "It stands on Trg Republike Hrvatske. Go early or late to avoid tour groups."
+  },
+  {
+   "name": "St Michael's Fortress",
+   "why": "The fortress on the steep rock above the oldest part of town, with views over the channel and islands.",
+   "timeNeeded": "1–1.5 hours including the climb",
+   "cost": "€11.50 adult; €15 for all three fortresses (2026); euros only",
+   "tip": "Listed hours 09:00–17:00, last entry 30 minutes before closing. Climb first, then walk downhill to the cathedral. A lift serves visitors with limited mobility from a plateau below the fortress."
+  },
+  {
+   "name": "Barone and St John's Fortresses",
+   "why": "Two fortresses on the hill above the town; Barone is a sunset viewpoint.",
+   "timeNeeded": "1 hour each plus travel",
+   "cost": "€11.50 adult, or the €15 three-fortress ticket (2026)",
+   "tip": "Further uphill than St Michael's; a taxi or scooter saves the climb. The combined ticket is valid for 7 days."
+  },
+  {
+   "name": "Medieval garden of St Lawrence's monastery",
+   "why": "A medieval monastery garden in the Old Town.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Check on site",
+   "tip": "A quiet stop between the fortress and the cathedral."
+  },
+  {
+   "name": "Four Wells square",
+   "why": "A square in the Old Town with four historic wellheads.",
+   "timeNeeded": "10 minutes",
+   "cost": "Free",
+   "tip": "Combine with the medieval garden nearby."
+  },
+  {
+   "name": "Kalelarga",
+   "why": "The main Old Town street of shops, squares and cafés.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Stop for coffee at the cafés on Medulić square."
+  },
+  {
+   "name": "Krka National Park (Skradinski buk)",
+   "why": "Travertine waterfalls inland from Šibenik, seen from a one-way boardwalk loop of about 1.9 km.",
+   "timeNeeded": "5–6 hours return from Šibenik",
+   "cost": "€40 adult June–September, €30 after 15:00, €20 April, May and October (2026); youth 7–18 €15 in summer; under 7 free",
+   "tip": "Buy online at shop.np-krka.hr in summer. Swimming at Skradinski buk has been banned since January 2021. The Skradin boat is included from April to October."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Banj",
+   "howToGetThere": "Walk from the Old Town",
+   "time": "About 10 min on foot from the Old Town",
+   "cost": "Free; Bolt or Uber about €5–7 (2026)",
+   "note": "Pebble beach with showers, a bar, a restaurant and views back to the Old Town and fortresses."
+  },
+  {
+   "name": "Skradin town beach",
+   "howToGetThere": "Bus to Skradin",
+   "time": "20–30 min by bus",
+   "cost": "Bus about €4–6 each way (2026)",
+   "note": "Only if you are already going to Skradin; swimming is not allowed at the Krka waterfalls."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Tasting menu (fine dining)",
+   "where": "Pelegrini (booking required)",
+   "price": null
+  },
+  {
+   "dish": "Fresh fish, meat and pasta",
+   "where": "Nostalgija (small family-run restaurant, city centre)",
+   "price": null
+  },
+  {
+   "dish": "Local-style lunch (marenda)",
+   "where": "Marenda (city centre)",
+   "price": null
+  },
+  {
+   "dish": "Šibenik hat mousse and pastries",
+   "where": "Yum Pastry Shop, Božidara Petranovića 8",
+   "price": null
+  },
+  {
+   "dish": "Homemade pizza with a sea view",
+   "where": "Azimut",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Going to Krka by bus without checking the return timetable.",
+   "fix": "Buses are hourly or every 90 minutes. Pick your return bus before you leave and keep 90 minutes in hand at the ship."
+  },
+  {
+   "mistake": "Planning a swim at Skradinski buk.",
+   "fix": "Swimming there has been banned since January 2021. Swim at Banj or in Skradin instead."
+  },
+  {
+   "mistake": "Climbing St Michael's at midday in summer.",
+   "fix": "Go at 09:00 opening and walk down to the cathedral afterwards."
+  },
+  {
+   "mistake": "Buying a Krka ticket at the gate in summer.",
+   "fix": "Buy online at shop.np-krka.hr to avoid queues."
+  },
+  {
+   "mistake": "Assuming every ship docks.",
+   "fix": "Larger ships anchor and tender; check your daily programme and add 30 minutes to every return time."
+  }
+ ],
+ "safety": "Šibenik is a calm town for visitors. The main hazards are summer heat and slippery stone steps in the Old Town and on the climb to the fortresses. At Krka, stay on the boardwalks and follow the swimming ban. Carry water and wear shoes with grip.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from Vrulje to the Old Town is short. Most of the Old Town is stepped and steep. St Michael's Fortress has a lift from a plateau below the fortress for visitors with limited mobility, and people with disabilities and a companion enter free. At Krka, the boardwalk loop is long and parts are uneven; ask the park about step-free sections.",
+ "rainyDay": "Use St James's Cathedral, the Old Town lanes and cafés on Kalelarga. Fortress views are lost in low cloud, and Krka's boardwalks and the town's stone steps get slippery.",
+ "crowdTips": "Šibenik recorded 35 foreign cruise ship calls in the first half of 2026, and the port can take two ships at once. Krka is busiest in July and August; afternoon tickets after 15:00 are cheaper but do not suit a cruise schedule. In town, do the fortress early and the cathedral before tour groups arrive.",
+ "faqs": [
+  {
+   "q": "Do cruise ships dock or tender at Šibenik?",
+   "a": "Both. Smaller and mid-sized ships berth at Vrulje Quay; larger ships anchor off the town and tender passengers ashore."
+  },
+  {
+   "q": "Is Šibenik walkable from the cruise port?",
+   "a": "Yes. Vrulje is about 0.5 km from the centre, roughly a 10-minute walk to St James's Cathedral."
+  },
+  {
+   "q": "Can I visit Krka National Park from a cruise ship in Šibenik?",
+   "a": "Yes on a long call. Take the bus to Skradin (20–30 minutes, about €4–6) and the included park boat to Skradinski buk, or book the ship's tour to avoid timetable risk."
+  },
+  {
+   "q": "How much is Krka National Park in 2026?",
+   "a": "Adults €40 from June to September (€30 after 15:00), €20 in April, May and October, and €7 in winter. Under 7s go free."
+  },
+  {
+   "q": "Can you swim at Krka waterfalls?",
+   "a": "No. Swimming at Skradinski buk has been banned since January 2021."
+  },
+  {
+   "q": "What can I do in Šibenik in one day from a cruise ship?",
+   "a": "St Michael's Fortress, St James's Cathedral, the Old Town lanes and a swim at Banj; or a half-day trip to Krka."
+  },
+  {
+   "q": "Beaches near Šibenik cruise port",
+   "a": "Banj is the town beach, about 10 minutes' walk from the Old Town."
+  },
+  {
+   "q": "Is Šibenik safe?",
+   "a": "Yes. Take care on steep, polished steps and in summer heat."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Cathedral of St James"
+  },
+  {
+   "name": "St Michael's Fortress"
+  },
+  {
+   "name": "Barone Fortress"
+  },
+  {
+   "name": "Krka National Park"
+  },
+  {
+   "name": "Skradinski buk"
+  },
+  {
+   "name": "Medieval garden of St Lawrence's monastery"
+  },
+  {
+   "name": "Banj beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port of Šibenik Authority – Šibenik cruise destination (updated September 2026)",
+   "url": "https://portauthority-sibenik.hr/en/?p=1010"
+  },
+  {
+   "title": "Port of Šibenik Authority – Port brochure",
+   "url": "https://portauthority-sibenik.hr/wp-content/uploads/2023/11/Port-of-Sibenik-brochure.pdf"
+  },
+  {
+   "title": "Krka National Park – Official price list (2027)",
+   "url": "https://npkrka.hr/wp-content/uploads/cjenik-2027-eng.pdf"
+  },
+  {
+   "title": "Šibenik Tourist Board – Cathedral of St James",
+   "url": "https://www.sibenik-tourism.hr/lokacije/cathedral-of%20-st-james/1/en.html"
+  },
+  {
+   "title": "Fortress of Culture Šibenik – St Michael's Fortress (2026 prices)",
+   "url": "https://www.tvrdjava-kulture.hr/en/st-michaels-fortress"
+  },
+  {
+   "title": "Fortress of Culture Šibenik – One day in Šibenik",
+   "url": "https://www.tvrdjava-kulture.hr/en/blog/one-day-in-sibenik-where-to-eat-what-to-see-and-places-to-go/"
+  },
+  {
+   "title": "Skradin Tourist Board – How to get to Skradin",
+   "url": "https://skradin.hr/en/plan-your-trip/how-to-get-to-skradin/"
+  },
+  {
+   "title": "Croatian Bureau of Statistics – Foreign vessels on cruise in Croatia, 2026",
+   "url": "https://podaci.dzs.hr/media/dt2cwj0l/tur-2026-2-2_2-foreign-vessels-on-cruise-in-republic-of-croatia-2026.pdf"
+  },
+  {
+   "title": "Seatrade Cruise News – MedCruise 67th General Assembly concludes in Šibenik (October 2025)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/medcruise-s-67th-general-assembly-concludes-in-ibenik"
+  },
+  {
+   "title": "MedCruise – Cruise to Šibenik",
+   "url": "https://www.medcruise.com/news/cruise-to-sibenik"
+  },
+  {
+   "title": "The Travel Tinker – Krka National Park (2026)",
+   "url": "https://thetraveltinker.com/travel-guide-croatia/krka-national-park/"
+  },
+  {
+   "title": "Lou da vým krokem – Krka National Park tips (2026)",
+   "url": "https://loudavymkrokem.cz/en/krka-national-park-croatia/"
+  },
+  {
+   "title": "Bookiscout – Krka public transport (2026)",
+   "url": "https://bookiscout.com/en/guides/krka-public-transport-quality"
+  },
+  {
+   "title": "Bookiscout – Krka prices (2026)",
+   "url": "https://bookiscout.com/en/guides/krka-prices"
+  },
+  {
+   "title": "Bookiscout – Šibenik transport (2026)",
+   "url": "https://bookiscout.com/en/guides/sibenik-transport"
+  },
+  {
+   "title": "Croatia Week – Šibenik: 12 things to check out",
+   "url": "https://www.croatiaweek.com/sibenik-12-things-to-check-out/"
+  },
+  {
+   "title": "What's in Port – Šibenik",
+   "url": "https://www.whatsinport.com/Sibenik.htm"
+  }
+ ],
+ "uncertain": [
+  "Maximum ship length at the Vrulje berths: the port brochure gives 260 m, while the port authority's 2026 page and Seatrade (2025) give 228 m.",
+  "Where ship tenders land when a ship anchors (not stated by any source opened).",
+  "Whether the new Vrulje maritime passenger terminal (scheduled for early 2026) is open and in use for cruise passengers.",
+  "Cathedral of St James entry price and current hours: the tourist board page still shows 20 HRK / €3 with hours to 20:30 in summer, while a 2026 guide gives €10 with a midday closure.",
+  "Location of Šibenik bus station relative to Vrulje Quay, and exact 2026 Šibenik–Skradin timetable.",
+  "Taxi fare from Šibenik to Krka (Skradin or Lozovac).",
+  "Child (7–18) summer Krka price: one 2026 guide gives €20 rather than €15."
+ ]
+}

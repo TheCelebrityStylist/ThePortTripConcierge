@@ -1,0 +1,438 @@
+{
+  "slug": "ensenada",
+  "city": "Ensenada",
+  "portName": "Ensenada Cruiseport Village (Port of Ensenada)",
+  "townName": "downtown Ensenada (Avenida López Mateos)",
+  "country": "Mexico",
+  "currency": "USD",
+  "currencySymbol": "US$",
+  "priceSymbol": "US$",
+  "language": "Spanish",
+  "timezone": "Pacific Time: PST (UTC−8), PDT (UTC−7) from 8 March to 1 November 2026",
+  "lastVerified": "October 2026",
+  "seoTitle": "Ensenada cruise port guide: walk, shuttle, La Bufadora",
+  "seoDescription": "Ensenada cruise port 2026: downtown is a 15–20 min walk, La Bufadora 37 km south (about 1 hr), ship tours from US$59, and the US$10 Mexico cruise fee.",
+  "quickAnswer": "Ships dock at Ensenada Cruiseport Village, on the harbour about 1.6 km from the shops of Avenida López Mateos. You can walk to downtown in 15–20 minutes or take the low-cost shuttle to Plaza Cívica. Start walking back from downtown 90 minutes before all-aboard (15:00 for a typical 16:30), and leave La Bufadora by 13:45.",
+  "intro": "Ensenada is the short-cruise port of the Mexican Riviera: most calls come on three- and four-night sailings from Los Angeles and Long Beach, and the town sees more than a million cruise passengers a year. The ship docks; there is no tender. The day splits two ways. Stay in town for the waterfront, the 1930 Riviera building, fish tacos and Hussong's, all within a flat walk. Or head 37 km south to La Bufadora, the sea blowhole at Punta Banda, which is about an hour's drive each way and the one trip that puts your return at risk.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 8,
+  "terminals": [
+    {
+      "name": "Ensenada Cruiseport Village, Pier 1",
+      "distanceToCentreKm": 1.6,
+      "notes": "Takes ships up to 335 m. The smaller of the two berths on the C-shaped pier, off Avenida López Mateos."
+    },
+    {
+      "name": "Ensenada Cruiseport Village, Pier 2",
+      "distanceToCentreKm": 1.6,
+      "notes": "Takes ships up to 350 m and is used by the largest ships. The dark-red terminal building in front of it has toilets, ATMs (pesos and dollars), a tourist information booth, souvenir shops and a taxi rank. No free Wi-Fi."
+    }
+  ],
+  "walkability": {
+    "verdict": "Yes",
+    "minutes": 20,
+    "km": 1.6,
+    "detail": "Flat walk of 15–20 minutes along the palm-lined harbour path. Leave the terminal, head for the giant Mexican flag at Plaza Cívica, then turn inland to Avenida López Mateos, the main shopping street. Hussong's Cantina is about 2 km from the pier, Mercado Negro (the fish market) about 800 m."
+  },
+  "transportSections": [
+    {
+      "mode": "On foot",
+      "cost": "Free",
+      "time": "15–20 min to Plaza Cívica and Avenida López Mateos",
+      "detail": "Follow the waterfront path from the terminal towards the flag at Plaza Cívica, then turn inland. Flat and paved. In the heat of late summer, carry water."
+    },
+    {
+      "mode": "Port shuttle (Misioneros)",
+      "cost": "US$4 return per person (2025, reported)",
+      "time": "A short ride",
+      "detail": "Shuttle buses wait outside the terminal and drop at Plaza Cívica (the Tres Cabezas monument with three giant heads). Pay the driver; keep small US notes or pesos."
+    },
+    {
+      "mode": "Taxi or Uber",
+      "cost": "Agree the fare before you get in",
+      "time": "About 8 min to Mercado Negro; about 9 min to Playa Hermosa",
+      "detail": "Taxis wait at the terminal rank. Use registered taxis only (for example Metro Ensenada, Radio Taxi or Taxi Pioneros). Uber now operates in Ensenada; check the app once ashore. Drivers take pesos or dollars."
+    },
+    {
+      "mode": "Local tour to La Bufadora",
+      "cost": "About US$25 per person for a small-group van tour (2025, reported)",
+      "time": "About 1 hour each way; 37 km",
+      "detail": "Small-group vans leave from downtown. Confirm the return time in writing before paying and make sure it gets you to the pier at least 60 minutes before all-aboard."
+    }
+  ],
+  "returnTiming": {
+    "rule": "Start walking back from downtown by 15:00 for a 16:30 all-aboard (90 minutes before). Leave La Bufadora by 13:45.",
+    "detail": "The walk from Avenida López Mateos to the gangway takes 15–20 minutes, plus port security. La Bufadora is about an hour's drive each way on the Transpeninsular highway through Maneadero, and you then walk back up the market lane to the car park. Allow 60 minutes on the ship before all-aboard.",
+    "emergencyFallback": "From downtown, a taxi or Uber to the pier takes about five minutes. If you are stuck at La Bufadora or on the highway, call the port agent number printed in your ship's daily programme straight away; the ship will not wait for independent travellers."
+  },
+  "shipExcursionAvg": 62,
+  "diyAvg": 29,
+  "savingPerPerson": 33,
+  "diyVsExcursion": [
+    {
+      "item": "La Bufadora and town",
+      "ship": "Carnival 'La Bufadora Adventure' US$65.99 adult, 4.5 hours (2026); NCL 'Blowhole & Wine Tasting' from US$59 adult, 4.5 hours (2026)",
+      "diy": "Shuttle US$4 return + local van tour about US$25 (2025, reported)",
+      "saving": "About US$33 per person, but your return timing is your own risk"
+    },
+    {
+      "item": "Downtown, waterfront and Hussong's",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Free on foot; shuttle US$4 return (2025, reported)",
+      "saving": "You need no tour"
+    },
+    {
+      "item": "Valle de Guadalupe wineries",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Not practical without a booked driver",
+      "saving": "Take the ship tour"
+    }
+  ],
+  "excursionAdvice": "Skip a tour for downtown: everything is a flat walk from the pier. La Bufadora is the borderline case. A local van tour costs less than half the ship's price, but it is an hour each way on a single highway, so pick one that guarantees your return time. For the Valle de Guadalupe wine country, take the ship's tour: the wineries are spread out, wine tastings and driving do not mix, and the ship waits for its own coaches.",
+  "dayPlan": {
+    "allAboard": "16:30",
+    "intro": "Assumes the ship docks at 08:00, sails at 17:00 and all-aboard is 16:30, as on Carnival's October 2026 schedule; check your own ship's times. This plan stays in town; for La Bufadora, book a morning van tour and be back downtown by 12:30.",
+    "steps": [
+      {
+        "time": "08:30",
+        "what": "Walk off the ship and follow the waterfront path to Plaza Cívica and the giant flag, about 15–20 minutes."
+      },
+      {
+        "time": "09:00",
+        "what": "Walk the malecón towards the harbour boats and Mercado Negro, the fish market."
+      },
+      {
+        "time": "10:00",
+        "what": "Seafood tostada at La Guerrerense cart or its sit-down restaurant Sabina, on Avenida López Mateos (Sabina is closed on Tuesdays)."
+      },
+      {
+        "time": "10:45",
+        "what": "Walk south to the Riviera de Ensenada, the 1930 former hotel and casino, for its gardens, tiled halls and the history museum."
+      },
+      {
+        "time": "12:00",
+        "what": "Shop along Avenida López Mateos and Avenida Primera for silver, leather and Mexican crafts."
+      },
+      {
+        "time": "13:00",
+        "what": "Fish tacos for lunch in the downtown taco stands near Avenida Juárez, or the fish market."
+      },
+      {
+        "time": "14:00",
+        "what": "Margarita at Hussong's Cantina, open since 1892 in the same building."
+      },
+      {
+        "time": "15:00",
+        "what": "Start walking back to the pier, or take the shuttle from Plaza Cívica."
+      },
+      {
+        "time": "15:30",
+        "what": "Back on board, 60 minutes before all-aboard."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "Malecón and Plaza Cívica",
+      "why": "The waterfront promenade between the pier and downtown, with the monumental flag and the three giant heads of Juárez, Hidalgo and Carranza.",
+      "timeNeeded": "45 minutes",
+      "cost": "Free",
+      "tip": "This is where the shuttle drops you and where most people take their photos; go early before the tour groups."
+    },
+    {
+      "name": "Riviera de Ensenada (Centro Social, Cívico y Cultural)",
+      "why": "Opened as a hotel and casino in 1930; now a cultural centre with ornate woodwork and tiles, gardens and the city's history museum next door.",
+      "timeNeeded": "1 hour",
+      "cost": "Not verified; check on arrival",
+      "tip": "On Boulevard Lázaro Cárdenas (Costero), a few minutes' walk south of Plaza Cívica. Ship tours often include a guided visit."
+    },
+    {
+      "name": "La Bufadora",
+      "why": "A marine blowhole at Punta Banda that throws water up to about 30 m, depending on swell and tide.",
+      "timeNeeded": "3.5–4 hours including the drive",
+      "cost": "Van tour about US$25 (2025, reported); parking and toilets are paid",
+      "tip": "You reach it through a long lane of market stalls. Go early in the day; a calm sea means a weak spout."
+    },
+    {
+      "name": "Hussong's Cantina",
+      "why": "Opened in 1892 by John Hussong and still in the same building; it claims the margarita was first mixed here in 1941.",
+      "timeNeeded": "45 minutes",
+      "cost": "Pay as you drink",
+      "tip": "About 2 km from the pier, at the far end of the downtown walk; visit it last, then walk or take a taxi back."
+    },
+    {
+      "name": "Mercado Negro (fish market)",
+      "why": "The harbour fish market, with fresh catch, prepared seafood cocktails and taco stands behind it.",
+      "timeNeeded": "45 minutes",
+      "cost": "Free to enter",
+      "tip": "About 800 m from the pier on the waterfront. Whale-watching boats for grey whales leave from here between December and April."
+    },
+    {
+      "name": "Avenida López Mateos and Avenida Primera",
+      "why": "The main tourist street, starting near the pier, with crafts, silver, leather, hot sauces and cafés.",
+      "timeNeeded": "1–1.5 hours",
+      "cost": "Free",
+      "tip": "Haggle at stalls, not in fixed-price shops. Small US notes are accepted, but pesos get you a better rate."
+    },
+    {
+      "name": "Caracol Museo de Ciencias",
+      "why": "Science and natural history museum with an aquarium, good for families and on a grey day.",
+      "timeNeeded": "1–1.5 hours",
+      "cost": "Not verified; check at the door",
+      "tip": "Open Tuesday to Sunday 10:00–17:00, last tickets 16:00. Take a taxi."
+    },
+    {
+      "name": "Valle de Guadalupe",
+      "why": "Mexico's best-known wine region, with more than 75 wineries north-east of Ensenada.",
+      "timeNeeded": "5 hours or more",
+      "cost": "Varies; book through the ship",
+      "tip": "Do it on a ship tour or with a booked driver who knows your all-aboard time."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Playa Hermosa",
+      "howToGetThere": "Taxi or Uber from the pier",
+      "time": "About 9 min (about 4 km south)",
+      "cost": "Taxi fare; agree it first",
+      "note": "The nearest proper beach; family-friendly with calmer water."
+    },
+    {
+      "name": "Estero Beach",
+      "howToGetThere": "Taxi",
+      "time": "About 13 km south",
+      "cost": "Day passes sold at Estero Island Beach Club; price not verified",
+      "note": "Quieter and more sheltered; keep an eye on the clock."
+    },
+    {
+      "name": "Playa Guarnición Militar",
+      "howToGetThere": "Taxi",
+      "time": "About 9 km south",
+      "cost": "Taxi fare",
+      "note": "Surf beach with strong currents; not for casual swimming."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Seafood tostadas (sea urchin, clam, ceviche)",
+      "where": "La Guerrerense cart, across the street from Sabina on Avenida López Mateos (since 1960)",
+      "price": null
+    },
+    {
+      "dish": "Seafood tostadas and seafood pozole",
+      "where": "Sabina, Av. Adolfo López Mateos 917 (Michelin Bib Gourmand 2026; closed Tuesdays)",
+      "price": null
+    },
+    {
+      "dish": "Fish tacos",
+      "where": "Tacos Mi Ranchito El Fénix, downtown near Avenida Juárez (Michelin recommended)",
+      "price": null
+    },
+    {
+      "dish": "Fish tacos",
+      "where": "Tacos Marco Antonio, downtown (Michelin recommended)",
+      "price": null
+    },
+    {
+      "dish": "Seafood cocktails and ceviche",
+      "where": "Mercado Negro and the taco stalls behind it, on the waterfront",
+      "price": null
+    },
+    {
+      "dish": "Margarita",
+      "where": "Hussong's Cantina, downtown",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Booking an independent La Bufadora trip with no fixed return time.",
+      "fix": "Agree in writing that you will be back at the pier 60 minutes before all-aboard (15:30 for a 16:30 all-aboard). The drive is about an hour each way on one road."
+    },
+    {
+      "mistake": "Paying everything in US dollars.",
+      "fix": "Dollars are accepted, but the rate is poor. Carry some pesos from the terminal ATM for tacos, tips and stalls."
+    },
+    {
+      "mistake": "Getting into a taxi without agreeing the fare.",
+      "fix": "Agree the price first, use a registered taxi, or use Uber."
+    },
+    {
+      "mistake": "Visiting Sabina on a Tuesday.",
+      "fix": "It is closed on Tuesdays; the La Guerrerense cart across the street is the alternative."
+    }
+  ],
+  "safety": "The cruise area, the malecón and Avenida López Mateos have a visible police presence and are busy with visitors during the day. The US State Department rates Baja California, including Ensenada, as Level 3 'Reconsider travel' because of crime and kidnapping (advisory of 29 May 2026); check your own government's advice. Canadian advice is reported to stress pickpocketing and fake tours. Stay in the tourist area unless you are on an organised tour, use registered taxis or Uber, keep valuables on the ship, and do not walk alone through quiet streets.",
+  "scams": [
+    "Fake or unlicensed tours: book with the ship, an established operator, or a registered company with a fixed return time. Fake tour sellers are a reported problem.",
+    "Taxi fares made up on arrival: agree the price before you set off, or use Uber.",
+    "Pushy vendors and 'free' tequila tastings at La Bufadora: tastings lead to hard selling. Say no politely and keep walking; haggling is expected.",
+    "Dollar pricing at a poor rate: when a price is quoted in dollars, ask for the peso price and compare."
+  ],
+  "emergencyNumber": "911",
+  "accessibility": "The walk from the terminal to Plaza Cívica and the malecón is flat and paved, but long for some, so the shuttle is the easier option; ask the driver about step-free boarding. Avenida López Mateos has kerbs and uneven pavement. La Bufadora is reached through a narrow, crowded market lane from the car park, with uneven ground. Prebook an accessible vehicle if you need one; ship tours can advise on coach access.",
+  "rainyDay": "Rain is most likely from January to March. Spend the day indoors at the Riviera de Ensenada and its history museum, the Caracol science museum (closed Mondays), the fish market and Hussong's. La Bufadora is still worth it in rough weather, which often makes the spout stronger, but the market lane is exposed.",
+  "crowdTips": "Ensenada handled more than 1.3 million cruise passengers on about 360 calls in 2025, and 741,961 in the first half of 2026 alone. On two-ship days, including ships carrying more than 5,000 passengers, the shuttle queue, Plaza Cívica and the first blocks of Avenida López Mateos fill from about 09:00. Walk rather than queue for the shuttle, eat early, and leave Hussong's for the afternoon. A third pier is under environmental review and a new waterfront complex, Ensenada Bay Village, is planned for late 2027 or 2028.",
+  "faqs": [
+    {
+      "q": "Is Ensenada walkable from the cruise port?",
+      "a": "Yes. Downtown is about 1.6 km away, a flat 15–20 minute walk along the waterfront to Plaza Cívica and Avenida López Mateos."
+    },
+    {
+      "q": "Is Ensenada a tender port?",
+      "a": "No. Ships dock at Ensenada Cruiseport Village, which has two berths for ships up to 335 m and 350 m."
+    },
+    {
+      "q": "Is there a shuttle from the Ensenada cruise port to downtown?",
+      "a": "Yes. Shuttles wait outside the terminal and drop at Plaza Cívica; a family paid US$4 return each in 2025."
+    },
+    {
+      "q": "How far is La Bufadora from the Ensenada cruise port?",
+      "a": "About 37 km south, roughly an hour's drive each way. Ship tours take about 4.5 hours in total."
+    },
+    {
+      "q": "What can I do in Ensenada in one day from a cruise ship?",
+      "a": "Walk the malecón, eat seafood tostadas and fish tacos, see the Riviera de Ensenada and finish at Hussong's. Or spend the morning at La Bufadora."
+    },
+    {
+      "q": "Are there beaches near Ensenada cruise port?",
+      "a": "Playa Hermosa is about a 9-minute taxi ride south and is the closest family beach. Estero Beach, about 13 km south, is quieter."
+    },
+    {
+      "q": "Is Ensenada safe for cruise passengers?",
+      "a": "The tourist area is busy and policed during the day. The US rates Baja California at Level 3 for crime, so stay in the tourist area, use registered taxis and leave valuables on board."
+    },
+    {
+      "q": "Do I need pesos in Ensenada?",
+      "a": "Dollars are widely accepted, but pesos get a better price. There are ATMs in the cruise terminal."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "La Bufadora"
+    },
+    {
+      "name": "Riviera de Ensenada"
+    },
+    {
+      "name": "Hussong's Cantina"
+    },
+    {
+      "name": "Malecón and Plaza Cívica"
+    },
+    {
+      "name": "Mercado Negro"
+    },
+    {
+      "name": "Avenida López Mateos"
+    },
+    {
+      "name": "Valle de Guadalupe"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ASIPONA Ensenada – Frequently asked questions (cruise terminal and berths)",
+      "url": "https://en.puertoensenada.com.mx/preguntas-frecuentes-atencion-al-cliente"
+    },
+    {
+      "title": "Eje Central – Ensenada studies Pier 3 for its cruise terminal (March 2026)",
+      "url": "https://www.ejecentral.com.mx/nuestro-eje/ensenada-analiza-el-muelle-3-para-ampliar-su-terminal-de-cruceros-como-funcionara"
+    },
+    {
+      "title": "El Imparcial – Ensenada receives 130,000 more cruise passengers in H1 2026",
+      "url": "https://www.elimparcial.com/tij/ensenada/2026/07/23/ensenada-recibe-130-mil-pasajeros-mas-en-cruceros-durante-el-primer-semestre-del-ano/"
+    },
+    {
+      "title": "El Imparcial – Daylight saving time in Baja California 2026",
+      "url": "https://www.elimparcial.com/tij/tijuana/2026/02/27/cuando-cambia-la-hora-por-el-horario-de-verano-en-baja-california-el-reloj-se-adelantara-una-hora/"
+    },
+    {
+      "title": "CruiseMapper – Mexico doubles cruise passenger fee to US$10 (2026)",
+      "url": "https://www.cruisemapper.com/news/16592-mexico-doubles-cruise-passenger-fee"
+    },
+    {
+      "title": "CruiseMapper – Ensenada port",
+      "url": "https://www.cruisemapper.com/ports/ensenada-port-1517"
+    },
+    {
+      "title": "Cruise Hive – Ensenada cruise port: terminals and getting around (updated April 2026)",
+      "url": "https://www.cruisehive.com/ensenada-cruise-port/165566"
+    },
+    {
+      "title": "Carnival – La Bufadora Adventure shore excursion",
+      "url": "https://www.carnival.com/shore-excursions/ensenada/la-bufadora-adventure-310004"
+    },
+    {
+      "title": "NCL – Ensenada Blowhole & Wine Tasting shore excursion",
+      "url": "https://www.ncl.com/ar/es/shore-excursions/ESE_03/Blowhole-Wine-Tasting"
+    },
+    {
+      "title": "Celebrity Cruises – Ensenada port guide",
+      "url": "https://www.celebritycruises.com/ports/ensenada"
+    },
+    {
+      "title": "Fora – Ensenada: La Bufadora and the blowhole market (August 2025)",
+      "url": "https://www.foratravel.com/trip-reports/8HB7ZC/ensenada-la-bufadora-and-the-blowhole-flea-market-clifford-seymour"
+    },
+    {
+      "title": "Life Well Cruised – Ensenada cruise port guide",
+      "url": "https://lifewellcruised.com/ensenada-cruise-port-guide-things-to-do/"
+    },
+    {
+      "title": "México Desconocido – Ensenada, Mexico's northernmost port",
+      "url": "https://www.mexicodesconocido.com.mx/ensenada-el-puerto-mas-norteno-de-mexico.html"
+    },
+    {
+      "title": "MICHELIN Guide – Sabina, Ensenada",
+      "url": "https://guide.michelin.com/en/baja-california/ensenada_2059847/restaurant/sabina"
+    },
+    {
+      "title": "Baja California tourism – MICHELIN Guide listings",
+      "url": "https://bajacalifornia.travel/michelinguide/"
+    },
+    {
+      "title": "Discover Baja – Hussong's Cantina (2025)",
+      "url": "https://discoverbaja.com/2025/10/04/hussongs-cantina/"
+    },
+    {
+      "title": "El Imparcial – Caracol Museo de Ciencias opening hours (2025)",
+      "url": "https://www.elimparcial.com/tij/ensenada/2025/08/12/caracol-museo-de-ciencias-invita-a-visitar-sus-salas-estas-vacaciones/"
+    },
+    {
+      "title": "US State Department – Mexico travel advisory (29 May 2026)",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html"
+    },
+    {
+      "title": "Cruise Deals Tips and Tricks – Ensenada port (checked May 2026)",
+      "url": "https://www.cruisedealstipsandtricks.com/ports/ensenada/"
+    },
+    {
+      "title": "What's in Port – Ensenada",
+      "url": "https://www.whatsinport.com/Ensenada.htm"
+    },
+    {
+      "title": "Eighty Flavors – Best fish tacos in Ensenada",
+      "url": "https://eightyflavors.com/best-fish-tacos-in-ensenada/"
+    },
+    {
+      "title": "Zona Turística – Centro Cultural Riviera, Ensenada",
+      "url": "https://www.zonaturistica.com/que-hacer-en/baja-california/ensenada/centro-cultural-riviera"
+    },
+    {
+      "title": "Cruise Hive – Carnival Panorama cancels two Mexico ports over Hurricane Simon (October 2026)",
+      "url": "https://www.cruisehive.com/carnival-panorama-cancels-two-mexico-ports-over-hurricane-simon-swaps-in-ensenada/220752"
+    }
+  ],
+  "uncertain": [
+    "Riviera de Ensenada opening hours and admission: one listing gives daily 08:00–14:00, free with advance reservation; the official site lists neither.",
+    "Current 2026 shuttle fare: one 2025 trip report gives US$4 return, an older guide US$3 return.",
+    "Taxi fares from the pier to downtown, Playa Hermosa and La Bufadora.",
+    "La Bufadora parking and toilet charges, and whether any access fee applies.",
+    "Caracol museum ticket price.",
+    "Anchoring/docking and all-aboard times vary by ship; only one Carnival schedule (October 2026) was found, so the day plan uses it as an assumption.",
+    "Estero Island Beach Club day-pass price.",
+    "Restaurant and taco prices."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "bermuda",
+  "city": "Bermuda (Royal Naval Dockyard)",
+  "portName": "King's Wharf and Heritage Wharf, Royal Naval Dockyard",
+  "townName": "the Dockyard, with Hamilton and St George's by ferry",
+  "country": "Bermuda (British Overseas Territory)",
+  "currency": "BMD",
+  "currencySymbol": "BD$",
+  "language": "English",
+  "timezone": "AST (UTC-4), ADT (UTC-3) in summer",
+  "lastVerified": "October 2026",
+  "seoTitle": "Bermuda cruise port guide: Dockyard, Hamilton, St George's",
+  "seoDescription": "Bermuda cruise port 2026: ships dock at Royal Naval Dockyard. Ferry to Hamilton 15–25 min, St George's about 45 min. 1-day bus and ferry pass BD$19 (2026).",
+  "quickAnswer": "Ships dock alongside at King's Wharf or Heritage Wharf in the Royal Naval Dockyard, at the island's western tip; there is no tender. The Dockyard is walkable, but Hamilton is about 24 km away, so take the Blue Route ferry (15–25 minutes) and the Orange Route ferry for St George's (about 45 minutes, limited sailings). A 1-day pass for all buses and ferries costs BD$19 (2026). Be on a ferry leaving Hamilton 2 hours before all-aboard and on one leaving St George's 2.5 hours before.",
+  "intro": "Bermuda's cruise berths sit in the old Royal Navy base at the far western end of the island. The Dockyard itself is compact, with a fort museum, a beach and shops on foot, but the island's two towns and the south-shore beaches all need a ferry, a bus or a taxi. Ferries are the fast way to Hamilton and St George's, and the public bus reaches Horseshoe Bay. The government expected 194 cruise calls between March and November 2026, with more weekend calls than before, and some ships stay overnight. Check your itinerary: a two-day call changes what is realistic.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 9,
+  "terminals": [
+    {"name": "King's Wharf", "distanceToCentreKm": 24, "notes": "Main cruise pier in the Dockyard, with its own terminal building selling souvenirs, tourist information and transport passes. Taxi ranks are outside the port. Distance shown is to Hamilton."},
+    {"name": "Heritage Wharf", "distanceToCentreKm": 24, "notes": "Second Dockyard pier, usually one ship per pier. Same ferry dock, taxis and walking routes. Distance shown is to Hamilton."}
+  ],
+  "walkability": {"verdict": "Partly", "minutes": 10, "km": null, "detail": "Everything in the Dockyard is within walking distance; the area is less than a mile end to end. The National Museum of Bermuda and Snorkel Park Beach are about 10 minutes from the ship, the Clocktower Mall about 10 minutes the other way. Hamilton, St George's and the south-shore beaches are not walkable."},
+  "transportSections": [
+    {"mode": "Blue Route ferry to Hamilton", "cost": "Cash BD$3.50–5.00 by zone, exact change, no notes; tokens BD$2.75–4.50 (2026)", "time": "15–25 min", "detail": "Fast ferry from the Dockyard ferry dock, beside the cruise terminals. Check departure times posted at the dock or in the Summer 2026 schedule. Extra sailings on Wednesday evenings in summer for Harbour Nights."},
+    {"mode": "Orange Route ferry to St George's", "cost": "Covered by a transportation pass; tokens or cash as above (2026)", "time": "About 45 min", "detail": "Direct Dockyard to St George's service restored from 6 April 2026, two or three sailings a day on selected days. First departure from the Dockyard 09:30; last departure from St George's 18:00. Read the return times before you board."},
+    {"mode": "Transportation pass (bus and ferry)", "cost": "1 day BD$19, 2 days BD$31.50, 3 days BD$44 adult; child 5–16 BD$9.50 for 1 day (2026)", "time": "Consecutive days", "detail": "Unlimited buses and ferries. Sold at the Dockyard Visitor Information Centre (tokens and passes), the Hamilton Ferry Terminal and on the government's Shorelink app."},
+    {"mode": "Public bus routes 7 and 8", "cost": "BD$3.50 (3 zones) or BD$5.00 (14 zones) cash; or pass (2026)", "time": "45–60 min to Hamilton", "detail": "Route 7 links the Dockyard with Horseshoe Bay, Gibbs Hill Lighthouse, Elbow Beach, the Botanical Gardens and Hamilton. Pink stop poles mean the bus is heading to Hamilton; blue poles mean away from it. Drivers give no change and do not take notes."},
+    {"mode": "Taxi", "cost": "Metered; no verified fare", "time": "About 20 min to Horseshoe Bay; about 30 min to Hamilton", "detail": "Taxi ranks are outside the port. Most taxis seat up to seven, and they can also be booked through the Hitch or BTOA Connect apps. Tourists cannot rent ordinary cars."}
+  ],
+  "returnTiming": {
+    "rule": "Be on a ferry leaving Hamilton by 15:30 and on one leaving St George's by 15:00 for a 17:30 all-aboard. Leave Horseshoe Bay by 15:30.",
+    "detail": "The Hamilton ferry takes 15–25 minutes, but you may wait for the next sailing, and you need to be on board 60 minutes before all-aboard. The St George's ferry takes about 45 minutes and runs only two or three times a day, so a missed boat can leave you with no direct sailing in time. The bus from Hamilton takes 45–60 minutes. From Horseshoe Bay a taxi takes about 20 minutes, but buses run on a timetable you need to check.",
+    "emergencyFallback": "Take a taxi to the Dockyard; from Hamilton allow about 30 minutes, and longer from St George's at the other end of the island. If you will miss all-aboard, call the port agent number on your ship's daily programme at once."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": 19,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {"item": "Hamilton", "ship": "Varies by line; check your cruise planner", "diy": "Ferry, within the BD$19 1-day pass (2026)", "saving": "Large; the ferry is fast and simple"},
+    {"item": "St George's", "ship": "Varies by line; check your cruise planner", "diy": "Ferry, within the BD$19 1-day pass (2026)", "saving": "Large, but sailings are few and timing is your risk"},
+    {"item": "Horseshoe Bay", "ship": "Varies by line; check your cruise planner", "diy": "Bus route 7 within the pass, or a taxi of about 20 min", "saving": "Depends on group size if using a taxi"}
+  ],
+  "excursionAdvice": "For Hamilton, skip the ship tour: the ferry is quick and covered by the day pass. St George's is the borderline case. The direct ferry takes about 45 minutes, but there are only two or three sailings a day on selected days, so on a single-day call with an early all-aboard a ship tour removes the timing risk. Beach transfers to Horseshoe Bay are convenient but not necessary if you are happy to use the bus or share a taxi. On an overnight call, do St George's on your own and keep the ship tours for the things you cannot reach easily.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 at King's Wharf or Heritage Wharf and all-aboard is 17:30. A Hamilton and Horseshoe Bay day on a 1-day pass.",
+    "steps": [
+      {"time": "08:30", "what": "Off the ship. Buy a 1-day transportation pass (BD$19) at the Dockyard Visitor Information Centre and note the Blue Route ferry times."},
+      {"time": "09:00", "what": "Blue Route ferry to Hamilton, 15–25 minutes, or the next sailing after it."},
+      {"time": "09:30", "what": "Explore Hamilton on foot: the harbourfront and the city streets."},
+      {"time": "11:30", "what": "Route 7 bus from Hamilton along the South Shore towards the Dockyard. Get off at Horseshoe Bay."},
+      {"time": "12:30", "what": "Horseshoe Bay: swim and lunch."},
+      {"time": "15:00", "what": "Leave Horseshoe Bay by route 7 bus towards the Dockyard, or by taxi (about 20 minutes). Leave by 15:30 at the latest."},
+      {"time": "15:45", "what": "Back in the Dockyard. Short walk around the Clocktower Mall or a drink near the pier."},
+      {"time": "16:30", "what": "Back on board, 60 minutes before all-aboard."}
+    ]
+  },
+  "sights": [
+    {"name": "National Museum of Bermuda", "why": "The island's largest fort, now a museum of about 500 years of Bermuda history including shipwreck finds.", "timeNeeded": "2 hours", "cost": "Not verified; check at the gate", "tip": "About 10 minutes' walk from the ship. A good choice for the last hours of the day, close to the gangway."},
+    {"name": "Royal Naval Dockyard", "why": "The former Royal Navy base, used until 1951, with stone storehouses, the Clocktower Mall and the Bermuda Craft Market.", "timeNeeded": "1–2 hours", "cost": "Free to walk around", "tip": "Much of the area closes early, even when ships stay overnight."},
+    {"name": "Snorkel Park Beach", "why": "Small man-made beach in a protected cove, the closest place to swim from the ship.", "timeNeeded": "1–2 hours", "cost": "Entry fee charged; not verified", "tip": "About 10 minutes' walk from the ship. Useful when you want to stay close to the gangway."},
+    {"name": "Hamilton", "why": "Bermuda's capital, on its harbour.", "timeNeeded": "2–3 hours plus ferry", "cost": "Ferry within the BD$19 1-day pass (2026)", "tip": "Take the Blue Route ferry; it is much quicker than the 45–60 minute bus."},
+    {"name": "St George's", "why": "Bermuda's old town at the east end of the island.", "timeNeeded": "4–5 hours including ferries", "cost": "Ferry within the BD$19 1-day pass (2026)", "tip": "Orange Route ferry, about 45 minutes, from 09:30. Plan your return sailing before you go; there are only two or three a day."},
+    {"name": "Horseshoe Bay", "why": "South Shore beach on bus route 7, with a snack bar and chair hire.", "timeNeeded": "3 hours including travel", "cost": "Free; bus within the pass", "tip": "Bus route 7 stops there, or take a taxi of about 20 minutes."},
+    {"name": "Gibbs Hill Lighthouse", "why": "Lighthouse in Southampton, on bus route 7 between the Dockyard and Hamilton.", "timeNeeded": "1 hour", "cost": "Not verified", "tip": "Combine with Horseshoe Bay on the same bus route."},
+    {"name": "Bermuda Botanical Gardens", "why": "Gardens near Hamilton, on bus route 7.", "timeNeeded": "1 hour", "cost": "Not verified", "tip": "Fits a Hamilton day if you return by ferry."}
+  ],
+  "beaches": [
+    {"name": "Snorkel Park Beach", "howToGetThere": "Walk from the ship", "time": "About 10 min", "cost": "Entry fee charged; not verified", "note": "Man-made beach in a protected cove; chairs and gear for hire."},
+    {"name": "Horseshoe Bay", "howToGetThere": "Bus route 7 or taxi", "time": "About 20 min by taxi", "cost": "Free; bus within the BD$19 pass (2026)", "note": "Leave by 15:30 for a 17:30 all-aboard."},
+    {"name": "Elbow Beach", "howToGetThere": "Bus route 7", "time": "Not verified", "cost": "Bus within the pass", "note": "Another South Shore beach on bus route 7."}
+  ],
+  "food": [
+    {"dish": "Pub food and local beer", "where": "The Frog & Onion Pub, Royal Naval Dockyard", "price": null},
+    {"dish": "Seafood and grill", "where": "Bone Fish Bar & Grill, Royal Naval Dockyard", "price": null},
+    {"dish": "Bermuda fish sandwich", "where": "Woody's (about 5 minutes by taxi from the Dockyard)", "price": null},
+    {"dish": "Rum swizzle or Dark 'n Stormy", "where": "Calico Jack's Floating Bar, by Heritage Wharf", "price": null},
+    {"dish": "Pastries and fudge", "where": "Dockyard Pastry Shop and Bermuda Fudge Factory, Royal Naval Dockyard", "price": null}
+  ],
+  "commonMistakes": [
+    {"mistake": "Assuming Hamilton is walkable from the ship.", "fix": "It is about 24 km away. Take the Blue Route ferry, 15–25 minutes."},
+    {"mistake": "Taking the ferry to St George's without checking the return sailings.", "fix": "There are only two or three a day. Read the timetable at the Dockyard and be on a boat leaving St George's 2.5 hours before all-aboard."},
+    {"mistake": "Trying to pay the bus with a banknote.", "fix": "Buses take exact coins, tokens or passes only. Buy a pass or tokens at the Dockyard first."},
+    {"mistake": "Taking the bus to Hamilton instead of the ferry.", "fix": "The bus takes 45–60 minutes; the ferry 15–25. Use the bus for beaches, not for Hamilton."},
+    {"mistake": "Waiting at the wrong side of the road for a bus.", "fix": "Pink poles are for buses towards Hamilton, blue poles for buses away from it."}
+  ],
+  "safety": "Bermuda is safe for visitors, and the Dockyard is calm by day and night. The main risks are on the roads and in the sea. Some roads near the Dockyard have no pavement, so take a taxi rather than walking to beaches outside it, such as Sea Glass Beach. Swim where lifeguards are on duty and follow their flags.",
+  "scams": [],
+  "emergencyNumber": "911",
+  "accessibility": "Ships berth alongside, so there is no tender. The Dockyard is compact and mostly level. Ferries have wheelchair roll-on, roll-off access at the Dockyard, Hamilton, St George's and Rockaway, and the two new ferries introduced in 2026 were described as more accessible. Buses are not fully accessible: they kneel, and some carry folded wheelchairs, but none have ramps. Some taxis are wheelchair accessible; ask when booking.",
+  "rainyDay": "Stay in the Dockyard: the National Museum of Bermuda takes a couple of hours, and the Clocktower Mall and Craft Market are under cover. Hamilton by ferry also works in rain, as the crossing is short and the town is compact. Avoid St George's on a wet single-day call, as the ferry ride is long and sailings are few.",
+  "crowdTips": "The government expected 194 cruise calls from March to November 2026, with more on weekends than in past years. When two ships are in, queues form for passes, taxis and the first ferries. Buy a pass at once or the evening before on an overnight call, and take an early ferry.",
+  "faqs": [
+    {"q": "Is Bermuda a tender port?", "a": "No. Large ships dock alongside at King's Wharf or Heritage Wharf in the Royal Naval Dockyard."},
+    {"q": "Is Hamilton walkable from the Bermuda cruise port?", "a": "No. Hamilton is about 24 km from the Dockyard. The Blue Route ferry takes 15–25 minutes."},
+    {"q": "How do I get from the Dockyard to St George's?", "a": "By the Orange Route ferry, about 45 minutes, restored as a direct service from April 2026. It runs two or three times a day on selected days; check the return times before you go."},
+    {"q": "How much is the Bermuda bus and ferry pass?", "a": "BD$19 for one day, BD$31.50 for two and BD$44 for three, adult, 2026. It covers all buses and ferries."},
+    {"q": "Can I pay the Bermuda bus in US dollars?", "a": "The Bermuda dollar is at par with the US dollar. Buses take exact change in coins only, no notes, so buy tokens or a pass first."},
+    {"q": "How do I get to Horseshoe Bay from the cruise port?", "a": "Bus route 7, or a taxi of about 20 minutes."},
+    {"q": "What can I do in Bermuda in one day from a cruise ship?", "a": "Ferry to Hamilton, bus to Horseshoe Bay for a swim, and back to the Dockyard by 15:30–16:00. Or stay local: the National Museum and Snorkel Park Beach."},
+    {"q": "Is Bermuda safe?", "a": "Yes. Take a taxi where roads have no pavement, and swim at lifeguarded beaches."}
+  ],
+  "topAttractions": [
+    {"name": "Royal Naval Dockyard"},
+    {"name": "National Museum of Bermuda"},
+    {"name": "Horseshoe Bay"},
+    {"name": "Hamilton"},
+    {"name": "St George's"},
+    {"name": "Snorkel Park Beach"},
+    {"name": "Gibbs Hill Lighthouse"}
+  ],
+  "sources": [
+    {"title": "Government of Bermuda – Public transportation fares (updated July 2026)", "url": "https://www.gov.bm/public-transportation-fares"},
+    {"title": "Government of Bermuda – Fare guide (print)", "url": "https://www.gov.bm/print/html/node/12336"},
+    {"title": "Government of Bermuda – Bus information, routes and zones", "url": "https://www.gov.bm/node/12341"},
+    {"title": "Government of Bermuda – Introduction of the 2026 Summer Ferry Schedule", "url": "https://www.gov.bm/news/introduction-2026-summer-ferry-schedule"},
+    {"title": "Bernews – Ferry service expansion for St George's (March 2026)", "url": "https://bernews.com/2026/03/ferry-service-expansion-st-georges"},
+    {"title": "Go To Bermuda – Bermuda ferry schedule", "url": "https://www.gotobermuda.com/plan/inspiration/article/bermuda-ferry-schedule"},
+    {"title": "Expat Focus – Bermuda public transport (July 2026)", "url": "https://www.expatfocus.com/?p=51244"},
+    {"title": "Travel with Hello – Bermuda transport guide", "url": "https://www.travelwithhello.com/blog/bermuda-transport-guide"},
+    {"title": "Cruise Hive – Bermuda cruise port guide", "url": "https://www.cruisehive.com/bermuda-cruise-port/128093"},
+    {"title": "Beyondships – Bermuda cruise port", "url": "https://www.beyondships3.com/bermuda-cruise-port.html"},
+    {"title": "Life Well Cruised – Royal Naval Dockyard near the cruise port", "url": "https://lifewellcruised.com/bermudas-royal-naval-dockyard-best-things-to-do-near-the-cruise-port/"},
+    {"title": "Eat Sleep Cruise – Royal Naval Dockyard", "url": "https://eatsleepcruise.com/?p=19497"},
+    {"title": "Travel Codex – Approaching Royal Naval Dockyard by cruise ship", "url": "https://www.travelcodex.com/?p=6754"}
+  ],
+  "uncertain": [
+    "Web search budget ran out before official attraction pages (National Museum of Bermuda, Horseshoe Bay, St George's, Gibbs Hill, Botanical Gardens) could be opened; their prices and hours are not verified.",
+    "National Museum of Bermuda adult price: US$15 (Eat Sleep Cruise, undated) vs US$12 (Travel Codex, older). Not used.",
+    "Snorkel Park Beach entry reported at about $5 by daytime in older blogs; not used.",
+    "Orange Route days conflict: the government release says Monday to Saturday; Bernews says Monday, Wednesday, Thursday and Saturday. The guide says 'selected days'.",
+    "Exact 2026 Blue Route departure times and frequency not verified (the 2026 schedule PDF was not opened; the only timetable opened was from 2016).",
+    "Whether ferries take cash on board conflicts between sources (Go To Bermuda says exact change; Travel with Hello says no cash on ferries). The guide advises buying a pass or tokens.",
+    "Distance from the Dockyard to St George's not verified (one guide says 12 miles, which looks wrong for the far end of the island).",
+    "Bus journey time from the Dockyard to Horseshoe Bay not verified.",
+    "Taxi fares (one guide gives a flag fall of just under $6) not verified from an official tariff.",
+    "Hamilton shop closures on Sundays reported in an older blog; not verified.",
+    "Portuguese man o' war jellyfish at Horseshoe Bay in early summer reported on a 2021 forum only.",
+    "No documented tourist scams found in the sources opened; scams list left empty.",
+    "No typical all-aboard time found; 17:30 assumed.",
+    "Restaurant prices not verified; ship excursion prices not verified (shipExcursionAvg and savingPerPerson null)."
+  ]
+}

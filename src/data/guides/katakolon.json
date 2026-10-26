@@ -1,0 +1,139 @@
+{
+  "slug": "katakolon",
+  "city": "Katakolon",
+  "portName": "Port of Katakolo",
+  "townName": "Katakolo village (and Ancient Olympia, 34 km inland)",
+  "country": "Greece",
+  "currency": "EUR",
+  "currencySymbol": "€",
+  "language": "Greek",
+  "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+  "lastVerified": "October 2026",
+  "seoTitle": "Katakolon cruise port guide: train to Ancient Olympia",
+  "seoDescription": "Ships dock in Katakolon village. Olympia is 34 km inland: train €10 return, about 45–52 min, Mon–Sat only. Site and museums €20 (2026). Sunday plan inside.",
+  "quickAnswer": "Ships dock right next to Katakolo village, so you walk ashore. Ancient Olympia is about 34 km inland: the Hellenic Train service costs €10 return, takes 45–52 minutes and runs Monday to Saturday only, with one useful morning departure. If you miss the early-afternoon return train, leave Olympia by taxi by 15:00 for a 17:30 all-aboard.",
+  "intro": "Katakolo is a one-street fishing village that exists, for most cruise passengers, as the doorway to Ancient Olympia, the sanctuary where the ancient Games were held. The site is 34 km inland and the whole day turns on transport: a single morning train on weekdays, private coaches and taxis waiting at the gate, and nothing on Sundays except road transport. Olympia itself is a flat, open field of ruins with little shade, so heat matters more than distance. If you stay in Katakolo, the day is short, slow and walkable: waterfront tavernas, a free museum of ancient technology and a beach a short taxi ride away.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 8,
+  "terminals": [
+    {"name": "Katakolo cruise pier", "distanceToCentreKm": 0.3, "notes": "Large ships dock at a dedicated pier with a small two-storey terminal building and a duty-free shop. The village waterfront starts at the port gate. Taxis, car hire and private coach sellers wait close to the gate. The railway station is about 5 minutes' walk along the main road."}
+  ],
+  "walkability": {"verdict": "Yes", "minutes": 10, "km": 0.5, "detail": "The village is flat and small, about three blocks deep, and starts at the port gate. Ancient Olympia, 34 km away, is not walkable; you need the train, a coach or a taxi."},
+  "transportSections": [
+    {"mode": "On foot (Katakolo village)", "cost": "Free", "time": "5–10 min to the waterfront tavernas", "detail": "Walk out of the port gate and along the seafront. The railway station is about 5 minutes away on the main road."},
+    {"mode": "Hellenic Train, Katakolo–Pyrgos–Olympia", "cost": "€10 return (€5 each way) (2026)", "time": "About 45–52 min, with a stop in Pyrgos", "detail": "Runs Monday to Saturday only; there is no Sunday train. There is one useful morning departure from Katakolo (reported at 09:15 in summer 2026) and an early-afternoon return. Buy tickets on the platform, on board from the conductor, online, in the Hellenic Train app or by phone (14511). Olympia station is a few minutes' walk from the museum and site. Check the timetable on hellenictrain.gr for your date before you sail, because times change between seasons."},
+    {"mode": "Private coach transfer to Olympia", "cost": "About €15 return (2024); prices vary by operator", "time": "About 35 min", "detail": "Sellers stand outside the port gate; coaches pick up and drop off there. Grekaland Travel and Vlachopoulos Tours are two operators named by readers in 2025. You return on the coach you went out on, at its fixed time, so check the return time before paying. Pre-book on a Sunday, when sellers may not turn up."},
+    {"mode": "Taxi", "cost": "Agree the fare before you leave", "time": "About 30–45 min to Olympia", "detail": "Taxis wait near the terminal. For Olympia, agree a round-trip price, the waiting time and the return time in advance. Waiting time is charged, so a taxi day costs much more than the train. Rideshare apps are not a realistic option here."}
+  ],
+  "returnTiming": {
+    "rule": "Take the early-afternoon train back from Olympia. If you miss it, leave Olympia by taxi no later than 15:00 for a 17:30 all-aboard. From Katakolo village, start back 60 minutes before all-aboard.",
+    "detail": "There is no second train to fall back on: the return is a single early-afternoon departure, and the journey takes 45–52 minutes. By road the drive is 30–45 minutes, but you also need time to find a taxi in Olympia and to clear the port gate. Private coaches return only at their fixed times.",
+    "emergencyFallback": "Ask a café or the museum ticket desk in Olympia to call a taxi; there is no app alternative. If you will miss all-aboard, phone the port agent number on your daily programme immediately."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": 30,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {"item": "Ancient Olympia site and museums", "ship": "Varies by line; check your cruise planner", "diy": "Train €10 return + €20 site and museums ticket (2026)", "saving": "Large, but only Monday to Saturday and on the train's fixed times"},
+    {"item": "Olympia by coach transfer", "ship": "Varies by line; check your cruise planner", "diy": "Coach about €15 return (2024) + €20 ticket (2026)", "saving": "Depends on the line; you have no guide"},
+    {"item": "Mercouri Estate wine and olive oil", "ship": "Varies by line; check your cruise planner", "diy": "Taxi only; book the tasting with the estate in advance", "saving": "Not clear; the ship tour removes the transport problem"}
+  ],
+  "excursionAdvice": "On a Monday to Saturday call, the train makes Olympia an easy and cheap DIY trip, and a downloaded guide covers what a ship's guide would tell you. A ship tour is worth it on a Sunday, when there is no train, on a short call where the train's fixed return does not fit, or if you want a guide to explain a site that is mostly foundations and fallen columns. The Mercouri Estate wine visit is also easier as a ship tour, because without a booking the estate may only sell you a glass.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00, a 17:30 all-aboard, a weekday (Monday to Saturday) and the summer 2026 train times. Check the train timetable for your date.",
+    "steps": [
+      {"time": "08:30", "what": "Walk off the pier and along the main road to Katakolo station, about 5 minutes. Buy a €10 return ticket on the platform or on board."},
+      {"time": "09:15", "what": "Morning train to Olympia via Pyrgos, about 50 minutes."},
+      {"time": "10:10", "what": "Walk from Olympia station to the site, a few minutes. One €20 ticket covers the site and the museums."},
+      {"time": "10:20", "what": "Archaeological site: the Temple of Zeus, the Temple of Hera, the workshop of Pheidias and the stadium tunnel. Carry water; there is little shade."},
+      {"time": "11:45", "what": "Archaeological Museum of Olympia, indoors and cooler: the Hermes of Praxiteles and the Nike of Paionios."},
+      {"time": "12:30", "what": "Quick lunch on Olympia's main street, a few minutes from the station."},
+      {"time": "13:00", "what": "Be at Olympia station well before the early-afternoon return train. If you miss it, take a taxi by 15:00 at the latest."},
+      {"time": "14:30", "what": "Back in Katakolo. Visit the free Kotsanas Museum of Ancient Greek Technology or sit at a waterfront taverna."},
+      {"time": "16:15", "what": "Walk back through the port gate and board, at least 60 minutes before all-aboard."}
+    ]
+  },
+  "sights": [
+    {"name": "Ancient Olympia (Sanctuary of Zeus)", "why": "The site of the ancient Olympic Games: temples, training halls and the stadium with its vaulted entrance tunnel.", "timeNeeded": "1.5–2 hours", "cost": "€20 full, €10 reduced; one ticket covers the site and Olympia's museums (2026)", "tip": "Open daily 08:00–20:00 from April to August, closing earlier from September (18:00 in late October) and 08:30–15:30 from November to March. Last entry 20 minutes before closing."},
+    {"name": "Archaeological Museum of Olympia", "why": "Finds from the sanctuary, including sculpture from the Temple of Zeus and works by Praxiteles and Paionios.", "timeNeeded": "45–60 minutes", "cost": "Included in the €20 Olympia ticket (2026)", "tip": "The museum has a ramp, a lift and an accessible toilet. Use it in the hottest part of the day."},
+    {"name": "Museum of the History of the Olympic Games in Antiquity", "why": "A smaller museum on the ancient Games themselves.", "timeNeeded": "30 minutes", "cost": "Included in the €20 Olympia ticket (2026)", "tip": "Skip it if the train return is tight; the site and the main museum come first."},
+    {"name": "Kotsanas Museum of Ancient Greek Technology (Katakolo)", "why": "Working reconstructions of ancient Greek machines and devices, in the village itself.", "timeNeeded": "30–45 minutes", "cost": "Free; donations welcome (2026)", "tip": "Opening hours are not published on its page; ask locally or phone ahead. A good rainy-day or Sunday option."},
+    {"name": "Katakolo waterfront", "why": "A short harbour front of tavernas and cafés, quieter once day visitors leave in the late afternoon.", "timeNeeded": "30–60 minutes", "cost": "Free", "tip": "Ideal for passengers who do not want a transfer day."},
+    {"name": "Pyrgos", "why": "The regional town on the train line, with older houses and churches on and near the main square.", "timeNeeded": "1.5–2 hours", "cost": "Free to walk; train fare applies", "tip": "Only worth a stop if you are not going to Olympia."},
+    {"name": "Mercouri Estate", "why": "Family wine and olive oil estate near Korakochori, about 15 km from Pyrgos, with old cellars and a museum of farm tools.", "timeNeeded": "2–2.5 hours including transport", "cost": "Not verified; book with the estate", "tip": "Without an advance booking you may only get a glass of wine rather than a tasting. Steps and gravel paths."}
+  ],
+  "beaches": [
+    {"name": "Agios Andreas", "howToGetThere": "Taxi from the port gate", "time": "Short taxi ride south of Katakolo", "cost": "Taxi fare; agree it first", "note": "Not a white-sand beach, but it has tavernas close by."},
+    {"name": "Skafidia", "howToGetThere": "Taxi", "time": "Less than an hour's drive", "cost": "Taxi fare; agree it first", "note": "Organised area at one end and a quieter far end. Some resort sections may not admit outside guests in peak season."}
+  ],
+  "food": [
+    {"dish": "Grilled fish and seafood meze", "where": "Waterfront tavernas, Katakolo harbour", "price": null},
+    {"dish": "Local pork dishes and village wine", "where": "Tavernas on the Katakolo seafront", "price": null},
+    {"dish": "Souvlaki or a quick lunch", "where": "Cafés and grills on Olympia's main street (Praxitelous Kondyli)", "price": null},
+    {"dish": "Local wine and olive oil tasting", "where": "Mercouri Estate, Korakochori (book ahead)", "price": null}
+  ],
+  "commonMistakes": [
+    {"mistake": "Planning to take the train to Olympia on a Sunday.", "fix": "There is no Sunday train. Pre-book a coach transfer, take a taxi or book the ship's tour."},
+    {"mistake": "Assuming there will be a later train if the site runs long.", "fix": "The return is a single early-afternoon train. If you miss it, take a taxi and leave Olympia by 15:00."},
+    {"mistake": "Visiting the Olympia site at midday in summer without water or a hat.", "fix": "Do the open-air site first, then the museum. The ruins have very little shade."},
+    {"mistake": "Getting into a taxi for Olympia without agreeing the round-trip price and waiting time.", "fix": "Agree the total fare, the waiting time and the return time before you set off."},
+    {"mistake": "Paying for a coach without checking its return time.", "fix": "You must come back on the same coach, at its fixed time. Make sure it fits your all-aboard."}
+  ],
+  "safety": "Katakolo and Olympia are low-crime places. The main hazards are heat and sun at the open site, and uneven ground among the ruins. The waterfront road is used by coaches and taxis on ship days, so watch for traffic at the port gate. In autumn 2025 the Greek authorities stepped up security at Katakolo during protests aimed at one specific ship; check your ship's daily programme for any local notice.",
+  "scams": [
+    "Taxi drivers quoting a low one-way fare to Olympia and then a high price for waiting and the return: agree the full round-trip fare, waiting time and return time before you get in.",
+    "Coach tickets sold at the port gate with a return time that does not fit your ship: ask for the return time in writing before you pay.",
+    "Outdated online timetables: several websites still show old train times. Check hellenictrain.gr for your date, or ask at the station."
+  ],
+  "emergencyNumber": "112",
+  "accessibility": "The pier, the port gate and the village waterfront are flat. Katakolo station is an unstaffed halt with an island platform; boarding the train may involve a step. In Olympia, the Archaeological Museum has a ramp, a lift and an accessible toilet. The archaeological site itself is level but large, with gravel, dirt paths, tree roots and uneven stone; a wheelchair user will need a strong companion or will see only part of it. A taxi or ship's coach is the easier way to reach Olympia for anyone with limited mobility.",
+  "rainyDay": "Rain is rare in summer but common in late autumn and winter. Olympia is still worth visiting in rain: spend more time in the Archaeological Museum and the smaller Olympic Games museum, both covered by the same ticket. If you stay in Katakolo, use the free Kotsanas Museum of Ancient Greek Technology and a long taverna lunch.",
+  "crowdTips": "Several ships can call on the same day, and coach groups reach Olympia from mid-morning. The stadium tunnel and the Temple of Zeus are the busiest spots. Go to the open-air site first and leave the museum for the middle of the day, when the site is hottest. Katakolo village empties in the late afternoon once day visitors leave. Greece charges cruise passengers a per-person fee at each port (€5 in the summer high season at ports other than Santorini and Mykonos in 2025); most lines include it in the fare or bill it on board.",
+  "faqs": [
+    {"q": "Is Katakolon a tender port?", "a": "No. Large ships dock at a dedicated pier next to the village."},
+    {"q": "How do I get from Katakolon cruise port to Ancient Olympia?", "a": "Take the Hellenic Train (€10 return, about 45–52 minutes, Monday to Saturday), a private coach from the port gate (about €15 return), or a taxi (agree the fare first)."},
+    {"q": "Is there a train from Katakolon to Olympia on Sunday?", "a": "No. The train runs Monday to Saturday only. On Sundays, pre-book a coach transfer, take a taxi or book the ship's tour."},
+    {"q": "How much is the ticket for Ancient Olympia?", "a": "€20 full and €10 reduced in 2026. One ticket covers the archaeological site and Olympia's museums."},
+    {"q": "Is Katakolon walkable from the cruise port?", "a": "Yes. The village starts at the port gate and is small and flat. Olympia is 34 km away and needs transport."},
+    {"q": "What can I do in Katakolon in one day from a cruise ship?", "a": "Take the morning train to Olympia, see the site and museum, return on the early-afternoon train, then visit the free technology museum in the village."},
+    {"q": "Are there beaches near Katakolon cruise port?", "a": "Agios Andreas is a short taxi ride away and has tavernas. Skafidia is further, under an hour's drive."},
+    {"q": "Is Katakolon safe?", "a": "Yes. The main risks are heat at the Olympia site and missing the single return train."}
+  ],
+  "topAttractions": [
+    {"name": "Ancient Olympia"},
+    {"name": "Archaeological Museum of Olympia"},
+    {"name": "Museum of the History of the Olympic Games in Antiquity"},
+    {"name": "Kotsanas Museum of Ancient Greek Technology"},
+    {"name": "Katakolo waterfront"},
+    {"name": "Mercouri Estate"}
+  ],
+  "sources": [
+    {"title": "Hellenic Train – Katakolo–Olympia route", "url": "https://www.hellenictrain.gr/en/katakolo-olympia"},
+    {"title": "City of Pyrgos info kiosk – Train Katakolo–Olympia–Katakolo", "url": "https://infokiosk.cityofpyrgos.gr/listing/train-katakolo-olympia-katakolo/"},
+    {"title": "travel.gr – Katakolo to Ancient Olympia from the port by train (Aug 2026)", "url": "https://www.travel.gr/how_to_travel/advertorial/katakolo-archaia-olympia-apo-to-limani/"},
+    {"title": "Hellenic Heritage (hh.gr) – Ancient Olympia hours and tickets", "url": "https://www.hh.gr/en/?p=2473"},
+    {"title": "Hellenic Ministry of Culture – Archaeological Museum of Olympia", "url": "https://archaeologicalmuseums.culture.gov.gr/en/museum/5df34af3deca5e2d79e8c1cc"},
+    {"title": "DIY Cruise Ports – Katakolon to Olympia DIY excursion", "url": "https://diycruiseports.com/diy-port-guides/katakolon-to-olympia-diy-excursion"},
+    {"title": "Cruise Deals Tips and Tricks – Katakolon (Olympia) port guide (2026)", "url": "https://www.cruisedealstipsandtricks.com/ports/katakolon-olympia-greece/"},
+    {"title": "CruiseMapper – Katakolon port", "url": "https://www.cruisemapper.com/ports/katakolon-port-72"},
+    {"title": "Wikipedia – Katakolo railway station", "url": "https://en.wikipedia.org/wiki/Katakolo_railway_station"},
+    {"title": "Kotsanas Museum of Ancient Greek Technology – Katakolo", "url": "https://kotsanas.com/katakolo/"},
+    {"title": "Exploring Worlds Old and New – Katakolo and Pyrgos", "url": "https://exploringworldsoldandnew.com/see-katakolo-and-pyrgos/"},
+    {"title": "Carnival Australia – Vintage Greece, Olives & Wines excursion", "url": "https://carnival.com.au/shore-excursions/katakolon-olympia/vintage-greece-olives--wines-824015"},
+    {"title": "Lonely Planet – Mercouri Estate", "url": "https://www.lonelyplanet.com/points-of-interest/mercouri-estate/1391199"},
+    {"title": "iefimerida – Cruise passenger levy on Greek islands", "url": "https://www.iefimerida.gr/english/cruise-passengers-face-increased-levy-popular-greek-islands"},
+    {"title": "Cruise Radio – Royal Caribbean alerts passengers to Greece's cruise fee (Aug 2025)", "url": "https://cruiseradio.net/royal-caribbean-alerts-passengers-to-greeces-new-cruise-fee/"}
+  ],
+  "uncertain": [
+    "The Hellenic Train timetable PDF could not be read. The 09:15 morning departure comes from a travel.gr article (Aug 2026); a 2024 guide gave 08:40 out and 13:10 back. The exact 2026 return time was not confirmed, so the guide says only 'early afternoon'.",
+    "No KTEL public bus between Katakolo and Olympia could be confirmed; a reader reported a €7 return bus in 2025 that was probably private.",
+    "Taxi fares to Olympia: no reliable published figure found (an online estimator gave clearly wrong numbers).",
+    "Coach transfer price (about €15 return) is from a 2024 guide; 2026 prices not verified.",
+    "Opening hours of the Kotsanas museum in Katakolo are not published.",
+    "The 2026 cruise passenger fee rates were not confirmed; the €5 figure is the 2025 high-season rate for ports other than Santorini and Mykonos.",
+    "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null.",
+    "No named Katakolo taverna could be verified from a current source; food entries name areas only."
+  ]
+}

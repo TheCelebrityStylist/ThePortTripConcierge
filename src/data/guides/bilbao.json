@@ -1,0 +1,369 @@
+{
+ "slug": "bilbao",
+ "city": "Bilbao",
+ "portName": "Port of Bilbao cruise terminal, Getxo",
+ "townName": "central Bilbao",
+ "country": "Spain",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Spanish and Basque",
+ "timezone": "CET (UTC+1), CEST in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Bilbao cruise port guide: Getxo terminal to the city",
+ "seoDescription": "Ships dock at Getxo, about 15 km from Bilbao. Walk 1–1.5 km to Gobela or Neguri metro, then about 20 min to Moyúa. Guggenheim €12 (2026), closed most Mondays.",
+ "quickAnswer": "Ships dock at the Port of Bilbao cruise terminal in Getxo, about 15 km from central Bilbao, so you cannot walk to the city. The cheapest route is a 20–25 minute walk to Gobela or Neguri metro station and Line 1 to Moyúa, about 20 minutes; taxis wait at the terminal. By metro, leave central Bilbao 2 hours before all-aboard.",
+ "intro": "Bilbao's cruise terminal is not in Bilbao at all but in Getxo, a seaside suburb at the mouth of the estuary. That works in your favour if you want a quiet day: Ereaga beach, the old fishing port of Algorta and the Vizcaya Bridge are all close. Most passengers head into the city for the Guggenheim Museum and the pintxo bars of the Casco Viejo. The metro is cheap and frequent, but the stations are a walk from the pier, and that walk is the part people forget to allow for on the way back.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Cruise terminal, Arriluze dock (Getxo)",
+   "distanceToCentreKm": 15,
+   "notes": "A glass terminal building with a gangway to the ship, a tourist office (open April to November, in the cruise season), toilets and a taxi rank when ships are in. Getxo's nearest metro stations are Gobela (about 1 km) and Neguri (about 1.5 km)."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 15,
+  "detail": "Central Bilbao is about 15 km away. Getxo itself is walkable: Ereaga beach and the old port of Algorta are close, and Gobela and Neguri metro stations are a 20–25 minute walk."
+ },
+ "transportSections": [
+  {
+   "mode": "Walk plus Metro Bilbao Line 1",
+   "cost": "€1.02–€1.30 per trip with a Barik card, by number of zones (2026)",
+   "time": "20–25 min walk, then about 20 min by metro",
+   "detail": "Walk about 1 km to Gobela or 1.5 km to Neguri and take Line 1 towards Etxebarri. Get off at Moyúa for the Guggenheim, or Casco Viejo/Zazpikaleak for the old town. Trains run every few minutes in the daytime. Coming back, take a train towards Plentzia and get off at Neguri or Gobela."
+  },
+  {
+   "mode": "Ship's shuttle bus",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "About 25 min",
+   "detail": "Many lines run a paid shuttle to Plaza Moyúa in the city centre, about 600–700 m from the Guggenheim. Ask at the terminal tourist office about other options on the day."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "About €25–35 to central Bilbao (unofficial guide)",
+   "time": "About 25–30 min",
+   "detail": "Taxis wait at the terminal when ships are in. Getxo Taxis: 94 491 53 53. For the return, there is a rank at Abando station."
+  },
+  {
+   "mode": "Vizcaya Bridge gondola",
+   "cost": "€0.60 per crossing (05:00–22:00)",
+   "time": "A few minutes",
+   "detail": "The transporter bridge's gondola crosses the estuary between Getxo (Las Arenas) and Portugalete in continuous trips of about 8 minutes."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. From central Bilbao by metro, leave 2 hours before all-aboard; by taxi, leave 90 minutes before. From Getxo's beaches and old port, leave 75 minutes before.",
+  "detail": "The metro ride is short, but the walk from Neguri or Gobela to the pier takes 20–25 minutes, and road traffic can slow taxis and shuttles. Know the time of your ship's last shuttle if you use one.",
+  "emergencyFallback": "If you are running late, take a taxi from the Abando station rank or call Getxo Taxis on 94 491 53 53. If you will miss all-aboard, call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Transfer to central Bilbao",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Metro, €1.02–€1.30 per trip with Barik (2026), plus a 20–25 min walk",
+   "saving": "Large, if you can manage the walk"
+  },
+  {
+   "item": "Guggenheim Museum visit",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€12 adult ticket (2026) plus metro",
+   "saving": "Usually large"
+  },
+  {
+   "item": "San Sebastián day trip",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "About 110 km each way",
+   "saving": "Not worth the risk on your own for most calls"
+  }
+ ],
+ "excursionAdvice": "Bilbao itself is easy on your own: the metro is cheap, frequent and simple, and the Guggenheim and Casco Viejo are close together. Take the ship's shuttle if walking 1–1.5 km to the metro is hard for you. For San Sebastián (about 110 km) or Guernica, a ship's tour is the sensible choice: the distances are long and the tour carries the risk of a late return.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00, all-aboard is 17:30, and the call is Tuesday to Saturday.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Off the ship. Walk to Neguri or Gobela metro station, 20–25 minutes."
+   },
+   {
+    "time": "09:00",
+    "what": "Metro Line 1 towards Etxebarri. Get off at Casco Viejo/Zazpikaleak."
+   },
+   {
+    "time": "09:30",
+    "what": "Mercado de la Ribera, then the Seven Streets and Plaza Nueva."
+   },
+   {
+    "time": "11:30",
+    "what": "Pintxos for an early lunch in the Casco Viejo."
+   },
+   {
+    "time": "12:30",
+    "what": "Walk along the river to the Guggenheim Museum, or take the metro to Moyúa."
+   },
+   {
+    "time": "13:00",
+    "what": "Guggenheim Museum, €12 adult (2026). Allow about 2 hours."
+   },
+   {
+    "time": "15:30",
+    "what": "Metro from Moyúa towards Plentzia, 2 hours before all-aboard."
+   },
+   {
+    "time": "15:55",
+    "what": "Off at Neguri or Gobela. Walk back to the terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Guggenheim Museum Bilbao",
+   "why": "Frank Gehry's titanium-clad museum of modern and contemporary art, the building that changed the city.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "€12 adult, €6 students 18–26 and over-65s, under-18s free (2026)",
+   "tip": "Open Tuesday to Sunday 10:00–19:00; closed on most Mondays outside summer. Buy only from the museum's own website: it warns about ticket fraud."
+  },
+  {
+   "name": "Casco Viejo (Seven Streets)",
+   "why": "Bilbao's medieval core of narrow streets, small shops and pintxo bars beside the river.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free",
+   "tip": "Metro station Casco Viejo/Zazpikaleak is on Line 1."
+  },
+  {
+   "name": "Mercado de la Ribera",
+   "why": "Bilbao's riverside food market, under large stained-glass windows, with fresh fish and produce and a pintxo area with a terrace over the estuary.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free to enter",
+   "tip": "Open Monday to Saturday from 08:00; closed on Sundays and in the early afternoon."
+  },
+  {
+   "name": "Plaza Nueva",
+   "why": "An arcaded square in the Casco Viejo lined with pintxo bars.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Best for an early lunch before the bars fill."
+  },
+  {
+   "name": "Vizcaya Bridge (Puente Bizkaia)",
+   "why": "The world's first transporter bridge, a UNESCO World Heritage Site, with a gondola carrying people and cars across the estuary.",
+   "timeNeeded": "1 hour",
+   "cost": "Gondola €0.60 per crossing; upper walkway €11 adult (2026)",
+   "tip": "Walkway open 10:00–20:00 from Easter to October and 10:00–14:00 and 16:00–19:00 in winter. In Getxo, so it fits a day without going into Bilbao."
+  },
+  {
+   "name": "Artxanda Funicular",
+   "why": "A funicular from the edge of the city centre up Mount Artxanda for a view over Bilbao.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "€3.50 single, €6 return (2026)",
+   "tip": "Combine with the Guggenheim, which is across the river."
+  },
+  {
+   "name": "Puerto Viejo de Algorta",
+   "why": "Getxo's old fishing port, a cluster of houses and steps above the sea, close to the cruise terminal.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "A good choice for a short call or if you would rather stay near the ship."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Ereaga beach (Getxo)",
+   "howToGetThere": "Walk from the cruise terminal",
+   "time": "Near the terminal",
+   "cost": "Free",
+   "note": "A Blue Flag town beach beside the marina next to the terminal. Leave 75 minutes before all-aboard."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Pintxos (small bar snacks on bread or skewers)",
+   "where": "Bars around Plaza Nueva in the Casco Viejo",
+   "price": null
+  },
+  {
+   "dish": "Gildas and pintxos with an estuary view",
+   "where": "The pintxo area of the Mercado de la Ribera",
+   "price": null
+  },
+  {
+   "dish": "Fresh fish and Basque produce",
+   "where": "Stalls at the Mercado de la Ribera",
+   "price": null
+  },
+  {
+   "dish": "Pintxos and seafood by the sea",
+   "where": "Bars in the Puerto Viejo de Algorta, Getxo",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Thinking the ship docks in Bilbao.",
+   "fix": "The terminal is in Getxo, about 15 km from the city. Plan for the metro, a taxi or the ship's shuttle."
+  },
+  {
+   "mistake": "Forgetting the walk from the metro to the pier.",
+   "fix": "Neguri and Gobela stations are 1–1.5 km from the terminal. Allow 20–25 minutes on foot and leave central Bilbao 2 hours before all-aboard."
+  },
+  {
+   "mistake": "Planning the Guggenheim on a Monday.",
+   "fix": "It is closed on most Mondays outside mid-June to early September. Check the museum's calendar for your date."
+  },
+  {
+   "mistake": "Buying Guggenheim tickets from resellers.",
+   "fix": "Buy on the museum's own website, which warns about ticket fraud."
+  },
+  {
+   "mistake": "Getting on a metro in the wrong direction on the way back.",
+   "fix": "Back to the ship, take Line 1 towards Plentzia and get off at Neguri or Gobela."
+  }
+ ],
+ "safety": "Bilbao and Getxo are generally safe. Pickpockets work in busy places such as the markets, metro stations and the Casco Viejo, so keep bags closed and phones out of back pockets. The weather changes quickly on this coast; carry a light rain layer. Swim only on lifeguarded beaches and follow the flags.",
+ "scams": [
+  "Fake or resold Guggenheim tickets: the museum warns about ticket fraud and asks visitors to buy only on its official website.",
+  "Pickpockets in crowded markets, metro stations and the Casco Viejo."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The terminal has a gangway to the ship like an airport jet bridge. The walk to Neguri or Gobela metro is 1–1.5 km, so passengers with limited mobility should use a taxi or the ship's shuttle. Metro Bilbao Line 1 is a modern line; check lifts at your stations before you travel. The Casco Viejo has some slopes and uneven paving. Check access details for each sight on its own website.",
+ "rainyDay": "Bilbao gets plenty of rain, and the city copes well. The Guggenheim (closed on most Mondays) and the covered Mercado de la Ribera fill a wet morning, and the Casco Viejo's pintxo bars fill the rest. Getxo's sights are mostly outdoors, so on a wet day head into the city.",
+ "crowdTips": "The first shuttles and taxis after the ship arrives are the busiest; walking to the metro avoids the queue. Book Guggenheim tickets online on the museum's site before the call, especially in the cruise season. Pintxo bars are busiest at lunchtime, so eat early.",
+ "faqs": [
+  {
+   "q": "Is Bilbao walkable from the cruise port?",
+   "a": "No. Ships dock in Getxo, about 15 km from central Bilbao. Getxo's beach and old port are walkable."
+  },
+  {
+   "q": "How do I get from Bilbao cruise port to the city centre?",
+   "a": "Walk 20–25 minutes to Gobela or Neguri metro and take Line 1 to Moyúa, about 20 minutes, or take a taxi or the ship's shuttle."
+  },
+  {
+   "q": "Is Bilbao a tender port?",
+   "a": "No. Ships dock at the cruise terminal in Getxo."
+  },
+  {
+   "q": "How far is the Guggenheim from the cruise port?",
+   "a": "About 15 km. Take the metro to Moyúa, then walk about 600–700 m."
+  },
+  {
+   "q": "What can I do in Bilbao in one day from a cruise ship?",
+   "a": "The Mercado de la Ribera and Casco Viejo in the morning, pintxos for lunch, then the Guggenheim, back on the metro 2 hours before all-aboard."
+  },
+  {
+   "q": "Beaches near Bilbao cruise port",
+   "a": "Ereaga beach in Getxo is beside the marina next to the terminal."
+  },
+  {
+   "q": "Is there a shuttle from Getxo cruise terminal to Bilbao?",
+   "a": "Many cruise lines run a paid shuttle to Plaza Moyúa. Check your cruise planner for the price."
+  },
+  {
+   "q": "Is Bilbao safe?",
+   "a": "Yes, generally. Watch for pickpockets in markets, metro stations and the Casco Viejo."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Guggenheim Museum Bilbao"
+  },
+  {
+   "name": "Casco Viejo"
+  },
+  {
+   "name": "Mercado de la Ribera"
+  },
+  {
+   "name": "Vizcaya Bridge"
+  },
+  {
+   "name": "Artxanda Funicular"
+  },
+  {
+   "name": "Plaza Nueva"
+  },
+  {
+   "name": "Puerto Viejo de Algorta"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Euskadi Turismo – Cruises in the Basque Country",
+   "url": "https://turismo.euskadi.eus/cruceros/"
+  },
+  {
+   "title": "Euskadi Turismo – Getxo cruise terminal tourist office",
+   "url": "https://turismo.euskadi.eus/es/oficinas-turismo/oficina-de-turismo-del-muelle-de-cruceros-de-getxo/aa30-12375/es/"
+  },
+  {
+   "title": "Port of Bilbao – New cruise terminal at Getxo (2016)",
+   "url": "https://www.bilbaoport.eus/en/?p=16254"
+  },
+  {
+   "title": "CTB (Bizkaia Transport Consortium) – Metro Bilbao fares",
+   "url": "https://www.ctb.eus/en/metro-bilbao-fares"
+  },
+  {
+   "title": "CTB – Barik fares",
+   "url": "https://www.ctb.eus/en/barik-fares"
+  },
+  {
+   "title": "Guggenheim Museum Bilbao – Plan your visit",
+   "url": "https://www.guggenheim-bilbao.eus/en/plan-your-visit"
+  },
+  {
+   "title": "Puente Bizkaia – Rates and schedules",
+   "url": "https://puente-colgante.com/en/tarifas-y-horarios/"
+  },
+  {
+   "title": "Puente Bizkaia – Panoramic visit",
+   "url": "https://puente-colgante.com/en/?p=38218"
+  },
+  {
+   "title": "BOPV no. 68, 14 April 2026 – 2026 fares including the Artxanda funicular",
+   "url": "https://www.euskadi.eus/bopv2/datos/2026/04/2601569a.pdf"
+  },
+  {
+   "title": "MSC Cruises – Bilbao",
+   "url": "https://www.msccruises.com/int/our-cruises/destinations/northern-europe/spain/bilbao"
+  },
+  {
+   "title": "Time Out – Mercado de la Ribera",
+   "url": "https://www.timeout.com/es/bilbao/que-hacer/mercado-de-la-ribera"
+  },
+  {
+   "title": "Turismo Vasco – Bilbao port cruise terminal: how to get there",
+   "url": "https://turismovasco.com/en/bizkaia/what-to-see-in-bizkaia/bilbao-port-cruise-terminal-how-to-get-there-where-to-park-what-to-see-and-much-more/"
+  },
+  {
+   "title": "Spanish Fiestas – Bilbao cruise port",
+   "url": "https://www.spanish-fiestas.com/ports/bilbao/"
+  },
+  {
+   "title": "Adventour Begins – Bilbao cruise port guide (updated March 2026)",
+   "url": "https://adventourbegins.com/bilbao-cruise-port-guide/"
+  },
+  {
+   "title": "Cruise Critic boards – Bilbao shuttle buses",
+   "url": "https://boards.cruisecritic.com.au/topic/2987748-bilbao-shuttle-buses/"
+  }
+ ],
+ "uncertain": [
+  "Price of a single paper metro ticket and the price of a Barik card itself",
+  "Which metro fare zones Gobela, Neguri and Moyúa fall in, so the exact per-trip fare",
+  "Whether the free port shuttle to Areeta or Algorta metro still runs",
+  "Official taxi tariff for Getxo and Bilbao",
+  "Bilbao Fine Arts Museum hours and prices (site could not be opened)",
+  "Typical all-aboard time for Bilbao calls"
+ ]
+}

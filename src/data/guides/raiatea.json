@@ -1,0 +1,336 @@
+{
+ "slug": "raiatea",
+ "city": "Uturoa",
+ "portName": "Uturoa cruise quay (Gare Maritime), Raiatea",
+ "townName": "Uturoa",
+ "country": "French Polynesia",
+ "currency": "XPF",
+ "currencySymbol": "XPF",
+ "priceSymbol": "US$",
+ "language": "French and Tahitian",
+ "timezone": "TAHT (UTC−10), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Raiatea cruise port guide: Uturoa quay and Taputapuātea",
+ "seoDescription": "Ships dock at Uturoa quay, in town by the market. Taputapuātea marae is 29 km south: taxi, hire car or ship tour (from US$89, 3.5 h). Back 60 min early.",
+ "quickAnswer": "Cruise ships dock at the quay in Uturoa, Raiatea's main town; the terminal, craft stalls and municipal market are steps from the gangway, so no tender or transport is needed for the town. Taputapuātea marae, the UNESCO site, is about 29 km south near Opoa: go by taxi, hire car or the ship's Le Truck tour. Leave Taputapuātea at least two hours before all-aboard and be back at the quay 60 minutes before.",
+ "intro": "Uturoa is a small working town, not a resort, and the cruise quay sits on its waterfront. The Gare Maritime terminal has a visitor information office, shops, restaurants and toilets, the municipal market is across the street, and the main street runs behind it. The reason most passengers come is Taputapuātea, the marae complex on a lagoon peninsula in the south-east that UNESCO inscribed in 2017 as the ceremonial centre of the wider Polynesian world. Getting there means a 29 km drive along the coast and round Faaroa Bay, and public transport is not reliable enough to plan a ship day around. Sunday calls are quieter, with many services closed.",
+ "isTender": false,
+ "tenderNotes": "Ships dock at the Uturoa quay in front of the Gare Maritime. Whether every ship size can berth was not confirmed in the sources checked; if your daily programme says tender, add 30 minutes to every return time in this guide.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Gare Maritime, Uturoa waterfront",
+   "distanceToCentreKm": 0,
+   "notes": "Cruise terminal on the waterfront with a visitor information office, restaurants, shops and public toilets. Craft stalls (the fare des mamas) stand beside it, the Marché Municipal is across the street, and there is a taxi stand near the terminal. There are no security gates between the quay and the town; you show your cruise card to reboard."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": null,
+  "detail": "Uturoa itself is on foot: the market is across the street from the terminal and the shops of Rue Centrale are just behind it. Everything beyond town, including Taputapuātea, Faaroa Bay and the motu, needs a vehicle or boat."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (Uturoa town)",
+   "cost": "Free",
+   "time": "A few minutes to the market and main street",
+   "detail": "Walk off the quay past the craft stalls to the Marché Municipal and Rue Centrale. The public marina is a short walk north along a waterfront park."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Fares not published; agree the price, including waiting time, before you leave",
+   "time": "Taputapuātea is about 29 km south",
+   "detail": "There is a taxi stand near the cruise terminal and several taxis work in town. For Taputapuātea, agree a round trip with waiting time so you are not stranded in Opoa, where you cannot count on finding a cab for the return."
+  },
+  {
+   "mode": "Hire car, scooter or e-bike",
+   "cost": "Varies by agency",
+   "time": "About 29 km each way to Taputapuātea",
+   "detail": "Several rental agencies are based in Uturoa, including Raiatea Rent Car, Moana Rent A Car, Raiatea Location, Renault Rent Raiatea and Olitea Location; scooters, bikes and e-bikes can also be hired. Book ahead for a ship day. Drive is on the right. Roads beyond the coast road can be rough."
+  },
+  {
+   "mode": "Le truck (local bus)",
+   "cost": "Not published",
+   "time": "No published timetable",
+   "detail": "Traditional open-sided 'trucks' run as the local bus, but without a timetable you can rely on. Do not plan a return to the ship around one."
+  },
+  {
+   "mode": "Ship's Le Truck tour to Taputapuātea",
+   "cost": "From US$89 (Holland America) or from US$110 (Seabourn) (2026)",
+   "time": "About 3.5 hours",
+   "detail": "Open-air island bus through Uturoa and round Faaroa Bay to the marae. No air conditioning, bench seats and a noisy ride; not suitable for wheelchair users."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the quay 60 minutes before all-aboard. Leave Taputapuātea at least 120 minutes before all-aboard.",
+  "detail": "The drive to Taputapuātea is about 29 km on a single coast road with no alternative route, so a breakdown, roadworks or a slow vehicle costs time you cannot make up. If you hired a car, allow time to return it in Uturoa before walking to the quay.",
+  "emergencyFallback": "Call the taxi or tour operator you used, and the port agent number in your daily programme, as soon as you think you will be late. There is only one road back, so if you are stuck, tell the ship early."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Taputapuātea marae",
+   "ship": "From US$89 (Holland America) or US$110 (Seabourn), about 3.5 hours (2026)",
+   "diy": "Taxi with waiting time or hire car; prices on request",
+   "saving": "Depends on group size and the rates you are quoted"
+  },
+  {
+   "item": "Uturoa town, market and Mount Tapioi",
+   "ship": "Not needed",
+   "diy": "On foot",
+   "saving": "Free"
+  }
+ ],
+ "excursionAdvice": "Uturoa needs no tour. For Taputapuātea, a hire car is the most flexible choice if you are confident driving on the right and can collect it near the quay, and a taxi with an agreed waiting time also works. The ship's Le Truck tour is worth it if you cannot drive, want a guide's explanation of the marae, or are on a short call; the trade-off is a hot, noisy open bus. Boat trips to the Faaroa River, the motu or Taha'a are best booked through the ship or a reputable operator at the quay, because independent ferry times to Taha'a do not reliably fit a ship day.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Ashore. Collect a pre-booked hire car in Uturoa, or agree a round-trip taxi fare with waiting time at the stand by the terminal."
+   },
+   {
+    "time": "08:45",
+    "what": "Drive south along the east coast and round Faaroa Bay towards Opoa."
+   },
+   {
+    "time": "09:45",
+    "what": "Taputapuātea marae. Walk the lagoon-side marae and take the path behind the car park up to the viewpoint."
+   },
+   {
+    "time": "11:30",
+    "what": "Head back to Uturoa, stopping at the Faaroa Bay viewpoints on the way."
+   },
+   {
+    "time": "12:30",
+    "what": "Return the car. Lunch in town or from the market."
+   },
+   {
+    "time": "13:30",
+    "what": "Marché Municipal and the fare des mamas craft stalls, then Rue Centrale."
+   },
+   {
+    "time": "14:30",
+    "what": "Optional: Mount Tapioi, about 1 hour up and 30 minutes down; start down by 15:45 at the latest."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Taputapuātea marae",
+   "why": "UNESCO World Heritage Site since 2017: a ceremonial and political centre of Polynesia, with stone and coral marae on a lagoon peninsula; the sacred Te Ava Mo'a reef pass lies offshore.",
+   "timeNeeded": "1–1.5 hours on site, plus the drive",
+   "cost": "Check locally on arrival",
+   "tip": "Take the path behind the car park up the hill for the view over the site and lagoon. This is a sacred place: stay off the stone platforms."
+  },
+  {
+   "name": "Faaroa Bay and River",
+   "why": "Deep, mountain-sided bay on the road south; the river is described as the only navigable river in French Polynesia.",
+   "timeNeeded": "15 minutes from the road; 2–3 hours on a boat or canoe tour",
+   "cost": "Free from the road; tours priced by operator",
+   "tip": "You pass it on the way to Taputapuātea. To go up the river you need a boat or outrigger canoe tour."
+  },
+  {
+   "name": "Marché Municipal, Uturoa",
+   "why": "The town produce market across the street from the cruise terminal: fruit, vegetables, flowers and local food.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Go in the morning for the best choice."
+  },
+  {
+   "name": "Fare des mamas craft stalls",
+   "why": "Small thatched huts beside the Gare Maritime where local women sell handicrafts.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free to browse",
+   "tip": "The stalls and the covered market at the pier are busiest when a ship is in."
+  },
+  {
+   "name": "Mount Tapioi",
+   "why": "Steep track above Uturoa with views over the lagoon towards Taha'a.",
+   "timeNeeded": "About 1 hour up, 30 minutes down",
+   "cost": "Free",
+   "tip": "From the main road turn left at the stop sign just past the post office and follow the signs. Steep and gravelly; take water and a hat, and avoid midday heat."
+  },
+  {
+   "name": "Rue Centrale and the waterfront",
+   "why": "Uturoa's main shopping street and the waterfront park leading to the public marina.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Banks with cash machines are on the main street."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Lagoon motu (by boat)",
+   "howToGetThere": "Ship's excursion or a boat tour arranged at the quay",
+   "time": "Half day",
+   "cost": "Priced by operator",
+   "note": "No town beach is described at Uturoa in the sources checked; swimming is mainly from the motu on the reef, reached by boat."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Tropical fruit and local produce",
+   "where": "Marché Municipal, across from the Gare Maritime, Uturoa",
+   "price": null
+  },
+  {
+   "dish": "Café and restaurant meals",
+   "where": "Restaurants in the Gare Maritime cruise terminal",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Expecting Taputapuātea to be near the port.",
+   "fix": "It is about 29 km south near Opoa. Arrange a car, a round-trip taxi or the ship's tour."
+  },
+  {
+   "mistake": "Taking a one-way taxi to the marae.",
+   "fix": "Agree a round trip with waiting time before you leave Uturoa."
+  },
+  {
+   "mistake": "Planning to reach Taha'a independently on a short call.",
+   "fix": "Passenger boat times may not fit a ship day; use a tour that guarantees the return to Uturoa."
+  },
+  {
+   "mistake": "Arriving on a Sunday expecting shops and services.",
+   "fix": "Many services close or keep short hours on Sundays. Book cars and tours in advance."
+  },
+  {
+   "mistake": "Climbing on marae stones for photos.",
+   "fix": "Taputapuātea is a sacred site; stay on paths and off the platforms."
+  }
+ ],
+ "safety": "Uturoa is a small, calm town. The main risks are sun, heat and dehydration, especially on Mount Tapioi and at the marae, where there is little shade. On the road, drive on the right, watch for pedestrians, dogs and scooters, and remember the coast road is the only route back. In the lagoon, wear reef shoes against coral and only swim where your boat operator says it is safe. Emergency numbers are 17 for police, 15 for medical emergencies and 18 for fire.",
+ "scams": [],
+ "emergencyNumber": "17 (police), 15 (medical), 18 (fire)",
+ "accessibility": "The quay, the Gare Maritime, the craft stalls and the market are close together on the flat waterfront. Taputapuātea has uneven ground and the viewpoint path climbs a hillside. The ships' Le Truck tours are not suitable for wheelchair users or guests with limited mobility, so a private taxi or adapted vehicle booked in advance is the only realistic option. Mount Tapioi is a steep gravel track.",
+ "rainyDay": "Heavy rain makes the Mount Tapioi track slippery and the marae ground muddy, and lagoon trips may be cancelled. Spend time in the Gare Maritime and the covered market, and if the rain eases drive to Taputapuātea, which is open-air and can be visited in light showers.",
+ "crowdTips": "Uturoa is a small town, so a cruise call fills the waterfront, craft stalls and market around the quay. Go off the ship early if you want the marae with fewer people, and book a hire car or taxi before the call rather than on the day.",
+ "faqs": [
+  {
+   "q": "Is Raiatea a tender port?",
+   "a": "Usually not. Ships dock at the Uturoa quay in front of the Gare Maritime. Check your daily programme in case your ship tenders."
+  },
+  {
+   "q": "Is Uturoa walkable from the cruise port?",
+   "a": "Yes. The market is across the street and the main street is just behind the terminal."
+  },
+  {
+   "q": "How do I get from Raiatea cruise port to Taputapuātea marae?",
+   "a": "By taxi with an agreed waiting time, a hire car, or the ship's Le Truck tour. It is about 29 km south of Uturoa near Opoa."
+  },
+  {
+   "q": "How long does the ship tour to Taputapuātea take?",
+   "a": "About 3.5 hours. In 2026 Holland America lists it from US$89 and Seabourn from US$110."
+  },
+  {
+   "q": "What can I do in Raiatea in one day from a cruise ship?",
+   "a": "Taputapuātea and Faaroa Bay in the morning, then Uturoa's market, craft stalls and Mount Tapioi in the afternoon."
+  },
+  {
+   "q": "Beaches near Raiatea cruise port?",
+   "a": "There is no beach in Uturoa itself; swimming is mainly from lagoon motu reached by boat tour."
+  },
+  {
+   "q": "What currency is used in Raiatea?",
+   "a": "The CFP franc (XPF). Banks with cash machines are on Uturoa's main street."
+  },
+  {
+   "q": "Is Raiatea safe?",
+   "a": "Yes. Take care with sun and heat, and with driving on the single coast road."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Taputapuātea marae"
+  },
+  {
+   "name": "Faaroa Bay and River"
+  },
+  {
+   "name": "Marché Municipal, Uturoa"
+  },
+  {
+   "name": "Mount Tapioi"
+  },
+  {
+   "name": "Fare des mamas craft stalls"
+  }
+ ],
+ "sources": [
+  {
+   "title": "UNESCO World Heritage Centre – Taputapuātea",
+   "url": "https://whc.unesco.org/en/list/1529"
+  },
+  {
+   "title": "Tahiti Tourisme – Raiatea",
+   "url": "https://tahititourisme.pf/en-pf/islands-and-archipelagos/the-society-islands/raiatea/"
+  },
+  {
+   "title": "Tahiti Tourisme – Raiatea transportation",
+   "url": "https://tahititourisme.com/en-us/island/raiatea/raiatea-transportation/"
+  },
+  {
+   "title": "Holland America – Raiatea: The Sacred Island by Le Truck",
+   "url": "https://www.hollandamerica.com/en/cruise-destinations/hawaii-cruises/hawaii-tahiti-ports/rfp/34707"
+  },
+  {
+   "title": "Seabourn – Raiatea: The Sacred Island by Le Truck",
+   "url": "https://www.seabourn.com/en/cruise-destinations/world-cruise-cruises/world-cruise-ports/rfp/rfp004"
+  },
+  {
+   "title": "Norwegian Cruise Line – Sacred Island by Le Truck",
+   "url": "https://www.ncl.com/br/pt/shore-excursions/RAI_02/Sacred-Island-by-Le-Truck"
+  },
+  {
+   "title": "AIDA – Uturoa port",
+   "url": "https://aida.de/hafen/uturoa"
+  },
+  {
+   "title": "Frommer's – Raiatea and Taha'a: planning a trip",
+   "url": "https://www.frommers.com/destinations/raiatea-and-tahaa/planning-a-trip"
+  },
+  {
+   "title": "Frommer's – Things to do in Raiatea and Taha'a",
+   "url": "https://www.frommers.com/destinations/raiatea-and-tahaa/things-to-do/"
+  },
+  {
+   "title": "My Cruise Stories – Raiatea cruise port (2025)",
+   "url": "https://mycruisestories.com/2025/07/18/raiatea-cruise-port/"
+  },
+  {
+   "title": "Cruise Diva – Raiatea ashore",
+   "url": "https://cruisediva.com/raiatea.htm"
+  },
+  {
+   "title": "CruiseMapper – Raiatea Island port",
+   "url": "https://www.cruisemapper.com/ports/raiatea-island-port-689"
+  },
+  {
+   "title": "World Heritage Site – Taputapuātea visitor reviews",
+   "url": "https://www.worldheritagesite.org/list/id/1529"
+  },
+  {
+   "title": "AFAR – Mount Tapioi",
+   "url": "https://www.afar.com/places/bureau-de-poste-opt-uturoa"
+  }
+ ],
+ "uncertain": [
+  "Taputapuātea entry fee and opening hours: not found in any source checked.",
+  "Driving time from Uturoa to Taputapuātea: distance (about 29 km) confirmed, time not.",
+  "Taxi fares on Raiatea and hire-car day rates: only an undated guidebook figure found.",
+  "Passenger ferry and shuttle-boat times and fares to Taha'a: only undated guidebook figures found.",
+  "Whether the largest cruise ships can berth at Uturoa or must anchor.",
+  "Typical all-aboard time for Raiatea calls: not found; the day plan uses 17:30."
+ ]
+}

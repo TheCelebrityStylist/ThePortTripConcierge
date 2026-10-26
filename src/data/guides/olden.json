@@ -1,0 +1,400 @@
+{
+ "slug": "olden",
+ "city": "Olden",
+ "portName": "Port of Olden (Nordfjord Havn, Olden Cruise Park)",
+ "townName": "Olden village",
+ "country": "Norway",
+ "currency": "NOK",
+ "currencySymbol": "kr",
+ "language": "Norwegian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Olden cruise port guide: Briksdal glacier and Loen Skylift",
+ "seoDescription": "Olden's cruise quay is about 700 m from the village. Briksdal glacier is 20 km away; the walk from the lodge takes 40–60 min. Loen Skylift NOK 530 return (2026).",
+ "quickAnswer": "Ships berth at the cruise quay at Olden Cruise Park, about 700 m (10–15 minutes' flat walk) from the village; a second ship anchors and tenders. Briksdal glacier is about 20 km away by tour, Olden Adventure shuttle or the summer glacier bus, and the Loen Skylift rises to 1,011 m. Be back on board 60 minutes before all-aboard, 90 if your ship is tendering.",
+ "intro": "Olden is a village of about 500 people at the mouth of the Oldeelva river on the inner Nordfjord. The cruise quay can take the largest ships and sits a short walk from the village, but the reasons to come are inland: the Oldedalen valley and its lake lead to the Briksdal glacier, an arm of Jostedalsbreen, and the Loen Skylift climbs Mount Hoven nearby. Public transport is thin, there are few taxis, and the Loen Shuttle bus is not running in summer 2026, so most passengers rely on pre-booked shuttles or ship tours. Plan the glacier first and fit the village around it.",
+ "isTender": false,
+ "tenderNotes": "One cruise quay at Olden takes the largest ships. When more than one ship is in, others anchor and tender to the tender landing at Olden Cruise Park, and smaller ships sometimes anchor off Loen and use the tender quay at the Loen Skylift. If your ship tenders, add 30 minutes to every return time.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Olden Cruise Park (cruise quay and tender landing)",
+   "distanceToCentreKm": 0.7,
+   "notes": "Small terminal with an information desk, bike rental, souvenir shops and public toilets. Tour buses load just outside; taxis and private transfers wait here. Olden Adventure's shuttles leave from the pier."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 15,
+  "km": 0.7,
+  "detail": "Olden village, its churches and the riverside are a flat 10–15 minute walk from the quay. Briksdal glacier and the Loen Skylift are not walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "10–15 min to the village centre",
+   "detail": "A flat walk along the river from the quay to the village and the old church."
+  },
+  {
+   "mode": "Glacier bus (Brebussen) to Briksdal",
+   "cost": "Paid by card on board; fare not published",
+   "time": "About 40 minutes from Olden harbour to Briksdalsbre Fjellstove",
+   "detail": "Summer-only service from Stryn via Loen and Olden harbour. On the published timetable it leaves Olden harbour at 10:05 and reaches the lodge at 10:45; the return leaves the lodge at 13:30 and is back at Olden harbour at 14:02. No booking needed; the operator gives a seat guarantee. Check the current timetable on skyss.no before relying on it."
+  },
+  {
+   "mode": "Olden Adventure shuttle",
+   "cost": "Check current prices with the operator",
+   "time": "About 45 minutes each way to Briksdal",
+   "detail": "Independent operator at the cruise pier running shuttle buses to Briksdal glacier and to the Loen Skylift, with optional troll-car packages. Usually cheaper than the ship's tour; book ahead on busy days."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree or check the fare first",
+   "time": "Varies",
+   "detail": "Taxis wait outside the terminal but are few and often pre-booked on cruise days. Best for a direct return if you are running late."
+  },
+  {
+   "mode": "Loen Shuttle",
+   "cost": "Not running",
+   "time": "—",
+   "detail": "The Loen Shuttle bus, which stopped at the cruise park in earlier years, is not operating in summer 2026."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard if docked, or at the tender landing 90 minutes before if your ship is at anchor. From Briksdal, be on a bus or shuttle down at least 135 minutes before all-aboard.",
+  "detail": "The village is close and flat, so the risk is inland. The public glacier bus has one return from Briksdal (13:30, back at Olden harbour 14:02); if you miss it there is no later bus. Taxis are scarce, so do not count on finding one at the glacier lodge.",
+  "emergencyFallback": "If you miss your return from Briksdal or Loen, phone for a taxi at once and call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Briksdal glacier",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Glacier bus (card on board) or Olden Adventure shuttle; walk from the lodge free",
+   "saving": "Depends on line"
+  },
+  {
+   "item": "Loen Skylift",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "NOK 530 adult return (2026–27 price list) plus transfer",
+   "saving": "Depends on line"
+  }
+ ],
+ "excursionAdvice": "Briksdal is easy to do without the ship: Olden Adventure runs shuttles from the pier and, in summer, the public glacier bus stops at Olden harbour with a fixed return in good time for most all-aboards. The ship's tour is worth it if your call is short, if you want a guaranteed seat with no transfer risk, or if you want to combine Briksdal and the Skylift in one day. For the Skylift alone, a pier shuttle plus your own ticket is simpler, but book the transfer before you sail because the Loen Shuttle bus is not running in 2026.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, in summer while the glacier bus is running.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk ashore and along the river into Olden village. See the old church of 1759."
+   },
+   {
+    "time": "09:45",
+    "what": "Back to Olden harbour for the glacier bus."
+   },
+   {
+    "time": "10:05",
+    "what": "Glacier bus from Olden harbour, along Oldevatnet lake to Briksdalsbre Fjellstove (10:45)."
+   },
+   {
+    "time": "10:50",
+    "what": "Walk the 2.5 km path to the glacier lake, past the Kleivafossen waterfall; 40–60 minutes each way. Troll cars are an alternative for most of the way."
+   },
+   {
+    "time": "12:45",
+    "what": "Lunch or coffee at the lodge."
+   },
+   {
+    "time": "13:30",
+    "what": "Glacier bus back from the lodge, arriving at Olden harbour at 14:02."
+   },
+   {
+    "time": "14:15",
+    "what": "Free time in the village or by the fjord; shops and cafés near the cruise park."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard (16:00 at the tender landing if at anchor)."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Briksdal glacier (Briksdalsbreen)",
+   "why": "An arm of the Jostedalsbreen ice cap, ending in a glacier lake at the head of Oldedalen.",
+   "timeNeeded": "Half a day including travel",
+   "cost": "Walk from the lodge free; transport and troll cars extra",
+   "tip": "2.5 km from Briksdalsbre Fjellstove, 40–60 minutes each way, about 180 m of climb. Wear proper shoes; the path is shared with troll cars."
+  },
+  {
+   "name": "Troll cars at Briksdal",
+   "why": "Small open vehicles that cover most of the road from the lodge towards the glacier.",
+   "timeNeeded": "1–1.5 hours return including the final walk",
+   "cost": "Paid separately; book ahead",
+   "tip": "You still walk about 500–700 m at the top. Book in advance in May and from 20 September."
+  },
+  {
+   "name": "Loen Skylift",
+   "why": "One of the steepest cable cars in the world, rising to 1,011 m on Mount Hoven above Loen and the Nordfjord.",
+   "timeNeeded": "Half a day including transfers; the ride itself is 5–7 minutes each way",
+   "cost": "NOK 530 adult return, NOK 270 child 6–15 (2026–27 price list)",
+   "tip": "The ride takes 5–7 minutes. Views depend on cloud; check the sky before paying."
+  },
+  {
+   "name": "Oldevatnet lake and Oldedalen",
+   "why": "The long glacial lake and valley on the road to Briksdal.",
+   "timeNeeded": "Seen on the way to the glacier",
+   "cost": "Free",
+   "tip": "The glacier bus and shuttles follow the lake, so you see it without a separate trip."
+  },
+  {
+   "name": "Olden village and churches",
+   "why": "A small village with an old church from 1759 and a newer church from 1934.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Flat walk from the quay; public toilets near the new church and the supermarkets."
+  },
+  {
+   "name": "Huaren viewpoint",
+   "why": "A steady uphill trail to a view over the harbour and fjord.",
+   "timeNeeded": "1.5–2 hours return",
+   "cost": "Free",
+   "tip": "Good use of a morning if you are not going to the glacier."
+  },
+  {
+   "name": "Kayaking on the Nordfjord",
+   "why": "Guided paddles from Olden with a short briefing; suits beginners.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Varies by operator",
+   "tip": "Book ahead; operators include Discover Olden."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Olden village shore",
+   "howToGetThere": "Walk from the cruise quay",
+   "time": "10–15 min",
+   "cost": "Free",
+   "note": "A tiny beach locally billed as Norway's coldest and smallest."
+  },
+  {
+   "name": "Alvleinsvika",
+   "howToGetThere": "Ask at the terminal information desk",
+   "time": "Varies",
+   "cost": "Free",
+   "note": "A local swimming spot; the water is cold all summer."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Coffee and cakes",
+   "where": "Yris Kafe, Olden village",
+   "price": null
+  },
+  {
+   "dish": "Hotel restaurant meals with fjord views",
+   "where": "Olden Fjordhotel",
+   "price": null
+  },
+  {
+   "dish": "Family-friendly meals",
+   "where": "Mølla Gjestehus, Olden",
+   "price": null
+  },
+  {
+   "dish": "Lunch and coffee at the glacier",
+   "where": "Restaurant and café at Briksdalsbre Fjellstove",
+   "price": null
+  },
+  {
+   "dish": "Lunch with a view at 1,011 m",
+   "where": "Restaurant and café at the Loen Skylift top station (book the restaurant ahead)",
+   "price": null
+  },
+  {
+   "dish": "Picnic supplies",
+   "where": "Bunnpris or Coop Prix in Olden",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Expecting a hop-on bus or the Loen Shuttle to the Skylift.",
+   "fix": "The Loen Shuttle is not running in summer 2026. Book an Olden Adventure transfer or a ship tour before you arrive."
+  },
+  {
+   "mistake": "Missing the 13:30 glacier bus back from Briksdal.",
+   "fix": "There is no later public bus. Be at the lodge stop by 13:20, or use a shuttle with a return time you know."
+  },
+  {
+   "mistake": "Assuming troll cars take you all the way to the ice.",
+   "fix": "You still walk the last 500–700 m on a gravel path. Wear proper shoes."
+  },
+  {
+   "mistake": "Counting on a taxi at short notice.",
+   "fix": "Taxis are few and pre-booked on cruise days. Arrange transport before you leave the pier."
+  },
+  {
+   "mistake": "Paying for the Skylift under low cloud.",
+   "fix": "Check visibility first; on a cloudy day spend the time in Oldedalen instead."
+  }
+ ],
+ "safety": "Olden is quiet and safe. The hazards are natural: keep to the marked path at Briksdal, do not approach the glacier front or walk on the ice, and give way to troll cars on the shared road. Weather changes quickly, and the Skylift top station is much colder than the quay. Carry a waterproof layer.",
+ "scams": [],
+ "emergencyNumber": "112 (police), 113 (medical), 110 (fire)",
+ "accessibility": "When docked, the quay and the walk to the village are flat. The Briksdal path from the lodge is described by the tourist board as suitable for wheelchairs and pushchairs, but it climbs about 180 m on gravel, so expect hard pushing. Some glacier tours with troll cars are listed as not wheelchair accessible. Tender days are harder; ask the ship about tender access.",
+ "rainyDay": "Briksdal is still worth it in rain, as the waterfalls are fuller, but the path is wet and views of the ice may be limited. Skip the Skylift if the cloud is down to the fjord. In the village, the churches and cafés are the main shelter.",
+ "crowdTips": "Nordfjord Havn expects more than 200 cruise calls across its ports in 2026, and two-ship days at Olden fill coaches, troll cars and the glacier path. The public glacier bus has a fixed time; troll cars should be booked ahead on busy days.",
+ "faqs": [
+  {
+   "q": "Is Olden a tender port?",
+   "a": "Usually not. One ship berths at the cruise quay; a second ship anchors and tenders to Olden Cruise Park or sometimes Loen."
+  },
+  {
+   "q": "Is Olden walkable from the cruise port?",
+   "a": "Yes. The village is about 700 m away, a flat 10–15 minute walk."
+  },
+  {
+   "q": "How do I get from Olden cruise port to Briksdal glacier?",
+   "a": "By ship tour, Olden Adventure shuttle from the pier (about 45 minutes), or the summer glacier bus from Olden harbour at 10:05, returning from the lodge at 13:30."
+  },
+  {
+   "q": "How long is the walk to Briksdal glacier?",
+   "a": "About 2.5 km from Briksdalsbre Fjellstove, 40–60 minutes each way. Troll cars cover most of it for a fee."
+  },
+  {
+   "q": "How much is the Loen Skylift?",
+   "a": "NOK 530 adult return, NOK 270 child (2026–27 price list). The ride takes 5–7 minutes to 1,011 m."
+  },
+  {
+   "q": "What can I do in Olden in one day from a cruise ship?",
+   "a": "Briksdal glacier in the morning, then the village or the Loen Skylift in the afternoon if you have booked transfers."
+  },
+  {
+   "q": "Do the zero-emission fjord rules apply in Olden?",
+   "a": "No. Norway's zero-emission rules cover five World Heritage fjords: Nærøyfjord, Aurlandsfjord, Geirangerfjord, Sunnylvsfjord and Tafjord. The Nordfjord is not one of them."
+  },
+  {
+   "q": "Is Olden safe?",
+   "a": "Yes. Stay on the marked path at Briksdal and dress for cold, changeable weather."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Briksdal glacier"
+  },
+  {
+   "name": "Loen Skylift"
+  },
+  {
+   "name": "Oldevatnet"
+  },
+  {
+   "name": "Olden Old Church"
+  },
+  {
+   "name": "Huaren viewpoint"
+  },
+  {
+   "name": "Nordfjord"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Nordfjord Havn – Cruise",
+   "url": "https://www.nordfjordhavn.no/en/cruise/"
+  },
+  {
+   "title": "Nordfjord Havn – Olden mooring plan (PDF, 2026)",
+   "url": "https://www.nordfjordhavn.no/wp-content/uploads/2026/03/Fortoyningsplan-Olden.pdf"
+  },
+  {
+   "title": "Nordfjord Havn – Regulations and tariffs",
+   "url": "https://www.nordfjordhavn.no/en/regulations/"
+  },
+  {
+   "title": "Loen Skylift – Opening hours and prices",
+   "url": "https://en.loenskylift.no/opening-hours-and-prices"
+  },
+  {
+   "title": "Loen Skylift – Loen Shuttle (not operating summer 2026)",
+   "url": "https://en.loenskylift.no/shuttle"
+  },
+  {
+   "title": "Nordfjord.no – Loen shuttle bus",
+   "url": "https://www.nordfjord.no/en/loen-shuttle-bus"
+  },
+  {
+   "title": "Nordfjord.no – Olden Adventure",
+   "url": "https://www.nordfjord.no/en/olden-adventure"
+  },
+  {
+   "title": "Fjord Norway – Glacier bus to Briksdalsbreen",
+   "url": "https://fjordnorway.com/en/transport/glacier-bus-q2uadrcvqlmnquupqcovtg"
+  },
+  {
+   "title": "Visit Norway – Briksdalsbreen walk",
+   "url": "https://www.visitnorway.no/listings/briksdalsbreen/212792/"
+  },
+  {
+   "title": "Visit Norway – Troll cars to Briksdalsbre glacier (Oldedalen Skyss)",
+   "url": "https://www.visitnorway.de/listings//troll-cars-to-briksdalsbre-glacier-oldedalen-skyss/229006"
+  },
+  {
+   "title": "Visit Norway – The troll cars",
+   "url": "https://www.visitnorway.fr/listings/the-troll-cars/229007/"
+  },
+  {
+   "title": "UT.no (DNT) – Briksdalsbreen easy hike",
+   "url": "https://ut.no/turforslag/1112155413/briksdalsbreen-lett-fottur"
+  },
+  {
+   "title": "Regjeringen – Nullutslippskrav til passasjerskip i verdensarvfjordene (April 2025)",
+   "url": "https://www.regjeringen.no/no/aktuelt/nullutslippskrav-til-passasjerskip-i-verdensarvfjordene/id3097475/"
+  },
+  {
+   "title": "Celebrity Cruises – Olden port guide",
+   "url": "https://www.celebritycruises.com/mx/es/ports/olden-norway"
+  },
+  {
+   "title": "HX – Trollcar excursion in Briksdal",
+   "url": "https://www.travelhx.com/en-us/enhance-your-cruise/catalog/loen-trollcar-excursion-in-briksdal"
+  },
+  {
+   "title": "CruiseMapper – Olden port",
+   "url": "https://www.cruisemapper.com/ports/olden-port-746"
+  },
+  {
+   "title": "Adventour Begins – Olden cruise port guide (updated May 2026)",
+   "url": "https://adventourbegins.com/olden-cruise-port-guide-norway/"
+  },
+  {
+   "title": "Jetsetter Guide – Olden cruise port",
+   "url": "https://jetsetterguide.com/cruise-port/olden"
+  },
+  {
+   "title": "Life in Norway – Briksdal glacier by troll car (2025)",
+   "url": "https://www.lifeinnorway.net/briksdal-glacier-by-troll-car/"
+  },
+  {
+   "title": "Life in Norway – Loen Skylift",
+   "url": "https://www.lifeinnorway.net/loen-skylift"
+  },
+  {
+   "title": "A Brummie Home and Abroad – Olden and the Briksdal glacier",
+   "url": "https://abrummiehomeandabroad.com/unmissable-olden-and-the-briksdal-glacier/"
+  }
+ ],
+ "uncertain": [
+  "2026 prices for the Olden Adventure Briksdal shuttle and troll-car tickets (only 2023 figures found).",
+  "Glacier bus fare and exact 2026 season dates (official listings give 1 June–31 August and 15 May–15 September).",
+  "Summer 2026 Loen Skylift opening hours and whether summer prices differ from the 2026–27 list.",
+  "Road distance and transfer time from Olden to the Loen Skylift.",
+  "Quay length and maximum ship length at Olden.",
+  "Documented scams: none found."
+ ]
+}

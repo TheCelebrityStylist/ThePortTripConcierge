@@ -1,0 +1,397 @@
+{
+  "slug": "tortola",
+  "city": "Road Town",
+  "portName": "Tortola cruise pier, Road Town (Cyril B. Romney Tortola Pier Park)",
+  "townName": "Road Town",
+  "country": "British Virgin Islands",
+  "currency": "USD",
+  "currencySymbol": "US$",
+  "language": "English",
+  "timezone": "AST (UTC-4), no daylight saving",
+  "lastVerified": "October 2026",
+  "seoTitle": "Tortola cruise port guide: Road Town, beaches, The Baths",
+  "seoDescription": "Two ships dock at Road Town's pier; others tender. Main Street is 10–15 min on foot. Taxis US$10–16 per person to beaches, 20 min to Cane Garden Bay.",
+  "quickAnswer": "Up to two ships dock at the Tortola pier in Road Town; a third or fourth ship anchors and tenders to the Road Town Jetty. Main Street is a 10–15 minute walk, and the north-shore beaches are about 20 minutes by taxi at roughly US$10–16 per person each way. Leave the beaches 1 hour 30 minutes before all-aboard, and allow at least 2.5 hours if you go to The Baths on Virgin Gorda on your own.",
+  "intro": "Tortola is a hilly island with a small capital and steep roads, so the day is shaped by taxis rather than walking. The pier leads into the Cyril B. Romney Tortola Pier Park shopping area, and Road Town's Main Street is a short walk beyond it. The beaches people come for, Cane Garden Bay and Brewers Bay, are on the north shore over the island's ridge, about 20 minutes away. The other big draw, The Baths, is on Virgin Gorda and needs a ferry, which makes it the riskiest independent trip here. The BVI uses US dollars, so there is no currency to change.",
+  "isTender": false,
+  "tenderNotes": "Two ships up to 180,000 GT can berth at the pier. When more than two ships are in port, the extra ships anchor in Road Harbour and tender passengers to the Road Town Jetty, which is closer to downtown than the pier. On a tender day add 30 minutes to every return time in this guide.",
+  "typicalHours": 9,
+  "terminals": [
+    {
+      "name": "Tortola cruise pier and Cyril B. Romney Tortola Pier Park (Wickhams Cay I)",
+      "distanceToCentreKm": null,
+      "notes": "Two berths for ships up to 180,000 GT. The pier park beside the gangway has more than 70 shops, restaurants and service providers. Taxis gather here; expect heavy traffic around 08:00 and 16:00 when they pick up and drop off."
+    },
+    {
+      "name": "Road Town Jetty (tender landing)",
+      "distanceToCentreKm": null,
+      "notes": "Used when a third ship anchors in the harbour. Closer to downtown than the pier."
+    }
+  ],
+  "walkability": {
+    "verdict": "Partly",
+    "minutes": 15,
+    "km": null,
+    "detail": "Road Town's Main Street and Pusser's are a 10–15 minute flat walk from the pier along Administration Drive to Waterfront Drive. Everything else (beaches, Sage Mountain, the rum distillery) is over steep hills and needs a taxi; walking to Cane Garden Bay or Brewers Bay takes about two hours."
+  },
+  "transportSections": [
+    {
+      "mode": "On foot to Road Town",
+      "cost": "Free",
+      "time": "10–15 min to Main Street",
+      "detail": "From the pier park, follow Administration Drive to Waterfront Drive; Main Street runs parallel one block inland. Flat but hot, with limited shade."
+    },
+    {
+      "mode": "Taxi",
+      "cost": "About US$10–16 per person each way, depending on distance (2026)",
+      "time": "About 20 min to Cane Garden Bay, Brewers Bay, Sage Mountain or Callwood Distillery; about 30 min to Smuggler's Cove",
+      "detail": "Taxis wait at the pier. Fares are charged per person, not per car, and rose for cruise beach trips after the last gazetted increase. Children 5 and under pay half fare. Confirm the fare per person and the pick-up time for the return before you get in."
+    },
+    {
+      "mode": "Ferry to Virgin Gorda (Spanish Town)",
+      "cost": "Speedy's: US$20 one way, US$30 return, adult (2026)",
+      "time": "About 40 min crossing; about 2 hours door to door to The Baths via Beef Island",
+      "detail": "The Road Town ferry terminal is about a 12-minute walk or 4-minute taxi from the cruise pier. Road Town Fast Ferry, launched April 2026, leaves Road Town for Virgin Gorda Monday to Saturday at 06:45, 08:30, 10:00, 12:30, 15:30 and 17:00, and on Sundays at 08:30 and 15:30. Check the return sailing times at the terminal before you buy; on Virgin Gorda you still need a taxi from the dock to The Baths."
+    }
+  ],
+  "returnTiming": {
+    "rule": "Be back on board 60 minutes before all-aboard. Leave the north-shore beaches and Sage Mountain by 15:45 and Smuggler's Cove by 15:30 for a 17:30 all-aboard. From Virgin Gorda, be on a ferry leaving Spanish Town at least 2.5 hours before all-aboard.",
+    "detail": "Beaches and Sage Mountain are about 20 minutes away and Smuggler's Cove about 30, but the hill roads are slow and traffic builds around the pier at about 16:00 as taxis return. From Main Street the walk back is 10–15 minutes. The Virgin Gorda ferry crossing takes about 40 minutes, plus the walk or taxi from the ferry terminal to the pier and a taxi on Virgin Gorda. If your ship tenders, add 30 minutes to each of these.",
+    "emergencyFallback": "Any taxi can get you back from the north shore in about 20 minutes. If you will be late, call the port agent number on your daily programme straight away. Emergency services: 911; emergencies at sea (VISAR): 767."
+  },
+  "shipExcursionAvg": 115,
+  "diyAvg": null,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {
+      "item": "The Baths at Virgin Gorda",
+      "ship": "Carnival: US$114.99 adult, US$99.99 child, 4.5 hours, entry fee included (2026)",
+      "diy": "Ferry US$30 return (Speedy's, 2026) + taxi on Virgin Gorda + US$3 park entry",
+      "saving": "Possible, but the ferry return is your risk"
+    },
+    {
+      "item": "Cane Garden Bay or Brewers Bay beach",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Taxi about US$10–16 per person each way (2026); sun beds extra",
+      "saving": "Usually substantial"
+    },
+    {
+      "item": "Sage Mountain National Park",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Taxi about 20 min + US$3 adult entry",
+      "saving": "Depends on group size"
+    },
+    {
+      "item": "Road Town walk",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Free on foot",
+      "saving": "The full excursion price"
+    }
+  ],
+  "excursionAdvice": "Book The Baths through the ship. The trip needs a ferry and a taxi on another island, and the ship's tour (Carnival lists it at US$114.99 adult for 4.5 hours, 2026) includes the park fee and gets you back on time. Do the Tortola beaches, Sage Mountain and Road Town on your own: they are 20 minutes or less by taxi, and fares are per person, so a ship transfer saves little. On a tender day with an early all-aboard, keep the day on Tortola.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 at the Tortola pier and all-aboard is 17:30.",
+    "steps": [
+      {
+        "time": "08:30",
+        "what": "Walk off through the Cyril B. Romney Tortola Pier Park. Agree a per-person taxi fare and a return pick-up time with a driver."
+      },
+      {
+        "time": "08:45",
+        "what": "Taxi up to Sage Mountain National Park (about 20 min). Pay US$3 and walk the Rainforest or Mahogany Forest trail while it is still cool."
+      },
+      {
+        "time": "10:45",
+        "what": "Taxi down to Cane Garden Bay, or to Callwood Rum Distillery first for a short US$5 tour and tasting."
+      },
+      {
+        "time": "11:30",
+        "what": "Beach time at Cane Garden Bay. Beach access is free; sun beds cost extra."
+      },
+      {
+        "time": "12:30",
+        "what": "Lunch at Rhymer's or Myett's on the beach."
+      },
+      {
+        "time": "15:45",
+        "what": "Taxi back over the hill to the pier. Leave now; traffic around the pier builds from about 16:00."
+      },
+      {
+        "time": "16:15",
+        "what": "If time allows, a short look around the pier park shops."
+      },
+      {
+        "time": "16:30",
+        "what": "Back on board, 60 minutes before all-aboard."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "The Baths, Virgin Gorda",
+      "why": "Giant granite boulders on the beach form pools, caves and passages; a trail with ladders leads to Devil's Bay.",
+      "timeNeeded": "4.5 hours including the ferry",
+      "cost": "US$3 park entry; ferry US$30 return (2026)",
+      "tip": "Wear water shoes. Water access closes under a red flag. Best done as a ship tour from Tortola."
+    },
+    {
+      "name": "Sage Mountain National Park",
+      "why": "Highest point in the British and US Virgin Islands at 523 m, with 14 trails through moist forest and big mahogany trees.",
+      "timeNeeded": "1.5–2 hours plus travel",
+      "cost": "US$3 adult, US$2 child",
+      "tip": "The main entrance is a 10-minute walk from the car park. Go early before cloud and heat build."
+    },
+    {
+      "name": "Cane Garden Bay",
+      "why": "Tortola's best-known beach: a long curve of sand on the north shore with beach bars.",
+      "timeNeeded": "Half a day",
+      "cost": "Free; sun beds and water sports extra",
+      "tip": "About 20 minutes by taxi. Busy on multi-ship days; Brewers Bay is quieter."
+    },
+    {
+      "name": "Callwood Rum Distillery",
+      "why": "A working pot-still distillery in an 18th-century stone building at Cane Garden Bay.",
+      "timeNeeded": "30–45 minutes",
+      "cost": "Tour and tasting US$5",
+      "tip": "Combine with Cane Garden Bay in one taxi trip."
+    },
+    {
+      "name": "J.R. O'Neal Botanic Gardens",
+      "why": "A 4-acre garden in Road Town with an orchid house, a small rainforest section, a cactus garden and palms.",
+      "timeNeeded": "45 minutes",
+      "cost": "Free",
+      "tip": "Walkable from Main Street; a shaded stop if you stay in town."
+    },
+    {
+      "name": "Main Street, Road Town",
+      "why": "The old commercial street of the capital, with small shops and older wooden and stone buildings.",
+      "timeNeeded": "1 hour",
+      "cost": "Free",
+      "tip": "Ten to fifteen minutes on foot from the pier via Administration Drive."
+    },
+    {
+      "name": "Smuggler's Cove",
+      "why": "Calm, sheltered bay at the west end of the island, good for snorkelling.",
+      "timeNeeded": "Half a day",
+      "cost": "Free entry",
+      "tip": "About 30 minutes each way; book the return pick-up before you pay the driver."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Cane Garden Bay",
+      "howToGetThere": "Taxi from the pier",
+      "time": "About 20 min",
+      "cost": "Taxi about US$10–16 per person each way (2026); beach free, sun beds extra",
+      "note": "Beach bars and restaurants along the sand. The liveliest choice."
+    },
+    {
+      "name": "Brewers Bay",
+      "howToGetThere": "Taxi from the pier",
+      "time": "About 20 min",
+      "cost": "Taxi about US$10–16 per person each way (2026); chairs a few dollars",
+      "note": "Quieter than Cane Garden Bay and better for snorkelling."
+    },
+    {
+      "name": "Smuggler's Cove",
+      "howToGetThere": "Taxi from the pier",
+      "time": "About 30 min",
+      "cost": "Free entry; taxi per person",
+      "note": "Calm water and snorkelling at the far west end. Arrange your return pick-up in advance."
+    },
+    {
+      "name": "Devil's Bay and The Baths (Virgin Gorda)",
+      "howToGetThere": "Ferry from Road Town to Spanish Town, then taxi; or ship tour",
+      "time": "About 2 hours each way door to door on your own",
+      "cost": "US$3 park entry plus ferry and taxi",
+      "note": "Water access closes under a red flag."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Painkiller rum cocktail and pub lunch",
+      "where": "Pusser's, Road Town waterfront (about 10 min walk from the pier)",
+      "price": null
+    },
+    {
+      "dish": "Beach-bar lunch on the sand",
+      "where": "Rhymer's, Cane Garden Bay",
+      "price": null
+    },
+    {
+      "dish": "Lunch and drinks with live music",
+      "where": "Myett's, Cane Garden Bay",
+      "price": null
+    },
+    {
+      "dish": "Local rum tasting",
+      "where": "Callwood Rum Distillery, Cane Garden Bay",
+      "price": "US$5 tour with tasting (2026)"
+    },
+    {
+      "dish": "Quick lunch near the ship",
+      "where": "Restaurants in the Cyril B. Romney Tortola Pier Park",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Assuming taxi fares are per car.",
+      "fix": "Tortola fares are per person. Confirm the per-person price and total before you get in."
+    },
+    {
+      "mistake": "Trying to walk to Cane Garden Bay or Brewers Bay.",
+      "fix": "It takes about two hours over steep hills. Take a taxi; it is about 20 minutes."
+    },
+    {
+      "mistake": "Leaving the beach at 16:00 for a 17:30 all-aboard.",
+      "fix": "Traffic jams around the pier at about 16:00. Leave the north shore by 15:45, earlier on a tender day."
+    },
+    {
+      "mistake": "Doing The Baths independently on a short call.",
+      "fix": "It is about two hours each way with a ferry and a taxi. Book the ship's tour or stay on Tortola."
+    },
+    {
+      "mistake": "Paying the beach taxi with no return arranged.",
+      "fix": "Agree the pick-up time and place before you pay, especially at Smuggler's Cove."
+    }
+  ],
+  "safety": "Crime levels in the BVI are low, but the UK government reports occasional armed robbery and gun crime, sometimes in public places. Do not carry large amounts of cash or expensive jewellery, do not leave bags unattended on the beach, and avoid isolated beaches after dark. Keep your passport secure: it cannot be replaced in the BVI. Traffic drives on the left, roads are steep and narrow, and many water-sports accidents involve alcohol. Swim only where others swim and take note of red flags.",
+  "scams": [
+    "Per-car versus per-person confusion: a quoted taxi fare is usually per person, so a group of four pays four times the number. Ask for the total before you get in.",
+    "Beach taxis that do not come back: if you pay the full return at the start, you may wait a long time. Pay the return leg on pick-up.",
+    "Bags left on the sand: the UK government warns specifically against leaving bags unattended on beaches. Take only what you need and keep it with you."
+  ],
+  "emergencyNumber": "911 (police, fire, ambulance); 767 (VISAR sea rescue)",
+  "accessibility": "On a docked day the pier, the pier park and the walk to Main Street are flat, though pavements in town are uneven in places and there is little shade. Tortola's roads are very steep, and most taxis are vans or open safari vehicles with high steps, so ask at the pier for a suitable vehicle. Sage Mountain trails are unpaved and hilly. The Baths are not wheelchair accessible: the route uses ladders, low passages and seawater. On a tender day, ask the ship whether wheelchair users can transfer.",
+  "rainyDay": "Showers usually pass quickly. Stay in Road Town: the pier park shops, the J.R. O'Neal Botanic Gardens and a long lunch at Pusser's. Callwood Rum Distillery is mostly under cover. Skip Sage Mountain in heavy rain, when trails turn slippery and views disappear, and skip the Virgin Gorda ferry in rough seas.",
+  "crowdTips": "The BVI received a record 875,000 cruise passengers in 2025. Up to four ships can be in port: two at the pier and the rest at anchor. On those days Cane Garden Bay fills by late morning, The Baths are crowded with ship tours, and traffic around the pier peaks at about 08:00 and 16:00. Go to Sage Mountain or Brewers Bay first, and get back to the pier before the 16:00 rush. The government has proposed an environmental levy on cruise passengers, but it had not been introduced when this guide was checked.",
+  "faqs": [
+    {
+      "q": "Is Tortola a tender port?",
+      "a": "Usually not. Two ships can dock at the Road Town pier. When more ships are in port, the extra ones anchor and tender to the Road Town Jetty."
+    },
+    {
+      "q": "Is Road Town walkable from the cruise port?",
+      "a": "Yes. Main Street is a 10–15 minute flat walk from the pier. The beaches are not walkable."
+    },
+    {
+      "q": "How do I get from Tortola cruise port to Cane Garden Bay?",
+      "a": "Take a taxi from the pier, about 20 minutes. Expect about US$10–16 per person each way; confirm before you get in."
+    },
+    {
+      "q": "Can I visit The Baths from Tortola on my own?",
+      "a": "Yes, but it takes about two hours each way by ferry and taxi. Speedy's charges US$30 return; park entry is US$3. The ship's tour is the safer choice on a short call."
+    },
+    {
+      "q": "Beaches near Tortola cruise port?",
+      "a": "Cane Garden Bay and Brewers Bay are about 20 minutes by taxi; Smuggler's Cove about 30. There is no good beach within walking distance of the pier."
+    },
+    {
+      "q": "What currency is used in Tortola?",
+      "a": "The US dollar."
+    },
+    {
+      "q": "What can I do in Tortola in one day from a cruise ship?",
+      "a": "Sage Mountain in the morning, a beach afternoon at Cane Garden Bay with a stop at Callwood Rum Distillery, and back to the pier before 16:00 traffic."
+    },
+    {
+      "q": "Is Tortola safe?",
+      "a": "Generally yes. Crime is low, but keep valuables out of sight, do not leave bags on the beach and avoid isolated areas after dark."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "The Baths"
+    },
+    {
+      "name": "Cane Garden Bay"
+    },
+    {
+      "name": "Sage Mountain National Park"
+    },
+    {
+      "name": "Callwood Rum Distillery"
+    },
+    {
+      "name": "Brewers Bay"
+    },
+    {
+      "name": "Smuggler's Cove"
+    },
+    {
+      "name": "J.R. O'Neal Botanic Gardens"
+    },
+    {
+      "name": "Main Street, Road Town"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Government of the Virgin Islands – Cyril B. Romney Tortola Pier Park celebrates 10th anniversary (Feb 2026)",
+      "url": "https://www.gov.vg/news/cyril-b-romney-tortola-pier-park-celebrates-its-10th-anniversary"
+    },
+    {
+      "title": "Government of the Virgin Islands – Statement by the Minister for Communications and Works on the Tortola Pier (Feb 2026)",
+      "url": "https://gov.vg/news/statement-minister-communications-and-works-honourable-kye-m-rymer-cyril-b-romney-tortola-pier"
+    },
+    {
+      "title": "BVI National Parks Trust – Sage Mountain National Park",
+      "url": "https://www.bvinationalparkstrust.org/sage-mountain-national-park-info"
+    },
+    {
+      "title": "Carnival Cruise Line – The Baths at Virgin Gorda shore excursion",
+      "url": "https://www.carnival.com/shore-excursions/tortola/the-baths-at-virgin-gorda-435013"
+    },
+    {
+      "title": "Virgin Islands News Online – Road Town Fast Ferry launches daily service to Virgin Gorda (April 2026)",
+      "url": "https://www.virginislandsnewsonline.com/en/news/rt-fast-ferry-launched-daily-service-for-vg"
+    },
+    {
+      "title": "BVI Beacon – The Baths facilities contract and entrance fee",
+      "url": "https://www.bvibeacon.com/?p=21350"
+    },
+    {
+      "title": "BVI Beacon – Taxi fare increases for cruise passengers",
+      "url": "https://www.bvibeacon.com/?p=33502"
+    },
+    {
+      "title": "Cruise Hive – Tortola cruise port: getting around, piers and what's nearby (2026)",
+      "url": "https://www.cruisehive.com/tortola-cruise-port/145549"
+    },
+    {
+      "title": "Cruise Hive – Ways to experience Tortola for cruise passengers (2026)",
+      "url": "https://www.cruisehive.com/ways-to-experience-tortola-for-cruise-passengers/27958"
+    },
+    {
+      "title": "CruiseMapper – Tortola (Road Town) port information",
+      "url": "https://www.cruisemapper.com/ports/tortola-island-bvi-port-35?tab=news"
+    },
+    {
+      "title": "Frommer's – Getting around Tortola",
+      "url": "https://www.frommers.com/destinations/tortola-bvi/planning-a-trip/getting-around"
+    },
+    {
+      "title": "Frommer's – Tortola attractions",
+      "url": "https://www.frommers.com/destinations/tortola-bvi/attractions/overview"
+    },
+    {
+      "title": "GOV.UK – British Virgin Islands travel advice: getting help",
+      "url": "https://www.gov.uk/foreign-travel-advice/british-virgin-islands/getting-help"
+    },
+    {
+      "title": "GOV.UK – British Virgin Islands travel advice: safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/british-virgin-islands/safety-and-security"
+    }
+  ],
+  "uncertain": [
+    "No official BVI taxi fare schedule could be opened; the per-person range used comes from a 2026 guide. Frommer's quotes US$24 to Cane Garden Bay without saying whether that is per person, and an undated BVI Beacon article says a one-hour island tour starts at US$70 per person for one or two passengers.",
+    "Return ferry times from Spanish Town (Virgin Gorda) to Road Town, and the Road Town Fast Ferry fare.",
+    "Whether The Baths entry fee has risen since the BVI Beacon report, which said an increase was planned; the National Parks Trust page for The Baths could not be opened.",
+    "Callwood Rum Distillery opening hours.",
+    "Walking distance in km from the pier to Main Street and to the Road Town Jetty; only walking times were found.",
+    "Typical all-aboard time at Tortola; 17:30 used as a default.",
+    "Restaurant opening hours and prices not verified."
+  ]
+}

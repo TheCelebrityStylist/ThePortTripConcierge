@@ -1,0 +1,407 @@
+{
+ "slug": "trieste",
+ "city": "Trieste",
+ "portName": "Trieste Cruise Terminal (Stazione Marittima, Molo dei Bersaglieri)",
+ "townName": "Piazza Unità d'Italia",
+ "country": "Italy",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Italian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Trieste cruise port guide: walk to Piazza Unità",
+ "seoDescription": "Trieste cruise port sits 200 m from Piazza Unità, a 2–5 min walk. Miramare Castle is 8 km away by bus 6; museum and exhibition €17 (2026). Back 60 min early.",
+ "quickAnswer": "Most ships berth at the Stazione Marittima on Molo dei Bersaglieri, about 200 m from Piazza Unità d'Italia, so you walk into the centre in 2–5 minutes. No transport is needed for the city itself; bus 6 runs to Miramare Castle, 8 km north-west. Be back at the terminal 60 minutes before all-aboard, and leave Miramare or Opicina at least 2 hours before it.",
+ "intro": "Trieste is one of the easiest docked ports in the Adriatic. The cruise terminal is on the city waterfront, and the main square, the Canal Grande and the café streets of Borgo Teresiano are all within a few minutes' walk. The old town and San Giusto hill rise directly behind Piazza Unità. Miramare Castle, on a headland 8 km up the coast, is the one sight that needs a bus, taxi or boat. Do not confuse this port with Venice, which is about two hours away by road.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Stazione Marittima (Molo dei Bersaglieri 3)",
+   "distanceToCentreKm": 0.2,
+   "notes": "Run by Trieste Terminal Passeggeri, which describes the Stazione Marittima as having two cruise berths. Up to two large ships can berth at once. About 0.2 km and 2–5 minutes' walk to Piazza Unità d'Italia. Taxis wait at the terminal."
+  },
+  {
+   "name": "Pier 57 (Trieste Marine Terminal, Via della Rampa)",
+   "distanceToCentreKm": null,
+   "notes": "An industrial berth that some sailings, including some Norwegian Cruise Line calls, have been assigned. It is not a sensible walk; use a taxi or the ship's shuttle if one is offered. Check your cruise documents for the pier."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.2,
+  "detail": "From the Stazione Marittima walk along the flat waterfront to Piazza Unità d'Italia in 2–5 minutes. Trieste Centrale railway station is about 15 minutes' walk. The old town and San Giusto are uphill on steep lanes and steps. If your ship is at Pier 57, do not plan to walk."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "2–5 min to Piazza Unità",
+   "detail": "Turn along the waterfront (the Rive) to Piazza Unità. The Canal Grande, Borgo Teresiano, the Roman Theatre and the climb to San Giusto are all reachable on foot from there."
+  },
+  {
+   "mode": "Bus 6 to Miramare Castle",
+   "cost": "TPL FVG urban fare; check current price on the tplfvg.it site or at a ticket outlet",
+   "time": "Allow for summer crowding",
+   "detail": "Board near the railway station at the stop 'viale Miramare 5 (piazza Libertà, FS)' and get off at 'SS 14 Centro di fisica, castello Miramare'. You can tap a contactless card or phone on the on-board device to pay. In summer bus 6 gets very crowded; boarding earlier on the route (Via Carducci or Via Battisti) helps."
+  },
+  {
+   "mode": "Opicina tram (line 2)",
+   "cost": "TPL FVG fare; check before travelling",
+   "time": "Check the current timetable",
+   "detail": "The historic tram to the Karst plateau reopened on 27 July 2026 after years of closure. For now it starts from Piazza Dalmazia rather than Piazza Oberdan, which is being redeveloped. Capacity is limited to seated passengers inside the car, so queues are possible."
+  },
+  {
+   "mode": "Boat (Delfino Verde summer lines and the Muggia line)",
+   "cost": "Fares set by the region for 2026; tickets on board, on the operator's website or in the GlimbleFVG app",
+   "time": "Check the published timetable",
+   "detail": "The Trieste–Muggia line runs all year. In 2026 the summer line to Barcola, Grignano (for Miramare) and Sistiana runs from 25 April to 4 October. Boats leave from Riva Nazario Sauro on the waterfront. From Grignano it is about 15 minutes' walk uphill to the Miramare area, or take bus 6."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; ask for an estimate first",
+   "time": "About 4 min from Trieste Centrale to the terminal",
+   "detail": "Taxis wait at the terminal. On multi-ship days give the driver the ship name and the pier name."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the terminal 60 minutes before all-aboard if you stay in the city. If you go to Miramare or Opicina, leave there at least 2 hours before all-aboard.",
+  "detail": "The city centre is so close that the main risk is losing track of time in a café. Bus 6 can be full in summer and you may have to wait for the next one, and the Opicina tram runs with limited capacity. If your ship is at Pier 57, add time for the taxi or shuttle back.",
+  "emergencyFallback": "From Miramare, take a taxi back to the Stazione Marittima rather than waiting for a full bus. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Miramare Castle",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Bus 6 plus €17 museum and exhibition ticket (2026); park free",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "City walking tour",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot from the terminal",
+   "saving": "The full excursion price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship's tour for Trieste itself: the centre starts at the terminal and is easy to explore alone. Miramare is a simple independent trip by bus 6 or boat. Ship tours earn their price for Ljubljana (about two hours each way), Venice (about two hours each way) or the Karst caves, where a coach delay could otherwise leave you racing for all-aboard.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at the Stazione Marittima and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship along the waterfront to Piazza Unità d'Italia (2–5 minutes). Walk out on Molo Audace for the view back at the square."
+   },
+   {
+    "time": "09:15",
+    "what": "Coffee at Caffè San Marco on Via Battisti. Order a 'capo in b', Trieste's small glass of espresso with milk."
+   },
+   {
+    "time": "09:45",
+    "what": "Walk to the railway station area and take bus 6 to Miramare."
+   },
+   {
+    "time": "10:30",
+    "what": "Miramare Castle (opens 09:00) and its free park."
+   },
+   {
+    "time": "12:30",
+    "what": "Bus 6 back to the centre."
+   },
+   {
+    "time": "13:15",
+    "what": "Lunch, for example at Buffet da Pepi (boiled meats and sandwiches)."
+   },
+   {
+    "time": "14:15",
+    "what": "Roman Theatre, then climb to San Giusto Cathedral and the castle bastions for the view."
+   },
+   {
+    "time": "15:30",
+    "what": "Walk down to the Canal Grande and Borgo Teresiano."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Piazza Unità d'Italia",
+   "why": "A large square open to the sea on one side, lined with 18th- and 19th-century palaces.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "It is 2–5 minutes from the terminal, so it also works as a last stop before reboarding."
+  },
+  {
+   "name": "Molo Audace",
+   "why": "A pier running into the Adriatic opposite Piazza Unità, with views back over the city.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "Windy when the bora blows; hold on to hats."
+  },
+  {
+   "name": "Miramare Castle and park",
+   "why": "A 19th-century castle built for Archduke Ferdinand Maximilian on a headland about 8 km north-west of the centre, with its rooms preserved and a large seaside park.",
+   "timeNeeded": "3 hours including travel",
+   "cost": "€17 museum and exhibition; park free; free on the first Sunday of the month and for under-18s (2026)",
+   "tip": "Castle open daily 09:00–19:00, last tickets 18:30. The park closes at 17:00 from 15 to 31 October and at 16:00 in November and December. Electric shuttles run inside the park."
+  },
+  {
+   "name": "Castle and Cathedral of San Giusto",
+   "why": "The hilltop castle holds the civic armoury, a stone inscriptions collection and three bastions with views over the city and gulf; the Romanesque cathedral stands beside it.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Check at the ticket desk",
+   "tip": "Castle closed on Mondays; open Tuesday to Sunday 10:00–16:30. The walk up is steep."
+  },
+  {
+   "name": "Roman Theatre",
+   "why": "A 1st-century AD theatre in the city centre that once held about 6,000 people.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free to view from the street",
+   "tip": "Combine it with the climb to San Giusto, which starts nearby."
+  },
+  {
+   "name": "Canal Grande and Borgo Teresiano",
+   "why": "The 18th-century grid district around a short canal, with the James Joyce statue nearby.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Good café and lunch area, a few minutes north of Piazza Unità."
+  },
+  {
+   "name": "Caffè San Marco",
+   "why": "A literary café founded in 1914, part of Trieste's coffee-house tradition.",
+   "timeNeeded": "30 minutes",
+   "cost": "Price of a coffee",
+   "tip": "On Via Battisti, which is also on the bus 6 route if you board early to avoid the crowds."
+  },
+  {
+   "name": "Opicina tram",
+   "why": "A historic tram climbing from the city to the Karst plateau, back in service since 27 July 2026.",
+   "timeNeeded": "Half a day at most; check the timetable",
+   "cost": "TPL FVG fare; check before travelling",
+   "tip": "Departs from Piazza Dalmazia for now. Seats only inside the car, so you may wait."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Barcola seafront",
+   "howToGetThere": "Bus 6 north along the coast road, or the Delfino Verde summer boat (stop: Barcola)",
+   "time": "Short bus or boat ride",
+   "cost": "Bus or boat fare; the promenade is free",
+   "note": "A long concrete and pebble promenade where locals swim and sunbathe, not a sandy beach."
+  },
+  {
+   "name": "Grignano (below Miramare)",
+   "howToGetThere": "Delfino Verde summer boat to Grignano, or bus 6",
+   "time": "About 15 minutes' walk uphill from the boat stop to the Miramare area",
+   "cost": "Boat or bus fare",
+   "note": "Combine a swim with the castle visit. Summer boat runs 25 April to 4 October in 2026."
+  },
+  {
+   "name": "Sistiana",
+   "howToGetThere": "Delfino Verde summer boat from Riva Nazario Sauro",
+   "time": "Check the published timetable",
+   "cost": "Boat fare",
+   "note": "Only on a long call, and only with a confirmed return sailing well before all-aboard."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Capo in b (espresso with milk in a small glass)",
+   "where": "Caffè San Marco, Via Battisti",
+   "price": null
+  },
+  {
+   "dish": "Boiled meats and buffet sandwiches",
+   "where": "Buffet da Pepi (city centre)",
+   "price": null
+  },
+  {
+   "dish": "Jota (bean and sauerkraut soup)",
+   "where": "Trattorias and buffets in the city centre",
+   "price": null
+  },
+  {
+   "dish": "Strudel and Central European pastries",
+   "where": "Eppinger Caffè (Via Dante area) and cafés around Piazza Unità",
+   "price": null
+  },
+  {
+   "dish": "Gelato",
+   "where": "Gelateria Zampolli (near Trieste Centrale)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Booking a 'Venice' port day and expecting to walk to St Mark's.",
+   "fix": "Trieste is about two hours from Venice by road. Treat a Venice trip as a full-day ship excursion or skip it."
+  },
+  {
+   "mistake": "Assuming your ship is at the Stazione Marittima.",
+   "fix": "Most are, but some sailings use Pier 57 (Trieste Marine Terminal), which is industrial and not walkable. Check your cruise documents."
+  },
+  {
+   "mistake": "Leaving Miramare on the last bus that should just make it.",
+   "fix": "Bus 6 fills up in summer. Leave Miramare at least 2 hours before all-aboard, or take a taxi."
+  },
+  {
+   "mistake": "Planning the San Giusto castle for a Monday.",
+   "fix": "The castle museum is closed on Mondays. Visit the cathedral and bastion views from outside instead, or swap in Miramare, which opens daily."
+  },
+  {
+   "mistake": "Going to Piazza Oberdan for the Opicina tram.",
+   "fix": "Since the July 2026 reopening the tram starts from Piazza Dalmazia while Piazza Oberdan is rebuilt."
+  }
+ ],
+ "safety": "Trieste is a safe, orderly city for visitors. The usual care with bags and phones applies in crowded places and on full buses. The main physical hazards are the steep, sometimes slippery lanes up to San Giusto and the bora, a strong north-east wind that can make the waterfront and Molo Audace hard to walk on. Do not swim off the cruise berths or busy harbour quays; use the Barcola promenade or the Grignano area.",
+ "scams": [
+  "Fake cruise parking websites: the terminal operator warns that its own booking site is the only official cruise parking, and that fraudulent pages exist. Verify the operator before paying.",
+  "Unverified off-site parking or valet offers: check the operator, address, shuttle arrangements and cancellation terms before booking."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The route from the Stazione Marittima to Piazza Unità is short and flat, and the waterfront, the square, the Canal Grande and Borgo Teresiano are level. San Giusto hill is steep with steps and is hard for wheelchair users. Miramare's park has electric shuttles to the castle and the upper park. Request wheelchair or porter help at the terminal through your cruise line in advance. If your ship is at Pier 57, ask about accessible transfers.",
+ "rainyDay": "Spend the time in Miramare Castle's rooms, the Revoltella modern art museum, the civic natural history museum or the San Giusto castle museum (closed Mondays). The historic cafés, Caffè San Marco above all, are built for long rainy stops. Avoid Molo Audace and the waterfront if the bora is blowing.",
+ "crowdTips": "Up to two large ships can berth at once, and multi-ship days raise taxi demand and fill restaurants. Piazza Unità absorbs crowds easily, but bus 6 to Miramare is the bottleneck in summer: board early on the route or go first thing. Reserve lunch on weekends and multi-ship days. The Opicina tram runs with reduced capacity, so expect waits.",
+ "faqs": [
+  {
+   "q": "Is Trieste walkable from the cruise port?",
+   "a": "Yes. The Stazione Marittima is about 200 m from Piazza Unità d'Italia, a 2–5 minute flat walk."
+  },
+  {
+   "q": "Where do cruise ships dock in Trieste?",
+   "a": "Most use the Stazione Marittima on Molo dei Bersaglieri, which has two cruise berths. Some sailings are assigned Pier 57 (Trieste Marine Terminal), which needs a taxi or shuttle."
+  },
+  {
+   "q": "Is Trieste a tender port?",
+   "a": "No. Ships berth alongside on the city waterfront."
+  },
+  {
+   "q": "How do I get from Trieste cruise port to Miramare Castle?",
+   "a": "Take bus 6 from the stop near the railway station (viale Miramare, piazza Libertà) to 'castello Miramare', or the Delfino Verde summer boat to Grignano. The castle opens daily 09:00–19:00 (2026)."
+  },
+  {
+   "q": "Is Trieste cruise port the same as Venice?",
+   "a": "No. Venice is about 150 km away, roughly two hours by road."
+  },
+  {
+   "q": "What can I do in Trieste in one day from a cruise ship?",
+   "a": "Piazza Unità and Molo Audace, a historic café, Miramare Castle by bus, then the Roman Theatre, San Giusto and the Canal Grande."
+  },
+  {
+   "q": "Beaches near Trieste cruise port",
+   "a": "Barcola's promenade is the nearest swimming spot, reached by bus 6 or summer boat. It is concrete and pebbles, not sand."
+  },
+  {
+   "q": "Is Trieste safe?",
+   "a": "Yes. Watch your footing on San Giusto's steep lanes and on the waterfront when the bora blows."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Piazza Unità d'Italia"
+  },
+  {
+   "name": "Miramare Castle"
+  },
+  {
+   "name": "Castle and Cathedral of San Giusto"
+  },
+  {
+   "name": "Roman Theatre"
+  },
+  {
+   "name": "Canal Grande"
+  },
+  {
+   "name": "Molo Audace"
+  },
+  {
+   "name": "Caffè San Marco"
+  },
+  {
+   "name": "Opicina tram"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Trieste Terminal Passeggeri – official site (Stazione Marittima, cruise parking)",
+   "url": "https://www.triesteterminal.it/"
+  },
+  {
+   "title": "Trieste Terminal Passeggeri – public transport (maritime links)",
+   "url": "https://www.triesteterminal.it/trasporto-pubblico/"
+  },
+  {
+   "title": "Museo Storico e Parco del Castello di Miramare – tickets and hours",
+   "url": "https://miramare.cultura.gov.it/en/acquista/"
+  },
+  {
+   "title": "Museo Storico e Parco del Castello di Miramare – visitor information",
+   "url": "https://miramare.cultura.gov.it/en/?p=12767"
+  },
+  {
+   "title": "TPL FVG – fares and ticket rules",
+   "url": "https://tplfvg.it/en/fares"
+  },
+  {
+   "title": "Regione Friuli Venezia Giulia – maritime services 2026",
+   "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA108"
+  },
+  {
+   "title": "Discover Trieste (PromoTurismoFVG) – getting around by bus and tram",
+   "url": "https://www.discover-trieste.it/organize/getting-around-trieste/by-bus-and-tram"
+  },
+  {
+   "title": "Italia.it – Castello di San Giusto",
+   "url": "https://www.italia.it/it/friuli-venezia-giulia/trieste/musei/castello-di-san-giusto"
+  },
+  {
+   "title": "Holland America – Trieste port and terminal information",
+   "url": "https://www.hollandamerica.com/en/plan-a-cruise/get-ready-for-your-cruise/cruise-ports-and-hotels/trieste-venice-italy"
+  },
+  {
+   "title": "MSC Cruises – Trieste",
+   "url": "https://www.msccruises.ca/plan-a-cruise/destinations/mediterranean/italy-cruises/trieste"
+  },
+  {
+   "title": "Cruise Deals, Tips & Tricks – Trieste cruise port guide (May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/trieste/"
+  },
+  {
+   "title": "CruiseDig – Trieste, Italy",
+   "url": "https://cruisedig.com/ports/trieste-italy"
+  },
+  {
+   "title": "SISSA – How to reach us (bus 6 and boat to Miramare, 2026)",
+   "url": "https://indico.sissa.it/event/175/page/263-how-to-reach-us"
+  },
+  {
+   "title": "SiViaggia – Trieste–Opicina tram reopens (July 2026)",
+   "url": "https://siviaggia.it/notizie/tram-trieste-opicina-riapre-linea/596219/"
+  },
+  {
+   "title": "InTrieste – Norwegian Cruise Line returns with 11 calls in 2026",
+   "url": "https://intrieste.com/2026/05/16/trieste-cruise-terminal-to-see-return-of-norwegian-cruise-line-with-11-calls-in-2026/"
+  },
+  {
+   "title": "Bolsover Cruise Club – Things to do in Trieste",
+   "url": "https://bcc.bolsovercruiseclub.com/cruise-news/things-to-do-in-trieste"
+  }
+ ],
+ "uncertain": [
+  "Current Trieste urban bus single fare: one undated source gives €1.35 in advance and €1.80 on board; not confirmed on an official 2026 fare page.",
+  "Taxi fares from the terminal to Miramare (only undated third-party estimates found).",
+  "Bus 6 journey time to Miramare and the Trieste–Muggia boat crossing time and fare.",
+  "Adult ticket price for the Castello di San Giusto museum and whether the cathedral charges entry.",
+  "Opicina tram 2026 timetable and fare.",
+  "Typical all-aboard time for Trieste calls (day plan assumes 17:30)."
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "slug": "limassol",
+ "city": "Limassol",
+ "portName": "Limassol cruise terminal, New Port",
+ "townName": "the old town and Old Port",
+ "country": "Cyprus",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Greek (English widely spoken)",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Limassol cruise port guide: New Port to the old town",
+ "seoDescription": "Ships dock at Limassol New Port, 4–5 km west of the old town. Taxi 10–15 min or bus 30 (€2 by day, 2026). Castle €4.50, Kourion €4.50, 19 km west.",
+ "quickAnswer": "Ships dock alongside the cruise terminal in Limassol's New Port, about 4–5 km west of the old town, and the walk is not worth making. Take the ship's shuttle if offered, a metered taxi (about 10–15 minutes), or bus 30 (€2 by day, 2026). Leave the old town 90 minutes before all-aboard by taxi or shuttle, 2 hours by bus.",
+ "intro": "Limassol's cruise terminal sits in the working New Port, west of the city, so every visit starts with a short ride. The old town is compact: a medieval castle with a museum, the stone warehouses of the Old Port, the Molos seafront with its sculpture park and the pedestrian shopping street of Agiou Andreou. The bigger draw for many passengers is Kourion, a Greco-Roman city on the coast 19 km west, which pairs well with Kolossi Castle on the way. Cars drive on the left, the sun is strong for much of the year, and the castle closes at 13:00 on Sundays.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Limassol cruise terminal (East Berth, New Port)",
+   "distanceToCentreKm": 4.5,
+   "notes": "Run by DP World Limassol and opened in 2018. The East Berth is 480 m long and takes the largest cruise ships. The terminal has a tourist information desk and currency exchange. Taxis wait when a ship is in. Sources give 4 to 5 km to the old town."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 4.5,
+  "detail": "The old town is 4–5 km away through the port area and along a busy road. The walk is not attractive, especially in summer heat. Use the shuttle, a taxi or bus 30. Once in the old town, the castle, Old Port, Molos and market are all walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "Ship's shuttle bus",
+   "cost": "Varies by line; check your daily programme",
+   "time": "About 10–15 min",
+   "detail": "Many lines run a shuttle from the berth to the Old Port or marina area. On some calls it is free, on others paid."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; ask for an estimate before you set off",
+   "time": "About 10–15 min to the old town",
+   "detail": "Taxis wait at the port when a ship is in. Urban taxis must run the meter for the whole journey; ask for a receipt if you want one. Fares are higher at night (from 20:30), on public holidays and with luggage. For Kourion and Kolossi, agree a fare for the round trip, including waiting time."
+  },
+  {
+   "mode": "Bus 30 (EMEL Limassol buses)",
+   "cost": "€2 single by day (2026)",
+   "time": "Check the timetable; buses can be slow",
+   "detail": "Route 30 runs along the coast road between My Mall in the west and the hotel area near Amathus in the east, serving the New Port and the city on the way. Buy tickets from the driver. Buses can be slow and are not always on time, so do not rely on one for the return."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. From the old town, leave 90 minutes before all-aboard by taxi or shuttle and 2 hours before by bus. From Kourion or Kolossi, leave 2 hours before.",
+  "detail": "The ride from the old town is short, but the shuttle queue and the final shuttle time matter more than the distance. Check the time of the last shuttle on your daily programme, and set your phone to the ship's time.",
+  "emergencyFallback": "If the shuttle is full or a bus does not come, take a taxi from a rank in the old town. If you will miss all-aboard, call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Kourion and Kolossi Castle",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi plus entry €4.50 (Kourion) and €2.50 (Kolossi), 2026",
+   "saving": "Can be large for a group of three or four sharing a taxi"
+  },
+  {
+   "item": "Limassol old town",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Shuttle, taxi or bus 30 (€2), castle €4.50 (2026)",
+   "saving": "Usually large"
+  }
+ ],
+ "excursionAdvice": "The old town needs no tour: take the shuttle or a taxi and walk. For Kourion and Kolossi, a taxi for a small group works well if you agree the fare and waiting time first. A ship's tour is worth it for longer trips such as the Troodos mountains or Paphos, or if you want a guide to explain Kourion's ruins.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00, all-aboard is 17:30, and the call is Monday to Saturday.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Off the ship. Taxi from the port to Kourion, 19 km west; agree the fare and waiting time first."
+   },
+   {
+    "time": "09:00",
+    "what": "Kourion: the theatre, the House of Eustolios mosaics and the agora. Entry €4.50 (2026). Allow 2 hours."
+   },
+   {
+    "time": "11:15",
+    "what": "Kolossi Castle on the way back, entry €2.50 (2026). Allow 45 minutes."
+   },
+   {
+    "time": "12:15",
+    "what": "Taxi to the old town. Drop off near the castle and Old Port."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch in the Old Port's converted stone warehouses or near the Municipal Market."
+   },
+   {
+    "time": "14:00",
+    "what": "Limassol Castle and the Cyprus Medieval Museum, €4.50 (2026)."
+   },
+   {
+    "time": "15:00",
+    "what": "Walk the Molos seafront and its sculpture park."
+   },
+   {
+    "time": "16:00",
+    "what": "Shuttle or taxi back to the port, 90 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Limassol Castle (Cyprus Medieval Museum)",
+   "why": "A fort in the heart of the old town above the old harbour, now the museum of medieval Cyprus; the basement cells were used as a prison until 1950.",
+   "timeNeeded": "1 hour",
+   "cost": "€4.50 (2026)",
+   "tip": "Open Monday to Saturday 09:00–17:00 and Sunday 10:00–13:00; closed on public holidays."
+  },
+  {
+   "name": "Kourion",
+   "why": "A Greco-Roman city on the coast with a theatre, mosaic houses such as the House of Eustolios, a Roman agora and an early Christian basilica.",
+   "timeNeeded": "2 hours plus travel",
+   "cost": "€4.50 (2026); Department of Antiquities one-day pass €8.50",
+   "tip": "About 19 km west of Limassol. Open daily 08:30–17:00 from mid-September to mid-April and 08:30–19:30 in summer. Bring water and a hat."
+  },
+  {
+   "name": "Kolossi Castle",
+   "why": "A medieval castle tower on the road to Paphos, a short stop that combines easily with Kourion.",
+   "timeNeeded": "45 minutes plus travel",
+   "cost": "€2.50 (2026)",
+   "tip": "About 14 km west of Limassol. Open daily 08:30–17:00 in winter and 08:30–19:30 from mid-April to mid-September."
+  },
+  {
+   "name": "Molos seafront and sculpture park",
+   "why": "The embankment east of the Old Port, once the town's meeting place, now an open-air sculpture park along the sea.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Best late in the afternoon when the heat drops."
+  },
+  {
+   "name": "Old Port",
+   "why": "The old harbour below the castle, where stone warehouses have been turned into restaurants and exhibition halls. The tourist information office is here.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "Many ships' shuttles stop in this area."
+  },
+  {
+   "name": "Old town: Agiou Andreou, the Municipal Market and the Great (Kepir) Mosque",
+   "why": "The traditional shopping street, now pedestrian, plus the covered market, the mosque and the Cathedral of Agia Napa, all a few minutes apart.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "A free guided walk leaves the Old Port tourist office on Thursdays at 10:00 (about 2.5 hours; book on +357 25362756)."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Dasoudi Beach (Germasogeia)",
+   "howToGetThere": "Taxi or bus along the coast road to the tourist area east of the centre",
+   "time": "Taxi ride from the old town",
+   "cost": "Free; sunbeds extra",
+   "note": "A 1 km Blue Flag beach with showers, changing rooms, sunbeds and lifeguards from April to October."
+  },
+  {
+   "name": "Kourion Beach",
+   "howToGetThere": "Taxi, combined with a visit to the Kourion site",
+   "time": "About 19 km west of Limassol",
+   "cost": "Free; sunbeds extra",
+   "note": "A 1 km Blue Flag beach in Episkopi Bay with fish taverns, showers and lifeguards from April to October. Leave 2 hours before all-aboard."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fresh produce, cheese and snacks",
+   "where": "Limassol Municipal Market, old town",
+   "price": null
+  },
+  {
+   "dish": "Seafood and Cypriot meze",
+   "where": "Restaurants in the converted warehouses of the Old Port",
+   "price": null
+  },
+  {
+   "dish": "Fish",
+   "where": "Fish taverns on Kourion Beach",
+   "price": null
+  },
+  {
+   "dish": "Cafés and snacks",
+   "where": "Agiou Andreou pedestrian street, old town",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk from the ship to the old town.",
+   "fix": "It is 4–5 km through the port and along a busy road. Take the shuttle, a taxi or bus 30."
+  },
+  {
+   "mistake": "Relying on the bus to get back.",
+   "fix": "Buses can be slow and are not always on time. Use the shuttle or a taxi for the return, or leave the old town 2 hours before all-aboard if you take bus 30."
+  },
+  {
+   "mistake": "Taking a taxi to Kourion without agreeing the return.",
+   "fix": "Agree the fare, waiting time and pick-up time before you set off, and leave Kourion 2 hours before all-aboard."
+  },
+  {
+   "mistake": "Looking the wrong way when crossing the road.",
+   "fix": "Cyprus drives on the left. Take care on the seafront road."
+  },
+  {
+   "mistake": "Planning the castle for a Sunday afternoon.",
+   "fix": "On Sundays it opens only 10:00–13:00. Go in the morning or visit Kourion, which opens daily."
+  }
+ ],
+ "safety": "Crime against tourists is not common, but keep valuables secure in busy areas. Buy your own drinks and keep sight of them: the UK government warns of drink spiking. Cars drive on the left and driving standards are poor, so cross roads with care. Bathing is generally safe, but there can be strong waves and currents; swim only on approved beaches and follow the signs. The sun is strong and wildfire risk is high from April to October. Do not photograph military sites.",
+ "scams": [
+  "Car hire firms asking for your passport as a deposit: the UK government says this is illegal and you should never hand it over."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "Ships berth alongside the terminal, and taxis wait outside. The walk to town is not practical, so use the shuttle or a taxi. Dasoudi and Kourion beaches are listed with disabled access. Kourion is a large open site with uneven ground and little shade. Agiou Andreou in the old town is pedestrian.",
+ "rainyDay": "On a wet or very hot day, spend longer in the old town: the Cyprus Medieval Museum in the castle, the covered Municipal Market and the cafés of the Old Port warehouses. Kourion is fully exposed, so leave it for a dry, cooler day.",
+ "crowdTips": "The first shuttles after the ship arrives are the busiest; going later in the morning, or taking a taxi straight to Kourion, avoids the queue. Kourion opens at 08:30 and is coolest early. On a day with several ships in port, expect queues for the last shuttles back.",
+ "faqs": [
+  {
+   "q": "Is Limassol walkable from the cruise port?",
+   "a": "No. The terminal is in the New Port, 4–5 km from the old town, and the walk is not pleasant. Take the shuttle, a taxi or bus 30."
+  },
+  {
+   "q": "How do I get from Limassol cruise port to the old town?",
+   "a": "Take your ship's shuttle if it runs, a metered taxi (about 10–15 minutes), or bus 30 (€2 by day, 2026)."
+  },
+  {
+   "q": "Is Limassol a tender port?",
+   "a": "No. Ships dock alongside the cruise terminal in the New Port."
+  },
+  {
+   "q": "How far is Kourion from Limassol cruise port?",
+   "a": "Kourion is about 19 km west of Limassol. Most people go by taxi or on a tour; entry is €4.50 (2026)."
+  },
+  {
+   "q": "What can I do in Limassol in one day from a cruise ship?",
+   "a": "Kourion and Kolossi Castle in the morning, then Limassol Castle, the Old Port and the Molos seafront, back 90 minutes before all-aboard."
+  },
+  {
+   "q": "Beaches near Limassol cruise port",
+   "a": "Dasoudi Beach in the tourist area east of the centre and Kourion Beach 19 km west are both Blue Flag beaches with lifeguards from April to October."
+  },
+  {
+   "q": "Is there a shuttle from Limassol cruise port?",
+   "a": "Many lines run a shuttle to the Old Port or marina area, sometimes free, sometimes paid. Check your daily programme."
+  },
+  {
+   "q": "Is Limassol safe?",
+   "a": "Yes, generally. Watch your drinks at night, take care crossing roads (traffic drives on the left) and respect beach warning signs."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Kourion"
+  },
+  {
+   "name": "Limassol Castle"
+  },
+  {
+   "name": "Kolossi Castle"
+  },
+  {
+   "name": "Molos seafront"
+  },
+  {
+   "name": "Limassol Old Port"
+  },
+  {
+   "name": "Dasoudi Beach"
+  },
+  {
+   "name": "Kourion Beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Visit Cyprus – Lemesos (Limassol) Medieval Castle",
+   "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/"
+  },
+  {
+   "title": "Visit Cyprus – Kourion Archaeological Site",
+   "url": "https://www.visitcyprus.com/discover-cyprus/rural/sites-monuments/kourion-archaeological-site-2/"
+  },
+  {
+   "title": "Visit Cyprus – Kolossi Medieval Castle",
+   "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/kolossi-medieval-castle/"
+  },
+  {
+   "title": "Visit Cyprus – Local Archaeological Kourion Museum, Episkopi",
+   "url": "https://www.visitcyprus.com/?p=468738"
+  },
+  {
+   "title": "Visit Cyprus – Kourion Beach (Blue Flag)",
+   "url": "https://www.visitcyprus.com/discover-cyprus/sun-sea/beaches/kourion-beach-blue-flag/"
+  },
+  {
+   "title": "Visit Cyprus – Dasoudi Beach (Blue Flag)",
+   "url": "https://www.visitcyprus.com/discover-cyprus/sun-sea/beaches/dasoudi-beach-blue-flag/"
+  },
+  {
+   "title": "Visit Cyprus – A stroll in Neapolis, Nemesos, Limassol (free guided walk)",
+   "url": "https://www.visitcyprus.com/discover-cyprus/routes/guided-tours/a-stroll-in-neapolis-nemesos-limassol-lemesos/"
+  },
+  {
+   "title": "Visit Cyprus – Guide to taxi service in Cyprus (PDF)",
+   "url": "https://www.visitcyprus.com/files/PracticalInfo/transportation/guide_taxi_service_cyprus_6120115_EN.pdf"
+  },
+  {
+   "title": "GOV.UK – Cyprus travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/cyprus/safety-and-security"
+  },
+  {
+   "title": "Cyprus Mail – Bus fare hike to go live in August (20 July 2026)",
+   "url": "https://cyprus-mail.com/2026/07/20/bus-fare-hike-to-go-live-in-august"
+  },
+  {
+   "title": "Limassol Tourism – Buses",
+   "url": "https://www.limassoltourism.com/buses/"
+  },
+  {
+   "title": "Cyprus by Bus",
+   "url": "https://www.cyprusbybus.com/"
+  },
+  {
+   "title": "Gulf News – DP World opens Limassol passenger terminal (2018)",
+   "url": "https://gulfnews.com/business/dp-world-opens-limassol-passenger-terminal-1.2216304"
+  },
+  {
+   "title": "Cruise Critic – Limassol port",
+   "url": "https://www.cruisecritic.com/en-gb/find-a-cruise/port-limassol"
+  },
+  {
+   "title": "App Savvy Traveller – Limassol cruise port guide (October 2026)",
+   "url": "https://appsavvytraveller.com/limassol-cruise-port-guide/"
+  }
+ ],
+ "uncertain": [
+  "Current official Limassol taxi tariff (the official taxi guide is undated and an unofficial 2026 guide gives different figures)",
+  "Bus 30 timetable, frequency and the exact stop nearest the cruise terminal",
+  "Limassol bus day-ticket and night fares, and a reported fare rise from 5 November 2026 (unofficial source only)",
+  "Whether the Department of Antiquities pass covers Limassol Castle",
+  "Typical all-aboard time for Limassol calls",
+  "Whether the Kourion local museum in Episkopi has reopened (closed for works from 1 August 2026)"
+ ]
+}

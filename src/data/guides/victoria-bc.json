@@ -1,0 +1,349 @@
+{
+ "slug": "victoria-bc",
+ "city": "Victoria",
+ "portName": "Victoria Cruise Ship Terminal, Ogden Point",
+ "townName": "the Inner Harbour",
+ "country": "Canada",
+ "currency": "CAD",
+ "currencySymbol": "C$",
+ "language": "English",
+ "timezone": "PST (UTC−8), PDT (UTC−7) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Victoria cruise port guide: Ogden Point to Inner Harbour",
+ "seoDescription": "Ogden Point is 2.4 km from Victoria's Inner Harbour: a 20–30 min walk or shuttle from US$10. Butchart Gardens is 22 km away, an hour by bus 75 at C$2.50.",
+ "quickAnswer": "Ships dock at Ogden Point in the Breakwater District, so there is no tender. The Inner Harbour is about 2.4 km away: a flat 20–30 minute walk through James Bay, or a 5–7 minute shuttle for US$10 one way or US$13 all day. Leave the Inner Harbour 90 minutes before all-aboard on foot, and allow three hours if you go to Butchart Gardens by bus.",
+ "intro": "Victoria is Canada's busiest cruise port of call, with 335 ship calls expected in 2026, and often the last stop on round trips from Seattle. Ships berth at Ogden Point, at the base of a 762-metre breakwater, and the Inner Harbour, Parliament Buildings, Fairmont Empress and Royal BC Museum are a flat walk away along Dallas Road and through James Bay. The big decision is Butchart Gardens, 22 km north: worthwhile, but it takes most of a short call. Some calls are in the evening, which changes what is open.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Victoria Cruise Ship Terminal, Ogden Point (Breakwater District)",
+   "distanceToCentreKm": 2.4,
+   "notes": "Ships berth alongside (Pier B is one of the berths used). The terminal has gift shops, a currency exchange and a visitor information area, and volunteers hand out maps. Shuttles, taxis, pedicabs and tour buses, including to Butchart Gardens, leave from the terminal."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 30,
+  "km": 2.4,
+  "detail": "A flat walk of about 2.4 km (1.5 miles), 20–30 minutes, via Dallas Road, Kingston Street and Belleville Street through the James Bay neighbourhood to the Inner Harbour. Fisherman's Wharf is close to the route. The breakwater walk to the lighthouse starts at the terminal and is about 0.8 km each way."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "20–30 minutes to the Inner Harbour",
+   "detail": "Follow Dallas Road along the shore, then Kingston and Belleville Streets. Flat and pavemented. Good walking shoes help if you also plan the breakwater."
+  },
+  {
+   "mode": "Cruise shuttle to downtown",
+   "cost": "US$10 one way, US$13 all-day (listed 2026)",
+   "time": "5–7 minutes",
+   "detail": "Leaves from the terminal about every 15 minutes and runs to downtown Victoria. Confirm the current fare and the downtown stop at the terminal."
+  },
+  {
+   "mode": "Taxi or Uber",
+   "cost": "About C$60–65 to Butchart Gardens (2026)",
+   "time": "About 10 minutes to downtown",
+   "detail": "Cabs wait outside the terminal; most seat four. Uber has operated on Vancouver Island since June 2023."
+  },
+  {
+   "mode": "BC Transit bus 75 to Butchart Gardens",
+   "cost": "C$2.50 a ride, C$5 day pass (2026); exact cash, Canadian or US, no change",
+   "time": "50–60 minutes from downtown",
+   "detail": "Board on Belleville Street at Government Street, beside the Fairmont Empress, or along Douglas Street. Some afternoon commuter trips do not go to the Gardens; check the destination sign or ask the driver."
+  },
+  {
+   "mode": "Butchart Gardens shuttle (from downtown)",
+   "cost": "Check with Sightseeing Victoria (CVS)",
+   "time": "Varies",
+   "detail": "Leaves daily from in front of the Empress Hotel at Humboldt and Government Streets. No reservation needed."
+  }
+ ],
+ "returnTiming": {
+  "rule": "On foot, leave the Inner Harbour 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). By shuttle, be at the downtown stop 85 minutes before. From Butchart Gardens by bus, leave the Gardens three hours before all-aboard.",
+  "detail": "The walk back takes up to 30 minutes, and Dallas Road is exposed in wind and rain. The bus from Butchart takes 50–60 minutes to downtown, after which you still need the shuttle or a 30-minute walk to Ogden Point. Some afternoon route 75 trips do not serve the Gardens.",
+  "emergencyFallback": "From Butchart Gardens take a taxi or Uber direct to Ogden Point (about C$60–65 and 35–45 minutes in normal traffic). From downtown a taxi takes about 10 minutes. If you will miss all-aboard, call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Butchart Gardens",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Shuttle US$10 + bus C$2.50 each way + admission (C$36.75 adult in October 2026; summer rates differ)",
+   "saving": "Depends on season and line"
+  },
+  {
+   "item": "Inner Harbour and Parliament",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk free; Parliament tours free",
+   "saving": "The full excursion price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for downtown: the Inner Harbour is a flat 30-minute walk and the Parliament tour is free. Butchart Gardens is where a ship or packaged tour earns its price on a short or evening call, because the round trip takes two hours or more by public bus and the ship guarantees the return. On a long daytime call, the bus 75 is a reliable cheap alternative if you leave the Gardens three hours before all-aboard.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Ogden Point at 08:00 and all-aboard is 17:30, on a weekday.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk the breakwater to the lighthouse and back (about 0.8 km each way)."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk along Dallas Road and through James Bay to the Inner Harbour (20–30 minutes), passing close to Fisherman's Wharf."
+   },
+   {
+    "time": "09:45",
+    "what": "Free guided tour of the Parliament Buildings (about 40 minutes; check the tour desk for that week's times)."
+   },
+   {
+    "time": "11:00",
+    "what": "Royal BC Museum, next to the Parliament Buildings (opens 10:00). Allow about two hours."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch, then walk along Government Street for shops."
+   },
+   {
+    "time": "14:30",
+    "what": "Walk back towards Ogden Point via Fisherman's Wharf for fish and chips or an ice cream."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Inner Harbour and the Fairmont Empress",
+   "why": "The city's waterfront centre, with seaplanes, the causeway and the Empress hotel.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free",
+   "tip": "On an evening call, the Parliament Buildings are lit after dark."
+  },
+  {
+   "name": "Parliament Buildings (BC Legislature)",
+   "why": "Seat of the provincial legislature on the Inner Harbour, with free guided tours.",
+   "timeNeeded": "40–60 minutes",
+   "cost": "Free (2026)",
+   "tip": "Open Monday to Friday 08:30–16:30; closed weekends and holidays. Tour times change weekly; arrive 10 minutes early at the tour desk. Security screening applies."
+  },
+  {
+   "name": "Royal BC Museum",
+   "why": "Natural and human history of British Columbia, including Old Town, between the Empress and the Parliament Buildings.",
+   "timeNeeded": "2 hours",
+   "cost": "C$32 adult, C$22 youth or senior, under 5 free (2026)",
+   "tip": "Open daily 10:00–18:00."
+  },
+  {
+   "name": "Butchart Gardens",
+   "why": "Large show gardens in a former quarry at Brentwood Bay, 22 km north of downtown.",
+   "timeNeeded": "4–5 hours including travel",
+   "cost": "C$36.75 adult, C$18.38 youth, C$3 child in October 2026, tax included; rates change by season",
+   "tip": "Gardens stay open for viewing an hour after the gates close. On an evening call, check closing time before you go."
+  },
+  {
+   "name": "Ogden Point Breakwater",
+   "why": "A barrier-free walk out to the lighthouse straight from the terminal, with the Unity Wall mural.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Do it first or last; it is next to the ship."
+  },
+  {
+   "name": "Fisherman's Wharf",
+   "why": "Floating homes and food kiosks on the harbour, with seals and seaplanes.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free to walk",
+   "tip": "Close to the walking route between Ogden Point and the Inner Harbour."
+  },
+  {
+   "name": "Craigdarroch Castle",
+   "why": "Victorian mansion museum on a hill east of downtown.",
+   "timeNeeded": "1.5–2 hours including travel",
+   "cost": "Check thecastle.ca",
+   "tip": "Listed as open Wednesday to Sunday, 10:00–16:30, in October 2026. Not walkable from the ship in a short call; take a taxi."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Halibut or cod and chips, chowder",
+   "where": "Barb's Fish & Chips, Fisherman's Wharf, 1 Dallas Road",
+   "price": null
+  },
+  {
+   "dish": "Oysters, steamed mussels, fish and chips",
+   "where": "The Fish Store and More, Fisherman's Wharf",
+   "price": null
+  },
+  {
+   "dish": "Baja-style fish tacos",
+   "where": "Puerto Vallarta Amigos, Fisherman's Wharf",
+   "price": null
+  },
+  {
+   "dish": "Ice cream",
+   "where": "Jackson's Ice Cream, Fisherman's Wharf",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to fit Butchart Gardens into a short call by public bus.",
+   "fix": "Allow 4–5 hours in total and leave the Gardens three hours before all-aboard, or take the ship's tour."
+  },
+  {
+   "mistake": "Getting on a route 75 bus that does not go to the Gardens.",
+   "fix": "Some afternoon commuter trips stop short. Check the destination sign or ask the driver."
+  },
+  {
+   "mistake": "Carrying only cards or large notes for the bus.",
+   "fix": "Pay the exact fare in coins or notes, Canadian or US; drivers give no change."
+  },
+  {
+   "mistake": "Planning a Parliament tour at the weekend.",
+   "fix": "Tours run Monday to Friday only, at times that change weekly."
+  },
+  {
+   "mistake": "Assuming everything is open on an evening call.",
+   "fix": "Museums and Parliament close in the late afternoon. On an evening call, walk the Inner Harbour and breakwater or visit Butchart's evening opening if your ship's tour goes there."
+  }
+ ],
+ "safety": "Victoria is generally safe for visitors. Take ordinary care with belongings around busy downtown streets in the evening. The breakwater is open to wind and spray, so take care in rough weather and stay on the walkway. Dallas Road and Belleville Street carry traffic; cross at marked crossings. Evenings can be cool even in summer.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "Ships berth alongside, so there is no tender. The route to the Inner Harbour is flat and paved. The Ogden Point breakwater is barrier-free. The Parliament Buildings have an accessible entrance beside the front steps. Taxis are mostly four-seaters; ask Yellow Cab, Blue Bird Cabs or Victoria Taxi for larger vehicles, or LA Limousines and Regent Limo. Check accessibility with your shuttle or tour operator before booking.",
+ "rainyDay": "Victoria has plenty under cover within walking distance of the Inner Harbour. Spend two hours in the Royal BC Museum, take the free Parliament tour on a weekday, and shop along Government Street. Craigdarroch Castle is a good indoor option by taxi. Butchart Gardens still opens in rain, but the travel time is the same and the visit is wetter.",
+ "crowdTips": "Victoria expects about a million cruise passengers across 335 calls in 2026, and peak weekends bring close to 30,000 in three days. On multi-ship days, the shuttle queues and the Inner Harbour fill first. Walk instead of queuing for the shuttle, visit the Royal BC Museum at opening, and do the breakwater when you first get off. Butchart Gardens is busiest when several ships' tours arrive together.",
+ "faqs": [
+  {
+   "q": "Is Victoria walkable from the cruise port?",
+   "a": "Yes. The Inner Harbour is about 2.4 km from Ogden Point, a flat 20–30 minute walk through James Bay."
+  },
+  {
+   "q": "How do I get from Victoria cruise port to downtown?",
+   "a": "Walk in 20–30 minutes, or take the shuttle (5–7 minutes, US$10 one way or US$13 all day in 2026). A taxi takes about 10 minutes."
+  },
+  {
+   "q": "Is Victoria a tender port?",
+   "a": "No. Ships berth alongside at Ogden Point."
+  },
+  {
+   "q": "Can I visit Butchart Gardens from a cruise ship in Victoria?",
+   "a": "Yes, by ship tour, shuttle, taxi or bus 75 (50–60 minutes from downtown, C$2.50). Allow 4–5 hours in total."
+  },
+  {
+   "q": "What can I do in Victoria in one day from a cruise ship?",
+   "a": "Walk the breakwater, then walk to the Inner Harbour for the Parliament tour and the Royal BC Museum, with fish and chips at Fisherman's Wharf on the way back."
+  },
+  {
+   "q": "Are the Parliament Buildings tours free?",
+   "a": "Yes. Guided tours last about 40 minutes, Monday to Friday, with times that change weekly."
+  },
+  {
+   "q": "What currency do I need in Victoria?",
+   "a": "Canadian dollars. Cards are widely accepted, and the terminal has a currency exchange. BC Transit drivers accept exact fares in Canadian or US cash."
+  },
+  {
+   "q": "Is Victoria safe?",
+   "a": "Yes. Take normal city precautions and care on the breakwater in rough weather."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Inner Harbour"
+  },
+  {
+   "name": "Butchart Gardens"
+  },
+  {
+   "name": "Parliament Buildings"
+  },
+  {
+   "name": "Royal BC Museum"
+  },
+  {
+   "name": "Fairmont Empress"
+  },
+  {
+   "name": "Ogden Point Breakwater"
+  },
+  {
+   "name": "Fisherman's Wharf"
+  },
+  {
+   "name": "Craigdarroch Castle"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Greater Victoria Harbour Authority – Cruise at Ogden Point",
+   "url": "https://gvha.ca/?p=7545"
+  },
+  {
+   "title": "Greater Victoria Harbour Authority – First cruise ship of 2026 arrives April 10",
+   "url": "https://gvha.ca/?p=12384"
+  },
+  {
+   "title": "The Butchart Gardens – Getting to the Gardens",
+   "url": "https://www.butchartgardens.com/visit/location"
+  },
+  {
+   "title": "The Butchart Gardens – How to get here (from the cruise terminal)",
+   "url": "https://www.butchartgardens.com/how-to-get-here/"
+  },
+  {
+   "title": "The Butchart Gardens – Hours and rates",
+   "url": "https://butchartgardens.com/hours-rates/"
+  },
+  {
+   "title": "Legislative Assembly of British Columbia – Public tours",
+   "url": "https://www.leg.bc.ca/index.php/visit/tour-information/public-tours"
+  },
+  {
+   "title": "Craigdarroch Castle – Visit information",
+   "url": "https://thecastle.ca/?p=4826"
+  },
+  {
+   "title": "Tourism Victoria – Barb's Fish & Chips",
+   "url": "https://tourismvictoria.com/eat-drink/restaurants/fish-chips/barbs-fish-chips"
+  },
+  {
+   "title": "Princess Cruises – Victoria, British Columbia cruise port",
+   "url": "https://www.princess.com/en-au/blog/victoria-british-columbia-cruise-port"
+  },
+  {
+   "title": "CTV News – Nearly 30,000 cruise passengers expected in Victoria (July 2026)",
+   "url": "https://www.ctvnews.ca/vancouver/vancouver-island/article/nearly-30000-cruise-passengers-expected-in-victoria-during-one-of-summers-busiest-weekends/"
+  },
+  {
+   "title": "Teaspoon of Adventure – What to expect at the Royal BC Museum (September 2026)",
+   "url": "https://teaspoonofadventure.com/?p=21727"
+  },
+  {
+   "title": "Capital Daily – A guide to dining at Victoria's Fisherman's Wharf",
+   "url": "https://www.capitaldaily.ca/news/a-guide-to-dining-at-victorias-fishermans-wharf"
+  },
+  {
+   "title": "Times Colonist – Canada's busiest cruise ship port",
+   "url": "https://www.timescolonist.com/magazines/canada-s-busiest-cruise-ship-port-key-to-region-s-healthy-tourism-sector-1.23297303"
+  },
+  {
+   "title": "Times Colonist – Shuttle bus deal signed as cruise season starts",
+   "url": "https://www.timescolonist.com/local-news/shuttle-bus-deal-signed-as-victorias-cruise-ship-season-starts-4621601"
+  }
+ ],
+ "uncertain": [
+  "Butchart Gardens summer (June–September) 2026 admission and gate hours: not shown on the official rates page when checked",
+  "Craigdarroch Castle admission price",
+  "Cruise shuttle operator name and downtown stop for 2026",
+  "How many Victoria calls are evening calls in a given season, and typical all-aboard (17:30 used as a default)",
+  "Fare for the Sightseeing Victoria (CVS) Butchart shuttle from downtown",
+  "Walking time from Ogden Point to Fisherman's Wharf"
+ ]
+}

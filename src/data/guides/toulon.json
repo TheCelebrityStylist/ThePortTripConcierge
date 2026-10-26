@@ -1,0 +1,365 @@
+{
+ "slug": "toulon",
+ "city": "Toulon",
+ "portName": "Port of Toulon (Toulon downtown and La Seyne-sur-Mer cruise terminals)",
+ "townName": "Toulon city centre",
+ "country": "France",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "French",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Toulon cruise port guide: La Seyne, waterbus and Faron",
+ "seoDescription": "Big ships dock at La Seyne, across the bay. The 8M waterbus to Toulon takes about 15–20 min for a €1.40 bus fare (2026). Faron cable car €9 return.",
+ "quickAnswer": "Toulon has two cruise terminals: a downtown one in the city centre for smaller ships, and La Seyne-sur-Mer across the bay for the largest. From La Seyne, take the ship's shuttle boat (about 10 minutes) or walk about 10 minutes to the Espace Marine stop for the public 8M waterbus (about 15–20 minutes, €1.40 bus fare, 2026). If docked at La Seyne, be at the Toulon boat stop two hours before all-aboard.",
+ "intro": "Toulon is a naval city first and a resort second. The harbour is full of grey warships, the old town behind it is a grid of narrow streets around a morning market, and Mont Faron rises straight behind the city with a cable car to the top. What shapes your day is which terminal you get. Ships in the downtown terminal walk straight into the centre. Ships at La Seyne-sur-Mer are on the far side of the bay and depend on a boat, so the return has to be planned around boat times rather than a walk.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Toulon downtown cruise and ferry terminal (Gare Maritime, opposite Stade Mayol)",
+   "distanceToCentreKm": 0,
+   "notes": "In the city centre at the end of the harbour, used by smaller ships (three quays, up to about 300 m ship length). Walk along the marina promenade into town. Toulon SNCF station is about 15 minutes on foot. A taxi rank with flat fares for cruise passengers is outside."
+  },
+  {
+   "name": "La Seyne-sur-Mer cruise terminal (Corniche Alphonse Giovannini)",
+   "distanceToCentreKm": 1.2,
+   "notes": "Across the bay from Toulon; takes the largest ships (up to 350 m). 1.2 km and about 15 minutes' walk to La Seyne town centre, not Toulon. Toulon is about 5 km across the water or about 7 km by road. Terminal has a cruise line desk and Wi-Fi."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 15,
+  "km": 1.2,
+  "detail": "From the downtown terminal you walk into Toulon along the harbour. From La Seyne you can walk to La Seyne's own small centre in about 15 minutes, but Toulon itself is across the bay: you need a boat, bus or taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (ship at the downtown terminal)",
+   "cost": "Free",
+   "time": "Short walk along the marina promenade",
+   "detail": "The terminal is at the end of the harbour opposite Stade Mayol. Follow the waterfront west into the old town, the Cours Lafayette market and the naval museum."
+  },
+  {
+   "mode": "Ship's shuttle boat (ship at La Seyne)",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "About 10 min crossing",
+   "detail": "The port describes an exclusive shuttle boat from La Seyne to Toulon city centre for cruise passengers. Whether it is free or charged depends on the line."
+  },
+  {
+   "mode": "Public waterbus 8M, La Seyne (Espace Marine) to Toulon",
+   "cost": "€1.40, a standard Réseau Mistral bus ticket (2026)",
+   "time": "About 15–20 min crossing, plus about 10 min walk from the terminal to the Espace Marine stop",
+   "detail": "Espace Marine is the stop for cruise passengers. Boats run about every 20 minutes Monday to Friday (06:10–20:40), every 30 minutes on Saturdays (06:55–20:40) and every 30 minutes on Sundays (08:05–19:40). Any Mistral ticket is valid; buy it in the Mistral app (M-Tickets) or at a sales point. A change between bus and boat is free within one hour."
+  },
+  {
+   "mode": "Waterbus 38M, La Seyne – Espace Marine – Les Sablettes",
+   "cost": "€1.40 Mistral ticket (2026)",
+   "time": "About 25 min",
+   "detail": "Hourly, daily, from La Seyne 10:00–19:00 and back from Les Sablettes 10:30–19:35, calling at Espace Marine on every trip. The simplest way from the La Seyne berth to a sandy beach."
+  },
+  {
+   "mode": "Bus (ship at La Seyne)",
+   "cost": "€1.40 Mistral ticket (2026)",
+   "time": "Slower than the boat",
+   "detail": "From the stops Turbines or Rouve (about 3 minutes' walk from the terminal) take line 81, 82 or 83 to La Seyne centre, then line 18 to Place de la Liberté in Toulon. Use only if the boats are not running."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "About €30 Toulon station to La Seyne terminal; about €10 Toulon station to the downtown terminal (2026)",
+   "time": "About 10–20 min by road depending on traffic",
+   "detail": "Toulon taxis +33 4 94 93 51 51; La Seyne taxis +33 4 94 10 10 20. Flat-fare price boards are posted for cruise passengers at the downtown terminal."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Ship at La Seyne: be at the Toulon waterbus stop by 15:30 for a 17:30 all-aboard (two hours before). Ship at the downtown terminal: be back at the gangway by 16:30.",
+  "detail": "From Toulon the 8M runs only every 20–30 minutes, and the crossing plus the walk from Espace Marine to the terminal takes about 30 minutes. A missed boat costs you half an hour. On Sundays the last 8M boats stop earlier (last at 19:40) and run every 30 minutes all day.",
+  "emergencyFallback": "If you miss the boat, take a taxi from the Toulon side round the bay to the La Seyne terminal (about 7 km by road). If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Toulon city and Mont Faron",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Waterbus €1.40 each way plus cable car €9 return (2026)",
+   "saving": "Not verified"
+  }
+ ],
+ "excursionAdvice": "Toulon itself, the market, the naval museum and Mont Faron are easy on your own, even from La Seyne, as long as you respect the boat times. A ship tour is worth it for longer trips such as Saint-Tropez, Aix-en-Provence or the Bandol and Cassis wine areas: these are long road journeys in summer traffic, and an independent delay there is hard to recover when the ship is across the bay at La Seyne.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at La Seyne at 08:00 and all-aboard is 17:30, on a weekday outside July and August.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk about 10 minutes to the Espace Marine stop, or take the ship's shuttle boat if offered. Buy a Mistral ticket in the app before boarding."
+   },
+   {
+    "time": "09:00",
+    "what": "Land in Toulon. Walk up to the Cours Lafayette market (mornings, closed Mondays) for cade and Provençal produce."
+   },
+   {
+    "time": "10:15",
+    "what": "Musée national de la Marine on the harbour (€9, show your cruise card for the reduced rate). Closed Tuesdays outside July and August."
+   },
+   {
+    "time": "11:45",
+    "what": "Taxi or bus to the lower station of the Mont Faron cable car on Boulevard Amiral Vence. Ride to the top in under 10 minutes."
+   },
+   {
+    "time": "12:15",
+    "what": "Views over the harbour and roadstead; picnic or snack at the top. Optional zoo visit."
+   },
+   {
+    "time": "13:45",
+    "what": "Cable car down, back to the old town. Late lunch near Place Victor-Hugo or Place de la Liberté."
+   },
+   {
+    "time": "15:15",
+    "what": "Walk to the harbour waterbus stop."
+   },
+   {
+    "time": "15:30",
+    "what": "Board the 8M to La Seyne (Espace Marine), two hours before all-aboard."
+   },
+   {
+    "time": "16:15",
+    "what": "Walk back to the terminal and be on board by 16:30."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Musée national de la Marine",
+   "why": "The navy's museum on the harbour: ship models, figureheads and the history of the Toulon arsenal.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "€9 adult, €7 reduced; reduced rate for cruise passengers on showing the boarding card (2026)",
+   "tip": "Open 10:00–18:00. Closed Tuesdays except in July and August. Fully wheelchair accessible."
+  },
+  {
+   "name": "Mont Faron cable car",
+   "why": "Climbs the mountain directly behind the city in under 10 minutes, with the whole harbour and roadstead below.",
+   "timeNeeded": "1.5–2 hours including the trip to the lower station",
+   "cost": "€9 adult return (2026)",
+   "tip": "Open 7 February to 25 November 2026, with maintenance closures (including 1–4 September). Closes in high wind and on days of severe fire risk; check before you go. Lower station: Boulevard Amiral Vence."
+  },
+  {
+   "name": "Mont Faron zoo",
+   "why": "Small zoo near the top of Mont Faron, known for its big cats.",
+   "timeNeeded": "1 hour",
+   "cost": "Separate ticket; cable car and zoo combined tickets are sold at the tourist office",
+   "tip": "Combine with the cable car only on a long call; it adds an hour."
+  },
+  {
+   "name": "Cours Lafayette market",
+   "why": "Toulon's long morning street market of Provençal produce, olives, cheese and street food.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Tuesday to Sunday mornings only, closed Mondays. Go early; the best stalls thin out by late morning."
+  },
+  {
+   "name": "Toulon harbour boat tour",
+   "why": "A short tour past the naval base and its warships, with Mont Faron as the backdrop.",
+   "timeNeeded": "About 30 minutes",
+   "cost": "Pay on the quay",
+   "tip": "Runs from the harbour front daily from May to September, about 10:00–18:00."
+  },
+  {
+   "name": "Old town and Place Victor-Hugo",
+   "why": "Narrow streets between the harbour and the opera house, with café terraces on the squares.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Prices are higher on the main squares; side-street set menus (menu du jour) are better value."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Plages du Mourillon",
+   "howToGetThere": "Walk along the coast from the centre, or Réseau Mistral bus to the Mourillon stops",
+   "time": "About 30 min walk; 10–15 min by bus",
+   "cost": "Free; sunbed and parasol hire available",
+   "note": "Man-made coves of fine sand with showers, toilets and lockers. Best from the downtown terminal."
+  },
+  {
+   "name": "Les Sablettes (La Seyne)",
+   "howToGetThere": "Waterbus 38M from Espace Marine, or 18M from Toulon",
+   "time": "About 25 min on the 38M from La Seyne; about 30 min from Toulon",
+   "cost": "€1.40 Mistral ticket (2026)",
+   "note": "The natural choice from the La Seyne berth. The 38M is hourly, so plan the return boat before you go."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Cade (chickpea flatbread, served hot)",
+   "where": "La Cade à Dédé, Cours Lafayette market (Place Louis Blanc); also at the Mourillon market",
+   "price": null
+  },
+  {
+   "dish": "Chichi frégi (fried dough fritters)",
+   "where": "Chez Charly – Le Roi du Chichi, Place Paul Comte",
+   "price": null
+  },
+  {
+   "dish": "Tapenade and anchoïade",
+   "where": "Chez Antoine, Place Vincent Raspail",
+   "price": null
+  },
+  {
+   "dish": "Oysters and market food under one roof",
+   "where": "Les Halles de Toulon, Place Vincent Raspail",
+   "price": null
+  },
+  {
+   "dish": "Pastis on a café terrace",
+   "where": "Cafés on Place Victor-Hugo, opposite the opera house",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming you are in Toulon when the ship is at La Seyne.",
+   "fix": "Check your berth. La Seyne is across the bay; you need the shuttle boat, the 8M waterbus or a taxi."
+  },
+  {
+   "mistake": "Turning up for the market in the afternoon or on a Monday.",
+   "fix": "Cours Lafayette is a morning market, Tuesday to Sunday. Go first thing."
+  },
+  {
+   "mistake": "Planning the Faron cable car without checking it is open.",
+   "fix": "It closes in high wind, on severe fire-risk days, on scheduled maintenance dates and from late November to early February."
+  },
+  {
+   "mistake": "Walking to the waterbus stop at the last minute.",
+   "fix": "Boats run every 20–30 minutes. Be at the Toulon stop two hours before all-aboard so one missed boat does not matter."
+  },
+  {
+   "mistake": "Visiting the naval museum on a Tuesday.",
+   "fix": "It is closed on Tuesdays except in July and August."
+  }
+ ],
+ "safety": "Toulon is a working port and naval city with normal big-city precautions. Keep valuables close in the market crowds and on busy boats. The Mistral wind can blow hard all year: it can make crossings choppy and close the Faron cable car. In summer carry water and sun protection on Mont Faron, where fire-risk closures also apply to the hills.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The downtown terminal is on the flat harbour front. From La Seyne, ask the ship about wheelchair access on the shuttle boat and check with Réseau Mistral before relying on the public waterbus. The Musée national de la Marine is fully accessible, with a lift on request. The Mont Faron cable car is listed as wheelchair accessible. At Mourillon, Plage de la Source has accessible toilets and free adapted bathing chairs from June to September.",
+ "rainyDay": "Spend longer in the Musée national de la Marine and in Les Halles de Toulon, the covered food hall on Place Vincent Raspail. Skip the cable car: low cloud hides the view and wind may close it.",
+ "crowdTips": "Mornings at the Cours Lafayette market are busiest on Saturdays. The waterbuses are public commuter boats shared with locals; returning early keeps you clear of any late-afternoon queue. The 38M to Les Sablettes runs only hourly, so a full boat in high season means an hour's wait; go out on an early boat.",
+ "faqs": [
+  {
+   "q": "Where do cruise ships dock in Toulon?",
+   "a": "Smaller ships use the downtown terminal in the city centre. The largest ships (up to 350 m) dock at La Seyne-sur-Mer, across the bay."
+  },
+  {
+   "q": "How do I get from La Seyne cruise port to Toulon?",
+   "a": "Take the ship's shuttle boat (about 10 minutes) or walk about 10 minutes to Espace Marine for the public 8M waterbus (about 15–20 minutes, €1.40 Mistral ticket in 2026)."
+  },
+  {
+   "q": "Is Toulon walkable from the cruise port?",
+   "a": "From the downtown terminal, yes. From La Seyne, no: Toulon is across the water, although La Seyne's own centre is about 15 minutes' walk."
+  },
+  {
+   "q": "Is Toulon a tender port?",
+   "a": "No. The port says it does not use ship tenders; ships berth at Toulon or La Seyne."
+  },
+  {
+   "q": "What can I do in Toulon in one day from a cruise ship?",
+   "a": "The Cours Lafayette market in the morning, the naval museum, then the Mont Faron cable car for the view over the harbour."
+  },
+  {
+   "q": "Beaches near Toulon cruise port?",
+   "a": "Mourillon's sandy coves are about 30 minutes' walk or a short bus ride from the centre. From La Seyne, the 38M waterbus goes to Les Sablettes in about 25 minutes."
+  },
+  {
+   "q": "How much is the Mont Faron cable car?",
+   "a": "€9 adult return in 2026. It runs from early February to late November and closes in strong wind."
+  },
+  {
+   "q": "Is Toulon safe?",
+   "a": "Yes, with normal city precautions in crowds. The main day-to-day risk is missing the boat back to La Seyne."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Musée national de la Marine"
+  },
+  {
+   "name": "Mont Faron cable car"
+  },
+  {
+   "name": "Cours Lafayette market"
+  },
+  {
+   "name": "Plages du Mourillon"
+  },
+  {
+   "name": "Les Sablettes"
+  },
+  {
+   "name": "Toulon harbour boat tour"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Provence Méditerranée tourist office – Getting to the ports of Toulon and La Seyne-sur-Mer",
+   "url": "https://www.provencemed.com/en/prepare-my-visit/transport-access/getting-to-the-ports-of-toulon-and-la-seyne-sur-mer"
+  },
+  {
+   "title": "Provence Méditerranée tourist office – Getting around by bus or waterbus",
+   "url": "https://www.provencemed.com/en/prepare-my-visit/transport-access/getting-around-the-region"
+  },
+  {
+   "title": "Métropole TPM / Réseau Mistral – La Seyne network plan (May 2025)",
+   "url": "https://www.metropoletpm.fr/sites/default/files/2025-06/rm_doc_plan_laseyne_250514_bd.pdf"
+  },
+  {
+   "title": "Métropole TPM – Maritime lines press release (January 2025)",
+   "url": "https://www.metropoletpm.fr/sites/default/files/2025-06/20250127-dp-2-millions-passagers-sur-les-lignes-maritimes.pdf"
+  },
+  {
+   "title": "Provence-Alpes-Côte d'Azur tourism – Mont Faron cable car",
+   "url": "https://provence-alpes-cotedazur.com/que-faire/activites/telepherique-du-mont-faron-aller-retour-toulon-fr-2869319/"
+  },
+  {
+   "title": "Le Lavandou tourist office – Mont Faron cable car (2026)",
+   "url": "https://www.ot-lelavandou.fr/activites-de-vacances-lelavandou/telepherique-du-mont-faron-aller-retour/"
+  },
+  {
+   "title": "Le Lavandou tourist office – Musée national de la Marine (2026)",
+   "url": "https://www.ot-lelavandou.fr/visites-patrimoine-culture-lelavandou/musee-national-de-la-marine"
+  },
+  {
+   "title": "Provence-Alpes-Côte d'Azur tourism – La Cade à Dédé",
+   "url": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/la-cade-a-dede-toulon-fr-3025787/"
+  },
+  {
+   "title": "MedCruise – Toulon-Var Provence port profile",
+   "url": "https://medcruise.com/port/toulon-var-provence"
+  },
+  {
+   "title": "CruiseMapper – Toulon (La Seyne-sur-Mer)",
+   "url": "https://www.cruisemapper.com/ports/toulon-port-221"
+  },
+  {
+   "title": "Cruise Critic – Toulon things to do",
+   "url": "https://www.cruisecritic.com/find-a-cruise/port-toulon/things-to-do"
+  },
+  {
+   "title": "Provence Lovers – Plages du Mourillon",
+   "url": "https://provencelovers.fr/plages-mourillon-toulon/"
+  },
+  {
+   "title": "Do Eat Better – Cours Lafayette market food guide",
+   "url": "https://doeatbetterexperience.com/blog/cours-lafayette-market-toulon-food-guide/"
+  }
+ ],
+ "uncertain": [
+  "Whether ships ever anchor off Toulon: CruiseMapper says extra ships anchor in the bay, MedCruise says tenders and anchorage are not available.",
+  "Whether the cruise shuttle boat from La Seyne is free or charged, and where exactly it lands in Toulon.",
+  "Exact walking time from the downtown terminal to the old town and market.",
+  "Bus line number to the Mont Faron cable car lower station (Cruise Critic names line 40; not confirmed on an operator page).",
+  "Daily opening hours of the Mont Faron cable car and the zoo ticket price.",
+  "Typical all-aboard time for Toulon calls."
+ ]
+}

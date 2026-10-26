@@ -1,0 +1,157 @@
+{
+  "slug": "grand-cayman",
+  "city": "George Town",
+  "portName": "George Town Harbour, Grand Cayman (tender port)",
+  "townName": "George Town",
+  "country": "Cayman Islands (British Overseas Territory)",
+  "currency": "KYD",
+  "currencySymbol": "CI$",
+  "priceSymbol": "US$",
+  "language": "English",
+  "timezone": "UTC−5 all year; no daylight saving time",
+  "lastVerified": "October 2026",
+  "seoTitle": "Grand Cayman cruise port guide: tenders, buses, beaches",
+  "seoDescription": "Grand Cayman is a tender port: 3 landings in George Town. Bus to Seven Mile Beach CI$2, museum US$15, Turtle Centre US$45 (2026). Back 90 min early.",
+  "quickAnswer": "Grand Cayman has no cruise pier: every ship anchors off George Town and tenders passengers to one of three landings on the harbour front. George Town's centre starts at the landing; Seven Mile Beach is 10–15 minutes north by taxi or public bus (CI$2 / US$2.50 each way on weekdays). Be back in the tender queue 90 minutes before all-aboard.",
+  "intro": "Grand Cayman is a tender-only port. Ships anchor in the bay off George Town, and local tender boats run a four-minute shuttle to three landings on the waterfront, so you step ashore straight into the capital's duty-free streets. Up to four ships can call at once, and on those days thousands of people move through the same small landings. The island is flat and the main draws are water-based: Seven Mile Beach to the north, snorkelling right off the George Town shore, and the Stingray City sandbar in the North Sound. Westerly swells sometimes stop tendering at George Town; then ships move to Spotts on the south coast, or skip the call.",
+  "isTender": true,
+  "tenderNotes": "All cruise ships anchor and tender; there is no berthing pier. A national referendum went against building one. Tenders land at three terminals on the George Town waterfront: South Terminal, North Terminal and Royal Watler, all within walking distance of each other. Most tendering is done by local boats run by Caribbean Marine Services, each carrying 250–300 people; the ride itself takes about four minutes. Passengers on ship tours go first; others take a number on board and wait. Unloading a ship of about 4,000 passengers takes around two hours. When westerly swells make George Town unsafe, ships are moved to the Spotts landing on the south coast.",
+  "typicalHours": 8,
+  "terminals": [
+    {"name": "Royal Watler Cruise Terminal", "distanceToCentreKm": 0, "notes": "Tender landing on Harbour Drive in central George Town. Shops, toilets and the taxi and tour areas are at the landing."},
+    {"name": "North Terminal", "distanceToCentreKm": 0, "notes": "Tender landing on the George Town waterfront, with a tourist office nearby."},
+    {"name": "South Terminal", "distanceToCentreKm": 0, "notes": "Tender landing on the George Town waterfront, with a tourist office nearby. All three landings are a short walk apart."},
+    {"name": "Spotts landing (bad-weather alternative)", "distanceToCentreKm": null, "notes": "On the south coast. Used only when westerly swells stop tendering at George Town. Your ship will announce it on the day."}
+  ],
+  "walkability": {"verdict": "Partly", "minutes": 5, "km": 0.4, "detail": "George Town is flat and the tender landings are in the middle of it, so the museum, Fort George, Heroes Square and the shops are all a few minutes on foot. The port area has kerb ramps. Seven Mile Beach is 3–4 km away and the walk in the heat takes an hour or more; take a bus or taxi."},
+  "transportSections": [
+    {"mode": "On foot (George Town)", "cost": "Free", "time": "A few minutes to most town sights", "detail": "From any landing walk along the waterfront. Fort George, the craft market, Elmslie Church and the National Museum are all close to the harbour front."},
+    {"mode": "Public bus, routes 1 and 2 (yellow and lime green stickers) to West Bay / Seven Mile Beach", "cost": "CI$2 or US$2.50 one way, cash (2026)", "time": "15–20 min driving to Seven Mile Beach, plus waiting for the bus to fill", "detail": "Minibuses with blue number plates and 'Public Bus' on the side leave the bus terminal on Edward Street, next to the Public Library, a few blocks inland. You can also flag one down on West Bay Road. Pay cash; US and CI dollars are accepted. Tell the driver your stop. Weekday service runs from early morning to evening; at weekends the service is limited and unscheduled, so do not rely on it to get back to the ship."},
+    {"mode": "Taxi", "cost": "Government-set route fares; check in the CI:GO app (2026)", "time": "About 10 min to Seven Mile Beach, 20 min to the Turtle Centre or Hell", "detail": "Taxis wait at the George Town cruise taxi stand. There are no meters. Fares are set by the government per route and vary with the number of passengers and bags. Look up the fare in the free CI:GO app and confirm it, and the currency, with the driver before you set off. Card acceptance varies; carry small notes. Uber and Lyft do not operate."},
+    {"mode": "Stingray City boat trip", "cost": "Ship tour on NCL from US$99.99 adult (2026); independent prices vary", "time": "About 2.5 hours", "detail": "The sandbar is in the North Sound, reached by road to a marina and then by boat. Tours include the transfer. Medical help is far away at the sandbar, so use a licensed operator and follow the crew's instructions."}
+  ],
+  "returnTiming": {
+    "rule": "Be in the tender queue at George Town by 16:00 for a 17:30 all-aboard (90 minutes before). Leave Seven Mile Beach by 15:30.",
+    "detail": "The tender crossing is only four minutes, but with up to four ships in port the queues at the landings build in the last two hours. The drive back from Seven Mile Beach takes 10–15 minutes by taxi in normal traffic; buses can wait to fill and are unreliable at weekends, so take a taxi back if the bus does not come quickly.",
+    "emergencyFallback": "Take a taxi from the cruise or resort taxi stands; the island is small and most beach areas are 10–20 minutes from the landings. If you will not make the last tender, call the port agent number on your daily programme at once."
+  },
+  "shipExcursionAvg": 94,
+  "diyAvg": 20,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {"item": "Stingray City sandbar", "ship": "NCL Stingray City Sand Bar Encounter, from US$99.99 adult, US$89.99 child (2026)", "diy": "Independent tours from George Town; price not verified", "saving": "Depends on operator"},
+    {"item": "Seven Mile Beach", "ship": "Varies by line; check your cruise planner", "diy": "Bus US$2.50 each way on weekdays (2026)", "saving": "Large; the beach is public and free"},
+    {"item": "George Town history", "ship": "Varies by line; check your cruise planner", "diy": "Free walk; National Museum US$15 adult (2026)", "saving": "You need no transport"},
+    {"item": "Island drive with Seven Mile Beach and Camana Bay", "ship": "Holland America Land & Sea Combination, from US$89 (2026)", "diy": "Bus or taxi; Camana Bay is free to walk around", "saving": "Moderate; the ship tour adds a semi-submarine reef trip"}
+  ],
+  "excursionAdvice": "Stingray City is the one trip where a ship tour often makes sense. It involves a road transfer, a boat and a fixed return, and the ship will wait for its own late tours. Seven Mile Beach and George Town do not need a tour: the beach is public and 10 minutes away, and the town starts at the tender landing. The Turtle Centre runs a free shuttle from Seven Mile Beach hotels, but on a cruise day a taxi is simpler.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship anchors at 08:00, you reach the shore by 09:00 after the tour groups, and all-aboard is 17:30. Check your own all-aboard time: departures here range from 15:00 to 18:00.",
+    "steps": [
+      {"time": "09:00", "what": "Tender ashore. Walk the waterfront to Fort George and the Elmslie Memorial Church."},
+      {"time": "09:30", "what": "Heroes Square and the Seamen's Memorial, then the National Museum on Harbour Drive (US$15 adult)."},
+      {"time": "10:45", "what": "Walk to the bus terminal on Edward Street and take a route 1 or 2 bus north, or a taxi from the cruise stand (weekends: taxi)."},
+      {"time": "11:15", "what": "Seven Mile Public Beach or Governor's Beach. Swim and rest; lunch at a beach bar."},
+      {"time": "14:15", "what": "Optional: short walk or taxi to Camana Bay for the promenade and the observation tower view."},
+      {"time": "15:30", "what": "Taxi or bus back to George Town."},
+      {"time": "15:45", "what": "Back in George Town. A gelato on Cardinall Avenue, steps from the landings."},
+      {"time": "16:00", "what": "Join the tender queue, 90 minutes before all-aboard."}
+    ]
+  },
+  "sights": [
+    {"name": "Seven Mile Beach", "why": "The island's long west-coast beach, with public access points such as Seven Mile Public Beach and Governor's Beach.", "timeNeeded": "3–4 hours", "cost": "Free; bus US$2.50 each way (2026)", "tip": "Watch for jet skis near the public beach; swim zones are limited."},
+    {"name": "Stingray City sandbar", "why": "Waist-deep water in the North Sound where southern stingrays gather around boats.", "timeNeeded": "About 2.5 hours on a tour", "cost": "NCL tour from US$99.99 adult (2026)", "tip": "Book early on multi-ship days; there is little medical cover out on the sandbar."},
+    {"name": "Cayman Islands National Museum", "why": "Cayman's natural and maritime history in a historic building on the waterfront.", "timeNeeded": "40–60 minutes", "cost": "US$15 adult, US$10 child 6–12 (2026)", "tip": "Open Monday to Friday 09:00–17:00 and Saturday 10:00–17:00. Galleries can close at short notice."},
+    {"name": "George Town heritage walk", "why": "Fort George (around 1790), Elmslie Memorial Church with its ship's-hull roof, Heroes Square and the Seamen's Memorial, all near the landings.", "timeNeeded": "1–1.5 hours", "cost": "Free", "tip": "Elmslie Church is usually open 10:30–14:00 on weekday cruise days."},
+    {"name": "Cayman Turtle Centre", "why": "Turtle conservation park in West Bay with a snorkel lagoon and a turtle lagoon.", "timeNeeded": "2–3 hours including transfer", "cost": "Full park US$45 adult, US$25 child (2026)", "tip": "Open 08:00–17:00, last entry 16:00; the Turtle Lagoon closes at 14:30. About 20 minutes by road."},
+    {"name": "Pedro St. James", "why": "An 18th-century great house with sea-view gardens, on the south coast at Savannah.", "timeNeeded": "1.5–2 hours plus taxi", "cost": "CI$15 self-guided, CI$20 guided, CI$10 child (2026)", "tip": "Open daily 08:30–17:00. Cash (US$ or CI$) and cards accepted."},
+    {"name": "Hell, West Bay", "why": "A field of black limestone pinnacles with a small post office for postmarked cards.", "timeNeeded": "Under an hour on site", "cost": "Free to view; postcard postmark 25 cents", "tip": "About 25 minutes by bus from George Town. Pair it with the Turtle Centre."},
+    {"name": "Camana Bay", "why": "A planned town between George Town and Seven Mile Beach with a promenade, shops and a 75-foot observation tower.", "timeNeeded": "45–60 minutes", "cost": "Free to walk around", "tip": "Useful shade and air conditioning on a hot day."}
+  ],
+  "beaches": [
+    {"name": "Seven Mile Public Beach / Governor's Beach", "howToGetThere": "Bus route 1 or 2, or taxi", "time": "10–15 min by road", "cost": "Free; bus US$2.50 each way (2026)", "note": "Soft sand and calm water on most days. Busy when four ships are in."},
+    {"name": "Cemetery Beach (West Bay end)", "howToGetThere": "Taxi or bus towards West Bay", "time": "About 20 min by road", "cost": "Free", "note": "A 5–10 minute swim out to reef; good snorkelling."},
+    {"name": "Smith Barcadere (Smith's Cove), South Sound", "howToGetThere": "Taxi", "time": "Short taxi ride south of town", "cost": "Free", "note": "Small sandy cove between ironshore rocks with coral heads close in."},
+    {"name": "Eden Rock and Cheeseburger Reef, George Town", "howToGetThere": "Walk along the waterfront from the landings", "time": "A few minutes on foot", "cost": "Free; gear hire extra", "note": "Shore snorkelling, not a beach. Stay close to shore and watch for boat traffic."}
+  ],
+  "food": [
+    {"dish": "Grilled fish and seafood with a harbour view", "where": "Guy Harvey's Boathouse Grill, 55 South Church Street", "price": null},
+    {"dish": "Caribbean curries and cocktails on a waterside deck", "where": "Seaharvest at Sunset House, 390 South Church Street", "price": null},
+    {"dish": "Italian seafood", "where": "Casanova Restaurant by the Sea, 65 North Church Street", "price": null},
+    {"dish": "Gelato and sorbet", "where": "Gelato & Co., Cardinall Avenue, by the cruise landings", "price": null},
+    {"dish": "Caribbean lunch at the marina", "where": "George Town Yacht Club, The Barcadere Marina", "price": null}
+  ],
+  "commonMistakes": [
+    {"mistake": "Joining the tender queue 30 minutes before all-aboard.", "fix": "With up to four ships in port, queues build in the last two hours. Aim for 90 minutes before."},
+    {"mistake": "Relying on the public bus at the weekend.", "fix": "Buses run a limited, unscheduled service on Saturdays and Sundays. Use a taxi to get back."},
+    {"mistake": "Getting into a taxi without agreeing the fare.", "fix": "Check the government fare in the CI:GO app and confirm price and currency before setting off."},
+    {"mistake": "Trying to walk to Seven Mile Beach.", "fix": "It is 3–4 km of hot roadside. The bus or a taxi takes 10–20 minutes."},
+    {"mistake": "Assuming the call will go ahead in a west wind.", "fix": "Westerly swells can move ships to Spotts or cancel the call. Keep a flexible plan and wait for the ship's announcement."}
+  ],
+  "safety": "The US State Department rates the Cayman Islands at its lowest advisory level (May 2026). Crime against visitors is mostly opportunistic bag snatching and pickpocketing, so keep valuables out of sight. The bigger risks are in the water: boat parties carry a higher drowning risk, safety checks on tourist equipment are rare, and medical help is far from Stingray City and the West Bay snorkel sites. Snorkel with someone, stay close to shore and watch for boats and jet skis. Cannabis is banned in every form. Tap water is generally safe.",
+  "scams": [
+    "Unconfirmed taxi fares: taxis have no meters. Check the official fare in the CI:GO app and agree price, currency and whether it covers the whole group before you get in.",
+    "Change in a different currency: if you pay in US dollars, some vendors give change in CI dollars. Use small US notes or a card.",
+    "Unlicensed vehicles touting rides: use licensed taxis from the cruise taxi stand or public buses with blue plates."
+  ],
+  "emergencyNumber": "911",
+  "accessibility": "The tender landings and George Town waterfront are flat, with kerb ramps, and the town centre is reasonably accessible. The difficult part is the tender: boarding depends on the swell, so ask the ship's tender desk before you leave whether wheelchair users can go ashore that day. Public minibuses are not wheelchair-friendly; arrange an accessible taxi in advance. Accessibility outside George Town can be limited.",
+  "rainyDay": "Rain here is usually short. Spend it in the National Museum, the shops along the waterfront, or the covered walkways and cafés of Camana Bay. Avoid boat trips if lightning is about.",
+  "crowdTips": "Grand Cayman expects about 1.3 million cruise passengers on roughly 449 calls in 2026, and up to four ships can share the anchorage. Tour groups go ashore first, so independent passengers reach land later in the morning on busy days. Seven Mile Public Beach and Stingray City are busiest from late morning to early afternoon. The tender queue back is worst in the last two hours before all-aboard. Check the Port Authority's ship schedule for your date.",
+  "faqs": [
+    {"q": "Is Grand Cayman a tender port?", "a": "Yes. There is no cruise pier; every ship anchors off George Town and tenders passengers to one of three landings on the waterfront."},
+    {"q": "Is George Town walkable from the cruise tender?", "a": "Yes. The landings are in the centre. Seven Mile Beach is not walkable; it is 10–15 minutes by bus or taxi."},
+    {"q": "How do I get from the Grand Cayman cruise port to Seven Mile Beach?", "a": "Take public bus route 1 or 2 from the Edward Street terminal (CI$2 or US$2.50 one way, cash, 2026) or a taxi from the cruise taxi stand at the government-set fare."},
+    {"q": "How much does the bus cost in Grand Cayman?", "a": "George Town to West Bay costs CI$2 or US$2.50 one way (2026). Buses accept both currencies in cash. Weekend service is limited."},
+    {"q": "What can I do in Grand Cayman in one day from a cruise ship?", "a": "Walk George Town's waterfront and museum in the morning, then spend the afternoon on Seven Mile Beach. Stingray City fits as a 2.5-hour tour."},
+    {"q": "Are there beaches near the Grand Cayman cruise port?", "a": "There is shore snorkelling at Eden Rock and Cheeseburger Reef within walking distance, but the main sandy beach is Seven Mile Beach, 10–15 minutes north."},
+    {"q": "What happens if the sea is too rough to tender at George Town?", "a": "Ships can be moved to the Spotts landing on the south coast, or the call can be cancelled. The ship announces this on the day."},
+    {"q": "Is Grand Cayman safe?", "a": "Yes. The US advisory is the lowest level. Watch your bags and take care in the water, especially around boats and jet skis."}
+  ],
+  "topAttractions": [
+    {"name": "Seven Mile Beach"},
+    {"name": "Stingray City"},
+    {"name": "Cayman Turtle Centre"},
+    {"name": "Cayman Islands National Museum"},
+    {"name": "Fort George"},
+    {"name": "Pedro St. James"},
+    {"name": "Hell"},
+    {"name": "Camana Bay"}
+  ],
+  "sources": [
+    {"title": "CruiseMapper – Grand Cayman Island (George Town Harbour)", "url": "https://www.cruisemapper.com/ports/grand-cayman-island-port-25"},
+    {"title": "Cruise Critic – Grand Cayman cruise port terminal information", "url": "https://www.cruisecritic.com/articles/grand-cayman-cruise-port-terminal-information"},
+    {"title": "Cayman Compass – Tendering from ship to shore at George Town Harbour (2019)", "url": "https://www.caymancompass.com/2019/11/13/tendering-from-ship-to-shore-at-george-town-harbour/"},
+    {"title": "Cayman Compass – Cruise ships diverted to Spotts as rough seas build (2023)", "url": "https://www.caymancompass.com/2023/10/18/cruise-ships-diverted-to-spotts-as-rough-seas-build/"},
+    {"title": "Cayman Compass – Cruise tender dock in West Bay mulled for revived sector (Nov 2025)", "url": "https://www.caymancompass.com/2025/11/21/cruise-tender-dock-in-west-bay-mulled-for-revived-sector/"},
+    {"title": "Port Authority of the Cayman Islands – home and ship schedule", "url": "https://www.caymanport.com/"},
+    {"title": "Port Authority of the Cayman Islands – Cruise ships", "url": "https://www.caymanport.com/cruise-ships"},
+    {"title": "Visit Cayman Islands – Getting around", "url": "https://www.visitcaymanislands.com/en-ca/planning/getting-around"},
+    {"title": "Cayman Resident – Public buses (Jan 2026)", "url": "https://caymanresident.com/live/transportation/public-buses"},
+    {"title": "Cayman Resident – Taxis", "url": "https://caymanresident.com/live/transportation/taxis"},
+    {"title": "Explore Cayman – Taxis in Cayman", "url": "https://www.explorecayman.com/getting-around/taxis"},
+    {"title": "The Trip Verdict – Cayman Islands taxi guide (2026)", "url": "https://www.thetripverdict.com/cayman-islands-taxi-guide-fixed-rates-apps-and-avoiding-overcharges"},
+    {"title": "The Traveler – George Town to Seven Mile Beach (Sept 2026)", "url": "https://www.thetraveler.org/george-town-to-seven-mile-beach-best-ways-to-get-to-the-sand/"},
+    {"title": "Cayman Islands National Museum – Visit", "url": "https://museum.ky/visit"},
+    {"title": "Explore Cayman – Cayman Turtle Centre full park admission", "url": "https://app.explorecayman.com/cayman-turtle-centre-island-wildlife-encounter/full-turtle-centre-park-admission"},
+    {"title": "Explore Cayman – Pedro St. James admission", "url": "https://www.explorecayman.com/pedro-st-james-national-historic-site/admission-rates-to-pedro-st-james"},
+    {"title": "Explore Cayman – George Town walking tour", "url": "https://www.explorecayman.com/tours/george-town-walking-tour"},
+    {"title": "Explore Cayman – Hell", "url": "https://explorecayman.com/hell"},
+    {"title": "Explore Cayman – Snorkelling in Cayman", "url": "https://www.explorecayman.com/watersports/snorkelling-in-cayman"},
+    {"title": "Explore Cayman – Restaurants in George Town", "url": "https://www.explorecayman.com/restaurants/restaurants-in-george-town"},
+    {"title": "Explore Cayman – Time zone and daylight saving", "url": "https://explorecayman.com/plan-your-trip/time-zone-daylight-savings"},
+    {"title": "NCL – Stingray City Sand Bar Encounter (GEC_05)", "url": "https://www.ncl.com/shore-excursions/GEC_05/Stingray-City-Sand-Bar-Encounter"},
+    {"title": "Holland America – Georgetown Land & Sea Combination excursion", "url": "https://www.hollandamerica.com/en/cruise-destinations/caribbean-cruises/caribbean-ports/gcm/19111"},
+    {"title": "US State Department – Cayman Islands travel advisory (May 2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/cayman-islands.html"}
+  ],
+  "uncertain": [
+    "Bus fare: Cayman Resident (Jan 2026) lists CI$2 / US$2.50 George Town–West Bay; Visit Cayman Islands says fares start at CI$2.50. CI$2 used.",
+    "Exact taxi fares from the cruise landings to Seven Mile Beach, the Turtle Centre or Rum Point were not published on any page opened; a blog estimates US$20–30 per vehicle. Only the CI:GO app method is given.",
+    "Distance and transfer arrangements between the Spotts landing and George Town are not published.",
+    "No official typical all-aboard time; CruiseMapper's 2026 schedule shows departures between 15:00 and 18:00. The default 17:30 is used.",
+    "Camana Bay observation tower opening hours and whether it is free were not verified.",
+    "Independent Stingray City tour prices not verified; savingPerPerson left null.",
+    "Restaurant prices not verified."
+  ]
+}

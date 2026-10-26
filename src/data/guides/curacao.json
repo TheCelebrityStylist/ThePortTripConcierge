@@ -1,0 +1,413 @@
+{
+  "slug": "curacao",
+  "city": "Willemstad",
+  "portName": "Curaçao Mega Pier and Mathey Wharf cruise terminals, Willemstad",
+  "townName": "Punda and Otrobanda (historic Willemstad)",
+  "country": "Curaçao",
+  "currency": "USD",
+  "currencySymbol": "US$",
+  "priceSymbol": "US$",
+  "language": "Papiamentu and Dutch; English and Spanish widely spoken",
+  "timezone": "AST (UTC-4), no daylight saving",
+  "lastVerified": "October 2026",
+  "seoTitle": "Curaçao cruise port guide: Willemstad, Punda, Mambo Beach",
+  "seoDescription": "Curaçao cruise port 2026: ships dock in Otrobanda, 0.5 mile from Punda. Taxi to Mambo Beach about US$23 per car; Kura Hulanda US$12. Leave beaches by 15:30.",
+  "quickAnswer": "Ships dock on the Otrobanda side of Willemstad, at the Mega Pier or the Mathey Wharf terminal, so you walk into the historic centre without transport. Punda, with the coloured Handelskade waterfront, is about half a mile away across St Anna Bay. For a beach, take a taxi to Mambo Beach, about US$23 per car; leave it by 15:30 for a 17:30 all-aboard.",
+  "intro": "Willemstad is a docking port with a UNESCO-listed city on both sides of the harbour channel. Ships berth in Otrobanda, next to Rif Fort and the Renaissance mall, and Punda faces you across St Anna Bay. The Queen Emma pontoon bridge normally links the two halves and swings open for passing ships. The best beaches are 15 to 45 minutes away by road, and the buses are minibuses with no stop at the terminals, so the day here is a choice: the city on foot, or the city plus a taxi to a beach.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 9,
+  "terminals": [
+    {
+      "name": "Mega Pier (berths 1 and 2)",
+      "distanceToCentreKm": 0.8,
+      "notes": "On the Otrobanda side near Rif Fort, for ships too large to pass under the Queen Juliana Bridge. Mega Pier 2 takes ships up to 225,000 GT. The walk into town runs through the Renaissance Resort property, behind Rif Fort. Punda and the Queen Emma Bridge are about 0.5 mile (0.8 km) away. Taxis wait at the terminal stands, first come, first served. Free Wi-Fi for 30 minutes."
+    },
+    {
+      "name": "Mathey Wharf cruise terminal (Curaçao Cruise Terminal)",
+      "distanceToCentreKm": 0.8,
+      "notes": "Two berths inside St Anna Bay for smaller ships, which pass the city and turn in Schottegat Bay. Punda is about 0.5 mile away. Taxi stand outside."
+    }
+  ],
+  "walkability": {
+    "verdict": "Yes",
+    "minutes": 15,
+    "km": 0.8,
+    "detail": "Flat. From either terminal walk along the Otrobanda waterfront past Rif Fort to the Queen Emma Bridge (about 0.5 mile), then cross the pontoon bridge to Punda and Handelskade. Kura Hulanda is about 10 minutes from Punda via the bridge. When the bridge swings open for a ship, a free passenger ferry crosses instead. Streets in Punda and Otrobanda are paved but uneven in places."
+  },
+  "transportSections": [
+    {
+      "mode": "On foot",
+      "cost": "Free",
+      "time": "About 0.5 mile to Punda",
+      "detail": "Rif Fort is next to the Mega Pier. Cross St Anna Bay on the Queen Emma Bridge. The bridge was disconnected for work on 2 August 2026, with reopening expected from late September to early October 2026; check its status on arrival."
+    },
+    {
+      "mode": "Free ferry across St Anna Bay",
+      "cost": "Free",
+      "time": "A few minutes",
+      "detail": "Carries pedestrians between Otrobanda and Punda while the Queen Emma Bridge is swung open for shipping, which can happen up to about 30 times a day."
+    },
+    {
+      "mode": "Taxi",
+      "cost": "Willemstad to Mambo Beach about US$23 per car; port to airport about US$34 (2026)",
+      "time": "About 15 min to Mambo Beach",
+      "detail": "Fares are per taxi, not per person. Agree the fare before you get in. Uber and Lyft do not operate. For sightseeing by the hour, expect about US$20 an hour. Taxis queue at both terminals."
+    },
+    {
+      "mode": "Local minibuses (konvoi)",
+      "cost": "About US$2 one way, paid in guilders",
+      "time": "Irregular",
+      "detail": "Private minibuses with 'Bus' on the number plate run common routes. There is no stop directly outside either terminal, timetables are unreliable and you need guilder cash. Not recommended on a cruise day with a fixed all-aboard."
+    }
+  ],
+  "returnTiming": {
+    "rule": "Leave Mambo Beach or other east-side beaches by 15:30 for a 17:30 all-aboard, and be back on board by 16:30. From Punda, start walking back by 16:00.",
+    "detail": "The taxi from Mambo Beach takes about 15 minutes, but you may wait for a taxi, and Willemstad's evening rush starts around 17:00. The walk from Punda is about 0.5 mile, but the Queen Emma Bridge can swing open for a passing ship, and you then wait for the ferry. From Westpunt beaches such as Kenepa (about 45 minutes' drive), leave by 15:00.",
+    "emergencyFallback": "Ask a beach club or restaurant to call a taxi. If the bridge is open and the ferry queue is long, a taxi can cross by the high Queen Juliana Bridge. If you will miss all-aboard, call the port agent number on your daily programme at once."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": 40,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {
+      "item": "Willemstad walking day",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Free walk; Kura Hulanda US$12, Maritime Museum US$10 (2026)",
+      "saving": "No transport needed"
+    },
+    {
+      "item": "Mambo Beach",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Taxi about US$23 each way per car, entry US$4.50 per person (2026)",
+      "saving": "Large for a group of four"
+    },
+    {
+      "item": "Hato Caves",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "US$10 adult (2026) plus a taxi",
+      "saving": "Depends on the taxi fare you agree"
+    },
+    {
+      "item": "Westpunt beaches and Christoffel National Park",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Hire car or taxi for 45+ min each way",
+      "saving": "Small once transport is added; return risk is yours"
+    }
+  ],
+  "excursionAdvice": "Do Willemstad yourself: Punda, Otrobanda, the forts and the museums are all on foot from the ship. For a single beach, a taxi to Mambo Beach is cheaper than most beach transfers once you share it. A ship tour earns its price for the far west: Christoffel National Park, Shete Boka and the Westpunt beaches are 40–45 minutes or more each way, the buses are unreliable, and a ship's tour guarantees the return.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 on a weekday at the Mega Pier and all-aboard is 17:30. Many ships here leave between 16:00 and 18:00, so check yours.",
+    "steps": [
+      {
+        "time": "08:15",
+        "what": "Walk off past Rif Fort. Climb its north side for a view over the harbour mouth."
+      },
+      {
+        "time": "08:45",
+        "what": "Cross St Anna Bay to Punda (bridge or free ferry). Walk Handelskade and the floating market, busiest early on weekday mornings."
+      },
+      {
+        "time": "09:30",
+        "what": "Fort Amsterdam and the Fort Church Museum (US$5)."
+      },
+      {
+        "time": "10:15",
+        "what": "Mikvé Israel-Emanuel Synagogue and Jewish Museum (weekdays only, US$18)."
+      },
+      {
+        "time": "11:15",
+        "what": "Cross back to Otrobanda. Kura Hulanda Museum on the slave trade (US$12)."
+      },
+      {
+        "time": "12:30",
+        "what": "Lunch in Kura Hulanda Village, for example Caleo Crudos y Parrilla."
+      },
+      {
+        "time": "13:30",
+        "what": "Taxi from the Otrobanda side to Mambo Beach (about US$23 per car; agree it first). Entry US$4.50."
+      },
+      {
+        "time": "15:30",
+        "what": "Leave Mambo Beach by taxi."
+      },
+      {
+        "time": "16:30",
+        "what": "Back on board, 60 minutes before all-aboard."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "Handelskade and Punda",
+      "why": "The coloured 18th-century merchant houses on the Punda waterfront, part of the UNESCO-listed historic area.",
+      "timeNeeded": "1 hour",
+      "cost": "Free",
+      "tip": "Best photographed from the middle of the Queen Emma Bridge or from the Otrobanda side. Waterfront cafés trade on the view more than the food."
+    },
+    {
+      "name": "Queen Emma Bridge",
+      "why": "A pontoon footbridge from 1888 that swings aside for every ship entering the harbour.",
+      "timeNeeded": "15 minutes",
+      "cost": "Free",
+      "tip": "If it is open for shipping, take the free ferry. Check on arrival whether the 2026 works have finished."
+    },
+    {
+      "name": "Fort Amsterdam and the Fort Church Museum",
+      "why": "Curaçao's oldest building (1635–36), still the seat of government, with a church museum and cistern.",
+      "timeNeeded": "45 minutes",
+      "cost": "Fort Church Museum US$5 adult, US$2.50 child 6–14 (2026)",
+      "tip": "Right at the Punda end of the bridge."
+    },
+    {
+      "name": "Kura Hulanda Museum",
+      "why": "Otrobanda museum on the Atlantic slave trade and West African empires.",
+      "timeNeeded": "1–1.5 hours",
+      "cost": "US$12 adult, US$7 child 6–12 (2026)",
+      "tip": "Open Monday to Saturday 08:00–16:00 and Sunday 09:00–14:00."
+    },
+    {
+      "name": "Mikvé Israel-Emanuel Synagogue",
+      "why": "Historic synagogue in Punda, visited together with the Jewish Museum next door.",
+      "timeNeeded": "45 minutes",
+      "cost": "US$18 adult, US$9 child 4–12 (2026)",
+      "tip": "Open to visitors Monday to Friday. Carry valid ID; ring the bell to enter."
+    },
+    {
+      "name": "Rif Fort",
+      "why": "An 1820s fort beside the Mega Pier, now shops and restaurants, with walls you can climb.",
+      "timeNeeded": "30 minutes",
+      "cost": "Free",
+      "tip": "The north side has the best view."
+    },
+    {
+      "name": "Curaçao Maritime Museum",
+      "why": "The island's maritime history.",
+      "timeNeeded": "1 hour",
+      "cost": "US$10 adult, US$8 child 4–11 (2026)",
+      "tip": "In Scharloo, a short walk from Punda; the second floor covers cruise history."
+    },
+    {
+      "name": "Hato Caves",
+      "why": "Limestone caves with stalactites, visited on guided tours.",
+      "timeNeeded": "1.5 hours including taxi",
+      "cost": "US$10 adult, US$8 child 4–12 (2026)",
+      "tip": "Open daily 09:00–15:00; tours last about 45 minutes. Next to the airport."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Mambo Beach",
+      "howToGetThere": "Taxi",
+      "time": "About 15 min",
+      "cost": "Entry US$4.50 per person; taxi about US$23 per car from Willemstad (2026)",
+      "note": "Long sand beach behind a breakwater, calm water, beach clubs, shops and restaurants. Busy but spread out."
+    },
+    {
+      "name": "Jan Thiel Beach",
+      "howToGetThere": "Taxi",
+      "time": "East of Willemstad",
+      "cost": "US$3 per person; free after 16:30 (2026)",
+      "note": "Artificial beach, crowded, rocky entry."
+    },
+    {
+      "name": "Playa Cas Abao",
+      "howToGetThere": "Taxi or hire car",
+      "time": "About 40 min",
+      "cost": "US$6 per car weekdays, US$7 Sundays (up to four); loungers US$3 (2026)",
+      "note": "Good snorkelling, restaurant, showers. Open 08:00–18:00. Last part is a rough gravel road."
+    },
+    {
+      "name": "Kenepa Grandi (Grote Knip) and Kenepa Chiki",
+      "howToGetThere": "Hire car or tour",
+      "time": "About 45 min",
+      "cost": "Free public beaches",
+      "note": "Clear water and snorkelling; watch for manchineel trees. Too far for a tight call."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Keshi yena (Edam cheese stuffed with spiced meat)",
+      "where": "Restaurant & Café Gouverneur De Rouville, Otrobanda",
+      "price": null
+    },
+    {
+      "dish": "Grilled meat and ceviche",
+      "where": "Caleo Crudos y Parrilla, Kura Hulanda Village, Otrobanda",
+      "price": null
+    },
+    {
+      "dish": "Local breakfast",
+      "where": "Maira's Kitchen, Otrobanda",
+      "price": null
+    },
+    {
+      "dish": "Quick snack by the bridge",
+      "where": "Steve & Friends kiosk, Otrobanda end of the Queen Emma Bridge",
+      "price": null
+    },
+    {
+      "dish": "Dinner with a harbour view (late calls)",
+      "where": "Fort Nassau restaurant, above Willemstad",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Agreeing a taxi fare per person.",
+      "fix": "Fares are per taxi. Agree the total before you set off; Willemstad to Mambo Beach is about US$23."
+    },
+    {
+      "mistake": "Relying on local minibuses to get back to the ship.",
+      "fix": "They have no stop at the terminals, run irregularly and need guilder cash. Use a taxi for anything outside the city."
+    },
+    {
+      "mistake": "Planning a synagogue visit on a weekend.",
+      "fix": "Mikvé Israel-Emanuel is open to visitors on weekdays; put it first on a Monday to Friday call."
+    },
+    {
+      "mistake": "Driving to Westpunt on a short call.",
+      "fix": "Kenepa and Cas Abao are 40–45 minutes each way. On an early all-aboard, stay with Mambo Beach."
+    },
+    {
+      "mistake": "Assuming the bridge is always there.",
+      "fix": "The Queen Emma Bridge swings open for ships and was closed for work in August 2026. Leave margin and know where the ferry lands."
+    }
+  ],
+  "safety": "Curaçao is generally safe for visitors, and the historic centre is busy by day. Car break-ins are the main crime problem, so leave nothing in a hire car or taxi. After dark, stay on lit streets in Punda and Otrobanda and avoid the industrial Schottegat zone. Manchineel trees grow along many beaches: do not touch them, stand under them in rain or eat the fruit, which is toxic. Police 911, ambulance 912.",
+  "scams": [
+    "Taxi overcharging: there is no ride-hailing app, so agree the fare per taxi before setting off.",
+    "Teenagers asking drivers for 'parking' money, reported at about US$10: decline politely and use proper car parks.",
+    "Car break-ins at beach car parks: take valuables with you or leave them on the ship."
+  ],
+  "emergencyNumber": "911",
+  "accessibility": "The route from both terminals into Otrobanda is flat. The Queen Emma Bridge is a floating pontoon; the free ferry is the alternative when the bridge is open for shipping. Punda's streets are level but pavements are narrow and uneven. Rif Fort's walls and Fort Amsterdam include steps. Ask the ship about wheelchair-accessible taxis before you go ashore. Beaches outside the city are sand without boardwalks.",
+  "rainyDay": "Showers are usually short. Use the museums: Kura Hulanda, the Maritime Museum, the Fort Church Museum and the Jewish Museum fill a morning. Rif Fort and the Renaissance mall next to the Mega Pier have covered shops and cafés.",
+  "crowdTips": "Several ships can call together, and Handelskade and the Queen Emma Bridge are busiest from mid-morning. Go to Punda first thing, while the floating market is busiest and before tour groups arrive, and do Otrobanda's museums when Punda fills. Weekend afternoons in Punda are crowded; Sunday afternoons in Otrobanda are quiet because many shops close.",
+  "faqs": [
+    {
+      "q": "Is Curaçao a tender port?",
+      "a": "No. Ships dock at the Mega Pier or the Mathey Wharf terminal on the Otrobanda side of Willemstad."
+    },
+    {
+      "q": "Is Willemstad walkable from the cruise port?",
+      "a": "Yes. Otrobanda starts at the pier and Punda is about half a mile away across the Queen Emma Bridge."
+    },
+    {
+      "q": "How do I get from the Curaçao cruise port to Punda?",
+      "a": "Walk past Rif Fort and cross the Queen Emma Bridge, or take the free ferry when the bridge is open for shipping."
+    },
+    {
+      "q": "What is the closest beach to the Curaçao cruise port?",
+      "a": "Mambo Beach, about 15 minutes by taxi (about US$23 per car from Willemstad, 2026). Entry is US$4.50 per person."
+    },
+    {
+      "q": "Can I use US dollars in Curaçao?",
+      "a": "Yes. The local guilder is fixed at 1.80 to US$1, and many places show both prices. Local minibuses want guilders."
+    },
+    {
+      "q": "What can I do in Curaçao in one day from a cruise ship?",
+      "a": "Walk Punda and Handelskade, visit Fort Amsterdam, the synagogue and Kura Hulanda, then take a taxi to Mambo Beach for the afternoon."
+    },
+    {
+      "q": "Is there Uber in Curaçao?",
+      "a": "No. Use the taxis at the terminal stands and agree the fare first."
+    },
+    {
+      "q": "Is Curaçao safe for cruise passengers?",
+      "a": "Yes, by day in the city. Watch for car break-ins at beaches and avoid quiet streets and the industrial port area after dark."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "Handelskade"
+    },
+    {
+      "name": "Queen Emma Bridge"
+    },
+    {
+      "name": "Fort Amsterdam"
+    },
+    {
+      "name": "Kura Hulanda Museum"
+    },
+    {
+      "name": "Mikvé Israel-Emanuel Synagogue"
+    },
+    {
+      "name": "Rif Fort"
+    },
+    {
+      "name": "Mambo Beach"
+    },
+    {
+      "name": "Hato Caves"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cruise Hive – Curaçao cruise port guide (updated Sept 2026)",
+      "url": "https://www.cruisehive.com/curacao-cruise-port/139869"
+    },
+    {
+      "title": "Cruise Critic – Curaçao (Willemstad) port page",
+      "url": "https://www.cruisecritic.com/find-a-cruise/port-curacao-willemstad"
+    },
+    {
+      "title": "CruiseMapper – Willemstad, Curaçao port and schedule",
+      "url": "https://www.cruisemapper.com/ports/willemstad-curacao-port-31"
+    },
+    {
+      "title": "Nomadic Niko – Curaçao travel guide (updated Sept 2026)",
+      "url": "https://nomadicniko.com/curacao/"
+    },
+    {
+      "title": "Nomadic Niko – Willemstad guide (prices January 2026)",
+      "url": "https://nomadicniko.com/curacao/willemstad/"
+    },
+    {
+      "title": "Nomadic Niko – Beaches on Curaçao (updated April 2026)",
+      "url": "https://nomadicniko.com/curacao/beaches/"
+    },
+    {
+      "title": "Nomadic Niko – What to see outside Willemstad (April 2026)",
+      "url": "https://nomadicniko.com/curacao/what-to-see-outside-willemstad/"
+    },
+    {
+      "title": "Nomadic Niko – Where to eat on Curaçao (updated Sept 2026)",
+      "url": "https://nomadicniko.com/curacao/where-to-eat/"
+    },
+    {
+      "title": "Royal Caribbean – ABC islands guide",
+      "url": "https://www.royalcaribbean.com/guides/abc-caribbean-islands-cruise-to-aruba-bonaire-curacao"
+    },
+    {
+      "title": "Royal Caribbean – Top Southern Caribbean islands",
+      "url": "https://www.royalcaribbean.com/guides/top-5-southern-caribbean-islands-to-visit/"
+    },
+    {
+      "title": "Pack Lightly – Driving in Curaçao (emergency numbers)",
+      "url": "https://pack-lightly.com/curacao/traffic/"
+    },
+    {
+      "title": "Pack Lightly – Willemstad guide (2026)",
+      "url": "https://pack-lightly.com/curacao/willemstad/"
+    },
+    {
+      "title": "CruiseMapper – Valiant Lady skips Aruba and Curaçao (January 2026)",
+      "url": "https://www.cruisemapper.com/news/15703-valiant-lady-alters-course"
+    }
+  ],
+  "uncertain": [
+    "No official port (curports.com), tourist board (curacao.com) or attraction website could be opened in this session; facts come from 2026 secondary guides.",
+    "Whether the Queen Emma Bridge reopened after the August 2026 works as expected is not confirmed.",
+    "Whether the free ferry runs during the bridge's maintenance closure (as opposed to routine openings) is not confirmed.",
+    "The Caribbean guilder (XCG) replaced the Netherlands Antillean guilder in 2025; no opened page confirms the change, so the guide just says 'guilder'.",
+    "Mambo Beach entry: US$4.50 (Nomadic Niko, January 2026) vs US$3.50 (Cruise Hive, 2026). US$4.50 used.",
+    "Taxi fares are approximate figures from Cruise Hive, not an official tariff.",
+    "Curaçao Sea Aquarium, Christoffel Park and Shete Boka prices and hours not verified.",
+    "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null.",
+    "Restaurant prices not verified."
+  ]
+}

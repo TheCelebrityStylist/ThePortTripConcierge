@@ -1,0 +1,393 @@
+{
+ "slug": "san-juan",
+ "city": "San Juan",
+ "portName": "San Juan Cruise Port (Old San Juan piers and Pan American Pier)",
+ "townName": "Old San Juan",
+ "country": "Puerto Rico (US territory)",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "Spanish and English",
+ "timezone": "AST (UTC-4) all year",
+ "lastVerified": "October 2026",
+ "seoTitle": "San Juan cruise port: walking to El Morro, piers, forts fee",
+ "seoDescription": "Old San Juan piers are a short walk from town: San Cristóbal 10-12 min, El Morro 15-25 min. Fort pass $10 (2026), card only. Pan Am Pier: 10-15 min ride.",
+ "quickAnswer": "Most ships dock at the Old San Juan piers on Calle Marina and you walk straight into the old town: Castillo San Cristóbal is 10-12 minutes away and El Morro 15-25 minutes, uphill. Ships at the Pan American Pier across the bay need a 10-15 minute taxi or Uber. Start back from El Morro 90 minutes before all-aboard.",
+ "intro": "San Juan is one of the easiest cruise ports in the Caribbean to do on your own. The main piers sit at the foot of Old San Juan, a walled colonial town of cobbled streets climbing to two large Spanish forts run by the US National Park Service. One $10 pass covers both. The catch is the hill and the heat: El Morro is at the far end of town and most streets rise from the waterfront. Some ships use the Pan American Pier across the bay instead, which turns a walk into a taxi ride.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Old San Juan piers (Piers 1, 3 and 4, Calle Marina)",
+   "distanceToCentreKm": 0.5,
+   "notes": "On the southern waterfront of Old San Juan. Pier 1 and Pier 4 have modern terminals; Pier 3 was rebuilt for transit ships. You step out onto a waterfront walkway and walk uphill into the old town. Taxis wait at the terminal exits. CVS and Walgreens pharmacies are near the piers."
+  },
+  {
+   "name": "Pan American Pier (Isla Grande)",
+   "distanceToCentreKm": null,
+   "notes": "Across the bay near Isla Grande airport, used mainly for ships starting and ending cruises. Only the convention centre area and nearby hotels are walkable; Old San Juan is 10-15 minutes by taxi or Uber."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 25,
+  "km": null,
+  "detail": "From the Old San Juan piers, Castillo San Cristóbal is 10-12 minutes' walk and El Morro 15-25 minutes, mostly uphill on cobbles. Allow about 20 minutes between the two forts. Not walkable from the Pan American Pier."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot from the Old San Juan piers",
+   "cost": "Free",
+   "time": "10-25 min to the forts",
+   "detail": "Head uphill from the waterfront. Calle Fortaleza is a good route towards El Morro; return downhill along the Paseo de la Princesa to the piers."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Fixed posted rates in tourist zones; cash only (2026)",
+   "time": "10-15 min to Condado or from the Pan American Pier",
+   "detail": "Taxis wait at the terminal exits. Inside designated tourist zones, fares are fixed and posted; elsewhere they are metered. Tolls and tips are extra, and luggage and late-night supplements may apply."
+  },
+  {
+   "mode": "Uber",
+   "cost": "App fare",
+   "time": "10-15 min to Condado or from the Pan American Pier",
+   "detail": "Uber is the main ride-hailing app operating in Puerto Rico and is widely used in San Juan."
+  },
+  {
+   "mode": "Free Old San Juan trolley",
+   "cost": "Free",
+   "time": "Varies",
+   "detail": "The municipal trolley has run irregularly: a 2026 guide reported it out of service, and a free seasonal weekend service ran in late 2025. Do not plan your day around it."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Start walking back from El Morro 90 minutes before all-aboard (16:00 for a 17:30 all-aboard) and be on board 60 minutes before. From the beaches or the Pan American Pier side, be in a taxi 75 minutes before.",
+  "detail": "The walk back from El Morro is 15-25 minutes and mostly downhill, but crowds on Calle Fortaleza and photo stops slow it. Taxis and Uber to Condado take 10-15 minutes each way, longer in traffic. If your ship is at the Pan American Pier, you need a taxi or Uber back from Old San Juan.",
+  "emergencyFallback": "In Old San Juan, walk downhill to the waterfront: the piers are along the southern edge of the old town. From Condado or the Pan American side, use Uber or a hotel taxi rank. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": 10,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Old San Juan and the forts",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$10 per adult for the 24-hour fort pass (2026); walking is free",
+   "saving": "Nearly the whole tour price; this port is easy alone"
+  }
+ ],
+ "excursionAdvice": "Skip the ship's walking tour of Old San Juan: the forts and streets start at the pier and one $10 pass covers both forts. A ship tour is worth it for El Yunque rainforest, which is more than an hour away and needs transport, and for Casa Bacardí if you do not want to arrange your own transfer. Check what a rainforest tour includes; some are mostly scenic drives.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the Old San Juan piers at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:00",
+    "what": "Off the ship. Walk uphill into the old town, 10-12 minutes to Castillo San Cristóbal."
+   },
+   {
+    "time": "09:00",
+    "what": "Castillo San Cristóbal. Buy the $10 pass by card or contactless; it also covers El Morro."
+   },
+   {
+    "time": "10:15",
+    "what": "Walk west through the old town, about 20 minutes, to El Morro."
+   },
+   {
+    "time": "10:45",
+    "what": "El Morro and its lawns. Allow at least an hour."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch in the old town, for example mofongo at La Jibarita or a mallorca at Cafetería Mallorca."
+   },
+   {
+    "time": "13:30",
+    "what": "Catedral de San Juan Bautista, Calle Fortaleza, La Fortaleza from outside and Plaza de Armas."
+   },
+   {
+    "time": "15:00",
+    "what": "Through the Puerta de San Juan and down the Paseo de la Princesa along the bay."
+   },
+   {
+    "time": "16:00",
+    "what": "Head for the pier along the waterfront."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Castillo San Felipe del Morro (El Morro)",
+   "why": "The 16th-century fort on the headland at the mouth of San Juan Bay, with tunnels, barracks and sentry boxes over the Atlantic.",
+   "timeNeeded": "1-1.5 hours",
+   "cost": "$10 per adult, 24-hour pass for both forts; under-16s free; no cash (2026)",
+   "tip": "15-25 minutes uphill from the piers. Go early, before the heat and the tour groups."
+  },
+  {
+   "name": "Castillo San Cristóbal",
+   "why": "The large fort built from 1765 to defend the city from a land attack, closest to the cruise piers.",
+   "timeNeeded": "45-60 minutes",
+   "cost": "Included in the $10 pass (2026)",
+   "tip": "Do it first: it is 10-12 minutes from the piers."
+  },
+  {
+   "name": "Paseo de la Princesa",
+   "why": "A 19th-century waterfront promenade under the city walls with views of the bay.",
+   "timeNeeded": "20-30 minutes",
+   "cost": "Free",
+   "tip": "The easiest way back to the ship, flat and downhill from the old town."
+  },
+  {
+   "name": "Puerta de San Juan",
+   "why": "The 1635 gate in the city wall that was the main entrance to the walled town.",
+   "timeNeeded": "10 minutes",
+   "cost": "Free",
+   "tip": "Links the Paseo de la Princesa to the old town streets."
+  },
+  {
+   "name": "Catedral de San Juan Bautista",
+   "why": "A 16th-century cathedral and the burial place of Juan Ponce de León.",
+   "timeNeeded": "20-30 minutes",
+   "cost": "Free",
+   "tip": "On Calle del Cristo; a cool stop at midday."
+  },
+  {
+   "name": "Calle Fortaleza and La Fortaleza",
+   "why": "A cobbled street of painted buildings ending at the governor's residence.",
+   "timeNeeded": "30-45 minutes",
+   "cost": "Free to walk",
+   "tip": "Interior access to La Fortaleza may be limited."
+  },
+  {
+   "name": "Plaza de Armas",
+   "why": "The original colonial square, with the town hall and a central fountain.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free",
+   "tip": "Good meeting point between the forts and the cathedral."
+  },
+  {
+   "name": "Museo de las Américas",
+   "why": "Puerto Rican and Caribbean history in the old Cuartel de Ballajá barracks near El Morro.",
+   "timeNeeded": "45-60 minutes",
+   "cost": "Check locally",
+   "tip": "A good rainy-day stop about 10 minutes' walk from El Morro."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Playa del Capitolio (Playa Peña)",
+   "howToGetThere": "Walk from the Old San Juan piers",
+   "time": "15-20 min walk",
+   "cost": "Free",
+   "note": "Small and rocky with clear water and few people."
+  },
+  {
+   "name": "Escambrón Beach",
+   "howToGetThere": "Taxi or Uber",
+   "time": "About 10 min",
+   "cost": "Free; taxi or Uber fare",
+   "note": "Public beach with restrooms; good snorkelling if you bring your own gear."
+  },
+  {
+   "name": "Condado Beach",
+   "howToGetThere": "Taxi or Uber",
+   "time": "10-15 min",
+   "cost": "Free; vendors rent chairs and umbrellas",
+   "note": "Wide sand with restaurants and hotels nearby."
+  },
+  {
+   "name": "Ocean Park",
+   "howToGetThere": "Taxi or Uber",
+   "time": "10-15 min",
+   "cost": "Free",
+   "note": "Quieter and windy; popular for kitesurfing."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Mofongo (mashed fried green plantain)",
+   "where": "La Jibarita, Old San Juan",
+   "price": null
+  },
+  {
+   "dish": "Mallorca (sweet bread with powdered sugar)",
+   "where": "Cafetería Mallorca, Old San Juan",
+   "price": null
+  },
+  {
+   "dish": "Piña colada",
+   "where": "Barrachina, Calle Fortaleza",
+   "price": null
+  },
+  {
+   "dish": "Puerto Rican coffee",
+   "where": "Don Ruiz Café, opposite El Morro",
+   "price": null
+  },
+  {
+   "dish": "Chocolate-themed lunch",
+   "where": "Chocobar Cortés, Old San Juan",
+   "price": null
+  },
+  {
+   "dish": "Quick diner meal",
+   "where": "Café Manolín, Old San Juan",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Bringing only cash for the forts.",
+   "fix": "The National Park Service does not take cash. Pay by card or contactless."
+  },
+  {
+   "mistake": "Waiting for the free trolley.",
+   "fix": "It has run irregularly and was reported out of service in 2026. Walk, or use Uber or a taxi."
+  },
+  {
+   "mistake": "Starting at El Morro and finishing at San Cristóbal in the heat.",
+   "fix": "San Cristóbal is nearer the piers; visit it first or go to El Morro early, then work back downhill."
+  },
+  {
+   "mistake": "Assuming you can walk from the Pan American Pier.",
+   "fix": "It is across the bay. Take a taxi or Uber, 10-15 minutes, to Old San Juan."
+  },
+  {
+   "mistake": "Expecting a big sandy beach next to the ship.",
+   "fix": "The nearest beach is small and rocky. Take a 10-15 minute ride to Condado or Escambrón for sand."
+  }
+ ],
+ "safety": "Old San Juan is compact and busy with visitors by day. The main hazards are heat, sun and the uphill cobbled streets, so carry water and wear shoes with grip. On the beaches, use public beaches with facilities such as Escambrón and keep valuables out of sight. Use taxis from the terminal ranks or Uber rather than unmarked cars.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The port lists wheelchair assistance among its guest services. The waterfront walkway and the Paseo de la Princesa run along the bay, but the old town climbs uphill from the piers on cobbled streets, which makes wheelchair use hard work. Step-free access inside the forts was not verified; ask the National Park Service before you go. A taxi or Uber avoids the uphill walk.",
+ "rainyDay": "Showers are usually short. The forts have covered rooms and tunnels, and the Museo de las Américas and the cathedral are indoors. Cafés and chocolate shops in the old town make easy shelter stops.",
+ "crowdTips": "Several ships can be in port at once, and the old town fills from mid-morning. Go to the forts as soon as you are ashore and leave Calle Fortaleza for later. Use the Paseo de la Princesa to get back to the ship: it is flat and avoids the busiest shopping streets.",
+ "faqs": [
+  {
+   "q": "Is Old San Juan walkable from the cruise port?",
+   "a": "Yes, from the Old San Juan piers. San Cristóbal is 10-12 minutes' walk and El Morro 15-25 minutes, uphill. From the Pan American Pier you need a 10-15 minute taxi or Uber."
+  },
+  {
+   "q": "How much does it cost to visit El Morro?",
+   "a": "$10 per adult for a 24-hour pass covering El Morro and San Cristóbal (2026). Under-16s are free. Cards and contactless only; no cash."
+  },
+  {
+   "q": "Is San Juan a tender port?",
+   "a": "No. Ships dock at the Old San Juan piers or the Pan American Pier."
+  },
+  {
+   "q": "Is there a free trolley in Old San Juan?",
+   "a": "The municipal trolley has run irregularly and was reported out of service in 2026. Plan to walk."
+  },
+  {
+   "q": "What can I do in San Juan in one day from a cruise ship?",
+   "a": "Walk both forts, the cathedral, Calle Fortaleza and the Paseo de la Princesa. With more time, take a 10-15 minute ride to Condado beach, or a tour to El Yunque."
+  },
+  {
+   "q": "Beaches near San Juan cruise port",
+   "a": "Playa del Capitolio is a 15-20 minute walk but small and rocky. Escambrón and Condado are 10-15 minutes by taxi or Uber."
+  },
+  {
+   "q": "Does Uber work at San Juan cruise port?",
+   "a": "Uber operates in San Juan and is widely used by cruise visitors; taxis also wait at the terminal exits."
+  },
+  {
+   "q": "Which pier will my ship use in San Juan?",
+   "a": "Most ships calling for the day use the Old San Juan piers on Calle Marina. The Pan American Pier across the bay is used mainly for ships starting or ending cruises. Check your cruise documents."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Castillo San Felipe del Morro"
+  },
+  {
+   "name": "Castillo San Cristóbal"
+  },
+  {
+   "name": "Paseo de la Princesa"
+  },
+  {
+   "name": "Catedral de San Juan Bautista"
+  },
+  {
+   "name": "Calle Fortaleza"
+  },
+  {
+   "name": "Puerta de San Juan"
+  },
+  {
+   "name": "Condado Beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "National Park Service – San Juan National Historic Site: fees and passes",
+   "url": "https://www.nps.gov/saju/planyourvisit/fees.htm"
+  },
+  {
+   "title": "National Park Service – Temporary closure of San Juan National Historic Site (archived release)",
+   "url": "https://www.nps.gov/saju/learn/news/temporary-closure-of-san-juan-national-historic-site.htm"
+  },
+  {
+   "title": "San Juan Cruise Port (Global Ports Holding with the Puerto Rico Ports Authority) – Port information",
+   "url": "https://sanjuancruiseport.com/port"
+  },
+  {
+   "title": "San Juan Cruise Port – Old San Juan: a journey through time and culture",
+   "url": "https://sanjuancruiseport.com/?p=7271"
+  },
+  {
+   "title": "Discover Puerto Rico – Taxis",
+   "url": "https://www.discoverpuertorico.com/index.php/transportation/taxis"
+  },
+  {
+   "title": "Discover Puerto Rico – Getting around Puerto Rico",
+   "url": "https://discoverpuertorico.com/transportation"
+  },
+  {
+   "title": "Royal Caribbean – Transportation in San Juan",
+   "url": "https://royalcaribbean.com/faq/questions/what-is-the-transportation-situation-in-san-juan"
+  },
+  {
+   "title": "Metro Puerto Rico – Free transport service starts in Old San Juan (November 2025)",
+   "url": "https://www.metro.pr/noticias/2025/11/14/arranca-servicio-de-transporte-gratis-en-el-viejo-san-juan/"
+  },
+  {
+   "title": "SanJuanPuertoRico.com – Old San Juan trolley (2026)",
+   "url": "https://sanjuanpuertorico.com/trolley-old-san-juan/"
+  },
+  {
+   "title": "SanJuanPuertoRico.com – San Juan cruise port (2026)",
+   "url": "https://sanjuanpuertorico.com/cruises/"
+  },
+  {
+   "title": "Adventour Begins – San Juan cruise port guide (November 2025)",
+   "url": "https://www.adventourbegins.com/?p=3459"
+  },
+  {
+   "title": "AFAR – A cruise port city guide to San Juan (2024)",
+   "url": "https://www.afar.com/magazine/a-cruise-port-city-guide-to-san-juan-puerto-rico"
+  },
+  {
+   "title": "Cruise.Blog – Best things to do in San Juan cruise port (2023)",
+   "url": "https://cruise.blog/2023/03/best-things-do-san-juan-puerto-rico-cruise-port"
+  },
+  {
+   "title": "TRVL Collective – Best things to do in Old San Juan (2024)",
+   "url": "https://trvlcollective.com/best-things-to-do-in-old-san-juan"
+  }
+ ],
+ "uncertain": [
+  "Fort opening hours: archived NPS releases give 09:00-18:00 daily, but the current NPS hours page did not show hours when opened.",
+  "Exact fixed tourist-zone taxi fares from the piers: the Puerto Rico Tourism Company tariff page was not found; a non-official site lists airport-zone fares only.",
+  "Whether the free Old San Juan trolley is running in October 2026.",
+  "Museo de las Américas admission price (a 2023-2024 guide gives a figure).",
+  "No documented cruise-specific scams were found in the sources opened, so none are listed.",
+  "Distance in km from the Pan American Pier to Old San Juan."
+ ]
+}

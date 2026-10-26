@@ -1,0 +1,425 @@
+{
+  "slug": "tenerife",
+  "city": "Santa Cruz de Tenerife",
+  "portName": "Port of Santa Cruz de Tenerife",
+  "townName": "Plaza de España and the city centre",
+  "country": "Spain",
+  "currency": "EUR",
+  "currencySymbol": "€",
+  "language": "Spanish",
+  "timezone": "WET (UTC+0), WEST (UTC+1) in summer",
+  "lastVerified": "October 2026",
+  "seoTitle": "Tenerife cruise port guide: Santa Cruz, La Laguna, tram",
+  "seoDescription": "Santa Cruz de Tenerife cruise port: walk 10–30 min to Plaza de España, tram to La Laguna €1.35 (2026), bus 910 to Las Teresitas in 20 min. Back 60 min early.",
+  "quickAnswer": "Ships dock in Santa Cruz, either at Muelle de Ribera close to Plaza de España or at the longer Muelle Sur, where you may need the shuttle or a marked walking route. From the port gate the city centre is flat and walkable, and the tram reaches the old town of La Laguna in 30–40 minutes for €1.35. Be back at the ship at least 60 minutes before all-aboard, more if you go beyond La Laguna.",
+  "intro": "Santa Cruz is a working capital, not a resort, and the port opens straight onto its main square. The day splits three ways: stay in the flat city centre with its market and shopping streets, take the tram up to the UNESCO old town of La Laguna, or head for the beach at Las Teresitas. Mount Teide, the island's main draw, is about 90 minutes each way by road and the public bus does not fit a cruise day, so it is ship-tour territory. Which berth you get matters: Ribera is a short walk, Muelle Sur adds a shuttle or a longer walk.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 8,
+  "terminals": [
+    {
+      "name": "Muelle de Ribera",
+      "distanceToCentreKm": 0.8,
+      "notes": "The berth nearest Plaza de España. Most passengers walk out through the port gate; taxis wait near the gate."
+    },
+    {
+      "name": "Muelle Sur (Sur AL)",
+      "distanceToCentreKm": 2.0,
+      "notes": "Longer pier used by many large ships, with the cruise terminal and ferry terminals nearby. Port shuttles, a meeting point near the maritime station and the Puerto-Ciudad building handle access; walking routes are controlled. The berth is only confirmed close to arrival, so check your daily programme."
+    }
+  ],
+  "walkability": {
+    "verdict": "Yes",
+    "minutes": 25,
+    "km": 1.8,
+    "detail": "From Ribera the walk to Plaza de España takes about 10 minutes; from the far end of Muelle Sur allow 25–30 minutes or use the shuttle. The city is flat with good pavements. The busy seafront road between the port and the square has to be crossed at signalled crossings."
+  },
+  "transportSections": [
+    {
+      "mode": "On foot",
+      "cost": "Free",
+      "time": "10–30 min to Plaza de España, depending on berth",
+      "detail": "Follow the signed route out of the port to Plaza de España. Calle del Castillo, the main pedestrian shopping street, starts just behind the square."
+    },
+    {
+      "mode": "Port shuttle (Muelle Sur)",
+      "cost": "Usually free; check with your cruise line",
+      "time": "A few minutes",
+      "detail": "Ships at the far end of Muelle Sur normally get a shuttle to the port gate area near Plaza de España. Arrangements vary by line and berth."
+    },
+    {
+      "mode": "Tram Line 1 to La Laguna (Metrotenerife)",
+      "cost": "€1.35 single; about €1.05 from a Ten+ wallet (2026)",
+      "time": "30–40 min Intercambiador to Trinidad (La Laguna)",
+      "detail": "Board at the Intercambiador (main bus and tram interchange, about 20 minutes' walk along the seafront from Plaza de España) or at a central stop such as Fundación. No cash sales on board: buy at the ticket machine at the stop. Runs about every 5 minutes at peak and every 6–20 minutes off-peak. Trinidad is the stop for La Laguna's old town."
+    },
+    {
+      "mode": "TITSA bus 910 to Las Teresitas",
+      "cost": "Short urban fare; pay the driver in cash or by contactless bank card (2026)",
+      "time": "About 20 min",
+      "detail": "Runs from the Intercambiador and stops on the road in front of the port. Roughly every 10–20 minutes; extra services added in summer 2026. Allow extra time for the return, as buses fill in the afternoon."
+    },
+    {
+      "mode": "TITSA bus 102 to Puerto de la Cruz (for Loro Parque)",
+      "cost": "€5.25 cash, about €3.45 with Ten+ (2026)",
+      "time": "About 1 hour",
+      "detail": "From the Intercambiador via La Laguna, every 20–40 minutes. In Puerto de la Cruz the free Loro Parque Express train runs from Plaza de los Reyes Católicos."
+    },
+    {
+      "mode": "Taxi",
+      "cost": "Metered in the city (2026)",
+      "time": "A few minutes to the centre",
+      "detail": "Taxis wait at the port gate and at ranks in town. In the city they run on the meter. For island tours, agree the total price first and confirm whether it is per car or per person."
+    }
+  ],
+  "returnTiming": {
+    "rule": "Be back at the ship by 16:30 for a 17:30 all-aboard. Leave Plaza de España by 16:00 if your ship is on Muelle Sur, by 16:15 from Ribera. Leave La Laguna by 15:00 on the tram.",
+    "detail": "The walk from the square to a Muelle Sur berth takes up to 30 minutes, and the shuttle can queue at the end of the day. The tram from La Laguna takes 30–40 minutes, plus about 20 minutes' walk from the Intercambiador to the port. From Puerto de la Cruz the bus takes about an hour, so leave there by 14:30 at the latest.",
+    "emergencyFallback": "Take a taxi from any rank; the run from La Laguna to the port is about 20 minutes by road outside rush hour. If you will miss all-aboard, call the port agent number on your daily programme immediately."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": 2.7,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {
+      "item": "La Laguna old town",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Tram €1.35 each way (2026)",
+      "saving": "Large; the tram is simple and frequent"
+    },
+    {
+      "item": "Loro Parque",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Bus 102 €5.25 each way + €44 non-resident adult entry (2026)",
+      "saving": "Moderate; the ship tour removes the one-hour bus risk"
+    },
+    {
+      "item": "Las Teresitas beach",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Bus 910 short urban fare (2026)",
+      "saving": "Large"
+    },
+    {
+      "item": "Mount Teide",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "No realistic public bus from Santa Cruz on a cruise day",
+      "saving": "Take the ship tour or a pre-booked private tour"
+    }
+  ],
+  "excursionAdvice": "Skip the ship tour for Santa Cruz itself, La Laguna and Las Teresitas: all three are easy by foot, tram or a 20-minute bus. Book the ship's tour for Mount Teide. The drive is about 90 minutes each way, the only park bus starts from Puerto de la Cruz in the morning, and weather can close the cable car. Loro Parque is the borderline case: the bus works on a long call, but the ship's tour is safer on a short one.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 at Muelle Sur, a 17:30 all-aboard and a weekday. Swap La Laguna for Las Teresitas if you want a beach day.",
+    "steps": [
+      {
+        "time": "08:30",
+        "what": "Walk or take the port shuttle to Plaza de España."
+      },
+      {
+        "time": "09:00",
+        "what": "Mercado de Nuestra Señora de África, at its busiest and best in the morning. Coffee at the market bars."
+      },
+      {
+        "time": "10:00",
+        "what": "Walk to the Intercambiador and buy a tram ticket at the machine. Line 1 to Trinidad, 30–40 minutes."
+      },
+      {
+        "time": "10:45",
+        "what": "La Laguna old town: the grid of colonial streets, Plaza del Adelantado and the cathedral area. Mostly flat and pedestrianised."
+      },
+      {
+        "time": "12:45",
+        "what": "Lunch in La Laguna's old town."
+      },
+      {
+        "time": "14:00",
+        "what": "Tram back to Santa Cruz."
+      },
+      {
+        "time": "14:45",
+        "what": "Calle del Castillo, Plaza Candelaria and the Iglesia de la Concepción. Or walk along the seafront to the Auditorio de Tenerife."
+      },
+      {
+        "time": "16:00",
+        "what": "Leave Plaza de España for the ship."
+      },
+      {
+        "time": "16:30",
+        "what": "Back on board, 60 minutes before all-aboard."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "Plaza de España",
+      "why": "The city's main square, opposite the port, with a shallow lake, a war memorial and an underground display of the remains of the Castillo de San Cristóbal.",
+      "timeNeeded": "20–30 minutes",
+      "cost": "Free",
+      "tip": "Use it as your meeting point and leave-by point; it is the gateway between the port and town."
+    },
+    {
+      "name": "San Cristóbal de La Laguna",
+      "why": "UNESCO-listed old town with a colonial street grid, 30–40 minutes up the hill by tram.",
+      "timeNeeded": "3–4 hours including the tram",
+      "cost": "Tram €1.35 each way (2026)",
+      "tip": "It is higher and often cooler and cloudier than Santa Cruz. Bring a layer."
+    },
+    {
+      "name": "Mercado de Nuestra Señora de África",
+      "why": "The city's covered food market, with fruit, cheese, fish and small bars.",
+      "timeNeeded": "45 minutes",
+      "cost": "Free",
+      "tip": "Go in the morning, when it is busiest and fully open."
+    },
+    {
+      "name": "Auditorio de Tenerife",
+      "why": "Santiago Calatrava's concert hall on the seafront, next to the small Castillo Negro.",
+      "timeNeeded": "30 minutes from outside",
+      "cost": "Free to view from outside",
+      "tip": "Combine with the walk to the Intercambiador; it is on the same stretch of seafront."
+    },
+    {
+      "name": "Museo de la Naturaleza y Arqueología (MUNA)",
+      "why": "The island's natural history and Guanche culture, including Guanche mummies.",
+      "timeNeeded": "1–1.5 hours",
+      "cost": "Standard ticket; check the Museos de Tenerife site",
+      "tip": "A good rainy-day option. The mummy room may upset young children. Closed on Carnival Tuesday."
+    },
+    {
+      "name": "Iglesia de Nuestra Señora de la Concepción",
+      "why": "Sixteenth-century church with a distinctive black-and-white tower.",
+      "timeNeeded": "20 minutes",
+      "cost": "Free to view from outside",
+      "tip": "A short walk from Plaza de España; pair it with the market."
+    },
+    {
+      "name": "Palmetum",
+      "why": "Hilltop botanical garden of palms with views over the city and port.",
+      "timeNeeded": "45–60 minutes",
+      "cost": "Check on site",
+      "tip": "Next to the Parque Marítimo; a taxi saves the walk in the heat."
+    },
+    {
+      "name": "Loro Parque (Puerto de la Cruz)",
+      "why": "Large zoo and marine park with parrots, dolphins, orcas and sea lions.",
+      "timeNeeded": "Full day including about 2 hours of bus travel",
+      "cost": "€44 non-resident adult (2026)",
+      "tip": "Open 09:30–17:30. Only on a long call; leave Puerto de la Cruz by 14:30 for a 17:30 all-aboard."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Playa de Las Teresitas",
+      "howToGetThere": "TITSA bus 910 from the stop in front of the port or the Intercambiador",
+      "time": "About 20 min by bus",
+      "cost": "Short urban bus fare (2026)",
+      "note": "Long, calm beach protected by a breakwater, next to the fishing village of San Andrés. The best beach option from the port."
+    },
+    {
+      "name": "Parque Marítimo César Manrique",
+      "howToGetThere": "Walk or taxi south along the seafront past the Auditorio",
+      "time": "Short taxi ride",
+      "cost": "Check on site",
+      "note": "Saltwater pool complex on the waterfront rather than a beach."
+    },
+    {
+      "name": "Costa Adeje and Los Cristianos",
+      "howToGetThere": "TITSA buses 110/111 towards the south",
+      "time": "1–1.5 hours by bus",
+      "cost": "Not verified",
+      "note": "Too far for most cruise calls. Choose Las Teresitas instead."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Papas arrugadas with mojo and chicken tapas",
+      "where": "Cinco Estrellas, a short walk from Calle del Castillo",
+      "price": null
+    },
+    {
+      "dish": "Local cheese, fruit and a quick snack at the bar counters",
+      "where": "Mercado de Nuestra Señora de África",
+      "price": null
+    },
+    {
+      "dish": "Fresh fish and seafood",
+      "where": "Restaurants in the fishing village of San Andrés, next to Las Teresitas",
+      "price": null
+    },
+    {
+      "dish": "Barraquito (layered coffee with condensed milk and liqueur)",
+      "where": "Cafés on Plaza Candelaria",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Trying to see Mount Teide by public bus.",
+      "fix": "The park bus leaves from Puerto de la Cruz once in the morning and the drive is about 90 minutes each way. Book the ship's tour or a private tour."
+    },
+    {
+      "mistake": "Assuming the ship is next to Plaza de España.",
+      "fix": "Check whether you are at Ribera or Muelle Sur. From the far end of Muelle Sur allow 30 minutes on foot or use the shuttle."
+    },
+    {
+      "mistake": "Trying to pay cash on the tram.",
+      "fix": "Buy a ticket at the machine at the stop, or load a Ten+ card. There are no sales on board."
+    },
+    {
+      "mistake": "Going to the southern resorts for a beach.",
+      "fix": "Las Teresitas is 20 minutes by bus 910. The south is 1–1.5 hours each way."
+    },
+    {
+      "mistake": "Starting a taxi tour without fixing the price.",
+      "fix": "Agree the total fare, the duration and whether it is per car or per person before you set off."
+    }
+  ],
+  "safety": "Santa Cruz is a safe, ordinary Spanish city. Watch for pickpockets in crowds on Calle del Castillo and at the market, and on the tram at busy times. The seafront road by the port is fast and wide; cross only at signals. La Laguna and Teide are cooler than the coast, and the sun is strong all year at this latitude, so carry water, sunscreen and a layer.",
+  "scams": [
+    "Taxi tour prices that turn out to be per person: before agreeing an island tour, confirm in writing whether the quote is per car or per person.",
+    "Taxi tours priced vaguely: before a longer trip, agree the total fare and duration in advance rather than relying on an estimate.",
+    "Poor exchange rates at hotels and some exchange counters: use a bank ATM on the seafront or main shopping streets, or pay by card."
+  ],
+  "emergencyNumber": "112",
+  "accessibility": "Santa Cruz is flat and generally wheelchair-friendly, with wide pavements around Plaza de España and Calle del Castillo. The main barrier is distance: from a far Muelle Sur berth, ask the ship whether the port shuttle can take a wheelchair. La Laguna's old town is level and largely pedestrianised. The ship docks, so there is no tender transfer.",
+  "rainyDay": "Rain is more likely in La Laguna and the north than in Santa Cruz. Stay in the city and spend time in MUNA, the covered Mercado de Nuestra Señora de África, the TEA modern art centre and the shopping streets. Cloud can close or hide the Teide cable car, so check before committing to a Teide tour on a wet day.",
+  "crowdTips": "Santa Cruz is one of Spain's busiest cruise ports and several ships can call on the same day. Plaza de España, Calle del Castillo and the market fill first. Go to the market early and up to La Laguna mid-morning, then return to the city in the afternoon when tour groups head back. During Carnival in February the city centre is very busy and tram and bus services change.",
+  "faqs": [
+    {
+      "q": "Is Santa Cruz de Tenerife walkable from the cruise port?",
+      "a": "Yes. Plaza de España is about 10 minutes from Muelle de Ribera and up to 30 minutes from the far end of Muelle Sur, where a shuttle is often provided."
+    },
+    {
+      "q": "Is Tenerife a tender port?",
+      "a": "No. Ships dock alongside in Santa Cruz."
+    },
+    {
+      "q": "How do I get from Tenerife cruise port to La Laguna?",
+      "a": "Take tram Line 1 from the Intercambiador or a central stop to Trinidad. It takes 30–40 minutes and a single costs €1.35 (2026). Buy the ticket at the stop machine."
+    },
+    {
+      "q": "Can I visit Mount Teide on my own from the cruise ship?",
+      "a": "Not realistically by public transport. The drive is about 90 minutes each way. Take the ship's tour or a pre-booked private tour."
+    },
+    {
+      "q": "Are there beaches near Tenerife cruise port?",
+      "a": "Playa de Las Teresitas is about 20 minutes away on bus 910, which stops on the road in front of the port."
+    },
+    {
+      "q": "What can I do in Santa Cruz de Tenerife in one day from a cruise ship?",
+      "a": "The market and Plaza de España in the morning, the tram to La Laguna's old town, then Calle del Castillo before heading back. Or swap La Laguna for Las Teresitas."
+    },
+    {
+      "q": "How do I get to Loro Parque from Santa Cruz cruise port?",
+      "a": "Bus 102 to Puerto de la Cruz takes about an hour (€5.25 cash, 2026), then the free Loro Parque Express train. Only worth it on a long call."
+    },
+    {
+      "q": "Is Santa Cruz de Tenerife safe?",
+      "a": "Yes. Normal precautions against pickpockets in crowds are enough."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "Plaza de España"
+    },
+    {
+      "name": "San Cristóbal de La Laguna"
+    },
+    {
+      "name": "Mercado de Nuestra Señora de África"
+    },
+    {
+      "name": "Auditorio de Tenerife"
+    },
+    {
+      "name": "MUNA (Museo de la Naturaleza y Arqueología)"
+    },
+    {
+      "name": "Playa de Las Teresitas"
+    },
+    {
+      "name": "Loro Parque"
+    },
+    {
+      "name": "Mount Teide"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adventour Begins – Santa Cruz de Tenerife cruise port guide (updated April 2026)",
+      "url": "https://www.adventourbegins.com/port-of-tenerife-cruise-guide/"
+    },
+    {
+      "title": "Adventour Begins – Things to do in Santa Cruz de Tenerife (updated May 2026)",
+      "url": "https://adventourbegins.com/things-to-do-in-santa-cruz-de-tenerife/"
+    },
+    {
+      "title": "Cruise Deals Tips and Tricks – Santa Cruz de Tenerife port guide (checked May 2026)",
+      "url": "https://www.cruisedealstipsandtricks.com/ports/santa-cruz-de-tenerife/"
+    },
+    {
+      "title": "MSC Cruises – Santa Cruz de Tenerife port page",
+      "url": "https://www.msccruises.com.au/our-cruises/destinations/canary-islands/santa-cruz-de-tenerife"
+    },
+    {
+      "title": "Cruise Critic – Tenerife port",
+      "url": "https://www.cruisecritic.com/find-a-cruise/port-tenerife"
+    },
+    {
+      "title": "What's In Port – Santa Cruz Tenerife",
+      "url": "https://www.whatsinport.com/Santa-Cruz-Tenerife.htm"
+    },
+    {
+      "title": "App Savvy Traveller – Day trips from Santa Cruz de Tenerife (October 2026)",
+      "url": "https://appsavvytraveller.com/day-trips-from-santa-cruz-de-tenerife/"
+    },
+    {
+      "title": "Diario de Avisos – TITSA line changes in Santa Cruz (June 2026)",
+      "url": "https://diariodeavisos.elespanol.com/2026/06/lineas-de-titsa-en-santa-cruz/"
+    },
+    {
+      "title": "Cestee – Getting around Santa Cruz de Tenerife (Feb 2025)",
+      "url": "https://www.cestee.com/destination/spain/santa-cruz-de-tenerife/getting-around"
+    },
+    {
+      "title": "Nomado Travel – Getting around Tenerife (2026)",
+      "url": "https://www.nomadotravel.app/en/guides/getting-around-tenerife"
+    },
+    {
+      "title": "Wikipedia – Tenerife Tram",
+      "url": "https://en.wikipedia.org/wiki/Tenerife_Tram"
+    },
+    {
+      "title": "Wikipedia – Port of Santa Cruz de Tenerife",
+      "url": "https://en.wikipedia.org/wiki/Port_of_Santa_Cruz_de_Tenerife"
+    },
+    {
+      "title": "Tenerife Tourism (Web Tenerife) – MUNA",
+      "url": "https://www.webtenerife.co.uk/what-see/museums/muna-museo-naturaleza-arqueologia"
+    },
+    {
+      "title": "Taquilla.com – Loro Parque tickets 2026",
+      "url": "https://www.taquilla.com/entradas/loro-parque"
+    },
+    {
+      "title": "Volcano Teide – Teide cable car",
+      "url": "https://www.volcanoteide.com/en/teide_cable_car"
+    },
+    {
+      "title": "Ports Europe – Muelle de Enlace cruise terminal plan (2022)",
+      "url": "https://portseurope.com/port-authority-of-tenerife-resubmits-plan-for-terminal-de-cruceros"
+    }
+  ],
+  "uncertain": [
+    "The official Puertos de Tenerife, Metrotenerife and TITSA fare pages could not be opened; berth, fare and route details come from 2025–2026 secondary guides and cruise line pages.",
+    "Some sources name a 'Muelle Norte' terminal (Agustín de Betancourt) or 'Terminal Helipuerto'; these names could not be reconciled with the Ribera/Muelle Sur naming used here.",
+    "Bus 910 single fare: sources give between €1.25 and about €1.45 for an urban single; no figure quoted.",
+    "MUNA ticket price and opening hours: the tourist board page gives two conflicting schedules and no price.",
+    "Palmetum and Parque Marítimo entry prices not verified.",
+    "Teide cable car adult price: only a 'from €24' figure was found, not confirmed as the non-resident adult rate.",
+    "Taxi tariff amounts for 2026 not verified (a February 2025 guide gives €3.85 flag fall and €1.35/km); sources disagree on whether out-of-town taxis use the meter.",
+    "Typical all-aboard time not verified; 17:30 used.",
+    "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null.",
+    "Restaurant prices not verified."
+  ]
+}

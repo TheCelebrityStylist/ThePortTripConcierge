@@ -1,0 +1,374 @@
+{
+ "slug": "lanzarote",
+ "city": "Arrecife",
+ "portName": "Port of Arrecife (Los Mármoles and Naos cruise terminals)",
+ "townName": "central Arrecife (Charco de San Ginés)",
+ "country": "Spain",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Spanish",
+ "timezone": "WET (UTC+0), WEST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Lanzarote cruise port guide: Arrecife, Timanfaya, shuttle",
+ "seoDescription": "Big ships berth at Los Mármoles, a 30–40 min walk from Arrecife; shuttles take about 12 min. Timanfaya €30 online only, Cueva de los Verdes €17 (2026).",
+ "quickAnswer": "Ships berth alongside at Arrecife; larger ships use the Los Mármoles cruise terminal in the commercial port, a 30–40 minute exposed walk from the centre, so take the shuttle (about 12 minutes to Charco de San Ginés) or a taxi. Timanfaya and Cueva de los Verdes must be booked online for a set time. Be back at the ship 60 minutes before all-aboard from Arrecife, and leave the island's sights at least 2.5 hours before.",
+ "intro": "Lanzarote's attraction is its volcanic landscape and César Manrique's work, both spread across the island, while Arrecife itself is a small working capital with a lagoon, two castles and a town beach. Since 2024–2025 the port has two new cruise terminals: Los Mármoles, which can take three ships at once, and Naos, closer to the marina. Where your ship berths decides whether you walk or ride into town, so check your daily programme. For Timanfaya, Jameos del Agua or Cueva de los Verdes, book ahead or take a ship tour.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Los Mármoles Cruise Terminal (Muelle de Los Mármoles)",
+   "distanceToCentreKm": 3.5,
+   "notes": "Opened October 2024 and inaugurated by the Port Authority of Las Palmas and Global Ports Canary Islands in May 2025. Can serve three ships at once, with a satellite building for passenger services. In the commercial port; the walk to the centre is 30–40 minutes along busy, unshaded roads. Cruise guides put it at about 3–4 km. Shuttle or taxi recommended."
+  },
+  {
+   "name": "Naos Cruise Terminal (Puerto de Naos)",
+   "distanceToCentreKm": 1.2,
+   "notes": "Inaugurated May 2025; 1,106 m² single-storey building beside Marina Lanzarote. The operator gives the city centre as 1.2 km, walkable along the Paseo de Puerto de Naos."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 35,
+  "km": 3.5,
+  "detail": "From Los Mármoles the walk takes 30–40 minutes past busy roads and roundabouts with little shade; most people take the shuttle. From the Naos terminal, the centre is about 1.2 km along the waterfront. Once in town, the Charco, the castles, the shopping streets and El Reducto beach are all walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "Cruise shuttle bus",
+   "cost": "Varies by cruise line; sometimes free",
+   "time": "About 12 min to Charco de San Ginés",
+   "detail": "Drops near Charco de San Ginés. Check the price and the last return time in your daily programme."
+  },
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "30–40 min from Los Mármoles; about 1.2 km from Naos",
+   "detail": "Only worthwhile from the Naos terminal. From Los Mármoles the route follows port roads with little shade."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Fare not verified",
+   "time": "Short ride to the centre; island sights mostly 30–45 min by car",
+   "detail": "Taxis wait at the terminals. For island trips agree the route, waiting time and price before you set off."
+  },
+  {
+   "mode": "Intercity bus (guaguas)",
+   "cost": "Fare not verified",
+   "time": "Varies",
+   "detail": "Buses link Arrecife with Puerto del Carmen and Costa Teguise; Cruise Critic reports a bus about every 20 minutes from the centre to Puerto del Carmen. The nearest stop to Los Mármoles is reported as Lloret, about 300 m away. Check the operator's current timetable."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the ship 60 minutes before all-aboard. Catch a shuttle that leaves Arrecife at least 75 minutes before all-aboard, and leave Timanfaya, Jameos del Agua or Cueva de los Verdes at least 2.5 hours before.",
+  "detail": "Shuttles fill at the end of the day and the road out to Los Mármoles passes busy roundabouts. Island sights are 30–45 minutes away by car and Timanfaya entry is by timed slot, so a late slot can trap you.",
+  "emergencyFallback": "Take a taxi from the centre or flag one down. If you will miss all-aboard, phone the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Timanfaya (Montañas del Fuego)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€30 entry, online only for a set time (2026), plus taxi or hire car",
+   "saving": "Depends on transport; often small for a couple"
+  },
+  {
+   "item": "Arrecife town",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Shuttle (if charged) and free sights; Castillo de San Gabriel €3 (2026)",
+   "saving": "Most of the excursion price"
+  }
+ ],
+ "excursionAdvice": "Arrecife needs no tour. For the island, a ship excursion is often the sensible choice: Timanfaya and Cueva de los Verdes are sold online only for timed slots, the sights are spread across the island, and an organised tour combining several of them removes the return risk. Hire a car or taxi yourself only if you have booked your slots, have a long call and keep to one area (Timanfaya and La Geria, or Jameos and Cueva de los Verdes).",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at Los Mármoles, all-aboard is 17:30, and a shuttle runs to Charco de San Ginés. Not on a Sunday (the history museum is closed).",
+  "steps": [
+   {
+    "time": "08:45",
+    "what": "Shuttle to Charco de San Ginés (about 12 minutes)."
+   },
+   {
+    "time": "09:15",
+    "what": "Walk round the Charco de San Ginés lagoon to the Iglesia de San Ginés."
+   },
+   {
+    "time": "10:00",
+    "what": "Calle Real and Calle León y Castillo; bienmesabe at La Mallorquina."
+   },
+   {
+    "time": "11:00",
+    "what": "Cross the Puente de las Bolas to Castillo de San Gabriel and its history museum (€3, opens 11:00)."
+   },
+   {
+    "time": "12:00",
+    "what": "Walk the promenade to Playa del Reducto for a swim."
+   },
+   {
+    "time": "13:30",
+    "what": "Lunch: menú del día on Avenida César Manrique or fish at Marina Lanzarote."
+   },
+   {
+    "time": "15:00",
+    "what": "Optional: taxi to MIAC Castillo de San José (€5.40, open to 18:00), on the port bay, and its café."
+   },
+   {
+    "time": "16:00",
+    "what": "Shuttle or taxi back to the terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "On board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Timanfaya National Park (Montañas del Fuego)",
+   "why": "The island's volcanic heart: lava fields, cones and geothermal activity.",
+   "timeNeeded": "About 90 minutes on site, plus 30–45 minutes' drive each way",
+   "cost": "€30 (2026)",
+   "tip": "Tickets are sold online only, for a specific date and time; booking is mandatory. Open 09:00–15:45."
+  },
+  {
+   "name": "Cueva de los Verdes",
+   "why": "Guided walk through a lava tube in the north of the island.",
+   "timeNeeded": "50 minutes on site",
+   "cost": "€17 (2026)",
+   "tip": "Online only, for a set time; booking is mandatory. Open 09:30–16:45. Pair with Jameos del Agua nearby."
+  },
+  {
+   "name": "Jameos del Agua",
+   "why": "A volcanic lava-tube site in the north, one of the island's art, culture and tourism centres.",
+   "timeNeeded": "1–2 hours",
+   "cost": "From €17 (2026)",
+   "tip": "Open 10:00–18:00. Buy online in advance."
+  },
+  {
+   "name": "Charco de San Ginés",
+   "why": "Seawater lagoon in the centre of Arrecife lined with white houses, boats and bars.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "A flea market runs around the Charco on Wednesdays and Thursdays."
+  },
+  {
+   "name": "Castillo de San Gabriel and Puente de las Bolas",
+   "why": "16th-century castle on an islet, reached by a 175 m stone bridge, housing the Museum of the History of Arrecife.",
+   "timeNeeded": "45 minutes",
+   "cost": "€3; under-12s free (2026)",
+   "tip": "Open Monday–Saturday 11:00–17:00, closed Sundays."
+  },
+  {
+   "name": "MIAC – Castillo de San José",
+   "why": "Contemporary art museum in an 18th-century castle on the port bay, with works by Miró, Tàpies and others.",
+   "timeNeeded": "1 hour",
+   "cost": "€5.40 (2026)",
+   "tip": "Open daily 11:00–18:00. The café, with views over the port, is free to enter."
+  },
+  {
+   "name": "Mirador del Río",
+   "why": "Viewpoint at the island's northern end, run by the island's tourism centres.",
+   "timeNeeded": "45 minutes on site",
+   "cost": "€9 (2026)",
+   "tip": "Open 10:00–17:00. Combine with Jameos and Cueva de los Verdes on a north-island trip."
+  },
+  {
+   "name": "Jardín de Cactus",
+   "why": "Garden of cacti and succulents, one of the island's art, culture and tourism centres.",
+   "timeNeeded": "1 hour",
+   "cost": "€9 (2026)",
+   "tip": "Open 10:00–17:00; on the way to the north-island sights."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Playa del Reducto",
+   "howToGetThere": "Walk west along the promenade from the centre",
+   "time": "About 30–40 min on foot from the Charco",
+   "cost": "Free",
+   "note": "About 500 m of golden sand with calm water behind a reef; beach bars nearby."
+  },
+  {
+   "name": "Puerto del Carmen",
+   "howToGetThere": "Intercity bus from the centre or taxi",
+   "time": "Allow 2–3 hours including travel",
+   "cost": "Bus or taxi fare",
+   "note": "The island's main resort beaches; only if you have time to spare."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Bienmesabe and Canarian pastries",
+   "where": "La Mallorquina, Calle León y Castillo (since 1925)",
+   "price": null
+  },
+  {
+   "dish": "Menú del día with papas arrugadas, queso asado and caldo de millo",
+   "where": "Restaurants on Avenida César Manrique",
+   "price": null
+  },
+  {
+   "dish": "Fresh fish",
+   "where": "Restaurants at Marina Lanzarote",
+   "price": null
+  },
+  {
+   "dish": "Tapas and drinks by the water",
+   "where": "Bars around Charco de San Ginés",
+   "price": null
+  },
+  {
+   "dish": "Coffee with a port view",
+   "where": "MIAC café, Castillo de San José",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Walking from Los Mármoles into town.",
+   "fix": "It takes 30–40 minutes on busy, shadeless roads. Take the shuttle or a taxi and save your energy for the town."
+  },
+  {
+   "mistake": "Turning up at Timanfaya or Cueva de los Verdes without a ticket.",
+   "fix": "Both are sold online only for a set time. Book before you sail, and choose a slot that leaves 2.5 hours before all-aboard."
+  },
+  {
+   "mistake": "Trying to see Timanfaya, the north and Arrecife in one call.",
+   "fix": "Pick one area: Timanfaya and La Geria, or Jameos, Cueva de los Verdes and Mirador del Río."
+  },
+  {
+   "mistake": "Planning the history museum on a Sunday.",
+   "fix": "Castillo de San Gabriel is closed on Sundays; MIAC opens daily from 11:00."
+  },
+  {
+   "mistake": "Assuming every ship berths in the same place.",
+   "fix": "Ships use Los Mármoles or the Naos terminal. Check your daily programme for the berth and shuttle stop."
+  }
+ ],
+ "safety": "Arrecife is a calm small city and generally safe; take normal care with bags in busy bars around the Charco. The real hazards are sun and wind: carry water and sun protection, especially on the walk from Los Mármoles or at Timanfaya. If you drive, island roads are good but roundabouts around Arrecife are busy, and parking at the main sights fills on ship days.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The waterfront around the Charco and the promenade to El Reducto are largely flat. The walk from Los Mármoles is long and alongside traffic; use the shuttle and ask your cruise line whether it is accessible. Ask CACT (+34 928 84 84 84) about access at Timanfaya and the lava-tube sites before booking.",
+ "rainyDay": "Rain is uncommon. If it rains, visit MIAC at Castillo de San José, the history museum in Castillo de San Gabriel (not on Sundays) and the shops on Calle León y Castillo, and keep Jameos del Agua or Cueva de los Verdes as a covered island option if you have tickets.",
+ "crowdTips": "Arrecife handles more than 250 cruise calls a year and Los Mármoles can take three ships at once, and Timanfaya and Cueva de los Verdes are sold by timed slot. Book the earliest slots that fit your shuttle times. In town, the Charco is quieter first thing; El Reducto fills from late morning.",
+ "faqs": [
+  {
+   "q": "Is Lanzarote a tender port?",
+   "a": "No. Ships berth alongside at Arrecife, at Los Mármoles or the Naos terminal."
+  },
+  {
+   "q": "Is Arrecife walkable from the cruise port?",
+   "a": "From the Naos terminal, yes (about 1.2 km). From Los Mármoles it is a 30–40 minute walk on busy roads, so most people take the shuttle."
+  },
+  {
+   "q": "How do I get from Lanzarote cruise port to Arrecife town?",
+   "a": "Take your ship's shuttle to Charco de San Ginés (about 12 minutes) or a taxi from the terminal."
+  },
+  {
+   "q": "How much is Timanfaya National Park?",
+   "a": "€30 for Montañas del Fuego in 2026, bought online only for a set date and time. Open 09:00–15:45."
+  },
+  {
+   "q": "Can I visit Timanfaya on my own from the cruise ship?",
+   "a": "Yes, with a pre-booked slot and a taxi or hire car; it is about 30–45 minutes' drive. Leave 2.5 hours before all-aboard. A ship tour is simpler."
+  },
+  {
+   "q": "What can I do in Lanzarote in one day from a cruise ship?",
+   "a": "Either an island trip (Timanfaya, or Jameos del Agua and Cueva de los Verdes), or Arrecife: the Charco, Castillo de San Gabriel, MIAC and El Reducto beach."
+  },
+  {
+   "q": "Beaches near Lanzarote cruise port?",
+   "a": "Playa del Reducto in Arrecife, a walk along the promenade from the centre. Puerto del Carmen's beaches are a bus or taxi ride away."
+  },
+  {
+   "q": "Is Arrecife safe?",
+   "a": "Yes. Take normal precautions and plenty of water and sun protection."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Timanfaya National Park"
+  },
+  {
+   "name": "Jameos del Agua"
+  },
+  {
+   "name": "Cueva de los Verdes"
+  },
+  {
+   "name": "Charco de San Ginés"
+  },
+  {
+   "name": "Castillo de San Gabriel"
+  },
+  {
+   "name": "MIAC Castillo de San José"
+  },
+  {
+   "name": "Mirador del Río"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Centros de Arte, Cultura y Turismo de Lanzarote (CACT) – Hours and prices",
+   "url": "https://cactlanzarote.com/en/horarios-y-tarifas"
+  },
+  {
+   "title": "Turismo Lanzarote – Arrecife",
+   "url": "https://turismolanzarote.com/en/arrecife/"
+  },
+  {
+   "title": "Spain.info (Turespaña) – Arrecife",
+   "url": "https://www.spain.info/es/destino/arrecife/"
+  },
+  {
+   "title": "Global Ports Holding – Lanzarote Cruise Port",
+   "url": "https://www.globalportsholding.com/our-ports/lanzarote-cruise-port/"
+  },
+  {
+   "title": "La Voz de Lanzarote – Lanzarote inaugurates two cruise terminals in Arrecife (May 2025)",
+   "url": "https://www.lavozdelanzarote.com/en/ekonomus/tourism/lanzarote-inaugurates-two-cruise-terminals-in-arrecife-and-expects-to-almost-double-the-travelers_235074_102.html"
+  },
+  {
+   "title": "La Voz de Lanzarote – Arrecife opens new cruise terminal in Los Mármoles (October 2024)",
+   "url": "https://www.lavozdelanzarote.com/en/ekonomus/tourism/arrecife-opens-new-cruise-terminal-in-los-marmoles_230255_102.html"
+  },
+  {
+   "title": "La Voz de Lanzarote – New bus lines in Lanzarote (April 2025)",
+   "url": "https://www.lavozdelanzarote.com/en/news/politics/discover-the-new-bus-lines-that-aim-to-improve-connectivity-in-lanzarote_234380_102.html"
+  },
+  {
+   "title": "CruiseMapper – Arrecife port",
+   "url": "https://cruisemapper.com/ports/arrecife-port-836"
+  },
+  {
+   "title": "Cruise Critic – Lanzarote port",
+   "url": "https://www.cruisecritic.com/find-a-cruise/port-lanzarote"
+  },
+  {
+   "title": "Adventour Begins – Lanzarote cruise port guide (updated April 2026)",
+   "url": "https://adventourbegins.com/lanzarote-cruise-port-guide/"
+  },
+  {
+   "title": "La Maleta Inquieta – Qué ver en Arrecife 2026",
+   "url": "https://lamaletainquieta.com/?p=3407"
+  },
+  {
+   "title": "ALSA – Lanzarote airport buses",
+   "url": "https://www.alsa.com/en/airports/lanzarote"
+  },
+  {
+   "title": "Lanzarote Guidebook – Bus timetables",
+   "url": "https://lanzaroteguidebook.com/information/getting-around/bus-timetables"
+  }
+ ],
+ "uncertain": [
+  "Port authority (Puertos de Las Palmas, palmasport.es) pages could not be opened (blocked to the fetcher), so the berth allocation and the exact distance from Los Mármoles to the centre come from the terminal operator, local press and cruise guides, not the port authority.",
+  "Intercity Bus Lanzarote and Arrecife Bus fares, line numbers and timetables: the operators' sites could not be opened.",
+  "Taxi fares from the terminals to the centre and to Timanfaya.",
+  "Whether the Timanfaya and Cueva de los Verdes prices are for non-residents only (CACT lists one general price and separate resident discounts)."
+ ]
+}

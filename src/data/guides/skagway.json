@@ -1,0 +1,379 @@
+{
+ "slug": "skagway",
+ "city": "Skagway",
+ "portName": "Port of Skagway (Railroad, Broadway and Ore Terminal docks)",
+ "townName": "Broadway and the historic district",
+ "country": "USA",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "AKST (UTC−9), AKDT (UTC−8) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Skagway cruise port guide: docks and White Pass train",
+ "seoDescription": "Skagway's Broadway Dock is about 5 min from town; Railroad Dock ships bus or tender ashore. White Pass Summit train $155 (2026), 2.5–3 hours, no passport.",
+ "quickAnswer": "Skagway is a docking port with four berths. From the Broadway and Ore Terminal docks you walk into town in roughly 5–15 minutes; access to the Railroad Dock is restricted because of an active rockslide zone, so ships there bus passengers off the aft berth and tender them from the forward berth. Be back on board 60 minutes before all-aboard from town, 75–105 minutes if your ship is at the Railroad Dock, and leave a 90-minute margin after the White Pass train.",
+ "intro": "Skagway is a small gold-rush town at the head of Lynn Canal, laid out on a simple grid with most of its sights on or near Broadway. Most visitors come for the White Pass & Yukon Route railway, which climbs from tidewater to the 2,888 ft summit in 2.5–3 hours. Your berth shapes the rest of the day. The Railroad Dock, which holds two of the four berths, sits beside an active slide zone, so passengers there cannot simply walk off. The 2026 schedule listed 523 calls and about 1.31 million passengers between 30 April and early October, with most ships arriving between 06:00 and 07:00.",
+ "isTender": false,
+ "tenderNotes": "Not a tender port in the usual sense, but the Municipality's alternative disembarkation for the Railroad Dock means ships at the forward berth (RRF) tender passengers ashore, and ships at the aft berth (RRA) bus them. Ask your ship where the tender lands and how often it runs.",
+ "typicalHours": 12,
+ "terminals": [
+  {
+   "name": "Broadway Dock (BRD)",
+   "distanceToCentreKm": null,
+   "notes": "Central on the waterfront, about a five-minute walk to town at the foot of the main street. White Pass rail service starts at the dock's end."
+  },
+  {
+   "name": "Ore Terminal Dock (ORE)",
+   "distanceToCentreKm": null,
+   "notes": "Built for ore carriers and converted to a cruise dock after the ore trade declined in the early 1980s. A walking berth."
+  },
+  {
+   "name": "Railroad Dock, aft berth (RRA)",
+   "distanceToCentreKm": null,
+   "notes": "Next to an active slide zone; pier access is restricted and passengers are taken off by bus. On-dock rail service for train excursions."
+  },
+  {
+   "name": "Railroad Dock, forward berth (RRF)",
+   "distanceToCentreKm": null,
+   "notes": "Same restricted pier; passengers are tendered ashore instead. On-dock rail service for train excursions."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": null,
+  "detail": "Town is flat and compact. From the Broadway Dock it is about five minutes to the main street; allow up to 15 minutes from the farther walking berths. Coloured shapes painted on the path mark the route from each dock. From the Railroad Dock you cannot walk off: use the bus or tender your ship provides."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5–15 min, depending on the dock",
+   "detail": "Follow the painted route from your dock to Broadway. The Klondike Gold Rush visitor centre is at 2nd Avenue and Broadway as you enter town."
+  },
+  {
+   "mode": "Railroad Dock bus or tender",
+   "cost": "Arranged by your ship",
+   "time": "Depends on the ship",
+   "detail": "Because access to the Railroad Dock is restricted, ships at the aft berth bus passengers and ships at the forward berth tender them. Check your daily programme for the pick-up point and the last service."
+  },
+  {
+   "mode": "SMART bus (dock to downtown)",
+   "cost": "$3 each way or $5 all-day pass, paid to the driver (2026)",
+   "time": "Short hops",
+   "detail": "Runs 07:00–21:00 daily when cruise ships are in port. A stop half a mile from the Gold Rush Cemetery saves most of that walk."
+  },
+  {
+   "mode": "SMART on-demand shuttle",
+   "cost": "$15 per person to Dyea; $10 to the end of pavement on Dyea Road (2026)",
+   "time": "Call (907) 612-0902",
+   "detail": "Runs 08:00–01:00 year-round by phone booking. Also goes to the US/Canada border at White Pass Summit for $15."
+  },
+  {
+   "mode": "White Pass & Yukon Route railway",
+   "cost": "Summit Excursion $155 adult, $77.50 child 3–12, under 3 free, booked direct (2026)",
+   "time": "2.5–3 hours round trip",
+   "detail": "40 miles round trip to the 2,888 ft summit. Holland America and Princess passengers who book through the ship board on the pier beside the ship. Tickets bought through a third party or a ticket office are checked in and boarded at the White Pass depot office in Skagway. No passport needed."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard if you walk from town to the Broadway or Ore Terminal Dock. If your ship is at the Railroad Dock, be at the ship's bus pick-up 75 minutes before, or at the tender landing 105 minutes before. After the Summit train, keep at least 90 minutes before all-aboard.",
+  "detail": "The Railroad Dock rules include the 15-minute walk plus a standard buffer for a bus transfer or a tender, not a measured queue time, so follow any earlier last-boat time your ship gives. The Summit train runs to a fixed timetable and takes up to 3 hours, so only book a departure that returns well inside that 90-minute margin.",
+  "emergencyFallback": "If a train or independent tour is running late, tell the guide your all-aboard time and call the port agent number on your daily programme. Ship-sold rail tours are tracked by the ship."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": 155,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "White Pass Summit Excursion",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$155 adult booked direct (2026); board at the White Pass depot office",
+   "saving": "Varies; Holland America and Princess bookings board beside the ship"
+  }
+ ],
+ "excursionAdvice": "The White Pass Summit train is the excursion most people take here, and booking it through the ship has real value if your line boards on the pier: you walk off the ship onto the train and the return is the ship's responsibility. Booking direct means checking in at the depot office and managing the timing yourself. The town, the national park sites, the Gold Rush Cemetery and the short trails are easy without a tour. Longer trains to Bennett and Carcross, and road trips into the Yukon, take 5–8 hours and cross into Canada; do them through the ship unless your call is long.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 07:00 at the Broadway or Ore Terminal Dock and all-aboard is 17:30. White Pass departure times were not published on the railway's website for 2026, so the plan does not fix a train time: fit your booked departure into the morning block.",
+  "steps": [
+   {
+    "time": "07:30",
+    "what": "Walk to the Klondike Gold Rush visitor centre at 2nd and Broadway. Collect a free timed ticket for the Jeff. Smiths Parlor Museum and check the day's ranger programme."
+   },
+   {
+    "time": "08:00",
+    "what": "Walk Broadway and the side streets of the historic district before the crowds peak."
+   },
+   {
+    "time": "09:00",
+    "what": "Morning block: your Summit train if you booked one (2.5–3 hours, check your ticket for the time and boarding point). Without a train, walk out to Yakutania Point and back (1.6 miles, about an hour)."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch at the Red Onion Saloon, or a beer at Skagway Brewing Company or Klondike Brewing."
+   },
+   {
+    "time": "13:15",
+    "what": "Jeff. Smiths Parlor Museum tour (30 minutes) at your ticket time, then the Moore House at 5th and Spring."
+   },
+   {
+    "time": "14:15",
+    "what": "Walk to the Gold Rush Cemetery and Lower Reid Falls (4 miles round trip from 2nd and Broadway, about 2 hours), or take the SMART bus to the stop half a mile away."
+   },
+   {
+    "time": "15:45",
+    "what": "Ships at the Railroad Dock: head for the tender landing now (forward berth) or the bus pick-up by 16:15 (aft berth)."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board at the Broadway or Ore Terminal Dock, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "White Pass & Yukon Route Summit Excursion",
+   "why": "Railway climb from tidewater to White Pass Summit at 2,888 ft on the gold-rush route to the Yukon, 40 miles round trip.",
+   "timeNeeded": "2.5–3 hours",
+   "cost": "$155 adult, $77.50 child 3–12 booked direct (2026)",
+   "tip": "The 2026 season ran 30 April to 7 October with no service on 2–4 May, 26–27 September, 1 October and 3–5 October. Lift-equipped cars have limited space; ask when booking."
+  },
+  {
+   "name": "Klondike Gold Rush National Historical Park visitor centre",
+   "why": "Free starting point for the historic district, with the day's tour times and ranger talks.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "At 2nd and Broadway. Go first to collect Jeff. Smiths Parlor tickets."
+  },
+  {
+   "name": "Jeff. Smiths Parlor Museum",
+   "why": "Ranger-led tour through all three rooms of the museum.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free, timed ticket required",
+   "tip": "Tours take up to 14 people and run from early May to late September. Tickets are limited; collect them at the visitor centre."
+  },
+  {
+   "name": "Moore House",
+   "why": "National Park Service house exhibit in the historic district.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Hours vary; check the visitor centre's daily schedule. At 5th and Spring; closed late September to late April."
+  },
+  {
+   "name": "Broadway historic district",
+   "why": "The gold-rush streets where most of the park's town sites stand.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "Use the side streets when Broadway is crowded mid-morning."
+  },
+  {
+   "name": "Gold Rush Cemetery and Lower Reid Falls",
+   "why": "Skagway's oldest cemetery, where Soapy Smith is buried, with the falls a short walk beyond.",
+   "timeNeeded": "About 2 hours on foot",
+   "cost": "Free on foot; SMART bus $3 each way (2026)",
+   "tip": "The easy trail is 4 miles round trip from 2nd and Broadway with 50 ft of climb. The SMART bus stops half a mile from the cemetery."
+  },
+  {
+   "name": "Yakutania Point and Smuggler's Cove",
+   "why": "Two short, easy-to-moderate trails close to town, listed on the Municipality's trail map.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Yakutania Point is 1.6 miles and easy; Smuggler's Cove is 2 miles and moderate."
+  },
+  {
+   "name": "Dyea",
+   "why": "Gold-rush townsite outside Skagway; the park's Dyea Campground is 9 miles out on a gravel road.",
+   "timeNeeded": "3 hours",
+   "cost": "SMART on-demand shuttle $15 per person each way (2026)",
+   "tip": "Only on a long call; book the shuttle by phone."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Pub food (nachos, pizza) in an 1898 bordello",
+   "where": "Red Onion Saloon, Skagway",
+   "price": null
+  },
+  {
+   "dish": "Spruce Tip Blonde Ale, brewed with local Sitka spruce tips",
+   "where": "Skagway Brewing Company",
+   "price": null
+  },
+  {
+   "dish": "Cheechako Amber or Dockside Porter",
+   "where": "Klondike Brewing Company",
+   "price": null
+  },
+  {
+   "dish": "Klondike Doughboy (fried dough with cinnamon sugar, large enough to share)",
+   "where": "Alaskan Fry Bread, 3rd Avenue",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming you can walk off the Railroad Dock.",
+   "fix": "Access is restricted because of the slide zone. Use the ship's bus (aft berth) or tender (forward berth) and start back earlier."
+  },
+  {
+   "mistake": "Buying a train ticket independently and expecting to board at the ship.",
+   "fix": "Third-party and ticket-office bookings check in and board at the White Pass depot office in town. Pier-side boarding is for ship-sold tours."
+  },
+  {
+   "mistake": "Leaving the passport on board for a Yukon trip.",
+   "fix": "The Summit Excursion needs none, but trips into Canada by train or road do."
+  },
+  {
+   "mistake": "Taking a train that returns close to all-aboard.",
+   "fix": "Choose a train that gets you back at least 90 minutes before all-aboard, and more if your ship is at the Railroad Dock."
+  },
+  {
+   "mistake": "Leaving the Jeff. Smiths Parlor tickets until the afternoon.",
+   "fix": "Tickets are free but limited; collect them at the visitor centre as soon as you come ashore."
+  }
+ ],
+ "safety": "Skagway is a small, safe town for visitors. The main hazard is the hillside above the Railroad Dock, an active slide zone that moves about 1 to 1.5 inches a year and had several rockslides in 2022; obey all barriers and restricted-access signs there. Trains run close to the docks, so use the marked crossings. It can be much colder at the summit than in town, so take a warm layer on the train. Trails such as Lower Reid Falls can be wet and rough. Emergency number 911.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "Town is flat and compact, and the Broadway Dock is a short level walk from the main street. Ships at the Railroad Dock rely on buses or tenders, so ask the ship about accessible transfers, especially for the tender. The White Pass Summit Excursion is wheelchair accessible with lift-equipped cars, but space is limited; request the lift when booking. The Jeff. Smiths Parlor Museum tour is wheelchair accessible.",
+ "rainyDay": "The train runs in rain, though cloud can hide the summit. In town, the visitor centre, the Jeff. Smiths Parlor Museum and the Moore House are indoors, and the Red Onion Saloon and the two breweries are the obvious places to wait out a shower. The trail walks are slippery in the wet.",
+ "crowdTips": "The 2026 schedule listed 523 calls and about 1.31 million passengers, and on the busiest days more than 12,500 passengers were expected. Ships usually arrive between 06:00 and 07:00, so Broadway fills by mid-morning. Collect Jeff. Smiths tickets first, take an early train if you have one, and visit the cemetery while other passengers are on the trains. The Port of Skagway publishes the full schedule with daily passenger estimates.",
+ "faqs": [
+  {
+   "q": "Is Skagway walkable from the cruise port?",
+   "a": "Yes from the Broadway and Ore Terminal docks: about 5–15 minutes to Broadway. From the Railroad Dock you must use the ship's bus or tender first."
+  },
+  {
+   "q": "Is Skagway a tender port?",
+   "a": "No, ships dock. But ships at the Railroad Dock forward berth tender passengers ashore because pier access is restricted."
+  },
+  {
+   "q": "Why can't I walk off the Railroad Dock in Skagway?",
+   "a": "The pier sits beside an active slide zone, so access is restricted. Ships at the aft berth bus passengers and ships at the forward berth tender them."
+  },
+  {
+   "q": "How long is the White Pass train in Skagway?",
+   "a": "The Summit Excursion takes 2.5–3 hours, 40 miles round trip to the 2,888 ft summit."
+  },
+  {
+   "q": "How much is the White Pass train?",
+   "a": "$155 for adults and $77.50 for children aged 3–12 booked direct in 2026. Ship prices vary."
+  },
+  {
+   "q": "Do I need a passport for the White Pass train?",
+   "a": "Not for the Summit Excursion. Trips into Canada by train or road need one."
+  },
+  {
+   "q": "What can I do in Skagway in one day from a cruise ship?",
+   "a": "The White Pass Summit train, the visitor centre and Jeff. Smiths Parlor, the historic district, and the walk to the Gold Rush Cemetery and Lower Reid Falls."
+  },
+  {
+   "q": "Is Skagway safe?",
+   "a": "Yes. Respect the restricted area by the Railroad Dock and watch for trains near the docks."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "White Pass & Yukon Route railway"
+  },
+  {
+   "name": "Klondike Gold Rush National Historical Park"
+  },
+  {
+   "name": "Jeff. Smiths Parlor Museum"
+  },
+  {
+   "name": "Broadway historic district"
+  },
+  {
+   "name": "Gold Rush Cemetery"
+  },
+  {
+   "name": "Lower Reid Falls"
+  },
+  {
+   "name": "Dyea"
+  }
+ ],
+ "sources": [
+  {
+   "title": "White Pass & Yukon Route – White Pass Summit Excursion (2026)",
+   "url": "https://wpyr.com/excursions/product/summit-excursion/"
+  },
+  {
+   "title": "White Pass & Yukon Route – Excursions (2026)",
+   "url": "https://wpyr.com/excursions/"
+  },
+  {
+   "title": "White Pass & Yukon Route – 2025 rates and schedules (PDF)",
+   "url": "https://wpyr.com/wp-content/uploads/2026/05/2025-Rates-Schedules.pdf"
+  },
+  {
+   "title": "White Pass & Yukon Route – Dock information",
+   "url": "https://wpyr.com/company-info/dock-info/"
+  },
+  {
+   "title": "Municipality of Skagway – 2026 Port of Skagway cruise ship schedule",
+   "url": "https://www.skagway.org/media/90301"
+  },
+  {
+   "title": "Municipality of Skagway – BRIC Grant: Rockslide Mitigation Project",
+   "url": "https://www.skagway.org/administration/page/bric-grant-rockslide-mitigation-project"
+  },
+  {
+   "title": "Municipality of Skagway – Rockslide Mitigation Project open house summary (July 2026)",
+   "url": "https://www.skagway.org/media/92351"
+  },
+  {
+   "title": "Municipality of Skagway – Skagway trail map",
+   "url": "https://www.skagway.org/sites/default/files/fileattachments/public_works/page/44491/skagway_trail_map_17_green.pdf"
+  },
+  {
+   "title": "Skagway Visitor Department – Getting around",
+   "url": "https://www.skagway.com/plan-your-trip/travel-transportation/getting-around/"
+  },
+  {
+   "title": "Skagway Visitor Department – Breweries in Skagway",
+   "url": "https://www.skagway.com/blog/post/breweries-in-skagway/"
+  },
+  {
+   "title": "National Park Service – Jeff. Smiths Parlor Museum tours",
+   "url": "https://www.nps.gov/klgo/planyourvisit/jeff-smiths-tours.htm"
+  },
+  {
+   "title": "National Park Service – Klondike Gold Rush operating hours and seasons",
+   "url": "https://www.nps.gov/klgo/planyourvisit/hours.htm"
+  },
+  {
+   "title": "National Park Service – Gold Rush cemeteries",
+   "url": "https://www.nps.gov/klgo/learn/historyculture/cemeteries.htm"
+  },
+  {
+   "title": "Celebrity Cruises – Skagway port guide",
+   "url": "https://www.celebritycruises.com/ca/ports/skagway"
+  },
+  {
+   "title": "Cruzely – Cruise guide: tips and things to do in Skagway",
+   "url": "https://cruzely.com/cruise-guide-15-tips-and-things-to-do-in-skagway-alaska"
+  },
+  {
+   "title": "Alaska.org – Red Onion Saloon",
+   "url": "https://www.alaska.org/detail/red-onion-saloon"
+  },
+  {
+   "title": "Alaska's News Source – A tour of the Red Onion Saloon (2022)",
+   "url": "https://www.alaskasnewssource.com/2022/06/20/roadtrippin-2022-tour-red-onion-saloon"
+  }
+ ],
+ "uncertain": [
+  "2026 departure times of the White Pass Summit Excursion (the railway lists morning and afternoon departures but gives times only through its reservation office)",
+  "Where the Railroad Dock buses drop off and where the forward-berth tenders land, how often they run, and queue times on busy days",
+  "Whether the Railroad Dock bus and tender transfers are free",
+  "Walking time from the docks to the White Pass depot for independently booked trains",
+  "Ship-sold White Pass prices",
+  "2026 departure times of the Bennett, Fraser and Carcross trains",
+  "Red Onion Saloon brothel tour price"
+ ]
+}

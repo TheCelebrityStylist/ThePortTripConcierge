@@ -1,0 +1,372 @@
+{
+ "slug": "warnemunde",
+ "city": "Rostock-Warnemünde",
+ "portName": "Warnemünde Cruise Center (Rostock Port)",
+ "townName": "Warnemünde",
+ "country": "Germany",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "German",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Warnemünde cruise port guide: Rostock, beach and Berlin",
+ "seoDescription": "Warnemünde Cruise Center is 500 m from the S-Bahn. Rostock is about 20 min by train, €3.20 single (2026). Berlin is 2 h 46 min or more each way: high risk.",
+ "quickAnswer": "Most ships dock at the Warnemünde Cruise Center (berths P7 and P8), about 500 m or five minutes on foot from Warnemünde station, with the beach and the old harbour on the doorstep. Rostock's centre is about 20 minutes away by S-Bahn, which runs every 7.5–15 minutes; a single costs €3.20 and a day ticket €8.00 (2026). Berlin is not a realistic do-it-yourself trip: the fastest train in DB's October 2026 timetable took 2 hours 46 minutes between Rostock and Berlin with changes, so you would need to leave Berlin 5 hours before all-aboard.",
+ "intro": "Warnemünde is Rostock's seaside district at the mouth of the Warnow. The cruise terminal sits beside the station, the Alter Strom harbour, the lighthouse and a broad sandy beach, so a relaxed day needs no transport at all. Rostock's Hanseatic centre is a short S-Bahn ride away. Many cruise lines sell this call as 'Berlin'. Rostock Port quotes about 2 hours, but DB's own route pages for late October 2026 showed no direct train between Rostock and Berlin and journeys of 2 hours 46 minutes to 4 hours 31 minutes, before the S-Bahn leg to Warnemünde. Some ships use berths in Rostock's Seehafen instead, which are not within walking distance of Warnemünde.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 10,
+ "terminals": [
+  {
+   "name": "Warnemünde Cruise Center, Am Passagierkai 3 (berths P7 and P8)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Main cruise terminal, about 500 m (five minutes) on foot from Warnemünde station. Rostock Port describes it as accessible with facilities for disabled passengers; assistance on request. No parking during ship calls."
+  },
+  {
+   "name": "Warnemünde berths P1–P4",
+   "distanceToCentreKm": null,
+   "notes": "Further Warnemünde berths listed by Rostock Port, also used for cruise calls. Check your berth in the ship's daily programme."
+  },
+  {
+   "name": "Rostock Seehafen (LP31, LP41)",
+   "distanceToCentreKm": null,
+   "notes": "Berths in the industrial seaport. Not walkable to Warnemünde; use the ship's shuttle or transfer. By public transport, Rostock Port gives the S-Bahn to Lütten Klein, then bus 45 or 49."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.5,
+  "detail": "From P7/P8 it is about five minutes to Warnemünde station, and the Alter Strom, lighthouse and beach are all a short walk. Rostock needs the S-Bahn. If your ship is at the Seehafen, you cannot walk to Warnemünde."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot around Warnemünde",
+   "cost": "Free",
+   "time": "About 5 min to the station; the Alter Strom, lighthouse and beach are close by",
+   "detail": "Everything in Warnemünde is close together and flat."
+  },
+  {
+   "mode": "S-Bahn to Rostock",
+   "cost": "€3.20 single, €8.00 day ticket, €21.60 group day ticket for up to 5 people, Rostock fare (2026)",
+   "time": "About 20 min from Warnemünde to Rostock Hauptbahnhof",
+   "detail": "Trains run every 7.5 minutes at peak times and in season, otherwise every 15 minutes. Tickets are sold as mobile tickets in the DB Navigator app; mobile tickets cannot be exchanged or refunded, and BahnCard discounts do not apply. Children under 6 travel free. Check the onward route from the Hauptbahnhof to the Marienkirche in the app."
+  },
+  {
+   "mode": "Train to Berlin (do it yourself)",
+   "cost": "From €27.99 to €66.98 on the sample Berlin–Rostock connections bahn.de showed for 30 October 2026; fares vary by train and date",
+   "time": "2 h 46 min at best between Rostock Hbf and Berlin Hbf (DB, October 2026), plus about 20 min on the S-Bahn to Warnemünde",
+   "detail": "DB's route pages for late October 2026 showed no direct trains between Rostock and Berlin, with one or two changes and journey times of 2 h 46 min to 4 h 31 min. Summer timetables can differ, so check bahn.com for your date. Rostock Port's own figure of about 2 hours does not match the October 2026 timetable. Germany has regular transport strikes."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Ask for the fare before setting off",
+   "time": "Rostock Port gives about 20 min to Rostock city centre",
+   "detail": "The Warnemünde Tourist Information, Am Strom 59, can call a taxi for you."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 90 minutes before all-aboard if you have been to Rostock or further. From Rostock's centre, leave 2 hours before all-aboard. From Berlin by train, leave Berlin at least 5 hours before all-aboard, and only on a connection that bahn.com shows reaching Warnemünde at least 90 minutes before all-aboard.",
+  "detail": "Warnemünde itself is low risk: the beach and harbour are minutes from the gangway. Rostock is easy with frequent S-Bahn trains. Berlin is the problem. On the fastest October 2026 connection (2 h 46–47 min between Rostock and Berlin Hbf, plus about 20 min on the S-Bahn and a possible wait at Rostock), a 17:30 all-aboard means leaving Berlin by 12:30. Leaving the ship around 08:30, the earliest you could reach Berlin is around midday, so you would have well under an hour in the city. Slower connections make the trip impossible.",
+  "emergencyFallback": "If the S-Bahn is disrupted, take a taxi from Rostock to Am Passagierkai 3. If a Berlin train is late or cancelled, call the port agent number in your daily programme immediately and be ready to travel on to the next port at your own cost."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Berlin day trip",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Train, 2 h 46 min or more each way between Rostock and Berlin plus the S-Bahn (DB, October 2026); fares vary, check bahn.com",
+   "saving": "Not a realistic saving: on your own you would have under an hour in Berlin"
+  },
+  {
+   "item": "Rostock centre",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "S-Bahn €8.00 day ticket (2026); Marienkirche about €3 Monday to Saturday (2024)",
+   "saving": "Most of the tour price"
+  }
+ ],
+ "excursionAdvice": "For Berlin, book the ship's excursion or nothing: the train journey alone takes most of the day, and the ship waits for its own groups but not for you. Do not bother with a tour for Warnemünde or Rostock; the beach and harbour are at the terminal and the S-Bahn is frequent. A day split between Rostock and Warnemünde is relaxed and cheap.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the Warnemünde Cruise Center at 08:00 and all-aboard is 17:30. This plan covers Rostock and Warnemünde; for Berlin, use the ship's excursion.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk about five minutes to Warnemünde station and buy a Rostock day ticket in the DB Navigator app or at a machine."
+   },
+   {
+    "time": "09:00",
+    "what": "S-Bahn to Rostock Hauptbahnhof, about 20 minutes, then on to the Marienkirche at Neuer Markt."
+   },
+   {
+    "time": "10:00",
+    "what": "Marienkirche and its astronomical clock of 1472."
+   },
+   {
+    "time": "11:00",
+    "what": "Walk the streets of the old town around the church."
+   },
+   {
+    "time": "12:00",
+    "what": "S-Bahn back to Warnemünde."
+   },
+   {
+    "time": "12:45",
+    "what": "Lunch on the Alter Strom, or fresh fish from the fish market on the Mittelmole."
+   },
+   {
+    "time": "14:00",
+    "what": "Climb the lighthouse, then walk out along the Westmole."
+   },
+   {
+    "time": "15:00",
+    "what": "Beach time; hire a Strandkorb beach chair if it is sunny."
+   },
+   {
+    "time": "16:15",
+    "what": "Walk back to the Cruise Center, about 5–10 minutes."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Warnemünde beach",
+   "why": "A broad sandy beach between the Westmole and the harbour entrance, a few minutes from the terminal.",
+   "timeNeeded": "1–3 hours",
+   "cost": "Free; Strandkorb beach chairs for hire",
+   "tip": "Pedal boats can be hired in season. The Baltic wind can be cool even in summer."
+  },
+  {
+   "name": "Warnemünde lighthouse (Leuchtturm)",
+   "why": "In service since 1898, with a view over the harbour, beach and passing ships from the top.",
+   "timeNeeded": "30 minutes",
+   "cost": "€3 adults, €2 reduced, €5 family (2026)",
+   "tip": "Usually open daily 10:00–18:30, last entry 18:00, in season; it closes for the winter from early November. Hours change on some dates, so check on the day."
+  },
+  {
+   "name": "Alter Strom",
+   "why": "The old harbour channel lined with restaurants and shops, where boats come and go; harbour and Baltic boat tours leave from here.",
+   "timeNeeded": "45 minutes–1 hour",
+   "cost": "Free",
+   "tip": "Right beside the station and the terminal."
+  },
+  {
+   "name": "Westmole",
+   "why": "A 546 m breakwater with a small lighthouse at the end and views of ships entering the harbour.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "It is exposed and windy, so take a layer."
+  },
+  {
+   "name": "Heimatmuseum Warnemünde",
+   "why": "Local history museum in a listed house of 1776 at Alexandrinenstraße 31: a reconstructed fisherman's cottage, an 1883 rescue wagon, sea chests and the story of the Strandkorb.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check locally",
+   "tip": "Open Tuesday to Sunday 10:00–17:00 from April to September, Wednesday to Sunday from October to March. Closed Mondays."
+  },
+  {
+   "name": "Marienkirche, Rostock",
+   "why": "Rostock's main church at Neuer Markt, home to an astronomical clock built in 1472.",
+   "timeNeeded": "45 minutes",
+   "cost": "About €3 Monday to Saturday (city leaflet, 2024)",
+   "tip": "Open every day, but hours vary; check marienkirche-rostock.de before you go."
+  },
+  {
+   "name": "Berlin",
+   "why": "The capital, but 2 h 46 min or more each way by train from Rostock in DB's October 2026 timetable.",
+   "timeNeeded": "Full day, 11 hours or more including travel",
+   "cost": "Ship excursion price",
+   "tip": "Only by ship's excursion. On your own, you would have less than an hour in the city."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Warnemünde beach",
+   "howToGetThere": "Walk from the Cruise Center past the station and the lighthouse",
+   "time": "A short walk",
+   "cost": "Free; Strandkorb hire extra",
+   "note": "Broad sand between the Westmole and the harbour entrance. Pedal boats can be hired in season."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fresh herring, cod or eel",
+   "where": "Fish market on the Mittelmole, Warnemünde",
+   "price": null
+  },
+  {
+   "dish": "Fish dishes by the water",
+   "where": "Restaurants along the Alter Strom",
+   "price": null
+  },
+  {
+   "dish": "Lunch or coffee with a sea view",
+   "where": "Teepott, Warnemünde",
+   "price": null
+  },
+  {
+   "dish": "Café stop in town",
+   "where": "Rostock old town, around the Marienkirche and Neuer Markt",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Doing Berlin by train on your own.",
+   "fix": "Take the ship's excursion. With a 17:30 all-aboard you must leave Berlin by 12:30, and the earliest you can arrive is around midday."
+  },
+  {
+   "mistake": "Trusting the 'about 2 hours to Berlin' figure.",
+   "fix": "DB's October 2026 timetable showed no direct trains and 2 h 46 min at best between Rostock and Berlin. Check bahn.com for your date."
+  },
+  {
+   "mistake": "Assuming your ship is at Warnemünde.",
+   "fix": "Some ships use the Rostock Seehafen berths, which are not walkable. Check your berth and the shuttle arrangements."
+  },
+  {
+   "mistake": "Ignoring strike notices.",
+   "fix": "Germany has regular transport strikes. Check the news the day before and allow extra time."
+  },
+  {
+   "mistake": "Planning to leave luggage at the terminal on turnaround day.",
+   "fix": "The port has no luggage storage. Use the lockers at Warnemünde station."
+  }
+ ],
+ "safety": "Warnemünde and Rostock are generally safe for visitors. Canada's travel advice asks visitors to Germany to exercise a high degree of caution because of the threat of terrorism, mainly in crowded places such as transport hubs and tourist sites. The everyday risk is pickpocketing on trains, at stations and in crowds, where organised groups use distraction; passport thefts on trains rise in the holiday seasons. Keep documents zipped away on the S-Bahn and on long-distance trains. Avoid unsecured public Wi-Fi for payments. On the beach and the moles, watch the wind and follow lifeguard flags.",
+ "scams": [
+  "Distraction pickpocketing on trains and at stations: organised groups distract you while a bag or passport is taken. Keep valuables in a zipped inside pocket.",
+  "Compromised public Wi-Fi: criminals use open networks to capture card details. Use mobile data for payments."
+ ],
+ "emergencyNumber": "112 (police 110)",
+ "accessibility": "Rostock Port describes the Warnemünde Cruise Center as accessible with facilities for disabled passengers, and assistance is available on request; confirm step-free access with your cruise line. The walk to the station, the Alter Strom and the promenade is short and flat. The lighthouse has to be climbed. The terminal has no parking during ship calls, so arrange taxis or transfers in advance. Rostock Port refers detailed questions to the cruise lines.",
+ "rainyDay": "Stay close: the Heimatmuseum (closed Mondays), the Teepott and the cafés of the Alter Strom are all a few minutes from the ship, and harbour boat tours from the Alter Strom have covered seating. Or take the S-Bahn to Rostock for the Marienkirche and its astronomical clock. Skip the Westmole and the lighthouse in strong wind or rain.",
+ "crowdTips": "Warnemünde often has more than one large ship in, and the station and the first S-Bahn trains fill early. Go to Rostock first and come back to the beach in the afternoon. The Alter Strom is busiest at lunchtime; eat a little earlier or later.",
+ "faqs": [
+  {
+   "q": "Is Warnemünde walkable from the cruise port?",
+   "a": "Yes. The Cruise Center is about 500 m from Warnemünde station, and the beach, lighthouse and Alter Strom are a few minutes' walk."
+  },
+  {
+   "q": "How do I get from Warnemünde cruise port to Rostock?",
+   "a": "Walk five minutes to Warnemünde station and take the S-Bahn, about 20 minutes to Rostock Hauptbahnhof. A single costs €3.20 and a day ticket €8.00 (2026)."
+  },
+  {
+   "q": "Is Warnemünde a tender port?",
+   "a": "No. Ships dock at the Warnemünde Cruise Center or, sometimes, at berths in the Rostock Seehafen."
+  },
+  {
+   "q": "Can I visit Berlin from Warnemünde on my own?",
+   "a": "Not realistically. DB's October 2026 timetable showed no direct trains and 2 h 46 min at best between Rostock and Berlin, plus about 20 minutes on the S-Bahn. You would need to leave Berlin 5 hours before all-aboard. Take the ship's excursion."
+  },
+  {
+   "q": "How long is the train from Warnemünde to Berlin?",
+   "a": "In DB's October 2026 timetable, Rostock Hbf to Berlin Hbf took 2 h 46 min to 4 h 31 min with one or two changes, plus about 20 minutes from Warnemünde to Rostock. Summer timetables can differ; check bahn.com."
+  },
+  {
+   "q": "What can I do in Warnemünde in one day from a cruise ship?",
+   "a": "The beach, the lighthouse, the Westmole and the Alter Strom, plus a half-day in Rostock's old town by S-Bahn."
+  },
+  {
+   "q": "Is there luggage storage at Warnemünde cruise terminal?",
+   "a": "No. Lockers are near the platforms at Warnemünde station, and luggage can also be left in the station building."
+  },
+  {
+   "q": "Is Warnemünde safe?",
+   "a": "Yes. Watch for pickpockets on trains and at stations."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Warnemünde beach"
+  },
+  {
+   "name": "Warnemünde lighthouse"
+  },
+  {
+   "name": "Alter Strom"
+  },
+  {
+   "name": "Westmole"
+  },
+  {
+   "name": "Marienkirche Rostock"
+  },
+  {
+   "name": "Heimatmuseum Warnemünde"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Rostock Port – Passenger information and transport connections",
+   "url": "https://www.rostock-port.de/en/ship-traffic/cruise-shipping/passenger-information"
+  },
+  {
+   "title": "Rostock Port – Cruise passenger FAQ",
+   "url": "https://rostock-port.de/en/ship-traffic/cruise-shipping/passenger-information/faq"
+  },
+  {
+   "title": "Rostock Port – Accessible travelling, Cruise Terminal",
+   "url": "https://rostock-port.de/en/schiffsverkehr/kreuzschifffahrt/warnemuende-cruise-center/accessible-travelling-warnemuende"
+  },
+  {
+   "title": "Deutsche Bahn – Berlin to Rostock connections (data 16 October 2026)",
+   "url": "https://www.bahn.de/reisen/view/verbindung/berlin/rostock.shtml"
+  },
+  {
+   "title": "Deutsche Bahn – Rostock to Berlin connections (data 21 October 2026)",
+   "url": "https://www.bahn.de/reisen/view/verbindung/rostock/berlin.shtml"
+  },
+  {
+   "title": "Deutsche Bahn – Verkehrsverbund Warnow tickets",
+   "url": "https://www.bahn.de/angebot/regio/verbuende/vvw"
+  },
+  {
+   "title": "RSAG Rostock – Fare overview (valid from 1 January 2026)",
+   "url": "https://www.rsag-online.de/en/tickets/fare-overview"
+  },
+  {
+   "title": "Nordkurier – VVW ticket prices rise from December 2025",
+   "url": "https://www.nordkurier.de/regional/rostock/bus-und-bahnfahren-mit-den-oeffis-wird-teurer-vvw-mit-neuen-ticketpreisen-ab-dezember-4111562"
+  },
+  {
+   "title": "Hanseatic City of Rostock – Astronomical clock leaflet (2024)",
+   "url": "https://www.aur.uni-rostock.de/storages/uni-rostock/Andere/AUR/Flyer_der_Stadt/Pressestelle_Faltblatt_Astronomische_Uhr_DE_2024.pdf"
+  },
+  {
+   "title": "German National Tourist Board – Warnemünde Local History Museum",
+   "url": "https://www.germany.travel/en/cities-culture/warnemuende-local-history-museum.html"
+  },
+  {
+   "title": "Government of Canada – Germany travel advice",
+   "url": "https://travel.gc.ca/destinations/germany"
+  },
+  {
+   "title": "Wikipedia – Rostock S-Bahn",
+   "url": "https://en.wikipedia.org/wiki/Rostock_S-Bahn"
+  },
+  {
+   "title": "TouriSpo – Leuchtturm Warnemünde prices and hours",
+   "url": "https://tourispo.de/sehenswuerdigkeit/leuchtturm-warnemuende_preise-und-oeffnungszeiten.html"
+  },
+  {
+   "title": "Nordkurier – Warnemünde lighthouse winter break (2024)",
+   "url": "https://www.nordkurier.de/regional/rostock/warnemuender-leuchtturm-ab-sofort-in-der-winterpause-3029132"
+  },
+  {
+   "title": "Kurz mal weg – Sights in Warnemünde",
+   "url": "https://www.kurz-mal-weg.de/reisemagazin/sehenswuerdigkeiten/die-besten-sehenswuerdigkeiten-warnemuende"
+  }
+ ],
+ "uncertain": [
+  "Summer 2026 Rostock–Berlin timetable: the DB figures used here are for late October 2026 dates and may reflect engineering works; summer journey times and whether direct trains run could differ.",
+  "Heimatmuseum admission price.",
+  "Taxi fares from the terminal to Rostock.",
+  "Walking time from Rostock Hauptbahnhof to the Marienkirche, and the closest tram stop."
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "slug": "isafjordur",
+ "city": "Ísafjörður",
+ "portName": "Port of Ísafjörður (Sundabakki cruise pier)",
+ "townName": "the town centre",
+ "country": "Iceland",
+ "currency": "ISK",
+ "currencySymbol": "kr",
+ "priceSymbol": "US$",
+ "language": "Icelandic",
+ "timezone": "GMT (UTC+0) all year, no summer time",
+ "lastVerified": "October 2026",
+ "seoTitle": "Ísafjörður cruise port guide: pier, tenders and Dynjandi",
+ "seoDescription": "Ísafjörður's cruise pier is a 5-min walk from town; larger ships may tender. Heritage Museum ISK 1,600 (2025). Dynjandi is about 60 km away, 60–90 min.",
+ "quickAnswer": "Most ships berth alongside at Ísafjörður, a five-minute walk from the town centre; larger ships sometimes anchor in the fjord and tender passengers ashore, which adds 20–30 minutes at each end of the day. Be back 60 minutes before all-aboard if docked and 90 minutes if tendering. Dynjandi waterfall is about 60 km away with no public bus, so allow 4.5–5 hours and be back 90 minutes before all-aboard (120 if tendering).",
+ "intro": "Ísafjörður is the main town of the Westfjords, built on a gravel spit in Skutulsfjörður with steep mountains on every side. It is Iceland's second-busiest cruise port, and the port expects 176 cruise calls between May and October 2026. The town is small, and its 18th-century trading houses at Neðstikaupstaður are a few minutes from where passengers come ashore. The headline trip is Dynjandi, a tiered waterfall about 60 km away through the Dýrafjörður tunnel, which takes most of a port day. Ships usually stay 8–10 hours. Weather changes quickly, so carry waterproof layers even in July.",
+ "isTender": false,
+ "tenderNotes": "Most ships berth alongside. Larger ships sometimes anchor in the fjord and tender passengers ashore. The tender ride is usually about 10 minutes, but the process adds 20–30 minutes at each end of the day. Check your daily programme to see whether your ship is tendering.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Sundabakki cruise pier",
+   "distanceToCentreKm": null,
+   "notes": "Main cruise berth beside the town, about a five-minute walk from the centre. There is no large terminal building and no shuttle is needed. The Tourist Information Office runs an information hut with free Wi-Fi at the harbour when cruise ships are in, and there are public toilets at the harbour."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": null,
+  "detail": "About a five-minute walk to the town centre. Not all harbour streets have pavements, so keep to the side and do not get in the way of people working. The tourist office's Old Town route is about 1.8 km, the Uptown route about 2.3 km and the ring around town about 4.3 km."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5 min to the centre",
+   "detail": "Walk from the pier into town. Pick up a map at the tourist information hut at the harbour."
+  },
+  {
+   "mode": "Hop-on hop-off shuttle",
+   "cost": "Price not confirmed; check the booking page",
+   "time": "Loop of about 30 minutes; ticket valid 24 hours, May–September",
+   "detail": "Sold through Guide to Iceland. Stops include the town centre, Neðstikaupstaður and the Heritage Museum, the historic harbour and viewpoints over Skutulsfjörður. Timings change with ship schedules, so check the timetable posted at the port."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Fares not confirmed; agree the price first",
+   "time": "Short hops in town",
+   "detail": "Taxis are usually available near the port, and the Tourist Information Office can help you find one."
+  },
+  {
+   "mode": "Hire car to Dynjandi",
+   "cost": "Parking service fee at Dynjandi (amount set by the Environment Agency's fee schedule)",
+   "time": "About 60 km, 60–90 min each way",
+   "detail": "Drive south on Route 60 through the Dýrafjörður tunnel (opened October 2020), then take road 621, about 700 m, to the car park. The road crosses the exposed Dynjandisheiði heath, which is among the first sections to close in bad weather; check road conditions before setting off."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the pier 60 minutes before all-aboard if docked, or at the tender landing 90 minutes before if your ship is at anchor. From Dynjandi on your own, aim to be back 90 minutes before (120 if tendering).",
+  "detail": "From the town centre the walk is only five minutes, so the risk is low. Dynjandi is the trip that catches people out: allow 60–90 minutes each way, plus about 15 minutes' walk each way at the falls, and weather on the heath can slow the road.",
+  "emergencyFallback": "If you are delayed on a Dynjandi trip, call the port agent number on your daily programme straight away. There is no public transport from Dynjandi."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Ísafjörður town walk",
+   "ship": "From US$109 (Holland America, The Back Streets of Ísafjörður, about 2 hours)",
+   "diy": "Free on foot, using the tourist office's Old Town route",
+   "saving": "Up to the full tour price"
+  },
+  {
+   "item": "Westfjords Heritage Museum",
+   "ship": "Not included in Holland America's town walk; entry at your own expense",
+   "diy": "ISK 1,600 adult, children free (2025)",
+   "saving": "None; you pay entry either way"
+  },
+  {
+   "item": "Bolungarvík and town culture tour",
+   "ship": "From US$199 (Holland America, Life & Culture of Ísafjörður, about 3 hours)",
+   "diy": "Taxi or hire car only",
+   "saving": "Hard to do cheaply alone"
+  },
+  {
+   "item": "Dynjandi waterfall",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Hire car plus the Dynjandi parking fee",
+   "saving": "Depends on car hire and group size"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Ísafjörður itself: the town is five minutes from the pier, the walking routes are mapped by the tourist office, and the Heritage Museum is easy to visit alone. Dynjandi is where a ship tour makes sense for most people. The round trip takes 4.5–5 hours, there is no public bus, and the ship waits for its own coaches. Drive yourself only if you are confident on Icelandic roads, have a long call, and can leave a wide margin.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship berths at 08:00 and all-aboard is 17:30, with a day in town rather than Dynjandi.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship and pick up a map at the tourist information hut at the harbour."
+   },
+   {
+    "time": "09:00",
+    "what": "Westfjords Heritage Museum at Neðstikaupstaður (opens 09:00 from May to August, ISK 1,600)."
+   },
+   {
+    "time": "10:00",
+    "what": "Walk the Old Town route, about 1.8 km, past the timber houses. Keep off private gardens and doorways."
+   },
+   {
+    "time": "11:30",
+    "what": "Walk the longer ring around town, about 4.3 km, for views of the fjord and mountains."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch in the town centre; try fish of the day or plokkfiskur."
+   },
+   {
+    "time": "14:00",
+    "what": "Browse craft shops and galleries in the centre; buy local handmade souvenirs."
+   },
+   {
+    "time": "15:30",
+    "what": "Coffee in the centre, a five-minute walk from the pier."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard (16:00 at the tender landing if your ship is at anchor)."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Westfjords Heritage Museum (Neðstikaupstaður)",
+   "why": "Regional life and work over the centuries, in one of four restored 18th-century houses at the tip of the spit, close to where passengers come ashore.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "ISK 1,600 adult, ISK 1,200 seniors and students, children free (2025)",
+   "tip": "Open daily 09:00–17:00 from May to 31 August and 11:00–15:00 from 1 to 15 September; by arrangement in winter."
+  },
+  {
+   "name": "Neðstikaupstaður old trading houses",
+   "why": "A cluster of restored 18th-century timber buildings at the tip of the spit.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to view from outside",
+   "tip": "Close to the pier, so go first before tour groups return."
+  },
+  {
+   "name": "Old Town walking route",
+   "why": "The tourist office's mapped loop of about 1.8 km through the narrow old streets.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "These are private homes: do not go in unless invited, and do not photograph through doors or windows. Many streets are narrow and one-way, so watch for cars and bikes."
+  },
+  {
+   "name": "Ísafjörður Culture House (Old Hospital)",
+   "why": "Library, archives and changing exhibitions in the old hospital building.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "A good stop in rain."
+  },
+  {
+   "name": "Dynjandi waterfall",
+   "why": "A tiered waterfall about 100 m high in Arnarfjörður, with smaller falls along the path below it.",
+   "timeNeeded": "4.5–5 hours including travel",
+   "cost": "Parking service fee if driving; ship tour price varies",
+   "tip": "The walk from the car park to the main fall takes about 15 minutes uphill. The lowest section, up to Hrísvaðsfoss, is paved."
+  },
+  {
+   "name": "Bolungarvík and Ósvör fishing station",
+   "why": "A restored 19th-century fisherman's hut at Ósvör and the fishing village of Bolungarvík, a short drive north.",
+   "timeNeeded": "3 hours on a tour",
+   "cost": "Included in some ship tours",
+   "tip": "More than 50 steps at the Ósvör site."
+  },
+  {
+   "name": "Vigur island",
+   "why": "Small island in Ísafjarðardjúp with seabirds, including puffins in summer, reached by boat.",
+   "timeNeeded": "Half a day",
+   "cost": "Varies by operator; book ahead",
+   "tip": "Book through a local operator or your ship."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Fish of the day",
+   "where": "Restaurants in the town centre",
+   "price": null
+  },
+  {
+   "dish": "Plokkfiskur (fish and potato stew)",
+   "where": "Restaurants and cafés in the town centre",
+   "price": null
+  },
+  {
+   "dish": "Harðfiskur (dried fish) with butter",
+   "where": "Food shops in the town centre",
+   "price": null
+  },
+  {
+   "dish": "Skyr",
+   "where": "Cafés and shops in the town centre",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning a DIY Dynjandi trip on a short call.",
+   "fix": "It is about 60 km each way and takes 4.5–5 hours in total. On calls of eight hours or less, take the ship's tour or stay in town."
+  },
+  {
+   "mistake": "Dressing for the forecast rather than the fjord.",
+   "fix": "Bring windproof and waterproof layers. Weather changes quickly and the Dynjandi path is exposed."
+  },
+  {
+   "mistake": "Treating the Old Town as a museum.",
+   "fix": "The old houses are private homes. Stay on the street, do not go in unless invited, and do not photograph children in playgrounds without permission."
+  },
+  {
+   "mistake": "Walking in the road at the working harbour.",
+   "fix": "Not every harbour street has a pavement. Keep to the side and give way to working vehicles."
+  },
+  {
+   "mistake": "Forgetting that the museum closes in mid-September.",
+   "fix": "The Heritage Museum is open daily only from May to 15 September; later in the season it opens by arrangement."
+  }
+ ],
+ "safety": "Ísafjörður is a small, low-crime town. The main risks are weather and roads. Wind, rain and low cloud can arrive quickly, and the road over Dynjandisheiði is exposed and among the first to close in bad weather. If you drive, check road conditions, keep to the speed limits and never stop on the road for photographs. On the Dynjandi path, the upper section is rocky and uneven, and spray makes it slippery. At the harbour, watch for working vehicles.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from the pier to the centre is short. Town streets are mostly level but some are narrow, one-way and lack pavements. There is no terminal building. At Dynjandi, the lowest section of the path is paved and accessible up to Hrísvaðsfoss, and there is disabled parking; beyond that the path is rocky and uneven. Holland America's town walking tours are listed as not wheelchair accessible. On tender days, ask the ship whether wheelchair users can transfer.",
+ "rainyDay": "Spend longer in the Westfjords Heritage Museum, the Culture House (free) and the cafés in town, and browse local galleries and craft shops. Edinborg Culture House has public toilets and is a central place to shelter. Dynjandi is still worth seeing in rain, but low cloud hides the mountains on the drive and the path gets slippery.",
+ "crowdTips": "Ísafjörður's cruise season runs from May to October. Since 2024 the town's cruise policy has capped visitors at 5,000 cruise passengers a day. On big days, tour coaches leave in waves for Dynjandi and the town fills from mid-morning. Visit the Heritage Museum at opening and do the walking route while groups are away on tours.",
+ "faqs": [
+  {
+   "q": "Is Ísafjörður a tender port?",
+   "a": "Sometimes. Most ships berth alongside, a five-minute walk from town. Larger ships sometimes anchor in the fjord and tender, which adds 20–30 minutes at each end of the day."
+  },
+  {
+   "q": "Is Ísafjörður walkable from the cruise port?",
+   "a": "Yes. The town centre is about a five-minute walk from the pier."
+  },
+  {
+   "q": "How do I get from Ísafjörður cruise port to Dynjandi?",
+   "a": "Take the ship's tour or drive: it is about 60 km, 60–90 minutes each way through the Dýrafjörður tunnel. There is no public bus."
+  },
+  {
+   "q": "How long do you need for Dynjandi?",
+   "a": "Allow 4.5–5 hours from Ísafjörður, including about 15 minutes' walk each way to the main fall."
+  },
+  {
+   "q": "What can I do in Ísafjörður in one day from a cruise ship?",
+   "a": "Visit the Westfjords Heritage Museum, walk the Old Town route and the ring around town, and have fish for lunch in the centre, or take a tour to Dynjandi, Bolungarvík or Vigur."
+  },
+  {
+   "q": "How much is the Westfjords Heritage Museum?",
+   "a": "ISK 1,600 for adults and ISK 1,200 for seniors and students; children enter free (2025)."
+  },
+  {
+   "q": "Beaches near Ísafjörður cruise port",
+   "a": "Ísafjörður is not a beach stop. Spend the day on walks, the museum or Dynjandi instead."
+  },
+  {
+   "q": "Is Ísafjörður safe?",
+   "a": "Yes. The real risks are fast-changing weather and mountain roads if you drive."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Dynjandi"
+  },
+  {
+   "name": "Westfjords Heritage Museum"
+  },
+  {
+   "name": "Neðstikaupstaður"
+  },
+  {
+   "name": "Ísafjörður Old Town"
+  },
+  {
+   "name": "Bolungarvík"
+  },
+  {
+   "name": "Vigur"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port of Ísafjörður – Home (2026 cruise calls)",
+   "url": "https://port.isafjordur.is/?lang=en"
+  },
+  {
+   "title": "Port of Ísafjörður – Cruise ships and 2024–2027 policy",
+   "url": "https://port.isafjordur.is/skemmtiferdaskip"
+  },
+  {
+   "title": "Port of Ísafjörður – Information for tourists",
+   "url": "https://port.isafjordur.is/tourists/?lang=en"
+  },
+  {
+   "title": "Port of Ísafjörður – Visitor brochure (2023)",
+   "url": "https://port.isafjordur.is/wp-content/uploads/2023/05/Port-of-Isafjordur-2023.pdf"
+  },
+  {
+   "title": "Port of Ísafjörður – Harbour project (Sundabakki extension)",
+   "url": "https://port.isafjordur.is/harbor-project/?lang=en"
+  },
+  {
+   "title": "Environment Agency of Iceland – Dynjandi access and services",
+   "url": "https://ust.is/english/visiting-iceland/protected-areas/westfjords/dynjandi-in-arnarfjordur/access-and-services/"
+  },
+  {
+   "title": "Westfjords Heritage Museum – The museum",
+   "url": "https://www.nedsti.is/the_museum"
+  },
+  {
+   "title": "Visit Westfjords – Tjöruhúsið",
+   "url": "https://www.westfjords.is/en/service/tjoruhusid"
+  },
+  {
+   "title": "Tjöruhúsið – Official site",
+   "url": "http://www.tjoruhusid.is/"
+  },
+  {
+   "title": "Holland America Line – The Back Streets of Ísafjörður",
+   "url": "https://www.hollandamerica.com/en/cruise-destinations/northern-europe-cruises/europe-northern-ports/ifj/68308"
+  },
+  {
+   "title": "Holland America Line – Life & Culture of Ísafjörður",
+   "url": "https://www.hollandamerica.com/en/us/cruise-destinations/northern-europe-cruises/europe-northern-ports/ifj/68301"
+  },
+  {
+   "title": "Reykjavík Grapevine – Ísafjörður cruise passenger policy (2024)",
+   "url": "https://grapevine.is/?p=10074478"
+  },
+  {
+   "title": "CruiseMapper – Ísafjörður port",
+   "url": "https://www.cruisemapper.com/ports/isafjordur-port-703"
+  },
+  {
+   "title": "Golden Circle Day Tours – Ísafjörður cruise port guide (2026)",
+   "url": "https://www.goldencircledaytours.is/blog/isafjordur-cruise-port-guide"
+  },
+  {
+   "title": "Adventour Begins – Ísafjörður cruise port guide (updated 2026)",
+   "url": "https://www.adventourbegins.com/isafjordur-iceland-cruise-port-guide/"
+  },
+  {
+   "title": "Arctic Adventures – Dynjandi waterfall",
+   "url": "https://adventures.is/iceland/attractions/dynjandi-waterfall/"
+  },
+  {
+   "title": "Guide to Iceland – Ísafjörður hop-on hop-off shuttle",
+   "url": "https://guidetoiceland.is/book-holiday-trips/isafjordur-hop-on-hop-off-shuttle-bus"
+  }
+ ],
+ "uncertain": [
+  "Whether the Sundabakki extension to 500 m is finished: the port's project page (undated) says it was expected to be complete in 2023, and no source confirming completion was found. Pier length, maximum ship size and the exact distance to the centre are therefore left out.",
+  "Whether Tjöruhúsið in Neðstikaupstaður is operating in 2026: its own site takes reservations but shows no dates, and Visit Westfjords lists a 1 April–31 October season without a year.",
+  "Dynjandi parking fee amount in 2026.",
+  "Hop-on hop-off shuttle fare and frequency.",
+  "Taxi fares from Ísafjörður to Dynjandi.",
+  "Vigur boat trip operators, prices and 2026 schedule.",
+  "Typical all-aboard time for Ísafjörður calls.",
+  "Iceland's per-passenger cruise infrastructure fee (reported in 2025 as about US$18 per 24 hours) and whether it has changed for 2026."
+ ]
+}

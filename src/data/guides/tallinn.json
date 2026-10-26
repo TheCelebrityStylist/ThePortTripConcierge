@@ -1,0 +1,397 @@
+{
+ "slug": "tallinn",
+ "city": "Tallinn",
+ "portName": "Port of Tallinn, Old City Harbour (Vanasadam) cruise terminal",
+ "townName": "Tallinn Old Town",
+ "country": "Estonia",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Estonian",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Tallinn cruise port guide: walk to the Old Town, trams",
+ "seoDescription": "Tallinn cruise terminal is 1–1.2 km (15–20 min) from the Old Town. Tram 2, €2 an hour by contactless card (2026). St Olaf's tower €10. Back 60 min early.",
+ "quickAnswer": "Cruise ships dock at the Old City Harbour (Vanasadam), about 1–1.2 km from the Old Town, so there is no tender. Walk to the Great Coast Gate by Fat Margaret's Tower in 15–20 minutes; trams cost €2 for an hour by tapping a contactless bank card (2026). Be back at the cruise terminal 60 minutes before all-aboard.",
+ "intro": "Tallinn is one of the easiest big ports in the Baltic: the medieval Old Town starts a short, flat walk from the gangway. The day splits naturally into the lower town around Town Hall Square and the upper town on Toompea hill, with its viewpoints and cathedrals. The cruise terminal at the Old City Harbour has an 850 m public rooftop promenade, and the ferry terminals A and D sit beside it, so follow signs for the cruise area rather than the ferries. On a long call, Kadriorg Palace and the Kumu art museum, about 4 km east, add a calmer half-day.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Tallinn Cruise Terminal, Old City Harbour (Logi 4/2)",
+   "distanceToCentreKm": 1.1,
+   "notes": "Opened in 2021 on the north-western pier, with a 421 m berth for ships up to about 340 m. Information desk, souvenir shop, toilets, Wi-Fi, bicycle rental and taxis. The cruise-area gate is to the left of Terminal A's vehicle gate. An 850 m public rooftop promenade runs over the terminal (open 06:00–01:00)."
+  },
+  {
+   "name": "Ferry terminals A and D (Old City Harbour)",
+   "distanceToCentreKm": 1.25,
+   "notes": "Ferry terminals beside the cruise area. Some guides describe ships berthing behind Terminal A or occasionally near Terminal D; from D the walk to the Old Town is about 200 m longer. Confirm your berth on board."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 20,
+  "km": 1.2,
+  "detail": "About 1–1.2 km, 15–20 minutes on a flat, paved route up Sadama Street to the Great Coast Gate (Suur Rannavärav) beside Fat Margaret's Tower. Use St Olaf's spire as a guide and the pedestrian crossings over the main road. Inside the Old Town the streets are cobbled, and Toompea is a 10–15 minute uphill walk."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "15–20 min to the Old Town",
+   "detail": "Leave the cruise gate, turn right onto Sadama Street and walk uphill towards the church spires, then cross to the Great Coast Gate by Fat Margaret's Tower."
+  },
+  {
+   "mode": "Tram (line 2)",
+   "cost": "€2 for one hour by contactless bank card; day ticket €5.50 on an Ühiskaart card (2026)",
+   "time": "Short ride; stops about 500 m from the terminal",
+   "detail": "Tram 2 stops at Vanasadam and Linnahall, each about 500 m from the cruise terminal. Tap a contactless card on the validator every time you board; each tap buys a one-hour ticket, and taps in a day are capped at the day-ticket price. QR one-hour tickets are sold online and at machines in the cruise terminal and terminals A and D, but only validators with a QR scanner (often at the front) accept them. You cannot buy a ticket from the driver."
+  },
+  {
+   "mode": "Taxi or Bolt",
+   "cost": "About €5–10 to the centre (independent guides, 2026)",
+   "time": "Short ride",
+   "detail": "Only contracted taxis (Tallink, Tulika) can drive to the terminal doors. Bolt and other app cars use the Kiss&Sail bays at terminals A and D. Bolt shows the fare upfront. Avoid street taxis touting near the ferry terminals."
+  },
+  {
+   "mode": "Cruise shuttle",
+   "cost": "About €5–10 return where a line offers it (2026)",
+   "time": "A few minutes",
+   "detail": "Some cruise lines sell a shuttle; it is not needed for most people because the walk is short and flat."
+  },
+  {
+   "mode": "Hop-on hop-off bus",
+   "cost": "About €20–25 for a day pass (2026)",
+   "time": "Varies",
+   "detail": "Runs in the cruise season and covers Toompea, Kadriorg Park, the Song Festival Grounds and the Russalka monument. Useful for Kadriorg if you do not want to use trams."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the cruise terminal 60 minutes before all-aboard. Leave the Old Town 85 minutes before, and Kadriorg or Kumu 90 minutes before.",
+  "detail": "The walk back from Town Hall Square through the cobbled lanes to the Great Coast Gate and down Sadama Street takes 20–25 minutes, longer from Toompea. Ferry crowds at terminals A and D can slow the last stretch; keep to the cruise-area gate.",
+  "emergencyFallback": "Book a Bolt to the Kiss&Sail bays at terminal A, or take a contracted taxi; the ride from the Old Town edge is short. If you will miss all-aboard, phone the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Old Town walking tour",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot; St Olaf's tower €10 (2026)",
+   "saving": "Most of the tour price"
+  },
+  {
+   "item": "Kadriorg Palace and Park",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Tram at €2 an hour by contactless card, or a €5.50 day ticket (2026)",
+   "saving": "Most of the tour price"
+  },
+  {
+   "item": "Kiek in de Kök and the bastion passages",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€16 adult for the whole museum, €10 for the bastion passages (2026)",
+   "saving": "Depends on the tour"
+  }
+ ],
+ "excursionAdvice": "For the Old Town, skip the ship tour: it starts a 15–20 minute walk from the terminal and is easy to do alone with a map. A guided walk is worth it mainly if you want the history explained. The ship tour earns its price for trips well outside the city, where you depend on its coach for the return.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk from the cruise terminal up Sadama Street to the Great Coast Gate and Fat Margaret's Tower (15–20 minutes)."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk Pikk Street up through the lower town to Town Hall Square before the tour groups arrive."
+   },
+   {
+    "time": "10:00",
+    "what": "Climb St Olaf's tower (258 steps, €10, April to October) for the view over the Old Town and harbour."
+   },
+   {
+    "time": "11:00",
+    "what": "Walk up to Toompea: the viewing platforms, Alexander Nevsky Cathedral and St Mary's Cathedral."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch, for example elk soup and pies at III Draakon in the Town Hall, or Rataskaevu 16."
+   },
+   {
+    "time": "13:30",
+    "what": "Kiek in de Kök and the bastion passages (€16 for the whole museum), or a tram to Kadriorg on a long call."
+   },
+   {
+    "time": "15:30",
+    "what": "Last stroll and coffee near Viru Gate or the Great Coast Gate."
+   },
+   {
+    "time": "16:05",
+    "what": "Leave the Old Town and walk back to the cruise terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Tallinn Old Town and Town Hall Square",
+   "why": "A walled medieval Hanseatic town of towers, merchant houses and lanes, with the medieval town hall on the main square.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Enter by the Great Coast Gate at Fat Margaret's Tower and walk up Pikk Street; the streets are cobbled."
+  },
+  {
+   "name": "St Olaf's Church tower",
+   "why": "A 60 m viewing platform at the base of a 123.7 m spire, with the best view of the Old Town and port.",
+   "timeNeeded": "45 minutes",
+   "cost": "€10 adult, €5 students and pensioners (2026)",
+   "tip": "Open 1 April to 31 October, 10:00–18:00, last entry 17:30, with a lunch closure. 258 steps on a narrow spiral stair."
+  },
+  {
+   "name": "Toompea viewpoints",
+   "why": "The upper town's platforms look over the red roofs of the lower town towards the harbour.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free",
+   "tip": "A 10–15 minute uphill walk from the lower town. Pickpockets work the crowded platforms and Short Leg Lane on summer afternoons."
+  },
+  {
+   "name": "Alexander Nevsky Cathedral",
+   "why": "The Orthodox cathedral on Toompea, near Toompea Castle, which houses the Estonian Parliament.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Check at the door",
+   "tip": "A working church; dress modestly and avoid service times."
+  },
+  {
+   "name": "St Mary's Cathedral (Dome Church)",
+   "why": "The cathedral on Toompea, with a bell tower that gives views over the town.",
+   "timeNeeded": "About 30 minutes",
+   "cost": "Check at the door",
+   "tip": "Combine with the Toompea viewpoints, which are a few minutes away."
+  },
+  {
+   "name": "Kiek in de Kök Fortifications Museum and bastion passages",
+   "why": "A cannon tower, wall towers and tunnels under the bastions that show how the city was defended.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "€16 adult whole museum; €10 bastion passages (2026)",
+   "tip": "Open 11:00–18:00; closed Mondays from October to April. The passages are 10–12 °C with steep, slippery stairs; not advised for children under 7 or anyone with limited mobility."
+  },
+  {
+   "name": "Kadriorg Palace and Park",
+   "why": "An 18th-century Baroque palace, now the Kadriorg Art Museum, in a large park about 4 km east of the Old Town.",
+   "timeNeeded": "1.5–2 hours plus travel",
+   "cost": "Park free; check museum prices",
+   "tip": "Go by tram or the hop-on hop-off bus. Only on a long call."
+  },
+  {
+   "name": "Kumu Art Museum",
+   "why": "A major art museum on the limestone cliff between Kadriorg Park and Lasnamäe.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Check on the museum's site",
+   "tip": "Open 10:00–18:00. Combine with Kadriorg Park."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Elk soup and meat pies",
+   "where": "III Draakon, inside the Town Hall (Raekoja plats 1)",
+   "price": null
+  },
+  {
+   "dish": "Braised elk or three-cheese pie",
+   "where": "Rataskaevu 16 (Old Town)",
+   "price": null
+  },
+  {
+   "dish": "Smoked fish platter and honey beer",
+   "where": "Olde Hansa, Town Hall Square",
+   "price": null
+  },
+  {
+   "dish": "Pelmeni (dumplings)",
+   "where": "Pelmen, south-eastern edge of the Old Town",
+   "price": null
+  },
+  {
+   "dish": "Brunch or a Kalamaja breakfast",
+   "where": "F-Hoone, Telliskivi Creative City",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to buy a tram ticket from the driver.",
+   "fix": "Tap a contactless bank card on the validator (€2 for an hour, 2026), or buy a QR ticket at the cruise terminal machine before you go."
+  },
+  {
+   "mistake": "Taking a street taxi from the ferry terminals.",
+   "fix": "Walk, or book Bolt, which shows the price first. Unlicensed drivers near the harbour have charged several times the normal fare."
+  },
+  {
+   "mistake": "Following signs to the ferry terminals on the way back.",
+   "fix": "Head for the cruise-area gate to the left of Terminal A's vehicle gate, not into terminals A or D."
+  },
+  {
+   "mistake": "Planning St Olaf's tower on a winter call.",
+   "fix": "The tower and church close from November to March; use Toompea's free viewpoints instead."
+  },
+  {
+   "mistake": "Entering a bar or club on the strength of a tout's free-entry offer.",
+   "fix": "Check a printed menu with prices before ordering, and leave if none is shown."
+  }
+ ],
+ "safety": "Tallinn is a safe city for visitors. The common problems are pickpocketing in the crowded Old Town, on the Toompea platforms, in Short Leg Lane on summer afternoons and at the ferry terminals, and overpriced unlicensed taxis around the harbour. Keep bags closed and in front of you, keep phones off café tables, and use Bolt or a contracted taxi. Cobbles are slippery when wet.",
+ "scams": [
+  "Unlicensed harbour taxis: drivers near the ferry terminals have posed as reputable firms and charged several times the normal fare for the short ride to the centre. Use Bolt or a contracted taxi and check the tariff displayed inside.",
+  "Bar and club bill scams: touts near Viru Street offer free entry, then drinks are charged at inflated prices and bills can run into hundreds of euros. Check the menu before ordering.",
+  "Friendship bracelets near Town Hall Square: an item is tied on during a chat, then €10–20 is demanded. Decline and walk on.",
+  "Card and shell games near Viru Gate: illegal and rigged. Ignore them."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The route from the cruise terminal to the Great Coast Gate is flat and paved, and the rooftop promenade is open to all. Inside the Old Town the cobbles are uneven, and Toompea is reached by steep lanes; the hop-on hop-off bus or a taxi is the easier way up. St Olaf's tower (258 spiral steps) and the bastion passages (steep, uneven stairs) are not suitable for anyone with limited mobility. Taxis cannot reach some Old Town streets.",
+ "rainyDay": "Spend the day indoors: Kiek in de Kök and the bastion passages, the cathedrals on Toompea, long lunches in the Old Town, or a trip out to the Kumu Art Museum. Skip St Olaf's tower in heavy rain, when the view and the stair are both poor.",
+ "crowdTips": "The lower town around Town Hall Square and Viru Street fills with tour groups from mid-morning. Walk straight to Pikk Street and the square early, go up Toompea before noon, and keep museums for the early afternoon. Check the Port of Tallinn cruise schedule for your date to see how many ships are in.",
+ "faqs": [
+  {
+   "q": "Is Tallinn a tender port?",
+   "a": "No. Cruise ships dock at the Old City Harbour cruise terminal."
+  },
+  {
+   "q": "Is Tallinn walkable from the cruise port?",
+   "a": "Yes. The Old Town is about 1–1.2 km away, a flat 15–20 minute walk to the Great Coast Gate by Fat Margaret's Tower."
+  },
+  {
+   "q": "How do I get from Tallinn cruise port to the Old Town?",
+   "a": "Walk up Sadama Street, or take tram 2 from the Vanasadam or Linnahall stop, about 500 m from the terminal. Tap a contactless card for a €2 one-hour ticket (2026)."
+  },
+  {
+   "q": "How much is public transport in Tallinn for visitors?",
+   "a": "€2 for an hour by contactless card, or on an Ühiskaart card €5.50 for a day, €9 for three days (2026)."
+  },
+  {
+   "q": "What can I do in Tallinn in one day from a cruise ship?",
+   "a": "Walk the lower Old Town and Town Hall Square, climb St Olaf's tower, see the Toompea viewpoints and cathedrals, and visit Kiek in de Kök. On a long call add Kadriorg."
+  },
+  {
+   "q": "Can I climb St Olaf's tower?",
+   "a": "From 1 April to 31 October, 10:00–18:00, for €10 (2026). It is 258 steps to a platform 60 m up."
+  },
+  {
+   "q": "Do I need a taxi from Tallinn cruise port?",
+   "a": "Not usually. If you do, use Bolt or a contracted taxi; avoid touts near the ferry terminals."
+  },
+  {
+   "q": "Is Tallinn safe?",
+   "a": "Yes. Watch for pickpockets in crowded spots and use Bolt rather than street taxis."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Tallinn Old Town"
+  },
+  {
+   "name": "Town Hall Square"
+  },
+  {
+   "name": "St Olaf's Church tower"
+  },
+  {
+   "name": "Toompea"
+  },
+  {
+   "name": "Alexander Nevsky Cathedral"
+  },
+  {
+   "name": "Kiek in de Kök"
+  },
+  {
+   "name": "Kadriorg Palace"
+  },
+  {
+   "name": "Kumu Art Museum"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port of Tallinn – Cruise area",
+   "url": "https://www.ts.ee/en/cruise-area/"
+  },
+  {
+   "title": "Port of Tallinn – Old City Harbour",
+   "url": "https://www.ts.ee/en/old-city-harbour/"
+  },
+  {
+   "title": "Port of Tallinn – Getting to the promenade and cruise terminal",
+   "url": "https://www.ts.ee/en/getting-to-the-promenade-and-cruise-terminal/"
+  },
+  {
+   "title": "Visit Tallinn – Public transport (2026)",
+   "url": "https://visittallinn.ee/eng/visitor/plan/transport/public-transport"
+  },
+  {
+   "title": "Tallinn City – Tallinn plans to change public transport fees",
+   "url": "https://www.tallinn.ee/en/news/tallinn-plans-change-public-transport-fees"
+  },
+  {
+   "title": "Tallinn City Museum – Kiek in de Kök visitor information",
+   "url": "https://linnamuuseum.ee/en/kiek-in-de-kok/visitor-info/"
+  },
+  {
+   "title": "St Olaf's Church – The viewing platform",
+   "url": "https://oleviste.ee/the-viewing-platform/"
+  },
+  {
+   "title": "Estonian Museums – Kumu Art Museum",
+   "url": "https://muuseumioo.muuseum.ee/en/museum/kumu-art-museum/"
+  },
+  {
+   "title": "ERR News – Tallinn to hike public transport fares by a third next year",
+   "url": "https://news.err.ee/1608805129/tallinn-to-hike-public-transport-fares-by-a-third-next-year"
+  },
+  {
+   "title": "ERR News – Rip-off taxi firm masquerading as reputable company (2019)",
+   "url": "https://news.err.ee/976980/coronavirus-in-estonia"
+  },
+  {
+   "title": "Baltic Guide – Public transport downtown from Tallinn's port (2025)",
+   "url": "https://balticguide.ee/en/public-transport-downtown-from-tallinns-port/"
+  },
+  {
+   "title": "App Savvy Traveller – Tallinn cruise port guide (2026)",
+   "url": "https://appsavvytraveller.com/tallinn-cruise-port-guide/"
+  },
+  {
+   "title": "Adventour Begins – Tallinn cruise port guide",
+   "url": "https://adventourbegins.com/tallinn-port-guide-estonia/"
+  },
+  {
+   "title": "Discover the Baltic – Tallinn cruise quays",
+   "url": "https://discoverthebaltic.com/tallinn/index.htm"
+  },
+  {
+   "title": "Euro City Guide – Is Tallinn safe for tourists? (2026)",
+   "url": "https://eurocityguide.com/estonia/is-tallinn-safe-for-tourists"
+  },
+  {
+   "title": "Amsterdam Foodie – Tallinn restaurants",
+   "url": "https://www.amsterdamfoodie.nl/2024/tallinn-restaurants/"
+  },
+  {
+   "title": "In Your Pocket – III Draakon",
+   "url": "https://inyourpocket.com/estonia/tallinn/venues/iii-draakon"
+  }
+ ],
+ "uncertain": [
+  "Whether any cruise ships still use Muuga Harbour east of the city: one guide says it is occasionally used, another says all ships now use the Old City Harbour.",
+  "Tram line numbers from the Old Town to Kadriorg and the travel time.",
+  "Kadriorg Art Museum and Kumu ticket prices.",
+  "Entry charges at Alexander Nevsky Cathedral and St Mary's Cathedral bell tower.",
+  "Beaches reachable on a cruise call (none verified).",
+  "Typical all-aboard time for Tallinn calls (17:30 used as a default)."
+ ]
+}

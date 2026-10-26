@@ -1,0 +1,373 @@
+{
+ "slug": "st-maarten",
+ "city": "Philipsburg",
+ "portName": "Dr. A.C. Wathey Cruise and Cargo Facility (Port St. Maarten)",
+ "townName": "Philipsburg (Front Street and Great Bay)",
+ "country": "Sint Maarten (Dutch side of St Martin)",
+ "currency": "XCG",
+ "currencySymbol": "XCG",
+ "priceSymbol": "US$",
+ "language": "English and Dutch (French on the French side)",
+ "timezone": "AST (UTC-4), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "St Maarten cruise port guide: Philipsburg, Maho, taxis",
+ "seoDescription": "Ships dock at Point Blanche, about a 15-30 min walk to Front Street. Maho taxi US$25 for two (2026 official table). Leave Maho 2 hours before all-aboard.",
+ "quickAnswer": "Ships dock at the Dr. A.C. Wathey Cruise and Cargo Facility at Point Blanche, on the east side of Great Bay, so there is no tender. Philipsburg and Front Street are about 15-30 minutes on foot, or a short water taxi ride across the bay. Be back on board an hour before all-aboard, and leave Maho or the French side at least two hours before it because cross-island traffic is slow on busy ship days.",
+ "intro": "Philipsburg is a straightforward docked port: walk off the ship, through Harbour Point Village, and along Great Bay into town. Front Street is for duty-free shopping, the boardwalk behind it runs straight onto Great Bay beach, and the island's two big trips are Maho Beach, where jets land low over the sand, and the French side at Marigot and Orient Bay. Taxi fares on the Dutch side are set by government and published by the Tourist Bureau, so check the table before you get in. The risk here is not the walk back but traffic on multi-ship days.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Dr. A.C. Wathey Cruise and Cargo Facility, Point Blanche (Piers 1 and 2)",
+   "distanceToCentreKm": null,
+   "notes": "All cruise ships dock here; Pier 2 (445 m) takes two ships of over 220,000 gross tons. Harbour Point Village at the pier has the taxi stand, tour pick-up points, shops and bars. The port says Philipsburg is a 15-minute walk."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 30,
+  "km": null,
+  "detail": "Port St. Maarten gives 15 minutes to Philipsburg; walkers' reports give 20-30 minutes to the Courthouse in the centre. Leave the port gates, turn left along the road around the bay, pass the car park and enter the pedestrian mall, then cross onto the boardwalk. Flat but hot and partly unshaded."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "15-30 min to Front Street",
+   "detail": "Follow the road from the port gates around Great Bay into town. The boardwalk runs along the beach; Front Street is one block inland."
+  },
+  {
+   "mode": "Water taxi across Great Bay",
+   "cost": "Check the fare at the booth by the ships",
+   "time": "About 10-15 min",
+   "detail": "Boats run regularly between the cruise pier and the Philipsburg waterfront. The port lists three stops: Captain Hodge Wharf, Walter Williams Jetty and Bobby's Marina (near the end of Great Bay beach). Tickets are sold one way or return."
+  },
+  {
+   "mode": "Taxi to Maho Beach",
+   "cost": "US$25 for 1-2 people, US$9 each for 3-5, US$8 each for 6+ (government fare table, 2026); return from Maho US$25 / US$10 / US$9",
+   "time": "About 25 min, longer on multi-ship days",
+   "detail": "Taxis are unmetered; fares on the Dutch side are government-regulated and published by the St. Maarten Tourist Bureau. One checked bag per person is included; waiting costs US$5 per 15 min after the first 5 min. 25% surcharge 22:00-06:00 and on public holidays. Cash preferred."
+  },
+  {
+   "mode": "Taxi to Marigot or Orient Bay (French side)",
+   "cost": "Agree the fare before you set off",
+   "time": "Marigot roughly 30 min; Orient Bay depends on traffic",
+   "detail": "The French-side fares are in a separate published list; confirm the price with the driver at the Harbour Point stand. There are no border formalities between the two sides."
+  },
+  {
+   "mode": "Public minibus",
+   "cost": "US$2 or less between towns; Philipsburg to Marigot US$2 (2026)",
+   "time": "Varies; vans stop on request",
+   "detail": "Vans with BUS plates and a route sign in the window. Flag one on the correct side of the road, say 'Stop for me please', and pay the driver when you get off, ideally with exact change. Service runs from before 07:00 to about 20:00, but drivers set their own hours, so it is a poor choice for the return to the ship."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard: start back from Front Street 90 minutes before. Leave Maho Beach 2 hours before all-aboard, and Marigot or Orient Bay 2.5 hours before.",
+  "detail": "The walk back is easy, but the island's roads are narrow and the routes back from Maho and the French side pass through Philipsburg and Simpson Bay traffic. With several ships in, taxis and roads fill at the same time in the afternoon.",
+  "emergencyFallback": "From Front Street, take a taxi or the water taxi to the pier. From further out, take a taxi straight to the cruise port and agree the fare first. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Maho Beach",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi US$25 for two each way from the port (2026 government table)",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Philipsburg and Great Bay beach: both are a walk or a short water taxi from the pier. Maho is easy on your own with the government taxi fares. A ship tour makes sense for a full island loop to Marigot and Orient Bay on a busy multi-ship day, or for boat trips such as Pinel Island, where the ship will wait if traffic or the boat runs late.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30. Check your ship's actual times.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship through Harbour Point Village. Note the taxi stand for later."
+   },
+   {
+    "time": "08:40",
+    "what": "Walk around Great Bay into Philipsburg (15-30 minutes), or take the water taxi."
+   },
+   {
+    "time": "09:15",
+    "what": "Front Street: the Courthouse, the Guavaberry Emporium and the duty-free shops before the crowds arrive."
+   },
+   {
+    "time": "10:30",
+    "what": "Taxi from Philipsburg to Maho Beach (US$20 for two from Philipsburg, government table)."
+   },
+   {
+    "time": "11:00",
+    "what": "Maho Beach. Watch the landings from the sand, well away from the airport fence. Lunch at Sunset Bar and Grill."
+   },
+   {
+    "time": "13:30",
+    "what": "Taxi back to Philipsburg."
+   },
+   {
+    "time": "14:00",
+    "what": "Swim at Great Bay beach off the boardwalk."
+   },
+   {
+    "time": "15:45",
+    "what": "Start back to the pier on foot or by water taxi."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Front Street",
+   "why": "Philipsburg's main shopping street, mostly duty-free jewellery, perfume and souvenirs.",
+   "timeNeeded": "1-2 hours",
+   "cost": "Free",
+   "tip": "Go early in the day before the cruise crowds peak."
+  },
+  {
+   "name": "Great Bay beach and the boardwalk",
+   "why": "Town beach of white sand directly behind Front Street, with bars along the boardwalk.",
+   "timeNeeded": "1-3 hours",
+   "cost": "Free; chairs and umbrellas extra",
+   "tip": "Bobby's Marina water taxi stop is near the far end of the beach."
+  },
+  {
+   "name": "The Courthouse",
+   "why": "Wooden courthouse dated 1793, the landmark at the centre of Front Street.",
+   "timeNeeded": "10 minutes",
+   "cost": "Free to view",
+   "tip": "Taxis often wait in front of it, which helps for the trip back."
+  },
+  {
+   "name": "Guavaberry Emporium",
+   "why": "Shop on Front Street devoted to guavaberry liqueur, the island's signature spirit.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free to enter",
+   "tip": "Buy bottles at the end of the day so you are not carrying them around."
+  },
+  {
+   "name": "Fort Amsterdam",
+   "why": "Ruins of the first Dutch military fort in the Caribbean (1631), with views over Great Bay.",
+   "timeNeeded": "1-1.5 hours including travel",
+   "cost": "Free",
+   "tip": "The footpath starts at the Divi Little Bay Resort."
+  },
+  {
+   "name": "Maho Beach",
+   "why": "Aircraft landing at Princess Juliana Airport pass low over the beach.",
+   "timeNeeded": "2-3 hours including taxi",
+   "cost": "Taxi US$25 for two each way from the port (2026)",
+   "tip": "Never stand at the airport fence for take-offs: jet blast has injured dozens and killed a tourist in 2017, and the US State Department warns against it."
+  },
+  {
+   "name": "Marigot and Fort Louis",
+   "why": "Capital of French Saint-Martin, with a waterfront market, Marina Royale and a fort built in 1789 above town.",
+   "timeNeeded": "3 hours including taxi",
+   "cost": "Fort free to walk up; taxi fare agreed in advance",
+   "tip": "Market is busiest on Wednesday and Saturday mornings. Prices are in euros; paying in dollars or by card often costs more."
+  },
+  {
+   "name": "Orient Bay",
+   "why": "Long sandy beach on the French side with beach clubs.",
+   "timeNeeded": "Half a day",
+   "cost": "Taxi fare agreed in advance; sunbeds at beach clubs",
+   "tip": "Part of the beach (Club Orient) is clothing-optional and clearly marked. Leave 2.5 hours before all-aboard."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Great Bay beach",
+   "howToGetThere": "Walk from the pier or take the water taxi",
+   "time": "15-30 min walk",
+   "cost": "Free",
+   "note": "Closest beach to the ship; bars and chairs along the boardwalk."
+  },
+  {
+   "name": "Maho Beach",
+   "howToGetThere": "Taxi from Harbour Point Village",
+   "time": "About 25 min",
+   "cost": "US$25 for two each way (2026 government table)",
+   "note": "Small and busy; the attraction is the aircraft, not the swimming. Keep clear of the fence."
+  },
+  {
+   "name": "Orient Bay",
+   "howToGetThere": "Taxi to the French side",
+   "time": "Allow plenty of time for traffic",
+   "cost": "Agree the fare first",
+   "note": "Beach clubs with sunbeds; marked clothing-optional section."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Guavaberry liqueur or a guavaberry colada",
+   "where": "Guavaberry Emporium, Front Street",
+   "price": null
+  },
+  {
+   "dish": "Lunch or drinks by the beach",
+   "where": "Ocean Lounge at Holland House Beach Hotel, Great Bay",
+   "price": null
+  },
+  {
+   "dish": "Burgers and drinks while watching the planes",
+   "where": "Sunset Bar and Grill, Maho Beach",
+   "price": null
+  },
+  {
+   "dish": "French and Caribbean dishes",
+   "where": "Restaurants along the Marigot waterfront",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Standing at the Maho airport fence for a take-off.",
+   "fix": "Watch from further back on the sand. Jet blast has caused injuries and a death; signs and the US State Department warn against it."
+  },
+  {
+   "mistake": "Getting in a taxi without confirming the fare.",
+   "fix": "Taxis are unmetered. Check the government fare table from the Tourist Bureau and agree the total before setting off."
+  },
+  {
+   "mistake": "Leaving Maho or Orient Bay an hour before all-aboard.",
+   "fix": "Leave Maho 2 hours before and the French side 2.5 hours before; roads are slow on multi-ship days."
+  },
+  {
+   "mistake": "Paying in dollars on the French side without checking the rate.",
+   "fix": "Marigot prices are in euros; dollar or card payments often work out 15-20% dearer."
+  },
+  {
+   "mistake": "Relying on the minibus to get back to the ship.",
+   "fix": "Buses have no timetable and drivers set their own hours. Use a taxi or the water taxi for the return."
+  }
+ ],
+ "safety": "The US State Department rates Sint Maarten at its lowest advisory level (exercise normal precautions, August 2026). Most crime against visitors is opportunistic: theft from beaches, hotel lobbies and parked cars, and bag snatching. Do not leave bags unattended on the sand, avoid ATMs after dark, and keep valuables out of sight. At Maho, stay away from the airport fence. Tap water is not considered safe to drink; buy sealed bottled water. Cannabis and CBD products are illegal and the law is enforced, even for small amounts.",
+ "scams": [
+  "Taxi overcharging: taxis are unmetered. Check the Tourist Bureau's government fare table and agree the price first; complaints go to the TEATT inspectorate.",
+  "Overcharges and aggressive vendors in tourist areas, which the US State Department warns about. Ask the price before anything is handed to you.",
+  "Unclear group taxi pricing: fares for 1-2 people are a flat total, and per person for larger groups. Confirm whether a quoted price is per person or for the car."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The cruise facility and Harbour Point Village are at ground level, and the route around the bay into Philipsburg and along the boardwalk is flat, though long in the heat (allow 30 minutes or more). Ask at the water taxi booth whether boarding is possible with a wheelchair, as it depends on the boat and the swell. Taxi fares include mobility aids at no extra charge. Front Street has kerbs and crowds on busy days. The paths to Fort Amsterdam and Fort Louis are uneven climbs.",
+ "rainyDay": "In rain, spend the time on Front Street, where shops are under cover, and in the cafés and bars along the boardwalk. Marigot's West Indies Mall is another covered option if you were going to the French side anyway.",
+ "crowdTips": "St Maarten handled nearly 1.6 million cruise passengers in 2025, and Pier 2 alone takes two of the world's largest ships. On multi-ship days Front Street and the Maho taxi run are busiest from mid-morning. Go to Maho early or after lunch, shop Front Street first thing, and check how many ships are in on your date before planning a French-side trip.",
+ "faqs": [
+  {
+   "q": "Is St Maarten a tender port?",
+   "a": "No. Ships dock at the Dr. A.C. Wathey Cruise and Cargo Facility at Point Blanche."
+  },
+  {
+   "q": "Is Philipsburg walkable from the cruise port?",
+   "a": "Yes. The port gives 15 minutes; allow up to 30 minutes to the middle of Front Street."
+  },
+  {
+   "q": "How do I get from St Maarten cruise port to Front Street?",
+   "a": "Walk around Great Bay, or take the water taxi from the booth near the ships to the Philipsburg waterfront."
+  },
+  {
+   "q": "How much is a taxi from St Maarten cruise port to Maho Beach?",
+   "a": "US$25 for one or two people, US$9 each for three to five, on the government fare table published by the Tourist Bureau (2026)."
+  },
+  {
+   "q": "Can I visit the French side from the cruise port?",
+   "a": "Yes. There are no border formalities. Marigot is roughly 30 minutes by taxi; leave 2.5 hours before all-aboard."
+  },
+  {
+   "q": "What can I do in St Maarten in one day from a cruise ship?",
+   "a": "Front Street and Great Bay beach on foot, plus a taxi to Maho Beach for the aircraft, or a longer trip to Marigot or Orient Bay."
+  },
+  {
+   "q": "Beaches near St Maarten cruise port",
+   "a": "Great Bay beach is walkable. Maho is about 25 minutes by taxi; Orient Bay is on the French side."
+  },
+  {
+   "q": "Is St Maarten safe?",
+   "a": "Yes, with normal precautions against petty theft. The one real hazard is jet blast at the Maho airport fence."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Front Street"
+  },
+  {
+   "name": "Great Bay beach"
+  },
+  {
+   "name": "Maho Beach"
+  },
+  {
+   "name": "Marigot"
+  },
+  {
+   "name": "Fort Louis"
+  },
+  {
+   "name": "Orient Bay"
+  },
+  {
+   "name": "Fort Amsterdam"
+  }
+ ],
+ "sources": [
+  {
+   "title": "St. Maarten Tourist Bureau – Taxi guide and fares",
+   "url": "https://www.vacationstmaarten.com/plan-your-vacation/transportation/taxi-guide-fares/"
+  },
+  {
+   "title": "Port St. Maarten – Cruise",
+   "url": "https://portstmaarten.com/?p=945"
+  },
+  {
+   "title": "US State Department – Sint Maarten country information (2026)",
+   "url": "https://www.travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/SintMaarten.html"
+  },
+  {
+   "title": "Princess Cruises – St. Maarten cruise port guide (2026)",
+   "url": "https://www.princess.com/blog/st-maarten-cruise-port"
+  },
+  {
+   "title": "Beyond Ships – Walking to Philipsburg from the cruise port",
+   "url": "https://www.beyondships3.com/st-maarten-walking-to-philipsburg.html"
+  },
+  {
+   "title": "Life Well Cruised – St Maarten cruise port guide",
+   "url": "https://lifewellcruised.com/st-maarten-cruise-port/"
+  },
+  {
+   "title": "Caribbean Journal – St Maarten cruise traffic (April 2026)",
+   "url": "https://www.caribjournal.com/2026/04/01/st-maarten-cruises-traffic/"
+  },
+  {
+   "title": "St-Maarten.com – Getting around by bus (2026)",
+   "url": "https://www.st-maarten.com/getting-around-by-bus-on-sint-maarten/"
+  },
+  {
+   "title": "St-Maarten.com – Marigot, capital of French Saint-Martin (2026)",
+   "url": "https://www.st-maarten.com/marigot-capital-of-french-saint-martin/"
+  },
+  {
+   "title": "KLM Travel Guide – Exotic Philipsburg",
+   "url": "https://www.klm.com/travel-guide/inspiration/exotic-philipsburg"
+  },
+  {
+   "title": "CBC News – Jet blast at seaside airport kills tourist",
+   "url": "https://amp.cbc.ca/lite/story/1.4203103"
+  },
+  {
+   "title": "Royal Price Tracker – Philipsburg cruise port",
+   "url": "https://royalpricetracker.com/explore/ports/philipsburg/"
+  }
+ ],
+ "uncertain": [
+  "Current (2026) water taxi fare and whether an all-day ticket is still sold: older sources quote US$7 (2015, 2023), not confirmed for 2026.",
+  "Exact walking distance in km from the pier to Front Street.",
+  "Taxi travel time from the cruise port to Orient Bay, and the French-side taxi fare list (published separately as a PDF, not opened).",
+  "Typical all-aboard time at Philipsburg; the day plan uses a default 17:30.",
+  "Opening hours and name of the museum on Front Street."
+ ]
+}

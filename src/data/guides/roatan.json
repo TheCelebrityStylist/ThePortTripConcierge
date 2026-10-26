@@ -1,0 +1,151 @@
+{
+  "slug": "roatan",
+  "city": "Roatán",
+  "portName": "Roatán cruise ports (Port of Roatán, Coxen Hole, and Isla Tropicale, formerly Mahogany Bay)",
+  "townName": "Coxen Hole",
+  "country": "Honduras",
+  "currency": "USD",
+  "currencySymbol": "US$",
+  "priceSymbol": "US$",
+  "language": "Spanish; English widely spoken on the Bay Islands",
+  "timezone": "CST (UTC−6) all year; Honduras does not use daylight saving time",
+  "lastVerified": "October 2026",
+  "seoTitle": "Roatán cruise port guide: Isla Tropicale, West Bay",
+  "seoDescription": "Roatán has two cruise ports 8 km apart. West Bay is 25–40 min by taxi; agree the fare first. Gumbalimba from US$35, NCL tour US$99.99 (2026). Leave by 15:30.",
+  "quickAnswer": "Roatán has two docks about 8 km apart: the Port of Roatán in Coxen Hole (Royal Caribbean, Celebrity, Norwegian, MSC, Virgin) and Carnival's Isla Tropicale, formerly Mahogany Bay. Neither is close to the best beaches, so most people take a taxi to West Bay, 25–40 minutes away, agreeing the fare and whether it is per person or per car before getting in. Leave West Bay by 15:30 for a 17:30 all-aboard.",
+  "intro": "Roatán is a long, thin island off the north coast of Honduras, and the cruise docks sit on its south side, away from the island's best swimming. The day here is about the water: the reef off West Bay and West End, a short taxi ride west. Which dock you get matters. From the Port of Roatán you can walk into Coxen Hole, the island's working main town, which is plain and busy rather than pretty. Isla Tropicale is Carnival's fenced resort port with its own beach, pool and chairlift, and everything else on the island needs a vehicle. Taxi fares are not posted in a public list, so agreeing the price is part of the day.",
+  "isTender": false,
+  "tenderNotes": "Ships normally dock. At the Port of Roatán in Coxen Hole one ship may anchor and tender when two others already occupy the pier; Norwegian ships are the ones most often reported to tender in that case. Tenders land at the Coxen Hole terminal. Isla Tropicale has two berths for Carnival's largest ships. The port is sensitive to wind, and calls are sometimes cancelled in bad weather.",
+  "typicalHours": 8,
+  "terminals": [
+    {"name": "Port of Roatán (Roatán Town Center, Coxen Hole)", "distanceToCentreKm": 0.3, "notes": "The original cruise port, funded by Royal Caribbean and opened in 2008. Used by Royal Caribbean, Celebrity, Norwegian, MSC and Virgin Voyages. Shops, cafés and an ATM inside; downtown Coxen Hole is a short walk outside the gate. Taxis wait at the exit."},
+    {"name": "Isla Tropicale (formerly Mahogany Bay Cruise Center), Dixon Cove", "distanceToCentreKm": 5, "notes": "Carnival Corporation's port, renamed in 2026. Two berths. Used mainly by Carnival and Princess, with other Carnival Corporation brands at times. A fenced complex with 52 shops, restaurants, bars, the Mangrove Bay pool area (opened May 2026), a private beach and a chairlift. Taxis wait near the gate. About 8 km east of the Port of Roatán."}
+  ],
+  "walkability": {"verdict": "Partly", "minutes": 5, "km": 0.3, "detail": "From the Port of Roatán, downtown Coxen Hole starts outside the terminal gate; streets are narrow, busy and short of pavement. From Isla Tropicale, the beach is reached on a walkway inside the port (about 10 minutes) or by chairlift, but nowhere else on the island is walkable: Coxen Hole is about 5 km away and West Bay about 35–40 minutes by car. The walk from the ship to the Isla Tropicale shopping area has an uphill section."},
+  "transportSections": [
+    {"mode": "Taxi from the port gate", "cost": "No published official fare list; agree the price in US dollars before getting in", "time": "About 25 min to West Bay from Coxen Hole; 35–40 min from Isla Tropicale", "detail": "Taxis wait at both port exits. Confirm whether the fare is per person or per car, and whether it is one way or return. Taxis inside the Isla Tropicale gate work to a rate agreed with the port; those outside the gate may be cheaper but may not speak English or agree to a return trip. Fares rise after 18:00. Arranging a return pickup time with the same driver, paying on the way back, is the safest way to get back on time."},
+    {"mode": "Pre-booked private driver or island tour", "cost": "Priced per car or per person; book and confirm in advance", "time": "As agreed", "detail": "Many cruise visitors book a local driver for a fixed number of hours. Agree the pickup point, the return time and the total price in writing before the day."},
+    {"mode": "Colectivo taxis and minibuses", "cost": "Cheap; pay cash, ideally in lempiras", "time": "Longer than a private taxi", "detail": "Shared colectivo taxis and minibuses run set routes along the main road during daylight, mostly west or east from Coxen Hole. They stop often and are not ideal when you have a ship to catch. They stop running in the evening."},
+    {"mode": "Water taxi, West End to West Bay", "cost": "Small cash fare; agree it on the dock", "time": "About 10 min", "detail": "Boats shuttle between the docks of West End village and West Bay Beach during the day. Useful if your taxi drops you in West End, or to combine the two."},
+    {"mode": "On foot (Isla Tropicale only)", "cost": "Free", "time": "About 10 min to the beach", "detail": "A walkway through the port grounds leads to the private beach. The chairlift is the paid alternative."}
+  ],
+  "returnTiming": {
+    "rule": "Leave West Bay or West End by 15:30 for a 17:30 all-aboard. From anywhere near Coxen Hole, start back by 16:00.",
+    "detail": "West Bay is 25–40 minutes from the docks, depending on which port you use, on a single main road. Taxis are not always waiting at the beach, so allow time to find one, or have your driver agreed for a fixed pickup. Leaving at 15:30 gets you to the gangway around 16:15–16:30, an hour before all-aboard.",
+    "emergencyFallback": "If no taxi is waiting at West Bay, ask a beach bar or resort reception to call one, or take the water taxi to West End, where taxis are easier to find. If you will miss all-aboard, call the port agent number printed on your daily programme straight away. The ship will not wait for passengers on independent tours."
+  },
+  "shipExcursionAvg": 99.99,
+  "diyAvg": 35,
+  "savingPerPerson": 64.99,
+  "diyVsExcursion": [
+    {"item": "Gumbalimba Park", "ship": "Norwegian Cruise Line, Gumbalimba Preserve & Animal Sanctuary: from US$99.99 adult, about 3.5 hours (2026)", "diy": "Admission from US$35 per person (2023) plus your own taxi", "saving": "About US$65 per adult before taxi costs; agree the taxi fare first"},
+    {"item": "West Bay Beach day", "ship": "Varies by line; check your cruise planner", "diy": "Beach free; taxi agreed on the day; Bananarama package from US$35 including return transport, a chair and a drink (2023)", "saving": "Usually large, but the return taxi is your responsibility"},
+    {"item": "Little French Key (from Isla Tropicale)", "ship": "Varies by line; check your cruise planner", "diy": "Packages from US$59 (Discovery) to US$198 (VIP), per CruiseMapper (2026)", "saving": "Depends on package; not a cruise-line tour, so the ship will not wait"}
+  ],
+  "excursionAdvice": "For West Bay Beach, going alone is straightforward: agree a taxi fare at the gate, fix the pickup time, and leave by 15:30. Ship tours earn their price for anything on the east of the island (Punta Gorda, Oak Ridge), for boat-based snorkelling and diving where you want the operator vetted, and for first-time visitors uneasy about agreeing fares. At Isla Tropicale many Carnival passengers never leave the port; that is a valid choice, but you are paying resort prices and seeing little of the island.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at the Port of Roatán in Coxen Hole at 08:00 and all-aboard is 17:30. From Isla Tropicale, add 10–15 minutes to each taxi ride.",
+    "steps": [
+      {"time": "08:15", "what": "Walk off the ship and through the terminal. At the taxi rank, agree the fare to West Bay, whether it is per person or per car, and a return pickup time of 15:30."},
+      {"time": "08:45", "what": "Arrive at West Bay Beach before most tour groups. Pick a spot near a bar or resort with toilets; the beach itself is free."},
+      {"time": "09:00", "what": "Snorkel from the shore at the south end of the beach, where the reef is close. Wear reef-safe sun cream and do not stand on coral."},
+      {"time": "11:30", "what": "Optional: water taxi to West End (about 10 minutes) to walk the village and its waterfront."},
+      {"time": "12:30", "what": "Lunch in West End, for example baleadas at Calelu's or seafood at Loretta's Island Cooking."},
+      {"time": "13:30", "what": "Back to West Bay by water taxi for a last swim, or stay in West End."},
+      {"time": "15:30", "what": "Meet your driver and leave for the port."},
+      {"time": "16:15", "what": "Back at the Port of Roatán. Short walk in Coxen Hole or the terminal shops if time allows."},
+      {"time": "16:30", "what": "On board, an hour before all-aboard."}
+    ]
+  },
+  "sights": [
+    {"name": "West Bay Beach", "why": "The island's best-known beach: calm, shallow water and a reef close enough to snorkel from shore.", "timeNeeded": "3–5 hours including travel", "cost": "Free to use the beach; resort day passes extra, e.g. Infinity Bay US$80 adult including lunch and drinks (2023)", "tip": "Bring your own snorkel or rent on the beach. Vendors are persistent; a resort day pass buys a quieter spot."},
+    {"name": "West End village", "why": "A small, walkable waterfront village with dive shops, cafés and bars, next to the marine park.", "timeNeeded": "1.5–2 hours", "cost": "Free", "tip": "Combine with West Bay by water taxi rather than two separate taxi rides."},
+    {"name": "Gumbalimba Park", "why": "A 20-acre private eco-park near West Bay with capuchin monkeys, macaws, gardens and a beach; ziplining and kayaking cost extra.", "timeNeeded": "2–3 hours", "cost": "From US$35 per person (2023); NCL tour from US$99.99 (2026)", "tip": "Open daily 08:00–16:00. About 20–25 minutes from the Port of Roatán and 35–45 minutes from Isla Tropicale."},
+    {"name": "Isla Tropicale beach, pool and chairlift", "why": "Carnival's own port complex: a 10-acre beach, the Mangrove Bay pool area with a swim-up bar and splash pad (opened May 2026), shops and restaurants.", "timeNeeded": "As long as you like", "cost": "Chairlift and cabanas charged extra; check prices on board", "tip": "Only for passengers on ships docked at Isla Tropicale. The beach gets busier and louder as the day goes on."},
+    {"name": "Little French Key", "why": "A private islet resort with beach, pool and animal areas, about 15 minutes by boat from Isla Tropicale.", "timeNeeded": "4–5 hours", "cost": "Packages from US$59 to US$198, per CruiseMapper (2026)", "tip": "Not a cruise-line tour. From Coxen Hole it is about 35 minutes away; leave plenty of margin."},
+    {"name": "Arch's Iguana and Marine Park", "why": "A family-run reserve with hundreds of iguanas and a marine area, close to Isla Tropicale.", "timeNeeded": "1–1.5 hours", "cost": "Not verified; pay on site", "tip": "About 15 minutes from Isla Tropicale and 25 from Coxen Hole. Stairs lead down to the iguana area, with a gentler slope available."},
+    {"name": "Maya Key", "why": "A small island attraction with beach, animal exhibits and a museum, about 3 minutes by boat from the Port of Roatán.", "timeNeeded": "3–4 hours", "cost": "Day passes from US$35; food and drink extra (2024)", "tip": "One of the quickest outings from Coxen Hole, which keeps your return simple."},
+    {"name": "Snorkelling and diving from West End", "why": "The reef off West End and West Bay is part of the Roatán Marine Park and is the main reason many visitors come.", "timeNeeded": "2–3 hours", "cost": "Sun Divers two-hour snorkel US$40, single-tank dive US$45 (2023)", "tip": "Book a morning slot so you are back on land with time to spare."}
+  ],
+  "beaches": [
+    {"name": "West Bay Beach", "howToGetThere": "Taxi from either port, or water taxi from West End", "time": "About 25 min from Coxen Hole; 35–40 min from Isla Tropicale", "cost": "Free; resort day passes and chair rental extra", "note": "The best snorkelling from shore on the island. Sea turtles nest here mainly in July and August; keep away from marked nests."},
+    {"name": "Isla Tropicale private beach (Mahogany Beach)", "howToGetThere": "Walkway (about 10 min) or chairlift inside the port", "time": "10 min on foot; about 5 min by chairlift", "cost": "Beach included with your ship; chairlift and cabanas extra", "note": "Only for passengers of ships docked at Isla Tropicale."},
+    {"name": "Tabyana Beach", "howToGetThere": "Taxi or beach-break tour", "time": "About 20–25 min by taxi", "cost": "Not verified; check before you go", "note": "On the West Bay side; a common beach-break excursion stop."},
+    {"name": "Maya Key", "howToGetThere": "Short boat ride from near the Port of Roatán", "time": "About 3 min from the Port of Roatán", "cost": "Day passes from US$35 (2024)", "note": "Island beach with paid entry; the shortest beach trip from Coxen Hole."}
+  ],
+  "food": [
+    {"dish": "Baleadas (flour tortillas with refried beans, cheese and cream)", "where": "Calelu's, West End", "price": null},
+    {"dish": "Seafood plates and island cooking", "where": "Loretta's Island Cooking, West End", "price": null},
+    {"dish": "Jerk or fried chicken and baleadas", "where": "Anthony's Chicken, West End", "price": null},
+    {"dish": "Chocolate, including the carmelita", "where": "The Roatán Chocolate Factory, West End", "price": null},
+    {"dish": "Lionfish, coconut shrimp and rum punch", "where": "La Sirena de Camp Bay (east end; only on a private-driver day)", "price": null},
+    {"dish": "Machuca (Garifuna coconut fish soup)", "where": "Garifuna Living Foods, Punta Gorda (east end; ship tour or private driver)", "price": null}
+  ],
+  "commonMistakes": [
+    {"mistake": "Getting into a taxi without agreeing the fare.", "fix": "Agree the price, the currency, whether it is per person or per car, and whether it includes the return, before you get in."},
+    {"mistake": "Assuming a taxi will be waiting at West Bay at the end of the day.", "fix": "Fix a pickup time with your driver, or allow 20 minutes to find one. Leave by 15:30 for a 17:30 all-aboard."},
+    {"mistake": "Booking an east-end trip (Punta Gorda, Oak Ridge) independently on a short call.", "fix": "The east end is close to an hour each way. Use a ship tour or a trusted private driver with a fixed return time."},
+    {"mistake": "Planning to walk from Isla Tropicale to Coxen Hole or the beaches.", "fix": "Only the port's own beach is walkable. Everything else needs a taxi."},
+    {"mistake": "Drinking tap water or ice in small bars.", "fix": "Tap water is not safe to drink in Honduras. Drink sealed bottled water and ask for drinks without ice."}
+  ],
+  "safety": "Honduras as a whole carries a US State Department Level 3 'reconsider travel' advisory (August 2026) because of crime, but its warnings name mainland areas such as Gracias a Dios and parts of Francisco Morazán, Cortés and Colón; it gives no specific warning for the Bay Islands. The cruise areas of Roatán are patrolled, and the usual day of beach, snorkelling and West End is low risk. Use taxis from the port rank or a pre-booked driver, keep valuables out of sight, and avoid quiet roads and beaches after dark. Ambulances are scarce and slow; for anything serious the ship's medical centre is your first stop.",
+  "scams": [
+    "Fare switching: a driver quotes US$20, then says it was per person or one way only. Confirm per person or per car, and one way or return, before getting in.",
+    "Unofficial tour sellers at the port gate promising a return 'in plenty of time'. Use known operators, get the return time agreed, and remember the ship will not wait for an independent tour.",
+    "Change given in lempiras at a poor rate when you pay in dollars. Carry small US dollar notes so you need little change."
+  ],
+  "emergencyNumber": "911",
+  "accessibility": "At the Port of Roatán the terminal is level, but the streets of Coxen Hole are narrow, uneven and short of pavements. At Isla Tropicale there is an uphill section between the ship and the shopping area and a fair amount of walking inside the port; the chairlift has a weight limit and is not suitable for wheelchairs. West Bay is soft sand with no boardwalk at most points. Arch's Iguana Park has stairs with a gentler slope alternative. If your ship tenders at Coxen Hole, ask the crew whether wheelchair users can transfer that day.",
+  "rainyDay": "The wettest months are roughly October to January, heaviest in November and December, usually with heavy showers rather than all-day rain. On a wet day, snorkelling visibility falls. Visit the Roatán Chocolate Factory and cafés in West End, Gumbalimba's covered areas, or stay in the Isla Tropicale complex. Strong wind can stop ships calling at all.",
+  "crowdTips": "Up to three ships can use the Port of Roatán (two docked, one at anchor) and two more can berth at Isla Tropicale, so on a full day five ships share one main road and one famous beach. West Bay fills from mid-morning with beach-break tours; arrive before 09:00. Gumbalimba and the animal sanctuaries are busiest late morning. The drier months, roughly February to August, are the most popular time to visit.",
+  "faqs": [
+    {"q": "Which port will my ship use in Roatán?", "a": "Carnival and Princess ships normally use Isla Tropicale (formerly Mahogany Bay). Royal Caribbean, Celebrity, Norwegian, MSC and Virgin Voyages use the Port of Roatán in Coxen Hole. Check your daily programme."},
+    {"q": "What is Isla Tropicale?", "a": "The 2026 name for Carnival's Mahogany Bay port in Roatán, which now has a pool area called Mangrove Bay in addition to the beach, shops and chairlift."},
+    {"q": "Is Roatán a tender port?", "a": "Usually not. Ships dock at one of the two ports. When the Coxen Hole pier is full, a third ship, often Norwegian, may anchor and tender to the same terminal."},
+    {"q": "How do I get from Roatán cruise port to West Bay Beach?", "a": "By taxi from the port rank, about 25 minutes from Coxen Hole or 35–40 minutes from Isla Tropicale. Agree the fare and pickup time first."},
+    {"q": "Is Roatán walkable from the cruise port?", "a": "Coxen Hole town is walkable from the Port of Roatán. From Isla Tropicale only the port's own beach is walkable. West Bay, West End and the parks all need a taxi."},
+    {"q": "Do I need lempiras in Roatán?", "a": "Not usually. US dollars and cards are widely accepted in the tourist areas; change may come in lempiras. Small dollar notes help."},
+    {"q": "What can I do in Roatán in one day from a cruise ship?", "a": "Most people spend the day at West Bay Beach snorkelling from the shore, sometimes with a water taxi to West End for lunch. Gumbalimba Park and Maya Key are shorter alternatives."},
+    {"q": "Is Roatán safe for cruise passengers?", "a": "The cruise areas and West Bay are generally safe in daytime. Honduras has a Level 3 US advisory driven by mainland crime; use port taxis or known drivers and keep valuables out of sight."}
+  ],
+  "topAttractions": [
+    {"name": "West Bay Beach"},
+    {"name": "West End"},
+    {"name": "Gumbalimba Park"},
+    {"name": "Isla Tropicale"},
+    {"name": "Little French Key"},
+    {"name": "Maya Key"},
+    {"name": "Arch's Iguana and Marine Park"}
+  ],
+  "sources": [
+    {"title": "CruiseMapper – Roatán Island port (Isla Tropicale and Coxen Hole)", "url": "https://www.cruisemapper.com/ports/roatan-island-port-29"},
+    {"title": "Cruise Industry News – Carnival unveils reimagined Isla Tropicale (May 2026)", "url": "https://cruiseindustrynews.com/cruise-news/2026/05/carnival-unveils-reimagined-isla-tropicale/"},
+    {"title": "Cruise Hive – Carnival's Roatán destination gets new pool area (May 2026)", "url": "https://cruisehive.com/carnivals-roatan-destination-gets-major-upgrade-with-new-pool-area/209898"},
+    {"title": "Norwegian Cruise Line – Gumbalimba Preserve & Animal Sanctuary excursion", "url": "https://www.ncl.com/in/en/shore-excursions/RTB_36"},
+    {"title": "US State Department – Honduras travel advisory (August 2026)", "url": "https://travel.state.gov/en/international-travel/travel-advisories/honduras.html"},
+    {"title": "US State Department – Honduras country information", "url": "https://www.travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Honduras.html"},
+    {"title": "What's in Port – Roatán", "url": "https://www.whatsinport.com/Roatan.htm"},
+    {"title": "Adventour Begins – Roatán cruise port guide (updated November 2025)", "url": "https://adventourbegins.com/roatan-cruise-port-guide/"},
+    {"title": "Cruise Radio – Mahogany Bay cruise port (updated February 2025)", "url": "https://cruiseradio.net/mahogany-bay-cruise-port-what-you-need-to-know/"},
+    {"title": "Cruise.Blog – Best things to do in Roatán (March 2023)", "url": "https://cruise.blog/2023/03/best-things-do-roatan-honduras-cruise-port"},
+    {"title": "Life Well Cruised – Roatán cruise port guide (2024)", "url": "https://lifewellcruised.com/best-things-to-do-in-roatan-on-a-cruise-port-guide/"},
+    {"title": "Frommers – Getting around Roatán", "url": "https://www.frommers.com/destinations/roatan/planning-a-trip/getting-around"},
+    {"title": "Frommers – Cruises in Roatán", "url": "https://www.frommers.com/destinations/roatan/cruises/"},
+    {"title": "Cruise Critic forum – Roatán taxis (January 2023)", "url": "https://boards.cruisecritic.co.uk/topic/2905808-roatan-taxis"},
+    {"title": "Sally Sees – Restaurants in West End, Roatán (November 2025)", "url": "https://sallysees.com/restaurants-in-west-end-roatan/"},
+    {"title": "Air Transat – A local's guide to food in Roatán", "url": "https://experience.transat.com/a-locals-guide-to-authentic-food-and-the-best-restaurants-in-roatan/"}
+  ],
+  "uncertain": [
+    "Taxi fares: no official published fare table found. Reports range from about US$20 per person to US$20–25 per car one way to West Bay (2023 forum posts and undated guides), so no figure is quoted.",
+    "Water taxi (West End–West Bay) fare: L50/US$3 (Frommers, undated) vs about US$5 (What's in Port, undated).",
+    "Colectivo and minibus fares (about L20–40 per Frommers, undated).",
+    "Chairlift price: US$12 all-day (CruiseMapper) vs US$14 adult and US$8 child (Cruise Radio 2025, What's in Port); may have changed with the 2026 Isla Tropicale renovation.",
+    "Whether Mangrove Bay pool access is included or charged.",
+    "Arch's Iguana and Marine Park and other animal sanctuary admission prices.",
+    "Gumbalimba walk-in price is from a 2023 source; the official park site could not be opened (permission request timed out: https://www.gumbalimbapark.com/).",
+    "Jungle canopy zipline near the Port of Roatán (US$45, What's in Port, undated).",
+    "Typical all-aboard time for Roatán calls; 17:30 assumed.",
+    "Restaurant prices not verified."
+  ]
+}

@@ -1,0 +1,386 @@
+{
+ "slug": "ajaccio",
+ "city": "Ajaccio",
+ "portName": "Port of Ajaccio (Gare Maritime, Quai L'Herminier)",
+ "townName": "the old town and Place Foch",
+ "country": "France",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "French (Corsican is also spoken)",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Ajaccio cruise port guide: old town, Bonaparte, Parata",
+ "seoDescription": "Ajaccio ships dock 0.3–0.5 km from Place Foch, a 5–10 min walk; big ships may tender. Maison Bonaparte €7, closed Mondays. Bus 5 to La Parata, 11 km.",
+ "quickAnswer": "Most ships dock at the Gare Maritime on Quai L'Herminier or the cruise mole next to it, 0.3–0.5 km from Place Foch and the old town, a 5–10 minute walk. Larger ships sometimes anchor and tender into the same central port area. Be back on board 60 minutes before all-aboard, or 90 minutes if your ship is tendering.",
+ "intro": "Ajaccio is Corsica's capital and Napoleon's birthplace, and its cruise berths sit on the edge of the old town. Place Foch, the market, the cathedral and the Maison Bonaparte are all within a short, flat walk. The Pointe de la Parata, with its Genoese tower facing the Sanguinaires islands, is 11 km west and reached by bus line 5, the seasonal tourist train or a boat trip. Many shops close for lunch, roughly 12:30–14:30, and the Maison Bonaparte is closed on Mondays, so check the day of your call.",
+ "isTender": false,
+ "tenderNotes": "Ships normally dock, but whether a ship docks or anchors depends on its size, berth allocation and other port traffic. Larger ships sometimes anchor in the gulf and tender passengers to the central port area by the Gare Maritime, from where the walk into town is the same. Tendering adds time in each direction; ask the ship how long to allow.",
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Gare Maritime, Quai L'Herminier",
+   "distanceToCentreKm": 0.4,
+   "notes": "Small modern terminal with toilets, ferry booking desks and a taxi rank. Also equipped for tenders. About 0.3–0.5 km from Place Foch."
+  },
+  {
+   "name": "Môle Croisières (cruise mole at the commercial port)",
+   "distanceToCentreKm": null,
+   "notes": "Dedicated cruise berth in the same central port area."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.4,
+  "detail": "From the pier, head left and follow the waterfront road straight into the centre: the market square, the town hall, Place Foch and the old town. The route is flat. The tourist office, at 3 Boulevard du Roi Jérôme, is about five minutes from the port."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5–10 min to Place Foch and the old town",
+   "detail": "Flat walk along the waterfront. Some old town streets are stone-paved."
+  },
+  {
+   "mode": "City bus line 5 to La Parata",
+   "cost": "Check the current fare with Muvitarra or the tourist office",
+   "time": "Allow plenty of time; La Parata is 11 km west",
+   "detail": "Line 5 runs from Place de Gaulle (next to Place Foch) along the coast road to the Pointe de la Parata, passing the western beaches. Lines 2 and 5 serve Trottel beach. Check the return timetable before you go."
+  },
+  {
+   "mode": "Tourist train and open-top bus",
+   "cost": "Check on board or at Place Foch",
+   "time": "Varies",
+   "detail": "Small tourist trains and double-decker buses run during the season from Place Foch, including towards the Sanguinaires."
+  },
+  {
+   "mode": "Boat trip to the Sanguinaires",
+   "cost": "From about US$40 through resellers (2026)",
+   "time": "About 3 hours",
+   "detail": "Excursion boats leave from Port Tino Rossi, the marina next to the old town. Some trips land at Mezzu Mare (Grande Sanguinaire) in season."
+  },
+  {
+   "mode": "Ferry to Porticcio",
+   "cost": "Check at Port Tino Rossi",
+   "time": "About 20 min",
+   "detail": "Runs every day, all year, from Port Tino Rossi across the gulf."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; a fixed price for a set time can be agreed",
+   "time": "Varies with traffic",
+   "detail": "There is a rank by the terminal. Agree any fixed price before setting off; the tourist office can call a taxi. Traffic in Ajaccio is heavy."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard, or 90 minutes if your ship is tendering. From La Parata, start back at least 2 hours before all-aboard.",
+  "detail": "The centre is a short walk, so the main risks are heavy traffic on the coast road back from La Parata and tender queues on days when a ship anchors. If you take the bus to La Parata, catch an early return rather than the last useful one.",
+  "emergencyFallback": "From La Parata or the western beaches, take a taxi to the port. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Old town and Maison Bonaparte",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Maison Bonaparte €7 full price, or the tourist office guided walk with museum entry €12 (2026)",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "Sanguinaires boat trip",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "From about US$40 through resellers (2026)",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Ajaccio itself: the old town, the market, the cathedral and the Maison Bonaparte are all a short flat walk from the pier, and the tourist office runs its own guided walk ending at the Maison Bonaparte. A ship tour makes more sense for inland Corsica or a long coastal drive, where heavy traffic makes a self-guided return risky. For La Parata, the bus or tourist train is fine on a long call; on a short call or a tender day, a ship tour or a fixed-price taxi is safer.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, on a day other than Monday.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship and along the waterfront to Place Foch and the tourist office."
+   },
+   {
+    "time": "09:00",
+    "what": "Browse the market on Place Campinchi (Tuesday to Sunday mornings) for Corsican charcuterie and cheese."
+   },
+   {
+    "time": "10:00",
+    "what": "Visit the Maison Bonaparte, Napoleon's birthplace, as it opens."
+   },
+   {
+    "time": "11:00",
+    "what": "Walk to the cathedral of Notre-Dame-de-l'Assomption and the old town lanes, then see the Citadelle from outside."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch in the old town before shops and restaurants slow down for the midday break."
+   },
+   {
+    "time": "13:30",
+    "what": "Option A: swim at Plage Saint-François, 10–15 minutes' walk past the citadel. Option B: bus 5 or the tourist train to La Parata for the tower walk."
+   },
+   {
+    "time": "15:30",
+    "what": "Back from La Parata, or leave the beach, and walk back towards the port."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard (16:00 if tendering)."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Maison Bonaparte",
+   "why": "Napoleon's birthplace and family home, now a national museum.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "€7 full price, €5 reduced (as listed, 2026); free under 26 and on the first Sunday of the month",
+   "tip": "Closed on Mondays. From 1 April to 30 September it opens 10:00–12:30 and 13:15–17:30; the midday closure catches people out."
+  },
+  {
+   "name": "Old town and Place Foch",
+   "why": "The Genoese old town, the main square, the town hall and the shopping street Cours Napoléon.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "Start at the tourist office; on set dates (mostly Wednesdays and Sundays at 10:00) its guided walk ending at the Maison Bonaparte costs €12 including museum entry (2026)."
+  },
+  {
+   "name": "Palais Fesch – Musée des Beaux-Arts",
+   "why": "Fine-arts museum at 50 rue Fesch with works from the 14th to 19th centuries, including Botticelli, Titian, Veronese and Poussin.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Tourist office guided tour €12 including entry (2026)",
+   "tip": "Guided tours run at 14:30 on set dates from June to October 2026; book through the tourist office."
+  },
+  {
+   "name": "Cathedral of Notre-Dame-de-l'Assomption",
+   "why": "Ajaccio's cathedral in the old town.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "A cool stop at midday."
+  },
+  {
+   "name": "Marché d'Ajaccio (Place Campinchi)",
+   "why": "Covered market next to Place Foch and the marina, with Corsican charcuterie, cheese and local produce.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to browse",
+   "tip": "Runs Tuesday to Sunday, 09:00–13:00; producers' market on Wednesday and Saturday mornings."
+  },
+  {
+   "name": "Pointe de la Parata and the Sanguinaires",
+   "why": "Headland 11 km west with a 17th-century Genoese tower and views of the Sanguinaires islands.",
+   "timeNeeded": "3 hours including travel",
+   "cost": "Free trail; bus or tourist train fare",
+   "tip": "The marked trail climbs to the foot of the tower in about 20 minutes. Bring water and shoes with grip."
+  },
+  {
+   "name": "Citadelle Miollis",
+   "why": "The fortress on the point next to the old town.",
+   "timeNeeded": "15 minutes from outside",
+   "cost": "Free to view from outside",
+   "tip": "It is undergoing major rehabilitation, so treat it as an exterior stop unless access is confirmed locally."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Plage Saint-François",
+   "howToGetThere": "Walk past the citadel",
+   "time": "10–15 min walk from the port",
+   "cost": "Free",
+   "note": "Small sandy town beach, lifeguarded in season. Arrive early in summer for space."
+  },
+  {
+   "name": "Plage du Trottel",
+   "howToGetThere": "Walk west along the waterfront, or bus line 2 or 5",
+   "time": "About 30 min walk",
+   "cost": "Free",
+   "note": "Larger beach with shallow water, lifeguarded in season."
+  },
+  {
+   "name": "Western beaches on the road to La Parata",
+   "howToGetThere": "Bus line 5 from Place de Gaulle",
+   "time": "Depends on the stop",
+   "cost": "Bus fare",
+   "note": "Check the return bus times before you settle in."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Corsican charcuterie (figatellu, lonzu, coppa, prisuttu) and brocciu cheese",
+   "where": "Marché d'Ajaccio, Place Campinchi",
+   "price": null
+  },
+  {
+   "dish": "Fiadone (brocciu and lemon cake) and canistrelli biscuits",
+   "where": "Market stalls at the Marché d'Ajaccio",
+   "price": null
+  },
+  {
+   "dish": "Veau aux olives or civet de sanglier (wild boar stew)",
+   "where": "A Nepita, on Rue San Lazaro",
+   "price": null
+  },
+  {
+   "dish": "Fresh local fish",
+   "where": "Le Petit Restaurant, near the port",
+   "price": null
+  },
+  {
+   "dish": "Pietra chestnut beer or a Vermentinu white wine",
+   "where": "Bars and cafés in the old town",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning the Maison Bonaparte on a Monday.",
+   "fix": "It is closed on Mondays. Check the day of your call and swap in the Palais Fesch or La Parata."
+  },
+  {
+   "mistake": "Arriving at shops or the museum at 12:45.",
+   "fix": "Many shops close roughly 12:30–14:30 and the Maison Bonaparte closes 12:30–13:15. Do your visits in the morning and eat at midday."
+  },
+  {
+   "mistake": "Assuming your ship will dock because the last one did.",
+   "fix": "Larger ships sometimes anchor and tender. Check your daily programme and add 30 minutes to your return if tendering."
+  },
+  {
+   "mistake": "Leaving La Parata on the last bus that might get you back.",
+   "fix": "The coast road is busy. Start back at least 2 hours before all-aboard, or take a taxi."
+  },
+  {
+   "mistake": "Expecting to tour the citadel.",
+   "fix": "It is under rehabilitation; see it from outside and spend the time in the old town instead."
+  }
+ ],
+ "safety": "Ajaccio is a straightforward port day. The main hazards are summer heat, especially in July and August, and traffic on the busy waterfront roads; use the crossings. On the Parata trail, carry water and wear shoes with grip. Swim only at lifeguarded beaches in season.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from the Gare Maritime to Place Foch is short and flat. Some old town streets are stone-paved. The Maison Bonaparte and the Palais Fesch are both listed as accessible for people with reduced mobility. The Parata trail climbs to the tower and is not step-free. Muvistrada+ is a door-to-door service for people with limited mobility but requires registration in advance. On tender days, ask the ship whether wheelchair users can transfer.",
+ "rainyDay": "Ajaccio has good indoor options close to the port. Spend the morning in the Maison Bonaparte and the Palais Fesch, look into the cathedral, and browse the covered market on Place Campinchi. Skip La Parata and the boat trips.",
+ "crowdTips": "October 2026 alone has 28 scheduled cruise calls. Tour groups head for the Maison Bonaparte and Place Foch first. Go to the market early, visit the Maison Bonaparte right at opening or after the midday break, and leave the beaches and La Parata for the afternoon.",
+ "faqs": [
+  {
+   "q": "Is Ajaccio a tender port?",
+   "a": "Usually not. Ships dock at the Gare Maritime or the cruise mole, but larger ships sometimes anchor and tender to the same central port area."
+  },
+  {
+   "q": "Is Ajaccio walkable from the cruise port?",
+   "a": "Yes. Place Foch and the old town are 0.3–0.5 km away, a flat 5–10 minute walk along the waterfront."
+  },
+  {
+   "q": "How do I get from Ajaccio cruise port to the old town?",
+   "a": "Head left out of the port and follow the waterfront road straight into the centre. It takes 5–10 minutes."
+  },
+  {
+   "q": "How much is the Maison Bonaparte?",
+   "a": "€7 full price and €5 reduced; free under 26 and on the first Sunday of the month. It is closed on Mondays."
+  },
+  {
+   "q": "How do I get to the Îles Sanguinaires from Ajaccio?",
+   "a": "Bus line 5 from Place de Gaulle or the seasonal tourist train from Place Foch to La Parata, 11 km west, or a 3-hour boat trip from Port Tino Rossi."
+  },
+  {
+   "q": "What can I do in Ajaccio in one day from a cruise ship?",
+   "a": "The market and Maison Bonaparte in the morning, the old town and cathedral, then a beach swim or a trip to La Parata."
+  },
+  {
+   "q": "Beaches near Ajaccio cruise port?",
+   "a": "Plage Saint-François is 10–15 minutes' walk; Trottel is about 30 minutes' walk or a short bus ride on line 2 or 5."
+  },
+  {
+   "q": "Is Ajaccio safe?",
+   "a": "Yes. Take care with summer heat and traffic on the waterfront roads."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Maison Bonaparte"
+  },
+  {
+   "name": "Place Foch"
+  },
+  {
+   "name": "Palais Fesch"
+  },
+  {
+   "name": "Ajaccio Cathedral"
+  },
+  {
+   "name": "Pointe de la Parata"
+  },
+  {
+   "name": "Îles Sanguinaires"
+  },
+  {
+   "name": "Plage Saint-François"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Ajaccio Tourist Office – Urban transport (updated August 2026)",
+   "url": "https://www.ajaccio-tourisme.com/en/?p=13533"
+  },
+  {
+   "title": "Ajaccio Tourist Office – Guided visit of Ajaccio and Maison Bonaparte (2026)",
+   "url": "https://www.ajaccio-tourisme.com/en/?p=22329"
+  },
+  {
+   "title": "Ajaccio Tourist Office – Guided visit of the Palais Fesch (2026)",
+   "url": "https://www.ajaccio-tourisme.com/en/?p=22330"
+  },
+  {
+   "title": "Visit Corsica – Musée national de la Maison Bonaparte",
+   "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/MUSEE-NATIONAL-DE-LA-MAISON-BONAPARTE"
+  },
+  {
+   "title": "Visit Corsica – Grand Site de la Parata",
+   "url": "https://www.visit-corsica.com/de/layout/set/print/sir/Patrimoine-naturel/Tout-le-patrimoine-naturel/GRAND-SITE-DE-LA-PARATA"
+  },
+  {
+   "title": "Guide Tourisme France – Musée national Maison Bonaparte",
+   "url": "https://www.guide-tourisme-france.com/VISITER/musee-national-maison-bonaparte--ajaccio-18020.htm"
+  },
+  {
+   "title": "CruiseMapper – Ajaccio port",
+   "url": "https://www.cruisemapper.com/ports/ajaccio-port-67"
+  },
+  {
+   "title": "Cruise Critic – Corsica (Ajaccio) port guide",
+   "url": "https://www.cruisecritic.com/find-a-cruise/port-corsica-ajaccio"
+  },
+  {
+   "title": "Adventour Begins – Ajaccio cruise port guide (updated March 2026)",
+   "url": "https://www.adventourbegins.com/corsica-ajaccio-cruise-port-guide/"
+  },
+  {
+   "title": "Ryo – Free activities in Ajaccio (2026)",
+   "url": "https://ryo.co/en/articles/france/ajaccio/free-activities-ajaccio/"
+  },
+  {
+   "title": "Civitatis – Sanguinaires Islands cruise",
+   "url": "https://www.civitatis.com/en/ajaccio/sanguinaires-islands-cruise?aid=3886"
+  },
+  {
+   "title": "Royal Caribbean – What to eat in Corsica",
+   "url": "https://www.royalcaribbean.com/inspire/what-to-eat-in-corsica"
+  },
+  {
+   "title": "Corsica Lovers – What to eat in Corsica",
+   "url": "https://corsicalovers.fr/que-manger-corse-specialites-conseils-restaurants/"
+  }
+ ],
+ "uncertain": [
+  "Muvitarra single bus fare for 2026 and the journey time and frequency of line 5 to La Parata.",
+  "How often, and for which ship sizes, Ajaccio calls are tendered rather than docked; CCI / port authority cruise pages were not opened.",
+  "Palais Fesch general opening hours and standard admission price (only the guided-tour price was verified).",
+  "Tourist train and open-top bus fares and timetables from Place Foch.",
+  "Porticcio ferry fare.",
+  "Which Sanguinaires boat departures from Port Tino Rossi land on Mezzu Mare, and direct operator prices.",
+  "Typical cruise call hours and all-aboard time at Ajaccio (17:30 used as a default).",
+  "Any cruise passenger fee or 2025–2026 change at the port."
+ ]
+}

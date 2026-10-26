@@ -1,0 +1,362 @@
+{
+ "slug": "key-west",
+ "city": "Key West",
+ "portName": "Port of Key West (Pier B, Mallory Square)",
+ "townName": "Old Town and Duval Street",
+ "country": "United States",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "EST (UTC−5), EDT (UTC−4) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Key West cruise port guide: Pier B, Duval, Hemingway",
+ "seoDescription": "Key West ships dock at Pier B, a short walk from Duval Street. Hemingway Home $19 (2026), Fort Zachary Taylor $2.50 on foot. One ship a day. Back 60 min early.",
+ "quickAnswer": "Key West is a docking port: almost every ship ties up at Pier B, in front of the Westin, a short walk from Mallory Square and the top of Duval Street. You need no transport for Old Town; the Hemingway Home is about a 20-minute walk. Be back on board 60 minutes before all-aboard.",
+ "intro": "Key West is one of the easiest calls on a Caribbean itinerary. The ship docks beside Old Town, the island is flat, and the main sights are within walking distance. Since the 2020 referendum the city has kept a one-ship-a-day policy, so the town is rarely swamped by several ships at once. The real constraints are heat, afternoon storms in summer and early autumn, and the temptation to linger on Duval Street. The famous Mallory Square sunset may come after your ship has sailed.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Pier B",
+   "distanceToCentreKm": null,
+   "notes": "Privately operated pier in the marina in front of the Westin. Used by nearly all cruise ships; under the city's one-ship policy it is the only berth for most calls. A short walk to Mallory Square and Duval Street."
+  },
+  {
+   "name": "Mallory Square Dock",
+   "distanceToCentreKm": 0.1,
+   "notes": "City-owned dock at Mallory Square, a few steps from Old Town. Used mainly by small ships, such as American Cruise Lines."
+  },
+  {
+   "name": "Outer Mole Pier (Navy)",
+   "distanceToCentreKm": null,
+   "notes": "Navy-owned pier reached through the base, with a short shuttle into town. Not used by cruise ships under the city's one-ship policy; the Navy told the city in 2026 that it would end the lease, and future use is undecided."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 20,
+  "km": null,
+  "detail": "From Pier B or Mallory Square, Old Town and the north end of Duval Street are a short, flat walk. The Hemingway Home is about 20 minutes on foot. Shade is patchy; carry water in summer."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "Short walk to Mallory Square and Duval Street; about 20 min to the Hemingway Home",
+   "detail": "Old Town is compact and flat. Most visitors walk everywhere."
+  },
+  {
+   "mode": "Key West Rides (on-demand bus)",
+   "cost": "$2 per ride, paid in the app (2026)",
+   "time": "Book in the app; runs about 06:00–20:00",
+   "detail": "Replaced the Duval Loop bus from 2 January 2026. Download the free Key West Rides app, book a pick-up within Key West or Stock Island, and track the vehicle. Former Duval Loop stops are still served. Wheelchair users select the wheelchair icon when booking."
+  },
+  {
+   "mode": "Taxi, Uber or Lyft",
+   "cost": "Metered or app fare (2026)",
+   "time": "About 5 min to the Hemingway Home",
+   "detail": "A taxi line waits just outside the port. Useful for Fort Zachary Taylor, Smathers Beach or Higgs Beach in heat or rain."
+  },
+  {
+   "mode": "Old Town Trolley or Conch Tour Train",
+   "cost": "Check current ticket prices (2026)",
+   "time": "Narrated loop of Old Town",
+   "detail": "Sightseeing tours rather than transport. The trolley is hop-on, hop-off."
+  },
+  {
+   "mode": "Bike or scooter rental",
+   "cost": "Varies by shop (2026)",
+   "time": "A few minutes to anywhere on the island",
+   "detail": "Bikes suit the flat island. Scooters share narrow streets with cars, trolleys and golf carts; rent one only if you are confident riding."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard (16:30 for a 17:30 all-aboard).",
+  "detail": "Pier B is a short walk from Duval Street, so leave Old Town about 80 minutes before all-aboard. Leave earlier from the Hemingway Home, Fort Zachary Taylor or the beaches. Allow extra time if a storm comes through.",
+  "emergencyFallback": "Take a taxi from anywhere on the island; Key West is small and taxis, Uber and Lyft are widely available. If you will miss all-aboard, call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": 21.5,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Hemingway Home",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$19 adult at the gate (2026), about 20 min walk",
+   "saving": "Most of the tour price"
+  },
+  {
+   "item": "Fort Zachary Taylor",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$2.50 on foot or by bike (2026)",
+   "saving": "Most of the tour price"
+  }
+ ],
+ "excursionAdvice": "For Old Town, the Hemingway Home and Fort Zachary Taylor you do not need a ship's tour: everything is walkable and tickets are sold at the gate. A ship's trip earns its price for snorkelling or diving on the reef or the Vandenberg wreck, where the boat operator has to fit your return time, and for anyone who cannot walk far in heat. The narrated trolley or Conch Tour Train can be bought locally.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Pier B at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off Pier B to Mallory Square and the north end of Duval Street before the heat builds."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk to the Hemingway Home (about 20 minutes) and take the 20–30-minute guided tour."
+   },
+   {
+    "time": "10:30",
+    "what": "Walk or ride to the Southernmost Point for the photo."
+   },
+   {
+    "time": "11:15",
+    "what": "Fort Zachary Taylor: $2.50 on foot. See the fort, then cool off by the water."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch, for example at Blue Heaven."
+   },
+   {
+    "time": "14:30",
+    "what": "Duval Street and Sloppy Joe's, or a narrated trolley loop."
+   },
+   {
+    "time": "16:00",
+    "what": "Start back towards Pier B from Duval Street."
+   },
+   {
+    "time": "16:30",
+    "what": "On board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Ernest Hemingway Home and Museum",
+   "why": "The writer's house and garden, with guided tours and the famous six-toed cats.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "$19 adult, $7 child 6–12, under-6s free (2026); 3% fee on card and mobile payments",
+   "tip": "Open daily 09:00–17:00. Tours every 15 minutes from 09:15; tickets at the main gate only, no reservations."
+  },
+  {
+   "name": "Fort Zachary Taylor Historic State Park",
+   "why": "A historic fort inside a state park within easy reach of Old Town, with space to cool off by the water.",
+   "timeNeeded": "1.5–2 hours with a swim",
+   "cost": "$2.50 per pedestrian or cyclist, including the Monroe County surcharge (2026)",
+   "tip": "Park open 08:00 to sundown; the fort itself closes at 17:00."
+  },
+  {
+   "name": "Mallory Square",
+   "why": "The waterfront square beside the cruise piers, famous for its sunset gathering with street performers.",
+   "timeNeeded": "20–30 minutes by day",
+   "cost": "Free",
+   "tip": "Check whether sunset falls before your all-aboard; stay only if it does."
+  },
+  {
+   "name": "Duval Street",
+   "why": "Old Town's main street of bars, live music and shops; Mallory Square is at its north end.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Walk it early, then use side streets for shade and the conch cottages."
+  },
+  {
+   "name": "Southernmost Point",
+   "why": "One of the island's best-known photo stops.",
+   "timeNeeded": "15–30 minutes",
+   "cost": "Free",
+   "tip": "Use a taxi or Key West Rides if the heat makes the walk hard."
+  },
+  {
+   "name": "Old Town Trolley or Conch Tour Train",
+   "why": "Narrated loops of Old Town for anyone who prefers not to walk in the heat.",
+   "timeNeeded": "Varies by tour",
+   "cost": "Check current prices",
+   "tip": "The trolley is hop-on, hop-off, so you can use it as transport between sights."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Fort Zachary Taylor State Park",
+   "howToGetThere": "Walk, bike or taxi from Pier B",
+   "time": "A short taxi ride",
+   "cost": "$2.50 on foot or by bike (2026)",
+   "note": "Combine with a visit to the fort."
+  },
+  {
+   "name": "Higgs Beach",
+   "howToGetThere": "Taxi, bike or Key West Rides",
+   "time": "A short ride across the island",
+   "cost": "Free",
+   "note": "A public beach outside Old Town."
+  },
+  {
+   "name": "Smathers Beach",
+   "howToGetThere": "Taxi or Key West Rides",
+   "time": "A short ride",
+   "cost": "Free",
+   "note": "A public beach outside Old Town; take a ride rather than walking in the heat."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Brunch in a garden courtyard",
+   "where": "Blue Heaven, Old Town",
+   "price": null
+  },
+  {
+   "dish": "Cold beer with live music",
+   "where": "Sloppy Joe's Bar, Duval Street",
+   "price": null
+  },
+  {
+   "dish": "Conch fritters, Cuban sandwiches and key lime pie",
+   "where": "Food vendors and waterfront restaurants around Mallory Square",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning to watch the Mallory Square sunset.",
+   "fix": "Check your all-aboard time first. Many ships sail before sunset."
+  },
+  {
+   "mistake": "Waiting for the Duval Loop bus.",
+   "fix": "It was suspended in January 2026. Walk, or book the Key West Rides on-demand bus in its app."
+  },
+  {
+   "mistake": "Walking to the beaches at midday in summer.",
+   "fix": "Take a taxi or ride for Smathers and Higgs, and carry water."
+  },
+  {
+   "mistake": "Renting a scooter with no riding experience.",
+   "fix": "Streets are narrow and busy with cars, trolleys and golf carts. Walk or rent a bike."
+  },
+  {
+   "mistake": "Staying on Duval Street until the last minute.",
+   "fix": "Leave Old Town 80 minutes before all-aboard; Pier B is close, but heat and storms slow you down."
+  }
+ ],
+ "safety": "Key West is a low-risk port for visitors. The main hazards are heat and sun, summer thunderstorms, and traffic on narrow streets shared with scooters, bikes and golf carts. October and November still fall in hurricane season, so watch the forecast; ships may change itinerary. Duval Street is busy with bars, so keep an eye on belongings in crowds and drink sensibly in the heat.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "All three piers are described as wheelchair-friendly, and Old Town is flat. The Key West Rides on-demand buses are ADA accessible; choose the wheelchair option when booking. Ask at the Hemingway Home gate about access before buying a ticket.",
+ "rainyDay": "Shelter in the Hemingway Home, the bars and shops of Duval Street, or take the covered trolley tour. Use a taxi or Key West Rides rather than waiting in the rain.",
+ "crowdTips": "The city keeps a one-ship-a-day policy, so you rarely share the town with several ships' passengers at once. Go to the Hemingway Home and the Southernmost Point early, when queues are shortest, and leave Duval Street for the afternoon.",
+ "faqs": [
+  {
+   "q": "Where do cruise ships dock in Key West?",
+   "a": "Almost always at Pier B, in front of the Westin. Small ships may use the Mallory Square dock. The Navy's Outer Mole is not used under the city's one-ship policy."
+  },
+  {
+   "q": "Is Key West walkable from the cruise port?",
+   "a": "Yes. Mallory Square and Duval Street are a short walk from Pier B; the Hemingway Home is about 20 minutes on foot."
+  },
+  {
+   "q": "Is Key West a tender port?",
+   "a": "No. Ships dock alongside."
+  },
+  {
+   "q": "How many cruise ships can visit Key West a day?",
+   "a": "The city keeps a one-ship-per-day policy based on the 2020 referendum, with ships using the privately owned Pier B."
+  },
+  {
+   "q": "Is the Duval Loop bus still running?",
+   "a": "No. It was suspended on 2 January 2026 and replaced by the Key West Rides on-demand service at $2 a ride, booked in the app."
+  },
+  {
+   "q": "How much is the Hemingway Home?",
+   "a": "$19 for adults and $7 for children aged 6–12 in 2026, with a 3% fee on card payments. Open daily 09:00–17:00."
+  },
+  {
+   "q": "Beaches near Key West cruise port?",
+   "a": "Fort Zachary Taylor State Park is closest ($2.50 on foot). Higgs and Smathers beaches are a short taxi ride."
+  },
+  {
+   "q": "What can I do in Key West in one day from a cruise ship?",
+   "a": "Hemingway Home, the Southernmost Point, Fort Zachary Taylor and Duval Street, all on foot or with a short ride."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Ernest Hemingway Home and Museum"
+  },
+  {
+   "name": "Mallory Square"
+  },
+  {
+   "name": "Duval Street"
+  },
+  {
+   "name": "Southernmost Point"
+  },
+  {
+   "name": "Fort Zachary Taylor Historic State Park"
+  },
+  {
+   "name": "Old Town Trolley"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Florida State Parks – Fort Zachary Taylor hours and fees",
+   "url": "https://www.floridastateparks.org/parks-and-trails/fort-zachary-taylor-historic-state-park/hours-fees"
+  },
+  {
+   "title": "Ernest Hemingway Home and Museum – Tours",
+   "url": "https://www.hemingwayhome.com/tours-1"
+  },
+  {
+   "title": "Florida Keys & Key West (official tourism council) – Key West",
+   "url": "https://visitfloridakeys.com/discover-the-keys/destinations/key-west"
+  },
+  {
+   "title": "Keys Weekly – City officials agree to remind Navy of cruise ship preferences (July 2026)",
+   "url": "https://keysweekly.com/42/city-officials-agree-to-remind-navy-of-cruise-ship-preferences/"
+  },
+  {
+   "title": "Keys Citizen – Key West Rides on-demand service to replace Duval Loop (Dec 2025)",
+   "url": "https://www.keysnews.com/news/local/key-west-rides-on-demand-service-to-replace-duval-loop/article_41a786dd-9fc3-4c5a-9570-bfb2657b902a.html"
+  },
+  {
+   "title": "Key West Express – How to get around Key West (Sept 2026)",
+   "url": "https://www.keywestexpress.net/blog/how-to-get-around-key-west-and-make-the-most-of-your-vacation"
+  },
+  {
+   "title": "Wikipedia – Port of Key West",
+   "url": "https://en.wikipedia.org/wiki/Port_of_Key_West"
+  },
+  {
+   "title": "Keys Weekly – Debate continues as cruise ships return to Key West (2021)",
+   "url": "https://keysweekly.com/42/debate-continues-as-cruise-ships-make-a-controversial-return-to-key-west/"
+  },
+  {
+   "title": "Keys Weekly – Cruise ship group opposes new agreement (2022)",
+   "url": "https://keysweekly.com/42/key-west-cruise-ship-group-opposes-new-agreement/"
+  },
+  {
+   "title": "Disney Cruise Line Blog – Key West commission vote on Pier B (2022)",
+   "url": "https://disneycruiselineblog.com/?p=53325"
+  },
+  {
+   "title": "Maritime Executive – Key West nears limits on cruise visits (2022)",
+   "url": "https://maritime-executive.com/article/key-west-nears-limits-reducing-number-of-cruise-ship-visits"
+  },
+  {
+   "title": "Cruise Hive – Key West cruise port guide",
+   "url": "https://www.cruisehive.com/fun-things-to-do-in-key-west-florida/26552"
+  },
+  {
+   "title": "Beyondships – Key West cruise port",
+   "url": "https://www.beyondships3.com/key-west-cruise-port.html"
+  }
+ ],
+ "uncertain": [
+  "Exact walking time from Pier B to Duval Street and to the Southernmost Point.",
+  "Who will operate the Navy Outer Mole after the lease ends (August 2026) and whether cruise ships will return there.",
+  "Current Old Town Trolley and Conch Tour Train ticket prices.",
+  "Typical all-aboard time for Key West calls; 17:30 used as a default.",
+  "No documented cruise-passenger scams found in the sources opened."
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "slug": "la-spezia",
+ "city": "La Spezia",
+ "portName": "Port of La Spezia (Molo Garibaldi cruise berths)",
+ "townName": "La Spezia centre",
+ "country": "Italy",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Italian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "La Spezia cruise port guide: Cinque Terre, Portovenere",
+ "seoDescription": "Shuttle to the La Spezia terminal, then 25 min on foot to the station. Cinque Terre Express €5–10 a ride (2026), Riomaggiore in 10 min. Back 2.5 h early.",
+ "quickAnswer": "Ships berth at Molo Garibaldi in a working cargo port, so a free shuttle bus takes you to the terminal building at the port exit. From there La Spezia Centrale station is about 2 km, a 25-minute flat walk, or a 5–15 minute taxi; the Cinque Terre Express reaches Riomaggiore in about 10 minutes. Leave the Cinque Terre villages two and a half hours before all-aboard, because platforms and trains are crowded in the afternoon.",
+ "intro": "La Spezia is the gateway port for the Cinque Terre, and most passengers spend the day on the coastal train rather than in the city. The trains are frequent but crowded, and the walk or ride from the cruise terminal to the station adds 30 minutes each way. Portovenere, on the other side of the gulf, is an easier half-day by bus or boat. Pisa and Florence are possible by train but leave little margin. La Spezia itself has a pleasant pedestrian centre and a hilltop castle, worth an hour at the end of the day.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Molo Garibaldi cruise berths and terminal building",
+   "distanceToCentreKm": 2,
+   "notes": "Two large ships can berth at once. Passengers cannot walk inside the cargo port, so free shuttle buses run between the ship and the terminal building at the port exit (about 10 minutes). The port authority plans a new dual-berth cruise pier for 2026 and a new terminal building for 2029."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 25,
+  "km": 2,
+  "detail": "From the terminal building, Piazza Europa is about 5 minutes on foot, the old town around Piazza Verdi and Via del Prione about 10 minutes, and La Spezia Centrale station about 25 minutes on flat, mostly pedestrian streets. Add the shuttle from the ship."
+ },
+ "transportSections": [
+  {
+   "mode": "Port shuttle",
+   "cost": "Free",
+   "time": "About 10 min",
+   "detail": "Runs between the ship and the terminal building at the port exit. You cannot walk through the cargo port."
+  },
+  {
+   "mode": "On foot to La Spezia Centrale",
+   "cost": "Free",
+   "time": "About 25 min (2 km)",
+   "detail": "Walk along the waterfront, then up Via del Prione to the station, or go through Piazza Verdi and the Via Chiodo arcades. Allow an hour if you stop on the way."
+  },
+  {
+   "mode": "City bus to the station",
+   "cost": "€1.50, 60-minute urban ticket (2026)",
+   "time": "Short ride",
+   "detail": "Lines S, L, C or 3 from the north side of Piazza Europa. Buy tickets at newsstands, tabacchi or the ATC office near Piazza Chiodo and validate on board; buying on the bus costs extra."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "About €12–20 to the station (2026 reports)",
+   "time": "5–15 min",
+   "detail": "Taxis wait at the terminal and the station. Radio Taxi La Spezia: +39 0187 523523."
+  },
+  {
+   "mode": "Cinque Terre Express train",
+   "cost": "€5, €8 or €10 adult per ride depending on the day's crowd band (16 March–3 November 2026); children 4–11 half price",
+   "time": "About 10 min to Riomaggiore",
+   "detail": "Runs between La Spezia Centrale and Levanto, stopping at all five villages, about every 20 minutes from March to November and about twice an hour in winter. One flat fare for any journey on the line. Validate before boarding."
+  },
+  {
+   "mode": "Cinque Terre Card Treno",
+   "cost": "Adult 1 day €22, €29.50 or €35 depending on the crowd band (2026)",
+   "time": "Valid until midnight",
+   "detail": "Unlimited second-class regional trains between Levanto and La Spezia, plus park trails and village buses. Named card; carry ID and validate before the first train. Buy online from the park or Trenitalia to skip station queues. Via dell'Amore access needs a separate booking."
+  },
+  {
+   "mode": "Bus to Portovenere",
+   "cost": "€3 extra-urban single by ATC text-message ticket (2026)",
+   "time": "About 30 min",
+   "detail": "Lines P and 11 from the north side of Piazza Europa. Check the return times before you go."
+  },
+  {
+   "mode": "Ferry (Navigazione Golfo dei Poeti)",
+   "cost": "Fare not confirmed",
+   "time": "Varies by route",
+   "detail": "Boats leave from the marina by the Thaon di Revel footbridge for Portovenere, Lerici and the Cinque Terre, from late March to late October. Sailings are cancelled in rough weather; take the train or bus instead."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave the Cinque Terre villages two and a half hours before all-aboard and Portovenere two and a quarter hours before. From Pisa or Florence, be back in La Spezia two hours before all-aboard.",
+  "detail": "Afternoon trains and platforms are crowded and a full train may leave you behind. After the train you still have the 25-minute walk or a taxi to the terminal, then the shuttle to the ship. Check for transport strikes on your date.",
+  "emergencyFallback": "Take a taxi from La Spezia Centrale to the cruise terminal (5–15 minutes). If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Cinque Terre by train",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Cinque Terre Card Treno €22–35 adult, 1 day (2026), plus walk or bus to the station",
+   "saving": "Depends on line"
+  },
+  {
+   "item": "Florence",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Regional train €14.80 each way, about 2.5 hours, usually changing at Pisa (2026)",
+   "saving": "Depends on line"
+  }
+ ],
+ "excursionAdvice": "Do the Cinque Terre yourself: the train is frequent, cheap and simple, and a ship tour mostly adds a guide and a coach to the station. Portovenere is also easy alone by bus. Take the ship's tour for Florence: the regional train takes about 2.5 hours each way, leaving three or four hours in the city, and the ship will wait for its own coaches but not for a delayed train. Pisa alone by train is fine on a long call.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30. Buy the Cinque Terre Card Treno online the day before.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Shuttle to the terminal building."
+   },
+   {
+    "time": "08:30",
+    "what": "Walk 25 minutes to La Spezia Centrale (or bus from Piazza Europa)."
+   },
+   {
+    "time": "09:00",
+    "what": "Validate your card and take the train to Vernazza, the farthest village you plan to visit."
+   },
+   {
+    "time": "11:00",
+    "what": "Train to Manarola. Walk up through the village for the view back over the harbour."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch in Manarola or Riomaggiore."
+   },
+   {
+    "time": "13:30",
+    "what": "Riomaggiore: the harbour and main street."
+   },
+   {
+    "time": "14:45",
+    "what": "Train back to La Spezia (about 10 minutes)."
+   },
+   {
+    "time": "15:00",
+    "what": "Walk down Via del Prione to the waterfront, or take a taxi from the station."
+   },
+   {
+    "time": "15:30",
+    "what": "At the terminal building for the shuttle."
+   },
+   {
+    "time": "16:00",
+    "what": "Back on board, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Cinque Terre villages by train",
+   "why": "Five cliffside fishing villages linked by a coastal railway: Riomaggiore, Manarola, Corniglia, Vernazza and Monterosso.",
+   "timeNeeded": "5–6 hours for two or three villages",
+   "cost": "Train €5–10 per ride or Card Treno €22–35 for a day (2026)",
+   "tip": "Pick two or three villages, not all five. Start with the farthest and work back towards La Spezia."
+  },
+  {
+   "name": "Sentiero Azzurro coastal path",
+   "why": "The classic path between the villages; the Corniglia–Monterosso section has a ticket checkpoint.",
+   "timeNeeded": "1.5–2 hours per section",
+   "cost": "Trekking Card €10 adult for a day, €15 on peak dates (2026); included in the Card Treno",
+   "tip": "Trails can close at short notice for weather, maintenance or crowd control. Check before you set off."
+  },
+  {
+   "name": "Via dell'Amore (Riomaggiore–Manarola)",
+   "why": "The short cliff path between the two southern villages.",
+   "timeNeeded": "30 minutes",
+   "cost": "About €10 add-on for card holders (2026); booking required",
+   "tip": "Book a time slot online; access is controlled."
+  },
+  {
+   "name": "Portovenere",
+   "why": "A walled harbour village at the tip of the Gulf of Poets; the gulf and the islands of Palmaria, Tino and Tinetto are UNESCO-listed.",
+   "timeNeeded": "3 hours including the bus",
+   "cost": "Free to walk",
+   "tip": "Enter by the Porta del Borgo and walk the main lane to the church on the point."
+  },
+  {
+   "name": "Church of San Pietro and Castello Doria, Portovenere",
+   "why": "The church on the rocky point and the castle above the village, with views over the Cinque Terre coast.",
+   "timeNeeded": "1.5 hours for both",
+   "cost": "San Pietro €2, Castello Doria €5 (2026)",
+   "tip": "San Pietro opens 09:30–12:30 and 16:00–18:00 and closes on Mondays; the castle opens 10:30–18:30. Lord Byron's grotto below is free."
+  },
+  {
+   "name": "Castello San Giorgio, La Spezia",
+   "why": "Restored hilltop castle with an archaeology collection known for its sandstone statue-stelae, and a roof terrace over the gulf.",
+   "timeNeeded": "1 hour",
+   "cost": "Check at the entrance",
+   "tip": "A free lift from the bottom of the hill saves the climb."
+  },
+  {
+   "name": "Via del Prione and the Giardini Pubblici, La Spezia",
+   "why": "The pedestrian old-town street and the waterfront gardens with the Garibaldi monument, between the station and the port.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "On your way back from the station; shops close for a long midday break."
+  },
+  {
+   "name": "Pisa",
+   "why": "The Leaning Tower and the cathedral square.",
+   "timeNeeded": "5 hours including trains",
+   "cost": "Regional train from about £8 each way (2026)",
+   "tip": "Regional trains take about 1 hour to 1 hour 20 minutes, and some terminate at Pisa San Rossore rather than Pisa Centrale; check your train."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Palmaria and the islands (boat tour)",
+   "howToGetThere": "Bus or ferry to Portovenere, then the islands boat tour",
+   "time": "About 1.5 hours for the tour",
+   "cost": "€12 (2026)",
+   "note": "A cruise round the islands rather than a beach landing; departures at 12:00 and 15:00 from 1 April to 2 November."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fried anchovies and red mullet, seafood sandwiches",
+   "where": "Anciùa, Portovenere",
+   "price": null
+  },
+  {
+   "dish": "Fried fish in a paper cone",
+   "where": "Focaccerie and friggitorie in Portovenere's main lane",
+   "price": null
+  },
+  {
+   "dish": "Traditional Ligurian and fish dishes",
+   "where": "Trattoria Tre Torri, Portovenere",
+   "price": null
+  },
+  {
+   "dish": "Seafood with a sea view",
+   "where": "Le Bocche, Portovenere",
+   "price": null
+  },
+  {
+   "dish": "Pizza and gelato",
+   "where": "Via del Prione, La Spezia old town",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Expecting to walk off the ship into town.",
+   "fix": "Take the free shuttle to the terminal building first; the cargo port is closed to pedestrians."
+  },
+  {
+   "mistake": "Queuing for train tickets at La Spezia Centrale in the morning rush.",
+   "fix": "Buy the Card Treno online or use the station machines, and validate before boarding."
+  },
+  {
+   "mistake": "Trying to see all five villages.",
+   "fix": "Choose two or three and leave the villages two and a half hours before all-aboard."
+  },
+  {
+   "mistake": "Going to Florence on your own on a short call.",
+   "fix": "It is about 2.5 hours each way by regional train. Use the ship's tour or go to Pisa instead."
+  },
+  {
+   "mistake": "Relying on the ferry for the return.",
+   "fix": "Sailings are cancelled in rough weather. Know the train or bus alternative before you go."
+  },
+  {
+   "mistake": "Forgetting the walk back from the station.",
+   "fix": "Allow 25 minutes on foot or a taxi from La Spezia Centrale, then the shuttle."
+  }
+ ],
+ "safety": "La Spezia and the Cinque Terre are safe for visitors. Pickpockets work in crowded tourist areas, including trains and platforms, so keep bags closed and phones out of back pockets. The coastal paths are narrow, steep and can close at short notice for weather or maintenance; wear proper shoes and carry water. Transport strikes happen in Italy; check for one on your date. Dress modestly in churches.",
+ "scams": [
+  "Pickpocketing on crowded trains, platforms and village lanes: keep valuables out of sight and bags zipped."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The shuttle, terminal and the walk to the station are flat. The Cinque Terre villages are steep and stepped, and the coastal paths are not accessible. Crowded trains and platforms add to the effort. Portovenere's main lane is level near the harbour; the church and castle involve steps. La Spezia's Castello San Giorgio has a free lift up the hill.",
+ "rainyDay": "Rain closes trails and can cancel ferries. Stay in La Spezia: Castello San Giorgio and its archaeology collection, the old cathedral with its della Robbia terracotta, and coffee on Via del Prione. The Cinque Terre villages are still reachable by train, but the lanes are slippery.",
+ "crowdTips": "Two large ships can be in port at once, and the Cinque Terre trains fill quickly when cruise passengers arrive together. Prices for trains and cards follow crowd bands, with the high band mostly on weekends from Easter to late August. Head to the farthest village first and come back early. Portovenere is a good alternative on the busiest days.",
+ "faqs": [
+  {
+   "q": "Is La Spezia walkable from the cruise port?",
+   "a": "Yes, after the free shuttle to the terminal building. The old town is about 10 minutes on foot and La Spezia Centrale station about 25 minutes."
+  },
+  {
+   "q": "How do I get from La Spezia cruise port to the Cinque Terre?",
+   "a": "Walk or take a bus or taxi to La Spezia Centrale, then the Cinque Terre Express train; Riomaggiore is about 10 minutes away."
+  },
+  {
+   "q": "How much is the Cinque Terre train in 2026?",
+   "a": "€5, €8 or €10 for an adult single ride depending on the day's crowd band, or €22–35 for a one-day Cinque Terre Card Treno."
+  },
+  {
+   "q": "Is La Spezia a tender port?",
+   "a": "No. Ships berth at Molo Garibaldi."
+  },
+  {
+   "q": "How do I get from La Spezia to Portovenere?",
+   "a": "Bus P or 11 from Piazza Europa, about 30 minutes, or the Navigazione Golfo dei Poeti boat from the marina between late March and late October."
+  },
+  {
+   "q": "Can I visit Florence from La Spezia on a cruise day?",
+   "a": "Only with care. The regional train takes about 2.5 hours each way; be back in La Spezia two hours before all-aboard, or take the ship's tour."
+  },
+  {
+   "q": "What can I do in La Spezia in one day from a cruise ship?",
+   "a": "Two or three Cinque Terre villages by train, or Portovenere by bus, with an hour in La Spezia's old town on the way back."
+  },
+  {
+   "q": "Is La Spezia safe?",
+   "a": "Yes. Watch for pickpockets on crowded trains and platforms."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Cinque Terre"
+  },
+  {
+   "name": "Riomaggiore"
+  },
+  {
+   "name": "Manarola"
+  },
+  {
+   "name": "Vernazza"
+  },
+  {
+   "name": "Portovenere"
+  },
+  {
+   "name": "Castello San Giorgio"
+  },
+  {
+   "name": "Pisa"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Trenitalia – Cinque Terre Treno MS Card",
+   "url": "https://www.trenitalia.com/en/services/cinque-terre-ms-card.html"
+  },
+  {
+   "title": "Trenitalia – Travel around 5 Terre",
+   "url": "https://www.trenitalia.com/en/services/travel-around-5-terre.html"
+  },
+  {
+   "title": "Trenitalia – Cinque Terre in treno",
+   "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/cinque-terre-in-treno.html"
+  },
+  {
+   "title": "Parco Nazionale delle Cinque Terre – Cinque Terre Card shop",
+   "url": "https://card.parconazionale5terre.it"
+  },
+  {
+   "title": "Parco Nazionale delle Cinque Terre – Carta Treno",
+   "url": "https://card.parconazionale5terre.it/it/cartatreno"
+  },
+  {
+   "title": "ATC Esercizio – Tickets",
+   "url": "https://www.atcesercizio.it/en/biglietti/"
+  },
+  {
+   "title": "ATC Esercizio – Bus trips around the gulf",
+   "url": "https://www.atcesercizio.it/en/?p=1110"
+  },
+  {
+   "title": "Navigazione Golfo dei Poeti – Our story and 2026 tickets",
+   "url": "https://navigazionegolfodeipoeti.it/en/our-story"
+  },
+  {
+   "title": "Ports Europe – La Spezia to complete new cruise berth by 2026 (April 2026)",
+   "url": "https://www.portseurope.com/la-spezia-port-to-complete-new-cruise-berth-by-2026/"
+  },
+  {
+   "title": "La Spezia Guide – La Spezia cruise port: a practical guide",
+   "url": "https://laspeziaguide.com/insider-guide/cruise-ship-passengers/la-spezia-cruise-port-a-practical-guide-for-cruise-passengers/"
+  },
+  {
+   "title": "La Spezia Guide – Cruise terminal to the train station",
+   "url": "https://laspeziaguide.com/insider-guide/cruise-ship-passengers/how-to-get-from-la-spezia-cruise-terminal-to-the-train-station/"
+  },
+  {
+   "title": "La Spezia Guide – Cinque Terre Card explained",
+   "url": "https://laspeziaguide.com/insider-guide/everything-cinque-terre/cinque-terre-card-explained/"
+  },
+  {
+   "title": "La Spezia Guide – The real cost of visiting Florence from La Spezia",
+   "url": "https://laspeziaguide.com/insider-guide/cruise-ship-passengers/the-real-cost-of-visiting-florence-from-la-spezia-cruise-port/"
+  },
+  {
+   "title": "Le Cinque Terre – Cinque Terre Card 2026",
+   "url": "https://www.lecinqueterre.org/cinqueterrecard.php"
+  },
+  {
+   "title": "Le Cinque Terre – Cinque Terre by train (2026 fares)",
+   "url": "https://www.lecinqueterre.org/faq/cinque-terre-in-treno.php"
+  },
+  {
+   "title": "Le Cinque Terre – Boat trips from La Spezia",
+   "url": "https://www.lecinqueterre.org/giteinbarca/laspeziagiteinbarca.php"
+  },
+  {
+   "title": "Omio – La Spezia to Pisa trains",
+   "url": "https://www.omio.co.uk/trains/la-spezia/pisa"
+  },
+  {
+   "title": "Travel365 – Portovenere: what to see (March 2026)",
+   "url": "https://www.travel365.it/portovenere-cosa-vedere.htm"
+  },
+  {
+   "title": "What's In Port – La Spezia",
+   "url": "https://www.whatsinport.com/La-Spezia.htm"
+  }
+ ],
+ "uncertain": [
+  "Official port authority or La Spezia Cruise Facility page on berths (Largo Fiorillo / Molo Garibaldi) was not reached",
+  "Whether the new dual-berth cruise pier is in use in October 2026",
+  "Navigazione Golfo dei Poeti ferry fares and 2026 timetable (one guide reports €6 to Portovenere)",
+  "Paper-ticket price for the Portovenere bus (one guide reports €2.50)",
+  "Castello San Giorgio admission price and hours",
+  "Typical all-aboard time for La Spezia calls",
+  "Any 2026 one-way or booking rules on Sentiero Azzurro sections other than Via dell'Amore",
+  "Cinque Terre beaches (not researched)"
+ ]
+}

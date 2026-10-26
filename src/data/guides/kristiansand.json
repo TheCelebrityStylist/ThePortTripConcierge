@@ -1,0 +1,392 @@
+{
+ "slug": "kristiansand",
+ "city": "Kristiansand",
+ "portName": "Port of Kristiansand (Lagmannsholmen cruise quay)",
+ "townName": "Kvadraturen, the city centre",
+ "country": "Norway",
+ "currency": "NOK",
+ "currencySymbol": "kr",
+ "language": "Norwegian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Kristiansand cruise port guide: walk, beach and Kunstsilo",
+ "seoDescription": "Kristiansand's cruise quay is 500 m from the centre, a 7–10 min flat walk. Bus 39 kr by app (2026), Kunstsilo 210 kr, cathedral free. Back 60 min early.",
+ "quickAnswer": "Ships berth alongside at Lagmannsholmen, next to the Kilden concert hall, about 500 m from the city centre, so you walk into Kvadraturen in 7–10 minutes. No transport is needed for the centre, Posebyen, Fiskebrygga or the Kunstsilo. Be back at the gangway 60 minutes before all-aboard, and leave 75 minutes before from anywhere in town.",
+ "intro": "Kristiansand is an easy port. The quay sits on the edge of the grid-plan centre, the streets are flat, and the main sights are a few minutes' walk apart. The city has no single headline sight, so the day is about a relaxed mix: the fish wharf, the white wooden houses of Posebyen, the cathedral on the main square, the Kunstsilo art museum in a converted grain silo, and the trails of Odderøya. Families often head out to Dyreparken, the zoo and amusement park outside town, which needs a bus or taxi and a firmer return plan.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Quay 10, Lagmannsholmen (main cruise quay)",
+   "distanceToCentreKm": 0.5,
+   "notes": "The main cruise berth, next to the Kilden Performing Arts Centre and the Fiskebrygga fish wharf. It takes the largest ships, including Oasis-class, and has shore power. The fenced terminal area has free Wi-Fi and taxis."
+  },
+  {
+   "name": "Quay 16, Odderøya (smaller ships)",
+   "distanceToCentreKm": null,
+   "notes": "A secondary berth on the Odderøya side of the harbour for ships up to about 180 m, used when two ships are in. Walking distance to the centre; check the route on the map handed out at the gangway."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.5,
+  "detail": "Flat, step-free walk of 7–10 minutes from Quay 10 past Kilden and Fiskebrygga into the grid of Kvadraturen. Markens gate, the main pedestrian street, is about 10 minutes from the ship and Posebyen about 15."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "7–10 min to the centre; about 15 min to Posebyen",
+   "detail": "Walk out of the terminal gate along the harbour past Kilden and Fiskebrygga. The centre is a grid, so it is hard to get lost. Turn right at Kilden for the Odderøya side and the Kunstsilo."
+  },
+  {
+   "mode": "AKT city bus",
+   "cost": "39 kr one zone in the AKT Billett app, 66 kr paid on board by card or cash; 24-hour ticket 128 kr in the app (2026)",
+   "time": "Varies by destination",
+   "detail": "Needed only for places outside the centre, such as Dyreparken or Ravnedalen. A one-zone single is valid for 90 minutes. Download AKT Billett before you leave the ship to get the lower fare. Use the AKT journey planner on the day for routes and times."
+  },
+  {
+   "mode": "Road train",
+   "cost": "Price varies; check at the pier",
+   "time": "A short loop of the centre",
+   "detail": "A small tourist train runs from the port on cruise days. It is an orientation ride rather than useful transport, since the centre is so close."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; Norwegian taxis are expensive for short trips",
+   "time": "Varies",
+   "detail": "Taxis wait at the terminal. Worth it only for Dyreparken or as a fallback to get back to the ship."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the gangway 60 minutes before all-aboard: 16:30 for a 17:30 departure. Leave the centre, Posebyen, Bystranda or the Kunstsilo 75 minutes before all-aboard, and leave Dyreparken 2 hours before.",
+  "detail": "Everything in the centre is within a 15-minute walk, so the risk is mainly losing track of time. Security at the fenced terminal can queue when everyone returns together. Carry your physical cruise card and photo ID to get back through the gate.",
+  "emergencyFallback": "Take a taxi to the cruise quay; from the centre it is a very short ride. If you are at Dyreparken and running late, take a taxi rather than waiting for a bus. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "City walking tour",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot; free map from the tourist office",
+   "saving": "The full price of the tour"
+  },
+  {
+   "item": "Kunstsilo art museum",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "210 kr adult, free under 19 (2026)",
+   "saving": "Depends on the ship's price"
+  },
+  {
+   "item": "Dyreparken zoo and amusement park",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Bus 39 kr each way by app plus park entry booked at dyreparken.no (2026)",
+   "saving": "Depends on the ship's price and the day's ticket price"
+  }
+ ],
+ "excursionAdvice": "The centre needs no tour: it is a flat 10-minute walk away and every main sight is free or cheap. A ship excursion makes sense for the Setesdalsbanen vintage steam railway, which runs on a limited schedule from a station about 21 km inland and is hard to time on your own, and for archipelago boat trips if you want a guaranteed return. Dyreparken is fine on your own on a long call, but a ship tour removes the bus-timing worry for families.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at Quay 10 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship past Kilden and along Fiskebrygga. Most shops open around 10:00, so start with the waterfront."
+   },
+   {
+    "time": "08:50",
+    "what": "Walk the harbour promenade to Christiansholm Fortress, the 1672 fort on the waterfront."
+   },
+   {
+    "time": "09:30",
+    "what": "Walk up through Kvadraturen to the main square (Torvet) and Kristiansand Cathedral. On a summer Tuesday, stay for the 11:00 organ concert instead."
+   },
+   {
+    "time": "10:15",
+    "what": "Continue north into Posebyen and wander the streets of white wooden houses."
+   },
+   {
+    "time": "11:15",
+    "what": "Walk back down Markens gate for shopping and coffee."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch at Fiskebrygga: fish cakes or shrimps by the water."
+   },
+   {
+    "time": "13:15",
+    "what": "Kunstsilo, the art museum in the converted grain silo (opens 11:00). Allow 60–90 minutes, including the 5th-floor art terrace."
+   },
+   {
+    "time": "14:45",
+    "what": "Walk the Odderøya trails for views over the harbour, or swim at Bystranda in summer."
+   },
+   {
+    "time": "16:15",
+    "what": "Leave for the ship, 75 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Kunstsilo",
+   "why": "An art museum built into a former grain silo on the Odderøya waterfront, with art exhibitions, a brasserie and a 5th-floor terrace over the fjord.",
+   "timeNeeded": "60–90 minutes",
+   "cost": "210 kr adult; 170 kr aged 19–25 or students; free under 19 (2026)",
+   "tip": "Exhibitions open 11:00–17:00 Monday, Tuesday, Saturday and Sunday, and 11:00–21:00 Wednesday to Friday. It does not open before 11:00, so do the town first."
+  },
+  {
+   "name": "Kristiansand Cathedral (Domkirke)",
+   "why": "A large neo-Gothic brick church of 1884–85 on the main square, with about 1,000 seats.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free",
+   "tip": "Open on weekdays, with longer hours from 15 May to 31 August. In summer there is an organ concert on Tuesdays at 11:00. It closes for services and events."
+  },
+  {
+   "name": "Posebyen",
+   "why": "The old quarter of low white wooden houses from the 1700s and 1800s, the part of the town that survived the city fires.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free",
+   "tip": "It lies just north of the cathedral, about 15 minutes' walk from the ship. People live here, so keep to the streets."
+  },
+  {
+   "name": "Christiansholm Fortress",
+   "why": "A fort finished in 1672 on a former islet, now joined to the waterfront promenade.",
+   "timeNeeded": "15–30 minutes",
+   "cost": "Free to view from outside",
+   "tip": "A quick stop on the harbour walk. It is also used as an event venue, so the inside may be closed."
+  },
+  {
+   "name": "Fiskebrygga",
+   "why": "The fish wharf by the cruise quay, with a fish market, restaurants and an ice cream shop along the water.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free to walk",
+   "tip": "It is the first thing you pass from the ship, and the obvious lunch spot."
+  },
+  {
+   "name": "Odderøya",
+   "why": "A former naval base next to the port, now a park with forest trails, viewpoints and converted military galleries.",
+   "timeNeeded": "45–90 minutes",
+   "cost": "Free",
+   "tip": "Turn right at Kilden. The trails are rugged in places; wear proper shoes. The tourist office has a free leaflet for a self-guided military history walk."
+  },
+  {
+   "name": "Kilden Performing Arts Centre",
+   "why": "The concert hall next to the cruise quay, with a striking curved facade facing the water.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free to view",
+   "tip": "Two minutes from the gangway; the best photos are from the quayside."
+  },
+  {
+   "name": "Dyreparken (Kristiansand Zoo and Amusement Park)",
+   "why": "A large zoo and amusement park outside the city, with over 100 animal species, Cardamom Town, a pirate area and the Badelandet water park.",
+   "timeNeeded": "4–6 hours including travel",
+   "cost": "Book tickets at dyreparken.no; prices vary by date",
+   "tip": "Open every day of the year, but not every area opens in every season. Check the return bus before you go and leave 2 hours before all-aboard."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Bystranda (city beach)",
+   "howToGetThere": "Walk through the centre to the Strandpromenaden waterfront",
+   "time": "A walk across Kvadraturen from the ship",
+   "cost": "Free",
+   "note": "Sandy Blue Flag beach with shallow water, a swimming pier and a bathing ramp for people with reduced mobility. The Blue Flag season runs from 5 June to 31 August."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fish cakes (fiskekaker)",
+   "where": "Fiskebrygga fish wharf",
+   "price": null
+  },
+  {
+   "dish": "Fresh shrimps (reker)",
+   "where": "Fiskebrygga fish wharf",
+   "price": null
+  },
+  {
+   "dish": "Brasserie lunch by the fjord",
+   "where": "Kunstsilo Brasserie, Sjølystveien 8",
+   "price": null
+  },
+  {
+   "dish": "Local beer and coal-grilled food",
+   "where": "Christianssand Brygghus, Tollbodgata 9",
+   "price": null
+  },
+  {
+   "dish": "Fish and chips",
+   "where": "Patricks Pub, Markens gate 10",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Paying for a shuttle or taxi to the centre.",
+   "fix": "Walk. The centre is 500 m from the quay on flat pavement."
+  },
+  {
+   "mistake": "Buying bus tickets on board.",
+   "fix": "Use the AKT Billett app: 39 kr instead of 66 kr for a one-zone single (2026)."
+  },
+  {
+   "mistake": "Arriving at the Kunstsilo first thing.",
+   "fix": "It opens at 11:00. Do the waterfront, cathedral and Posebyen in the morning."
+  },
+  {
+   "mistake": "Leaving only a cruise card on your phone or no ID.",
+   "fix": "Carry your physical cruise card and photo ID to get back through the terminal gate."
+  },
+  {
+   "mistake": "Planning the Setesdalsbanen steam train on your own.",
+   "fix": "It runs on limited days from a station about 21 km inland. Check its timetable well ahead or book the ship's tour."
+  }
+ ],
+ "safety": "Kristiansand is a safe, small city and the walk from the quay is short and flat. The main risks are ordinary ones: traffic at crossings on the harbour roads, slippery rock on the Odderøya trails after rain, and cold water if you swim outside the summer season. Tap water is safe to drink. No scams aimed at cruise passengers are documented in the sources checked.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The route from Quay 10 to the centre is flat and step-free, and Kvadraturen is a level grid with wide pavements. Markens gate is pedestrianised. Posebyen's streets are flat but some are cobbled. Bystranda has a bathing ramp for people with reduced mobility. The Odderøya trails are rough and partly steep, so they are not suitable for wheelchairs. Taxis can be ordered at the terminal; ask for an accessible vehicle in advance.",
+ "rainyDay": "Spend the wet hours in the Kunstsilo (open from 11:00), which has the brasserie and terrace under one roof, and in the cathedral. Markens gate has cafés and shops for the rest of the time. Skip Odderøya in heavy rain, as the rock and paths get slippery.",
+ "crowdTips": "Kristiansand rarely feels crowded even with a large ship in, because the centre is spread over a grid. Fiskebrygga is busiest at lunchtime, so eat early or late. If two ships are in, one may use the Odderøya berth; check which quay you are at before you go ashore. Shops open around 10:00, so the waterfront is quietest before then.",
+ "faqs": [
+  {
+   "q": "Is Kristiansand walkable from the cruise port?",
+   "a": "Yes. The main quay at Lagmannsholmen is about 500 m from the centre, a flat 7–10 minute walk."
+  },
+  {
+   "q": "How do I get from Kristiansand cruise port to the city centre?",
+   "a": "On foot past Kilden and Fiskebrygga. There is no need for a shuttle; a road train runs on cruise days if you prefer."
+  },
+  {
+   "q": "Is Kristiansand a tender port?",
+   "a": "Normally no. Ships berth alongside at Quay 10, Lagmannsholmen, which takes the largest ships, or at Quay 16 on Odderøya."
+  },
+  {
+   "q": "What can I do in Kristiansand in one day from a cruise ship?",
+   "a": "Walk Fiskebrygga, Christiansholm Fortress, the cathedral and Posebyen in the morning, then the Kunstsilo after 11:00 and Odderøya or Bystranda in the afternoon."
+  },
+  {
+   "q": "Are there beaches near Kristiansand cruise port?",
+   "a": "Bystranda, the sandy Blue Flag city beach, is on the edge of the centre, within walking distance of the ship."
+  },
+  {
+   "q": "How much is the bus in Kristiansand?",
+   "a": "39 kr for a one-zone single in the AKT Billett app, or 66 kr on board (2026). A 24-hour ticket is 128 kr in the app."
+  },
+  {
+   "q": "Can I visit Dyreparken from a cruise ship?",
+   "a": "Yes on a full day. Take an AKT bus or taxi, book entry at dyreparken.no and leave the park 2 hours before all-aboard."
+  },
+  {
+   "q": "Is Kristiansand safe?",
+   "a": "Yes. It is a small, calm city; take normal care at road crossings and on the Odderøya trails."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Kunstsilo"
+  },
+  {
+   "name": "Kristiansand Cathedral"
+  },
+  {
+   "name": "Posebyen"
+  },
+  {
+   "name": "Christiansholm Fortress"
+  },
+  {
+   "name": "Fiskebrygga"
+  },
+  {
+   "name": "Odderøya"
+  },
+  {
+   "name": "Bystranda"
+  },
+  {
+   "name": "Dyreparken"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cruise Norway – Kristiansand port fact sheet (Port of Kristiansand)",
+   "url": "https://cruise-norway.no/wp-content/uploads/2021/09/Kristiansand-1.pdf"
+  },
+  {
+   "title": "AKT – New prices from 1 February 2026",
+   "url": "https://www.akt.no/english/news/new-prices-from-1-february-2026.8494.aspx"
+  },
+  {
+   "title": "AKT – Single tickets and zones",
+   "url": "https://akt.no/english/tickets-and-prices/single-tickets"
+  },
+  {
+   "title": "Kunstsilo – Tickets",
+   "url": "https://kunstsilo.no/en/tickets"
+  },
+  {
+   "title": "Kunstsilo – Visit us",
+   "url": "https://www.kunstsilo.no/en/visit-us"
+  },
+  {
+   "title": "Visit Norway – Kristiansand Cathedral",
+   "url": "https://www.visitnorway.no/listings/kristiansand-domkirke/24622/"
+  },
+  {
+   "title": "Visit Norway – Christiansholm Fortress",
+   "url": "https://www.visitnorway.com/listings/christiansholm-fortress/19958/"
+  },
+  {
+   "title": "Visit Norway – Kristiansand City Beach (Bystranda)",
+   "url": "https://www.visitnorway.com/listings/kristiansand-city-beach/19968"
+  },
+  {
+   "title": "Visit Norway – Dyreparken Kristiansand Zoo and Amusement Park",
+   "url": "https://www.visitnorway.fr/listings/dyreparken-kristiansand-zoo-and-amusement-park/21056/"
+  },
+  {
+   "title": "Wikipedia – Lagmannsholmen",
+   "url": "https://en.wikipedia.org/wiki/Lagmannsholmen"
+  },
+  {
+   "title": "Celebrity Cruises – Kristiansand port guide",
+   "url": "https://www.celebritycruises.com/gb/ports/kristiansand"
+  },
+  {
+   "title": "CruiseMapper – Kristiansand cruise port",
+   "url": "https://www.cruisemapper.com/ports/kristiansand-port-218"
+  },
+  {
+   "title": "Bucket List Guides – Kristiansand cruise port guide",
+   "url": "https://bucketlistguides.com/kristiansand-cruise-port-guide/"
+  },
+  {
+   "title": "Adventour Begins – Kristiansand cruise port guide",
+   "url": "https://adventourbegins.com/kristiansand-cruise-port-guide-norway/"
+  },
+  {
+   "title": "Tangled Up In Food – Port stop Kristiansand",
+   "url": "https://www.tangledupinfood.com/port-stop-kristiansand-norway"
+  }
+ ],
+ "uncertain": [
+  "Road train fare: one guide gives two different prices.",
+  "Bus route numbers to Dyreparken, the Cannon Museum and Ravnedalen: secondary guides contradict each other; use the AKT journey planner.",
+  "Dyreparken ticket prices and which areas open on a given date.",
+  "Cannon Museum (Batterie Vara) price and season.",
+  "Setesdalsbanen fare and exact running days.",
+  "Free bicycles at the pier: listed on a 2021 port fact sheet only.",
+  "Walking time from the Odderøya berth (Quay 16) to the centre.",
+  "Walking time from the ship to Bystranda."
+ ]
+}

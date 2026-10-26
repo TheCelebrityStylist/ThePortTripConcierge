@@ -1,0 +1,363 @@
+{
+ "slug": "liverpool",
+ "city": "Liverpool",
+ "portName": "Liverpool Cruise Terminal (Princes Parade)",
+ "townName": "Liverpool city centre",
+ "country": "England, United Kingdom",
+ "currency": "GBP",
+ "currencySymbol": "£",
+ "language": "English",
+ "timezone": "GMT (UTC+0), BST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Liverpool cruise port guide: Pier Head, Albert Dock, Beatles",
+ "seoDescription": "Ships berth at Princes Parade by the Liver Building: Pier Head 5 min on foot, Albert Dock 15. Beatles Story £20, ferry cruise £14 (2026). No shuttle needed.",
+ "quickAnswer": "Ships berth at the floating Liverpool Cruise Terminal on Princes Parade, next to the Royal Liver Building, so you walk straight into the city: about 5 minutes to the Pier Head and 15 to the Royal Albert Dock and Liverpool ONE. You do not need a shuttle. Be back at the terminal 60 minutes before all-aboard, and allow extra time at low tide, when the walkway to the ship is steep.",
+ "intro": "Liverpool's cruise berth sits on the Mersey at the north end of the Pier Head, under the Three Graces, and the city starts about 50 metres from the terminal door. Everything most passengers want is on foot along a level waterfront: the Pier Head, the Royal Albert Dock, the Beatles Story and the Cavern Club. The terminal itself is still the small modular building opened in 2007 as a temporary facility. Plans for a new terminal have been changed several times; in 2026 the existing berth and building are in use, and the planned upgrade has no published completion date.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Liverpool Cruise Terminal, Gate 2, Princes Parade, L3 1DL",
+   "distanceToCentreKm": 0.05,
+   "notes": "A floating berth on the River Mersey beside Princes Dock, about 350 m long, with a single-storey modular terminal next to the Royal Liver Building. It takes one large ship at a time; on two-ship days your line's port notes say where you dock. The linkspan walkway rises and falls with the tide and can be very steep at low tide; a mobility bus runs between the terminal and the gangway. A taxi rank operates outside on ship days."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": null,
+  "detail": "Flat, level waterfront walking. About 5 minutes to the Pier Head and the Mersey Ferries terminal, 10 minutes to Moorfields or James Street stations, 15 minutes to the Royal Albert Dock and Liverpool ONE, and 20 minutes to Lime Street station."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "5–20 min to most sights",
+   "detail": "Walk south along the waterfront from Princes Parade to the Pier Head and on to the Royal Albert Dock. Ship-sold shuttles to the centre are not needed."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered",
+   "time": "5–10 min to Lime Street",
+   "detail": "Rank outside the terminal on ship days. Useful for Liverpool Cathedral or if walking is difficult. Agree waiting arrangements before you set off."
+  },
+  {
+   "mode": "Merseyrail",
+   "cost": "Day Saver £4.80 one area, £6.40 all areas, after the weekday morning peak (2026)",
+   "time": "Moorfields and James Street stations are about 10 min' walk from the terminal",
+   "detail": "Useful for trips along the coast. City buses do not serve Princes Parade; the nearest stops are at Liverpool ONE bus station or Queen Square, about 15 minutes' walk."
+  },
+  {
+   "mode": "Mersey Ferries River Explorer Cruise",
+   "cost": "£14 adult (2026)",
+   "time": "About 50 min",
+   "detail": "Leaves from the Pier Head (Liverpool Gerry Marsden terminal), about 5 minutes' walk from the ship. Weekday sailings hourly on the hour from 10:00 to 16:00; weekends from 10:00 to 16:00 until 1 November 2026, then to 15:00 in winter. Services can be suspended, so check on the day."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the terminal 60 minutes before all-aboard (16:30 for a 17:30 all-aboard). Leave the Royal Albert Dock or Liverpool ONE 75 minutes before all-aboard, and Liverpool Cathedral 90 minutes before.",
+  "detail": "The walk is short, but the linkspan to the ship can be steep at low tide and slow to climb, and security queues build when everyone returns together. If you take the Mersey ferry cruise, choose a sailing that is back at the Pier Head at least 75 minutes before all-aboard.",
+  "emergencyFallback": "Take a taxi from the Liverpool ONE area or Lime Street to Princes Parade (Gate 2). Call the port agent number on your daily programme if you think you will be late."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Beatles Story",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "£20 adult (2026)",
+   "saving": "Depends on the tour"
+  },
+  {
+   "item": "Mersey ferry River Explorer Cruise",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "£14 adult (2026)",
+   "saving": "Depends on the tour"
+  },
+  {
+   "item": "Cavern Club",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "£6 single entry, £8.50 all-day pass (2026)",
+   "saving": "Depends on the tour"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for the city: the waterfront, the Beatles Story, the Cavern Club and the museums are all a short, flat walk from the ship. A tour earns its price if you want to see the Beatles' childhood homes and suburbs, such as Penny Lane and Strawberry Field, which are spread out and not near the terminal, or for trips beyond Liverpool such as Chester or North Wales.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk ashore and along the waterfront to the Pier Head and the Three Graces."
+   },
+   {
+    "time": "09:00",
+    "what": "Beatles Story at the Royal Albert Dock (opens 09:00; book a timeslot online)."
+   },
+   {
+    "time": "11:00",
+    "what": "Museum of Liverpool at the Pier Head (free, Wednesday to Sunday from 10:00)."
+   },
+   {
+    "time": "12:00",
+    "what": "Mersey Ferries River Explorer Cruise from the Pier Head, about 50 minutes."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch: scouse or fish and chips in the city centre."
+   },
+   {
+    "time": "14:00",
+    "what": "Walk up to Mathew Street and the Cavern Club (opens 11:00, card only)."
+   },
+   {
+    "time": "15:15",
+    "what": "Shopping in Liverpool ONE or a last look at the Royal Albert Dock."
+   },
+   {
+    "time": "16:15",
+    "what": "Leave Liverpool ONE for the terminal, 75 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back at the terminal, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "The Beatles Story, Royal Albert Dock",
+   "why": "A permanent exhibition on the Beatles' story from Liverpool to worldwide fame, with an audio guide in 12 languages.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "£20 adult (2026)",
+   "tip": "Open 09:00–17:30 Sunday to Friday (last entry 16:15) and 09:00–18:30 on Saturday. Book a timeslot online; cash is not accepted on arrival."
+  },
+  {
+   "name": "Pier Head and the Three Graces",
+   "why": "The Royal Liver Building, Cunard Building and Port of Liverpool Building on the waterfront beside the cruise berth.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Five minutes from the ship; walk it first, before the day's crowds."
+  },
+  {
+   "name": "Museum of Liverpool",
+   "why": "The city's history, from the docks to football and music, in a modern building at the Pier Head.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "Open Wednesday to Sunday, 10:00–17:00. Closed Monday and Tuesday."
+  },
+  {
+   "name": "Mersey Ferries River Explorer Cruise",
+   "why": "A 50-minute river cruise with views back at the waterfront skyline.",
+   "timeNeeded": "50 minutes",
+   "cost": "£14 adult (2026)",
+   "tip": "Hourly from the Pier Head, 10:00–16:00 on weekdays. Services are occasionally suspended; check on the day."
+  },
+  {
+   "name": "The Cavern Club, Mathew Street",
+   "why": "Rebuilt version of the club where the Beatles played, with live music from late morning.",
+   "timeNeeded": "45 minutes",
+   "cost": "£6 adult single entry; £8.50 all-day pass; under-12s free (2026)",
+   "tip": "Opens 11:00. Completely cashless. Children 12–17 must be with an adult. The Cavern Pub opposite is free to enter."
+  },
+  {
+   "name": "Liverpool Cathedral",
+   "why": "Britain's largest cathedral, with a tower you can climb for views over the city and river.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free to visit the building; no booking needed (tower separate)",
+   "tip": "Open 10:00–18:00; tower last entry 16:30 (from 12:00 on Sunday). The tower closes on some days for bell ringing. Take a taxi to save time."
+  },
+  {
+   "name": "Royal Albert Dock",
+   "why": "Restored 1840s warehouses around the dock basin, with shops, cafés and the Beatles Story.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "The Merseyside Maritime Museum and International Slavery Museum here are closed for redevelopment and due to reopen in 2028."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Scouse (Liverpool meat and vegetable stew)",
+   "where": "Pubs and cafés in the city centre",
+   "price": null
+  },
+  {
+   "dish": "Fish and chips",
+   "where": "Cafés and restaurants around the Royal Albert Dock",
+   "price": null
+  },
+  {
+   "dish": "Coffee and a snack with a Beatles theme",
+   "where": "Fab4 Café, Pier Head or Royal Albert Dock",
+   "price": null
+  },
+  {
+   "dish": "A pint with live music",
+   "where": "The Cavern Pub, Mathew Street",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Paying for a ship shuttle into the city.",
+   "fix": "The Pier Head is 5 minutes' walk and the Royal Albert Dock 15. Walk."
+  },
+  {
+   "mistake": "Planning a visit to the Merseyside Maritime Museum.",
+   "fix": "It is closed for redevelopment until 2028, as is the International Slavery Museum. Visit the free Museum of Liverpool instead (Wednesday to Sunday)."
+  },
+  {
+   "mistake": "Bringing only cash to the Cavern Club or the Beatles Story.",
+   "fix": "The Cavern Club is cashless and the Beatles Story does not take cash on arrival. Use a card."
+  },
+  {
+   "mistake": "Arriving at the terminal at the last minute at low tide.",
+   "fix": "The walkway to the ship can be very steep at low tide. Be back 60 minutes before all-aboard, and ask for the mobility bus if you need it."
+  },
+  {
+   "mistake": "Trying to fit the Beatles' childhood homes and suburbs into a short call on foot.",
+   "fix": "They are spread across the suburbs. Book a tour or taxi with a clear return time, or keep to the city-centre Beatles sights."
+  }
+ ],
+ "safety": "Liverpool city centre is safe for visitors with normal city care. Keep bags closed and phones secure in busy areas such as Liverpool ONE, Mathew Street and the Pier Head, especially on match days and weekend afternoons. Traffic drives on the left; look right when crossing the Strand, the busy road between the waterfront and the centre.",
+ "scams": [],
+ "emergencyNumber": "999 or 112",
+ "accessibility": "The terminal is step-free from the street, and the waterfront promenade is wide and level. The linkspan to the ship changes slope with the tide and can be very steep at low tide; a mobility bus runs between the terminal and the gangway, and powered-chair users should tell their cruise line in advance. The Liverpool Cathedral accessibility lift can be out of use on some dates. Mathew Street and the Cavern Club involve stairs down into the cellar club.",
+ "rainyDay": "Go indoors along the waterfront: the Beatles Story, the free Museum of Liverpool, and the shops and cafés of the Royal Albert Dock and Liverpool ONE. The Cavern Club is a cellar and works in any weather. Skip the ferry cruise in heavy rain or strong wind.",
+ "crowdTips": "Liverpool expected 135 cruise calls and about 350,000 passengers and crew in 2026. The terminal takes one large ship at a time, so crowds come from the city itself rather than other ships: weekends, school holidays and football match days are busiest. Do the Beatles Story at opening and the Cavern Club in the early afternoon, before the evening music crowd.",
+ "faqs": [
+  {
+   "q": "Is Liverpool walkable from the cruise port?",
+   "a": "Yes. The Pier Head is about 5 minutes' walk, the Royal Albert Dock and Liverpool ONE about 15, and Lime Street station about 20."
+  },
+  {
+   "q": "Where is Liverpool Cruise Terminal?",
+   "a": "On Princes Parade (Gate 2), Liverpool L3 1DL, on the river next to the Royal Liver Building."
+  },
+  {
+   "q": "Is Liverpool a tender port?",
+   "a": "No. Ships tie up at the floating berth on the Mersey and passengers walk ashore over a linkspan."
+  },
+  {
+   "q": "Is the new Liverpool cruise terminal open in 2026?",
+   "a": "No. The £88m new-terminal plan was shelved in 2024. Operator Global Ports Holding has pledged up to £25m for a new pontoon and terminal building, but no completion date was published as of 2026, so ships use the existing berth and terminal."
+  },
+  {
+   "q": "What can I do in Liverpool in one day from a cruise ship?",
+   "a": "The Pier Head, the Beatles Story at the Royal Albert Dock, the Museum of Liverpool, a Mersey ferry cruise and the Cavern Club, all within walking distance."
+  },
+  {
+   "q": "How much is the Beatles Story?",
+   "a": "£20 per adult in 2026. Book a timeslot online."
+  },
+  {
+   "q": "Do I need a shuttle from Liverpool cruise terminal?",
+   "a": "No. No shuttle runs, and none is needed; the main sights are a 5–15 minute walk."
+  },
+  {
+   "q": "Is Liverpool safe for cruise passengers?",
+   "a": "Yes, with normal city care for bags and phones in crowded areas."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "The Beatles Story"
+  },
+  {
+   "name": "Pier Head and the Three Graces"
+  },
+  {
+   "name": "Museum of Liverpool"
+  },
+  {
+   "name": "Royal Albert Dock"
+  },
+  {
+   "name": "The Cavern Club"
+  },
+  {
+   "name": "Mersey Ferries"
+  },
+  {
+   "name": "Liverpool Cathedral"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Peel Ports – Liverpool cruise operations to double in £25m investment (April 2024)",
+   "url": "https://www.peelports.com/news-articles/liverpool-cruise-operations-to-double-in-25-million-investment-as-control-passes-to-world-s-largest-operator/"
+  },
+  {
+   "title": "Mersey Ferries – Tickets and pricing",
+   "url": "https://www.merseyferries.co.uk/tickets-and-pricing/"
+  },
+  {
+   "title": "Mersey Ferries – River Explorer Cruise",
+   "url": "https://www.merseyferries.co.uk/rec"
+  },
+  {
+   "title": "National Museums Liverpool – Maritime Museum and International Slavery Museum temporary closure",
+   "url": "https://www.liverpoolmuseums.org.uk/news/press-releases/free-family-events-maritime-museum-temporary-closure"
+  },
+  {
+   "title": "Liverpool Cathedral – Opening hours",
+   "url": "https://www.liverpoolcathedral.org.uk/visiting-us/opening-hours/"
+  },
+  {
+   "title": "The Beatles Story – Prices",
+   "url": "https://www.beatlesstory.com//prices"
+  },
+  {
+   "title": "The Cavern Club – Opening times and prices",
+   "url": "https://cavernclub.com/opening-times-and-prices"
+  },
+  {
+   "title": "Ambassador Cruise Line – Liverpool port information",
+   "url": "https://www.ambassadorcruiseline.com/before-you-sail/travelling-to-port/liverpool-port-information"
+  },
+  {
+   "title": "Fred. Olsen Cruise Lines – The Port of Liverpool",
+   "url": "https://faqs.fredolsencruises.com/portal/en/kb/articles/the-port-of-liverpool"
+  },
+  {
+   "title": "LBN Daily – Liverpool Cruise Port set for record year in 2026 (March 2026)",
+   "url": "https://lbndaily.co.uk/liverpool-cruise-port-set-for-record-year-in-2026/"
+  },
+  {
+   "title": "Seatrade Cruise News – Peel Ports gets control of Liverpool Cruise Terminal (November 2023)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/peel-ports-gets-control-of-liverpool-cruise-terminal-seeks-new-operators"
+  },
+  {
+   "title": "Place North West – New Liverpool cruise terminal back on course (April 2024)",
+   "url": "https://www.placenorthwest.co.uk/new-liverpool-cruise-terminal-back-on-course/"
+  },
+  {
+   "title": "Cruise Britain – Future of Liverpool Cruise Terminal looks bright (April 2024)",
+   "url": "https://www.cruisebritain.org/news/future-of-liverpool-cruise-terminal-looks-bright/"
+  },
+  {
+   "title": "Wikipedia – Liverpool Cruise Terminal",
+   "url": "https://en.wikipedia.org/wiki/Liverpool_Cruise_Terminal"
+  },
+  {
+   "title": "Liverpool Tourism – Liverpool Cruise Terminal guide (checked September 2026)",
+   "url": "https://www.liverpooltourism.org/?p=1203"
+  },
+  {
+   "title": "Art Fund – Museum of Liverpool visitor information",
+   "url": "https://www.artfund.org/explore/museums-and-galleries/museum-of-liverpool/visitor-information"
+  }
+ ],
+ "uncertain": [
+  "Start and completion dates for GPH's planned £25m pontoon and terminal building; no timeline was published in any source opened.",
+  "Where a second ship berths on two-ship days.",
+  "Royal Liver Building 360 tour price (only a third-party 'from £18.50' listing found) and Liverpool Cathedral tower price.",
+  "Typical all-aboard time in Liverpool; the day plan uses 17:30.",
+  "Taxi fares from the terminal.",
+  "Whether Tate Liverpool's Albert Dock building is still closed (one third-party source only).",
+  "Documented scams targeting cruise passengers: none found in sources, so none listed."
+ ]
+}

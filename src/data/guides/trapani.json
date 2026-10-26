@@ -1,0 +1,427 @@
+{
+ "slug": "trapani",
+ "city": "Trapani",
+ "portName": "Port of Trapani (cruise and passenger terminal)",
+ "townName": "the historic centre",
+ "country": "Italy",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Italian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Trapani cruise port guide: old town, Erice and Egadi",
+ "seoDescription": "Trapani cruise ships berth by the old town. Erice cable car €9 single, €15 return (2026), 10 min, Mondays from 14:00. Favignana hydrofoil 30 min.",
+ "quickAnswer": "Cruise ships berth in Trapani's harbour, in front of the old town, so you can walk into the pedestrian historic centre without transport. For Erice, take an ATM bus or a taxi to the cable car's lower station and ride up in about 10 minutes (€15 return in 2026). Be back on board 60 minutes before all-aboard from the old town, and leave Erice by 15:00 for a 17:30 all-aboard.",
+ "intro": "Trapani sits on a narrow spit at the western tip of Sicily, with the port along one side and the old town filling the point. The historic centre is mostly pedestrian and compact, which makes it an easy port to explore on foot. The two classic trips are up to the hilltop town of Erice by cable car and out to Favignana in the Egadi Islands by hydrofoil. Both work on a cruise day, but each has a catch: the cable car opens only at 14:00 on Mondays and closes for maintenance in November, and hydrofoils depend on the sea.",
+ "isTender": false,
+ "tenderNotes": "Ships normally berth alongside. The port has a cruise and passenger terminal, opened in December 2021 next to the Fast Ferry Terminal; the port authority places it on the Molo Sanità. Dredging and quay works reported in 2026 brought most of the inner basin to about 10 m, aimed at larger cruise ships. One older port guide reports that the largest ships anchored and tendered to a floating pier in the town centre; check your daily programme.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Cruise and passenger terminal (Molo Sanità area)",
+   "distanceToCentreKm": null,
+   "notes": "Small terminal next to the Fast Ferry Terminal, in front of the old town. It has a coach park, a self-service café, newspapers and toilets. Egadi ferries also use the Sanità quay."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": null,
+  "km": null,
+  "detail": "Ships berth in front of the old town, and the historic centre is mostly pedestrian and flat. Via Garibaldi, Corso Vittorio Emanuele and Via Torrearsa are the main streets. The exact walk depends on your berth."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "Short walk into the old town",
+   "detail": "Walk from the terminal into the old town, which lies west of the Villa Margherita gardens. The whole historic centre can be covered on foot."
+  },
+  {
+   "mode": "ATM bus to the cable car",
+   "cost": "90-minute ATM ticket; buy before boarding where possible",
+   "time": "Bus every 30–35 min on weekdays",
+   "detail": "On weekdays take line 21 from the bus station (Piazza Montalto) to the Funivia stop in Via F.lli Aiuto. On Sundays and holidays use line 201 or 202; line 202 runs Funivia–Ospedale–Spiaggia–Porto."
+  },
+  {
+   "mode": "Trapani–Erice cable car",
+   "cost": "€9 single, €15 return; ages 3–16 €2.50 single, €4 return (2026)",
+   "time": "About 10 min each way",
+   "detail": "Climbs from about 40 m to 703 m. Opens at 14:00 on Mondays all year for maintenance. From 21 September to 2 November 2026: Tue–Thu 08:30–20:00, Fri 08:30–23:00, weekends 09:00–24:00. Closed 3 November to 4 December 2026. Tickets can be bought online. From the top station it is an uphill walk into Erice."
+  },
+  {
+   "mode": "Hydrofoil to Favignana (Egadi Islands)",
+   "cost": "From €11.83 one way (2026)",
+   "time": "About 30 min by hydrofoil; about 1 hour by Siremar ferry",
+   "detail": "Liberty Lines runs frequent hydrofoils in season; Siremar runs slower car ferries all year. Book ahead from June to September. Sailings can be cancelled in rough weather."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree the fare before you set off",
+   "time": "About 10 min to the salt pans",
+   "detail": "The only practical way to the Trapani and Paceco salt pans, about 5 km away with no public transport. Also the fallback for the cable car's lower station or Erice when the cable car is shut."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard (16:30 for a 17:30 all-aboard). Leave the Erice cable car top station by 15:00, and be on a hydrofoil leaving Favignana by 14:30.",
+  "detail": "The old town is close to the ship, so the risk is low for a town day. Erice adds a walk to the top station, the cable car ride and a bus or taxi back to the port. Favignana depends on hydrofoils that can be full or cancelled when the sea gets up, so take an early return and keep a later sailing as a backup.",
+  "emergencyFallback": "From the cable car lower station or Erice, take a taxi to the port. If a Favignana sailing is cancelled or you will miss all-aboard, call the port agent number on your daily programme immediately."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Erice",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Cable car €15 return (2026) plus a bus or taxi to the lower station",
+   "saving": "Usually large"
+  },
+  {
+   "item": "Favignana",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Hydrofoil from €11.83 each way (2026)",
+   "saving": "Usually large on a calm day"
+  }
+ ],
+ "excursionAdvice": "Skip the ship's tour for Trapani itself: the old town is next to the berth and easy to explore alone. Erice is simple by cable car on most days, but on a Monday morning or between 3 November and 4 December the cable car is shut, and a ship's coach or a taxi is the sensible way up. Book the ship's tour for Segesta, Selinunte or Marsala, which are too far for an easy DIY return.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00, all-aboard is 17:30, and it is not a Monday (the cable car opens at 14:00 on Mondays).",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship and through the old town to the bus station in Piazza Montalto; or take a taxi straight to the cable car's lower station."
+   },
+   {
+    "time": "09:00",
+    "what": "Bus line 21 (weekdays) to the Funivia stop, then the cable car up to Erice, about 10 minutes."
+   },
+   {
+    "time": "09:45",
+    "what": "Walk up into Erice: the Chiesa Madre near Porta Trapani, the lanes of the medieval town and the Castello di Venere viewpoint over the salt pans and the Egadi Islands."
+   },
+   {
+    "time": "12:15",
+    "what": "Cable car back down and bus or taxi to the old town."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch: fish couscous at Dar El Medina, or rianata at Pizzeria Calvino."
+   },
+   {
+    "time": "14:15",
+    "what": "Old town walk: Cathedral of San Lorenzo, the Chiesa del Purgatorio with the Misteri, Via Garibaldi and the Mura di Tramontana seafront walls."
+   },
+   {
+    "time": "15:45",
+    "what": "Granita at Antica Pasticceria Colicchia, then walk back towards the port."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Erice and the cable car",
+   "why": "Medieval hilltop town at about 750 m, reached by a 10-minute cable car with views over Trapani, the salt pans and the Egadi Islands.",
+   "timeNeeded": "3–3.5 hours including the bus",
+   "cost": "Cable car €9 single, €15 return (2026)",
+   "tip": "Opens at 14:00 on Mondays; closed 3 November to 4 December 2026. The streets are slippery when wet."
+  },
+  {
+   "name": "Castello di Venere, Erice",
+   "why": "A 12th–13th-century castle on Erice's acropolis rock with the widest views of the coast.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check on arrival",
+   "tip": "Walk through the Giardino del Balio to reach it."
+  },
+  {
+   "name": "Chiesa del Purgatorio (Chiesa delle Anime Sante del Purgatorio)",
+   "why": "Holds the 22 Misteri, the sculpted groups of the Passion carried in Trapani's Good Friday procession.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Mon–Sat 07:45–12:00 and 16:00–19:00; Sun 10:00–12:00 and 16:00–19:00. Closed in the early afternoon."
+  },
+  {
+   "name": "Cathedral of San Lorenzo",
+   "why": "Trapani's cathedral, with a Baroque façade and portico on Corso Vittorio Emanuele.",
+   "timeNeeded": "30 minutes",
+   "cost": "Check on arrival",
+   "tip": "Combine with the Torre dell'Orologio and its 1596 astronomical clock nearby."
+  },
+  {
+   "name": "Mura di Tramontana",
+   "why": "Spanish-era sea walls along the north side of the old town, with a walkway and a small beach.",
+   "timeNeeded": "45 minutes to 1 hour",
+   "cost": "Free",
+   "tip": "Walk from the old fish market to the Bastione Conca."
+  },
+  {
+   "name": "Torre di Ligny",
+   "why": "A watchtower at the tip of the peninsula with a small prehistory museum.",
+   "timeNeeded": "45 minutes",
+   "cost": "€1 (2026)",
+   "tip": "Tue–Sat 10:00–12:30 and 16:00–19:00; Sun 10:00–12:30. Closed Mondays."
+  },
+  {
+   "name": "Museo Regionale Agostino Pepoli",
+   "why": "Trapani's main art museum, with coral work, nativity figures and the Madonna di Trapani treasure.",
+   "timeNeeded": "1.5 hours",
+   "cost": "€7, reduced €3 (2026)",
+   "tip": "About 2.5 km from the centre; take a taxi. Tue–Sat 09:00–19:00, Sun 09:00–13:00, closed Mondays."
+  },
+  {
+   "name": "Saline di Trapani e Paceco (salt pans)",
+   "why": "Salt pans and windmills on the coast south of the city.",
+   "timeNeeded": "2–3 hours including the taxi",
+   "cost": "Salt pans free; salt museum €2.50 (2026)",
+   "tip": "About 5 km away with no public transport; go by taxi."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Spiaggia delle Mura di Tramontana",
+   "howToGetThere": "Walk along the old town's north walls",
+   "time": "Within the old town",
+   "cost": "Free",
+   "note": "Small town beach below the walls."
+  },
+  {
+   "name": "Lido San Giuliano",
+   "howToGetThere": "Walk north along the seafront (Lungomare)",
+   "time": "About 20 min from the centre",
+   "cost": "Free; sunbeds and umbrellas at the lidos cost extra",
+   "note": "Trapani's main beach, with bars, changing rooms and lifeguards in season."
+  },
+  {
+   "name": "Lido Burrone, Favignana",
+   "howToGetThere": "Hydrofoil to Favignana, then walk or hire a bike",
+   "time": "About 30 min by hydrofoil plus 25–30 min on foot",
+   "cost": "Hydrofoil from €11.83 each way (2026)",
+   "note": "Only on a long call with calm sea."
+  },
+  {
+   "name": "Cala Rossa, Favignana",
+   "howToGetThere": "Hydrofoil to Favignana, then bike",
+   "time": "About 30 min by hydrofoil plus the ride",
+   "cost": "Hydrofoil from €11.83 each way (2026); bike hire near the harbour",
+   "note": "Rocky cove; calmer and less crowded in the morning."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Couscous (cùscusu), Trapani and Tunisian style",
+   "where": "Dar El Medina, Via Platamone 12, near Villa Margherita",
+   "price": null
+  },
+  {
+   "dish": "Rianata (Trapani pizza with tomato, oregano and pecorino)",
+   "where": "Pizzeria Calvino, Via Nunzio Nasi 71",
+   "price": null
+  },
+  {
+   "dish": "Granita",
+   "where": "Antica Pasticceria Colicchia, Via delle Arti 8",
+   "price": null
+  },
+  {
+   "dish": "Graffa (sweet fried dough)",
+   "where": "Pasticceria Bellezza, Via San Pietro 21, near the cathedral",
+   "price": null
+  },
+  {
+   "dish": "Linguine with seafood and bottarga",
+   "where": "Osteria La Bettolaccia, Via Generale Enrico Fardella 25",
+   "price": null
+  },
+  {
+   "dish": "Panelle (chickpea fritters)",
+   "where": "Stuzzichello, Via Spalti 1",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning Erice by cable car on a Monday morning.",
+   "fix": "The cable car opens at 14:00 on Mondays. Go to Erice by taxi or ship's tour, or do the old town first."
+  },
+  {
+   "mistake": "Counting on the cable car in November.",
+   "fix": "It is closed from 3 November to 4 December 2026. Use a taxi or the ship's tour."
+  },
+  {
+   "mistake": "Taking a late hydrofoil back from Favignana.",
+   "fix": "Be on a sailing that leaves by 14:30 for a 17:30 all-aboard, so a cancelled or full boat still leaves you a later option."
+  },
+  {
+   "mistake": "Visiting churches in the early afternoon.",
+   "fix": "Many close around midday; the Purgatorio church is shut from 12:00 to 16:00. See it in the morning."
+  },
+  {
+   "mistake": "Trying to reach the salt pans by bus.",
+   "fix": "There is no public transport to the salt pans; take a taxi and agree the fare first."
+  }
+ ],
+ "safety": "Trapani is a quiet, low-risk port for visitors. Take normal care with bags in crowds around the port and on buses. In Erice the stone streets become slippery in rain, and the hilltop is often much cooler and windier than the coast, so bring a layer. Cross carefully on the busy port roads.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The old town is flat and largely pedestrian, which suits wheelchair users better than most Sicilian ports, though paving can be uneven. The cable car is free for wheelchair users (a companion pays full fare); Erice itself is hilly and cobbled, with an uphill walk from the top station. Hydrofoil boarding involves steps and is harder for wheelchair users.",
+ "rainyDay": "Erice is often in cloud when it rains, and its streets turn slippery. Stay in Trapani: the Museo Pepoli, the cathedral, the Chiesa del Purgatorio and the Torre di Ligny museum, with lunch in the old town. Hydrofoils to the Egadi may be cancelled in rough weather.",
+ "crowdTips": "Trapani rarely feels crowded outside Easter week. Erice and the cable car are busiest in summer and at weekends, when the cable car runs into the night. Go up early on a weekday and come down by midday. On Favignana, visit Cala Rossa in the morning.",
+ "faqs": [
+  {
+   "q": "Is Trapani walkable from the cruise port?",
+   "a": "Yes. Ships berth in front of the old town, and the historic centre is flat and mostly pedestrian."
+  },
+  {
+   "q": "Is Trapani a tender port?",
+   "a": "Normally no. Ships berth at the cruise and passenger terminal. Very large ships have sometimes anchored and tendered; check your daily programme."
+  },
+  {
+   "q": "How do I get from Trapani cruise port to Erice?",
+   "a": "Take ATM bus line 21 on weekdays (201 or 202 on Sundays) or a taxi to the cable car's lower station, then ride the cable car up in about 10 minutes. It costs €9 single or €15 return (2026)."
+  },
+  {
+   "q": "Is the Erice cable car open on Mondays?",
+   "a": "Only from 14:00, every Monday of the year, because of weekly maintenance. It is also closed from 3 November to 4 December 2026."
+  },
+  {
+   "q": "Can I visit Favignana from Trapani on a cruise day?",
+   "a": "Yes on a long call with calm sea. Liberty Lines hydrofoils take about 30 minutes. Be on a sailing back by 14:30 for a 17:30 all-aboard."
+  },
+  {
+   "q": "What can I do in Trapani in one day from a cruise ship?",
+   "a": "Erice by cable car in the morning, then the old town, the Misteri and the sea walls in the afternoon."
+  },
+  {
+   "q": "Beaches near Trapani cruise port",
+   "a": "There is a small beach under the Mura di Tramontana in the old town, and Lido San Giuliano is about 20 minutes' walk north of the centre."
+  },
+  {
+   "q": "Is Trapani safe?",
+   "a": "Yes. It is a quiet port town; take normal care with bags and watch your footing in Erice in the rain."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Erice"
+  },
+  {
+   "name": "Trapani–Erice cable car"
+  },
+  {
+   "name": "Castello di Venere"
+  },
+  {
+   "name": "Chiesa del Purgatorio (Misteri)"
+  },
+  {
+   "name": "Cathedral of San Lorenzo"
+  },
+  {
+   "name": "Mura di Tramontana"
+  },
+  {
+   "name": "Saline di Trapani e Paceco"
+  },
+  {
+   "name": "Favignana"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Funivia Erice – opening hours 2026 (official)",
+   "url": "https://www.funiviaerice.it/it/page/orari"
+  },
+  {
+   "title": "Funivia Erice – fares (official, updated October 2026)",
+   "url": "https://www.funiviaerice.it/it/page/tariffe"
+  },
+  {
+   "title": "Funivia Erice – official site",
+   "url": "https://www.funiviaerice.it/"
+  },
+  {
+   "title": "Funivia Erice – online tickets (official)",
+   "url": "https://funiviaerice.skiperformance.com/en/product/tickets/round-trip/4625/21843"
+  },
+  {
+   "title": "AdSP Mare di Sicilia Occidentale – press release on the Trapani cruise and passenger terminal",
+   "url": "https://www.assoporti.it/media/10040/adsp-mare-di-sicilia-occidentale-cs-11122021.pdf"
+  },
+  {
+   "title": "Liberty Lines – official site",
+   "url": "https://www.libertylines.it/"
+  },
+  {
+   "title": "Visit Sicily (Regione Siciliana) – Cable car to Erice and medieval village",
+   "url": "https://www.visitsicily.info/en/attrazione/funivia-per-erice-e-borgo-medievale"
+  },
+  {
+   "title": "Italia.it – Erice",
+   "url": "https://www.italia.it/it/sicilia/trapani/erice"
+  },
+  {
+   "title": "Shipping Italy – New Trapani cruise and passenger terminal opened (December 2021)",
+   "url": "https://shippingitaly.it/2021/12/10/a-trapani-inaugurato-il-nuovo-terminal-crociere-e-passeggeri/?output=pdf"
+  },
+  {
+   "title": "Shipping Italy – Banchina Sanità works completed (March 2026)",
+   "url": "https://www.shippingitaly.it/2026/03/06/a-trapani-consegnati-i-lavori-di-consolidamento-della-banchina-sanita/?output=pdf"
+  },
+  {
+   "title": "Balarm – New quay for ferries and cruises in Trapani (March 2026)",
+   "url": "https://www.balarm.it/news/trapani-punta-sul-turismo-via-mare-nuovo-molo-per-i-traghetti-e-le-crociere-164420"
+  },
+  {
+   "title": "MSC Cruises – Trapani",
+   "url": "https://msccruises.co.uk/cruises/destinations/mediterranean/italy/trapani"
+  },
+  {
+   "title": "CruiseMapper – Trapani port",
+   "url": "https://cruisemapper.com/ports/trapani-port-277"
+  },
+  {
+   "title": "What's in Port – Trapani",
+   "url": "https://www.whatsinport.com/Trapani-Sicily.htm"
+  },
+  {
+   "title": "Travel Weekly Asia (travel42) – Trapani port review",
+   "url": "https://www.travelweekly-asia.com/Cruise/Ports-of-Call/Trapani-Italy/Review"
+  },
+  {
+   "title": "Blue Keys – Agrigento to Erice: bus, cable car, transfer 2026",
+   "url": "https://bluekeys.it/blog/agrigento-to-erice-transfer"
+  },
+  {
+   "title": "ParkingMyCar – Ferries to Favignana 2026",
+   "url": "https://www.parkingmycar.it/blog/traghetti-per-favignana/"
+  },
+  {
+   "title": "Direct Ferries – Trapani to Favignana guide (2025)",
+   "url": "https://www.directferries.com/blog/travelling-from-trapani-to-favignana-complete-ferry-and-travel-guide"
+  },
+  {
+   "title": "Travel365 – Trapani: what to see (May 2026)",
+   "url": "https://www.travel365.it/trapani-cosa-vedere.htm"
+  },
+  {
+   "title": "Travel365 – Trapani: what to eat",
+   "url": "https://www.travel365.it/trapani-cosa-mangiare.htm"
+  },
+  {
+   "title": "Wikivoyage – Trapani",
+   "url": "https://en.wikivoyage.org/wiki/Trapani"
+  }
+ ],
+ "uncertain": [
+  "Exact cruise berth for a given call and the walking distance and time from the ship to the old town (no source gives a figure).",
+  "Price of the ATM 90-minute bus ticket (sources give €1.20 and €1.40).",
+  "Bus journey time from the bus station or port to the cable car's lower station.",
+  "Entry prices and hours for the Castello di Venere and the Cathedral of San Lorenzo.",
+  "Typical all-aboard time; the day plan uses 17:30 (October 2026 departures listed between 16:00 and 19:00).",
+  "No documented scams specific to Trapani were found."
+ ]
+}

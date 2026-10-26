@@ -1,0 +1,402 @@
+{
+ "slug": "koper",
+ "city": "Koper",
+ "portName": "Port of Koper Passenger Terminal (Luka Koper)",
+ "townName": "Koper Old Town",
+ "country": "Slovenia",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Slovene (Italian is also official in Koper)",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Koper cruise port guide: Old Town, Piran and the caves",
+ "seoDescription": "Koper's cruise berth is about 300 m from the Old Town. Piran by Arriva bus, about 45–50 min. Postojna Cave €34.90 (2026), Škocjan €16–24 by month.",
+ "quickAnswer": "Ships berth alongside at the Port of Koper Passenger Terminal, right beside the Old Town, so you walk to Tito Square in about five minutes. Piran is a 45–50 minute Arriva bus ride; Ljubljana, Postojna Cave and the Škocjan Caves are 1–1.5 hours inland and are better done as a tour. Be back on board 60 minutes before all-aboard from the Old Town, and catch a bus that gets you back to Koper 90 minutes before all-aboard if you go further.",
+ "intro": "Koper is Slovenia's cruise port, and the cruise berth sits at the foot of the old Venetian town. A new passenger terminal building opened in May 2025, beside the Old Town. Koper itself takes two or three hours: Tito Square, the Praetorian Palace, the cathedral and its bell tower, and the lanes down to the Muda Gate. Most passengers use the rest of the day for Piran on the coast, or for Ljubljana or one of the karst caves inland. Only one cruise ship can berth at a time, so the town rarely feels as crowded as larger Adriatic ports.",
+ "isTender": false,
+ "tenderNotes": "Ships berth alongside at the passenger quay in Koper. Some smaller cruise ships anchor off Piran instead of calling at Koper; if your ship does this, check your cruise line's tender arrangements, as this guide covers the Koper berth.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Passenger Terminal, Port of Koper",
+   "distanceToCentreKm": 0.3,
+   "notes": "Opened 27 May 2025 next to the Old Town. Border control, customs and police on the ground floor; café and terrace upstairs. The cruise quay takes one ship at a time, up to 350 m long."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.3,
+  "detail": "The terminal is at the edge of the Old Town. Tito Square (Titov trg) is about 300 m away, a short walk uphill through narrow lanes. Everything in the Old Town is within 10–15 minutes on foot."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5 min to Tito Square",
+   "detail": "Walk from the terminal into the Old Town. The streets are narrow, paved and mostly car-free, with a gentle climb to the main square."
+  },
+  {
+   "mode": "Arriva bus to Piran",
+   "cost": "Low single fare; check at the stop or the tourist information centre",
+   "time": "About 45–50 min",
+   "detail": "Arriva Slovenia buses run from the Koper Tržnica (market) stop roughly every 20 minutes, calling at Izola and Portorož on the way. Ask at the terminal or tourist information for the stop. Plan a bus that returns you to Koper at least 90 minutes before all-aboard."
+  },
+  {
+   "mode": "Bus or train to Ljubljana",
+   "cost": "Check current fares with Arriva or Slovenske železnice",
+   "time": "Bus about 1 h 30 min; train about 2 h 40 min",
+   "detail": "Arriva runs about hourly from Koper to Ljubljana bus station. The train is slower and runs only about four times a day. The round trip leaves only a few hours in the capital, so most passengers take a ship or private tour."
+  },
+  {
+   "mode": "Bus or train to Postojna",
+   "cost": "Check current fares with Arriva or Slovenske železnice",
+   "time": "Bus about 1 h 15 min; train about 1 h 25 min",
+   "detail": "Direct services are infrequent (buses roughly every four hours, trains about three a day), so independent cave trips are hard to time against all-aboard. A tour or a pre-booked transfer is the safer choice."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard if you stay in Koper. If you go to Piran, be on a bus that reaches Koper 90 minutes before all-aboard. Inland trips should be back in Koper 90 minutes before all-aboard.",
+  "detail": "Koper's Old Town is next to the ship, so the risk comes from trips out of town. Piran buses run often but take up to 50 minutes and pass through Izola and Portorož traffic. Ljubljana and the caves are over an hour away each way, and public services are infrequent, which is why these are usually done as tours.",
+  "emergencyFallback": "If a bus is late, take a taxi back to the port. If you will miss all-aboard, call the port agent number on your daily programme at once; the Passenger Terminal can be reached on +386 5 6656 100."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Postojna Cave",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Cave ticket €34.90 adult (2026) plus transport",
+   "saving": "Depends on transport; public transport is infrequent"
+  },
+  {
+   "item": "Škocjan Caves",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Cave ticket €16–24 adult depending on month (2026) plus transport",
+   "saving": "Depends on transport"
+  },
+  {
+   "item": "Piran",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Arriva bus each way",
+   "saving": "Usually large; the bus is easy and frequent"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Koper itself: the Old Town starts at the terminal and is easy to see alone. Piran is also straightforward by Arriva bus. The ship's tour earns its price for Ljubljana, Postojna Cave or the Škocjan Caves: each is over an hour away, cave visits run on fixed tour times, and public transport back to Koper is infrequent. If you would rather go independently, a pre-booked private transfer is far safer than the bus or train.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship into the Old Town and up to Tito Square (Titov trg)."
+   },
+   {
+    "time": "08:45",
+    "what": "See the Praetorian Palace and the Loggia, then the Cathedral of the Assumption."
+   },
+   {
+    "time": "09:15",
+    "what": "Climb the 204 steps of the bell tower for the view over the Gulf of Koper (tickets via the tourist information centre)."
+   },
+   {
+    "time": "09:45",
+    "what": "Walk down through Prešeren Square to the Da Ponte Fountain and the Muda Gate, then Carpaccio Square."
+   },
+   {
+    "time": "10:15",
+    "what": "Arriva bus from Koper Tržnica to Piran (about 45–50 min)."
+   },
+   {
+    "time": "11:05",
+    "what": "Piran: Tartini Square and the old town on the peninsula."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch in Piran."
+   },
+   {
+    "time": "14:15",
+    "what": "Bus back to Koper."
+   },
+   {
+    "time": "15:15",
+    "what": "Back in Koper. Coffee at the Loggia or a short swim at Koper City Beach."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Tito Square (Titov trg)",
+   "why": "Koper's main square, ringed by Gothic, Renaissance and Baroque buildings.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free",
+   "tip": "Start the day here; everything else in the Old Town is a few minutes away."
+  },
+  {
+   "name": "Praetorian Palace",
+   "why": "Venetian Gothic and Renaissance seat of the town's governors, from the 15th century.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Entrance fee for the interior",
+   "tip": "Ask at the tourist information centre about tickets for the palace and bell tower."
+  },
+  {
+   "name": "Cathedral of the Assumption and bell tower",
+   "why": "15th-century cathedral with a Carpaccio altarpiece of 1516; the 54 m bell tower has 204 steps and views over the gulf.",
+   "timeNeeded": "45 minutes",
+   "cost": "Bell tower entrance fee; tickets via the tourist information centre",
+   "tip": "Stairs only, so not suitable for limited mobility. Allow about 30 minutes for the climb."
+  },
+  {
+   "name": "Loggia",
+   "why": "Late 15th-century Venetian Gothic building on Tito Square, a coffeehouse since the mid-19th century.",
+   "timeNeeded": "15–30 minutes",
+   "cost": "Free to look; café prices",
+   "tip": "A shaded stop between sights."
+  },
+  {
+   "name": "Prešeren Square, Da Ponte Fountain and Muda Gate",
+   "why": "The fountain of 1666 and the old main town gate with its Renaissance decoration.",
+   "timeNeeded": "15–20 minutes",
+   "cost": "Free",
+   "tip": "Combine with Carpaccio Square on the walk back towards the sea."
+  },
+  {
+   "name": "Regional Museum (Belgramoni-Tacco Palace)",
+   "why": "The town's history in a Mannerist palace on Museum Square.",
+   "timeNeeded": "45 minutes",
+   "cost": "Entrance fee",
+   "tip": "A good rainy-day option."
+  },
+  {
+   "name": "Postojna Cave",
+   "why": "Slovenia's best-known show cave: an electric train carries you about 2 km in, then a guided walk.",
+   "timeNeeded": "About 1.5 hours in the cave, plus 2.5–3 hours' travel",
+   "cost": "€34.90 adult (2026)",
+   "tip": "The cave is 10 °C all year; bring a layer even in August."
+  },
+  {
+   "name": "Škocjan Caves",
+   "why": "UNESCO-listed cave system with an underground river canyon.",
+   "timeNeeded": "2.5–3 hours for the tour, plus travel",
+   "cost": "€16–24 adult depending on month; €24 in July and August (2026)",
+   "tip": "The full route is about 5 km with around 1,000 steps. Tours run at fixed times, from 10:00 most of the year."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Koper City Beach (Mestna plaža)",
+   "howToGetThere": "Walk from the Old Town",
+   "time": "A few minutes on foot",
+   "cost": "Free; sunbeds and umbrellas for hire",
+   "note": "Pebble beach with lawn, café and summer lifeguards; holds a Blue Flag."
+  },
+  {
+   "name": "Žusterna",
+   "howToGetThere": "Walk along the coast from the Old Town",
+   "time": "About 10–15 min on foot",
+   "cost": "Free; sunbeds for hire at the bathing area",
+   "note": "Pebble coves and a concrete bathing area with ladders, plus a newer beach park."
+  },
+  {
+   "name": "Piran and Portorož",
+   "howToGetThere": "Arriva bus towards Piran",
+   "time": "About 45–50 min to Piran",
+   "cost": "Bus fare",
+   "note": "Swim from the Piran waterfront or the Portorož beaches, both on the bus route."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Black fuži with cuttlefish ink, or grilled Adriatic fish",
+   "where": "Gostilna Pri Tinetu, Koper",
+   "price": null
+  },
+  {
+   "dish": "Seafood, such as octopus carpaccio or baked sea bass",
+   "where": "Capra, by the Koper marina",
+   "price": null
+  },
+  {
+   "dish": "Seasonal Istrian pasta",
+   "where": "Hiša de Rin, Koper",
+   "price": null
+  },
+  {
+   "dish": "Coffee on Tito Square",
+   "where": "The Loggia café, Tito Square",
+   "price": null
+  },
+  {
+   "dish": "Istrian olive oil and local produce",
+   "where": "Koper open-air market",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to fit Ljubljana and a cave into one call by public transport.",
+   "fix": "Pick one. Use a ship tour or pre-booked transfer for anything inland."
+  },
+  {
+   "mistake": "Arriving at Postojna or Škocjan without checking tour times.",
+   "fix": "Both caves run fixed guided tours. Book a slot that leaves enough time to get back to Koper."
+  },
+  {
+   "mistake": "Taking the last convenient bus back from Piran.",
+   "fix": "Aim to be back in Koper 90 minutes before all-aboard; the bus can take 50 minutes."
+  },
+  {
+   "mistake": "Wearing summer clothes into the caves.",
+   "fix": "Postojna is 10 °C all year. Take a jacket and shoes with grip."
+  },
+  {
+   "mistake": "Skipping Koper itself.",
+   "fix": "The Old Town needs only an hour or two and starts at the gangway. See it first, then head out."
+  }
+ ],
+ "safety": "Koper is a small town and the Old Town is safe to walk alone. Normal care with bags is enough. The main hazards are slippery stone paving in the lanes, steep steps in the bell tower, and wet, uneven paths in the caves. Swim only at the city beach or Žusterna, not from the port quays.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The terminal is next to the Old Town, but the lanes up to Tito Square are narrow, paved and slightly uphill. The bell tower is stairs only and unsuitable for limited mobility. Postojna Cave starts with a train ride but includes a walking section; the Škocjan Caves involve hundreds of steps and are not suitable for wheelchair users. Ask your cruise line which tours are adapted.",
+ "rainyDay": "Rain does not affect the caves, which are underground. In Koper, use the cathedral, the Regional Museum and the Praetorian Palace, with a long coffee in the Loggia. Skip the bell tower if visibility is poor.",
+ "crowdTips": "The cruise quay takes one ship at a time, so Koper is rarely overwhelmed. August is the busiest month, with 14 ship calls scheduled in 2026. See Tito Square early, before ship tours reach it. For the caves, pre-book a set tour slot rather than turning up.",
+ "faqs": [
+  {
+   "q": "Is Koper walkable from the cruise port?",
+   "a": "Yes. The terminal is next to the Old Town; Tito Square is about 300 m away, roughly five minutes on foot."
+  },
+  {
+   "q": "Is Koper a tender port?",
+   "a": "No. Ships berth alongside at the Passenger Terminal. Some small cruise ships anchor off Piran instead of calling at Koper."
+  },
+  {
+   "q": "How do I get from Koper cruise port to Piran?",
+   "a": "Take the Arriva bus from the Koper Tržnica stop. Buses run roughly every 20 minutes and take about 45–50 minutes via Izola and Portorož."
+  },
+  {
+   "q": "Can I visit Ljubljana from Koper on a cruise day?",
+   "a": "Yes, but it is about 1.5 hours each way by bus. A ship or private tour is the safer way to make all-aboard."
+  },
+  {
+   "q": "Can I visit Postojna Cave from Koper?",
+   "a": "Yes. The cave tour takes about 1.5 hours and costs €34.90 for adults in 2026. Public transport is infrequent, so most passengers use a tour or transfer."
+  },
+  {
+   "q": "What can I do in Koper in one day from a cruise ship?",
+   "a": "Walk the Old Town and climb the bell tower in the morning, then go to Piran by bus or take a tour to the caves or Ljubljana."
+  },
+  {
+   "q": "Are there beaches near Koper cruise port?",
+   "a": "Koper City Beach is a few minutes' walk from the Old Town. Žusterna is about 10–15 minutes' walk along the coast."
+  },
+  {
+   "q": "Is Koper safe?",
+   "a": "Yes. Koper is small and calm; watch your footing on the stone streets and in the caves."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Tito Square"
+  },
+  {
+   "name": "Praetorian Palace"
+  },
+  {
+   "name": "Koper Cathedral bell tower"
+  },
+  {
+   "name": "Piran"
+  },
+  {
+   "name": "Postojna Cave"
+  },
+  {
+   "name": "Škocjan Caves"
+  },
+  {
+   "name": "Ljubljana"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Luka Koper – New cruise terminal",
+   "url": "https://www.luka-kp.si/en/new-cruise-terminal/"
+  },
+  {
+   "title": "Luka Koper – Passenger terminal set for another exceptional cruise season (2026)",
+   "url": "https://www.luka-kp.si/en/news/passenger-terminal-set-for-another-exceptional-cruise-season/"
+  },
+  {
+   "title": "Slovenian Tourist Board – Luka Koper opens modern passenger terminal (2025)",
+   "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/33272-luka-koper-marks-20-years-of-cruise-tourism-with-the-opening-of-a-modern-passenger-terminal"
+  },
+  {
+   "title": "Municipality of Koper – Enjoy Koper visitor guide",
+   "url": "https://www.koper.si/wp-content/uploads/2019/02/Enjoy-Koper-ANG.pdf"
+  },
+  {
+   "title": "Love Istria – Koper bell tower",
+   "url": "https://booking.loveistria.si/en/experience/detail/koprski-zvonik/"
+  },
+  {
+   "title": "Postojna Cave – Meet the Queen of Caves tickets",
+   "url": "https://www.postojnska-jama.eu/en/tickets/meet-the-queen-of-caves/"
+  },
+  {
+   "title": "Škocjan Caves Park – Guided tours",
+   "url": "https://www.park-skocjanske-jame.si/en/read/tourist-information/skocjan-caves-guided-tours"
+  },
+  {
+   "title": "CruiseMapper – Koper port",
+   "url": "https://www.cruisemapper.com/ports/koper-port-248"
+  },
+  {
+   "title": "Azamara – Koper, Slovenia (2026)",
+   "url": "https://www.azamara.com/blog/2026/koper-slovenia-perfect-summer-day"
+  },
+  {
+   "title": "What's in Port – Koper",
+   "url": "https://www.whatsinport.com/Koper.htm"
+  },
+  {
+   "title": "Rome2rio – Koper to Tartini Square, Piran",
+   "url": "https://www.rome2rio.com/s/Koper/Tartini-Square"
+  },
+  {
+   "title": "Rome2rio – Koper to Ljubljana",
+   "url": "https://www.rome2rio.com/s/Koper/Ljubljana-bus-station"
+  },
+  {
+   "title": "Rome2rio – Postojna to Koper",
+   "url": "https://www.rome2rio.com/s/Postojna/Koper"
+  },
+  {
+   "title": "Places of Juma – Beaches in Koper",
+   "url": "https://www.placesofjuma.com/koper-beaches/"
+  },
+  {
+   "title": "STA – New beach opens in Koper",
+   "url": "https://english.sta.si/3050724/new-beach-opens-in-koper"
+  },
+  {
+   "title": "Islands – Koper seafood and old town",
+   "url": "https://www.islands.com/1834238/seafood-scenic-seaport-city-slovenia-italian-charm-koper-country-best/"
+  }
+ ],
+ "uncertain": [
+  "Exact Arriva bus fare Koper–Piran in 2026",
+  "Bell tower, Praetorian Palace and Regional Museum ticket prices and opening hours in 2026",
+  "Whether a free tourist train or lift from the port runs in 2026",
+  "Hop-on hop-off coastal bus fare and operation in 2026",
+  "Ljubljana and Postojna bus and train fares in 2026",
+  "Transfer time and options from Koper to the Škocjan Caves",
+  "Distance from Postojna railway station to the cave entrance",
+  "Typical all-aboard time at Koper"
+ ]
+}

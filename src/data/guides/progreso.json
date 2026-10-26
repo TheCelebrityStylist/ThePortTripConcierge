@@ -1,0 +1,383 @@
+{
+ "slug": "progreso",
+ "city": "Progreso",
+ "portName": "Puerto Progreso – Terminal Remota (cruise pier)",
+ "townName": "Progreso town and Malecón",
+ "country": "Mexico",
+ "currency": "MXN",
+ "currencySymbol": "MX$",
+ "language": "Spanish",
+ "timezone": "CST (UTC−6) all year, no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Progreso cruise port guide: pier shuttle, Mérida, Mayan sites",
+ "seoDescription": "Ships berth at the end of Progreso's 6.5 km pier; free shuttle to town, about 15 min. Mérida bus MX$28–30, 40–60 min (2026). Mexico cruise fee US$10 (2026).",
+ "quickAnswer": "Ships berth at the Terminal Remota at the end of a pier about 6.5 km long, so you cannot walk ashore; a free shuttle bus takes about 15 minutes to Progreso town. From there the Malecón and beach are close, and Autoprogreso buses run to Mérida in 40–60 minutes for about MX$28–30 (2026). Be back at the shuttle stop in town 90 minutes before all-aboard, and leave Mérida 2 hours 30 minutes before.",
+ "intro": "Progreso is Yucatán's port, a beach town about 35 km north of Mérida. Its pier runs some 6.5 km into the Gulf of Mexico because the water is so shallow, and cruise ships berth at the Terminal Remota at the far end. The day divides three ways: stay in Progreso for the beach and Malecón, go to Mérida for the colonial city centre, or take a tour to a Mayan site. Dzibilchaltún is close to the Mérida highway; Uxmal and Chichén Itzá are long trips that suit a ship's tour. Calls are short, with October 2026 departures at 16:00 or 17:00.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Terminal Remota (end of the Progreso pier)",
+   "distanceToCentreKm": 6.5,
+   "notes": "Cruise terminal inaugurated in 1989 at the end of the pier, with a duty-free complex, toilets, a tourist desk and a pharmacy. Free shuttle buses leave from beyond the duty-free area for the roughly 15-minute ride to town. Walking the pier is not an option."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 6.5,
+  "detail": "The pier is too long to walk; take the free shuttle bus to town. Once in town, the Malecón and the beach are a short walk from the shuttle stop."
+ },
+ "transportSections": [
+  {
+   "mode": "Free pier shuttle",
+   "cost": "Free",
+   "time": "About 15 min each way",
+   "detail": "Runs along the pier between the terminal and Progreso town, every 10–20 minutes. In town it stops at the Autoprogreso bus station, and return shuttles leave from the same place. Taxis wait in town."
+  },
+  {
+   "mode": "Autoprogreso bus to Mérida",
+   "cost": "About MX$28–30 one way (2026)",
+   "time": "40–60 min",
+   "detail": "Buses leave about every 15 minutes. In Mérida they use the Autoprogreso terminal on Calle 62 between Calles 65 and 67, in the Centro, a short walk from the main square. Allow for traffic on the way back."
+  },
+  {
+   "mode": "Taxi or Uber between Progreso and Mérida",
+   "cost": "Taxi about MX$450–600, Uber about MX$350–450 one way (2026)",
+   "time": "30–40 min",
+   "detail": "Fares reported for Mérida centre to Progreso in July 2026; agree a taxi fare before you set off. Many taxi drivers in Progreso accept US dollars and give change in pesos."
+  },
+  {
+   "mode": "Ship's tour",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "Full day for Uxmal or Chichén Itzá",
+   "detail": "The practical way to reach the major Mayan sites on a short call, because the ship waits for its own tours."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be at the shuttle stop in Progreso town 90 minutes before all-aboard. Leave Mérida 2 hours 30 minutes before all-aboard, and Dzibilchaltún 2 hours before.",
+  "detail": "Every return goes through the pier shuttle, so allow for the queue as well as the 15-minute ride. From Mérida the bus takes 40–60 minutes and traffic on the highway can add more. If you are on an independent tour, set the return time to reach the shuttle stop with this margin.",
+  "emergencyFallback": "From Mérida, take a taxi or Uber straight to the Progreso shuttle stop instead of waiting for a bus. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Mérida city centre",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Autoprogreso bus about MX$28–30 each way (2026)",
+   "saving": "Most of the excursion price, at the cost of managing the return yourself"
+  },
+  {
+   "item": "Progreso beach and Malecón",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free shuttle and free public beach",
+   "saving": "Whole excursion price"
+  }
+ ],
+ "excursionAdvice": "Progreso's beach and Malecón need no tour, and Mérida is easy by bus on a call of eight hours or more. Take the ship's excursion for Chichén Itzá or Uxmal: both are long drives from the port, the sites stop admitting visitors at 15:00, and the ship will wait for its own tour buses but not for you. A tour is also the simpler choice for Dzibilchaltún, which has no direct public transport from the pier.",
+ "dayPlan": {
+  "allAboard": "15:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 15:30. October 2026 departures are listed at 16:00 or 17:00, so check your own all-aboard time.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Leave the ship, walk through the duty-free area and take the free shuttle along the pier."
+   },
+   {
+    "time": "08:50",
+    "what": "Arrive at the Autoprogreso station in town. Take a bus to Mérida."
+   },
+   {
+    "time": "09:50",
+    "what": "Arrive at the Autoprogreso terminal on Calle 62 and walk to the main square."
+   },
+   {
+    "time": "10:00",
+    "what": "Mérida's central plaza, the cathedral and the colonial streets around them."
+   },
+   {
+    "time": "11:45",
+    "what": "Lunch in the Centro."
+   },
+   {
+    "time": "13:00",
+    "what": "Bus back to Progreso, 2 hours 30 minutes before all-aboard."
+   },
+   {
+    "time": "14:00",
+    "what": "Arrive at the Progreso shuttle stop, 90 minutes before all-aboard. Take the shuttle to the ship."
+   },
+   {
+    "time": "14:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Progreso Malecón and beach",
+   "why": "Seafront promenade, built in 2021, along a white-sand town beach.",
+   "timeNeeded": "2–4 hours",
+   "cost": "Free; loungers often free with food or drink orders",
+   "tip": "The shuttle marked 'Playa de Progreso' goes to the beach. Water quality varies with weather and currents."
+  },
+  {
+   "name": "Mérida city centre",
+   "why": "Yucatán's capital, with colonial buildings around a central plaza and cathedral.",
+   "timeNeeded": "Half a day including travel",
+   "cost": "Bus about MX$28–30 each way (2026)",
+   "tip": "The Autoprogreso terminal is in the Centro, so you can walk to the plaza."
+  },
+  {
+   "name": "Gran Museo del Mundo Maya",
+   "why": "Mérida's large museum of Maya culture.",
+   "timeNeeded": "2 hours plus travel",
+   "cost": "MX$200 general admission (2026)",
+   "tip": "Open Wednesday–Monday 09:00–17:00, closed Tuesdays. It is on Calle 60 Norte, north of the Centro, so take a taxi from the bus terminal."
+  },
+  {
+   "name": "Dzibilchaltún",
+   "why": "Mayan site north of Mérida with the Temple of the Seven Dolls, the large open Cenote Xlacah and the Museo del Pueblo Maya.",
+   "timeNeeded": "2–3 hours including travel",
+   "cost": "INAH lists MX$105 including the museum (2026); confirm at the ticket office",
+   "tip": "INAH lists hours of 08:00–16:00 daily. It is off the Mérida–Progreso highway via Chablekal; go by taxi or tour."
+  },
+  {
+   "name": "Uxmal",
+   "why": "Major Mayan city in Santa Elena municipality, reached from Mérida on Highway 261, dominated by the Temple of the Magician.",
+   "timeNeeded": "Full day by tour",
+   "cost": "INAH MX$105 plus a state (CULTUR) fee for foreign visitors (2026)",
+   "tip": "Open daily 08:00–16:00, last entry 15:00. Book the ship's tour on a short call."
+  },
+  {
+   "name": "Chichén Itzá",
+   "why": "The best-known Mayan site in Yucatán, with the El Castillo pyramid.",
+   "timeNeeded": "Full day by tour",
+   "cost": "INAH MX$105 plus a state (CULTUR) fee for foreign visitors (2026); a single ticket office was introduced in March 2026",
+   "tip": "Open daily 08:00–16:00, last entry 15:00. It is on the Mérida–Cancún highway, a long way from the port; go only with the ship's tour."
+  },
+  {
+   "name": "Paseo de Montejo",
+   "why": "Mérida's best-known avenue, north of the Centro.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Combine with the Gran Museo del Mundo Maya on a long call; use a taxi."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Playa Progreso (town beach)",
+   "howToGetThere": "Free pier shuttle; the 'Playa de Progreso' shuttle goes direct",
+   "time": "About 15 min",
+   "cost": "Free; loungers often free with orders at beach restaurants",
+   "note": "In front of the Malecón, with restaurants, toilets and vendors along the promenade."
+  },
+  {
+   "name": "Beach clubs and day passes",
+   "howToGetThere": "Taxi from the shuttle stop in town",
+   "time": "Short taxi ride",
+   "cost": "Varies by club; check before booking",
+   "note": "Several hotels and clubs along the coast sell day passes to cruise passengers."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Pescado zarandeado, Tikin Xic fish, ceviche and aguachile",
+   "where": "Zal Marina, Malecón Internacional between Calles 98 and 100, Progreso",
+   "price": null
+  },
+  {
+   "dish": "Seafood on a sea-facing terrace",
+   "where": "Bacalauh, Malecón Tradicional at Calle 80, Progreso",
+   "price": null
+  },
+  {
+   "dish": "Casual seafood and regional dishes by the water",
+   "where": "Crabster Seafood & Grill, Malecón Tradicional between Calles 74 and 76, Progreso",
+   "price": null
+  },
+  {
+   "dish": "Seafood, Mexican dishes and margaritas",
+   "where": "Mobula, Boulevard Turístico Malecón, Progreso",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning to walk off the pier.",
+   "fix": "The pier is about 6.5 km long. Use the free shuttle both ways and allow for the queue."
+  },
+  {
+   "mistake": "Trying to see Chichén Itzá or Uxmal independently on a short call.",
+   "fix": "Both are long drives and stop admitting visitors at 15:00. Book the ship's tour, or choose Mérida or Dzibilchaltún instead."
+  },
+  {
+   "mistake": "Leaving Mérida too late.",
+   "fix": "Board the bus 2 hours 30 minutes before all-aboard. The bus takes 40–60 minutes and you still need the pier shuttle."
+  },
+  {
+   "mistake": "Going to the Gran Museo del Mundo Maya on a Tuesday.",
+   "fix": "It is closed on Tuesdays."
+  },
+  {
+   "mistake": "Carrying only a card.",
+   "fix": "Food stalls and casual vendors often do not take cards. Carry some pesos; many taxis also take US dollars."
+  }
+ ],
+ "safety": "The US State Department rates Yucatán state at Level 1, exercise normal precautions (May 2026), with no specific restrictions on travel there for US government employees. Take normal care with valuables on the beach and in Mérida. Vendors on the Malecón can be persistent; a polite no is enough. Sea conditions and water quality at the town beach vary with weather and currents. In an emergency dial 911; not all operators speak English.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The terminal and shuttle buses handle all passengers, as the pier cannot be walked; ask the ship in advance about accessible shuttle provision. The Malecón is a paved promenade. Mérida's Centro has narrow, uneven pavements. The Mayan sites involve long walks on rough paths and are hot, with limited shade.",
+ "rainyDay": "Go to Mérida for the Gran Museo del Mundo Maya (not on Tuesdays) and the cathedral and colonial buildings around the main square. In Progreso, the restaurants along the Malecón are the main shelter.",
+ "crowdTips": "The port authority's July 2026 report counts about 294,000 cruise passengers for 2026, a fifth more than in 2025. Get on an early shuttle, as queues form for both the shuttle and the Mérida bus. Return early too: the shuttle queue at the end of the day is the bottleneck.",
+ "faqs": [
+  {
+   "q": "Is Progreso a tender port?",
+   "a": "No. Ships berth at the Terminal Remota at the end of the pier and a free shuttle bus runs to town."
+  },
+  {
+   "q": "Can you walk from the Progreso cruise pier to town?",
+   "a": "No. The pier is about 6.5 km long; the free shuttle takes about 15 minutes."
+  },
+  {
+   "q": "How do I get from Progreso cruise port to Mérida?",
+   "a": "Take the free shuttle to the Autoprogreso station in town, then a bus to Mérida: about MX$28–30 and 40–60 minutes (2026). A taxi costs about MX$450–600."
+  },
+  {
+   "q": "Can I visit Chichén Itzá from Progreso on a cruise?",
+   "a": "Only realistically on the ship's tour. It is a long drive each way and last entry is 15:00."
+  },
+  {
+   "q": "What can I do in Progreso in one day from a cruise ship?",
+   "a": "Stay on the town beach and Malecón, go to Mérida by bus, or take a tour to Dzibilchaltún, Uxmal or Chichén Itzá."
+  },
+  {
+   "q": "Beaches near Progreso cruise port",
+   "a": "The town beach in front of the Malecón, reached by the free shuttle, and beach clubs a short taxi ride away."
+  },
+  {
+   "q": "Is Progreso safe?",
+   "a": "The US State Department places Yucatán at its lowest level, exercise normal precautions. Take normal care with valuables."
+  },
+  {
+   "q": "Is there a cruise passenger tax in Mexico?",
+   "a": "Yes. Mexico's fee for cruise passengers is US$10 from 1 August 2026 to 30 June 2027, rising to US$15 from July 2027. It is charged once per voyage and is usually collected by the cruise line."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Progreso Malecón"
+  },
+  {
+   "name": "Mérida city centre"
+  },
+  {
+   "name": "Gran Museo del Mundo Maya"
+  },
+  {
+   "name": "Dzibilchaltún"
+  },
+  {
+   "name": "Uxmal"
+  },
+  {
+   "name": "Chichén Itzá"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Diario Oficial de la Federación (SIDOF) – Decree on fiscal incentives for migration fees, cruise passengers (June 2025)",
+   "url": "https://sidof.segob.gob.mx/notas/docFuente/5761557"
+  },
+  {
+   "title": "US State Department – Mexico travel advisory (May 2026)",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html"
+  },
+  {
+   "title": "INAH – Dzibilchaltún",
+   "url": "https://lugares.inah.gob.mx/en/node/4400"
+  },
+  {
+   "title": "INAH – Uxmal",
+   "url": "https://lugares.inah.gob.mx/en/node/5797"
+  },
+  {
+   "title": "INAH – Chichén Itzá",
+   "url": "https://lugares.inah.gob.mx/en/node/4335"
+  },
+  {
+   "title": "Yucatán state tourism (Yucatán Travel) – Dzibilchaltún",
+   "url": "https://yucatan.travel/archeological-area/dzibilchaltun/"
+  },
+  {
+   "title": "Puertos de Yucatán (ASIPONA Progreso) – Port committee report, July 2026",
+   "url": "https://www.puertosyucatan.com/qs/files/2026/COMITÉ PROGRESO 29 JULIO 2026.pdf"
+  },
+  {
+   "title": "Celebrity Cruises – Yucatán (Progreso) port guide",
+   "url": "https://www.celebritycruises.com/ports/yucatan"
+  },
+  {
+   "title": "CruiseMapper – Progreso port and ship schedule",
+   "url": "https://www.cruisemapper.com/ports/progreso-port-4222"
+  },
+  {
+   "title": "CruiseMapper – Mexico doubles cruise passenger fee to US$10 (August 2026)",
+   "url": "https://www.cruisemapper.com/news/16592-mexico-doubles-cruise-passenger-fee"
+  },
+  {
+   "title": "Cruise Hive – Progreso cruise port",
+   "url": "https://www.cruisehive.com/progreso-cruise-port/132369"
+  },
+  {
+   "title": "Cruzely – Progreso port guide",
+   "url": "https://www.cruzely.com/port-guide-progreso-mexico/"
+  },
+  {
+   "title": "Posta – Mérida–Progreso bus fares (July 2026)",
+   "url": "https://www.posta.com.mx/yucatan/cuanto-cuesta-ir-a-progreso-en-autobus-precios-y-descuentos/vl2236157"
+  },
+  {
+   "title": "Por Esto – Taxi from Mérida to Progreso, summer 2026",
+   "url": "https://www.poresto.com/yucatan/2026/7/13/costo-de-un-taxi-del-centro-de-merida-a-progreso-esto-es-lo-que-podrias-pagar-en-verano-2026.html"
+  },
+  {
+   "title": "Diario de Yucatán – Single ticket office at Chichén Itzá (March 2026)",
+   "url": "https://www.yucatan.com.mx/yucatan/2026/03/24/eliminan-el-doble-pago-para-entrar-a-chichen-itza-aplicaran-boleto-unico.html"
+  },
+  {
+   "title": "Por Esto – Archaeological site prices in Yucatán 2026",
+   "url": "https://www.poresto.com/yucatan/2026/1/7/acceso-a-zonas-arqueologicas-de-yucatan-sube-en-2026-cuanto-cuesta-entrar-a-chichen-itza-uxmal-y-ek-balam.html"
+  },
+  {
+   "title": "ADN40 – Gran Museo del Mundo Maya prices and hours (September 2026)",
+   "url": "https://www.adn40.mx/mexico/2026-09-30/los-adultos-mayores-pagan-25-pesos-el-museo-maya-de-merida-que-conviene-visitar-durante-el-paseo-de-las-animas"
+  },
+  {
+   "title": "Yucatán Today – Bus lines and taxis",
+   "url": "https://yucatantoday.com/en/how-to-get"
+  },
+  {
+   "title": "Yucatán Today – Best restaurants in Progreso, Sisal and Celestún (February 2026)",
+   "url": "https://yucatantoday.com/en/blog/yucatan-beach-guide-best-restaurants-progreso-sisal-celestun"
+  },
+  {
+   "title": "Worldometers – Time in Yucatán",
+   "url": "https://www.worldometers.info/time/yucatan-mexico/"
+  }
+ ],
+ "uncertain": [
+  "Exact 2026 total entry price for foreigners at Chichén Itzá: Por Esto (January 2026) gives MX$676, Diario de Yucatán (March 2026) MX$697, and INAH's page lists a different state fee. Uxmal's total is also unconfirmed.",
+  "Whether a state fee is charged on top of the INAH fee at Dzibilchaltún, and its opening hours (INAH says 08:00–16:00, the state tourism site 08:00–17:00).",
+  "Time of the last pier shuttle back to the ship: one 2022 blog says one hour before departure; not confirmed by the port or a cruise line.",
+  "Typical all-aboard time: not published; the day plan assumes 15:30 because October 2026 departures are listed at 16:00–17:00.",
+  "Any Yucatán state visitor tax on cruise passengers: none found.",
+  "Tren Maya: a Umán–Progreso extension was announced in 2025 with no opening date; its 2026 status was not verified.",
+  "Driving times from Progreso to Uxmal and Chichén Itzá.",
+  "Gran Museo del Mundo Maya price for foreign visitors specifically (MX$200 is the general rate).",
+  "Documented scams aimed at cruise passengers in Progreso: none found in an official source."
+ ]
+}

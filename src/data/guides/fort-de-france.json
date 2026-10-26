@@ -1,0 +1,410 @@
+{
+ "slug": "fort-de-france",
+ "city": "Fort-de-France",
+ "portName": "Port of Fort-de-France (Pointe Simon and Tourelles)",
+ "townName": "central Fort-de-France",
+ "country": "Martinique, France",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "French (Martinican Creole widely spoken)",
+ "timezone": "AST (UTC-4), no daylight saving time",
+ "lastVerified": "October 2026",
+ "seoTitle": "Fort-de-France cruise port guide: Pointe Simon and ferries",
+ "seoDescription": "Pointe Simon is a 10-min walk from Fort-de-France; Tourelles is 2 km out. Blue Lines ferry to Pointe du Bout from €5 (2026), 15 min. Balata garden €16 (2026).",
+ "quickAnswer": "Most ships berth at Pointe Simon, about 10 minutes' walk from the centre of Fort-de-France; when two ships are in, one usually uses Tourelles, about 2 km out in the commercial port. The Blue Lines ferry from the Pointe Simon jetty reaches Pointe du Bout and Anse Mitan's beaches in about 15–20 minutes, from €5 one way. Catch a ferry that leaves Pointe du Bout two hours before all-aboard.",
+ "intro": "Fort-de-France is Martinique's capital, and on a Pointe Simon day the town starts across the road from the ship. The centre is compact: La Savane park, Fort Saint-Louis, the Schœlcher Library, the cathedral and the covered market are all within a short walk. The town has no real beach, so many passengers cross the bay by ferry to Pointe du Bout and Anse Mitan in Les Trois-Îlets. The Tourelles berth changes the day: it is in an industrial area, and you need the shuttle, a taxi or a 20-minute walk before anything begins. Check your berth the evening before.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Pointe Simon",
+   "distanceToCentreKm": 0.5,
+   "notes": "The main cruise berth, on the waterfront at the edge of the centre. The terminal building has shops, tour and car-hire desks and a taxi rank. The Blue Lines ferry jetty is next to it. About 10 minutes' walk to the historic centre; the covered market is about 500 m away."
+  },
+  {
+   "name": "Tourelles",
+   "distanceToCentreKm": 2,
+   "notes": "Second berth in the commercial port, usually used when two ships are in at once. About 2 km from the centre: around 20 minutes on foot to the waterfront, or about 5 minutes by taxi. A complimentary shuttle may run; check on board. There are shops, tourist information and taxis."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.5,
+  "detail": "From Pointe Simon the centre is flat and close: La Savane, Fort Saint-Louis, the cathedral and the market are 5–15 minutes on foot. From Tourelles allow about 20 minutes to the waterfront along roads through the port area, or use the shuttle or a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 10 min from Pointe Simon; about 20 min from Tourelles",
+   "detail": "From Pointe Simon turn right and follow the waterfront past the roundabout and taxi rank towards La Savane. From Tourelles follow the route into town along the bay."
+  },
+  {
+   "mode": "Blue Lines ferry to Les Trois-Îlets",
+   "cost": "From €5 one way, €7 return, cash (2026)",
+   "time": "About 15 min to Pointe du Bout, 20 min to Trois-Îlets bourg, 25 min to Anse à l'Âne",
+   "detail": "Leaves from the Pointe Simon jetty, next to the cruise terminal. Blue Lines has run the public ferry since July 2024 under contract to Martinique Transport. The Pointe du Bout line ran about every 30–40 minutes in 2025. Timetables change at short notice and last boats move earlier when days are short; check bluelines.mq or the jetty board, and buy your return in the morning."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Ask the fare before setting off",
+   "time": "About 5 min Tourelles–centre; about 20 min to Jardin de Balata",
+   "detail": "Taxis wait at both terminals. Fares are high by Caribbean standards for longer trips, so agree the price for the whole trip, including any waiting time, first."
+  },
+  {
+   "mode": "Local bus and taxi collectif",
+   "cost": "Cheaper than a taxi; pay on board",
+   "time": "Varies",
+   "detail": "Buses stop about 250 m from the cruise dock. Taxis collectifs are minibuses on fixed routes that leave when full rather than to a timetable, so they are hard to time for a return to the ship."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. Be on a ferry leaving Pointe du Bout or Anse Mitan 2 hours before all-aboard (2.5 hours if your ship is at Tourelles).",
+  "detail": "Ferries run every 30–40 minutes at best, and services have been cut, shortened or replaced by buses at short notice during strikes and when daylight hours shrink. If your ship is at Tourelles, add the 20-minute walk or the shuttle wait from Pointe Simon.",
+  "emergencyFallback": "If the ferry is not running, take a taxi from Pointe du Bout round the bay by road; it is much longer than the crossing, so decide early. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Anse Mitan / Pointe du Bout beach day",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€7 return on the Blue Lines ferry (2026)",
+   "saving": "Usually large, if the ferries are running"
+  },
+  {
+   "item": "Jardin de Balata",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€16 adult entry (2026) plus a taxi each way (about 20 min)",
+   "saving": "Depends on the taxi fare and group size"
+  },
+  {
+   "item": "Saint-Pierre and Mount Pelée",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Car hire or a taxi for the day",
+   "saving": "Often small; the ship's tour removes the return risk"
+  }
+ ],
+ "excursionAdvice": "Fort-de-France itself needs no tour, and the ferry makes Anse Mitan an easy independent beach day. Balata is a short taxi ride and fine on your own. A ship's tour earns its price for Saint-Pierre, Mount Pelée, Josephine's Baths and the south coast beaches such as Les Salines, which are an hour or more away by road or reachable only by boat. If your ship is at Tourelles, or ferries are disrupted, the ship's tour is also the simplest way to get to Les Trois-Îlets.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Pointe Simon at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Off the ship. Walk along the waterfront to La Savane, about 10 minutes."
+   },
+   {
+    "time": "08:50",
+    "what": "Schœlcher Library, a metal-framed building named after the abolitionist Victor Schœlcher."
+   },
+   {
+    "time": "09:15",
+    "what": "Cathédrale Saint-Louis, then the covered market (Grand Marché) for spices, fruit and rum."
+   },
+   {
+    "time": "10:15",
+    "what": "Back to the Pointe Simon jetty. Check the Blue Lines timetable and board a ferry to Pointe du Bout."
+   },
+   {
+    "time": "10:45",
+    "what": "Walk a few minutes from the Pointe du Bout marina to Anse Mitan beach. Swim and snorkel."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch at one of the beach restaurants in Anse Mitan."
+   },
+   {
+    "time": "14:45",
+    "what": "Walk back to the Pointe du Bout jetty."
+   },
+   {
+    "time": "15:00",
+    "what": "Board a ferry back to Fort-de-France; the latest safe boat leaves at 15:30, two hours before all-aboard."
+   },
+   {
+    "time": "15:20",
+    "what": "Off the ferry at Pointe Simon. Short walk along the waterfront by La Savane."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "La Savane",
+   "why": "The 5-hectare park at the heart of town, used for events, with snack bars and benches.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free",
+   "tip": "The Malecon play area and La Française beach are a few minutes away."
+  },
+  {
+   "name": "Bibliothèque Schœlcher",
+   "why": "An ornate colonial library named after Victor Schœlcher, author of the 1848 decree abolishing slavery.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "About 17 minutes' walk from the cruise terminal; the exterior is the main attraction."
+  },
+  {
+   "name": "Cathédrale Saint-Louis",
+   "why": "A Romanesque-Byzantine church by Pierre-Henri Picq, rebuilt with a metal frame after fires, an earthquake and a cyclone.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "Open daily; there are masses on weekdays, so visit quietly."
+  },
+  {
+   "name": "Fort Saint-Louis",
+   "why": "A 17th-century fort on the waterfront next to La Savane, still a French Navy base, with harbour views.",
+   "timeNeeded": "About 1 hour",
+   "cost": "Guided tour fee",
+   "tip": "Visits are by guided tour only; ask at the tourist office in town about booking."
+  },
+  {
+   "name": "Grand Marché (covered market)",
+   "why": "Spices, fruit, rum and crafts under one roof, about 500 m from Pointe Simon.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "Go in the morning; some shops close at midday."
+  },
+  {
+   "name": "Jardin de Balata",
+   "why": "A botanical garden in the hills north of town, opened in 1986, with views towards Mount Pelée.",
+   "timeNeeded": "1.5 hours plus 2 × 20 min by taxi",
+   "cost": "€16 adult, €11 child 3–12 (2026)",
+   "tip": "Open daily 09:00–18:00, last entry 16:30. Book a return time with your taxi driver."
+  },
+  {
+   "name": "Les Trois-Îlets and Pointe du Bout",
+   "why": "Marina village across the bay, with Anse Mitan beach next door and La Savane des Esclaves nearby.",
+   "timeNeeded": "3–4 hours",
+   "cost": "Ferry €7 return (2026)",
+   "tip": "Watch the ferry times; take a boat back two hours before all-aboard."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Plage de la Française",
+   "howToGetThere": "Walk from Pointe Simon past La Savane",
+   "time": "About 10 min",
+   "cost": "Free",
+   "note": "Small town beach beside Fort Saint-Louis. Fine for a quick dip, not a beach day."
+  },
+  {
+   "name": "Anse Mitan",
+   "howToGetThere": "Blue Lines ferry to Pointe du Bout, then a few minutes on foot",
+   "time": "About 15–20 min crossing",
+   "cost": "Ferry €7 return (2026)",
+   "note": "Calm water, restaurants and lounger hire."
+  },
+  {
+   "name": "Anse à l'Âne",
+   "howToGetThere": "Blue Lines ferry direct",
+   "time": "About 25 min",
+   "cost": "Ferry from €5 one way (2026)",
+   "note": "On the Anse à l'Âne line, which ran hourly in 2025; check the return times before you go."
+  },
+  {
+   "name": "Anse Dufour and Anse Noire",
+   "howToGetThere": "Taxi or hire car",
+   "time": "Long drive round the bay",
+   "cost": "Taxi fare; agree it first",
+   "note": "Snorkelling with turtles at Anse Dufour; Anse Noire has black sand and steps down. Better on a tour."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Accras, spices and fresh fruit juices",
+   "where": "Grand Marché (covered market), central Fort-de-France",
+   "price": null
+  },
+  {
+   "dish": "Home-style West Indian dishes",
+   "where": "Djol Dou, Rue Garnier Pagès",
+   "price": null
+  },
+  {
+   "dish": "Creole buffet (Thursday lunchtime, booking recommended)",
+   "where": "Restaurant Joséphine, Hôtel L'Impératrice, Rue de la Liberté",
+   "price": null
+  },
+  {
+   "dish": "Snacks and drinks in the shade",
+   "where": "Kiosks and snack bars on La Savane",
+   "price": null
+  },
+  {
+   "dish": "Lunch in the garden",
+   "where": "La Luciole, Jardin de Balata",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming the ship is at Pointe Simon.",
+   "fix": "When two ships call, one usually goes to Tourelles, 2 km out. Check the berth and add 20 minutes each way."
+  },
+  {
+   "mistake": "Planning around the last ferry from Les Trois-Îlets.",
+   "fix": "Last boats have been moved earlier at a day's notice and services have stopped during strikes. Aim for a boat two hours before all-aboard."
+  },
+  {
+   "mistake": "Paying in US dollars.",
+   "fix": "The currency is the euro. Some vendors take dollars but give change in euros. Bring euros or a card; small stalls prefer cash."
+  },
+  {
+   "mistake": "Trying to reach Les Salines or Saint-Pierre independently on a short call.",
+   "fix": "Both are an hour or more away by road. Take a tour, or stay in Fort-de-France and Les Trois-Îlets."
+  },
+  {
+   "mistake": "Leaving the market and shops until after lunch.",
+   "fix": "Some shops close at midday. See the centre in the morning."
+  }
+ ],
+ "safety": "Martinique is generally safe for visitors, but petty crime such as pickpocketing, bag snatching and car break-ins happens, especially in Fort-de-France. Keep bags closed in the market and crowds, and do not leave anything in a car. Avoid isolated areas and empty beaches after dark. Some beaches have strong currents or difficult seabeds: swim only in marked areas and respect flags. Strikes and demonstrations can disrupt transport and fuel supplies, and during recent unrest the authorities imposed curfews at short notice; check current travel advice before your call. The hurricane season runs from June to November.",
+ "scams": [
+  "Pickpocketing and bag snatching in central Fort-de-France: keep valuables out of sight in the market and on busy streets.",
+  "Break-ins at beach car parks: leave nothing in a hire car or taxi you are not returning to.",
+  "High taxi fares on longer trips: agree the full price, including waiting time, before you set off."
+ ],
+ "emergencyNumber": "15 (ambulance), 17 (police), 18 (fire)",
+ "accessibility": "Pointe Simon is on the level waterfront, and the route to La Savane and the centre is short and flat, though pavements are uneven in places. Tourelles is 2 km out; use the shuttle or a taxi rather than walking. Blue Lines lists its ferries as accessible to disabled passengers; ask the crew about boarding at each jetty. Fort Saint-Louis is a working military site with steps and ramparts. Ask your cruise line for adapted transport for trips beyond town.",
+ "rainyDay": "Showers usually pass quickly. Stay in the centre: the cathedral, the covered market and the Schœlcher Library are close together. In rough weather check that the ferries are running before you cross the bay. Jardin de Balata is still worth a visit in light rain.",
+ "crowdTips": "Martinique received around 205 cruise calls in the 2024–25 season, and on two-ship days one ship uses Tourelles. The covered market and La Savane are busiest mid-morning when tours arrive, and ferries to Pointe du Bout fill after 10:00. Take an early ferry, or see the town first and cross the bay at lunchtime when the crowds are eating.",
+ "faqs": [
+  {
+   "q": "Is Fort-de-France walkable from the cruise port?",
+   "a": "Yes from Pointe Simon, about 10 minutes to the centre. From Tourelles it is about 20 minutes on foot, or take the shuttle or a taxi."
+  },
+  {
+   "q": "Is Fort-de-France a tender port?",
+   "a": "No. Ships dock at Pointe Simon or Tourelles."
+  },
+  {
+   "q": "How do I get from Fort-de-France cruise port to Anse Mitan?",
+   "a": "Take the Blue Lines ferry from the Pointe Simon jetty to Pointe du Bout, about 15 minutes and €7 return (2026), then walk a few minutes to the beach."
+  },
+  {
+   "q": "Where is the Tourelles cruise terminal?",
+   "a": "In the commercial port about 2 km from the centre. It is mainly used when two ships are in."
+  },
+  {
+   "q": "What can I do in Fort-de-France in one day from a cruise ship?",
+   "a": "La Savane, the Schœlcher Library, the cathedral and the market in the morning, then the ferry to Anse Mitan or a taxi to Jardin de Balata."
+  },
+  {
+   "q": "Beaches near Fort-de-France cruise port",
+   "a": "La Française is a small town beach by Fort Saint-Louis. For a proper beach take the ferry to Anse Mitan or Anse à l'Âne."
+  },
+  {
+   "q": "Do they use US dollars in Martinique?",
+   "a": "No, the euro. Some tourist vendors take dollars but give change in euros."
+  },
+  {
+   "q": "Is Fort-de-France safe?",
+   "a": "Generally yes. Watch for pickpockets in the centre and check for strikes or curfews before your call."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "La Savane"
+  },
+  {
+   "name": "Bibliothèque Schœlcher"
+  },
+  {
+   "name": "Cathédrale Saint-Louis"
+  },
+  {
+   "name": "Fort Saint-Louis"
+  },
+  {
+   "name": "Grand Marché"
+  },
+  {
+   "name": "Jardin de Balata"
+  },
+  {
+   "name": "Anse Mitan"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Martinique Tourism – Cultural tour of Fort-de-France",
+   "url": "https://www.martinique.org/en/trips/cultural-tour-fort-de-france"
+  },
+  {
+   "title": "Martinique Tourism – Fort-de-France to Les Trois-Îlets by shuttle",
+   "url": "https://martinique.org/en/node/31902"
+  },
+  {
+   "title": "Comité Martiniquais du Tourisme – Opening of the 2024–2025 cruise season (press release)",
+   "url": "https://presse.martinique.org/sites/mq_presse/files/media/brochure/CP%20Ouverture%20de%20la%20saison%20de%20croisi%C3%A8re%202024-2025_OK.pdf"
+  },
+  {
+   "title": "Jardin de Balata – Rates and opening hours",
+   "url": "https://www.jardindebalata.fr/en/rates"
+  },
+  {
+   "title": "Government of Canada – Martinique travel advice",
+   "url": "https://travel.gc.ca/destinations/martinique"
+  },
+  {
+   "title": "GOV.UK – Martinique travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/martinique/safety-and-security"
+  },
+  {
+   "title": "Martinique Tour – Blue Lines Fort-de-France",
+   "url": "https://en.martinique-tour.com/offres/blue-lines-fort-de-france-en-1398443/"
+  },
+  {
+   "title": "RCI – Blue Lines assure la rentrée avec ses navettes maritimes (September 2025)",
+   "url": "https://rci.fm/martinique/infos/Societe/Blue-Lines-assure-la-rentree-avec-ses-navettes-maritimes"
+  },
+  {
+   "title": "RCI – Les rotations de Blue Lines se terminent plus tôt (October 2024)",
+   "url": "https://rci.fm/martinique/infos/Informations-pratiques/Les-rotations-de-Blue-Lines-se-terminent-plus-tot-des-ce-mardi-soir"
+  },
+  {
+   "title": "Outremers 360 – Grand Port Maritime de Martinique: 2025 results and 2026 projects",
+   "url": "https://outremers360.com/bassin-atlantique-appli/une-annee-2025-en-hausse-et-de-nouveaux-projets-pour-2026-pour-le-grand-port-maritime-de-martinique"
+  },
+  {
+   "title": "CruiseMapper – Fort-de-France port",
+   "url": "https://cruisemapper.com/ports/fort-de-france-port-2382"
+  },
+  {
+   "title": "Adventour Begins – Fort-de-France cruise port guide",
+   "url": "https://www.adventourbegins.com/fort-de-france-martinique-cruise-port-guide/"
+  },
+  {
+   "title": "Serenitrip – Getting around Martinique",
+   "url": "https://serenitrip.fr/guide/voyage/amerique/antilles/martinique/transport"
+  },
+  {
+   "title": "Serenitrip – Jardin de Balata",
+   "url": "https://serenitrip.fr/guide/voyage/amerique/antilles/martinique/jardin-foret/balata/"
+  },
+  {
+   "title": "Serenitrip – Fort Saint-Louis",
+   "url": "https://serenitrip.fr/guide/voyage/amerique/antilles/martinique/voir/fort-saint-louis"
+  },
+  {
+   "title": "Lonely Planet – Vedettes Tropicales (bay shuttles)",
+   "url": "https://www.lonelyplanet.com/points-of-interest/vedettes-tropicales/1558558"
+  }
+ ],
+ "uncertain": [
+  "Fort Saint-Louis guided-tour price, days and hours (one 2023 guide gives €8 adult, Tuesday–Saturday)",
+  "Bus line number and frequency to Jardin de Balata (one 2023 guide names a line from Fort-de-France; not confirmed by the operator)",
+  "Current taxi tariffs (prefectoral per-km rates reported in 2023)",
+  "Blue Lines 2026–27 timetable and the time of the last boat from Pointe du Bout",
+  "Whether a free shuttle runs from Tourelles for every ship",
+  "Typical all-aboard time for Fort-de-France calls",
+  "Status of the planned upgrades at Pointe Simon and Tourelles"
+ ]
+}

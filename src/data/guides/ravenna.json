@@ -1,0 +1,359 @@
+{
+ "slug": "ravenna",
+ "city": "Ravenna",
+ "portName": "Ravenna Cruise Terminal (Porto Corsini)",
+ "townName": "Ravenna historic centre",
+ "country": "Italy",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Italian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Ravenna cruise port guide: Porto Corsini to the mosaics",
+ "seoDescription": "Ravenna cruise terminal is at Porto Corsini, 12–15 km from the mosaics. Taxis are scarce (2-hour waits in 2026). Take bus 90 or a shuttle; back 90 min early.",
+ "quickAnswer": "Ships berth at Porto Corsini, about 12–15 km and a 20-minute drive from Ravenna's centre, so you cannot walk. Take the ship's shuttle to Ravenna railway station if one is sold, or Start Romagna bus 90 from the 'Porto Corsini Traghetto' stop; taxis are few and waits of up to two hours have been reported. Leave the centre 2 hours before all-aboard and be on board 90 minutes before it.",
+ "intro": "Ravenna is mainly a turnaround port: in 2026 the terminal expected 111 calls, of which only 40 were transit calls. That matters on a port day, because the area has very few taxis and most transport is set up for luggage transfers rather than day visitors. The reward for sorting out transport is Ravenna's group of UNESCO-listed early Christian mosaics, five of which sit on one ticket within walking distance of each other in the compact centre. Plan the day around the shuttle or bus times, book timed entry for Galla Placidia, and keep a wide margin for the trip back to Porto Corsini.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Porto Corsini cruise terminal (Via Molo San Filippo)",
+   "distanceToCentreKm": 12,
+   "notes": "At the mouth of the Candiano canal, run by Ravenna Civitas Cruise Port, controlled by Icon Infrastructure and Royal Caribbean Group. Sources give 12–15 km to the centre, about 20 minutes by road. A new two-storey terminal able to handle two ships at once (about 7,000 passengers) was due around the start of the 2026 season. The 'Porto Corsini Traghetto' bus stop and the canal ferry are a short walk away; allow about 10 minutes."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 12,
+  "detail": "The centre is 12–15 km away by road. Once in Ravenna, the railway station is about 7 minutes' walk from the centre and the mosaic sites are close together on flat streets."
+ },
+ "transportSections": [
+  {
+   "mode": "Cruise line shuttle to Ravenna railway station",
+   "cost": "Set by your line; Norwegian charged US$23 per person in August 2026",
+   "time": "About 20 min by road",
+   "detail": "Some lines sell a shuttle or transfer from the ship to Ravenna railway station, booked through the cruise planner or on board. Check the last return departure before you leave the ship."
+  },
+  {
+   "mode": "Start Romagna bus 90",
+   "cost": "Start Romagna fare; check the current price before travelling",
+   "time": "Check the timetable",
+   "detail": "Line 90 runs between Ravenna FS (railway station) and Casalborsetti via Porto Corsini. Use the stop called 'Porto Corsini Traghetto' on Via Molo San Filippo, about 10 minutes' walk from the berth; port fencing may force you along a marked walking route. Download the current timetable from startromagna.it before the day, because buses are not frequent."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "About €50 to the railway station, per Norwegian Cruise Line (2026)",
+   "time": "About 20 min",
+   "detail": "Ravenna has very few taxis. Norwegian reported guests waiting up to two hours for one at Porto Corsini. Do not plan your return on finding a taxi; if you must use one, book it in advance for a fixed time."
+  },
+  {
+   "mode": "Porto Corsini–Marina di Ravenna ferry",
+   "cost": "€1 per foot passenger or cyclist (2026)",
+   "time": "Short canal crossing",
+   "detail": "Start Romagna's ferry crosses the canal mouth daily from early morning to after midnight. It takes you to Marina di Ravenna, not to Ravenna city. If the ferry is stopped by bad weather, foot passengers are moved by bus by road at no extra charge."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave central Ravenna 2 hours before all-aboard and be back on board 90 minutes before it.",
+  "detail": "The return depends on a 12–15 km road trip with limited transport: a shuttle with set times, an infrequent bus, or scarce taxis. If you miss the last shuttle you may not find a taxi quickly. Know your last shuttle time and the next two bus 90 departures from Ravenna FS before you leave the ship.",
+  "emergencyFallback": "If the shuttle has gone, take bus 90 from Ravenna FS towards Casalborsetti and get off at Porto Corsini Traghetto. Ask a hotel near the station to call a taxi for you. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Ravenna mosaics",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Shuttle or bus 90, plus the 4- or 5-monument ticket bought online with a timed slot",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Ravenna is a port where the ship's tour is often worth considering. The terminal is far from the centre, taxis are scarce and the bus is infrequent, so a tour removes the main risk of the day. Go independently if your line sells a shuttle to the railway station and you book mosaic entry times yourself; the sites are close together and easy to visit alone. Bologna and San Marino are long trips that only make sense as ship tours on a long call.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at Porto Corsini, all-aboard is 17:30 and you use a cruise line shuttle to Ravenna railway station.",
+  "steps": [
+   {
+    "time": "08:45",
+    "what": "Shuttle from the terminal to Ravenna railway station, about 20 minutes. Note the last return time."
+   },
+   {
+    "time": "09:15",
+    "what": "Walk into the centre (about 7 minutes) to Sant'Apollinare Nuovo, which opens at 09:00 in the summer season."
+   },
+   {
+    "time": "10:15",
+    "what": "Neonian Baptistery and the Archiepiscopal Museum with St Andrew's Chapel, using your booked slots."
+   },
+   {
+    "time": "11:30",
+    "what": "Basilica of San Vitale and, next to it, the Mausoleum of Galla Placidia at your booked time."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch: piadina or cappelletti at Ca' de Vèn on Via Corrado Ricci."
+   },
+   {
+    "time": "14:15",
+    "what": "Dante's Tomb and a walk through the centre."
+   },
+   {
+    "time": "15:15",
+    "what": "Walk back to the railway station for the shuttle, 2 hours before all-aboard."
+   },
+   {
+    "time": "16:00",
+    "what": "Back on board, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Basilica of San Vitale",
+   "why": "The best known of Ravenna's UNESCO-listed mosaic churches.",
+   "timeNeeded": "45 minutes",
+   "cost": "In the 2-, 4- and 5-monument tickets; 5-monument reduced rate €13.50 (2026)",
+   "tip": "Open 09:00–19:00 until 2 November 2026, then 10:00–17:00 in winter. Last entry 30 minutes before closing."
+  },
+  {
+   "name": "Mausoleum of Galla Placidia",
+   "why": "A small UNESCO-listed mosaic mausoleum on Via San Vitale, beside the basilica.",
+   "timeNeeded": "15–20 minutes",
+   "cost": "In the 4- and 5-monument tickets (2026)",
+   "tip": "A timed entry booking is mandatory. Book online before the day and plan the rest of the route around your slot."
+  },
+  {
+   "name": "Basilica of Sant'Apollinare Nuovo",
+   "why": "A UNESCO-listed basilica with large mosaic panels, a short walk from the railway station.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "In all combined tickets; the 2-monument ticket covers it with San Vitale (reduced €9.50, 2026)",
+   "tip": "Ticket office on site, so it is a good first stop if you have not bought online."
+  },
+  {
+   "name": "Neonian Baptistery",
+   "why": "A UNESCO-listed baptistery with a mosaic-covered interior, near the cathedral.",
+   "timeNeeded": "15–20 minutes",
+   "cost": "In the 4- and 5-monument tickets (2026)",
+   "tip": "Timed entry booking is mandatory with the 4- and 5-monument tickets."
+  },
+  {
+   "name": "Archiepiscopal Museum and St Andrew's Chapel",
+   "why": "St Andrew's Chapel and its mosaics, visited with the archbishop's museum.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "In the 5-monument ticket (2026)",
+   "tip": "Entry time must be booked with the 5-monument ticket. The museum also has a ticket office."
+  },
+  {
+   "name": "Dante's Tomb",
+   "why": "The burial place of Dante Alighieri, next to the Basilica of San Francesco in the centre.",
+   "timeNeeded": "15 minutes",
+   "cost": "Check on site",
+   "tip": "Easy to fit between the mosaic sites."
+  },
+  {
+   "name": "Arian Baptistery",
+   "why": "A second, smaller mosaic baptistery in the centre.",
+   "timeNeeded": "15 minutes",
+   "cost": "Check on site; not part of the combined tickets",
+   "tip": "Only if you have time after the main five."
+  },
+  {
+   "name": "Domus dei Tappeti di Pietra",
+   "why": "Excavated floor mosaics from an ancient house in the centre.",
+   "timeNeeded": "30 minutes",
+   "cost": "Check on site",
+   "tip": "A good indoor stop if it rains."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Marina di Ravenna",
+   "howToGetThere": "Start Romagna foot ferry across the canal mouth from Porto Corsini",
+   "time": "Short crossing, then walk",
+   "cost": "Ferry €1 each way (2026)",
+   "note": "A beach resort across the canal from the terminal. Useful if you do not want to go into Ravenna at all."
+  },
+  {
+   "name": "Porto Corsini and Marina Romea",
+   "howToGetThere": "Bus 90 north from Porto Corsini towards Casalborsetti",
+   "time": "Check the timetable",
+   "cost": "Start Romagna fare",
+   "note": "Beach villages north of the terminal on the same bus line. Check return buses before you go."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Piadina with local ham",
+   "where": "Ca' de Vèn, Via Corrado Ricci",
+   "price": null
+  },
+  {
+   "dish": "Cappelletti al ragù",
+   "where": "Antica Trattoria Al Gallo 1909",
+   "price": null
+  },
+  {
+   "dish": "Piadina with squacquerone cheese",
+   "where": "Piadineria Magnani, Via Romolo Ricci",
+   "price": null
+  },
+  {
+   "dish": "Ricotta cake with zabaione cream",
+   "where": "Antica Trattoria Al Gallo 1909",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Expecting to find a taxi at the terminal or in town for the return.",
+   "fix": "Ravenna has very few taxis and waits of up to two hours have been reported. Use the shuttle or bus 90, or pre-book a taxi for a fixed time."
+  },
+  {
+   "mistake": "Assuming Ravenna's cruise port is in the city.",
+   "fix": "It is at Porto Corsini, 12–15 km away. Arrange transport before you leave the ship."
+  },
+  {
+   "mistake": "Turning up at Galla Placidia without a booked slot.",
+   "fix": "Timed entry is mandatory for Galla Placidia and the Neonian Baptistery with the 4- and 5-monument tickets. Book online before the day."
+  },
+  {
+   "mistake": "Taking the ferry and expecting to reach Ravenna.",
+   "fix": "The Porto Corsini ferry only crosses the canal to Marina di Ravenna. For the city use bus 90 or the shuttle."
+  },
+  {
+   "mistake": "Planning a late lunch.",
+   "fix": "Many restaurants close from about 15:00 to 18:30. Eat between 12:30 and 14:00."
+  }
+ ],
+ "safety": "Ravenna is a calm, safe city for visitors. The real risk on a cruise day is transport: the terminal is far from town and taxis are scarce, so missing the last shuttle is the main danger. Dress modestly for the churches by covering shoulders and knees. Use normal care with bags in busy places.",
+ "scams": [
+  "Unofficial transfer offers: book shuttles through your cruise line or a provider you have checked, and confirm the pick-up point and time in writing."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The transfer to and from Porto Corsini is the main barrier; confirm an accessible shuttle or transfer with your cruise line in advance. Central Ravenna is flat and the mosaic sites are close together. Some monuments have steps or tight spaces; contact the Ravenna Mosaici booking office (0544 541688, weekdays 09:00–16:00) before the day to ask about access.",
+ "rainyDay": "Ravenna works well in rain because the main sights are all indoors: the five monuments on the combined ticket, the Domus dei Tappeti di Pietra and the Arian Baptistery. Keep the walks between them short and book Galla Placidia's slot in advance.",
+ "crowdTips": "Ravenna's monuments are small, and timed entry at Galla Placidia and the Neonian Baptistery keeps numbers down, but popular slots fill. Book entry times online before the cruise. Go to Sant'Apollinare Nuovo first at opening, then work towards San Vitale. Turnaround days fill the shuttles and taxis with luggage traffic.",
+ "faqs": [
+  {
+   "q": "Is Ravenna walkable from the cruise port?",
+   "a": "No. The terminal is at Porto Corsini, 12–15 km from the centre, about 20 minutes by road."
+  },
+  {
+   "q": "How do I get from Ravenna cruise port to the city centre?",
+   "a": "Take your cruise line's shuttle to Ravenna railway station, or Start Romagna bus 90 from the 'Porto Corsini Traghetto' stop to Ravenna FS. Taxis are scarce."
+  },
+  {
+   "q": "Is there a shuttle bus from Porto Corsini to Ravenna?",
+   "a": "Cruise lines sell their own; Norwegian charged US$23 per person in August 2026. Check your cruise planner."
+  },
+  {
+   "q": "Is Ravenna a tender port?",
+   "a": "No. Ships berth alongside at Porto Corsini."
+  },
+  {
+   "q": "How much is the Ravenna mosaics ticket?",
+   "a": "In 2026 the 5-monument ticket is €13.50 at the reduced rate; the full price is shown on the Ravenna Mosaici website. Galla Placidia needs a timed booking."
+  },
+  {
+   "q": "What can I do in Ravenna in one day from a cruise ship?",
+   "a": "The five mosaic monuments on the combined ticket, lunch with piadina, and Dante's Tomb, with a return to the station 2 hours before all-aboard."
+  },
+  {
+   "q": "Beaches near Ravenna cruise port",
+   "a": "Marina di Ravenna is across the canal from the terminal by a €1 foot ferry (2026)."
+  },
+  {
+   "q": "Is Ravenna safe?",
+   "a": "Yes. The main risk is missing the transport back to Porto Corsini."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Basilica of San Vitale"
+  },
+  {
+   "name": "Mausoleum of Galla Placidia"
+  },
+  {
+   "name": "Basilica of Sant'Apollinare Nuovo"
+  },
+  {
+   "name": "Neonian Baptistery"
+  },
+  {
+   "name": "Archiepiscopal Museum and St Andrew's Chapel"
+  },
+  {
+   "name": "Dante's Tomb"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Ravenna Mosaici – official site",
+   "url": "https://www.ravennamosaici.it/en/"
+  },
+  {
+   "title": "Ravenna Mosaici – entrance times and prices 2026",
+   "url": "https://www.ravennamosaici.it/en/entrance-time-and-prices/"
+  },
+  {
+   "title": "Start Romagna – Porto Corsini–Marina di Ravenna ferry",
+   "url": "https://www.startromagna.it/en/timetable-and-services/ferry/"
+  },
+  {
+   "title": "Start Romagna – Via Baiona notice (line 90, Ravenna FS–Porto Corsini–Casalborsetti)",
+   "url": "https://www.startromagna.it/wp-content/uploads/2025/01/RA_Baiona-1.pdf"
+  },
+  {
+   "title": "Port System Authority of the Central-Northern Adriatic – 2026 cruise forecast (Assoporti, Nov 2025)",
+   "url": "https://www.assoporti.it/media/16485/adsp-mare-adriatico-centro-settentrionale-cs-07112025.pdf"
+  },
+  {
+   "title": "Shipping Italy – Ravenna expects a record 2026 for cruise traffic",
+   "url": "https://www.shippingitaly.it/2025/11/08/il-porto-di-ravenna-saspetta-un-2026-da-record-per-il-traffico-di-crocieristi/?output=pdf"
+  },
+  {
+   "title": "Cruise Hive – Norwegian addresses transport problem at Ravenna (Aug 2026)",
+   "url": "https://www.cruisehive.com/norwegian-cruise-line-addresses-transportation-headache-at-italian-port/215374"
+  },
+  {
+   "title": "CruiseDig – Ravenna, Italy",
+   "url": "https://cruisedig.com/ports/ravenna-italy"
+  },
+  {
+   "title": "CruiseMapper – Ravenna (Porto Corsini)",
+   "url": "https://www.cruisemapper.com/ports/ravenna-port-261"
+  },
+  {
+   "title": "Cruise Deals, Tips & Tricks – Ravenna (June 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/ravenna-italy/"
+  },
+  {
+   "title": "Cruise Gear – Ravenna cruise port guide",
+   "url": "https://www.cruisegear.com/?p=24286"
+  },
+  {
+   "title": "Cruise Critic forum – Local bus in Ravenna",
+   "url": "https://boards.cruisecritic.com.au/topic/2918531-local-bus-in-ravenna/"
+  },
+  {
+   "title": "Gigi Griffis – Ask a local: Ravenna",
+   "url": "https://gigigriffis.com/ask-a-local-what-should-i-do-see-and-eat-in-ravenna-italy/"
+  },
+  {
+   "title": "Hungry Onion – Ravenna meals (Aug 2025)",
+   "url": "https://www.hungryonion.org/t/ravenna-mosaics-meals-and-meaty-regrets/44505"
+  }
+ ],
+ "uncertain": [
+  "Whether the new Porto Corsini terminal building opened for the 2026 season as planned.",
+  "Start Romagna fare, journey time and 2026 timetable for line 90 between Porto Corsini and Ravenna FS.",
+  "Full (non-reduced) prices of the Ravenna Mosaici combined tickets; only reduced rates were readable.",
+  "Which cruise lines other than Norwegian sell a port-day shuttle in 2026, and their prices.",
+  "Entry fees and hours for Dante's Tomb, the Arian Baptistery and the Domus dei Tappeti di Pietra.",
+  "Typical all-aboard time for transit calls (day plan assumes 17:30)."
+ ]
+}

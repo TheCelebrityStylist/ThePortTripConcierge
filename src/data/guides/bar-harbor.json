@@ -1,0 +1,390 @@
+{
+ "slug": "bar-harbor",
+ "city": "Bar Harbor",
+ "portName": "Bar Harbor anchorage (tenders to Golden Anchor pier and Ells Pier)",
+ "townName": "downtown Bar Harbor",
+ "country": "USA",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "Eastern Time (UTC-5), EDT (UTC-4) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Bar Harbor cruise port guide: tenders, Acadia and buses",
+ "seoDescription": "Bar Harbor is a tender port. Island Explorer bus is free; Acadia pass $35 a car or $20 a person, plus $100 for non-US residents (2026). Cadillac car slot $6.",
+ "quickAnswer": "Bar Harbor is a tender port: large ships anchor in Frenchman Bay and tender passengers to the Golden Anchor pier on West Street, while small American Cruise Lines ships use the town's floating dock at Ells Pier. Both land on the downtown waterfront, so the town is on foot, and the fare-free Island Explorer bus leaves the Village Green for Sand Beach and the Park Loop Road. Be back in the tender queue 90 minutes before all-aboard.",
+ "intro": "Bar Harbor is a small resort town on Mount Desert Island and the gateway to Acadia National Park. Since 2024 the town has limited cruise disembarkations to 1,000 people a day, and in 2026 the only large-ship calls were Norwegian Cruise Line visits booked before that rule, from late August to mid-October. The day turns on three things: the tender queue, the Island Explorer bus timetable, and buying an Acadia entrance pass before you board the bus. Cadillac Mountain is not on the bus network, so plan it as a tour or a taxi trip.",
+ "isTender": true,
+ "tenderNotes": "There is no cruise pier for large ships. Ships anchor in Frenchman Bay. In 2026 Norwegian Cruise Line passengers came ashore at the privately owned Golden Anchor pier, 55 West Street, which has been used for cruise tenders since 1998. American Cruise Lines' small ships (99–130 passengers) tender to the town's floating dock on the east side of Ells Pier (the Town Pier). Both landings are on the downtown waterfront. Tender queues build in the last two hours before all-aboard.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Golden Anchor pier (55 West Street)",
+   "distanceToCentreKm": null,
+   "notes": "Private pier used as the tender landing for large ships (Norwegian Breakaway and Norwegian Jewel in 2026). On West Street on the downtown waterfront."
+  },
+  {
+   "name": "Ells Pier (Town Pier) floating dock",
+   "distanceToCentreKm": null,
+   "notes": "The town's licensed cruise disembarkation facility, used under an agreement with American Cruise Lines. Harbor Master office at 3 Town Pier."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": null,
+  "km": null,
+  "detail": "Both tender landings are on the downtown waterfront, so shops, the Village Green bus hub, the Abbe Museum and the Bar Island crossing are all reached on foot. Acadia's main sights (Sand Beach, Jordan Pond, Cadillac Mountain) are not walkable on a port day; use the Island Explorer bus, a tour or a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "Short walk from either landing to the downtown streets",
+   "detail": "Downtown is compact. The Island Explorer buses leave from the Village Green, where a sign shows the next departures."
+  },
+  {
+   "mode": "Island Explorer bus, Route 3 (Sand Beach)",
+   "cost": "Free fare (2026); an Acadia entrance pass is still required to enter the park by bus",
+   "time": "About 25 min from the Village Green to Sand Beach; the full loop is about an hour",
+   "detail": "Fare-free, propane-powered buses run for the park. In 2026 the Loop Road route started on 20 May; most other routes ran 23 June to 12 October, with fall timetables from 17 August. Buses at the Green run from about 07:15 to as late as 22:00. Check the timetable at exploreacadia.com or the myStop app, especially for October calls."
+  },
+  {
+   "mode": "Island Explorer to Jordan Pond",
+   "cost": "Free fare (2026); park entrance pass required",
+   "time": "Check the current timetable",
+   "detail": "The bus stops at Jordan Pond. Afternoons there are very congested, so go in the morning."
+  },
+  {
+   "mode": "Taxi or tour to Cadillac Mountain",
+   "cost": "Park pass required; no vehicle reservation needed by taxi (2026)",
+   "time": "Varies",
+   "detail": "Cadillac is not served by the Island Explorer. From 20 May to 25 October 2026, private cars on Cadillac Summit Road needed a $6 vehicle reservation from Recreation.gov, not sold at the park. Visitors arriving by foot, bike or taxi do not need one."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be in the tender queue at your landing 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). From Sand Beach, board a bus that reaches the Village Green by 15:30.",
+  "detail": "Tenders run from one landing, and most passengers return in the last two hours. The Island Explorer is popular and buses can be full at Sand Beach and Jordan Pond in the afternoon, so allow for missing one bus. From Bar Island, be off the bar and back on Bridge Street by 15:45, and earlier if the tide window closes first. From Cadillac Mountain by taxi or tour, be back downtown by 15:30.",
+  "emergencyFallback": "If a bus is full or late, ask for a taxi to West Street or the Town Pier. If you will miss the last tender, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Acadia Park Loop Road and Sand Beach",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Island Explorer free; park entrance $20 per person, 7 days (rate set 2023), plus $100 for non-US residents (2026)",
+   "saving": "Depends on the tour price"
+  },
+  {
+   "item": "Cadillac Mountain summit",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi fare plus park entrance; not on the free bus",
+   "saving": "Often small once taxi fares are counted"
+  }
+ ],
+ "excursionAdvice": "For a first visit the ship's Acadia tour is worth considering if you want Cadillac Mountain, because the free bus does not go there and private cars need a timed reservation. For Sand Beach, the Loop Road and Jordan Pond, the free Island Explorer works well on a long call, provided you buy the park pass first and leave room for a full bus. Non-US residents should check whether the tour price already includes the park entrance and the 2026 $100 surcharge.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship anchors at 08:00, first tenders ashore by 08:30, a 17:30 all-aboard, a September call and Island Explorer service running.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Tender ashore. Buy your Acadia entrance pass on your phone at Recreation.gov if you have not already."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk to the Village Green and take the Island Explorer Route 3 towards Sand Beach (about 25 minutes)."
+   },
+   {
+    "time": "09:30",
+    "what": "Sand Beach, then walk along the shore path from the beach."
+   },
+   {
+    "time": "11:30",
+    "what": "Back on the bus towards Bar Harbor. On a long day, continue by bus to Jordan Pond for popovers instead."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch downtown, for example a lobster roll at Side Street Cafe on Rodick Street."
+   },
+   {
+    "time": "13:45",
+    "what": "Walk the Bar Island crossing from Bridge Street only if low tide falls in the early afternoon; otherwise visit the Abbe Museum (Monday to Saturday)."
+   },
+   {
+    "time": "15:30",
+    "what": "Back on the waterfront near your landing."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the tender queue, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Sand Beach",
+   "why": "A sand beach set between granite headlands on the Park Loop Road, with a shore path along the coast.",
+   "timeNeeded": "2–3 hours including the bus",
+   "cost": "Park entrance $35 per car or $20 per person, 7 days (rates set 2023); non-US residents add $100 (2026)",
+   "tip": "Route 3 from the Village Green takes about 25 minutes. Take an early bus."
+  },
+  {
+   "name": "Park Loop Road",
+   "why": "A 27-mile (43 km) scenic road around the east side of Mount Desert Island, linking Sieur de Monts, Sand Beach, Otter Point and Jordan Pond.",
+   "timeNeeded": "Half a day",
+   "cost": "Park entrance pass",
+   "tip": "Part of the road is one way ending at Sand Beach. The bus is easier than finding parking."
+  },
+  {
+   "name": "Jordan Pond and Jordan Pond House",
+   "why": "A clear glacial pond with mountain views, and tea and popovers at Jordan Pond House.",
+   "timeNeeded": "2–3 hours including travel",
+   "cost": "Park entrance pass",
+   "tip": "The Island Explorer stops here. Afternoons are very congested; go in the morning."
+  },
+  {
+   "name": "Cadillac Mountain",
+   "why": "The highest summit in the park, with views over Frenchman Bay and the islands.",
+   "timeNeeded": "2–3 hours by taxi or tour",
+   "cost": "Park pass; private cars also need a $6 Recreation.gov reservation, 20 May–25 October (2026)",
+   "tip": "Not served by the Island Explorer. Taxi passengers do not need the vehicle reservation."
+  },
+  {
+   "name": "Bar Island land bridge",
+   "why": "A half-mile gravel bar from Bridge Street to Bar Island that is only exposed around low tide.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "The park advises crossing within 1.5 hours either side of low tide. If the tide cuts you off you face a water taxi or about nine hours' wait. Check tide times before you go."
+  },
+  {
+   "name": "Abbe Museum (downtown)",
+   "why": "A museum of the Wabanaki Nations, the Indigenous peoples of Maine, at 26 Mount Desert Street.",
+   "timeNeeded": "1 hour",
+   "cost": "$18 adult (2026)",
+   "tip": "Open 10:00–17:00 Monday to Saturday. A good rainy-day stop."
+  },
+  {
+   "name": "Downtown Bar Harbor",
+   "why": "Compact streets of shops, cafés and the Village Green, close to both tender landings.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Keep this for the end of the day so you stay near the tenders."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Sand Beach (Acadia)",
+   "howToGetThere": "Island Explorer Route 3 from the Village Green",
+   "time": "About 25 min by bus",
+   "cost": "Free bus; park entrance pass required",
+   "note": "The water in the Gulf of Maine is cold even in late summer."
+  },
+  {
+   "name": "Bar Island bar",
+   "howToGetThere": "Walk from Bridge Street downtown",
+   "time": "Short walk to the start of the bar",
+   "cost": "Free",
+   "note": "A tidal gravel bar rather than a swimming beach. Cross only around low tide."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Lobster roll",
+   "where": "Side Street Cafe, 49 Rodick Street",
+   "price": null
+  },
+  {
+   "dish": "Blueberry pie",
+   "where": "Side Street Cafe, 49 Rodick Street",
+   "price": null
+  },
+  {
+   "dish": "Lobster with harbour views",
+   "where": "Stewman's Lobster Pound, Bar Harbor",
+   "price": null
+  },
+  {
+   "dish": "Popovers and tea",
+   "where": "Jordan Pond House, Acadia National Park",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Boarding the free bus without an Acadia entrance pass.",
+   "fix": "The bus is fare-free but riders entering the park still need a pass. Buy it on Recreation.gov before you leave the ship."
+  },
+  {
+   "mistake": "Non-US residents expecting the old fee.",
+   "fix": "From 1 January 2026, non-US residents pay an extra $100 per person at Acadia unless they hold the $250 non-resident annual pass."
+  },
+  {
+   "mistake": "Planning to reach Cadillac Mountain by Island Explorer.",
+   "fix": "The bus does not go to Cadillac. Book a tour or take a taxi."
+  },
+  {
+   "mistake": "Walking to Bar Island without checking the tide.",
+   "fix": "Cross only within 1.5 hours either side of low tide and start back in good time."
+  },
+  {
+   "mistake": "Catching the last bus back from Sand Beach or Jordan Pond.",
+   "fix": "Buses can fill in the afternoon. Aim to be back at the Village Green by 15:30 for a 17:30 all-aboard."
+  }
+ ],
+ "safety": "Bar Harbor is a safe small town. The real risks are natural: a rising tide on the Bar Island crossing, cold water at Sand Beach, slippery granite along the shore, and fast-changing weather on exposed summits. Stay back from wet rocks at the shore and keep an eye on the time when you are out in the park.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "Tender transfers depend on sea conditions; ask the ship whether wheelchair users can go ashore. Downtown streets are paved and fairly compact. The Island Explorer buses carry bikes on exterior racks; ask the operator about wheelchair access before relying on it. In the park, trails and the Bar Island crossing are uneven and unsuitable for wheelchairs; Cadillac's summit is reached by road.",
+ "rainyDay": "Skip the Bar Island crossing and exposed shore paths. Visit the Abbe Museum downtown (Monday to Saturday), then take tea and popovers at Jordan Pond House by bus if the timetable allows. Views from Cadillac are lost in low cloud.",
+ "crowdTips": "In 2026 the large Norwegian ships called on set dates from 26 August to 14 October; on those days several thousand passengers come ashore through one landing. Get on an early tender and an early bus, visit Jordan Pond in the morning, and leave downtown shopping for the afternoon. On American Cruise Lines days, with ships of about 100–130 passengers, the town is much quieter.",
+ "faqs": [
+  {
+   "q": "Is Bar Harbor a tender port?",
+   "a": "Yes. Ships anchor in Frenchman Bay. Large ships tender to the Golden Anchor pier on West Street; small American Cruise Lines ships use the floating dock at Ells Pier."
+  },
+  {
+   "q": "Is Bar Harbor walkable from the cruise tender landing?",
+   "a": "Yes for the town. Both landings are on the downtown waterfront. Acadia's main sights need the bus, a tour or a taxi."
+  },
+  {
+   "q": "How do I get from Bar Harbor cruise port to Acadia National Park?",
+   "a": "Walk to the Village Green and take the fare-free Island Explorer. Route 3 reaches Sand Beach in about 25 minutes. Buy a park entrance pass first."
+  },
+  {
+   "q": "Is there a cruise passenger cap in Bar Harbor?",
+   "a": "Since 2024 a voter-approved ordinance limits disembarkations to 1,000 people a day. In May 2026 a federal judge ruled it can be enforced only in July and August. Ships booked before March 2022 were allowed under the old rules."
+  },
+  {
+   "q": "Do I need a reservation for Cadillac Mountain?",
+   "a": "Only if you drive a private vehicle: $6 on Recreation.gov from 20 May to 25 October 2026. Visitors arriving by foot, bike or taxi do not need one, but everyone needs a park pass."
+  },
+  {
+   "q": "How much is the Acadia entrance fee?",
+   "a": "$35 per private vehicle or $20 per person on foot, bike or bus, valid seven days (rates set in 2023). From 2026 non-US residents pay an extra $100 per person."
+  },
+  {
+   "q": "What can I do in Bar Harbor in one day from a cruise ship?",
+   "a": "Take the bus to Sand Beach in the morning, have lunch in town, then walk to Bar Island at low tide or visit the Abbe Museum."
+  },
+  {
+   "q": "Is Bar Harbor safe?",
+   "a": "Yes. Watch the tide on the Bar Island crossing and take care on wet granite at the shore."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Acadia National Park"
+  },
+  {
+   "name": "Sand Beach"
+  },
+  {
+   "name": "Park Loop Road"
+  },
+  {
+   "name": "Jordan Pond"
+  },
+  {
+   "name": "Cadillac Mountain"
+  },
+  {
+   "name": "Bar Island"
+  },
+  {
+   "name": "Abbe Museum"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Town of Bar Harbor – Cruise Ship Information",
+   "url": "https://barharbormaine.gov/219/Cruise-Ship-Information"
+  },
+  {
+   "title": "Town of Bar Harbor – The Bar of Bar Harbor",
+   "url": "https://barharbormaine.gov/394/The-Bar-of-Bar-Harbor"
+  },
+  {
+   "title": "Bar Harbor Harbor Master – Cruise disembarkation",
+   "url": "https://www.bhmdpoliceme.gov/cruise-disembarkation.html"
+  },
+  {
+   "title": "NPS Acadia – Cadillac Summit Road vehicle reservations",
+   "url": "https://www.nps.gov/acad/planyourvisit/vehicle_reservations.htm"
+  },
+  {
+   "title": "NPS Acadia – Island Explorer",
+   "url": "https://home.nps.gov/acad/planyourvisit/island-explorer.htm"
+  },
+  {
+   "title": "NPS Acadia – Entrance fee news release (2023)",
+   "url": "https://www.nps.gov/acad/learn/news/20230328.htm"
+  },
+  {
+   "title": "NPS Acadia – Park Loop Road",
+   "url": "https://home.nps.gov/acad/planyourvisit/park-loop-road.htm"
+  },
+  {
+   "title": "NPS Acadia – Jordan Pond",
+   "url": "https://www.nps.gov/acad/planyourvisit/jordan-pond.htm"
+  },
+  {
+   "title": "NPS – Bar Island fast facts",
+   "url": "https://www.nps.gov/articles/000/bar-island-fast-facts.htm"
+  },
+  {
+   "title": "Explore Acadia (Island Explorer) – 2026 service",
+   "url": "https://exploreacadia.com/"
+  },
+  {
+   "title": "Abbe Museum – Visit",
+   "url": "https://www.abbemuseum.org/visit"
+  },
+  {
+   "title": "Bangor Daily News – Bar Harbor cruise legal expenses and ruling (June 2026)",
+   "url": "https://bangordailynews.com/2026/06/11/hancock/bar-harbor-cruise-ship-legal-expenses-joam40zk0w/"
+  },
+  {
+   "title": "Bangor Daily News – Acadia non-resident surcharge (Nov 2025)",
+   "url": "https://www.bangordailynews.com/2025/11/28/hancock/acadia-national-park-foreigner-surcharge/"
+  },
+  {
+   "title": "Mount Desert Islander – Cruise ship season to begin May 17 (2026)",
+   "url": "https://www.mdislander.com/news/business/cruise-ship-season-to-begin-may-17/article_66edc602-7f1f-406d-b463-8d2e08f166da.html"
+  },
+  {
+   "title": "Mount Desert Islander – NPS digital passes and fee changes",
+   "url": "https://www.mdislander.com/news/politics/national-park-service-introduces-digital-park-passes-and-entrance-fee-changes/article_92d9af3b-a58e-44a4-aa93-fec5dbd4a02e.html"
+  },
+  {
+   "title": "Mount Desert Islander – Exploring the island on the Island Explorer",
+   "url": "https://www.mdislander.com/news/tourism/all-aboard-exploring-the-island-on-the-island-explorer/article_755b354a-3e08-11ef-9286-03235ee5718f.html"
+  },
+  {
+   "title": "Bar Harbor Story – How many cruise ships are heading to Bar Harbor in 2026",
+   "url": "https://barharborstory.com/2026/04/30/how-many-cruise-ships-are-actually-heading-to-bar-harbor-this-year/"
+  },
+  {
+   "title": "Bar Harbor Story – Golden Anchor files complaint (2025)",
+   "url": "https://barharborstory.com/2025/02/03/golden-anchor-files-complaint-against-bar-harbor/"
+  },
+  {
+   "title": "The Infatuation – Side Street Cafe",
+   "url": "https://www.theinfatuation.com/bar-harbor/reviews/side-street-cafe"
+  },
+  {
+   "title": "We3Travel – Bar Harbor lobster rolls (2025)",
+   "url": "https://we3travel.com/maine-bar-harbor-lobster-rolls-the-quintessential-coastal-experience/"
+  }
+ ],
+ "uncertain": [
+  "Walking time and distance from the Golden Anchor pier and Ells Pier to the Village Green",
+  "Island Explorer frequency and journey time to Jordan Pond",
+  "Whether the $20 per-person and $35 vehicle entrance fees changed for 2026 (only the 2023 rates and the 2026 surcharge were confirmed)",
+  "Whether the $100 non-resident surcharge applies identically to bus and pedestrian entrants",
+  "Island Explorer service for calls after 12 October 2026",
+  "Wheelchair access on Island Explorer buses",
+  "Typical all-aboard time for Bar Harbor calls",
+  "Documented visitor scams (none found)"
+ ]
+}

@@ -1,0 +1,381 @@
+{
+ "slug": "riga",
+ "city": "Riga",
+ "portName": "Riga Passenger Port (Freeport of Riga)",
+ "townName": "the Old Town",
+ "country": "Latvia",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Latvian",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Riga cruise port guide: walk to the Old Town",
+ "seoDescription": "Riga's cruise berths are 0.5 km from the Old Town, a 10-minute walk. Tram or bus €1.50 for 90 min (2026). Jūrmala is 30 min by train. Back 60 min early.",
+ "quickAnswer": "Most cruise ships dock at Riga Passenger Port on Eksporta iela, about 0.5 km from the edge of the Old Town, so you can walk in around 10 minutes. No transport is needed for the city centre; a taxi or Bolt is a short ride if you need one. Be back at the ship at least 60 minutes before all-aboard, and allow more if you go to Jūrmala by train.",
+ "intro": "Riga is one of the easiest Baltic calls. The passenger port sits on the Daugava river right next to the Old Town, a UNESCO-listed medieval centre of churches, merchant houses and cobbled lanes. Beyond the Old Town are the Central Market in former Zeppelin hangars and the Art Nouveau streets around Alberta iela. On a long call the beach resort of Jūrmala is half an hour away by train. The main things to watch are the cobbles, the Baltic weather and confirming your berth, because a ship sent to a ferry or outer berth may have a longer walk.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Riga Passenger Terminal, 3a Eksporta iela (cruise berths MK-3 and MK-4)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Main cruise berths on the Daugava next to the terminal, taking ships up to 290 m. About 0.5 km from the Old Town. Taxi rank at the pier. The port authority says there is no ATM in the terminal, so get cash in town if you need it."
+  },
+  {
+   "name": "JPS-1 and JPS-2 berths",
+   "distanceToCentreKm": 0.5,
+   "notes": "JPS-1 takes small ships up to 110 m. JPS-2 is normally a ferry berth used by cruise ships when the main berths are full. Both are by the same terminal. Check your berth in the daily programme."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.5,
+  "detail": "Flat and paved from the terminal to the edge of the Old Town. Inside the Old Town the streets are cobbled and uneven. If your ship is sent to a more distant berth, follow the ship's shuttle or taxi advice."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 10 min to the edge of the Old Town",
+   "detail": "Walk south from the terminal along the river towards the Old Town. Most of the sights are within the Old Town, so you can see them on foot."
+  },
+  {
+   "mode": "Tram, bus or trolleybus (Rīgas satiksme)",
+   "cost": "€1.50 for a 90-minute ticket; €2 for a single trip bought from the driver; 24-hour ticket €5 (2026)",
+   "time": "A few minutes into the centre",
+   "detail": "Trams on lines 5, 6, 7, 9 and 11 serve the port area; the Kronvalda bulvāris stop is about 500 m away. The 90-minute ticket allows transfers. Useful for the Art Nouveau district or if walking is difficult. Validate your ticket when you board."
+  },
+  {
+   "mode": "Taxi or Bolt",
+   "cost": "Roughly €5–10 by taxi, €4–8 by Bolt into the centre (2026)",
+   "time": "5–10 min",
+   "detail": "Taxis queue at the pier. Bolt shows the fare before you book. Uber does not operate in Latvia. Use the official queue or an app rather than accepting offers from drivers who approach you."
+  },
+  {
+   "mode": "Train to Jūrmala (Vivi)",
+   "cost": "Check the current fare at the station or in the Vivi app",
+   "time": "30–33 min from Riga Central Station to Majori",
+   "detail": "Trains leave Riga Central Station (Stacijas laukums 1) towards Sloka, Ķemeri or Tukums. Buy a ticket to Majori: there is no station called Jūrmala. Tickets are sold at the counters, in the Vivi app, or from the conductor for a surcharge. Check the return timetable before you leave."
+  },
+  {
+   "mode": "Hop-on hop-off bus",
+   "cost": "About €20 day pass (2026)",
+   "time": "Varies",
+   "detail": "Serves the terminal on many cruise days. Useful mainly if walking is difficult; the Old Town itself is better on foot."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard from the Old Town. From Jūrmala, be on a train leaving Majori at least 2 hours 30 minutes before all-aboard.",
+  "detail": "The Old Town is a 10-minute walk, so the main risk is losing track of time in the lanes or at the market. A Jūrmala trip depends on train times, the walk to Riga Central Station and then the walk or taxi to the port, so it needs a large margin.",
+  "emergencyFallback": "Take a taxi or Bolt from the Old Town or Riga Central Station straight to 3a Eksporta iela. If you will miss all-aboard, call the port agent number in your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Riga Old Town walking tour",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot; St Peter's tower €9, House of the Blackheads €7 (2026)",
+   "saving": "Most of the ship tour price"
+  },
+  {
+   "item": "Jūrmala beach and Majori",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Train from Riga Central Station to Majori, about 30 minutes each way; check the fare in the Vivi app",
+   "saving": "Depends on the ship's price"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for the Old Town: it starts a few minutes' walk from the gangway and is easy to explore alone. A ship tour is worth it for Rundāle Palace, which is far outside the city, and for the Ethnographic Open-Air Museum if you do not want to work out transport. Jūrmala is the borderline case: easy by train on a long call, but on a short call or with an early all-aboard the ship's tour removes the train-timing risk.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship and south along the river into the Old Town, about 10 minutes."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk through the Swedish Gate and past the Three Brothers while the lanes are quiet."
+   },
+   {
+    "time": "10:00",
+    "what": "Take the lift up St Peter's Church tower (opens 10:00, €9) for the view over the rooftops and river."
+   },
+   {
+    "time": "10:45",
+    "what": "Town Hall Square and the House of the Blackheads (closed Mondays)."
+   },
+   {
+    "time": "11:45",
+    "what": "Riga Cathedral; on weekdays there is often a short organ concert around midday."
+   },
+   {
+    "time": "12:30",
+    "what": "Walk to the Central Market for lunch at the indoor stalls, or eat at a Lido buffet."
+   },
+   {
+    "time": "14:00",
+    "what": "Tram or walk to Alberta iela for the Art Nouveau façades and, if you have time, the Art Nouveau Museum."
+   },
+   {
+    "time": "15:45",
+    "what": "Head back towards the Old Town and the river, or take a taxi from Alberta iela."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Town Hall Square and the House of the Blackheads",
+   "why": "The ornate guild house on Town Hall Square, the centrepiece of the Old Town.",
+   "timeNeeded": "45 minutes",
+   "cost": "€7 with audio guide (2026)",
+   "tip": "Open Tuesday to Sunday 10:00–17:00, last entry 16:30. Closed Mondays."
+  },
+  {
+   "name": "St Peter's Church tower",
+   "why": "A lift takes you to a 72 m viewing platform over the Old Town and the Daugava.",
+   "timeNeeded": "45 minutes",
+   "cost": "€9 (2026)",
+   "tip": "Open daily 10:00–18:00 from April to October, 10:00–17:00 from November to March. Tickets stop 30 minutes before closing."
+  },
+  {
+   "name": "Riga Cathedral",
+   "why": "The city's main cathedral, known for its large organ.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "€3; organ concerts about €10 (2026)",
+   "tip": "Short organ concerts of about 20 minutes run on weekdays from around 12:00. Sunday opening is afternoon only."
+  },
+  {
+   "name": "Three Brothers and the Swedish Gate",
+   "why": "Three medieval houses side by side on Mazā Pils iela, and the only surviving gate in the old city wall.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free from outside; Museum of Architecture inside the Three Brothers €3 (2026)",
+   "tip": "Go early, before groups arrive. The lanes by the Swedish Gate get slippery in rain."
+  },
+  {
+   "name": "Riga Central Market",
+   "why": "A huge food market in former Zeppelin hangars, with hot-food stalls and smoked fish.",
+   "timeNeeded": "1 hour",
+   "cost": "Free entry; hot meals at stalls about €4–6 (2026)",
+   "tip": "About five minutes' walk from the edge of the Old Town. Open Monday to Saturday 07:00–17:00, Sunday 07:00–15:00. Watch your bag."
+  },
+  {
+   "name": "Art Nouveau district (Alberta iela)",
+   "why": "Streets of ornate Art Nouveau façades, centred on Alberta iela.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Façades free; Art Nouveau Museum €10 (2026)",
+   "tip": "The museum at Alberta iela 12 is open Tuesday to Sunday 10:00–18:00, with English tours at 12:00 and 15:00 included in the ticket."
+  },
+  {
+   "name": "Jūrmala (Majori)",
+   "why": "The Baltic beach resort, with its central beach and the pedestrian street Jomas iela.",
+   "timeNeeded": "3.5–4 hours including travel",
+   "cost": "Train fare; beach free",
+   "tip": "Only on a long call. Jomas iela starts at the edge of Majori station."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Majori beach, Jūrmala",
+   "howToGetThere": "Walk to Riga Central Station, then a Vivi train to Majori",
+   "time": "30–33 min by train, plus the walk to the station",
+   "cost": "Train fare; beach free",
+   "note": "The central beach of the resort, reached from Majori."
+  },
+  {
+   "name": "Dzintari or Dubulti, Jūrmala",
+   "howToGetThere": "Same train line; stops either side of Majori",
+   "time": "About 30 min by train",
+   "cost": "Train fare; beach free",
+   "note": "Quieter alternatives to Majori."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Grey peas with bacon (pelēkie zirņi ar speķi)",
+   "where": "Folkklubs Ala Pagrabs, Peldu iela (Old Town)",
+   "price": null
+  },
+  {
+   "dish": "Latvian buffet: potatoes, pork, salads and rye bread",
+   "where": "Lido restaurants (Old Town and city centre)",
+   "price": null
+  },
+  {
+   "dish": "Smoked fish, sauerkraut and pickles",
+   "where": "Riga Central Market",
+   "price": null
+  },
+  {
+   "dish": "Medieval-style Latvian dishes",
+   "where": "Rozengrāls (Old Town)",
+   "price": null
+  },
+  {
+   "dish": "Weekday two-course lunch (pusdienu piedāvājums)",
+   "where": "Cafés across the Old Town, look for the sign",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming every ship docks at the main passenger terminal.",
+   "fix": "Check your berth in the daily programme. When the main berths are full, ships may use the ferry berth, and the walk may differ."
+  },
+  {
+   "mistake": "Planning on the House of the Blackheads on a Monday.",
+   "fix": "It is closed on Mondays. See it from Town Hall Square and go up St Peter's tower instead."
+  },
+  {
+   "mistake": "Buying a train ticket to 'Jūrmala'.",
+   "fix": "There is no station of that name. Buy a ticket to Majori, the central part of the resort."
+  },
+  {
+   "mistake": "Expecting a cash machine in the terminal.",
+   "fix": "There is no ATM in the terminal. Cards are widely accepted; use a bank ATM in town if you need cash."
+  },
+  {
+   "mistake": "Accepting an invitation from friendly strangers to a bar.",
+   "fix": "This is a known setup for inflated bills. Choose your own venue and check prices before ordering."
+  }
+ ],
+ "safety": "Riga is generally safe for visitors. Pickpocketing and bag snatching happen, mainly in the Old Town, around the Central Market and at the central railway and bus stations, so keep valuables zipped away. Some bars and nightclubs overcharge, sometimes with threats; confirm prices, avoid open tabs and never hand your card to staff. The cobbles are uneven and slippery in rain. The Riga Tourist Police can be reached in English on +371 6718 1818 at any hour.",
+ "scams": [
+  "Bar and nightclub overcharging: strangers invite you to a bar, then the bill is inflated and visitors have been pressured to pay. Confirm prices and check the bill.",
+  "Card and ATM fraud: use ATMs inside banks, cover your PIN and avoid unusual card readers.",
+  "Taxi overcharging: use the queue at the pier or a booking app such as Bolt, and agree the fare first if the taxi has no app price."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The route from the terminal to the edge of the Old Town is flat and paved. Inside the Old Town the streets are cobbled, with kerbs and uneven surfaces that are hard going for wheelchairs and walkers. St Peter's tower has a lift to the viewing platform. Wheelchair-accessible taxis can usually be booked with notice, and the Vivi trains to Jūrmala have level boarding at Riga Central, Dzintari and Majori.",
+ "rainyDay": "Rain is common. Spend the day indoors at Riga Cathedral (with a midday organ concert on weekdays), the House of the Blackheads, the Museum of Architecture in the Three Brothers, the Art Nouveau Museum and the covered pavilions of the Central Market. Wear shoes with grip, because the cobbles become slippery, and skip Jūrmala.",
+ "crowdTips": "On cruise days the Old Town, Town Hall Square and the Central Market fill from mid-morning. Walk the lanes and the Swedish Gate before 10:00, go up St Peter's tower when it opens, and leave the Art Nouveau district for the afternoon, when it is quieter. Book ahead if you want a sit-down dinner on an overnight call, especially at weekends.",
+ "faqs": [
+  {
+   "q": "Is Riga walkable from the cruise port?",
+   "a": "Yes. The passenger terminal is about 0.5 km from the Old Town, roughly a 10-minute walk on flat ground."
+  },
+  {
+   "q": "How do I get from Riga cruise port to the Old Town?",
+   "a": "Walk south along the river for about 10 minutes. A taxi or Bolt costs a few euros if you need one."
+  },
+  {
+   "q": "Is Riga a tender port?",
+   "a": "No. Cruise ships dock at berths next to the passenger terminal on Eksporta iela."
+  },
+  {
+   "q": "How much is a tram ticket in Riga?",
+   "a": "A 90-minute ticket costs €1.50 and a ticket bought from the driver costs €2 (2026). A 24-hour ticket is €5."
+  },
+  {
+   "q": "What can I do in Riga in one day from a cruise ship?",
+   "a": "The Old Town with St Peter's tower, the House of the Blackheads and the cathedral in the morning, then lunch at the Central Market and the Art Nouveau streets in the afternoon."
+  },
+  {
+   "q": "Beaches near Riga cruise port",
+   "a": "The nearest proper beach is at Jūrmala. Take a train from Riga Central Station to Majori, about 30 minutes."
+  },
+  {
+   "q": "Is there an ATM at Riga cruise terminal?",
+   "a": "No. Cards are widely accepted; use a bank ATM in town if you need cash."
+  },
+  {
+   "q": "Is Riga safe?",
+   "a": "Yes, with normal care. Watch for pickpockets in the Old Town and the market, and be wary of invitations to bars from strangers."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Riga Old Town"
+  },
+  {
+   "name": "House of the Blackheads"
+  },
+  {
+   "name": "St Peter's Church"
+  },
+  {
+   "name": "Riga Cathedral"
+  },
+  {
+   "name": "Riga Central Market"
+  },
+  {
+   "name": "Art Nouveau district"
+  },
+  {
+   "name": "Jūrmala"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Freeport of Riga Authority – Passengers",
+   "url": "https://rop.lv/en/passengers"
+  },
+  {
+   "title": "Riga Passenger Terminal – About us",
+   "url": "https://rigapt.lv/en/about-us"
+  },
+  {
+   "title": "Rīgas satiksme – Tickets for a certain number of trips",
+   "url": "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets/ticket-for-a-certain-number-of-trips/"
+  },
+  {
+   "title": "Rīgas satiksme – Time tickets",
+   "url": "https://www.rigassatiksme.lv/en/tickets-and-e-ticket/types-and-prices-of-tickets-1/time-ticket/"
+  },
+  {
+   "title": "LSM – Rīga's bus tickets will not get costlier because of fuel (March 2026)",
+   "url": "https://eng.lsm.lv/article/economy/transport/19.03.2026-rigas-bus-tickets-will-not-get-costlier-because-of-fuel-says-mayor.a639491/"
+  },
+  {
+   "title": "Live Riga – Visiting Jūrmala from Riga",
+   "url": "https://www.liveriga.com/en/14947-visiting-jurmala-from-riga"
+  },
+  {
+   "title": "Visit Jūrmala – Getting to Jūrmala",
+   "url": "https://www.visitjurmala.lv/en/getting-to-jurmala/"
+  },
+  {
+   "title": "Government of Canada – Latvia travel advice",
+   "url": "https://travel.gc.ca/destinations/latvia"
+  },
+  {
+   "title": "CruiseMapper – Riga port",
+   "url": "https://www.cruisemapper.com/ports/riga-port-53"
+  },
+  {
+   "title": "Redzet.lv – Riga Passenger Port",
+   "url": "https://www.redzet.lv/en/info/Riga_Passenger_Port"
+  },
+  {
+   "title": "App Savvy Traveller – Riga cruise port guide",
+   "url": "https://appsavvytraveller.com/riga-cruise-port-guide/"
+  },
+  {
+   "title": "Euro City Guide – Riga Old Town guide (2026)",
+   "url": "https://eurocityguide.com/latvia/riga-old-town-guide"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Riga, Latvia",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/riga-latvia/"
+  },
+  {
+   "title": "Princess Cruises – Cruises to Riga",
+   "url": "https://www.princess.com/cruise-destinations/european-cruises/cruises-to-riga-latvia"
+  }
+ ],
+ "uncertain": [
+  "Riga–Majori train fare: the Visit Jūrmala page gives €2.30 and Live Riga gives about €1.50; regional train fares also rose in January 2026.",
+  "How often trains run between Riga and Majori.",
+  "Walking time from the terminal to Town Hall Square and from the Central Market back to the port.",
+  "Prices of the 3-day and 5-day Rīgas satiksme tickets were not checked on the operator's own page."
+ ]
+}

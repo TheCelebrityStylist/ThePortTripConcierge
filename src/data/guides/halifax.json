@@ -1,0 +1,154 @@
+{
+  "slug": "halifax",
+  "city": "Halifax",
+  "portName": "Port of Halifax (Seaport, Pavilions 20 and 22)",
+  "townName": "downtown Halifax and the waterfront",
+  "country": "Canada",
+  "currency": "CAD",
+  "currencySymbol": "C$",
+  "language": "English",
+  "timezone": "AST (UTC-4), ADT (UTC-3) in summer",
+  "lastVerified": "October 2026",
+  "seoTitle": "Halifax cruise port guide: Citadel, waterfront, Peggy's Cove",
+  "seoDescription": "Halifax cruise port 2026: ships dock at the Seaport, downtown 20–30 min on foot. Citadel C$22 (free 19 Jun–7 Sep), ferry C$3. Peggy's Cove 50 min by road.",
+  "quickAnswer": "Ships dock alongside at the Seaport and you walk off into Pavilion 20 or 22; there is no tender. Downtown is a 20–30 minute walk along the waterfront boardwalk, and the Citadel is about 30 minutes on foot, uphill. Start back from downtown 90 minutes before all-aboard, and from Peggy's Cove at least 2.5 hours before.",
+  "intro": "Halifax is an easy docking port: the gangway leads into the Seaport pavilions, and the city's 4 km waterfront boardwalk starts outside the door. The day splits into two choices. Stay in the city for the Citadel, the Maritime Museum's Titanic and Halifax Explosion galleries and Pier 21 next to the ship, or go out to Peggy's Cove, which has no public transport and takes about 50 minutes each way by road. The port expected 189 cruise calls in 2026, and four ships have docked on a single day, so autumn days in particular can be busy.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 9,
+  "terminals": [
+    {"name": "Pavilion 22 (Seaport)", "distanceToCentreKm": null, "notes": "Main cruise passenger building, reached by covered gangways. Has a visitor information centre, souvenir stalls and toilets. Taxis, tour buses and the hop-on hop-off bus wait outside."},
+    {"name": "Pavilion 20 (Seaport)", "distanceToCentreKm": null, "notes": "Second cruise pavilion on the same continuous berth (over 600 m). Same walking route along the waterfront to downtown."}
+  ],
+  "walkability": {"verdict": "Yes", "minutes": 25, "km": null, "detail": "Downtown is 20–30 minutes on foot along Lower Water Street or the waterfront boardwalk, which is flat. The Citadel sits on a hill above downtown and is about 30 minutes' walk from the ship, with a steady climb at the end."},
+  "transportSections": [
+    {"mode": "On foot (waterfront boardwalk)", "cost": "Free", "time": "20–30 min to downtown", "detail": "The boardwalk starts at the cruise terminal and runs about 4 km past the Cunard District, Bishop's Landing and Queen's Marque to the downtown waterfront. Flat and paved the whole way."},
+    {"mode": "Taxi or rideshare", "cost": "Metered; no verified fare", "time": "5–10 min to downtown", "detail": "Taxis wait outside Pavilion 22 and rideshares operate in Halifax. Tipping drivers 10–15% is customary."},
+    {"mode": "Halifax Transit bus", "cost": "C$3.00 adult cash, exact fare (2026)", "time": "Varies by route", "detail": "Pay in coins or notes as you board; drivers cannot give change. Ask for a paper transfer, valid 90 minutes on buses and ferries. Tickets can also be bought on the HFXGO app, valid 150 minutes."},
+    {"mode": "Alderney ferry to Dartmouth", "cost": "C$3.00 adult cash (2026)", "time": "About 12 min crossing", "detail": "Leaves from the Halifax Ferry Terminal on the downtown waterfront. Every 15 minutes in the daytime on weekdays, every 30 minutes at weekends. A cheap harbour view; the same fare and transfers as the bus."},
+    {"mode": "Taxi tour to Peggy's Cove", "cost": "About C$150 flat with roughly an hour on site (Casino Taxi, as listed by Discover Halifax); C$80–100 each way otherwise", "time": "About 50 min each way", "detail": "Halifax Transit does not serve Peggy's Cove. Your options are a tour, a taxi or a rental car. Confirm the price and return time before you set off."},
+    {"mode": "Harbour Hopper (amphibious tour)", "cost": "From C$55.22 adult plus HST and booking fee (2026)", "time": "55 min", "detail": "Departs from the Salter Street lot, 1549 Lower Water Street, on the downtown waterfront. Runs 1 May to 3 November 2026; times vary by day."}
+  ],
+  "returnTiming": {
+    "rule": "Leave downtown by 16:00 for a 17:30 all-aboard (90 minutes before). Leave Peggy's Cove by 15:00 at the latest (2.5 hours before).",
+    "detail": "The walk back from downtown takes 20–30 minutes and you need to be on board 60 minutes before all-aboard. The Citadel adds a downhill 30-minute walk. Peggy's Cove is about 50 minutes each way by road with no public transport, and traffic on the way back into Halifax can add time.",
+    "emergencyFallback": "Taxis are the quickest way back from anywhere in the city; downtown to the Seaport is 5–10 minutes by car. If you are delayed outside the city, call the port agent number on your ship's daily programme at once."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": 44,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {"item": "Halifax Citadel", "ship": "Varies by line; check your cruise planner", "diy": "Walk 30 min; C$22 adult, free 19 June–7 September 2026", "saving": "You need no transport"},
+    {"item": "Pier 21 immigration museum", "ship": "Varies by line; check your cruise planner", "diy": "Next to the cruise pavilions; C$19 adult (2026)", "saving": "You need no transport"},
+    {"item": "Peggy's Cove", "ship": "Varies by line; check your cruise planner", "diy": "Taxi tour about C$150 per car, about an hour on site", "saving": "Depends on group size; the timing risk is yours"},
+    {"item": "Dartmouth by ferry", "ship": "Not usually sold", "diy": "C$3 each way", "saving": "Cheapest harbour trip"}
+  ],
+  "excursionAdvice": "Skip the ship tour for the city: the Citadel, the waterfront, the Maritime Museum and Pier 21 are all on foot from the ship. Peggy's Cove is where a ship tour earns its price. There is no bus, the road takes about 50 minutes each way, and the village gets very busy when several ships are in. A taxi tour shared by four people can work out cheaper, but if the car is late back, the ship will not wait. Lunenburg and Mahone Bay combined with Peggy's Cove make a long day, and that is ship-tour territory.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 at the Seaport and all-aboard is 17:30. A city day on foot.",
+    "steps": [
+      {"time": "08:30", "what": "Off the ship. Pier 21 opens at 09:30, so start with a coffee and a look at the harbour, or the Seaport Farmers' Market if it is a weekend."},
+      {"time": "09:30", "what": "Canadian Museum of Immigration at Pier 21, next to the pavilions. Allow an hour."},
+      {"time": "10:40", "what": "Walk north along the waterfront boardwalk towards downtown, then up the hill to the Citadel (about 30 minutes in total)."},
+      {"time": "11:15", "what": "Halifax Citadel. Be on the ramparts for the noon gun at 12:00."},
+      {"time": "12:45", "what": "Walk down to the waterfront. Lunch: a lobster roll at Dave's Lobster on Lower Water Street, or a donair."},
+      {"time": "13:45", "what": "Maritime Museum of the Atlantic for the Titanic and Halifax Explosion galleries."},
+      {"time": "14:45", "what": "Optional: Alderney ferry to Dartmouth and back (12 minutes each way) for the view of the city."},
+      {"time": "16:00", "what": "Start walking back along the waterfront to the Seaport, 20–30 minutes."},
+      {"time": "16:30", "what": "Back on board, 60 minutes before all-aboard."}
+    ]
+  },
+  "sights": [
+    {"name": "Halifax Citadel National Historic Site", "why": "Star-shaped 19th-century hilltop fort with costumed 78th Highlanders, sentry changes and the Army Museum.", "timeNeeded": "2 hours", "cost": "C$22 adult, C$18.75 senior, free 17 and under; free for everyone 19 June–7 September 2026", "tip": "Open 09:00–17:00 from 7 May to 5 November 2026. The noon gun fires daily at 12:00. Guided tours with a costumed guide are included with admission from May to October."},
+    {"name": "Canadian Museum of Immigration at Pier 21", "why": "The shed where about a million immigrants entered Canada, now a museum, beside the cruise pavilions.", "timeNeeded": "1–1.5 hours", "cost": "C$19 adult, C$15 senior 60+, C$13 youth 6–16 (2026, tax included)", "tip": "Open 09:30–17:30 daily from May to 31 October. The closest sight to the ship, so it suits the start or end of the day."},
+    {"name": "Maritime Museum of the Atlantic", "why": "Titanic artefacts recovered by Halifax ships, and the story of the 1917 Halifax Explosion.", "timeNeeded": "1 hour", "cost": "C$9.55 adult, May–October (museum's listed rate)", "tip": "1675 Lower Water Street on the waterfront. Open 09:30–16:30, until 20:00 on Tuesdays."},
+    {"name": "Halifax Waterfront Boardwalk", "why": "About 4 km of harbourside walkway from the Seaport to downtown, with food stalls, shops and benches.", "timeNeeded": "1 hour or more", "cost": "Free", "tip": "Use it as your route between the ship and downtown rather than the road."},
+    {"name": "Alderney ferry to Dartmouth", "why": "Twelve-minute crossing with a view back to the Halifax skyline.", "timeNeeded": "45 minutes round trip", "cost": "C$3.00 each way, adult cash (2026)", "tip": "Ask for a transfer when you pay. At weekends boats run only every 30 minutes, so check the return time."},
+    {"name": "Halifax Public Gardens", "why": "Victorian formal gardens at the top of Spring Garden Road, a short walk beyond the Citadel.", "timeNeeded": "45 minutes", "cost": "Free", "tip": "Opens daily at 08:00. Free one-hour garden tours from June to October at 10:30, 12:00, 13:30 and 15:00."},
+    {"name": "Peggy's Cove", "why": "Fishing village and lighthouse on bare granite rocks on the Atlantic shore.", "timeNeeded": "4 hours including about 50 minutes' drive each way", "cost": "Free to visit; transport by tour, taxi or rental car", "tip": "Stay off the black rocks near the water: waves here are strong."},
+    {"name": "Fairview Lawn Cemetery", "why": "Graves of 121 Titanic victims, many marked only with numbers.", "timeNeeded": "1.5 hours including taxi", "cost": "Free", "tip": "North of downtown and too far to walk on a port day. Open in daylight hours."}
+  ],
+  "beaches": [
+    {"name": "Point Pleasant Park shoreline", "howToGetThere": "Walk south from the Seaport or take a short taxi ride", "time": "Allow extra time; distance from the ship not verified", "cost": "Free", "note": "A 75-hectare wooded park with 39 km of easy trails and old fort ruins along the harbour mouth. A walking spot, not a swimming beach."}
+  ],
+  "food": [
+    {"dish": "Lobster roll", "where": "Dave's Lobster, 1549 Lower Water Street (waterfront)", "price": null},
+    {"dish": "Halifax donair (the city's official food)", "where": "King of Donair, Tony's Donair or Mezza Lebanese Kitchen", "price": null},
+    {"dish": "Seafood and harbour views", "where": "Restaurants in the Cunard District, Bishop's Landing and Queen's Marque on the waterfront", "price": null},
+    {"dish": "Seafood chowder", "where": "The Canteen, 22 Portland Street, Dartmouth (by ferry)", "price": null},
+    {"dish": "BeaverTails pastry", "where": "BeaverTails on the Halifax waterfront", "price": null}
+  ],
+  "commonMistakes": [
+    {"mistake": "Planning to reach Peggy's Cove by public bus.", "fix": "No Halifax Transit route goes there. Book a tour or a taxi tour, or rent a car, and allow about 50 minutes each way."},
+    {"mistake": "Arriving at the Citadel after midday and missing the noon gun.", "fix": "The gun fires at 12:00. Head up by 11:15 and allow 30 minutes' walk from the ship."},
+    {"mistake": "Climbing onto the dark rocks at Peggy's Cove for a photo.", "fix": "Stay on the dry, light-coloured granite. Waves are stronger than they look."},
+    {"mistake": "Trying to pay the bus or ferry fare with a large note.", "fix": "Carry exact change (C$3.00 adult); drivers cannot give change."},
+    {"mistake": "Assuming the Citadel is still free after early September.", "fix": "Free entry in 2026 ran from 19 June to 7 September. In autumn, budget C$22 for adults."}
+  ],
+  "safety": "Halifax is a safe city for visitors. The main hazards are the weather and the sea. Fog and rain can roll in quickly, so carry a layer even in summer. At Peggy's Cove the waves are strong; keep well back from the water and off wet or black rock. Downtown streets near the Citadel are steep, which matters in rain.",
+  "scams": [
+    "Unagreed taxi tour prices: agree the total fare, the time on site and the return time before you leave for Peggy's Cove."
+  ],
+  "emergencyNumber": "911",
+  "accessibility": "Ships berth alongside with covered gangways into the pavilions, so there is no tender. The waterfront boardwalk from the Seaport to downtown is flat. The Citadel is at the top of a steep hill; take a taxi up. Parks Canada lists accessible parking, toilets and facilities at the Citadel and gives free entry to support persons, though parts of the fort have uneven ground. Pier 21 is next to the ship. Peggy's Cove is bare, uneven rock away from the paths.",
+  "rainyDay": "Halifax works well in rain because the main museums are close together. Start at Pier 21 beside the ship, then take a taxi to the Maritime Museum of the Atlantic and the Citadel, where the Army Museum and the barrack rooms are indoors. Peggy's Cove in fog and rain is a poor trip, and the rocks become more dangerous.",
+  "crowdTips": "The 2026 season ran from April to November with 189 calls expected, and four ships docked on one day in September. Autumn colour season is the busiest time. On multi-ship days Peggy's Cove gets coach traffic all day; go early or not at all. In the city, Pier 21 is quietest at opening at 09:30, and the Citadel is busiest around the noon gun.",
+  "faqs": [
+    {"q": "Is Halifax a tender port?", "a": "No. Ships dock at the Seaport and you walk into Pavilion 20 or 22 by covered gangway."},
+    {"q": "Is Halifax walkable from the cruise port?", "a": "Yes. Downtown is 20–30 minutes along the flat waterfront boardwalk. The Citadel is about 30 minutes' walk, uphill at the end."},
+    {"q": "How do I get from Halifax cruise port to Peggy's Cove?", "a": "By tour, taxi or rental car. There is no public bus. The drive is about 50 minutes each way; Discover Halifax lists a taxi tour at about C$150 with roughly an hour there."},
+    {"q": "How much is the Halifax Citadel?", "a": "C$22 for adults, C$18.75 for seniors and free for 17 and under. Entry was free for all from 19 June to 7 September 2026."},
+    {"q": "What time is the Halifax noon gun?", "a": "It is fired from the Citadel every day at 12:00."},
+    {"q": "What can I do in Halifax in one day from a cruise ship?", "a": "Pier 21 beside the ship, the Citadel for the noon gun, a lobster roll on the waterfront, the Maritime Museum and the ferry to Dartmouth, all on foot."},
+    {"q": "Are there beaches near Halifax cruise port?", "a": "Not for swimming in the city. Point Pleasant Park, south of the Seaport, has shoreline trails."},
+    {"q": "Is Halifax safe?", "a": "Yes. Take care with the weather and keep well away from the waves at Peggy's Cove."}
+  ],
+  "topAttractions": [
+    {"name": "Halifax Citadel National Historic Site"},
+    {"name": "Canadian Museum of Immigration at Pier 21"},
+    {"name": "Maritime Museum of the Atlantic"},
+    {"name": "Halifax Waterfront Boardwalk"},
+    {"name": "Peggy's Cove"},
+    {"name": "Halifax Public Gardens"},
+    {"name": "Fairview Lawn Cemetery"}
+  ],
+  "sources": [
+    {"title": "Parks Canada – Halifax Citadel admission fees", "url": "https://www.parks.canada.ca/lhn-nhs/ns/halifax/visit/tarifs-fees"},
+    {"title": "Parks Canada – Halifax Citadel National Historic Site", "url": "https://parks.canada.ca/lhn-nhs/ns/halifax"},
+    {"title": "Parks Canada – Halifax Citadel, plan your visit", "url": "https://parks.canada.ca/lhn-nhs/ns/halifax/visit"},
+    {"title": "Tourism Nova Scotia – Halifax Citadel listing", "url": "https://www.novascotia.com/listing/halifax-citadel-national-historic-site/"},
+    {"title": "Halifax Transit – Fares, tickets and passes", "url": "https://www.halifax.ca/transportation/halifax-transit/fares-tickets-passes"},
+    {"title": "Halifax Transit – Fare strategy FAQ (2024 fare change)", "url": "https://www.halifax.ca/transportation/halifax-transit/fares-tickets-passes/fare-strategy-frequently-asked-questions"},
+    {"title": "Halifax Transit – Ferry service", "url": "https://halifax.ca/ferry"},
+    {"title": "Canadian Museum of Immigration at Pier 21 – Hours and admission", "url": "https://pier21.ca/visit/hours-and-admission-prices"},
+    {"title": "Canadian Museum of Immigration at Pier 21 – Location", "url": "https://www.pier21.ca/visit/location-parking"},
+    {"title": "Maritime Museum of the Atlantic – Hours and admissions", "url": "https://maritimemuseum.novascotia.ca/visit-us/hours-admissions"},
+    {"title": "Maritime Museum of the Atlantic – Home", "url": "https://maritimemuseum.novascotia.ca"},
+    {"title": "Halifax Public Gardens", "url": "https://halifaxpublicgardens.ca/home"},
+    {"title": "Halifax Regional Municipality – Point Pleasant Park", "url": "https://www.halifax.ca/parks-recreation/parks-trails-gardens/parks-outdoor-spaces/point-pleasant-park"},
+    {"title": "Discover Halifax – How to get to Peggy's Cove", "url": "https://discoverhalifaxns.com/things-to-do/attractions/how-to-get-to-peggys-cove/"},
+    {"title": "Discover Halifax – Halifax waterfront guide", "url": "https://discoverhalifaxns.com/ask-a-local/halifax-waterfront-guide/"},
+    {"title": "Discover Halifax – Top places for lobster rolls", "url": "https://discoverhalifaxns.com/food-drink/top-5-places-to-get-lobster-rolls/"},
+    {"title": "Discover Halifax – Local foods to try (2026)", "url": "https://discoverhalifaxns.com/?p=112025"},
+    {"title": "Ambassatours – Harbour Hopper tours (2026)", "url": "https://www.ambassatours.com/harbour-hopper-tours"},
+    {"title": "Celebrity Cruises – Halifax port guide", "url": "https://www.celebritycruises.com/gb/ports/halifax"},
+    {"title": "What's in Port – Halifax", "url": "https://www.whatsinport.com/Halifax.htm"},
+    {"title": "BNN Bloomberg / CTV – Four cruise ships in one day (Sept 2026)", "url": "https://www.bnnbloomberg.ca/business/economics/2026/09/19/four-cruise-ships-in-one-day-what-is-behind-one-of-halifaxs-biggest-cruise-seasons-yet/"},
+    {"title": "Tourism Nova Scotia – Cruise statistics", "url": "https://tourismns.ca/cruise"},
+    {"title": "Frommer's – Fairview Lawn Cemetery", "url": "https://www.frommers.com/destinations/halifax/attractions/fairview-lawn-cemetery"},
+    {"title": "Cruise Hive – Halifax cruise port guide", "url": "https://www.cruisehive.com/halifax-cruise-port/197912"}
+  ],
+  "uncertain": [
+    "The Port of Halifax's own cruise pages could not be opened; berth and pavilion details come from Celebrity Cruises, What's in Port and Cruise Hive.",
+    "Exact walking distance in km from the pavilions to downtown and to Point Pleasant Park not verified; only walking times from secondary sources.",
+    "No typical all-aboard time found; 17:30 assumed.",
+    "Taxi fare from the ship to the Citadel (one guide says about C$10) and metered taxi rates not verified.",
+    "Maritime Museum hours and prices are from the museum's site but the page does not state the year they apply to.",
+    "Peggy's Cove taxi and taxi-tour prices come from Discover Halifax and are not dated.",
+    "Seaport Farmers' Market weekend hours come from a tour operator site; not confirmed with the market.",
+    "Halifax Transit route numbers serving the Seaport not verified.",
+    "Restaurant prices not verified.",
+    "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null."
+  ]
+}

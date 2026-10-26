@@ -1,0 +1,382 @@
+{
+ "slug": "puntarenas",
+ "city": "Puntarenas",
+ "portName": "Puntarenas Cruise Pier (some ships use Puerto Caldera)",
+ "townName": "Paseo de los Turistas",
+ "country": "Costa Rica",
+ "currency": "CRC",
+ "currencySymbol": "₡",
+ "priceSymbol": "US$",
+ "language": "Spanish",
+ "timezone": "CST (UTC−6), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Puntarenas cruise port guide: pier, Caldera, Carara",
+ "seoDescription": "Puntarenas pier leads onto the Paseo de los Turistas; big ships use Puerto Caldera, 20 min away by taxi. Carara Park US$10, 1–1.5 h away. Return times here.",
+ "quickAnswer": "Many ships tie up at the long Puntarenas cruise pier, which lands you on the Paseo de los Turistas beach promenade, so the town is walkable. Others, including ships too large for the pier, use Puerto Caldera, an industrial port about 20 minutes away by taxi with nothing to walk to. From town, be back at the pier 60 minutes before all-aboard; from Caldera days or inland trips, allow 90 minutes plus the drive.",
+ "intro": "Puntarenas is a long, thin sandspit pushing into the Gulf of Nicoya, and the cruise pier sticks out from its southern beach. Step off it and you are on the Paseo de los Turistas, the seafront walk of sodas, craft stalls and churchill kiosks. The town itself is a working port city rather than a resort, so many passengers head inland for wildlife: scarlet macaws at Carara, crocodiles at the Tárcoles bridge, or the longer run to Manuel Antonio. The first thing to check is your berth: if your ship is at Puerto Caldera, every plan starts with a taxi.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 10,
+ "terminals": [
+  {
+   "name": "Puntarenas Cruise Pier (Muelle de Cruceros, INCOP)",
+   "distanceToCentreKm": 0,
+   "notes": "A long pier from the eastern end of the Paseo de los Turistas. Expect a long walk along the pier to shore; a craft market and red taxis wait at the beach end. INCOP tendered a new mooring dolphin (Duque de Alba) in 2025 so that ships up to 340 m can berth, but its annual report showed 0% progress in 2025 with the work moved to 2026."
+  },
+  {
+   "name": "Puerto Caldera",
+   "distanceToCentreKm": null,
+   "notes": "Costa Rica's main Pacific commercial port, about 20 minutes by taxi from Puntarenas town. Used by ships that cannot berth at Puntarenas. Few facilities: a terminal building with a few souvenir shops, seats and toilets, and a free shuttle about 250 yards from the gangway to the gate. Nothing is within walking distance; take water from the ship."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": null,
+  "km": null,
+  "detail": "From the Puntarenas pier, yes: once you have walked the length of the pier you are on the Paseo de los Turistas, and the cathedral, market and museum are a few blocks inland. From Puerto Caldera, no: you need a taxi or tour for everything."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (ship at Puntarenas pier)",
+   "cost": "Free",
+   "time": "Long walk along the pier, then a few minutes into town",
+   "detail": "Turn along the Paseo de los Turistas for the beach promenade, or walk a few blocks inland for the cathedral, Casa de la Cultura and the Mercado Municipal."
+  },
+  {
+   "mode": "Official taxi",
+   "cost": "Metered; fares not verified",
+   "time": "About 20 min Caldera to Puntarenas town",
+   "detail": "Official taxis are red with a yellow triangle on the door and must use the meter. They wait at the end of the Puntarenas pier and at Caldera. The US State Department advises using only licensed taxis."
+  },
+  {
+   "mode": "Ship or private tour",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "Half day for Carara and Tárcoles; full day for Manuel Antonio",
+   "detail": "Carara National Park is about 1–1.5 hours by road and Manuel Antonio about 2–2.5 hours, so independent travel leaves little margin."
+  },
+  {
+   "mode": "Intercity bus",
+   "cost": "Not verified",
+   "time": "Varies",
+   "detail": "The bus station is at Calle 2 and the Paseo de los Turistas, with services to San José, Jacó and Quepos. Not recommended for a cruise day: timings are long and the US State Department warns of pickpocketing on buses."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Ship at Puntarenas pier: be back at the pier 60 minutes before all-aboard, allowing for the long walk along it. Ship at Caldera: leave Puntarenas town 90 minutes before all-aboard. From Carara, Tárcoles or further inland, use a tour or allow the full drive plus 90 minutes.",
+  "detail": "Puntarenas province floods often in the rainy season (April to October), and heavy afternoon rain slows the coastal highway. Port security at the pier gate and the walk along the pier add time at the end of the day.",
+  "emergencyFallback": "In town, any red official taxi can take you to the pier or to Caldera. If you are inland and will be late, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Carara National Park",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Park entry US$10 for foreigners (Visit Costa Rica); plus a private driver or taxi for the 1–1.5 hour drive each way",
+   "saving": "Depends on the driver's fare and group size"
+  }
+ ],
+ "excursionAdvice": "Stay independent if you only want Puntarenas itself: the promenade, cathedral, museum and a churchill on the seafront are all on foot from the pier. Take a ship tour for anything inland. Carara and the Tárcoles crocodile bridge are 1–1.5 hours away, Manuel Antonio is 2–2.5 hours, and rain or highway traffic can stretch both, so the ship's guarantee to wait is worth paying for. On a Caldera day, a tour also saves you the taxi into town.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the Puntarenas pier at 07:00 and all-aboard is 17:30. On a Caldera day, add a 20-minute taxi each way and leave town 90 minutes before all-aboard.",
+  "steps": [
+   {
+    "time": "07:30",
+    "what": "Walk the length of the pier to the Paseo de los Turistas before the heat builds."
+   },
+   {
+    "time": "08:00",
+    "what": "Walk a few blocks inland to the Cathedral of Puntarenas (1902) and Casa Fait, the Art Nouveau house from 1925."
+   },
+   {
+    "time": "09:00",
+    "what": "Museo Histórico Marino in the Casa de la Cultura, the old barracks and jail (closed Mondays)."
+   },
+   {
+    "time": "10:15",
+    "what": "Mercado Municipal near the docks for fruit, coffee and a look at the fish stalls."
+   },
+   {
+    "time": "11:00",
+    "what": "Parque Marino del Pacífico, the small aquarium on the old railway station site."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch: ceviche at El Shrimp Shack or a casado at Soda La Macarena."
+   },
+   {
+    "time": "14:00",
+    "what": "Stroll the Paseo de los Turistas westwards and try a churchill from one of the kiosks."
+   },
+   {
+    "time": "15:45",
+    "what": "Last shopping at the craft market at the end of the pier."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Paseo de los Turistas",
+   "why": "The seafront promenade that runs along the southern beach, with sodas, drink stops, craft stalls and churchill kiosks.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Walk it early or late; there is little shade at midday."
+  },
+  {
+   "name": "Cathedral of Puntarenas (Sacred Heart)",
+   "why": "Stone-and-brick church from 1902 in the town centre.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "A few blocks inland from the promenade; dress modestly."
+  },
+  {
+   "name": "Museo Histórico Marino and Casa de la Cultura",
+   "why": "Port and maritime history, early indigenous settlement and art, in the old barracks and jail.",
+   "timeNeeded": "45 minutes",
+   "cost": "Not verified",
+   "tip": "Closed Mondays, according to Celebrity Cruises' port guide."
+  },
+  {
+   "name": "Parque Marino del Pacífico",
+   "why": "Small aquarium and rescue centre with turtles, rays, nurse sharks and crocodiles, on the old railway station site.",
+   "timeNeeded": "1 hour",
+   "cost": "₡2,900 over-12s (2024 report)",
+   "tip": "Dated but shaded; good with children or in the midday heat."
+  },
+  {
+   "name": "Casa Fait",
+   "why": "Art Nouveau house finished in 1925, the town's most attractive building.",
+   "timeNeeded": "10 minutes from outside",
+   "cost": "Free to view",
+   "tip": "At Avenida 3 and Calle 3, an easy detour on the way to the cathedral."
+  },
+  {
+   "name": "Carara National Park",
+   "why": "Rainforest park known for scarlet macaws.",
+   "timeNeeded": "Half day including about 1–1.5 hours each way by road",
+   "cost": "US$10 foreigners (Visit Costa Rica)",
+   "tip": "Open daily 07:00–16:00 in the dry season (December–April) and 08:00–16:00 from May to November."
+  },
+  {
+   "name": "Tárcoles River crocodile bridge",
+   "why": "Large crocodiles visible from the highway bridge between Puntarenas and Carara.",
+   "timeNeeded": "15–20 minutes stop",
+   "cost": "Free",
+   "tip": "Combine with Carara; keep valuables in sight at the roadside."
+  },
+  {
+   "name": "Isla Tortuga",
+   "why": "White-sand island in the Gulf of Nicoya reached by catamaran.",
+   "timeNeeded": "Full day",
+   "cost": "Varies by operator",
+   "tip": "Only with the ship or an operator that guarantees your return time."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Playa Puntarenas (town beach)",
+   "howToGetThere": "Walk off the pier onto the Paseo de los Turistas",
+   "time": "0–5 min",
+   "cost": "Free",
+   "note": "Dark sand lined with bars and restaurants. The water is described as murky; better for a stroll than a swim."
+  },
+  {
+   "name": "Isla Tortuga",
+   "howToGetThere": "Catamaran day trip from Puntarenas",
+   "time": "Full day",
+   "cost": "Varies by operator",
+   "note": "The best swimming beach within reach, but it takes the whole call."
+  },
+  {
+   "name": "Manuel Antonio",
+   "howToGetThere": "Ship or private tour",
+   "time": "About 2–2.5 hours each way",
+   "cost": "Tour price",
+   "note": "White-sand beaches inside a national park; too far for an independent cruise day. The US State Department lists it among beaches with limited lifeguard cover."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Churchill (Puntarenas shaved-ice dessert)",
+   "where": "Kiosks along the Paseo de los Turistas",
+   "price": null
+  },
+  {
+   "dish": "Ceviche and shrimp dishes",
+   "where": "El Shrimp Shack, Puntarenas",
+   "price": null
+  },
+  {
+   "dish": "Casado (rice, beans, plantain, salad and fish or meat)",
+   "where": "Soda La Macarena, Puntarenas seafront",
+   "price": null
+  },
+  {
+   "dish": "Gallo pinto and local seafood",
+   "where": "Beachside sodas near the old dock",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming the ship docks in town.",
+   "fix": "Check whether you are at the Puntarenas pier or Puerto Caldera. Caldera has nothing within walking distance and needs a 20-minute taxi into town."
+  },
+  {
+   "mistake": "Underestimating the walk along the pier.",
+   "fix": "Allow extra time at both ends of the day; the pier is long and port security adds time."
+  },
+  {
+   "mistake": "Trying Manuel Antonio or Monteverde independently.",
+   "fix": "Manuel Antonio is 2–2.5 hours away by road and Monteverde is also a long drive. Book the ship's tour, or keep to Carara and Tárcoles."
+  },
+  {
+   "mistake": "Taking an unmarked taxi.",
+   "fix": "Use red official taxis with a yellow triangle and insist on the meter."
+  },
+  {
+   "mistake": "Swimming at an unguarded beach.",
+   "fix": "Rip currents drown visitors every year; swim only where lifeguards are present, or not at all."
+  }
+ ],
+ "safety": "The US State Department rates Costa Rica at Level 2, exercise increased caution, because of crime. Petty theft and pickpocketing are common, and armed robbers target phones, wallets and bags, so carry little and do not resist. Do not leave anything unattended on the beach or in a vehicle. Rip currents are a serious danger and most beaches have no lifeguards. Puntarenas province is prone to flooding in the rainy season. Dial 911 in an emergency.",
+ "scams": [
+  "Unlicensed taxis: the US State Department warns never to accept rides from unlicensed vehicles. Use red taxis with a yellow triangle and the meter.",
+  "Unofficial tour sellers on the pier and promenade: only use operators vetted by the ship or the tourist office.",
+  "Informal guides at national park gates: at Manuel Antonio, book a certified naturalist guide through the official guide association rather than touts at the entrance."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The Puntarenas pier is long, so ask the ship about a shuttle or wheelchair help before you go ashore. In town, expect uneven pavements, kerbs and sand on the Paseo de los Turistas. At Caldera, a free shuttle runs from the gangway to the gate, but everything beyond needs a taxi or tour bus. Confirm step-free gangway arrangements with your cruise line.",
+ "rainyDay": "Rain is frequent from May to November. Stay in town: the Museo Histórico Marino (closed Mondays), Parque Marino del Pacífico and the cathedral are all close together. Rain can flood roads in the province, so think twice about independent trips inland.",
+ "crowdTips": "Costa Rica's Pacific cruise season runs roughly October to April, and INCOP expects about 72 calls and 150,000 passengers in 2026–27, up from 64 calls and about 90,000 in 2025–26. Many passengers leave on tours, so the town itself is rarely packed. Popular inland stops such as Carara and the Tárcoles bridge get busy when several coaches arrive together.",
+ "faqs": [
+  {
+   "q": "Is Puntarenas walkable from the cruise port?",
+   "a": "Yes, if your ship uses the Puntarenas pier: it leads straight onto the Paseo de los Turistas. If you are at Puerto Caldera, you need a taxi."
+  },
+  {
+   "q": "Do cruise ships dock at Puntarenas or Puerto Caldera?",
+   "a": "Either. Many use the Puntarenas pier; others, including ships too large for it, berth at Puerto Caldera, about 20 minutes away by taxi. Check your itinerary. INCOP plans new mooring works so ships up to 340 m can use Puntarenas."
+  },
+  {
+   "q": "Is Puntarenas a tender port?",
+   "a": "No. Ships berth either at the Puntarenas pier or at Puerto Caldera."
+  },
+  {
+   "q": "What can I do in Puntarenas in one day from a cruise ship?",
+   "a": "Walk the Paseo de los Turistas, see the cathedral and the maritime museum, eat ceviche and a churchill. For wildlife, take a tour to Carara National Park and the Tárcoles crocodile bridge."
+  },
+  {
+   "q": "How far is Carara National Park from Puntarenas cruise port?",
+   "a": "About 1–1.5 hours by road. Entry is US$10 for foreigners, according to Visit Costa Rica."
+  },
+  {
+   "q": "Beaches near Puntarenas cruise port?",
+   "a": "The town beach is right by the pier but its water is murky. For a proper beach, take a catamaran to Isla Tortuga or a tour to Manuel Antonio."
+  },
+  {
+   "q": "Is Puntarenas safe?",
+   "a": "Costa Rica is Level 2 (increased caution) for crime. Watch your belongings, use official taxis and beware of rip currents."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Paseo de los Turistas"
+  },
+  {
+   "name": "Cathedral of Puntarenas"
+  },
+  {
+   "name": "Museo Histórico Marino"
+  },
+  {
+   "name": "Parque Marino del Pacífico"
+  },
+  {
+   "name": "Carara National Park"
+  },
+  {
+   "name": "Tárcoles River crocodile bridge"
+  },
+  {
+   "name": "Isla Tortuga"
+  }
+ ],
+ "sources": [
+  {
+   "title": "INCOP – Informe Anual POI Externo 2025 (Duque de Alba at the cruise pier)",
+   "url": "https://www.incop.go.cr/wp-content/uploads/2026/02/PRESU/Informe%20Anual%20POI%20Externo%202025.pdf"
+  },
+  {
+   "title": "Visit Costa Rica (ICT) – National park admission fees and hours",
+   "url": "https://visitcostarica.com/blog/find-out-about-admission-feesand-hours-operation-costa-ricas-national-parks"
+  },
+  {
+   "title": "US State Department – Costa Rica travel advisory (Level 2, April 2026)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/costa-rica.html"
+  },
+  {
+   "title": "Tico Times – Costa Rica expects major cruise tourism jump in Puntarenas (September 2026)",
+   "url": "https://ticotimes.net/2026/09/05/costa-rica-expects-major-cruise-tourism-jump-in-puntarenas"
+  },
+  {
+   "title": "Diario Extra – Puntarenas espera 72 cruceros y 150 mil pasajeros (2026)",
+   "url": "https://www.diarioextra.com/noticia/puntarenas-espera-la-llegada-de-72-cruceros-y-150-mil-pasajeros-en-temporada-de-cruceros/"
+  },
+  {
+   "title": "Delfino.cr – INCOP abre licitación para mejorar muelle de cruceros en Puntarenas (April 2025)",
+   "url": "https://www.delfino.cr/2025/04/incop-abre-licitacion-para-mejorar-muelle-de-cruceros-en-puntarenas"
+  },
+  {
+   "title": "The Traveler – Costa Rica cruise boom: Puntarenas aims for 150,000 passengers",
+   "url": "https://www.thetraveler.org/costa-rica-cruise-boom-puntarenas-aims-for-150-000-passengers/"
+  },
+  {
+   "title": "Celebrity Cruises – Puntarenas port guide",
+   "url": "https://www.celebritycruises.com/ports/puntarenas"
+  },
+  {
+   "title": "Cruise Critic – Puntarenas (Puerto Caldera) port guide",
+   "url": "https://www.cruisecritic.com/ports/newport.cfm?ID=484"
+  },
+  {
+   "title": "CruiseMapper – Puntarenas (Puerto Caldera) cruise port",
+   "url": "https://www.cruisemapper.com/ports/puntarenas-port-470"
+  },
+  {
+   "title": "Rough Guides – Puntarenas practicalities",
+   "url": "https://www.roughguides.com/destinations/central-america-and-the-caribbean/costa-rica/central-pacific-southern-nicoya/puntarenas-around/practicalities"
+  },
+  {
+   "title": "Lonely Planet – Parque Marino del Pacífico",
+   "url": "https://www.nonprod.lonelyplanet.com/points-of-interest/parque-marino-del-pacifico/1084738"
+  },
+  {
+   "title": "Passporter – Things to do in Puntarenas",
+   "url": "https://passporterapp.com/en/blog/costa-rica/things-to-do-puntarenas/"
+  },
+  {
+   "title": "Royal Price Tracker – Puntarenas cruise port",
+   "url": "https://royalpricetracker.com/explore/ports/puntarenas/"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Puntarenas, Costa Rica (checked May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/puntarenas-costa-rica/"
+  }
+ ],
+ "uncertain": [
+  "Length of the Puntarenas pier and the walking time from ship to shore",
+  "Current taxi fares between Puerto Caldera and Puntarenas (Cruise Critic's older figure of US$25 for two one way is not recent)",
+  "Which ship sizes or specific ships use Puerto Caldera in the 2026–27 season",
+  "Whether the Duque de Alba works started in 2026",
+  "Admission price of the Museo Histórico Marino",
+  "Drive time to Monteverde from the port",
+  "Typical all-aboard time (day plan uses 17:30)"
+ ]
+}

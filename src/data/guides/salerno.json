@@ -1,0 +1,421 @@
+{
+ "slug": "salerno",
+ "city": "Salerno",
+ "portName": "Port of Salerno (Stazione Marittima, Molo Manfredi)",
+ "townName": "the centro storico (old town)",
+ "country": "Italy",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Italian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Salerno cruise port guide: Amalfi ferries, Pompeii, Paestum",
+ "seoDescription": "Salerno ships dock at Molo Manfredi, 600 m from the centre. Amalfi ferries 35–60 min; Pompeii €20 (2026) with time slots; Paestum €15 (2026).",
+ "quickAnswer": "Most ships dock at the Zaha Hadid Stazione Marittima on Molo Manfredi, about 600 m from the centre: walk to the old town in 10–15 minutes. Ships at the Molo 3 Gennaio berths, about 3 km out, get a free shuttle bus. Be back on board 60 minutes before all-aboard from town, and allow 90 minutes or more after an Amalfi ferry, Pompeii, Paestum or Naples.",
+ "intro": "Salerno is a docking port with the Amalfi Coast, Pompeii, Paestum and Naples all within reach by ferry or train. The Stazione Marittima, designed by Zaha Hadid and opened in 2016, sits on Molo Manfredi next to Piazza della Libertà and the start of the Lungomare Trieste promenade. Salerno's own old town, with its cathedral, medieval lanes and the Giardino della Minerva, is a short walk away. The catch is that many Amalfi Coast ferries leave from Piazza della Concordia, about 2 km along the seafront, and that Pompeii now caps daily admissions and sells tickets for fixed time slots.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Stazione Marittima, Molo Manfredi (Amalfi Coast Cruise Terminal)",
+   "distanceToCentreKm": 0.6,
+   "notes": "Zaha Hadid terminal opened in 2016, next to Piazza della Libertà. Tourist information point, ticketing, luggage storage, taxi rank, toilets and free WiFi. Some ferries to Amalfi and Positano use the same pier. Free shuttle vans for wheelchair users."
+  },
+  {
+   "name": "Molo 3 Gennaio (berths 8, 9 and 10)",
+   "distanceToCentreKm": 3,
+   "notes": "Commercial port berths used for additional ships. Free shuttle buses run to the centre; free shuttle vans for wheelchair users."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": 0.6,
+  "detail": "From Molo Manfredi, walk to Piazza della Libertà and on into the old town in 10–15 minutes. The Lungomare Trieste promenade runs about 2 km from the port to Santa Teresa beach. Salerno railway station and Piazza della Concordia ferry piers are about 25–30 minutes on foot. From Molo 3 Gennaio take the free shuttle."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "10–15 min to the old town; 25–30 min to the railway station",
+   "detail": "Flat walk along the seafront from Molo Manfredi."
+  },
+  {
+   "mode": "Free port shuttle (Molo 3 Gennaio only)",
+   "cost": "Free",
+   "time": "Short ride to the centre",
+   "detail": "Runs between the Molo 3 Gennaio berths and downtown when ships berth there."
+  },
+  {
+   "mode": "Ferry to Amalfi (Travelmar and others)",
+   "cost": "One-way fares from €6.50 to €23.50 depending on operator and sailing; Travelmar Amalfi–Salerno from €12 (2026)",
+   "time": "35–60 min, depending on stops",
+   "detail": "Operators include Travelmar, Alicost, NLG, Cooperativa Sant'Andrea, Lucibello and Grassi Junior. Sailings run from about early April to the end of October and stop in rough seas. Most depart from Piazza della Concordia, opposite the railway station; some NLG, Alicost and Travelmar sailings use Molo Manfredi. Check your ticket for the pier."
+  },
+  {
+   "mode": "Ferry to Positano",
+   "cost": "One-way fares from €16.50 to €21 depending on operator (2026)",
+   "time": "50–75 min",
+   "detail": "Same operators and piers as Amalfi. Book the return sailing before you go and check which Salerno pier it arrives at."
+  },
+  {
+   "mode": "Train to Pompei (Trenitalia)",
+   "cost": "Regional fare; check Trenitalia",
+   "time": "25–47 min",
+   "detail": "Frequent regional and metropolitan trains from Salerno station to Pompei station. Allow 25–30 minutes to walk from the port to Salerno station."
+  },
+  {
+   "mode": "Train to Paestum",
+   "cost": "Regional fare; check Trenitalia (Paestum Link combines train and bus on one ticket)",
+   "time": "About 30–40 min",
+   "detail": "Regional trains run south from Salerno station towards Paestum and Capaccio-Roccadaspide. Trenitalia's Paestum Link adds a bus to the archaeological park and beaches."
+  },
+  {
+   "mode": "Train to Naples (Napoli Centrale)",
+   "cost": "Regional from about €6; Frecciarossa about €20–23 one way (2026)",
+   "time": "About 38 min by Frecciarossa; 39–55 min by regional train",
+   "detail": "About 100 trains a day from Salerno station."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard from the old town. After an Amalfi Coast ferry or a Naples train, be back at the port 90 minutes before all-aboard. Leave the ruins at Pompeii at least 3.5 hours, and Paestum at least 3 hours, before all-aboard.",
+  "detail": "Ferries can be cancelled in rough seas, and many land at Piazza della Concordia, about 25–30 minutes' walk from Molo Manfredi. Pompeii and Paestum add a walk to and from their stations plus the 25–30 minute walk from Salerno station to the port.",
+  "emergencyFallback": "If a ferry is cancelled, the only way back from Amalfi is by road along the coast, which is slow in summer traffic; tell the port agent on your daily programme at once. From Salerno station or Piazza della Concordia, take a taxi to the Stazione Marittima if you are short of time."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Pompeii",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€20 ordinary ticket (from 12 January 2026) plus regional train fares",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "Paestum",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€15 full ticket March–November (2026) plus regional train fares",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "Amalfi by ferry",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Ferry fares from €6.50 one way out and from €12 back with Travelmar (2026)",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Salerno's old town needs no tour. Amalfi by ferry and Paestum by train are both manageable alone on a normal call if you book the return in advance and leave plenty of margin. Pompeii is where a ship tour earns its price: tickets are named, admissions are capped at 20,000 a day and sold in morning and afternoon slots, and the trip involves two walks and a train each way. A ship tour also makes sense for Positano or Ravello on a short call, or whenever the sea is rough, because a cancelled ferry leaves only the slow coast road back.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at Molo Manfredi and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship, look at the Zaha Hadid terminal from the quay, and walk to Piazza della Libertà."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk into the old town and along Via dei Mercanti, the oldest street in the centre."
+   },
+   {
+    "time": "09:30",
+    "what": "Visit the Cathedral of San Matteo and its crypt."
+   },
+   {
+    "time": "10:30",
+    "what": "Climb to the Giardino della Minerva, the terraced medieval medicinal garden (closed Mondays)."
+   },
+   {
+    "time": "12:00",
+    "what": "Optional taxi up to the Castello di Arechi for views over the gulf (closed Mondays; closes 16:00)."
+   },
+   {
+    "time": "13:30",
+    "what": "Lunch in the old town, for example at Trattoria da Sasà or Hostaria il Brigante."
+   },
+   {
+    "time": "15:00",
+    "what": "Walk the Lungomare Trieste promenade back towards the port."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Cathedral of San Matteo (Duomo)",
+   "why": "Salerno's cathedral, with a richly decorated crypt of nine rows of columns and a double altar.",
+   "timeNeeded": "45 minutes",
+   "cost": "Cathedral free to enter; separate charges for the crypt and museum",
+   "tip": "Opening hours are shorter on Sundays and holidays."
+  },
+  {
+   "name": "Giardino della Minerva",
+   "why": "Terraced medieval garden of medicinal plants above the old town, with views over the rooftops.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "€3 full, €1.50 reduced (2026 listings)",
+   "tip": "Open Tuesday to Sunday, 09:30–19:30; closed Mondays."
+  },
+  {
+   "name": "Via dei Mercanti and the old town",
+   "why": "Salerno's oldest street, running from the Arco di Arechi to Piazza Portanova through the medieval centre.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Combine with the medieval aqueduct, which can be seen free at any time."
+  },
+  {
+   "name": "Castello di Arechi",
+   "why": "Hilltop castle above the city with views over the Gulf of Salerno.",
+   "timeNeeded": "1 hour plus transport",
+   "cost": "€4 full, €2 reduced; free under 18 and over 65 (2026 listings)",
+   "tip": "Open Tuesday to Sunday, 09:00–16:00. Bus 19 is infrequent; a taxi is the reliable way up."
+  },
+  {
+   "name": "Lungomare Trieste",
+   "why": "A 2 km seafront promenade from the port to Santa Teresa beach.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Walk it on the way back to the ship at the end of the day."
+  },
+  {
+   "name": "Pompeii",
+   "why": "The Roman city buried by Vesuvius in AD 79.",
+   "timeNeeded": "6–7 hours including trains and walks",
+   "cost": "€20 ordinary ticket from 12 January 2026, plus €1 online fee",
+   "tip": "Tickets are named and admissions are capped at 20,000 a day. From 16 March to 14 October you enter only in the slot on your ticket (09:00–13:00 or 13:00–17:30). Book the morning slot."
+  },
+  {
+   "name": "Paestum archaeological park",
+   "why": "Ancient Greek city with temples and a museum, about 30–40 minutes south by train.",
+   "timeNeeded": "5–6 hours including trains",
+   "cost": "€15 full March–November, €10 December–February; €2 for ages 18–25 (2026)",
+   "tip": "Open daily 08:30–19:30; ticket office 08:30–18:30. The ticket covers the site, the museum and Velia for three days."
+  },
+  {
+   "name": "Amalfi",
+   "why": "The main Amalfi Coast town reached directly by ferry from Salerno.",
+   "timeNeeded": "4–5 hours including ferries",
+   "cost": "Ferry from €6.50 out and from €12 back with Travelmar (2026)",
+   "tip": "Book the return ferry before you go and check which Salerno pier it lands at."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Spiaggia di Santa Teresa",
+   "howToGetThere": "Walk along the Lungomare Trieste",
+   "time": "About 2 km along the seafront",
+   "cost": "Free",
+   "note": "Town beach at the end of the promenade."
+  },
+  {
+   "name": "Paestum beaches",
+   "howToGetThere": "Train plus Trenitalia's Paestum Link bus",
+   "time": "About 30–40 min by train, then the bus",
+   "cost": "Regional train and bus fare",
+   "note": "Combine with the temples only on a long call."
+  },
+  {
+   "name": "Amalfi Coast town beaches (Amalfi, Maiori, Minori)",
+   "howToGetThere": "Ferry from Salerno",
+   "time": "35–60 min",
+   "cost": "Ferry fare",
+   "note": "Check the return sailing times before you settle in."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Fresh fish at fair prices",
+   "where": "Trattoria da Sasà, Via degli Orti 22",
+   "price": null
+  },
+  {
+   "dish": "Traditional Salernitan dishes at shared wooden tables",
+   "where": "Hostaria il Brigante, Via Fratelli Linguiti 4",
+   "price": null
+  },
+  {
+   "dish": "Seafood, grills and homemade pasta",
+   "where": "Pescheria, Corso Giuseppe Garibaldi 227",
+   "price": null
+  },
+  {
+   "dish": "Cilento produce",
+   "where": "Osteria Canali, Via dei Canali 34",
+   "price": null
+  },
+  {
+   "dish": "Campanian pizza",
+   "where": "Donna Margherita",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming the Amalfi ferry leaves from beside the ship.",
+   "fix": "Many sailings use Piazza della Concordia, 25–30 minutes' walk away. Check the pier printed on your ticket for both directions."
+  },
+  {
+   "mistake": "Turning up at Pompeii without a timed ticket.",
+   "fix": "Buy a named ticket online for the 09:00–13:00 slot. Daily admissions are capped and the afternoon slot has far fewer places."
+  },
+  {
+   "mistake": "Taking the last ferry back from Amalfi or Positano.",
+   "fix": "Pick a sailing that lands you in Salerno at least 90 minutes before all-aboard, and remember sailings stop in rough seas."
+  },
+  {
+   "mistake": "Planning the Giardino della Minerva or Castello di Arechi on a Monday.",
+   "fix": "Both are closed on Mondays. Use the cathedral, old town and Lungomare instead."
+  },
+  {
+   "mistake": "Walking to the station from Molo 3 Gennaio.",
+   "fix": "That berth is about 3 km out; take the free shuttle to the centre first."
+  }
+ ],
+ "safety": "Salerno is a straightforward port day. The main practical risks are timing ones: ferries that stop in rough seas and trains or crowds at Pompeii. At Pompeii, carry water and wear sturdy shoes; the site is large, exposed and paved with uneven stone. Keep valuables secure on busy trains and ferries.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The Molo Manfredi terminal is modern, and free shuttle vans for wheelchair users run at both cruise piers. The seafront and Lungomare Trieste are flat. The old town has narrow lanes and the Giardino della Minerva is terraced on a hillside, so it is hard going. Pompeii's streets are uneven Roman paving with high kerbs. Ask ferry operators about step-free boarding before booking.",
+ "rainyDay": "Stay in Salerno: the cathedral and its crypt, the old town lanes and lunch take most of a day. Naples, 38–55 minutes by train, is the best wet-weather trip, with its museums. Avoid the Amalfi ferries in bad weather, as sailings stop in rough seas and the coast road back is slow.",
+ "crowdTips": "Pompeii is the pressure point: admissions are capped at 20,000 a day, with 15,000 in the morning slot and 5,000 in the afternoon, so book early. For Amalfi or Positano, take an early sailing so you have time to spare for the return. Salerno's own old town stays calmer than the coast.",
+ "faqs": [
+  {
+   "q": "Is Salerno a tender port?",
+   "a": "No. Ships dock at the Stazione Marittima on Molo Manfredi or at the Molo 3 Gennaio berths, which have a free shuttle to the centre."
+  },
+  {
+   "q": "Is Salerno walkable from the cruise port?",
+   "a": "Yes from Molo Manfredi: the old town is 10–15 minutes on foot. From Molo 3 Gennaio, about 3 km out, take the free shuttle."
+  },
+  {
+   "q": "How do I get from Salerno cruise port to Amalfi?",
+   "a": "By ferry, 35–60 minutes, with Travelmar and other operators from about April to October. Many sailings leave from Piazza della Concordia, 25–30 minutes' walk from the ship; some use Molo Manfredi."
+  },
+  {
+   "q": "Can I visit Pompeii from Salerno on my own?",
+   "a": "Yes. Walk 25–30 minutes to Salerno station and take a 25–47 minute train to Pompei. Buy a named, timed ticket (€20 in 2026) in advance and leave the site 3.5 hours before all-aboard."
+  },
+  {
+   "q": "How do I get from Salerno to Paestum?",
+   "a": "By regional train in about 30–40 minutes. Tickets for the park are €15 from March to November."
+  },
+  {
+   "q": "What can I do in Salerno in one day from a cruise ship?",
+   "a": "The cathedral, Via dei Mercanti, the Giardino della Minerva and the Lungomare; or a ferry to Amalfi; or a train to Pompeii or Paestum."
+  },
+  {
+   "q": "Beaches near Salerno cruise port?",
+   "a": "Santa Teresa beach is at the end of the 2 km Lungomare. Better beaches are at Paestum or along the Amalfi Coast by ferry."
+  },
+  {
+   "q": "Is Salerno safe?",
+   "a": "Yes. Keep valuables secure on crowded trains and ferries and plan your return times carefully."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Cathedral of San Matteo"
+  },
+  {
+   "name": "Giardino della Minerva"
+  },
+  {
+   "name": "Castello di Arechi"
+  },
+  {
+   "name": "Lungomare Trieste"
+  },
+  {
+   "name": "Pompeii"
+  },
+  {
+   "name": "Paestum"
+  },
+  {
+   "name": "Amalfi"
+  }
+ ],
+ "sources": [
+  {
+   "title": "MedCruise – Amalfi Coast Cruise Terminal (Salerno)",
+   "url": "https://www.medcruise.com/associate/amalfi-coast-cruise-terminal"
+  },
+  {
+   "title": "Wikipedia – Salerno Harbor station",
+   "url": "https://en.wikipedia.org/wiki/Salerno_Harbor_station"
+  },
+  {
+   "title": "Parco Archeologico di Pompei – Nominative tickets and daily limit",
+   "url": "https://pompeiisites.org/en/?p=58523"
+  },
+  {
+   "title": "Ministero della Cultura – Paestum museum and archaeological area",
+   "url": "https://cultura.gov.it/luogo/parchi-archeologici-di-paestum-e-velia-museo-e-area-archeologica-di-paestum"
+  },
+  {
+   "title": "Trenitalia – Paestum Link",
+   "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/paestum-link.html"
+  },
+  {
+   "title": "Positano.com – Ferries Salerno to Amalfi (2026)",
+   "url": "https://www.positano.com/it/t/salerno/amalfi"
+  },
+  {
+   "title": "Positano.com – Ferries Amalfi to Salerno (2026)",
+   "url": "https://www.positano.com/it/t/amalfi/salerno"
+  },
+  {
+   "title": "Positano.com – Ferries Salerno to Positano (2026)",
+   "url": "https://www.positano.com/it/t/salerno/positano"
+  },
+  {
+   "title": "Traghettilines – Amalfi to Salerno (Manfredi)",
+   "url": "https://www.traghettilines.it/it/costiera-amalfitana/traghetti-amalfi-salerno-manfredi.aspx"
+  },
+  {
+   "title": "Pompeionline – Pompeii 2026 entry rules and time slots",
+   "url": "https://www.pompeionline.net/en/news/524-new-pompeii-ingress-rules-2026-daily-cap-time-slots"
+  },
+  {
+   "title": "Quality Travel – Pompeii ticket price rise from January 2026",
+   "url": "https://www.qualitytravel.it/?p=180683"
+  },
+  {
+   "title": "e656 – Trains Salerno to Pompei",
+   "url": "https://www.e656.net/orario/collegamenti/salerno/pompei.html"
+  },
+  {
+   "title": "Omio – Trains Salerno to Capaccio-Paestum",
+   "url": "https://www.omio.it/treni/salerno/capaccio-paestum-frv9w"
+  },
+  {
+   "title": "Omio – Trains Napoli Centrale to Salerno",
+   "url": "https://www.omio.it/treni/napoli-centrale/salerno"
+  },
+  {
+   "title": "Adventour Begins – Salerno cruise port guide (updated March 2026)",
+   "url": "https://adventourbegins.com/salerno-cruise-port-guide/"
+  },
+  {
+   "title": "Italo Treno blog – What to see in Salerno",
+   "url": "https://blog.italotreno.com/idee-di-viaggio/cosa-vedere-a-salerno/"
+  },
+  {
+   "title": "Travel365 – Salerno, what to see",
+   "url": "https://www.travel365.it/salerno-cosa-vedere.htm"
+  }
+ ],
+ "uncertain": [
+  "Exact 2026 Travelmar timetable and its fares on the Salerno–Amalfi leg; Travelmar's own site was not opened.",
+  "Which Salerno pier (Concordia, Masuccio or Manfredi) each ferry sailing uses.",
+  "Walking distance and time from Pompei Trenitalia station to the Pompeii ruins entrance, and Pompeii's 2026 opening and last-entry times.",
+  "Regional train fares Salerno–Pompei and Salerno–Paestum, and which station (Paestum or Capaccio-Roccadaspide) is best for the temples.",
+  "Cathedral of San Matteo crypt and museum charges and current opening hours (sources conflict).",
+  "Whether the Paestum €1 temporary surcharge noted on the ministry page still applies in 2026.",
+  "AdSP Mar Tirreno Centrale cruise information and any 2025–2026 port fee changes (official port pages not opened).",
+  "Typical cruise call hours and all-aboard time at Salerno (17:30 used as a default)."
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "slug": "st-croix",
+ "city": "St Croix",
+ "portName": "Ann E. Abramson Pier, Frederiksted",
+ "townName": "Frederiksted",
+ "country": "US Virgin Islands",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "AST (UTC-4), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "St Croix cruise port guide: Frederiksted pier",
+ "seoDescription": "Large ships dock at Frederiksted's 465 m pier; the town starts at its foot. Fort Frederik $5 (2026). Christiansted is 15 miles away; VITRAN bus $2 exact fare.",
+ "quickAnswer": "Large ships berth at the Ann E. Abramson Pier in Frederiksted, on St Croix's west end, and walk straight into town; Fort Frederik and Strand Street are at the foot of the pier. Christiansted is about 15 miles away by taxi or VITRAN bus ($2 exact fare). Be back at the pier 60 minutes before all-aboard, and leave Christiansted at least 2 hours before it.",
+ "intro": "St Croix has two towns, and most cruise ships call at the quieter one. Frederiksted is a small Danish-era waterfront town on the west coast, with a red fort, a few streets of colonial buildings and beaches within a mile or so of the pier. Christiansted, the larger and better-known town with the National Park Service fort, is about 15 miles away across the island. You can have a good, low-risk day without leaving Frederiksted, or make the trip across the island if you leave plenty of time to come back. Small expedition ships use a separate dock at Gallows Bay, next to Christiansted.",
+ "isTender": false,
+ "tenderNotes": "Ships normally berth at the pier. Some lines, including Norwegian, sometimes anchor off Frederiksted and tender instead, mainly in peak season. Tenders land at the tender piers of the Ann E. Abramson Marine Facility; the rebuilt south tender pier reopened on 4 March 2026. If your ship tenders, add 30 minutes to every return time.",
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Ann E. Abramson Pier (Frederiksted)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Deep-water pier, about 465 m (1,526 ft) long, that can berth two ships but rarely has more than one. Shaded waiting areas, public toilets, free viNGN Wi-Fi and a USVI Department of Tourism information kiosk. Frederiksted's waterfront starts at the landward end of the pier."
+  },
+  {
+   "name": "Gallows Bay Marine Facility (Christiansted)",
+   "distanceToCentreKm": 1.6,
+   "notes": "A 400 ft dock with a 13 ft draft limit, used by small expedition and mini-cruise ships. About a mile from downtown Christiansted."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.5,
+  "detail": "Walk the length of the pier into Frederiksted; allow about 10 minutes from a ship at the far end. Fort Frederik and Strand Street are at the foot of the pier. Rainbow Beach is about 1.3 miles north and Sandcastle (Dorsch) Beach about 1.3 miles south. Christiansted, about 15 miles away, is not walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 10 min from the ship into town",
+   "detail": "Walk along the pier to Strand Street. Fort Frederik, the waterfront and the shops and cafés of Frederiksted are all within a few minutes of the pier."
+  },
+  {
+   "mode": "VITRAN public bus to Christiansted",
+   "cost": "$2 one way, exact fare, no change given; seniors 60+ free with photo ID (2026)",
+   "time": "Check the schedule; the trip crosses the island",
+   "detail": "Routes 27-103 and 28-103 run between Frederiksted and Christiansted in both directions. Schedules come from the Virgin Islands Department of Public Works, Division of Transportation, (340) 773-1290. Do not rely on the bus for the last leg back to the ship."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "About $35–50 to Christiansted, per a 2026 cruise port guide; cash, agree the fare first",
+   "time": "Varies; allow plenty of time for the 15-mile trip",
+   "detail": "Taxis are not metered and fares are set by the Taxi Commission. Many are shared vans. Confirm the price per person and whether it is one way or return before you get in. Taxi Commission: (340) 773-1561."
+  },
+  {
+   "mode": "VI Hail app and shared vans",
+   "cost": "Varies",
+   "time": "Varies",
+   "detail": "The tourism board lists the VI Hail rideshare app and shared taxi vans that run between Frederiksted and Christiansted."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the pier 60 minutes before all-aboard if you stay in Frederiksted. Leave Christiansted, Cane Bay or the Cruzan distillery at least 2 hours before all-aboard. Add 30 minutes if your ship is tendering.",
+  "detail": "Frederiksted is a very easy return because the town is at the foot of the pier. The risk is a trip across the island: Christiansted is about 15 miles away, the bus has no guaranteed connection, and you may wait for a taxi in the afternoon.",
+  "emergencyFallback": "From Christiansted, take a taxi rather than waiting for a bus, and agree the fare before setting off. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Frederiksted town and Fort Frederik",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk; fort $5 adult (2026)",
+   "saving": "Most of the excursion price"
+  },
+  {
+   "item": "Christiansted",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "VITRAN $2 each way, or taxi about $35–50 (2026)",
+   "saving": "Depends on your line's price and group size"
+  }
+ ],
+ "excursionAdvice": "Skip the ship's tour for Frederiksted, which you can see on foot in a couple of hours. A tour is worth it for Buck Island Reef National Monument, which needs a boat trip, and for snorkel or dive trips that need boat and gear arranged. For Christiansted alone, a taxi or shared van is simple enough if you leave 2 hours to get back.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at the Ann E. Abramson Pier on a weekday and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the pier into Frederiksted. Pick up a map at the tourism kiosk at the pier."
+   },
+   {
+    "time": "08:45",
+    "what": "Fort Frederik museum (opens 08:30 Monday to Friday; $5 adult)."
+   },
+   {
+    "time": "09:45",
+    "what": "Walk Strand Street and the waterfront; coffee at Polly's at the Pier."
+   },
+   {
+    "time": "10:30",
+    "what": "Taxi or shared van to Christiansted. Agree the fare first."
+   },
+   {
+    "time": "11:30",
+    "what": "Fort Christiansvaern and the Christiansted National Historic Site (grounds open 08:30–16:30)."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch in Christiansted."
+   },
+   {
+    "time": "14:30",
+    "what": "Taxi back to Frederiksted, 3 hours before all-aboard."
+   },
+   {
+    "time": "15:15",
+    "what": "Swim at Rainbow Beach, about 1.3 miles north of the pier, or relax on the waterfront."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Fort Frederik",
+   "why": "A red Danish fort from the mid-1700s on the Frederiksted waterfront, where enslaved people gathered on 3 July 1848 to demand their freedom. Now a museum.",
+   "timeNeeded": "45 minutes",
+   "cost": "$5 adult; children 16 and under free with a paying adult (2026)",
+   "tip": "Open Monday to Friday 08:30–16:00 and Saturday 13:00–16:00, and on cruise ship days. It can close for local events, so check the day's notices."
+  },
+  {
+   "name": "Strand Street and the Frederiksted waterfront",
+   "why": "A street of colourful historic buildings with shops, cafés and galleries running along the shore.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "It starts at the foot of the pier, so it is the easy last stop before reboarding."
+  },
+  {
+   "name": "Caribbean Museum Center for the Arts",
+   "why": "Frederiksted's arts and culture museum, with a shop selling original work.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Check on site",
+   "tip": "A shaded break in the middle of the day."
+  },
+  {
+   "name": "Christiansted and Fort Christiansvaern",
+   "why": "The island's larger historic town; Fort Christiansvaern and surrounding buildings form the Christiansted National Historic Site.",
+   "timeNeeded": "3–4 hours including travel",
+   "cost": "Transport plus any site fee; check at the fort",
+   "tip": "Fort and grounds open daily 08:30–16:30, closed Thanksgiving and Christmas Day. Leave Christiansted 2 hours before all-aboard."
+  },
+  {
+   "name": "Cruzan Rum Distillery",
+   "why": "Working rum distillery in the middle of the island with guided tours.",
+   "timeNeeded": "2 hours including travel",
+   "cost": "Check when booking",
+   "tip": "Tours Monday to Friday at 12:00, 13:30 and 15:00; reservations required. The 15:00 tour is too late for most calls."
+  },
+  {
+   "name": "Sandy Point National Wildlife Refuge",
+   "why": "A two-mile sandy beach and leatherback turtle nesting site about 2.8 miles south of the pier.",
+   "timeNeeded": "2–3 hours including travel",
+   "cost": "Free",
+   "tip": "Open to the public on Saturdays and Sundays 10:00–16:00 only, and closed during the spring and summer turtle nesting season; check before going."
+  },
+  {
+   "name": "Buck Island Reef National Monument",
+   "why": "A protected reef and island just north of St Croix, visited by boat.",
+   "timeNeeded": "Half a day",
+   "cost": "Varies by tour",
+   "tip": "Book it as a ship excursion or with an operator that guarantees your return to the ship."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Rainbow Beach",
+   "howToGetThere": "Walk or take a short taxi north from the pier",
+   "time": "About 1.3 miles north of the pier",
+   "cost": "Free; bar and water-sports rentals extra",
+   "note": "Soft sand, calm water, beach bars and rentals. Rhythms at Rainbow Beach serves food."
+  },
+  {
+   "name": "Sandcastle (Dorsch) Beach",
+   "howToGetThere": "Walk or take a short taxi south from the pier",
+   "time": "About 1.3 miles south of the pier",
+   "cost": "Free",
+   "note": "Calm water, good for snorkelling and picnics."
+  },
+  {
+   "name": "La Grange Beach",
+   "howToGetThere": "Taxi north past Rainbow Beach",
+   "time": "A little further than Rainbow Beach",
+   "cost": "Free",
+   "note": "Quieter than Rainbow Beach."
+  },
+  {
+   "name": "Sandy Point",
+   "howToGetThere": "Taxi south",
+   "time": "About 2.8 miles from the pier",
+   "cost": "Free",
+   "note": "Weekends 10:00–16:00 only, outside the turtle nesting closure."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Breakfast, sandwiches and coffee",
+   "where": "Polly's at the Pier, opposite the pier (07:00–17:00)",
+   "price": null
+  },
+  {
+   "dish": "Deli sandwiches",
+   "where": "Turtle's Deli, down the road from the pier (Monday to Saturday)",
+   "price": null
+  },
+  {
+   "dish": "Seafood, tacos and burgers on the beach",
+   "where": "Rhythms at Rainbow Beach",
+   "price": null
+  },
+  {
+   "dish": "Fried snapper and pot fish",
+   "where": "Aquaholic Beach Bar & Grill, Frederiksted",
+   "price": null
+  },
+  {
+   "dish": "Seafood on the beach",
+   "where": "Beachside Café at SandCastles, Frederiksted (Friday to Monday)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming Christiansted is next to the ship.",
+   "fix": "Most ships dock at Frederiksted, about 15 miles away on the other side of the island. Plan transport and leave Christiansted 2 hours before all-aboard."
+  },
+  {
+   "mistake": "Getting into a taxi without agreeing the fare.",
+   "fix": "Taxis are not metered. Agree the fare, per person or per vehicle, and one way or return, before you set off. Carry cash."
+  },
+  {
+   "mistake": "Boarding the VITRAN bus without exact change.",
+   "fix": "The fare box gives no change. Carry $2 in coins or small notes for each ride."
+  },
+  {
+   "mistake": "Planning Sandy Point on a weekday or in summer.",
+   "fix": "It opens to the public only at weekends, 10:00–16:00, and closes during the spring and summer turtle nesting season."
+  },
+  {
+   "mistake": "Booking the 15:00 Cruzan distillery tour.",
+   "fix": "Take the 12:00 tour so you can be back at the pier in time."
+  }
+ ],
+ "safety": "Use the same care you would in any small town: keep valuables out of sight, do not leave belongings unattended on beaches, and use licensed taxis with an agreed fare. Traffic drives on the left, which matters when crossing roads. Sun and heat are the main physical risks; carry water and sun protection, especially on beaches with little shade.",
+ "scams": [
+  "Fare disputes with unmetered taxis: fares are set by the Taxi Commission, but you must agree the price before the trip. Report problems to the Taxi Commission on (340) 773-1561."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "The Ann E. Abramson Pier is described as fully wheelchair accessible, with shaded waiting areas and toilets, and the Frederiksted waterfront is flat. Older buildings and forts may have steps and uneven floors. VITRAN runs a paratransit service (VITRAN Plus, $4). On tender days, ask the ship whether wheelchair users can transfer.",
+ "rainyDay": "Visit Fort Frederik and the Caribbean Museum Center for the Arts in Frederiksted, or book a weekday Cruzan distillery tour. Christiansted's National Historic Site has indoor rooms in the fort and surrounding buildings.",
+ "crowdTips": "The pier can take two ships but rarely does, so Frederiksted is seldom crowded. Fort Frederik and Polly's are busiest straight after the ship clears; go to the fort first or last. The best weather is from late November to mid-April, which is also peak cruise season.",
+ "faqs": [
+  {
+   "q": "Is Frederiksted walkable from the cruise port?",
+   "a": "Yes. The town starts at the foot of the pier; allow about 10 minutes to walk off the 465 m pier into Strand Street."
+  },
+  {
+   "q": "How do I get from St Croix cruise port to Christiansted?",
+   "a": "Taxi or shared van (about $35–50 per a 2026 guide; agree the fare first) or VITRAN routes 27-103 or 28-103 for $2 exact fare. It is about 15 miles."
+  },
+  {
+   "q": "Is St Croix a tender port?",
+   "a": "Usually not. Ships berth at Frederiksted's pier, but some lines sometimes anchor and tender in peak season."
+  },
+  {
+   "q": "Do cruise ships dock in Christiansted?",
+   "a": "Only small expedition ships, at the 400 ft Gallows Bay dock about a mile from downtown. Large ships use Frederiksted."
+  },
+  {
+   "q": "What can I do in St Croix in one day from a cruise ship?",
+   "a": "Fort Frederik and Strand Street in Frederiksted, a trip to Christiansted's fort, and a swim at Rainbow Beach."
+  },
+  {
+   "q": "Beaches near St Croix cruise port",
+   "a": "Rainbow Beach (1.3 miles north) and Sandcastle (Dorsch) Beach (1.3 miles south). Sandy Point opens only on weekends outside the nesting season."
+  },
+  {
+   "q": "What currency is used in St Croix?",
+   "a": "The US dollar. Taxis and the bus need cash."
+  },
+  {
+   "q": "Is St Croix safe?",
+   "a": "Take normal care with valuables, use licensed taxis with an agreed fare, and watch for left-side traffic."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Fort Frederik"
+  },
+  {
+   "name": "Strand Street"
+  },
+  {
+   "name": "Christiansted National Historic Site"
+  },
+  {
+   "name": "Rainbow Beach"
+  },
+  {
+   "name": "Cruzan Rum Distillery"
+  },
+  {
+   "name": "Sandy Point National Wildlife Refuge"
+  },
+  {
+   "name": "Buck Island Reef National Monument"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Virgin Islands Port Authority – Expanded tender landing pier reopens at St Croix's cruise port (2026)",
+   "url": "https://www.viport.com/post/expanded-tender-landing-pier-reopens-at-st-croix-s-cruise-port"
+  },
+  {
+   "title": "Virgin Islands Port Authority – Gallows Bay Marine Facility",
+   "url": "https://viport.com/gallows-bay-marine-facility"
+  },
+  {
+   "title": "National Park Service – Christiansted NHS operating hours",
+   "url": "https://www.nps.gov/chri/planyourvisit/hours.htm"
+  },
+  {
+   "title": "USVI Department of Tourism – Things to do in Frederiksted",
+   "url": "https://www.visitusvi.com/experience/things-to-do-in-frederiksted/"
+  },
+  {
+   "title": "Go To St Croix – VITRAN public bus",
+   "url": "https://www.gotostcroix.com/getting-around/vitran-public-bus/"
+  },
+  {
+   "title": "Go To St Croix – Sandy Point",
+   "url": "https://www.gotostcroix.com/national-parks/national-parks-sandy-point/"
+  },
+  {
+   "title": "Go To St Croix – Fort Frederik",
+   "url": "https://www.gotostcroix.com/discover/points-interest/fort-frederik/"
+  },
+  {
+   "title": "Go To St Croix – Cruzan Rum Distillery",
+   "url": "https://www.gotostcroix.com/distilleries-breweries/cruzan-rum/"
+  },
+  {
+   "title": "Go To St Croix – Taxis and rideshares",
+   "url": "https://www.gotostcroix.com/taxis-service-rates/current-taxi-rates/"
+  },
+  {
+   "title": "USVI Department of Planning and Natural Resources – Fort Frederik closure notice",
+   "url": "https://dpnr.vi.gov/press_releases/fort-frederik-closed-for-uber-soca-cruise-arrival/"
+  },
+  {
+   "title": "St Croix Tourism – Taxi fares",
+   "url": "https://stcroixtourism.com/st-croix-taxi-fares.htm"
+  },
+  {
+   "title": "Cruise Hive – St Croix cruise port (updated April 2026)",
+   "url": "https://www.cruisehive.com/st-croix-cruise-port/148625"
+  },
+  {
+   "title": "CruiseMapper – St Croix Island USVI",
+   "url": "https://www.cruisemapper.com/ports/st-croix-island-usvi-port-823"
+  },
+  {
+   "title": "My St Croix – Frederiksted casual restaurants",
+   "url": "https://mystcroix.vi/st-croix-restaurants-guide/frederiksted/casual/"
+  }
+ ],
+ "uncertain": [
+  "Official 2026 taxi tariff from the Frederiksted pier to Christiansted and the beaches (only an undated airport tariff and older lists were found).",
+  "VITRAN journey time and 2026 timetable between Frederiksted and Christiansted.",
+  "Entrance fee for Fort Christiansvaern / Christiansted National Historic Site.",
+  "Cruzan Rum Distillery tour price.",
+  "Exact dates of the Sandy Point turtle-nesting closure (the tourism board page gives both 1 April–1 September closure and weekend access until 31 July).",
+  "Typical all-aboard time for St Croix calls (day plan assumes 17:30)."
+ ]
+}

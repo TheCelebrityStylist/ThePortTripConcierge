@@ -1,0 +1,390 @@
+{
+ "slug": "oslo",
+ "city": "Oslo",
+ "portName": "Port of Oslo (Revierkaia and Filipstad)",
+ "townName": "the city centre and harbour front",
+ "country": "Norway",
+ "currency": "NOK",
+ "currencySymbol": "kr",
+ "language": "Norwegian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Oslo cruise port guide: Revier, Filipstad, ferry and museums",
+ "seoDescription": "Oslo's two cruise piers are 400 m from the centre. Akershus Fortress free, MUNCH from 200 kr, Ruter ticket 46 kr (2026), Bygdøy ferry. Back 60 min early.",
+ "quickAnswer": "Oslo has two cruise piers in the city centre, Revierkaia below Akershus Fortress and Filipstad west of Aker Brygge, and you walk ashore at both; there is no port shuttle. From Revierkaia the Opera House is 8–10 minutes on foot; from Filipstad allow up to 20 minutes to City Hall. Be back at the gangway 60 minutes before all-aboard, and leave the Bygdøy museums 2 hours before.",
+ "intro": "Oslo is a walking port with a ferry ride on top. The fortress, City Hall, the Opera House and MUNCH all sit along the harbour within a short walk of the ships, and the Bygdøy peninsula museums are a short boat ride across the bay. Since 2025 the official cruise manuals list only two cruise piers, Revierkaia and Filipstad, with room for two ships a day. Check which one your ship uses: it changes the walk by 10 minutes or more. The Viking Ship Museum is closed until 2027, which catches out many first-time visitors.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Revierkaia (Revier pier)",
+   "distanceToCentreKm": 0.4,
+   "notes": "On the east side of the Akershus peninsula, below the fortress and close to Bjørvika. About 8–10 minutes on foot to the Opera House and about 12 minutes to Oslo Central Station (Oslo S). Takes ships up to about 300 m and has had shore power since 2025."
+  },
+  {
+   "name": "Filipstad",
+   "distanceToCentreKm": null,
+   "notes": "West of Aker Brygge and Tjuvholmen, used by the largest ships (up to about 340–345 m). The walk to City Hall runs through Tjuvholmen and Aker Brygge; sources give 5–20 minutes, so allow 20. Shore power is due in 2026."
+  },
+  {
+   "name": "Søndre Akershuskai and Vippetangen",
+   "distanceToCentreKm": null,
+   "notes": "Older berths below the fortress. Visit Oslo's port page still lists them, but the 2025 and 2026 official cruise manuals name only Revierkaia and Filipstad as cruise piers. If your ship is listed here, it is a short walk round the fortress to City Hall."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.4,
+  "detail": "Both piers are about 400 m from the centre on flat, paved harbour promenade. From Revierkaia, walk east to the Opera House and MUNCH or west round the fortress to City Hall. From Filipstad, walk east through Tjuvholmen and Aker Brygge. The fortress itself has cobbles and steep slopes."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "8–10 min Revierkaia to the Opera House; up to 20 min Filipstad to City Hall",
+   "detail": "There is no port shuttle bus. The waterfront promenade links the Opera House, the fortress, City Hall, Aker Brygge and Tjuvholmen."
+  },
+  {
+   "mode": "Ruter tram, bus and metro",
+   "cost": "46 kr adult single in the Ruter app (2026); 20 kr extra if bought on board",
+   "time": "Varies by route",
+   "detail": "One ticket covers trams, buses, the metro and Ruter's fjord boats. A single is valid 60 minutes in one zone. You can buy on buses and boats, but not on trams, so buy in the Ruter app before boarding. Plan routes in the RuterReise app."
+  },
+  {
+   "mode": "Bygdøy museum ferry",
+   "cost": "Buy at the pier office or online; included in the Oslo Pass; Ruter tickets not valid",
+   "time": "About 10 min to the first stop; 30 min for the full loop",
+   "detail": "Leaves from Rådhusbrygge 3 (Platform F) in front of City Hall every 20 minutes, from 14 March to 4 October in 2026. Stops at Dronningen (Norsk Folkemuseum) and Bygdøynes (Fram, Kon-Tiki, Maritime Museum)."
+  },
+  {
+   "mode": "Bus 30 to Bygdøy",
+   "cost": "46 kr adult single in the Ruter app (2026)",
+   "time": "Varies with traffic",
+   "detail": "Runs all year from the city centre to Bygdøy. Use it when the ferry is not running."
+  },
+  {
+   "mode": "Hop-on hop-off bus",
+   "cost": "Varies; check at the terminal",
+   "time": "About 75 min for the loop",
+   "detail": "Departs from the cruise terminal every 15 minutes."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the gangway 60 minutes before all-aboard: 16:30 for a 17:30 departure. Leave the Opera House, MUNCH or Oslo S 75 minutes before if your ship is at Revierkaia, leave City Hall or Aker Brygge 80 minutes before if it is at Filipstad, and leave the Bygdøynes pier 2 hours before.",
+  "detail": "The two piers are on opposite sides of the centre, so walking to the wrong one means a long walk back across the centre. The Bygdøy ferry runs every 20 minutes, so missing one adds a 20-minute wait before a 10–20 minute crossing and the walk back from City Hall.",
+  "emergencyFallback": "Take a taxi to the pier from anywhere in the centre or from Bygdøy. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Akershus Fortress and harbour walk",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free",
+   "saving": "The full price of the tour"
+  },
+  {
+   "item": "MUNCH",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "From 200 kr adult, free under 18 (2026)",
+   "saving": "Depends on the ship's price"
+  },
+  {
+   "item": "Bygdøy museums (Fram)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Ferry fare plus Fram Museum 180 kr adult (2026)",
+   "saving": "Depends on the ship's price"
+  }
+ ],
+ "excursionAdvice": "You do not need a tour for the harbour front: the fortress, City Hall, the Opera House and MUNCH are all walkable and the fortress is free. Bygdøy is easy on your own by ferry in season. A ship tour is worth it for Holmenkollen, about 25 minutes by car from the port, if you want the ski jump and the city centre in one short call, and for anyone who wants a fixed return time without managing ferry and tram connections.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 at Revierkaia and all-aboard is 17:30. If you are at Filipstad, start at City Hall and reverse the order.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk up into Akershus Fortress from the harbour side. The grounds open at 06:00 and are free."
+   },
+   {
+    "time": "09:30",
+    "what": "Walk round to City Hall and the Rådhusbrygge piers."
+   },
+   {
+    "time": "09:40",
+    "what": "Bygdøy ferry from Rådhusbrygge 3 (Platform F) to Bygdøynes."
+   },
+   {
+    "time": "10:00",
+    "what": "Fram Museum, the polar ship museum (opens 09:30 from May to September)."
+   },
+   {
+    "time": "11:45",
+    "what": "Ferry back to City Hall."
+   },
+   {
+    "time": "12:15",
+    "what": "Lunch near the fortress, for example at Engebret Café, Bankplassen 1."
+   },
+   {
+    "time": "13:30",
+    "what": "Walk east along the harbour to the Opera House and walk up its sloping roof."
+   },
+   {
+    "time": "14:15",
+    "what": "MUNCH, next to the Opera House (open from 10:00 daily)."
+   },
+   {
+    "time": "16:00",
+    "what": "Leave MUNCH for Revierkaia, about 10 minutes on foot."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Akershus Fortress",
+   "why": "The historic fortress and castle above the cruise piers, with ramparts looking over the harbour.",
+   "timeNeeded": "45–90 minutes",
+   "cost": "Free entry to the fortress and the Armed Forces Museum",
+   "tip": "Main gate open 06:00–21:00 all year. The paths are cobbled and steep in places. Exhibitions and castle tours may charge."
+  },
+  {
+   "name": "MUNCH",
+   "why": "The museum of Edvard Munch's work, on the Bjørvika waterfront next to the Opera House.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "From 200 kr adult; 100 kr under 25; free under 18 (2026)",
+   "tip": "Open daily from 10:00, to 18:00 Sunday to Tuesday and to 21:00 Wednesday to Saturday; closed 1 May. Book a time slot online, as queues can be long."
+  },
+  {
+   "name": "Oslo Opera House",
+   "why": "The opera house on the Bjørvika waterfront, whose sloping roof you can walk up for views over the fjord.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to walk on the roof",
+   "tip": "8–10 minutes from Revierkaia. Guided tours inside run at weekends and need a ticket."
+  },
+  {
+   "name": "Oslo City Hall",
+   "why": "The city hall on the harbour front, with free summer tours of its Great Hall.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free guided tours in summer",
+   "tip": "Free 45-minute tours in English and Norwegian run from 30 June to 27 August on Tuesdays, Thursdays and Saturdays at 12:00 and 14:00. No booking; arrive early for the security check. It can close for events."
+  },
+  {
+   "name": "Fram Museum",
+   "why": "The museum of Norwegian polar exploration on the Bygdøy peninsula, home of the polar ship Fram.",
+   "timeNeeded": "60–90 minutes",
+   "cost": "180 kr adult (2026)",
+   "tip": "Open 09:30–18:00 from May to September and 10:00–17:00 from October to April. The Kon-Tiki and Maritime museums are next door."
+  },
+  {
+   "name": "Norsk Folkemuseum",
+   "why": "An open-air museum of historic buildings from across Norway on Bygdøy.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Check the museum's site; included in the Oslo Pass",
+   "tip": "Open all year; costumed interpreters, animals and activities from May to September. Get off the ferry at Dronningen."
+  },
+  {
+   "name": "Historical Museum",
+   "why": "The city-centre museum to visit for Viking Age objects while the Viking Ship Museum is closed.",
+   "timeNeeded": "60 minutes",
+   "cost": "Check the museum's site",
+   "tip": "The Museum of the Viking Age on Bygdøy is due to reopen in 2027, not before."
+  },
+  {
+   "name": "Vigeland Park",
+   "why": "A large park in Frogner filled with Gustav Vigeland's sculptures.",
+   "timeNeeded": "60–90 minutes plus travel",
+   "cost": "Free",
+   "tip": "Reach it by tram from the centre; check the route in the RuterReise app."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Traditional Norwegian lunch",
+   "where": "Engebret Café, Bankplassen 1 (founded 1857), near the fortress",
+   "price": null
+  },
+  {
+   "dish": "Craft beer and pub food",
+   "where": "Olympen, Grønlandsleiret 15",
+   "price": null
+  },
+  {
+   "dish": "Whisky, aquavit and pub food",
+   "where": "The Scotsman, Karl Johans gate 35",
+   "price": null
+  },
+  {
+   "dish": "Burgers",
+   "where": "Hard Rock Cafe Oslo (a member of Oslo Cruise Partners)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning a visit to the Viking Ship Museum.",
+   "fix": "It is closed until the Museum of the Viking Age opens in 2027. See Viking objects at the Historical Museum instead."
+  },
+  {
+   "mistake": "Trying to buy a ticket on the tram.",
+   "fix": "Trams do not sell tickets. Buy a 46 kr single in the Ruter app before you board (2026)."
+  },
+  {
+   "mistake": "Using a Ruter ticket on the Bygdøy museum ferry.",
+   "fix": "The museum ferry is not part of Ruter. Buy its ticket at the pier or online, or use the Oslo Pass."
+  },
+  {
+   "mistake": "Walking back to the wrong pier.",
+   "fix": "Revierkaia and Filipstad are on opposite sides of the centre. Note your pier before you go ashore."
+  },
+  {
+   "mistake": "Catching the last ferry back from Bygdøy.",
+   "fix": "Leave Bygdøynes 2 hours before all-aboard; ferries run every 20 minutes."
+  }
+ ],
+ "safety": "Oslo is a safe city for visitors. Watch for pickpockets around Oslo Central Station and Jernbanetorget. Electric buses, trams and cars are very quiet at low speed, so look both ways at crossings, especially on the busy harbour roads. The fortress paths are cobbled and steep, and slippery when wet.",
+ "scams": [
+  "Pickpocketing in crowds around Oslo Central Station (Oslo S) and Jernbanetorget: keep phones and wallets in front pockets or a closed bag."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The harbour promenade between the piers, City Hall, the Opera House and MUNCH is flat and paved. Akershus Fortress is mostly cobbles with steep climbs; its Armed Forces and Home Front museums are accessible indoors, and the toilets in Søndre Brohus are accessible. The Opera House roof is a long slope and can be slippery in rain. Ask the ferry crew about boarding with a wheelchair.",
+ "rainyDay": "Oslo's main sights work well in rain. Spend the morning in MUNCH and the afternoon at the Fram Museum, where the ship is indoors, or in the Historical Museum. City Hall's Great Hall is another indoor stop. Skip the Opera House roof and the fortress ramparts in heavy rain.",
+ "crowdTips": "Only two cruise ships can berth in a day, so the city rarely fills the way smaller ports do. MUNCH queues can be long, so book a time slot online. Take an early Bygdøy ferry to get ahead of the midday rush. City Hall's free tours are limited to 30 people, so arrive early.",
+ "faqs": [
+  {
+   "q": "Is Oslo walkable from the cruise port?",
+   "a": "Yes. Both cruise piers are about 400 m from the centre. Revierkaia is 8–10 minutes from the Opera House; allow up to 20 minutes from Filipstad to City Hall."
+  },
+  {
+   "q": "Where do cruise ships dock in Oslo?",
+   "a": "At Revierkaia below Akershus Fortress or at Filipstad west of Aker Brygge. The 2025 and 2026 official cruise manuals list only these two piers."
+  },
+  {
+   "q": "Is there a shuttle from Oslo cruise port?",
+   "a": "No. The port has no shuttle bus; you walk, use Ruter trams and buses, or take the hop-on hop-off bus."
+  },
+  {
+   "q": "Is Oslo a tender port?",
+   "a": "No. Ships berth alongside in the city centre."
+  },
+  {
+   "q": "How do I get from Oslo cruise port to the Bygdøy museums?",
+   "a": "Walk to Rådhusbrygge 3 by City Hall and take the museum ferry, every 20 minutes from 14 March to 4 October in 2026. Bus 30 runs all year."
+  },
+  {
+   "q": "Is the Viking Ship Museum open?",
+   "a": "No. It is closed until the Museum of the Viking Age opens in 2027. The Historical Museum in the centre has Viking Age objects."
+  },
+  {
+   "q": "What can I do in Oslo in one day from a cruise ship?",
+   "a": "Akershus Fortress, the ferry to the Fram Museum, then the Opera House roof and MUNCH, all within walking distance of the piers."
+  },
+  {
+   "q": "Is Oslo safe?",
+   "a": "Yes. Watch for pickpockets around Oslo Central Station and take care with quiet electric traffic."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Akershus Fortress"
+  },
+  {
+   "name": "MUNCH"
+  },
+  {
+   "name": "Oslo Opera House"
+  },
+  {
+   "name": "Oslo City Hall"
+  },
+  {
+   "name": "Fram Museum"
+  },
+  {
+   "name": "Norsk Folkemuseum"
+  },
+  {
+   "name": "Vigeland Park"
+  }
+ ],
+ "sources": [
+  {
+   "title": "VisitOSLO – Oslo Cruise Partners cruise manual 2026",
+   "url": "https://www.visitoslo.com/assets/originals/OCP-cruisemanual-2026-lav.pdf"
+  },
+  {
+   "title": "VisitOSLO – Oslo cruise port manual 2025",
+   "url": "https://www.visitoslo.com/assets/originals/oslo-cruise-port-manual-2025.pdf"
+  },
+  {
+   "title": "VisitOSLO – The Port of Oslo (cruise berths)",
+   "url": "https://www.visitoslo.com/en/trade-media-cruise/cruise/the-port-of-oslo/"
+  },
+  {
+   "title": "Ruter – Ticket prices",
+   "url": "https://ruter.no/en/about-our-tickets/ticket-prices"
+  },
+  {
+   "title": "Ruter – Single ticket",
+   "url": "https://ruter.no/en/about-our-tickets/single-ticket"
+  },
+  {
+   "title": "MUNCH – Buy tickets",
+   "url": "https://munch.no/en/buy-tickets/"
+  },
+  {
+   "title": "MUNCH – Opening hours",
+   "url": "https://www.munch.no/en/visit-us/opening-hours/"
+  },
+  {
+   "title": "Oslo kommune – Guided tours of Oslo City Hall",
+   "url": "https://www.oslo.kommune.no/english/oslo-city-hall/guided-tours-of-oslo-city-hall/"
+  },
+  {
+   "title": "Forsvarsbygg – Akershus Fortress practical information",
+   "url": "https://forsvarsbygg.no/no/festningene/akershus-festning/akershus-fortress/practical-information"
+  },
+  {
+   "title": "Norway Yacht Charter – Bygdøy museum ferry",
+   "url": "https://nyc.no/bygdoy-ferry/"
+  },
+  {
+   "title": "Cruise Europe – Oslo plans OPS on the Filipstad quay",
+   "url": "https://www.cruiseeurope.com/news/news-ce-press-1764239273/"
+  },
+  {
+   "title": "Seatrade Cruise News – What's new at Norway's ports",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/what-s-new-in-norway-s-ports-and-shorex-offering"
+  },
+  {
+   "title": "The Local Norway – What's new in Oslo public transport in 2026",
+   "url": "https://www.thelocal.no/20260108/all-thats-new-about-public-transport-in-oslo-in-2026-and-tips-to-get-around"
+  },
+  {
+   "title": "TravelFeed – Bygdøy museums open in 2026",
+   "url": "https://travelfeed.com/@guides/bygdoy-museums-oslo-open-2026"
+  },
+  {
+   "title": "Bucket List Guides – Oslo cruise port guide",
+   "url": "https://bucketlistguides.com/oslo-cruise-port-guide/"
+  }
+ ],
+ "uncertain": [
+  "Ruter 24-hour ticket price for 2026 (not shown on Ruter's pages opened).",
+  "Oslo Pass prices for 2026 (only a secondary guide).",
+  "Bygdøy museum ferry fare.",
+  "Kon-Tiki Museum adult price (secondary sources give 160 kr and 180 kr).",
+  "National Museum adult price (only a secondary guide).",
+  "Tram line numbers to Vigeland Park and Ekebergparken (only a secondary guide).",
+  "Changing of the guard time at the Royal Palace.",
+  "Opera House roof access hours.",
+  "EES biometric checks at the pier gates for non-Schengen passengers in 2026."
+ ]
+}

@@ -1,0 +1,41 @@
+---
+import { app } from '../lib/site.js';
+const { dark = false } = Astro.props;
+---
+<header id="nav" data-dark={dark ? '1' : '0'} class:list={['fixed inset-x-0 top-0 z-40 transition-colors duration-200', dark ? 'text-white' : 'border-b border-navy/10 bg-white/90 text-navy backdrop-blur']}>
+  <div class="wrap flex h-14 items-center gap-6">
+    <a href="/" class="text-lg font-semibold tracking-tight">PortTrip</a>
+    <nav aria-label="Main" class="ml-auto hidden items-center gap-6 text-sm md:flex">
+      <a href="/ports" class="opacity-80 hover:opacity-100">Ports</a>
+      <a href="/cruise-port-index" class="opacity-80 hover:opacity-100">Port index</a>
+      <a href="/blog" class="opacity-80 hover:opacity-100">Guides</a>
+      <a href="/pricing" class="opacity-80 hover:opacity-100">Pricing</a>
+      <a href={app('/login')} class="opacity-80 hover:opacity-100" rel="nofollow">Sign in</a>
+      <a href={app('/day/dubrovnik?aa=18%3A00')} class:list={['rounded px-4 py-2 font-medium', dark ? 'nav-cta bg-white/15 ring-1 ring-white/30 backdrop-blur hover:bg-white/25' : 'bg-navy text-white hover:bg-navy/90']} rel="nofollow">Plan free</a>
+    </nav>
+    <details class="relative ml-auto md:hidden">
+      <summary class="list-none cursor-pointer rounded p-2 [&::-webkit-details-marker]:hidden" aria-label="Menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </summary>
+      <div class="absolute right-0 mt-2 w-56 rounded-xl bg-white p-2 text-navy shadow-xl ring-1 ring-navy/10">
+        <a href="/ports" class="block rounded px-3 py-2 hover:bg-fog">Ports</a>
+        <a href="/cruise-port-index" class="block rounded px-3 py-2 hover:bg-fog">Port index</a>
+        <a href="/blog" class="block rounded px-3 py-2 hover:bg-fog">Guides</a>
+        <a href="/pricing" class="block rounded px-3 py-2 hover:bg-fog">Pricing</a>
+        <a href={app('/login')} class="block rounded px-3 py-2 hover:bg-fog" rel="nofollow">Sign in</a>
+        <a href={app('/day/dubrovnik?aa=18%3A00')} class="mt-1 block rounded bg-navy px-3 py-2 text-center font-medium text-white" rel="nofollow">Plan free</a>
+      </div>
+    </details>
+  </div>
+</header>
+{dark && (
+  <script is:inline>
+    (function () {
+      var n = document.getElementById('nav'); if (!n) return;
+      var light = ['border-b','border-navy/10','bg-white/90','text-navy','backdrop-blur'];
+      function on() { var top = window.scrollY < 40; n.classList.toggle('text-white', top); light.forEach(function (c) { n.classList.toggle(c, !top); }); }
+      on(); window.addEventListener('scroll', on, { passive: true });
+    })();
+  </script>
+)}
+<div class:list={[dark ? 'hidden' : 'h-14']} aria-hidden="true"></div>

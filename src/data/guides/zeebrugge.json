@@ -1,0 +1,462 @@
+{
+  "slug": "zeebrugge",
+  "city": "Zeebrugge",
+  "portName": "Port of Zeebrugge (Port of Antwerp-Bruges)",
+  "townName": "Bruges",
+  "country": "Belgium",
+  "currency": "EUR",
+  "currencySymbol": "€",
+  "language": "Dutch (Flemish)",
+  "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+  "lastVerified": "October 2026",
+  "seoTitle": "Zeebrugge cruise port guide: getting to Bruges and Ghent",
+  "seoDescription": "Zeebrugge is a cargo port 14 km from Bruges. Free shuttle to the terminal, then coach or train (11–15 min). Belfry €15, 366 steps (2026). Leave-by rules.",
+  "quickAnswer": "Ships dock at a cargo quay, usually the Swedish Quay, and you cannot walk out of the port; a free shuttle bus takes you to the cruise terminal by the port gate. From there Bruges is about 14 km away: take your cruise line's shuttle coach, or the coast tram to Blankenberge plus an 11-minute train. Trains are roughly hourly, so leave the Markt in Bruges at least three hours before all-aboard if you go by train.",
+  "intro": "Zeebrugge is a working cargo and ferry port, not a destination in itself. Almost everyone heads for Bruges, a compact medieval city of canals and squares that fills up quickly once the coaches arrive. The day is shaped by the transfer: shuttle to the terminal, then a coach or a train with gaps of up to an hour. Bruges itself is flat and easy on foot, but coaches and trains both drop you outside the old centre, so add 15–20 minutes' walking each way. Ghent is possible on a long call. Brussels is not worth the risk for most people.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 9,
+  "terminals": [
+    {
+      "name": "Swedish Quay (Zweedse Kaai)",
+      "distanceToCentreKm": 14,
+      "notes": "The usual cruise berth, shared with cargo. Ships occasionally use Albert II Dock or the Leopold II dam. Walking inside the port is not allowed; free shuttle buses run between the gangway and the terminal. Excursion coaches load beside the ship."
+    },
+    {
+      "name": "Zeebrugge Cruise Terminal (ABC Tower)",
+      "distanceToCentreKm": 14,
+      "notes": "Opened in 2018 just outside the port security gates, next to the marina. Shuttle drop-off, taxi lane, tram and coach area, shop and security check for the return. A new terminal on the Swedish Quay is planned for about 2031; until then this one stays in use."
+    }
+  ],
+  "walkability": {
+    "verdict": "No",
+    "minutes": null,
+    "km": 14,
+    "detail": "You may not walk through the port; use the free shuttle to the terminal. Bruges is about 14 km away. Once in Bruges the centre is flat: 15–20 minutes on foot from the station or the coach drop-off to the Markt, over cobbles."
+  },
+  "transportSections": [
+    {
+      "mode": "Free port shuttle (gangway to terminal)",
+      "cost": "Free",
+      "time": "A few minutes",
+      "detail": "Runs continuously between the ship and the cruise terminal by the port gate. You must use it; the port is not open to pedestrians. On the way back you go through security at the terminal."
+    },
+    {
+      "mode": "Cruise line shuttle coach to Bruges",
+      "cost": "Varies by line; check your cruise planner",
+      "time": "Depends on traffic; ask the coach desk",
+      "detail": "Most lines sell a 'Bruges on your own' coach. It drops you outside the old centre, on the south side near the Minnewater, because coaches cannot enter the cobbled core. From there walk through Minnewater Park to the centre in 15–20 minutes. Note the last return coach time and the pick-up point before you walk away."
+    },
+    {
+      "mode": "Coast tram (Kusttram) to Blankenberge, then train",
+      "cost": "De Lijn single ticket €3; day ticket €9 (2026). Train fare extra.",
+      "time": "Tram to Blankenberge plus about 11 min by train to Brugge",
+      "detail": "The Zeebrugge Kerk tram stop is a few minutes' walk from the terminal. Buy the tram ticket before boarding in the De Lijn app or online, or pay contactless. From Blankenberge station, direct SNCB trains to Brugge take about 11 minutes, around 21 a day. Check the return train before you leave Bruges."
+    },
+    {
+      "mode": "Train from Zeebrugge-Dorp",
+      "cost": "SNCB fare; buy before boarding",
+      "time": "About 15 min to Brugge",
+      "detail": "Direct trains run between Brugge and Zeebrugge-Dorp, about 16 a day. Zeebrugge-Dorp is in the village near the port entrance. With gaps of about an hour, missing one train costs you an hour."
+    },
+    {
+      "mode": "Bruges station to the centre",
+      "cost": "Free on foot",
+      "time": "15–20 min walk to the Markt",
+      "detail": "Flat walk on pavements and cobbles. De Lijn buses also run from the station to the centre."
+    },
+    {
+      "mode": "Taxi",
+      "cost": "Agree or check the price at the terminal desk",
+      "time": "Depends on traffic",
+      "detail": "Taxis wait at the terminal's taxi lane and can be booked at the counters inside. A taxi can drop you closer to the centre than a coach."
+    }
+  ],
+  "returnTiming": {
+    "rule": "By train: leave the Markt by 14:30 for a 17:30 all-aboard (three hours before). By cruise line coach: be at the coach pick-up point no later than the time printed on your ticket, and aim to be back on board by 16:00.",
+    "detail": "The return has four legs: 15–20 minutes' walk to Bruges station, a train that runs roughly hourly (11–15 minutes), then the tram or a walk to the terminal, then the port shuttle and security. Miss one train and you lose an hour. Coaches are simpler but the last ones fill up, and the walk back to the coach park through Minnewater Park takes 15–20 minutes.",
+    "emergencyFallback": "If you miss the train or the coach, take a taxi from Bruges station to the Zeebrugge cruise terminal. Tell the driver it is the cruise terminal, not the ferry terminal. Call the port agent number on your daily programme as soon as you know you will be late."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": null,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {
+      "item": "Bruges on your own (transfer only)",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Tram €3 (2026) plus train fare each way",
+      "saving": "Real, but you carry the timing risk"
+    },
+    {
+      "item": "Bruges walking tour and canal boat",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Free self-guided walk; canal boat bought at the jetty",
+      "saving": "Depends on the excursion"
+    },
+    {
+      "item": "Belfry and a museum",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Belfry €15; Church of Our Lady museum €8 (2026)",
+      "saving": "Most tours do not include these"
+    },
+    {
+      "item": "Ghent",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Train via Bruges, then tram 1 or 3",
+      "saving": "Smaller; more timing risk"
+    }
+  ],
+  "excursionAdvice": "For Bruges, the cruise line's shuttle coach is the sensible middle ground: it removes the hourly-train risk and leaves you free in town. Going fully independent by tram and train is cheap and easy if you watch the timetable. A ship's tour earns its price for Ghent on a short call, and for Brussels on almost any call, since the train needs a change and takes about 1 hour 20 minutes each way from Zeebrugge.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00, a 17:30 all-aboard and a cruise line shuttle coach to Bruges. If you go by train, follow the train times in the return rule instead.",
+    "steps": [
+      {
+        "time": "08:30",
+        "what": "Port shuttle to the terminal, then board the Bruges coach."
+      },
+      {
+        "time": "09:15",
+        "what": "Walk from the coach drop-off through Minnewater Park to the Begijnhof (Beguinage)."
+      },
+      {
+        "time": "09:45",
+        "what": "Church of Our Lady for Michelangelo's Madonna and Child (museum €8)."
+      },
+      {
+        "time": "10:30",
+        "what": "Canal boat from one of the central jetties, before the queues build."
+      },
+      {
+        "time": "11:15",
+        "what": "Climb the Belfry on the Markt (€15, 366 steps); book a time slot online in advance."
+      },
+      {
+        "time": "12:15",
+        "what": "Burg square and the Basilica of the Holy Blood, then lunch."
+      },
+      {
+        "time": "13:30",
+        "what": "De Halve Maan brewery tour, or chocolate shopping and the Rozenhoedkaai."
+      },
+      {
+        "time": "15:00",
+        "what": "Start walking back to the coach pick-up near the Minnewater. Allow 20 minutes."
+      },
+      {
+        "time": "16:00",
+        "what": "Back on board, 90 minutes before all-aboard, after the coach, port shuttle and security."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "Belfry (Belfort) and the Markt",
+      "why": "13th-century tower with 366 steps and a view over the whole city; the Markt below is Bruges' main square.",
+      "timeNeeded": "1 hour",
+      "cost": "€15 adult; under 7 free (2026)",
+      "tip": "Open daily 09:00–20:00 from April to early November. Visitor numbers per hour are limited, so book a slot online. It can close in strong wind."
+    },
+    {
+      "name": "Burg square and Basilica of the Holy Blood",
+      "why": "The city's oldest square, with the Gothic town hall and a chapel holding a relic said to be Christ's blood.",
+      "timeNeeded": "30–45 minutes",
+      "cost": "Free entry to the chapel; donations welcome",
+      "tip": "Dress modestly and keep quiet inside; it is a working chapel."
+    },
+    {
+      "name": "Canal boat trip",
+      "why": "A 30-minute loop on the canals, the easiest way to see the old merchant houses.",
+      "timeNeeded": "45 minutes including queue",
+      "cost": "Same fare at all five licensed operators; pay at the jetty",
+      "tip": "Runs from early March to mid-November. No advance booking for individuals. Go before 10:30 or after 16:00 in summer; boats are open but umbrellas are supplied."
+    },
+    {
+      "name": "Church of Our Lady (O.L.V.-kerk)",
+      "why": "Brick Gothic church with Michelangelo's Madonna and Child, the only one of his sculptures to leave Italy in his lifetime.",
+      "timeNeeded": "45 minutes",
+      "cost": "Church free; museum €8 (2026)",
+      "tip": "Museum open 09:30–17:00, Sundays only from 13:30. Closed on Ascension Day."
+    },
+    {
+      "name": "Begijnhof (Beguinage) and Minnewater",
+      "why": "Quiet walled courtyard of white houses, then the lake and park on the way back to the coaches.",
+      "timeNeeded": "30 minutes",
+      "cost": "Free courtyard",
+      "tip": "Keep your voice down inside the Begijnhof; it is still lived in."
+    },
+    {
+      "name": "De Halve Maan brewery",
+      "why": "Family brewery in the centre, home of Brugse Zot, with a beer pipeline under the streets.",
+      "timeNeeded": "1 hour",
+      "cost": "€16 adult with one beer; ages 6–15 €8.50 (2026)",
+      "tip": "Tours run daily. The XL tour (€26, three beers) is weekends only."
+    },
+    {
+      "name": "Musea Brugge museums",
+      "why": "The Groeningemuseum (Flemish Primitives), St John's Hospital and others, if you want an indoor block.",
+      "timeNeeded": "1–2 hours",
+      "cost": "Musea Brugge Card €33 for 72 hours (2026)",
+      "tip": "Entry stops 30 minutes before closing. Only worth the card if you visit three or more sites."
+    },
+    {
+      "name": "Ghent (on a long call)",
+      "why": "Larger, livelier canal city with Gravensteen castle and St Bavo's Cathedral.",
+      "timeNeeded": "Full day",
+      "cost": "Train fare; tram fare from the station",
+      "tip": "Trains from Bruges take about 22–28 minutes. From Gent-Sint-Pieters take tram 1 or 3 to the centre (every 10 minutes)."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Zeebrugge beach",
+      "howToGetThere": "Coast tram towards Blankenberge or Knokke from the Zeebrugge Kerk stop, or train to Zeebrugge-Strand",
+      "time": "A short tram ride",
+      "cost": "Tram €3 single (2026); beach free",
+      "note": "A wide North Sea sand beach. Cold water; not a swimming day for most."
+    },
+    {
+      "name": "Blankenberge",
+      "howToGetThere": "Coast tram from Zeebrugge Kerk",
+      "time": "Short tram ride",
+      "cost": "Tram €3 single, €9 day ticket (2026)",
+      "note": "Seaside resort with a promenade and pier; also the rail link to Bruges."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Belgian frites with mayonnaise",
+      "where": "The frites kiosks on the Markt, Bruges",
+      "price": null
+    },
+    {
+      "dish": "Brugse Zot beer",
+      "where": "De Halve Maan brewery, Walplein, Bruges",
+      "price": null
+    },
+    {
+      "dish": "Pralines and truffles",
+      "where": "Dumon chocolatier or The Chocolate Line, Bruges centre",
+      "price": null
+    },
+    {
+      "dish": "Belgian waffle",
+      "where": "Cafés and stands around the Markt and Wollestraat",
+      "price": null
+    },
+    {
+      "dish": "Stoofvlees (beef and beer stew) with frites",
+      "where": "Brasseries in the side streets off the Markt",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Trying to walk out of the port.",
+      "fix": "Pedestrians are not allowed in the port area. Use the free shuttle to the terminal."
+    },
+    {
+      "mistake": "Treating the train like a metro.",
+      "fix": "Trains from Bruges to Zeebrugge-Dorp and Blankenberge run roughly hourly. Check the return train before you leave and plan to catch the one before the one you need."
+    },
+    {
+      "mistake": "Forgetting the walk at both ends.",
+      "fix": "Coaches and trains stop outside the old centre. Allow 15–20 minutes each way to and from the Markt."
+    },
+    {
+      "mistake": "Going to Brussels on a short call.",
+      "fix": "It takes about 1 hour 20 minutes each way with a change. Choose Bruges, or Ghent on a long call, or take a ship's tour."
+    },
+    {
+      "mistake": "Turning up at the Belfry without a booking at midday.",
+      "fix": "Hourly numbers are capped. Book a slot online or go first thing."
+    },
+    {
+      "mistake": "Giving a taxi driver 'Zeebrugge port'.",
+      "fix": "Ask for the cruise terminal; the ferry terminal is elsewhere in the port."
+    }
+  ],
+  "safety": "Bruges is a low-crime city. The main issue is pickpocketing in crowds: on the Markt and Burg, at the canal boat jetties, around the station and in the chocolate-shop streets. Do not leave phones on café tables. The physical risks are wet cobbles, unfenced canal edges and cyclists, who use marked lanes and move fast. In Zeebrugge, stay in the shuttle; the port is an active cargo area.",
+  "scams": [
+    "Pickpockets in crowds on the Markt, Burg and at canal boat jetties: keep bags zipped and in front, and phones off café tables.",
+    "Overpriced tourist menus around the Markt: check the menu, drink prices and any service charge before sitting down.",
+    "'Special deals' on souvenirs or chocolate in tourist streets: compare prices in a second shop before buying."
+  ],
+  "emergencyNumber": "112",
+  "accessibility": "The port shuttle is a standard bus; ask the ship about accessible transfers. Bruges is flat, but almost all streets are cobbled, which is hard work for wheelchairs and walkers. The walk from the coach drop-off through Minnewater Park takes 15–20 minutes. A taxi can get closer to the centre. The Belfry is 366 steps with no lift. Canal boats offer a reduced rate for disabled visitors, with one companion free, but boarding means steps down to the boat. The Church of Our Lady has accessible paths and an entrance accessible with assistance.",
+  "rainyDay": "Bruges handles rain well. Spend the time in the Musea Brugge sites (the Groeningemuseum and St John's Hospital), the Church of Our Lady, the Basilica of the Holy Blood and De Halve Maan brewery. Canal boats still run with umbrellas supplied. The Belfry may close in strong wind or storms.",
+  "crowdTips": "Since 2019 Zeebrugge has limited calls to two cruise ships a day, but Bruges also gets heavy day-tripper and coach traffic. The Markt, Rozenhoedkaai and canal jetties are busiest from late morning; canal boat queues can reach 30–45 minutes on warm summer afternoons. Do the canal boat and Belfry early, and leave the brewery or museums for midday. The Begijnhof and the streets east of the Burg are calmer.",
+  "faqs": [
+    {
+      "q": "Can you walk from Zeebrugge cruise port to Bruges?",
+      "a": "No. You cannot walk through the port, and Bruges is about 14 km away. Take the free shuttle to the terminal, then a coach, tram and train, or taxi."
+    },
+    {
+      "q": "How do I get from Zeebrugge cruise port to Bruges?",
+      "a": "Your cruise line's shuttle coach is simplest. Independently, take the coast tram to Blankenberge and an 11-minute train, or the train from Zeebrugge-Dorp (15 minutes). Trains run roughly hourly."
+    },
+    {
+      "q": "Is Zeebrugge a tender port?",
+      "a": "No. Ships dock, usually at the Swedish Quay, and a free shuttle takes you to the terminal."
+    },
+    {
+      "q": "Is there a shuttle from the ship in Zeebrugge?",
+      "a": "Yes. A free port shuttle runs from the gangway to the cruise terminal. Coaches to Bruges are sold by the cruise lines."
+    },
+    {
+      "q": "Can I visit Brussels from Zeebrugge on a cruise?",
+      "a": "Only on a long call or with a ship's tour. The train takes about 1 hour 20 minutes each way with one change."
+    },
+    {
+      "q": "Can I visit Ghent from Zeebrugge?",
+      "a": "Yes on a long call. Go via Bruges; the train from Bruges to Ghent takes about 22–28 minutes, then tram 1 or 3 to the centre."
+    },
+    {
+      "q": "What can I do in Bruges in one day from a cruise ship?",
+      "a": "Begijnhof, Church of Our Lady, a canal boat, the Belfry, the Burg and a brewery or chocolate stop. All are within a 20-minute walk of each other."
+    },
+    {
+      "q": "Is Bruges safe?",
+      "a": "Yes. Watch for pickpockets in crowds and take care on cobbles and near canal edges."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "Belfry of Bruges"
+    },
+    {
+      "name": "Markt"
+    },
+    {
+      "name": "Burg and Basilica of the Holy Blood"
+    },
+    {
+      "name": "Canal boat trip"
+    },
+    {
+      "name": "Church of Our Lady"
+    },
+    {
+      "name": "Begijnhof"
+    },
+    {
+      "name": "De Halve Maan brewery"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Europe for Cruisers – Zeebrugge cruise terminal",
+      "url": "https://europeforvisitors.com/cruises/articles/zeebrugge-cruise-terminal.htm"
+    },
+    {
+      "title": "Beyondships – Zeebrugge cruise port",
+      "url": "https://www.beyondships3.com/zeebrugge-cruise-port.html"
+    },
+    {
+      "title": "CruiseMapper – Zeebrugge port",
+      "url": "https://www.cruisemapper.com/ports/zeebrugge-port-50"
+    },
+    {
+      "title": "CruiseMapper – Swedish Quay modernisation and new cruise terminal",
+      "url": "https://www.cruisemapper.com/news/14353-zeebrugge-swedish-quay-shore-power-integration"
+    },
+    {
+      "title": "De Lijn – Tickets and fares",
+      "url": "https://www.delijn.be/en/content/vervoerbewijzen/tarieven/"
+    },
+    {
+      "title": "De Lijn – Day ticket",
+      "url": "https://www.delijn.be/en/content/dagticket/"
+    },
+    {
+      "title": "Trainline – Blankenberge to Bruges",
+      "url": "https://www.thetrainline.com/en/train-times/blankenberge-to-bruges-brugge"
+    },
+    {
+      "title": "Trainline – Bruges to Zeebrugge-Dorp",
+      "url": "https://www.thetrainline.com/train-times/bruges-brugge-to-zeebrugge-dorp"
+    },
+    {
+      "title": "Trainline – Brussels to Zeebrugge-Dorp",
+      "url": "https://www.thetrainline.com/en/train-times/brussels-to-zeebrugge-dorp"
+    },
+    {
+      "title": "Trainline – Ghent to Zeebrugge-Dorp",
+      "url": "https://www.thetrainline.com/en/train-times/ghent-to-zeebrugge-dorp"
+    },
+    {
+      "title": "Trainline – Bruges to Ghent",
+      "url": "https://www.thetrainline.com/train-times/bruges-brugge-to-ghent"
+    },
+    {
+      "title": "Visit Gent – Reaching Ghent by train",
+      "url": "https://visit.gent.be/en/good-know/practical-information/how-reach-ghent/ghent-train"
+    },
+    {
+      "title": "Musea Brugge – Belfort",
+      "url": "https://www.museabrugge.be/en/visit/locations/belfort"
+    },
+    {
+      "title": "Musea Brugge – Belfort practical information",
+      "url": "https://www.museabrugge.be/en/visit-our-museums/our-museums-and-monuments/belfort/practically"
+    },
+    {
+      "title": "Musea Brugge – Plan your visit",
+      "url": "https://www.museabrugge.be/en/visit"
+    },
+    {
+      "title": "Musea Brugge – Church of Our Lady practical information",
+      "url": "https://www.museabrugge.be/en/visit-our-museums/our-museums-and-monuments/onze-lieve-vrouwekerk/practically"
+    },
+    {
+      "title": "Visit Bruges – Church of Our Lady museum",
+      "url": "https://bezoekers.brugge.be/highlights/churchofourlady"
+    },
+    {
+      "title": "Visit Bruges – Bruges by boat",
+      "url": "https://bezoekers.brugge.be/en/bruggemetdeboot"
+    },
+    {
+      "title": "Visit Bruges – De Halve Maan brewery",
+      "url": "https://bezoekers.brugge.be/en/brouwerij-de-halve-maan-brewery-de-halve-maan"
+    },
+    {
+      "title": "Full Suitcase – Bruges Belfry tower",
+      "url": "https://fullsuitcase.com/bruges-belfry-tower/"
+    },
+    {
+      "title": "Nomado – Bruges canal tours guide",
+      "url": "https://www.nomadotravel.app/en/guides/bruges-canal-tours-guide"
+    },
+    {
+      "title": "Euro City Guide – Bruges Old Town guide (March 2026)",
+      "url": "https://eurocityguide.com/belgium/bruges-old-town-guide"
+    },
+    {
+      "title": "Euronews – How Bruges is tackling overtourism (2024)",
+      "url": "https://www.euronews.com/2024/09/04/there-are-just-too-many-visitors-how-is-bruges-tackling-overtourism"
+    },
+    {
+      "title": "Travel Safe Abroad – Is Bruges safe?",
+      "url": "https://www.travelsafe-abroad.com/belgium/bruges/"
+    },
+    {
+      "title": "Cruise Critic forum – Zeebrugge",
+      "url": "https://boards.cruisecritic.com.au/topic/2865593-zeebrugge/"
+    },
+    {
+      "title": "Cruise Critic forum – Bruges",
+      "url": "https://boards.cruisecritic.com.au/topic/2839274-bruges/"
+    }
+  ],
+  "uncertain": [
+    "SNCB train fares (Blankenberge or Zeebrugge-Dorp to Brugge) could not be confirmed on the official SNCB site; Trainline shows only GBP advance fares.",
+    "Canal boat fare: one 2026 source says €12, another says €15 city-regulated. Left out of the prose.",
+    "Cruise line shuttle coach prices and taxi fares to Bruges for 2026 were not verified. Older forum reports (2017–2022) are out of date.",
+    "Walking distance from the cruise terminal to Zeebrugge-Dorp station not verified.",
+    "Whether the cruise line coach drop-off is still at the Bargeplein / Minnewater side in 2026 comes from 2022 forum posts.",
+    "Groeningemuseum single-ticket price (€14 in one secondary source) not confirmed on Musea Brugge.",
+    "Basilica of the Holy Blood relic display times and any treasury fee come from one secondary source and are left out.",
+    "Ship excursion prices not verified on a cruise line page; shipExcursionAvg and savingPerPerson are null. diyAvg is null because train fares are unverified."
+  ]
+}

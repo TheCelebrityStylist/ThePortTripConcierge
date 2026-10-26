@@ -1,0 +1,393 @@
+{
+ "slug": "haugesund",
+ "city": "Haugesund",
+ "portName": "Haugesund Cruise Port (Garpaskjærkaien, Karmsund Havn)",
+ "townName": "Haugesund town centre",
+ "country": "Norway",
+ "currency": "NOK",
+ "currencySymbol": "NOK ",
+ "language": "Norwegian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Haugesund cruise port guide: walk, buses and Vikings",
+ "seoDescription": "Haugesund cruise pier is 950 m (about 20 min) from the centre over a steep bridge. Kolumbus bus from NOK 49 (2026), Haraldshaugen 2 km north. No tender.",
+ "quickAnswer": "Ships dock at Garpaskjærkaien on Risøy island, about 950 m from the town centre, so there is no tender. Walk in over the bridge across Smedasundet in about 20 minutes, or take the cruise shuttle that runs on most call days to Vår Frelsers Church. Be back at the pier 60 minutes before all-aboard, or 90 minutes if you go out to Avaldsnes.",
+ "intro": "Haugesund is a compact fishing and shipping town on the Karmsundet strait, between Stavanger and Bergen. The cruise pier sits on Risøy, a small island joined to the centre by a steep road bridge. The town itself takes a few hours: the Haraldsgata pedestrian street, the harbour along Smedasundet and the pink town hall. The Viking story is the reason most people come: Haraldshaugen, the national monument 2 km north, and Avaldsnes on Karmøy, the old royal seat. Fjord trips to Åkrafjorden and Langfoss are long and best done on a ship tour.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Garpaskjærkaien (Haugesund Cruise Port), Risøy",
+   "distanceToCentreKm": 0.95,
+   "notes": "Main cruise berth; takes the largest ships, one large ship a day or two smaller ones. Pier tourist information desk and souvenir shop, free Wi-Fi ('Haugesund Cruise Port', no password), ATM, and marked areas for shuttle buses and taxis."
+  },
+  {
+   "name": "City-centre quay",
+   "distanceToCentreKm": 0,
+   "notes": "Small quay in the centre for ships up to about 130 m in good weather (120 m preferred). Only small ships use it."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 20,
+  "km": 0.95,
+  "detail": "About 950 m from the pier to the centre over the bridge across Smedasundet. The bridge is steep and exposed to wind; the official guide suggests the shuttle or a taxi for wheelchair users and anyone with limited mobility. The centre itself is compact, with some cobbled streets."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 20 min to the centre",
+   "detail": "Walk off Risøy over the town bridge into the centre. Risøykiosken, just before the bridge, is the nearest kiosk."
+  },
+  {
+   "mode": "Cruise shuttle bus",
+   "cost": "Check on board",
+   "time": "A few minutes",
+   "detail": "Runs for most cruise calls while the ship is in port and stops at Vår Frelsers Church in the centre. Confirm times on board or at the pier tourist desk."
+  },
+  {
+   "mode": "Kolumbus local bus",
+   "cost": "Adult single NOK 49 in the Kolumbus Billett app, NOK 20 more if bought on board (2026)",
+   "time": "Varies by route",
+   "detail": "Green Kolumbus buses leave from the centre (Strandgata terminal, Sørhauggata terminal and Bytunet), not the pier. A single is valid 60 minutes in one zone, plus 30 minutes per extra zone. Buy in the app, at the Narvesen kiosk on Haraldsgata, at the Bytunet ticket machine, or with cash in NOK on board. Bus 201 goes to Gard for Haraldshaugen; buses 208, 209 and 210 go to Avaldsnes."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Ask for a fixed price before you go",
+   "time": "About 15 min to Avaldsnes",
+   "detail": "Haugaland Taxi and Karmøy Taxi usually wait at the pier. Haugaland Taxi offers fixed-price trips to Langfoss, Avaldsnes and Skudeneshavn."
+  },
+  {
+   "mode": "Hop-on hop-off bus (Strømma)",
+   "cost": "Tickets from Haugesund Tourist Information, Haraldsgata 131",
+   "time": "Varies",
+   "detail": "Runs on cruise call days and covers Haraldshaugen, the town hall, the Visnes mining museum and Avaldsnes."
+  },
+  {
+   "mode": "Kolumbus e-bikes",
+   "cost": "See the Kolumbus app",
+   "time": "Varies",
+   "detail": "Electric city bikes rented through the Kolumbus app from stations around the centre. A good way to reach Haraldshaugen and the coastal path."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at Garpaskjærkaien 60 minutes before all-aboard if you stay in town. From Avaldsnes, leave 90 minutes before all-aboard.",
+  "detail": "The walk from the centre to the pier takes about 20 minutes and the bridge climb is slower in wind and rain. Local buses to Avaldsnes are not timed for cruise calls, and the walk from the Avaldsnes bus stop to the history centre adds 20–30 minutes each way.",
+  "emergencyFallback": "Taxis wait at the pier and serve the centre; ask a café or the tourist office on Haraldsgata to call Haugaland Taxi. If you will miss all-aboard, phone the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Haraldshaugen and the coastal path",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot; Kolumbus bus 201 from NOK 49 adult in the app (2026)",
+   "saving": "Most of the tour price"
+  },
+  {
+   "item": "Avaldsnes (Nordvegen History Centre, St Olav's Church, Viking Farm)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Bus 208, 209 or 210 plus a 20–30 min walk, or a fixed-price taxi",
+   "saving": "Depends on taxi price and group size"
+  },
+  {
+   "item": "Langfoss and Åkrafjorden",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Fixed-price taxi or rental car",
+   "saving": "Usually small; the ship tour removes the return risk"
+  }
+ ],
+ "excursionAdvice": "Do the town, Haraldshaugen and the coastal path on your own: they are walkable or one short bus ride away. Avaldsnes is fine independently by taxi, or by bus on a long call if you check the return times first. Take the ship tour for Langfoss and Åkrafjorden: it is a half-day trip of about 1–1.5 hours each way by road, local buses do not fit, and the ship will wait for its own coaches.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Pick up a free city map at the pier tourist desk and walk over the bridge into town (about 20 minutes)."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk the harbour along Smedasundet and look at the pink town hall from 1931."
+   },
+   {
+    "time": "09:45",
+    "what": "Walk north about 30 minutes to Haraldshaugen, or take bus 201 to Gard. See the 17 m granite obelisk and the Krosshaugen stone cross."
+   },
+   {
+    "time": "10:30",
+    "what": "Follow the coastal path (Kyststien) north past Kvalsvik for The Rising Tide sculptures, about 30 minutes' walk on from Haraldshaugen."
+   },
+   {
+    "time": "12:00",
+    "what": "Back in the centre for lunch, for example at Dattera til Lothe overlooking Smedasundet."
+   },
+   {
+    "time": "13:15",
+    "what": "The Viking Planet digital museum in the centre, or a stroll and coffee on Haraldsgata."
+   },
+   {
+    "time": "15:30",
+    "what": "Last shopping in the centre; most shops close on Sundays."
+   },
+   {
+    "time": "16:00",
+    "what": "Walk back over the bridge to Garpaskjærkaien."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Haraldshaugen (Norway's national monument)",
+   "why": "A 17 m granite obelisk raised in 1872 to mark 1,000 years since Norway was united into one kingdom, ringed by 29 standing stones, one for each old county.",
+   "timeNeeded": "45–60 minutes including the trip",
+   "cost": "Free to walk around",
+   "tip": "About 2 km north of the centre, 30 minutes on foot or bus 201 to Gard. The Krosshaugen stone cross is nearby."
+  },
+  {
+   "name": "Kyststien coastal path and The Rising Tide",
+   "why": "An easy gravel path along the coast north of town, past Kvalen lighthouse, to Jason deCaires Taylor's The Rising Tide sculptures, which previously stood in the Thames in London.",
+   "timeNeeded": "About 1 hour on the path, plus 30 minutes each way from the centre",
+   "cost": "Free",
+   "tip": "About 6 km round trip. Skip the detour down to the lighthouse in storms."
+  },
+  {
+   "name": "Avaldsnes and the Nordvegen History Centre",
+   "why": "Norway's oldest royal seat on Karmøy: the medieval St Olav's Church, the history centre beside it and a reconstructed Viking farm on Bukkøy island.",
+   "timeNeeded": "2–3 hours including transport",
+   "cost": "Check prices with the centre (historiskeavaldsnes.no)",
+   "tip": "Bus 208, 209 or 210 to Avaldsnes, then walk 20–30 minutes. The Viking Farm opens in summer only. Audio guides in English, German, French and Spanish."
+  },
+  {
+   "name": "Smedasundet harbour and Haraldsgata",
+   "why": "The waterfront strait the town grew along, and the mostly pedestrian main shopping street behind it.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free",
+   "tip": "Most shops close on Sundays; some cafés stay open."
+  },
+  {
+   "name": "Haugesund town hall",
+   "why": "The pink town hall, built in 1931, often voted the town's most attractive building.",
+   "timeNeeded": "15 minutes from outside",
+   "cost": "Free",
+   "tip": "Also a stop on the hop-on hop-off route."
+  },
+  {
+   "name": "The Viking Planet",
+   "why": "A digital museum in the centre on the region's Viking history and Harald Fairhair, with 3D presentations.",
+   "timeNeeded": "Allow about an hour",
+   "cost": "Check on the operator's site",
+   "tip": "A good choice in rain and for children."
+  },
+  {
+   "name": "Langfoss and Åkrafjorden",
+   "why": "A tall waterfall falling into Åkrafjorden, visible from the road.",
+   "timeNeeded": "Half a day",
+   "cost": "Ship tour or fixed-price taxi",
+   "tip": "Roughly 1–1.5 hours each way by road. Do not try to fit town sightseeing in as well."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Kvalsvik Badeplass",
+   "howToGetThere": "Walk the coastal path north from the centre or from Haraldshaugen",
+   "time": "On the way to The Rising Tide, which is about 30 minutes' walk on from Haraldshaugen",
+   "cost": "Free",
+   "note": "A coastal bathing spot with parking at the end of the Kyststien route."
+  },
+  {
+   "name": "Åkrasanden",
+   "howToGetThere": "Bus 210 from Sørhauggata terminal, a tour or a rental car",
+   "time": "Long trip for a cruise call",
+   "cost": "Kolumbus fare",
+   "note": "A sandy beach on Karmøy; check the return bus before you go."
+  },
+  {
+   "name": "Floating saunas on Smedasundet",
+   "howToGetThere": "Walk; beside Quality Hotel Maritim in the centre",
+   "time": "Short walk from the centre",
+   "cost": "Check when booking",
+   "note": "Not a beach, but the local way to get into the sea: sauna then a dip."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Lunch with a view over Smedasundet",
+   "where": "Dattera til Lothe (centre)",
+   "price": null
+  },
+  {
+   "dish": "Coffee",
+   "where": "Hos Carlos Kaffebar (Gamle Slaktehuset and the library)",
+   "price": null
+  },
+  {
+   "dish": "Cupcakes and cakes",
+   "where": "Jåblom Bakst Cupcakehuset (centre)",
+   "price": null
+  },
+  {
+   "dish": "Plant-based lunch",
+   "where": "Tre Stuer (centre)",
+   "price": null
+  },
+  {
+   "dish": "Sushi, eat in or takeaway",
+   "where": "Sabi Sushi (centre)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to pay in euros or dollars.",
+   "fix": "Prices and payment are in NOK only. Cards are accepted almost everywhere, and there are ATMs at the pier and in town."
+  },
+  {
+   "mistake": "Buying the bus ticket on board.",
+   "fix": "Use the Kolumbus Billett app; buying on the bus costs NOK 20 more per adult (2026)."
+  },
+  {
+   "mistake": "Booking Langfoss independently and then trying to fit in the town.",
+   "fix": "Langfoss is a half-day trip. Pick one or the other, and use the ship tour for Langfoss."
+  },
+  {
+   "mistake": "Expecting a fjord view from town.",
+   "fix": "Haugesund faces the open coast and Karmsundet. The fjords are an hour or more inland."
+  },
+  {
+   "mistake": "Planning a shopping day on a Sunday.",
+   "fix": "Most shops close on Sundays; plan cafés, Haraldshaugen and the coastal path instead."
+  }
+ ],
+ "safety": "Haugesund is a calm, small town. The practical hazards are weather and terrain: the bridge from the pier is steep and windy, the coastal path is exposed, and the detour to Kvalen lighthouse can be dangerous in autumn and winter storms. Weather changes fast, so bring a windproof layer and shoes with grip, and check yr.no on the morning of your call.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from the pier crosses a steep bridge, so wheelchair users and anyone with limited mobility should take the cruise shuttle (to Vår Frelsers Church) or a taxi. Most public buildings, shops and cafés in the centre are wheelchair accessible, and most Kolumbus buses are wheelchair friendly with space for pushchairs. Some central streets are cobbled. The coastal path is gravel.",
+ "rainyDay": "Head for The Viking Planet digital museum and the cafés on Haraldsgata, or the floating saunas on Smedasundet. Haugesund Art Gallery is within walking distance of the centre. Skip the coastal path in heavy wind.",
+ "crowdTips": "Karmsund Havn can take one large ship or two smaller ones a day, so the town rarely feels overrun. Cafés fill around lunchtime when tour groups return; eat a little early. Hop-on hop-off and taxis are busiest just after the ship opens, so walk to Haraldshaugen first and take transport later.",
+ "faqs": [
+  {
+   "q": "Is Haugesund a tender port?",
+   "a": "No. Ships dock at Garpaskjærkaien on Risøy, and small ships can use a quay in the centre."
+  },
+  {
+   "q": "Is Haugesund walkable from the cruise port?",
+   "a": "Yes. The centre is about 950 m away, roughly 20 minutes over a steep bridge. A shuttle runs on most call days."
+  },
+  {
+   "q": "How do I get from Haugesund cruise port to Haraldshaugen?",
+   "a": "Walk into the centre, then 30 minutes north on foot, or take Kolumbus bus 201 to Gard. It is about 2 km north of the centre."
+  },
+  {
+   "q": "Can I visit Avaldsnes from Haugesund on a cruise day?",
+   "a": "Yes. Take a taxi (about 15 minutes) or bus 208, 209 or 210 to Avaldsnes and walk 20–30 minutes to the history centre. Allow 2–3 hours."
+  },
+  {
+   "q": "What can I do in Haugesund in one day from a cruise ship?",
+   "a": "Walk the harbour and Haraldsgata, see Haraldshaugen and walk the coastal path to The Rising Tide sculptures, or go to Avaldsnes for the Viking farm and St Olav's Church."
+  },
+  {
+   "q": "Do I need Norwegian kroner in Haugesund?",
+   "a": "Payment is in NOK only, but cards are accepted almost everywhere. There are ATMs at the pier and in town."
+  },
+  {
+   "q": "Are there beaches near Haugesund cruise port?",
+   "a": "Kvalsvik on the coastal path north of town is a bathing spot; Åkrasanden on Karmøy is a sandy beach but a long bus ride."
+  },
+  {
+   "q": "Is Haugesund safe?",
+   "a": "Yes. Take care with wind and wet surfaces on the bridge and the coastal path."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Haraldshaugen"
+  },
+  {
+   "name": "Kyststien coastal path"
+  },
+  {
+   "name": "The Rising Tide"
+  },
+  {
+   "name": "Avaldsnes"
+  },
+  {
+   "name": "Nordvegen History Centre"
+  },
+  {
+   "name": "The Viking Planet"
+  },
+  {
+   "name": "Langfoss"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Fjord Norway – Haugesund cruise guide: practical information for cruise passengers",
+   "url": "https://www.fjordnorway.com/en/inspiration/haugesund-cruise-guide--practical-information-for-cruise-passengers"
+  },
+  {
+   "title": "Fjord Norway – Plan your cruise holiday to Haugesund",
+   "url": "https://www.fjordnorway.com/en/campaign/haugesund--haugalandet/plan-your-cruise-holiday-to-haugesund-"
+  },
+  {
+   "title": "Fjord Norway – Things to do in Haugesund on a cruise",
+   "url": "https://www.fjordnorway.com/en/inspiration/things-to-do-in-haugesund-on-a-cruise"
+  },
+  {
+   "title": "Fjord Norway – Kolumbus public transport in the Haugesund region",
+   "url": "https://www.fjordnorway.com/en/transport/kolumbus---public-transport-in-the-haugesund-region"
+  },
+  {
+   "title": "Kolumbus – Single bus and train tickets",
+   "url": "https://www.kolumbus.no/en/tickets/-prices-and-products/single-tickets/"
+  },
+  {
+   "title": "Fjord Norway – Haugesund Tourist Information",
+   "url": "https://www.fjordnorway.com/en/tourist-information/haugesund-tourist-information"
+  },
+  {
+   "title": "Fjord Norway – Norway's national monument Haraldshaugen",
+   "url": "https://www.fjordnorway.com/en/see-and-do/norways-national-monument-haraldshaugen"
+  },
+  {
+   "title": "Fjord Norway – Kyststien coastal path",
+   "url": "https://www.fjordnorway.com/en/see-and-do/kyststien-coastal-path"
+  },
+  {
+   "title": "Fjord Norway – Nordvegen History Centre",
+   "url": "https://www.fjordnorway.com/en/see-and-do/nordvegen-history-centre"
+  },
+  {
+   "title": "Seatrade Cruise News – Haugesund climbs to fifth largest cruise port in Norway (2024)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/haugesund-climbs-to-fifth-largest-cruise-port-in-norway"
+  },
+  {
+   "title": "Seatrade Cruise News – What's new at Norway's ports and in shore excursions (2025)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/what-s-new-in-norway-s-ports-and-shorex-offering"
+  },
+  {
+   "title": "Adventour Begins – Haugesund cruise port guide",
+   "url": "https://adventourbegins.com/haugesund-cruise-port-guide-norway/"
+  },
+  {
+   "title": "CruiseMapper – Haugesund port",
+   "url": "https://www.cruisemapper.com/ports/haugesund-port-239"
+  }
+ ],
+ "uncertain": [
+  "Cruise shuttle fare: one third-party page quotes €7, undated; the official guide gives no price.",
+  "Number of Kolumbus zones (and so the fare) between Haugesund and Avaldsnes, and whether Gard is inside the Haugesund local zone fare.",
+  "Nordvegen History Centre and Viking Farm ticket prices and summer opening hours.",
+  "Taxi fixed-price amounts for Avaldsnes, Langfoss and Skudeneshavn.",
+  "Typical all-aboard time for Haugesund calls (17:30 used as a default)."
+ ]
+}

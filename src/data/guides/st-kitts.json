@@ -1,0 +1,389 @@
+{
+  "slug": "st-kitts",
+  "city": "Basseterre",
+  "portName": "Port Zante, Basseterre",
+  "townName": "downtown Basseterre",
+  "country": "St Kitts and Nevis",
+  "currency": "USD",
+  "currencySymbol": "US$",
+  "priceSymbol": "US$",
+  "language": "English",
+  "timezone": "AST (UTC-4), no daylight saving",
+  "lastVerified": "October 2026",
+  "seoTitle": "St Kitts cruise port guide: Port Zante, Brimstone Hill",
+  "seoDescription": "Port Zante docks in central Basseterre; The Circus is 5 min on foot. Brimstone Hill US$15, 30–35 min by taxi. Frigate Bay taxi US$12 for up to 4.",
+  "quickAnswer": "Ships dock at Port Zante, right on the waterfront of Basseterre, so you walk into town in about five minutes. Taxis have fixed government fares (for example US$12 for up to four people to Frigate Bay or South Friars Bay). Leave Brimstone Hill 1 hour 45 minutes before all-aboard and the beaches 1 hour 30 minutes before.",
+  "intro": "St Kitts is an easy port to handle on your own. The pier at Port Zante runs straight into downtown Basseterre, and The Circus, the town's small roundabout square, is a five-minute walk away. The island's big sight, Brimstone Hill Fortress, is a 30–35 minute drive up the west coast, and the calm Caribbean-side beaches are 10–30 minutes south. Taxis are not metered but run on a published fare schedule, so the day is mostly about agreeing the price and currency before you get in. A ferry to Nevis is possible on a long call, but it is the riskiest choice here.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 9,
+  "terminals": [
+    {
+      "name": "Port Zante cruise pier",
+      "distanceToCentreKm": 0.4,
+      "notes": "Ships dock and walk off into the Port Zante shopping area, which leads directly into downtown Basseterre. A second cruise pier opened in 2019. The taxi dispatch point is at the port exit. A new terminal building has been under construction since July 2026 for home-porting from November 2027; cruise calls continue during the work, but taxi staging and walking routes may shift."
+    }
+  ],
+  "walkability": {
+    "verdict": "Yes",
+    "minutes": 5,
+    "km": 0.4,
+    "detail": "Flat walk from the pier through the Port Zante shopping area to The Circus, about five minutes. Independence Square and the main streets are 5–10 minutes away. Everything beyond town (Brimstone Hill, the beaches, Romney Manor) needs a taxi or tour."
+  },
+  "transportSections": [
+    {
+      "mode": "On foot",
+      "cost": "Free",
+      "time": "About 5 min to The Circus",
+      "detail": "Walk off the pier through the Port Zante shopping area and straight into town. Pavements are narrow on some streets; watch for traffic, which drives on the left."
+    },
+    {
+      "mode": "Taxi (government fare schedule)",
+      "cost": "Basseterre to Frigate Bay or South Friars Bay US$12 / EC$32 for 1–4 people; Cockleshell Bay US$22 / EC$59; Brimstone Hill only, max 2 hours, US$55 / EC$149; full island tour 4–4.5 hours US$100 / EC$270 (gazetted 2021 rates, still the published schedule)",
+      "time": "10–15 min to Frigate Bay or South Friars Bay; 25–30 min to Cockleshell; 30–35 min to Brimstone Hill",
+      "detail": "Taxis wait at the dispatch point at the port exit. There are no meters. Groups of five or more pay per person (US$3 to Frigate Bay). Waiting time after the first 15 minutes costs US$5 per 15 minutes. Licensed taxis have yellow plates with T or TA. Agree the fare, and whether it is in US$ or EC$, before you set off. Book your pick-up time at the beach before you pay the driver, because empty taxis can be scarce at Cockleshell."
+    },
+    {
+      "mode": "Local minibus (H buses)",
+      "cost": "EC$2.50 under 5 miles, EC$3.00 for 5–10 miles, EC$3.75 for longer trips, cash (2026)",
+      "time": "No timetable",
+      "detail": "Westbound buses leave from the area by the ferry terminal, eastbound and northbound ones from Baker's Corner. Buses do not serve Frigate Bay or the Southeast Peninsula beaches. With no fixed timetable and thin service on Sundays, they are a poor choice when you have a ship to catch."
+    },
+    {
+      "mode": "Passenger ferry to Nevis",
+      "cost": "EC$25–26 one way (about US$10), cash only at the terminal window (2026)",
+      "time": "25–60 min depending on the boat",
+      "detail": "The Basseterre ferry terminal is a short walk from Port Zante. Departures run roughly hourly during the day. Buy tickets 20–30 minutes before sailing. Check times on the day; schedules change. Carry your ship card and photo ID for re-entry to the port."
+    }
+  ],
+  "returnTiming": {
+    "rule": "Be back on board 60 minutes before all-aboard. Leave Brimstone Hill by 15:45 and the south-coast beaches by 16:00 for a 17:30 all-aboard. From Nevis, be on a ferry leaving Charlestown by 14:30.",
+    "detail": "From The Circus the walk back is about five minutes. Brimstone Hill is a 30–35 minute drive, Frigate Bay and South Friars Bay 10–15 minutes, Cockleshell 25–30 minutes. Security lines at the pier can be long when two or more ships are in. Nevis ferries take up to an hour and sail about hourly, so missing one can cost you an hour.",
+    "emergencyFallback": "Ask any licensed taxi for Port Zante; the island is small and most of the south and west coast is within 35 minutes. If you will be late, call the port agent number on your daily programme straight away. Emergency services: 911."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": null,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {
+      "item": "Brimstone Hill Fortress",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Taxi US$55 for 1–4 people (Brimstone Hill only, max 2 hours, 2021 schedule) + US$15 entry",
+      "saving": "Large for a group of four"
+    },
+    {
+      "item": "South Friars Bay or Frigate Bay beach",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Taxi US$12 each way for 1–4 people (2021 schedule); loungers paid at the beach clubs",
+      "saving": "Usually substantial"
+    },
+    {
+      "item": "Island tour by taxi",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Full island tour US$100 for 1–4 people, 4–4.5 hours, including Brimstone Hill and Timothy Hill (2021 schedule); fortress entry extra",
+      "saving": "Depends on group size"
+    },
+    {
+      "item": "Basseterre town walk",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Free on foot",
+      "saving": "The full excursion price"
+    }
+  ],
+  "excursionAdvice": "Do Basseterre, the beaches and Brimstone Hill on your own: distances are short and taxi fares are published. The St Kitts Scenic Railway is the case for booking through the ship or a tour seller in advance, because it sells out on busy multi-ship days. A Nevis day trip is also worth booking through the ship if your all-aboard is before 17:00, because a late ferry leaves you on another island. Shore tours sell out on busy multi-ship days, so book early.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 at Port Zante and all-aboard is 17:30.",
+    "steps": [
+      {
+        "time": "08:30",
+        "what": "Walk off the ship through Port Zante to The Circus and look at the Berkeley Memorial clock. Continue to Independence Square, five minutes away."
+      },
+      {
+        "time": "09:15",
+        "what": "Agree a fare at the taxi dispatch point for Brimstone Hill (US$55 for 1–4 people on the published schedule, up to two hours). Confirm US$ or EC$ before setting off."
+      },
+      {
+        "time": "09:50",
+        "what": "Arrive at Brimstone Hill Fortress, open from 09:30. Pay US$15 at the gate and walk up to the Citadel for the views along the coast."
+      },
+      {
+        "time": "11:30",
+        "what": "Taxi back to Basseterre (30–35 min), or ask the driver to stop at Romney Manor and Caribelle Batik on the way, agreeing the extra waiting time first."
+      },
+      {
+        "time": "12:15",
+        "what": "Lunch in town near The Circus, or carry on by taxi to South Friars Bay (10–15 min, US$12 for 1–4 people)."
+      },
+      {
+        "time": "13:00",
+        "what": "Beach afternoon at South Friars Bay. Book the return pick-up for 15:45 with your driver before paying."
+      },
+      {
+        "time": "15:45",
+        "what": "Taxi back to Port Zante."
+      },
+      {
+        "time": "16:30",
+        "what": "Back on board, 60 minutes before all-aboard."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "Brimstone Hill Fortress National Park",
+      "why": "A UNESCO World Heritage Site: a large British-built fortress on a volcanic hill above the west coast, with the Citadel and wide sea views.",
+      "timeNeeded": "1.5–2 hours on site, plus 30–35 min each way by road",
+      "cost": "US$15; children 12 and under half price (official site)",
+      "tip": "Open daily 09:30–17:30. Go first thing, before the tour coaches arrive and before the midday heat."
+    },
+    {
+      "name": "The Circus and downtown Basseterre",
+      "why": "The small Victorian roundabout with the Berkeley Memorial clock is the centre of town, five minutes from the pier.",
+      "timeNeeded": "1 hour",
+      "cost": "Free",
+      "tip": "Walk on to Independence Square and St George's Anglican Church."
+    },
+    {
+      "name": "Independence Square",
+      "why": "Basseterre's main square, a short walk from The Circus, surrounded by older buildings.",
+      "timeNeeded": "20–30 minutes",
+      "cost": "Free",
+      "tip": "Shaded benches; a good stop before or after a taxi trip."
+    },
+    {
+      "name": "Romney Manor and Caribelle Batik",
+      "why": "Gardens of a former plantation estate with the Caribelle Batik workshop, where you can watch batik being made.",
+      "timeNeeded": "45–60 minutes plus travel",
+      "cost": "Not verified; check locally",
+      "tip": "On the west-coast road towards Brimstone Hill, so combine the two in one taxi trip."
+    },
+    {
+      "name": "St Kitts Scenic Railway",
+      "why": "A narrow-gauge sugar-cane railway turned into a three-hour tour, about 18 miles by train and 12 by coach, with open upper decks.",
+      "timeNeeded": "About 3 hours",
+      "cost": "Not verified; book through your ship or a tour seller",
+      "tip": "Book before you sail; it sells out on multi-ship days."
+    },
+    {
+      "name": "Timothy Hill lookout",
+      "why": "Viewpoint on the road to the Southeast Peninsula where the Atlantic and the Caribbean lie either side of a narrow strip of land.",
+      "timeNeeded": "15 minutes",
+      "cost": "Free entry and parking",
+      "tip": "Ask your taxi to stop here on the way to Cockleshell Bay."
+    },
+    {
+      "name": "Nevis day trip",
+      "why": "The sister island across a two-mile channel, with Charlestown and Pinney's Beach.",
+      "timeNeeded": "At least 5 hours including ferries",
+      "cost": "Ferry EC$25–26 each way, cash (2026)",
+      "tip": "Only on a long call. Take an early ferry and be on a boat back from Charlestown by 14:30 for a 17:30 all-aboard."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "South Friars Bay",
+      "howToGetThere": "Taxi from Port Zante",
+      "time": "10–15 min",
+      "cost": "Taxi US$12 for 1–4 people (2021 schedule); loungers at the beach clubs",
+      "note": "Calm Caribbean-side bay with beach bars, including Carambola Beach Club."
+    },
+    {
+      "name": "Frigate Bay (Caribbean side)",
+      "howToGetThere": "Taxi from Port Zante",
+      "time": "10–15 min",
+      "cost": "Taxi US$12 for 1–4 people (2021 schedule)",
+      "note": "Closest beach area to Basseterre, with bars and snorkelling. Buses do not go here."
+    },
+    {
+      "name": "Cockleshell Bay",
+      "howToGetThere": "Taxi over the Southeast Peninsula road",
+      "time": "25–30 min",
+      "cost": "Taxi US$22 for 1–4 people (2021 schedule)",
+      "note": "Faces Nevis. Reggae Beach Bar and Spice Mill are here. Arrange your return pick-up in advance; empty taxis are scarce."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Stewed saltfish with spicy plantain, coconut dumplings and breadfruit (the national dish)",
+      "where": "Local restaurants around The Circus, Basseterre",
+      "price": null
+    },
+    {
+      "dish": "Grilled fish and beach-bar lunches",
+      "where": "Reggae Beach Bar & Grill, Cockleshell Bay",
+      "price": null
+    },
+    {
+      "dish": "Lunch on the sand",
+      "where": "Spice Mill, Cockleshell Bay",
+      "price": null
+    },
+    {
+      "dish": "Beach-club food and drinks",
+      "where": "Carambola Beach Club, South Friars Bay",
+      "price": null
+    },
+    {
+      "dish": "Rum punch and local Carib beer",
+      "where": "Bars in the Port Zante area",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Getting into a taxi without agreeing the fare and currency.",
+      "fix": "Taxis are not metered. Check the published fare, then confirm per car or per person and US$ or EC$ before setting off."
+    },
+    {
+      "mistake": "Paying the beach taxi in full and having no ride back.",
+      "fix": "Agree a pick-up time with the driver first; empty taxis are scarce at Cockleshell and other quieter beaches."
+    },
+    {
+      "mistake": "Using minibuses to get back for all-aboard.",
+      "fix": "H buses have no timetable and do not serve the south-coast beaches. Use a licensed taxi for the return."
+    },
+    {
+      "mistake": "Taking the last ferry back from Nevis.",
+      "fix": "Ferries run about hourly and take up to an hour. Be on a boat by 14:30 for a 17:30 all-aboard, or book the ship's Nevis tour."
+    },
+    {
+      "mistake": "Turning up for the Scenic Railway without a booking.",
+      "fix": "It sells out on multi-ship days. Book through the ship or an agent before the day."
+    }
+  ],
+  "safety": "Basseterre is generally fine for day visitors in daylight, but the UK government reports serious crime on the islands, so use normal care: do not carry large amounts of cash or flashy jewellery, and stay off quiet roads and beaches after dark. Use only licensed taxis (yellow plates with T or TA); unlicensed drivers often have no insurance for passengers. Currents can be strong and not every beach has lifeguards or warning flags, so swim where others swim. Traffic drives on the left.",
+  "scams": [
+    "Monkey photo sellers in Basseterre: vendors offer photos with a vervet monkey and then ask for a lot more than expected. Agree the price first or decline firmly.",
+    "Currency switch at the end of a taxi ride: some drivers quote a number and later say it was US$ rather than EC$, or per person rather than per car. Confirm both before you get in.",
+    "Unlicensed taxis touting outside the port: use the dispatch point and check for the T or TA yellow plate."
+  ],
+  "emergencyNumber": "911 (police and ambulance), 333 (fire)",
+  "accessibility": "Ships dock alongside, so there is no tender transfer. The route from the pier through Port Zante to The Circus is short and flat, though downtown pavements are narrow and kerbs high in places. Brimstone Hill involves steep paths and steps to reach the Citadel. Ask at the taxi dispatch point for a vehicle that suits a folded wheelchair; adapted taxis are not guaranteed.",
+  "rainyDay": "Showers are usually short. Stay in town and wait them out in the Port Zante shops or cafés around The Circus, or take a taxi tour, which is mostly by car. Brimstone Hill's paths and the Citadel are exposed, so go when the rain clears. Skip the Nevis ferry in rough weather.",
+  "crowdTips": "St Kitts passed one million cruise passengers by 20 August 2026, and two or more ships often share Port Zante in winter. On multi-ship days, shore tours to Brimstone Hill and the Scenic Railway sell out, the fortress fills by mid-morning and security lines at the pier are longer in the afternoon. Head to Brimstone Hill as soon as it opens at 09:30, take the beach in the afternoon and return to the ship early.",
+  "faqs": [
+    {
+      "q": "Is St Kitts a tender port?",
+      "a": "No. Ships dock at Port Zante in central Basseterre."
+    },
+    {
+      "q": "Is Basseterre walkable from the cruise port?",
+      "a": "Yes. The Circus is about a five-minute walk from the pier through the Port Zante shopping area."
+    },
+    {
+      "q": "How do I get from St Kitts cruise port to Brimstone Hill?",
+      "a": "Take a taxi from the dispatch point, about 30–35 minutes. The published fare for Brimstone Hill only (up to two hours) is US$55 for 1–4 people; entry is US$15."
+    },
+    {
+      "q": "How much is a taxi to Frigate Bay or South Friars Bay?",
+      "a": "US$12 / EC$32 for 1–4 people on the published schedule, about 10–15 minutes from Basseterre. Confirm the currency first."
+    },
+    {
+      "q": "Beaches near St Kitts cruise port?",
+      "a": "South Friars Bay and Frigate Bay are 10–15 minutes by taxi; Cockleshell Bay is 25–30 minutes. None is within walking distance."
+    },
+    {
+      "q": "Can I visit Nevis from a cruise ship in St Kitts?",
+      "a": "Yes, on a long call. The ferry terminal is a short walk from Port Zante, the crossing takes 25–60 minutes and costs EC$25–26 one way in cash. Be on a ferry back by 14:30 for a 17:30 all-aboard."
+    },
+    {
+      "q": "What can I do in St Kitts in one day from a cruise ship?",
+      "a": "Brimstone Hill in the morning, lunch in Basseterre, then a beach afternoon at South Friars Bay or Frigate Bay."
+    },
+    {
+      "q": "Is St Kitts safe for cruise passengers?",
+      "a": "Generally yes in daylight. Use licensed taxis, agree fares first, avoid isolated beaches and keep valuables out of sight."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "Brimstone Hill Fortress National Park"
+    },
+    {
+      "name": "The Circus, Basseterre"
+    },
+    {
+      "name": "Independence Square"
+    },
+    {
+      "name": "Romney Manor and Caribelle Batik"
+    },
+    {
+      "name": "St Kitts Scenic Railway"
+    },
+    {
+      "name": "Timothy Hill"
+    },
+    {
+      "name": "South Friars Bay"
+    },
+    {
+      "name": "Cockleshell Bay"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Brimstone Hill Fortress National Park – official site (admission and hours)",
+      "url": "https://brimstonehillfortress.org/"
+    },
+    {
+      "title": "St Kitts taxi fare schedule (Official Gazette No. 6 of 2021), PDF",
+      "url": "https://tempo.cdn.tambourine.com/st-kitts/media/taxi_fares_2021-64ee0cb7ba639.pdf"
+    },
+    {
+      "title": "SKNIS – Government breaks ground on new cruise terminal at Port Zante (July 2026)",
+      "url": "https://sknis.gov.kn/?p=102492"
+    },
+    {
+      "title": "Caribbean Journal – St Kitts breaks ground on new cruise terminal (July 2026)",
+      "url": "https://www.caribjournal.com/2026/07/01/st-kitts-home-port-zante/"
+    },
+    {
+      "title": "Deep Arrival – St Kitts passes one million cruise passengers (2026)",
+      "url": "https://deeparrival.com/news/st-kitts-one-million-cruise-passengers-2026/"
+    },
+    {
+      "title": "Celebrity Cruises – St Kitts cruise port guide",
+      "url": "https://www.celebritycruises.com/ca/ports/saint-kitts"
+    },
+    {
+      "title": "Princess Cruises – St Kitts things to do near the cruise port (March 2026)",
+      "url": "https://www.princess.com/blog/st-kitts-things-to-do-near-cruise-port"
+    },
+    {
+      "title": "Nevis Tourism Authority – Ferry services",
+      "url": "https://www.nevisisland.com/plan/ferry-services"
+    },
+    {
+      "title": "The Trip Verdict – Getting around St Kitts and Nevis (2026)",
+      "url": "https://www.thetripverdict.com/getting-around-saint-kitts-and-nevis"
+    },
+    {
+      "title": "The Trip Verdict – St Kitts shore excursions from Basseterre (2026)",
+      "url": "https://www.thetripverdict.com/st-kitts-shore-excursions-basseterre"
+    },
+    {
+      "title": "The Trip Verdict – Day trip to Nevis from St Kitts (2026)",
+      "url": "https://www.thetripverdict.com/day-trip-to-nevis-from-saint-kitts"
+    },
+    {
+      "title": "GOV.UK – St Kitts and Nevis travel advice: getting help",
+      "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis/getting-help"
+    },
+    {
+      "title": "GOV.UK – St Kitts and Nevis travel advice: safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis/safety-and-security"
+    }
+  ],
+  "uncertain": [
+    "Whether Brimstone Hill admission has changed recently; the official site's footer is dated 2019 and no newer official price list was found.",
+    "Taxi fares are the 2021 gazetted schedule; a 2026 guide quotes higher figures (about US$60 to Brimstone Hill, about US$40 to Cockleshell). No newer official schedule was found.",
+    "Exact Nevis ferry timetable and last sailing from Charlestown; the Nevis Tourism Authority schedule did not load and secondary sources give only an hourly pattern and a last boat between 17:00 and 18:00.",
+    "St Kitts Scenic Railway price and departure times; the official site could not be opened.",
+    "Romney Manor and Caribelle Batik opening hours and any admission charge.",
+    "Typical all-aboard time at Port Zante; 17:30 used as a default.",
+    "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null.",
+    "Restaurant and bar prices not verified."
+  ]
+}

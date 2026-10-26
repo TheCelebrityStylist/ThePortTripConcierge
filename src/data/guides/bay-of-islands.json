@@ -1,0 +1,367 @@
+{
+ "slug": "bay-of-islands",
+ "city": "Bay of Islands",
+ "portName": "Bay of Islands anchorage (Waitangi tender pontoon)",
+ "townName": "Paihia",
+ "country": "New Zealand",
+ "currency": "NZD",
+ "currencySymbol": "NZ$",
+ "language": "English (and te reo Māori)",
+ "timezone": "NZST (UTC+12), NZDT (UTC+13) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Bay of Islands cruise port guide: Waitangi tender, Russell",
+ "seoDescription": "Tenders land at Waitangi, a 5-min walk to the Treaty Grounds (NZ$78, 2026). Free shuttle to Paihia; Russell ferry NZ$19.40 return. Back 90 min early.",
+ "quickAnswer": "Bay of Islands is a tender port: ships anchor in the bay and tenders usually land at the Waitangi pontoon, about a five-minute walk from the Waitangi Treaty Grounds. A free shuttle runs about every 20 minutes between Waitangi Wharf, Paihia and the Treaty Grounds, and passenger ferries cross from Paihia to Russell in about 15 minutes (NZ$19.40 adult return, 2026). Be back at the tender pontoon 90 minutes before all-aboard.",
+ "intro": "There is no cruise berth in the Bay of Islands, so every passenger comes ashore by tender. The main landing is a purpose-built pontoon at Waitangi, run by the port authority Far North Holdings and sized for ships of up to 5,000 passengers. That puts the Waitangi Treaty Grounds, the site of the Treaty of Waitangi, almost at the landing. Paihia, the main town, is 2.1 km away by free shuttle, and the historic town of Russell is a short ferry ride across the water. When two ships are in, one may tender to Paihia or Russell instead.",
+ "isTender": true,
+ "tenderNotes": "Ships anchor in the bay. The usual landing is the Waitangi tender pontoon, which takes three 100-passenger tenders at all tides. When two ships are in port, one uses Paihia Wharf or Russell Wharf. Some ships also run tenders to Russell for independent travellers. Allow extra time for the tender queue, especially in the last two hours before all-aboard.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Waitangi tender pontoon (Waitangi Wharf)",
+   "distanceToCentreKm": 2.1,
+   "notes": "About a five-minute walk to the Waitangi Treaty Grounds and 2.1 km from the Paihia i-SITE. A free shuttle circuit links the wharf, Paihia township and the Treaty Grounds about every 20 minutes for the length of the call."
+  },
+  {
+   "name": "Paihia Wharf or Russell Wharf (second ship)",
+   "distanceToCentreKm": 0.1,
+   "notes": "Used when two ships are in port, or by some ships for independent travellers to Russell. Paihia's shops are across the road from the wharf; Russell's waterfront is about 50 m from its pier."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": null,
+  "km": 2.1,
+  "detail": "The Treaty Grounds are about a five-minute walk from the Waitangi landing. Paihia is 2.1 km away; most people use the free shuttle. Paihia and Russell themselves are small and easy to walk."
+ },
+ "transportSections": [
+  {
+   "mode": "Free cruise shuttle",
+   "cost": "Free",
+   "time": "About 15 min circuit; every 20 min or so",
+   "detail": "Runs Waitangi Wharf, Paihia township, Treaty Grounds for the whole port call. From 1 October to 26 April a separate free van also runs from the Maritime Building in Paihia to the Treaty Grounds at 09:30, 10:30, 11:30, 12:30, 13:30 and 14:30."
+  },
+  {
+   "mode": "Passenger ferry Paihia–Russell (Northland Ferries)",
+   "cost": "NZ$19.40 adult return, NZ$10.80 child 5–14 (2026)",
+   "time": "About 15 min each way",
+   "detail": "Buy tickets at the ferry; cash, EFTPOS and credit cards accepted. The operator's summer timetable (25 September to 9 May) shows roughly hourly sailings, 07:20–22:30 from Paihia and 07:00–22:00 from Russell. The Treaty Grounds' cruise page says ferries leave every 20 minutes on ship days. Check the board at the wharf and note the return times."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; ask first",
+   "time": "Under 5 min drive Waitangi to Paihia",
+   "detail": "Taxis wait in the maritime area. Not all take credit cards, so ask before you get in."
+  },
+  {
+   "mode": "Boat trips from Paihia",
+   "cost": "Varies by operator",
+   "time": "Varies",
+   "detail": "Hole in the Rock cruises and faster boat rides towards Cape Brett leave from Paihia. Book an operator that returns well before your tender deadline."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be at the Waitangi tender pontoon 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). From Russell, catch a ferry back to Paihia at least 150 minutes before all-aboard.",
+  "detail": "Every passenger returns by tender, and queues build late in the day. Russell adds a ferry crossing and then the shuttle from Paihia to Waitangi, so a missed ferry can cost you up to an hour. If your ship tenders to Paihia or Russell instead, apply the same 90-minute rule at that wharf.",
+  "emergencyFallback": "From Paihia take a taxi to Waitangi Wharf, under five minutes by road. If you are stuck in Russell, ask at the wharf about the next sailing and call the port agent number in your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": 97.4,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Waitangi Treaty Grounds",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "NZ$78 international adult (from 1 October 2026), walk from the landing",
+   "saving": "Depends on the ship's tour price"
+  },
+  {
+   "item": "Russell",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free shuttle to Paihia plus NZ$19.40 return ferry (2026)",
+   "saving": "Depends on the ship's tour price"
+  }
+ ],
+ "excursionAdvice": "You do not need a ship tour for the Treaty Grounds: they are a five-minute walk from the tender landing and the admission includes a guided tour and a cultural performance. Russell is easy alone by shuttle and ferry. A ship tour is worth it for trips further out, such as Kerikeri or a long boat trip to Hole in the Rock, where a late return on a tender day is the real risk.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship anchors at 08:00, first tenders land at Waitangi by 08:30, all-aboard is 17:30, and the visit falls between 1 March and 24 December.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Tender to the Waitangi pontoon. Walk about five minutes to the Treaty Grounds, which open at 09:00."
+   },
+   {
+    "time": "09:00",
+    "what": "Buy admission (NZ$78 international adult). Look round the museums and the ceremonial waka."
+   },
+   {
+    "time": "10:00",
+    "what": "Join the 50-minute guided tour."
+   },
+   {
+    "time": "11:00",
+    "what": "Watch the 30-minute cultural performance."
+   },
+   {
+    "time": "11:45",
+    "what": "Free shuttle to Paihia."
+   },
+   {
+    "time": "12:15",
+    "what": "Ferry from Paihia to Russell, about 15 minutes."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch on The Strand in Russell, for example at the Duke of Marlborough."
+   },
+   {
+    "time": "13:30",
+    "what": "Pompallier Mission guided tour (5 The Strand), or a walk along the waterfront."
+   },
+   {
+    "time": "14:45",
+    "what": "Ferry back to Paihia; check the return times on arrival in Russell."
+   },
+   {
+    "time": "15:15",
+    "what": "Free shuttle from Paihia to Waitangi Wharf."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the tender queue at the Waitangi pontoon, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Waitangi Treaty Grounds",
+   "why": "The site of the Treaty of Waitangi, with two museums, heritage buildings and the world's largest ceremonial waka.",
+   "timeNeeded": "2–3 hours",
+   "cost": "NZ$78 international adult, NZ$39 NZ resident or youth 13–17, under-12s free (from 1 October 2026)",
+   "tip": "Admission is valid for two consecutive days and includes a 50-minute guided tour and a 30-minute cultural performance. Performances run at 11:00, 13:00 and 15:00 from 1 March to 24 December, more often in summer."
+  },
+  {
+   "name": "Russell",
+   "why": "A small historic waterfront town across the bay, home to Pompallier Mission and the Duke of Marlborough, described as New Zealand's oldest licensed hotel.",
+   "timeNeeded": "2–3 hours including the ferry",
+   "cost": "Ferry NZ$19.40 adult return (2026)",
+   "tip": "The Strand along the waterfront holds most of the sights and cafés; it is flat and short."
+  },
+  {
+   "name": "Pompallier Mission and Printery",
+   "why": "A French Catholic mission printery where guides show 19th-century printing and bookbinding.",
+   "timeNeeded": "1 hour",
+   "cost": "NZ$20 adult guided tour; NZ$10 garden only; under-18s free",
+   "tip": "Open daily 10:00–16:30 from November to April (10:00–15:30 May to October). Tours at 10:30, 11:30, 13:30, 14:30, plus 15:30 in summer. About five minutes' walk from Russell wharf."
+  },
+  {
+   "name": "Paihia waterfront",
+   "why": "The main town, with shops opposite the wharf and departures for boat trips.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "The free shuttle stops in the township."
+  },
+  {
+   "name": "Haruru Falls walk",
+   "why": "A horseshoe-shaped waterfall reached by boardwalk through mangroves and native bush.",
+   "timeNeeded": "1.5–2 hours return on foot",
+   "cost": "Free",
+   "tip": "About 6 km from the Treaty House. Boardwalks are slippery when wet and there is no drinking water on the track. Only for long calls with a clear margin."
+  },
+  {
+   "name": "Hole in the Rock boat trip",
+   "why": "A boat trip out to the rock arch near Cape Brett, the classic Bay of Islands cruise.",
+   "timeNeeded": "Half a day",
+   "cost": "Varies by operator",
+   "tip": "Leaves from Paihia. Pick a departure that returns at least 90 minutes before all-aboard plus time for the shuttle."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Paihia waterfront beach",
+   "howToGetThere": "Free shuttle to Paihia township",
+   "time": "About 15 min by shuttle",
+   "cost": "Free",
+   "note": "Waterfront next to the town and wharf. Swim only where it is clearly safe and away from boat traffic."
+  },
+  {
+   "name": "Russell waterfront",
+   "howToGetThere": "Ferry from Paihia",
+   "time": "About 15 min crossing",
+   "cost": "Ferry NZ$19.40 return (2026)",
+   "note": "The waterfront along The Strand is about 50 m from the wharf. Keep clear of the ferry landing when swimming."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Seafood and Northland produce in a heritage pub",
+   "where": "Duke of Marlborough, 35 The Strand, Russell",
+   "price": null
+  },
+  {
+   "dish": "Fish and chips",
+   "where": "Russell Fish Co., 2 Cass Street, Russell",
+   "price": null
+  },
+  {
+   "dish": "Italian dishes with Northland produce",
+   "where": "The Gables, 19 The Strand, Russell",
+   "price": null
+  },
+  {
+   "dish": "Sharing platters and wood-fired pizza",
+   "where": "Charlotte's Kitchen, Paihia Wharf",
+   "price": null
+  },
+  {
+   "dish": "Fish and chips",
+   "where": "Oceans 68, 68 Marsden Road, Paihia",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming you will land in Paihia.",
+   "fix": "Most ships tender to Waitangi, 2.1 km from Paihia. Use the free shuttle; when two ships are in, check which wharf your ship uses."
+  },
+  {
+   "mistake": "Missing the guided tour and cultural performance at Waitangi.",
+   "fix": "They run at set times. Check the schedule when you buy your ticket and plan Russell around them."
+  },
+  {
+   "mistake": "Coming back from Russell on the last possible ferry.",
+   "fix": "Allow for the ferry, a wait, the shuttle to Waitangi and the tender queue. Leave Russell at least 150 minutes before all-aboard."
+  },
+  {
+   "mistake": "Relying on card payment for a taxi.",
+   "fix": "Not all Bay of Islands taxis take cards; ask before getting in or carry some cash."
+  },
+  {
+   "mistake": "Visiting on Waitangi Day (6 February) expecting to tour the buildings.",
+   "fix": "The grounds host a free festival but all buildings are closed. Schedules from 1 to 5 February can also change."
+  }
+ ],
+ "safety": "The Bay of Islands is a quiet, low-crime area. The main risks are sun, slippery boardwalks after rain, and boarding tenders in a swell: hold the rail and follow the crew. Swim only at calm, supervised spots and keep away from boat ramps and wharves.",
+ "scams": [],
+ "emergencyNumber": "111",
+ "accessibility": "Tender transfers depend on the swell; ask the ship whether wheelchair users can go ashore. The Waitangi pontoon was built for tenders at all tides. Paihia and Russell waterfronts are flat. The Haruru Falls track has steps and narrow boardwalks and is not wheelchair accessible. Check the Treaty Grounds' access arrangements with the venue before you go.",
+ "rainyDay": "Spend longer at the Treaty Grounds, whose two museums are indoors and whose ticket covers two days. In Russell, the Pompallier Mission tour covers the historic printery and bookbinding. Skip the Haruru Falls walk, as the boardwalks get slippery and the track muddy.",
+ "crowdTips": "Forty-four ship calls are scheduled for 2026/27. On a ship day the Treaty Grounds fill as tours arrive, so go first thing at 09:00 and do Russell in the afternoon, or reverse it if your ship's tours head to Waitangi first. Paihia's craft market on the village green is reported to open on cruise days.",
+ "faqs": [
+  {
+   "q": "Is Bay of Islands a tender port?",
+   "a": "Yes. Ships anchor in the bay and tender, usually to the Waitangi pontoon; with two ships in, one may use Paihia or Russell."
+  },
+  {
+   "q": "How far is the Waitangi Treaty Grounds from the tender pier?",
+   "a": "About a five-minute walk from the Waitangi landing."
+  },
+  {
+   "q": "How do I get from the Waitangi tender to Paihia?",
+   "a": "Take the free shuttle, which runs about every 20 minutes between Waitangi Wharf, Paihia and the Treaty Grounds. Paihia is 2.1 km away."
+  },
+  {
+   "q": "How do I get to Russell from the cruise ship?",
+   "a": "Shuttle to Paihia, then the passenger ferry, about 15 minutes, NZ$19.40 adult return (2026). Some ships tender straight to Russell."
+  },
+  {
+   "q": "How much is the Waitangi Treaty Grounds?",
+   "a": "NZ$78 for international adults from 1 October 2026, including a guided tour, cultural performance and two museums; valid for two days."
+  },
+  {
+   "q": "What can I do in Bay of Islands in one day from a cruise ship?",
+   "a": "The Treaty Grounds in the morning, then lunch and Pompallier Mission in Russell, or a boat trip from Paihia."
+  },
+  {
+   "q": "Beaches near Bay of Islands cruise port?",
+   "a": "Paihia's waterfront is by the shuttle stop, and Russell's waterfront along The Strand is next to the ferry wharf. Swim away from boat traffic."
+  },
+  {
+   "q": "Is the Bay of Islands safe?",
+   "a": "Yes. Take care boarding tenders and on wet boardwalks."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Waitangi Treaty Grounds"
+  },
+  {
+   "name": "Russell"
+  },
+  {
+   "name": "Pompallier Mission and Printery"
+  },
+  {
+   "name": "Paihia"
+  },
+  {
+   "name": "Haruru Falls"
+  },
+  {
+   "name": "Hole in the Rock"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Far North Holdings – Cruise ships (port authority)",
+   "url": "https://www.fnhl.co.nz/cruise-ships"
+  },
+  {
+   "title": "Waitangi Treaty Grounds – Admissions",
+   "url": "https://www.waitangi.org.nz/book/waitangi-admissions"
+  },
+  {
+   "title": "Waitangi Treaty Grounds – Opening hours, tour and performance times",
+   "url": "https://www.waitangi.org.nz/visit/opening-hours"
+  },
+  {
+   "title": "Waitangi Treaty Grounds – Bay of Islands shore excursions (cruise passengers)",
+   "url": "https://waitangi.org.nz/campaign/bayofislandsshoreexcursions"
+  },
+  {
+   "title": "Northland Ferries – Bay of Islands ferry",
+   "url": "https://northlandferries.co.nz/bay-of-islands-ferry"
+  },
+  {
+   "title": "Tourism New Zealand – Paihia–Russell passenger ferry",
+   "url": "https://www.newzealand.com/int/plan/business/paihia-russell-passenger-ferry/"
+  },
+  {
+   "title": "Tourism New Zealand – Getting around in Bay of Islands",
+   "url": "https://www.newzealand.com/uk/feature/getting-around-in-bay-of-islands/"
+  },
+  {
+   "title": "Tourism New Zealand – Pompallier Mission",
+   "url": "https://www.newzealand.com/nz/plan/business/pompallier-mission"
+  },
+  {
+   "title": "Northland NZ – Duke of Marlborough Hotel",
+   "url": "https://northlandnz.com/listing/duke-of-marlborough-hotel"
+  },
+  {
+   "title": "Bay of Islands.co.nz – Duke of Marlborough",
+   "url": "https://bay-of-islands.co.nz/food-drink/duke-of-marlborough/"
+  },
+  {
+   "title": "Bay of Islands.co.nz – Haruru Falls walk",
+   "url": "https://bay-of-islands.co.nz/places-to-see/haruru-falls-walk/"
+  },
+  {
+   "title": "NZ Pocket Guide – Food guide to the Bay of Islands (2024)",
+   "url": "https://nzpocketguide.com/the-foodie-guide-to-the-bay-of-islands/"
+  },
+  {
+   "title": "What's In Port – Bay of Islands",
+   "url": "https://www.whatsinport.com/Bay-of-Islands.htm"
+  }
+ ],
+ "uncertain": [
+  "Ferry frequency on cruise days: the operator's timetable shows roughly hourly sailings, while the Treaty Grounds' cruise page says every 20 minutes; a second operator may also run the crossing.",
+  "Walking time from the Waitangi landing to Paihia township.",
+  "The ship's typical all-aboard time (17:30 assumed).",
+  "Hole in the Rock cruise prices and durations for 2026.",
+  "Whether the Whare Waka Café at the Treaty Grounds is open (listed as closed on the venue's hours page).",
+  "Taxi fares between Waitangi and Paihia."
+ ]
+}

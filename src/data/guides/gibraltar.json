@@ -1,0 +1,154 @@
+{
+  "slug": "gibraltar",
+  "city": "Gibraltar",
+  "portName": "Gibraltar Cruise Terminal (North Mole, Western Arm)",
+  "townName": "Main Street and Casemates Square",
+  "country": "Gibraltar (British Overseas Territory)",
+  "currency": "GBP",
+  "currencySymbol": "£",
+  "language": "English (Spanish widely spoken)",
+  "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+  "lastVerified": "October 2026",
+  "seoTitle": "Gibraltar cruise port guide: the Rock without the cable car",
+  "seoDescription": "Gibraltar's terminal is a 15-min walk from town. Cable car shut until 2027; Nature Reserve £30 (2026), taxi Rock tours £50 incl. entry. Leave town by 16:00.",
+  "quickAnswer": "Ships dock at the cruise terminal on the North Mole, about 1.5 km and a flat 15-minute walk from Casemates Square and Main Street. The cable car is closed for rebuilding until 2027, so reach the Upper Rock by taxi tour (about £50 per person including the £30 reserve ticket, 2026) or on foot. Start back from Casemates by 16:00 for a 17:30 all-aboard.",
+  "intro": "Gibraltar is a docked, walkable port with one big decision: how to get up the Rock. The cable car made its last trips in January 2026 and is being rebuilt, with reopening expected in 2027. That leaves taxi or minibus tours, or a long, steep walk. Everything on the Upper Rock (St Michael's Cave, the Great Siege Tunnels, the Apes' Den) sits inside the Nature Reserve, which needs a £30 adult ticket. Down in town, Main Street is flat, British and pedestrianised, and Europa Point is a bus ride south. Since July 2026 the land border with Spain no longer has routine passport checks, but cruise passengers should still carry their passport.",
+  "isTender": false,
+  "tenderNotes": null,
+  "typicalHours": 8,
+  "terminals": [
+    {"name": "Gibraltar Cruise Terminal (North Mole, Western Arm)", "distanceToCentreKm": 1.5, "notes": "A converted warehouse at the northern end of the port, open only when a ship is in. Taxis and tour minibuses wait outside. The port sometimes runs a paid shuttle minibus into town on busy days. The government invited bids in January 2026 to refurbish and run the terminal; no works dates are set."}
+  ],
+  "walkability": {"verdict": "Yes", "minutes": 15, "km": 1.5, "detail": "Flat walk from the terminal to the edge of town and on to Casemates Square, where Main Street begins. Main Street is pedestrianised. The Upper Rock is a different matter: steep roads and steps, and at least two hours on foot to the top areas."},
+  "transportSections": [
+    {"mode": "On foot to town", "cost": "Free", "time": "About 15 min to Casemates Square", "detail": "Leave the terminal and follow the waterfront road towards town; the route is flat and easy to follow. Casemates Square is the northern end of Main Street."},
+    {"mode": "Port shuttle minibus", "cost": "Small fee; price not published", "time": "A few minutes", "detail": "Run on some busy cruise days only. Not needed for most people, given the short, flat walk."},
+    {"mode": "Taxi Rock tour", "cost": "£50 per person including the £30 Upper Rock ticket (2026, Gibraltar Taxi Association set price)", "time": "1–3 hours depending on tour", "detail": "Taxis wait outside the terminal and offer shared Rock tours in minibuses of up to eight people. Tours from the frontier leave every 15 minutes, 09:30–15:30. Check what is included and the finish time before you pay. This is now the main way up while the cable car is closed."},
+    {"mode": "Gibraltar Bus Company and Citibus", "cost": "Hopper day ticket £8.80 adult, £5.50 child (2026)", "time": "Varies", "detail": "Route 2 runs from Market Place (by Casemates) to Europa Point and is busy at weekends. The Hopper is valid 08:00–21:00 on all Gibraltar Bus Company and Citibus routes. Tickets from one operator are not valid on the other unless you hold a Hopper."},
+    {"mode": "Cable car", "cost": "Closed", "time": "n/a", "detail": "Closed for full rebuilding since January 2026; expected to reopen in 2027. Ignore any older guide that tells you to take it."}
+  ],
+  "returnTiming": {
+    "rule": "Leave Casemates Square by 16:00 for a 17:30 all-aboard. Finish any Rock tour back in town by 15:45, and leave Europa Point by 15:15.",
+    "detail": "The walk from Casemates to the terminal is about 15 minutes, and you want to be on board by 16:30. Rock tours run on roads shared with every other tour on a multi-ship day; book a slot that ends well before 15:45. Europa Point is at the far southern tip, so allow time for the bus or a taxi back through town.",
+    "emergencyFallback": "Taxis wait at ranks in town and can reach the terminal in minutes. If you are running late, call the port agent number on your daily programme. The cruise terminal's own lines are +350 200 47671 and +350 200 47670."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": 59,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {"item": "Upper Rock tour", "ship": "Varies by line; check your cruise planner", "diy": "Taxi Rock tour £50 including reserve ticket (2026)", "saving": "Depends on the line"},
+    {"item": "Upper Rock on foot", "ship": "Varies by line; check your cruise planner", "diy": "Nature Reserve ticket £30 adult (2026)", "saving": "Depends on the line; a long, steep walk"},
+    {"item": "Europa Point and town", "ship": "Varies by line; check your cruise planner", "diy": "Hopper bus day ticket £8.80 (2026); town is free to walk", "saving": "Depends on the line"}
+  ],
+  "excursionAdvice": "With the cable car closed, the Upper Rock is where a tour earns its money. A taxi tour from the rank outside the terminal does the same job as most ship tours and stays within about £50 per person including the reserve ticket. Choose the ship's tour if you have limited mobility and want guaranteed transport, or if the all-aboard is early and you want the ship to carry the timing risk. Main Street, Casemates and Europa Point do not need a tour.",
+  "dayPlan": {
+    "allAboard": "17:30",
+    "intro": "Assumes the ship docks at 08:00 at the North Mole and all-aboard is 17:30. Cable car closed; Upper Rock by taxi tour.",
+    "steps": [
+      {"time": "08:30", "what": "Off the ship. Walk about 15 minutes to Casemates Square."},
+      {"time": "09:00", "what": "Coffee at Sacarello's Coffee House in Irish Town, then walk Main Street before the shops fill."},
+      {"time": "10:00", "what": "Back to the taxi rank (or the terminal rank) and join a Rock tour of 2–3 hours: Pillars of Hercules viewpoint, St Michael's Cave, the Apes' Den, the Great Siege Tunnels."},
+      {"time": "13:00", "what": "Lunch in town, for example around Casemates or Irish Town."},
+      {"time": "14:00", "what": "Route 2 bus from Market Place to Europa Point for the lighthouse, the mosque and the view to Africa. Or, if you prefer to stay central, the Gibraltar National Museum (weekdays until 18:00)."},
+      {"time": "15:15", "what": "Leave Europa Point for town."},
+      {"time": "16:00", "what": "Leave Casemates Square and walk back to the terminal."},
+      {"time": "16:30", "what": "Back on board, 60 minutes before all-aboard."}
+    ]
+  },
+  "sights": [
+    {"name": "Upper Rock Nature Reserve", "why": "The top of the Rock: views to Spain and Morocco, the Barbary macaques and the main sights listed below, all inside one ticket area.", "timeNeeded": "2–4 hours", "cost": "£30 adult, £22 child 5–11, under 5 free (2026)", "tip": "Winter hours (1 October–30 April) 09:00–18:15, last entry 17:45; summer 09:30–19:15. Tickets from offices at Jews' Gate, Moorish Castle, Devil's Gap and the Market Place bus station, or online."},
+    {"name": "St Michael's Cave", "why": "Large limestone cave with lit formations, also used as a concert venue.", "timeNeeded": "45 minutes", "cost": "Included in the Nature Reserve ticket (2026)", "tip": "Usually the first stop on taxi tours, so expect groups mid-morning."},
+    {"name": "Great Siege Tunnels", "why": "Galleries cut into the rock in the 18th-century Great Siege, with gun ports over the isthmus.", "timeNeeded": "45 minutes", "cost": "Included in the Nature Reserve ticket (2026)", "tip": "Cool and shaded; a good stop at midday in summer."},
+    {"name": "Apes' Den and the Barbary macaques", "why": "Europe's only wild monkey population lives on the Upper Rock.", "timeNeeded": "20–30 minutes", "cost": "Included in the Nature Reserve ticket (2026)", "tip": "Feeding them is illegal, with a £500 fine. Keep food and loose bags packed away; they grab."},
+    {"name": "Main Street and Casemates Square", "why": "The pedestrianised spine of town, from the old barracks square at Casemates to the southern gates.", "timeNeeded": "1–2 hours", "cost": "Free", "tip": "Walk it early, before the tour groups arrive from the ships. Customs allowances still apply to goods you carry into Spain."},
+    {"name": "Gibraltar National Museum", "why": "Gibraltar's history from Neanderthals to the sieges, plus Moorish baths in the basement.", "timeNeeded": "1 hour", "cost": "£15 adult, £7.50 under 12 (2026)", "tip": "Weekdays 10:00–18:00, Saturdays 10:00–14:00, closed Sundays. Ticket also covers the Natural History Museum at Parson's Lodge."},
+    {"name": "Europa Point", "why": "The southern tip: the 1841 Trinity lighthouse, the Ibrahim al-Ibrahim Mosque and the Shrine of Our Lady of Europe, with Morocco across the strait.", "timeNeeded": "1–1.5 hours including the bus", "cost": "Free to walk around; lighthouse experience £15.50 (2026)", "tip": "Route 2 from Market Place. Clear mornings give the best view of Africa."},
+    {"name": "Alameda Wildlife Conservation Park", "why": "Small rescue zoo in the botanic gardens below the Rock; good for children.", "timeNeeded": "45 minutes", "cost": "£8 (2026)", "tip": "Tuesday–Saturday 10:00–16:30, Monday 10:00–16:00."}
+  ],
+  "beaches": [
+    {"name": "Catalan Bay", "howToGetThere": "Bus or taxi to the east coast of the Rock", "time": "Short taxi ride from town", "cost": "Free", "note": "Sandy beach by a former fishing village, the second-largest sandy beach in Gibraltar, with seafood restaurants. A seasonal Beach Bus serves it in July and August."},
+    {"name": "Eastern Beach", "howToGetThere": "Bus or taxi, north of Catalan Bay near the airport", "time": "Short taxi ride from town", "cost": "Free", "note": "Gibraltar's biggest sandy beach. Busy with locals on summer weekends."}
+  ],
+  "food": [
+    {"dish": "Coffee and a light lunch", "where": "Sacarello's Coffee House, Irish Town (near Casemates)", "price": null},
+    {"dish": "Calentita (chickpea-flour bake, the national dish) and panissa", "where": "Traditional bakeries and older cafés in the Upper Town", "price": null},
+    {"dish": "Iberian ham and fried aubergine with cane honey", "where": "La Bodeguiya, Chatham Counterguard", "price": null},
+    {"dish": "Galician-style octopus and clams", "where": "Seawave Bar, Catalan Bay", "price": null},
+    {"dish": "Fish and chips", "where": "Shops around Casemates Square", "price": null}
+  ],
+  "commonMistakes": [
+    {"mistake": "Planning the day around the cable car.", "fix": "It is closed for rebuilding until 2027. Book a taxi Rock tour or allow at least two hours to walk up."},
+    {"mistake": "Assuming the Upper Rock is free if you walk.", "fix": "The Nature Reserve ticket (£30 adult, 2026) applies to walkers too. Buy it at the Moorish Castle, Jews' Gate or Market Place offices, or online."},
+    {"mistake": "Carrying food openly near the macaques.", "fix": "Pack food and loose items away. Feeding them is illegal (£500 fine) and they snatch bags."},
+    {"mistake": "Paying in euros.", "fix": "Euros are accepted in many shops but at a poor rate. Use sterling or a card."},
+    {"mistake": "Taking a late Rock tour slot on a multi-ship day.", "fix": "Book a morning tour and be back in town by 15:45."}
+  ],
+  "safety": "Gibraltar is safe for visitors. The main hazards are the macaques, which bite if provoked and steal food, and the steep, sun-exposed roads of the Upper Rock if you walk. Take water and a hat in summer. Traffic on the narrow Upper Rock roads is heavy with tour minibuses, so keep to the edge when walking.",
+  "scams": [
+    "Euro pricing at a poor rate: some shops and cafés accept euros but give a bad exchange rate. Pay in pounds or by card.",
+    "Unclear Rock tour inclusions: confirm whether the £30 reserve ticket is in the price and how long the tour lasts before you get in. The Gibraltar Taxi Association set price is £50 including the ticket (2026).",
+    "Unofficial Nature Reserve tickets: buy only at the official offices or the official website, so the ticket is valid at every gate."
+  ],
+  "emergencyNumber": "112",
+  "accessibility": "The terminal-to-town walk and Main Street are flat and step-free. The Upper Rock is steep, and St Michael's Cave and the Great Siege Tunnels involve steps and uneven floors. With the cable car closed, a taxi tour is the only practical way up for anyone with limited mobility; ask at the rank for a vehicle that suits you. Europa Point is a level, open area reached by bus or taxi.",
+  "rainyDay": "Rain or low cloud on the Rock spoils the views and makes the paths slippery. Stay in town: the Gibraltar National Museum (closed Sundays), the shops of Main Street, and long lunches around Casemates. St Michael's Cave and the Great Siege Tunnels are under cover, so a taxi tour still has value in light rain.",
+  "crowdTips": "Rock tours from multiple ships converge on the same few stops, especially the Apes' Den and St Michael's Cave in late morning. Go up early or after lunch. Main Street is busiest around midday. The Route 2 bus to Europa Point gets full at weekends. Check the port's monthly ship schedule for your date.",
+  "faqs": [
+    {"q": "Is Gibraltar walkable from the cruise port?", "a": "Yes. Casemates Square and the start of Main Street are about 1.5 km away, a flat 15-minute walk."},
+    {"q": "Is the Gibraltar cable car open?", "a": "No. It closed in January 2026 for a full rebuild and is expected to reopen in 2027."},
+    {"q": "How do I get to the top of the Rock from the cruise ship?", "a": "Take a taxi Rock tour from the rank outside the terminal (about £50 per person including the reserve ticket, 2026) or walk up from town, which takes at least two hours."},
+    {"q": "How much is the Gibraltar Nature Reserve ticket?", "a": "£30 per adult and £22 for children aged 5–11 in 2026. It covers St Michael's Cave, the Great Siege Tunnels and the other Upper Rock sights."},
+    {"q": "Is Gibraltar a tender port?", "a": "No. Ships dock at the North Mole cruise terminal."},
+    {"q": "What can I do in Gibraltar in one day from a cruise ship?", "a": "A morning Rock tour, lunch near Casemates, then Europa Point by bus or the National Museum."},
+    {"q": "Can I walk into Spain from Gibraltar on a cruise day?", "a": "Routine passport checks at the land border were removed in July 2026, but carry your passport and follow your cruise line's instructions."},
+    {"q": "Is Gibraltar safe?", "a": "Yes. Watch out for the macaques and the heat on the Upper Rock."}
+  ],
+  "topAttractions": [
+    {"name": "Upper Rock Nature Reserve"},
+    {"name": "St Michael's Cave"},
+    {"name": "Great Siege Tunnels"},
+    {"name": "Apes' Den"},
+    {"name": "Main Street"},
+    {"name": "Europa Point"},
+    {"name": "Gibraltar National Museum"}
+  ],
+  "sources": [
+    {"title": "Gibraltar Nature Reserve – Tickets (2026)", "url": "https://naturereserve.gi/tickets/"},
+    {"title": "Gibraltar Nature Reserve – Cable car", "url": "https://naturereserve.gi/experiences/cable-car/"},
+    {"title": "Gibraltar Nature Reserve – home page", "url": "https://naturereserve.gi/"},
+    {"title": "Gibraltar Chronicle – Cable car final journeys (9 January 2026)", "url": "https://www.chronicle.gi/?p=168288"},
+    {"title": "Wikipedia – Gibraltar Cable Car", "url": "https://en.wikipedia.org/wiki/Gibraltar_Cable_Car"},
+    {"title": "HM Government of Gibraltar – Cruise terminal expression of interest (January 2026)", "url": "https://www.gibraltar.gov.gi/press-releases/expression-of-interest-development-and-operation-of-a-cruise-liner-terminal-at-the-port-of-gibraltar-11591"},
+    {"title": "HM Government of Gibraltar – Gibraltar National Museum", "url": "https://www.gibraltar.gov.gi/heritage/gibraltar-museum"},
+    {"title": "HM Government of Gibraltar – Ape management", "url": "https://www.gibraltar.gov.gi/environment/ape-management"},
+    {"title": "HM Government of Gibraltar – Additional bus trial for Route 2 (2025)", "url": "https://www.gibraltar.gov.gi/press-releases/additional-bus-trial-for-route-2-2692025-10778"},
+    {"title": "Visit Gibraltar – Information offices and opening times", "url": "https://visitgibraltar.gi/information-times"},
+    {"title": "Visit Gibraltar – See and do", "url": "https://visitgibraltar.gi/see-and-do"},
+    {"title": "BuyTickets.gi – Hopper bus ticket", "url": "https://www.buytickets.gi/attractions/hopper-bus-ticket-35"},
+    {"title": "GTA Gibraltar Tours – Rock tours", "url": "https://gtagibraltartours.com/"},
+    {"title": "Gibraltar.com – Upper Rock Nature Reserve", "url": "https://gibraltar.com/en/travel/see-and-do/upper-rock-nature-reserve/the-upper-rock-nature-reserve.php"},
+    {"title": "Gibraltar.com – Catalan Bay", "url": "https://gibraltar.com/en/travel/see-and-do/beaches-and-bays/catalan-bay.php"},
+    {"title": "Gibraltar.com – Gibraltar EU treaty", "url": "https://gibraltar.com/en/gibraltar-eu-treaty/"},
+    {"title": "Gibraltar Heritage Trust – Europa Point", "url": "https://gibraltarheritagetrust.org.gi/explore/places-to-visit/europa-point"},
+    {"title": "Andalucia.com – Gibraltar transport (updated August 2026)", "url": "https://andalucia.com/gibraltar/transport.htm"},
+    {"title": "Wikipedia – Transport in Gibraltar", "url": "https://en.wikipedia.org/wiki/Transport_in_Gibraltar"},
+    {"title": "OpenStreetMap wiki – Gibraltar bus routes", "url": "https://wiki.openstreetmap.org/wiki/Gibraltar_bus_routes"},
+    {"title": "Beyondships – Gibraltar cruise port", "url": "https://www.beyondships3.com/cruise-destination-gibraltar-cruise-port.html"},
+    {"title": "Adventour Begins – Gibraltar cruise port guide (updated March 2026)", "url": "https://adventourbegins.com/gibraltar-cruise-port-guide/"},
+    {"title": "CruiseMapper – Gibraltar port", "url": "https://www.cruisemapper.com/ports/gibraltar-port-4030"},
+    {"title": "The Trip Verdict – Gibraltar restaurants (July 2026)", "url": "https://www.thetripverdict.com/gibraltar-restaurants"},
+    {"title": "Deep Arrival – Gibraltar border treaty takes effect (July 2026)", "url": "https://deeparrival.com/news/gibraltar-border-treaty-takes-effect-july-15-2026/"},
+    {"title": "Travel With Hello – Gibraltar transport guide (May 2026)", "url": "https://www.travelwithhello.com/blog/gibraltar-transport-guide"}
+  ],
+  "uncertain": [
+    "Single bus fares: sources conflict (about £1.40–1.80) and the Gibraltar Bus Company site gives no fare table; only the £8.80 Hopper is quoted.",
+    "Route 2 frequency and journey time to Europa Point could not be read from the official timetable images.",
+    "Port shuttle minibus fare and on which days it runs.",
+    "Taxi tour £50 set price is from andalucia.com (August 2026) for tours from the frontier; the taxi association's own site lists no prices, and pricing at the cruise terminal rank was not confirmed.",
+    "Which Nature Reserve sights are open on a given day; the reserve site does not list closures.",
+    "Skywalk, Windsor Suspension Bridge and Mediterranean Steps: listed as included in the reserve fee but current opening status not confirmed.",
+    "Cruise-specific passport checks at the port under the 2026 EU treaty depend on the itinerary; no official cruise procedure published.",
+    "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null.",
+    "Restaurant prices not verified."
+  ]
+}

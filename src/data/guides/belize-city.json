@@ -1,0 +1,383 @@
+{
+ "slug": "belize-city",
+ "city": "Belize City",
+ "portName": "Belize City cruise anchorage (Fort Street Tourism Village tender landing)",
+ "townName": "central Belize City (Fort George and the Swing Bridge)",
+ "country": "Belize",
+ "currency": "BZD",
+ "currencySymbol": "BZ$",
+ "language": "English",
+ "timezone": "CST (UTC−6) all year, no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Belize City cruise port guide: tender, Altun Ha, reef",
+ "seoDescription": "Belize City is a tender port: about 15 min to Fort Street Tourism Village. Altun Ha is about 1 hr by road, cave tubing about 75 min. Be back 90 min early.",
+ "quickAnswer": "Belize City is a tender port: ships anchor offshore and tenders take about 15 minutes to the Fort Street Tourism Village, which sits at the edge of the old Fort George district. The village, the Baron Bliss lighthouse and the Museum of Belize are all within about a 10-minute walk; inland trips need a licensed taxi or tour. Be back at the Tourism Village 90 minutes before all-aboard, because tender queues build in mid-afternoon.",
+ "intro": "No ship docks at Belize City. The water is too shallow, so every passenger comes ashore by tender at the Fort Street Tourism Village. The village is a fenced shopping and dining complex; step out of the gates and you are in Fort George, part of the historic centre and one of the city's safer areas by day. Most people use the day for one inland trip: the Maya site of Altun Ha, cave tubing at Nohoch Che'en, or a boat to the barrier reef and the cayes. Pick one, because each takes most of a day and the last tender will not wait. A new island cruise port off the city, now called Olo Caye (formerly Stake Bank, then Port Coral), is not due to be finished before 2028.",
+ "isTender": true,
+ "tenderNotes": "All ships anchor offshore; there are no cruise berths at Belize City. The Belize Tourism Board puts the ride at about 15 minutes ship to shore, landing at the Fort Street Tourism Village. Ship tours usually go ashore first, so independent passengers may need a tender ticket early in the morning. Queues are longest in the last two hours before all-aboard, and the last tender typically leaves 30–45 minutes before all-aboard. Check your ship's last-tender time before going ashore.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Fort Street Tourism Village (tender landing)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Tenders land at a single pier inside the village. Shops, bars, restaurants, ATMs dispensing Belize and US dollars, toilets, Wi-Fi and a Belize Tourism Board information desk. Licensed taxis and tour operators wait at and just outside the gates."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 10,
+  "km": 0.8,
+  "detail": "The Baron Bliss lighthouse, the Museum of Belize, the water-taxi terminal and the Swing Bridge are all roughly 5–10 minutes on foot from the village gates in the Fort George area. Pavements are uneven and drivers do not yield to pedestrians. Altun Ha, the caves and the reef are not walkable. Do not walk south of Haulover Creek."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (Fort George area)",
+   "cost": "Free",
+   "time": "5–10 min to the lighthouse, Museum of Belize or Swing Bridge",
+   "detail": "Leave the Tourism Village gates and stay in the Fort George district north of Haulover Creek. Go in daylight and in a group if you can, as the tourism board advises."
+  },
+  {
+   "mode": "Licensed taxi",
+   "cost": "Unmetered; agree the fare in US$ before setting off (2026)",
+   "time": "About 1 hr to Altun Ha; a few minutes within the city",
+   "detail": "Official taxis have green licence plates. There are no set tariffs for cruise passengers, so fix the price, the waiting time and the return time before you get in. For Altun Ha or the caves, hire a driver for the whole trip rather than one way."
+  },
+  {
+   "mode": "Licensed tour operator from the Tourism Village",
+   "cost": "Varies by operator (2026)",
+   "time": "4–6 hours for Altun Ha or cave tubing",
+   "detail": "Guides and operators must carry a valid licence and photo ID. Book only with licensed operators in or near the village, and confirm in writing that the tour returns well before your last tender."
+  },
+  {
+   "mode": "Water taxi to Caye Caulker",
+   "cost": "Check the current fare at the terminal (2026)",
+   "time": "About 45 min each way",
+   "detail": "San Pedro Belize Express runs from a terminal a short walk from the Tourism Village. Fares are regulated by the Belize Port Authority. Check the return departures when you buy, and choose a boat that lands you back at least two hours before all-aboard."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back inside the Fort Street Tourism Village 90 minutes before all-aboard (16:00 for a 17:30 all-aboard).",
+  "detail": "Tender lines build between about 15:00 and 17:00, and the last tender leaves 30–45 minutes before all-aboard. Inland trips involve an hour or more on the road each way, so add margin for traffic in Belize City. From Caye Caulker, take a water taxi that lands you two hours before all-aboard.",
+  "emergencyFallback": "If you are running late, call the port agent number on your daily programme and head straight to the Tourism Village; tenders are the only way back to the ship."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Altun Ha",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Licensed taxi or local operator plus site ticket; agree the price first",
+   "saving": "Depends on group size"
+  },
+  {
+   "item": "Cave tubing at Nohoch Che'en",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Licensed local operator from the Tourism Village",
+   "saving": "Depends on operator"
+  }
+ ],
+ "excursionAdvice": "Belize City is one of the ports where the ship's tour is often the sensible choice. Every trip worth doing is an hour or more away, the roads are slow, and missing the last tender means missing the ship. The ship's tours also get the first tenders ashore. Go independently only with a licensed operator who knows the tender times, and only for trips with clear margins such as Altun Ha. For cave tubing, a river outing and a jungle walk, the ship's version removes the timing risk on a short call. The Fort George area can be done on foot without any tour.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship anchors at 08:00, first tenders ashore by about 08:30 and all-aboard is 17:30, with a trip to Altun Ha by licensed taxi or local operator.",
+  "steps": [
+   {
+    "time": "08:00",
+    "what": "Collect a tender ticket as early as your ship allows; ship tours go ashore first."
+   },
+   {
+    "time": "08:45",
+    "what": "Ashore at the Fort Street Tourism Village. Meet your licensed driver or operator and confirm the return time."
+   },
+   {
+    "time": "09:00",
+    "what": "Drive north to Altun Ha, about an hour."
+   },
+   {
+    "time": "10:00",
+    "what": "Explore Altun Ha: Plaza A and Plaza B, then the small site museum. Allow about an hour and carry water."
+   },
+   {
+    "time": "11:30",
+    "what": "Drive back to Belize City."
+   },
+   {
+    "time": "12:45",
+    "what": "Lunch near the Tourism Village or in the Fort George area."
+   },
+   {
+    "time": "13:45",
+    "what": "Walk to the Baron Bliss lighthouse and the Museum of Belize (closed Sundays)."
+   },
+   {
+    "time": "15:15",
+    "what": "Back towards the village for last shopping inside the gates."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the tender queue, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Altun Ha",
+   "why": "Maya site with two plazas of climbable temples; the carved jade head of Kinich Ahau, the largest carved jade in Mesoamerica, was found here.",
+   "timeNeeded": "About 4–4.5 hours including the drive",
+   "cost": "Ticket paid at the site; licensed driver or tour extra",
+   "tip": "Open daily 08:00–17:00. The site is 31 miles from Belize City on the Old Northern Highway. There is no practical public transport, and groups are limited to 15 per guide."
+  },
+  {
+   "name": "Cave tubing at Nohoch Che'en (Caves Branch Archaeological Reserve)",
+   "why": "Float on an inner tube through river caves in the Caves Branch reserve.",
+   "timeNeeded": "5–6 hours including about 75 minutes' drive each way and a jungle walk",
+   "cost": "Reserve fee plus guided tour; prices vary by operator",
+   "tip": "Book a licensed operator. Tours depend on good weather and are not suitable for anyone with heart problems."
+  },
+  {
+   "name": "Belize Barrier Reef by boat (Goff's Caye or Caye Caulker)",
+   "why": "Snorkelling on the barrier reef; Goff's Caye is a small sand island about 20 minutes away by boat.",
+   "timeNeeded": "4–7 hours",
+   "cost": "Tour or water-taxi fare; varies",
+   "tip": "Use reef-safe sunscreen. For Caye Caulker, be on a return boat that lands two hours before all-aboard."
+  },
+  {
+   "name": "Museum of Belize",
+   "why": "Former colonial prison with Maya pottery and jade, coins, stamps and a restored cell.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Paid entry",
+   "tip": "About 10 minutes' walk from the Tourism Village. Listed hours Monday–Thursday 08:30–17:00, Friday–Saturday 08:30–16:30, closed Sunday."
+  },
+  {
+   "name": "Baron Bliss lighthouse and Fort George waterfront",
+   "why": "Lighthouse and memorial to the city's benefactor on the point beside the Tourism Village.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free",
+   "tip": "Turn right out of the village gates."
+  },
+  {
+   "name": "Belize City Swing Bridge",
+   "why": "Manually operated swing bridge over Haulover Creek, the city's landmark.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free",
+   "tip": "About 10 minutes' walk from the village. Do not continue south into the Southside neighbourhoods."
+  },
+  {
+   "name": "St John's Cathedral",
+   "why": "Built in 1812, the oldest standing European building in Belize.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free",
+   "tip": "Go by taxi or on a city tour rather than walking through unfamiliar streets."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Goff's Caye",
+   "howToGetThere": "Boat tour from the Tourism Village area",
+   "time": "About 20 minutes by boat",
+   "cost": "Tour price; varies",
+   "note": "A small sand island on the reef; snorkelling from the beach."
+  },
+  {
+   "name": "Caye Caulker",
+   "howToGetThere": "Water taxi from the terminal near the Tourism Village",
+   "time": "About 45 minutes each way",
+   "cost": "Water-taxi fare; check at the terminal",
+   "note": "The Lazy Lizard bar sits by The Split. Highest return risk of any trip from this port."
+  },
+  {
+   "name": "Old Belize",
+   "howToGetThere": "Taxi",
+   "time": "About 20 minutes' drive",
+   "cost": "Taxi fare; agree it first",
+   "note": "Beach area, train tour and food market on the edge of the city."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Rum punch and Belikin beer",
+   "where": "Wet Lizard, upstairs in Terminal 1 of the Fort Street Tourism Village",
+   "price": null
+  },
+  {
+   "dish": "Belizean chocolate and snacks",
+   "where": "MOHO Chocolate shop, Fort Street Tourism Village",
+   "price": null
+  },
+  {
+   "dish": "Cocktails in a colonial house",
+   "where": "Cork Street Whiskey Bar, about 5 minutes from the pier",
+   "price": null
+  },
+  {
+   "dish": "Draught Belikin and local plates",
+   "where": "Riverside Tavern, about 15 minutes' walk or a short taxi from the pier",
+   "price": null
+  },
+  {
+   "dish": "Grilled lobster in season",
+   "where": "Palapa stands on Goff's Caye (on reef tours)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to combine two inland trips, such as Altun Ha and cave tubing.",
+   "fix": "Choose one. Each is an hour or more each way by road."
+  },
+  {
+   "mistake": "Getting into an unlicensed car or booking with a tout outside the gates.",
+   "fix": "Use green-plate taxis and operators who show a licence and photo ID."
+  },
+  {
+   "mistake": "Arriving at the Tourism Village 30 minutes before all-aboard.",
+   "fix": "Be back 90 minutes before. The last tender leaves 30–45 minutes before all-aboard."
+  },
+  {
+   "mistake": "Wandering south across the Swing Bridge into Southside Belize City.",
+   "fix": "Stay in the Fort George area on foot; use a taxi for anything south of Haulover Creek."
+  },
+  {
+   "mistake": "Bringing camouflage clothing ashore.",
+   "fix": "Leave it on the ship; camouflage is illegal for civilians in Belize."
+  }
+ ],
+ "safety": "The US State Department rates Belize at Level 2 (exercise increased caution) because of crime, and Southside Belize City, from Haulover Creek to Fabers Road, at Level 3 (reconsider travel). The Fort George area around the Tourism Village is calmer and busier with visitors during the day. Stay north of the creek on foot, go in daylight and in company, use licensed green-plate taxis, and keep valuables out of sight. Tap water is not considered safe to drink; carry bottled water. Medical care is limited. Tourism police wear light blue shirts and black hats.",
+ "scams": [
+  "Unlicensed drivers and tour hawkers outside the Tourism Village gates: use green-plate taxis and operators with a licence and photo ID.",
+  "Unmetered taxi fares raised at the end of the ride: agree the full price, currency and waiting time before you set off.",
+  "Water-taxi overcharging: the Belize Port Authority has asked passengers to report fares above the approved rates."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "Tender transfers depend on the swell; ask the ship whether wheelchair users can go ashore that day. The Tourism Village is paved and has accessible toilets. Pavements outside are poorly maintained. Altun Ha has rugged terrain and steep temple steps. Cave tubing involves a jungle walk and is not wheelchair accessible.",
+ "rainyDay": "Heavy rain can cancel cave tubing and rough seas can stop reef trips or even tenders. In light rain, Altun Ha is still possible but the steps are slippery. In town, the Museum of Belize is the main indoor option, with the Tourism Village shops and bars as a fallback.",
+ "crowdTips": "Several ships can anchor on the same day and all their passengers land at one pier. Ship tours get the first tenders, so independent passengers either queue early or wait until the morning rush has gone. Altun Ha is quieter right after it opens at 08:00. Come back to the village before 15:00 to beat the afternoon tender queue.",
+ "faqs": [
+  {
+   "q": "Is Belize City a tender port?",
+   "a": "Yes. All ships anchor offshore and tender passengers to the Fort Street Tourism Village, a ride of about 15 minutes."
+  },
+  {
+   "q": "Is there a new cruise pier in Belize City?",
+   "a": "Not yet. The island port formerly called Stake Bank and Port Coral was relaunched in 2026 as Olo Caye, with island construction due to finish in early 2028."
+  },
+  {
+   "q": "Is Belize City walkable from the cruise port?",
+   "a": "Partly. The lighthouse, Museum of Belize and Swing Bridge are within about 10 minutes' walk; the Maya sites, caves and reef need a taxi or boat."
+  },
+  {
+   "q": "How far is Altun Ha from the Belize City cruise port?",
+   "a": "About 31 miles, roughly an hour by road. The site is open daily 08:00–17:00."
+  },
+  {
+   "q": "Can I do cave tubing on my own from a cruise ship?",
+   "a": "Yes, with a licensed local operator. Allow 5–6 hours including about 75 minutes' drive each way and a jungle walk."
+  },
+  {
+   "q": "What can I do in Belize City in one day from a cruise ship?",
+   "a": "One main trip: Altun Ha, cave tubing or a reef boat, plus a short walk around Fort George."
+  },
+  {
+   "q": "Beaches near Belize City cruise port?",
+   "a": "There is no good beach in the city. Goff's Caye is about 20 minutes by boat; Caye Caulker is about 45 minutes by water taxi."
+  },
+  {
+   "q": "Is Belize City safe for cruise passengers?",
+   "a": "Stay in the Fort George area by day, use licensed taxis and avoid Southside Belize City, which the US rates Level 3."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Altun Ha"
+  },
+  {
+   "name": "Nohoch Che'en cave tubing"
+  },
+  {
+   "name": "Belize Barrier Reef"
+  },
+  {
+   "name": "Goff's Caye"
+  },
+  {
+   "name": "Caye Caulker"
+  },
+  {
+   "name": "Museum of Belize"
+  },
+  {
+   "name": "Belize City Swing Bridge"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Belize Tourism Board – Cruise (licensing and visitor guidance)",
+   "url": "https://belizetourismboard.org/licensing/cruise/"
+  },
+  {
+   "title": "NICH – Altun Ha",
+   "url": "https://nichbelize.org/?p=4962"
+  },
+  {
+   "title": "NICH – Altun Ha (Cruise Ship)",
+   "url": "https://nichbelize.org/?p=6506"
+  },
+  {
+   "title": "Travel Belize – 4 fun adventures on a cruise stop (Nov 2023)",
+   "url": "https://www.travelbelize.org/?p=78504"
+  },
+  {
+   "title": "US State Department – Belize travel advisory (March 2026)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/belize.html"
+  },
+  {
+   "title": "San Pedro Sun – Former Stake Bank project relaunched as Olo Caye cruise port (April 2026)",
+   "url": "https://www.sanpedrosun.com/business-and-economy/2026/04/15/former-stake-bank-project-relaunched-as-olo-caye-cruise-port/"
+  },
+  {
+   "title": "San Pedro Sun – Belize Port Authority approved water-taxi fares (2023)",
+   "url": "https://www.sanpedrosun.com/?p=95913"
+  },
+  {
+   "title": "Seatrade Cruise News – Port Coral proceeds (2021)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/port-coral-proceeds-as-belize-assesses-cruise-projects"
+  },
+  {
+   "title": "Cruise Hive – Belize cruise port guide",
+   "url": "https://www.cruisehive.com/belize-cruise-port/148623"
+  },
+  {
+   "title": "Bucket List Guides – Belize City cruise port guide (2026)",
+   "url": "https://bucketlistguides.com/belize-city-cruise-port-guide/"
+  },
+  {
+   "title": "Cunard – Belize City port page",
+   "url": "https://www.cunard.com/en-us/ports/belize-city-belize"
+  },
+  {
+   "title": "Calculated Traveller – One day in the Belize cruise port",
+   "url": "https://www.calculatedtraveller.com/blog/one-day-belize-cruise-port"
+  },
+  {
+   "title": "Sailingstone Travel – Visiting Altun Ha (updated Dec 2025)",
+   "url": "https://sailingstonetravel.com/altun-ha-ruins/"
+  },
+  {
+   "title": "Frommer's – Museum of Belize",
+   "url": "https://www.frommers.com/destinations/belize-city/attractions/museum-of-belize"
+  },
+  {
+   "title": "Magpie – Cave tubing at Nohoch Che'en (Classic Maya Adventure Tours)",
+   "url": "https://magpie.travel/things-to-do/cave-tubing-nohoch-che-en/0bf2506b-dd89-4368-a3c8-4f8dc16a89ab"
+  }
+ ],
+ "uncertain": [
+  "Altun Ha non-resident ticket price: NICH lists a $10–20 range for resident and non-resident tickets without saying which applies or the currency; a 2025 blog gives BZ$10.",
+  "Nohoch Che'en reserve entry fee for foreign visitors.",
+  "Current Belize City–Caye Caulker water-taxi fares (latest approved fares seen date from 2023) and the exact return timetable.",
+  "Museum of Belize admission price (BZ$10 adult per an undated Frommer's listing).",
+  "Typical taxi fares within Belize City (sources quote both US$5–10 and US$10–30).",
+  "Typical all-aboard time for Belize City calls; 17:30 used as a default."
+ ]
+}

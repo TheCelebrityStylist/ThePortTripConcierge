@@ -1,0 +1,18 @@
+---
+import { unsplash, srcset } from '../lib/site.js';
+const { id, pos = 'center', alt, tone = 'light', strong = false, first = false, title, sub } = Astro.props;
+const veil = tone === 'light' ? (strong ? 'from-black/65 via-black/25' : 'from-black/45') : 'from-white/55';
+const H = first ? 'h1' : 'h2';
+---
+<section class="relative isolate flex min-h-[100svh] flex-col items-center overflow-hidden text-center">
+  <img src={unsplash(id, 1600)} srcset={srcset(id)} sizes="100vw" alt={alt} loading={first ? 'eager' : 'lazy'} fetchpriority={first ? 'high' : 'auto'} decoding="async"
+    class="absolute inset-0 -z-10 h-full w-full object-cover" style={`object-position:${pos}`} />
+  <div class:list={['absolute inset-x-0 top-0 -z-10 h-1/2 bg-gradient-to-b to-transparent', veil]}></div>
+  <div class:list={['mt-[15vh] px-6', tone === 'light' ? 'text-white' : 'text-ink']}>
+    <H class="text-[2.5rem] font-medium leading-tight tracking-tight">{title}</H>
+    <p class="mx-auto mt-2 max-w-xl text-sm sm:text-[15px]"><Fragment set:html={sub} /></p>
+  </div>
+  <div class="mt-auto flex w-full max-w-sm flex-col gap-3 px-6 pb-[10vh] sm:max-w-none sm:flex-row sm:justify-center sm:gap-6">
+    <slot />
+  </div>
+</section>

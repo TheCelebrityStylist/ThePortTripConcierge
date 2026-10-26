@@ -1,0 +1,373 @@
+{
+ "slug": "cartagena-colombia",
+ "city": "Cartagena de Indias",
+ "portName": "Cartagena Cruise Terminal (Sociedad Portuaria Regional de Cartagena, Manga)",
+ "townName": "the walled city",
+ "country": "Colombia",
+ "currency": "COP",
+ "currencySymbol": "COP$",
+ "language": "Spanish",
+ "timezone": "COT (UTC−5), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Cartagena cruise port guide: taxis, walled city, San Felipe",
+ "seoDescription": "Ships dock at Manga, 3.2 km from the walled city. Taxi 10–15 min, agree the fare first. Castillo San Felipe COP$38,000 (2026). Leave town 2 hours early.",
+ "quickAnswer": "Ships dock at the Sociedad Portuaria cruise terminal on Manga Island, about 3.2 km from the historic centre, inside a working cargo port. A shuttle takes you from the ship to the terminal, then a taxi reaches the Clock Tower in about 10–15 minutes; taxis are unmetered, so agree the price before you get in. Leave the walled city two hours before all-aboard, because afternoon traffic can add 30 minutes or more.",
+ "intro": "Cartagena's cruise terminal sits in the container port on Manga, so the day starts with a short shuttle ride past stacked containers to a shaded garden with birds and a coffee shop. From there it is a short taxi ride to the walled city, the colonial centre ringed by about 11 km of stone walls, with Getsemaní just outside the Clock Tower gate and the Castillo San Felipe on its hill about 1 km away. Heat is the main factor in planning: do the fort early, keep the walled city's shaded streets and museums for midday, and allow plenty of margin for the drive back.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Cruise terminal, Sociedad Portuaria Regional de Cartagena (Manga)",
+   "distanceToCentreKm": 3.2,
+   "notes": "Inside a working container port. A free shuttle runs the few hundred metres from the ship to the terminal and its Port Oasis garden. The terminal has a tourist information point, first aid, shops (crafts, emeralds, duty free), a Juan Valdez coffee shop and paid wi-fi (US$3 for one hour). Taxis wait at the exit; app drivers cannot enter the port gates."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 3.2,
+  "detail": "The route out of the port runs through industrial traffic with little shade and poor pavements, and the heat is fierce. Take a taxi to the walled city. Once inside the walls, everything is easily walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "Port shuttle (ship to terminal)",
+   "cost": "Free",
+   "time": "About 2 min",
+   "detail": "A shuttle bus or open-air trolley carries passengers from the berth to the terminal building and Port Oasis. Do not walk around the container yard."
+  },
+  {
+   "mode": "Taxi from the terminal",
+   "cost": "Reported at about US$8–20 per car one way (2026); the city's tariff table lists Manga–Centro at COP$9,800 (2024 decree)",
+   "time": "10–15 min to the Clock Tower; 8–10 min to Castillo San Felipe",
+   "detail": "Taxis queue at the terminal exit and drivers can be pushy. They do not use meters: agree the total price, in pesos or dollars, before getting in, and confirm whether it is per car. Carry small peso notes."
+  },
+  {
+   "mode": "Ride-hailing app (Uber, Didi and similar)",
+   "cost": "About US$4–6 to the old town (2026)",
+   "time": "10–15 min plus waiting",
+   "detail": "Drivers cannot enter the port. Follow the exit signs out of the terminal driveway and wait on the main road. UK travel advice recommends app or phone-booked taxis over hailing in the street. Coming back, you are dropped at the port entrance and walk in."
+  },
+  {
+   "mode": "Hourly driver",
+   "cost": "About US$12–15 per hour (2026)",
+   "time": "As booked",
+   "detail": "Useful for La Popa or combining the fort and walled city. Agree the hours, stops and total fare at the start."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave the walled city or Getsemaní by taxi two hours before all-aboard (15:30 for a 17:30 all-aboard), aiming to be at the port gate 90 minutes before.",
+  "detail": "The ride is short on paper but afternoon traffic across to Manga can add 30 minutes or more, and the shuttle from the terminal back to the ship and security take extra time. From Castillo San Felipe, allow the same margin.",
+  "emergencyFallback": "If the street taxis are slow, book an app ride or ask a restaurant to call a taxi. If you will miss all-aboard, call the port agent number on your daily programme straight away; the SPRC office line is +57 605 660 7781."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Walled city and Castillo San Felipe",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi about US$8–20 each way per car plus COP$38,000 fort entry (2026)",
+   "saving": "Usually large for two or more people sharing a taxi"
+  }
+ ],
+ "excursionAdvice": "The walled city, Getsemaní and Castillo San Felipe are easy to do on your own with a taxi; agreeing the fare in advance is the only real effort. A ship tour is worth it for the Rosario Islands or Playa Blanca, because the boat trip is long, small tourist boats off this coast have a poor safety record (the US travel advisory warns about them), and seas can be rough in December and January. If you book an island trip independently, check life jackets and keep a large time margin.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Shuttle to the terminal, walk through Port Oasis and agree a taxi fare to Castillo San Felipe."
+   },
+   {
+    "time": "08:45",
+    "what": "Castillo San Felipe before the heat. Pay at the box office; budget 1–1.5 hours. Wear shoes with grip."
+   },
+   {
+    "time": "10:15",
+    "what": "Short taxi or walk of about 1 km to the Clock Tower gate. Enter the walled city."
+   },
+   {
+    "time": "10:30",
+    "what": "Walk the walled city: Plaza de Santo Domingo, Plaza de Bolívar and the Museo del Oro Zenú, then a stretch of the walls."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch in the walled city; sweets from the Portal de los Dulces near the Clock Tower."
+   },
+   {
+    "time": "13:45",
+    "what": "Getsemaní, just outside the walls, then Las Bóvedas for crafts if time allows."
+   },
+   {
+    "time": "15:30",
+    "what": "Take a taxi back to the terminal, two hours before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Castillo San Felipe de Barajas",
+   "why": "The largest of Cartagena's colonial fortifications, begun in 1657 on San Lázaro hill and part of the UNESCO World Heritage listing.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "COP$38,000 full rate, COP$16,000 children 6–13; under-6s free (2026)",
+   "tip": "Open daily until 18:00. Go first thing: the walls are exposed and the heat builds fast. Audio guides and guides are hired at the box office, not included in the ticket."
+  },
+  {
+   "name": "The walled city and the Clock Tower",
+   "why": "The colonial centre inside about 11 km of walls, entered through the Clock Tower gate, whose current clock dates from 1937.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Free",
+   "tip": "Walk on the shaded side of the streets and break the day with museum or café stops."
+  },
+  {
+   "name": "The city walls",
+   "why": "You can walk on top of the walls, begun in 1614 and completed in 1796, for views over the old town and the sea.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free",
+   "tip": "No shade on top; better in the morning or late afternoon if your call allows."
+  },
+  {
+   "name": "Getsemaní",
+   "why": "The neighbourhood just outside the Clock Tower gate, whose fortification began in 1631; a lively area of small plazas and cafés.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Easy to combine with the walled city on foot; about 10–12 minutes by taxi from the port."
+  },
+  {
+   "name": "Museo del Oro Zenú",
+   "why": "The Banco de la República's gold museum on Plaza de Bolívar, with pre-Columbian Zenú goldwork. A cool indoor stop at midday.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check banrepcultural.org before you go",
+   "tip": "Calle 33 #3-123, Plaza de Bolívar."
+  },
+  {
+   "name": "Las Bóvedas",
+   "why": "A row of vaults built into the walls, now craft and souvenir shops.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to browse; prices are negotiable",
+   "tip": "About 15 minutes from the port by taxi. Compare prices between shops before buying."
+  },
+  {
+   "name": "Santuario San Pedro Claver",
+   "why": "Church and sanctuary of St Peter Claver in the walled city.",
+   "timeNeeded": "45 minutes",
+   "cost": "Small entry fee",
+   "tip": "Combine with nearby Plaza de Santo Domingo."
+  },
+  {
+   "name": "Port Oasis",
+   "why": "The shaded garden inside the cruise terminal, with peacocks, macaws and other birds.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "A good place to spend spare time near the ship at the end of the day."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Bocagrande",
+   "howToGetThere": "Taxi from the terminal",
+   "time": "15–20 min by taxi",
+   "cost": "Taxi fare; agree it first",
+   "note": "The nearest city beach. Watch for unrequested 'free' massages and samples."
+  },
+  {
+   "name": "Playa Blanca (Isla Barú)",
+   "howToGetThere": "Boat trip, usually combined with the Rosario Islands",
+   "time": "Most of a day",
+   "cost": "Rosario Islands day trips about US$80–140 per person (2026)",
+   "note": "Clearer water but a long boat ride. The US travel advisory warns about small tourist boats on this coast; a ship excursion is the lower-risk choice on a cruise day."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Arepa de huevo (fried corn arepa with egg)",
+   "where": "Street stalls in the walled city",
+   "price": null
+  },
+  {
+   "dish": "Traditional Cartagena sweets",
+   "where": "Portal de los Dulces, near the Clock Tower",
+   "price": null
+  },
+  {
+   "dish": "Coconut rice with fried fish",
+   "where": "Restaurants in the walled city",
+   "price": "About US$12–25 per person with drinks for a sit-down meal (2026)"
+  },
+  {
+   "dish": "Fresh fruit cups with lime and salt",
+   "where": "Fruit sellers on the plazas of the walled city",
+   "price": null
+  },
+  {
+   "dish": "Colombian coffee",
+   "where": "Juan Valdez, inside the cruise terminal",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Getting into a taxi without agreeing the price.",
+   "fix": "Taxis are unmetered. Agree the total, the currency and whether it is per car before you sit down."
+  },
+  {
+   "mistake": "Trying to walk from the ship to town.",
+   "fix": "The route is through a cargo port and busy industrial roads. Use the shuttle, then a taxi or app ride."
+  },
+  {
+   "mistake": "Leaving the walled city 45 minutes before all-aboard because the ride is only 15 minutes.",
+   "fix": "Afternoon traffic can add 30 minutes or more. Leave two hours before all-aboard."
+  },
+  {
+   "mistake": "Doing Castillo San Felipe at midday.",
+   "fix": "Go straight there in the morning, before the heat builds."
+  },
+  {
+   "mistake": "Accepting a 'free' sample, bracelet or massage on the beach or in the plazas.",
+   "fix": "Say no firmly and keep walking. Payment is demanded afterwards."
+  }
+ ],
+ "safety": "The walled city and Getsemaní are busy and well policed by day, and the main nuisance is persistent vendors. Colombia as a whole carries a US 'reconsider travel' advisory (Level 3, March 2026), but its do-not-travel areas are elsewhere. Standard precautions apply: do not display phones, watches or jewellery, use ATMs inside banks or shopping centres, and do not leave drinks unattended or accept them from strangers, because drugging with scopolamine is a documented risk. Both UK and US advice say to use app-booked or phone-booked taxis rather than hailing in the street. Small tourist boats to the islands have had fatal accidents; check life jackets before boarding.",
+ "scams": [
+  "Unrequested 'free' samples, bracelets or beach massages followed by a demand for payment of around US$10–20.",
+  "Photo-tip disputes: Palenquera fruit sellers in traditional dress expect a tip for photos. Agree the amount first; US$1–2 is typical.",
+  "Street emerald sellers: buy only in fixed-price shops that label and grade their stones, not from people who approach you.",
+  "Fake police: if someone claiming to be a police officer asks to check your money or documents, ask to go to the nearest CAI police station."
+ ],
+ "emergencyNumber": "123",
+ "accessibility": "The shuttle from ship to terminal avoids the walk across the container yard, and parking for guests with accessibility needs is available at the terminal. The walled city is flat but its pavements are narrow and uneven. Castillo San Felipe is a hilltop fort with slopes, steps and passages and is difficult for wheelchair users. A taxi can drop you close to the Clock Tower and the main plazas. Heat is a real issue for anyone with limited mobility; plan indoor stops.",
+ "rainyDay": "On a wet day, use the Museo del Oro Zenú, the Santuario San Pedro Claver and the cafés and shops of the walled city and Las Bóvedas. Paths at the fort can be slippery when wet. Tropical storms are possible along this coast from June to November; follow the ship's instructions.",
+ "crowdTips": "The terminal can handle up to five ships a day, and on busy days tour groups reach the Clock Tower and Plaza de Santo Domingo from mid-morning. Go to Castillo San Felipe first while groups do the walled city, then reverse.",
+ "faqs": [
+  {
+   "q": "Is Cartagena a tender port?",
+   "a": "No. Ships dock at the Sociedad Portuaria cruise terminal on Manga Island."
+  },
+  {
+   "q": "Is Cartagena walkable from the cruise port?",
+   "a": "No. The historic centre is about 3.2 km away through a cargo port and industrial roads. Take a taxi; it takes 10–15 minutes."
+  },
+  {
+   "q": "How do I get from Cartagena cruise port to the old town?",
+   "a": "Take the free shuttle to the terminal, then a taxi from the exit. Agree the fare first; reported prices are about US$8–20 per car. App drivers pick up outside the port gates."
+  },
+  {
+   "q": "How much is Castillo San Felipe?",
+   "a": "COP$38,000 at the full rate in 2026, COP$16,000 for children 6–13, free for under-6s."
+  },
+  {
+   "q": "What can I do in Cartagena in one day from a cruise ship?",
+   "a": "Castillo San Felipe in the morning, then the walled city, the walls and Getsemaní, with lunch in the old town."
+  },
+  {
+   "q": "Beaches near Cartagena cruise port?",
+   "a": "Bocagrande is the nearest, 15–20 minutes by taxi. Playa Blanca and the Rosario Islands need a long boat trip."
+  },
+  {
+   "q": "Is Cartagena safe for cruise passengers?",
+   "a": "The walled city and Getsemaní are busy and policed by day. Use app or arranged taxis, keep valuables out of sight and never accept drinks from strangers."
+  },
+  {
+   "q": "When should I head back to the ship in Cartagena?",
+   "a": "Leave the walled city two hours before all-aboard to allow for traffic and the port shuttle."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Castillo San Felipe de Barajas"
+  },
+  {
+   "name": "Walled city of Cartagena"
+  },
+  {
+   "name": "Clock Tower gate"
+  },
+  {
+   "name": "Getsemaní"
+  },
+  {
+   "name": "Museo del Oro Zenú"
+  },
+  {
+   "name": "Las Bóvedas"
+  },
+  {
+   "name": "Santuario San Pedro Claver"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Puerto de Cartagena – Cruise terminal passenger services",
+   "url": "https://www.puertocartagena.com/en/cruise-terminal"
+  },
+  {
+   "title": "Fortificaciones de Cartagena – Castle of San Felipe de Barajas",
+   "url": "https://fortificacionescartagena.com.co/en/castle-of-san-felipe-de-barajas/"
+  },
+  {
+   "title": "El Universal – Castillo San Felipe 2026 prices and free days",
+   "url": "https://www.eluniversal.com.co/cartagena/2026/02/23/entrada-gratis-al-castillo-de-san-felipe-en-2026-fechas-y-requisitos/"
+  },
+  {
+   "title": "El Universal – Cartagena taxi tariffs (Decreto 0319 de 2024)",
+   "url": "https://www.eluniversal.com.co/cartagena/2024/12/03/estas-son-las-tarifas-de-taxis-en-cartagena-para-diciembre-de-2024/"
+  },
+  {
+   "title": "Colombia Travel – The Gate and Clock Tower",
+   "url": "https://colombia.travel/en/cartagena-de-indias/visit-gate-and-clock-tower"
+  },
+  {
+   "title": "Colombia Travel – The walls of Cartagena de Indias",
+   "url": "https://colombia.travel/en/cartagena-de-indias-colombia/walls-cartagena"
+  },
+  {
+   "title": "Banco de la República – Museo del Oro, Cartagena branch",
+   "url": "https://www.banrep.gov.co/es/sucursal-cartagena-museo-del-oro"
+  },
+  {
+   "title": "GOV.UK – Colombia travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/colombia/safety-and-security"
+  },
+  {
+   "title": "US State Department – Colombia travel advisory",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/colombia-travel-advisory.html"
+  },
+  {
+   "title": "La República – Cartagena terminal capacity: five ships and 10,000 visitors a day",
+   "url": "https://www.larepublica.co/ocio/tenemos-capacidad-para-recibir-diariamente-5-cruceros-y-hasta-10-000-turistas-diarios-3722341"
+  },
+  {
+   "title": "Royal Caribbean – Cruise ship port Cartagena, Colombia",
+   "url": "https://www.royalcaribbean.com/guides/cruise-ship-port-cartagena-colombia"
+  },
+  {
+   "title": "Bucket List Guides – Cartagena cruise port guide (2026)",
+   "url": "https://bucketlistguides.com/cartagena-colombia-cruise-port-guide/"
+  },
+  {
+   "title": "Flavors of Bogotá – Arriving at the cruise port in Cartagena (2026)",
+   "url": "https://flavorsofbogota.com/cruise-port-in-cartagena-colombia/"
+  },
+  {
+   "title": "Nomado Travel – Cartagena cruise port guide",
+   "url": "https://www.nomadotravel.app/en/guides/cartagena-cruise-port-guide"
+  },
+  {
+   "title": "Expat.com – Emergencies in Colombia",
+   "url": "https://www.expat.com/it/guida/sud-america/colombia/37643-emergenze-in-colombia.html"
+  }
+ ],
+ "uncertain": [
+  "Whether Cartagena's 2024 taxi tariff decree has been replaced by a newer 2025 or 2026 table; no newer table was found.",
+  "Castillo San Felipe opening time: El Universal (2026) gives 07:00, the fort's own site 08:00. The fort's site also still lists lower, apparently older, ticket prices.",
+  "Museo del Oro Zenú opening hours and whether entry is free; the Banco de la República page does not state them.",
+  "Exact entry fee for the Santuario San Pedro Claver and for the Palacio de la Inquisición (Museo Histórico de Cartagena).",
+  "A typical all-aboard time for Cartagena calls; the day plan uses 17:30."
+ ]
+}

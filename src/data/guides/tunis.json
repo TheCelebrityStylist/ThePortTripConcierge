@@ -1,0 +1,388 @@
+{
+ "slug": "tunis",
+ "city": "Tunis",
+ "portName": "La Goulette cruise terminal (Port of La Goulette)",
+ "townName": "Tunis medina",
+ "country": "Tunisia",
+ "currency": "TND",
+ "currencySymbol": "TND",
+ "language": "Arabic; French is widely used",
+ "timezone": "CET (UTC+1) all year",
+ "lastVerified": "October 2026",
+ "seoTitle": "Tunis cruise port guide: La Goulette, Carthage, Bardo",
+ "seoDescription": "Ships dock at La Goulette, 12 km from the Tunis medina. Carthage is 15–20 min by car; the Bardo costs 30 TND (2026). Leave sights 2 hours before sailing.",
+ "quickAnswer": "Ships berth at the La Goulette cruise terminal, about 12 km from central Tunis, so you need transport for every main sight. Carthage is 15–20 minutes away by car and Sidi Bou Said about 10 minutes beyond it; the TGM light railway serves all three from a station about 1 km from the port. Finish sightseeing and be in your vehicle two hours before all-aboard, because afternoon traffic and port security queues are slow.",
+ "intro": "La Goulette is the port of Tunis. A cruise day here usually links three places: the ruins of Carthage, the blue-and-white village of Sidi Bou Said, and the medina of Tunis, with the Bardo National Museum as a fourth for those who prefer indoors. None is within walking distance of the ship. Traffic into Tunis builds in the afternoon, and terminal security adds time on the way back, so plan the farthest sight first and the closest last.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "La Goulette cruise terminal and port village",
+   "distanceToCentreKm": 12,
+   "notes": "Two berths with a combined length of 657 m. The terminal building and port village have shops, cafés, banking and tour desks. The village is within walking distance of La Goulette town, but not of Tunis or Carthage."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 12,
+  "detail": "You can walk out into La Goulette town, but Carthage, Sidi Bou Said, the medina and the Bardo all need a taxi, driver, tour or the TGM. The nearest TGM station is about 1 km from the port, on an unshaded walk."
+ },
+ "transportSections": [
+  {
+   "mode": "TGM light railway",
+   "cost": "Fare not confirmed; pay in dinars",
+   "time": "Frequent trains, roughly 04:00–00:50",
+   "detail": "The Tunis–La Goulette–La Marsa line runs from Tunis Marine (at the bottom of Avenue Habib Bourguiba) through La Goulette and Carthage to Sidi Bou Said and La Marsa. The full line reopened on 20 February 2026 after bridge works; sections can close for engineering work at short notice. Trains have no air conditioning and timings are irregular."
+  },
+  {
+   "mode": "Private driver or pre-booked tour",
+   "cost": "Varies; agree in writing before the day",
+   "time": "Port to Carthage 15–20 min; Sidi Bou Said to the medina 25–35 min; medina to the port 20–30 min",
+   "detail": "The most reliable way to link Carthage, Sidi Bou Said and the medina. Book a driver who will meet you at the terminal exit."
+  },
+  {
+   "mode": "Taxi from the port gate",
+   "cost": "Negotiated; unregulated drivers have quoted €100–150 for simple transfers",
+   "time": "As above",
+   "detail": "The US government advises against unregulated taxis, and Uber and Bolt do not operate in Tunisia. If you use one, agree the total price, the stops and the return time first."
+  },
+  {
+   "mode": "Ship's shuttle or tour",
+   "cost": "Holland America's 'Panoramic Tunis' coach tour from US$79 (2026)",
+   "time": "About 3¾ hours",
+   "detail": "Covers central Tunis, the medina gate, Sidi Bou Said, an American Second World War cemetery and Carthage, mainly from the coach."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Finish sightseeing and be in your vehicle two hours before all-aboard; from the Bardo, leave two and a half hours before. Be back at the terminal gates 90 minutes before all-aboard.",
+  "detail": "The road from central Tunis to La Goulette jams in the afternoon, and freight traffic queues on the N9 after about 14:00. Terminal security checks add time at the end. If you use the TGM, allow for irregular trains and the 1 km walk from the station.",
+  "emergencyFallback": "If the train or your driver lets you down, get a taxi to the port at once and agree the fare before setting off. If you will miss all-aboard, call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Tunis, Sidi Bou Said and Carthage panoramic tour",
+   "ship": "From US$79, about 3¾ hours (Holland America, 2026)",
+   "diy": "TGM plus entry fees, or a private driver at a negotiated price",
+   "saving": "Depends on your driver deal"
+  },
+  {
+   "item": "Bardo Museum",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "30 TND entry (2026) plus a taxi or driver",
+   "saving": "Depends on line"
+  }
+ ],
+ "excursionAdvice": "This is a port where the ship's tour or a well-reviewed private driver earns its price. The sights are spread out, taxis at the gate are unregulated, the TGM is irregular and hot, and the return through city traffic and terminal security is the main risk. Go independently only if you are comfortable with French or Arabic, carry dinars, and keep to Carthage and Sidi Bou Said on the TGM. Be aware that ship tours that are mostly panoramic may show the Antonine Baths only over walls and trees.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00, all-aboard is 17:30 and you have a pre-booked driver.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Clear the terminal and meet your driver at the exit. Walk through the port village without stopping."
+   },
+   {
+    "time": "08:45",
+    "what": "Drive to Carthage (15–20 minutes): Byrsa Hill, then the Antonine Baths before the heat."
+   },
+   {
+    "time": "10:45",
+    "what": "Sidi Bou Said, about 10 minutes away. Walk the main street up to the square."
+   },
+   {
+    "time": "12:00",
+    "what": "Mint tea with pine nuts at Café des Nattes, then lunch."
+   },
+   {
+    "time": "13:15",
+    "what": "Drive to the Tunis medina by the inner route via La Marsa (25–35 minutes), avoiding the N9."
+   },
+   {
+    "time": "14:00",
+    "what": "Walk the souks. Keep cash in a front pocket."
+   },
+   {
+    "time": "15:30",
+    "what": "Back in the vehicle, two hours before all-aboard."
+   },
+   {
+    "time": "16:00",
+    "what": "Through the terminal gates, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Carthage archaeological site",
+   "why": "The remains of the Punic and Roman city: Byrsa Hill, the Antonine Baths, the Tophet and the Punic Ports.",
+   "timeNeeded": "2 hours",
+   "cost": "Paid entry; check at the gate",
+   "tip": "The sites are spread out and unshaded. Bring a hat and water, and use a driver to move between them."
+  },
+  {
+   "name": "Sidi Bou Said",
+   "why": "A whitewashed hillside village with blue doors above the sea.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free to walk",
+   "tip": "The cobbled lanes near the Ennejma Ezzahra palace are steep and slippery; wear shoes with grip."
+  },
+  {
+   "name": "Tunis medina",
+   "why": "The old city and its covered souks.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free to walk",
+   "tip": "Enter from Avenue Habib Bourguiba via the Porte de France. Commission shops can swallow hours; say 'non, merci' and keep walking."
+  },
+  {
+   "name": "Bardo National Museum",
+   "why": "Tunisia's national museum, reopened after a closure of about two years.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "30 TND (April 2026; due to rise to 45 TND in January 2027)",
+   "tip": "Opens at 09:30. It shares a building with the parliament; do not photograph the parliament side."
+  },
+  {
+   "name": "Avenue Habib Bourguiba",
+   "why": "The colonial-era main boulevard, with St Vincent de Paul Cathedral and the municipal theatre.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "Demonstrations happen here, often at weekends. Walk away from any crowd."
+  },
+  {
+   "name": "Byrsa Hill and St Louis Cathedral",
+   "why": "The hilltop at the heart of ancient Carthage, with the cathedral beside it.",
+   "timeNeeded": "45 minutes",
+   "cost": "Check at the gate",
+   "tip": "Start here early, then go down to the Antonine Baths."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "La Marsa",
+   "howToGetThere": "TGM to the La Marsa Plage terminus, or taxi",
+   "time": "Past Sidi Bou Said at the end of the TGM line",
+   "cost": "TGM fare (not confirmed)",
+   "note": "Seaside suburb at the end of the line. Dress modestly away from the sand."
+  },
+  {
+   "name": "Gammarth",
+   "howToGetThere": "Taxi or driver beyond La Marsa",
+   "time": "A few minutes beyond La Marsa by car",
+   "cost": "Taxi fare; agree it first",
+   "note": "Coastal district north of La Marsa, passed on panoramic tours."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Brik à l'oeuf (fried pastry with a whole egg)",
+   "where": "Street stalls in the Tunis medina",
+   "price": null
+  },
+  {
+   "dish": "Lablabi (chickpea soup with harissa and egg)",
+   "where": "Small restaurants in the Tunis medina",
+   "price": null
+  },
+  {
+   "dish": "Mint tea with pine nuts",
+   "where": "Café des Nattes, Place Sidi Bou Saïd",
+   "price": null
+  },
+  {
+   "dish": "Salade mechouia (grilled pepper and tomato salad with tuna)",
+   "where": "Restaurants in the medina and Sidi Bou Said",
+   "price": null
+  },
+  {
+   "dish": "Couscous with merguez",
+   "where": "Restaurants in central Tunis",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Taking the first driver at the port gate without a fixed price.",
+   "fix": "Pre-book a driver or agree the full price, stops and return time before you get in."
+  },
+  {
+   "mistake": "Trying to fit Carthage, Sidi Bou Said, the medina and the Bardo into one call.",
+   "fix": "Pick three at most. On a call under five hours, stay with Carthage and Sidi Bou Said."
+  },
+  {
+   "mistake": "Coming back from the medina in mid-afternoon traffic at the last minute.",
+   "fix": "Be in your vehicle two hours before all-aboard."
+  },
+  {
+   "mistake": "Bringing only euros or cards.",
+   "fix": "Get dinars at a port ATM for the TGM, souks and cafés. Spend them before you leave: exporting dinars is generally prohibited."
+  },
+  {
+   "mistake": "Photographing police, soldiers or government buildings.",
+   "fix": "It is against the law. Keep cameras away from them, including the parliament next to the Bardo."
+  },
+  {
+   "mistake": "Dressing for the beach in the medina.",
+   "fix": "Cover shoulders and knees for the medina and religious sites."
+  }
+ ],
+ "safety": "Tunis and the north coast are outside the areas the UK and US governments advise against visiting, but the US rates Tunisia as Level 2 (exercise increased caution) for terrorism, crime and unrest. Security forces are on high alert in Tunis, and tourist sites and crowded places are possible targets. Petty theft such as bag snatching and pickpocketing is common in tourist areas, and thieves sometimes use confidence tricks as a distraction. Demonstrations can start without warning, especially at weekends in central Tunis around Avenue Habib Bourguiba; walk away from them. Do not photograph police, military or government buildings. Ride-share apps such as Uber and Bolt do not operate.",
+ "scams": [
+  "Confidence tricks as a distraction: the UK government warns that criminals use a friendly approach or a trick to distract you while someone else steals.",
+  "Unregulated drivers at the port gate: drivers have quoted €100–150 for short transfers, renegotiated mid-trip, demanded ATM stops by claiming card readers are broken, or detoured to friends' shops.",
+  "Commission shopping stops: guides and drivers steer visitors into shops that pay them commission, which can use up two to three hours of a port day."
+ ],
+ "emergencyNumber": "197 (police), 190 (ambulance)",
+ "accessibility": "Ship coach tours here are listed as not wheelchair accessible. Carthage is spread over several uneven, unshaded sites, Sidi Bou Said's main lanes are steep cobbles, and the medina has narrow, crowded alleys and steps. The TGM involves a 1 km walk from the port. Visitors with limited mobility are best served by a private driver with an accessible vehicle, booked well ahead, focusing on the Bardo and drive-past views.",
+ "rainyDay": "Go to the Bardo National Museum, which opens at 09:30. The covered souks of the medina give some shelter. Carthage's open sites and Sidi Bou Said's slippery cobbles are poor in rain.",
+ "crowdTips": "La Goulette is getting busier: over 243,000 cruise passengers by the end of September 2026, against 200,000 a year earlier, and two big ships can land more than 10,000 people in a day. Ship tours fill Carthage and Sidi Bou Said from mid-morning, so a private driver who starts at Carthage at opening time beats the coaches. Avoid the N9 into Tunis after about 14:00.",
+ "faqs": [
+  {
+   "q": "Where do cruise ships dock in Tunis?",
+   "a": "At the La Goulette cruise terminal, about 12 km from central Tunis."
+  },
+  {
+   "q": "Is Tunis walkable from the cruise port?",
+   "a": "No. You can walk into La Goulette town, but Carthage, Sidi Bou Said, the medina and the Bardo need transport."
+  },
+  {
+   "q": "How do I get from La Goulette cruise port to Carthage and Sidi Bou Said?",
+   "a": "By driver or taxi (15–20 minutes to Carthage), or on the TGM light railway from a station about 1 km from the port."
+  },
+  {
+   "q": "Is the Bardo Museum open?",
+   "a": "Yes. It has reopened and opens at 09:30; entry is 30 TND from April 2026."
+  },
+  {
+   "q": "What can I do in Tunis in one day from a cruise ship?",
+   "a": "Carthage in the morning, Sidi Bou Said for lunch and the Tunis medina in the early afternoon, back in your vehicle two hours before all-aboard."
+  },
+  {
+   "q": "Is Tunis safe for cruise passengers?",
+   "a": "Tunis is outside the no-go areas, but take normal precautions against theft, avoid demonstrations and use a pre-booked driver rather than unregulated taxis."
+  },
+  {
+   "q": "Do I need dinars in Tunis?",
+   "a": "Yes for the TGM, souks and cafés. Exporting dinars is generally prohibited, so spend them before you go back on board."
+  },
+  {
+   "q": "Is Tunis a tender port?",
+   "a": "No. Ships berth at La Goulette."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Carthage"
+  },
+  {
+   "name": "Sidi Bou Said"
+  },
+  {
+   "name": "Tunis medina"
+  },
+  {
+   "name": "Bardo National Museum"
+  },
+  {
+   "name": "Antonine Baths"
+  },
+  {
+   "name": "Byrsa Hill"
+  },
+  {
+   "name": "Avenue Habib Bourguiba"
+  }
+ ],
+ "sources": [
+  {
+   "title": "GOV.UK – Tunisia travel advice (updated July 2026)",
+   "url": "https://www.gov.uk/foreign-travel-advice/tunisia"
+  },
+  {
+   "title": "GOV.UK – Tunisia travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/tunisia/safety-and-security"
+  },
+  {
+   "title": "US Department of State – Tunisia travel advisory (May 2026)",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tunisia-travel-advisory.html"
+  },
+  {
+   "title": "US Department of State – Tunisia international travel information",
+   "url": "https://www.travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Tunisia.html"
+  },
+  {
+   "title": "Idaraty (Tunisian government services portal) – Musée National du Bardo",
+   "url": "https://www.idaraty.tn/fr/organisations/musee-national-du-bardo"
+  },
+  {
+   "title": "Holland America Line – Panoramic Tunis excursion",
+   "url": "https://www.hollandamerica.com/en/ca/cruise-destinations/mediterranean-europe-cruises/europe-mediterranean-ports/lg1/48504"
+  },
+  {
+   "title": "Seabourn – La Goulette (Tunis) excursion",
+   "url": "https://www.seabourn.com/en/cruise-destinations/mediterranean-cruises/mediterranean-ports/lg1/lag004"
+  },
+  {
+   "title": "Webdo – Museum and site fares from 1 April 2026",
+   "url": "https://www.webdo.tn/fr/actualite/culture/musees-et-sites-archeologiques-nouvelle-grille-tarifaire-des-ce-1er-avril/395596/"
+  },
+  {
+   "title": "Managers – New prices for museums and historic sites (April 2026)",
+   "url": "https://managers.tn/2026/04/01/voici-les-nouveaux-tarifs-pour-les-musees-et-sites-historiques-en-tunisie/"
+  },
+  {
+   "title": "Webdo – TGM back on the whole line (February 2026)",
+   "url": "https://www.webdo.tn/fr/actualite/regions/tunis-le-tgm-de-retour-sur-tout-le-trace/393445/"
+  },
+  {
+   "title": "La Presse – TGM suspension between Kheireddine and La Marsa Plage (September 2025)",
+   "url": "https://lapresse.tn/2025/09/05/arret-de-la-circulation-de-la-ligne-tgm-entre-les-stations-kheireddine-et-la-marsa-plage/"
+  },
+  {
+   "title": "Webdo – La Goulette cruise passenger figures (October 2026)",
+   "url": "https://www.webdo.tn/fr/actualite/national/croisieres-en-tunisie-la-goulette-vise-355-000-touristes-en-2026/405342/"
+  },
+  {
+   "title": "CruiseMapper – La Goulette-Tunis port",
+   "url": "https://www.cruisemapper.com/ports/la-goulette-tunis-port-93"
+  },
+  {
+   "title": "GoWithGuide – Tunis cruise port excursions (September 2026)",
+   "url": "https://gowithguide.com/blog/tunis-cruise-port-excursions-what-can-you-actually-fit-into-your-shore-time-6161"
+  },
+  {
+   "title": "Seat61 – Train travel in Tunisia",
+   "url": "https://seat61.com/Tunisia2.htm"
+  },
+  {
+   "title": "ARTnews – Bardo National Museum reopening",
+   "url": "https://www.artnews.com/art-news/news/bardo-national-museum-reopening-1234690983"
+  },
+  {
+   "title": "Routard forum – Stopover at Tunis, port of La Goulette",
+   "url": "https://www.routard.com/forums/t/escale-a-tunis-port-de-la-goulette/5383"
+  },
+  {
+   "title": "Petit Futé – Café des Nattes, Sidi Bou Saïd",
+   "url": "https://www.petitfute.com/v44419-sidi-bou-said-2026/c1169-s-amuser-sortir/c182-bar-cafe/138603-cafe-des-nattes.html"
+  },
+  {
+   "title": "TripBase – Tunis food",
+   "url": "https://www.tripbase.com/destinations/tunis-tunisia/food/"
+  }
+ ],
+ "uncertain": [
+  "Carthage entry price from April 2026: one report gives 20 TND, another 30 TND",
+  "Combined Bardo–Carthage ticket price (reported as 45 TND by one source only)",
+  "Whether free first-Sunday-of-the-month entry applies to foreign visitors or only Tunisian residents",
+  "Current TGM single fare",
+  "Bardo closing time and weekly closing day",
+  "Carthage site opening hours",
+  "Exact walking time from the terminal to the nearest TGM station and that station's name",
+  "Whether the cruise terminal has a fixed-price taxi desk in 2026",
+  "Visa rules for cruise passengers by nationality (check with your cruise line)"
+ ]
+}

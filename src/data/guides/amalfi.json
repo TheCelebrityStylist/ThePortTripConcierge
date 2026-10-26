@@ -1,0 +1,410 @@
+{
+ "slug": "amalfi",
+ "city": "Amalfi",
+ "portName": "Port of Amalfi (tender landing)",
+ "townName": "Amalfi town centre (Piazza Duomo)",
+ "country": "Italy",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Italian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Amalfi cruise port guide: tender, Ravello and Positano",
+ "seoDescription": "Amalfi is a tender port; tenders land about 300 m from Piazza Duomo. Cloister €3, Villa Rufolo €8 (2026). Positano ferry 20 min. Be at the pier 90 min early.",
+ "quickAnswer": "Amalfi has no cruise berth for ocean-going ships: they anchor offshore and tender passengers to the harbour on the town's waterfront. Piazza Duomo is about 300 m away, a five-minute walk, so you need no transport for the town itself. Be back at the tender landing 90 minutes before all-aboard, and earlier if you go to Ravello or Positano.",
+ "intro": "Amalfi is a small town wedged into a ravine, with its harbour, bus stops and ferry piers all on one short stretch of waterfront. That makes it easy to land and explore on foot, and easy to reach Ravello by bus or Positano by ferry. The difficulties are the narrow coast road, which jams in season and slows buses and taxis, and the sea, which can delay tenders and cancel ferries. Plan the day around the tender queue and keep a margin for the return.",
+ "isTender": true,
+ "tenderNotes": "Amalfi has no purpose-built cruise terminal. Large ships anchor offshore and tender passengers ashore; only small vessels (up to about 35 m) can berth at the Coppola marina inside the harbour. Tenders land on the central waterfront near the ferry piers, at the foot of the town. Wind or a swell can delay or suspend tendering, so check the last tender time before leaving the landing area.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Tender landing, Amalfi harbour",
+   "distanceToCentreKm": 0.3,
+   "notes": "On the central waterfront next to the ferry piers. Piazza Flavio Gioia, where SITA buses stop, is on the same seafront; Piazza Duomo is about 300 m inland. No cruise terminal building."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.3,
+  "detail": "Flat walk from the harbour to Piazza Duomo. The town climbs steeply away from the main street, and the cathedral itself is up 62 steps from the square."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5 min to Piazza Duomo",
+   "detail": "Walk from the harbour across the seafront into Piazza Duomo. Atrani, the next village east, is about 5 minutes away on foot along a narrow path or through a tunnel."
+  },
+  {
+   "mode": "SITA SUD bus to Ravello",
+   "cost": "Buy before boarding at a tabaccheria, newsstand or bar; tickets are not sold on board",
+   "time": "About 25–35 min",
+   "detail": "Buses to Ravello stop on the eastern side of Piazza Flavio Gioia, on the seafront. Roughly hourly. Buses fill quickly in summer; queue early for the return."
+  },
+  {
+   "mode": "SITA SUD bus to Positano",
+   "cost": "Buy before boarding at a tabaccheria, newsstand or bar; tickets are not sold on board",
+   "time": "About 50 min",
+   "detail": "Coastal buses stop on the western side of the statue in Piazza Flavio Gioia. The road is narrow and congested from May to October, and full buses can pass stops. Use the ferry instead when the sea allows."
+  },
+  {
+   "mode": "Ferry or hydrofoil to Positano",
+   "cost": "From €10 one way (2026)",
+   "time": "About 20 min",
+   "detail": "Several operators (including Travelmar, Alicost, NLG, Lucibello and Alilauro) sail from Amalfi's harbour, generally from early April to the end of October. Timetables change week to week and rough seas cancel sailings."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Agree the fare before you set off",
+   "time": "Depends on traffic on the coast road",
+   "detail": "Taxis are useful for Ravello or viewpoints but are expensive. Taxis are exempt from the coast road's alternate-plate car restrictions, but they still sit in the same traffic."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be at the tender landing 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). Leave Ravello on a bus by 15:00, and take a Positano ferry that departs by 15:00.",
+  "detail": "Tender queues build in the last two hours as everyone returns together. Buses from Ravello run about hourly and fill in summer, so missing one can cost an hour. Ferries from Positano can be cancelled by the sea; the bus fallback takes about 50 minutes on a congested road, so leave Positano by 14:40 if you must use it.",
+  "emergencyFallback": "From Ravello or Positano, take a taxi straight to the Amalfi waterfront. If you will miss the last tender, call the port agent number on your daily programme immediately."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Ravello (Villa Rufolo)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "SITA bus plus Villa Rufolo €8 (2026)",
+   "saving": "Usually large, if buses are not full"
+  },
+  {
+   "item": "Positano",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Ferry from €10 each way (2026)",
+   "saving": "Usually large on a calm day"
+  }
+ ],
+ "excursionAdvice": "Skip the ship's tour for Amalfi town, Atrani and the cathedral: all are within a few minutes' walk of the tender landing. Ravello is easy alone by bus on a long call. A ship's tour earns its price for a full Amalfi Coast drive or for Positano on a day with a swell, when ferries may be cancelled and the bus is slow and crowded; the ship then carries the risk of getting you back.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship anchors at 08:00, first tenders ashore by 08:30, and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Tender ashore. Walk to Piazza Duomo before the day's crowds arrive."
+   },
+   {
+    "time": "08:45",
+    "what": "Buy a bus ticket at a tabaccheria or newsstand near the seafront, then queue for a Ravello bus on the eastern side of Piazza Flavio Gioia."
+   },
+   {
+    "time": "09:30",
+    "what": "Villa Rufolo gardens in Ravello (opens 09:00), then a walk around Ravello's main square."
+   },
+   {
+    "time": "11:15",
+    "what": "Bus back down to Amalfi."
+   },
+   {
+    "time": "12:00",
+    "what": "Climb the 62 steps to the Cathedral of Sant'Andrea; visit the Cloister of Paradise, the crypt and the museum."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch, for example scialatielli with seafood at Trattoria Il Mulino on Via delle Cartiere."
+   },
+   {
+    "time": "14:15",
+    "what": "Walk up the valley past the paper mills, or walk to Atrani for its small beach and square."
+   },
+   {
+    "time": "15:30",
+    "what": "Back on the Amalfi seafront. A lemon granita or gelato within sight of the harbour."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the tender queue, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Cathedral of Sant'Andrea (Duomo di Amalfi)",
+   "why": "The town's landmark, begun in the 9th century, with a striped façade and a bell tower finished in 1276.",
+   "timeNeeded": "45 minutes with the cloister",
+   "cost": "Cathedral free; Cloister of Paradise, crypt, Basilica of the Crucifix and museum €3 (2026)",
+   "tip": "Tickets are sold at the cloister entrance up the steps. Cover shoulders and knees. Go before 10:00 or after 16:00 to avoid the crowds."
+  },
+  {
+   "name": "Cloister of Paradise (Chiostro del Paradiso)",
+   "why": "A 13th-century cloister with interlaced arches, part of the cathedral complex.",
+   "timeNeeded": "20 minutes",
+   "cost": "Included in the €3 cathedral complex ticket (2026)",
+   "tip": "This is the entrance to the paid part of the complex."
+  },
+  {
+   "name": "Ravello and Villa Rufolo",
+   "why": "Hilltop town above Amalfi; Villa Rufolo's terraced gardens look straight down the coast.",
+   "timeNeeded": "2.5–3 hours including the bus",
+   "cost": "Villa Rufolo €8; over-65s and children 5–12 €6 (2026)",
+   "tip": "Open 09:00–20:00 in 2026, tickets on site only. Take an early bus before they fill."
+  },
+  {
+   "name": "Atrani",
+   "why": "A tiny village with a square and beach, about 5 minutes' walk east of Amalfi.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Quieter than Amalfi at midday; a good place for lunch on the square."
+  },
+  {
+   "name": "Museo della Carta (Paper Museum)",
+   "why": "A former paper mill showing how Amalfi's handmade paper is produced.",
+   "timeNeeded": "45 minutes",
+   "cost": "Ticket required; check at the door",
+   "tip": "On Via delle Cartiere, about 10 minutes' uphill walk from the cathedral. The shop sells handmade paper."
+  },
+  {
+   "name": "Arsenals of the Republic (Antichi Arsenali)",
+   "why": "Remains of the medieval shipyards of the Maritime Republic of Amalfi.",
+   "timeNeeded": "30 minutes",
+   "cost": "Check on arrival",
+   "tip": "Close to Piazza Duomo and the harbour; useful on a rainy day."
+  },
+  {
+   "name": "Valle dei Mulini",
+   "why": "A walk up the gorge behind the town past old paper mills and stone water channels.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Start along Via delle Cartiere; combine with the Paper Museum."
+  },
+  {
+   "name": "Positano",
+   "why": "The coast's best-known cliff village, 20 minutes away by ferry.",
+   "timeNeeded": "3–4 hours including the ferry",
+   "cost": "Ferry from €10 each way (2026)",
+   "tip": "Only on a long call with calm sea. Book your return sailing with a large margin."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Spiaggia Grande, Amalfi",
+   "howToGetThere": "Walk from the tender landing; it fronts the town",
+   "time": "2–3 min",
+   "cost": "Free public section; sunbeds at private lidos cost extra",
+   "note": "Busy in summer and next to the harbour traffic."
+  },
+  {
+   "name": "Atrani beach",
+   "howToGetThere": "Walk east from Amalfi",
+   "time": "About 5 min",
+   "cost": "Free public section",
+   "note": "Small and usually calmer than Amalfi's town beach."
+  },
+  {
+   "name": "Santa Croce",
+   "howToGetThere": "Boat from Amalfi harbour only",
+   "time": "A few minutes by boat",
+   "cost": "Boat fare; agree it before boarding",
+   "note": "No road access. Confirm the last boat back before you go."
+  },
+  {
+   "name": "Spiaggia Grande, Positano",
+   "howToGetThere": "Ferry from Amalfi",
+   "time": "About 20 min",
+   "cost": "Ferry from €10 each way (2026)",
+   "note": "Only if the sea is calm and you have a long call."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Lemon pastries such as delizia al limone",
+   "where": "Pasticceria Pansa, Piazza Duomo",
+   "price": null
+  },
+  {
+   "dish": "Scialatielli ai frutti di mare",
+   "where": "Trattoria Il Mulino, Via delle Cartiere",
+   "price": null
+  },
+  {
+   "dish": "Lemon or ricotta gelato",
+   "where": "Gelateria Porto Salvo (Amalfi)",
+   "price": null
+  },
+  {
+   "dish": "Pizza",
+   "where": "Taverna Buonvicino, on the steps behind Piazza Duomo",
+   "price": null
+  },
+  {
+   "dish": "Seafood by the harbour",
+   "where": "Lido Azzurro, Amalfi seafront",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Going to Positano by bus and trusting it to get back on time.",
+   "fix": "Use the ferry (about 20 minutes) when the sea is calm, and leave a large margin. The bus takes about 50 minutes and is often full in season."
+  },
+  {
+   "mistake": "Trying to buy a bus ticket from the driver.",
+   "fix": "Buy tickets before boarding at a tabaccheria, newsstand or bar. They are not sold on board."
+  },
+  {
+   "mistake": "Leaving Ravello on the last convenient bus.",
+   "fix": "Buses run about hourly and fill up. Leave Ravello by 15:00 for a 17:30 all-aboard."
+  },
+  {
+   "mistake": "Arriving at the cathedral in beachwear.",
+   "fix": "Cover shoulders and knees before climbing the steps."
+  },
+  {
+   "mistake": "Returning to the tender landing 30 minutes before all-aboard.",
+   "fix": "Aim for 90 minutes before. Tender queues are longest late in the afternoon and the sea can slow the transfer."
+  }
+ ],
+ "safety": "Amalfi is safe for visitors. The real hazards are road traffic on the narrow seafront and coast road, steep steps in the heat, and pickpocketing in crowded squares and on full buses. Keep valuables zipped away when queuing for buses and ferries. Carry your ship card and photo ID ashore.",
+ "scams": [
+  "Taxi overcharging: agree the fare before setting off.",
+  "Pickpocketing in crowded areas: the cathedral steps, Piazza Duomo and packed buses are the obvious spots.",
+  "Aggressive vendors near the waterfront: decline firmly and move on."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "Tender transfers depend on the swell; wheelchair users should ask the ship in advance whether they can be taken ashore. From the landing, the seafront and the main street to Piazza Duomo are reasonably level, but the cathedral is up 62 steps and much of the town is stepped and steep. Buses on the coast road are crowded and not reliably accessible; a pre-booked accessible car is the realistic option for Ravello.",
+ "rainyDay": "Rain makes the steps slippery and ferries may stop if the sea is rough. Use the day for the cathedral complex, the Paper Museum and the Arsenals, with long café stops near Piazza Duomo. Ravello's gardens lose their view in low cloud.",
+ "crowdTips": "Piazza Duomo and the cathedral steps fill from mid-morning as coaches and ferries arrive. Go to the cathedral before 10:00 or after 16:00, and head to Ravello early, when the buses are emptiest. Atrani and the Valle dei Mulini are calmer at midday.",
+ "faqs": [
+  {
+   "q": "Is Amalfi a tender port?",
+   "a": "Yes. Cruise ships anchor offshore and tender passengers to the harbour on the town's waterfront. Only small vessels can berth inside the harbour."
+  },
+  {
+   "q": "Is Amalfi walkable from the cruise port?",
+   "a": "Yes. Piazza Duomo is about 300 m from the tender landing, around five minutes on foot."
+  },
+  {
+   "q": "How do I get from Amalfi to Ravello?",
+   "a": "Take a SITA SUD bus from the eastern side of Piazza Flavio Gioia on the seafront. The ride takes about 25–35 minutes; buy the ticket before boarding."
+  },
+  {
+   "q": "Can I visit Positano from Amalfi on a cruise day?",
+   "a": "Yes on a long call with a calm sea. The ferry takes about 20 minutes and costs from €10 each way (2026). Leave Positano by 15:00 for a 17:30 all-aboard."
+  },
+  {
+   "q": "How much does it cost to visit Amalfi cathedral?",
+   "a": "The cathedral is free. The Cloister of Paradise, crypt and museum share a €3 ticket (2026)."
+  },
+  {
+   "q": "What can I do in Amalfi in one day from a cruise ship?",
+   "a": "Ravello's Villa Rufolo in the morning, the cathedral and cloister at midday, then Atrani or the paper-mill valley before the tender back."
+  },
+  {
+   "q": "Are there beaches near Amalfi cruise port?",
+   "a": "Amalfi's town beach is next to the tender landing, and Atrani's small beach is about five minutes' walk east."
+  },
+  {
+   "q": "Is Amalfi safe?",
+   "a": "Yes. Watch for pickpockets in crowds and take care on steps and the busy coast road."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Cathedral of Sant'Andrea"
+  },
+  {
+   "name": "Cloister of Paradise"
+  },
+  {
+   "name": "Villa Rufolo, Ravello"
+  },
+  {
+   "name": "Atrani"
+  },
+  {
+   "name": "Museo della Carta"
+  },
+  {
+   "name": "Valle dei Mulini"
+  },
+  {
+   "name": "Positano"
+  }
+ ],
+ "sources": [
+  {
+   "title": "CruiseMapper – Amalfi (Ravello) port",
+   "url": "https://www.cruisemapper.com/ports/amalfi-port-176"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Amalfi port guide (checked May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/amalfi-italy/"
+  },
+  {
+   "title": "What's in Port – Amalfi",
+   "url": "https://www.whatsinport.com/Amalfi.htm"
+  },
+  {
+   "title": "SITA SUD Trasporti – official site",
+   "url": "https://www.sitasudtrasporti.it/"
+  },
+  {
+   "title": "SITA SUD Trasporti – Campania notices",
+   "url": "https://www.sitasudtrasporti.it/campania"
+  },
+  {
+   "title": "Positano.com – Amalfi Coast bus schedules 2026",
+   "url": "https://www.positano.com/en/bus-schedule"
+  },
+  {
+   "title": "Positano.com – Amalfi to Positano ferries",
+   "url": "https://www.positano.com/it/t/amalfi/positano"
+  },
+  {
+   "title": "Positano.com – Amalfi and Atrani",
+   "url": "https://www.positano.com/it/s/amalfi-e-atrani-3"
+  },
+  {
+   "title": "Positano.com – Useful info and tips (autumn 2026)",
+   "url": "https://www.positano.com/it/e/info-utili-e-tips"
+  },
+  {
+   "title": "Travelmar – official site",
+   "url": "https://www.travelmar.it/"
+  },
+  {
+   "title": "Villa Rufolo – opening hours and tickets 2026 (official)",
+   "url": "https://villarufolo.com/orari/"
+  },
+  {
+   "title": "Napolike – Duomo di Amalfi and Chiostro del Paradiso (September 2026)",
+   "url": "https://www.napolike.it/duomo-amalfi-chiostro-del-paradiso"
+  },
+  {
+   "title": "Napolike – Costiera Amalfitana targhe alterne 2026",
+   "url": "https://www.napolike.it/costiera-amalfitana-targhe-alterne-2026-date-e-orari-ecco-cosa-cambia"
+  },
+  {
+   "title": "ANAS – SS163 Amalfitana traffic ordinances notice",
+   "url": "https://stradeanas.it/it/printpdf/105170"
+  },
+  {
+   "title": "Comune di Amalfi – Giunta resolution 51/2019 on tourist coach stops",
+   "url": "https://www.comune.amalfi.sa.it/materiali/2289.pdf"
+  },
+  {
+   "title": "Reid's Italy – The Amalfi Coast by bus",
+   "url": "https://reidsitaly.com/destinations/campania/amalfi_coast/plan/around-by-bus.html"
+  },
+  {
+   "title": "Blue Keys – Best things to do in Amalfi 2026",
+   "url": "https://bluekeys.it/it/blog/best-things-to-do-in-amalfi"
+  }
+ ],
+ "uncertain": [
+  "Exact 2026 dates of the SS163 alternate-plate car restriction: one source lists Easter and late-April/May windows (10:00–18:00), another says weekends and holidays until 31 October 2026.",
+  "Current SITA SUD single fares and the price of the 24-hour COSTIERASITA ticket: SITA announced a Campania fare adjustment from 1 October 2026 and no current Amalfi Coast price list was reachable.",
+  "Museo della Carta ticket price and opening days (sources give €4 and €4.50, and differ on Monday closing).",
+  "Emerald Grotto (Grotta dello Smeraldo) entry price, boat cost and hours (sources disagree).",
+  "Typical all-aboard time for Amalfi calls; the day plan uses 17:30."
+ ]
+}

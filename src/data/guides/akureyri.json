@@ -1,0 +1,384 @@
+{
+ "slug": "akureyri",
+ "city": "Akureyri",
+ "portName": "Port of Akureyri (Oddeyrarbryggja and Tangabryggja)",
+ "townName": "the town centre (Hafnarstræti)",
+ "country": "Iceland",
+ "currency": "ISK",
+ "currencySymbol": "kr",
+ "language": "Icelandic",
+ "timezone": "GMT (UTC+0) all year",
+ "lastVerified": "October 2026",
+ "seoTitle": "Akureyri cruise port guide: walk to town, Goðafoss trips",
+ "seoDescription": "Akureyri's main cruise quay is a 10–15 min walk from town; local buses are free. Goðafoss is 35 km away, 2.5–3 hours. Iceland fee ISK 1,600 a day (2026).",
+ "quickAnswer": "Most ships dock at Oddeyrarbryggja or Tangabryggja, a flat 10–15 minute walk from the town centre, and Akureyri's local buses are free. Goðafoss is 35 km east on Route 1, about 40–45 minutes each way, so allow 2.5–3 hours; Lake Mývatn needs a 7–8 hour tour. Be back on board 60 minutes before all-aboard from town and leave Goðafoss 135 minutes before.",
+ "intro": "Akureyri is the main town of north Iceland, at the head of the long Eyjafjörður fjord. The centre is small and walkable from the main quays, with a hilltop church, a free botanical garden and a geothermal pool within half an hour on foot. The big draws lie outside town: Goðafoss on the Ring Road and the volcanic landscape around Lake Mývatn. Taxis and tour seats run short on multi-ship days, so book anything outside town in advance. Since 2025 Iceland charges cruise passengers an infrastructure fee for every 24 hours in port, cut to ISK 1,600 for 2026 and 2027.",
+ "isTender": false,
+ "tenderNotes": "Normally a docking port. One port guide reports that on peak days with three or four ships, a ship may anchor and tender to the small-boat harbour by the centre; check your daily programme.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Oddeyrarbryggja",
+   "distanceToCentreKm": 0.9,
+   "notes": "Main cruise quay on the Oddeyri spit north of the centre, used by most mid-size and large ships. About 600–900 m and a flat 10–15 minute walk to town. Taxis meet larger ships."
+  },
+  {
+   "name": "Tangabryggja",
+   "distanceToCentreKm": null,
+   "notes": "Quay commonly used by larger ships alongside Oddeyrarbryggja."
+  },
+  {
+   "name": "Torfunefsbryggja",
+   "distanceToCentreKm": 0.2,
+   "notes": "Small pier at the bottom of the town centre beside the Hof cultural centre, used by small and expedition ships. Town is 2–5 minutes away."
+  },
+  {
+   "name": "Krossanesbryggja",
+   "distanceToCentreKm": 3,
+   "notes": "Larger deep-water quay about 3 km from town. Shuttles usually run on call days; allow about 15 minutes each way for the shuttle."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 15,
+  "km": 0.9,
+  "detail": "From Oddeyrarbryggja the walk to the centre is flat and takes 10–15 minutes. Hafnarstræti, the main pedestrian street, is about 10 minutes from the pier, the church about 15 and the botanical garden about 20. Krossanes is too far to walk comfortably: use the shuttle."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "10–15 min to the centre",
+   "detail": "Walk south along the waterfront to Hof, which houses the tourist information centre (08:00–16:00 from June to August), then up into Hafnarstræti."
+  },
+  {
+   "mode": "Local town bus",
+   "cost": "Free",
+   "time": "Short hops",
+   "detail": "Local buses within Akureyri are free. Routes start and end in the centre and serve the botanical garden, museums and outlying districts."
+  },
+  {
+   "mode": "Goðafoss transfer tour (SBA-Norðurleið)",
+   "cost": "Check at Hof",
+   "time": "About 2.5 hours",
+   "detail": "Runs from Hof on selected dates. Ask at the information centre whether it runs on your call day."
+  },
+  {
+   "mode": "Regional bus 79 (Akureyri–Húsavík)",
+   "cost": "Paid to the driver by distance",
+   "time": "Check the timetable",
+   "detail": "Stops at Fosshóll for Goðafoss and leaves from the stop by Hof. The bus seats at most 19 and cannot be pre-booked, so it is a risky choice on a cruise day."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "High; agree the fare first",
+   "time": "About 40–45 min to Goðafoss",
+   "detail": "Taxi Hreyfill is the local firm. On busy cruise days taxis, tours and rental cars can be very hard to find; book ahead."
+  },
+  {
+   "mode": "Hire car",
+   "cost": "Check with the firm",
+   "time": "About 40–45 min to Goðafoss",
+   "detail": "Europcar (Bílaleiga Akureyrar) and Akureyri Rent a Car are near the harbour. Goðafoss parking is free, beside the Ring Road."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard from the town centre. Leave Goðafoss 135 minutes before all-aboard, and Lake Mývatn 180 minutes before, unless you are on the ship's own tour.",
+  "detail": "Goðafoss is 40–45 minutes away by road and Mývatn about 90 minutes; the rules add a 90-minute buffer because there is only one main road and few spare taxis or buses on busy days. If your ship tenders, add 30 minutes for the tender queue.",
+  "emergencyFallback": "If a taxi or independent tour runs late, call the port agent number on your daily programme straight away. Ship-sold tours to Goðafoss and Mývatn return to the ship, and the ship knows where they are."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Goðafoss",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "SBA transfer from Hof on selected dates, or a pre-booked taxi or hire car; parking at the falls is free",
+   "saving": "Varies"
+  },
+  {
+   "item": "Town day",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk; local buses free; botanical garden free; pool ISK 1,400 adult (2026)",
+   "saving": "Varies"
+  }
+ ],
+ "excursionAdvice": "The town needs no tour: walk in, use the free buses if you like, and spend the day on the church, the botanical garden, Hafnarstræti and the pool. Goðafoss is easy to do independently if the SBA transfer runs on your date or you have booked a car. Lake Mývatn is where the ship's tour earns its price: the full loop with Goðafoss, Dimmuborgir, Skútustaðagígar and Námaskarð takes 7–8 hours, which leaves little margin on a typical call, and taxis are scarce if something goes wrong.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Oddeyrarbryggja at 08:00 and all-aboard is 17:30, in summer. Goðafoss transfer times were not verified, so the morning block is flexible: check at Hof.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk to Hof (10–15 minutes) and ask at the tourist information centre whether the SBA Goðafoss transfer runs today."
+   },
+   {
+    "time": "09:00",
+    "what": "Morning block of about 2.5–3 hours: Goðafoss by the SBA transfer, a pre-booked tour or a hire car. Without a Goðafoss booking, take the free bus or walk to the botanical garden and the pool instead."
+   },
+   {
+    "time": "12:00",
+    "what": "Lunch in the centre, for example lamb at Bautinn or lunch with a fjord view at Strikið, then soft-serve at Brynja."
+   },
+   {
+    "time": "13:15",
+    "what": "Akureyrarkirkja, the hilltop church (open 10:00–16:00 in summer, closed during services)."
+   },
+   {
+    "time": "13:45",
+    "what": "Walk Hafnarstræti and on to Lystigarðurinn, the botanical garden (free), for about 45 minutes."
+   },
+   {
+    "time": "15:00",
+    "what": "Akureyri swimming pool at Skólastígur 4 (ISK 1,400 adult) for hot tubs and the slides."
+   },
+   {
+    "time": "16:00",
+    "what": "Walk back to the quay, 10–15 minutes."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Goðafoss",
+   "why": "Waterfall about 12 m high and 30 m wide on the Skjálfandafljót river, named in the story of Iceland's conversion to Christianity around the year 1000.",
+   "timeNeeded": "2.5–3 hours including travel",
+   "cost": "Free; parking free",
+   "tip": "35 km east on Route 1. There are parking areas on both sides of the river, and a café, shop and toilets at Fosshóll."
+  },
+  {
+   "name": "Lake Mývatn",
+   "why": "Volcanic lake area with the Dimmuborgir lava formations, the Skútustaðagígar craters and the Námaskarð geothermal field.",
+   "timeNeeded": "7–8 hours",
+   "cost": "Tour price",
+   "tip": "About 90 minutes from Akureyri. Midges are dense in June and July; a head net helps."
+  },
+  {
+   "name": "Akureyrarkirkja",
+   "why": "Hilltop church by Guðjón Samúelsson, completed in 1940, with a 3,300-pipe organ and a ship model hanging inside.",
+   "timeNeeded": "30 minutes",
+   "cost": "Check on arrival",
+   "tip": "Open 10:00–16:00 daily in summer; closed during funerals and other services. Reached by steps from the centre."
+  },
+  {
+   "name": "Lystigarðurinn (Akureyri Botanical Garden)",
+   "why": "Free garden with over 7,000 plant species from around the world.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Open 08:00–22:00 weekdays and 09:00–22:00 at weekends. About 20 minutes' walk from the pier, or take a free town bus."
+  },
+  {
+   "name": "Akureyri swimming pool (Sundlaug Akureyrar)",
+   "why": "Geothermal outdoor pool with 25 m lap pools, three water slides, hot tubs, a steam bath and a cold tub.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "ISK 1,400 adult (2026)",
+   "tip": "Pools run at 27–33°C and the hot tubs at 37–42°C. Check opening hours on the day."
+  },
+  {
+   "name": "Hafnarstræti and Hof",
+   "why": "The pedestrian main street with cafés and bookshops, and the Hof cultural centre on the waterfront.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Hof holds the tourist information centre and is where the town's tours depart."
+  },
+  {
+   "name": "Whale watching on Eyjafjörður",
+   "why": "Boat trips from the harbour by Hof, with humpback and minke whales in the fjord.",
+   "timeNeeded": "About 3 hours",
+   "cost": "Tour price",
+   "tip": "Much shorter than a trip to Húsavík, which needs 6–7 hours with the drive."
+  },
+  {
+   "name": "Christmas Garden (Jólagarðurinn)",
+   "why": "Year-round Christmas shop in a gingerbread-style house outside town.",
+   "timeNeeded": "About 1 hour plus transfer",
+   "cost": "Tour price if you join the transfer",
+   "tip": "A tour leaves Hof at 10:00 and 12:00 daily with a 45-minute stop. About 12 minutes by car."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Soft-serve ice cream with chocolate dip or liquorice powder",
+   "where": "Brynja, one of Iceland's oldest ice cream shops",
+   "price": null
+  },
+  {
+   "dish": "Lamb dishes",
+   "where": "Bautinn, town centre",
+   "price": null
+  },
+  {
+   "dish": "Lunch with a view over the fjord",
+   "where": "Strikið, town centre",
+   "price": null
+  },
+  {
+   "dish": "Breakfast and brunch",
+   "where": "Kaffi Ilmur (closes at 16:00)",
+   "price": null
+  },
+  {
+   "dish": "Pastries and bread",
+   "where": "Kristjáns Café bakery",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning to pick up a taxi or tour on the quay on a multi-ship day.",
+   "fix": "Book Goðafoss or Mývatn transport in advance; on busy days taxis and tours run out."
+  },
+  {
+   "mistake": "Trying to do Mývatn independently on a short call.",
+   "fix": "The loop takes 7–8 hours. Take the ship's tour or keep to Goðafoss."
+  },
+  {
+   "mistake": "Relying on regional bus 79 for Goðafoss.",
+   "fix": "It seats only 19 and cannot be booked. Use the SBA transfer, a tour or a car."
+  },
+  {
+   "mistake": "Going ashore in summer clothes.",
+   "fix": "Bring layers and a windproof jacket, even in July."
+  },
+  {
+   "mistake": "Visiting Mývatn in June or July without protection from midges.",
+   "fix": "Pack a head net."
+  }
+ ],
+ "safety": "Akureyri is a safe, quiet town. The main risks are weather and the roads: conditions change fast, so dress in layers, and if you drive to Goðafoss, keep to marked parking and paths by the falls. At Námaskarð and other geothermal areas near Mývatn, stay on marked paths. Emergency number 112.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from Oddeyrarbryggja to the centre is flat. The church is reached by steps from the centre. The Akureyri swimming pool has good facilities for disabled visitors. Taxis are the practical choice for passengers with limited mobility going outside town, but book ahead on busy days. Ask the ship about accessible tours to Goðafoss and Mývatn.",
+ "rainyDay": "In rain, swap the botanical garden for the Akureyri Art Museum, about 10–15 minutes' walk from the harbour, and Hof. The geothermal pool works in any weather; the hot tubs are 37–42°C. Goðafoss is still worth seeing in rain, but Mývatn views suffer in low cloud.",
+ "crowdTips": "Akureyri is small, and on days with three or four ships the centre, the taxis and the tour seats fill quickly. Book trips outside town in advance, visit the church as soon as it opens, and leave the pool and garden for the afternoon, when many passengers are on tours.",
+ "faqs": [
+  {
+   "q": "Is Akureyri walkable from the cruise port?",
+   "a": "Yes. From Oddeyrarbryggja it is a flat 10–15 minute walk to the centre. Ships at Krossanes, about 3 km out, use a shuttle."
+  },
+  {
+   "q": "Is Akureyri a tender port?",
+   "a": "Normally no; ships dock. A ship may tender on very busy days, so check your daily programme."
+  },
+  {
+   "q": "How do I get from Akureyri cruise port to Goðafoss?",
+   "a": "It is 35 km east on Route 1, about 40–45 minutes. Use the SBA transfer from Hof on selected dates, a tour, a taxi or a hire car."
+  },
+  {
+   "q": "Can I visit Lake Mývatn from Akureyri on a cruise?",
+   "a": "Yes, on a tour of 7–8 hours that usually includes Goðafoss. It is about 90 minutes each way."
+  },
+  {
+   "q": "Are buses free in Akureyri?",
+   "a": "Yes. Local buses within the town are free. Regional buses cost money and are paid to the driver."
+  },
+  {
+   "q": "What can I do in Akureyri in one day from a cruise ship?",
+   "a": "Walk to the church, Hafnarstræti and the botanical garden, swim in the geothermal pool, or take a half-day trip to Goðafoss."
+  },
+  {
+   "q": "Is there a cruise passenger fee in Iceland?",
+   "a": "Yes. Iceland charges an infrastructure fee per passenger for every 24 hours in port: ISK 1,600 in 2026 and 2027, down from ISK 2,500 in 2025. Your cruise line collects it."
+  },
+  {
+   "q": "Is Akureyri safe?",
+   "a": "Yes. Dress for changeable weather and stay on marked paths at waterfalls and geothermal areas."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Goðafoss"
+  },
+  {
+   "name": "Lake Mývatn"
+  },
+  {
+   "name": "Akureyrarkirkja"
+  },
+  {
+   "name": "Akureyri Botanical Garden"
+  },
+  {
+   "name": "Akureyri swimming pool"
+  },
+  {
+   "name": "Hafnarstræti"
+  },
+  {
+   "name": "Whale watching on Eyjafjörður"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Visit Akureyri – Arriving with a cruise ship",
+   "url": "https://www.visitakureyri.is/en/plan-your-visit/practical-information/arriving-with-a-cruise-ship"
+  },
+  {
+   "title": "Visit Akureyri – Goðafoss waterfall",
+   "url": "https://www.visitakureyri.is/en/see-and-do/attractions/godafoss-waterfall"
+  },
+  {
+   "title": "Visit Akureyri – Swimming in thermal pools",
+   "url": "https://visitakureyri.is/en/see-and-do/you-can-do-anything/swimming-in-thermal-pools"
+  },
+  {
+   "title": "North Iceland – Public transportation",
+   "url": "https://www.northiceland.is/en/travel-info/how-to-get-around/public-transportation"
+  },
+  {
+   "title": "MSC Cruises – Destination fees and local charges (Iceland infrastructure fee)",
+   "url": "https://www.msccruises.com/manage-booking/before-you-go/cruise-passenger-fee"
+  },
+  {
+   "title": "AECO – Iceland reviews cruise industry taxes (2025, updated 2026)",
+   "url": "https://aeco.no/iceland-reviews-cruise-industry-taxes-amid-economic-concerns/"
+  },
+  {
+   "title": "Reykjavík Grapevine – Sundlaug showdown (April 2026)",
+   "url": "https://grapevine.is/travel/2026/04/13/a-view-from-the-north-sundlaug-showdown/"
+  },
+  {
+   "title": "CruiseMapper – Akureyri port",
+   "url": "https://www.cruisemapper.com/ports/akureyri-port-702"
+  },
+  {
+   "title": "Iceland Highlights – Cruise ship schedules in Akureyri",
+   "url": "https://www.iceland-highlights.com/cruise-ship-schedules-in-ports-in-akureyri/"
+  },
+  {
+   "title": "Golden Circle Day Tours – Akureyri cruise port guide",
+   "url": "https://www.goldencircledaytours.is/blog/akureyri-cruise-port-guide"
+  },
+  {
+   "title": "Adventour Begins – Akureyri cruise port guide (updated 2026)",
+   "url": "https://adventourbegins.com/akureyri-iceland-cruise-port-guide/"
+  },
+  {
+   "title": "Iceland Tours – Goðafoss waterfall",
+   "url": "https://www.icelandtours.is/attractions/godafoss-waterfall/"
+  },
+  {
+   "title": "Keahotels – Top things to do in Akureyri",
+   "url": "https://www.keahotels.is/travel-guide-top-10-things-to-do-in-akureyri"
+  },
+  {
+   "title": "Arctic Adventures – Things to do in Akureyri",
+   "url": "https://adventures.is/blog/things-to-do-in-akureyri/"
+  }
+ ],
+ "uncertain": [
+  "Departure times and price of the SBA-Norðurleið Goðafoss transfer from Hof, and which dates it runs",
+  "Route 79 timetable and fare",
+  "Forest Lagoon admission price (sources disagree)",
+  "Swimming pool opening hours in 2026",
+  "Typical all-aboard times and the 2026 number of calls (the port's own schedule page could not be opened)",
+  "Taxi fares to Goðafoss and Mývatn",
+  "Ship excursion prices for Goðafoss and Mývatn"
+ ]
+}

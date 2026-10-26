@@ -1,0 +1,433 @@
+{
+  "slug": "cabo-san-lucas",
+  "city": "Cabo San Lucas",
+  "portName": "Cabo San Lucas anchorage (tender pier in the marina)",
+  "townName": "downtown Cabo San Lucas and the marina",
+  "country": "Mexico",
+  "currency": "USD",
+  "currencySymbol": "US$",
+  "priceSymbol": "US$",
+  "language": "Spanish",
+  "timezone": "MST (UTC−7) all year; Baja California Sur does not use daylight saving time",
+  "lastVerified": "October 2026",
+  "seoTitle": "Cabo San Lucas cruise port guide: tender, Arch, Medano",
+  "seoDescription": "Cabo San Lucas is a tender port: 10–15 min boat ride into the marina, El Arco only by boat, Medano Beach by water taxi, US$10 Mexico cruise fee in 2026.",
+  "quickAnswer": "Cabo San Lucas is a tender port: ships anchor in the bay and the tender ride into the marina takes 10–15 minutes. From the tender pier you can walk the marina and downtown, and reach Medano Beach, El Arco and Lover's Beach by water taxi or glass-bottom boat. Be back in the tender queue 90 minutes before all-aboard.",
+  "intro": "Cabo has no cruise terminal. Ships anchor off Land's End, in sight of El Arco, and tender passengers into the marina, which puts you in the middle of town. Everything most people want is on the water: the Arch and Lover's Beach by boat, Medano Beach on foot, snorkelling coves along the corridor by tour boat. The day is shaped by the tender. Queues on the ship are longer than the ride, so go ashore early, and return before the last-hour rush.",
+  "isTender": true,
+  "tenderNotes": "Ships anchor offshore in the bay and tender passengers to a pier just inside the marina. The ride takes 10–15 minutes. Tenders may be open or enclosed depending on the line. The wait to board on the ship is usually the longest part, especially in the first hour; queues are typically shorter after lunch. The tender pier has a few vendors, an ATM and an information booth with free maps. Wheelchair users may not be able to go ashore if conditions make tender transfers unsafe.",
+  "typicalHours": 8,
+  "terminals": [
+    {
+      "name": "Tender pier, Cabo San Lucas marina",
+      "distanceToCentreKm": 0.8,
+      "notes": "Tender landing just inside the marina. A flea market is to the left as you leave; the waterfront boardwalk with restaurants is to the right. Water taxis and glass-bottom boats wait along the marina."
+    }
+  ],
+  "walkability": {
+    "verdict": "Yes",
+    "minutes": 15,
+    "km": 0.8,
+    "detail": "Flat waterfront walk of 10–15 minutes around the marina into the centre. Turn right from the tender pier towards the large hotel at the end of the marina and go through the wide opening to the main shopping street. Medano Beach starts beyond the far end of the marina; the walk is longer, so many people take a water taxi. In summer heat, take a taxi or water taxi."
+  },
+  "transportSections": [
+    {
+      "mode": "On foot",
+      "cost": "Free",
+      "time": "10–15 min to downtown",
+      "detail": "Follow the marina boardwalk. Shops, restaurants, Puerto Paraíso mall and a crafts market are all near the harbour. Medano Beach is further, beyond the end of the marina."
+    },
+    {
+      "mode": "Water taxi or glass-bottom boat",
+      "cost": "Agree the price, the route and the pick-up time before you board",
+      "time": "Short ride across the bay to El Arco, Lover's Beach or Medano",
+      "detail": "Boats leave from the marina near the tender pier and from Medano Beach. El Arco can only be reached by boat. Glass-bottom boats pass the sea lion colony at Pelican Rock and can drop you at Lover's Beach; confirm the time of the boat that will collect you."
+    },
+    {
+      "mode": "Taxi or Uber",
+      "cost": "Agree the fare before you get in",
+      "time": "Varies",
+      "detail": "Taxis wait in town; in Cabo San Lucas the taxi vans are blue and green. Uber and similar apps operate around the port."
+    },
+    {
+      "mode": "Ruta del Desierto bus to San José del Cabo",
+      "cost": "About US$2–3 (2026)",
+      "time": "About 1 hour",
+      "detail": "The urban bus runs along the corridor between Cabo San Lucas and San José del Cabo, stopping at the main hotels. A taxi between the two towns costs around US$60–70 (2026)."
+    }
+  ],
+  "returnTiming": {
+    "rule": "Be in the tender queue at the marina by 15:00 for a 16:30 all-aboard (90 minutes before). Leave San José del Cabo by 13:30.",
+    "detail": "The tender ride is only 10–15 minutes, but queues build as everyone returns at once. Know the time of the last tender, which is earlier than all-aboard. From Lover's Beach or El Arco you depend on a boat collecting you, so book a pick-up at least 30 minutes before you want to be at the tender pier. The bus from San José del Cabo takes about an hour and stops along the corridor. Rough weather can also stop the tenders: in October 2026 a Carnival call was cancelled because the water shuttles were unsafe.",
+    "emergencyFallback": "From Medano Beach, walk or take a water taxi to the marina. From the corridor or San José del Cabo, take a taxi (about US$60–70 between the towns). If you will miss the last tender, call the port agent number on your daily programme immediately."
+  },
+  "shipExcursionAvg": null,
+  "diyAvg": null,
+  "savingPerPerson": null,
+  "diyVsExcursion": [
+    {
+      "item": "El Arco and Lover's Beach",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Water taxi or glass-bottom boat from the marina; agree the fare first",
+      "saving": "Usually large; the boats leave from the tender pier area"
+    },
+    {
+      "item": "Snorkelling at Santa María or Chileno",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Tour boat from the marina (3–4 hours)",
+      "saving": "Depends on the operator; check the return time"
+    },
+    {
+      "item": "Whale watching (December to April)",
+      "ship": "Varies by line; check your cruise planner",
+      "diy": "Charter from the marina; book early",
+      "saving": "Depends on the operator"
+    }
+  ],
+  "excursionAdvice": "Skip the ship tour for El Arco, Lover's Beach and Medano: they start a few minutes from the tender pier and the boats are easy to arrange yourself. Book a ship tour, or a reputable operator with a fixed return, for snorkelling trips to Santa María or Chileno and for whale watching, where you are out on the water for hours. San José del Cabo is an hour away by bus; on a short tender call, the ship's tour removes the transport risk.",
+  "dayPlan": {
+    "allAboard": "16:30",
+    "intro": "Assumes the ship anchors at 07:00, first tenders ashore by 07:30, departure at 17:00 and all-aboard at 16:30, as on Carnival's October 2026 schedule. Check your own ship's times.",
+    "steps": [
+      {
+        "time": "07:30",
+        "what": "Tender ashore. Pick up a free map at the information booth on the tender pier."
+      },
+      {
+        "time": "08:00",
+        "what": "Glass-bottom boat or water taxi from the marina to El Arco, past the sea lions at Pelican Rock. Agree the price and pick-up time first."
+      },
+      {
+        "time": "08:45",
+        "what": "Get dropped at Lover's Beach for a swim on the calm bay side. Do not swim at Divorce Beach on the Pacific side."
+      },
+      {
+        "time": "10:30",
+        "what": "Boat pick-up to Medano Beach. Swim in the bay or rent a paddleboard."
+      },
+      {
+        "time": "12:00",
+        "what": "Lunch at a beach restaurant on Medano, such as Mango Deck or The Office."
+      },
+      {
+        "time": "13:15",
+        "what": "Walk or take a water taxi back to the marina. Visit Plaza Amelia Wilkes and the natural history museum, or browse the crafts market."
+      },
+      {
+        "time": "14:30",
+        "what": "Last shopping near the marina, within a few minutes of the tender pier."
+      },
+      {
+        "time": "15:00",
+        "what": "Join the tender queue, 90 minutes before all-aboard."
+      }
+    ]
+  },
+  "sights": [
+    {
+      "name": "El Arco (Land's End)",
+      "why": "The granite arch at the tip of the Baja peninsula, where the Pacific meets the Sea of Cortés.",
+      "timeNeeded": "1–1.5 hours by boat",
+      "cost": "Boat fare; agree it before boarding",
+      "tip": "Reachable only by boat, from the marina or Medano Beach. Look out for sea lions at Pelican Rock and for whales in winter."
+    },
+    {
+      "name": "Lover's Beach (Playa del Amor)",
+      "why": "A small beach beside the Arch on the bay side, with calm water for swimming and snorkelling.",
+      "timeNeeded": "1–2 hours",
+      "cost": "Boat fare",
+      "tip": "Wear shoes: the sand gets very hot by afternoon. Book your pick-up time with the boatman."
+    },
+    {
+      "name": "Medano Beach",
+      "why": "The town's main swimming beach, inside the bay and sheltered from Pacific swell, with beach clubs and water sports.",
+      "timeNeeded": "2–3 hours",
+      "cost": "Free; you pay for loungers, food and activities",
+      "tip": "Watch the beach flags: green means safe, red or black means stay out."
+    },
+    {
+      "name": "Cabo San Lucas marina and boardwalk",
+      "why": "The sportfishing harbour where pangas and superyachts tie up side by side, lined with shops and restaurants.",
+      "timeNeeded": "45 minutes",
+      "cost": "Free",
+      "tip": "The tender pier is on the marina, so this is the best place to spend the last hour."
+    },
+    {
+      "name": "Plaza Amelia Wilkes and Museo de Historia Natural",
+      "why": "The town square, with a small museum on the natural history of the cape.",
+      "timeNeeded": "45 minutes",
+      "cost": "Not verified; check at the door",
+      "tip": "A shaded break between the beach and the tender."
+    },
+    {
+      "name": "Snorkelling at Santa María and Chileno bays",
+      "why": "Sheltered coves on the tourist corridor with calm, clear water; Chileno has a Blue Flag and a lifeguard.",
+      "timeNeeded": "3–4 hours by tour boat",
+      "cost": "Varies by operator",
+      "tip": "Morning gives the best visibility. Go with a boat that returns to the marina at a fixed time."
+    },
+    {
+      "name": "Whale watching",
+      "why": "Grey and humpback whales pass the cape from December to April; whale sharks also visit.",
+      "timeNeeded": "2–3 hours",
+      "cost": "Varies by operator",
+      "tip": "Tours fill quickly in season, so book before you sail."
+    },
+    {
+      "name": "San José del Cabo historic centre",
+      "why": "The quieter sister town, with an 18th-century mission church, cobbled streets and an art district.",
+      "timeNeeded": "4 hours including travel",
+      "cost": "Bus about US$2–3 each way (2026)",
+      "tip": "The Thursday evening Art Walk (November to June) is usually after all-aboard. Leave by 13:30 for a 16:30 all-aboard."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Medano Beach",
+      "howToGetThere": "Water taxi, or a longer walk round the marina",
+      "time": "Beyond the far end of the marina",
+      "cost": "Free",
+      "note": "The main swimmable beach in town; calm bay water and beach clubs."
+    },
+    {
+      "name": "Lover's Beach (Playa del Amor)",
+      "howToGetThere": "Water taxi or glass-bottom boat from the marina or Medano",
+      "time": "Short boat ride",
+      "cost": "Boat fare; agree it first",
+      "note": "Swim on the bay side only. Divorce Beach, a few minutes' walk across the sand, faces the Pacific and has strong rip currents."
+    },
+    {
+      "name": "Santa María Beach",
+      "howToGetThere": "Tour boat from the marina, or taxi along the corridor",
+      "time": "On the tourist corridor east of town",
+      "cost": "Not verified",
+      "note": "Sheltered cove between granite headlands; good snorkelling in the morning."
+    },
+    {
+      "name": "Chileno Beach",
+      "howToGetThere": "Tour boat from the marina, or taxi",
+      "time": "About 1.6 km beyond Santa María",
+      "cost": "Not verified",
+      "note": "Blue Flag beach with a lifeguard, showers and portable toilets."
+    }
+  ],
+  "food": [
+    {
+      "dish": "Seafood, tacos and drinks on the sand",
+      "where": "Mango Deck, Medano Beach",
+      "price": null
+    },
+    {
+      "dish": "Seafood and Mexican breakfasts on the beach",
+      "where": "The Office, Medano Beach",
+      "price": null
+    },
+    {
+      "dish": "Lobster-stuffed chiles rellenos",
+      "where": "Edith's, Cabo San Lucas",
+      "price": null
+    },
+    {
+      "dish": "Japanese-Mexican sushi and seafood",
+      "where": "Nicksan, Cabo San Lucas",
+      "price": null
+    },
+    {
+      "dish": "Seafood and cocktails",
+      "where": "El Squid Roe, downtown (turns into a nightclub later)",
+      "price": null
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Queueing for the first tender with everyone else.",
+      "fix": "Either be at the very front or wait until the rush clears; the ride itself is only 10–15 minutes."
+    },
+    {
+      "mistake": "Swimming at Divorce Beach.",
+      "fix": "Cross back to Lover's Beach on the bay side. The Pacific side has strong rip currents."
+    },
+    {
+      "mistake": "Getting into a water taxi without agreeing the pick-up time.",
+      "fix": "Agree the fare, the drop-off and the return time before you board, and keep the boat's name or number."
+    },
+    {
+      "mistake": "Returning to the marina 30 minutes before all-aboard.",
+      "fix": "Join the tender queue 90 minutes before. The last tender leaves before all-aboard."
+    },
+    {
+      "mistake": "Exchanging money at street booths or using card everywhere.",
+      "fix": "Bring small US notes or pesos. Booths and ATMs charge high fees, and some businesses add about 5% for cards."
+    }
+  ],
+  "safety": "The US State Department rates Baja California Sur at Level 2, 'Exercise increased caution', because of crime (advisory of 29 May 2026), with no specific restrictions on travel there. The marina, downtown and Medano Beach are busy tourist areas. The main hazard is the sea: many Los Cabos beaches have strong surf, rips and undertows. Swim at Medano, Lover's Beach on the bay side, Santa María or Chileno, and obey the beach flags. Drink bottled or ship water, avoid ice of unknown origin, and use sun protection.",
+  "scams": [
+    "Water taxi pick-ups that never come, or fares raised on the return trip: agree the full return price and time first, and pay at the end.",
+    "Expensive street exchange booths and ATMs: use the tender-pier ATM sparingly, or bring small US notes; banks give the best rates.",
+    "Card surcharges added at the till: ask before you pay; some businesses add about 5%.",
+    "Bicycle taxis and unpriced rides: negotiate the fare before setting off."
+  ],
+  "emergencyNumber": "911",
+  "accessibility": "Cabo is a tender port, and lines may refuse wheelchair users going ashore when tender transfers are not safe; ask the ship early on the day. Once ashore, the marina boardwalk is flat and the main route to downtown is level. Beaches are soft sand, and boarding a water taxi or glass-bottom boat usually means a step down from the dock. Confirm step-free transport before booking a tour.",
+  "rainyDay": "Rain is rare and falls mainly from July to September, when storms can also stop the tenders. On a grey day, use the marina, the Puerto Paraíso mall, Plaza Amelia Wilkes and the natural history museum, and long lunches near the tender pier.",
+  "crowdTips": "The first hour of tendering is the slowest; going ashore after the rush, or after lunch, often means a shorter queue. Boats to El Arco are busiest mid-morning when tour groups go out; an early boat is calmer. Medano Beach fills around midday. On the return, queues peak in the last hour before the final tender.",
+  "faqs": [
+    {
+      "q": "Is Cabo San Lucas a tender port?",
+      "a": "Yes. There is no cruise terminal; ships anchor in the bay and tender to a pier inside the marina in 10–15 minutes."
+    },
+    {
+      "q": "Is Cabo San Lucas walkable from the tender pier?",
+      "a": "Yes. Downtown is a flat 10–15 minute walk around the marina, and Medano Beach is further on, beyond the end of the marina."
+    },
+    {
+      "q": "How do I get to the Arch from the cruise ship?",
+      "a": "By boat only. Water taxis and glass-bottom boats leave from the marina near the tender pier and from Medano Beach."
+    },
+    {
+      "q": "Can you swim at Lover's Beach?",
+      "a": "Yes, on the bay side. Do not swim at Divorce Beach on the Pacific side, which has strong rip currents."
+    },
+    {
+      "q": "What can I do in Cabo San Lucas in one day from a cruise ship?",
+      "a": "Take a boat to El Arco and Lover's Beach, swim at Medano Beach, then walk the marina before the tender back."
+    },
+    {
+      "q": "Beaches near Cabo San Lucas cruise port?",
+      "a": "Medano Beach is beyond the end of the marina, on foot or by water taxi. Lover's Beach is by boat. Santa María and Chileno, on the corridor, are best for snorkelling."
+    },
+    {
+      "q": "Is Cabo San Lucas safe for cruise passengers?",
+      "a": "Baja California Sur is at US Level 2, 'Exercise increased caution'. The tourist areas are busy; the bigger danger is rough surf at unswimmable beaches."
+    },
+    {
+      "q": "When should I be back at the tender in Cabo?",
+      "a": "In the tender queue 90 minutes before all-aboard. The last tender leaves earlier than all-aboard."
+    }
+  ],
+  "topAttractions": [
+    {
+      "name": "El Arco"
+    },
+    {
+      "name": "Lover's Beach"
+    },
+    {
+      "name": "Medano Beach"
+    },
+    {
+      "name": "Cabo San Lucas marina"
+    },
+    {
+      "name": "Santa María Bay"
+    },
+    {
+      "name": "Chileno Bay"
+    },
+    {
+      "name": "San José del Cabo"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Visit Los Cabos – The Arch of Cabo San Lucas",
+      "url": "https://www.visitloscabos.travel/places-to-visit/the-arch-of-cabo-san-lucas/"
+    },
+    {
+      "title": "Visit Los Cabos – Lovers Beach",
+      "url": "https://www.visitloscabos.travel/things-to-do/beaches/lovers-beach/"
+    },
+    {
+      "title": "Visit Los Cabos – Medano Beach",
+      "url": "https://www.visitloscabos.travel/things-to-do/beaches/medano-beach/"
+    },
+    {
+      "title": "Visit Los Cabos – Swimming and safety",
+      "url": "https://www.visitloscabos.travel/things-to-do/beaches/swimming-and-safety/"
+    },
+    {
+      "title": "Visit Los Cabos – Beaches",
+      "url": "https://www.visitloscabos.travel/things-to-do/beaches/"
+    },
+    {
+      "title": "Visit Los Cabos – Santa Maria Beach",
+      "url": "https://www.visitloscabos.travel/things-to-do/beaches/santa-maria-beach/"
+    },
+    {
+      "title": "Visit Los Cabos – Chileno Beach",
+      "url": "https://www.visitloscabos.travel/things-to-do/beaches/chileno-beach/"
+    },
+    {
+      "title": "Visit Los Cabos – Transportation",
+      "url": "https://www.visitloscabos.travel/plan/transportation/"
+    },
+    {
+      "title": "Visit Los Cabos – Useful information",
+      "url": "https://www.visitloscabos.travel/plan/useful-information/"
+    },
+    {
+      "title": "Visit Los Cabos – Emergencies",
+      "url": "https://www.visitloscabos.travel/plan/useful-information/emergencies/"
+    },
+    {
+      "title": "Visit Los Cabos – Whale watching",
+      "url": "https://www.visitloscabos.travel/things-to-do/tours-and-activities/whale-watching/"
+    },
+    {
+      "title": "Visit Los Cabos – Cabo San Lucas",
+      "url": "https://www.visitloscabos.travel/places-to-visit/cabo-san-lucas/"
+    },
+    {
+      "title": "Visit Los Cabos – San José del Cabo",
+      "url": "https://www.visitloscabos.travel/places-to-visit/san-jose-del-cabo/"
+    },
+    {
+      "title": "Celebrity Cruises – Cabo San Lucas port guide",
+      "url": "https://www.celebritycruises.com/ports/cabo-san-lucas"
+    },
+    {
+      "title": "Cruise Hive – Everything to know about Cabo San Lucas cruise port",
+      "url": "https://www.cruisehive.com/everything-to-know-about-cabo-san-lucas-cruise-port/85421"
+    },
+    {
+      "title": "What's in Port – Cabo San Lucas",
+      "url": "https://www.whatsinport.com/Cabo-San-Lucas.htm"
+    },
+    {
+      "title": "Cruise Deals Tips and Tricks – Cabo San Lucas port (checked May 2026)",
+      "url": "https://www.cruisedealstipsandtricks.com/ports/cabo-san-lucas/"
+    },
+    {
+      "title": "CruiseMapper – Mexico doubles cruise passenger fee to US$10 (2026)",
+      "url": "https://www.cruisemapper.com/news/16592-mexico-doubles-cruise-passenger-fee"
+    },
+    {
+      "title": "US State Department – Mexico travel advisory (29 May 2026)",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html"
+    },
+    {
+      "title": "El Imparcial – Daylight saving time 2026 applies only to the northern border states",
+      "url": "https://www.elimparcial.com/tij/tijuana/2026/02/27/cuando-cambia-la-hora-por-el-horario-de-verano-en-baja-california-el-reloj-se-adelantara-una-hora/"
+    },
+    {
+      "title": "Cruise Hive – Carnival Panorama cancels two Mexico ports over Hurricane Simon (October 2026)",
+      "url": "https://www.cruisehive.com/carnival-panorama-cancels-two-mexico-ports-over-hurricane-simon-swaps-in-ensenada/220752"
+    },
+    {
+      "title": "Cruise Hive – Mexico cruise ports (updated June 2025)",
+      "url": "https://www.cruisehive.com/mexico-cruise-ports/148617"
+    }
+  ],
+  "uncertain": [
+    "Water taxi and glass-bottom boat fares to El Arco and Lover's Beach; one cruise line page suggests budgeting about US$10, but no 2026 fare list was found.",
+    "Whether any marine-park access fee applies at El Arco or Lover's Beach.",
+    "Taxi fares within Cabo San Lucas.",
+    "Natural history museum opening hours and admission.",
+    "Anchoring/docking and all-aboard times vary by ship; only one Carnival schedule (October 2026) was found, so the day plan uses it as an assumption.",
+    "Typical tender queue length on multi-ship days; no official data.",
+    "Whether any cruise pier or terminal project is active; one older guide mentions studies for a cruise dock.",
+    "Ship excursion prices; no cruise line excursion page with prices could be opened, so shipExcursionAvg and savingPerPerson are null.",
+    "Restaurant prices.",
+    "Walking distance from the tender pier to Medano Beach: sources range from 'steps from the marina' to just over 2 miles."
+  ]
+}

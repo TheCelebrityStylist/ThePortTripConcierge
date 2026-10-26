@@ -1,0 +1,379 @@
+{
+ "slug": "naha",
+ "city": "Naha",
+ "portName": "Port of Naha (Naha Cruise Terminal, Wakasa, and Shinko Wharf second cruise berth)",
+ "townName": "Kokusai-dori",
+ "country": "Japan",
+ "currency": "JPY",
+ "currencySymbol": "¥",
+ "language": "Japanese",
+ "timezone": "JST (UTC+9), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Naha cruise port guide: Wakasa vs Shinko berth, Shuri",
+ "seoDescription": "Naha has two cruise berths: Wakasa, 1.5 km and a 20-min walk from Kokusai-dori, and Shinko, 5.6 km out by shuttle. Shuri Castle ¥400 (2026). Back early.",
+ "quickAnswer": "Naha is a docking port with two cruise berths. At the Naha Cruise Terminal in Wakasa you can walk to the west end of Kokusai-dori in about 20 minutes; very large ships use the second cruise berth at Shinko Wharf, 5.6 km from the centre, where you need a shuttle bus or taxi. Leave Kokusai-dori 80 minutes before all-aboard if your ship is at Wakasa, and 90 minutes before if it is at Shinko.",
+ "intro": "Naha is Okinawa's capital and its cruise calls split between two very different berths. The Naha Cruise Terminal at Wakasa (Tomari Wharf No. 8) is a proper terminal with immigration, Wi-Fi and a tourist desk, a walk from the city. Ships too large for it, up to the 230,000-ton class, use the second cruise berth at Shinko Wharf No. 12, a cargo area with a tent instead of a terminal and no monorail nearby. Check your berth before you plan anything. The core day is Kokusai-dori, the Makishi Public Market and the Naminoue Shrine; Shuri Castle is the main trip out by monorail or taxi.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": null,
+ "terminals": [
+  {
+   "name": "Naha Cruise Terminal, Wakasa (Tomari Wharf No. 8)",
+   "distanceToCentreKm": 1.5,
+   "notes": "Dedicated cruise berth with a terminal building, permanent customs and immigration, Wi-Fi, and a currency exchange and tourist information desk (English, Chinese) open while ships are in. Taxi pool for about 10 cars. Kencho-mae monorail station, at the west end of Kokusai-dori, is about 15 minutes' walk."
+  },
+  {
+   "name": "Second cruise berth, Shinko Wharf No. 12 (Naha new port)",
+   "distanceToCentreKm": 5.6,
+   "notes": "Opened February 2023 for ships up to the 230,000-ton class. The port's berth data lists no terminal building: a tent gives rain shelter, toilets are temporary, and there is no Wi-Fi, currency exchange or tourist desk. Immigration is handled with temporary facilities, which can include on board. No monorail nearby; a shuttle bus is needed. Taxi pool for about 119 cars. Kokusai-dori is 15–20 minutes by car."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 20,
+  "km": 1.5,
+  "detail": "From the Wakasa terminal, the city centre and the west end of Kokusai-dori are about 1.5 km, a 15–20 minute walk on city streets. From the Shinko berth, 5.6 km out in a cargo port, walking is not realistic."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot (ship at Wakasa)",
+   "cost": "Free",
+   "time": "15–20 min to Kencho-mae and the west end of Kokusai-dori",
+   "detail": "The simplest option at Wakasa. Kencho-mae monorail station is about 15 minutes' walk, and Kokusai-dori starts beside it."
+  },
+  {
+   "mode": "Shuttle bus (ship at Shinko)",
+   "cost": "Depends on the ship; check your daily programme",
+   "time": "15–20 min by road",
+   "detail": "The port's own berth data says a shuttle is required at Shinko Wharf because there is no monorail and the berth is 5.6 km from the city. Who runs it and whether it is free varies by call; confirm with your ship before going ashore."
+  },
+  {
+   "mode": "Tokyo Bus TK01 / TK02 (stop by Wakasa terminal)",
+   "cost": "Fare not confirmed for this stop; cash or contactless credit card, no transit IC cards (2026)",
+   "time": "Varies; check the timetable",
+   "detail": "Since 20 August 2026 the TK01 Hurley Express and TK02 Umikaji Liner stop at Naminoue Beach (Naha Cruise Terminal), in front of the MaxValu Wakasa store on Wakasa Naka-dori. The routes link to the Kokusai-dori entrance and Naha Airport. Suica-type cards are not accepted on these routes."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered",
+   "time": "About 10 min to Kokusai-dori from Wakasa; 15–20 min from Shinko",
+   "detail": "Taxis wait at both berths, but queues form when a whole ship disembarks at once, and late-afternoon shift changes have left passengers waiting in the past."
+  },
+  {
+   "mode": "Yui Rail monorail",
+   "cost": "1-day pass ¥800 (24 hours); 2-day pass ¥1,400 (2026)",
+   "time": "Kencho-mae is the nearest station to Wakasa, about 15 min on foot",
+   "detail": "Use it for Shuri Castle: ride to Shuri station, then walk about 15 minutes or take bus 7 or 8 (Shuri Castle Town Line, ¥150) for about 5 minutes. Suica and other national IC cards and the local OKICA card work. Passes also give discounts at Shuri Castle."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Ship at Wakasa: leave Kokusai-dori 80 minutes before all-aboard (16:10 for a 17:30 all-aboard). Ship at Shinko: be at the shuttle stop 90 minutes before (16:00). From Shuri Castle, leave 90 minutes before by taxi.",
+  "detail": "The walk from Kokusai-dori to Wakasa takes up to 20 minutes, and you should be on board an hour before all-aboard. At Shinko you depend on a shuttle or a taxi queue serving a whole large ship, so allow more. Naha traffic is heavy at peak times and around festivals.",
+  "emergencyFallback": "From anywhere in central Naha, take a taxi and say which berth: Wakasa cruise terminal or Shinko Wharf. If you will miss all-aboard, call the port agent number on your daily programme. The 24-hour Japan Visitor Hotline is 050-3816-2787."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Shuri Castle",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Monorail 1-day pass ¥800 + castle paid area ¥400 adult (2026)",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Kokusai-dori, the market and the Naminoue Shrine are easy on your own, especially from Wakasa. Shuri Castle is also simple by monorail. The ship's tour earns its price for anything in the north of the island, such as the Churaumi Aquarium, which the port lists at 90–110 minutes each way by expressway: on a single day the traffic risk is real. At Shinko, a ship tour also takes away the shuttle and taxi queue problem.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Wakasa at 08:00 and all-aboard is 17:30. At Shinko, add the shuttle each way and be at the shuttle stop by 16:00.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk from the terminal to the Naminoue Shrine on its cliff above the beach. Mornings are quieter."
+   },
+   {
+    "time": "09:15",
+    "what": "Walk on to Kencho-mae station and buy a monorail 1-day pass (¥800)."
+   },
+   {
+    "time": "09:30",
+    "what": "Monorail to Shuri, then walk about 15 minutes, or take bus 7 or 8, to Shuri Castle."
+   },
+   {
+    "time": "09:50",
+    "what": "Shuri Castle paid area (¥400). Then walk the stone-paved Kinjo-cho street, about 19 minutes from Shuri station on foot."
+   },
+   {
+    "time": "12:00",
+    "what": "Monorail back to Makishi. Lunch on the second floor of the Makishi Public Market: Okinawa soba or goya champloo."
+   },
+   {
+    "time": "13:30",
+    "what": "Kokusai-dori and its side arcades, about a 2-minute walk from the market."
+   },
+   {
+    "time": "15:30",
+    "what": "Optional swim or rest at Naminoue Beach (free, open 09:00–18:00 in season), near the terminal."
+   },
+   {
+    "time": "16:10",
+    "what": "If you stayed on Kokusai-dori, start walking back to the Wakasa terminal now."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Kokusai-dori",
+   "why": "Naha's main street, with souvenir shops, food and covered arcades off it. Served by Kencho-mae, Makishi and Asahibashi monorail stations.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "The west end by Kencho-mae is the closest point to the Wakasa terminal."
+  },
+  {
+   "name": "Daiichi Makishi Public Market",
+   "why": "Rebuilt market, reopened in March 2023: fish, Okinawan pork and produce downstairs, dining halls on the second floor.",
+   "timeNeeded": "1 hour",
+   "cost": "Free to enter; a cooking fee is added if you have market food cooked",
+   "tip": "Closed on the 4th Sunday of the month (except December). About 2 minutes' walk from Kokusai-dori."
+  },
+  {
+   "name": "Naminoue Shrine",
+   "why": "Red-roofed Shinto shrine on a cliff over the sea, the highest-ranking of the Ryukyu kingdom's eight main shrines.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "For the classic view of the hall above the sea, walk onto the pavement of the Naminoue bridge. Bring cash for offerings."
+  },
+  {
+   "name": "Shuri Castle Park",
+   "why": "Royal seat of the Ryukyu Kingdom, a World Heritage site. The Seiden main hall, rebuilt after the 2019 fire, is due to reopen to visitors on 23 November 2026.",
+   "timeNeeded": "2.5–3 hours including the monorail",
+   "cost": "Paid area ¥400 adult (2026); fees are under review",
+   "tip": "Paid area 08:30–19:00 from April to November. Entry to the Seiden interior after reopening needs an advance reservation. Some areas stay restricted while work continues."
+  },
+  {
+   "name": "Shuri Kinjo-cho stone-paved street",
+   "why": "An old stone-paved lane below the castle.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "About 19 minutes on foot from Shuri station; it is steep in places, so combine it with the castle visit."
+  },
+  {
+   "name": "Tamaudun royal mausoleum",
+   "why": "Stone tombs of the Ryukyu kings, near Shuri Castle.",
+   "timeNeeded": "30 minutes",
+   "cost": "Check at the entrance",
+   "tip": "About 15 minutes' walk from Shuri station."
+  },
+  {
+   "name": "Shikinaen Royal Garden",
+   "why": "Former royal villa and garden of the Ryukyu kings.",
+   "timeNeeded": "1 hour plus travel",
+   "cost": "Check at the entrance; monorail passes give a discount",
+   "tip": "About 10 minutes by taxi or 30 minutes' walk from Shuri station. Only on a long call."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Naminoue Beach",
+   "howToGetThere": "Walk from the Wakasa terminal; the Tokyo Bus stop by the terminal is named after it",
+   "time": "Short walk from Wakasa",
+   "cost": "Free (2026)",
+   "note": "City beach below the Naminoue Shrine, with changing rooms and showers. Open 09:00–18:00 in the swimming season, to about 19:00 in July and August; closed during typhoons."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Okinawa soba",
+   "where": "Second-floor dining halls, Daiichi Makishi Public Market",
+   "price": null
+  },
+  {
+   "dish": "Goya champloo (bitter melon stir-fry)",
+   "where": "Second-floor dining halls, Daiichi Makishi Public Market",
+   "price": null
+  },
+  {
+   "dish": "Market fish or shellfish cooked to order",
+   "where": "Buy downstairs at Daiichi Makishi Public Market and have it cooked upstairs (last order 19:45)",
+   "price": null
+  },
+  {
+   "dish": "Goat soup (hijai jiru)",
+   "where": "Second-floor dining halls, Daiichi Makishi Public Market",
+   "price": null
+  },
+  {
+   "dish": "Irabu soup (sea snake)",
+   "where": "Second-floor dining halls, Daiichi Makishi Public Market",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming the ship is at the Wakasa terminal and planning to walk.",
+   "fix": "Check your berth. Very large ships use Shinko Wharf, 5.6 km out with no terminal building and no monorail, where you need a shuttle or taxi."
+  },
+  {
+   "mistake": "Counting on the city's cruise shuttle from Wakasa to Kokusai-dori.",
+   "fix": "The ¥240 trial service was confirmed only to 31 March 2026 and ran on request from cruise lines. Plan to walk; treat any shuttle as a bonus."
+  },
+  {
+   "mistake": "Joining the taxi queue with the whole ship.",
+   "fix": "Walk from Wakasa, or let the first wave go before queuing. Coming back, leave early rather than relying on finding a taxi at 16:00."
+  },
+  {
+   "mistake": "Tapping a Suica or OKICA card on the Tokyo Bus TK01/TK02 routes.",
+   "fix": "These routes take cash or contactless credit cards only. IC cards are fine on the monorail."
+  },
+  {
+   "mistake": "Planning the market lunch on the fourth Sunday of the month.",
+   "fix": "The Makishi Public Market closes on the 4th Sunday (except December), plus New Year, Lunar New Year and Obon."
+  }
+ ],
+ "safety": "Naha is a safe city with low street crime. The bigger risks are weather and heat. Typhoon season runs from June to December and peaks from July to September; follow Japan Meteorological Agency warnings, because ships may change schedule or leave early. Okinawa is hot and humid in summer and shade is limited around the shrine and beach, so carry water and sun protection. Japan is an earthquake zone; follow tsunami instructions from local staff if alerts sound.",
+ "scams": [
+  "Bar overcharging: the UK government reports disputes over very large bar bills in Japan. Check menu prices and any cover charge before you sit down.",
+  "Street touts: touting is illegal but happens in nightlife areas. Do not follow a tout into a bar.",
+  "Drink spiking with card fraud: reported in Japanese nightlife districts, with victims later finding large charges on their cards. Do not leave drinks unattended."
+ ],
+ "emergencyNumber": "110 (police), 119 (ambulance and fire)",
+ "accessibility": "The Wakasa terminal has a boarding bridge on some ships, a rain shelter and a two-storey building. The walk to Kokusai-dori is on city pavements; a taxi is the easier option. The Shinko berth has no terminal building and only temporary toilets, so check with the ship about accessible transfers. The monorail is the step-free way to Shuri, but the walk from Shuri station to the castle and the stone-paved Kinjo-cho lane are uphill and uneven.",
+ "rainyDay": "Spend the day under cover: the Makishi Public Market and the covered arcades off Kokusai-dori work well in rain. The Wakasa terminal has a rain shelter; at Shinko there is only a tent. Typhoons may close Naminoue Beach and change the ship's schedule.",
+ "crowdTips": "Naha is busiest in July and August, Golden Week, Obon (around 13–16 August) and the New Year holidays. The Naha Great Tug-of-War festival in October fills the centre on its weekend. If two ships are in, one at Wakasa and one at Shinko, taxis run short. Go to Shuri Castle early and leave Kokusai-dori for the afternoon.",
+ "faqs": [
+  {
+   "q": "Where do cruise ships dock in Naha?",
+   "a": "At the Naha Cruise Terminal in Wakasa, or, for very large ships up to the 230,000-ton class, at the second cruise berth on Shinko Wharf. Two ships can be in at once."
+  },
+  {
+   "q": "Is Naha walkable from the cruise port?",
+   "a": "From Wakasa, yes: the centre is about 1.5 km and a 15–20 minute walk. From Shinko, no: it is 5.6 km and you need a shuttle or taxi."
+  },
+  {
+   "q": "How do I get from Naha cruise port to Kokusai-dori?",
+   "a": "From Wakasa, walk about 20 minutes to the west end near Kencho-mae, or take a taxi of about 10 minutes. From Shinko, use the ship's shuttle or a taxi, 15–20 minutes."
+  },
+  {
+   "q": "Is there a shuttle bus from Naha cruise terminal?",
+   "a": "A ¥240 trial shuttle to Kokusai-dori ran on cruise days to at least March 2026, on request from cruise lines. At Shinko a shuttle is required. Check your ship's daily programme."
+  },
+  {
+   "q": "Is Naha a tender port?",
+   "a": "No. Ships berth alongside at Wakasa or Shinko Wharf."
+  },
+  {
+   "q": "Can I visit Shuri Castle on a cruise stop?",
+   "a": "Yes. Take the monorail to Shuri and walk about 15 minutes. The paid area costs ¥400 for adults in 2026. The rebuilt main hall is due to reopen on 23 November 2026."
+  },
+  {
+   "q": "Is there a beach near Naha cruise port?",
+   "a": "Naminoue Beach is beside the Wakasa terminal, free, with showers, open 09:00–18:00 in the swimming season."
+  },
+  {
+   "q": "Is Naha safe?",
+   "a": "Yes. Watch for heat, typhoon warnings in summer and early autumn, and bar overcharging at night."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Kokusai-dori"
+  },
+  {
+   "name": "Daiichi Makishi Public Market"
+  },
+  {
+   "name": "Naminoue Shrine"
+  },
+  {
+   "name": "Shuri Castle"
+  },
+  {
+   "name": "Shuri Kinjo-cho stone-paved street"
+  },
+  {
+   "name": "Tamaudun"
+  },
+  {
+   "name": "Naminoue Beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Okinawa Convention & Visitors Bureau – Cruise information (Naha Cruise Terminal)",
+   "url": "https://www.ocvb.or.jp/cruise/en"
+  },
+  {
+   "title": "Japan Tourism Agency (MLIT) – Naha port berth data: Tomari Wharf No. 8 and Shinko Wharf No. 12",
+   "url": "https://www.mlit.go.jp/kankocho/cruise/jp/pfs/pfs/area/area-pdf/10/10_77_01_naha.pdf"
+  },
+  {
+   "title": "Naha Port Management Association – Promoting Naha as a cruise destination",
+   "url": "https://nahaport.jp/english/introduction/cruise_promotion/"
+  },
+  {
+   "title": "Naha Port Management Association – Naha Port News No. 31 (second cruise berth)",
+   "url": "https://nahaport.jp/userfiles/files/autoupload/2025/06/1750813415.pdf"
+  },
+  {
+   "title": "Tokyo Bus Okinawa – New Naminoue Beach (Naha Cruise Terminal) stop, August 2026",
+   "url": "https://www.tokyobus.jp/okinawa/wp-content/uploads/2026/08/プレスリリース令和8年８月20日（波の上ビーチ前バス停追加）.pdf"
+  },
+  {
+   "title": "Yui Rail – History & Culture area (Shuri access)",
+   "url": "https://yui-rail.co.jp/navi/en/?p=1470"
+  },
+  {
+   "title": "LIVE JAPAN – Naha Cruise Terminal guide (January 2026)",
+   "url": "https://livejapan.com/en/in-tokyo/in-pref-other/in-pref-okinawa/article-a0005837/"
+  },
+  {
+   "title": "Ryukyu Shimpo – Shuttle buses for Genting Dream at Shinko Wharf (2017)",
+   "url": "https://ryukyushimpo.jp/news/entry-515089.html"
+  },
+  {
+   "title": "GoAsia – Shuri Castle main hall to reopen in November 2026",
+   "url": "https://goasia.cc/en/news/okinawa-shuri-castle-main-hall-reopens-november-2026"
+  },
+  {
+   "title": "japan-guide.com – Naha access and orientation",
+   "url": "https://www.japan-guide.com/e/e7118.html"
+  },
+  {
+   "title": "Good Luck Trip – Naminoue Umisora Park, Naminoue Beach",
+   "url": "https://www.gltjp.com/en/directory/item/13515/"
+  },
+  {
+   "title": "Japan Activity – Naminoue Shrine",
+   "url": "https://japanactivity.com/attractions/naha/naminoue-shrine"
+  },
+  {
+   "title": "Good Luck Trip – Makishi Public Market",
+   "url": "https://gltjp.com/en/directory/item/13361"
+  },
+  {
+   "title": "Okinawa Likes – Daiichi Makishi Public Market",
+   "url": "https://en.okinawatraveler.net/feature/0054_sp"
+  },
+  {
+   "title": "GOV.UK – Japan travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/japan/safety-and-security"
+  },
+  {
+   "title": "Japan Tourism Agency – Safety information for visitors",
+   "url": "https://www.mlit.go.jp/kankocho/en/shisaku/kokusai/content/001471575.pdf"
+  }
+ ],
+ "uncertain": [
+  "Whether the Wakasa–Kokusai-dori cruise shuttle trial continued after 31 March 2026",
+  "Who runs the Shinko Wharf shuttle in 2026 and whether it is free",
+  "Tokyo Bus fare from the Naminoue Beach (Naha Cruise Terminal) stop to Kokusai-dori",
+  "Taxi fares from either berth",
+  "Typical call length and all-aboard time at Naha",
+  "Admission prices for Tamaudun and Shikinaen",
+  "Whether facilities at the Shinko second cruise berth have been upgraded since the berth data was published (a terminal building was reported as being developed in late 2024)"
+ ]
+}

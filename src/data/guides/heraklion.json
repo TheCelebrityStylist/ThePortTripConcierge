@@ -1,0 +1,363 @@
+{
+ "slug": "heraklion",
+ "city": "Heraklion",
+ "portName": "Port of Heraklion",
+ "townName": "Heraklion Old Town",
+ "country": "Greece",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Greek",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Heraklion cruise port guide: Knossos, museum and old town",
+ "seoDescription": "Heraklion cruise ships dock 1.5 km from the centre, a 15–20 min walk. Knossos is 5 km out: bus line 2 about 20–25 min, €1.80 zone B (2026), entry €20.",
+ "quickAnswer": "Cruise ships dock in the main commercial port of Heraklion, next to the Venetian harbour; there is no tendering. The Venetian harbour is a 15–20 minute walk and the centre about 1.5 km. For Knossos, take city bus line 2 (about 20–25 minutes, €1.80 bought before boarding in 2026) and leave Knossos at least two hours before all-aboard.",
+ "intro": "Heraklion is Crete's main port and a working city rather than a resort. Ships tie up in the commercial harbour beside the Venetian harbour and Koules fortress, and the old town is a walk away along the waterfront. Most passengers come for Knossos, the great Minoan palace site 5 km south, and the Archaeological Museum that holds its finds. Knossos has almost no shade, so in summer the day works best if you go there first and spend the hot middle hours in the museum and the old town.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Port of Heraklion cruise berths",
+   "distanceToCentreKm": 1.5,
+   "notes": "Main commercial port next to the Venetian harbour and Koules fortress. A city bus stop is about 40 m from the port and taxis wait about 20 m away."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 20,
+  "km": 1.5,
+  "detail": "Walk along the waterfront to the Venetian harbour in 15–20 minutes, then up into the old town. The harbour walk is exposed to sun and wind. Knossos is not walkable; take the bus or a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "15–20 min to the Venetian harbour",
+   "detail": "Follow the waterfront west from the port. From the Venetian harbour, streets lead uphill to Lions Square (the Morosini Fountain) and the museum."
+  },
+  {
+   "mode": "City bus line 2 to Knossos (Astiko KTEL Irakleiou)",
+   "cost": "€1.80 zone B bought before boarding, €2.80 on board; €1.30 / €2.30 within zone A (2026)",
+   "time": "About 20–25 min",
+   "detail": "Board at the bus station by the port, the Limani (port) stop, or Eleftherias Square in the centre. Knossos is more than 5 km out, so zone B applies. Tickets are also sold through the official Astiko KTEL Irakleiou app. Buses fill fast when several ships are in."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "About €10–15 to Knossos (2026)",
+   "time": "10–15 min",
+   "detail": "Taxis wait outside the port gates. Agree the fare or check the meter is on before setting off."
+  },
+  {
+   "mode": "24-hour city bus ticket",
+   "cost": "€6 (2026)",
+   "time": "Valid 24 hours, zones A and B",
+   "detail": "Worth it only if you make several trips; a Knossos return is €3.60 on single tickets."
+  }
+ ],
+ "returnTiming": {
+  "rule": "From the old town, start back 80 minutes before all-aboard. From Knossos, leave at least two hours before all-aboard.",
+  "detail": "The bus from Knossos takes 20–25 minutes, then you still walk or ride from the centre to the berth. Buses run often but fill up on multi-ship days, so you may not get on the first one.",
+  "emergencyFallback": "If the bus is full, take a taxi from Knossos; the ride to the port is about 10–15 minutes. If you will miss all-aboard, call the port agent number on your ship's daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Knossos",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€20 entry plus €3.60 return bus (2026)",
+   "saving": "Depends on your line's price"
+  }
+ ],
+ "excursionAdvice": "Knossos is easy to do alone: a frequent city bus, a short ride and a timed-entry ticket you can book online. What the ship's tour adds is a guide, and Knossos is hard to read without one; an audio guide or a licensed guide at the gate is the middle option. A ship's tour makes more sense for anything further afield, such as southern Crete, where one road and long distances make an independent return risky.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 07:30 and all-aboard is 17:30, in summer.",
+  "steps": [
+   {
+    "time": "08:00",
+    "what": "Walk off the ship to the bus station by the port and take line 2 to Knossos."
+   },
+   {
+    "time": "08:30",
+    "what": "Enter Knossos on a timed ticket booked in advance. Carry at least a litre of water each; there is little shade."
+   },
+   {
+    "time": "10:30",
+    "what": "Bus back to Eleftherias Square."
+   },
+   {
+    "time": "11:00",
+    "what": "Heraklion Archaeological Museum, a short walk from the square (opens 13:00 on Wednesdays, so swap the order that day)."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch in the old town, for example Parasties near the Venetian Loggia."
+   },
+   {
+    "time": "14:15",
+    "what": "Lions Square and the Morosini Fountain, the Loggia, Agios Titos and 1866 Market Street."
+   },
+   {
+    "time": "15:30",
+    "what": "Walk down to the Venetian harbour and Koules fortress, then along the waterfront to the ship."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Knossos",
+   "why": "The largest Minoan palace site, about 5 km south of the city.",
+   "timeNeeded": "1.5–2.5 hours on site",
+   "cost": "€20 full, €10 reduced (2026)",
+   "tip": "Timed entry: book a slot online and arrive 30 minutes early. Open 08:00–20:00 April to August, closing earlier from September. Go at 08:00 in summer."
+  },
+  {
+   "name": "Heraklion Archaeological Museum",
+   "why": "The main collection of Minoan art, including the Phaistos Disc, the Snake Goddess figurines and the bull-leaping fresco.",
+   "timeNeeded": "1–3 hours",
+   "cost": "Check the current price on the official ticket site",
+   "tip": "Open 08:00–20:00 in summer except Wednesday, when it opens at 13:00. About 300 m from Eleftherias Square."
+  },
+  {
+   "name": "Lions Square and the Morosini Fountain",
+   "why": "The 1628 Venetian fountain at the heart of the old town.",
+   "timeNeeded": "15 minutes",
+   "cost": "Free",
+   "tip": "A good meeting point and coffee stop."
+  },
+  {
+   "name": "Koules fortress and the Venetian harbour",
+   "why": "The 16th-century Venetian sea fort at the end of the harbour mole, on your walk back to the ship.",
+   "timeNeeded": "45 minutes",
+   "cost": "Ticketed; pay at the entrance",
+   "tip": "Walk the mole beyond it for the view back to the city; it is windy and unshaded."
+  },
+  {
+   "name": "Venetian Loggia and Agios Titos",
+   "why": "The restored 17th-century Loggia, now the town hall, and the church holding the relics of St Titus.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Agios Titos closes in the early afternoon and reopens around 17:00."
+  },
+  {
+   "name": "1866 Market Street",
+   "why": "About 200 m of food stalls selling herbs, cheese, olive oil and raki.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Open from early morning to mid-afternoon."
+  },
+  {
+   "name": "Venetian walls and Kazantzakis' tomb",
+   "why": "A 3 km circuit of walls; the writer Nikos Kazantzakis is buried on the Martinengo Bastion.",
+   "timeNeeded": "Up to 2 hours for the full loop",
+   "cost": "Free",
+   "tip": "On a short call, walk only to the Martinengo Bastion."
+  },
+  {
+   "name": "Agios Minas Cathedral",
+   "why": "The large 19th-century cathedral with frescoes by Konstantinos Volanakis.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free",
+   "tip": "Dress modestly."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "City beaches east and west of Heraklion",
+   "howToGetThere": "City bus or taxi",
+   "time": "About 20–40 minutes",
+   "cost": "Bus fare or taxi",
+   "note": "There is no beach in walking distance of the port. On a Knossos day there is little time for one."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Grilled octopus, fresh fish, kakavia (fisherman's soup)",
+   "where": "Ippokambos, by the Venetian harbour",
+   "price": null
+  },
+  {
+   "dish": "Slow-cooked lamb, staka, snails with rosemary",
+   "where": "Peskesi, Kapetan Haralampi Street",
+   "price": null
+  },
+  {
+   "dish": "Meze: taramosalata, meatballs in tomato sauce, fried courgette",
+   "where": "Parasties, near the Venetian Loggia",
+   "price": null
+  },
+  {
+   "dish": "Modern Cretan dishes",
+   "where": "Brilliant Bistro, Nikos Plastiras Square, near the Morosini Fountain",
+   "price": null
+  },
+  {
+   "dish": "Cretan cheese, herbs and raki to take away",
+   "where": "1866 Market Street",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Going to Knossos at midday in summer.",
+   "fix": "Be there for 08:00 or soon after. The site has almost no shade and crowds build from mid-morning."
+  },
+  {
+   "mistake": "Turning up at Knossos without a timed ticket.",
+   "fix": "Book a slot online in advance; the ticket is valid from an hour before to an hour after your slot."
+  },
+  {
+   "mistake": "Buying the bus ticket on board.",
+   "fix": "It costs €1 more. Buy at the bus station kiosk or in the official app."
+  },
+  {
+   "mistake": "Planning the museum first thing on a Wednesday.",
+   "fix": "It opens at 13:00 on Wednesdays. Do Knossos in the morning instead."
+  },
+  {
+   "mistake": "Leaving Knossos with only an hour to spare.",
+   "fix": "Leave two hours before all-aboard; buses fill on busy days and you still have the walk to the berth."
+  }
+ ],
+ "safety": "Heraklion is generally safe. Watch your belongings in crowds in the old town and at bus stops. The real risk is heat: Knossos and the harbour walk are exposed, so carry water and sun protection and wear closed shoes with grip on the uneven stones at Knossos.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from the port to the Venetian harbour is level but long, about 1.5 km to the centre, and the old town climbs gently from the harbour. At Knossos, wheelchair access runs from the entrance to the Central Court; beyond that the ground is uneven. A taxi to Knossos avoids the bus steps. Ask your ship about accessible transport if you need it.",
+ "rainyDay": "Spend longer in the Archaeological Museum, then visit Agios Minas Cathedral and Agios Titos and eat in the old town. Knossos is open-air and slippery when wet, so make it short or skip it.",
+ "crowdTips": "Knossos is busiest from about 10:30, when coach tours arrive, and buses on line 2 fill when several ships are in. Go to Knossos first thing and leave the museum, which has more room, for the middle of the day. On Wednesdays the museum opens at 13:00, so expect a queue then.",
+ "faqs": [
+  {
+   "q": "Is Heraklion walkable from the cruise port?",
+   "a": "Yes. The Venetian harbour is a 15–20 minute walk along the waterfront and the centre is about 1.5 km away."
+  },
+  {
+   "q": "Is Heraklion a tender port?",
+   "a": "No. Ships dock in the main commercial port next to the Venetian harbour."
+  },
+  {
+   "q": "How do I get from Heraklion cruise port to Knossos?",
+   "a": "City bus line 2 from the bus station by the port or from Eleftherias Square, about 20–25 minutes. The zone B fare is €1.80 bought before boarding (2026). A taxi takes 10–15 minutes."
+  },
+  {
+   "q": "How much is Knossos?",
+   "a": "€20 full price and €10 reduced (2026), with timed entry. Book a slot online."
+  },
+  {
+   "q": "Can I do Knossos and the museum in one cruise day?",
+   "a": "Yes on a normal call. Knossos first at 08:00, then the museum from late morning, except on Wednesdays when it opens at 13:00."
+  },
+  {
+   "q": "What can I do in Heraklion in one day from a cruise ship?",
+   "a": "Knossos, the Archaeological Museum, Lions Square, 1866 Market Street and the Venetian harbour with Koules fortress."
+  },
+  {
+   "q": "Are there beaches near Heraklion cruise port?",
+   "a": "Not within walking distance. City beaches east and west of Heraklion are 20–40 minutes away by bus or taxi."
+  },
+  {
+   "q": "Is Heraklion safe?",
+   "a": "Yes. Watch for pickpockets in crowds and take the heat at Knossos seriously."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Knossos"
+  },
+  {
+   "name": "Heraklion Archaeological Museum"
+  },
+  {
+   "name": "Koules fortress"
+  },
+  {
+   "name": "Morosini Fountain"
+  },
+  {
+   "name": "1866 Market Street"
+  },
+  {
+   "name": "Venetian walls"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Astiko KTEL Irakleiou – Tickets",
+   "url": "https://astiko-irakleiou.gr/eisitiria/"
+  },
+  {
+   "title": "Astiko KTEL Irakleiou – Home",
+   "url": "https://www.astiko-irakleiou.gr/"
+  },
+  {
+   "title": "Visit Crete – Archaeological site of Knossos",
+   "url": "https://visitcrete.com/info/museums-sites-guide/category/archaeological-sites/archaeological-site-of-knossos-palace/"
+  },
+  {
+   "title": "MedCruise – Cruise to Heraklion",
+   "url": "https://www.medcruise.com/news/cruise-to-heraklion"
+  },
+  {
+   "title": "To Vima – Greece introduces cruise passenger levy",
+   "url": "https://www.tovima.com/tourism/greece-introduces-cruise-passenger-levy-tightens-rules-on-short-term-rentals/amp/"
+  },
+  {
+   "title": "iefimerida – Cruise passengers face increased levy (2024)",
+   "url": "https://www.iefimerida.gr/english/cruise-passengers-face-increased-levy-popular-greek-islands"
+  },
+  {
+   "title": "Adventour Begins – Heraklion cruise port guide (2026)",
+   "url": "https://www.adventourbegins.com/port-of-heraklion-cruise-guide/"
+  },
+  {
+   "title": "Crete Direct – Knossos Palace guide 2026",
+   "url": "https://crete.direct/articles/knossos-palace-guide"
+  },
+  {
+   "title": "Crete Direct – Heraklion Archaeological Museum guide 2026",
+   "url": "https://crete.direct/articles/heraklion-archaeological-museum-guide"
+  },
+  {
+   "title": "Crete Direct – Best restaurants in Heraklion 2026",
+   "url": "https://crete.direct/articles/best-restaurants-heraklion"
+  },
+  {
+   "title": "Dave's Travel Pages – Heraklion Archaeological Museum guide 2026",
+   "url": "https://www.davestravelpages.com/heraklion-archaeological-museum/"
+  },
+  {
+   "title": "Tiqets – Heraklion Archaeological Museum entry",
+   "url": "https://www.tiqets.com/en/heraklion-attractions-c38/tickets-for-heraklion-archaeological-museum-entry-ticket-digital-hellenic-heritage-guide-p990678/"
+  },
+  {
+   "title": "Euro City Guide – Heraklion Old Town guide",
+   "url": "https://eurocityguide.com/greece/heraklion-old-town-guide"
+  },
+  {
+   "title": "Destination Crete – Koules fortress",
+   "url": "https://www.destinationcrete.gr/monuments/koules-fortress/"
+  },
+  {
+   "title": "Greeka – KTEL buses in Heraklion",
+   "url": "https://www.greeka.com/crete/heraklion/car-bus/"
+  },
+  {
+   "title": "Meet Crete – Entrance fees to sites and museums in Crete (April 2025)",
+   "url": "https://www.meetcrete.com/entrance-fees-to-archaeological-sites-museums-in-crete"
+  }
+ ],
+ "uncertain": [
+  "Heraklion Archaeological Museum adult price: sources give €12 (2025) and €20 (August 2026); not confirmed on the official ticket site.",
+  "Combined Knossos and museum ticket: sources give €20 (48 hours) and €30 (three days); not confirmed.",
+  "Koules fortress price and closing day: one source gives €2 and closed Tuesdays (2021), another €6 and closed Mondays (2026).",
+  "Greek cruise passenger levy: introduced for 2025 at €5 per passenger from June to September at ports other than Santorini and Mykonos, with lower shoulder and winter rates (sources disagree: €3 or €4 in April, May and October); 2026 rates and how it is charged not confirmed.",
+  "Any 2025–26 changes to the Heraklion cruise terminal; the port authority's own cruise page was not reached.",
+  "No documented cruise-specific scams found for Heraklion."
+ ]
+}

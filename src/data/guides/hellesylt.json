@@ -1,0 +1,332 @@
+{
+ "slug": "hellesylt",
+ "city": "Hellesylt",
+ "portName": "Hellesylt Cruise Pier (Stranda Hamnevesen)",
+ "townName": "Hellesylt village",
+ "country": "Norway",
+ "currency": "NOK",
+ "currencySymbol": "kr",
+ "language": "Norwegian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Hellesylt cruise port guide: pier, tender and Geiranger",
+ "seoDescription": "Hellesylt: 143 m cruise pier 200 m from the village, tenders when busy. Waterfall 2 min walk. Ferry to Geiranger 65 min from NOK 390 (2026). Back 60 min early.",
+ "quickAnswer": "Hellesylt has a 143 m cruise pier about 200 m from the village; when more than one ship is in, or on short drop-off calls, ships anchor and tender. Many calls last only an hour or two and exist to land passengers for coach tours that rejoin the ship in Geiranger, so check whether you may go ashore at all. On a full call, walk everywhere and be back on board 60 minutes before all-aboard (90 if tendering).",
+ "intro": "Hellesylt is a village of about 240 people at the head of the Sunnylvsfjord, where a waterfall runs through the middle of the village under two old bridges. It sits at the other end of the Geirangerfjord from Geiranger, and many ships stop here only briefly to drop off passengers for overland tours to Geiranger, Dalsnibba or the Briksdal glacier, then sail on to pick them up there. On those calls the gangway or tender is often for tour passengers only. On a full-day call the village is quiet and easy to walk, and the ferry to Geiranger gives a one-way trip through the World Heritage fjord.",
+ "isTender": false,
+ "tenderNotes": "One cruise ship at a time can berth at the Hellesylt Cruise Pier (143 m, starboard side to). Other ships anchor and run tenders to an allocated tender landing, and some lines tender here even on short drop-off calls. If your ship tenders, add 30 minutes to every return time. On drop-off calls, independent passengers may not be allowed ashore; check your daily programme.",
+ "typicalHours": 8,
+ "terminals": [
+  {
+   "name": "Hellesylt Cruise Pier",
+   "distanceToCentreKm": 0.2,
+   "notes": "Concrete pier, 143 m. No passenger terminal building. About 200 m to the village centre; the waterfall is a couple of minutes' walk. The Geiranger ferry uses the separate ferry quay in the village."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 3,
+  "km": 0.2,
+  "detail": "The village is small and flat by the water. The footpath up the north side of the waterfall and the lanes to Sunnylven Church are short but steep."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "2–5 min to the waterfall and village centre",
+   "detail": "Walk from the pier or tender landing along the waterfront to the bridges over Hellesyltfossen."
+  },
+  {
+   "mode": "Ferry to Geiranger",
+   "cost": "From NOK 390 one way on foot (2026, Fjord Tours / The Fjords)",
+   "time": "About 65 minutes",
+   "detail": "Sightseeing car ferry the full length of the Geirangerfjord past the Seven Sisters and the Suitor. Fjord Tours sells it for 1 May to 31 October 2026. Fjord1's own route page now shows its Geiranger–Hellesylt sailing as suspended until further notice, so check which operator is running on your date. Book ahead from May to September. Only go one way if your ship is moving on to Geiranger and you are allowed to rejoin there; otherwise you need a return sailing that gets you back with time to spare."
+  },
+  {
+   "mode": "Regional bus",
+   "cost": "Paid by card on board or in the FRAM or Entur apps",
+   "time": "Varies",
+   "detail": "Buses 110 and 250 on the Ålesund–Stryn corridor stop at Hellesylt. Services are infrequent, so they are not a practical way to fit in a sight and return on a cruise day."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard if the ship is at the pier, or at the tender landing 90 minutes before if it is at anchor.",
+  "detail": "On a full call nothing in the village is more than about ten minutes' walk away, so the risk is low. The exception is a ferry round trip to Geiranger: take a return sailing that lands in Hellesylt at least 90 minutes before all-aboard, because ferries are not frequent.",
+  "emergencyFallback": "If a ferry is late or cancelled, contact the port agent number on your daily programme at once; the road to Geiranger is long and slow."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Geirangerfjord by boat",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Ferry from NOK 390 one way (2026)",
+   "saving": "Depends on line"
+  },
+  {
+   "item": "Dalsnibba, Trollstigen or Briksdal glacier",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Not practical independently on a cruise call",
+   "saving": "None; take the ship tour"
+  }
+ ],
+ "excursionAdvice": "On a short drop-off call the ship's tour is usually the only way off the ship, and it is the point of the stop: coach tours over the mountains to Geiranger, Dalsnibba or Trollstigen, or south to the Briksdal glacier, with the ship collecting you later. These are worth taking if you want those sights, because public transport is too sparse to do them yourself. On a full-day call, the village and waterfall need no tour, and the ferry to Geiranger is a cheaper way to see the fjord if the timings work.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship berths at the cruise pier at 09:00 and all-aboard is 17:30. If your call is a short drop-off, this plan does not apply.",
+  "steps": [
+   {
+    "time": "09:00",
+    "what": "Walk ashore and along the waterfront to Hellesyltfossen and the two bridges."
+   },
+   {
+    "time": "09:30",
+    "what": "Climb the footpath on the north side of the river to the stone bridge for the view down the falls."
+   },
+   {
+    "time": "10:15",
+    "what": "Walk up the lanes to Sunnylven Church, the white wooden church of 1859 above the village."
+   },
+   {
+    "time": "11:00",
+    "what": "Peer Gynt Galleriet: wood carvings of the Peer Gynt story and an English audiovisual show."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch or coffee, for example at the gallery cafeteria with fjord views."
+   },
+   {
+    "time": "13:30",
+    "what": "Optional: a short guided kayak trip on the Sunnylvsfjord if booked, or a walk along the shore."
+   },
+   {
+    "time": "16:00",
+    "what": "Last look at the waterfall and the shops near the pier."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard (16:00 at the tender landing if at anchor)."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Hellesyltfossen",
+   "why": "A waterfall about 20 m high that runs straight through the village, framed by the Hellesylt Bridge (1902) and the Høge Bridge (1907).",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free",
+   "tip": "Strongest in late spring and early summer. Paths get slippery; wear shoes with grip."
+  },
+  {
+   "name": "Peer Gynt Galleriet",
+   "why": "Bas-relief wood carvings by local carpenter Oddvin Parr telling the Peer Gynt story, with a 35-minute audiovisual show in English three times a day.",
+   "timeNeeded": "About 1 hour",
+   "cost": "Paid entry",
+   "tip": "The cafeteria has large windows over the fjord."
+  },
+  {
+   "name": "Sunnylven Church",
+   "why": "White wooden parish church consecrated in 1859, on a rise above the village.",
+   "timeNeeded": "45 minutes including the walk",
+   "cost": "Free",
+   "tip": "Steep lanes; usually open when a cruise ship is in."
+  },
+  {
+   "name": "Geirangerfjord by ferry",
+   "why": "The ferry runs the full length of the fjord past the Seven Sisters, the Suitor and Bridal Veil waterfalls.",
+   "timeNeeded": "About 65 minutes each way",
+   "cost": "From NOK 390 one way (2026)",
+   "tip": "A one-way trip only works if your ship meets you in Geiranger. Check your line allows it."
+  },
+  {
+   "name": "Kayaking on the Sunnylvsfjord",
+   "why": "Guided two-hour trips suited to beginners, with equipment and a safety briefing.",
+   "timeNeeded": "About 2 hours",
+   "cost": "Varies by operator",
+   "tip": "Book ahead; operators include Fjord Kayaking Hellesylt."
+  },
+  {
+   "name": "Hellesylt shore and beach",
+   "why": "A short shoreline walk with a diving tower, a few minutes from the pier.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "The water is cold all year."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Hellesylt beach",
+   "howToGetThere": "Walk from the pier",
+   "time": "About 5 min",
+   "cost": "Free",
+   "note": "Small shore with a diving tower; fjord water is cold even in summer."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Coffee, homemade cakes and ice cream",
+   "where": "Hellesylt Boutique & Bar, Gata 29 (listed opening is weekends only; check)",
+   "price": null
+  },
+  {
+   "dish": "Light meals with a fjord view",
+   "where": "Peer Gynt Galleriet cafeteria",
+   "price": null
+  },
+  {
+   "dish": "Svele (Norwegian pancakes) and hot drinks",
+   "where": "On board the Geiranger ferry",
+   "price": null
+  },
+  {
+   "dish": "Picnic supplies",
+   "where": "Coop supermarket in the village",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming you can go ashore on a short drop-off call.",
+   "fix": "Read your daily programme. On one- to two-hour calls the stop is often for tour passengers only."
+  },
+  {
+   "mistake": "Taking the ferry to Geiranger without checking how you get back.",
+   "fix": "Only ride one way if the ship confirms you can rejoin in Geiranger; otherwise book a return that lands 90 minutes before all-aboard."
+  },
+  {
+   "mistake": "Relying on regional buses for a side trip.",
+   "fix": "Services are infrequent. Stay in the village or take a ship tour for anything inland."
+  },
+  {
+   "mistake": "Expecting a choice of restaurants.",
+   "fix": "Hellesylt has very few places to eat and some keep short hours. Eat on board or bring a snack."
+  },
+  {
+   "mistake": "Wearing smooth-soled shoes on the waterfall paths.",
+   "fix": "The paths are wet with spray; wear shoes with grip."
+  }
+ ],
+ "safety": "Hellesylt is a quiet, safe village. The hazards are the wet, steep paths beside the waterfall and cold fjord water. Keep back from the river when it is in spate in early summer.",
+ "scams": [],
+ "emergencyNumber": "112 (police), 113 (medical), 110 (fire)",
+ "accessibility": "When the ship berths, the pier is concrete and the walk to the village is short and level; there is no terminal building. Tender transfers depend on the swell and on your ship's tenders. The lower waterfall viewpoints are close to the road, but the footpath to the stone bridge and the lanes to the church are steep.",
+ "rainyDay": "Rain makes the waterfall fuller and the paths slippery. Spend time at Peer Gynt Galleriet and its cafeteria, which has fjord views, and take the ferry, which has indoor seating, if the timings work.",
+ "crowdTips": "Hellesylt is far quieter than Geiranger, and most coach-tour passengers leave on buses straight away. On a full call the village is calm. The Geiranger ferry is the thing that fills up in summer, so book it in advance.",
+ "faqs": [
+  {
+   "q": "Is Hellesylt a tender port?",
+   "a": "Sometimes. One ship can berth at the 143 m cruise pier; other ships, and some short drop-off calls, anchor and tender."
+  },
+  {
+   "q": "Can I get off the ship in Hellesylt?",
+   "a": "On a full-day call, yes. On short drop-off calls of an hour or two the stop is often only for passengers on ship's tours."
+  },
+  {
+   "q": "Is Hellesylt walkable from the cruise port?",
+   "a": "Yes. The village is about 200 m from the pier and the waterfall a couple of minutes' walk."
+  },
+  {
+   "q": "How do I get from Hellesylt to Geiranger?",
+   "a": "By ferry along the Geirangerfjord, about 65 minutes, from NOK 390 one way (2026), or on a ship's coach tour over the mountains."
+  },
+  {
+   "q": "What can I do in Hellesylt in one day from a cruise ship?",
+   "a": "See the waterfall and bridges, walk up to Sunnylven Church, visit Peer Gynt Galleriet, and kayak or take the ferry on the fjord."
+  },
+  {
+   "q": "Do the zero-emission fjord rules apply at Hellesylt?",
+   "a": "Yes. The Sunnylvsfjord is one of the World Heritage fjords covered. Passenger ships under 10,000 gross tonnes are covered first; larger ships from 1 January 2032."
+  },
+  {
+   "q": "Is Hellesylt safe?",
+   "a": "Yes. Take care on the wet waterfall paths."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Hellesyltfossen"
+  },
+  {
+   "name": "Peer Gynt Galleriet"
+  },
+  {
+   "name": "Sunnylven Church"
+  },
+  {
+   "name": "Geirangerfjord"
+  },
+  {
+   "name": "Sunnylvsfjord"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cruise Norway / Stranda Hamnevesen – Hellesylt port facilities and services 2026 (PDF)",
+   "url": "https://cruise-norway.no/wp-content/uploads/2025/04/Hellesylt-Port-facilities-and-services-2026.pdf"
+  },
+  {
+   "title": "Regjeringen – Nullutslippskrav til passasjerskip i verdensarvfjordene (April 2025)",
+   "url": "https://www.regjeringen.no/no/aktuelt/nullutslippskrav-til-passasjerskip-i-verdensarvfjordene/id3097475/"
+  },
+  {
+   "title": "Fjord1 – Geiranger–Hellesylt route",
+   "url": "https://www.fjord1.no/eng/routes-and-timetables/moere-og-romsdal/geiranger-hellesylt"
+  },
+  {
+   "title": "Fjord Tours – Car ferry Geiranger–Hellesylt",
+   "url": "https://www.fjordtours.com/en/norway/transportation/car-ferry/geiranger-hellesylt"
+  },
+  {
+   "title": "Fjord Norway – Public bus from Ålesund with Geirangerfjord ferry",
+   "url": "https://www.fjordnorway.com/en/see-and-do/hellesylt--unesco-geirangerfjord-one-way"
+  },
+  {
+   "title": "Vincent Voyage – Geiranger–Hellesylt ferry (updated September 2026)",
+   "url": "https://souvenirs.vincent.voyage/geiranger-hellesylt-ferry/"
+  },
+  {
+   "title": "CruiseMapper – Hellesylt port",
+   "url": "https://www.cruisemapper.com/ports/hellesylt-port-165"
+  },
+  {
+   "title": "Bucket List Guides – Hellesylt cruise port guide (May 2026)",
+   "url": "https://bucketlistguides.com/hellesylt-cruise-port-guide/"
+  },
+  {
+   "title": "Cruise Critic forum – Hellesylt question",
+   "url": "https://boards.cruisecritic.com.au/topic/1853714-hellesylt-norway-question"
+  },
+  {
+   "title": "MSC Cruises – Hellesylt",
+   "url": "https://www.msccruisesusa.com/cruise/destinations/northern-europe/norway/hellesylt"
+  },
+  {
+   "title": "Lonely Planet – Peer Gynt Galleriet",
+   "url": "https://www.lonelyplanet.com/points-of-interest/peer-gynt-galleriet/1419824"
+  },
+  {
+   "title": "Life in Norway – Hellesylt",
+   "url": "https://www.lifeinnorway.net/hellesylt-norway"
+  },
+  {
+   "title": "Cruising Journal – Hellesylt",
+   "url": "https://www.cruisingjournal.com/en/cruise-guide/ports-of-call/hellesylt-a-peaceful-destination-with-a-majestic-waterfall"
+  },
+  {
+   "title": "Wanderlog – Hellesylt Boutique & Bar",
+   "url": "https://wanderlog.com/place/details/3401318/hellesylt-boutique--bar"
+  },
+  {
+   "title": "Jetsetter Guide – Hellesylt cruise port",
+   "url": "https://jetsetterguide.com/cruise-port/hellesylt"
+  }
+ ],
+ "uncertain": [
+  "Peer Gynt Galleriet entry price and opening hours (only an unverified third-party figure found).",
+  "Whether Fjord1 or The Fjords is operating the Geiranger–Hellesylt ferry on a given 2026 date, and the departure times.",
+  "Bus timetables for routes 110 and 250 at Hellesylt.",
+  "Typical all-aboard time for full-day Hellesylt calls.",
+  "Documented scams: none found."
+ ]
+}

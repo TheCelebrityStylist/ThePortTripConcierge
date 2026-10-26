@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import { CAT } from '../lib/ports.js';
+const total = Object.keys(CAT).length;
+---
+<Base title="About PortTrip | Cruise port days, timed to your ship" description="Who builds PortTrip, how we check every port, and why we only publish facts we can link to a source." path="/about">
+  <div class="mx-auto max-w-3xl px-5 pb-20 pt-10 sm:px-8">
+    <h1 class="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">About PortTrip</h1>
+    <p class="mt-8 text-xl leading-[1.55]">PortTrip is built by Elke, in Maastricht. I started it after watching cruise passengers pay for a coach tour to a city they could have reached on a €3 bus — and after seeing how stressful the return to the ship is when you're doing it alone. PortTrip plans the day around your all-aboard time so you can go on your own with a clear plan. If something in a guide is wrong, email hello@porttrip.com and I'll fix it.</p>
+    <div class="doc mt-12">
+      <h2>What PortTrip does</h2>
+      <p>For each of {total} cruise ports we publish a guide: where ships dock, how to get to town, what it costs, what to see, where people go wrong and, above all, the latest time to start back from each part of town. Those leave-by times allow for the things that catch people out: tender queues, cable-car lines, the walk through the terminal and how often the train runs.</p>
+      <p>The free planner re-times a port day to your own all-aboard time, in port time and ship time. The Cruise Pass does the same for every port of one sailing and, on the day, uses live Google Maps travel time from where you are, with alerts.</p>
+      <h2>How we check facts</h2>
+      <p>Every price, timetable and rule in a guide comes from a source we opened: port authorities, transport operators, official attraction sites and the cruise lines themselves. Each guide lists its sources and the month we checked them. Where we could not confirm something, the guide says so. We do not publish estimates dressed up as facts. <a href="/methodology">Read the method</a> and our <a href="/editorial-policy">editorial policy</a>.</p>
+      <h2>What we don't do</h2>
+      <p>We don't promise you'll make it back. Ships keep their own schedules and the day can change. Always follow your ship's instructions. We also don't take money from tour companies to rank them.</p>
+      <h2>Contact</h2>
+      <p>hello@porttrip.com. Corrections are logged on our <a href="/corrections">corrections page</a>.</p>
+    </div>
+  </div>
+</Base>

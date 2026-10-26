@@ -1,0 +1,387 @@
+{
+ "slug": "busan",
+ "city": "Busan",
+ "portName": "Port of Busan (Yeongdo International Cruise Terminal and North Port International Passenger Terminal)",
+ "townName": "Nampo-dong and Jagalchi",
+ "country": "South Korea",
+ "currency": "KRW",
+ "currencySymbol": "₩",
+ "language": "Korean",
+ "timezone": "KST (UTC+9), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Busan cruise port guide: Yeongdo vs North Port terminals",
+ "seoDescription": "Busan has two cruise berths: Yeongdo (taxi or shuttle, 15–25 min to Nampo) and North Port (10–15 min walk to Busan Station). Subway ₩1,300 by card (2026).",
+ "quickAnswer": "Busan is a docking port with two cruise berths. Large ships use the Busan Port International Cruise Terminal on Yeongdo (Dongsam-dong), which is not walkable: take the ship's shuttle if offered or a taxi, 15–25 minutes to Nampo-dong. Ships up to about 100,000 tons can berth at the North Port International Passenger Terminal, a 10–15 minute walk from Busan Station and the subway. Leave Nampo-dong 90 minutes before all-aboard.",
+ "intro": "Busan is Korea's second city and its biggest port, and the cruise day depends on which berth you get. The Yeongdo terminal sits on an industrial stretch of Yeongdo island across the harbour from the old centre, so you start every trip with a road transfer. North Port is right in the city next to Busan Station, with a walkway to the station and Subway Line 1. Most first-time visitors spend the day in the Nampo-dong area: Jagalchi fish market, Gukje Market, BIFF Square and Yongdusan Park with Busan Tower. Gamcheon Culture Village, Taejongdae and the beaches at Haeundae and Gwangalli are all possible, but each adds real road time, and traffic over the bridges is the main return risk.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Busan Port International Cruise Terminal, Yeongdo (Dongsam-dong) — 301 Haeyang-ro, Yeongdo-gu (부산 영도구 해양로 301)",
+   "distanceToCentreKm": null,
+   "notes": "Converted from a former container terminal on the ocean side of Yeongdo. It can take two ships of up to about 200,000 GT at once and has space for tour buses. There is nothing to walk to: use the cruise line's shuttle, if provided, or a taxi. Allow 15–25 minutes to Nampo-dong and Jagalchi, depending on traffic. Show drivers the Korean address."
+  },
+  {
+   "name": "Busan Port International Passenger Terminal, North Port — 206 Chungjang-daero, Dong-gu (부산 동구 충장대로 206)",
+   "distanceToCentreKm": null,
+   "notes": "Cruise berth in the redeveloped North Port, in use since December 2014 and built for ships up to about 100,000 tons; the neighbouring terminal handles ferries to Japan. About 500 m and 10–15 minutes' walk to Busan Station via an elevated walkway, or about 5 minutes by taxi. From Busan Station, Subway Line 1 runs to Nampo and Jagalchi."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 15,
+  "km": 0.5,
+  "detail": "From North Port you can walk to Busan Station in 10–15 minutes and continue by subway; the Nampo-dong sights are too far to make the whole trip on foot comfortably. From the Yeongdo terminal walking is not practical at all. Once in Nampo-dong, Jagalchi, Gukje Market, BIFF Square and Yongdusan Park are close together on foot."
+ },
+ "transportSections": [
+  {
+   "mode": "Cruise line shuttle (Yeongdo terminal)",
+   "cost": "Varies by line; free on some calls, paid on others",
+   "time": "15–25 min to central Busan",
+   "detail": "Shuttles run to fixed drop-off points downtown, typically in the Nampo-dong area. Whether one is offered, and what it costs, depends on the cruise line and the call. Check your daily programme and note the last return time."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; base fare ₩4,800 for the first 2 km, 20% surcharge midnight–04:00 (2026)",
+   "time": "15–25 min Yeongdo terminal to Nampo-dong; about 5 min North Port to Busan Station",
+   "detail": "Taxis are metered. Drivers rarely speak English, so show the destination in Korean on your phone or on paper, and carry the terminal's Korean address for the return. Kakao T is the main taxi app but needs setting up in advance. In 2026 Busan began bringing in English-language receipts to cut fare disputes."
+  },
+  {
+   "mode": "Walk and Subway Line 1 (North Port)",
+   "cost": "₩1,300 per ride with a T-money or Cashbee card (2026); single tickets cost more",
+   "time": "10–15 min walk to Busan Station, then a short ride",
+   "detail": "Walk from the terminal to Busan Station on the elevated walkway, then take Line 1 to Nampo or Jagalchi. A rechargeable transport card costs ₩2,500–4,500 and also works on city buses. Station signs include English."
+  },
+  {
+   "mode": "City bus",
+   "cost": "Lower with a transport card than in cash",
+   "time": "Varies",
+   "detail": "Useful for Gamcheon Culture Village (bus Saha 2-2 from Busan Station, or Line 1 to Toseong-dong exit 6 then a short bus) and Taejongdae (bus 30 from Nampo-dong, about 30–40 min). Use Naver Map or KakaoMap for live times; they are more accurate in Korea than Google Maps."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave Nampo-dong or Jagalchi 90 minutes before all-aboard, and Haeundae or Haedong Yonggungsa 150 minutes before. Aim to be at the ship 60 minutes before all-aboard.",
+  "detail": "Every return to the Yeongdo terminal goes by road over the bridges to the island, and afternoon traffic can slow it sharply. If you rely on the ship's shuttle, check the last departure from the drop-off point; it may be well before all-aboard. From North Port the walk from Busan Station is short, but Haeundae and the east coast are still 45–75 minutes away by road.",
+  "emergencyFallback": "Take a taxi straight to the terminal and show the driver the Korean address (Yeongdo: 부산 영도구 해양로 301; North Port: 부산 동구 충장대로 206). If you will miss all-aboard, call the port agent number in your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Nampo-dong, Jagalchi and Busan Tower",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi or shuttle to Nampo-dong, then on foot; Busan Tower ₩12,000 (2026)",
+   "saving": "Easy to do alone"
+  },
+  {
+   "item": "Haedong Yonggungsa Temple",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Taxi, or subway to Haeundae then bus 181; temple entry free",
+   "saving": "Possible alone, but 45–75 min each way by road"
+  }
+ ],
+ "excursionAdvice": "Nampo-dong, Jagalchi, Gukje Market and Yongdusan Park are close together and simple to do on your own, especially from North Port. Gamcheon Culture Village is a short taxi ride and also fine alone. The ship's tour is worth considering for Haedong Yonggungsa and Haeundae when your ship is at Yeongdo, because the round trip by road can take two to three hours in traffic, and for Gyeongju, which is too far for a safe independent return on a normal call.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at the Yeongdo terminal at 08:00 and all-aboard is 17:30. From North Port, walk to Busan Station and take Line 1 instead of the taxi.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Ashore. Take the ship's shuttle if offered, or a taxi to Jagalchi Station, with the destination written in Korean."
+   },
+   {
+    "time": "09:00",
+    "what": "Jagalchi fish market. The second-floor restaurants open at 09:00; buy seafood downstairs and have it prepared upstairs, or order from a menu."
+   },
+   {
+    "time": "10:15",
+    "what": "Taxi to Gamcheon Culture Village. Buy the stamp map at the information centre and walk the hillside lanes."
+   },
+   {
+    "time": "12:15",
+    "what": "Taxi back to Nampo-dong. Lunch at the Gukje Market food alley: bibim dangmyeon or chungmu gimbap."
+   },
+   {
+    "time": "13:30",
+    "what": "BIFF Square for ssiat hotteok, then walk up to Yongdusan Park and Busan Tower."
+   },
+   {
+    "time": "15:00",
+    "what": "Last browse around Gwangbok-ro, close to the taxi rank or shuttle stop."
+   },
+   {
+    "time": "16:00",
+    "what": "Leave Nampo-dong by taxi or shuttle, 90 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Jagalchi Fish Market",
+   "why": "Korea's best-known fish market, on the harbour front in Nampo-dong.",
+   "timeNeeded": "1 hour, more with a meal",
+   "cost": "Free entry; food priced per stall",
+   "tip": "Open 05:00–22:00; upstairs restaurants from 09:00. Closed on the 1st and 3rd Tuesday of the month. Jagalchi Station (Line 1) exit 10 is about 5 minutes' walk."
+  },
+  {
+   "name": "Gamcheon Culture Village",
+   "why": "Hillside neighbourhood of painted houses, murals and small galleries above the port.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Free; small charge for the stamp map",
+   "tip": "The village is steep. Shops mostly open 09:00–18:00. People live here, so keep your voice down and do not photograph into homes."
+  },
+  {
+   "name": "Yongdusan Park and Busan Tower",
+   "why": "City park on a hill in Nampo-dong with a tower overlooking the harbour.",
+   "timeNeeded": "1 hour",
+   "cost": "Park free; Busan Tower ₩12,000 adult (2026)",
+   "tip": "Tower open 10:00–22:00, last entry 21:30, every day. The park is open 24 hours."
+  },
+  {
+   "name": "Gukje Market and BIFF Square",
+   "why": "Large traditional market and the street-food square beside it.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "Market hours are roughly 09:00–20:00, but many stalls close on Sundays."
+  },
+  {
+   "name": "Taejongdae",
+   "why": "Clifftop park at the southern tip of Yeongdo with sea views and a road train round the headland.",
+   "timeNeeded": "2–2.5 hours including travel from Nampo-dong",
+   "cost": "Park free; the Danubi road train is paid",
+   "tip": "Bus 30 from Nampo-dong takes about 30–40 minutes. It is on the same island as the Yeongdo cruise terminal, but plan the return by taxi."
+  },
+  {
+   "name": "Haedong Yonggungsa Temple",
+   "why": "Buddhist temple built on rocks at the sea's edge on the east coast.",
+   "timeNeeded": "4 hours including travel",
+   "cost": "Free",
+   "tip": "Open daily 05:00–21:00. Busiest 10:00–14:00 at weekends. Many stone steps; not wheelchair accessible."
+  },
+  {
+   "name": "Huinnyeoul Culture Village",
+   "why": "Lanes of small houses on the Yeongdo cliffs with sea views; quieter than Gamcheon.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "On Yeongdo, so it pairs with Taejongdae on a day when the ship is at the Yeongdo terminal."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Haeundae Beach",
+   "howToGetThere": "Taxi, or the subway to Haeundae Station (Line 2)",
+   "time": "45–75 min each way by road from the port area",
+   "cost": "Free; subway ₩1,300 per ride by card (2026)",
+   "note": "Busan's best-known city beach. Combine with Haedong Yonggungsa only on a long call."
+  },
+  {
+   "name": "Gwangalli Beach",
+   "howToGetThere": "Taxi, or Busan Subway Line 2",
+   "time": "Check KakaoMap or Naver Map on the day; it is a cross-city road trip from either terminal",
+   "cost": "Free",
+   "note": "City beach facing the Gwangan Bridge. Busan has run evening visits here for overnight cruise calls."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Hoe (raw fish) and grilled seafood",
+   "where": "Second-floor restaurants, Jagalchi Fish Market",
+   "price": null
+  },
+  {
+   "dish": "Ssiat hotteok (seed-filled sweet pancake)",
+   "where": "Street stalls, BIFF Square, Nampo-dong",
+   "price": null
+  },
+  {
+   "dish": "Bibim dangmyeon (spicy glass noodles)",
+   "where": "Food alley, Gukje Market",
+   "price": null
+  },
+  {
+   "dish": "Chungmu gimbap",
+   "where": "Food alley, Gukje Market",
+   "price": null
+  },
+  {
+   "dish": "Seafood buffet",
+   "where": "Oase, 5th floor of the Jagalchi Market building",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming you can walk into town from the cruise terminal.",
+   "fix": "Check which berth you have. From Yeongdo you need the shuttle or a taxi; only North Port is walkable to Busan Station."
+  },
+  {
+   "mistake": "Showing a taxi driver an English place name.",
+   "fix": "Carry destinations and the terminal address in Korean, or a pin in KakaoMap or Naver Map."
+  },
+  {
+   "mistake": "Relying on Google Maps for routes and times.",
+   "fix": "Use Naver Map or KakaoMap, which have fuller transit and walking data in Korea."
+  },
+  {
+   "mistake": "Trying to fit Haeundae, Haedong Yonggungsa and Gamcheon into one day.",
+   "fix": "They are on opposite sides of the city. Pick the east coast or the Nampo and Gamcheon side, not both."
+  },
+  {
+   "mistake": "Planning Jagalchi on the wrong Tuesday.",
+   "fix": "The market closes on the 1st and 3rd Tuesday of the month; check your date."
+  }
+ ],
+ "safety": "Busan is a safe city for visitors and street crime is low. The practical risks are traffic and getting lost: crossings are busy, and many routes need a Korean-language destination. Gamcheon and Haedong Yonggungsa involve steep slopes and stone steps, so wear good shoes. Carry your cruise card and photo ID ashore. Emergency numbers are 112 for police and 119 for fire and ambulance.",
+ "scams": [
+  "Taxi fare disputes: use metered taxis and keep the receipt; Busan introduced English-language receipts in 2026 specifically to reduce fare disputes.",
+  "Unagreed fixed-price taxi or tour offers at the terminal: agree the price, the route and the return time before you set off."
+ ],
+ "emergencyNumber": "112 (police), 119 (fire and ambulance)",
+ "accessibility": "North Port links to Busan Station by an elevated walkway, and the subway is the easiest step-free way into Nampo-dong. From Yeongdo, ask whether the ship's shuttle has a lift or ramp, or book a larger taxi through the ship. Jagalchi's indoor market and Gukje Market are on the flat but crowded. Gamcheon Culture Village is steep with stairs, and Haedong Yonggungsa has many stone staircases and is not wheelchair accessible.",
+ "rainyDay": "Stay under cover in Nampo-dong: the indoor Jagalchi Market building with its upstairs restaurants, the covered parts of Gukje Market, and Busan Tower if the cloud is high enough to see. Skip Gamcheon and Taejongdae, where slopes and steps get slippery and the views disappear.",
+ "crowdTips": "Busan expects more than 400 cruise calls in 2026, and the Nampo-dong markets also draw large local and domestic crowds. Start at Jagalchi early, before the lunchtime rush. Haedong Yonggungsa is calmest before 09:00 and busiest at weekends from 10:00 to 14:00. Gukje Market is quieter on Sundays because many stalls close.",
+ "faqs": [
+  {
+   "q": "Which terminal does my cruise ship use in Busan?",
+   "a": "Large ships berth at the Busan Port International Cruise Terminal on Yeongdo; ships up to about 100,000 tons may use the North Port International Passenger Terminal near Busan Station. Check your daily programme."
+  },
+  {
+   "q": "Is Busan walkable from the cruise port?",
+   "a": "Only from North Port, where Busan Station is a 10–15 minute walk. From Yeongdo you need a shuttle or taxi."
+  },
+  {
+   "q": "How do I get from Busan cruise port to Nampo-dong?",
+   "a": "From Yeongdo, a taxi or the ship's shuttle, 15–25 minutes. From North Port, walk to Busan Station and take Subway Line 1 to Nampo or Jagalchi, ₩1,300 by card (2026)."
+  },
+  {
+   "q": "Is Busan a tender port?",
+   "a": "No. Cruise ships dock at one of the two terminals."
+  },
+  {
+   "q": "What can I do in Busan in one day from a cruise ship?",
+   "a": "Jagalchi fish market, Gamcheon Culture Village, Gukje Market and Busan Tower fit easily into one day. Haedong Yonggungsa and Haeundae are a separate half-day on the east coast."
+  },
+  {
+   "q": "Beaches near Busan cruise port?",
+   "a": "Haeundae and Gwangalli are the main city beaches, both on the east side and 45 minutes or more by road from the port area."
+  },
+  {
+   "q": "How much is a taxi in Busan?",
+   "a": "Taxis are metered: ₩4,800 for the first 2 km (2026), with a 20% surcharge from midnight to 04:00. Have your destination in Korean."
+  },
+  {
+   "q": "Is Busan safe?",
+   "a": "Yes. Take normal care with traffic, and allow generous time for the road back to the ship."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Jagalchi Fish Market"
+  },
+  {
+   "name": "Gamcheon Culture Village"
+  },
+  {
+   "name": "Busan Tower"
+  },
+  {
+   "name": "Gukje Market"
+  },
+  {
+   "name": "Taejongdae"
+  },
+  {
+   "name": "Haedong Yonggungsa Temple"
+  },
+  {
+   "name": "Haeundae Beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Busan Metropolitan City – 24-hour cruise terminal operation for overnight calls (February 2026)",
+   "url": "https://www.busan.go.kr/eng/ai-translated-press-releases/1719832"
+  },
+  {
+   "title": "Busan Metropolitan City – North Port international cruise and ferry terminals groundbreaking",
+   "url": "https://www.busan.go.kr/eng/bsnews01/798717"
+  },
+  {
+   "title": "Busan Metropolitan City – Dongsam-dong International Cruise Terminal",
+   "url": "https://www.busan.go.kr/eng/bsnews01/798426"
+  },
+  {
+   "title": "The Korea Herald – Busan Port Authority 2030 cruise industry plan (June 2026)",
+   "url": "https://biz.heraldcorp.com/article/10793265"
+  },
+  {
+   "title": "The Korea Times – Busan port extends operations for cruise passengers (September 2026)",
+   "url": "https://www.koreatimes.co.kr/lifestyle/travel-food/20260918/busan-port-extends-operations-to-encourage-longer-stays-by-cruise-passengers"
+  },
+  {
+   "title": "Stars and Stripes Korea – Busan taxis to issue English receipts (February 2026)",
+   "url": "https://korea.stripes.com/travel/busan-taxis-english-receipts.html"
+  },
+  {
+   "title": "CruiseMapper – Busan cruise port",
+   "url": "https://www.cruisemapper.com/ports/busan-port-225"
+  },
+  {
+   "title": "GoWithGuide – Busan cruise terminals guide",
+   "url": "https://gowithguide.com/blog/busan-cruise-excursions-which-terminal-are-you-docking-at-essential-port-guide-6221"
+  },
+  {
+   "title": "Cities Insider – Transport in Busan 2026",
+   "url": "https://citiesinsider.com/country/south-korea/busan/guides/busan-transport/en"
+  },
+  {
+   "title": "KoreaCharts (KTO data) – Yongdusan Park",
+   "url": "https://info.koreacharts.com/tour/en/264539/contents.html"
+  },
+  {
+   "title": "K-Trip Tips – Busan Tower",
+   "url": "https://www.ktriptips.com/ger/tourspot/3115454"
+  },
+  {
+   "title": "Trvlogue – Gamcheon Culture Village guide (2026)",
+   "url": "https://www.trvlogue.com/en/busan-gamcheon-village-guide"
+  },
+  {
+   "title": "KoreaToDo – Jagalchi Fish Market",
+   "url": "https://www.koreatodo.com/jagalchi-market"
+  },
+  {
+   "title": "Table Journey – Gukje Market",
+   "url": "https://tablejourney.com/south-korea/busan/markets/gukje-market/"
+  },
+  {
+   "title": "MileAsia – Haedong Yonggungsa visitor guide (2026)",
+   "url": "https://mileasia.com/korea/haedong-yonggungsa/"
+  },
+  {
+   "title": "Busan Navi – Taejongdae Park",
+   "url": "https://en.busannavi.net/area/yeongdo/17"
+  },
+  {
+   "title": "Voyage Blogger – One day in Yeongdo (2026)",
+   "url": "https://voyageblogger.com/2026/03/29/one-day-exploring-yeongdo-busan-2026-koreas-most-colorful-island/"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Busan port notes",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/busan-south-korea/"
+  }
+ ],
+ "uncertain": [
+  "Danubi road train fare and hours at Taejongdae: sources conflict (₩3,000 vs ₩4,000 adult) and the published hours were garbled.",
+  "Which cruise lines are assigned to which terminal: assignments vary by ship size and call; check the daily programme.",
+  "Shuttle drop-off point, frequency and price: set by each cruise line.",
+  "Taxi fare from the Yeongdo terminal to Nampo-dong: not found in a current source.",
+  "Typical all-aboard time for Busan calls: not found; the day plan uses 17:30."
+ ]
+}

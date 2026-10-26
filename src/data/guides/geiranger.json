@@ -1,0 +1,376 @@
+{
+ "slug": "geiranger",
+ "city": "Geiranger",
+ "portName": "Port of Geiranger (Stranda Hamnevesen)",
+ "townName": "Geiranger village",
+ "country": "Norway",
+ "currency": "NOK",
+ "currencySymbol": "kr",
+ "language": "Norwegian",
+ "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Geiranger cruise port guide: tender, Seawalk and Dalsnibba",
+ "seoDescription": "Geiranger: tender or Seawalk, pier 100 m from the village. Hop-on bus NOK 495, fjord boat from NOK 610 (2026). Be at the tender pier 90 min before all-aboard.",
+ "quickAnswer": "Most ships anchor and tender to the cruise terminal in Geiranger village; one ship a day can tie up to the Seawalk floating pier and walk ashore. The village centre is about 100 m from the landing, so you walk everywhere; viewpoints above the village need the hourly hop-on bus (NOK 495, 2026) or a tour. Be back at the tender pier 90 minutes before all-aboard.",
+ "intro": "Geiranger is a village of a few hundred people at the head of the Geirangerfjord, a UNESCO World Heritage Site since 2005. Everything in the village is within a short walk of the landing, but the views that make the place famous are high above it: Flydalsjuvet, Westerås and, at about 1,500 m, Dalsnibba. The day is shaped by the tender queue, the hourly bus up the hill and the weather, which can be much colder and cloudier at the viewpoints than at the quay. From 20 June to 10 August the port limits cruise arrivals to about 6,000 passengers a day.",
+ "isTender": true,
+ "tenderNotes": "Ships anchor 400–1,000 m from the tender pier at the Geiranger cruise terminal, or one ship uses the Seawalk floating pier. When only one ship is in port it is allocated to Seawalk if it is at least 180 m long; with more than one ship, one of them gets Seawalk and the rest tender. Cruise lines must book Seawalk, so some ships tender even on quiet days. The tender landing has a fixed height above the water, at most two steps, and is wheelchair accessible. Tenders are limited to 5 knots in the inner fjord, and queues are longest just after arrival and in the last hour before all-aboard.",
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Geiranger cruise terminal (tender pier and Seawalk)",
+   "distanceToCentreKm": 0.1,
+   "notes": "Tender boats and the Seawalk floating pier both lead to the cruise terminal area. The village centre is about 100 m and five minutes' walk away. The hop-on bus (stop 1) and the fjord sightseeing boats leave from here."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 5,
+  "km": 0.1,
+  "detail": "The village, shops, cafés and the Norwegian Fjord Centre area are walkable from the landing. The road climbs steeply out of the village: Flydalsjuvet is about 4 km uphill, roughly an hour's walk each way, and Dalsnibba is not a walk for a cruise day."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 5 min to the village centre",
+   "detail": "Walk off the tender pier or Seawalk into the village. A riverside path follows the Geiranger river and the Storfossen waterfall uphill from the village towards the Norwegian Fjord Centre."
+  },
+  {
+   "mode": "Hop-on hop-off bus (City Sightseeing)",
+   "cost": "NOK 495, one-day ticket (2026)",
+   "time": "About 50 min for the full loop",
+   "detail": "Stops: cruise terminal (stop 1), Norwegian Fjord Centre, Westerås farm and Flydalsjuvet viewpoint. Buses leave stop 1 every 60 minutes from 10:00 to 16:00 on main cruise days, 17 April to 31 October. Hourly buses mean a missed bus costs you an hour."
+  },
+  {
+   "mode": "Fjord sightseeing boat (Geiranger Fjordservice)",
+   "cost": "From NOK 610 adult, child half price (2026 booking page)",
+   "time": "75 min or 2 hours",
+   "detail": "Leaves from behind the tourist information building, about 20 m from the cruise pier. Passes the Seven Sisters, the Suitor and Bridal Veil waterfalls and the Skageflå and Knivsflå farms. The 2-hour trip uses an electric-hybrid catamaran and is the only one with wheelchair access. Arrive 15 minutes early."
+  },
+  {
+   "mode": "Car ferry to Hellesylt",
+   "cost": "From NOK 390 (2026 booking page)",
+   "time": "About 1 hour 5 minutes one way",
+   "detail": "Runs 1 May to 31 October 2026. A one-way scenic ride along the whole Geirangerfjord. Only practical on a cruise day if your ship also calls at Hellesylt or you have a confirmed way back."
+  },
+  {
+   "mode": "Dalsnibba electric-car tour",
+   "cost": "From NOK 2,600 per car, maximum two people; Nibbevegen toll not included (2026 booking page)",
+   "time": "About 3 hours",
+   "detail": "Self-drive electric car via Flydalsjuvet to the Geiranger Skywalk on Dalsnibba. Meet 30 minutes before departure for key handover. The toll on the Dalsnibba road (NOK 330 per car) is paid at the toll station."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be at the tender pier 90 minutes before all-aboard (16:00 for a 17:30 all-aboard). If you use the hop-on bus, board a bus back down no later than three hours before all-aboard.",
+  "detail": "The village is small, so the risk here is the tender queue and the hourly bus, not distance. The last hop-on departure from the terminal is at 16:00, and buses run only once an hour, so missing one at Flydalsjuvet or Westerås leaves you an hour short. On Seawalk days you walk straight on board, but use the same margin unless the ship confirms you are on Seawalk.",
+  "emergencyFallback": "From Flydalsjuvet or Westerås, walking down to the village takes about an hour on the road. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Fjord sightseeing boat (75 min)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "From NOK 610 adult (2026)",
+   "saving": "Depends on line"
+  },
+  {
+   "item": "Flydalsjuvet and Westerås viewpoints",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Hop-on bus NOK 495 (2026)",
+   "saving": "Depends on line"
+  },
+  {
+   "item": "Storseterfossen waterfall hike with Westerås farm",
+   "ship": "Holland America lists a 4-hour guided version at US$134.95 (seen October 2026)",
+   "diy": "Hop-on bus NOK 495 to Westerås, then the trail (free)",
+   "saving": "Depends on line and exchange rate"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for the village, the Fjord Centre and the fjord boat: all start within a few minutes' walk of the landing and are easy to book on the spot or online. A ship tour earns its price for Dalsnibba and the Eagle Road (Ørnesvingen), where the mountain roads are slow, the bus does not go, and the ship will wait for its own coaches. The guided Storseterfossen hike is worth it if you are unsure of the path or the timing; fit, confident walkers can do it with the hop-on bus on a long call.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship anchors at 08:00, first tenders ashore by 08:30, a 17:30 all-aboard and a summer day.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Tender ashore. Book a fjord boat at the tourist information building beside the pier if you have not booked online."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk up the riverside path beside the Storfossen waterfall to the Norwegian Fjord Centre."
+   },
+   {
+    "time": "09:30",
+    "what": "Norwegian Fjord Centre: exhibitions on how the fjord formed and on the fjord farms. Allow an hour."
+   },
+   {
+    "time": "10:45",
+    "what": "Catch the next hourly hop-on bus at the Fjord Centre stop up to Flydalsjuvet for the classic view down the fjord. Note the times of buses back down."
+   },
+   {
+    "time": "12:00",
+    "what": "Bus back down to the village. Lunch, for example at Brasserie Posten by the fjord."
+   },
+   {
+    "time": "13:30",
+    "what": "75-minute fjord boat past the Seven Sisters, the Suitor and the Skageflå farm."
+   },
+   {
+    "time": "15:00",
+    "what": "Last walk around the village and the church on the slope above it."
+   },
+   {
+    "time": "16:00",
+    "what": "Join the tender queue, 90 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Geirangerfjord by boat",
+   "why": "The Seven Sisters, the Suitor and Bridal Veil waterfalls and the abandoned cliff farms are best seen from the water.",
+   "timeNeeded": "75 minutes or 2 hours",
+   "cost": "From NOK 610 adult (2026)",
+   "tip": "If your ship sails in or out in daylight you see much of this from deck; pick the boat if you arrive at night or in cloud."
+  },
+  {
+   "name": "Flydalsjuvet viewpoint",
+   "why": "The best-known view down onto the village and the head of the fjord.",
+   "timeNeeded": "About 45 minutes including the bus ride",
+   "cost": "Hop-on bus NOK 495 (2026)",
+   "tip": "About 4 km uphill from the pier; walking takes about an hour each way."
+  },
+  {
+   "name": "Norwegian Fjord Centre (Norsk Fjordsenter)",
+   "why": "World Heritage visitor centre on fjord geology, wildlife and the fjord farms.",
+   "timeNeeded": "1 hour or more",
+   "cost": "NOK 160 adult, NOK 85 child 5–15 (2026)",
+   "tip": "Open 09:00–19:00 daily from May to October. Has a café; a good place to wait out rain."
+  },
+  {
+   "name": "Storfossen waterfall path",
+   "why": "Path beside the river and waterfall from the village up to the Fjord Centre.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free",
+   "tip": "Keep away from the water's edge, especially in spring when the river runs high."
+  },
+  {
+   "name": "Geiranger Skywalk – Dalsnibba",
+   "why": "A road-accessible viewpoint at about 1,500 m over the fjord, valleys and glaciers.",
+   "timeNeeded": "About 3 hours as a tour",
+   "cost": "Electric-car tour from NOK 2,600 per car plus NOK 330 road toll (2026)",
+   "tip": "The 5 km road to the top has 11 hairpins. It is far colder than the village; take a warm layer."
+  },
+  {
+   "name": "Storseterfossen and Westerås farm",
+   "why": "Trail to a waterfall you can walk behind, starting at a working mountain farm above the fjord.",
+   "timeNeeded": "About 1.5 hours from Westerås; add about 2.5 hours if walking from the village",
+   "cost": "Free on foot; hop-on bus NOK 495 to Westerås (2026)",
+   "tip": "2.8 km return with 225 m of climb, chains on steep sections, muddy when wet. Sure footing needed."
+  },
+  {
+   "name": "Geiranger village and church",
+   "why": "Small village with an octagonal church from 1842 on the slope above the fjord.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "Free",
+   "tip": "Short uphill walk from the pier."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Local Norwegian dishes with fjord views",
+   "where": "Brasserie Posten, Geirangervegen 4 (former post office by the fjord)",
+   "price": null
+  },
+  {
+   "dish": "Venison or seafood",
+   "where": "Restaurant Olebuda, Maråkvegen 19",
+   "price": null
+  },
+  {
+   "dish": "Norwegian dishes",
+   "where": "Restaurant Skageflå, Geirangervegen 21",
+   "price": null
+  },
+  {
+   "dish": "Light meals and coffee",
+   "where": "Café at the Norwegian Fjord Centre",
+   "price": null
+  },
+  {
+   "dish": "Lunch, pastries and coffee at 1,500 m",
+   "where": "Geiranger Skycafé on Dalsnibba",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning on the Seawalk pier and skipping the tender buffer.",
+   "fix": "Only one ship a day uses Seawalk and lines must book it. Check your daily programme; if it says tender, be at the pier 90 minutes before all-aboard."
+  },
+  {
+   "mistake": "Arriving at a viewpoint just after the hourly bus has left.",
+   "fix": "Note the bus times at stop 1 before you set off and board a bus down at least three hours before all-aboard."
+  },
+  {
+   "mistake": "Dressing for the village and freezing at Dalsnibba.",
+   "fix": "Carry a warm, waterproof layer. The viewpoints are higher, windier and often in cloud."
+  },
+  {
+   "mistake": "Rushing off the first tender into the longest queue.",
+   "fix": "Queues peak just after arrival. If you have nothing booked early, go ashore a little later."
+  },
+  {
+   "mistake": "Trying the Storseterfossen hike from the village on a short call.",
+   "fix": "From the village it adds about 2.5 hours of steep walking. Take the bus to Westerås or skip it."
+  }
+ ],
+ "safety": "Geiranger is a quiet village and crime is not a concern for visitors. The hazards are natural: steep, wet paths, fast water at Storfossen in spring, and sudden cold and cloud at height. On the Storseterfossen trail, chains and ropes help on steep parts, but the path is slippery when wet. The road out of the village is narrow and busy with coaches in summer, so take care if walking along it.",
+ "scams": [],
+ "emergencyNumber": "112 (police), 113 (medical), 110 (fire)",
+ "accessibility": "The tender landing has at most two steps and is listed as wheelchair accessible, though transfer from ship to tender depends on the swell; Seawalk days are easier. The village centre near the pier is compact. The 2-hour electric fjord boat is the only sightseeing boat with wheelchair access, and tides can make boarding difficult. The Dalsnibba viewpoint is described as built to universal design with disabled access. The Storfossen path and the Storseterfossen trail are not suitable for wheelchairs.",
+ "rainyDay": "Rain is common. Spend time in the Norwegian Fjord Centre, which has exhibitions and a cinema, and take the 2-hour fjord boat, which has indoor seating; the waterfalls are fuller after rain. Skip Dalsnibba and Flydalsjuvet if the cloud is low, as there will be little to see, and avoid the Storseterfossen trail when wet.",
+ "crowdTips": "Several ships can call on the same summer day, and from 20 June to 10 August the port caps arrivals at about 6,000 passengers. Boats and buses fill fast on busy days, so book the fjord boat online or as soon as you land. The first tenders and the first buses are the most crowded; the Fjord Centre is quieter in the morning while groups head straight for the viewpoints.",
+ "faqs": [
+  {
+   "q": "Is Geiranger a tender port?",
+   "a": "Usually. Most ships anchor and tender to the cruise terminal. One ship at a time can use the Seawalk floating pier and walk ashore."
+  },
+  {
+   "q": "Is Geiranger walkable from the cruise port?",
+   "a": "The village is: it is about 100 m from the landing. The viewpoints above it are not practical on foot for most people; Flydalsjuvet is about an hour's uphill walk each way."
+  },
+  {
+   "q": "How do I get to Flydalsjuvet and Dalsnibba from Geiranger cruise port?",
+   "a": "The hop-on bus (NOK 495, 2026) runs hourly to Flydalsjuvet and Westerås. Dalsnibba needs a tour or the electric-car rental."
+  },
+  {
+   "q": "What can I do in Geiranger in one day from a cruise ship?",
+   "a": "A fjord boat past the Seven Sisters, the Fjord Centre and Storfossen path, and the bus to Flydalsjuvet. On a long call add Dalsnibba or the Storseterfossen hike."
+  },
+  {
+   "q": "Is there a limit on cruise passengers in Geiranger?",
+   "a": "Yes. From 20 June to 10 August the port allows about 6,000 cruise passengers a day."
+  },
+  {
+   "q": "Can big cruise ships still visit Geiranger under the zero-emission rules?",
+   "a": "Yes, for now. Norway's zero-emission requirement for the World Heritage fjords applies to passenger ships under 10,000 gross tonnes first; ships of 10,000 tonnes and more are covered from 1 January 2032."
+  },
+  {
+   "q": "How long is the fjord boat trip in Geiranger?",
+   "a": "75 minutes on the classic boat or 2 hours on the electric catamaran, from NOK 610 adult (2026)."
+  },
+  {
+   "q": "Is Geiranger safe?",
+   "a": "Yes. Take care on steep, wet paths and near the river, and dress for cold at the viewpoints."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Geirangerfjord"
+  },
+  {
+   "name": "Seven Sisters waterfall"
+  },
+  {
+   "name": "Flydalsjuvet"
+  },
+  {
+   "name": "Geiranger Skywalk – Dalsnibba"
+  },
+  {
+   "name": "Norwegian Fjord Centre"
+  },
+  {
+   "name": "Storseterfossen"
+  },
+  {
+   "name": "Westerås farm"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cruise Norway / Stranda Hamnevesen – Geiranger port facilities and services 2026 (PDF)",
+   "url": "https://cruise-norway.no/wp-content/uploads/2025/04/Geiranger-Port-facilities-and-services-2026.pdf"
+  },
+  {
+   "title": "Regjeringen – Nullutslippskrav til passasjerskip i verdensarvfjordene (April 2025)",
+   "url": "https://www.regjeringen.no/no/aktuelt/nullutslippskrav-til-passasjerskip-i-verdensarvfjordene/id3097475/"
+  },
+  {
+   "title": "Teknisk Ukeblad – Cruise ships calling outside Geiranger (July 2025)",
+   "url": "https://www.tu.no/artikler/nrk-cruiseskip-legger-til-utenfor-geiranger-for-a-omga-utslippskrav/560719"
+  },
+  {
+   "title": "Sustainable Ships – Fjords zero emissions",
+   "url": "https://www.sustainable-ships.org/rules-regulations/fjords-zero-emissions"
+  },
+  {
+   "title": "Geiranger Fjordservice – Fjord sightseeing 75 min and 2 hr",
+   "url": "https://www.geirangerfjord.no/geirangerfjord-sightseeing-5?print=yes"
+  },
+  {
+   "title": "Geiranger Fjordservice – Norwegian Fjord Centre",
+   "url": "https://www.geirangerfjord.no/norsk-fjordsenter-2"
+  },
+  {
+   "title": "Geiranger Fjordservice – Geiranger Skywalk Dalsnibba electric car tour",
+   "url": "https://www.geirangerfjord.no/geiranger-skywalk-dalsnibba-electric-car-tour"
+  },
+  {
+   "title": "Fjord Norway – Geiranger Skywalk Dalsnibba",
+   "url": "https://fjordnorway.com/en/see-and-do/geiranger-skywalk---dalsnibba"
+  },
+  {
+   "title": "Fjord Norway – Norsk Fjordsenter waterfall walk with a fjord ranger",
+   "url": "https://www.fjordnorway.com/de/sehen-und-erleben/norsk-fjordsenter---wasserfall-wanderung-mit-einem-fjord-ranger"
+  },
+  {
+   "title": "Strömma / City Sightseeing – Geiranger hop-on hop-off bus",
+   "url": "https://www.stromma.com/link/883fa68a5260484f9a20b15d31f83bd2.aspx"
+  },
+  {
+   "title": "Fjord Tours – Car ferry Geiranger–Hellesylt",
+   "url": "https://www.fjordtours.com/things-to-do-in-norway/car-ferries/geiranger-hellesylt/"
+  },
+  {
+   "title": "Visit Norway – Brasserie Posten",
+   "url": "https://www.visitnorway.com/listings/brasserie-posten/276123/"
+  },
+  {
+   "title": "Holland America – Geiranger excursion (Storseter Falls and Westerås)",
+   "url": "https://www.hollandamerica.com/cruise-destinations/northern-europe-cruises/europe-northern-ports/ge1/19211"
+  },
+  {
+   "title": "CruiseMapper – Geiranger port",
+   "url": "https://www.cruisemapper.com/ports/geiranger-port-547"
+  },
+  {
+   "title": "Cruise & Ferry – SeaWalk pier for Geiranger",
+   "url": "https://www.cruiseandferry.net/articles/seawalk-pier-for-geiranger"
+  },
+  {
+   "title": "Adventour Begins – Geirangerfjord cruise port guide (updated May 2026)",
+   "url": "https://www.adventourbegins.com/geirangerfjord-cruise-port-guide-norway/"
+  },
+  {
+   "title": "Höhenrausch – Storseterfossen hike",
+   "url": "https://www.hoehenrausch.de/en/hikes/norway/storseterfossen-geirangerfjord/"
+  },
+  {
+   "title": "Wanderlog – Geiranger restaurants",
+   "url": "https://wanderlog.com/list/geoCategory/31110/"
+  }
+ ],
+ "uncertain": [
+  "Exact 2026 start date of the zero-emission rule for ships under 10,000 GT (the ministry page implies 2026 without stating the year in the rule text).",
+  "Price of the guided fjord ranger waterfall walk (two official pages give different figures).",
+  "Opening hours and season of the Dalsnibba road and Skywalk.",
+  "Typical all-aboard time for Geiranger calls (sample calls range from mid-afternoon to evening).",
+  "Documented scams: none found."
+ ]
+}

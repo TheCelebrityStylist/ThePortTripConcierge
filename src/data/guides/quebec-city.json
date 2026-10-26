@@ -1,0 +1,389 @@
+{
+ "slug": "quebec-city",
+ "city": "Québec City",
+ "portName": "Port of Québec (Ross-Gaudreault Terminal and Terminal 30)",
+ "townName": "Old Québec",
+ "country": "Canada",
+ "currency": "CAD",
+ "currencySymbol": "C$",
+ "language": "French",
+ "timezone": "EST (UTC−5), EDT (UTC−4) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Québec City cruise port guide: walk to Old Québec",
+ "seoDescription": "Québec City ships dock at Pointe-à-Carcy, about 8 min on foot from Petit-Champlain. Funicular C$7 cash (2026), Citadelle C$22 (2026), bus C$4 cash (2026).",
+ "quickAnswer": "Ships berth alongside at the Ross-Gaudreault Terminal (wharves 21 and 22) at Pointe-à-Carcy, or at Terminal 30 just across the Louise Basin; nobody tenders. From wharves 21–22 you walk to Petit-Champlain in about eight minutes, then ride the funicular (C$7 cash, 2026) to the Upper Town. Leave the Upper Town 90 minutes before all-aboard so the descent and any funicular queue do not catch you out.",
+ "intro": "Québec City is one of the few ports where a walled UNESCO old town starts at the end of the pier. The Lower Town, with Place Royale and Petit-Champlain, sits right behind the terminal; the Upper Town, with the Château Frontenac, Dufferin Terrace and the Citadelle, is on the cliff above. The day is about that climb, about choosing between the city and Montmorency Falls, and in autumn about sharing the streets with up to four ships.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 10,
+ "terminals": [
+  {
+   "name": "Ross-Gaudreault Terminal, wharves 21 and 22 (Pointe-à-Carcy, 84 rue Dalhousie)",
+   "distanceToCentreKm": 0.6,
+   "notes": "The main cruise berths, in the Old Port beside the Lower Town. About an eight-minute walk to Quartier Petit-Champlain. Tourist information desk (Destination Québec cité), free Wi-Fi and washrooms inside."
+  },
+  {
+   "name": "Terminal 30 (Estuary sector, 300 rue de l'Estuaire)",
+   "distanceToCentreKm": null,
+   "notes": "Opened in 2022 for the largest ships, across the Louise Basin north of wharves 21–22, near the Gare du Palais. The port describes it as a few minutes' walk from Old Québec and runs a shuttle for passengers and crew."
+  },
+  {
+   "name": "Other berths: wharf 93 (Coast Guard) and wharf 81 (Quai Paquet, Lévis)",
+   "distanceToCentreKm": null,
+   "notes": "Used occasionally. Quai Paquet is across the river in Lévis. Check the port's cruise schedule for your berth."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 8,
+  "km": 0.6,
+  "detail": "Wharves 21–22 to Petit-Champlain is a flat walk of about eight minutes. Reaching the Upper Town means a steep climb by stairs or street, or the funicular from Petit-Champlain to Dufferin Terrace."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 8 min to Petit-Champlain from wharves 21–22",
+   "detail": "Walk south along the waterfront past Place des Canotiers to Place Royale and Petit-Champlain. From Terminal 30, walk round the basin or use the port shuttle."
+  },
+  {
+   "mode": "Funicular (Funiculaire du Vieux-Québec)",
+   "cost": "C$7 one way, cash only (2026)",
+   "time": "A short ride",
+   "detail": "Lower station in Maison Louis-Jolliet, 16 rue du Petit-Champlain; upper station on Dufferin Terrace beside the Château Frontenac. Open 09:00–21:00 (until 22:00 from 24 June to Labour Day). Cash only; there is a cash machine at both stations. Under 117 cm ride free."
+  },
+  {
+   "mode": "Terminal 30 shuttle",
+   "cost": "Free (port service)",
+   "time": "A few minutes",
+   "detail": "The port runs a shuttle for passengers and crew at Terminal 30. Ask at the terminal for the stop and hours."
+  },
+  {
+   "mode": "RTC city bus",
+   "cost": "C$4 cash, C$3.85 ticket, C$10.50 day pass (from 1 July 2026)",
+   "time": "Varies by route",
+   "detail": "Route 800 towards Beauport reaches Montmorency Falls: get off at stop 3473 (des Rapides) and walk a few minutes to the top of the falls."
+  },
+  {
+   "mode": "Québec–Lévis ferry",
+   "cost": "See traversiers.com for the current fare",
+   "time": "About 12 min each way",
+   "detail": "The terminal is in the Lower Town near the Musée de la civilisation and Petit-Champlain. The crossing gives the classic view back to the Château Frontenac. Departures are not evenly spaced; check the timetable."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Leave the Upper Town 90 minutes before all-aboard and be back at the ship 60 minutes before. From Montmorency Falls, leave the park 120 minutes before all-aboard.",
+  "detail": "The walk down is short, but the funicular takes cash only and can queue on busy days, and with up to four ships in port the Lower Town streets fill with returning passengers. Montmorency depends on a bus or taxi through city traffic.",
+  "emergencyFallback": "If the funicular queue is long, walk down by the stairs and Côte de la Montagne to the Lower Town. If you will miss all-aboard, call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Old Québec walking tour",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot; funicular C$7 one way (2026)",
+   "saving": "Most of the ship price"
+  },
+  {
+   "item": "Citadelle de Québec",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "C$22 adult including a 60-minute guided tour (2026)",
+   "saving": "Depends on the ship tour"
+  },
+  {
+   "item": "Montmorency Falls",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Bus C$4 cash each way (2026) plus Sépaq park fees",
+   "saving": "Depends on the ship tour"
+  }
+ ],
+ "excursionAdvice": "Old Québec needs no tour: it starts at the terminal and is best on foot. The Citadelle is guided-only, so its own C$22 tour does the job. A ship tour is worth it for Montmorency Falls combined with Île d'Orléans or Sainte-Anne-de-Beaupré, because those trips need a vehicle and a guaranteed return. For Montmorency alone, the 800 bus works on a long call.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at wharves 21–22 at 08:00 and all-aboard is 17:30, on a September or October day.",
+  "steps": [
+   {
+    "time": "08:15",
+    "what": "Walk off the ship to Place Royale and Quartier Petit-Champlain, about eight minutes, before the shops get busy."
+   },
+   {
+    "time": "09:00",
+    "what": "Ride the funicular (C$7 cash) to Dufferin Terrace beside the Château Frontenac."
+   },
+   {
+    "time": "09:30",
+    "what": "Walk along the terrace and up to the Citadelle for the first guided tour when it opens (10:00 from September)."
+   },
+   {
+    "time": "11:15",
+    "what": "Walk the Upper Town: rue Saint-Louis, the fortifications and the old streets inside the walls."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch, for example tourtière at Aux Anciens Canadiens on rue Saint-Louis."
+   },
+   {
+    "time": "13:45",
+    "what": "Walk down to the Lower Town. Visit the Musée de la civilisation (closed Mondays) or take a return ferry crossing to Lévis for the view."
+   },
+   {
+    "time": "15:30",
+    "what": "Browse the Old Port and Marché du Vieux-Port (market days only) close to the terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Quartier Petit-Champlain and Place Royale",
+   "why": "The Lower Town's oldest streets and square, at the foot of the cliff and closest to the ship.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Go first thing, before the tour groups."
+  },
+  {
+   "name": "Dufferin Terrace and the Château Frontenac",
+   "why": "The boardwalk on the cliff top with river views, beside the city's landmark hotel.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free",
+   "tip": "Ride up on the funicular and walk down, or the other way round."
+  },
+  {
+   "name": "La Citadelle de Québec",
+   "why": "The star-shaped fortress on Cap Diamant, home of the Royal 22e Régiment and its museum.",
+   "timeNeeded": "1.5 hours",
+   "cost": "C$22 adult with a 60-minute guided tour (2026)",
+   "tip": "Visits are guided only. Open 10:00–17:30 from 1 September; 09:00–17:30 in summer."
+  },
+  {
+   "name": "Fortifications and the old town inside the walls",
+   "why": "Old Québec is a UNESCO World Heritage Site and the walls can be followed on foot.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Walk the walls between the Citadelle and Porte Saint-Louis for views over the town."
+  },
+  {
+   "name": "Musée de la civilisation",
+   "why": "Québec's main museum of history and society, in the Lower Town close to the terminal.",
+   "timeNeeded": "1.5 hours",
+   "cost": "Check mcq.org for current prices",
+   "tip": "Open Tuesday to Sunday, 10:00–17:00; closed Mondays. A good rainy-day choice."
+  },
+  {
+   "name": "Québec–Lévis ferry",
+   "why": "A 12-minute crossing with the best view of the city skyline.",
+   "timeNeeded": "45 minutes return including waits",
+   "cost": "See traversiers.com",
+   "tip": "Check the departure times before you go; they are uneven."
+  },
+  {
+   "name": "Parc de la Chute-Montmorency",
+   "why": "Falls 83 m high, 30 m higher than Niagara, about 15 minutes' drive from Old Québec, with a cable car up the cliff.",
+   "timeNeeded": "3 hours including travel",
+   "cost": "Sépaq park fees; buy the day pass online in advance",
+   "tip": "Bus 800 towards Beauport, stop 3473 (des Rapides). Hours vary by season."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Tourtière, ragoût de boulettes and tarte au sucre",
+   "where": "Aux Anciens Canadiens, 34 rue Saint-Louis (Upper Town)",
+   "price": null
+  },
+  {
+   "dish": "Poutine",
+   "where": "Chez Ashton (Saint-Jean or Carrefour branches, closest to Old Québec)",
+   "price": null
+  },
+  {
+   "dish": "Québécois comfort food and tarte au sucre",
+   "where": "La Bûche, rue Saint-Louis",
+   "price": null
+  },
+  {
+   "dish": "Maple dishes and desserts",
+   "where": "Saveurs de l'Érable, 84 rue du Petit-Champlain",
+   "price": null
+  },
+  {
+   "dish": "Local cheese, charcuterie and maple products",
+   "where": "Marché du Vieux-Port (May to October; Tuesday, Thursday, Saturday and Sunday)",
+   "price": null
+  },
+  {
+   "dish": "Seasonal bistro cooking",
+   "where": "Restaurant Toast, 17 rue du Sault-au-Matelot (Lower Town)",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Arriving at the funicular with only a card.",
+   "fix": "It is cash only (C$7 a ride in 2026). There is a cash machine at each station, but bring Canadian dollars."
+  },
+  {
+   "mistake": "Assuming every ship uses the terminal by Petit-Champlain.",
+   "fix": "Large ships often use Terminal 30 across the basin, and a few use Lévis. Check your berth and use the shuttle if needed."
+  },
+  {
+   "mistake": "Turning up at the Citadelle expecting to wander in.",
+   "fix": "Visits are guided only. From September the first tours start at 10:00."
+  },
+  {
+   "mistake": "Visiting the Musée de la civilisation on a Monday.",
+   "fix": "It is closed on Mondays. Use the ferry or the Citadelle instead."
+  },
+  {
+   "mistake": "Leaving the Upper Town at the last minute on a busy day.",
+   "fix": "Start down 90 minutes before all-aboard; the funicular and the lanes queue when several ships leave together."
+  }
+ ],
+ "safety": "Old Québec is a safe, compact district for visitors. The main hazards are physical: steep streets and stairs between the Lower and Upper Town, cobbles that are slippery in rain, and traffic on the narrow streets inside the walls. Wear shoes with grip and take the funicular if the climb is too much.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The Lower Town near the terminal is mostly level, though Petit-Champlain and Place Royale are cobbled. The funicular is the step-free link to Dufferin Terrace. Much of the Upper Town is steep, and the walls and Citadelle involve slopes and uneven ground. The port has only a few wheelchairs, so arrange one through your cruise line before arrival.",
+ "rainyDay": "Spend the morning at the Musée de la civilisation (Tuesday to Sunday), then the shops of Petit-Champlain and the Château Frontenac lobby area. The Citadelle tour is outdoors, so pick a dry spell for it. The Lévis ferry is enclosed and still gives a view.",
+ "crowdTips": "The port can handle up to four ships at once, and September and October are the busiest months. Petit-Champlain and the funicular are busiest from mid-morning. Go up early, do the Upper Town before the groups arrive, and leave the Lower Town for late afternoon when tours are heading back to their ships.",
+ "faqs": [
+  {
+   "q": "Is Québec City walkable from the cruise port?",
+   "a": "Yes. From wharves 21–22 you walk to Petit-Champlain in about eight minutes. Terminal 30 is a few minutes further, with a port shuttle."
+  },
+  {
+   "q": "How do I get from Québec City cruise port to the Upper Town?",
+   "a": "Walk to Petit-Champlain and ride the funicular to Dufferin Terrace (C$7 cash one way, 2026), or climb the streets and stairs."
+  },
+  {
+   "q": "Is Québec City a tender port?",
+   "a": "No. Ships berth alongside at the Ross-Gaudreault Terminal, Terminal 30 or, occasionally, wharves 93 and 81."
+  },
+  {
+   "q": "What can I do in Québec City in one day from a cruise ship?",
+   "a": "Petit-Champlain and Place Royale, the funicular, Dufferin Terrace, a Citadelle tour and the walls, then the Musée de la civilisation or the Lévis ferry."
+  },
+  {
+   "q": "How much is the Québec City funicular?",
+   "a": "C$7 per person each way in 2026, cash only. It runs 09:00–21:00, later in summer."
+  },
+  {
+   "q": "Can I visit Montmorency Falls on my own from the cruise port?",
+   "a": "Yes on a long call. Take RTC bus 800 to stop 3473 (des Rapides); the fare is C$4 cash (2026). Leave the park two hours before all-aboard."
+  },
+  {
+   "q": "Which cruise terminal will my ship use in Québec City?",
+   "a": "Check the Port of Québec cruise schedule. Most ships use wharves 21–22 at the Ross-Gaudreault Terminal; larger ones often use Terminal 30."
+  },
+  {
+   "q": "Is Québec City safe?",
+   "a": "Yes. Watch your footing on steep, cobbled streets and stairs."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Quartier Petit-Champlain"
+  },
+  {
+   "name": "Château Frontenac"
+  },
+  {
+   "name": "Dufferin Terrace"
+  },
+  {
+   "name": "La Citadelle de Québec"
+  },
+  {
+   "name": "Musée de la civilisation"
+  },
+  {
+   "name": "Parc de la Chute-Montmorency"
+  },
+  {
+   "name": "Place Royale"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port of Québec – Cruise terminals",
+   "url": "https://www.portquebec.ca/en/cruises/cruise-line/cruise-terminals/"
+  },
+  {
+   "title": "Port of Québec – Access to docks",
+   "url": "https://www.portquebec.ca/en/cruises/information-for-cruise-ship-passengers/access-to-docks"
+  },
+  {
+   "title": "Port of Québec – Québec, a premiere cruise destination (April 2026)",
+   "url": "https://www.portquebec.ca/wp-content/uploads/2026/04/Quebec-A-premiere-cruise-destination-1.pdf"
+  },
+  {
+   "title": "Destination Québec cité – International cruises in Québec City",
+   "url": "https://quebec-cite.com/en/what-to-do-quebec-city/cruises"
+  },
+  {
+   "title": "Destination Québec cité – Cruise planner",
+   "url": "https://www.quebec-cite.com/index%2ephp/en/plan-your-trip-quebec-city/plan-cruise"
+  },
+  {
+   "title": "Funiculaire du Vieux-Québec – official site",
+   "url": "https://www.funiculaire.ca/"
+  },
+  {
+   "title": "Destination Québec cité – Funiculaire du Vieux-Québec",
+   "url": "https://quebec-cite.com/en/businesses/funiculaire-du-vieux-quebec"
+  },
+  {
+   "title": "La Citadelle de Québec – Admission and hours",
+   "url": "https://www.lacitadelle.qc.ca/en/admission-hours"
+  },
+  {
+   "title": "RTC – New fare schedule 2026",
+   "url": "https://www.rtcquebec.ca/en/new-fare-schedule-2026"
+  },
+  {
+   "title": "Destination Québec cité – Parc de la Chute-Montmorency",
+   "url": "https://www.quebec-cite.com/fr/entreprises/parc-de-la-chute-montmorency"
+  },
+  {
+   "title": "Sépaq – Parc de la Chute-Montmorency",
+   "url": "https://www.sepaq.com/chutemontmorency"
+  },
+  {
+   "title": "Destination Québec cité – Traversier Québec-Lévis",
+   "url": "https://www.quebec-cite.com/index%2ephp/fr/quoi-faire-quebec/traversier-quebec-levis"
+  },
+  {
+   "title": "Destination Québec cité – Musée de la civilisation",
+   "url": "https://www.quebec-cite.com/en/businesses/musee-de-la-civilisation"
+  },
+  {
+   "title": "Cruise Critic – Québec City cruise port information (2022)",
+   "url": "https://www.cruisecritic.com/articles/quebec-city-cruise-port-parking-address-amenity-info"
+  },
+  {
+   "title": "CruiseMapper – Québec City port",
+   "url": "https://www.cruisemapper.com/ports/quebec-city-port-662"
+  },
+  {
+   "title": "Seatrade Cruise News – Port of Québec cruise capacity expansion (2015)",
+   "url": "https://www.seatrade-cruise.com/ports-destinations/port-of-que-bec-outlines-89-5m-cruise-capacity-expansion-updated-"
+  },
+  {
+   "title": "Canada Spirit – Guide gastronomique Québec 2026",
+   "url": "https://www.canada-spirit.com/fr/destinations/ville-de-quebec/guide-gastronomie/"
+  }
+ ],
+ "uncertain": [
+  "The name 'Alexandre-Lamontagne' for a cruise berth: the port's own pages use Terminal 30 (Estuary sector) and do not mention it.",
+  "Walking distance and time from Terminal 30 to Petit-Champlain, and the shuttle's stops and hours.",
+  "Québec–Lévis ferry fare for 2026–27.",
+  "Sépaq 2026 entry and cable car fees at Montmorency Falls, and bus 800 journey time.",
+  "Musée de la civilisation admission prices.",
+  "Taxi fares within the city (only an airport flat fare was found).",
+  "Changing of the Guard dates and times at the Citadelle."
+ ]
+}

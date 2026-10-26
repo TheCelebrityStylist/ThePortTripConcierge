@@ -1,0 +1,380 @@
+{
+ "slug": "montego-bay",
+ "city": "Montego Bay",
+ "portName": "Montego Bay Cruise Terminal (Freeport)",
+ "townName": "the Hip Strip (Gloucester Avenue / Jimmy Cliff Boulevard)",
+ "country": "Jamaica",
+ "currency": "JMD",
+ "currencySymbol": "J$",
+ "priceSymbol": "US$",
+ "language": "English (Jamaican Patois widely spoken)",
+ "timezone": "EST (UTC−5) all year; no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Montego Bay cruise port guide: Hip Strip and beaches",
+ "seoDescription": "Montego Bay ships dock at Freeport, 5 km from town; don't walk. Taxi about 10 min to the Hip Strip. Doctor's Cave Beach US$8 adult (2026). Back 60 min early.",
+ "quickAnswer": "Ships dock at the Freeport cruise terminal, about 5 km west of downtown Montego Bay; there is no tender. The road out runs through an industrial freight zone, so take a licensed taxi, about 10 minutes to the Hip Strip and Doctor's Cave Beach. Agree the fare first, and be back on board 60 minutes before all-aboard.",
+ "intro": "Montego Bay is Jamaica's main resort city, and its cruise terminal sits in the Freeport zone across the bay from the beaches and the Hip Strip. The port is functional rather than pleasant: there is nothing to walk to, so the day starts with a taxi. Hurricane Melissa struck western Jamaica on 28 October 2025 and the first cruise ship returned on 24 November 2025. Doctor's Cave Bathing Club, Harmony Beach Park, Martha Brae rafting and several Hip Strip restaurants were operating again by December 2025, though some Hip Strip businesses and hotels took longer to reopen.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Montego Bay Cruise Terminal (Freeport)",
+   "distanceToCentreKm": 5,
+   "notes": "Pier in the Freeport zone with room for up to four ships. About 5 km west of downtown and about 10 minutes by taxi from Doctor's Cave Beach. Licensed taxis and tour desks with posted zone rates operate at the terminal."
+  }
+ ],
+ "walkability": {
+  "verdict": "No",
+  "minutes": null,
+  "km": 5,
+  "detail": "The walk to town is long, hot and unshaded, and the access road carries container lorries. Take a licensed taxi to the Hip Strip, which is walkable once you are there."
+ },
+ "transportSections": [
+  {
+   "mode": "Licensed taxi (JUTA or JTB-approved)",
+   "cost": "Fixed zone rates posted at the terminal; confirm before you get in (2026)",
+   "time": "About 10 min to the Hip Strip and Doctor's Cave Beach",
+   "detail": "Use the official dispatch at the terminal. Licensed taxis carry red and white plates; JTB-approved drivers carry photo ID and a blue JTB windscreen sticker. Confirm whether the fare is per person or per car and in which currency, and fix a pick-up time for the return."
+  },
+  {
+   "mode": "Ship or independent tour",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "Half or full day",
+   "detail": "The sensible choice for Martha Brae rafting, Dunn's River Falls (1.5–2 hours each way) or anything out of town, because the ship waits for its own tours."
+  },
+  {
+   "mode": "Public buses and route taxis",
+   "cost": "Not recommended",
+   "time": "",
+   "detail": "The US government advises visitors to avoid public buses in Jamaica because of crime and overcrowding. Use licensed taxis."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. Leave the Hip Strip or Doctor's Cave Beach 90 minutes before all-aboard, and Rose Hall 120 minutes before.",
+  "detail": "The taxi ride is short, but you may wait for a cab at the Hip Strip on a busy afternoon, and traffic on the main road and the Freeport access road can slow you down. Book your return pick-up time with the driver who takes you out.",
+  "emergencyFallback": "Ask the front desk of any Hip Strip hotel, or Doctor's Cave Bathing Club, to call a licensed taxi. If you will miss all-aboard, call the port agent number on your daily programme immediately."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Doctor's Cave Beach day",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "US$8 adult, US$4 child under 12 entry (2026), plus a taxi each way",
+   "saving": "Depends on taxi fare"
+  },
+  {
+   "item": "Rose Hall Great House day tour",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "US$30 adult tour (2026), plus a taxi; transport not provided by Rose Hall",
+   "saving": "Depends on taxi fare"
+  }
+ ],
+ "excursionAdvice": "A beach day at Doctor's Cave and a stroll on the Hip Strip are easy to do on your own with a licensed taxi. Rose Hall is also manageable independently if you agree a return fare. Take the ship's tour for Martha Brae rafting, Dunn's River Falls in Ocho Rios, or any trip more than half an hour away: the drives are long and the ship will not wait for a private driver.",
+ "dayPlan": {
+  "allAboard": "16:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 16:30 (ships typically call about 08:00–17:00).",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Leave the terminal by licensed taxi. Agree the fare and a 15:00 pick-up time on the Hip Strip."
+   },
+   {
+    "time": "09:00",
+    "what": "Arrive at Doctor's Cave Bathing Club (open from 08:30) while it is still quiet; pay US$8 and claim a spot."
+   },
+   {
+    "time": "11:30",
+    "what": "Walk along the Hip Strip, browsing shops and the Reggae and Dancehall Wall of Fame."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch at the Pelican Grill on the Hip Strip."
+   },
+   {
+    "time": "13:30",
+    "what": "Swim again or have a drink at Margaritaville on the Hip Strip."
+   },
+   {
+    "time": "15:00",
+    "what": "Meet your taxi on the Hip Strip, 90 minutes before all-aboard."
+   },
+   {
+    "time": "15:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Doctor's Cave Beach (Doctor's Cave Bathing Club)",
+   "why": "Montego Bay's best-known beach: fine white sand, calm water and a reef close offshore for snorkelling.",
+   "timeNeeded": "2–4 hours",
+   "cost": "US$8 adult, US$4 child under 12 (2026)",
+   "tip": "Open daily 08:30–17:30. Facilities include showers, changing rooms, a restaurant, lifeguards and chair and umbrella hire. Pedestrian entrance only, on the Hip Strip."
+  },
+  {
+   "name": "The Hip Strip (Gloucester Avenue / Jimmy Cliff Boulevard)",
+   "why": "Montego Bay's main tourist street of bars, jerk stands, souvenir shops and beach access.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Some businesses closed after Hurricane Melissa and recovery has been uneven; expect gaps."
+  },
+  {
+   "name": "Rose Hall Great House",
+   "why": "Restored 18th-century plantation house east of town, with guided tours on sugar-estate history and the White Witch legend.",
+   "timeNeeded": "45–60 minutes for the tour, plus travel",
+   "cost": "US$30 adult (2026)",
+   "tip": "Day tours Monday to Saturday 09:15–16:00; closed Sundays and public holidays. Rose Hall does not provide transport. Call ahead to confirm tours are running."
+  },
+  {
+   "name": "Harmony Beach Park",
+   "why": "Public beach park run by the Urban Development Corporation, reopened in November 2025.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Check on arrival",
+   "tip": "A public, less commercial alternative to the beach clubs on the Hip Strip."
+  },
+  {
+   "name": "Martha Brae river rafting",
+   "why": "Slow bamboo-raft rides on a calm, shaded river east of Montego Bay.",
+   "timeNeeded": "Half day including transfers",
+   "cost": "Varies by operator",
+   "tip": "Operating again by December 2025. Best booked as a ship or licensed tour because of the distance."
+  },
+  {
+   "name": "Downtown and Sam Sharpe Square",
+   "why": "The old town centre, named after the leader of the 1831 slave rebellion.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Busy and less touristy; go with a licensed driver or guide and keep valuables out of sight."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Doctor's Cave Beach",
+   "howToGetThere": "Licensed taxi from the terminal",
+   "time": "About 10 min",
+   "cost": "US$8 adult, US$4 child under 12 (2026)",
+   "note": "Facilities and lifeguards; popular and often crowded on ship days."
+  },
+  {
+   "name": "Harmony Beach Park",
+   "howToGetThere": "Licensed taxi",
+   "time": "Short taxi ride",
+   "cost": "Check on arrival",
+   "note": "Public beach park run by the UDC."
+  },
+  {
+   "name": "Margaritaville Montego Bay",
+   "howToGetThere": "Licensed taxi to the Hip Strip",
+   "time": "About 10 min",
+   "cost": "Food and drink",
+   "note": "Bar and restaurant with sea access, a deck and waterslide; reopened after Melissa."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Jamaican breakfast or lunch plates",
+   "where": "The Pelican Grill, Hip Strip",
+   "price": null
+  },
+  {
+   "dish": "Seafood",
+   "where": "Marguerites Seafood by the Sea, Hip Strip",
+   "price": null
+  },
+  {
+   "dish": "Burgers, bar food and cocktails",
+   "where": "Margaritaville Montego Bay, Hip Strip",
+   "price": null
+  },
+  {
+   "dish": "Jerk chicken and pork",
+   "where": "Jerk stands along the Hip Strip",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk from the ship to town.",
+   "fix": "It is about 5 km on a road with container lorries and no shade. Take a licensed taxi."
+  },
+  {
+   "mistake": "Getting into a taxi without agreeing the fare.",
+   "fix": "Use the official dispatch, check the posted zone rate, and confirm per person or per car and the currency."
+  },
+  {
+   "mistake": "Booking a private trip to Dunn's River Falls from Montego Bay.",
+   "fix": "It is 1.5–2 hours each way. If you must go, take the ship's tour."
+  },
+  {
+   "mistake": "Not arranging the return pick-up.",
+   "fix": "Fix a time with your driver, or know where to find a licensed taxi on the Hip Strip."
+  },
+  {
+   "mistake": "Planning a Sunday visit to Rose Hall.",
+   "fix": "Day tours run Monday to Saturday only."
+  }
+ ],
+ "safety": "Jamaica has high violent-crime rates; tourist areas such as the Hip Strip are generally safer, but the US advisory notes that armed robberies occur in Montego Bay and rates Jamaica Level 2 (exercise increased caution, June 2026). The US advises reconsidering travel to several Montego Bay-area neighbourhoods, including Flankers, Rose Heights, Mount Salem, Norwood, Salt Spring and the Hart Street area, and the UK advises caution in Flankers, Barrett Town, Glendevon, Rose Heights and Mount Salem. Use licensed taxis, avoid public buses and walking after dark, keep valuables on the ship and use ATMs only in daylight in busy places.",
+ "scams": [
+  "Overcharging or unlicensed taxis: use the terminal dispatch and licensed cars with red and white plates, and agree the fare first.",
+  "Fares that change at the destination: confirm whether the quote is per person or per car and in US or Jamaican dollars before you set off."
+ ],
+ "emergencyNumber": "119 (police); 110 (fire and ambulance)",
+ "accessibility": "The terminal itself is level, but there is nothing within walking distance, so wheelchair users need an accessible taxi or a ship tour with an adapted vehicle. The Hip Strip pavements are uneven and narrow in places. Doctor's Cave has facilities close to the entrance, but the beach is sand. Rose Hall Great House involves steps and multiple floors.",
+ "rainyDay": "Rain spoils the beach day. Rose Hall Great House is the best indoor alternative (Monday to Saturday). Otherwise, stay near the Hip Strip in a restaurant such as the Pelican Grill and keep the taxi trip short.",
+ "crowdTips": "Up to four ships can dock at once. Doctor's Cave fills from late morning on busy days; arrive early or try Harmony Beach Park instead. Taxis back to the ship are in most demand in the last hour, so agree a pick-up time early.",
+ "faqs": [
+  {
+   "q": "Is Montego Bay walkable from the cruise port?",
+   "a": "No. The terminal is about 5 km from downtown on a freight road. Take a licensed taxi, about 10 minutes to the Hip Strip."
+  },
+  {
+   "q": "Is Montego Bay a tender port?",
+   "a": "No. Ships dock at the Freeport cruise terminal."
+  },
+  {
+   "q": "How do I get from Montego Bay cruise port to Doctor's Cave Beach?",
+   "a": "Licensed taxi from the terminal dispatch, about 10 minutes. Check the posted zone rate and agree the fare first."
+  },
+  {
+   "q": "How much is Doctor's Cave Beach?",
+   "a": "US$8 for adults and US$4 for children under 12 in 2026. It opens 08:30–17:30 daily."
+  },
+  {
+   "q": "Is Montego Bay open to cruise ships after Hurricane Melissa?",
+   "a": "Yes. Ships returned on 24 November 2025, and the main beaches and attractions were operating by December 2025."
+  },
+  {
+   "q": "What can I do in Montego Bay in one day from a cruise ship?",
+   "a": "A morning at Doctor's Cave Beach, lunch and a walk on the Hip Strip, or a visit to Rose Hall Great House."
+  },
+  {
+   "q": "Can I visit Dunn's River Falls from Montego Bay?",
+   "a": "Only on a long day: it is 1.5–2 hours each way. Take the ship's tour if you do."
+  },
+  {
+   "q": "Is Montego Bay safe?",
+   "a": "The tourist areas are generally safe by day. Use licensed taxis, avoid public buses and outlying neighbourhoods, and keep valuables on the ship."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Doctor's Cave Beach"
+  },
+  {
+   "name": "Hip Strip"
+  },
+  {
+   "name": "Rose Hall Great House"
+  },
+  {
+   "name": "Harmony Beach Park"
+  },
+  {
+   "name": "Martha Brae River"
+  },
+  {
+   "name": "Sam Sharpe Square"
+  }
+ ],
+ "sources": [
+  {
+   "title": "TPDCo / Ministry of Tourism – first cruise ship returns to Montego Bay (Nov 2025)",
+   "url": "https://www.tpdco.org/ministry-of-tourism-3/"
+  },
+  {
+   "title": "US Department of State – Jamaica Travel Advisory (June 2026)",
+   "url": "https://www.travel.state.gov/content/travel/en/traveladvisories/traveladvisories/jamaica-travel-advisory.html"
+  },
+  {
+   "title": "UK FCDO – Jamaica travel advice: safety and security",
+   "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security"
+  },
+  {
+   "title": "Doctor's Cave Bathing Club (official site)",
+   "url": "https://www.doctorscavebathingclub.com/"
+  },
+  {
+   "title": "Doctor's Cave Bathing Club – general admission",
+   "url": "https://www.doctorscavebathingclub.com/general-admission"
+  },
+  {
+   "title": "NEPA Jamaica Beach Guide – Doctor's Cave (archive)",
+   "url": "https://websitearchive2020.nepa.gov.jm/new/services_products/subsites/beach_guide/beaches/doctors_cave.php"
+  },
+  {
+   "title": "Rose Hall Great House (official site)",
+   "url": "https://rosehall.com/rose-hall/"
+  },
+  {
+   "title": "Visit Jamaica (Jamaica Tourist Board) – Montego Bay where to eat",
+   "url": "https://visitjamaica.com/resort-areas/montego-bay/where-to-eat"
+  },
+  {
+   "title": "UDC – Turtle River Park, Dunn's River and Harmony Beach Park reopen (Nov 2025)",
+   "url": "https://udcja.com/?p=5681765"
+  },
+  {
+   "title": "JIS – Jamaica emergency numbers",
+   "url": "https://jis.gov.jm/jamaica-to-go-global-with-emergency-numbers/"
+  },
+  {
+   "title": "Jamaica Gleaner – Dunn's River Falls and Harmony Beach Park reopen after Melissa (Nov 2025)",
+   "url": "https://jamaica-gleaner.com/article/news/20251110/dunns-river-falls-among-udc-attractions-reopen-following-melissa"
+  },
+  {
+   "title": "Jamaica Gleaner – MoBay gears up for winter season (Dec 2025)",
+   "url": "https://jamaica-gleaner.com/article/news/20251201/mobay-gears-winter-seasons-start-days"
+  },
+  {
+   "title": "Jamaica Observer – Pelican Grill post-Melissa (Dec 2025)",
+   "url": "https://www.jamaicaobserver.com/2025/12/04/pelican-grill-post-melissa/"
+  },
+  {
+   "title": "Jamaica Observer – Hip Strip operators reeling after Melissa (Nov 2025)",
+   "url": "https://www.jamaicaobserver.com/2025/11/06/hip-strip-operators-reeling-hurricane-melissa-devastation/"
+  },
+  {
+   "title": "CruiseMapper – Montego Bay welcomes first post-storm cruise call",
+   "url": "https://www.cruisemapper.com/news/15560-montego-bay-welcomes-its-first-post-storm-cruise-ship-call"
+  },
+  {
+   "title": "Cruise Industry News – Main Jamaica cruise ports open after hurricane (Dec 2025)",
+   "url": "https://cruiseindustrynews.com/cruise-news/2025/12/main-jamaica-cruise-ports-now-open-after-hurricane/"
+  },
+  {
+   "title": "TravelPulse – First cruise ship returns to Montego Bay",
+   "url": "https://www.travelpulse.ca/news/cruise/first-cruise-ship-returns-to-montego-bay-signalling-tourism-recovery"
+  },
+  {
+   "title": "The Globe and Mail – Why I'm heading back to Montego Bay after Hurricane Melissa",
+   "url": "https://theglobeandmail.com/life/travel/article-why-im-heading-back-to-montego-bay-after-hurricane-melissa"
+  },
+  {
+   "title": "What's In Port – Montego Bay",
+   "url": "https://www.whatsinport.com/Montego-Bay.htm"
+  },
+  {
+   "title": "Cruise Timetables – Montego Bay",
+   "url": "https://www.cruisetimetables.com/cruises-to-montego-bay-jamaica.html"
+  },
+  {
+   "title": "The Trip Verdict – Jamaica cruise ports (May 2026)",
+   "url": "https://www.thetripverdict.com/jamaica-cruise-ports"
+  },
+  {
+   "title": "Royal Price Tracker – Montego Bay cruise port",
+   "url": "https://royalpricetracker.com/explore/ports/montego-bay/"
+  }
+ ],
+ "uncertain": [
+  "Taxi fare from the terminal to the Hip Strip (one undated source says about US$7; posted zone rates not seen)",
+  "Hot Spot Shuttle day pass price and whether it still runs after Hurricane Melissa",
+  "Exact distance from the terminal to the Hip Strip (sources range from about 1.6 to 5 km; 5 km is to downtown)",
+  "Harmony Beach Park entry fee and current hours"
+ ]
+}

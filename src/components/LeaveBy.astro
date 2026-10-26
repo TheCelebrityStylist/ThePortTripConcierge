@@ -1,0 +1,60 @@
+---
+// Interactive leave-by table: all-aboard, ship clock, extra margin. Works without JS (shows 17:30 defaults).
+import { fmt, toMin, app } from '../lib/site.js';
+const { slug, city, rows, defaultAA = '17:30', isTender = false } = Astro.props;
+const aa = toMin(defaultAA);
+---
+<section id="leave-by" class="card scroll-mt-20 overflow-hidden" data-leaveby data-slug={slug}>
+  <div class="flex items-center justify-between gap-3 bg-navy px-5 py-3 text-white">
+    <h2 class="text-base font-semibold">When to leave {city}</h2>
+    <span class="text-xs text-white/70">{isTender ? 'Tender port: queue counted' : 'Times include the way back'}</span>
+  </div>
+  <div class="grid grid-cols-2 gap-3 border-b border-navy/10 p-5">
+    <label class="col-span-2 block text-sm text-navy/70">All aboard (ship time)
+      <input type="time" step="900" value={defaultAA} data-aa class="mt-1 block h-11 w-full min-w-0 rounded-lg border border-navy/15 bg-mist px-3 text-lg font-semibold tabular-nums text-navy" />
+    </label>
+    <label class="block text-sm text-navy/70">Ship’s clock
+      <select data-off class="mt-1 block h-11 w-full min-w-0 rounded-lg border border-navy/15 bg-mist px-2 text-sm font-semibold text-navy">
+        <option value="0">Same as port</option><option value="60">1 h ahead</option><option value="-60">1 h behind</option>
+      </select>
+    </label>
+    <label class="block text-sm text-navy/70">Extra margin
+      <select data-margin class="mt-1 block h-11 w-full min-w-0 rounded-lg border border-navy/15 bg-mist px-2 text-sm font-semibold text-navy">
+        <option value="0">None</option><option value="15">+15 min</option><option value="30">+30 min</option>
+      </select>
+    </label>
+  </div>
+  <ul class="divide-y divide-navy/10">
+    {rows.map((r) => (
+      <li class="flex items-start justify-between gap-4 px-5 py-3.5" data-min={r.minutesBeforeAllAboard}>
+        <span class="min-w-0"><span class="block font-semibold">{r.from}</span><span class="block text-sm text-navy/65">{r.how}</span></span>
+        <span class="flex-shrink-0 text-right"><span class="block text-xl font-semibold tabular-nums" data-t>{fmt(aa - r.minutesBeforeAllAboard)}</span><span class="block text-xs tabular-nums text-navy/55" data-ship></span></span>
+      </li>
+    ))}
+  </ul>
+  <div class="space-y-3 bg-mist px-5 py-4">
+    <p class="text-sm text-navy/70">Times are port time, the time your phone shows ashore.</p>
+    <a href={app(`/day/${slug}?aa=${encodeURIComponent(defaultAA)}`)} data-plan class="btn-navy h-11 w-full text-sm" rel="nofollow">Plan this day to my ship</a>
+  </div>
+</section>
+<script is:inline>
+(function () {
+  if (window.__lb) return; window.__lb = 1;
+  function init() { document.querySelectorAll('[data-leaveby]').forEach(function (box) {
+    var aa = box.querySelector('[data-aa]'), off = box.querySelector('[data-off]'), mg = box.querySelector('[data-margin]'), plan = box.querySelector('[data-plan]');
+    var f = function (x) { x = ((Math.round(x) % 1440) + 1440) % 1440; return String(Math.floor(x / 60)).padStart(2, '0') + ':' + String(x % 60).padStart(2, '0'); };
+    function run() {
+      var p = (aa.value || '17:30').split(':'); var a = (+p[0]) * 60 + (+p[1] || 0); var o = +off.value; var m = +mg.value; var local = a - o;
+      box.querySelectorAll('[data-min]').forEach(function (li) {
+        var t = local - (+li.getAttribute('data-min')) - m;
+        li.querySelector('[data-t]').textContent = f(t);
+        li.querySelector('[data-ship]').textContent = o ? f(t + o) + ' ship' : '';
+      });
+      var u = new URL(plan.href); u.searchParams.set('aa', aa.value || '17:30'); if (o) u.searchParams.set('ship', (o > 0 ? '+' : '') + (o / 60)); else u.searchParams.delete('ship'); if (m) u.searchParams.set('m', m); else u.searchParams.delete('m'); plan.href = u.toString();
+    }
+    [aa, off, mg].forEach(function (el) { el.addEventListener('input', run); el.addEventListener('change', run); });
+    run();
+  }); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();
+</script>

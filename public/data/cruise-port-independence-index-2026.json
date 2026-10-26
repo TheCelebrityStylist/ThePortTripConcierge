@@ -1,0 +1,58 @@
+{
+  "name": "PortTrip Cruise Port Independence Index 2026",
+  "edition": "2026 Edition",
+  "methodologyVersion": "1.0",
+  "publicationDate": "2026-08-19",
+  "lastUpdated": "2026-08-19",
+  "license": "Citation permitted with attribution to PortTrip and link to https://porttrip.com/cruise-port-independence-index",
+  "ports": [
+    {
+      "port": "Barcelona",
+      "diyScore": 88,
+      "recommendedOption": "diy",
+      "typicalSaving": 82,
+      "returnRisk": "Low",
+      "tender": "No",
+      "transportComplexity": "Low",
+      "minimumRecommendedReturnBuffer": 90,
+      "confidence": 94,
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "port": "Naples",
+      "diyScore": 81,
+      "recommendedOption": "diy",
+      "typicalSaving": 118,
+      "returnRisk": "Low to moderate",
+      "tender": "No",
+      "transportComplexity": "Moderate",
+      "minimumRecommendedReturnBuffer": 90,
+      "confidence": 91,
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "port": "Rome",
+      "diyScore": 77,
+      "recommendedOption": "diy",
+      "typicalSaving": 147,
+      "returnRisk": "Moderate",
+      "tender": "No",
+      "transportComplexity": "Moderate",
+      "minimumRecommendedReturnBuffer": 102,
+      "confidence": 92,
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "port": "Santorini",
+      "diyScore": 48,
+      "recommendedOption": "independent_excursion",
+      "typicalSaving": 58,
+      "returnRisk": "Elevated",
+      "tender": "Yes",
+      "transportComplexity": "High",
+      "minimumRecommendedReturnBuffer": 150,
+      "confidence": 86,
+      "lastVerified": "2026-08-19"
+    }
+  ]
+}

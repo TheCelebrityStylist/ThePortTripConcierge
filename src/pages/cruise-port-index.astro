@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import { CAT, REGIONS } from '../lib/ports.js';
+// Score (0–10): getting to town 0–4 · return safety 0–4 · time in town 0–2. Same method as before the move.
+const ACCESS = { walk: 'Walk to town', 'walk-or-ride': 'Walk or short ride', tender: 'Tender port', transport: 'Transport needed' };
+const RISK = { low: 'Low', medium: 'Medium', high: 'High' };
+const rows = Object.entries(CAT).map(([slug, g]) => {
+  const d = g.sd || {};
+  let getting = 1;
+  if (d.access === 'walk') getting = d.walkMinutes != null && d.walkMinutes <= 20 ? 4 : 3;
+  else if (d.access === 'walk-or-ride' || d.access === 'tender') getting = 2;
+  const safety = d.returnRisk === 'low' ? 4 : d.returnRisk === 'medium' ? 2 : 0;
+  const centre = d.leaveBy?.[0]?.minutesBeforeAllAboard ?? null;
+  const time = centre == null ? 0 : centre <= 75 ? 2 : centre <= 105 ? 1 : 0;
+  return { slug, city: g.city, country: g.country, region: g.region || 'Other', access: d.access, walkMinutes: d.walkMinutes, risk: d.returnRisk, centre, total: getting + safety + time };
+}).sort((a, b) => b.total - a.total || (a.centre ?? 999) - (b.centre ?? 999) || a.city.localeCompare(b.city));
+let rank = 0, prev = null; rows.forEach((r, i) => { if (r.total !== prev) { rank = i + 1; prev = r.total; } r.rank = rank; });
+const n = rows.length;
+const count = (a) => rows.filter((r) => r.access === a).length;
+const tone = (v) => (v >= 8 ? 'bg-emerald-600' : v >= 5 ? 'bg-amber-500' : 'bg-red-600');
+const riskTone = { low: 'bg-emerald-600/10 text-emerald-800', medium: 'bg-amber-500/15 text-amber-900', high: 'bg-red-600/10 text-red-800' };
+const FAQS = [
+  ['What is the PortTrip Cruise Port Index?', `A ranking of ${n} cruise ports by how easy they are to do on your own, without a ship excursion. Each port gets a score out of 10 for getting to town, return safety and time in town, based on PortTrip guides checked against official sources in October 2026.`],
+  ['How is the score calculated?', 'Getting to town is worth up to 4 points, return safety up to 4 and time in town up to 2. The full method is on this page. No port pays to be listed.'],
+  ['Can I use this data?', 'Yes. You can cite the index and its scores with a link to porttrip.com/cruise-port-index.'],
+];
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'PortTrip Cruise Port Index 2026', numberOfItems: n, itemListElement: rows.map((r, i) => ({ '@type': 'ListItem', position: i + 1, name: `${r.city} cruise port`, url: `https://porttrip.com/ports/${r.slug}` })) },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQS.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={`Cruise Port Index 2026: ${n} ports ranked by DIY ease | PortTrip`} description={`Which cruise ports can you do on your own? ${n} ports scored out of 10 for getting to town, return risk and time ashore, from guides checked in October 2026.`} path="/cruise-port-index" jsonLd={jsonLd}>
+  <div class="wrap pb-20 pt-10">
+    <p class="text-sm text-navy/60">PortTrip Cruise Port Index 2026</p>
+    <h1 class="mt-2 max-w-4xl text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">{n} cruise ports, ranked by how easy they are on your own</h1>
+    <p class="mt-4 max-w-3xl text-lg text-navy/75">Can you walk off the ship into town, or do you need a train, a shuttle or a tender? How late can you stay before heading back? Every port is scored out of 10, using facts checked against port authorities, transport operators and official sites in October 2026.</p>
+
+    <div class="mt-8 grid gap-3 sm:grid-cols-3">
+      {[['Walk off into town', count('walk')], ['Need transport to town', count('transport')], ['Usually tender', count('tender')]].map(([l, v]) => <div class="card p-5"><p class="text-sm text-navy/60">{l}</p><p class="mt-1 text-3xl font-semibold">{v} <span class="text-base font-normal text-navy/50">of {n}</span></p></div>)}
+    </div>
+    <div class="mt-4 grid gap-4 sm:grid-cols-2">
+      <div class="rounded-2xl bg-emerald-600/5 p-5 ring-1 ring-emerald-600/20"><p class="font-semibold text-emerald-800">Easiest on your own</p><ol class="mt-2 space-y-1.5">{rows.slice(0, 5).map((r) => <li class="flex justify-between"><a href={`/ports/${r.slug}`} class="font-medium hover:underline">{r.city}</a><span class="font-semibold text-emerald-800">{r.total}/10</span></li>)}</ol></div>
+      <div class="rounded-2xl bg-red-600/5 p-5 ring-1 ring-red-600/20"><p class="font-semibold text-red-800">Hardest on your own</p><ol class="mt-2 space-y-1.5">{rows.slice(-5).reverse().map((r) => <li class="flex justify-between"><a href={`/ports/${r.slug}`} class="font-medium hover:underline">{r.city}</a><span class="font-semibold text-red-800">{r.total}/10</span></li>)}</ol></div>
+    </div>
+
+    <div class="mt-10 flex flex-wrap gap-1.5" role="group" aria-label="Filter by region">
+      {['All', ...Object.keys(REGIONS)].map((r, i) => <button type="button" data-region-btn={r} aria-pressed={i === 0 ? 'true' : 'false'} class="rounded-full border border-navy/20 px-3 py-1.5 text-xs font-semibold aria-pressed:border-navy aria-pressed:bg-navy aria-pressed:text-white">{r}</button>)}
+    </div>
+    <div class="mt-4 overflow-hidden rounded-2xl ring-1 ring-navy/10">
+      <div class="hidden grid-cols-[3rem_1.6fr_1.2fr_1fr_0.8fr_4rem] gap-3 bg-mist px-4 py-2 text-xs font-semibold text-navy/60 md:grid"><span>Rank</span><span>Port</span><span>Getting to town</span><span>Leave the centre</span><span>Return risk</span><span class="text-right">Score</span></div>
+      <ul class="divide-y divide-navy/10">
+        {rows.map((r) => (
+          <li data-region={r.region}><a href={`/ports/${r.slug}`} class="grid grid-cols-[2.5rem_1fr_auto] items-center gap-3 px-4 py-3 hover:bg-mist md:grid-cols-[3rem_1.6fr_1.2fr_1fr_0.8fr_4rem]">
+            <span class="text-lg font-semibold text-navy/50">{r.rank}</span>
+            <span class="min-w-0"><span class="block font-semibold">{r.city}</span><span class="block text-xs text-navy/55">{r.country} · {r.region}</span></span>
+            <span class="hidden text-sm text-navy/80 md:block">{ACCESS[r.access] || '—'}{r.walkMinutes != null && r.access !== 'transport' ? ` · ${r.walkMinutes} min walk` : ''}</span>
+            <span class="hidden text-sm text-navy/80 md:block">{r.centre != null ? `${r.centre} min before all-aboard` : '—'}</span>
+            <span class="hidden md:block"><span class:list={['rounded-full px-2.5 py-1 text-xs font-semibold', riskTone[r.risk]]}>{RISK[r.risk] || '—'}</span></span>
+            <span class="text-right"><span class:list={['inline-flex h-9 w-12 items-center justify-center rounded-xl text-lg font-semibold text-white', tone(r.total)]}>{r.total}</span></span>
+          </a></li>
+        ))}
+      </ul>
+    </div>
+
+    <section id="method" class="mt-12 scroll-mt-20 rounded-2xl bg-mist p-6">
+      <h2 class="text-xl font-semibold">How the score works</h2>
+      <ul class="mt-3 space-y-2 text-navy/85">
+        <li><strong>Getting to town, up to 4 points.</strong> Walk to the centre in 20 minutes or less: 4. Longer walk: 3. Walk or short ride, or tender: 2. Transport needed: 1.</li>
+        <li><strong>Return safety, up to 4 points.</strong> Low risk of missing the ship on a normal day on your own: 4. Medium (shuttles, buses, queues): 2. High (the usual day out depends on trains, long transfers or tender queues with known gaps): 0.</li>
+        <li><strong>Time in town, up to 2 points.</strong> How early you must leave the centre, counted back from all-aboard. 75 minutes or less: 2. Up to 105 minutes: 1. More: 0.</li>
+      </ul>
+      <p class="mt-3 text-sm text-navy/65">Inputs come from each port's guide, which lists its sources. Berths change from call to call; the score reflects the usual berth for large ships. No port, cruise line or tour operator pays to be included or ranked. Free to cite with a link to porttrip.com/cruise-port-index. Run a cruise blog? <a href="/leave-by-widget" class="font-semibold underline">Add leave-by times for any of these ports</a>.</p>
+    </section>
+    <section class="mt-12 max-w-3xl">
+      <h2 class="text-xl font-semibold">Common questions</h2>
+      <div class="mt-3 divide-y divide-navy/10 border-y border-navy/10">{FAQS.map(([q, a]) => <details class="group"><summary class="flex cursor-pointer list-none justify-between gap-4 py-4 [&::-webkit-details-marker]:hidden"><h3 class="font-semibold">{q}</h3><span class="text-sea group-open:rotate-45 transition-transform" aria-hidden="true">+</span></summary><p class="pb-4 text-navy/80">{a}</p></details>)}</div>
+    </section>
+  </div>
+  <script is:inline>
+    document.querySelectorAll('[data-region-btn]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var r = b.getAttribute('data-region-btn');
+        document.querySelectorAll('[data-region-btn]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+        document.querySelectorAll('li[data-region]').forEach(function (li) { li.hidden = r !== 'All' && li.getAttribute('data-region') !== r; });
+      });
+    });
+  </script>
+</Base>

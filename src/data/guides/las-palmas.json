@@ -1,0 +1,420 @@
+{
+ "slug": "las-palmas",
+ "city": "Las Palmas de Gran Canaria",
+ "portName": "Las Palmas Cruise Terminal (Muelle Santa Catalina)",
+ "townName": "Vegueta and Triana",
+ "country": "Spain",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Spanish",
+ "timezone": "WET (UTC+0), WEST (UTC+1) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Las Palmas cruise port guide: Vegueta, Las Canteras, buses",
+ "seoDescription": "Ships berth at Muelle Santa Catalina, a short walk from Parque Santa Catalina. Las Canteras beach on foot; bus 1 to Vegueta €1.40 (2026). Cathedral €8.",
+ "quickAnswer": "Ships berth alongside at the Santa Catalina cruise terminal, so there is no tender. Parque Santa Catalina is about 10 minutes' walk and Las Canteras beach is just beyond it; for the old town of Vegueta take yellow city bus 1 (Puerto–Teatro, €1.40 paid to the driver, 2026) or a taxi. Be back at the terminal 60 minutes before all-aboard, and leave Vegueta 90 minutes before.",
+ "intro": "Las Palmas is a working city, not a resort, and the cruise terminal sits right on its doorstep. A new terminal building on Muelle Santa Catalina opened in October 2025 with three boarding bridges and room for four ships. From the gate you walk into Parque Santa Catalina, with Las Canteras beach on the far side of the isthmus. The historic quarter, Vegueta, is at the far southern end of the city centre, so the classic day is a bus or taxi ride south in the morning and the beach on the way back.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Las Palmas Cruise Terminal, Muelle Santa Catalina",
+   "distanceToCentreKm": 0.4,
+   "notes": "Opened 2 October 2025; operated by Global Ports Holding. 14,000 m² building, three boarding bridges, four berths. The operator gives the city centre (the Santa Catalina area) as 390 m away. A landscaped esplanade and palm grove lead from the terminal to the city. Taxi rank at the terminal; El Muelle shopping centre is next door."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 10,
+  "km": 0.4,
+  "detail": "Parque Santa Catalina, the El Muelle shopping centre and Las Canteras beach are all walkable and flat. Vegueta and Triana are at the southern end of the city centre; use bus 1, the tourist bus or a taxi."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 10 min to Parque Santa Catalina; Las Canteras a few minutes further",
+   "detail": "Walk out through the terminal esplanade to Parque Santa Catalina. For the beach, cross the park and continue down Calle Luis Morote to the promenade."
+  },
+  {
+   "mode": "City bus (Guaguas Municipales) line 1, Puerto–Teatro",
+   "cost": "€1.40 single trip, paid to the driver (2026)",
+   "time": "Allow up to 30 min to Triana/Vegueta",
+   "detail": "Yellow city buses. Line 1 stops at Parque Santa Catalina (listed in the Puerto-to-Teatro direction) and at Triana (Parque San Telmo), ending at Teatro on the edge of Vegueta. Departures every 10–20 minutes on weekdays and about every 15–17 minutes at weekends and on holidays, from 05:30. A single ticket is valid for one journey only."
+  },
+  {
+   "mode": "Tourist bus (hop-on hop-off)",
+   "cost": "From €18 (2026)",
+   "time": "About 1.5 hours for the full loop; about 1 hour from the port to Vegueta",
+   "detail": "Stops at Muelle Santa Catalina outside the terminal. Runs 10:00–18:00 daily, every 20 minutes in summer and every 35 minutes in winter. Stops include Las Canteras, Pueblo Canario, Triana and Vegueta. It is slow to Vegueta; use it as a tour, not as a shuttle."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Metered; fare not verified",
+   "time": "Short ride to Vegueta",
+   "detail": "White taxis wait at the cruise terminal rank, and there is another rank at Parque San Telmo in Triana for the return."
+  },
+  {
+   "mode": "Regional bus (Global, blue) line 30 to Maspalomas",
+   "cost": "Not verified",
+   "time": "About 37 min by road to Maspalomas per the tourist board",
+   "detail": "Line 30 runs Las Palmas / Santa Catalina / San Telmo / Faro Maspalomas. Only for long calls; leave a wide margin for the return."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the terminal 60 minutes before all-aboard. Leave Vegueta or Triana 90 minutes before all-aboard, and Maspalomas or other island trips at least 2.5 hours before.",
+  "detail": "From Las Canteras or Parque Santa Catalina the walk back is short, so the usual 60-minute buffer is enough. From Vegueta allow for waiting for bus 1 plus city traffic. Island trips depend on the motorway and on hourly-type regional buses.",
+  "emergencyFallback": "Take a taxi from the rank at Parque San Telmo (Triana) or flag one down. If you will miss all-aboard, call the port agent number on your daily programme immediately."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Vegueta old town and cathedral",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Bus 1 €1.40 each way + cathedral €8 (2026)",
+   "saving": "Usually large; this is easy to do alone"
+  },
+  {
+   "item": "Las Canteras beach",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free, on foot",
+   "saving": "Whole excursion price"
+  }
+ ],
+ "excursionAdvice": "Las Palmas city is easy without a tour: the beach is a walk and Vegueta is one city bus away. A ship excursion makes sense for the interior (Roque Nublo, Tejeda, the Bandama caldera) or for Maspalomas and Puerto de Mogán, where mountain roads, motorway traffic and infrequent buses make an independent return riskier.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, on a weekday.",
+  "steps": [
+   {
+    "time": "08:45",
+    "what": "Walk off the ship through the esplanade to Parque Santa Catalina (about 10 minutes)."
+   },
+   {
+    "time": "09:00",
+    "what": "Take bus 1 towards Teatro from the Parque Santa Catalina stop; get off at Triana or Teatro."
+   },
+   {
+    "time": "09:45",
+    "what": "Vegueta Market on Calle Mendizábal for fruit or a churros breakfast."
+   },
+   {
+    "time": "10:15",
+    "what": "Cathedral of Santa Ana and its sacred art museum (opens 10:00, €8)."
+   },
+   {
+    "time": "11:30",
+    "what": "Casa de Colón (€4), then the lanes and squares of Vegueta."
+   },
+   {
+    "time": "12:45",
+    "what": "Walk across to Triana: Calle Mayor de Triana and Parque San Telmo. Lunch in Triana or Vegueta."
+   },
+   {
+    "time": "14:00",
+    "what": "Bus 1 back towards Puerto from Triana (Parque San Telmo); ride back to the Santa Catalina area (or take a taxi from the San Telmo rank)."
+   },
+   {
+    "time": "14:45",
+    "what": "Las Canteras beach: walk the promenade or swim inside the reef."
+   },
+   {
+    "time": "16:00",
+    "what": "Walk back via Parque Santa Catalina to the terminal."
+   },
+   {
+    "time": "16:30",
+    "what": "On board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Vegueta",
+   "why": "The original colonial town, founded in the late 15th century, with stone streets, the cathedral and the main museums.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Free to walk",
+   "tip": "On Sunday mornings a craft market fills the streets behind the cathedral; it often pauses in July and August."
+  },
+  {
+   "name": "Cathedral of Santa Ana and Museo Diocesano de Arte Sacro",
+   "why": "The island's cathedral on Plaza Santa Ana, visited together with its sacred art museum.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "€8 general, €6 reduced (over-65s, students 13–23) (2026)",
+   "tip": "Visiting hours Monday–Friday 10:00–18:00 (last entry 17:30) and Saturday 10:00–16:00 (last entry 15:30). No visiting hours are listed for Sunday, and hours can change without notice for services."
+  },
+  {
+   "name": "Casa de Colón",
+   "why": "Museum on the site of the governor's house where Columbus stopped in 1492, covering his voyages and the Canaries' links with the Americas.",
+   "timeNeeded": "1 hour",
+   "cost": "€4 (2026)",
+   "tip": "Open Monday–Saturday 10:00–18:00, Sundays and holidays 10:00–15:00. Closed 1 January and 24, 25 and 31 December."
+  },
+  {
+   "name": "Triana and Parque San Telmo",
+   "why": "Shopping street (Calle Mayor de Triana), the Pérez Galdós theatre and house-museum, and the San Telmo hermitage. Two minutes' walk from Vegueta.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "Parque San Telmo has a taxi rank and the bus 1 stop for the return to the port."
+  },
+  {
+   "name": "Playa de Las Canteras",
+   "why": "A city beach more than 3 km long, sheltered by a natural volcanic reef called La Barra, with a promenade of cafés.",
+   "timeNeeded": "1–3 hours",
+   "cost": "Free",
+   "tip": "Closest end to the ship is reached via Parque Santa Catalina and Calle Luis Morote."
+  },
+  {
+   "name": "Parque Santa Catalina",
+   "why": "The square at the terminal gate, with cafés and the Museo Elder of science and technology.",
+   "timeNeeded": "30 minutes (longer for the museum)",
+   "cost": "Free; Museo Elder price not verified",
+   "tip": "Check museoelder.es for current hours and tickets before planning around it."
+  },
+  {
+   "name": "Mercado de Vegueta",
+   "why": "The city's old food market, with tropical fruit stalls and small bars.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to enter",
+   "tip": "Open Monday–Thursday 07:00–14:00, Friday, Saturday and holiday eves 07:00–14:30. Go in the morning."
+  },
+  {
+   "name": "Pueblo Canario",
+   "why": "A quiet enclave in Ciudad Jardín with the Néstor museum of modernist painting.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free to walk",
+   "tip": "On the tourist-bus route between the port and Triana."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Playa de Las Canteras",
+   "howToGetThere": "Walk through Parque Santa Catalina and down Calle Luis Morote",
+   "time": "About 10–15 min on foot",
+   "cost": "Free",
+   "note": "Calm water inside the reef at the northern end. Do not leave cameras or phones unattended while swimming."
+  },
+  {
+   "name": "Maspalomas dunes and beach",
+   "howToGetThere": "Global line 30 or a taxi; ship excursions also go",
+   "time": "About 37 min by road each way",
+   "cost": "Bus fare not verified",
+   "note": "Only on a long call; leave at least 2.5 hours before all-aboard."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Tapas and drinks in an 1891 iron market hall",
+   "where": "Mercado del Puerto, Calle Albareda (north end of Las Canteras)",
+   "price": null
+  },
+  {
+   "dish": "Churros for breakfast, island wines and cheeses",
+   "where": "Bars inside Mercado de Vegueta, Calle Mendizábal",
+   "price": null
+  },
+  {
+   "dish": "Papas arrugadas with mojo and other Canarian tapas",
+   "where": "Tapas bars in Vegueta",
+   "price": null
+  },
+  {
+   "dish": "Menú del día (set lunch)",
+   "where": "Restaurants around Calle Mayor de Triana",
+   "price": null
+  },
+  {
+   "dish": "Coffee or a drink on the promenade",
+   "where": "Cafés along the Las Canteras promenade",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Trying to walk to Vegueta from the ship.",
+   "fix": "Vegueta is at the other end of the city centre. Take bus 1 from Parque Santa Catalina or a taxi, and save your legs for the old town."
+  },
+  {
+   "mistake": "Planning the cathedral on a Sunday.",
+   "fix": "Visiting hours are listed only for Monday–Saturday. On a Sunday call, do Casa de Colón (open 10:00–15:00) and the Vegueta craft market instead."
+  },
+  {
+   "mistake": "Arriving at Mercado de Vegueta after lunch.",
+   "fix": "It closes at 14:00 (14:30 on Fridays and Saturdays). Go first thing."
+  },
+  {
+   "mistake": "Using the tourist bus as transport back to the ship from Vegueta.",
+   "fix": "The loop takes about an hour from the port to Vegueta and runs every 20–35 minutes. For the return use bus 1 or a taxi from Parque San Telmo."
+  },
+  {
+   "mistake": "Leaving belongings on the sand at Las Canteras.",
+   "fix": "Swim in turns or bring only what you need."
+  }
+ ],
+ "safety": "Las Palmas is a large city that is generally safe for visitors. Use normal city precautions with phones and bags in busy areas such as Parque Santa Catalina and on buses, and do not leave belongings unattended on the beach. Cross the port roads at marked crossings. In summer, carry water and sun protection for the walk along Las Canteras.",
+ "scams": [
+  "Theft from unattended beach bags at Las Canteras: keep valuables with you or swim in turns."
+ ],
+ "emergencyNumber": "112",
+ "accessibility": "The new terminal was built with universal accessibility, and the route to Parque Santa Catalina and along the Las Canteras promenade is flat; Las Canteras has a dedicated wheelchair area. Vegueta has cobbled streets that are hard going for wheelchairs and scooters. Check bus accessibility with the operator before relying on it; a taxi to Vegueta is the simpler option.",
+ "rainyDay": "Spend the day indoors in Vegueta: the cathedral and its sacred art museum, Casa de Colón, the Museo Canario and the CAAM modern art centre are all close together. The El Muelle shopping centre next to the terminal and the Museo Elder at Parque Santa Catalina are options near the ship.",
+ "crowdTips": "The season peaks from October to April and the terminal can take four ships at once. Parque Santa Catalina is busiest just after ships arrive, and the tourist bus fills at the port stop. Head to Vegueta early on bus 1, see the cathedral at opening, and keep the beach for the afternoon when groups have moved on.",
+ "faqs": [
+  {
+   "q": "Is Las Palmas a tender port?",
+   "a": "No. Ships berth alongside at the Santa Catalina cruise terminal, which has three boarding bridges."
+  },
+  {
+   "q": "Is Las Palmas walkable from the cruise port?",
+   "a": "Partly. Parque Santa Catalina is about 10 minutes' walk and Las Canteras beach a few minutes beyond. Vegueta, the old town, needs a bus or taxi."
+  },
+  {
+   "q": "How do I get from Las Palmas cruise port to the old town?",
+   "a": "Take yellow city bus 1 (Puerto–Teatro) from Parque Santa Catalina to Triana or Teatro. It costs €1.40, paid to the driver (2026). Allow up to 30 minutes. A taxi from the terminal rank is quicker."
+  },
+  {
+   "q": "How far is Las Canteras beach from the cruise terminal?",
+   "a": "About 10–15 minutes on foot via Parque Santa Catalina and Calle Luis Morote."
+  },
+  {
+   "q": "How much is Las Palmas cathedral?",
+   "a": "€8 general and €6 reduced in 2026, including the sacred art museum. Open Monday–Friday 10:00–18:00 and Saturday 10:00–16:00."
+  },
+  {
+   "q": "What can I do in Las Palmas in one day from a cruise ship?",
+   "a": "Vegueta in the morning (cathedral, Casa de Colón, the market), Triana for lunch, then Las Canteras beach on the way back to the ship."
+  },
+  {
+   "q": "Can I visit Maspalomas from Las Palmas cruise port?",
+   "a": "On a long call, yes: about 37 minutes by road, or Global bus line 30. Leave Maspalomas at least 2.5 hours before all-aboard."
+  },
+  {
+   "q": "Is Las Palmas safe?",
+   "a": "Yes, with normal city precautions. Keep an eye on bags on the beach and in busy squares."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Vegueta"
+  },
+  {
+   "name": "Cathedral of Santa Ana"
+  },
+  {
+   "name": "Casa de Colón"
+  },
+  {
+   "name": "Playa de Las Canteras"
+  },
+  {
+   "name": "Triana"
+  },
+  {
+   "name": "Mercado de Vegueta"
+  },
+  {
+   "name": "Parque Santa Catalina"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Global Ports Holding – Las Palmas Cruise Port",
+   "url": "https://www.globalportsholding.com/our-ports/las-palmas-cruise-port/"
+  },
+  {
+   "title": "Patronato de Turismo de Gran Canaria – Gran Canaria cruise passenger leaflet (PDF)",
+   "url": "https://www.grancanaria.com/turismo/fileadmin/PDF/folletosturisticos/GC_Cruceros_ING_.pdf"
+  },
+  {
+   "title": "Gran Canaria tourist board – 24 hours in the city",
+   "url": "https://grancanaria.com/turismo/en/the-island/municipios-de-gran-canaria/24-hours-in-the-city"
+  },
+  {
+   "title": "Gran Canaria tourist board – Museo Elder data",
+   "url": "https://www.grancanaria.com/turismo/en/culture/museums/datos-de-museos-de-gran-canaria/?id_museo=7"
+  },
+  {
+   "title": "LPA Visit (official tourist site of Las Palmas de GC) – Santa Catalina Cruise Pier",
+   "url": "https://lpavisit.com/en/?p=19000"
+  },
+  {
+   "title": "LPA Visit – Casa de Colón",
+   "url": "https://lpavisit.com/en/que-hacer/experiencias/museos/700-casa-de-colon"
+  },
+  {
+   "title": "LPA Visit – Vegueta Market",
+   "url": "https://lpavisit.com/en/?p=19095"
+  },
+  {
+   "title": "LPA Visit – Museo Elder",
+   "url": "https://lpavisit.com/en/?p=19002"
+  },
+  {
+   "title": "Guaguas Municipales – home and fare products",
+   "url": "https://www.guaguas.com/"
+  },
+  {
+   "title": "Guaguas Municipales – Pago directo (single fare)",
+   "url": "https://www.guaguas.com/tarifas-carnets/pago-directo"
+  },
+  {
+   "title": "Guaguas Municipales – Lines and routes",
+   "url": "https://www.guaguas.com/lineas"
+  },
+  {
+   "title": "Guaguas Municipales – Line 1 Teatro–Puerto timetable",
+   "url": "https://www.guaguas.com/lineas/1"
+  },
+  {
+   "title": "Catedral de Canarias – official site",
+   "url": "https://catedraldecanarias.es/"
+  },
+  {
+   "title": "Catedral de Canarias – Hours and prices",
+   "url": "https://catedraldecanarias.es/horarios-catedral-torre-y-museo-arte-sacro/"
+  },
+  {
+   "title": "Hello Canary Islands (Canary Islands Tourism) – Historic route from the port to Triana and Vegueta",
+   "url": "https://hellocanaryislands.com/cruise-excursions/gran-canaria/historic-route-from-the-port-of-las-palmas-to-triana-and-vegueta"
+  },
+  {
+   "title": "elDiario.es Canarias Ahora – Puerto de Las Palmas opens new cruise terminal (October 2025)",
+   "url": "https://www.eldiario.es/canariasahora/economia/puerto-palmas-estrena-terminal-cruceros-grande-europa_1_12652064.html"
+  },
+  {
+   "title": "CruiseMapper – Las Palmas opens Europe's largest cruise terminal",
+   "url": "https://www.cruisemapper.com/news/15389-las-palmas-cruise-port-opens-europe-largest-cruise-terminal"
+  },
+  {
+   "title": "Canarias Lovers – Visiting Santa Ana Cathedral (updated 2026)",
+   "url": "https://canarias-lovers.com/es/visitar-catedral-santa-ana-las-palmas-gran-canaria/"
+  },
+  {
+   "title": "Gran Canaria Info – Quick Las Palmas guide for cruise ship passengers",
+   "url": "https://gran-canaria-info.com/en/content/resorts-places/las-palmas-de-gran-canaria/quick-las-palmas-guide-for-cruise-ship-passengers"
+  },
+  {
+   "title": "Gran Canaria Info – Guide to the markets of Las Palmas",
+   "url": "https://autodiscover.gran-canaria-info.com/en/content/markets/guide-to-all-the-markets-in-las-palmas-de-gran-canaria"
+  },
+  {
+   "title": "Adventour Begins – Las Palmas cruise port guide",
+   "url": "https://adventourbegins.com/las-palmas-port-guide-gran-canaria/"
+  },
+  {
+   "title": "Paul and Carole Love to Travel – Las Palmas cruise port information",
+   "url": "https://paulandcarolelovetotravel.com/las-palmas-cruise-port-information/"
+  }
+ ],
+ "uncertain": [
+  "Whether the cathedral tower (roof viewpoint and lift) is included in the €8 ticket or priced separately, and its Sunday hours.",
+  "Museo Elder current opening days and ticket price.",
+  "Whether Guaguas Municipales drivers accept contactless bank cards for the single fare.",
+  "Exact bus 1 journey time from Parque Santa Catalina to Teatro.",
+  "Taxi fares from the terminal to Vegueta; fixed-price city taxi tours published by LPA Visit are undated.",
+  "Global line 30 fare and frequency to Maspalomas.",
+  "Opening hours of Mercado del Puerto."
+ ]
+}

@@ -1,0 +1,366 @@
+{
+ "slug": "st-thomas",
+ "city": "Charlotte Amalie",
+ "portName": "Havensight (West Indian Company Dock) and Crown Bay",
+ "townName": "downtown Charlotte Amalie",
+ "country": "US Virgin Islands",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English",
+ "timezone": "AST (UTC-4), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "St Thomas cruise port guide: Havensight, Crown Bay, Magens",
+ "seoDescription": "St Thomas cruise port 2026: Havensight is 1.7 miles from Charlotte Amalie. Magens Bay $5 entry plus $10–15 taxi each way, St John ferry $8.15, Fort $10.",
+ "quickAnswer": "Ships dock at Havensight (the West Indian Company Dock), 1.7 miles east of downtown Charlotte Amalie, or at Crown Bay, 2 miles west. From Havensight you can walk the shoreline pavement to town or take a shared taxi for 5–10 minutes; from Crown Bay take a taxi. Taxis charge per person, so agree the fare first, and be back on board 60 minutes before all-aboard.",
+ "intro": "St Thomas is a docking port with two piers, and which one you get changes the day. Havensight is the busier dock, beside Havensight Mall and the Skyride, with a long but manageable shoreline walk into Charlotte Amalie. Crown Bay, where the largest ships berth, is quieter and closer to Frenchtown, but the walk to town has stretches with no pavement. Most visitors split the day between the Danish-era downtown and a beach, usually Magens Bay. Taxis are shared open-air 'safari' vans that charge per person, and traffic drives on the left.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Havensight (West Indian Company Dock, WICO)",
+   "distanceToCentreKm": 2.7,
+   "notes": "The main cruise dock, with three berths on one pier. Havensight Mall, restaurants and a post office are a few minutes' walk from the ships, and the Skyride to Paradise Point is across the street from the mall. Taxis wait at the dock gates. Dredging of the channel and turning basin is planned from September 2026 to mid-2027."
+  },
+  {
+   "name": "Crown Bay (Austin 'Babe' Monsanto Marine Terminal)",
+   "distanceToCentreKm": 3.2,
+   "notes": "Run by the Virgin Islands Port Authority, on the west side of the harbour, near Frenchtown. Oasis-class ships berth here. A small shopping centre and welcome centre sit beyond the gates, and taxis gather in a designated area. Fewer taxis serve Crown Bay than Havensight."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 35,
+  "km": 2.7,
+  "detail": "From Havensight, leave by the security gate, turn left and follow the pavement beside the fence, through the Yacht Haven Grande marina, then along the shore into town: about 1.7 miles (2.7 km), flat and long, with little shade. From Crown Bay the walk is about 2 miles and parts of the route have no pavement; take a taxi. Downtown itself is walkable, but north of Main Street the streets climb steeply and pavements are narrow or missing."
+ },
+ "transportSections": [
+  {
+   "mode": "Walk (Havensight only)",
+   "cost": "Free",
+   "time": "About 35 min to downtown (1.7 miles)",
+   "detail": "Left out of the gate, through Yacht Haven Grande and along the shoreline pavement. Go in the morning, when it is cooler. Not recommended from Crown Bay."
+  },
+  {
+   "mode": "Taxi (shared 'safari' or van)",
+   "cost": "Per person, set by the VI Taxicab Commission. Magens Bay about $10–15 each way (2025); Coral World $20 each (2+ people, 2026); Crown Bay to the Skyride about $8 each way (2026)",
+   "time": "5–10 min to downtown; 15–20 min to Magens Bay; 20–25 min to Coral World",
+   "detail": "Most taxis are open-air safari vans that wait to fill up and may pick up others on the way. Fares are per person, not per car. Licensed taxis have a dome light and 'TP' on the plate; unmarked cars are not licensed. Confirm the fare before you get in. Complaints: VI Taxicab Commission, 340-693-4211."
+  },
+  {
+   "mode": "VITRAN public bus",
+   "cost": "$2 exact change (2026)",
+   "time": "Varies",
+   "detail": "Buses marked 'Red Hook' pass near Coral World, about 10 minutes' walk from the stop. Coral World itself calls the service unreliable from the cruise docks; do not rely on it for the return."
+  },
+  {
+   "mode": "Ferry to St John (from Red Hook)",
+   "cost": "$8.15 one way for non-residents, child $1, luggage $4 per item (2026)",
+   "time": "About 20 min crossing, hourly",
+   "detail": "Public ferry from Red Hook on the east end to Cruz Bay, St John, roughly hourly through the day. You first need a taxi across the island to Red Hook. A separate Inter Island Boat Services ferry runs from Crown Bay to Cruz Bay ($20 adult one way, 2026) but only a few times a day, with the last return from Cruz Bay at 16:15, too late for most ships."
+  },
+  {
+   "mode": "Rental car",
+   "cost": "—",
+   "time": "—",
+   "detail": "Traffic drives on the left. Roads are narrow, steep and winding, and the speed limit is 20 mph in town. For a single port day, taxis are simpler."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. Leave Magens Bay 90 minutes before all-aboard, Coral World and Coki Beach 2 hours before, and be on a ferry leaving Cruz Bay, St John, at least 3 hours before.",
+  "detail": "Downtown is 5–10 minutes from Havensight by taxi or about 35 minutes on foot. Magens Bay is 15–20 minutes by taxi, but safari vans wait to fill before leaving. Coral World is 20–25 minutes away. From St John you need the hourly ferry (20 minutes) and then a taxi across the island from Red Hook. If your ship is at Crown Bay, add time: fewer taxis wait there.",
+  "emergencyFallback": "Ask any licensed taxi (dome light, 'TP' plate) for 'Havensight' or 'Crown Bay' and confirm which dock your ship is at before you leave it. If you will be late, call the port agent number on your daily programme."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Magens Bay beach (plus Skyride)",
+   "ship": "Carnival 'Magen's Bay Beach & Skyride to Paradise Point': $92.99 adult, $72.99 child (2026)",
+   "diy": "Taxi about $10–15 each way per person plus $5 beach entry (2025); Skyride ticket bought separately",
+   "saving": "Usually substantial"
+  },
+  {
+   "item": "Skyride to Paradise Point",
+   "ship": "Holland America 'Skyride to Paradise Point On Your Own': from $34 (2026)",
+   "diy": "Walk 10–15 minutes from Havensight and buy at the base",
+   "saving": "Little; the excursion is essentially the ticket"
+  },
+  {
+   "item": "Island drive (Mountain Top, Drake's Seat)",
+   "ship": "Holland America 'St Thomas Island Drive': from $79, about 2 hours (2026)",
+   "diy": "Hire a licensed taxi for a tour; agree a set fee and the route first",
+   "saving": "Depends on group size"
+  },
+  {
+   "item": "Downtown Charlotte Amalie",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Walk free from Havensight, or a short taxi; Fort Christian $10",
+   "saving": "The full excursion price"
+  }
+ ],
+ "excursionAdvice": "Downtown, the Skyride and Magens Bay are easy to do yourself. St John is where a ship excursion earns its price: the day depends on a taxi across St Thomas, an hourly ferry and a taxi back, and the ship's tour carries the return guarantee. Catamaran and snorkelling trips are worth booking through the ship or an established operator. An island drive is cheaper with a group of four in a taxi, if you agree the price and a firm return time.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Havensight at 08:00 and all-aboard is 17:30. At Crown Bay, take a taxi both ways and allow extra time for the return.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk the shoreline from Havensight into town (about 35 minutes), or take a shared taxi."
+   },
+   {
+    "time": "09:15",
+    "what": "Fort Christian ($10, weekdays), then Emancipation Garden next door."
+   },
+   {
+    "time": "10:15",
+    "what": "Climb the 99 Steps, then walk back down through Main Street and the alleys of the shopping district."
+   },
+   {
+    "time": "11:15",
+    "what": "Shared taxi to Magens Bay (15–20 minutes). Pay the $5 entry."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch at Fairchild's Bar and Grill on the beach, then swim."
+   },
+   {
+    "time": "15:00",
+    "what": "Taxi back to Havensight; agree the per-person fare first."
+   },
+   {
+    "time": "15:30",
+    "what": "Skyride to Paradise Point, across from Havensight Mall, for the harbour view (about 15 minutes' ride, round trip)."
+   },
+   {
+    "time": "16:15",
+    "what": "Walk back to the ship."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Magens Bay",
+   "why": "A sheltered, heart-shaped bay on the north shore with calm water, lifeguards, showers and a beach bar.",
+   "timeNeeded": "3–4 hours with the taxi",
+   "cost": "$5 non-residents, under-12s free (2025); taxi about $10–15 each way per person",
+   "tip": "Arrive early on multi-ship days. Chairs, umbrellas and paddleboards are for hire."
+  },
+  {
+   "name": "Skyride to Paradise Point",
+   "why": "A cable car from beside Havensight to a viewpoint 700 feet above the harbour.",
+   "timeNeeded": "1 hour",
+   "cost": "Holland America sells it from $34 (2026); otherwise buy at the base",
+   "tip": "Across the street from Havensight Mall, 10–15 minutes on foot from the ship, with about 36 steps to climb. From Crown Bay, a taxi is about $8 each way."
+  },
+  {
+   "name": "Fort Christian",
+   "why": "Built by the Danes in the 1670s, the oldest landmark in the US Virgin Islands, now a museum on the waterfront.",
+   "timeNeeded": "45 minutes",
+   "cost": "$10 (2026)",
+   "tip": "Usually open 09:00–16:00, Monday to Friday; hours can vary."
+  },
+  {
+   "name": "99 Steps and Blackbeard's Castle",
+   "why": "An 18th-century Danish staircase of ship-ballast bricks leading up to Skytsborg Tower, a 17th-century watchtower.",
+   "timeNeeded": "45 minutes",
+   "cost": "Free to climb the steps",
+   "tip": "Steep and hot. There is no evidence Blackbeard ever lived there."
+  },
+  {
+   "name": "Main Street and Vendors Plaza",
+   "why": "The duty-free shopping streets and old warehouse alleys of the historic centre.",
+   "timeNeeded": "1 hour",
+   "cost": "Free to browse",
+   "tip": "US residents can bring back $1,600 of goods duty-free from the USVI, including up to five litres of alcohol under the rules."
+  },
+  {
+   "name": "Coral World Ocean Park and Coki Beach",
+   "why": "Marine park with an underwater observatory, next to Coki Beach, a snorkelling spot.",
+   "timeNeeded": "Half a day",
+   "cost": "Admission charged; taxi $20 per person each way (2+ people, 2026)",
+   "tip": "Open 09:00–16:00, ticket booth closes 15:00; closed Fridays and Saturdays from late August through September. Free parking for visitors."
+  },
+  {
+   "name": "Mountain Top and Drake's Seat",
+   "why": "Hilltop viewpoints: Mountain Top, about 1,200 feet up, looks over the British Virgin Islands; Drake's Seat overlooks Magens Bay.",
+   "timeNeeded": "2 hours by taxi tour",
+   "cost": "Agree a set taxi-tour fee",
+   "tip": "Mountain Top claims to be the home of the banana daiquiri."
+  },
+  {
+   "name": "St John (by ferry from Red Hook)",
+   "why": "The neighbouring island, mostly national park, with beaches such as Trunk Bay and Cinnamon Bay.",
+   "timeNeeded": "A full day",
+   "cost": "Ferry $8.15 each way for non-residents (2026), plus taxis on both islands",
+   "tip": "Only with an early dock and a late all-aboard. A ship tour is the safer choice."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Magens Bay",
+   "howToGetThere": "Shared taxi from either dock.",
+   "time": "15–20 min by taxi",
+   "cost": "$5 non-residents (2025); taxi about $10–15 each way per person",
+   "note": "Lifeguards, toilets, showers, bar and grill, rentals."
+  },
+  {
+   "name": "Coki Beach",
+   "howToGetThere": "Taxi to Coral World; the beach is next door.",
+   "time": "20–25 min by taxi",
+   "cost": "Taxi $20 per person each way (2+ people, 2026)",
+   "note": "Good snorkelling close to shore."
+  },
+  {
+   "name": "Sapphire Beach",
+   "howToGetThere": "Taxi to the east end.",
+   "time": "Taxi across the island; agree time and fare with the driver",
+   "cost": "Agree the per-person taxi fare first",
+   "note": "Faces Pillsbury Sound and St John."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Conch chowder, kallaloo soup and curry chicken roti",
+   "where": "Gladys' Café, Royal Dane Mall, downtown",
+   "price": null
+  },
+  {
+   "dish": "Fish with fungi (cornmeal side) or peas and rice",
+   "where": "Gladys' Café, Royal Dane Mall",
+   "price": null
+  },
+  {
+   "dish": "Beach lunch and drinks",
+   "where": "Fairchild's Bar and Grill, Magens Bay",
+   "price": null
+  },
+  {
+   "dish": "Banana daiquiri",
+   "where": "Mountain Top",
+   "price": null
+  },
+  {
+   "dish": "Café and light meals",
+   "where": "Yacht Haven Grande marina, on the walk from Havensight",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming the quoted taxi fare is for the whole group.",
+   "fix": "Fares are per person. Confirm the price per head and the destination before you get in."
+  },
+  {
+   "mistake": "Walking from Crown Bay to town.",
+   "fix": "Parts of the route have no pavement. Take a taxi from Crown Bay."
+  },
+  {
+   "mistake": "Not noting which dock the ship is at.",
+   "fix": "St Thomas has two cruise docks. Check your daily programme and tell the driver 'Havensight' or 'Crown Bay'."
+  },
+  {
+   "mistake": "Leaving St John too late.",
+   "fix": "The Red Hook ferry is hourly and then you need a taxi across St Thomas. Be on a ferry from Cruz Bay at least 3 hours before all-aboard, or take a ship tour."
+  },
+  {
+   "mistake": "Waiting until the last minute for a taxi at Magens Bay.",
+   "fix": "Safari vans wait to fill up. Start back 90 minutes before all-aboard."
+  },
+  {
+   "mistake": "Getting in an unmarked car.",
+   "fix": "Licensed taxis have a dome light and 'TP' on the plate; unmarked cars can charge unapproved rates."
+  }
+ ],
+ "safety": "The US Virgin Islands are a US territory and use US emergency services. In the cruise areas of Charlotte Amalie and at the main beaches, daytime is busy and the usual risks are petty theft and unsafe roads. Keep valuables out of sight, do not leave bags on the sand while you swim, and avoid quiet back streets and the hills above town after dark. Roads are steep and narrow and traffic drives on the left; look right first when crossing. Hurricane season runs from June to November, when ship schedules can change at short notice.",
+ "scams": [
+  "Unlicensed drivers offering rides at the dock gates. Use taxis with a dome light and 'TP' on the plate; the Port Authority warns unmarked taxis may charge unapproved rates.",
+  "A fare quoted per person being presented as a group price, or the reverse. Ask 'per person?' and agree the total before you get in.",
+  "Taxi tours that cut the agreed route or overrun your return time. Agree the stops, the fee and a firm drop-off time at the dock first."
+ ],
+ "emergencyNumber": "911",
+ "accessibility": "Havensight's pier and the mall area are flat, and the shoreline route to town is level but long, with narrow sections by the fence. Crown Bay's route to town has stretches with no pavement. Downtown, Main Street is flat, but the streets to the north climb steeply and pavements are narrow or missing; the 99 Steps are stairs only. The Skyride needs about 36 steps. Safari taxis are open vans with a step up; ship tours on open-air buses often exclude wheelchairs and walkers, so ask the ship for adapted transport.",
+ "rainyDay": "Fort Christian's museum and the downtown shops are indoors. Showers in St Thomas are usually short. Hilltop views from the Skyride or Mountain Top are not worth it in low cloud.",
+ "crowdTips": "St Thomas expects about 362 ship calls and 1.2 million cruise passengers in the 2026/27 season. With three berths at Havensight and three at Crown Bay, six large ships can be in at once. Magens Bay and the downtown shops are busiest from late morning to mid-afternoon on multi-ship days; go to the beach early or after 14:00. Channel dredging at Havensight is planned from September 2026 to mid-2027.",
+ "faqs": [
+  {
+   "q": "Is Charlotte Amalie walkable from the St Thomas cruise port?",
+   "a": "From Havensight, yes: about 1.7 miles (35 minutes) along the shoreline via Yacht Haven Grande. From Crown Bay, take a taxi; parts of the route have no pavement."
+  },
+  {
+   "q": "Which dock will my ship use in St Thomas?",
+   "a": "Either Havensight (West Indian Company Dock) or Crown Bay. Oasis-class ships use Crown Bay. Check your itinerary or daily programme."
+  },
+  {
+   "q": "Is St Thomas a tender port?",
+   "a": "No. Large ships dock at Havensight or Crown Bay."
+  },
+  {
+   "q": "How much is a taxi from the St Thomas cruise port to Magens Bay?",
+   "a": "About $10–15 per person each way, and the trip takes 15–20 minutes (Magens Bay Authority, 2025). Entry to the beach is $5 for non-residents."
+  },
+  {
+   "q": "Can I visit St John from a St Thomas cruise stop?",
+   "a": "Yes, by taxi to Red Hook and the hourly public ferry ($8.15 one way for non-residents, about 20 minutes). Be on a ferry back at least 3 hours before all-aboard, or book a ship tour."
+  },
+  {
+   "q": "Do I need a passport for St Thomas?",
+   "a": "It is a US territory. Most US citizens on a closed-loop cruise do not need a passport. Other nationalities follow US entry rules; check with your cruise line."
+  },
+  {
+   "q": "What currency is used in St Thomas?",
+   "a": "The US dollar."
+  },
+  {
+   "q": "What can I do in St Thomas in one day from a cruise ship?",
+   "a": "Walk into Charlotte Amalie for Fort Christian and the 99 Steps, spend the afternoon at Magens Bay, and ride the Skyride by Havensight before going back on board."
+  }
+ ],
+ "topAttractions": [
+  {"name": "Magens Bay"},
+  {"name": "Skyride to Paradise Point"},
+  {"name": "Fort Christian"},
+  {"name": "99 Steps and Blackbeard's Castle"},
+  {"name": "Coral World Ocean Park"},
+  {"name": "Mountain Top"},
+  {"name": "St John"}
+ ],
+ "sources": [
+  {"title": "Virgin Islands Port Authority – Frequently asked questions", "url": "https://viport.com/general-9"},
+  {"title": "Virgin Islands Port Authority – Ground transportation (taxis)", "url": "https://www.viport.com/airport-parking-groundtransport"},
+  {"title": "Virgin Islands Port Authority – Ferry schedules and fares", "url": "https://www.viport.com/schedules-ferrycargoschedules"},
+  {"title": "VI Department of Public Works – Ferries (VITRAN St Thomas–St John)", "url": "https://dpw.vi.gov/ferries/"},
+  {"title": "Magens Bay Authority – Getting to Magens Bay from your cruise ship (July 2025)", "url": "https://magensbayauthority.org/how-to-get-to-magens-bay-from-your-cruise-ship-or-resort/"},
+  {"title": "Magens Bay Authority – Home", "url": "https://magensbayauthority.org/"},
+  {"title": "Coral World Ocean Park – Plan your visit", "url": "https://coralworldvi.com/plan-your-visit/"},
+  {"title": "USVI Department of Tourism – Fort Christian", "url": "https://www.visitusvi.com/st-thomas/visit-fort-christian-on-st-thomas/"},
+  {"title": "US Customs and Border Protection – Types of exemptions", "url": "https://www.cbp.gov/travel/international-visitors/kbyg/types-exemptions"},
+  {"title": "Holland America – Skyride to Paradise Point On Your Own", "url": "https://www.hollandamerica.com/en/cruise-destinations/caribbean-cruises/caribbean-ports/stt/39008"},
+  {"title": "Holland America – St Thomas Island Drive", "url": "https://www.hollandamerica.com/en/cruise-destinations/caribbean-cruises/caribbean-ports/stt/39032"},
+  {"title": "Carnival – Magen's Bay Beach & Skyride to Paradise Point", "url": "https://carnival.com/shore-excursions/st-thomas/magen-s-bay-beach--skyride-to-paradise-point-434125"},
+  {"title": "Princess Cruises – St Thomas cruise port (July 2026)", "url": "https://www.princess.com/en-uk/blog/st-thomas-cruise-port"},
+  {"title": "Cruise Industry News – WICO dredging and FY2027 projections (July 2026)", "url": "https://cruiseindustrynews.com/cruise-news/2026/07/st-thomas-wico-bets-on-dredging-diversification-to-stay-ahead-in-caribbean-cruise-race/"},
+  {"title": "Cruise Hive – St Thomas cruise port (updated April 2026)", "url": "https://www.cruisehive.com/st-thomas-cruise-port/128091"},
+  {"title": "VI Consortium – Taxicab Commission raises dollar rides to $2 (August 2024)", "url": "https://viconsortium.com/vi-community_center/virgin-islands-taxicab-commission-approves-fare-hike-to--2-for-dollar-rides-amid-driver-protests"},
+  {"title": "Beyondships – St Thomas cruise port", "url": "https://www.beyondships3.com/st-thomas-cruise-port.html"},
+  {"title": "Beyondships – Getting around St Thomas", "url": "https://www.beyondships3.com/st-thomas-getting-around.html"},
+  {"title": "Beyondships – Walking to Charlotte Amalie from Havensight", "url": "https://www.beyondships3.com/st-thomas-walking-to-charlotte-amalie.html"},
+  {"title": "Frommer's – Gladys' Café", "url": "https://www.frommers.com/destinations/st-thomas-usvi/restaurants/gladys-caf"}
+ ],
+ "uncertain": [
+  "The current official per-person taxi fare from Havensight or Crown Bay to downtown (one secondary source says under $5; no official rate sheet found).",
+  "Taxi fare and time from the cruise docks to Red Hook.",
+  "Skyride ticket price at the gate and opening hours (official site blocked automated access).",
+  "Coral World admission prices.",
+  "Exact walking time from Havensight to downtown: Princess gives a much shorter figure than the 1.7-mile distance suggests; the walking time in this guide is calculated from the distance.",
+  "Taxi time and fare from the docks to Sapphire Beach.",
+  "Whether a safari 'dollar ride' route runs from the cruise docks into town, and its stop locations.",
+  "Typical all-aboard time at St Thomas (17:30 used as the default).",
+  "Visitusvi.com getting-around page could not be opened in this session."
+ ]
+}

@@ -1,0 +1,403 @@
+{
+ "slug": "bonaire",
+ "city": "Kralendijk",
+ "portName": "Kralendijk cruise piers (North and South Pier)",
+ "townName": "downtown Kralendijk",
+ "country": "Bonaire (Caribbean Netherlands)",
+ "currency": "USD",
+ "currencySymbol": "US$",
+ "language": "Papiamentu, Dutch and English",
+ "timezone": "AST (UTC−4), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Bonaire cruise port guide: Kralendijk piers, Klein Bonaire",
+ "seoDescription": "Ships dock at Kralendijk's North or South Pier, 2–10 min walk from town. No tender. Nature tag US$40 (2026) for water use. Klein Bonaire by water taxi.",
+ "quickAnswer": "Ships dock alongside at the North or South Pier in downtown Kralendijk, so there is no tender and the waterfront is about 2 minutes' walk away. Beyond town you need a taxi, a rental vehicle, a water taxi or a tour. Be back at the pier 60 minutes before all-aboard, and leave Klein Bonaire or the south of the island 90 minutes before.",
+ "intro": "Bonaire is a small, dry island built around its reefs, and Kralendijk is a low-rise town on the sheltered west coast. The two cruise piers sit on the waterfront, so you are in town within minutes. The classic day is in the water: snorkelling from Klein Bonaire or from the shore, for which you need STINAPA's nature tag. On land, the south has salt pans, flamingos and slave huts; the north has 1000 Steps and Washington Slagbaai National Park. Taxis wait at the pier but are taken quickly on busy ship days, so arrange transport early.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "North Pier (Town Pier)",
+   "distanceToCentreKm": 0.1,
+   "notes": "Closest pier to central Kralendijk, leading to Wilhelmina Park and the shopping streets."
+  },
+  {
+   "name": "South Pier (Customs Pier)",
+   "distanceToCentreKm": 0.1,
+   "notes": "Under 300 ft (about 90 m) from Plaza Wilhelmina. The South Pier Mall, with shops and a restaurant, is next to it. The terminal opens only on ship days and only to passengers with a ship card."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 5,
+  "km": 0.3,
+  "detail": "Wilhelmina Park and the promenade are about 2 minutes from the pier; Fort Oranje and the Terramar Museum about 5 minutes; the rest of downtown 5–10 minutes. Te Amo Beach and 1000 Steps are not walkable."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "2–10 min to anywhere in downtown Kralendijk",
+   "detail": "Flat walk along the waterfront. On ship days a market of island-made products is held on Wilhelmina Square by the piers."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Fixed rates per destination, no meters; agree the fare before you get in",
+   "time": "About 10 min to the southern salt flats; about 25 min to the Washington Slagbaai entrance",
+   "detail": "Taxis wait at the port but are taken quickly on busy ship days. Rates are higher for the north of the island. Carry US dollars in cash, as not all taxis take cards. Agree a return pick-up time and keep the driver's number. The tourist board lists a taxi booking number: +599 717 8100."
+  },
+  {
+   "mode": "Water taxi to Klein Bonaire",
+   "cost": "Fares vary by operator; check when booking",
+   "time": "About 15 min crossing",
+   "detail": "Epic Watertaxi leaves from Bonaire Nautico Marina on the boulevard; Caribe Watersport leaves from Karel's Beach Bar in central Kralendijk. Boats land at No Name Beach. Departure times differ by operator, so ask for the last return boat when you book."
+  },
+  {
+   "mode": "Rental car or pickup",
+   "cost": "Varies; book ahead",
+   "time": "—",
+   "detail": "Drive on the right; limits are 40 km/h in town and 60 km/h outside. Nearly all rental cars are manual. Most firms require renters to be 23 or over with a major credit card. Washington Slagbaai needs a pickup or jeep with high ground clearance. Watch for donkeys and goats on the road."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the pier 60 minutes before all-aboard. Leave Klein Bonaire, Lac Bay, the salt pans or 1000 Steps 90 minutes before all-aboard, and Washington Slagbaai 2 hours before.",
+  "detail": "Taxis are scarce on busy ship days, so the risk is finding a ride back rather than the distance. Book the return pick-up when you are dropped off. Water taxis run to their own timetables; take a boat well before the last one.",
+  "emergencyFallback": "Phone the taxi number (+599 717 8100) or the driver who dropped you. If you will miss all-aboard, call the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Klein Bonaire snorkelling",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Water taxi (fare varies by operator) plus the nature tag; bring or rent gear",
+   "saving": "Depends on the excursion price and whether it includes the nature tag"
+  },
+  {
+   "item": "Downtown Kralendijk",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot",
+   "saving": "Whole excursion price"
+  }
+ ],
+ "excursionAdvice": "Kralendijk itself needs no tour. A ship excursion is worth it for snorkelling or diving trips where the operator handles gear and the return time (check whether the nature tag is included), and for Washington Slagbaai, which needs a high-clearance vehicle, is closed on Mondays and stops admitting visitors at 14:30. On busy ship days, when taxis are taken quickly, a booked tour is also the simplest way to see the south of the island.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30. Departure times at Bonaire vary by ship, so check your own all-aboard time and move the plan to fit.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the pier to the boulevard. Buy the nature tag through STINAPA's online payment site before going in the water if you have not already."
+   },
+   {
+    "time": "08:45",
+    "what": "Walk to Bonaire Nautico Marina or Karel's Beach Bar for a water taxi to Klein Bonaire."
+   },
+   {
+    "time": "09:15",
+    "what": "Snorkel from No Name Beach. Bring water, food and sun protection; there are no facilities."
+   },
+   {
+    "time": "12:30",
+    "what": "Water taxi back to Kralendijk."
+   },
+   {
+    "time": "13:00",
+    "what": "Lunch on the waterfront, for example at It Rains Fishes."
+   },
+   {
+    "time": "14:15",
+    "what": "Fort Oranje, Wilhelmina Park and the ship-day market."
+   },
+   {
+    "time": "15:15",
+    "what": "Shopping on Kaya Grandi or at the South Pier Mall."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Klein Bonaire and No Name Beach",
+   "why": "Uninhabited island opposite Kralendijk with reef snorkelling off the beach.",
+   "timeNeeded": "3–4 hours including boats",
+   "cost": "Water taxi fare (varies by operator) plus the nature tag, US$40 (2026)",
+   "tip": "There are no facilities. Take everything you need with you, and ask for the last return boat before you cross."
+  },
+  {
+   "name": "Downtown Kralendijk and the waterfront",
+   "why": "Low-rise town with the boulevard, Kaya Grandi shopping street and Wilhelmina Park.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "On ship days a market of island-made products is held on Wilhelmina Square."
+  },
+  {
+   "name": "Fort Oranje",
+   "why": "Small waterfront fort beside the museum and the boulevard.",
+   "timeNeeded": "15–20 minutes",
+   "cost": "Free to view",
+   "tip": "Five minutes' walk from the piers; combine with the Terramar Museum."
+  },
+  {
+   "name": "Terramar Museum",
+   "why": "Covers 7,000 years of Caribbean and Bonairean history, from the Caquetío to salt production, slavery and modern Bonaire.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Check at the door",
+   "tip": "On Wilhelminaplein by the piers. Check opening hours before you plan around it."
+  },
+  {
+   "name": "Salt pans, flamingos and slave huts (south)",
+   "why": "Pink salt pans, flamingos on the Pekelmeer and slave huts from around 1850 on the south coast road.",
+   "timeNeeded": "2–3 hours by taxi or car",
+   "cost": "Free to view; transport extra",
+   "tip": "The flamingo sanctuary is closed to the public; watch from the public road (Kaminda Sorobon) or from Pink Beach."
+  },
+  {
+   "name": "Lac Bay and Sorobon",
+   "why": "Bay on the east coast known for windsurfing.",
+   "timeNeeded": "Half a day",
+   "cost": "Transport plus any rentals",
+   "tip": "Kitesurfers use Atlantis Beach instead; kitesurfing is not permitted at Lac Bay."
+  },
+  {
+   "name": "Washington Slagbaai National Park",
+   "why": "The arid, rugged north of the island, run by STINAPA.",
+   "timeNeeded": "4–5 hours",
+   "cost": "US$40 per adult (2026); children up to 12 free",
+   "tip": "Open Tuesday–Sunday 08:00–17:00, closed Mondays; no entry after 14:30. Unpaved roads: use a 4x4 or a car with high ground clearance. The entrance is about 25 minutes from the port."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "No Name Beach, Klein Bonaire",
+   "howToGetThere": "Water taxi from Bonaire Nautico Marina or Karel's Beach Bar",
+   "time": "About 15 min by boat",
+   "cost": "Water taxi fare (varies by operator)",
+   "note": "The usual snorkelling trip from the port. Nature tag required."
+  },
+  {
+   "name": "Te Amo Beach",
+   "howToGetThere": "Taxi or car",
+   "time": "Short ride; not walkable",
+   "cost": "Taxi fare",
+   "note": "Closest of the beaches listed here to town."
+  },
+  {
+   "name": "1000 Steps",
+   "howToGetThere": "Taxi or car, about 11 km north-west of Kralendijk",
+   "time": "Allow 2–3 hours including transport",
+   "cost": "Free; taxi fare",
+   "note": "There are only 67 steps down to the small beach and reef. Parking is limited; arrive early."
+  },
+  {
+   "name": "Sorobon (Lac Bay)",
+   "howToGetThere": "Taxi or car to the east coast",
+   "time": "Half a day",
+   "cost": "Taxi fare; rentals extra",
+   "note": "Windsurf centres on the bay."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Seafood and Caribbean-inspired dishes on the water",
+   "where": "It Rains Fishes, Kralendijk waterfront",
+   "price": null
+  },
+  {
+   "dish": "Pasta and pizza",
+   "where": "Capriccio, Kralendijk",
+   "price": null
+  },
+  {
+   "dish": "Drinks by the water before the Klein Bonaire boat",
+   "where": "Karel's Beach Bar, central Kralendijk",
+   "price": null
+  },
+  {
+   "dish": "Funchi, stoba and sopi di pisca (fish soup)",
+   "where": "Local restaurants and food spots in Kralendijk",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Expecting to find a taxi whenever you want one.",
+   "fix": "Taxis are taken quickly on busy ship days. Book ahead, agree the return time and keep the driver's number."
+  },
+  {
+   "mistake": "Going in the sea without the nature tag.",
+   "fix": "The tourist board says all users of Bonaire's waters must pay it, listed at US$40 (2026). Buy it through STINAPA's online payment site before you snorkel."
+  },
+  {
+   "mistake": "Heading to Klein Bonaire without water or food.",
+   "fix": "It is uninhabited with no facilities. Take water, lunch and sun protection, and check the last boat back."
+  },
+  {
+   "mistake": "Planning Washington Slagbaai on a Monday or late in the day.",
+   "fix": "It is closed on Mondays and nobody is admitted after 14:30. Go early in a high-clearance vehicle, or book a tour."
+  },
+  {
+   "mistake": "Renting a car and assuming it will be automatic.",
+   "fix": "Nearly all rental cars on Bonaire are manual; reserve an automatic early if you need one."
+  }
+ ],
+ "safety": "Take normal precautions: do not leave valuables in cars or on the beach while you snorkel. The main risks on a ship day are sun, dehydration and the sea, so carry water and know your limits on the reef. Drinking water is made from seawater and, according to the tourist board, meets World Health Organization standards. On the road, keep to the speed limits and watch for pedestrians, cyclists, donkeys and goats.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "The piers lead onto a flat waterfront, and the town centre is compact and close to the ships. Beyond town, most beaches involve rough ground, steps (1000 Steps) or boats (Klein Bonaire), and Washington Slagbaai is reached only on unpaved roads. If you need space for a mobility aid, book a suitable taxi in advance.",
+ "rainyDay": "If it rains, use the Terramar Museum if it is open, the shops on Kaya Grandi and the South Pier Mall, then go snorkelling once it clears.",
+ "crowdTips": "Taxis go quickly when ships arrive, and water taxis and popular beaches fill as excursion groups head out. Book transport before you sail, get off early, and do Klein Bonaire or the south first, leaving the town for the last hour. Check the cruise schedule for your date to see how many ships are in.",
+ "faqs": [
+  {
+   "q": "Is Bonaire a tender port?",
+   "a": "No. Ships dock at the North or South Pier in downtown Kralendijk."
+  },
+  {
+   "q": "Is Kralendijk walkable from the cruise port?",
+   "a": "Yes. Wilhelmina Park is about 2 minutes away and the rest of downtown 5–10 minutes."
+  },
+  {
+   "q": "Do I need the Bonaire nature tag as a cruise passenger?",
+   "a": "Yes if you snorkel, dive or swim in Bonaire's waters. Tourism Corporation Bonaire lists it at US$40 (2026). Buy it through STINAPA's online payment site, which shows the current options."
+  },
+  {
+   "q": "How do I get to Klein Bonaire from the cruise ship?",
+   "a": "Walk to Bonaire Nautico Marina or Karel's Beach Bar and take a water taxi, about 15 minutes. Check the fare and the last return boat when you book."
+  },
+  {
+   "q": "How much are taxis in Bonaire?",
+   "a": "Taxis have no meters and charge fixed rates per destination. Agree the fare before you get in and carry US dollars in cash."
+  },
+  {
+   "q": "What can I do in Bonaire in one day from a cruise ship?",
+   "a": "Snorkel at Klein Bonaire in the morning, then explore the waterfront, Fort Oranje and the ship-day market. With a taxi or car, see the salt pans, flamingos and slave huts in the south."
+  },
+  {
+   "q": "Beaches near Bonaire cruise port?",
+   "a": "No Name Beach on Klein Bonaire by water taxi, and Te Amo Beach a short taxi ride away. Neither is walkable from the pier."
+  },
+  {
+   "q": "What time zone is Bonaire in?",
+   "a": "Atlantic Standard Time, four hours behind GMT and one hour ahead of US Eastern Standard Time."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Klein Bonaire"
+  },
+  {
+   "name": "Kralendijk waterfront"
+  },
+  {
+   "name": "Fort Oranje"
+  },
+  {
+   "name": "Terramar Museum"
+  },
+  {
+   "name": "Salt pans and slave huts"
+  },
+  {
+   "name": "Lac Bay"
+  },
+  {
+   "name": "Washington Slagbaai National Park"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Tourism Corporation Bonaire – FAQ (nature fee, time zone, 911, currency)",
+   "url": "https://bonaireisland.com/plan-trip/faq/"
+  },
+  {
+   "title": "Tourism Corporation Bonaire – Getting around (taxi number, car rental, speed limits)",
+   "url": "https://bonaireisland.com/plan-trip/getting-around/"
+  },
+  {
+   "title": "Tourism Corporation Bonaire – Downtown Kralendijk",
+   "url": "https://bonaireisland.com/?p=1083"
+  },
+  {
+   "title": "Tourism Corporation Bonaire – STINAPA",
+   "url": "https://bonaireisland.com/about/nature/stinapa/"
+  },
+  {
+   "title": "Tourism Corporation Bonaire – Cruise watersport itinerary (nature tag US$40, July 2026)",
+   "url": "https://watersports.bonaireisland.com/blog/bonaire-cruise-watersport-itinerary-one-day/"
+  },
+  {
+   "title": "Tourism Corporation Bonaire – Entry tax and nature tag flowchart (July 2026)",
+   "url": "https://watersports.bonaireisland.com/blog/permit-puzzle-solved-bonaire-entry-tax-nature-tag-flowchart/"
+  },
+  {
+   "title": "Tourism Corporation Bonaire – Plane, ferry or cruise",
+   "url": "https://nature.bonaireisland.com/blog/plane-ferry-or-cruise-how-to-get-to-bonaire-options/"
+  },
+  {
+   "title": "Public Entity Bonaire – Visitor tax official page",
+   "url": "https://tourismtax.bonairegov.com/"
+  },
+  {
+   "title": "STINAPA – Nature fee payment site",
+   "url": "https://stinapa.bonairenaturefee.org/"
+  },
+  {
+   "title": "BES Reporter – STINAPA launches 2026 nature fee",
+   "url": "https://www.bes-reporter.com/news/nature/83585/stinapa-launches-2026-nature-fee-to-support-conservation-efforts-on-bonaire"
+  },
+  {
+   "title": "BES Reporter – Tips for a day trip to Washington Slagbaai National Park (June 2026)",
+   "url": "https://www.bes-reporter.com/nieuws/tours-en-activiteiten/91784/tips-for-a-day-trip-to-washington-slagbaai-national-park-on-bonaire"
+  },
+  {
+   "title": "Bonaire Insider – Simplifying the 2023 nature fee (December 2022)",
+   "url": "https://infobonaire.com/?p=83794"
+  },
+  {
+   "title": "Princess Cruises – Bonaire cruise port",
+   "url": "https://www.princess.com/en-int/blog/bonaire-cruise-port"
+  },
+  {
+   "title": "Celebrity Cruises – Kralendijk, Bonaire port guide",
+   "url": "https://www.celebritycruises.com/no/ports/bonaire"
+  },
+  {
+   "title": "Bonaire.com – Cruise terminal",
+   "url": "https://bonaire.com/en/sightseeing/cruise-terminal/"
+  },
+  {
+   "title": "Bonaire.com – Taxi",
+   "url": "https://bonaire.com/en/taxi/"
+  },
+  {
+   "title": "Bonaire.com – Water taxi to Klein Bonaire",
+   "url": "https://bonaire.com/en/water-taxi/klein-bonaire/"
+  },
+  {
+   "title": "Bonaire.com – Terramar Museum",
+   "url": "https://bonaire.com/en/sightseeing/terramar-museum/"
+  },
+  {
+   "title": "Bonaire.com – Top 10 sights 2026",
+   "url": "https://bonaire.com/en/blog/top-10-sights-2026/"
+  },
+  {
+   "title": "Sunwise Bonaire – Where to eat in Bonaire",
+   "url": "https://sunwisebonaire.com/blog/food-bonaire/"
+  }
+ ],
+ "uncertain": [
+  "Whether cruise passengers can buy a cheaper single-day nature tag: Bonaire.com (commercial) says cruise passengers pay US$10 for one day, and a 2022 Bonaire Insider article reported US$10 cruise fees, but the tourist board's 2026 cruise itinerary lists only US$40, and STINAPA's own fee pages could not be opened (blocked to automated fetching). The guide therefore gives only the tourist board figure and sends readers to STINAPA's payment site.",
+  "Typical all-aboard time at Bonaire: no port authority or cruise-line source found; the day plan uses the default 17:30.",
+  "Taxi fares to specific destinations: no government rate table found.",
+  "Water taxi fares and last return times to Klein Bonaire: only third-party figures found (Bonaire.com lists US$25 return with Epic Watertaxi), not the operators' own sites.",
+  "Whether the US$75 visitor entry tax applies to cruise passengers or is included in the cruise fare: the government page does not say.",
+  "Terramar Museum opening hours and admission; Donkey Sanctuary hours and ticket price.",
+  "Fort Oranje construction dates."
+ ]
+}

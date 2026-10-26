@@ -1,0 +1,395 @@
+{
+ "slug": "klaipeda",
+ "city": "Klaipėda",
+ "portName": "Port of Klaipėda cruise terminal",
+ "townName": "the Old Town",
+ "country": "Lithuania",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Lithuanian",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Klaipėda cruise port guide: Old Town, ferry and Nida",
+ "seoDescription": "Klaipėda's cruise berth is about 800 m from the centre, 10 min on foot. Ferry to Smiltynė takes 5 min; Nida bus about 65 min. Sea Museum €14 in summer (2026).",
+ "quickAnswer": "Klaipėda is a docking port: cruise ships berth by the Old Town, about 800 m from the centre, and you can walk in about 10 minutes. The Smiltynė passenger ferry to the Curonian Spit leaves from the Old Ferry terminal at the edge of the Old Town and crosses in about 5 minutes. Be back at the ship 60 minutes before all-aboard, or 90 minutes if you go to Nida by bus.",
+ "intro": "Klaipėda is Lithuania's only seaport, and the cruise berth sits at the edge of the compact Old Town, so the town itself takes no planning. The real decision is how much of the Curonian Spit to see. Smiltynė, with the Lithuanian Sea Museum and pine-backed beaches, is a short ferry hop away. Nida and the big dunes are about an hour further south by bus, which makes them a long-call or ship-tour option. A new cruise terminal is being built in the city centre and is due for completion in 2027, so expect construction work around the waterfront in 2026.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Klaipėda cruise terminal (by the Old Town)",
+   "distanceToCentreKm": 0.8,
+   "notes": "Ships berth alongside; no tenders. The terminal is about 800 m from the city centre. A new €50.3 million cruise terminal is under construction in the central harbour and is scheduled for completion in 2027; the first two reconstructed quays were finished in April 2026. Check with your line which quay your ship uses."
+  }
+ ],
+ "walkability": {
+  "verdict": "Yes",
+  "minutes": 10,
+  "km": 0.8,
+  "detail": "A flat walk of about 8–10 minutes to the centre. The Old Town, Theatre Square, the castle site and the Old Ferry terminal for Smiltynė are all close together on foot. Expect detours around construction work on the waterfront while the new terminal is built."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "8–10 min to the centre",
+   "detail": "Walk from the berth into the Old Town. Theatre Square, with the Drama Theatre and the Ännchen von Tharau sculpture, is a good first landmark."
+  },
+  {
+   "mode": "Passenger ferry to Smiltynė (Old Ferry terminal)",
+   "cost": "Fare not confirmed; pay by cash or card, or use the Smiltynės perkėla app",
+   "time": "About 5 min crossing",
+   "detail": "The Old Ferry terminal is at Danės g. 1, at the northern edge of the Old Town, and is for foot passengers only. Ferries run about every 30 minutes, more often in peak summer. The operator is Smiltynės perkėla; its app shows the live timetable and fares. In strong wind or snow the Old Ferry may stop, and foot passengers are sent to the New Ferry terminal instead."
+  },
+  {
+   "mode": "Bus from Smiltynė to Nida",
+   "cost": "Fare not confirmed; tickets on the bus (cash or card) or at autobusubilietai.lt",
+   "time": "About 65 min each way",
+   "detail": "Buses run the length of the Curonian Spit from the Smiltynė ferry landing to Nida bus station, stopping at Juodkrantė and other villages. Many hourly ferries are timed to connect with the bus. Departures are limited, so fix your return bus before you leave Klaipėda."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back at the ship 60 minutes before all-aboard from the Old Town or Smiltynė; 90 minutes before if you go to Nida by bus.",
+  "detail": "From the Old Town the walk back is about 10 minutes. From Smiltynė, allow for a ferry that leaves only every 30 minutes, then the walk from the Old Ferry terminal to the berth. From Nida, the bus takes about 65 minutes to Smiltynė before the ferry, and buses are not frequent, so catch one that has you back in Smiltynė at least two hours before all-aboard.",
+  "emergencyFallback": "If the Old Ferry is not running because of weather, the New Ferry terminal is the alternative crossing; ask staff at the landing. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Klaipėda Old Town walk",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot",
+   "saving": "The full tour price"
+  },
+  {
+   "item": "Smiltynė and the Lithuanian Sea Museum",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Ferry fare plus museum €14 adult May–September (2026)",
+   "saving": "Depends on your line's price"
+  },
+  {
+   "item": "Nida and the Curonian Spit dunes",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Ferry plus Smiltynė–Nida bus (fares not confirmed)",
+   "saving": "Depends on your line's price; the DIY version carries more timing risk"
+  }
+ ],
+ "excursionAdvice": "Skip the ship tour for Klaipėda itself: the Old Town is a short walk from the berth and easy to see alone. Smiltynė is also simple on your own, because the ferry is short and frequent. Nida is where a ship tour earns its price. The bus is about an hour each way with limited departures, and missing one can cost you the ship. On a call of eight hours or less, take the ship's Curonian Spit tour or stay closer to town.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30. Check museum opening days first: the city museums close on Mondays and Tuesdays in summer.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Walk off the ship into the Old Town. Start at Theatre Square and the Ännchen von Tharau sculpture."
+   },
+   {
+    "time": "09:00",
+    "what": "Walk the timber-framed streets around Aukštoji and Didžioji Vandens, then follow the Danė river towards the castle site."
+   },
+   {
+    "time": "10:00",
+    "what": "Visit the Castle Museum (opens 10:00, €6 adult) or the History Museum of Lithuania Minor (€4)."
+   },
+   {
+    "time": "11:00",
+    "what": "Walk to the Old Ferry terminal at Danės g. 1 and cross to Smiltynė (about 5 minutes)."
+   },
+   {
+    "time": "11:30",
+    "what": "Lithuanian Sea Museum and aquarium in the former Nerija Fort. Allow about two hours, including a dolphin show if one is on."
+   },
+   {
+    "time": "13:30",
+    "what": "Lunch, then walk through the pines to Smiltynė beach on the Baltic side."
+   },
+   {
+    "time": "15:30",
+    "what": "Take the ferry back to Klaipėda. Do not wait for the last convenient crossing; ferries run about every 30 minutes."
+   },
+   {
+    "time": "16:00",
+    "what": "Coffee in the Old Town near Theatre Square, within a 10-minute walk of the ship."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Klaipėda Old Town and Theatre Square",
+   "why": "Compact grid of streets with timber-framed (Fachwerk) buildings, the Drama Theatre and the Ännchen von Tharau sculpture.",
+   "timeNeeded": "1–1.5 hours",
+   "cost": "Free",
+   "tip": "Look for the small street sculptures, such as the Old Town Cat, the Magic Mouse and the Black Ghost by the harbour."
+  },
+  {
+   "name": "Castle Museum",
+   "why": "Remains of the castle built by the Teutonic Order, with the museum of the city's early history.",
+   "timeNeeded": "45–60 minutes",
+   "cost": "€6 adult; €9 combined ticket with the History Museum of Lithuania Minor and the Blacksmith's Museum (2026)",
+   "tip": "Summer hours (15 June–16 September) are Wednesday–Sunday 10:00–18:00; winter hours Tuesday–Saturday. Last tickets 17:30."
+  },
+  {
+   "name": "History Museum of Lithuania Minor",
+   "why": "The story of the German-Lithuanian borderland that Klaipėda (Memel) belonged to.",
+   "timeNeeded": "45 minutes",
+   "cost": "€4 adult (2026)",
+   "tip": "At Didžioji Vandens g. 2 in the Old Town. Same opening days as the Castle Museum."
+  },
+  {
+   "name": "Lithuanian Sea Museum and aquarium (Smiltynė)",
+   "why": "Aquarium and maritime exhibitions in the former Nerija Fort at the tip of the Curonian Spit, plus dolphin shows.",
+   "timeNeeded": "2 hours",
+   "cost": "€14 adult May–September, €10 October–April; dolphin show €18 May–September, €12 October–April (2026)",
+   "tip": "Opening days vary through the year; check the museum's site for your date. It is not right at the ferry landing, so allow walking time."
+  },
+  {
+   "name": "Smiltynė beach",
+   "why": "Baltic beach reached through pine forest on the Curonian Spit, a short ferry ride from town.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free (ferry fare only)",
+   "tip": "Combine with the Sea Museum."
+  },
+  {
+   "name": "Nida and the Curonian Spit dunes",
+   "why": "The Curonian Spit is a UNESCO-listed sand bar about 98 km long; Nida has the highest dunes.",
+   "timeNeeded": "5–6 hours including travel",
+   "cost": "Ferry and bus fares (not confirmed)",
+   "tip": "Long calls only. Note the return bus times before you leave."
+  },
+  {
+   "name": "Clock and Watch Museum",
+   "why": "Lithuanian National Museum of Art collection of timepieces in the city centre.",
+   "timeNeeded": "45 minutes",
+   "cost": "€5 adult (2026)",
+   "tip": "Open Tuesday–Sunday (Thursday 12:00–20:00, Sunday until 16:00); closed Mondays. A good rainy-day stop."
+  },
+  {
+   "name": "Sculpture Park",
+   "why": "A park of modern sculpture on the site of an old cemetery, free and open at all times.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free",
+   "tip": "Bounded by K. Donelaičio, Liepų, Trilapio and S. Daukanto streets, north of the Old Town."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Smiltynė beach",
+   "howToGetThere": "Walk to the Old Ferry terminal, take the ferry to Smiltynė, then walk through the pine forest to the Baltic shore",
+   "time": "About 5 min ferry plus the walk",
+   "cost": "Ferry fare (not confirmed)",
+   "note": "Sandy Baltic beach. The water is cool even in summer."
+  },
+  {
+   "name": "Nida",
+   "howToGetThere": "Ferry to Smiltynė, then the bus down the Curonian Spit",
+   "time": "About 65 min by bus from Smiltynė",
+   "cost": "Ferry and bus fares (not confirmed)",
+   "note": "Only on a long call; the return depends on limited bus times."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Cepelinai (potato dumplings with meat filling)",
+   "where": "Restaurants in the Old Town around Theatre Square",
+   "price": null
+  },
+  {
+   "dish": "Šaltibarščiai (cold pink beetroot soup), a summer staple",
+   "where": "Old Town cafés and restaurants",
+   "price": null
+  },
+  {
+   "dish": "Smoked fish",
+   "where": "Villages along the Curonian Spit, including Nida and Juodkrantė",
+   "price": null
+  },
+  {
+   "dish": "Dinner or a drink in a converted industrial space",
+   "where": "Hofas, Klaipėda",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Planning a city museum day on a Monday or Tuesday in summer.",
+   "fix": "The Castle Museum and the History Museum of Lithuania Minor close on Mondays and Tuesdays from mid-June to mid-September. Use those days for Smiltynė."
+  },
+  {
+   "mistake": "Treating Nida as a quick hop.",
+   "fix": "It is a ferry plus about 65 minutes by bus each way, with limited departures. Do it only on a long call, or take the ship's tour."
+  },
+  {
+   "mistake": "Going to the wrong ferry terminal.",
+   "fix": "Foot passengers use the Old Ferry terminal at Danės g. 1, by the Old Town. The New Ferry terminal is the fallback only when the Old Ferry is stopped by weather."
+  },
+  {
+   "mistake": "Assuming the Sea Museum is next to the Smiltynė ferry landing.",
+   "fix": "It is at the tip of the spit in the old fort. Allow walking time each way and check that it is open on your date."
+  },
+  {
+   "mistake": "Catching the last possible ferry back from Smiltynė.",
+   "fix": "Ferries run about every 30 minutes. Aim for one that lands you in Klaipėda at least 90 minutes before all-aboard."
+  }
+ ],
+ "safety": "Klaipėda is a calm, low-risk port for visitors. Take normal care with bags in busy areas and on the ferry. While the new cruise terminal is being built, follow marked walkways around the construction site on the waterfront. On the Curonian Spit, stay on marked paths across the dunes; they are protected and the sand is fragile. Baltic water is cold, so swim only where others do and not near the harbour channel.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The walk from the berth into the Old Town is short and flat, but Old Town streets are partly cobbled. Construction work on the waterfront in 2026 may create temporary detours. The Smiltynė ferry is a short level crossing; ask staff about wheelchair boarding. Beaches on the spit are reached over sand and through forest paths, which are hard going for wheelchairs. Check access with each museum before you visit.",
+ "rainyDay": "Stay in town and use the museums: the Castle Museum, the History Museum of Lithuania Minor and the Clock and Watch Museum are all within walking distance. The Sea Museum's aquarium and dolphin shows are indoors and work in rain, but the walk from the Smiltynė ferry is exposed. In strong wind the Old Ferry can stop.",
+ "crowdTips": "Klaipėda sees a few ships a week at most; in 2026 about 64 calls were scheduled, and the busiest day had three ships at once. Even then the Old Town rarely feels crowded. The pinch points are ship-tour coaches leaving for Nida and the Sea Museum's dolphin shows. Go to Smiltynė in the morning while tour groups head south to Nida, and see the Old Town later in the day.",
+ "faqs": [
+  {
+   "q": "Is Klaipėda a tender port?",
+   "a": "No. Cruise ships berth alongside at the terminal by the Old Town."
+  },
+  {
+   "q": "Is Klaipėda walkable from the cruise port?",
+   "a": "Yes. The centre is about 800 m away, roughly an 8–10 minute walk."
+  },
+  {
+   "q": "How do I get from Klaipėda cruise port to the Curonian Spit?",
+   "a": "Walk to the Old Ferry terminal at Danės g. 1 and take the foot-passenger ferry to Smiltynė, about 5 minutes. Buses run on to Nida, about 65 minutes."
+  },
+  {
+   "q": "Can I visit Nida from Klaipėda on a cruise day?",
+   "a": "On a long call, yes, but the bus takes about an hour each way and departures are limited. On a shorter call the ship's tour is safer."
+  },
+  {
+   "q": "What can I do in Klaipėda in one day from a cruise ship?",
+   "a": "Walk the Old Town and the castle site, then take the ferry to Smiltynė for the Lithuanian Sea Museum and the beach."
+  },
+  {
+   "q": "Beaches near Klaipėda cruise port",
+   "a": "Smiltynė beach on the Curonian Spit is the closest: a 5-minute ferry ride and a walk through the pines."
+  },
+  {
+   "q": "How much is the Lithuanian Sea Museum?",
+   "a": "€14 for adults from May to September and €10 from October to April (2026). Dolphin shows cost extra."
+  },
+  {
+   "q": "Is Klaipėda safe?",
+   "a": "Yes. Take normal care with belongings and follow signed routes around waterfront construction."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Klaipėda Old Town"
+  },
+  {
+   "name": "Theatre Square"
+  },
+  {
+   "name": "Castle Museum"
+  },
+  {
+   "name": "Lithuanian Sea Museum"
+  },
+  {
+   "name": "Smiltynė"
+  },
+  {
+   "name": "Curonian Spit"
+  },
+  {
+   "name": "Nida"
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Baltic Times – First quays of the new cruise terminal completed at the Port of Klaipėda (April 2026)",
+   "url": "https://www.baltictimes.com/every_day_closer_to_the_goal__first_quays_of_the_new_cruise_terminal_completed_at_the_port_of_klaip_da/"
+  },
+  {
+   "title": "The Baltic Times – A modern terminal for cruise ships in the port of Klaipėda (2024)",
+   "url": "https://www.baltictimes.com/a_modern_terminal_for_cruise_ships_in_the_port_of_klaip_da__new_space_for_the_city_and_opportunities_for_maritime_tourism/"
+  },
+  {
+   "title": "The Baltic Times – Record-breaking cruise season in Klaipėda (October 2025)",
+   "url": "https://www.baltictimes.com/record-breaking_cruise_season_in_klaip_da__more_tourists_than_ever_before/"
+  },
+  {
+   "title": "India Shipping News – Port of Klaipėda opens the 2026 cruise season",
+   "url": "https://indiashippingnews.com/trending-news/the-port-of-klaipeda-opens-the-cruise-season-over-60-ships-expected-and-a-passenger-record-in-sight/"
+  },
+  {
+   "title": "CruiseMapper – Port of Klaipėda initiates cruise terminal construction (2025)",
+   "url": "https://www.cruisemapper.com/news/14523-port-klaipeda-initiates-cruise-terminal-construction"
+  },
+  {
+   "title": "KlaipėdON (official Klaipėda tourism) – 48 hours in Klaipėda",
+   "url": "https://klaipedon.lt/en/news/48-hours-in-klaipeda-where-lithuania-meets-the-sea-2/"
+  },
+  {
+   "title": "Klaipėda City Municipality – City transport",
+   "url": "https://www.klaipeda.lt/en/city/city-transport/296"
+  },
+  {
+   "title": "History Museum of Lithuania Minor – Ticket prices",
+   "url": "https://www.mlimuziejus.lt/en/ticket-prices/"
+  },
+  {
+   "title": "History Museum of Lithuania Minor – Information for visitors",
+   "url": "https://www.mlimuziejus.lt/en/information-for-visitors/"
+  },
+  {
+   "title": "Lithuanian Sea Museum",
+   "url": "https://www.ljm.lt/eng"
+  },
+  {
+   "title": "Lithuanian Sea Museum – Aquarium and Sea Museum prices (2026)",
+   "url": "https://muziejus.lt/sites/default/files/documents/2026-07/Aquarium%2C%20Sea%20Museum.pdf"
+  },
+  {
+   "title": "Lithuanian Sea Museum – Dolphin performance prices (2026)",
+   "url": "https://muziejus.lt/sites/default/files/documents/2026-07/Dolphin%20Performances.pdf"
+  },
+  {
+   "title": "Lithuanian National Museum of Art – Clock and Watch Museum visiting",
+   "url": "https://www.lndm.lt/en/lm/visiting/"
+  },
+  {
+   "title": "Nida Art Colony – How to reach Nida",
+   "url": "https://nidacolony.lt/house/how-to-reach-nida-nac/"
+  },
+  {
+   "title": "Lexita – Smiltynės perkėla mobile app (2025)",
+   "url": "https://lexita.lt/en/news/introducing-the-new-smiltynes-perkela-mobile-app"
+  },
+  {
+   "title": "Tourism Attractions – Ferry to the Curonian Spit (2026)",
+   "url": "https://tourismattractions.net/lithuania/ferry-to-curonian-spit"
+  },
+  {
+   "title": "What's In Port – Klaipėda",
+   "url": "https://www.whatsinport.com/Klaipeda.htm"
+  },
+  {
+   "title": "True Lithuania – Klaipėda for cruisers",
+   "url": "https://www.truelithuania.com/tag/klaipeda-for-cruisers"
+  },
+  {
+   "title": "MSC Cruises – Klaipėda",
+   "url": "https://www.msccruisesusa.com/cruise/destinations/northern-europe/lithuania/klaipeda"
+  },
+  {
+   "title": "Rome2rio – Smiltynė to Nida",
+   "url": "https://www.rome2rio.com/s/Smiltyn%C4%97/Nida"
+  }
+ ],
+ "uncertain": [
+  "Smiltynė passenger ferry fare: not confirmed on the operator's site (keltas.lt could not be opened).",
+  "Smiltynė–Nida bus fare and exact 2026 timetable: only an aggregator figure was found.",
+  "Whether a free city shuttle runs from the cruise berth in 2026.",
+  "Which quay each ship uses in 2026 while the new terminal is being built.",
+  "Typical all-aboard time for Klaipėda calls.",
+  "Walking distance from the Smiltynė ferry landing to the Sea Museum.",
+  "Lithuanian Sea Museum opening days in each season."
+ ]
+}

@@ -1,0 +1,376 @@
+{
+ "slug": "falmouth-jamaica",
+ "city": "Falmouth",
+ "portName": "Historic Falmouth Cruise Port",
+ "townName": "Falmouth town centre (Water Square)",
+ "country": "Jamaica",
+ "currency": "JMD",
+ "currencySymbol": "J$",
+ "priceSymbol": "US$",
+ "language": "English (Jamaican Patois widely spoken)",
+ "timezone": "EST (UTC−5) all year, no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Falmouth Jamaica cruise port guide: Dunn's River, rafting",
+ "seoDescription": "Falmouth's pier is under 1 km from Water Square. Dunn's River Falls: 39 miles, about 1 hr, US$25 adult (2026). Martha Brae rafting 20 min. Back 60 min early.",
+ "quickAnswer": "Ships dock at the Historic Falmouth Cruise Port, a two-berth pier on the edge of town; Water Square is under half a mile on foot. Dunn's River Falls is about an hour's drive east (US$25 adult, 2026) and Martha Brae rafting about 20 minutes. Be back on board 60 minutes before all-aboard, and leave Dunn's River at least two and a half hours before.",
+ "intro": "Falmouth is a small Georgian town that became a major cruise port with the opening of the Historic Falmouth pier, where Royal Caribbean has its own berth. The port itself is a fenced shopping and dining zone; the town beyond the gates is quieter and still shows some damage from Hurricane Melissa, which hit Jamaica in October 2025. The port reopened to cruise ships on 2 December 2025. Most passengers head out of town: Martha Brae rafting and Good Hope are close, while Dunn's River Falls near Ocho Rios and the beaches of Montego Bay are each a long drive. Pick one, and agree all taxi prices before you set off.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Historic Falmouth Cruise Port – Berth 1",
+   "distanceToCentreKm": 0.8,
+   "notes": "Royal Caribbean's berth, used mainly by Royal Caribbean and Celebrity ships. Shared air-conditioned terminal with information desks, accessible toilets, Wi-Fi, shops and cafés. Sheltered taxi rank."
+  },
+  {
+   "name": "Historic Falmouth Cruise Port – Berth 2 (County Wharf)",
+   "distanceToCentreKm": 0.8,
+   "notes": "The other side of the same pier, used by Carnival, Norwegian, Disney and others. Same terminal and exits."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 10,
+  "km": 0.8,
+  "detail": "Water Square and the Georgian streets are under half a mile from the pier; St Peter's Anglican Church is about 20 minutes on foot. Some parts of town still show hurricane damage, so stay on main streets by day. Every major trip out of town needs a vehicle."
+ },
+ "transportSections": [
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 10 min to Water Square; about 20 min to St Peter's Church",
+   "detail": "Leave through the port gates. Stay on the main streets around Water Square and Market Street."
+  },
+  {
+   "mode": "Licensed taxi from the port rank",
+   "cost": "About US$5–15 in town and nearby; flat rates to attractions (2026)",
+   "time": "About 20 min to Martha Brae; about 1 hr to Dunn's River",
+   "detail": "Registered taxis must offer flat rates to the main attractions. Confirm the price, the currency, waiting time and the return time before you leave. Uber and Lyft do not operate in Falmouth."
+  },
+  {
+   "mode": "Shuttle to Montego Bay or Ocho Rios",
+   "cost": "About US$20 (2026)",
+   "time": "Montego Bay is about 18 miles west; Ocho Rios about 60 miles east",
+   "detail": "Private shuttle operators run between Montego Bay, Falmouth and Ocho Rios. Book a return that gets you back with a wide margin."
+  },
+  {
+   "mode": "Ship's excursion",
+   "cost": "Varies by line; check your cruise planner",
+   "time": "4–7 hours for Dunn's River",
+   "detail": "The safest way to do Dunn's River from Falmouth: the ship will wait for its own tour if the road is slow."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard (16:30 for a 17:30 all-aboard). Leave Dunn's River Falls at least 150 minutes before all-aboard.",
+  "detail": "The coast road between Ocho Rios and Falmouth is about an hour each way and can be slower. Montego Bay is about 18 miles away; allow up to about 50 minutes, as for the 22-mile airport run (30–50 minutes). Martha Brae and Water Square are close.",
+  "emergencyFallback": "Call the port agent number on your daily programme as soon as you know you will be late, and have your driver head straight for the port. There is no ride-hailing in Falmouth; agree with your taxi driver in advance how to reach them."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Dunn's River Falls",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "US$25 adult entry (2026) plus a flat-rate taxi for about 2 hours' driving",
+   "saving": "Depends on the taxi price and group size"
+  },
+  {
+   "item": "Martha Brae rafting",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Raft fee plus a short taxi ride; tip the raftsman",
+   "saving": "Depends on the taxi price"
+  }
+ ],
+ "excursionAdvice": "For Dunn's River Falls the ship's tour is worth considering: it is about an hour each way on the coast road, the falls are busy on cruise days, and the ship will not wait for a private taxi. Martha Brae rafting and Good Hope are close enough to do independently with a licensed taxi on a flat rate. Glistening Waters only glows after dark, so it works only on a late departure, usually as a ship's tour. Falmouth town itself needs no tour, though a guided walk or trolley explains the Georgian buildings.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 08:00 and all-aboard is 17:30, with a trip to Martha Brae and a walk around Falmouth.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Leave the terminal and agree a flat-rate return taxi to Martha Brae at the official rank."
+   },
+   {
+    "time": "09:00",
+    "what": "Arrive at Rafter's Village. Raft about 3 miles down the Martha Brae, roughly 1 hour 15 minutes."
+   },
+   {
+    "time": "10:45",
+    "what": "Back at the village; taxi to Falmouth."
+   },
+   {
+    "time": "11:30",
+    "what": "Walk around Water Square, the Courthouse (1815) and Market Street."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch: jerk at Pepper's Jerk Center or Falmouth Jerk Centre."
+   },
+   {
+    "time": "13:45",
+    "what": "Walk to St Peter's Anglican Church, about 20 minutes from the port."
+   },
+   {
+    "time": "15:00",
+    "what": "Back inside the port for patties and last shopping."
+   },
+   {
+    "time": "16:30",
+    "what": "On board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Dunn's River Falls",
+   "why": "Climb the terraced falls, about 180 feet high, near Ocho Rios.",
+   "timeNeeded": "4–5 hours including about 1 hour's drive each way",
+   "cost": "US$25 adult, US$17 child, non-residents (2026)",
+   "tip": "Open daily 08:30–16:00; on cruise-ship days (Wednesday to Friday) 07:00–16:00. Wear water shoes."
+  },
+  {
+   "name": "Martha Brae river rafting",
+   "why": "A 30-foot bamboo raft poled about 3 miles down the river by a licensed raftsman.",
+   "timeNeeded": "About 2.5 hours including the taxi",
+   "cost": "Raft fee per raft (two adults); tip the raftsman in cash",
+   "tip": "Under 15–20 minutes from the port. Rafter's Village has a bar, shops, pool and toilets."
+  },
+  {
+   "name": "Falmouth Georgian town and Water Square",
+   "why": "Jamaica's largest collection of Georgian buildings, a national heritage site.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free to walk",
+   "tip": "Falmouth Courthouse (1815) stands on Water Square. A guided walk or trolley tour explains the history."
+  },
+  {
+   "name": "St Peter's Anglican Church",
+   "why": "Historic parish church on the town trolley route.",
+   "timeNeeded": "30 minutes plus the walk",
+   "cost": "Free",
+   "tip": "About 20 minutes on foot from the port."
+  },
+  {
+   "name": "Chukka Good Hope",
+   "why": "Estate with a Great House, ziplines, river tubing and rum tasting, with views of Cockpit Country.",
+   "timeNeeded": "3–4 hours",
+   "cost": "Varies by activity",
+   "tip": "About 20–25 minutes by car from the port."
+  },
+  {
+   "name": "Glistening Waters (Luminous Lagoon)",
+   "why": "A lagoon known for glowing water at night, with boat tours.",
+   "timeNeeded": "1.5–2 hours",
+   "cost": "Boat tour price; varies",
+   "tip": "About 15 minutes by taxi, but the glow is visible only after dark, so it is possible only on a late sailing."
+  },
+  {
+   "name": "Rose Hall Great House",
+   "why": "Great House tour within reach of the port.",
+   "timeNeeded": "2–2.5 hours including the drive",
+   "cost": "Tour price; varies",
+   "tip": "About 30 minutes by car from the port."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Red Stripe Beach",
+   "howToGetThere": "Free shuttle",
+   "time": "About 10 minutes",
+   "cost": "Shuttle free",
+   "note": "The easiest beach option on a short call."
+  },
+  {
+   "name": "Burwood Beach",
+   "howToGetThere": "Taxi",
+   "time": "About 3.9 miles from the port",
+   "cost": "Small entrance fee plus taxi",
+   "note": "One of the closest public beaches to the port."
+  },
+  {
+   "name": "Doctor's Cave Beach, Montego Bay",
+   "howToGetThere": "Taxi or shuttle to the Hip Strip, Montego Bay",
+   "time": "About 18 miles west",
+   "cost": "Entry fee plus transport",
+   "note": "Facilities include a restaurant, toilets, showers and chair rental. Combine with the Hip Strip."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Wood-smoked jerk chicken and pork",
+   "where": "Pepper's Jerk Center, near the port",
+   "price": null
+  },
+  {
+   "dish": "Jerk",
+   "where": "Falmouth Jerk Centre",
+   "price": null
+  },
+  {
+   "dish": "Curry chicken, oxtail, rice and peas",
+   "where": "Donna's Caribbean Restaurant, near the port",
+   "price": null
+  },
+  {
+   "dish": "Jamaican patties",
+   "where": "Patty Port inside the cruise port, or Juici and Tastee Patties in town",
+   "price": null
+  },
+  {
+   "dish": "Rum cake",
+   "where": "Tortuga Rum Cakes",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Booking Dunn's River with a private driver and leaving the falls late.",
+   "fix": "It is about an hour each way. Leave the falls at least 150 minutes before all-aboard, or take the ship's tour."
+  },
+  {
+   "mistake": "Getting into a taxi without agreeing the price.",
+   "fix": "Use the official rank, where registered taxis offer flat rates. Confirm currency, waiting time and return time."
+  },
+  {
+   "mistake": "Planning on Uber or Lyft for the return.",
+   "fix": "Neither operates in Falmouth. Arrange your return ride in advance."
+  },
+  {
+   "mistake": "Booking Glistening Waters on a day call.",
+   "fix": "The glow is only visible after dark; do it only on a late sailing."
+  },
+  {
+   "mistake": "Having no small US bills.",
+   "fix": "Carry small notes for tips, raftsmen and vendors; US dollars are widely accepted in tourist areas."
+  }
+ ],
+ "safety": "The US State Department rates Jamaica at Level 2 (exercise increased caution) for crime and health. Armed robbery and sexual assault are more common in Kingston and Montego Bay; several Montego Bay neighbourhoods (including Flankers, Mount Salem, Norwood and Salt Spring) and Steer Town in St Ann are at Level 3. Trelawny parish is not singled out. Tourist areas generally have lower violent crime. In Falmouth stay on main streets, travel in a group, keep valuables out of sight and use only licensed taxis. There is a police station at the edge of the port. Dial 119 for police and 110 for ambulance or fire.",
+ "scams": [
+  "Unlicensed excursion sellers near the port who overcharge or fail to deliver: book with your ship or a licensed operator.",
+  "Taxi fares changed at the end of the trip: agree a flat rate and currency at the official rank before you get in.",
+  "Pushy vendors around the port: a firm, polite refusal usually works."
+ ],
+ "emergencyNumber": "119",
+ "accessibility": "The terminal is air-conditioned with wheelchair-accessible toilets. Pavements in town are uneven and some areas still show hurricane damage. Dunn's River involves climbing wet rock and is not accessible to wheelchair users. Rafting needs you to step down onto a bamboo raft. A trolley tour of the town is the easiest way to see Falmouth with limited mobility.",
+ "rainyDay": "Heavy rain can make Dunn's River and river trips unsafe or uncomfortable. Stay in or near the port, visit a rum tour such as Hampden Estate, or take a Great House tour at Rose Hall or Good Hope.",
+ "crowdTips": "Falmouth's pier takes two of the largest ships at once, and Dunn's River opens earlier on cruise-ship days (Wednesday to Friday). Go to the falls as early as possible. Martha Brae and the town are calmer later in the day, after the ship tours have left.",
+ "faqs": [
+  {
+   "q": "Is Falmouth Jamaica walkable from the cruise port?",
+   "a": "Partly. Water Square is under half a mile from the pier; Dunn's River, Montego Bay and Martha Brae need a vehicle."
+  },
+  {
+   "q": "Is Falmouth a tender port?",
+   "a": "No. Ships dock at the two-berth Historic Falmouth Cruise Port."
+  },
+  {
+   "q": "How far is Dunn's River Falls from Falmouth cruise port?",
+   "a": "About 39 miles, roughly an hour by taxi or shuttle each way."
+  },
+  {
+   "q": "How much is Dunn's River Falls?",
+   "a": "US$25 for adults and US$17 for children who are not Jamaican residents (2026). Open daily 08:30–16:00, from 07:00 on cruise-ship days."
+  },
+  {
+   "q": "Is Falmouth cruise port open after Hurricane Melissa?",
+   "a": "Yes. It reopened to cruise ships on 2 December 2025."
+  },
+  {
+   "q": "What can I do in Falmouth in one day from a cruise ship?",
+   "a": "Martha Brae rafting and a walk around the Georgian town, or a full day at Dunn's River Falls."
+  },
+  {
+   "q": "Beaches near Falmouth cruise port?",
+   "a": "Red Stripe Beach by free shuttle (about 10 minutes), Burwood Beach about 3.9 miles away, or Doctor's Cave Beach in Montego Bay."
+  },
+  {
+   "q": "Is Falmouth Jamaica safe?",
+   "a": "The US rates Jamaica at Level 2. Stay on main streets by day, use licensed taxis and keep valuables hidden."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Dunn's River Falls"
+  },
+  {
+   "name": "Martha Brae River"
+  },
+  {
+   "name": "Falmouth Historic District"
+  },
+  {
+   "name": "Chukka Good Hope"
+  },
+  {
+   "name": "Glistening Waters"
+  },
+  {
+   "name": "Rose Hall Great House"
+  },
+  {
+   "name": "Doctor's Cave Beach"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Urban Development Corporation – Attractions (Dunn's River Falls fees and hours)",
+   "url": "https://udcja.com/attractions/"
+  },
+  {
+   "title": "Visit Jamaica (Jamaica Tourist Board) – The Port of Falmouth",
+   "url": "https://visitjamaica.com/cruises/ports/falmouth"
+  },
+  {
+   "title": "US State Department – Jamaica travel advisory (June 2026)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/jamaica.html"
+  },
+  {
+   "title": "NEPA Jamaica Beach Guide (archive) – Doctor's Cave Beach",
+   "url": "https://websitearchive2020.nepa.gov.jm/new/services_products/subsites/beach_guide/beaches/doctors_cave.php"
+  },
+  {
+   "title": "Jamaica Observer – Dunn's River to remain affordable for Jamaicans (Oct 2026)",
+   "url": "https://www.jamaicaobserver.com/2026/10/11/dunns-river-remain-affordable-jamaicans/"
+  },
+  {
+   "title": "Jamaica Gleaner – UDC says entry fees for Jamaicans have not changed (Nov 2025)",
+   "url": "https://jamaica-gleaner.com/article/news/20251113/udc-says-entry-fees-jamaicans-dunns-river-falls-have-not-changed"
+  },
+  {
+   "title": "Royal Caribbean Blog – Cruise ships will return to Jamaica after Hurricane Melissa (Dec 2025)",
+   "url": "https://www.royalcaribbeanblog.com/2025/12/03/cruise-ships-will-return-jamaica-after-catastrophic-hurricane-melissa"
+  },
+  {
+   "title": "CruiseMapper – Cruise ships return to Falmouth after Hurricane Melissa (Dec 2025)",
+   "url": "https://www.cruisemapper.com/news/15591-cruise-ships-return-falmouth"
+  },
+  {
+   "title": "Cruise Hive – Falmouth Jamaica cruise port guide",
+   "url": "https://www.cruisehive.com/falmouth-jamaica-cruise-port/139873"
+  },
+  {
+   "title": "Royal Caribbean – What to do in Falmouth, Jamaica",
+   "url": "https://www.royalcaribbean.com/guides/inside-look-what-to-do-in-falmouth-jamaica"
+  },
+  {
+   "title": "Cruise Fever – Things to do in Falmouth on a cruise (2026)",
+   "url": "https://cruisefever.net/24-things-to-do-in-falmouth-jamaica-on-a-cruise/"
+  },
+  {
+   "title": "JN Bank – Rafting on the Martha Brae",
+   "url": "https://www.jnbank.com/rafting-on-the-martha-brae-a-relaxing-adventure/"
+  },
+  {
+   "title": "The Trip Verdict – Bamboo rafting in Jamaica (2026)",
+   "url": "https://www.thetripverdict.com/bamboo-rafting-jamaica"
+  }
+ ],
+ "uncertain": [
+  "Martha Brae raft price: a 2026 blog reports US$99 per raft booked direct; a 2020 article gives J$6,500. Not confirmed on an official page.",
+  "Doctor's Cave Beach entry fee and hours (latest figures seen are from an archived 2020 government page).",
+  "Port Authority of Jamaica's own cruise page was not opened; reopening date is from PAJ statements reported by cruise media.",
+  "Which Falmouth town sights and businesses are fully repaired after Hurricane Melissa.",
+  "Typical all-aboard time for Falmouth calls; 17:30 used as a default."
+ ]
+}

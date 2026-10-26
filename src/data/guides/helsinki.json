@@ -1,0 +1,402 @@
+{
+ "slug": "helsinki",
+ "city": "Helsinki",
+ "portName": "Port of Helsinki (Hernesaari, South Harbour and Katajanokka cruise quays)",
+ "townName": "central Helsinki (Market Square)",
+ "country": "Finland",
+ "currency": "EUR",
+ "currencySymbol": "€",
+ "language": "Finnish and Swedish",
+ "timezone": "EET (UTC+2), EEST (UTC+3) in summer",
+ "lastVerified": "October 2026",
+ "seoTitle": "Helsinki cruise port guide: Hernesaari, tram 6, ferries",
+ "seoDescription": "Most ships berth at Hernesaari, 3.5–4 km from Market Square: tram 6 or shuttle. HSL AB ticket €3.30 in the app (2026); Suomenlinna ferry 15 min. No tender.",
+ "quickAnswer": "Most large ships dock at Hernesaari, about 3.5–4 km from Market Square, so take the cruise shuttle (about 10 minutes) or tram 6; smaller ships use the South Harbour or Katajanokka, a 10–15 minute walk from the centre. An HSL AB single costs €3.30 in the app or €3.50 by contactless card (2026). From Hernesaari, be at the shuttle or tram in the centre 90 minutes before all-aboard.",
+ "intro": "Helsinki is a city port with two very different arrivals. Small and mid-sized ships berth in the South Harbour or at Katajanokka, right beside Market Square, Uspenski Cathedral and Senate Square. Large ships, the great majority, use the Hernesaari quays on a peninsula south-west of the centre, which means a shuttle, a tram or an hour's walk along the coast. The centre is compact and flat, and the HSL ferry to the Suomenlinna sea fortress leaves from Market Square. Check your berth on the daily programme before you plan anything.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Hernesaari: Munkkisaari Quay (LHB, LHC) and Hernesaari quay (LHD)",
+   "distanceToCentreKm": 3.5,
+   "notes": "Up to 90% of international cruise passengers arrive here. LHD, opened in 2019, takes ships up to 360 m. Tram 6 (Hernesaari–Arabia) serves both quays. Internet connections, guide services and souvenir stands on the quay; the H terminal hall at the tip of Hernesaari is for turnaround passengers."
+  },
+  {
+   "name": "South Harbour: Pakkahuone Quay (EPL)",
+   "distanceToCentreKm": 0.5,
+   "notes": "Used by smaller ships; about a 10-minute walk to Market Square and Senate Square. Ships over 230 m cannot reach the central berths."
+  },
+  {
+   "name": "Katajanokka: quay for cruisers (ERA) and Katajanokka Quay (EKL)",
+   "distanceToCentreKm": 1,
+   "notes": "Just east of Market Square; 10–15 minutes on foot to Helsinki Cathedral and Senate Square. Trams 4 and 5."
+  },
+  {
+   "name": "West Harbour (Länsisatama)",
+   "distanceToCentreKm": 3,
+   "notes": "Mainly Tallinn ferries from West Terminal 2. Melkki Quay no longer handles cruise ships; if your ship is listed here, follow the line's shuttle advice."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 60,
+  "km": 4,
+  "detail": "From the South Harbour and Katajanokka, yes: the centre is a 10–15 minute flat walk. From Hernesaari it is about 3.5–4 km; the coastal route past Kaivopuisto Park to Market Square takes up to an hour, with sea views and shore cafés. Most passengers at Hernesaari take the shuttle or tram 6."
+ },
+ "transportSections": [
+  {
+   "mode": "Cruise shuttle bus (Hernesaari)",
+   "cost": "Sold by the cruise line; check on board",
+   "time": "About 10 min",
+   "detail": "Runs from Hernesaari to the centre and ends near the Esplanade and Market Square. Buy early on board to avoid queues."
+  },
+  {
+   "mode": "Tram 6 (Hernesaari)",
+   "cost": "AB single €3.30 in the HSL app or at ticket machines, €3.50 by contactless card (2026)",
+   "time": "Varies",
+   "detail": "Tram 6 (Hernesaari–Arabia) serves both Hernesaari cruise quays. An AB single is valid 90 minutes, including changes. Buy before boarding or tap your contactless card on the reader."
+  },
+  {
+   "mode": "Trams 4 and 5 (Katajanokka)",
+   "cost": "AB single €3.30 in the app, €3.50 contactless (2026)",
+   "time": "Short ride",
+   "detail": "Serve the Katajanokka cruise quays; most people simply walk to Market Square in 10–15 minutes."
+  },
+  {
+   "mode": "HSL ferry to Suomenlinna",
+   "cost": "AB single €3.30 (2026); any HSL ticket that includes zone A",
+   "time": "About 15 min",
+   "detail": "Leaves from the eastern side of Market Square, in front of the Presidential Palace. Several departures an hour in summer, at least one an hour in winter. Buy your ticket before entering the payment area at the pier."
+  },
+  {
+   "mode": "On foot from Hernesaari",
+   "cost": "Free",
+   "time": "Up to 1 hour",
+   "detail": "Cross to the east side of Hernesaari and follow the coast to Market Square. A shortcut behind Kaivopuisto Park saves about 1 km but misses the sea views."
+  },
+  {
+   "mode": "Taxi",
+   "cost": "Ask for a price estimate",
+   "time": "Varies",
+   "detail": "Available at the terminals; regulated, but dearer than public transport."
+  },
+  {
+   "mode": "Hop-on hop-off bus",
+   "cost": "Check with the operator",
+   "time": "Varies",
+   "detail": "Runs in the cruise season to Senate Square, Temppeliaukio Church, the Sibelius Monument and the Olympic Stadium."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Ship at Hernesaari: be at the shuttle stop or on tram 6 in the centre 90 minutes before all-aboard, and leave Suomenlinna 2 hours before. Ship at the South Harbour or Katajanokka: be back on board 60 minutes before all-aboard.",
+  "detail": "Shuttle queues build in the last two hours, and the tram ride across town depends on traffic. The Suomenlinna ferry runs to a timetable, so a missed boat can cost you a long wait, especially outside summer.",
+  "emergencyFallback": "Take a taxi from the centre to Hernesaari. If you will miss all-aboard, phone the port agent number on your daily programme at once."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Suomenlinna sea fortress",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "HSL ferry €3.30 each way with an AB single (2026)",
+   "saving": "Most of the tour price"
+  },
+  {
+   "item": "Temppeliaukio (Rock) Church",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "€8 adult entry (2026) plus a tram ride",
+   "saving": "Most of the tour price"
+  },
+  {
+   "item": "City highlights (Senate Square, Uspenski, Market Square)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free on foot from the shuttle drop-off",
+   "saving": "All of the tour price"
+  }
+ ],
+ "excursionAdvice": "Most visitors can do Helsinki alone: the centre is compact, trams and the Suomenlinna ferry are simple, and English is widely spoken. A ship tour makes sense if you want several spread-out sights (Temppeliaukio, the Sibelius Monument, the Olympic Stadium) in a short call, or for Porvoo, about 45 minutes' drive each way, where the ship's coach removes the return risk.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at Hernesaari at 08:00 and all-aboard is 17:30.",
+  "steps": [
+   {
+    "time": "08:30",
+    "what": "Shuttle bus (about 10 minutes) or tram 6 into the centre. Buy an HSL ticket in the app first, or use a contactless card."
+   },
+   {
+    "time": "09:00",
+    "what": "Market Square: stalls, fish and berries in season. Watch your food; the gulls are aggressive."
+   },
+   {
+    "time": "09:30",
+    "what": "HSL ferry from the east side of Market Square to Suomenlinna, about 15 minutes."
+   },
+   {
+    "time": "12:00",
+    "what": "Ferry back to Market Square. Lunch at the Old Market Hall or the market stalls."
+   },
+   {
+    "time": "13:15",
+    "what": "Walk to Uspenski Cathedral, then Senate Square and Helsinki Cathedral."
+   },
+   {
+    "time": "14:30",
+    "what": "Esplanade Park, or tram or taxi to Temppeliaukio Church (€8, closed during services)."
+   },
+   {
+    "time": "15:45",
+    "what": "Back near the Esplanade shuttle stop or tram 6."
+   },
+   {
+    "time": "16:00",
+    "what": "Shuttle or tram back to Hernesaari, 90 minutes before all-aboard."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Suomenlinna sea fortress",
+   "why": "An island fortress at the harbour mouth, 15 minutes by HSL ferry from Market Square.",
+   "timeNeeded": "2–3 hours including the ferry",
+   "cost": "Ferry €3.30 each way with an HSL AB single (2026)",
+   "tip": "Buy the ticket before the payment gate. Check the return ferry times as soon as you land."
+  },
+  {
+   "name": "Market Square (Kauppatori)",
+   "why": "The waterfront market where the ferries leave, with fish, berries and snacks.",
+   "timeNeeded": "30–60 minutes",
+   "cost": "Free",
+   "tip": "Open roughly 08:00–18:00, shorter in winter. In October herring boats tie up for the herring market."
+  },
+  {
+   "name": "Senate Square and Helsinki Cathedral",
+   "why": "The historic square in the centre, with Helsinki Cathedral above it.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "Free to the square",
+   "tip": "About 10 minutes' walk from the South Harbour; combine with Market Square."
+  },
+  {
+   "name": "Uspenski Cathedral",
+   "why": "The Orthodox cathedral on a hilltop near the harbour and Market Square.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Check at the door",
+   "tip": "Easy to combine with Katajanokka and Market Square."
+  },
+  {
+   "name": "Temppeliaukio (Rock) Church",
+   "why": "Known as the Rock Church; one of Helsinki's best-known sights.",
+   "timeNeeded": "30–45 minutes",
+   "cost": "€8 adult; under-18s free (2026)",
+   "tip": "Lutherinkatu 3, about 10 minutes' walk from Kamppi. Closed to visitors during weddings, funerals, christenings and the Sunday 10:00 service; entrance closes 10 minutes before closing. Cash or most cards."
+  },
+  {
+   "name": "Esplanade Park",
+   "why": "The central park by Market Square; the Hernesaari shuttle ends near the Esplanade.",
+   "timeNeeded": "20–30 minutes",
+   "cost": "Free",
+   "tip": "A good place to wait for the return shuttle."
+  },
+  {
+   "name": "Sibelius Monument",
+   "why": "A monument to the composer Jean Sibelius in Sibelius Park.",
+   "timeNeeded": "15–20 minutes plus travel",
+   "cost": "Free",
+   "tip": "About 10 minutes from downtown; on the hop-on hop-off route."
+  },
+  {
+   "name": "Old Market Hall (Vanha kauppahalli)",
+   "why": "A historic 19th-century indoor market in the Market Square area.",
+   "timeNeeded": "30 minutes",
+   "cost": "Free to enter",
+   "tip": "Good for lunch on a cold or wet day."
+  }
+ ],
+ "beaches": [],
+ "food": [
+  {
+   "dish": "Fried vendace (small lake fish)",
+   "where": "Market Square stalls, in summer",
+   "price": null
+  },
+  {
+   "dish": "Baltic herring",
+   "where": "Market Square, especially during the October herring market",
+   "price": null
+  },
+  {
+   "dish": "Fresh salmon",
+   "where": "Market Square and the Old Market Hall",
+   "price": null
+  },
+  {
+   "dish": "Finnish berries",
+   "where": "Market Square berry stalls, in summer",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Assuming the ship docks next to Market Square.",
+   "fix": "Most large ships use Hernesaari, 3.5–4 km away. Check your berth and plan the shuttle or tram 6."
+  },
+  {
+   "mistake": "Paying by contactless when you make several trips.",
+   "fix": "Buy in the HSL app: an AB single is €3.30 in the app versus €3.50 by contactless (2026)."
+  },
+  {
+   "mistake": "Leaving Suomenlinna on the last practical ferry.",
+   "fix": "Leave the island 2 hours before all-aboard if your ship is at Hernesaari; ferries run to a timetable."
+  },
+  {
+   "mistake": "Eating in the open at Market Square.",
+   "fix": "The gulls snatch food; eat under cover or in the Old Market Hall."
+  },
+  {
+   "mistake": "Visiting Temppeliaukio on Sunday morning.",
+   "fix": "It closes to sightseeing during the 10:00 Sunday service and for weddings and funerals; go another time."
+  }
+ ],
+ "safety": "Helsinki is a safe city for visitors. The main practical risks are weather, slippery surfaces in wet or icy months, and traffic and trams in the centre. Bring a windproof layer; Baltic weather changes quickly. Keep an eye on food at Market Square because of the gulls.",
+ "scams": [],
+ "emergencyNumber": "112",
+ "accessibility": "The central berths at the South Harbour and Katajanokka are a flat, short walk from Market Square. From Hernesaari, use the shuttle or tram 6 rather than the long coastal walk. The centre is largely flat. Suomenlinna is reached by ferry and has uneven, historic ground; check access with the operator before you go.",
+ "rainyDay": "Spend the time indoors: the Old Market Hall for lunch, Temppeliaukio Church, Helsinki Cathedral and Uspenski Cathedral. Suomenlinna is exposed in wind and rain; keep it for a dry day.",
+ "crowdTips": "On peak summer days up to five ships can call, and shuttle queues at Hernesaari and the Market Square ferry pier build quickly. Take an early shuttle, go to Suomenlinna first, and do Senate Square and the cathedrals in the afternoon. Return to the shuttle stop before the late rush.",
+ "faqs": [
+  {
+   "q": "Is Helsinki a tender port?",
+   "a": "No. Ships dock at Hernesaari, the South Harbour or Katajanokka."
+  },
+  {
+   "q": "Is Helsinki walkable from the cruise port?",
+   "a": "From the South Harbour or Katajanokka, yes: 10–15 minutes. From Hernesaari it is about 3.5–4 km, up to an hour on foot; most people take the shuttle or tram 6."
+  },
+  {
+   "q": "How do I get from Hernesaari to Helsinki city centre?",
+   "a": "Take the cruise line's shuttle (about 10 minutes, to near the Esplanade) or tram 6. An HSL AB single is €3.30 in the app or €3.50 contactless (2026)."
+  },
+  {
+   "q": "How do I get to Suomenlinna from a cruise ship?",
+   "a": "Get to Market Square and take the HSL ferry from the eastern side, in front of the Presidential Palace. It takes about 15 minutes and needs an AB ticket (€3.30 single, 2026)."
+  },
+  {
+   "q": "What can I do in Helsinki in one day from a cruise ship?",
+   "a": "Market Square, Suomenlinna by ferry, Uspenski Cathedral, Senate Square and Helsinki Cathedral, with Temppeliaukio Church on a longer call."
+  },
+  {
+   "q": "How much is Temppeliaukio Church?",
+   "a": "€8 per adult; under-18s go free (2026). It closes to visitors during services and ceremonies."
+  },
+  {
+   "q": "Do I need cash in Helsinki?",
+   "a": "Rarely. Cards are widely accepted, and you can tap a contactless card on trams."
+  },
+  {
+   "q": "Is Helsinki safe?",
+   "a": "Yes. Dress for changeable weather and watch out for trams in the centre."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "Suomenlinna"
+  },
+  {
+   "name": "Market Square"
+  },
+  {
+   "name": "Senate Square"
+  },
+  {
+   "name": "Helsinki Cathedral"
+  },
+  {
+   "name": "Uspenski Cathedral"
+  },
+  {
+   "name": "Temppeliaukio Church"
+  },
+  {
+   "name": "Sibelius Monument"
+  },
+  {
+   "name": "Old Market Hall"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Port of Helsinki – Cruise quays",
+   "url": "https://www.portofhelsinki.fi/en/cruise-quays/"
+  },
+  {
+   "title": "Port of Helsinki – Cruise development",
+   "url": "https://www.portofhelsinki.fi/en/making-new/current-projects/cruise-development"
+  },
+  {
+   "title": "Port of Helsinki – Helsinki's international cruise season to start on 21 April (2025)",
+   "url": "https://www.portofhelsinki.fi/en/about-us/port-of-helsinki/whats-new/helsinkis-international-cruise-season-to-start-on-21-april/"
+  },
+  {
+   "title": "Port of Helsinki – Information for passengers",
+   "url": "https://www.portofhelsinki.fi/en/passengers/information-for-passengers/"
+  },
+  {
+   "title": "HSL – Single ticket prices in the HSL area (2026)",
+   "url": "https://www.hsl.fi/en/tickets-and-fares/single-tickets/single-ticket-prices-in-the-hsl-area"
+  },
+  {
+   "title": "HSL – Changes to fares from 1 January 2026",
+   "url": "https://www.hsl.fi/en/hsl/news/news/2025/10/changes-to-fares-from-1-january-2026"
+  },
+  {
+   "title": "HSL – The ferry ride to Suomenlinna takes just 15 minutes",
+   "url": "https://www.hsl.fi/en/travelling/visitors/suomenlinna"
+  },
+  {
+   "title": "HSL – Multi-journey ticket prices in the HSL area (2026)",
+   "url": "https://www.hsl.fi/en/tickets-and-fares/multi-journey-tickets/multi-journey-ticket-prices-in-the-hsl-area"
+  },
+  {
+   "title": "Temppeliaukio Church – visitor information",
+   "url": "https://www.temppeliaukionkirkko.fi/en/index/nimi.html"
+  },
+  {
+   "title": "Cruise Business – International cruise season starts in Helsinki (2025)",
+   "url": "https://www.cruisebusiness.com/index.php/news-section-sp-605/ports-a-destinations/11070-international-cruise-season-starts-in-helsinki-next-week"
+  },
+  {
+   "title": "Discover the Baltic – Helsinki cruise berths",
+   "url": "https://discoverthebaltic.com/helsinki/berths.htm"
+  },
+  {
+   "title": "Discover the Baltic – Hernesaari",
+   "url": "https://discoverthebaltic.com/helsinki/herne.htm"
+  },
+  {
+   "title": "Adventour Begins – Helsinki cruise port guide",
+   "url": "https://www.adventourbegins.com/?p=3389"
+  },
+  {
+   "title": "Wikipedia – West Harbour, Helsinki",
+   "url": "https://en.wikipedia.org/wiki/West_Harbour,_Helsinki"
+  },
+  {
+   "title": "Table Journey – Market Square, Helsinki",
+   "url": "https://tablejourney.com/finland/helsinki/markets/market-square/"
+  }
+ ],
+ "uncertain": [
+  "Whether the Hernesaari–city water bus (new in summer 2025, May to September) runs in 2026, and its fare.",
+  "Cruise shuttle fares at Hernesaari.",
+  "Tram 6 journey time from Hernesaari to the centre and the stop names.",
+  "HSL day ticket prices for 2026, and whether the daily fare cap for contactless payment is in force.",
+  "Temppeliaukio Church opening hours (published weekly) and Uspenski or Helsinki Cathedral entry charges.",
+  "Beaches reachable on a cruise call (none verified).",
+  "Typical all-aboard time for Helsinki calls (17:30 used as a default)."
+ ]
+}

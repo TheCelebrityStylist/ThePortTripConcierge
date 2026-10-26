@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import { app, PRICES } from '../lib/site.js';
+const FAQ = [
+  ["What's free?", 'Leave-by times for every checked port, in port time and ship time, plus the full guide and day plan for each port. No card and no account needed.'],
+  ['What does the Cruise Pass add?', 'Every port of one sailing (up to 10) timed to your all-aboard, the full planner with a Plan B if you run late, an offline copy, and live mode on the day: Google Maps travel time from where you are back to the pier, with alerts at 30, 15 and 0 minutes. You pay once and nothing renews.'],
+  ['And the Year Pass?', 'Everything in the Cruise Pass, for every cruise you take in 12 months. Cancel any time from your account.'],
+  ['Why not just ask ChatGPT?', 'Use it for ideas. For timing it guesses: it does not know your ship’s clock, the tender or cable-car queue, or where you are standing. Our leave-by times come from guides checked against official sources, and live mode uses Google Maps from your location.'],
+  ['Do I need an account to buy?', 'No. Pay first, then sign in with the same email to open your plans and live mode.'],
+  ["Is it a guarantee I'll make it back?", "No. It's planning guidance. Always follow your ship's instructions and check transport on the day."],
+  ["What if it's not for me?", 'Email us within 30 days for a full refund. No questions.'],
+];
+const PASS = ['Every port of your cruise timed to your all-aboard, in port time and ship time', 'Live on the day: Google Maps travel time back to the pier, alerts at 30, 15 and 0 minutes', 'The full planner for each port, with a Plan B if you run late', 'An offline copy for when there is no signal'];
+const jsonLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
+---
+<Base title="PortTrip Pricing: Cruise Pass and Year Pass" description="Leave-by times for every port are free. The Cruise Pass times one whole sailing to your ship and goes live on the day with Google Maps and alerts." path="/pricing" jsonLd={jsonLd}>
+  <div class="mx-auto max-w-4xl px-5 pb-20 pt-10 sm:px-8">
+    <h1 class="text-center text-4xl font-semibold tracking-tight sm:text-5xl">Every port. Back on board on time.</h1>
+    <p class="mx-auto mt-3 max-w-xl text-center text-lg text-navy/75">Guides and single-port plans are free. Pay only when you want your whole cruise timed and watched for you.</p>
+    <div class="mt-10 grid gap-4 sm:grid-cols-2">
+      <div class="flex flex-col rounded-2xl bg-navy p-7 text-white">
+        <h2 class="text-lg font-semibold">Cruise Pass</h2><p class="mt-1 text-4xl font-semibold">{PRICES.pass}</p><p class="text-sm text-white/65">One sailing, up to 10 ports. Pay once.</p>
+        <ul class="mt-5 flex-1 space-y-2 text-[15px] text-white/90">{PASS.map((f) => <li class="flex gap-2"><span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-signal"></span>{f}</li>)}</ul>
+        <a href={app('/pricing')} class="btn-signal mt-6" rel="nofollow">Get the Cruise Pass</a>
+      </div>
+      <div class="flex flex-col rounded-2xl bg-white p-7 ring-1 ring-navy/10">
+        <h2 class="text-lg font-semibold">Year Pass</h2><p class="mt-1 text-4xl font-semibold">{PRICES.year}<span class="text-base font-normal text-navy/55"> a year</span></p><p class="text-sm text-navy/65">Every cruise for 12 months.</p>
+        <p class="mt-5 flex-1 text-[15px] text-navy/80">Everything in the Cruise Pass, for as many sailings as you take. Cancel any time.</p>
+        <a href={app('/pricing')} class="btn-navy mt-6" rel="nofollow">Get the Year Pass</a>
+      </div>
+    </div>
+    <p class="mt-4 text-center text-sm text-navy/60">US visitors pay $17 and $45. 30-day full refund. Secure checkout with Stripe.</p>
+    <div class="mt-14 divide-y divide-navy/10 border-y border-navy/10">
+      {FAQ.map(([q, a]) => <details class="group"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-4 [&::-webkit-details-marker]:hidden"><h2 class="font-semibold">{q}</h2><span class="text-xl text-sea transition-transform group-open:rotate-45" aria-hidden="true">+</span></summary><p class="pb-4 text-navy/80">{a}</p></details>)}
+    </div>
+  </div>
+</Base>

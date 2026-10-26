@@ -1,0 +1,381 @@
+{
+ "slug": "honolulu",
+ "city": "Honolulu",
+ "portName": "Honolulu Harbor (Pier 2 and Pier 11, Aloha Tower)",
+ "townName": "downtown Honolulu",
+ "country": "United States (Hawaii)",
+ "currency": "USD",
+ "currencySymbol": "$",
+ "language": "English (Hawaiian is also an official language)",
+ "timezone": "HST (UTC−10), no daylight saving",
+ "lastVerified": "October 2026",
+ "seoTitle": "Honolulu cruise port guide: Pearl Harbor and Diamond Head",
+ "seoDescription": "Ships use Pier 2 or Pier 11 by Aloha Tower. Waikiki 15 min by car. Arizona Memorial free but book on Recreation.gov ($1). Diamond Head $5, reservation only.",
+ "quickAnswer": "Most ships dock at Pier 2 on Ala Moana Boulevard; a second ship uses Pier 11 by Aloha Tower, about half a mile away, close to downtown and Chinatown. Downtown is walkable, but Waikiki is about 15 minutes by car and Pearl Harbor about 9.5 miles away, so use a taxi, ride-hail or TheBus ($3.25 a ride from July 2026). Book the USS Arizona Memorial and Diamond Head before you sail, and leave Pearl Harbor two hours before all-aboard.",
+ "intro": "Honolulu Harbor puts you on the edge of downtown, within walking distance of Chinatown and the Aloha Tower, with Waikiki a short drive east along the shore. The day here is shaped by reservations rather than distance: the USS Arizona Memorial programme, Diamond Head and ʻIolani Palace all need tickets booked in advance, and walk-up entry is either limited or not offered. Pick one booked anchor for the day, build the rest around it, and allow for Honolulu traffic on the way back.",
+ "isTender": false,
+ "tenderNotes": null,
+ "typicalHours": 9,
+ "terminals": [
+  {
+   "name": "Pier 2 Cruise Terminal",
+   "distanceToCentreKm": null,
+   "notes": "The primary cruise terminal, used by most lines, at 521 Ala Moana Blvd; the entrance is at the west end of Channel Street. Kakaʻako is just under a mile away. Follow current signs for the ground-transport area, which the state has changed. No wi-fi at the terminal."
+  },
+  {
+   "name": "Pier 11 (Aloha Tower)",
+   "distanceToCentreKm": null,
+   "notes": "The alternate terminal, used when a second ship is in. Entrance on the north extension of Aloha Tower Drive, beside Aloha Tower Marketplace, a couple of blocks from Chinatown. Free wi-fi at the marketplace."
+  }
+ ],
+ "walkability": {
+  "verdict": "Partly",
+  "minutes": 15,
+  "km": null,
+  "detail": "Downtown and Chinatown are walkable from Pier 11; the King Kamehameha I statue downtown is about 15 minutes on foot from the port. Waikiki (hotels about 3.3–4.8 miles away), Pearl Harbor and Diamond Head need transport."
+ },
+ "transportSections": [
+  {
+   "mode": "TheBus",
+   "cost": "$3.25 cash per boarding, exact fare, no transfers; $7.50 daily cap with a HOLO card ($2 card fee) (from July 2026)",
+   "time": "Pearl Harbor from Waikiki about 1 hour or more",
+   "detail": "Route 20 runs between the airport and stops near both piers (Ala Moana Blvd opposite South St for Pier 2; S. King St and Bethel St for Pier 11). For Pearl Harbor from Waikiki, the W Line and Route 42 board on Kuhio Avenue. Drivers carry no change. A HOLO card gives transfers and the daily cap; buy or load it at holocard.net or a HOLO retailer."
+  },
+  {
+   "mode": "Taxi or ride-hail (Uber, Lyft)",
+   "cost": "Waikiki to Pearl Harbor: Uber about $26–41, taxi $45–70 (2026)",
+   "time": "About 15 min to Waikiki; 25–30 min to Pearl Harbor without traffic",
+   "detail": "The most practical option for a timed Pearl Harbor or Diamond Head slot. Rush hour runs towards Honolulu from about 06:00 to 08:30 and out to the west from about 15:30 to 18:30."
+  },
+  {
+   "mode": "On foot",
+   "cost": "Free",
+   "time": "About 15 min to the King Kamehameha I statue",
+   "detail": "From Pier 11 you can walk to Chinatown and downtown. From Pier 2 allow longer; the piers are about half a mile apart."
+  }
+ ],
+ "returnTiming": {
+  "rule": "Be back on board 60 minutes before all-aboard. Leave Pearl Harbor two hours before all-aboard by taxi or ride-hail, Waikiki or Diamond Head 90 minutes before, and downtown 75 minutes before.",
+  "detail": "Pearl Harbor is 25–30 minutes away in light traffic, but the afternoon rush starts around 15:30. Diamond Head entry slots also run to a fixed timetable, so a late slot leaves little room.",
+  "emergencyFallback": "Order a ride-hail rather than waiting for a bus. If you will miss all-aboard, call the port agent number on your daily programme straight away."
+ },
+ "shipExcursionAvg": null,
+ "diyAvg": null,
+ "savingPerPerson": null,
+ "diyVsExcursion": [
+  {
+   "item": "Pearl Harbor (USS Arizona Memorial)",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "Free programme plus $1 Recreation.gov fee; ride-hail or TheBus there and back (2026)",
+   "saving": "Large, if you secure a reservation"
+  },
+  {
+   "item": "Diamond Head",
+   "ship": "Varies by line; check your cruise planner",
+   "diy": "$5 entry per non-resident, plus taxi or bus (2026)",
+   "saving": "Large"
+  }
+ ],
+ "excursionAdvice": "If you could not get USS Arizona Memorial tickets on Recreation.gov, a ship's Pearl Harbor tour is the most reliable way in, because same-day in-person tickets are no longer issued and standby waits can last hours. The same applies to Diamond Head if the 30-day window sold out before you booked. Otherwise downtown, Chinatown, ʻIolani Palace and Waikiki are easy on your own with a ride-hail.",
+ "dayPlan": {
+  "allAboard": "17:30",
+  "intro": "Assumes the ship docks at 07:00, all-aboard is 17:30, a weekday from Tuesday to Saturday, and a USS Arizona Memorial reservation for about 09:30.",
+  "steps": [
+   {
+    "time": "08:00",
+    "what": "Ride-hail from the pier to the Pearl Harbor Visitor Center. Leave all bags on the ship; only a small wallet is allowed."
+   },
+   {
+    "time": "08:30",
+    "what": "Arrive at least an hour before your programme. Check in at the Ticket Validation Desk 10 minutes before your time."
+   },
+   {
+    "time": "09:30",
+    "what": "USS Arizona Memorial programme: orientation, boat to the memorial and back. Watch the 23-minute film and the free museums before or after."
+   },
+   {
+    "time": "11:45",
+    "what": "Ride-hail back to downtown."
+   },
+   {
+    "time": "12:30",
+    "what": "Lunch in Chinatown, for example a poke bowl at Maguro Brothers."
+   },
+   {
+    "time": "13:30",
+    "what": "ʻIolani Palace tour (booked in advance; 60–90 minutes), at King and Richards Streets."
+   },
+   {
+    "time": "15:15",
+    "what": "Walk back past the Aloha Tower to the pier."
+   },
+   {
+    "time": "16:30",
+    "what": "Back on board, 60 minutes before all-aboard."
+   }
+  ]
+ },
+ "sights": [
+  {
+   "name": "Pearl Harbor National Memorial and USS Arizona Memorial",
+   "why": "The site of the 7 December 1941 attack; the programme takes you by boat to the memorial over the sunken battleship.",
+   "timeNeeded": "Half a day including travel",
+   "cost": "Free; $1 Recreation.gov fee per ticket; parking $7 (2026)",
+   "tip": "Tickets open at 15:00 HST 8 weeks ahead, with more released at 15:00 the day before. No bags larger than a small wallet; paid bag storage is near the entrance. Visitor centre open 07:00–17:00, programmes 08:00–15:30."
+  },
+  {
+   "name": "Diamond Head State Monument",
+   "why": "The crater trail climbs to the rim for views over Waikiki and the coast.",
+   "timeNeeded": "1.5–2 hours on site",
+   "cost": "$5 per non-resident, $10 parking (2026)",
+   "tip": "Non-residents must book on gostateparks.hawaii.gov, up to 30 days ahead; people without a reservation are turned away. Arrive within the first 30 minutes of your slot. Last reservation 16:00; everyone must be out by 18:00."
+  },
+  {
+   "name": "ʻIolani Palace",
+   "why": "The palace of Hawaii's last monarchs, in downtown Honolulu.",
+   "timeNeeded": "60–90 minutes",
+   "cost": "Check the palace's booking site",
+   "tip": "Open Tuesday to Saturday 09:00–16:00, closed Sunday and Monday. Tickets are online only: no walk-ups or same-day bookings. No large bags, backpacks, food or drink inside."
+  },
+  {
+   "name": "Waikiki",
+   "why": "Honolulu's resort district and beach, about 15 minutes by car from the harbour.",
+   "timeNeeded": "2–3 hours",
+   "cost": "Free",
+   "tip": "Combine with Diamond Head: TheBus Route 23 runs from Waikiki to the crater entrance."
+  },
+  {
+   "name": "Chinatown",
+   "why": "A couple of blocks from Pier 11, with an arts district and some of the city's best-known restaurants.",
+   "timeNeeded": "1–2 hours",
+   "cost": "Free",
+   "tip": "Easy to fit in at the end of the day if your ship is at Pier 11."
+  },
+  {
+   "name": "Aloha Tower",
+   "why": "Opened in 1926 and for four decades the tallest building in the islands; it still marks the cruise piers.",
+   "timeNeeded": "20 minutes",
+   "cost": "Free to see from outside",
+   "tip": "The state lists the tower as closed indefinitely, so do not plan on going up."
+  },
+  {
+   "name": "Kakaʻako and SALT at Our Kakaʻako",
+   "why": "A district of shops and cafés just under a mile from Pier 2.",
+   "timeNeeded": "1 hour",
+   "cost": "Free",
+   "tip": "The nearest food and coffee stop if your ship is at Pier 2."
+  }
+ ],
+ "beaches": [
+  {
+   "name": "Waikiki Beach",
+   "howToGetThere": "Taxi or ride-hail",
+   "time": "About 15 min by car",
+   "cost": "Free",
+   "note": "Honolulu's main resort beach; the stretch in front of the Hilton Hawaiian Village is Kahanamoku Beach."
+  },
+  {
+   "name": "Ala Moana Beach",
+   "howToGetThere": "Short taxi or ride-hail",
+   "time": "About 10 min by car (Ala Moana area)",
+   "cost": "Free",
+   "note": "Next to Kakaʻako and Ala Moana Center, closer to the piers than Waikiki."
+  },
+  {
+   "name": "Hanauma Bay",
+   "howToGetThere": "Taxi or ride-hail; tickets required",
+   "time": "Allow most of a day",
+   "cost": "$25 per non-resident; parking $3 (2026)",
+   "note": "Tickets open 48 hours ahead at 07:00 HST. Open Wednesday to Sunday 06:45–16:00, no entry after 13:30. Tight on a cruise day."
+  }
+ ],
+ "food": [
+  {
+   "dish": "Shoyu onion ahi poke bowl",
+   "where": "Maguro Brothers, 1120 Maunakea Street, Chinatown",
+   "price": null
+  },
+  {
+   "dish": "Vietnamese-influenced small plates",
+   "where": "The Pig and the Lady, Chinatown",
+   "price": null
+  },
+  {
+   "dish": "Kalua pig plate with poi, lomi salmon and squid luau",
+   "where": "Highway Inn Kakaʻako, 680 Ala Moana Boulevard",
+   "price": null
+  },
+  {
+   "dish": "Coffee and avocado toast",
+   "where": "Arvo Café, SALT at Our Kakaʻako",
+   "price": null
+  },
+  {
+   "dish": "Niku udon with tempura",
+   "where": "Marukame Udon, 2310 Kuhio Avenue, Waikiki",
+   "price": null
+  }
+ ],
+ "commonMistakes": [
+  {
+   "mistake": "Turning up at Pearl Harbor without a USS Arizona Memorial reservation.",
+   "fix": "Book on Recreation.gov 8 weeks ahead or at 15:00 HST the day before. Same-day in-person tickets are no longer issued."
+  },
+  {
+   "mistake": "Taking a bag to Pearl Harbor.",
+   "fix": "Leave it on the ship. Only a small wallet is allowed; storage costs extra and adds a queue."
+  },
+  {
+   "mistake": "Going to Diamond Head without a reservation.",
+   "fix": "Non-residents need an advance slot from gostateparks.hawaii.gov; you will be turned away otherwise."
+  },
+  {
+   "mistake": "Planning ʻIolani Palace on a Sunday or Monday, or as a walk-up.",
+   "fix": "It opens Tuesday to Saturday only and sells tickets online in advance."
+  },
+  {
+   "mistake": "Assuming you dock at the same pier as last time.",
+   "fix": "Check whether your ship is at Pier 2 or Pier 11; they are half a mile apart and directions differ."
+  }
+ ],
+ "safety": "Honolulu is generally safe for visitors. Use normal city awareness in downtown and Chinatown, especially after dark. The real risks on a port day are heat and sun on the Diamond Head trail and ocean conditions at unguarded beaches; swim where lifeguards are on duty. Keep valuables out of sight in parked or hired cars.",
+ "scams": [],
+ "emergencyNumber": "911",
+ "accessibility": "Pier 2 has porters and luggage storage, but wheelchair services and accessible ramps or lifts are not listed. At Pearl Harbor, ask the park (808 422-3399) about access on the memorial boat. The Diamond Head trail climbs 560 feet over 1.6 miles round trip and is not suitable for wheelchairs. ʻIolani Palace tours cover two floors; ask the palace about access when booking. Ride-hail drivers can drop you close to most downtown sights.",
+ "rainyDay": "Pearl Harbor's museums, ʻIolani Palace and Ala Moana Center work in rain. Diamond Head's trail is exposed; if it is wet, use your slot only if you are confident on slippery steps.",
+ "crowdTips": "Pearl Harbor programmes run every 15 minutes from 08:00; booking a morning slot leaves the afternoon free and keeps you clear of the late traffic. Book Diamond Head as soon as the 30-day window opens for your date. Avoid the westbound afternoon rush from about 15:30 if you are heading back from Pearl Harbor late.",
+ "faqs": [
+  {
+   "q": "Where do cruise ships dock in Honolulu?",
+   "a": "Most use Pier 2 at 521 Ala Moana Blvd. A second ship uses Pier 11 beside Aloha Tower, about half a mile away."
+  },
+  {
+   "q": "Is Honolulu walkable from the cruise port?",
+   "a": "Partly. Downtown and Chinatown are walkable, especially from Pier 11. Waikiki, Pearl Harbor and Diamond Head need a car or bus."
+  },
+  {
+   "q": "How do I get from Honolulu cruise port to Waikiki?",
+   "a": "A taxi or ride-hail takes about 15 minutes. TheBus costs $3.25 a ride from July 2026, exact cash or HOLO card."
+  },
+  {
+   "q": "Do I need tickets for Pearl Harbor?",
+   "a": "The USS Arizona Memorial programme is free but needs a Recreation.gov reservation ($1 fee). Tickets open 8 weeks ahead and at 15:00 HST the day before."
+  },
+  {
+   "q": "Do I need a reservation for Diamond Head?",
+   "a": "Yes, for non-residents. Book on gostateparks.hawaii.gov up to 30 days ahead; entry is $5 per person and parking $10."
+  },
+  {
+   "q": "Can I bring a bag to Pearl Harbor?",
+   "a": "No. Only items up to the size of a small wallet are allowed. Paid storage is near the entrance."
+  },
+  {
+   "q": "What can I do in Honolulu in one day from a cruise ship?",
+   "a": "Pearl Harbor in the morning, then lunch in Chinatown and ʻIolani Palace, or Diamond Head and Waikiki."
+  },
+  {
+   "q": "Is Honolulu a tender port?",
+   "a": "No. Ships dock at Pier 2 or Pier 11 in Honolulu Harbor."
+  }
+ ],
+ "topAttractions": [
+  {
+   "name": "USS Arizona Memorial"
+  },
+  {
+   "name": "Pearl Harbor National Memorial"
+  },
+  {
+   "name": "Diamond Head State Monument"
+  },
+  {
+   "name": "ʻIolani Palace"
+  },
+  {
+   "name": "Waikiki Beach"
+  },
+  {
+   "name": "Chinatown"
+  },
+  {
+   "name": "Aloha Tower"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Hawaii DOT Harbors – Visitor info (Honolulu cruise terminals)",
+   "url": "https://hidot.hawaii.gov/harbors/?p=25"
+  },
+  {
+   "title": "NPS – Pearl Harbor National Memorial basic information",
+   "url": "https://home.nps.gov/perl/planyourvisit/basicinfo.htm"
+  },
+  {
+   "title": "NPS – Pearl Harbor frequently asked questions",
+   "url": "https://www.nps.gov/perl/faq-s.htm"
+  },
+  {
+   "title": "NPS – USS Arizona Memorial programs",
+   "url": "https://www.nps.gov/perl/uss-arizona-memorial-programs.htm"
+  },
+  {
+   "title": "Hawaii State Parks – About Diamond Head reservations",
+   "url": "https://gostateparks.hawaii.gov/diamondhead/about"
+  },
+  {
+   "title": "Hawaii State Parks – Diamond Head FAQ",
+   "url": "https://gostateparks.hawaii.gov/diamondhead/faq"
+  },
+  {
+   "title": "TheBus – Fares effective 1 July 2026",
+   "url": "https://www.thebus.org/Fare/TheBusFares20260701.asp"
+  },
+  {
+   "title": "ʻIolani Palace – Hours",
+   "url": "https://www.iolanipalace.org/visit/hours/"
+  },
+  {
+   "title": "ʻIolani Palace – Tours and admission",
+   "url": "https://www.iolanipalace.org/?p=1072"
+  },
+  {
+   "title": "Hawaii Tourism Authority (GoHawaii) – Aloha Tower",
+   "url": "https://www.gohawaii.com/islands/oahu/regions/honolulu/aloha-tower"
+  },
+  {
+   "title": "The Points Guy – Honolulu cruise port guide",
+   "url": "https://thepointsguy.com/cruise/honolulu-cruise-port-guide/"
+  },
+  {
+   "title": "Cruise Deals Tips and Tricks – Port of Honolulu (checked May 2026)",
+   "url": "https://www.cruisedealstipsandtricks.com/ports/honolulu/"
+  },
+  {
+   "title": "What's in Port – Honolulu",
+   "url": "https://www.whatsinport.com/Honolulu-Oahu-Hawaii.htm"
+  },
+  {
+   "title": "Hawaii Travel with Kids – Waikiki to Pearl Harbor (2026)",
+   "url": "https://hawaiitravelwithkids.com/?p=18413"
+  },
+  {
+   "title": "Hawaii Travel with Kids – Hawaii reservations 2026",
+   "url": "https://hawaiitravelwithkids.com/?p=31528"
+  },
+  {
+   "title": "Hawaii-Guide – Diamond Head reservations (2026)",
+   "url": "https://www.hawaii-guide.com/oahu/diamond-head-reservations"
+  },
+  {
+   "title": "Table Journey – Honolulu itineraries",
+   "url": "https://tablejourney.com/united-states/honolulu/itineraries/"
+  }
+ ],
+ "uncertain": [
+  "ʻIolani Palace adult ticket prices; the palace's pages do not show them outside the booking widget.",
+  "The Pearl Harbor bag storage fee amount.",
+  "Taxi or ride-hail fares from the cruise piers to Waikiki.",
+  "Bus route numbers from the cruise piers direct to Waikiki, Pearl Harbor or Diamond Head.",
+  "A typical all-aboard time for Honolulu port-of-call visits; many Hawaii itineraries start or end here. The day plan uses 17:30."
+ ]
+}
