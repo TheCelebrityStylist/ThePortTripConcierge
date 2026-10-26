@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { BY_SLUG } from '../../lib/blog.js';
+import { portImage } from '../../lib/ports.js';
+const cover = (p) => p.hero ? String(p.hero).replace(/w=\d+/, 'w=640') : (Array.isArray(p.relatedPorts) && p.relatedPorts.map((s) => portImage(s)).find(Boolean)?.src.replace(/\/\d+px-/, '/640px-')) || null;
 import PUB from '../../data/published.json';
 const SOURCE = { 'best-mediterranean-cruise-ports': 'best-mediterranean-cruise-ports-diy' };
 const posts = PUB.blog.map((s) => ({ s, p: BY_SLUG[SOURCE[s] || s] })).filter((x) => x.p)
@@ -12,9 +14,10 @@ const posts = PUB.blog.map((s) => ({ s, p: BY_SLUG[SOURCE[s] || s] })).filter((x
     <p class="mt-3 max-w-2xl text-lg text-navy/75">Every article is checked against our port guides and their sources. If something is out of date, email hello@porttrip.com.</p>
     <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {posts.map(({ s, p }) => (
-        <li><a href={`/blog/${s}`} class="card block h-full p-5 transition-shadow hover:shadow-lg">
-          <span class="block text-lg font-semibold leading-snug">{p.title}</span>
-          <span class="mt-2 block text-sm text-navy/70 line-clamp-3">{p.description || p.excerpt}</span>
+        <li><a href={`/blog/${s}`} class="card group block h-full overflow-hidden transition-shadow hover:shadow-lg">
+          {cover(p) && <span class="block aspect-[16/9] overflow-hidden bg-fog"><img src={cover(p)} alt="" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" /></span>}
+          <span class="block p-5"><span class="block text-lg font-semibold leading-snug">{p.title}</span>
+          <span class="mt-2 block text-sm text-navy/70 line-clamp-3">{p.description || p.excerpt}</span></span>
         </a></li>
       ))}
     </ul>

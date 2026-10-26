@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { CAT, REGIONS } from '../../lib/ports.js';
+import { CAT, REGIONS, portImage, scoreOf } from '../../lib/ports.js';
+const thumb = (s) => { const i = portImage(s); return i ? i.src.replace(/\/\d+px-/, '/480px-') : null; };
 const total = Object.keys(CAT).length;
 ---
 <Base title={`${total} Cruise Port Guides, Checked Against Official Sources | PortTrip`} description={`Every cruise port we cover: how to get to town, what it costs, tender or dock, and when to head back to the ship. ${total} ports, checked October 2026.`} path="/ports">
@@ -13,9 +14,10 @@ const total = Object.keys(CAT).length;
           <h2 class="text-xl font-semibold">{region}</h2>
           <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {slugs.filter((s) => CAT[s]).map((s) => { const c = CAT[s]; return (
-              <li><a href={`/ports/${s}`} class="card block h-full p-4 transition-shadow hover:shadow-md">
-                <span class="flex items-baseline justify-between gap-2"><span class="font-semibold">{c.city}</span><span class="text-xs text-navy/55">{c.isTender ? 'Tender' : c.walk === 'Yes' ? 'Walk to town' : 'Transport needed'}</span></span>
-                <span class="mt-1 block text-sm text-navy/70 line-clamp-2">{c.quickAnswer}</span>
+              <li><a href={`/ports/${s}`} class="card group block h-full overflow-hidden transition-shadow hover:shadow-lg">
+                <span class="relative block aspect-[16/9] overflow-hidden bg-fog">{thumb(s) && <img src={thumb(s)} alt="" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />}<span class="absolute right-2 top-2 rounded-full bg-white/90 px-2 py-0.5 text-xs font-semibold">{scoreOf(s)}/10</span></span>
+                <span class="block p-4"><span class="flex items-baseline justify-between gap-2"><span class="font-semibold">{c.city}</span><span class="text-xs text-navy/55">{c.isTender ? 'Tender' : c.walk === 'Yes' ? 'Walk to town' : 'Transport needed'}</span></span>
+                <span class="mt-1 block text-sm text-navy/70 line-clamp-2">{c.quickAnswer}</span></span>
               </a></li>); })}
           </ul>
         </section>

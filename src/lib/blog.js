@@ -31,10 +31,14 @@ export const POSTS = Object.entries(FILES).map(([path, raw]) => {
   if (typeof raw !== 'string') return null;
   const { data, content } = parseFront(raw);
   if (!data.slug) return null;
-  const body = content.replace(/^#\s+.+\n+/, ''); // H1 comes from the template
+  let body = content.replace(/^#\s+.+\n+/, ''); // H1 comes from the template
+  // Pull the "Quick answer" section out so the template can show it as a callout.
+  let quick = null;
+  const qa = /^##\s+Quick answer\s*\n+([\s\S]*?)(?=^##\s)/im.exec(body);
+  if (qa) { quick = marked.parseInline(qa[1].trim().replace(/\n+/g, ' ')); body = body.replace(qa[0], ''); }
   const html = marked.parse(body, { gfm: true });
   const words = body.split(/\s+/).length;
-  return { ...data, file: path.split('/').pop(), html, faqs: faqsFrom(body), readTime: data.readTime || Math.max(2, Math.round(words / 220)) };
+  return { ...data, file: path.split('/').pop(), html, quick, faqs: faqsFrom(body), readTime: data.readTime || Math.max(2, Math.round(words / 220)) };
 }).filter(Boolean);
 
 export const BY_SLUG = Object.fromEntries(POSTS.map((p) => [p.slug, p]));
