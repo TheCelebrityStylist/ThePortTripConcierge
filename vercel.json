@@ -9,147 +9,147 @@
   "redirects": [
     {
       "source": "/planner",
-      "destination": "https://porttrip.base44.app/planner",
+      "destination": "https://porttripapp.com/planner",
       "permanent": false
     },
     {
       "source": "/planner/:path*",
-      "destination": "https://porttrip.base44.app/planner/:path*",
+      "destination": "https://porttripapp.com/planner/:path*",
       "permanent": false
     },
     {
       "source": "/port-day-live",
-      "destination": "https://porttrip.base44.app/port-day-live",
+      "destination": "https://porttripapp.com/port-day-live",
       "permanent": false
     },
     {
       "source": "/port-day-live/:path*",
-      "destination": "https://porttrip.base44.app/port-day-live/:path*",
+      "destination": "https://porttripapp.com/port-day-live/:path*",
       "permanent": false
     },
     {
       "source": "/login",
-      "destination": "https://porttrip.base44.app/login",
+      "destination": "https://porttripapp.com/login",
       "permanent": false
     },
     {
       "source": "/login/:path*",
-      "destination": "https://porttrip.base44.app/login/:path*",
+      "destination": "https://porttripapp.com/login/:path*",
       "permanent": false
     },
     {
       "source": "/my-cruises",
-      "destination": "https://porttrip.base44.app/my-cruises",
+      "destination": "https://porttripapp.com/my-cruises",
       "permanent": false
     },
     {
       "source": "/my-cruises/:path*",
-      "destination": "https://porttrip.base44.app/my-cruises/:path*",
+      "destination": "https://porttripapp.com/my-cruises/:path*",
       "permanent": false
     },
     {
       "source": "/checkout-return",
-      "destination": "https://porttrip.base44.app/checkout-return",
+      "destination": "https://porttripapp.com/checkout-return",
       "permanent": false
     },
     {
       "source": "/checkout-return/:path*",
-      "destination": "https://porttrip.base44.app/checkout-return/:path*",
+      "destination": "https://porttripapp.com/checkout-return/:path*",
       "permanent": false
     },
     {
       "source": "/cruise-radar",
-      "destination": "https://porttrip.base44.app/cruise-radar",
+      "destination": "https://porttripapp.com/cruise-radar",
       "permanent": false
     },
     {
       "source": "/cruise-radar/:path*",
-      "destination": "https://porttrip.base44.app/cruise-radar/:path*",
+      "destination": "https://porttripapp.com/cruise-radar/:path*",
       "permanent": false
     },
     {
       "source": "/travel-advisors",
-      "destination": "https://porttrip.base44.app/travel-advisors",
+      "destination": "https://porttripapp.com/travel-advisors",
       "permanent": false
     },
     {
       "source": "/travel-advisors/:path*",
-      "destination": "https://porttrip.base44.app/travel-advisors/:path*",
+      "destination": "https://porttripapp.com/travel-advisors/:path*",
       "permanent": false
     },
     {
       "source": "/advisors",
-      "destination": "https://porttrip.base44.app/advisors",
+      "destination": "https://porttripapp.com/advisors",
       "permanent": false
     },
     {
       "source": "/advisors/:path*",
-      "destination": "https://porttrip.base44.app/advisors/:path*",
+      "destination": "https://porttripapp.com/advisors/:path*",
       "permanent": false
     },
     {
       "source": "/cruise-ships-in",
-      "destination": "https://porttrip.base44.app/cruise-ships-in",
+      "destination": "https://porttripapp.com/cruise-ships-in",
       "permanent": false
     },
     {
       "source": "/cruise-ships-in/:path*",
-      "destination": "https://porttrip.base44.app/cruise-ships-in/:path*",
+      "destination": "https://porttripapp.com/cruise-ships-in/:path*",
       "permanent": false
     },
     {
       "source": "/account",
-      "destination": "https://porttrip.base44.app/account",
+      "destination": "https://porttripapp.com/account",
       "permanent": false
     },
     {
       "source": "/account/:path*",
-      "destination": "https://porttrip.base44.app/account/:path*",
+      "destination": "https://porttripapp.com/account/:path*",
       "permanent": false
     },
     {
       "source": "/settings",
-      "destination": "https://porttrip.base44.app/settings",
+      "destination": "https://porttripapp.com/settings",
       "permanent": false
     },
     {
       "source": "/settings/:path*",
-      "destination": "https://porttrip.base44.app/settings/:path*",
+      "destination": "https://porttripapp.com/settings/:path*",
       "permanent": false
     },
     {
       "source": "/hq",
-      "destination": "https://porttrip.base44.app/hq",
+      "destination": "https://porttripapp.com/hq",
       "permanent": false
     },
     {
       "source": "/hq/:path*",
-      "destination": "https://porttrip.base44.app/hq/:path*",
+      "destination": "https://porttripapp.com/hq/:path*",
       "permanent": false
     },
     {
       "source": "/preview",
-      "destination": "https://porttrip.base44.app/preview",
+      "destination": "https://porttripapp.com/preview",
       "permanent": false
     },
     {
       "source": "/preview/:path*",
-      "destination": "https://porttrip.base44.app/preview/:path*",
+      "destination": "https://porttripapp.com/preview/:path*",
       "permanent": false
     },
     {
       "source": "/day/:slug",
-      "destination": "https://porttrip.base44.app/day/:slug",
+      "destination": "https://porttripapp.com/day/:slug",
       "permanent": false
     },
     {
       "source": "/cruise-dashboard",
-      "destination": "https://porttrip.base44.app/cruise-dashboard",
+      "destination": "https://porttripapp.com/cruise-dashboard",
       "permanent": false
     },
     {
       "source": "/cruise-dashboard/:path*",
-      "destination": "https://porttrip.base44.app/cruise-dashboard/:path*",
+      "destination": "https://porttripapp.com/cruise-dashboard/:path*",
       "permanent": false
     },
     {
@@ -1006,6 +1006,466 @@
       "source": "/ports/:city/:sub/:more*",
       "destination": "/ports/:city",
       "permanent": true
+    },
+    {
+      "source": "/activate",
+      "destination": "https://porttripapp.com/activate",
+      "permanent": false
+    },
+    {
+      "source": "/activate/:path*",
+      "destination": "https://porttripapp.com/activate/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/ad",
+      "destination": "https://porttripapp.com/ad",
+      "permanent": false
+    },
+    {
+      "source": "/ad/:path*",
+      "destination": "https://porttripapp.com/ad/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/admin",
+      "destination": "https://porttripapp.com/admin",
+      "permanent": false
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "https://porttripapp.com/admin/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/answers",
+      "destination": "https://porttripapp.com/answers",
+      "permanent": false
+    },
+    {
+      "source": "/answers/:path*",
+      "destination": "https://porttripapp.com/answers/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/api-reference",
+      "destination": "https://porttripapp.com/api-reference",
+      "permanent": false
+    },
+    {
+      "source": "/api-reference/:path*",
+      "destination": "https://porttripapp.com/api-reference/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/big-4-cruise-ports",
+      "destination": "https://porttripapp.com/big-4-cruise-ports",
+      "permanent": false
+    },
+    {
+      "source": "/big-4-cruise-ports/:path*",
+      "destination": "https://porttripapp.com/big-4-cruise-ports/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/coming-soon",
+      "destination": "https://porttripapp.com/coming-soon",
+      "permanent": false
+    },
+    {
+      "source": "/coming-soon/:path*",
+      "destination": "https://porttripapp.com/coming-soon/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/community",
+      "destination": "https://porttripapp.com/community",
+      "permanent": false
+    },
+    {
+      "source": "/community/:path*",
+      "destination": "https://porttripapp.com/community/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/crew",
+      "destination": "https://porttripapp.com/crew",
+      "permanent": false
+    },
+    {
+      "source": "/crew/:path*",
+      "destination": "https://porttripapp.com/crew/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/cruise",
+      "destination": "https://porttripapp.com/cruise",
+      "permanent": false
+    },
+    {
+      "source": "/cruise/:path*",
+      "destination": "https://porttripapp.com/cruise/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-6-hours",
+      "destination": "https://porttripapp.com/cruise-6-hours",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-6-hours/:path*",
+      "destination": "https://porttripapp.com/cruise-6-hours/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-profile-setup",
+      "destination": "https://porttripapp.com/cruise-profile-setup",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-profile-setup/:path*",
+      "destination": "https://porttripapp.com/cruise-profile-setup/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-stop",
+      "destination": "https://porttripapp.com/cruise-stop",
+      "permanent": false
+    },
+    {
+      "source": "/cruise-stop/:path*",
+      "destination": "https://porttripapp.com/cruise-stop/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/dashboard",
+      "destination": "https://porttripapp.com/dashboard",
+      "permanent": false
+    },
+    {
+      "source": "/dashboard/:path*",
+      "destination": "https://porttripapp.com/dashboard/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/data-exchange",
+      "destination": "https://porttripapp.com/data-exchange",
+      "permanent": false
+    },
+    {
+      "source": "/data-exchange/:path*",
+      "destination": "https://porttripapp.com/data-exchange/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/entity",
+      "destination": "https://porttripapp.com/entity",
+      "permanent": false
+    },
+    {
+      "source": "/entity/:path*",
+      "destination": "https://porttripapp.com/entity/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/forgot-password",
+      "destination": "https://porttripapp.com/forgot-password",
+      "permanent": false
+    },
+    {
+      "source": "/forgot-password/:path*",
+      "destination": "https://porttripapp.com/forgot-password/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-athens-piraeus",
+      "destination": "https://porttripapp.com/getting-to-athens-piraeus",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-athens-piraeus/:path*",
+      "destination": "https://porttripapp.com/getting-to-athens-piraeus/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-barcelona-cruise-port",
+      "destination": "https://porttripapp.com/getting-to-barcelona-cruise-port",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-barcelona-cruise-port/:path*",
+      "destination": "https://porttripapp.com/getting-to-barcelona-cruise-port/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-civitavecchia",
+      "destination": "https://porttripapp.com/getting-to-civitavecchia",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-civitavecchia/:path*",
+      "destination": "https://porttripapp.com/getting-to-civitavecchia/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-lisbon-cruise-port",
+      "destination": "https://porttripapp.com/getting-to-lisbon-cruise-port",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-lisbon-cruise-port/:path*",
+      "destination": "https://porttripapp.com/getting-to-lisbon-cruise-port/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-naples-cruise-port",
+      "destination": "https://porttripapp.com/getting-to-naples-cruise-port",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-naples-cruise-port/:path*",
+      "destination": "https://porttripapp.com/getting-to-naples-cruise-port/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-venice-cruise-port",
+      "destination": "https://porttripapp.com/getting-to-venice-cruise-port",
+      "permanent": false
+    },
+    {
+      "source": "/getting-to-venice-cruise-port/:path*",
+      "destination": "https://porttripapp.com/getting-to-venice-cruise-port/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/group-invite",
+      "destination": "https://porttripapp.com/group-invite",
+      "permanent": false
+    },
+    {
+      "source": "/group-invite/:path*",
+      "destination": "https://porttripapp.com/group-invite/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/intelligence",
+      "destination": "https://porttripapp.com/intelligence",
+      "permanent": false
+    },
+    {
+      "source": "/intelligence/:path*",
+      "destination": "https://porttripapp.com/intelligence/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/itineraries",
+      "destination": "https://porttripapp.com/itineraries",
+      "permanent": false
+    },
+    {
+      "source": "/itineraries/:path*",
+      "destination": "https://porttripapp.com/itineraries/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/list-your-business",
+      "destination": "https://porttripapp.com/list-your-business",
+      "permanent": false
+    },
+    {
+      "source": "/list-your-business/:path*",
+      "destination": "https://porttripapp.com/list-your-business/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/lp",
+      "destination": "https://porttripapp.com/lp",
+      "permanent": false
+    },
+    {
+      "source": "/lp/:path*",
+      "destination": "https://porttripapp.com/lp/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/operators",
+      "destination": "https://porttripapp.com/operators",
+      "permanent": false
+    },
+    {
+      "source": "/operators/:path*",
+      "destination": "https://porttripapp.com/operators/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/os",
+      "destination": "https://porttripapp.com/os",
+      "permanent": false
+    },
+    {
+      "source": "/os/:path*",
+      "destination": "https://porttripapp.com/os/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/partner-dashboard",
+      "destination": "https://porttripapp.com/partner-dashboard",
+      "permanent": false
+    },
+    {
+      "source": "/partner-dashboard/:path*",
+      "destination": "https://porttripapp.com/partner-dashboard/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/plan",
+      "destination": "https://porttripapp.com/plan",
+      "permanent": false
+    },
+    {
+      "source": "/plan/:path*",
+      "destination": "https://porttripapp.com/plan/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/port",
+      "destination": "https://porttripapp.com/port",
+      "permanent": false
+    },
+    {
+      "source": "/port/:path*",
+      "destination": "https://porttripapp.com/port/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/port-risk-index",
+      "destination": "https://porttripapp.com/port-risk-index",
+      "permanent": false
+    },
+    {
+      "source": "/port-risk-index/:path*",
+      "destination": "https://porttripapp.com/port-risk-index/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/r",
+      "destination": "https://porttripapp.com/r",
+      "permanent": false
+    },
+    {
+      "source": "/r/:path*",
+      "destination": "https://porttripapp.com/r/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/ref",
+      "destination": "https://porttripapp.com/ref",
+      "permanent": false
+    },
+    {
+      "source": "/ref/:path*",
+      "destination": "https://porttripapp.com/ref/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/register",
+      "destination": "https://porttripapp.com/register",
+      "permanent": false
+    },
+    {
+      "source": "/register/:path*",
+      "destination": "https://porttripapp.com/register/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/reset-password",
+      "destination": "https://porttripapp.com/reset-password",
+      "permanent": false
+    },
+    {
+      "source": "/reset-password/:path*",
+      "destination": "https://porttripapp.com/reset-password/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/review",
+      "destination": "https://porttripapp.com/review",
+      "permanent": false
+    },
+    {
+      "source": "/review/:path*",
+      "destination": "https://porttripapp.com/review/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/shared",
+      "destination": "https://porttripapp.com/shared",
+      "permanent": false
+    },
+    {
+      "source": "/shared/:path*",
+      "destination": "https://porttripapp.com/shared/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/signal-economy",
+      "destination": "https://porttripapp.com/signal-economy",
+      "permanent": false
+    },
+    {
+      "source": "/signal-economy/:path*",
+      "destination": "https://porttripapp.com/signal-economy/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/start",
+      "destination": "https://porttripapp.com/start",
+      "permanent": false
+    },
+    {
+      "source": "/start/:path*",
+      "destination": "https://porttripapp.com/start/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/terminal",
+      "destination": "https://porttripapp.com/terminal",
+      "permanent": false
+    },
+    {
+      "source": "/terminal/:path*",
+      "destination": "https://porttripapp.com/terminal/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/tiktok",
+      "destination": "https://porttripapp.com/tiktok",
+      "permanent": false
+    },
+    {
+      "source": "/tiktok/:path*",
+      "destination": "https://porttripapp.com/tiktok/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/unsubscribe",
+      "destination": "https://porttripapp.com/unsubscribe",
+      "permanent": false
+    },
+    {
+      "source": "/unsubscribe/:path*",
+      "destination": "https://porttripapp.com/unsubscribe/:path*",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/functions/:path*",
+      "destination": "https://porttripapp.com/functions/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://porttripapp.com/api/:path*"
     }
   ],
   "headers": [

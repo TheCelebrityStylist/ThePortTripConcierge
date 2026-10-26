@@ -1,6 +1,6 @@
 // Where the web app lives. Planner, live mode, checkout and accounts are all there.
 // Switch to https://porttripapp.com once that domain is connected in Base44.
-export const APP_URL = import.meta.env.PUBLIC_APP_URL || 'https://porttrip.base44.app';
+export const APP_URL = import.meta.env.PUBLIC_APP_URL || 'https://porttripapp.com';
 export const SITE = 'https://porttrip.com';
 export const app = (path = '/') => `${APP_URL}${path}`;
 
