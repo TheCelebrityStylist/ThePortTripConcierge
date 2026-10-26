@@ -73,7 +73,7 @@ perm('/cruise-port-day/:city', '/ports/:city');
 perm('/ports/:city/:sub', '/ports/:city');
 perm('/ports/:city/:sub/:more*', '/ports/:city');
 
-const out = { $schema: 'https://openapi.vercel.sh/vercel.json', cleanUrls: true, trailingSlash: false, redirects: r,
+const out = { $schema: 'https://openapi.vercel.sh/vercel.json', framework: 'astro', installCommand: 'npm install', buildCommand: 'npm run build', outputDirectory: 'dist', cleanUrls: true, trailingSlash: false, redirects: r,
   headers: [{ source: '/(.*)', headers: [{ key: 'X-Content-Type-Options', value: 'nosniff' }, { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' }] },
             { source: '/embed/(.*)', headers: [{ key: 'Access-Control-Allow-Origin', value: '*' }, { key: 'Cache-Control', value: 'public, max-age=3600' }] }] };
 fs.writeFileSync('vercel.json', JSON.stringify(out, null, 2));
