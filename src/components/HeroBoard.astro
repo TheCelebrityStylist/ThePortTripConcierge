@@ -1,0 +1,91 @@
+---
+// Hero "departure board": drag your all-aboard, watch every leave-by time and the hours ashore move.
+// Renders correct times without JS; the script only makes it live.
+import { fmt, toMin, dur } from '../lib/site.js';
+const { rows = [], defaultAA = '17:30', ashore = null, isTender = false } = Astro.props;
+const aa = toMin(defaultAA);
+const ash = ashore ? toMin(ashore) : null;
+const shown = rows.slice(0, 4);
+const pct = (x) => Math.max(0, Math.min(100, x));
+---
+<div class="board rounded-2xl bg-navy/70 p-5 ring-1 ring-white/15 backdrop-blur-md sm:p-6" data-board data-ashore={ash ?? ''}>
+  <div class="flex items-end justify-between gap-4">
+    <div>
+      <p class="text-sm text-white/70">Your all-aboard</p>
+      <p class="mt-1 text-5xl font-semibold tabular-nums tracking-tight sm:text-6xl" data-aa-out>{defaultAA}</p>
+    </div>
+    <div class="flex gap-2 pb-1">
+      <button type="button" data-step="-15" class="grid h-11 w-11 place-items-center rounded-full bg-white/10 text-xl ring-1 ring-white/25 hover:bg-white/20" aria-label="15 minutes earlier">−</button>
+      <button type="button" data-step="15" class="grid h-11 w-11 place-items-center rounded-full bg-white/10 text-xl ring-1 ring-white/25 hover:bg-white/20" aria-label="15 minutes later">+</button>
+    </div>
+  </div>
+  <input type="range" min="720" max="1410" step="15" value={aa} data-aa-range aria-label="All-aboard time" class="board-range mt-4 w-full" />
+  <ul class="mt-5 space-y-4">
+    {shown.map((r) => {
+      const t = aa - r.minutesBeforeAllAboard;
+      const span = ash != null ? aa - ash : null;
+      const inTown = ash != null ? t - ash : null;
+      return (
+        <li data-min={r.minutesBeforeAllAboard}>
+          <div class="flex items-baseline justify-between gap-3">
+            <span class="min-w-0 truncate font-medium">{r.from.replace(/\s*\(.*\)$/, '')}<span class="text-white/55">{/\(/.test(r.from) ? ` · ${r.from.match(/\(([^)]+)\)/)[1]}` : ''}</span></span>
+            <span class="flex-shrink-0 text-2xl font-semibold tabular-nums text-signal" data-t>{fmt(t)}</span>
+          </div>
+          {span != null && (
+            <div class="mt-1.5">
+              <div class="relative h-2 overflow-hidden rounded-full bg-white/10" aria-hidden="true">
+                <div class="absolute inset-y-0 left-0 rounded-full bg-white/80 transition-[width] duration-300" style={`width:${pct(inTown / span * 100)}%`} data-bar></div>
+                <div class="board-buffer absolute inset-y-0 right-0 transition-[width] duration-300" style={`width:${pct(r.minutesBeforeAllAboard / span * 100)}%`} data-buf></div>
+              </div>
+              <p class="mt-1 text-xs text-white/60" data-ashore-out>{inTown > 0 ? `${dur(inTown)} there, ${dur(r.minutesBeforeAllAboard)} to get back${isTender ? ' and queue' : ''}` : 'Not enough time on this all-aboard'}</p>
+            </div>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+  {ash != null && <p class="mt-4 text-xs text-white/50">Ashore from {fmt(ash)}, as in our day plan. Port time.</p>}
+</div>
+<style>
+  .board-range { appearance: none; height: 6px; border-radius: 999px; background: rgba(255,255,255,.18); outline-offset: 6px; }
+  .board-range::-webkit-slider-thumb { appearance: none; width: 26px; height: 26px; border-radius: 999px; background: #F4C430; border: 3px solid #0F2E44; box-shadow: 0 0 0 2px #F4C430; cursor: grab; }
+  .board-range::-moz-range-thumb { width: 22px; height: 22px; border-radius: 999px; background: #F4C430; border: 3px solid #0F2E44; cursor: grab; }
+  .board-buffer { background: repeating-linear-gradient(135deg, rgba(244,196,48,.85) 0 4px, rgba(244,196,48,.35) 4px 8px); }
+  .tick { animation: tick .35s ease-out; }
+  @keyframes tick { from { opacity: .2; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .tick { animation: none; } }
+</style>
+<script is:inline>
+(function () {
+  if (window.__hb) return; window.__hb = 1;
+  function f(x) { x = ((Math.round(x) % 1440) + 1440) % 1440; return String(Math.floor(x / 60)).padStart(2, '0') + ':' + String(x % 60).padStart(2, '0'); }
+  function d(m) { var h = Math.floor(m / 60), r = m % 60; return h ? h + ' h' + (r ? ' ' + r + ' min' : '') : r + ' min'; }
+  function init() { document.querySelectorAll('[data-board]').forEach(function (b) {
+    var range = b.querySelector('[data-aa-range]'), out = b.querySelector('[data-aa-out]'), ash = b.getAttribute('data-ashore');
+    ash = ash === '' ? null : +ash;
+    var tender = /queue/.test(b.textContent);
+    function run(fromUser) {
+      var a = +range.value; out.textContent = f(a);
+      b.querySelectorAll('[data-min]').forEach(function (li) {
+        var m = +li.getAttribute('data-min'), t = a - m, el = li.querySelector('[data-t]');
+        if (el.textContent !== f(t)) { el.textContent = f(t); if (fromUser) { el.classList.remove('tick'); void el.offsetWidth; el.classList.add('tick'); } }
+        if (ash != null) {
+          var span = a - ash, inTown = t - ash, bar = li.querySelector('[data-bar]'), buf = li.querySelector('[data-buf]'), lab = li.querySelector('[data-ashore-out]');
+          if (bar) bar.style.width = Math.max(0, Math.min(100, inTown / span * 100)) + '%';
+          if (buf) buf.style.width = Math.max(0, Math.min(100, m / span * 100)) + '%';
+          if (lab) lab.textContent = inTown > 0 ? d(inTown) + ' there, ' + d(m) + ' to get back' + (tender ? ' and queue' : '') : 'Not enough time on this all-aboard';
+        }
+      });
+      var first = b.querySelector('[data-min]');
+      document.querySelectorAll('[data-hero-leave]').forEach(function (s) { s.textContent = f(a - (+first.getAttribute('data-min'))); });
+      document.querySelectorAll('[data-hero-aa]').forEach(function (s) { s.textContent = f(a); });
+      if (fromUser) document.querySelectorAll('[data-leaveby] [data-aa]').forEach(function (i) { i.value = f(a); i.dispatchEvent(new Event('input')); });
+      document.querySelectorAll('[data-plan-hero]').forEach(function (p) { var u = new URL(p.href); u.searchParams.set('aa', f(a)); p.href = u.toString(); });
+    }
+    range.addEventListener('input', function () { run(true); });
+    b.querySelectorAll('[data-step]').forEach(function (btn) { btn.addEventListener('click', function () { range.value = Math.max(720, Math.min(1410, +range.value + (+btn.getAttribute('data-step')))); run(true); }); });
+    run(false);
+  }); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();
+</script>

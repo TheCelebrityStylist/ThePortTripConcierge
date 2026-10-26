@@ -35,3 +35,11 @@ export function scoreOf(slug) {
 export const ACCESS_LABEL = { walk: 'Walk to town', 'walk-or-ride': 'Walk or short ride', tender: 'Tender port', transport: 'Transport needed' };
 
 export const portImage = (slug) => IMG[slug] || null;
+// Wikimedia only serves standard thumbnail widths (250, 330, 500, 960, 1280, 1920).
+export function wm(src, w) {
+  if (!src) return null;
+  if (/\/thumb\//.test(src)) return src.replace(/\/\d+px-([^/]+)$/, `/${w}px-$1`);
+  const m = src.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons)\/(\w\/\w\w)\/([^/]+)$/);
+  return m ? `${m[1]}/thumb/${m[2]}/${m[3]}/${w}px-${m[3]}` : src;
+}
+export const wmSet = (src, widths = [960, 1280, 1920]) => src ? widths.map((w) => `${wm(src, w)} ${w}w`).join(', ') : null;

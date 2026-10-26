@@ -19,3 +19,7 @@
   .eyebrow-free { @apply text-sm text-navy/60; }
   .doc { @apply prose prose-slate max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-headings:text-navy prose-a:text-sea prose-a:underline-offset-2 prose-strong:text-navy prose-table:text-sm prose-th:text-left; }
 }
+
+.kenburns { animation: kenburns 22s ease-out both; transform-origin: 60% 40%; }
+@keyframes kenburns { from { transform: scale(1.12); } to { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { .kenburns { animation: none; } }

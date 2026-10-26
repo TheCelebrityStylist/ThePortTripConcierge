@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { CAT, REGIONS, portImage, scoreOf } from '../../lib/ports.js';
-const thumb = (s) => { const i = portImage(s); return i ? i.src.replace(/\/\d+px-/, '/480px-') : null; };
+import { CAT, REGIONS, portImage, scoreOf, wm } from '../../lib/ports.js';
+const thumb = (s) => { const i = portImage(s); return i ? wm(i.src, 500) : null; };
 const total = Object.keys(CAT).length;
 ---
 <Base title={`${total} Cruise Port Guides, Checked Against Official Sources | PortTrip`} description={`Every cruise port we cover: how to get to town, what it costs, tender or dock, and when to head back to the ship. ${total} ports, checked October 2026.`} path="/ports">

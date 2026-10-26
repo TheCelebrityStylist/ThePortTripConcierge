@@ -36,6 +36,12 @@ export const POSTS = Object.entries(FILES).map(([path, raw]) => {
   let quick = null;
   const qa = /^##\s+Quick answer\s*\n+([\s\S]*?)(?=^##\s)/im.exec(body);
   if (qa) { quick = marked.parseInline(qa[1].trim().replace(/\n+/g, ' ')); body = body.replace(qa[0], ''); }
+  else {
+    // "> **Quick answer:** ..." or "**Quick answer:** ..." as a single paragraph.
+    const qb = /^(?:>\s*)?\*\*Quick answer:?\*\*:?\s*([^\n]+(?:\n>?[^\n#][^\n]*)*)\n/im.exec(body);
+    if (qb) { quick = marked.parseInline(qb[1].replace(/\n>?\s*/g, ' ').trim()); body = body.replace(qb[0], ''); }
+  }
+  data.h1 = String(data.title || '').replace(/\s*[|–-]\s*PortTrip\s*$/i, '');
   const html = marked.parse(body, { gfm: true });
   const words = body.split(/\s+/).length;
   return { ...data, file: path.split('/').pop(), html, quick, faqs: faqsFrom(body), readTime: data.readTime || Math.max(2, Math.round(words / 220)) };
