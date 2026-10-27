@@ -45,7 +45,7 @@ The Nature Reserve's winter hours run 1 October to 30 April, 09:00–18:15, last
 
 ## The tower most tours drive past
 
-Here is the stop most cruise passengers never make, and it has just got better. The Moorish Castle sits on the slope above Casemates, and its Tower of Homage reopened to the public on 14 September 2026 after conservation and new interpretation by the Gibraltar National Museum and Fortress Attractions. Entry is included in the Nature Reserve ticket, and the government's heritage page gives opening hours of 09:30–18:15, every day.
+Here is the stop the standard tour list leaves out, and it has just got better. The Moorish Castle sits on the slope above Casemates, and its Tower of Homage reopened to the public on 14 September 2026 after conservation and new interpretation by the Gibraltar National Museum and Fortress Attractions. Entry is included in the Nature Reserve ticket, and the government's heritage page gives opening hours of 09:30–18:15, every day.
 
 The tower is the largest of its kind in al-Andalus: 23 metres high, about 320 square metres in plan, roughly 100 metres above the sea. Gibraltar's first serious fortress dates to 1160, when the Almohad ruler Abd al-Mu'min ordered a fortified city here called Medina al-Fath, the City of Victory. Castile held the Rock from 1309 to 1333, when the Marinid sultan Abu'l Hassan took it back, and the tower went up in 1344 as part of a major strengthening of the defences. In 1349 Alfonso XI of Castile besieged it with about 20,000 men, and it held. In 1540, when Turkish raiders sacked the town, hundreds of people took refuge inside the walls. And the castle courtyard served as Gibraltar's prison until 2010. A Dungeons experience in the old prison is planned as the next phase.
 
