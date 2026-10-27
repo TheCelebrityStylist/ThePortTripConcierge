@@ -1,7 +1,7 @@
 export default `---
 slug: what-happens-if-you-miss-cruise-ship
 title: "What Happens If You Miss Your Cruise Ship: The Last Two Hours"
-description: "Miss all-aboard and the ship sails. Real cases from Bari to São Tomé, what cruise contracts say, who pays to catch the ship up, and how the last hour goes wrong."
+description: "Miss all-aboard and the ship sails. Real cases from Bari to São Tomé, what cruise contracts say, who pays to catch the ship, and how the last hour goes wrong."
 date: 2026-06-22
 updated: "2026-10-27"
 author: "Elke"
@@ -78,7 +78,7 @@ All-aboard was 14:30. The captain announced that about a dozen passengers were s
 
 At 15:01 a port agent came down the gangway holding two passports. At 15:13, about 43 minutes after all-aboard, the ship began to sail. Within a minute, according to the account, two women walked through the terminal, and the port agent went to meet them.
 
-Forty-three minutes is a long wait, longer than most people would expect. It still was not long enough. The ship waits until it decides not to, and you will not know when that is.
+Forty-three minutes is a long wait. It still was not long enough. The ship waits until it decides not to, and you will not know when that is.
 
 ## 17:45, the gangway
 
