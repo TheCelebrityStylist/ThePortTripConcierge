@@ -17,9 +17,9 @@ relatedPosts: ["split-cruise-port-guide", "how-much-time-before-all-aboard", "ho
 
 ## 08:00, the wrong side of town
 
-The first thing you notice at Zadar is that you cannot see Zadar. Your ship ties up at Gaženica, a purpose-built ferry and cruise port with five berths and a terminal building that opened in 2019. It is efficient and modern and about 3.5 km from anything you came to see. The Old Town sits out of sight to the north-west, on its own walled peninsula, which is closed to cars.
+The first thing to know about Zadar's cruise port is that it is not really in Zadar. Your ship ties up at Gaženica, a purpose-built ferry and cruise port with five berths and a terminal building that opened in 2019. It is efficient and modern and about 3.5 km from anything you came to see. The Old Town lies to the north-west, on its own walled peninsula, closed to cars.
 
-So the first decision of the day comes at the foot of the gangway, and it is a real one. Most passengers make it badly, by following everyone else onto the shuttle and arriving at the far tip of the peninsula at the same time as two thousand other people. There is a better way in. First, the options.
+So the first decision of the day comes at the foot of the gangway, and it is a real one. Most passengers make it by default, following everyone else onto the shuttle and arriving at the far tip of the peninsula together. There is a better way in. First, the options.
 
 Before anything, check your daily programme for the berth. Zadar is two ports in one. Big ships use Gaženica. Smaller ships and expedition vessels tie up on the Old Town waterfront itself, a few minutes from the Roman Forum. If that is you, skip the next four sections and start walking.
 
@@ -41,9 +41,7 @@ The bus is fine in the morning. It is the wrong choice for the return unless you
 
 Taxis wait outside the terminal, and Uber and Bolt both operate in Zadar. The ride takes about 10 minutes to the walls. Cars cannot enter the Old Town, so you are dropped outside.
 
-Some taxis overcharge cruise passengers on this short run. Agree the fare before you get in, insist on the meter, or use Bolt or Uber, which show the price first. Bookiscout's 2026 guide calls the apps often more convenient and cheaper than standard taxis for direct trips. Split between three or four people, a taxi can cost each of you little more than the bus there and back.
-
-Here is the part that matters. A taxi lets you choose where you start. Ask for the Land Gate, on the landward side of the peninsula by the little Foša harbour, not the Sea Organ. The reason is the next section.
+Some taxis overcharge cruise passengers on this short run. Agree the fare before you get in, insist on the meter, or use Bolt or Uber, which show the price first. Bookiscout's 2026 guide calls the apps often more convenient and cheaper than standard taxis for direct trips. Here is the part that matters. A taxi lets you choose where you start. Ask for the Land Gate, on the landward side of the peninsula, not the Sea Organ. The reason is the next section.
 
 ## Walking from Gaženica
 
@@ -51,53 +49,53 @@ You can walk. It is about 3.5 km and 40–50 minutes along a flat roadside route
 
 ## 08:45, the Land Gate, the other way in
 
-The Land Gate was finished in 1543, a triumphal arch in white stone set into the walls Venice built to keep the Ottomans out. In 2017 those defences were inscribed on UNESCO's World Heritage List as part of the Venetian Works of Defence between the 16th and 17th centuries, and MedCruise's report of the inscription calls the gate a masterpiece of the high Renaissance. Look up at the lion of St Mark before you walk through. That lion is Venice signing its work.
+The Land Gate was finished in 1543, the main way through the walls Venice built against the Ottomans. In 2017 those defences were inscribed on UNESCO's World Heritage List as part of the Venetian Works of Defence between the 16th and 17th centuries, and MedCruise's report of the inscription calls the gate a masterpiece of the high Renaissance.
 
 The guide's crowd advice is simple: start at the Land Gate end and work towards the Sea Organ later. Do that, and you walk the town in the opposite direction to the shuttle crowd, reaching each sight before or after them rather than with them.
 
-Just inside the gate, turn left to Five Wells Square. The five wellheads, from 1574 according to Euro City Guide's March 2026 guide, sit over a Venetian cistern that kept the city supplied with water during sieges. Above the square, up a ramp, is Queen Jelena Madijevka Park, laid out in 1829 on top of an old bastion by the Austrian commander Baron Franz Ludwig von Welden, a botanist with a soft spot for Dalmatian plants. In Your Pocket calls it the first public park in Dalmatia. It is free, open all day and almost always empty at nine in the morning, which is reason enough.
+Beside the gate is Five Wells Square. The five wellheads, from 1574 according to Euro City Guide's March 2026 guide, stand over a Venetian-era cistern. Next to the square is Queen Jelena Madijevka Park, laid out in 1829 on top of an old bastion by the Austrian commander Baron Franz Ludwig von Welden, a botanist with a soft spot for Dalmatian plants. In Your Pocket calls it the first public park in Dalmatia. It is free and open all day, and most cruise passengers never find it.
 
 ## 09:15, the market, before it closes
 
-Walk down into town along the inside of the walls to the City Market, the Tržnica. Euro City Guide says it opens at dawn and closes by noon, and is at its best on a Saturday morning, so this is the hour to come. The fish market is opposite.
+A couple of minutes from the Land Gate is the City Market, the Tržnica. Euro City Guide says it opens at dawn and closes by noon, and is at its best on a Saturday morning, so this is the hour to come. The fish market is opposite.
 
 Buy Paški sir, the hard sheep's cheese from the island of Pag. Euro City Guide puts 300 g at €8–12 (2026), which makes a better lunch on a bench than most restaurants make on a plate. Pršut and local olive oil are on the same stalls. Holland America sells a 2.5-hour walk through Zadar with maraschino and cheese tasting from $84 (2026). You are standing in the cheese half of it, for the price of the cheese.
 
 ## 09:45, the silver coffin and the queen who stole a finger
 
-A few minutes away is the Church of St Simeon, and above its main altar is the most extraordinary object in Zadar.
+Next, find the Church of St Simeon. Above its main altar is the most extraordinary object in Zadar.
 
 The Chest of St Simeon is a cedarwood coffin covered in about 240 kg of silver and a good deal of gold. It holds the body venerated as St Simeon, the old man in the Gospel who held the infant Jesus in the Temple. Goldsmiths working to the design of Francis of Milan made it between 1377 and 1380, and a document dated 5 July 1377 records who paid: Queen Elizabeth, wife of Louis I, King of Hungary and Croatia.
 
 The story of why is the best one in Zadar, and it is told on the chest itself, so read it as legend. In 1371, the story goes, Elizabeth broke off a piece of the saint's finger during Mass and hid it in her dress. The relic began to decay. When she gave it back, it healed, and she vowed a golden gift to the church in return. One of the reliefs on the chest is called the Theft of the Finger. Another shows Elizabeth presenting the chest with her daughters.
 
-How the body got to Zadar is another legend. According to the parish account, a crusader carrying it home from Syria by boat was caught in a storm near Zadar, fell ill while his ship was repaired, and told the local monks the body was his dead brother's. Only after he died did they find notes about the saint's miracles among his belongings. The transfer is usually dated to 1273. The body moved churches more than once: in 1570 its first home was partly pulled down to make way for the new city walls, and on 16 May 1632 the chest came to St Simeon's, where it is now.
+How the body got to Zadar is another legend. According to the account published by the Croatian Catholic portal Laudato, a crusader carrying it home from Syria by boat was caught in a storm near Zadar, fell ill while his ship was repaired, and told the local monks the body was his dead brother's. Only after he died did they find notes about the saint's miracles among his belongings. The transfer is usually dated to 1273. The body moved churches more than once: in 1570 its first home was partly pulled down to make way for the new city walls, and on 16 May 1632 the chest came to St Simeon's, where it is now.
 
-The lid is opened once a year, on 8 October at 08:30. The rest of the year you see it through the altar rail. St Simeon's is a working parish church, so when the door is open, go in quietly, with shoulders and knees covered.
+The lid is opened once a year, on 8 October at 08:30, to show the saint's body. The rest of the year it stays closed above the altar. When the church door is open, go in quietly, with shoulders and knees covered.
 
 ## 10:15, the Forum and the pillar of shame
 
-Walk west along Kalelarga, the main street, which Euro City Guide says takes about 8 minutes end to end at a stroll. Its polished limestone is slippery when wet, so wear shoes with grip.
+Then find Kalelarga, the main street, which Euro City Guide says takes about 8 minutes end to end at a stroll. Its polished limestone is slippery when wet, so wear shoes with grip.
 
-The street opens into the Roman Forum, an open square of Roman paving and broken columns, free and accessible at all hours. One column still stands at full height, about 13 m. In the Middle Ages, wrongdoers were chained to it for the town to see, which is why it is still called the pillar of shame.
+The street opens into the Roman Forum, an open square of Roman paving and broken columns, free and accessible at all hours. One Corinthian column still stands, about 13 m tall, and it is known as the pillar of shame.
 
-Two buildings stand on the edges of the Forum. The round Church of St Donatus, from the 9th century, was built partly out of Roman stone taken from the Forum itself; look at its base and you will see Roman fragments built into the walls. Entry is listed at €3–5 (2026), and opening varies by season because it is also used for concerts. Across the square, the bell tower of the Cathedral of St Anastasia gives the best view over the peninsula. Trvlogue's October 2026 guide lists it at €4, cash only, daily 10:00–19:00; Euro City Guide has it at €3. Bring coins.
+Two buildings stand on the edges of the Forum. The round Church of St Donatus, from the 9th century, stands on top of the Forum and was built partly out of Roman stone. Entry is listed at €3–5 (2026), and opening varies by season because it is also used for concerts. Across the square, the bell tower of the Cathedral of St Anastasia gives the best view over the peninsula. Trvlogue's October 2026 guide lists it at €4, cash only, daily 10:00–19:00; Euro City Guide has it at €3. Bring coins.
 
-If you would rather hear all this from someone who grew up here, the [Zadar Highlights small-group tour, with the Old Town, Sea Organ and local tastings](https://www.viator.com/tours/Zadar/Best-of-Zadar-Small-Group-Tour/d22433-135133P2?mcid=42383&pid=P00216188) covers this ground on foot.
+If you would rather have someone tell you all this, the [Zadar Highlights small-group tour, with the Old Town, Sea Organ and local tastings](https://www.viator.com/tours/Zadar/Best-of-Zadar-Small-Group-Tour/d22433-135133P2?mcid=42383&pid=P00216188) covers this ground on foot.
 
 ## 11:00, a convent, a collection of glass, and a city that was nearly lost
 
-On the Forum, next to St Mary's Church with its early 12th-century Romanesque bell tower, is the Benedictine convent that holds the Gold and Silver of Zadar, a collection of goldsmiths' work and reliquaries. In Your Pocket notes that the nuns have guarded it since the end of the Second World War, and lists it as open 10:00–13:00 and 17:00–19:00, Sundays 10:00–13:00. Euro City Guide puts entry at about €5 (2026). Allow 45 minutes. On a hot day it is the coolest room in town.
+On the Forum, next to St Mary's Church with its early 12th-century Romanesque bell tower, is the Benedictine convent that holds the Gold and Silver of Zadar, a collection of goldsmiths' work and reliquaries. In Your Pocket notes that the nuns have guarded it since the end of the Second World War, and lists it as open 10:00–13:00 and 17:00–19:00, Sundays 10:00–13:00. Euro City Guide puts entry at about €5 (2026). Allow 45 minutes. It is a good indoor stop in the heat of the day.
 
-Zadar's 20th century explains why so much of it is new. Between the wars the city was Italian, as Zara. Time Out's history notes severe Allied bombing in the Second World War, then the Yugoslav years, and in the 1990s a siege in which Zadar was cut off from Zagreb for 14 months. Much of what looks old was rebuilt. What survived, like the convent's silver, survived because someone kept it safe.
+Zadar's 20th century was hard on it. Between the wars the city was Italian, as Zara. Time Out's history notes severe Allied bombing, then the Yugoslav years, and in the 1990s four years under threat from Serbian forces, 14 months of them cut off from Zagreb. Keep that in mind on the Forum. A lot of history has happened to this town, and not much of it was gentle.
 
 For a second indoor stop, the Museum of Ancient Glass in the Cosmacendi Palace holds more than 5,000 pieces of Roman glass, according to Bookiscout's October 2026 guide, with glass-blowing demonstrations. Euro City Guide lists it at €5 and open Tuesday to Sunday, 09:00–21:00, from June to September, closed on Mondays.
 
 ## 12:30, lunch, and a liqueur from 1759
 
-Zadar's restaurants are inside the walls and around the Foša harbour. Foša, by the little harbour outside the Land Gate, is listed in the 2026 Michelin Guide Croatia for seafood risotto, brodet and raw fish. Kornat on the waterfront does black risotto; Pet Bunara, on Five Wells Square, does orzotto and dishes with figs. Euro City Guide puts mains along Kalelarga at €14–22 (2026). If fish is sold by the kilo, ask for the weight and the total before it is cooked.
+Zadar's restaurants are inside the walls and around the Foša harbour. Foša, by the small Foša harbour outside the walls, is listed in the 2026 Michelin Guide Croatia for seafood risotto, brodet and raw fish. Kornat on the waterfront does black risotto; Pet Bunara, in the Old Town, does orzotto and dishes with figs. Euro City Guide puts mains along Kalelarga at €14–22 (2026). If fish is sold by the kilo, ask for the weight and the total before it is cooked.
 
-Then the drink. Maraschino, the clear cherry liqueur made from sour marasca cherries, has been made in Zadar on an industrial scale since 1759, when the Venetian merchant Francesco Drioli started production. Girolamo Luxardo opened his factory in 1821 and Romano Vlahov his in 1861. After the Second World War the factories were nationalised and merged into one company, Maraska, in the old Luxardo premises. The Maraska shop is at Ulica Nadbiskupa Mate Karamana 3. Euro City Guide prices a half-litre bottle at €15–25 (2026). Bookiscout's advice is to taste a small glass first, since a full bottle is not always worth the suitcase space. Both are right.
+Then the drink. Maraschino, the liqueur made from marasca cherries, has been made in Zadar on an industrial scale since 1759, when the Venetian merchant Francesco Drioli started production. Girolamo Luxardo opened his factory in 1821 and Romano Vlahov his in 1861. After the Second World War the factories were nationalised and merged into one company, Maraska, in the old Luxardo premises. The Maraska shop is at Ulica Nadbiskupa Mate Karamana 3. Euro City Guide prices a half-litre bottle at €15–25 (2026). Bookiscout's advice is to taste a small glass first, since a full bottle is not always worth the suitcase space. Both are right.
 
 ## 13:45, the sea plays the organ
 
@@ -107,7 +105,7 @@ The Sea Organ is a flight of white marble steps running down into the water. Ben
 
 Next to it is the Greeting to the Sun, a 22-metre circle of 300 glass plates set into the promenade by the same architect. Its light show runs from sunset to sunrise, so on a day call it is a glass circle in the pavement. Look anyway.
 
-Zadar loves to tell you that Alfred Hitchcock came here. He did, for one evening in 1964, according to Time Out, and the derelict Hotel Zagreb on the promenade is said to have been one of his haunts. The line attributed to him, that Zadar has the most beautiful sunset in the world, is repeated all over town. We could not find where he said it. Your ship will leave before sunset either way.
+Zadar loves to tell you that Alfred Hitchcock came here. He did, for one evening in 1964, according to Time Out, and the derelict Hotel Zagreb on the promenade is said to have been one of his haunts. The line attributed to him, that Zadar has the most beautiful sunset in the world, is repeated all over town. We could not find where he said it. On a typical day call, your ship sails before the sun does.
 
 Locals swim off the steps and the rocks along this western promenade on calm days. There is no sand, and boats pass close, so watch the water before you go in.
 
@@ -115,7 +113,7 @@ Locals swim off the steps and the rocks along this western promenade on calm day
 
 Here is the whole day, done against the flow.
 
-Take a taxi or Bolt from Gaženica to the Land Gate at about 08:30, instead of the shuttle to the Sea Organ. Walk in through the gate while the walls are still in shade, see Five Wells and the park before anyone else, buy cheese at the market before noon, see the silver chest at St Simeon's, then the Forum. Eat at about 12:30, and only then walk to the Sea Organ, when the shuttle crowd is thinning out. Head back from the Old Town by taxi or the shuttle at 16:00.
+Take a taxi or Bolt from Gaženica to the Land Gate at about 08:30, instead of the shuttle to the Sea Organ. Walk in through the gate, see Five Wells and the park before anyone else, buy cheese at the market before noon, see the silver chest at St Simeon's, then the Forum. Eat at about 12:30, and only then walk to the Sea Organ, when the shuttle crowd is thinning out. Head back from the Old Town by taxi or the shuttle at 16:00.
 
 It costs you the price of one taxi ride, shared. It buys you a morning in which the only queue is at the cheese stall.
 
