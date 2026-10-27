@@ -7,7 +7,7 @@
  "currency": "MAD",
  "currencySymbol": "MAD",
  "language": "Arabic and Amazigh (Tamazight); French widely used",
- "timezone": "UTC+1 (moves to UTC+0 during Ramadan)",
+ "timezone": "UTC+0 (permanent since 20 Sep 2026; 1 hour behind Spain in winter, 2 hours in summer)",
  "lastVerified": "October 2026",
  "seoTitle": "Agadir cruise port guide: shuttle, kasbah, souk and beach",
  "seoDescription": "Ships dock in Agadir's commercial port, 4–6 km from the beach. Shuttle or petit taxi about 10–15 min. Souk El Had closed Mondays. Be back 60 min early.",
@@ -208,6 +208,10 @@
   {
    "mistake": "Carrying only US dollars or cards.",
    "fix": "Dollars are not widely accepted and souk stalls and taxis want cash. Get dirhams from a cash machine in the centre; the dirham cannot be taken out of Morocco, so spend it before you leave."
+  },
+  {
+   "mistake": "Using the time difference from an older guide.",
+   "fix": "Morocco returned to GMT (UTC+0) permanently on 20 September 2026, so it is 1 hour behind Spain in winter and 2 hours in summer. Guides written before then give the old offset. Work to the all-aboard time in the daily programme, usually ship's time, and check which time your watch and phone show."
   }
  ],
  "safety": "Agadir is a busy resort city and most visits pass without trouble. Pickpocketing and bag snatching are common in markets, on beaches and in crowded tourist areas, and thieves on motorbikes sometimes grab bags and jewellery, so keep valuables out of sight. Card fraud and ATM theft occur: use cash machines inside banks or businesses and cover the keypad. Women travelling alone may face verbal harassment. Foreign governments also advise that there is a threat of terrorism in Morocco, including at crowded tourist places. Emergency numbers: police 190, ambulance and fire 150, Gendarmerie Royale 177.",
@@ -328,6 +332,10 @@
   {
    "title": "Civitatis – Agadir cable car tour",
    "url": "https://www.civitatis.com/fr/agadir/telepherique-agadir/"
+  },
+  {
+   "title": "Hespress FR – Morocco's return to GMT officially set from 20 September (5 July 2026)",
+   "url": "https://fr.hespress.com/480202-maroc-le-retour-a-lheure-gmt-officiellement-acte-a-partir-du-20-septembre.html"
   }
  ],
  "uncertain": [

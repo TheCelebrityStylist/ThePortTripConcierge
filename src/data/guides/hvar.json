@@ -14,7 +14,7 @@
  "quickAnswer": "Cruise ships anchor in the bay off Hvar Town and tender passengers to the main tender station on the harbour waterfront (the Riva). From there St Stephen's Square, the cathedral and the steps up to Fortica are all on foot, so you need no transport. Be back in the tender queue 90 minutes before all-aboard.",
  "intro": "Hvar Town is a small harbour town on the south-west of the island, with the largest square in Dalmatia running inland from the harbour and the Fortica fortress on the hill above. There is no cruise berth: ships anchor and tender. Everything in town is walkable, and taxi boats from the same harbour cross to the Pakleni islands for swimming. The two things that decide the day are the summer heat on the climb to Fortica and the timing of your return boat if you go to the islands.",
  "isTender": true,
- "tenderNotes": "Ships anchor in the bay near Hvar Town and tender passengers to the main tender station on the Riva (harbour waterfront). From the landing, the Franciscan monastery and a small swimming cove are one to two minutes to the right; the Jadrolinija office, an ATM, waterfront restaurants and St Stephen's Square are to the left. Cruise passengers report the tender operation running smoothly, but allow for queues in the last hours before all-aboard and for weather affecting tender operations.",
+ "tenderNotes": "Ships anchor in the bay near Hvar Town and tender passengers to the main tender station on the Riva (harbour waterfront). From the landing, the Franciscan monastery (listed as closed for visits by the tourist board, 16 June 2026) and a small swimming cove are one to two minutes to the right; the Jadrolinija office, an ATM, waterfront restaurants and St Stephen's Square are to the left. Cruise passengers report the tender operation running smoothly, but allow for queues in the last hours before all-aboard and for weather affecting tender operations.",
  "typicalHours": 9,
  "terminals": [
   {
@@ -34,7 +34,7 @@
    "mode": "On foot",
    "cost": "Free",
    "time": "Under 10 min to St Stephen's Square",
-   "detail": "From the tender landing, walk along the Riva to the square. Turn right instead for the Franciscan monastery, one to two minutes away."
+   "detail": "From the tender landing, walk along the Riva to the square. Turn right instead for the Franciscan monastery, one to two minutes away (closed for visits, June 2026; the cove beside it is free)."
   },
   {
    "mode": "On foot to Fortica",
@@ -44,9 +44,9 @@
   },
   {
    "mode": "Taxi boat to the Pakleni islands",
-   "cost": "Fares vary by island and season; check the price at the kiosk before you board",
-   "time": "About 10 min to Jerolim, about 30 min to Palmižana",
-   "detail": "Kiosks and boats line the main harbour. Each boat serves one island only; confirm the destination and the times of return boats before you pay. Boats run every 20–30 minutes in peak season, less often outside it and in rough sea."
+   "cost": "About €5 one way to Jerolim and €8–10 to Palmižana; €10–25 return depending on the island and the month (2026). Check the price at the kiosk before you board",
+   "time": "About 5–10 min to Jerolim, 20–30 min to Palmižana",
+   "detail": "Kiosks and boats line the main harbour. Each boat serves one island only; confirm the destination and the times of return boats before you pay. In July and August boats leave roughly every 30 minutes, from about 08:00 to 21:00; less often outside the peak, and not at all in rough sea."
   }
  ],
  "returnTiming": {
@@ -67,7 +67,7 @@
   {
    "item": "Pakleni islands swim",
    "ship": "Varies by line; check your cruise planner",
-   "diy": "Taxi boat; fare varies, check at the kiosk",
+   "diy": "Taxi boat, about €10–25 return (2026); check at the kiosk",
    "saving": "Varies"
   }
  ],
@@ -115,7 +115,7 @@
    "name": "Fortica (Hvar fortress)",
    "why": "Hilltop fortress above the town with the classic view over the harbour and the Pakleni islands; a small collection of amphorae and an old prison inside.",
    "timeNeeded": "1.5–2 hours including the walk",
-   "cost": "€12 (2026); €15 combined ticket with the theatre, loggia and clock tower",
+   "cost": "€12 (2026); €15 combined ticket that also covers the theatre, the Arsenal, the loggia, the clock tower and St John's church (the Arsenal is closed for visits, June 2026)",
    "tip": "Open 09:00–18:00 according to the tourist board in June 2026. Go at opening; the upper path has no shade."
   },
   {
@@ -157,8 +157,15 @@
    "name": "Pakleni islands",
    "why": "Pine-covered islets opposite the harbour with coves, beach bars and restaurants; Palmižana on Sveti Klement is the main landing.",
    "timeNeeded": "3–4 hours including boats",
-   "cost": "Taxi boat; fare varies, check at the kiosk",
+   "cost": "Taxi boat about €5 one way to Jerolim, €8–10 to Palmižana; €10–25 return (2026)",
    "tip": "Each boat goes to one island only, with no boats between islands. Jerolim is known as a naturist beach."
+  },
+  {
+   "name": "Hvar Heritage Museum",
+   "why": "Small town museum on the tourist board's list of heritage sites, a few minutes from the square.",
+   "timeNeeded": "30 minutes",
+   "cost": "Voluntary donation (2026)",
+   "tip": "Open 10:00–14:00, closed Saturdays and Sundays (tourist board, 16 June 2026)."
   }
  ],
  "beaches": [
@@ -186,8 +193,8 @@
   {
    "name": "Palmižana (Sveti Klement, Pakleni islands)",
    "howToGetThere": "Taxi boat from Hvar harbour",
-   "time": "About 30 min by boat",
-   "cost": "Taxi boat (check the fare at the kiosk); loungers about €10–12 a day (2026)",
+   "time": "About 20–30 min by boat",
+   "cost": "Taxi boat about €8–10 one way, €10–25 return (2026); loungers about €10–12 a day (2026)",
    "note": "Several restaurants around the bay; check the last return boat."
   }
  ],
@@ -244,7 +251,7 @@
  "scams": [],
  "emergencyNumber": "112",
  "accessibility": "The tender transfer is the main barrier; ask the ship whether wheelchair users can go ashore, as it depends on the swell. The Riva and St Stephen's Square are flat but paved with smooth stone. Fortica is reached only by stepped paths and is not suitable for wheelchairs. The beaches west of town are reached on uneven paths, and taxi boats have no step-free boarding.",
- "rainyDay": "Use the day for indoor sights: the Hvar Theatre, the cathedral (morning only), the Benedictine convent's lace collection and the loggia and clock tower. Skip Fortica's slippery steps and the Pakleni islands, as taxi boats may not run in rough sea.",
+ "rainyDay": "Use the day for indoor sights: the Hvar Theatre, the cathedral (morning only), the Benedictine convent's lace collection, the loggia and clock tower, and on a weekday the Hvar Heritage Museum (10:00–14:00, donation). Skip Fortica's slippery steps and the Pakleni islands, as taxi boats may not run in rough sea.",
  "crowdTips": "Hvar and Šibenik each recorded 35 foreign cruise ship calls in the first half of 2026, so ship days are common, and peak season runs from mid-June to August. The square is quietest before 09:00. Do Fortica and the square first, then head to the islands when the town is busiest.",
  "faqs": [
   {
@@ -257,7 +264,7 @@
   },
   {
    "q": "How much is Fortica in Hvar?",
-   "a": "€12 in 2026, or €15 for a combined ticket that also covers the theatre, loggia and clock tower. The tourist board lists hours of 09:00–18:00."
+   "a": "€12 in 2026, or €15 for a combined ticket that also covers the theatre, the Arsenal (closed for visits), the loggia, the clock tower and St John's church. The tourist board lists hours of 09:00–18:00."
   },
   {
    "q": "How long is the walk up to Hvar fortress?",
@@ -265,7 +272,7 @@
   },
   {
    "q": "How do I get to the Pakleni islands from Hvar on a cruise day?",
-   "a": "Take a taxi boat from the main harbour; fares vary, so check at the kiosk. Jerolim is about 10 minutes away and Palmižana about 30."
+   "a": "Take a taxi boat from the main harbour: about €5 one way to Jerolim and €8–10 to Palmižana, €10–25 return (2026), so check at the kiosk. Jerolim is 5–10 minutes away and Palmižana 20–30. In July and August boats leave about every 30 minutes, 08:00–21:00."
   },
   {
    "q": "What can I do in Hvar in one day from a cruise ship?",
@@ -273,7 +280,7 @@
   },
   {
    "q": "Beaches near Hvar cruise port",
-   "a": "Bonj is about 10 minutes' walk west and Pokonji Dol about 25 minutes. Palmižana on the Pakleni islands is about 30 minutes by taxi boat."
+   "a": "Bonj is about 10 minutes' walk west and Pokonji Dol about 25 minutes. Palmižana on the Pakleni islands is 20–30 minutes by taxi boat."
   },
   {
    "q": "Is Hvar safe?",
@@ -355,14 +362,20 @@
   {
    "title": "Travel Tomorrow – Croatia's party island tackles antisocial behaviour (2025)",
    "url": "https://traveltomorrow.com/croatias-party-island-tackles-antisocial-behaviour/"
+  },
+  {
+   "title": "Euro City Guide – Day trips from Hvar (April 2026)",
+   "url": "https://eurocityguide.com/croatia/day-trips-from-hvar"
+  },
+  {
+   "title": "Chasing the Donkey – Pakleni Islands guide (January 2026)",
+   "url": "https://www.chasingthedonkey.com/pakleni-islands-paklinski-island-croatia/"
   }
  ],
  "uncertain": [
   "Exact walking distance in metres from the tender landing to St Stephen's Square (not stated by any source opened).",
   "Longer Fortica summer evening hours (to 20:00–21:00) reported by some 2026 guides; the tourist board list is used instead.",
   "Whether Hvar Town's clothing rules carry a specific fine for swimwear in the street (reported for Split and Dubrovnik; Hvar's package mentions clothing but no amount was found).",
-  "Franciscan monastery entry: listed by the tourist board as closed for visits in June 2026, while a 2026 guide gives €4 entry.",
-  "Exact last return taxi-boat times from each Pakleni island in 2026.",
-  "Pakleni taxi-boat fares for 2026 (sources range from about €3–5 to about €11 one way/return depending on page and year)."
+  "Exact last return taxi-boat times from each Pakleni island in 2026."
  ]
 }
