@@ -9,6 +9,7 @@ category: "cruise-planning"
 tags: ["tourist-traps", "savings", "tips", "scams", "mediterranean"]
 relatedPosts: ["most-overpriced-cruise-excursions", "are-cruise-excursions-worth-it"]
 seoKeywords: ["cruise port tourist traps", "cruise port scams", "avoid tourist traps cruise"]
+relatedPorts: ["rome"]
 ---
 
 # Cruise Port Tourist Traps — And What to Do Instead

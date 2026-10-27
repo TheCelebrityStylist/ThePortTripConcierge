@@ -7,7 +7,7 @@ slug: "valletta-malta-cruise-port-guide"
 author: "Elke"
 category: "cruise-ports"
 tags: ["valletta", "malta", "walking", "easy"]
-relatedPorts: ["dubrovnik", "split"]
+relatedPorts: ["valletta"]
 relatedPosts: ["dubrovnik-cruise-port-guide", "split-cruise-port-guide"]
 seoKeywords: ["valletta cruise port", "malta cruise port", "valletta independent"]
 ---

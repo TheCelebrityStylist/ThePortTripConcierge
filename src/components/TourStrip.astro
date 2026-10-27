@@ -1,0 +1,31 @@
+---
+// Three Viator tours for a port, placed inside an article. Same snapshot as the port page.
+import TOURS from '../data/tours.json';
+import { CAT } from '../lib/ports.js';
+import { dur } from '../lib/site.js';
+const { slug } = Astro.props;
+const all = TOURS[slug]?.tours || [];
+const pick = [...all].sort((a, b) => (b.shore - a.shore) || (b.score - a.score)).slice(0, 3);
+const city = CAT[slug] ? String(CAT[slug].city).split(' (')[0] : slug;
+---
+{pick.length > 0 && (
+<aside class="not-prose my-10 rounded-3xl bg-white/80 p-5 ring-1 ring-navy/[0.06]" aria-label={`Tours in ${city}`}>
+  <div class="flex flex-wrap items-baseline justify-between gap-2">
+    <p class="font-display text-xl font-black text-navy">Tours in {city} that fit a port day</p>
+    <a href={`/ports/${slug}#tours`} class="text-sm font-bold text-sea hover:underline">All {all.length} tours</a>
+  </div>
+  <ul class="mt-4 grid gap-3 sm:grid-cols-3">
+    {pick.map((t) => (
+      <li><a href={t.url} rel="sponsored nofollow noopener" target="_blank" class="group block overflow-hidden rounded-2xl bg-paper ring-1 ring-navy/[0.06] hover:ring-sea/40">
+        <img src={t.img} alt="" loading="lazy" width="480" height="320" class="aspect-[3/2] w-full object-cover" />
+        <span class="block p-3">
+          <span class="line-clamp-2 text-sm font-bold leading-snug text-navy">{t.title}</span>
+          <span class="mt-1 block text-xs text-navy/65"><span class="text-buoy">★</span> {t.rating.toFixed(1)} ({t.reviews.toLocaleString('en-GB')}) · {t.min === t.max ? dur(t.min) : `${dur(t.min)}–${dur(t.max)}`}</span>
+          <span class="mt-1 block text-sm text-navy/70">from <span class="font-display font-black text-navy">€{t.price}</span></span>
+        </span>
+      </a></li>
+    ))}
+  </ul>
+  <p class="mt-3 text-xs text-navy/50">Viator “from” prices, checked 27 October 2026. We may earn a commission if you book; the price is the same.</p>
+</aside>
+)}

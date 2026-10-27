@@ -9,6 +9,7 @@ category: "cruise-ports"
 tags: ["rome", "civitavecchia", "distance", "train", "how-far"]
 relatedPosts: ["how-to-get-from-civitavecchia-to-rome", "rome-cruise-port-common-mistakes"]
 seoKeywords: ["how far is rome from cruise port", "civitavecchia to rome distance", "rome cruise port distance"]
+relatedPorts: ["rome"]
 ---
 
 # How Far Is Rome from the Cruise Port?

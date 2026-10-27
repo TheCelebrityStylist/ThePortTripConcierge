@@ -7,7 +7,7 @@ slug: "venice-cruise-port-guide"
 author: "Elke"
 category: "cruise-ports"
 tags: ["venice", "vaporetto", "st-marks", "italy"]
-relatedPorts: ["rome", "florence"]
+relatedPorts: ["venice"]
 relatedPosts: ["florence-livorno-cruise-port-guide", "are-cruise-excursions-worth-it"]
 seoKeywords: ["venice cruise port", "venice cruise terminal", "vaporetto cruise ship"]
 ---

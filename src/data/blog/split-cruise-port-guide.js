@@ -7,7 +7,7 @@ slug: "split-cruise-port-guide"
 author: "Elke"
 category: "cruise-ports"
 tags: ["split", "croatia", "diocletian", "beach"]
-relatedPorts: ["dubrovnik", "kotor"]
+relatedPorts: ["split"]
 relatedPosts: ["dubrovnik-cruise-port-guide", "kotor-cruise-port-guide"]
 seoKeywords: ["split cruise port", "split croatia cruise", "diocletian palace cruise"]
 ---

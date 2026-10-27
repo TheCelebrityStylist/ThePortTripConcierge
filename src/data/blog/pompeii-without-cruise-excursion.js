@@ -9,6 +9,7 @@ category: "cruise-ports"
 tags: ["pompeii", "naples", "circumvesuviana", "train", "italy"]
 relatedPosts: ["naples-cruise-port-safety", "florence-livorno-cruise-port-guide"]
 seoKeywords: ["pompeii without cruise excursion", "pompeii cruise ship independent", "circumvesuviana cruise ship"]
+relatedPorts: ["naples"]
 ---
 
 # Can You Visit Pompeii Without a Cruise Excursion?

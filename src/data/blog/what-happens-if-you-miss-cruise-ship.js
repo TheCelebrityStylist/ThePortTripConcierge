@@ -10,6 +10,7 @@ tags: missed ship, cruise safety, port planning, cruise costs, Florence, Santori
 relatedPorts: Rome, Santorini, Florence, Naples, Mykonos
 relatedPosts: never-miss-cruise-ship-port, how-many-people-miss-cruise-ship-port, how-to-return-cruise-ship-on-time
 seoKeywords: what happens if you miss your cruise ship, missed cruise ship cost, cruise ship left without me, what to do if you miss your cruise port, cost of missing cruise ship
+relatedPorts: ["kotor"]
 ---
 
 If you are ashore on your own and you are not back by all-aboard, the ship leaves without you. Getting to the next port is then your job, and usually your bill.

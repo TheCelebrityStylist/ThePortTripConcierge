@@ -9,7 +9,7 @@ category: "Port Guides"
 readTime: 12
 hero: "https://images.unsplash.com/photo-1543429258-d717f76dbbad?w=1200&q=80"
 tags: ["florence", "livorno", "train", "tuscany", "italy", "ship-safe", "high-risk"]
-relatedPorts: ["florence", "livorno", "pisa"]
+relatedPorts: ["livorno", "florence", "pisa"]
 relatedPosts: ["how-to-get-from-civitavecchia-to-rome", "never-miss-cruise-ship", "are-cruise-excursions-worth-it"]
 seoKeywords: ["livorno to florence cruise", "florence cruise port train", "livorno cruise port guide", "florence livorno train timing", "cruise florence independent"]
 bestFor: ["experienced cruisers", "art enthusiasts", "confident DIY planners"]

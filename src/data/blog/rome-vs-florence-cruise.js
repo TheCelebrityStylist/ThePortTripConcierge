@@ -9,6 +9,7 @@ category: "cruise-planning"
 tags: ["rome", "florence", "civitavecchia", "livorno", "comparison", "italy"]
 relatedPosts: ["how-to-get-from-civitavecchia-to-rome", "florence-livorno-cruise-port-guide"]
 seoKeywords: ["rome vs florence cruise", "civitavecchia or livorno cruise", "rome or florence cruise ship"]
+relatedPorts: ["rome", "livorno"]
 ---
 
 # Rome vs Florence from a Cruise Ship: Which Should You Choose?

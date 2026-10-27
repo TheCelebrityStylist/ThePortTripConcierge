@@ -9,6 +9,7 @@ category: "cruise-planning"
 tags: ["ranking", "mediterranean", "diy", "independent-travel", "best-ports"]
 relatedPosts: ["are-cruise-excursions-worth-it", "what-to-do-6-hour-cruise-port-stop"]
 seoKeywords: ["best mediterranean cruise ports", "easiest cruise ports diy", "best cruise ports independent travel"]
+relatedPorts: ["split", "valletta", "dubrovnik"]
 ---
 
 # Best Mediterranean Cruise Ports for Independent Travel — Ranked

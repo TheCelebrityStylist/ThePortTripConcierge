@@ -9,6 +9,7 @@ category: "cruise-planning"
 tags: ["santorini", "mykonos", "comparison", "greece", "cyclades"]
 relatedPosts: ["santorini-cruise-port-diy-guide", "mykonos-cruise-port-guide"]
 seoKeywords: ["santorini vs mykonos cruise", "santorini or mykonos cruise stop", "which is better santorini mykonos"]
+relatedPorts: ["santorini", "mykonos"]
 ---
 
 # Santorini vs Mykonos on a Cruise: Which Is Better?

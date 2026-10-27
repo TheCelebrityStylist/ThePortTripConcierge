@@ -9,6 +9,7 @@ category: "cruise-planning"
 tags: ["first-cruise", "beginners-guide", "planning", "independent", "ship-safe"]
 relatedPosts: ["are-cruise-excursions-worth-it", "how-many-people-miss-cruise-ship"]
 seoKeywords: ["first cruise port day", "cruise port day guide", "how to plan cruise port day"]
+relatedPorts: ["barcelona"]
 ---
 
 # Your First Cruise Port Day: The Complete Independent Traveller's Guide
