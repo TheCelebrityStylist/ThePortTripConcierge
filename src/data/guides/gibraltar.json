@@ -17,7 +17,7 @@
   "tenderNotes": null,
   "typicalHours": 8,
   "terminals": [
-    {"name": "Gibraltar Cruise Terminal (North Mole, Western Arm)", "distanceToCentreKm": 1.5, "notes": "A converted warehouse at the northern end of the port, open only when a ship is in. Taxis and tour minibuses wait outside. The port sometimes runs a paid shuttle minibus into town on busy days. The government invited bids in January 2026 to refurbish and run the terminal; no works dates are set."}
+    {"name": "Gibraltar Cruise Terminal (North Mole, Western Arm)", "distanceToCentreKm": 1.5, "notes": "A converted warehouse at the northern end of the port, open only when a ship is in. Taxis and tour minibuses wait outside. The port sometimes runs a paid shuttle minibus into town on busy days. The government invited bids in January 2026 to refurbish and run the terminal; no works dates are set. About 260 cruise calls are expected in 2026 (Government of Gibraltar, 26 March 2026)."}
   ],
   "walkability": {"verdict": "Yes", "minutes": 15, "km": 1.5, "detail": "Flat walk from the terminal to the edge of town and on to Casemates Square, where Main Street begins. Main Street is pedestrianised. The Upper Rock is a different matter: steep roads and steps, and at least two hours on foot to the top areas."},
   "transportSections": [
@@ -56,7 +56,7 @@
     ]
   },
   "sights": [
-    {"name": "Upper Rock Nature Reserve", "why": "The top of the Rock: views to Spain and Morocco, the Barbary macaques and the main sights listed below, all inside one ticket area.", "timeNeeded": "2–4 hours", "cost": "£30 adult, £22 child 5–11, under 5 free (2026)", "tip": "Winter hours (1 October–30 April) 09:00–18:15, last entry 17:45; summer 09:30–19:15. Tickets from offices at Jews' Gate, Moorish Castle, Devil's Gap and the Market Place bus station, or online."},
+    {"name": "Upper Rock Nature Reserve", "why": "The top of the Rock: views to Spain and Morocco, the Barbary macaques and the main sights listed below, all inside one ticket area.", "timeNeeded": "2–4 hours", "cost": "£30 adult, £22 child 5–11, under 5 free (2026)", "tip": "Winter hours (1 October–30 April) 09:00–18:15, last entry 17:45; summer 09:30–19:15. Tickets from offices at Jews' Gate, Moorish Castle, Devil's Gap and the Market Place bus station, or online. The Moorish Castle's Tower of Homage reopened on 14 September 2026 after conservation; entry is included in the reserve ticket, 09:30–18:15 daily (gov.gi)."},
     {"name": "St Michael's Cave", "why": "Large limestone cave with lit formations, also used as a concert venue.", "timeNeeded": "45 minutes", "cost": "Included in the Nature Reserve ticket (2026)", "tip": "Usually the first stop on taxi tours, so expect groups mid-morning."},
     {"name": "Great Siege Tunnels", "why": "Galleries cut into the rock in the 18th-century Great Siege, with gun ports over the isthmus.", "timeNeeded": "45 minutes", "cost": "Included in the Nature Reserve ticket (2026)", "tip": "Cool and shaded; a good stop at midday in summer."},
     {"name": "Apes' Den and the Barbary macaques", "why": "Europe's only wild monkey population lives on the Upper Rock.", "timeNeeded": "20–30 minutes", "cost": "Included in the Nature Reserve ticket (2026)", "tip": "Feeding them is illegal, with a £500 fine. Keep food and loose bags packed away; they grab."},
@@ -138,7 +138,10 @@
     {"title": "CruiseMapper – Gibraltar port", "url": "https://www.cruisemapper.com/ports/gibraltar-port-4030"},
     {"title": "The Trip Verdict – Gibraltar restaurants (July 2026)", "url": "https://www.thetripverdict.com/gibraltar-restaurants"},
     {"title": "Deep Arrival – Gibraltar border treaty takes effect (July 2026)", "url": "https://deeparrival.com/news/gibraltar-border-treaty-takes-effect-july-15-2026/"},
-    {"title": "Travel With Hello – Gibraltar transport guide (May 2026)", "url": "https://www.travelwithhello.com/blog/gibraltar-transport-guide"}
+    {"title": "Travel With Hello – Gibraltar transport guide (May 2026)", "url": "https://www.travelwithhello.com/blog/gibraltar-transport-guide"},
+    {"title": "HM Government of Gibraltar – Three inaugural cruise calls; about 260 calls expected in 2026 (26 March 2026)", "url": "https://www.gibraltar.gov.gi/press-releases/gibraltar-welcomes-three-inaugural-cruise-calls-in-one-week-2162026-11832"},
+    {"title": "HM Government of Gibraltar – Moorish Castle inauguration (9 September 2026)", "url": "https://www.gibraltar.gov.gi/press-releases/moorish-castle-inauguration-marks-first-step-in-governments-three-empires-heritage-vision-6652026-12325"},
+    {"title": "HM Government of Gibraltar – Moorish Castle", "url": "https://www.gibraltar.gov.gi/heritage/moorish-castle"}
   ],
   "uncertain": [
     "Single bus fares: sources conflict (about £1.40–1.80) and the Gibraltar Bus Company site gives no fare table; only the £8.80 Hopper is quoted.",

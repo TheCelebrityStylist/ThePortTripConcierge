@@ -155,7 +155,7 @@
    "name": "Skyride to Paradise Point",
    "why": "A cable car from beside Havensight to a viewpoint 700 feet above the harbour.",
    "timeNeeded": "1 hour",
-   "cost": "Holland America sells it from $34 (2026); otherwise buy at the base",
+   "cost": "Norwegian sells it from $39.99 adult, $29 child, under-5s free; Holland America from $34 (2026); otherwise buy at the base",
    "tip": "Across the street from Havensight Mall, 10–15 minutes on foot from the ship, with about 36 steps to climb. From Crown Bay, a taxi is about $8 each way."
   },
   {
@@ -169,8 +169,8 @@
    "name": "99 Steps and Blackbeard's Castle",
    "why": "An 18th-century Danish staircase of ship-ballast bricks leading up to Skytsborg Tower, a 17th-century watchtower.",
    "timeNeeded": "45 minutes",
-   "cost": "Free to climb the steps",
-   "tip": "Steep and hot. There is no evidence Blackbeard ever lived there."
+   "cost": "Free to climb the steps; the paid Blackbeard's Castle site at the top has been closed since Hurricane Irma (2017)",
+   "tip": "Steep and hot. There is no evidence Blackbeard ever lived there. The tower and manor houses at the top were damaged by Hurricane Irma in 2017 and the site's own booking page gives no reopening date, so climb for the view and the brickwork, not to get inside."
   },
   {
    "name": "Main Street and Vendors Plaza",
@@ -350,12 +350,14 @@
   {"title": "Beyondships – St Thomas cruise port", "url": "https://www.beyondships3.com/st-thomas-cruise-port.html"},
   {"title": "Beyondships – Getting around St Thomas", "url": "https://www.beyondships3.com/st-thomas-getting-around.html"},
   {"title": "Beyondships – Walking to Charlotte Amalie from Havensight", "url": "https://www.beyondships3.com/st-thomas-walking-to-charlotte-amalie.html"},
-  {"title": "Frommer's – Gladys' Café", "url": "https://www.frommers.com/destinations/st-thomas-usvi/restaurants/gladys-caf"}
+  {"title": "Frommer's – Gladys' Café", "url": "https://www.frommers.com/destinations/st-thomas-usvi/restaurants/gladys-caf"},
+  {"title": "Blackbeard's Castle – Booking page", "url": "https://blackbeardscastle.rezgo.com/index?title=Home"},
+  {"title": "Norwegian Cruise Line – Skyride to Paradise Point ticket (2026)", "url": "https://www.ncl.com/shore-excursions/STT_17/Skyride-To-Paradise-Point-Ticket"}
  ],
  "uncertain": [
   "The current official per-person taxi fare from Havensight or Crown Bay to downtown (one secondary source says under $5; no official rate sheet found).",
   "Taxi fare and time from the cruise docks to Red Hook.",
-  "Skyride ticket price at the gate and opening hours (official site blocked automated access).",
+  "Skyride ticket price at the gate and opening hours (official site blocked automated access); cruise lines sell it from $39.99 adult (Norwegian) and from $34 (Holland America) in 2026.",
   "Coral World admission prices.",
   "Exact walking time from Havensight to downtown: Princess gives a much shorter figure than the 1.7-mile distance suggests; the walking time in this guide is calculated from the distance.",
   "Taxi time and fare from the docks to Sapphire Beach.",

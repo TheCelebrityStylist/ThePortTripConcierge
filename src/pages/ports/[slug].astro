@@ -80,7 +80,7 @@ const JUMP = [['leave-by-m', 'When to leave'], ['transport', 'Getting there'], [
           <h2 class={H2}>Where the ship docks</h2>
           <ul class="mt-4 space-y-3">{(g.terminals || []).map((t) => <li class="card p-4"><p class="font-semibold">{t.name}{t.distanceToCentreKm != null && <span class="font-normal text-navy/60"> · {t.distanceToCentreKm} km to the centre</span>}</p>{t.notes && <p class="mt-1 text-navy/80">{t.notes}</p>}</li>)}</ul>
           {g.walkability?.detail && <p class="mt-4 text-navy/85"><strong>Can you walk?</strong> {g.walkability.verdict}{g.walkability.minutes ? `, about ${g.walkability.minutes} min` : ''}. {g.walkability.detail}</p>}
-          {g.isTender && g.tenderNotes && <p class="mt-4 rounded-xl border-l-4 border-signal bg-mist p-4 text-navy/85"><strong>Tender:</strong> {g.tenderNotes}</p>}
+          {g.tenderNotes && <p class="mt-4 rounded-xl border-l-4 border-signal bg-mist p-4 text-navy/85"><strong>{g.isTender ? "Tender:" : "Dock or tender:"}</strong> {g.tenderNotes}</p>}
         </section>
 
         <section id="transport" class="mt-12 scroll-mt-20">

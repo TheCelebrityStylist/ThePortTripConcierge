@@ -93,7 +93,7 @@
    },
    {
     "time": "09:15",
-    "what": "Front Street: the Courthouse, the Guavaberry Emporium and the duty-free shops before the crowds arrive."
+    "what": "Front Street: the Courthouse, the Guavaberry Emporium and the duty-free shops before the crowds arrive. On a weekday, the Sint Maarten Museum at Front Street 7 opens at 10:00 (Monday–Friday 10:00–16:00, closed at weekends); allow 30–45 minutes."
    },
    {
     "time": "10:30",
@@ -155,7 +155,7 @@
    "why": "Ruins of the first Dutch military fort in the Caribbean (1631), with views over Great Bay.",
    "timeNeeded": "1-1.5 hours including travel",
    "cost": "Free",
-   "tip": "The footpath starts at the Divi Little Bay Resort."
+   "tip": "The footpath starts at the Divi Little Bay Resort. Reports on its upkeep are mixed: one 2026 island guide (st-maarten.com, June 2026) says it is so poorly kept that the views do not justify the trip, while others rate the view of Great Bay. Go for the story and the headland, not the stonework."
   },
   {
    "name": "Maho Beach",
@@ -254,7 +254,7 @@
  ],
  "emergencyNumber": "911",
  "accessibility": "The cruise facility and Harbour Point Village are at ground level, and the route around the bay into Philipsburg and along the boardwalk is flat, though long in the heat (allow 30 minutes or more). Ask at the water taxi booth whether boarding is possible with a wheelchair, as it depends on the boat and the swell. Taxi fares include mobility aids at no extra charge. Front Street has kerbs and crowds on busy days. The paths to Fort Amsterdam and Fort Louis are uneven climbs.",
- "rainyDay": "In rain, spend the time on Front Street, where shops are under cover, and in the cafés and bars along the boardwalk. Marigot's West Indies Mall is another covered option if you were going to the French side anyway.",
+ "rainyDay": "In rain, spend the time on Front Street, where shops are under cover, and in the cafés and bars along the boardwalk. On a weekday, the small Sint Maarten Museum at Front Street 7 (Monday–Friday 10:00–16:00, closed at weekends) is indoors. Marigot's West Indies Mall is another covered option if you were going to the French side anyway.",
  "crowdTips": "St Maarten handled nearly 1.6 million cruise passengers in 2025, and Pier 2 alone takes two of the world's largest ships. On multi-ship days Front Street and the Maho taxi run are busiest from mid-morning. Go to Maho early or after lunch, shop Front Street first thing, and check how many ships are in on your date before planning a French-side trip.",
  "faqs": [
   {
@@ -361,6 +361,14 @@
   {
    "title": "Royal Price Tracker – Philipsburg cruise port",
    "url": "https://royalpricetracker.com/explore/ports/philipsburg/"
+  },
+  {
+   "title": "In Your Pocket – Museum Sint Maarten",
+   "url": "https://inyourpocket.com/dutch-caribbean/sint-maarten/venues/Museum-Sint-Maarten"
+  },
+  {
+   "title": "St-Maarten.com – Philipsburg, capital of Dutch Sint Maarten (June 2026)",
+   "url": "https://www.st-maarten.com/philipsburg-capital-of-dutch-sint-maarten/"
   }
  ],
  "uncertain": [
@@ -368,6 +376,6 @@
   "Exact walking distance in km from the pier to Front Street.",
   "Taxi travel time from the cruise port to Orient Bay, and the French-side taxi fare list (published separately as a PDF, not opened).",
   "Typical all-aboard time at Philipsburg; the day plan uses a default 17:30.",
-  "Opening hours and name of the museum on Front Street."
+  "Admission price of the Sint Maarten Museum (Front Street 7); its listed hours, Monday–Friday 10:00–16:00, closed at weekends, are from In Your Pocket."
  ]
 }

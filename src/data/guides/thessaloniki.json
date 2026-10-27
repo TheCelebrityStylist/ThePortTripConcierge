@@ -20,7 +20,7 @@
   {
    "name": "Cruise passenger terminal, Pier 2 (quays 9 and 10)",
    "distanceToCentreKm": null,
-   "notes": "Renovated building on Pier 2, in use since June 2023. Quay 10 is about 320 m long and takes cruise ships of any size. Tourist information staff meet passengers. Exit is through controlled port gates; the route out varies by berth."
+   "notes": "Renovated building on Pier 2, in use since June 2023. Quay 10 is about 320 m long and takes cruise ships of any size. Tourist information staff meet passengers. Exit is through controlled port gates; the route out varies by berth. The port planned 58 cruise calls for 2026, down from 70 in 2025 (Naftemporiki, January 2026)."
   }
  ],
  "walkability": {
@@ -162,14 +162,14 @@
    "why": "Cobbled lanes, Ottoman-era houses, Byzantine churches and the walls and fortress at the top of the city, with wide views.",
    "timeNeeded": "2 hours including taxi",
    "cost": "Free to walk around; taxi fare",
-   "tip": "Take a taxi up and walk down. It is steep and uneven, and the farthest point from the ship."
+   "tip": "Take a taxi up and walk down. It is steep and uneven, and the farthest point from the ship. On the way down, Atatürk's birthplace at 75 Apostolou Pavlou Street (inside the Turkish Consulate compound) reopened on 10 November 2025 after restoration; 10:00–17:00, closed on Mondays."
   },
   {
    "name": "Modiano and Kapani markets",
    "why": "Modiano is the city's largest covered food market, in a 1930 building with about 75 stalls; Kapani is the open-air market for herbs, spices, olives and cheese.",
    "timeNeeded": "45 minutes",
    "cost": "Free",
-   "tip": "Closed on Sundays."
+   "tip": "Closed on Sundays. Nearby on Egnatia, the Bey Hamam, an Ottoman bathhouse of 1444, reopened in June 2026 as an exhibition venue after restoration; its hours and any entry fee are not confirmed, so look in if the door is open."
   }
  ],
  "beaches": [
@@ -365,6 +365,18 @@
   {
    "title": "GOV.UK – Greece travel advice: safety and security",
    "url": "https://www.gov.uk/foreign-travel-advice/greece/safety-and-security"
+  },
+  {
+   "title": "Naftemporiki – Thessaloniki port, fewer cruise ship arrivals in 2026 (January 2026)",
+   "url": "https://www.naftemporiki.gr/english/2058427/thessaloniki-port-fewer-cruise-ship-arrivals-in-2026/"
+  },
+  {
+   "title": "Daily Sabah – Atatürk House in Greece reopens on 10 November after restoration (November 2025)",
+   "url": "https://www.dailysabah.com/turkiye/ataturk-house-in-greece-reopens-on-nov-10-after-major-restoration/news/amp"
+  },
+  {
+   "title": "Iefimerida – Thessaloniki's 580-year-old Paradise Baths reopen (June 2026)",
+   "url": "https://www.iefimerida.gr/english/thessalonikis-580-year-old-paradise-baths-reopen-cultural-hub-after-eu15-million"
   }
  ],
  "uncertain": [
