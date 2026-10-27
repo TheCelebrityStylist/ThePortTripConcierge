@@ -4,6 +4,7 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { SITE } from '../lib/site.js';
 import Analytics from '@vercel/analytics/astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
 const { title, description = '', path = Astro.url.pathname, noindex = false, jsonLd = [], ogImage = 'https://images.unsplash.com/photo-1555990793-da11153b2473?auto=format&fit=crop&w=1200&q=75', darkNav = false, lcpImage = null } = Astro.props;
 const canonical = SITE + (path === '/' ? '/' : path.replace(/\/$/, ''));
 const ld = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
@@ -39,5 +40,7 @@ const ld = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
   <main id="main"><slot /></main>
   <Footer />
   <Analytics />
+  <SpeedInsights />
+  <script>import '../scripts/track.js';</script>
 </body>
 </html>
