@@ -157,7 +157,7 @@ Safety is mostly common sense. Naples has a reputation that exceeds the reality 
 
 Yes. The Stazione Marittima is in the centre. Piazza del Plebiscito is 10–15 minutes on foot and Spaccanapoli 15–20 minutes. You never need a taxi for the old town.
 
-### Do I need to book anything in advance for a day in Naples?
+### Does anything need booking in advance for a day in Naples?
 
 Only the Cappella Sansevero, which requires a named, timed ticket. Everything else on this route, the funicular, the Certosa, Santa Chiara and the Pio Monte, you can pay for on the day.
 
@@ -169,7 +169,7 @@ It is 414 steps, all downhill if you ride the funicular up first. Anyone comfort
 
 The Cappella Sansevero (except some summer Tuesdays) and the National Archaeological Museum. The Certosa closes on Wednesdays. Plan the day around whichever you most want to see.
 
-### What time should I head back to the ship?
+### What time should you head back to the ship?
 
 Leave the old town 75 minutes before all-aboard, so 16:15 for a 17:30 departure. From the Certosa or the archaeological museum, leave 90 minutes before.
 

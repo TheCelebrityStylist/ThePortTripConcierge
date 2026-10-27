@@ -18,7 +18,7 @@ relatedPorts: ["naples"]
 
 The train empties onto a small platform and almost everyone turns the same way. The Porta Marina entrance is about 50 metres from the station, and the first thing at the gate is the security check: metal detectors, bag checks, belts and phones into a tray (Museo per Tutti). Bags larger than 30 × 30 × 15 cm are not allowed in (Pompeii Archaeological Park). Leave the day pack on the ship.
 
-Then you walk through the gate onto a Roman street, and the scale of the thing arrives all at once. Pompeii is not a ruin you look at. It is a town you walk through: rough basalt paving, high kerbs, stepping stones at the crossings, street fountains that still run. The official park suggests paths of two, three, five and seven hours (Pompeii Archaeological Park). You have three, and a train to catch.
+Then you walk through the gate onto a Roman street, and the scale of the thing arrives all at once. Pompeii is not a ruin you look at. It is a town you walk through: rough basalt paving, high kerbs, stepping stones at the crossings, street fountains that still run. The park's own map suggests paths of two, three, five and seven hours (Pompeii Archaeological Park). You have three, and a train to catch.
 
 Most cruise passengers spend those three hours on the same loop, in the same order, as everyone off the same coaches. This guide is for doing it differently: knowing which of the 2026 openings to find, where the new gallery of plaster casts is, and why the people in them are not who we thought they were. And how to be back at that platform in time.
 
@@ -60,7 +60,7 @@ The fullonica opened to visitors on 15 August 2026, with four other houses: the 
 
 ## 11:00, a garden at the end of the street
 
-Near the eastern end of the town is the House of Octavius Quartio, and it is the one most people walk past. The park calls it a miniature version of the great country villas. Its owner, Decimus Octavius Quartio, built a garden on two levels with two long water channels crossing at right angles, with little waterfalls and fountains, a shrine that seems to have been dedicated to Isis, and an outdoor dining couch beside a painted grotto (Pompeii Archaeological Park). The painter signed his work: his name was Lucius.
+Further along Via dell'Abbondanza, close to the Palestra Grande and the amphitheatre, is the House of Octavius Quartio (Wikipedia). It is easy to walk past. The park calls it a miniature version of the great country villas. Its owner, Decimus Octavius Quartio, built a garden on two levels with two long water channels crossing at right angles, with little waterfalls and fountains, a shrine that seems to have been dedicated to Isis, and an outdoor dining couch beside a painted grotto (Pompeii Archaeological Park). The painter signed his work: his name was Lucius.
 
 It is quiet, it is green, and it shows you what money looked like in Pompeii in a way the Forum does not.
 
@@ -107,7 +107,7 @@ If a train is cancelled, take the next one. If the line is down, go to the white
 
 ### If you have an extra hour
 
-Spend it in the National Archaeological Museum in Naples, on Line 1 at Museo. The best frescoes, mosaics and objects from Pompeii are there, not on site. Entry is €20 (2026) and it closes on Tuesdays. Leave it 90 minutes before all-aboard.
+Spend it outside the walls, at the Villa of the Mysteries, the suburban villa that gives Pompei Scavi–Villa dei Misteri station its name. It needs the Pompeii+ ticket (€25, 2026) rather than the basic one, so decide before you book, and check the park's map for the way out to it. It only fits on a later all-aboard: the three-hour rule for the train does not move. If you would rather see Pompeii's best frescoes and mosaics indoors, they are in the National Archaeological Museum in Naples, covered in our [Naples guide](/blog/naples-cruise-port-diy-guide).
 
 ## When the ship excursion is the better buy
 
@@ -135,7 +135,7 @@ The wider port, including the walk into town and safety notes, is in our [Naples
 
 Much cheaper. A DIY morning is about €27 per person in 2026 for the return train and a basic ticket. What you give up is the ship's promise to wait for a late coach.
 
-### Do I need to book Pompeii tickets in advance?
+### Do you need to book Pompeii tickets in advance?
 
 From mid-March to mid-October, yes in practice. Entries are capped at 20,000 a day, and the morning window, the one that suits a cruise call, fills first. Tickets are named and sold only through the official channel.
 
@@ -158,7 +158,7 @@ Not easily by train. The Garibaldi platforms have stairs, the trains have steps,
 - [Pompeii Archaeological Park: domus opening and closing changes from 15 August 2026](https://pompeiisites.org/en/comunicati/domus-opening-closing-changes-from-saturday-august-15-2026/)
 - [Pompeii Archaeological Park: the plaster casts of Pompeii (March 2026)](https://pompeiisites.org/en/?p=69338)
 - [Pompeii Archaeological Park: House of Octavius Quartio](https://pompeiisites.org/en/?p=3283)
-- [Pompeii Archaeological Park: map and suggested paths](https://pompeiisites.org/en/pompeii-map/)
+- [Wikipedia: House of Loreius Tiburtinus (Octavius Quartio)](https://en.wikipedia.org/wiki/House_of_Loreius_Tiburtinus)
 - [Pompeionline: new Pompeii entry rules 2026, daily cap and time slots](https://www.pompeionline.net/en/news/524-new-pompeii-ingress-rules-2026-daily-cap-time-slots)
 - [Pompeionline: getting to Pompeii from Naples (September 2026)](https://www.pompeionline.net/en/pompeii-info/get-to-pompeii/how-to-get-to-pompeii-from-naples-the-ultimate-tourist-guide-local-tips)
 - [University of Florence: Pompeii DNA rewrites the history of the victims](https://unifi.it/en/news/pompeii-dna-rewrites-history-victims-eruption-0)
