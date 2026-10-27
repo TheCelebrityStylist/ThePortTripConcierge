@@ -1,152 +1,171 @@
 export default `---
-title: "Beaches Near Split Cruise Port: Bačvice, Kašjuni and Firule"
-description: "Beaches near Split cruise port: Bačvice is free and 5–10 min on foot from the ships. Bus 12 to Kašjuni: €1.50 by app (2026). Leave times for a 17:30 all-aboard."
+title: "Beaches Near Split Cruise Port: Bačvice, Kašjuni and Meštrović"
+description: "Beaches near Split cruise port: Bačvice is free and 5–10 min on foot. Bus 12 to Kašjuni and the Meštrović Gallery is €1.50 by app (2026). Leave by 15:10."
 date: "2026-10-16"
 updated: "2026-10-27"
 slug: "beaches-near-split-cruise-port"
 author: "Elke"
 category: "cruise-ports"
-tags: ["split", "croatia", "beach", "bacvice", "kasjuni", "firule", "transport"]
+tags: ["split", "croatia", "beach", "bacvice", "kasjuni", "firule", "mestrovic", "picigin", "transport"]
 relatedPorts: ["split"]
 relatedPosts: ["split-cruise-port-guide", "beaches-near-dubrovnik-cruise-port", "beaches-near-kotor-cruise-port"]
 ---
 
-# Beaches Near Split Cruise Port: Bačvice, Kašjuni and Firule
+# Beaches Near Split Cruise Port: Bačvice, Kašjuni and Meštrović
 
-> **Quick answer:** Bačvice is the beach for a cruise day in Split. It is free, sandy and shallow, and only 5–10 minutes on foot from the port, so you need no transport. For more space, Firule is a 20-minute walk from the palace, and Kašjuni below Marjan Hill is about 15 minutes on Promet bus 12 (€1.50 by app, €3 from the driver, 2026). For a 17:30 all-aboard, leave Bačvice by 16:00 if your ship is on the St Duje breakwater.
+> **Quick answer:** Bačvice, Split's city beach, is free, sandy and 5–10 minutes on foot from the port, so you need no transport. For clearer water, take Promet bus 12 from the west end of the Riva to Kašjuni below Marjan Hill (about 15 minutes, €1.50 by app or €3 from the driver, 2026). For a 17:30 all-aboard with your ship on the St Duje breakwater, leave Bačvice by 16:00, or catch the 15:10 bus back from Kašjuni.
 
-## Where the ships dock
+## 08:00, the breakwater
 
-Split is mainly a docking port. Ships use one of three spots, and your daily programme says which.
+The ship ties up on the St Duje breakwater, the outer arm of Split's harbour, on one of two berths built for ships of up to about 320 m. Look back towards town and the palm line of the Riva is a long way off, behind the ferries. Split handles more than 260 cruise calls a year, and those ships share the harbour with the island ferries, so the quay is busy before you are.
 
-- **Inner city-port quays (Riva end of the harbour):** shared with ferries, a 5–10 minute flat walk to the Riva.
-- **Outer berths, St Duje breakwater (Gat sv. Duje):** two berths for large ships, 15–20 minutes' walk along the harbour road. Some lines run a shuttle to the Riva.
-- **Anchorage:** some ships tender when the berths are full. Tender landings are closer to the Old Town than the breakwater.
+You have a 15–20 minute walk round the harbour before anything happens. It is flat and paved, with little shade, and the harbour road carries ferry cars and coaches, so use the crossings.
 
-The walk is flat and paved but has little shade on the breakwater. The harbour road carries ferry traffic and coaches, so use the crossings.
+Here is what most passengers never work out. Split's beaches sit on two sides of the city, and the first one is on your side. Bačvice, Firule and Žnjan are east of the port, behind the ferry terminal and the station. Kašjuni and the quieter coves are west, round the far side of Marjan Hill, past the Old Town. One kind of day keeps you close to the ship. The other takes a bus, a gallery and a little nerve on the way back.
 
-Split's beaches sit on two sides of the city. Bačvice, Firule and Žnjan are east of the port, the same side as the ships. Kašjuni, Ježinac and Bene are west, round Marjan Hill, on the far side of the Old Town.
+Both are good. Here is how each one runs, in the order you meet them.
 
-## Bačvice
+## 08:30, the beach that taught a city to play
 
-**Getting there:** walk east from the port and ferry terminal.
-**Time:** 5–10 minutes from the port; 10–15 minutes from Diocletian's Palace.
-**Cost:** free. Sunbeds with a parasol are reported at €8–12 (2026).
-**Leave by (17:30 all-aboard):** 16:00 on the breakwater, 16:15 at the inner quays. 17:30 − 60 min on board early − 30 min walk and gangway security = 16:00. Bačvice is no further from the berths than the Riva, so the guide's Riva rule applies.
+Walk east from the ferry terminal and within 5–10 minutes the ground turns to sand. Bačvice is a shallow bay, knee-deep for a long way out, and the Split tourist board says it can hold more than ten thousand people. On a July afternoon it tries.
 
-Bačvice is Split's city beach: shallow water over sand, an easy entry, and the home of picigin, the local ball game played standing in the shallows. The tourist board describes it as able to take more than ten thousand people, and in July and August it is busy. There are beach bars, restaurants, showers and changing cabins. It suits short calls, families with small children and anyone who wants to combine a swim with the palace without paying for transport.
+It is also where the city learned to swim in public. Bačvice was officially made the municipal beach in 1919. The tourist board credits it with the start of rugby in Split and with the first kicks of more than one famous footballer. But the thing to watch for is in the water.
 
-## Firule
+Around 1923, according to Total Croatia's history of the game, people on Bačvice were trying to play water polo and failing, because the bay is too shallow. What they invented instead is picigin. Two or more players stand in the shallows, never deeper than the knee, and keep a small ball, often a peeled tennis ball, off the water by slapping it with the palm. There is no score and nobody wins. The point is to keep the ball alive, preferably with a dive that sends spray over the people sitting nearest. Croatia Week reports that the name is thought to come from pizzicato, the plucking of a string.
 
-**Getting there:** walk east past Bačvice along the coast.
-**Time:** about 20 minutes on foot from Diocletian's Palace.
-**Cost:** free. No sunbed rental is reported.
-**Leave by (17:30 all-aboard):** 15:40. 16:00 (be back at the Riva) − 20 min walk = 15:40. It is closer to the berths than to the palace, so this has margin built in.
+Locals take it seriously in the way only a game without rules can be taken seriously. There has been an annual championship at Bačvice since 2005, judged on flair rather than points, and picigin is on Croatia's national list of intangible cultural heritage. There is a long tradition of a game on New Year's Day, when the sea can be around 10°C. If you see a circle of men in tight trunks in the shallows in the morning, that is it, and watching is free.
 
-Firule is the next bay east of Bačvice. The tourist board describes fine sand and natural shelter, which makes it popular with families with young children. There is a concrete platform, an outdoor shower and a café behind a line of trees. It is quieter than Bačvice and still needs no bus.
+The practical side is simple. Euro City Guide's April 2026 beach guide puts sunbeds with a parasol at about €8–12, with free concrete platforms beside them for anyone who arrives before 09:00. Showers cost €0.50, there are changing cabins, and beach bars and snack kiosks line the back of the bay.
 
-## Žnjan
+**Leave by:** 16:00 for a 17:30 all-aboard on the breakwater, 16:15 if you are on the inner quays. Bačvice is no further from the berths than the Riva, so the guide's Riva rule applies as it stands.
 
-**Getting there:** walk east along the coast, or a Promet city bus. Split Curated lists lines 8, 15 and 17 as serving the Žnjan area from Pazar, by the market.
-**Time:** 40–45 minutes on foot from the palace; 20–25 minutes by bus.
-**Cost:** free. Bus €1.50 by app, €3 from the driver (2026).
-**Leave by (17:30 all-aboard):** 15:15 on foot. 16:00 − 45 min walk = 15:15. Bus frequencies to Žnjan are not checked, so do not count on one for the return.
+## 09:30, the bay where Ivanišević learned to serve
 
-Žnjan is a pebble beach on the east side of the city, next to Trstenik. It reopened in summer 2025 after renovation and now has a promenade, toilets, snack bars, playgrounds, sports courts and a section for people with disabilities. Trstenik next door is pebble with easy entry and holds a Blue Flag. Both suit a long call or a family that wants space and facilities more than an old-town setting.
+Keep walking east along the coast, about 10 minutes past Bačvice, and the crowd thins out at Firule. It is a smaller bay of sand and fine pebble with natural shelter, the kind of beach Split mothers choose for toddlers. The headland also shelters it from the bura, the cold north wind, and Euro City Guide notes that the rocky edges are good for snorkelling, with small fish and sea bream.
 
-## Kašjuni
+Nearby is the tennis centre, and that is the story here. The tourist board lists the players who learned their first serves at Firule: Nikola Pilić, Željko Franulović, Goran Ivanišević, Mario Ančić and Jelena Kostanić. It is an ordinary-looking club next to an ordinary-looking beach, which is rather the point.
 
-**Getting there:** Promet bus 12 from the Sv. Frane stop by the Church of St Francis at the west end of the Riva, or walk.
-**Time:** about 15 minutes by bus; 30–40 minutes on foot from the Old Town. Departures run every 20–60 minutes (summer 2026 timetable).
-**Cost:** the beach is free. Bus €1.50 by app, €3 from the driver (2026). Beach-club sunbeds with a parasol are reported at €10–15 (2026).
-**Leave by (17:30 all-aboard):** 15:20 if you walk back, or 14:45 if you rely on the bus without checking times. On foot: 16:00 − 40 min = 15:20. By bus: 16:00 − 15 min ride − up to 60 min wait = 14:45. If you note a bus 12 departure from Kašjuni before 15:45, take that one.
+There are no sunbeds. There is a small concrete platform, an outdoor shower and a café, and a grocery shop on the street behind. It is about 20 minutes from Diocletian's Palace on foot and closer still to the ships.
 
-Kašjuni is a deep bay of small pebbles on the south side of Marjan, quieter than Bačvice. There is a café and changing cabins, plus a beach bar under pine trees with kayak and snorkel hire. Part of the beach is for naturists and a dog-friendly section sits next to it. The summer 2026 timetable says bus 12 currently turns at a temporary stop at Kašjuni, which helps here. It suits a longer call when you want clearer water and fewer people, and are willing to plan the return.
+**Leave by:** 15:40 for a 17:30 all-aboard. Be back at the Riva by 16:00, minus a 20-minute walk.
 
-## Ježinac
+If you want more space, Žnjan, further east next to Trstenik, reopened in summer 2025 after a renovation and now has playgrounds, sports courts, an aquapark, a diving board and a beach for swimmers with disabilities. Trstenik next door is pebble with an easy entry and holds a Blue Flag. Both are a long walk east of the palace, which makes them a family day rather than an add-on, and we have not timed the walk for 2026.
 
-**Getting there:** bus 12 to the end of the line, then the coastal path.
-**Time:** about 15 minutes by bus, then 15–20 minutes on foot. Walking all the way takes 45 minutes or more. The path time is from the usual Marjan terminus; with bus 12 turning at Kašjuni this summer, the walk may be longer, and it is not checked.
-**Cost:** free. Bus €1.50 by app (2026).
-**Leave by (17:30 all-aboard):** 14:25. 16:00 − 15 min bus − 60 min worst-case wait − 20 min path back to the stop = 14:25.
+## 10:00, west through town to the number 12
 
-Ježinac is a rock-and-pebble stretch further along Marjan's shore. It has no facilities at all: no snack bar, sunbeds or showers. Bring water and shoes for the rocks. It is the quiet option for confident swimmers on a long call, and the riskiest return of the list.
+The other kind of day starts on the Riva and keeps going. Walk the length of the palace's south wall to the far west end, where the Church of St Francis (Sv. Frane) stands at the corner. That is the stop for bus 12.
 
-## Bene
+Close by, in a hall fronting Marmontova, is the fish market, and it is worth the detour before the bus. It opened on 31 March 1890 in a Secession-style hall built right beside the town's sulphur spa. Total Croatia reports that the sulphur springs under the site gave it a reputation as one of the few fish markets in the world without flies.
 
-**Getting there:** bus 12, then about 10 minutes through the forest, or on foot.
-**Time:** not checked for 2026.
-**Cost:** free.
-**Leave by:** not given. Check that it is open first.
+Now the bus. Line 12 runs from Sv. Frane along the south side of Marjan on Šetalište Ivana Meštrovića, past Kaštelet and Kašjuni. Buy a zone 1 ticket in the Promet Split app or at a ticket office for €1.50. From the driver it is €3, after a 50% fare rise on 1 June 2026 reported by Portal.hr, and Bookiscout notes that cards cannot be used on board. Have exact euros if you are paying the driver.
 
-Bene is on the north-east side of Marjan, partly sandy with rocky sides, in pine forest with a restaurant, tennis courts, a playground and a lift into the sea for disabled swimmers. Two things make it a poor cruise-day choice this season. The Split tourist board's beach page lists Bene as currently closed to the public, and the summer 2026 bus timetable shows line 12 turning at Kašjuni rather than running through to Bene.
+The timetable valid from 15 June 2026 has departures from Sv. Frane at 09:15, 10:00, 10:50, 11:15 and 11:40, and roughly every 25 minutes through the middle of the day after that. One note matters: the line officially runs to Bene, but the timetable says it currently turns at a temporary stop at Kašjuni. For this day, that is good news.
 
-## Beaches compared
+## 10:30, the sculptor's house above the beach
 
-| Beach | How | Time from ship | Cost (2026) | Leave by (17:30) | Best for |
-|-------|-----|----------------|-------------|------------------|----------|
-| Bačvice | Walk east | 5–10 min | Free; sunbeds €8–12 | 16:00 (16:15 inner quays) | Short calls, families |
-| Firule | Walk east | About 20 min | Free | 15:40 | Quieter, still no bus |
-| Žnjan | Walk or bus | 40–45 min walk; 20–25 min bus | Free; bus €1.50 | 15:15 | Facilities, space |
-| Kašjuni | Bus 12 or walk | About 15 min bus from the Riva | Free; bus €1.50; club sunbeds €10–15 | 15:20 walking | Best swimming, fewer people |
-| Ježinac | Bus 12 + path | 30–35 min from the Riva | Free | 14:25 | Quiet, no facilities |
-| Bene | Bus 12 + forest walk | Not checked | Free | Not given | Listed as closed |
+Before Kašjuni, the bus passes a large villa set above the road. Most people on a beach bus do not look up. Get off.
 
-Times for Kašjuni and Ježinac start from the Riva, so add the 5–20 minutes from your berth.
+This is the Meštrović Gallery, the summer house and studio of the sculptor Ivan Meštrović. According to the gallery's own history, the villa went up between 1931 and 1939, with a clay-modelling studio added in 1934, and it was the family's favourite home from the summer of 1932. They left Split in 1941 and 1942, in the war, and others occupied the house until 1965. On 31 January 1952 he gave four buildings and 132 works to the Croatian people, and that gift became the gallery. He died in South Bend, Indiana, in 1962. In Your Pocket reports that the gallery reopened in April 2026 after an extensive restoration.
 
-## Which beach for which day
+Five minutes' walk west along the same road is the part almost nobody sees. Meštrović's Crikvine-Kaštilac is a 16th-century fortified farm estate that he bought in 1939 and turned into a chapel. Inside is a cycle of 28 wooden reliefs of the life of Christ, which In Your Pocket says took him 35 years to complete.
 
-- **Short call (under 7 hours):** Bačvice. No transport, no timetable, and the same leave time as the Riva.
-- **Families with small children:** Bačvice or Firule, both shallow and sandy. Firule is calmer.
-- **Best swimming:** Kašjuni, on bus 12. A deep bay of small pebbles.
-- **Quiet:** Firule if you want to walk, Ježinac if you have a long call and bring everything you need.
-- **With sightseeing:** the palace in the morning, lunch in Varoš, then Bačvice from 13:30. This is the guide's own day plan.
+One ticket covers both: €12 per adult, according to the gallery's price list. The gallery's site gives the hours as Tuesday to Sunday, 08:00–18:00, closed on Mondays and public holidays, with last entry half an hour before closing. Allow an hour for the gallery and 20 minutes for the Kaštilac.
 
-## When to head back
+## Noon, Kašjuni
 
-The guide's rule is to be back on board 60 minutes before all-aboard. That means leaving the Riva 90 minutes before all-aboard if your ship is on the breakwater, and 75 minutes before at the inner quays. For a 17:30 all-aboard that is 16:00 or 16:15. Every leave time above builds on that.
+From the Kaštilac it is a short walk down to the water. The tourist board describes Kašjuni as the first beach west of Kaštelet, a deep bay of small pebbles under Marjan's pines. Behind you is the sculptor's chapel. In front of you is a deeper bay than Bačvice, further from the harbour, and the swimming is better for it.
 
-What goes wrong is the walk back to the breakwater. It takes 20 minutes plus gangway security, and late-afternoon ferry departures can block the harbour road with cars and foot passengers. From the Marjan beaches, take a taxi or Uber straight to your berth if the bus does not come. If you will miss all-aboard, call the port agent number on your daily programme.
+There is a café and changing cabins, and Euro City Guide's 2026 guide lists a beach club with sunbeds at about €10–15, Joe's Beach Bar, snorkel hire at about €8 a day and double kayaks from about €15 an hour. The bay is sheltered and usually calm. Part of the beach is for naturists and is marked with a sign, and a separate dog-friendly beach sits next to the main one, divided by rocks.
 
-## Plan it to your ship
+Bring water shoes. Small pebbles are kinder than rock, but they are still pebbles.
 
-For the palace, Marjan and the full day, read [the full Split guide](/ports/split), then [time this day to your ship](/day/split).
+If Kašjuni is full, Ježinac is the next stretch along the shore: rock and pebble, no snack bar, no sunbeds, no shower, and sea urchins. Euro City Guide puts it 15–20 minutes along an unsigned coastal path from the end of the bus route and suggests downloading the trail before you go. It is the quiet choice for strong swimmers who bring everything, and it adds 20 minutes to the return.
+
+Bene, on the north side of Marjan, is the beach the older guidebooks send you to, with its forest, restaurant and lift into the sea. The tourist board lists it as currently closed to the public, and the bus is not going there anyway this season.
+
+## If you would rather swim from a boat
+
+Split's other beach is the open sea between the islands, and the boats leave from the Riva. A [Blue Lagoon and three islands cruise with lunch and a swim](https://www.viator.com/tours/Split/Blue-Lagoon-and-3-Islands-Day-Cruise-from-Split-with-lunch-on-boat-included/d4185-9965P61?mcid=42383&pid=P00216188) takes you out to swim from the deck. Be clear about what you are buying. It is a full day on an independent boat, and an independent boat does not hold your ship. Check the return time against your all-aboard before you book, not on the morning.
+
+## The other way to do it
+
+Most passengers do Split the same way: the palace first, because it is next to the ship, then a beach if there is energy left. The guide's crowd notes say why that is backwards. Tour groups pack the Peristyle and the cellar corridor from about 09:30 to 12:30. That is exactly when the far side of Marjan is at its emptiest.
+
+So reverse it. Walk the Riva at 08:30, before the groups, and take the 09:15 bus 12 from Sv. Frane. Be at the Meštrović Gallery by about 09:30, see the Kaštilac reliefs, and swim at Kašjuni from about 10:45. Ride back into town at lunchtime, eat in Varoš, and walk into the palace after 13:00, when the morning groups are heading back to their coaches. Finish on the Riva in the late afternoon, which the guide says is calmer than midday, and walk back to the ship with nothing to rush.
+
+It costs €3 in bus fares by app and €12 for the gallery. It also gives you the one Split most of your fellow passengers never see: a sculptor's chapel and a quiet swim, while they queue for the same bell tower.
+
+## If you have an extra hour
+
+On the way back into town, get off at Sv. Frane and walk up through Varoš, the old fishermen's quarter, to the stone steps that climb Marjan. The guide puts the first viewpoint 15–20 minutes up. Wikipedia's history of the park dates those stairways from the coast to 1922.
+
+At the top of them is the old Jewish cemetery. The city gave this slope to Split's Jewish community in 1573, and the European Jewish Cemeteries Initiative counts about 700 gravestones, flat Sephardic slabs with inscriptions in Hebrew, Spanish, Italian and Croatian. The last burial was in 1945. In 1942 the Nazis burned the community's archive, including the 1573 document granting the land. The cemetery's chapel now operates as a coffee house, so the best view over the palace roofs comes with an espresso and a long history.
+
+A little further along the rim path is St Nicholas, a small early 13th-century church dedicated to the fishermen's saint. Then turn round. The steps down are steep and polished, and they take longer than you think on tired legs.
+
+## 15:00, the bus that matters
+
+Every beach day in Split ends at the same place: the Riva, by 16:00 for a 17:30 all-aboard if your ship is on the breakwater. The guide's rule is to be back on board 60 minutes before all-aboard, and the walk round the harbour takes 15–20 minutes plus gangway security.
+
+From Kašjuni, that makes the bus the whole plan. The June 2026 timetable has buses heading back to Sv. Frane at 14:45, 15:10 and 15:30, and the ride is about 15 minutes. The 15:30 gets you to the west end of the Riva at about 15:45, which leaves nothing for a late bus or a slow walk along the waterfront. Aim for the 15:10. Leave the water by 14:50, dry off and be at the stop five minutes early. The printed times are for the Bene end of the line, and the bus currently turns at a temporary stop at Kašjuni, so photograph the times posted at the stop when you arrive in the morning.
+
+If you miss it, do not wait for the next one. Uber operates in Split and there is a taxi rank at the port. Euro City Guide puts a taxi between the palace and Kašjuni at about €8–12, or €6–8 on Bolt. Walking back takes 30–40 minutes. If you walk, leave by 15:20.
+
+What goes wrong most often is the last 20 minutes, not the beach. Late-afternoon ferry departures can block the harbour road with queuing cars and foot passengers, and the breakwater is the furthest point from town. Give yourself the time. If you will miss all-aboard, call the port agent number on your daily programme straight away.
+
+For the palace, the cellars and the rest of the day, see [the full Split guide](/ports/split), then [time this day to your own ship](/day/split).
+
+Somewhere in the shallows at Bačvice, someone is keeping a small ball off the water. People have been doing that there since 1923.
+
+## The practical bit
+
+| Beach | How | From the ship | Cost (2026) | Leave by (17:30, breakwater) |
+|-------|-----|---------------|-------------|------------------------------|
+| Bačvice | Walk east | 5–10 min | Free; sunbeds €8–12; shower €0.50 | 16:00 (16:15 inner quays) |
+| Firule | Walk east | About 20 min | Free; no sunbeds | 15:40 |
+| Kašjuni | Bus 12 from Sv. Frane | About 15 min from the Riva | Bus €1.50 app, €3 driver; sunbeds €10–15 | Bus at 15:10; on foot 15:20 |
+| Ježinac | Bus 12 + path | 30–35 min from the Riva | Free; no facilities | Leave the beach 14:45 for the 15:10 bus |
+| Meštrović Gallery + Kaštilac | Bus 12 | About 10 min from the Riva | €12 combined | On the way to Kašjuni |
+
+Bus times are from the Promet line 12 timetable valid from 15 June 2026. Times from the Riva do not include the 15–20 minutes from the breakwater.
 
 ## FAQ
 
 ### Is there a beach near Split cruise port?
 
-Yes. Bačvice is 5–10 minutes' walk east of the port and ferry terminal, and it is free.
+Yes. Bačvice is 5–10 minutes' walk east of the port and ferry terminal. It is free, sandy and shallow, with paid sunbeds and free concrete platforms.
 
-### Can I walk to the beach from Split cruise port?
+### Which Split beach has the clearest water?
 
-Yes. Bačvice and Firule are both walkable from every berth. From the far end of the breakwater, allow about 20 minutes to the harbour front first. Kašjuni is a 30–40 minute walk from the Old Town, so most people take bus 12.
+Kašjuni, on the south side of Marjan. It is a deeper bay of small pebbles further from the harbour. Take bus 12 from Sv. Frane at the west end of the Riva.
 
-### Do I need water shoes in Split?
+### Can I combine the Meštrović Gallery with a swim?
 
-Not at Bačvice or Firule, which are sandy. They help at Kašjuni, which is small pebbles, and at Ježinac, which is rock and pebble.
+Yes. Bus 12 passes the gallery on the way to Kašjuni, and the Kaštilac chapel sits between them. One €12 ticket covers both (2026). The gallery is closed on Mondays and public holidays.
 
-### Are there sunbeds and how much?
+### How do I pay for bus 12?
 
-At Bačvice, sunbeds with a parasol are reported at €8–12; at Kašjuni's beach club, €10–15 (2026). Firule and Ježinac have no sunbed rental. Prices change through the season, so ask before you sit down.
+Buy a zone 1 ticket in the Promet Split app or at a ticket office for €1.50 (2026). The driver charges €3 and does not take cards.
 
-### How do I pay for the bus to Kašjuni?
+### What is picigin?
 
-Buy a zone 1 ticket in the Promet app or at a ticket office for €1.50. From the driver it costs €3 (2026). Fares rose 50% on 1 June 2026.
-
-### Is Split a tender port?
-
-Mostly no. Ships usually dock in the city port, but tendering is allowed and some ships use it when the berths are taken.
+A beach game invented at Bačvice around 1923: players stand in shallow water and keep a small ball in the air with their palms. There is no score. Watching from the sand costs nothing.
 
 ## Sources
 
-- [MedCruise – Port of Split](https://www.medcruise.com/port/split)
-- [MedCruise – Cruise to Split (new breakwater berths)](https://www.medcruise.com/news/cruise-to-split)
-- [Portal.hr – Promet raises ticket prices by 50% (June 2026)](https://www.portal.hr/en/novosti/aktualnosti/109312-promet-poskupio-karte-50-posto-novi-cjenik)
 - [Visit Split (tourist board) – Beaches](https://visitsplit.com/en/1222/beaches)
+- [Total Croatia – Split in History: Picigin on Bačvice (1923)](https://total-croatia-news.com/destinations/destination-split/split-blog/tell-me-something-about-split/split-in-history-picigin-on-bacvice-1923/)
+- [Croatia Week – 100 years of picigin (2023)](https://www.croatiaweek.com/100-years-of-picigin-to-be-celebrated-in-split/)
+- [Euro City Guide – Split beach guide (April 2026)](https://eurocityguide.com/croatia/split-beach-guide)
 - [Bus.hr – Promet line 12 Sv. Frane–Bene timetable (from 15 June 2026)](https://bus.hr/promet-split/linija-12-sveti-frane-bene/)
-- [Euro City Guide – Split beach guide (2026)](https://eurocityguide.com/croatia/split-beach-guide)
-- [Split Curated – Local buses and bus stations](https://splitcurated.com/local-buses-and-bus-stations/)
-- [Bookiscout – Split beaches](https://bookiscout.com/hr/guides/split-beach)
+- [Portal.hr – Promet raises ticket prices by 50% (June 2026)](https://www.portal.hr/en/novosti/aktualnosti/109312-promet-poskupio-karte-50-posto-novi-cjenik)
+- [Bookiscout – Split public transport (February 2026)](https://bookiscout.com/hr/guides/split-public-transport-quality)
+- [Meštrović Museums – the Meštrović Gallery](https://mestrovic.hr/?p=1528)
+- [Meštrović Museums – price list](https://mestrovic.hr/en/price-list/)
+- [In Your Pocket – Meštrović Gallery and Crikvine-Kaštilac (2026)](https://www.inyourpocket.com/split/ivan-mestrovic-museums-mestrovic-gallery-and-the_34718v)
+- [Total Croatia – Split fish market at 130 (2020)](https://total-croatia-news.com/lifestyle/split-fish-market-4/)
+- [ESJF – Split old Jewish cemetery (Marjan)](https://www.esjf-cemeteries.org/survey/split-old-jewish-cemetery/)
+- [Wikipedia – Marjan, Split](https://en.wikipedia.org/wiki/Marjan,_Split)
+- [MedCruise – Cruise to Split (breakwater berths)](https://www.medcruise.com/news/cruise-to-split)
 - [CruiseMapper – Split cruise port](https://www.cruisemapper.com/ports/split-port-74)
 `;
