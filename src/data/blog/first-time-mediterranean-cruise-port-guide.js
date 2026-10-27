@@ -162,7 +162,7 @@ Euros for Spain, Italy, Greece, Croatia, Malta and Montenegro. Türkiye uses the
 
 ### Are there extra taxes for cruise passengers in Mediterranean ports?
 
-Yes, usually collected through your fare or onboard account. Barcelona charges a €5 municipal surcharge plus the Catalan tourist tax, Greece charges a per-port fee of up to €20 in Santorini and Mykonos in summer, and Venice charged a day-visitor access fee on 60 days in 2026.
+Yes, usually collected through your fare or onboard account. Barcelona charges a €5 municipal surcharge plus the Catalan tourist tax, Greece charges a per-port fee of up to €20 in Santorini in summer, and Venice charged a day-visitor access fee on 60 days in 2026.
 
 ### Which Mediterranean port is hardest for a first-timer?
 
