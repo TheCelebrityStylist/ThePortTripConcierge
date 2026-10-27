@@ -1,137 +1,180 @@
 export default `---
-title: "Beaches Near Grand Cayman Cruise Port: Seven Mile Beach and More"
-description: "Beaches near Grand Cayman cruise port: Seven Mile Beach 10–15 min by bus or taxi, Cemetery Beach, Smith Barcadere, Eden Rock snorkel. Tender back 90 min early."
+title: "Beaches Near Grand Cayman Cruise Port: Seven Mile Beach and Beyond"
+description: "Beaches near Grand Cayman cruise port: Eden Rock reef on foot, Seven Mile Beach 10–15 min by bus, Cemetery Reef, Smith Barcadere. Gear US$21. Leave by 15:30."
 date: "2026-10-16"
-updated: "2026-10-16"
+updated: "2026-10-27"
 slug: "beaches-near-grand-cayman-cruise-port"
 author: "Elke"
 category: "cruise-ports"
-tags: ["grand-cayman", "george-town", "seven-mile-beach", "beaches", "tender", "caribbean"]
+tags: ["grand-cayman", "george-town", "seven-mile-beach", "beaches", "snorkelling", "caribbean"]
 relatedPorts: ["grand-cayman"]
-relatedPosts: ["tender-port-planning-guide", "how-much-time-before-all-aboard"]
+relatedPosts: ["is-grand-cayman-a-tender-port", "tender-port-planning-guide", "how-much-time-before-all-aboard"]
 ---
 
-# Beaches Near Grand Cayman Cruise Port: Seven Mile Beach and More
+> **Quick answer:** The nearest sandy beach is Seven Mile Beach, at Seven Mile Public Beach or Governor's Beach, 10–15 minutes north of the tender landings by public bus (CI$2 / US$2.50 cash on weekdays, 2026) or taxi. It is public and free. For snorkelling without any transport, walk a few minutes south to Eden Rock, or north to Cheeseburger Reef. For a 17:30 all-aboard, leave Seven Mile Beach by 15:30.
 
-> **Quick answer:** The nearest proper beach is Seven Mile Beach, via Seven Mile Public Beach or Governor's Beach, 10–15 minutes north of George Town by road. The beach is public and free. Public bus routes 1 and 2 cost a few dollars in cash on weekdays; at weekends take a taxi. If you only want to snorkel, Eden Rock and Cheeseburger Reef are a few minutes' walk from the tender landings. Grand Cayman is a tender-only port: leave Seven Mile Beach 2 hours before all-aboard.
+## 10 May 1503, a sea full of turtles
 
-## Where the ships anchor
+The first European to see these islands did not come ashore. On 10 May 1503, on his fourth voyage, Columbus sighted Cayman Brac and Little Cayman and named them Las Tortugas, for the turtles that covered the sea around them, according to the Cayman Islands Government's own history. The name that stuck came later, from a Carib word for the marine crocodile. The turtles drew ships for two centuries, until the local stocks ran out.
 
-Grand Cayman has no cruise pier. Every ship anchors off George Town, and tenders land at one of three terminals on the waterfront: South Terminal, North Terminal and Royal Watler. They are all a short walk apart, in the middle of town. Taxis wait at the George Town cruise taxi stand.
+The sea is still the reason to come. Grand Cayman is low and flat, and what it has is water: reef close to shore in George Town, a long sweep of sand on the west coast, and coral heads in small coves you can swim to from the beach. You reach all of it by a short bus or taxi ride from the landings, or on foot.
 
-The tender crossing itself is about four minutes. The wait is the problem. Passengers on ship tours go ashore first; everyone else takes a number and waits. Unloading a ship of about 4,000 passengers takes around two hours, and up to four ships can share the anchorage. On a busy day independent passengers reach land later in the morning, which shortens your beach time.
+One thing to know about the famous beach first. Seven Mile Beach is not seven miles long. The Cayman Compass puts it at 5.5. It is also smaller than it was. Erosion has been eating it for years, and after Hurricane Helene in 2024 some stretches were left with almost no sand; in August 2025 the Grand Cayman Marriott announced it would add 8,000 cubic yards of sand to its shoreline. Where you sit matters more than it used to.
 
-When westerly swells make George Town unsafe, ships are moved to the Spotts landing on the south coast, or the call is cancelled. Your ship announces this on the day. The beach plans below assume a normal George Town landing.
+This guide is the coast, in the order you would reach it. For how the tenders work, George Town on foot, Stingray City and the queue back, read our [guide to whether Grand Cayman is a tender port](/blog/is-grand-cayman-a-tender-port) first. The two are written to fit together.
 
-## Seven Mile Public Beach and Governor's Beach
+## 09:45, the reef you can walk to
 
-- **How to get there:** public bus route 1 or 2, or a taxi.
-- **Time:** 10–15 minutes by road. By bus, 15–20 minutes of driving plus waiting for it to fill.
-- **Cost:** the beach is free. The bus is CI$2 or US$2.50 one way in cash according to a January 2026 resident guide; the tourist board says fares start at CI$2.50, so carry a little extra in small notes.
-- **What it's like:** soft sand and calm water on most days. Busy when four ships are in.
+You come off the tender on Harbour Drive. Turn south, keep the sea on your right, and within a few minutes' walk, on South Church Street, you reach Eden Rock Diving Center. This is the cheapest reef on the island to reach: no taxi, no bus, no boat.
 
-The buses are minibuses with blue number plates and "Public Bus" on the side, marked with yellow (route 1) and lime green (route 2) stickers. They leave from the bus terminal on Edward Street, next to the Public Library, a few blocks inland from the landings. You can also flag one down on West Bay Road. Tell the driver your stop. US and CI dollars are both accepted.
+It is not a beach. You go down concrete steps and climb down a ladder into the water, and the reef starts about 10 metres out. Swim about 50 metres to the left and you are over Devil's Grotto, a maze of caverns and overhangs in 6 to 15 metres of water where tarpon hang in the shade. Silversides crowd in here in early summer, with the tarpon hunting them. Wind and current can push you towards the rock walls near the ladder on the way out, so go with someone, and stay close to shore: this is a working harbour, and boats come in and out.
 
-The catch is the weekend. On Saturdays and Sundays the service is limited and unscheduled. You may get there by bus, but do not count on one to get you back.
+**Hours:** Monday–Saturday 08:00–17:30, Sunday 08:30–17:00 (Explore Cayman, 2026).
+**Cost:** free to swim; snorkel package US$21 (2026). Lockers and a shower are on site.
+**Time:** 1–1.5 hours.
+**Leave by (17:30 all-aboard):** 15:45. That is 15 minutes to rinse, dress and walk back to the 16:00 queue.
 
-Taxis have no meters. Fares are set by the government per route and change with the number of passengers and bags. Look up the fare in the free CI:GO app, then confirm the price and the currency with the driver before you set off. Card acceptance varies, so carry small notes. Uber and Lyft do not operate.
+North of the landings, across the road from the Burger King, is the other town reef. Cheeseburger Reef takes its name from the restaurant. You get in from a small beach access between Burger King and the Lobster Pot Dive Center, and coral starts almost at once, about 30 metres straight out. Boats use this stretch to get into the harbour, so wear something bright or tow a surface marker buoy.
 
-Watch for jet skis near the public beach; swim zones are limited.
+## 10:45, north on the bus
 
-## Cemetery Beach (West Bay end)
+For sand, you need wheels. The short version: public bus route 1 or 2 from the Edward Street terminal, a few blocks inland, CI$2 or US$2.50 in cash; or a taxi from the cruise stand at the government-set fare, checked in the CI:GO app before you get in. At weekends, take a taxi; the buses run no fixed timetable. The details, and the fare dispute of April 2026, are in our [tender port guide](/blog/is-grand-cayman-a-tender-port).
 
-- **How to get there:** taxi, or a bus towards West Bay.
-- **Time:** about 20 minutes by road.
-- **Cost:** free.
-- **What it's like:** a 5–10 minute swim out to the reef, with good snorkelling.
+Do not try to walk it. Seven Mile Beach is 2.8 miles from the port along West Bay Road, about an hour on foot in the sun.
 
-This is the snorkeller's end of Seven Mile Beach. It is further from the landings, so it suits a long call. Medical help is far from the West Bay snorkel sites. Snorkel with someone and stay aware of boats.
+## 11:00, Seven Mile Public Beach
 
-## Smith Barcadere (Smith's Cove), South Sound
+This is where most cruise passengers end up, and for good reason. The public beach has toilets, changing areas, cabanas to rent, a children's playground, a volleyball court, picnic grass, plenty of parking and a mobi mat over the sand for wheelchairs and buggies, according to the Cayman Compass. There is a snorkelling reef just north of it.
 
-- **How to get there:** taxi.
-- **Time:** a short taxi ride south of town.
-- **Cost:** free.
-- **What it's like:** a small sandy cove between ironshore rocks, with coral heads close in.
+It is not perfect, and the people who run the island know it. In November 2025 the deputy premier told Parliament's Finance Committee what cruise executives had raised with him: jet-ski safety, limited swim zones, too few passenger amenities and the condition of the public beach. Swim inside the marked zones. Jet skis work this stretch, and they are the main danger in the water here.
 
-Smith Barcadere is small. It suits you if you want sand and snorkelling in one spot, but it is a taxi trip both ways. Check the CI:GO fare before you go.
+The beach is busiest from late morning to early afternoon on multi-ship days, so arrive before 11:00 if you can.
 
-## Eden Rock and Cheeseburger Reef, George Town
+**Cost:** free.
+**Leave by (17:30 all-aboard):** 15:30.
 
-- **How to get there:** walk along the waterfront from the landings.
-- **Time:** a few minutes on foot.
-- **Cost:** free. Gear hire extra.
-- **What it's like:** shore snorkelling, not a beach.
+## Governor's Beach, the reef with a view
 
-If your call is short or the queue to get ashore was long, this is the realistic option. You need no transport at all. Stay close to the shore and watch for boat traffic.
+On the same stretch of sand, Governor's Beach sits beside Government House, the Governor's residence. It has ample parking and a mobi mat, and it is the better snorkel: an isolated patch reef lies 40 to 50 metres offshore, entered from the southern side of the park. It gets busy at weekends.
 
-## Grand Cayman beaches compared
+**Leave by (17:30 all-aboard):** 15:30.
 
-| Beach | How to get there | Time from landings | Cost (2026) | What it's like |
-|-------|------------------|--------------------|-------------|----------------|
-| Seven Mile Public Beach / Governor's Beach | Bus route 1 or 2, or taxi | 10–15 min by road | Free; bus CI$2–2.50 cash | Soft sand, calm water, busy |
-| Cemetery Beach | Taxi or bus towards West Bay | About 20 min by road | Free | Reef snorkelling 5–10 min out |
-| Smith Barcadere | Taxi | Short taxi ride | Free; taxi fare | Small sandy cove, coral close in |
-| Eden Rock and Cheeseburger Reef | Walk | A few minutes | Free; gear hire extra | Shore snorkelling, no beach |
+## 12:00, a tower and a mosaic
 
-## When to head back
+Between George Town and Seven Mile Beach is Camana Bay, a planned town with a waterfront promenade, shops and, at its centre, a 75-foot observation tower. Most people climb it for the view. The thing to look at on the way up is the wall. A floor-to-ceiling mosaic of Cayman's reefs runs up beside the stairs, in tiles of 114 colours, based on a photograph taken in the Sister Islands; when it opened in October 2009 it was described as one of the largest undersea mosaics in the world. It is free to walk around Camana Bay, it has shade and air conditioning, and there is a lift.
 
-The guide rule: be in the tender queue at George Town 90 minutes before all-aboard, and leave Seven Mile Beach 2 hours before. For a 17:30 all-aboard that means leaving the beach at 15:30 and queuing by 16:00. The drive takes 10–15 minutes by taxi in normal traffic. Buses can wait to fill, so if one does not come quickly, take a taxi.
+**Time:** 45–60 minutes.
+**Leave by (17:30 all-aboard):** 15:35, by taxi.
 
-We apply the same 2-hour rule to Cemetery Beach and Smith Barcadere. Both are further or need a taxi you have to find. From Eden Rock, allow a few extra minutes on top of the 90-minute rule to walk back and change.
+## 13:00, Cemetery Beach and the ship offshore
+
+At the quieter, northern end of Seven Mile Beach, off West Bay Road, a small cemetery sits right next to the beach entrance, and that is the whole story of the name. Sea grape trees give shade. Cemetery Reef starts about 50 metres out, with artificial reef structures closer in, and it is a protected area, so no fishing. The Cayman Compass calls the snorkelling here world-class.
+
+Offshore lies a bigger reef that people made. The USS Kittiwake, a 1945 US Navy submarine rescue ship, was sunk deliberately off Seven Mile Beach on 5 January 2011 to make an artificial reef. She sits on sand in 62 feet of water, 251 feet long, with her top deck close enough to the surface to snorkel. You need a boat to reach her; some ship tours pair the wreck with Cheeseburger Reef.
+
+Cemetery Beach is about 20 minutes by road from the landings. Before your taxi drops you, agree when the driver will come back for you, or keep a number to call.
+
+**Cost:** free.
+**Leave by (17:30 all-aboard):** 15:30.
+
+## Lunch in West Bay
+
+Up the road in West Bay, on Boggy Sand Road, is Heritage Kitchen. Tony Powell started it in 1992 as a fish shop selling fried fish and fritters; his family has run it since, and it has twice won a Travel Choice restaurant of the year award, most recently in 2023. The kitchen is small and the menu is the sea: snapper, mahi and wahoo, conch fritters, fish soup. The two dishes Explore Cayman names are Cayman-style grouper and coconut mahi mahi. It opens daily 12:00–20:00.
+
+## 14:00, Hell and the turtles
+
+West Bay has the island's two oddest stops, close together. Hell is a field of black, jagged limestone that looks like cooled lava. There is a gift shop where the staff work the word "hell" into every sentence, and a post office that will stamp your card with a Hell postmark for 25 cents. It takes under an hour.
+
+The Cayman Turtle Centre brings the story back to where Columbus started it: a conservation park for green sea turtles, with a lagoon you can snorkel in, touch tanks for yearling turtles and a breeding bay for the adults. It opens daily 08:00–17:00, last admission 16:30. Turtle feedings are at 08:30, 11:30 and 15:30. Full park entry was listed at US$46–47 for adults and US$26–27 for children 3–12 on two Explore Cayman pages in 2026; allow about three hours for the whole park.
+
+**Leave by (17:30 all-aboard):** 15:40, by taxi, about 20 minutes to George Town.
+
+## Smith Barcadere, the south side
+
+If you want sand and reef in one small place, go south instead. Smith Barcadere, also called Smith Cove, is a sheltered cove of sand between limestone outcrops, 1.5 miles south of the landings. It has picnic benches, toilets and showers, with parking across the road. The best reef is around the marker buoy about 50 metres out; near the shore the water can be cloudy. It is a local favourite, so it fills at weekends.
+
+**Leave by (17:30 all-aboard):** 15:30, by taxi.
+
+## Starfish Point, by boat
+
+On the far side of the North Sound, near Rum Point, Starfish Point is a stretch of calm, shallow water with resident starfish on the sand. By road it is the far side of the island. The practical way on a port day is by boat, as one stop of a trip such as the [Starfish Point, Stingray City and Coral Garden 3-stop tour](https://www.viator.com/tours/Grand-Cayman/Starfish-Stingray-and-Coral-Garden-3-Stop-Adventure/d50485-6681P10?mcid=42383&pid=P00216188). Look, and photograph, but do not lift them out of the water.
+
+Most of these boat trips also stop at a reef on the way. If you want the snorkelling to be the main event rather than the starfish, the [Stingray City and Starfish Experience with Coral Reef Snorkeling](https://www.viator.com/tours/George-Town/Starfish-and-Stingray-City-Adventure-with-Snorkeling/d50496-10309P3?mcid=42383&pid=P00216188) builds the day around the reef stop. Pick a morning departure on a port day, so the boat is back at the dock with time to spare.
+
+## Money on the beach
+
+Beach bars, gear shops and taxis take US dollars, but the local currency is the Cayman Islands dollar, and some vendors give your change in CI$, or count your US dollars at one to one, which is the worse rate for you. Carry small US notes so there is little change to give, or pay by card where it is taken. Market stalls and some beach vendors want cash.
+
+## The other way to do it: south, then reef, no bus at all
+
+Most passengers do the obvious thing: queue for the bus, ride north, and spend the hottest part of the day on the busiest stretch of Seven Mile Beach, then queue for the bus back. Here is a day with none of that.
+
+Take a taxi south to Smith Barcadere as soon as you land, while it is quiet on a weekday. Swim to the buoy. Take a taxi back to George Town for lunch in town. Then walk to Eden Rock at about 13:30 and spend the afternoon over Devil's Grotto, five minutes from the landing. You finish the day closer to the tender than anyone on Seven Mile Beach, with no bus timetable to worry about, and you can join the queue at 16:00 with dry hair.
+
+## 15:30, the sand road back
+
+This is the part that decides the day. The tender ride is four minutes, but with up to four ships in the bay the queues at the landings build through the last two hours. The guide's rule is to be in the tender queue 90 minutes before all-aboard, which means leaving Seven Mile Beach two hours before.
+
+For a 17:30 sailing, leave the beach at 15:30. The drive is 10–15 minutes by taxi in normal traffic. If you came by bus and none comes within a few minutes, take a taxi; buses wait to fill, and at weekends you may be waiting a long time. Hotel taxi stands along the beach are your fallback.
 
 | Leave from | 16:00 all-aboard | 17:00 all-aboard | 17:30 all-aboard |
 |------------|------------------|------------------|------------------|
-| Seven Mile Beach, Cemetery Beach or Smith Barcadere | 14:00 | 15:00 | 15:30 |
-| Eden Rock and Cheeseburger Reef | 14:20 | 15:20 | 15:50 |
+| Seven Mile Beach, Governor's, Cemetery Beach, Smith Barcadere | 14:00 | 15:00 | 15:30 |
+| Camana Bay | 14:05 | 15:05 | 15:35 |
+| Turtle Centre or Hell | 14:10 | 15:10 | 15:40 |
+| Eden Rock or Cheeseburger Reef | 14:15 | 15:15 | 15:45 |
 | George Town waterfront (tender queue) | 14:30 | 15:30 | 16:00 |
 
-Departures here range from 15:00 to 18:00, so check your own time. If you are late, take a taxi from the cruise or resort taxi stands; most beach areas are 10–20 minutes from the landings. If you will not make the last tender, call the port agent number on your daily programme at once. To set this up for your ship, [plan your day with your own all-aboard time](/day/grand-cayman).
+If you will miss the last tender, call the port agent number on your daily programme at once. The [Grand Cayman port guide](/ports/grand-cayman) has the rest of the island, and the [Grand Cayman day planner](/day/grand-cayman) sets these times for your own all-aboard.
 
-## Common mistakes
+## The practical bit
 
-- **Trying to walk to Seven Mile Beach.** It is 3–4 km of hot roadside and takes an hour or more. The bus or a taxi takes 10–20 minutes.
-- **Relying on the public bus at the weekend.** Service is limited and unscheduled on Saturdays and Sundays. Use a taxi to get back.
-- **Getting into a taxi without agreeing the fare.** Check the government fare in the CI:GO app and confirm price, currency and whether it covers the whole group.
-- **Paying in US dollars and getting change in CI dollars.** Use small US notes or a card.
-- **Joining the tender queue 30 minutes before all-aboard.** With up to four ships in port, queues build in the last two hours. Aim for 90 minutes.
-- **Snorkelling alone or far out.** Medical help is far from the West Bay sites. Stay close to shore and watch for boats and jet skis.
+| Beach or reef | How | Time from the landings | Cost (2026) | What it's like |
+|---------------|-----|------------------------|-------------|----------------|
+| Eden Rock and Devil's Grotto | Walk south | About 5 min | Free; gear US$21 | Ladder entry, reef 10 m out, caverns |
+| Cheeseburger Reef | Walk north | A few minutes | Free | Coral 30 m out, boat traffic |
+| Seven Mile Public Beach | Bus 1 or 2, or taxi | 10–15 min by road | Free; bus CI$2 / US$2.50 | Toilets, mobi mat, jet skis |
+| Governor's Beach | Bus or taxi | 10–15 min by road | Free | Patch reef 40–50 m out |
+| Cemetery Beach | Taxi | About 20 min | Free | Reef 50 m out, protected |
+| Smith Barcadere | Taxi | 1.5 miles south | Free | Small cove, toilets, showers |
 
-## FAQs
+## FAQ
 
 ### What is the closest beach to the Grand Cayman cruise port?
 
-The closest sandy beach is Seven Mile Beach, at Seven Mile Public Beach or Governor's Beach, 10–15 minutes north by road. Eden Rock and Cheeseburger Reef are walkable from the landings, but they are snorkel sites, not beaches.
+The closest sandy beach is Seven Mile Beach, at Seven Mile Public Beach or Governor's Beach, 10–15 minutes north by road. Eden Rock and Cheeseburger Reef are within a few minutes' walk of the landings, but they are snorkel sites, not beaches.
 
-### How do I get from the Grand Cayman cruise port to Seven Mile Beach?
+### Can you snorkel from the Grand Cayman cruise port without a tour?
 
-Walk to the bus terminal on Edward Street and take public bus route 1 or 2, paying cash. Or take a taxi from the cruise taxi stand at the government-set fare shown in the CI:GO app.
+Yes. Eden Rock, a few minutes' walk south on South Church Street, has a ladder entry, gear for US$21 (2026) and reef 10 metres out. Devil's Grotto is a 50-metre swim from it. Cheeseburger Reef is a short walk north, opposite Burger King.
 
-### Can you walk to Seven Mile Beach from the cruise port?
+### Is Seven Mile Beach really seven miles long?
 
-Not sensibly. It is 3–4 km along a hot road and takes an hour or more. Take the bus or a taxi.
-
-### Is Seven Mile Beach free?
-
-Yes. It is a public beach. You pay only for transport and anything you hire.
+No. It is about 5.5 miles, and erosion after Hurricane Helene in 2024 left some stretches with little sand. Seven Mile Public Beach and Governor's Beach are the easy public access points.
 
 ### What is the best snorkelling beach near Grand Cayman cruise port?
 
-Cemetery Beach at the West Bay end, where the reef is a 5–10 minute swim out. Smith Barcadere has coral heads close to shore. Eden Rock and Cheeseburger Reef are the nearest, a few minutes' walk from the landings.
+Cemetery Beach at the West Bay end, where the reef starts about 50 metres out in a protected area. Governor's Beach has a patch reef 40–50 metres offshore. For the least transport, Eden Rock and Devil's Grotto.
 
 ### What time should I leave Seven Mile Beach to get back to the ship?
 
-Two hours before all-aboard: 15:30 for a 17:30 all-aboard. That gets you to the tender queue 90 minutes before.
-
-For George Town, Stingray City and the rest of the island, see the [full Grand Cayman port guide](/ports/grand-cayman).
+Two hours before all-aboard: 15:30 for a 17:30 sailing. That puts you in the tender queue 90 minutes before.
 
 ## Sources
 
-- [The Traveler – George Town to Seven Mile Beach (Sept 2026)](https://www.thetraveler.org/george-town-to-seven-mile-beach-best-ways-to-get-to-the-sand/)
-- [Cayman Resident – Public buses (Jan 2026)](https://caymanresident.com/live/transportation/public-buses)
-- [Visit Cayman Islands – Getting around](https://www.visitcaymanislands.com/en-ca/planning/getting-around)
-- [Explore Cayman – Taxis in Cayman](https://www.explorecayman.com/getting-around/taxis)
-- [Explore Cayman – Snorkelling in Cayman](https://www.explorecayman.com/watersports/snorkelling-in-cayman)
-- [Cayman Compass – Tendering from ship to shore at George Town Harbour (2019)](https://www.caymancompass.com/2019/11/13/tendering-from-ship-to-shore-at-george-town-harbour/)
-- [Cayman Compass – Cruise ships diverted to Spotts as rough seas build (2023)](https://www.caymancompass.com/2023/10/18/cruise-ships-diverted-to-spotts-as-rough-seas-build/)
+- [Government of the Cayman Islands – History](https://gov.ky/history)
+- [Cayman Compass – Best beaches in the Cayman Islands](https://www.caymancompass.com/best-beaches-in-the-cayman-islands/)
+- [Wikipedia – Seven Mile Beach, Grand Cayman](https://en.wikipedia.org/wiki/Seven_Mile_Beach,_Grand_Cayman)
+- [Cayman Compass – West Bay cruise dock plan revived (November 2025)](https://www.caymancompass.com/?p=785729)
+- [Explore Cayman – Eden Rock Diving Center (2026)](https://www.explorecayman.com/eden-rock-diving-center)
+- [Snorkel Around the World – Grand Cayman snorkelling beaches (updated March 2026)](https://snorkelaroundtheworld.com/grand-cayman-snorkeling-beaches/)
+- [Sunplay – Snorkelling at Eden Rock (2014)](https://sunplay.com/blogs/posts/snorkeling-at-eden-rock)
+- [Cayman Resident – Public buses (January 2026)](https://caymanresident.com/live/transportation/public-buses)
+- [Cruise Hive – Grand Cayman cruise port (updated March 2026)](https://www.cruisehive.com/grand-cayman-cruise-port/141995)
+- [Cayman Compass – Camana Bay tower opens (2009)](https://www.caymancompass.com/2009/09/28/tower-gives-bird-s-eye-view-of-grand/)
+- [Christian Science Monitor – Cayman Islands sinking US ship to create reef (2011)](https://csmonitor.com/World/Latest-News-Wires/2011/0107/Cayman-Islands-sinking-US-ship-to-create-reef)
+- [Princess Cruises – USS Kittiwake sunken ship and reef snorkel](https://www.princess.com/shore-excursions/grand-cayman-cayman-islands/uss-kittiwake-sunken-ship-reef-snorkel)
+- [Caymanian Times – Heritage Kitchen (January 2024)](https://www.caymaniantimes.ky/news/heritage-kitchen-a-culinary-gem-in-west-bay)
+- [Explore Cayman – Hell](https://explorecayman.com/hell)
+- [Explore Cayman – Cayman Turtle Centre (2026)](https://www.explorecayman.com/attractions/cayman-turtle-centre-island-wildlife-encounter)
 `;

@@ -1,5 +1,5 @@
 export default `---
-title: "Marseille Cruise Port to the Vieux-Port: Shuttle, Panier, Basilica"
+title: "Marseille Cruise Port to Vieux-Port: Shuttle, Panier, Basilica"
 description: "Marseille cruise port to the Vieux-Port: free shuttle to Joliette, a 283 m ferry from 1880, Le Panier, Notre-Dame de la Garde and when to queue back (2026)."
 date: "2026-10-17"
 updated: "2026-10-27"
