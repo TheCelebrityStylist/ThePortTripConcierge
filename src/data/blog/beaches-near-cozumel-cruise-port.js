@@ -1,6 +1,6 @@
 export default `---
 title: "Beaches Near Cozumel Cruise Port: Reefs, Clubs and Punta Sur"
-description: "Beaches near Cozumel cruise port: Playa Stingray on foot, Dzul-Ha's free reef, Chankanaab (US$31, 2026), the clubs, Punta Sur's lighthouse. Prices and leave-by times."
+description: "Beaches near Cozumel cruise port: Playa Stingray on foot, Dzul-Ha's free reef, Chankanaab (US$31, 2026), the clubs, Punta Sur's lighthouse. Leave-by times."
 date: "2026-10-16"
 updated: "2026-10-27"
 slug: "beaches-near-cozumel-cruise-port"
@@ -15,9 +15,9 @@ relatedPosts: ["cozumel-cruise-port-to-town", "beaches-near-grand-cayman-cruise-
 
 ## 1956, a camera in the water
 
-In 1956 a Mexican film crew lowered its cameras into the sea off Cozumel's west coast. The director was René Cardona and the cinematographer Lamar Boden, and the film, *Un Mundo Nuevo*, opened in Mexico City on 7 August 1957. An English dub reached American television in 1958 as *The New World*. Later that year *Holiday* magazine ran a piece on the island, and Americans with masks and tanks started to come.
+In 1956 a Mexican film crew lowered its cameras into the sea off Cozumel's west coast. The director was René Cardona and the cinematographer Lamar Boden, and the film, *Un Mundo Nuevo*, opened in Mexico City on 7 August 1957. An English dub reached American television in 1958 as *The New World*. Later that year *Holiday* magazine ran a piece on the island, and American interest in the island took off.
 
-Almost every guidebook tells it differently. They say Jacques Cousteau filmed a documentary on Palancar Reef around 1960 and made the island famous. The Cousteau Society, the island historian Ric Hajovsky found, says no such documentary exists; none of Cousteau's footage from near the Yucatán aired before the 1970s. The man who put Cozumel's reefs on screen was Cardona, and there is a reef named after him to prove it.
+Many guidebooks tell it differently. They say Jacques Cousteau filmed a documentary on Palancar Reef around 1960 and made the island famous. The Cousteau Society, the island historian Ric Hajovsky found, says no such documentary exists; none of Cousteau's footage from near the Yucatán aired before the 1970s. The man who put Cozumel's reefs on screen was Cardona, and there is a reef named after him to prove it.
 
 The point is not trivia. It is the right way to choose a beach here. Cozumel's west coast is not really a sand coast. It is a reef coast with sand in the gaps, and since 19 July 1996 the reefs south of the International Pier, round Punta Sur, have been a national marine park of 120 km², part of the Mesoamerican reef, the second-largest reef system in the world. Pick the beach for the water in front of it.
 
@@ -29,7 +29,7 @@ The beaches below are all south of the southern piers, along one road, so the or
 
 Taxi fares are fixed by the union per cab for one to four people and posted at the pier. The union list published by Everything Cozumel (2016 tariff, page updated May 2025) gives these from the International Pier or Puerta Maya: Chankanaab US$12, Alberto's Beach Club near El Cedral US$19, Playa Palancar US$25, Punta Sur US$35, and US$30 to the east-coast beaches. In March 2026 the union asked for a 30% rise, so the board at your pier may show more. Pay what the board says, in cash.
 
-Pack reef-safe sunscreen. The parks ask for 100% biodegradable, chemical-free sun block, and ordinary sunscreen is the one rule people break without noticing.
+Pack reef-safe sunscreen. The parks ask for 100% biodegradable, chemical-free sun block.
 
 ## 08:30, Playa Stingray, on foot
 
@@ -43,7 +43,7 @@ If you want a lounger and a pool without a taxi, the El Cid La Ceiba hotel, just
 
 ## 09:00, Dzul-Ha, the reef for the price of a drink
 
-Most passengers ride straight past the first thing worth stopping for. At Km 6.5 on the coast road, a couple of minutes south of the piers, The Money Bar beach club sits on the Dzul-Ha reef, and the reef starts a few strokes from the steps. Cancún Trip Insider's July 2026 club guide lists entry as free, with loungers at about US$20 and everything else à la carte. It is also the closest club to the piers, about US$12–15 by taxi.
+Many passengers ride straight past the first thing worth stopping for. At Km 6.5 on the coast road, just south of the piers, The Money Bar beach club sits on the Dzul-Ha reef, one of the reefs you can snorkel straight from the shore. Cancún Trip Insider's July 2026 club guide lists entry as free, with loungers at about US$20 and everything else à la carte. It is also the closest club to the piers, about US$12–15 by taxi.
 
 This is the cheapest good snorkel on the island. You do not need a boat or a ticket, just your own mask or a rental, and a willingness to buy lunch. Royal Caribbean's January 2026 beach guide calls Dzul-Ha a reef in its own right, about five minutes by car from Playa Corona.
 
@@ -55,35 +55,35 @@ If you would rather see the reef from a boat, the [catamaran snorkel trip to El 
 
 Chankanaab is the island's natural park, about 5 minutes south of the piers: a lagoon, a beach, a botanical garden, a shore reef and, less than 6 metres down, sunken statues you can snorkel over. It faces what the parks foundation calls the second-largest barrier reef in the world. Entry includes loungers, hammocks, life vests, showers, the inlet swimming area, replicas of pre-Hispanic buildings, a Maya hut and a tequila tasting.
 
-The price depends on which page you read. The park's own Chankanaab page, checked in October 2026, gives US$31 adult and US$22 for ages 4–12. The foundation's FAQ, last updated in 2024, still says US$29 and US$20. Expect the higher one. Cash, Visa and Mastercard are taken. Snorkel gear rental is US$15 for the day (09:00–15:45); lockers US$5. The dolphin, manatee and sea-lion programmes cost extra, from US$79.
+The price depends on which page you read. The park's own Chankanaab page, checked in October 2026, gives US$31 adult and US$22 for ages 4–12. The foundation's FAQ, last updated in 2024, still says US$29 and US$20. Expect the higher one. Cash, Visa and Mastercard are taken. Snorkel gear rental is US$15 for the day (09:00–15:45); lockers US$5. The animal programmes cost extra: the manatee swim is US$79 and the dolphin encounter US$109.
 
 **Hours:** Monday to Saturday, 08:00–16:00, on the park page, which lists no Sunday hours. If your ship is in on a Sunday, check at the pier before you take the taxi.
 **Time:** 3 hours.
 **Leave by (17:30 all-aboard):** 16:25, though the park closes at 16:00 anyway.
 
-The shore is rocky in places, so wear water shoes. The guide's crowd notes say Chankanaab and the nearest clubs are busiest from mid-morning. If you go at the 08:00 opening, you have the lagoon before the groups.
+The shore is rocky in places, so wear water shoes. The guide's crowd notes say Chankanaab and the nearest clubs are busiest from mid-morning. Go at the 08:00 opening and you are ahead of them.
 
 ## 11:00, Playa Corona and the coves
 
-A little further south, at Km 10, Playa Corona is a local-style seafood place with snorkelling off the beach: about US$6 entry or a minimum spend of about 200 pesos, Cancún Trip Insider found in June 2026. Royal Caribbean's guide says Playa Las Uvas, a few minutes beyond it, has calmer coves that suit beginners. Sky Reef, at the same kilometre, sells an all-inclusive pass at about US$65.
+A little further south, at Km 10, Playa Corona is a casual seafood restaurant with snorkelling off the beach: about US$6 entry or a minimum spend of about 200 pesos, Cancún Trip Insider found in June 2026. Royal Caribbean's guide says Playa Las Uvas, a few minutes beyond it, has calmer coves that suit beginners. Sky Reef, at the same kilometre, sells an all-inclusive pass at about US$65.
 
 **Leave by (17:30 all-aboard):** 16:10.
 
 ## 12:00, the clubs
 
-This is where most cruise passengers spend the day, and where most of the money goes. The figures below are from Cancún Trip Insider's guide, with prices as of June 2026, unless marked.
+This is where many cruise passengers spend the day, and where most of the money goes. The figures below are from Cancún Trip Insider's guide, with prices as of June 2026, unless marked.
 
-**Paradise Beach**, in the southern hotel zone, sells a US$15 entry with a US$10 minimum, or an all-inclusive at about US$73. It has the largest heated pool on the coast and an inflatable obstacle course; the Fun Pass for the water toys is about US$18. Cruise Critic's writer, visiting in 2026, was asked to settle the bill from about 16:30, earlier than the posted closing. If you want it sorted before you arrive, the [Paradise Beach all-inclusive day pass](https://www.viator.com/tours/Cozumel/Paradise-Beach-Cozumel-All-Inclusive-Day-Pass/d632-122218P1?mcid=42383&pid=P00216188) is bookable ahead.
+**Paradise Beach**, in the southern hotel zone, sells a US$15 entry with a US$10 minimum, or an all-inclusive at about US$73. It has a big heated pool and an inflatable obstacle course; the Fun Pass for the water toys is about US$18. Cruise Critic's writer, visiting in 2026, was asked to settle the bill from about 16:30, earlier than the posted closing. If you want it sorted before you arrive, the [Paradise Beach all-inclusive day pass](https://www.viator.com/tours/Cozumel/Paradise-Beach-Cozumel-All-Inclusive-Day-Pass/d632-122218P1?mcid=42383&pid=P00216188) is bookable ahead.
 
 **San Francisco Beach Club**, close by, is the cheaper choice if you only want a lounger and a swim: US$20 with umbrella, lounger, pool and snorkel gear when Cruzely checked in April 2025.
 
-**Mr Sanchos**, at Km 15, is the all-you-can-eat-and-drink option at about US$79, with three swim-up bars and a children's water park. It is closed on Sundays. It sells direct rather than through the cruise lines, and the [Mr Sanchos all-inclusive day pass](https://www.viator.com/tours/Cozumel/Mr-Sanchos-Beach-Club-All-Inclusive-Day-Pass/d632-14856P7?mcid=42383&pid=P00216188) is its most booked listing.
+**Mr Sanchos**, at Km 15, is the all-you-can-eat-and-drink option at about US$79, with three swim-up bars and a children's water park. It is closed on Sundays. It sells direct rather than through the cruise lines, and the [Mr Sanchos all-inclusive day pass](https://www.viator.com/tours/Cozumel/Mr-Sanchos-Beach-Club-All-Inclusive-Day-Pass/d632-14856P7?mcid=42383&pid=P00216188) can be booked ahead.
 
-**Nachi Cocom**, at Km 16.5, caps the day at about 130 guests, with an open bar and a four-course lunch for about US$65. On a five-ship day that cap is the selling point.
+**Nachi Cocom**, at Km 16.5, caps the day at about 130 guests, with an open bar and a four-course lunch for about US$65. On a busy day that cap is the selling point.
 
 **Playa Mia**, at Km 19, has been the family pick, with a floating water park and slides, at US$59–79 in mid-2026. Note the change coming: Cruise Critic reported in July 2026 that Royal Caribbean is building its Royal Beach Club Cozumel on the former Playa Mia property, due to open on 31 December 2026, for Royal Caribbean guests only and at a price not yet announced. Check that Playa Mia is still selling day passes before you set off.
 
-**Leave by (17:30 all-aboard):** 16:00 from any of these clubs. That is 60 minutes on board, 20 minutes in the taxi from the furthest of them, and 10 minutes to get one.
+**Leave by (17:30 all-aboard):** 16:00 from Paradise Beach, San Francisco and Mr Sanchos: 60 minutes on board, up to 20 minutes in the taxi and 10 minutes to get one. From Nachi Cocom and Playa Mia, further south, leave by 15:55.
 
 ## 13:00, Playa Palancar
 
@@ -93,19 +93,19 @@ The long white beach near the southern end of the west coast is free to enter, w
 
 ## El Cedral, the cross and the census
 
-On the way south, a road turns inland to El Cedral, a farming village most passengers never see. It is older than San Miguel. Before the Spanish it was called Oycib, and in the 1500s, as Santa María de Oycib, it had more people than the settlement where the town now stands. What is left of its Maya temple is small, house-sized, and takes minutes to see.
+On the way south, a road turns inland to El Cedral, a small village most passengers never see. It is older than San Miguel. Before the Spanish it was called Oycib, and in the 1500s, as Santa María de Oycib, it had more people than the settlement where the town now stands. What is left of its Maya temple is small, house-sized, and takes minutes to see.
 
 The village's real story is its fair. Every year around 1 May, El Cedral holds the Feria de El Cedral, with the main day on 3 May, the old feast of the Holy Cross. In 2026 it ran from 1 to 3 May, and the mayor called it the oldest continuous celebration in Quintana Roo, 178 years old. The family legend says its founder, Casimiro Cárdenas, survived a massacre in the church at Sabán on the mainland during the Caste War by hiding under the bodies, holding a small wooden cross, and vowed a novena to it every year if he lived.
 
-The record is less tidy. Hajovsky, working from the parish books and the January 1850 San Miguel census, found that Cárdenas was born in 1820 in Tizimín and came from Tihosuco, that no document ties him to Sabán, and that the only recorded massacre at Sabán happened in 1853, three years after he was already living on Cozumel. The cross is real, and so is the vow kept for 178 years. The massacre, so far, is legend.
+The record is less tidy. Hajovsky, working from the January 1850 San Miguel census and the state records, found that Cárdenas was born in 1820, nearly 90 miles north of Sabán, and was listed as coming from Tihosuco, that no document ties him to Sabán, and that the only recorded massacre at Sabán happened in 1853, three years after he was already living on Cozumel. The vow, kept for 178 years, is real. The massacre, so far, is legend.
 
 There is no taxi rank. Ask your driver to stop on the way to Punta Sur or Palancar and agree the extra before you leave the pier.
 
 ## 14:00, Punta Sur, the lighthouse and the shell that sang
 
-At the island's southern tip, about 40 minutes from the piers, the Punta Sur park protects a stretch of lagoons, mangrove, low jungle and empty beaches. It is the part of Cozumel that looks the way it did before the ships.
+At the island's southern tip, about 40 minutes from the piers, the Punta Sur park protects a stretch of lagoons, mangrove, low jungle and empty beaches. It is the undeveloped end of the island, and it feels it.
 
-The park's page lists what entry includes: the Celarain lighthouse with a navigation museum in the keeper's building, a scenic tower over the Colombia lagoon for spotting crocodiles, a ride across the lagoon on the catamaran *El Tatich*, nature trails, hammocks, beach chairs and showers. Snorkel gear is US$15 extra, kayaks US$20 an hour. Some of the long beaches are closed off for nesting sea turtles.
+The park's page lists what entry includes: the Celarain lighthouse with a navigation museum in the building beside it, a scenic tower over the Colombia lagoon for spotting crocodiles, a ride across the lagoon on the catamaran *El Tatich*, nature trails, hammocks, beach chairs and showers. Snorkel gear is US$15 extra, kayaks US$20 an hour. Some of the long beaches are closed off for nesting sea turtles.
 
 Near the lighthouse is the small Maya building called El Caracol, the snail, from the Postclassic period. The island's tourism office says its dome was set with conch shells that hummed in strong wind and warned of storms. Other accounts treat the whistling as legend and the building as a small temple. Stand downwind of it on a gusty day and decide for yourself.
 
@@ -130,7 +130,7 @@ For turtles rather than lighthouses, the [turtle sanctuary catamaran trip](https
 
 ## 16:00, the shore road back
 
-Every leave-by in this guide works back from one rule: be on board 60 minutes before all-aboard. On a beach day the drive is rarely the problem; the clubs are under 20 minutes from the piers. The problem is finding a cab when everyone on the coast wants one at the same time, a bill that takes ten minutes to arrive, and the walk from the gate to the ship, which at Puerta Maya is long. If you tendered in, you also have the tender queue at Punta Langosta.
+Every leave-by in this guide works back from one rule: be on board 60 minutes before all-aboard. On a beach day the drive is rarely the problem; most clubs are under 20 minutes from the piers. The problem is finding a cab when everyone on the coast wants one at the same time, a bill that takes ten minutes to arrive, and the walk from the gate to the ship, which at Puerta Maya is long. If you tendered in, you also have the tender queue at Punta Langosta.
 
 If you will be late, call the port agent number in your daily programme. The ship waits for its own tours. It will not wait for you. The [Cozumel day planner](/day/cozumel) works out every time on this page for your ship's real hours, and the [Cozumel port guide](/ports/cozumel) has the rest of the island.
 

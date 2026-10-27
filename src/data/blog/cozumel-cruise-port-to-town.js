@@ -1,6 +1,6 @@
 export default `---
 title: "Cozumel Cruise Port to San Miguel: Taxi, Walk, Ferry, Ruins"
-description: "Cozumel cruise port to San Miguel: walk from Punta Langosta, or a fixed-fare taxi from the southern piers (US$8 on the union list). Museum, market, ruins, leave-by."
+description: "Cozumel cruise port to San Miguel: walk from Punta Langosta, or a fixed-fare taxi from the southern piers (US$8 on the union list). Museum, ruins, leave-by."
 date: "2026-10-16"
 updated: "2026-10-27"
 slug: "cozumel-cruise-port-to-town"
@@ -19,7 +19,7 @@ The first thing to photograph in Cozumel is not the sea. It is a board. At the t
 
 Ships arriving off this coast is the oldest story the island has. On 3 May 1518 Juan de Grijalva's expedition made the first official Spanish landing on Cozumel, INAH, Mexico's National Institute of Anthropology and History, records in its site guide. Three days later, on 6 May, Father Juan Díaz said what is documented as the first Mass on Mexican soil. In February 1519 Hernán Cortés arrived with ten ships and about 400 men, three days out of Cuba. It was here that Jerónimo de Aguilar, a Spaniard who had been held prisoner, caught up with the expedition and became its interpreter.
 
-The town you are heading for is much younger than that. San Miguel was resettled from 1848 by families who crossed from the Yucatán mainland during the Caste War; the island historian Ric Hajovsky traces one of them to the San Miguel census of January 1850, a 28-year-old labourer from Tihosuco. So the place has two lives: a Maya pilgrimage island that the Spanish found busy, and a small Mexican town built by refugees. This guide is about the second one, plus the ruins of the first, and the ways in and out. For the reefs, the beach clubs and Punta Sur, read our [guide to the beaches near Cozumel cruise port](/blog/beaches-near-cozumel-cruise-port). The two are written to fit together.
+The town you are heading for is much younger than that. San Miguel was resettled from 1848 by families who crossed from the Yucatán mainland during the Caste War; the San Miguel census of January 1850 lists them by name. One of them started the island's oldest festival, at El Cedral; that story is in the beaches guide. So the place has two lives: a Maya pilgrimage island that the Spanish found busy, and a small Mexican town built by refugees. This guide is about the second one, plus the ruins of the first, and the ways in and out. For the reefs, the beach clubs and Punta Sur, read our [guide to the beaches near Cozumel cruise port](/blog/beaches-near-cozumel-cruise-port). The two are written to fit together.
 
 ## Which pier you get decides the morning
 
@@ -59,7 +59,7 @@ The statue inside is older than the building. As the island news site Cozumel 4 
 
 ## The museum that used to be a hotel
 
-Of everything in San Miguel, the Museo de la Isla de Cozumel is the one most passengers walk past on the seafront without going in. It occupies a 1930s building that the island's parks foundation says was one of the first hotels on Cozumel. Inside are four permanent rooms on the island's geography, ecosystems, history and culture, two rooms for temporary art shows, and a room for the carnival, which the organisers described in January 2026 as more than 150 years old. There is a lift.
+Of everything on the San Miguel seafront, the Museo de la Isla de Cozumel is the one that explains the rest. It occupies a 1930s building that the island's parks foundation says was one of the first hotels on Cozumel. Inside are four permanent rooms on the island's geography, ecosystems, history and culture, two rooms for temporary art shows, and a room for the carnival, which the organisers described in January 2026 as more than 150 years old. There is a lift.
 
 It is the best hour you can spend in town if you want to understand what you are looking at: why the reefs are where they are, how the Maya island worked, what the 1848 settlers built. It is also the only serious dry option in a downpour.
 
@@ -82,7 +82,7 @@ Seven kilometres inland from downtown, reached from Km 8 of the road that crosse
 
 Walk in under El Arco, the arch at the north-west end of the plaza where a sacbé begins. Look for Ka'na Nah, the "high house", a stepped platform with a two-room temple on top, and for Las Manitas, a house named for the handprints on its walls. Murciélagos is older, with its best-kept building from about 700 AD.
 
-Every brochure calls San Gervasio the sanctuary of Ixchel, the moon goddess of women and childbirth, and the island's own parks foundation does too. The chroniclers did describe a shrine to Ixchel on Cozumel that drew pilgrims from all over the Yucatán. But INAH's guide is blunt: there is no archaeological evidence that any building here was hers. The goddess is real enough. Her temple, so far, is a story.
+Most brochures call San Gervasio the sanctuary of Ixchel, the moon goddess of women and childbirth, and the island's own parks foundation does too. The chroniclers did describe a shrine to Ixchel on Cozumel that drew pilgrims from all over the Yucatán. But INAH's guide is blunt: there is no archaeological evidence that any building here was hers. The goddess is real enough. Her temple, so far, is a story.
 
 **Getting there:** taxi only. The union's peso list gives MX$720 for a round trip from downtown including two hours' wait (Everything Cozumel, May 2025). From the piers, ask at the board.
 **Hours:** INAH lists daily 09:00–15:30, last entry 15:00 (2026). The parks foundation's page says 08:00–16:00. Plan on 09:00.
@@ -90,7 +90,7 @@ Every brochure calls San Gervasio the sanctuary of Ixchel, the moon goddess of w
 **Time:** 2.5 hours including the drive. There is little shade; take a hat, water and insect repellent. No food is allowed in.
 **Leave by (17:30 all-aboard):** it closes at 15:30, which makes the clock easy. Leave by 15:00 and you are back in town long before the 16:15 taxi rule.
 
-For the jungle side of the island with a guide, the [Jade Caverns and Mayan village ATV tour](https://www.viator.com/tours/Cozumel/Jade-Caverns-and-Mayan-Village-Cozumel-ATV-Tour/d632-5553274P1?mcid=42383&pid=P00216188) does it with a guide and a vehicle.
+For the jungle side of the island without arranging a driver, the [Jade Caverns and Mayan village ATV tour](https://www.viator.com/tours/Cozumel/Jade-Caverns-and-Mayan-Village-Cozumel-ATV-Tour/d632-5553274P1?mcid=42383&pid=P00216188) does the planning for you.
 
 ## The ferry to Playa del Carmen
 
