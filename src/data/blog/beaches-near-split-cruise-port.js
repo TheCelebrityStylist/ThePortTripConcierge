@@ -85,13 +85,13 @@ Bene, on the north side of Marjan, is the beach the older guidebooks send you to
 
 ## If you would rather swim from a boat
 
-Split's other beach is the open sea between the islands, and the boats leave from the Riva. A [Blue Lagoon and three islands cruise with lunch and a swim](https://www.viator.com/tours/Split/Blue-Lagoon-and-3-Islands-Day-Cruise-from-Split-with-lunch-on-boat-included/d4185-9965P61?mcid=42383&pid=P00216188) takes you out to swim from the deck. Be clear about what you are buying. It is a full day on an independent boat, and an independent boat does not hold your ship. Check the return time against your all-aboard before you book, not on the morning.
+Split's other beach is the open sea between the islands. A [Blue Lagoon and three islands cruise with lunch and a swim](https://www.viator.com/tours/Split/Blue-Lagoon-and-3-Islands-Day-Cruise-from-Split-with-lunch-on-boat-included/d4185-9965P61?mcid=42383&pid=P00216188) takes you out to swim from the deck. Be clear about what you are buying. It is a full day on an independent boat, and an independent boat does not hold your ship. Check the return time against your all-aboard before you book, not on the morning.
 
 ## The other way to do it
 
 Most passengers do Split the same way: the palace first, because it is next to the ship, then a beach if there is energy left. The guide's crowd notes say why that is backwards. Tour groups pack the Peristyle and the cellar corridor from about 09:30 to 12:30. That is exactly when the far side of Marjan is at its emptiest.
 
-So reverse it. Walk the Riva at 08:30, before the groups, and take the 09:15 bus 12 from Sv. Frane. Be at the Meštrović Gallery by about 09:30, see the Kaštilac reliefs, and swim at Kašjuni from about 10:45. Ride back into town at lunchtime, eat in Varoš, and walk into the palace after 13:00, when the morning groups are heading back to their coaches. Finish on the Riva in the late afternoon, which the guide says is calmer than midday, and walk back to the ship with nothing to rush.
+So reverse it. Walk the Riva at 08:30, before the groups, and take the 09:15 bus 12 from Sv. Frane. Be at the Meštrović Gallery by about 09:30, see the Kaštilac reliefs, and swim at Kašjuni from about 10:45. Ride back into town at lunchtime, eat in Varoš, and walk into the palace after 13:00, when the morning groups are heading back to their coaches. If you want the palace explained rather than just walked, a [small-group walking tour of Split and Diocletian's Palace](https://www.viator.com/tours/Split/Split-Walking-Tour/d4185-378367P1?mcid=42383&pid=P00216188) fits the afternoon. Finish on the Riva in the late afternoon, which the guide says is calmer than midday, and walk back to the ship with nothing to rush.
 
 It costs €3 in bus fares by app and €12 for the gallery. It also gives you the one Split most of your fellow passengers never see: a sculptor's chapel and a quiet swim, while they queue for the same bell tower.
 

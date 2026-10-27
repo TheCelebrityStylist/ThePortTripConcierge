@@ -1,150 +1,168 @@
 export default `---
-title: "Beaches Near Mykonos Cruise Port: Ornos, Agios Stefanos and More"
-description: "Beaches near Mykonos cruise port: Agios Stefanos is 15–20 min on foot from Tourlos, Ornos 5 min by bus from Fabrika (€1.50–2.50, 2026). Leave times for 17:30."
+title: "Beaches Near Mykonos Cruise Port: Ornos, Kapari and the Bus Back"
+description: "Beaches near Mykonos cruise port: walk to Agios Stefanos from Tourlos, or a €2 KTEL bus from Fabrika to Ornos (2026). Quieter coves, water taxi, leave-by times."
 date: "2026-10-27"
 updated: "2026-10-27"
 slug: "beaches-near-mykonos-cruise-port"
 author: "Elke"
 category: "cruise-ports"
-tags: ["mykonos", "greece", "cyclades", "beach", "ornos", "ktel", "transport"]
+tags: ["mykonos", "greece", "cyclades", "beach", "ornos", "agios stefanos", "ktel", "water taxi"]
 relatedPorts: ["mykonos"]
 relatedPosts: ["mykonos-cruise-port-guide", "mykonos-tender-risk-guide", "santorini-vs-mykonos-cruise"]
 ---
 
-# Beaches Near Mykonos Cruise Port: Ornos, Agios Stefanos and More
+> **Quick answer:** If your ship docks at Tourlos, Agios Stefanos is a 15–20 minute walk north, no bus needed. For the south-coast bays, get into town, walk to Fabrika bus station and take the KTEL bus: Ornos and Platis Gialos are €2, Paradise €2.30 (2026), 10–20 minutes. For a 17:30 all-aboard, be back at Fabrika by 15:40, which means at the Ornos stop by 15:00.
 
-> **Quick answer:** If your ship docks at Tourlos, Agios Stefanos is the closest sandy beach, a 15–20 minute walk north with no bus needed. For a sheltered bay, take the KTEL bus from Fabrika station to Ornos: 5 minutes, about every 30 minutes, €1.50–2.50 (2026). For a 17:30 all-aboard, leave Agios Stefanos by 16:10 on foot, or leave Ornos by 15:10. Taxis are scarce, so plan the return around the bus.
+## 08:00, the beach you can see from the ship
 
-## Where the ships dock
+Stand at the rail at Tourlos and look north along the shore. The first bay past the ferry harbour, with a strip of sand, a row of sunbeds and a few tavernas, is Agios Stefanos. You can reach it without a bus, a boat or a timetable, and most passengers walk straight past it on their way to the Sea Bus.
 
-Mykonos is both a docking and a tender port, decided per call by the port authority. Your daily programme says which.
+That is the first decision of a Mykonos beach day, and it arrives at the bottom of the gangway. Head for the town and the famous south coast, with its buses and its clock. Or walk 15–20 minutes north and swim within sight of your own ship.
 
-- **New Port (Tourlos) cruise berths:** about 2.8 km north of Mykonos Town, shared with ferries. The Sea Bus to the Old Port leaves a few minutes' walk from the berth, about every 30 minutes, in 10–12 minutes, for €2–2.50 (2026). KTEL buses and any cruise shuttles leave from the port area.
-- **Old Port tender pier:** on the northern edge of town. Tenders land here, and so does the Sea Bus. On days with several ships, morning tender waits run 20–45 minutes.
+Which day you get depends on the port authority. Some ships dock at Tourlos; others anchor off the Old Port and tender passengers into town. Your daily programme says which. On a tender day, Agios Stefanos is an hourly bus ride away and the south coast is the easier choice. On a docked day, both are open to you.
 
-Most south-coast beach buses leave from **Fabrika station** on the south side of town. From the Old Port, everything in town is within 10–15 minutes on foot. From Tourlos, KTEL buses run to Fabrika every 30–60 minutes in about 10 minutes. Do not walk from Tourlos to town on the main road: it is 30–40 minutes with no pavement in places.
+This guide is the beaches. For the town, Little Venice and Delos, read the [Mykonos cruise port guide](/blog/mykonos-cruise-port-guide), which takes the other half of the island.
 
-KTEL tickets are sold at the station kiosks or by the driver, cash only. There are no day passes, and timetables change every year.
+## 08:15, Agios Stefanos
 
-## Agios Stefanos
+Leave the port area on foot, heading north along the road away from town. In 15–20 minutes you are on the sand.
 
-**Getting there:** walk 15–20 minutes north from Tourlos, or the KTEL bus from the Old Port station.
-**Time:** 15–20 minutes on foot from the New Port; about 5 minutes by bus from the Old Port, roughly hourly.
-**Cost:** free on foot; bus €1.50–2.50 (2026).
-**Leave by (17:30 all-aboard):** 16:10 if your ship is at Tourlos. 17:30 − 60 min on board early − 20 min walk = 16:10. If you tendered: 14:55. 16:00 at the tender pier − 5 min bus − up to 60 min wait = 14:55.
+It is a sheltered bay, popular with couples and families, with sunbeds for rent, casual tavernas and a mini-market (Santorini Dave, August 2026). The view is the odd part: ferries and cruise ships coming and going across the bay, including, on a docked day, yours. There is something calming about swimming while you can see the gangway.
 
-The closest sandy beach to the New Port, with sunbeds and tavernas. It is the obvious choice when you are docked: no bus and no timetable. On a tender day it makes less sense, because you depend on an hourly bus to get back to the Old Port.
+The leave-by is the gentlest on the island. For a 17:30 all-aboard, leave Agios Stefanos by 16:10: that is 17:30, minus 60 minutes to be on board early, minus 20 minutes' walk. If your ship tendered, it is a different beach. The KTEL bus back to the Old Port takes 5–10 minutes and runs roughly hourly, so be at the stop by 14:45 to be sure of a bus that gets you to the tender pier by 16:00.
 
-## Ornos
+Agios Stefanos is the safe answer. Most people want the south coast. Here is how that day goes.
 
-**Getting there:** KTEL bus from Fabrika station.
-**Time:** about 5 minutes, buses about every 30 minutes.
-**Cost:** €1.50–2.50 (2026).
-**Leave by (17:30 all-aboard):** 15:10. 17:30 − 90 min (the Old Port rule) − 15 min walk from Fabrika to the Old Port = back at Fabrika by 15:45; then − 5 min bus − 30 min wait = 15:10.
+## 08:30, across town to Fabrika
 
-A sheltered sandy bay on the south coast, rated good in north winds. The strong meltemi winds of July and August can make exposed beaches rough, so Ornos is the safe default in high summer. It is also where the south-coast water taxi starts its run east. Sunbed prices here were not checked.
+Take the Sea Bus from beside the berth to the Old Port: about 12 minutes, about every 30 minutes, €2.50 (Santorini Dave, August 2026). Tenders land at the same harbour.
 
-## Agios Ioannis
+For beaches, Mykonos Town has two bus stations that matter, and they are not linked by bus. The Old Port station on the north side serves the New Port, Agios Stefanos, Ano Mera and the east-coast beaches. Fabrika, on the south side near the windmills, serves the south-coast beaches you came for: Ornos, Agios Ioannis, Psarou, Platis Gialos, Paradise and Paraga. Walking from one to the other takes 15–20 minutes through the lanes (Real Journey Travels, 2026). If your ship docked, the KTEL bus from Tourlos also runs straight to Fabrika in about 10 minutes, every 30–60 minutes.
 
-**Getting there:** KTEL bus from Fabrika; the Agios Ioannis buses run through Ornos.
-**Time:** about 10 minutes.
-**Cost:** €1.50–2.50 (2026).
-**Leave by (17:30 all-aboard):** 15:05. Back at Fabrika by 15:45 − 10 min bus − 30 min wait = 15:05.
+At Fabrika, buy a ticket at the kiosk before you board. The 2026 single fares are €2 to Ornos, Agios Ioannis and Platis Gialos and €2.30 to Paradise. The station kiosks take cards; on board it is cash only, and drivers cannot break a €50. There are no day passes. Every ride is a new ticket.
 
-A bay on the same bus route, beyond Ornos. Facilities and sunbed prices were not checked. If you want a quieter version of Ornos and the bus times fit, it is a short extra ride; otherwise stay at Ornos.
+Then do the one thing that will save your afternoon: photograph the departures board for your beach, both directions. Timetables change every year, and the frequencies differ between sources. Greeka lists Platis Gialos as roughly hourly; Real Journey Travels' 2026 timetable gives every 30 minutes. The board in front of you is the only one that counts.
 
-## Platis Gialos
+## 09:00, Ornos
 
-**Getting there:** KTEL bus from Fabrika station.
-**Time:** about 10 minutes, buses roughly hourly.
-**Cost:** €1.50–2.50 (2026).
-**Leave by (17:30 all-aboard):** 14:35. Back at Fabrika by 15:45 − 10 min bus − 60 min wait = 14:35. If you note an exact bus time that reaches Fabrika by 15:45, use that.
+Ornos is the answer most days. The bus takes 5–10 minutes and in summer leaves about every 30 minutes (Greeka; Real Journey Travels' 2026 timetable says every 30–60), one of the most frequent services on the south coast.
 
-A family beach with sunbeds, on the south coast. It is the second stop of the water taxi that runs from Ornos east to Paraga, Paradise, Super Paradise, Agrari and Elia. A day pass is €20 with unlimited rides; the first boat leaves Ornos at 10:00 and the last leaves Elia at 17:45 (2026 timetable reported by Santorini Dave). Journey times per leg are not published, and strong wind can stop the boats, so use the water taxi to get there, not to get back.
+It is a sheltered sandy bay with a large swimming area, tavernas and beach clubs, and Santorini Dave calls it the island's most family-friendly beach. The shelter is the real point. In July and August the meltemi, the strong north wind of the Aegean summer, can blow for days, stop the Sea Bus and the Delos boats and churn up the exposed beaches. Ornos is on the south coast, sheltered from the north. On a windy day it is the bay to choose.
 
-## Paradise
+Ornos is also where the south-coast water taxi starts. More on that below.
 
-**Getting there:** KTEL bus from Fabrika station.
-**Time:** about 15 minutes, buses every 30–60 minutes.
-**Cost:** €1.50–2.50 (2026).
-**Leave by (17:30 all-aboard):** 14:30. Back at Fabrika by 15:45 − 15 min bus − 60 min wait = 14:30.
+## 09:15, the beach from the film
 
-Known for beach bars and music. It suits a group that wants a party beach rather than a quiet swim. The bus runs late into the night, but the afternoon return is what counts on a cruise day.
+Stay on the same bus a few minutes more and you reach Agios Ioannis. In 1989 Lewis Gilbert filmed Shirley Valentine here, the story of a Liverpool housewife who leaves for a Greek island and does not come back (Greeka). The beach is narrow and sandy, with some rock shelves, two tavernas and beach clubs renting sunbeds. Its sunsets look across the water towards Delos.
 
-## Elia
+Then walk past it. From the western end of Agios Ioannis, an unpaved track leads to Kapari, a small sandy cove cut into the cliffs (Lonely Planet). It takes about 15 minutes from the Agios Ioannis bus stop, and there is nothing there: no tavernas, no sunbeds, no hotels (Santorini Dave, August 2026). Bring water and food, and shoes for the track. What you get in return is clear water and sunset views, and very few people.
 
-**Getting there:** KTEL bus from the Old Port station.
-**Time:** about 20 minutes, but only every 2–3 hours, between about 10:00 and 19:00.
-**Cost:** €1.50–2.50 (2026).
-**Leave by (17:30 all-aboard):** the last posted departure at or before 15:40. 16:00 at the Old Port − 20 min bus = 15:40. With buses 2–3 hours apart, that may mean a bus soon after lunch.
+It is the one beach on this list where you have to carry everything in.
 
-Elia is the furthest beach on this list by bus time. The bus gap makes it a poor bet on a normal port day. Only consider it on a long call, with the return bus time written down before you leave town.
+The cost is the bus. Agios Ioannis buses run every 30–60 minutes, so build in the longer gap. For a 17:30 all-aboard, leave Kapari by 14:15 and be at the Agios Ioannis stop by 14:30. That works back from Fabrika at 15:40, minus a 10-minute ride, minus a 60-minute wait, minus the 15-minute walk.
 
-## Beaches compared
+## The other bays, and what they cost you
 
-| Beach | How | Time from ship | Cost (2026) | Leave by (17:30) | Best for |
-|-------|-----|----------------|-------------|------------------|----------|
-| Agios Stefanos | Walk from Tourlos; bus from Old Port | 15–20 min walk (docked) | Free on foot; bus €1.50–2.50 | 16:10 docked; 14:55 tendered | Docked ships, short calls |
-| Ornos | KTEL from Fabrika | 5 min bus + town transfer | €1.50–2.50 | 15:10 | Meltemi days, families |
-| Agios Ioannis | KTEL from Fabrika | 10 min bus + town transfer | €1.50–2.50 | 15:05 | A quieter Ornos |
-| Platis Gialos | KTEL from Fabrika | 10 min bus + town transfer | €1.50–2.50; water taxi €20 day pass | 14:35 | Families, water taxi start |
-| Paradise | KTEL from Fabrika | 15 min bus + town transfer | €1.50–2.50 | 14:30 | Beach bars |
-| Elia | KTEL from Old Port | 20 min bus, every 2–3 h | €1.50–2.50 | Bus at or before 15:40 | Long calls only |
+**Platis Gialos** is the wide, lively one, with many restaurants, a mini-market and a private beach at the Petasos hotel. The bus takes 10–12 minutes and costs €2 (2026). Arrive by about 10:30 if you want a standard sunbed (Santorini Dave). It is also the main boarding point for the water taxi. For a 17:30 all-aboard, be at the stop by 14:55 if the board shows buses every 30 minutes, earlier if it shows hourly.
 
-"Town transfer" means the Sea Bus (10–12 min) and a 10–15 minute walk, or the KTEL bus from Tourlos to Fabrika (about 10 min). On a tender day it is the 10–15 minute walk from the pier.
+**Psarou** is the next cove along, small and calm, with soft sand. It is home to the upscale Nammos beach club and the luxury resorts around it; expect prices to match. The Fabrika buses serve it (Greeka). Use the Platis Gialos times to get back.
 
-## Which beach for which day
+**Paradise** is the party beach, loud from the afternoon, with Cavo Paradiso, Tropicana and the Paradise Club. The bus takes 15–20 minutes, costs €2.30 (2026) and runs about every 30 minutes. It suits a group that wants music more than a swim. For a 17:30 all-aboard, be at the stop by 14:50.
 
-- **Short call, ship at Tourlos:** Agios Stefanos. Walk there and back, no timetable.
-- **Families:** Ornos for the sheltered water and frequent buses, or Platis Gialos.
-- **Windy day (meltemi):** Ornos. It is the sheltered bay, and the Sea Bus may stop, so leave extra time to get back.
-- **Beach bars:** Paradise, with an early start and the 14:30 leave time in mind.
-- **Combine with town:** Little Venice and the windmills in the morning, then Ornos from Fabrika after lunch. Delos plus a beach only works as a short swim at Ornos.
+**Elia**, the longest beach on Mykonos, is further east, and its bus leaves from the north side of town instead, €2.50, 20–30 minutes, with buses every one to three hours depending on whose timetable you read. On a normal port day the gaps make it a poor bet. If you go, the bus you need back is the last one that leaves Elia by 15:30.
 
-## When to head back
+## 10:00, the other way to do it
 
-The guide's rule is to be at the Old Port Sea Bus pier, or the tender pier, by 16:00 for a 17:30 all-aboard. The Sea Bus runs about every 30 minutes and takes 10–12 minutes, so 16:00 allows for a full boat and one missed departure. On a tender day the last tender usually leaves 30 minutes before all-aboard and the afternoon queue can take 30 minutes or more; the 16:00 rule covers that queue. If you are docked and walking from Agios Stefanos, be on board 60 minutes before all-aboard.
+Most passengers who reach the south coast stay on the first beach the bus drops them at. There is another way to use it, and it turns five bays into one morning.
 
-What goes wrong is the taxi. Mykonos has only a few dozen taxis, and the queue is long when ships and ferries arrive together. Do not plan to take one back. If the Sea Bus is full or stopped by wind, take the KTEL bus from the Old Port station to the New Port (about 20 minutes). Call the port agent number on your daily programme if you will be late.
+From late spring to early autumn a water taxi runs along the south coast: Ornos, Platis Gialos, Paraga, Paradise, Super Paradise, Agrari and Elia. A day pass costs €20 with unlimited hops, no booking needed. The first boat leaves Ornos at 10:00 and runs roughly hourly east; the last westbound boat leaves Elia at 17:45 (Santorini Dave, September 2026). Take the bus to Ornos, the 10:00 boat east, step off at a beach that looks right, swim, get back on.
 
-## Plan it to your ship
+The rule is to use it to go out and never to come back. Journey times between stops are not published, the boats are roughly hourly, and the meltemi can stop them. Plan to return from Platis Gialos or Ornos by bus, both of which have frequent services to Fabrika.
 
-For Delos, the windmills and the Sea Bus, read [the full Mykonos guide](/ports/mykonos), then [time this day to your ship](/day/mykonos).
+There is a third way, and it leaves the bus out of it. Across the strait from Delos lies Rheneia, the island where the ancient Delians buried their dead; the [Mykonos port guide](/blog/mykonos-cruise-port-guide) tells that story. Today its bays are some of the emptiest water near Mykonos, reached only by boat. The [sail cruise to Delos and Rhenia](https://www.viator.com/tours/Mykonos/Mykonos-Delos-Rhenia-sail-cruise/d958-107846P1?mcid=42383&pid=P00216188) lasts six hours, which is most of a cruise call, and like any independent tour it does not hold the ship. Book it only on a long call, with the return time in writing.
+
+If you would rather spend the day swimming off a boat along the south coast, the [catamaran day cruise with meals and transport](https://www.viator.com/tours/Mykonos/Catamaran-Day-and-Sunset-Cruises-with-meals-Drinks-and-transportation/d958-64732P2?mcid=42383&pid=P00216188) runs five hours. Check the pickup and return time against your all-aboard before you book.
+
+## 12:30, lunch and the bill
+
+Every bay on this list has tavernas. The PortTrip guide's warning applies at the beach as much as in town: if the fish is priced by weight, ask for the price per kilo and the weight before it is cooked, and check the bill against the menu for service charges and items you did not order.
+
+Order early and ask for the bill with your coffee. You have a bus to catch.
+
+Look for kopanisti on the menu, the island's soft, peppery fermented cheese, a PDO product of the Cyclades, usually served as meze.
+
+We could not find a checked 2026 sunbed price for any of these beaches. Prices vary by club and by row, so ask before you lie down.
+
+## 15:00, the stop
+
+This is where a Mykonos beach day turns, and it turns on a bus stop, not a beach.
+
+The PortTrip rule is to be at the Old Port Sea Bus pier, or the tender pier, by 16:00 for a 17:30 all-aboard. The walk from Fabrika to the Old Port takes 15–20 minutes. Work back from there and you need to be at Fabrika by 15:40. From Ornos, a 10-minute ride and a 30-minute wait put you at the stop at 15:00.
+
+Not leaving the beach at 15:00. At the stop, dry, with the ticket in your hand.
+
+Maybe the bus comes at 15:05 with seats, and you have time for a coffee by the windmills. Maybe it comes full and drives past. That is what the half hour is for. You spend it on a roadside in Ornos, not at the Sea Bus pier, where it would be too late.
+
+If you are docked, there is a second road home from Fabrika: the KTEL bus to Tourlos, about 10 minutes, every 30–60 minutes. It is a useful fallback when the meltemi has stopped the Sea Bus. Do not make it plan A, because the gaps are longer than the margin.
+
+## 16:00, the pier
+
+What goes wrong here is always the taxi. Someone misses the bus, waves at a taxi and waits. Mykonos has only a few dozen taxis, and when ships and ferries are in together the queue does not move. Do not build one into your plan.
+
+If the Sea Bus is full or not running, take the KTEL bus from the Old Port station to the New Port, about 20 minutes, or walk the 35–40 minutes along the coast road. If you can see you will miss all-aboard, call the port agent on your daily programme early.
+
+For terminals, scams and accessibility, see [the full Mykonos port guide](/ports/mykonos). To fit a beach to your own ship's times, [plan your Mykonos day](/day/mykonos).
+
+## If you have an extra hour
+
+Megali Ammos is the beach nobody takes a bus to, because you do not need one. It is about 500 m south of Chora, with good sand and good swimming (Santorini Dave). The catch is the wind: it can be windy when the meltemi blows. On a calm day it is a last swim before the pier. Leave it by 15:30: a short walk back into town, 10–15 minutes across the lanes to the Old Port, and some slack.
+
+## The practical bit
+
+| Beach | From | Fare (2026) | Ride | How often | Leave by (17:30 all-aboard) |
+|-------|------|-------------|------|-----------|-----------------------------|
+| Agios Stefanos (docked) | Walk from Tourlos | Free | 15–20 min on foot | Any time | 16:10 |
+| Agios Stefanos (tendered) | Old Port station | €2 | 5–10 min | Roughly hourly | At the stop by 14:45 |
+| Ornos | Fabrika | €2 | 5–10 min | About every 30 min | At the stop by 15:00 |
+| Agios Ioannis / Kapari | Fabrika | €2 | About 10 min (+15 min walk to Kapari) | Every 30–60 min | Stop by 14:30; leave Kapari 14:15 |
+| Platis Gialos / Psarou | Fabrika | €2 | 10–12 min | Every 30 min to hourly | At the stop by 14:55 if half-hourly |
+| Paradise | Fabrika | €2.30 | 15–20 min | About every 30 min | At the stop by 14:50 |
+| Elia | Old Port station | €2.50 | 20–30 min | Every 1–3 hours | A bus leaving by 15:30 |
+| Megali Ammos | Walk from Chora | Free | About 500 m from town | Any time | 15:30 |
+
+All bus times work back from Fabrika at 15:40 (or the Old Port station for Elia and Agios Stefanos), then the pier at 16:00. Water taxi: €20 day pass, first boat from Ornos 10:00, outbound only.
 
 ## FAQ
 
-### Is there a beach near Mykonos cruise port?
+### Can I walk to a beach from the Mykonos cruise port?
 
-Yes. Agios Stefanos is 15–20 minutes' walk north of the New Port in Tourlos. Ornos, Platis Gialos and Paradise are 5–15 minutes by KTEL bus from Fabrika station in town.
+Yes, if your ship docks at Tourlos: Agios Stefanos is 15–20 minutes on foot to the north. If you tender into the Old Port, Megali Ammos is about 500 m south of town, though it is exposed in strong wind.
 
-### Can I walk to the beach from Mykonos cruise port?
+### Which Mykonos beach is best on a windy day?
 
-From Tourlos, yes: Agios Stefanos is 15–20 minutes on foot. From town, Megali Ammos lies about 500 m south of Chora, but the road has no proper pavement in places and the beach is exposed to the meltemi. Its walking time was not checked.
+Ornos. It is a sheltered south-facing bay with the most frequent bus. In strong meltemi the Sea Bus may stop too, so leave extra time to get back.
 
-### Is Mykonos a tender port?
+### How do I pay for the beach bus in Mykonos?
 
-Sometimes. Some ships dock at Tourlos, others anchor and tender to the Old Port. Your daily programme says which. On a tender day, the south-coast beaches via Fabrika are easier than Agios Stefanos.
-
-### Are there sunbeds and how much?
-
-Agios Stefanos and Platis Gialos have sunbeds. Prices were not checked for 2026, and they vary by beach club, so ask before you sit down.
-
-### How do I pay for the beach bus?
-
-Buy a single ticket at the Fabrika or Old Port station kiosk, or pay the driver in cash. Fares are €1.50–2.50 by route (2026). There are no day passes.
+Buy a single ticket at the Fabrika or Old Port station kiosk, where cards are accepted, or pay the driver in cash on board. Fares are €2–2.50 (2026). There are no day passes.
 
 ### Can I do Delos and a beach on the same day?
 
-Only just. On the guide's plan you are back from Delos on the 12:00 boat at about 12:45. Walk to Fabrika, wait for a bus and you reach Ornos by about 13:35, with a 15:10 leave time. That is about 90 minutes on the beach and no lunch in town.
+Only as a short swim. Back from Delos on the 12:00 boat at about 12:40, you can reach Ornos by about 13:30 and must be at the stop by 15:00. Most people should pick one. The [Mykonos cruise port guide](/blog/mykonos-cruise-port-guide) covers the Delos day.
+
+### Is the water taxi a safe way back to the ship?
+
+No. Use it to go out along the south coast and take the bus back from Ornos or Platis Gialos. The boats are roughly hourly, journey times are not published and wind can stop them.
 
 ## Sources
 
-- [Municipality of Mykonos – Getting around](https://mykonos.gr/en/?p=59)
+- [Santorini Dave – Best beaches in Mykonos (August 2026)](https://santorinidave.com/best-beaches-mykonos)
+- [Santorini Dave – Mykonos water taxi (September 2026)](https://santorinidave.com/mykonos-water-taxi)
+- [Santorini Dave – Mykonos ferry port and Sea Bus (August 2026)](https://santorinidave.com/mykonos-port)
+- [Real Journey Travels – Mykonos bus schedule 2026](https://www.realjourneytravels.com/mykonos-bus-schedule/)
 - [Greeka – KTEL buses in Mykonos](https://greeka.com/cyclades/mykonos/car-bus)
-- [Greeka – Mykonos ports](https://www.greeka.com/cyclades/mykonos/ports/)
-- [Santorini Dave – Mykonos bus](https://santorinidave.com/mykonos-bus)
-- [Santorini Dave – Mykonos water taxi](https://santorinidave.com/mykonos-water-taxi)
-- [Santorini Dave – Megali Ammos beach](https://santorinidave.com/mykonos-beach-megali-ammos)
-- [Santorini Dave – Mykonos ferry port](https://santorinidave.com/mykonos-port)
-- [CruiseMapper – Mykonos port](https://cruisemapper.com/ports/mykonos-island-port-64)
+- [Greeka – Films shot on Mykonos](https://www.greeka.com/cyclades/mykonos/movies.htm)
+- [Lonely Planet – Kapari](https://www.lonelyplanet.com/points-of-interest/kapari/1574593)
+- [Greek Gastronomy Guide – Kopanisti of Mykonos](https://www.greekgastronomyguide.gr/en/item/kopanisti-mykonos/)
+- [Ephorate of Antiquities of Cyclades – The Archaeological Museum of Mykonos (Rheneia)](https://cyclades.culture.gov.gr/en/location/the-archaeological-museum-of-mykonos/)
 `;

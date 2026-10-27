@@ -15,7 +15,7 @@ relatedPosts: ["beaches-near-kotor-cruise-port", "kotor-cruise-port-guide", "ten
 seoKeywords: ["kotor cruise port guide", "kotor fortress cruise ship", "kotor diy cruise", "kotor old town cruise", "perast from kotor cruise"]
 ---
 
-> **Quick answer:** Kotor's cruise pier is about 200 m from the Old Town's Sea Gate, whether your ship berths or tenders, so you walk in within five minutes and need no transport. The fortress climb costs €15 (2026; carry cash), takes 45–60 minutes up, and is best started before 09:00. Be at the tender pier 90 minutes before all-aboard, so 16:00 for a 17:30 sailing.
+> **Quick answer:** Kotor's cruise pier is about 200 m from the Old Town's Sea Gate for berthed and tendered ships alike, so you walk in within five minutes and need no transport. The fortress climb costs €15 (2026; carry cash), takes 45–60 minutes up, and is best started before 09:00. Be at the tender pier 90 minutes before all-aboard, so 16:00 for a 17:30 sailing.
 
 ## 08:00, the town at the end of the gangway
 
@@ -61,9 +61,9 @@ The tour groups go to lunch around now, and that is the moment for the cathedral
 
 The Cathedral of St Tryphon has the best founding story in the Adriatic. According to the Austrian Academy of Sciences' Tabula Imperii Byzantini, the first church on this site was built in 809, paid for by Andrea Saracenis, a citizen of Kotor, who had bought the relics of St Tryphon from Venetian merchants. Kotor did not inherit its patron saint. It purchased him. The present Romanesque cathedral was begun in 1124 and finished in 1166, when its three altars were consecrated, and its interior was painted with frescoes in 1331. Earthquakes have changed it repeatedly; the central dome went after two of them in the 16th century.
 
-Entry is €4 (2026), and the upper gallery holds the relics and the treasury, with views from the top. Euro City Guide gives summer hours of 09:00–19:00. Allow 30 minutes.
+If you want the stories told on the spot, a [Kotor Old Town walking tour](https://www.viator.com/tours/Kotor/Discover-Old-Town-of-Kotor/d23078-32949P1?mcid=42383&pid=P00216188) does the explaining for you. Otherwise, entry is €4 (2026), and the upper gallery holds the relics and the treasury, with views from the top. Euro City Guide gives summer hours of 09:00–19:00. Allow 30 minutes.
 
-On St Luke's Square is the Maritime Museum of Montenegro, in a baroque palace. Adults pay €4 (2026), and it is closed on Sundays. It explains the thing that made this bay rich: its sea captains. The museum's own catalogue describes the second-floor hall, where a portrait of Captain Ivo Visin of Prčanj hangs beside a model of his brigantine Splendido. Visin sailed it round the world between 1852 and 1859, the first South Slav to do so, and the Emperor Franz Joseph gave him the Merito Navali white banner for it in 1859. Look also for the carved wooden figurehead from the Dobrota sailing ship Djurko. Allow 45 minutes. It is cool inside, which by now matters.
+On St Luke's Square is the Maritime Museum of Montenegro, in a baroque palace. Adults pay €4 (2026), and it is closed on Sundays. It explains the thing that made this bay rich: its sea captains. The museum's own catalogue describes the second-floor hall, where a portrait of Captain Ivo Visin of Prčanj hangs beside a model of his brigantine Splendido. Visin sailed it round the world between 1852 and 1859, the first South Slav to do so, and the Emperor Franz Joseph gave him the Merito Navali white banner for it in 1859. Allow 45 minutes. It is cool inside, which by now matters.
 
 St Luke's Church, on the same square, dates from 1195. Euro City Guide notes that it served as a Catholic and an Orthodox church at the same time, and that its Byzantine frescoes survived the 1979 earthquake. Entry is free.
 
@@ -131,8 +131,8 @@ From the tender, look back at the wall climbing the mountain. In the late light 
 | 11:15 | St Tryphon Cathedral, Maritime Museum, St Luke's, River Gate | €4 + €4; St Luke's free |
 | 12:30 | Lunch inside the walls | Slice €3.50; konoba meal varies |
 | 13:30 | Perast (long call only) or a swim north of town | Bus €2 each way |
-| 15:30 | Back at the Sea Gate | — |
-| 16:00 | Tender queue, 90 minutes before a 17:30 all-aboard | — |
+| 15:30 | Back at the Sea Gate | Last coffee |
+| 16:00 | Tender queue, 90 minutes before a 17:30 all-aboard | Free |
 
 | All-aboard | Tender pier by | Gangway by (docked) | Leave Perast by bus | Leave Perast by taxi |
 |-----------|----------------|---------------------|---------------------|----------------------|

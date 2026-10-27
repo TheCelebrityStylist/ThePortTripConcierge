@@ -28,17 +28,17 @@ This is the moment the arithmetic starts to sound optimistic. It is also the mom
 
 First, check which clock you are racing. Most passengers never read the small print on this, and it moves the target by half an hour.
 
-All-aboard is not the sailing time. It is a deadline set before it, and the gap differs by line. Royal Caribbean says its all-aboard is "generally" scheduled "approximately 30 minutes prior to sailing", and that the exact time is posted near the gangway. Norwegian asks guests in ports of call to be on board "no later than one (1) hour prior to the ship's scheduled departure time". The same ship-shaped promise of "17:30" can mean a 18:00 sailing on one line and an 18:30 sailing on another. Neither half hour is yours. It is when the crew counts heads, closes the shell door and calls the pilot.
+All-aboard is not the sailing time. It is a deadline set before it, and the gap differs by line. Royal Caribbean says its all-aboard is "generally" scheduled "approximately 30 minutes prior to sailing", and that the exact time is posted near the gangway. Norwegian asks guests in ports of call to be on board "no later than one (1) hour prior to the ship's scheduled departure time". The same "17:30" in your daily programme can mean an 18:00 sailing on one line and an 18:30 sailing on another. Neither half hour is yours. It is the time the crew uses to count heads and get the ship ready to go.
 
-Norwegian adds a line that matters on a Mediterranean cruise: "shipboard time may differ from the port of call". Ships sometimes keep one time zone while sailing between two. Set your watch to the ship, not to the church clock in the piazza, and turn off your phone's automatic time if your line tells you to.
+Norwegian adds a line that matters more than it looks: "shipboard time may differ from the port of call". The all-aboard in your programme is in ship's time. Set your watch to the ship, not to the church clock in the piazza.
 
 ## 15:45, the call nobody wants to make
 
-Every cruise call has a port agent. Cruise Critic describes them as officials who "can help you with contacting your ship and making travel arrangements". The number is printed in your daily programme. On Royal Caribbean it sits in the Cruise Compass under 24-hour services, and in the app. If you photographed it before you went ashore, you have it now. If you did not, it is in your cabin.
+Every cruise call has a port agent. Cruise Critic describes them as officials who "can help you with contacting your ship and making travel arrangements". The number is printed in your daily programme. If you photographed it before you went ashore, you have it now. If you did not, it is in your cabin.
 
-Here is what most passengers do not know about the person who answers. The port agent is usually not a cruise line employee at all. Lines hire local shipping agencies to handle each call: the berth booking, the pilots and tugs, customs, immigration and the paperwork. One of the largest, Inchcape Shipping Services, says it handles "more than 10,000 cruise ship calls every year, with agents in 800 cruise ports". The agent stands on the quay with a radio to the bridge, a contact at the harbour master's office and, crucially, a desk in town that will still be open after the ship has gone.
+Here is what most passengers do not know about the person who answers. The port agent is usually not a cruise line employee at all. Lines hire local shipping agencies to look after each call. One of the largest, Inchcape Shipping Services, says it handles "more than 10,000 cruise ship calls every year, with agents in 800 cruise ports", offering "port agency with a full range of husbandry services". The person on the phone may work for a firm that looks after a different cruise line tomorrow.
 
-That desk is the point. Once the ship sails, the agent is the cruise line in that town: the person holding anything the crew sent ashore for you, and the one who knows where the ship calls next and how to get there.
+That is the point. The agent stays when the ship goes. Once it sails, the agent is the cruise line in that town: the person holding anything the crew sent ashore for you, and the one who can tell you where the ship calls next.
 
 So call while the ship can still do something with what you tell it: your name, cabin number, where you are and an honest arrival time. A ship that knows you are on the next train has a decision to make. A ship that hears nothing has nothing to decide. Royal Caribbean's own FAQ is blunt about which way that decision usually goes: "The ship will not wait for any guest faring on their own." A captain can hold a few minutes for a guest known to be close. That is judgement, made against a departure slot, the run to the next port and everyone who came back on time. It is not something you are owed.
 
@@ -70,7 +70,7 @@ A taxi from Rome itself is the true last resort, with the fare agreed before you
 
 From the quay it looks like stubbornness. A ship the size of a town, held for want of two people. The reason is that the ship is not the only one keeping a schedule.
 
-Ports book cruise calls in slots, and they police them. The clearest written example is Santorini. Its port fund's 2025–2026 berthing decision, number 182/2024, caps visitors at 8,000 a day and charges a line "2 euros per passenger" for each hour a call runs shorter than approved, unless force majeure caused it. Every deviation is also recorded and weighed against the line's future requests. The same logic runs in the other direction everywhere: a pilot, tugs and linesmen are booked for a sailing time, the next ship may be waiting for the berth, and a late start means burning more fuel to make the next port on time.
+Ports plan cruise calls in advance, and some police them. The clearest written example is Santorini. Its port fund's 2025–2026 berthing decision, number 182/2024, caps visitors at 8,000 a day and charges a line "2 euros per passenger" for each hour a call runs shorter than approved, unless force majeure caused it. Every deviation is also recorded and weighed against the line's future requests. A port that fines a ship for leaving an hour early is a port that runs on its timetable, and a captain who wants to keep coming back keeps to it.
 
 None of that is your problem until it is. Then it is the whole problem.
 
@@ -102,7 +102,7 @@ Forty-three minutes is a long wait. It still was not long enough. The ship waits
 
 There is one more mechanic that almost nobody plans for: the ship can sail before all-aboard, and without warning anyone on shore in person.
 
-On 29 July 2025, after an 8.8-magnitude earthquake off Russia's Kamchatka Peninsula, Hawaii issued tsunami warnings and Norwegian's Pride of America had to leave Hilo two hours early. Cruise Hive reported that more than 300 guests and crew were not on board as she sailed. Norwegian said guests were "notified via SMS and advised to seek higher ground", and that staying at sea while the port was closed was "standard maritime procedure in tsunami scenarios". The harbour needed a safety inspection, including by the US Coast Guard, before the ship could come back for them.
+On 29 July 2025, an 8.8-magnitude earthquake in the North Pacific set off tsunami warnings across Hawaii, and Norwegian's Pride of America was required to evacuate Hilo Harbor at once. Cruise Hive reported that more than 300 guests and crew were not on board as she sailed. Norwegian said guests were "notified via SMS and advised to seek higher ground", and that "due to the temporary port closure, Pride of America has remained at sea". The harbour needed a safety assessment and clearance, including from the US Coast Guard, before the ship could come back for them.
 
 Nobody in Hilo was careless. They were simply ashore when the sea changed the plan. The lesson is small and practical: keep your phone charged and on, and make sure the line has a mobile number that works abroad, because that text is the only all-aboard call you will get.
 
@@ -166,7 +166,7 @@ Pompeii runs on the same logic. The Circumvesuviana runs about every 30 minutes,
 If you are already late:
 
 1. **Call the port agent.** Name, cabin, where you are, realistic arrival time. Ask where the ship calls next and when.
-2. **Call the cruise line's emergency number** as well. On Royal Caribbean it is on the back of the SeaPass card.
+2. **Call the cruise line's emergency number** as well, if your documents give one.
 3. **Book the next leg fast.** Every hour narrows the options and raises the price.
 4. **Keep every receipt and delay notice.** Train cancellation notices matter for insurance.
 5. **Warn your bank** that a sudden run of foreign flights and hotels is you.
@@ -181,7 +181,7 @@ Do not plan on it. Royal Caribbean says the ship "will not wait for any guest fa
 
 It depends on the line. Royal Caribbean puts it about 30 minutes before sailing; Norwegian asks you to be on board an hour before departure. The exact time is in your daily programme and posted at the gangway, in ship's time.
 
-### Do I get a refund for the days I miss?
+### Do you get a refund for the days you miss?
 
 Usually not. Norwegian's contract says the fare is "deemed fully earned" and no refund is due.
 
@@ -189,7 +189,7 @@ Usually not. Norwegian's contract says the fare is "deemed fully earned" and no 
 
 No. Royal Caribbean's guarantee is worded for its own shore excursions. The eight passengers left in São Tomé in 2024 were on a private excursion. Book independent tours that end well before your leave-by time.
 
-### Where do I find the port agent's number?
+### Where do you find the port agent's number?
 
 In the daily programme left in your cabin, and usually in the cruise line's app. Photograph it before you go ashore, in case your phone has no signal later.
 
@@ -197,7 +197,7 @@ In the daily programme left in your cabin, and usually in the cruise line's app.
 
 - [Royal Caribbean – Will the ship wait for guests on a shore excursion?](https://www.royalcaribbean.com/faq/questions/will-the-ship-wait-for-guests-on-a-shore-excursion)
 - [Royal Caribbean Australia – Do I need to book a shore excursion? (all-aboard about 30 minutes before sailing)](https://royalcaribbean.com/aus/en/faq/questions/do-i-need-to-book-a-shore-excursion)
-- [Norwegian Cruise Line – Boarding times on embarkation day and in ports of call](https://www.ncl.com/ca/en/faq/boarding-times)
+- [Norwegian Cruise Line – Boarding times in ports of call](https://www.ncl.com/ca/en/faq/boarding-times)
 - [Norwegian Cruise Line – Australia and New Zealand Guest Ticket Contract (December 2024)](https://www.ncl.com/sites/default/files/NCL_Australia_New_Zealand_Guest_Ticket_Contract_Dec%202024_FINAL.pdf)
 - [Inchcape Shipping Services – Company brochure (August 2025)](https://www.iss-shipping.com/wp-content/uploads/2025/08/Inchcape-Shipping-Services-Brochure.pdf)
 - [Oracle Hospitality Cruise – Gangway Security User Guide, release 20.2 (December 2023)](https://docs.oracle.com/en/industries/hospitality/cruise/property_management/20.2/crgwy/c_gangway_security_application.htm)
