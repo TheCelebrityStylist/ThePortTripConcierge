@@ -31,7 +31,7 @@ Because there is a trap. The port guide for Trieste says it plainly: the main ri
 
 From the terminal, walk out along Molo Audace, the long stone pier beside the square, and turn round at the end. You are standing on a ship. In 1740 a vessel called the San Carlo sank in the harbour, and instead of removing the wreck, the builders used it as the foundation for the pier, built between 1743 and 1751. It was renamed in March 1922 after the destroyer Audace, the first ship of the Italian Royal Navy to tie up here at the end of the First World War.
 
-Then coffee, in a city with its own words for it. "Un nero" is an espresso. "Un capo in b" is a macchiato in a small glass. What the rest of Italy calls a cappuccino, Trieste calls "un caffelatte". Lunch is at a buffet, which in Trieste means a working bar with a cauldron of boiled pork on the go; Buffet da Pepi has been doing it since 1897.
+Then coffee, in a city with its own words for it. "Un nero" is an espresso. "Un capo in b" is a macchiato in a small glass. What the rest of Italy calls a cappuccino, Trieste calls "un caffelatte".
 
 The thing almost nobody from the ships finds is south along the waterfront at Molo Fratelli Bandiera: the Bagno Marino La Lanterna, a municipal sea bath opened in 1890 and still divided by a 74 m wall, men on one side, women and children on the other. Locals call it the Pedocìn. Entry is €1.20 and it opens 07:30–19:30 (2026). ANSA reported its best season on record this summer, 106,696 visitors in three months.
 
@@ -55,7 +55,7 @@ The catch is the calendar. Outside July to mid-September most heritage sites clo
 
 Bari puts its old town in front of the gangway. You pass through the Varco della Vittoria gate and Bari Vecchia begins: the Swabian Castle on your left, pale limestone lanes ahead, all of it flat. The Basilica di San Nicola is 10 minutes on foot, free, and open from 07:00. It exists because of a theft: in 1087 Bari sailors took the bones of St Nicholas, the bishop who became Santa Claus, from Myra on the Turkish coast, and landed them here on 9 May.
 
-Go to Strada Arco Basso early, where women make orecchiette at tables outside their front doors. Buy from someone you can see making it: in 2024 an investigation found industrial pasta being sold here as handmade, and since June 2025 the city's rules allow only handmade pasta to be sold. If you would rather eat your way through the lanes with someone who knows every door, the [small-group Bari street food tour](https://www.viator.com/tours/Bari/Bari-Street-Food-Tour/d4226-51159P35?mcid=42383&pid=P00216188) covers this ground.
+Go early to Strada Arco Basso, where women make orecchiette at tables outside their front doors. Buy from someone you can see making it: in 2024 an investigation found industrial pasta being sold here as handmade, and since June 2025 the city's rules allow only handmade pasta to be sold. If you would rather eat your way through the lanes with someone who knows every door, the [small-group Bari street food tour](https://www.viator.com/tours/Bari/Bari-Street-Food-Tour/d4226-51159P35?mcid=42383&pid=P00216188) covers this ground.
 
 Then the thing no ship's tour sells. On the Molo San Nicola, beside the red Teatro Margherita that stands on pillars in the sea, is Nderr'a la lanze, the fishermen's quay, where the morning's catch is sold and eaten raw. Ask for *un misto*: sea urchins, a curled octopus, baby cuttlefish, for a €5 or €10 note (Do Eat Better, August 2026). Go between 08:00 and 10:00; by 13:00 it is gone. If tomorrow is a sea day and your stomach is not used to raw shellfish, look and do not eat.
 
@@ -89,7 +89,7 @@ Ships tie up along the main waterfront road, and Piazza del Duomo is a flat 5–
 
 The cathedral's 60 m bell tower holds an astronomical clock built by the Ungerer firm of Strasbourg and completed in 1933. Every day at 12:00 it performs for just under a quarter of an hour: a lion roars and waves a flag, a rooster crows, two heroines of the Sicilian Vespers ring the bells, and Messina's envoys pass in front of the Madonna who, the city's legend says, sent them a letter of protection. You watch from the square, so it is free (Italia.it). Arrive by 11:50, phone in a front pocket.
 
-Then look for the church you look down at. Santissima Annunziata dei Catalani, on Via Garibaldi, sits below the street around it, because after the earthquake and tsunami of 28 December 1908 the city was rebuilt on top of its own rubble.
+Then find Santissima Annunziata dei Catalani on Via Garibaldi, a church you look down at: after the earthquake and tsunami of 28 December 1908, the city was rebuilt on top of its own rubble.
 
 The catch in 2026 is that the port is a building site. Work on a new cruise terminal on the Colapesce quay has moved some ships to the Marconi quay, so the route from the road to your gangway can be longer than usual (La Sicilia, September 2026). See our [Messina guide](/blog/messina-cruise-port-to-city-centre).
 
@@ -139,13 +139,13 @@ A second terminal for large ships, Sammuzzo, opened in May 2026; check which one
 
 In every one of these ports the ship is ten minutes away, and that is exactly why people miss it. Nobody watches the clock in a town where the gangway is round the corner.
 
-The things that go wrong are small. A long lunch in Trieste. The eight-person lift in Cartagena with a queue in front of you. A second cannolo at Santa Caterina in Palermo at 16:00 because the pastry shop is right there. A wrong turn in the lanes of Rhodes that brings you out at a gate you did not come in by. The ship will not wait for any of them.
+What goes wrong is small. A long lunch in Trieste. The eight-person lift in Cartagena with a queue in front of you. A second cannolo at Santa Caterina in Palermo at 16:00 because the pastry shop is right there. A wrong turn in the lanes of Rhodes that brings you out at a gate you did not come in by. The ship will not wait for any of them.
 
-The fix is the same everywhere: treat the leave-by time as a deadline, not a suggestion, and set an alarm for it. In these ports it is generous, usually 60–80 minutes before all-aboard, because the walk is short. Use it. If you will be late anyway, call the port agent number in your daily programme at once.
+The fix is the same everywhere: treat the leave-by time as a deadline and set an alarm for it. In these ports it is usually 60–80 minutes before all-aboard. Use it. If you will be late anyway, call the port agent number in your daily programme at once.
 
 ## Check the berth before you trust the walk
 
-Every ranking above assumes the usual berth, and ports change it more often than passengers expect: Pier 57 in Trieste, the Muelle de la Curra in Cartagena, Akandia or a tender in Rhodes, an anchorage off Ajaccio. Your daily programme names the berth. Read it the night before, and if it is not the usual one, add the shuttle or tender time to every leave-by above. The [Trieste day planner](/day/trieste) and the [Cádiz port guide](/ports/cadiz) show how much a different berth changes the clock.
+Every ranking above assumes the usual berth, and ports change it more often than passengers expect: Pier 57 in Trieste, the Muelle de la Curra in Cartagena, Akandia or a tender in Rhodes, an anchorage off Ajaccio. Your daily programme names the berth. Read it the night before, and if it is not the usual one, add the shuttle or tender time to every leave-by above. For ports where you do need transport, see [cruise excursion alternatives](/blog/cruise-excursion-alternatives-every-port); for when the ship's tour earns its price, see [are cruise excursions worth it](/blog/are-cruise-excursions-worth-it). The [Trieste day planner](/day/trieste) and the [Cádiz port guide](/ports/cadiz) show how much a different berth changes the clock.
 
 ## The other way to do it: turn the day round
 
