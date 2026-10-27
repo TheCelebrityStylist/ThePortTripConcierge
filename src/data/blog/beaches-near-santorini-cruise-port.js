@@ -1,6 +1,6 @@
 export default `---
 title: "Beaches Near Santorini Cruise Port: Black Sand Before the Clock"
-description: "Beaches near Santorini cruise port: Kamari is a €2.20 KTEL bus ride from Fira (2026), after the cable car. How the day runs, and why you leave the sand by 14:00."
+description: "Beaches near Santorini cruise port: Kamari is a €2.20 KTEL bus ride from Fira (2026), after the cable car. How the day runs and why you leave the sand at 14:00."
 date: "2026-10-27"
 updated: "2026-10-27"
 slug: "beaches-near-santorini-cruise-port"
@@ -41,7 +41,7 @@ The first is the cable car. Six-seat gondolas climb the cliff in 3–5 minutes a
 
 The lift has a better backstory than most. It was built and paid for by the Loula and Evangelos Nomikos Foundation and installed by the Austrian firm Doppelmayr, and according to Elevator World it belongs to the island's communities, not to a company. Part of the ticket money goes to the island's mule owners. Every time you queue for it, you are queuing for a gift.
 
-The second way is the Karavolades steps: about 560–600 wide stone steps and a 220 m climb. Fit walkers take 30–45 minutes. There is no shade, the stones are polished smooth by centuries of feet and hooves, and the donkeys use the same path, so you share it with them and with what they leave behind. Wear shoes with grip and keep to the wall side when the animals pass. If you are going to walk up, walk now, while the cliff is still in shadow.
+The second way is the Karavolades steps: about 560–600 wide stone steps and a 220 m climb. Fit walkers take 30–45 minutes. There is no shade, the stones are polished smooth by feet and hooves, and the donkeys use the same path, so you share it with them and with what they leave behind. Wear shoes with grip and keep to the wall side when the animals pass. If you are going to walk up, walk now, while the cliff is still in shadow.
 
 At the top, Fira runs along the rim, and from the railing you can look straight down at your ship at anchor in the crater. Take the photo. Then turn your back on the view. The beach is the other way.
 
@@ -63,7 +63,7 @@ Now the choice, and it is less open than the map suggests. Five beaches are with
 
 **Monolithos** is the closest beach to Fira, out on the east coast near the airport, mostly sand and much quieter, with sunbeds under big palm-leaf shades. There are only seven buses a day. It suits a morning when one leaves soon after you arrive and another comes back in good time. If not, it is a beach you watch from a bus stop.
 
-**Vlychada**, at the remote southern tip, is black pebbles under tall pale cliffs beside a small marina. It has four buses a day each way, and the last one back leaves at 17:30. Most cruise days, the arithmetic does not work.
+**Vlychada**, at the remote southern tip, is black pebbles under tall volcanic cliffs beside a small marina. It has four buses a day each way, and the last one back leaves at 17:30. Most cruise days, the arithmetic does not work.
 
 If the point is the sea rather than the sand, there is another way to do it. A [half-day exclusive catamaran cruise](https://www.viator.com/tours/Santorini/Exclusive/d959-280218P1?mcid=42383&pid=P00216188) spends five hours on the water instead of on buses. Book it knowing two things: it is independent, so it does not hold the ship, and five hours is most of a cruise call.
 
@@ -71,11 +71,11 @@ And then there is **Red Beach**, which is not a beach you can use.
 
 ## The beach that closed, and the town that left by boat
 
-Red Beach is the one on the postcards: a sweep of dark sand under a cliff the colour of rust, at the island's south-west corner near Akrotiri. In early February 2025, during the earthquake swarm that emptied much of the island, the cliffs let go. To Vima reported on 4 February that a landslide had followed one of the quakes, that television footage showed large rocks falling, and that the beach was closed to the public and could be reached only by boat. Signs at the path now warn of falling rocks and serious risk of injury or death.
+Red Beach is the one on the postcards: a sweep of dark sand under a cliff the colour of rust, at the island's south-west corner near Akrotiri. In early February 2025, during the earthquake swarm that sent thousands of people off the island, the cliffs let go. To Vima reported on 4 February that a landslide had followed one of the quakes, that television footage showed large rocks falling, and that the beach was closed to the public and could be reached only by boat. Signs at the path now warn of falling rocks and serious risk of injury or death.
 
 You can still see it. Take the KTEL bus to Akrotiri (€2.20, 2026, about 20–30 minutes) to the last stop, walk about 5 minutes to the path, and follow it roughly 200 m to the clifftop viewpoints. Look from there. Do not go down, and do not sit under the cliff.
 
-The reason to come this way is the town next door. The Akrotiri archaeological site (€20, 1 April–31 October, 2025–2026) is a Bronze Age town buried by the eruption of around 1600 BCE, now under a vast roof, with streets and houses standing two storeys high. Spyridon Marinatos began digging here on 24 May 1967. He died on the site on 1 October 1974, during the excavation, and he is buried at Akrotiri.
+The reason to come this way is the town next door. The Akrotiri archaeological site (€20, 1 April–31 October, 2025–2026) is a Bronze Age town buried in ash by the eruption of around 1600 BCE, now under a large roof. Spyridon Marinatos began digging here on 24 May 1967. He died on the site on 1 October 1974, during the excavation, and he is buried at Akrotiri.
 
 The strangest thing about the place is what is missing. As Eos has reported, no human remains have been found here. The people of Akrotiri seem to have read the warning signs and left, probably by boat, and some appear to have come back to tidy up before the final eruption drove them out for good. Nobody knows where they went.
 
@@ -85,11 +85,11 @@ Red Beach and Akrotiri together take 2.5–3 hours with the bus, so this is a mo
 
 Back to the default. Kamari has more than one stop, so ask the conductor which one is nearest the beach and get off there.
 
-The beach is long, black sand and pebbles, backed by sunbeds and tavernas, and it is busy in summer. The sand is the thing to understand. It is black because of the volcano: the eruption around 3,600 years ago and the ones since left ash, pumice and lava all over the island, and the sea has been grinding it down ever since. Black absorbs the sun. By late morning the sand is hot enough to make you hop, so bring beach shoes and keep them on until the water.
+The beach is long, black sand and pebbles, backed by sunbeds and tavernas, and it is busy in summer. The sand is the thing to understand. It is black because of the volcano: the eruption around 3,600 years ago and the ones since left ash, pumice and lava all over the island. Black absorbs the sun. By late morning the sand is hot enough to make you hop, so bring beach shoes and keep them on until the water.
 
 The volcano that made all this is still out there, in the middle of the bay where your ship is anchored. A [caldera cruise to the volcano and hot springs](https://www.viator.com/tours/Santorini/Caldera-Half-Day-Tour-Volcano-Hot-Springs-Thirassia/d959-156401P2?mcid=42383&pid=P00216188) goes out to it, but the listing runs six hours, which is a long call's worth of time. From Kamari, you have a beach.
 
-Above the south end rises Mesa Vouno, the bare limestone mountain that splits Kamari from Perissa on its far side. On the ridge are the ruins of Ancient Thera, the Hellenistic and Roman town. The road up is steep and there is no direct bus from Fira, so it is for long calls only.
+Above the south end rises Mesa Vouno, the mountain that splits Kamari from Perissa on its far side. On the ridge are the ruins of Ancient Thera, the Hellenistic and Roman town. The road up is steep and there is no direct bus from Fira, so it is for long calls only.
 
 We could not confirm a 2026 sunbed price for Kamari. Carry cash for the beds and the tavernas.
 
@@ -121,7 +121,7 @@ For the full picture of the cable car, Oia and the rest of the island, read [the
 
 ## 16:00, the tender home
 
-If the day runs to plan, you are on a tender around 16:00, 90 minutes before all-aboard, salt drying on your skin, sand in your shoes, looking back up at a cliff that took twenty minutes to come down and five hours to get around.
+If the day runs to plan, you are on a tender around 16:00, 90 minutes before all-aboard, salt drying on your skin, sand in your shoes, looking back up at a cliff you have now crossed twice.
 
 From the water you can see the whole caldera rim at once, and somewhere past it, out of sight, the town under the roof at Akrotiri. Nobody has ever found a victim there. Its people got to the boats in time.
 
