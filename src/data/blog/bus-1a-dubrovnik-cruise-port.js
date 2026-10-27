@@ -1,6 +1,6 @@
 export default `---
-title: "Bus 1A Dubrovnik: Cruise Port to Old Town, Fares and Timing"
-description: "Bus 1A or 1B from Gruž cruise port to Pile Gate takes 15–20 minutes: €2.50 on board, €1.73 pre-bought (2026). The ride in, the walls, and when to head back."
+title: "Bus 1A Dubrovnik: Cruise Port to the Old Town Without the Queue"
+description: "Bus 1A from Gruž cruise port reaches Pile Gate in 15–20 minutes for €2.50 (2026). The ride in, the walls before the crowds, and the bus back you cannot miss."
 date: "2026-06-01"
 updated: "2026-10-27"
 slug: "bus-1a-dubrovnik-cruise-port"
@@ -11,115 +11,116 @@ relatedPorts: ["dubrovnik"]
 relatedPosts: ["dubrovnik-cruise-port-guide", "santorini-vs-mykonos-cruise"]
 ---
 
-> **Quick answer:** From Gruž cruise port, Libertas bus 1A or 1B runs to Pile, the stop outside the Old Town's main gate, in 15–20 minutes. Pay €2.50 to the driver, or €1.73 for a one-hour ticket bought in advance (2026). Buses come roughly every 15–25 minutes in daytime. For a 17:30 all-aboard, leave Pile Gate by 15:45.
+> **Quick answer:** From Gruž cruise port, Libertas bus 1A or 1B runs to Pile, the stop outside the Old Town's main gate, in 15–20 minutes. Pay €2.50 in cash to the driver, or €1.73 for a one-hour ticket bought in advance (2026). Buses come roughly every 15–25 minutes in daytime. For a 17:30 all-aboard, leave Pile Gate by 15:45.
 
-Your ship ties up 3 km from the Old Town, and the bus that closes the gap costs less than a coffee on Stradun. Getting in is the easy half. Getting back is where Dubrovnik catches people out: one coast road, summer traffic, and buses that reach Pile already full. Take the 1A in, get onto the walls before the crowds, and treat the bus home as a fixed appointment rather than a rough idea.
+## 08:00, Gruž, and no walls in sight
 
-## Where your ship docks, and when you skip the bus
+Say the gangway goes down at eight. You step onto the quay at Gruž, the Port of Dubrovnik, and look for the thing you came to see. It is not there. The walls, the orange roofs, the fortresses from every postcard: none of it is visible from the berth. The Old Town is 3 km away, on the far side of the city, and between you and it runs one busy road.
 
-Most ships berth at Gruž, the Port of Dubrovnik, about 3 km north-west of the Old Town. That is where this guide starts.
+That road is the whole story of a Dubrovnik port day. In the morning it carries you in. In the afternoon it decides whether you get back.
 
-Not every ship docks. Under the port's "2+1" arrangement, two ships berth at Gruž and one more may anchor off the Old Town. If you are on the anchored ship, the tender lands you inside the old harbour on the east side of the walls, a ride of a few minutes. You never see the bus. You do see the tender queue on the way back, so be in it 90 minutes before all-aboard: 16:00 for a 17:30 sailing.
+On a morning in April 1667, at about this hour, between eight and a quarter to nine, an earthquake flattened most of the city you are about to visit. Somewhere between 3,000 and 5,000 people died across the Republic of Ragusa, including the Rector himself, Simone Ghetaldi. A fire followed and burned for almost 20 days. What you will walk through in an hour is largely the city they rebuilt afterwards. Keep that in mind on Stradun. It explains why the street looks the way it does.
 
-The port authority's 2026 berthing policy caps cruise visitors at about 4,000 at a time. That is fewer than a decade ago, and it still feels like a lot when they all reach Pile Gate in the same half hour.
+A small number of passengers start the day differently. Under the port's "2+1" arrangement, two ships berth at Gruž and one more may anchor off the Old Town. If yours is the anchored one, a tender lands you inside the old harbour on the east side of the walls after a ride of a few minutes, and you never meet the bus at all. Your risk moves to the tender queue on the way back. For everyone else, the day begins with the 1A.
 
-## Catching the 1A at Gruž
+## 08:15, the Bus 1A stop on the main road
 
-Walk out of the terminal to the main road. Libertas city buses stop there. Cruise line shuttles and taxis wait closer, at the terminal itself, which is why the bus queue is often shorter than the shuttle queue.
+Walk out of the terminal to the main road. The Libertas city buses stop there, not at the terminal door. Closer to the ship you pass the cruise line shuttles and the taxi rank, which is exactly why the public bus queue is often the shorter one: most people take the first option they see.
 
-Lines 1A and 1B both run Mokošica–Pile along the Gruž harbour road. For you they are the same bus. Check that the front reads Pile and get on either one.
+Lines 1A and 1B both run Mokošica–Pile along the Gruž harbour road. For your purposes they are the same bus. Read the front, check it says Pile, and get on whichever arrives first.
 
-Pile is the terminus. You cannot miss your stop, because everyone gets off.
+The driver sells one thing: a single ride for €2.50 (2026). Kompas, the Dubrovnik travel agency, says the on-board fare is cash only and in euros only, so have coins ready before the doors open. A fumbled card and a line of people behind you is not how you want to start. The cheaper option is the one-hour ticket at €1.73, sold at Libertas sales points, Tisak kiosks and in the Libertas app. Buy it on the ship's Wi-Fi over breakfast and the cash question disappears.
 
-In July and August buses fill up near the port. If the first one arrives full, wait for the next. With a bus every 15–25 minutes, waiting costs you less time than walking.
+There is a better buy still, if you are going up on the walls. The one-day Dubrovnik Pass costs €40 (2026), the same as a walls ticket on its own. It includes the walls, the Rector's Palace, the Franciscan Monastery, the Maritime Museum and about a dozen other sites, plus 24 hours of unlimited Libertas city buses from the first ride. If you were going to pay €40 for the walls anyway, the bus becomes free. The 24-hour bus ticket at €5.31 rarely makes sense for a cruise day: three one-hour tickets cost €5.19.
 
-## Tickets: pay the driver or buy ahead
+In July and August the buses fill up near the port. If the first one pulls in full, let it go. Another follows in 15–25 minutes, and waiting still beats walking.
 
-| Ticket | Price (2026) | Where to buy |
-|--------|--------------|--------------|
-| Single ride | €2.50 | From the driver |
-| One-hour ticket | €1.73 | Libertas sales points, Tisak kiosks, Libertas app |
-| 24-hour ticket | €5.31 | Libertas sales points, Tisak kiosks, Libertas app |
-| Dubrovnik Pass, one day | €40 | Includes unlimited city buses |
+## Fifteen minutes on the Bus 1A to Pile
 
-The driver sells only the single-ride ticket, and Kompas, the local travel agency, reports that drivers take cash only, so carry euro coins. The cheaper one-hour ticket is in the Libertas app, which settles the cash question before you leave the ship.
+The ride takes 15–20 minutes when the road is clear. Pile is the terminus, so you cannot miss your stop. Everyone gets off.
 
-The 24-hour ticket looks like a deal and usually is not. Three driver fares cost €7.50, so against those it wins. Three one-hour tickets cost €5.19, which is less than €5.31. Buy the day ticket only if you will pay the driver, or if you will ride four times or more, for example Gruž to Pile, Pile to Lapad Bay for a swim, and back.
+You could have done this differently, and it is worth knowing why you did not. A taxi from the terminal takes 10–15 minutes, up to 30 in summer traffic, and drops you at Pile or Ploče because no car enters the pedestrian Old Town. Uber and Bolt operate here with the same limit. The cruise line shuttle, often paid, takes 15–20 minutes on the same road and sits in the same traffic as the bus. Walking is about 3 km, 35–45 minutes along busy roads with some climbing. On a cool spring morning, if you are fit, it is fine. In July it is a poor trade, because the next thing you do is climb 1,080 steps.
 
-The better buy for most cruise passengers is the Dubrovnik Pass. At €40 for one day (2026) it costs the same as a city walls ticket on its own, and adds the Rector's Palace, the Franciscan Monastery and unlimited city buses. If you are walking the walls anyway, the bus becomes free. Buy it before you board, so the ride is covered.
+## 08:45, through Pile Gate and up the walls
 
-## Other ways in, and why the bus still wins
+You step off the bus, cross into Pile Gate, and the first thing in front of you is a squat stone dome with water running from carved faces. That is the Large Onofrio Fountain, built in 1438–1440 by Onofrio della Cava. It sat at the end of an aqueduct of about 12 km that brought water from a spring at Šumet. Each of its sixteen sides has its own carved mask with a spout in its mouth. The earthquake of 1667 damaged it badly, and what you see is a reduced version of the original. Fill your bottle anyway. You will want it in an hour.
 
-Taxis wait at the terminal and take 10–15 minutes to the Old Town, up to 30 minutes in summer traffic. Agree the price or check the meter. Uber and Bolt operate in Dubrovnik, but no car can enter the pedestrian Old Town, so you are dropped at Pile or Ploče, the same places the bus goes.
+The walls entrance is right there, by the fountain. Go straight up. Every other thing in the Old Town will still be there at noon. The empty walls will not.
 
-The cruise line shuttle is often paid, takes 15–20 minutes and uses the same road as the public bus, so it sits in the same traffic. It is worth taking only if its drop-off and its last return time suit your plan. Ask both before you buy.
+Cruise crowds peak on the walls and on Stradun between about 09:30 and 13:00. From June to mid-September the walls open at 08:00, and from mid-September to the end of October at 09:00, according to the Kompas schedule. An 08:15 bus from Gruž puts you on the ramparts ahead of the main wave. Buy your ticket at the official office by Onofrio's Fountain, at the wall entrances or on the official webshop. Third-party sellers add a commission for exactly the same ticket; Kompas puts it at 25–40%.
 
-Line 3 (Nuncijata–Pile) also passes the port area but does not run on Saturdays, Sundays or holidays. Line 8 (Viktorija–Gruž) links Gruž with the Ploče side of town. Both are useful backups. Neither is worth planning a day around without checking the stop timetable first.
+The ticket is €40 for adults and €15 for children aged 7–18 (2026). The circuit is about 2 km and takes 1.5–2 hours. It runs one way only, you follow the arrows, and you cannot leave and come back in. Almost none of it is shaded, and the limestone steps are polished smooth by centuries of feet, which makes them slippery. Kompas counts 1,080 of them.
 
-## Walking instead
+Up here the city stops being a postcard and starts being a record. On 6 December 1991, during the siege of Dubrovnik, more than 600 projectiles hit the Old Town in a single day, according to the city's own account of the war. The walls you are standing on took 76 direct hits. Over the whole assault, the city puts the share of Old Town buildings damaged at 72%.
 
-Gruž to Pile Gate is about 3 km and takes 35–45 minutes, mostly along busy roads with traffic and some climbing. On a cool spring morning, if you are fit, it is fine.
+Across the small bay to the west, on its own rock, stands Fort Lovrijenac. Your walls ticket covers it for 72 hours from scanning, so do not pay the €15 separate fee at its gate. Above that gate is a Latin inscription: *Non bene pro toto libertas venditur auro*. Liberty is not well sold for all the gold in the world. The Chronicles of Ragusa tell how, early in the 11th century, Venice planned to build a fort on that very rock; the locals built their own in three months and sent the Venetian ships home with their building materials still on board. The fort's seaward walls are up to 12 metres thick. The wall facing the city is 60 centimetres. Draw your own conclusion about how far the Republic trusted its own garrison.
 
-In summer it is a poor trade. The walls circuit that follows has about 1,080 steps, according to Kompas, with almost no shade. Spend €2.50 and save your legs for that.
+The bus you rode in on carries that same word on its side: Libertas.
 
-## The walls first, everything else after
+## 10:45, Stradun after the earthquake
 
-Get off at Pile, walk through the gate, and the walls entrance is just inside, by Onofrio's Fountain. Go straight up. Every other thing in the Old Town can wait until the afternoon. The walls cannot.
+You come down from the walls at the time everyone else is going up. Good. Stradun, the limestone main street, runs from Pile to the old harbour, past the clock tower, Orlando's Column and Sponza Palace. Every building along it was destroyed in 1667 and the street was buried in rubble. The city was rebuilt in the Baroque style, which is why Stradun has the even, ordered look it does today. Sponza and the Rector's Palace were badly damaged too, but they are the two buildings usually counted as survivors.
 
-Cruise crowds peak on the walls and on Stradun between about 09:30 and 13:00. From June to mid-September the walls open at 08:00, and from mid-September to the end of October at 09:00 (Kompas schedule). If you leave the ship at 08:15 and take the first bus you can, you are walking the circuit before the main wave arrives.
+The same street took 45 direct hits on 6 December 1991. You will not see the scars from the pavement. That is the point of the restoration.
 
-- **Price:** €40 adults, €15 children aged 7–18 (2026).
-- **Time:** 1.5–2 hours for the 2 km circuit.
-- **One entry:** you cannot leave and re-enter, and the route runs in one direction only.
-- **Fort Lovrijenac:** included. The ticket covers it for 72 hours from scanning, so do not pay the €15 separate fee.
-- **Where to buy:** the official office by Onofrio's Fountain, the wall entrances or the official webshop. Resellers add a markup for the same ticket.
+By now Stradun is at its fullest, so go indoors. The Rector's Palace, the Gothic-Renaissance seat of the old Republic and now the Cultural History Museum, takes about 45 minutes and is in the Dubrovnik Pass. The Franciscan Monastery, just inside Pile Gate, has a Romanesque cloister and one of Europe's oldest working pharmacies. The 1667 fire destroyed much of the monastery and its great library. The church survived.
 
-Take water. There is almost no shade up there, and the polished limestone steps get slippery.
+If you would rather someone filled in the centuries between the earthquake and the siege, a 90-minute [Old Town walking tour](https://www.viator.com/tours/Dubrovnik/Dubrovnik-Old-Town-15-Hour-Discovery-Tour/d904-3494OLDTOWN?mcid=42383&pid=P00216188) fits into this slot without touching your bus home.
 
-If the queue at Pile is long, the Ploče entrance at the far end of Stradun is quieter, and you were going to walk Stradun anyway.
+## 12:15, lunch one street back
 
-For the history you will not get from the information boards, a 90-minute [Old Town walking tour](https://www.viator.com/tours/Dubrovnik/Dubrovnik-Old-Town-15-Hour-Discovery-Tour/d904-3494OLDTOWN?mcid=42383&pid=P00216188) fits neatly after the walls and before lunch.
+Do not eat on Stradun. The same dishes cost noticeably less one or two streets away, and the side streets north of the main drag are where the konobas are. Kamenice, at Gundulićeva poljana 8, is the classic stop for Ston oysters and mussels buzara, and the morning market on the same square sells cheese, figs, prosciutto and honey if you would rather picnic. Crni rižot, black risotto coloured with cuttlefish ink, is on most menus. Rožata, the city's custard pudding, is how you finish.
 
-## The rest of the day from Pile
+One warning. Some restaurants price fresh fish by the kilo. Ask for the weight and the total before it goes on the grill, not after.
 
-Stradun, the limestone main street, runs from Pile to the old harbour, past the clock tower, Orlando's Column and Sponza Palace. You want it before 09:00 or after 16:00 if you are after photos without heads in them. At midday, go indoors: the Rector's Palace and the Franciscan Monastery, with one of Europe's oldest working pharmacies, are both in the Dubrovnik Pass and both cooler than the street.
+Fans of the show can spend the early afternoon on a two-hour [Game of Thrones walking tour](https://www.viator.com/tours/Dubrovnik/Classic-GOT-tour/d904-3494P9?mcid=42383&pid=P00216188) instead, and let someone else point out which staircase was which. If you choose that, drop the cable car below. You do not have time for both.
 
-Eat one or two streets away from Stradun. The dishes are the same and the prices are noticeably lower. Kamenice on Gundulić Square is the classic stop for Ston oysters and mussels buzara, and the morning market on the same square sells cheese, figs and honey. If a restaurant prices fish by the kilo, ask for the weight and the total before it goes on the grill.
+## 13:30, out through Ploče and above the city
 
-Game of Thrones fans can book a two-hour [Game of Thrones walking tour](https://www.viator.com/tours/Dubrovnik/Classic-GOT-tour/d904-3494P9?mcid=42383&pid=P00216188) and let someone else work out which staircase was the Walk of Shame.
+Walk the length of Stradun and leave by Ploče Gate on the east side. The lower station of the Mount Srđ cable car is about five minutes' walk away. The ride up takes four minutes and lifts you 400 metres above the Old Town, where you get the view you could not see from the ship this morning: the whole ring of walls, the roofs, and the Elaphiti islands beyond. It costs €30 return, €17 one way (2026). Allow 60–75 minutes in total. Service stops in strong wind and lightning, so check it is running before you join the queue.
 
-The Mount Srđ cable car's lower station is about 5 minutes' walk from Ploče Gate. A four-minute ride takes you 400 m above the Old Town, with the clearest view of the walls and the Elaphiti islands. €30 return, €17 one way (2026). Allow 1–1.5 hours. It stops in strong wind and lightning, so check before you queue.
+Just outside the walls on the Ploče side is a long, low run of stone buildings: the Lazarettos. They exist because of a decision this city made in 1377, while the Black Death was sweeping Europe. Ragusa ordered that merchants, sailors and goods from suspect places wait out their time on the empty islands off the coast before entering the city. The waiting period later settled at 40 days, and the Italian word for a 40-day period, *quarantino*, gave English the word quarantine. The buildings by Ploče came much later and were completed in 1642. Breaking quarantine in the 14th century, a historian at the Lazarettos told NPR, could cost you your nose or your ears.
 
-Lokrum is a wooded nature reserve 15 minutes by boat from the old harbour, with rock swimming and a sheltered salt lake. €30 return including reserve entry (2026), boats roughly every 30 minutes in season. Allow 2.5–3 hours. Lokrum adds a boat to your return, so leave the island two hours before all-aboard: 15:30 for a 17:30 sailing. Note the last boat time posted at the dock and keep your ticket.
+Not everyone wants the view. Banje Beach, a pebble beach facing the walls, is five minutes' walk east of Ploče Gate. It is free, with sunbeds extra, and crowded by late morning in summer. Lokrum, a wooded nature reserve with a salt lake and rock swimming, is 15 minutes by boat from the old harbour for €30 return including reserve entry (2026). It needs 2.5–3 hours, and it adds a boat to your journey home, so leave the island two hours before all-aboard: by 15:30 for a 17:30 sailing. For something shorter on the water, a two-hour [sea kayaking and snorkelling trip](https://www.viator.com/tours/Dubrovnik/Dubrovnik-Sea-Kayaking-and-Snorkeling-Adventure/d904-3494P5?mcid=42383&pid=P00216188) works too. Check where it starts and ends before you book, then work back from your bus.
 
-If you would rather be on the water than on a ferry, a two-hour [sea kayaking and snorkelling trip](https://www.viator.com/tours/Dubrovnik/Dubrovnik-Sea-Kayaking-and-Snorkeling-Adventure/d904-3494P5?mcid=42383&pid=P00216188) is a shorter commitment than Lokrum. Check where it starts and finishes before you book, and work back from your bus time.
+## 15:00, the afternoon turns
 
-Banje Beach, a pebble beach with a view of the walls, is 5 minutes' walk east of Ploče Gate and is free, with sunbeds extra. It is crowded by late morning in summer.
+You come down the hill and something has changed. Stradun is emptying. The light is softer. This is the hour the street looks best, and every instinct tells you to stay for one more coffee.
 
-## Getting back to Gruž
+This is also the hour when Dubrovnik catches people out.
 
-This is the part to take seriously. The ride is 15–20 minutes on a clear road. In summer the coast road to Gruž backs up and full buses pass the Pile stop. Allow for one missed bus, a slow ride and the walk through the port, and you need about 45 minutes.
+Across the city, other ships' passengers are making the same calculation at the same time. The coast road to Gruž is starting to fill. The buses arriving at Pile from the other end of the line are already carrying people. If you still have a walls ticket, Fort Lovrijenac is a short walk from Pile and takes 30–45 minutes. Do it now or let it go.
 
-The rule we use: leave Pile Gate 1 hour 45 minutes before all-aboard. That puts you on board about an hour early, which is where you want to be.
+## 15:45, the last Bus 1A that is safe
 
-| All-aboard | Leave Pile Gate | Back at Gruž (worst case) | Buffer on board |
-|------------|-----------------|---------------------------|-----------------|
-| 16:00 | 14:15 | 15:00 | 60 min |
-| 17:00 | 15:15 | 16:00 | 60 min |
-| 17:30 | 15:45 | 16:30 | 60 min |
-| 18:00 | 16:15 | 17:00 | 60 min |
+Here is the arithmetic, and it does not care how nice the afternoon is. The ride to Gruž is 15–20 minutes on a clear road. In summer the road backs up and full buses pass the Pile stop. Allow for one missed bus, a slow ride and the walk back through the port, and you need about 45 minutes.
 
-An hour of buffer can sound excessive at 15:30, with Stradun finally emptying. It is not. The ship does not wait for independent passengers, and if it sails without you, reaching the next port is your problem and your bill.
+So the rule we use is simple: leave Pile Gate 1 hour 45 minutes before all-aboard. For a 17:30 sailing, that is the 15:45 bus. It puts you on board at about 16:30, an hour early. An hour of buffer feels excessive while you stand at the stop watching the evening start without you. It is not. It is the margin that absorbs the bus that does not stop.
 
-If you are running late, stop waiting for a bus and take a taxi from the rank at Pile. If you will miss all-aboard, call the ship's port agent on the number in your daily programme.
+The ship will not wait. It waits for its own excursions, not for passengers who went independently. In March 2024, eight passengers on Norwegian Dawn came back late from a private tour in São Tomé and Príncipe, after the 15:00 all-aboard. The ship had closed its doors and they were refused boarding. Global News reported that it took them about six days to catch up with the ship in Senegal, one couple paid around US$5,000 for the group's travel, and the cruise line's position was that guests are responsible for being back at the published time. Dubrovnik is not São Tomé. The principle is the same.
 
-Our [Dubrovnik port guide](/ports/dubrovnik) covers the rest of the port, and the [Dubrovnik day planner](/day/dubrovnik) builds these times around your own all-aboard.
+If the clock is going against you, stop waiting for a bus. Take a taxi from the rank at Pile, check the meter is on or agree the price first, and go. If you are going to miss all-aboard anyway, call the ship's port agent on the number in your daily programme, because reaching the next port would be your problem and your bill.
 
-## Ship tour or the 1A
+At 16:30 you are back on deck, and the walls are out of sight again, behind the city. You know now what is there.
 
-For the Old Town, the bus wins clearly. Carnival's "Walking the City Ramparts", a 4-hour tour, cost $104.99 per adult in 2026. The DIY version costs €45: €2.50 bus each way plus the €40 walls ticket (2026). That is roughly half the price, and you choose the time, which in Dubrovnik matters more than the money. A group tour arriving at 10:00 walks the walls at the busiest hour of the day.
+## The practical bit
 
-The ship's tour earns its price elsewhere. Ston, Cavtat and the Konavle valley depend on road timing that you cannot control. With limited mobility, a guaranteed seat both ways is worth paying for, because the walls are steps only and the bus can be standing room. And the ship waits for its own tours. It does not wait for the 1A.
+Times assume a summer weekday, docking at Gruž at 08:00. The [Dubrovnik day planner](/day/dubrovnik) rebuilds this around your own all-aboard time, and our [Dubrovnik port guide](/ports/dubrovnik) covers the rest of the port.
+
+| What | Detail (2026) |
+|------|---------------|
+| Bus 1A / 1B, Gruž to Pile | 15–20 min, every 15–25 min in daytime |
+| Fare on board | €2.50, cash, euros only |
+| One-hour ticket, bought ahead | €1.73 (Libertas app, Tisak kiosks, sales points) |
+| Dubrovnik Pass, one day | €40, includes walls, museums and city buses |
+| City walls | €40 adult, €15 age 7–18; Fort Lovrijenac included |
+| Cable car | €30 return, €17 one way |
+| Leave Pile for a 16:00 all-aboard | 14:15 |
+| Leave Pile for a 17:00 all-aboard | 15:15 |
+| Leave Pile for a 17:30 all-aboard | 15:45 |
+| Leave Pile for an 18:00 all-aboard | 16:15 |
+
+Against a ship tour, the 1A wins for the Old Town. Carnival's four-hour "Walking the City Ramparts" cost $104.99 per adult in 2026. The do-it-yourself version is €45: the bus each way plus the walls ticket. You also choose your hour, and a group arriving at 10:00 walks the walls at the busiest point of the day. The ship's excursions earn their price for Ston, Cavtat and the Konavle valley, where road timing is out of your hands, and for passengers with limited mobility who need a guaranteed seat both ways.
 
 ## FAQ
 
@@ -129,11 +130,11 @@ Not for a cruise passenger. Both run Mokošica–Pile via the Gruž harbour road
 
 ### Does bus 3 run from the cruise port at weekends?
 
-No. Line 3 (Nuncijata–Pile) does not run on Saturdays, Sundays or holidays. Use 1A or 1B.
+No. Line 3 (Nuncijata–Pile) also passes the port area but does not run on Saturdays, Sundays or holidays. Line 8 (Viktorija–Gruž) links Gruž with the Ploče side of town. Check the stop timetable before relying on either.
 
 ### Is the bus manageable with limited mobility?
 
-Partly. Gruž has level access from the ship to the road, and Pile is a step-free stop. The buses can be crowded, though. Inside the Old Town, Stradun and Luža Square are flat and smooth, but most side streets are stepped and the walls are steps only. The cable car is the easiest way to see the Old Town from above.
+Partly. Gruž has level access from the ship to the road and Pile is a step-free stop, but the buses can be crowded. Inside the Old Town, Stradun and Luža Square are flat and smooth, most side streets are stepped, and the walls are steps only. The cable car is the easiest way to see the Old Town from above.
 
 ### Can you take a suitcase on the bus at the end of a cruise?
 
@@ -141,18 +142,18 @@ You can ride with it, but the Old Town bans wheeled suitcases on its streets. If
 
 ### What if it rains?
 
-Swap the walls, which get slippery, for the Rector's Palace, the Franciscan Monastery and the Maritime Museum, all covered by the Dubrovnik Pass. The cable car stops in lightning and strong wind.
+Skip the walls, which turn slippery, and spend the morning in the Rector's Palace, the Franciscan Monastery and the Maritime Museum, all covered by the Dubrovnik Pass. The cable car stops in lightning and strong wind.
 
 ## Sources
 
 - [Libertas Dubrovnik – price list](https://www.libertasdubrovnik.hr/en/price-list)
-- [Libertas Dubrovnik – line 1A Mokošica–Pile](https://www.libertasdubrovnik.hr/en/line/1/mokosica-pile-1a)
-- [Libertas Dubrovnik – line 3 Nuncijata–Pile](https://www.libertasdubrovnik.hr/en/line/25/nuncijata-pile-3)
 - [Kompas – getting around Dubrovnik by bus](https://kompas.hr/dubrovnik/getting-around/bus)
 - [Kompas – Dubrovnik City Walls](https://kompas.hr/dubrovnik/attractions/city-walls)
-- [Kompas – Dubrovnik City Walls tickets](https://kompas.hr/dubrovnik/attractions/city-walls/tickets)
 - [Kompas – Dubrovnik Pass](https://kompas.hr/dubrovnik/attractions/dubrovnik-pass)
-- [Dubrovnik Cable Car – timetable and prices](https://www.dubrovnikcablecar.com/timetable-and-prices/)
-- [EU Transition Pathways – Dubrovnik Port Authority 2026 cruise berthing policy](https://transition-pathways.europa.eu/tourism/policy/2026-cruise-berthing-regulations-dubrovnik-port-authority)
-- [Carnival – Walking the City Ramparts, Dubrovnik](https://www.carnival.com/shore-excursions/dubrovnik/walking-the-city-ramparts-953079)
+- [City of Dubrovnik – destruction in the Old City, 1991](https://www.dubrovnik.hr/stradanje-grada/the-destruction-and-restoration-dubrovnik-1991-2000/destruction-old-city)
+- [Wikipedia – 1667 Dubrovnik earthquake](https://en.wikipedia.org/wiki/1667_Dubrovnik_earthquake)
+- [Wikipedia – Lovrijenac](https://en.wikipedia.org/wiki/Lovrijenac)
+- [NPR (via KUNC) – how a medieval city invented quarantine](https://www.kunc.org/npr-news/2021-07-06/how-a-medieval-city-dealing-with-the-black-death-invented-quarantine)
+- [History Hit – Large Onofrio Fountain](https://www.historyhit.com/locations/large-onofrio-fountain/)
+- [Global News – Norwegian Dawn passengers left behind, 2024](https://globalnews.ca/news/10398017/cruise-ship-passengers-stranded-africa-late-norwegian-cruise-line)
 `;
