@@ -2,7 +2,9 @@
 import Base from '../../layouts/Base.astro';
 import { BY_SLUG } from '../../lib/blog.js';
 import { CAT, portImage, wm, wmSet } from '../../lib/ports.js';
-import { app, fixLinks, PRICES } from '../../lib/site.js';
+import { app, fixLinks, PRICES, buyUrl } from '../../lib/site.js';
+import Offer from '../../components/Offer.astro';
+import StickyBuy from '../../components/StickyBuy.astro';
 import PUB from '../../data/published.json';
 import TourStrip from '../../components/TourStrip.astro';
 
@@ -20,6 +22,7 @@ const heroImg = (ports[0] && portImage(ports[0])?.src) || portImage('santorini')
 const html = fixLinks(p.html);
 const cut = (() => { let i = -1; for (let n = 0; n < 3; n++) { i = html.indexOf('<h2', i + 1); if (i < 0) return -1; } return i; })();
 const [htmlA, htmlB] = cut > 0 ? [html.slice(0, cut), html.slice(cut)] : [html, ''];
+const city0 = ports[0] ? String(CAT[ports[0]].city).split(' (')[0] : '';
 const related = (Array.isArray(p.relatedPosts) ? p.relatedPosts : []).filter((s) => pub.has(s) && BY_SLUG[s]).slice(0, 4);
 const date = (d) => { try { return new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }); } catch { return d; } };
 const jsonLd = [
@@ -41,20 +44,12 @@ const jsonLd = [
   </header>
   <article class="mx-auto max-w-3xl px-5 pb-28 pt-8 sm:px-8">
     {p.quick && <div class="rounded-2xl border-l-4 border-signal bg-fog p-5 text-lg leading-relaxed"><strong>Quick answer:</strong> <span set:html={fixLinks(p.quick)} /></div>}
+    <p class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-[15px] text-navy/75"><span>Sailing soon? {city0 ? `Get ${city0} and every other port` : 'Get every port'} of your cruise timed to your all-aboard.</span><a href={buyUrl('cruise_pass', `blog_top_${slug}`)} class="font-semibold text-sea underline underline-offset-4" rel="nofollow" data-buy="blog_top">Cruise Pass, {PRICES.pass} once</a></p>
     <div class="doc mt-8" set:html={htmlA} />
     {ports[0] && <TourStrip slug={ports[0]} />}
     {htmlB && <div class="doc" set:html={htmlB} />}
-    <aside class="mt-12 rounded-2xl bg-navy p-6 text-white">
-      <p class="text-xl font-semibold">{ports[0] ? `Time your ${CAT[ports[0]].city} day to your ship` : 'Time every port day to your ship'}</p>
-      <p class="mt-2 text-white/75">Leave-by times for every part of town, in port time and ship time, with the queues counted. Free for one port.</p>
-      <div class="mt-4 flex flex-wrap gap-3">
-        <a href={app(ports[0] ? `/day/${ports[0]}` : '/day/dubrovnik')} class="btn-signal h-11 text-sm" rel="nofollow">Plan {ports[0] ? CAT[ports[0]].city : 'a port'} free</a>
-        <a href="/pricing" class="inline-flex h-11 items-center rounded-lg px-4 text-sm font-semibold text-white underline underline-offset-4">Cruise Pass {PRICES.pass}</a>
-      </div>
-    </aside>
+    <div class="mt-12"><Offer city={city0} slug={ports[0] || ''} src={`blog_${slug}`} /></div>
     {related.length > 0 && <section class="mt-12"><h2 class="text-xl font-semibold">Read next</h2><ul class="mt-4 grid gap-3 sm:grid-cols-2">{related.map((s) => <li><a href={`/blog/${s}`} class="card block p-4 font-semibold hover:ring-sea/50">{BY_SLUG[s].h1 || BY_SLUG[s].title}</a></li>)}</ul></section>}
   </article>
-  <div class="fixed inset-x-0 bottom-0 z-30 border-t border-navy/10 bg-white/95 p-3 backdrop-blur sm:hidden">
-    <a href={app(ports[0] ? `/day/${ports[0]}` : '/day/dubrovnik')} class="btn-signal w-full" rel="nofollow">Plan {ports[0] ? CAT[ports[0]].city : 'a port'} free</a>
-  </div>
+  <StickyBuy city={city0} slug={ports[0] || ''} src={`blog_sticky_${slug}`} />
 </Base>

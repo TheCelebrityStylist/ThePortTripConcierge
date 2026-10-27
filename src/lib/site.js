@@ -18,3 +18,17 @@ export const APP_PATHS = /^\/(planner|day\/|port-day-live|login|cruise-dashboard
 export function fixLinks(html) {
   return String(html).replace(/href="(\/[^"]*)"/g, (m, p) => (APP_PATHS.test(p) ? `href="${APP_URL}${p}" rel="nofollow"` : m));
 }
+
+// ── Buying ──────────────────────────────────────────────────────────────────
+// Straight to checkout: the app's /pricing?buy=<product> opens the purchase
+// flow at once. utm_* is picked up by the app's first-touch attribution, so
+// each placement on this site shows up separately in the funnel.
+export const buyUrl = (product = 'cruise_pass', src = 'site') =>
+  app(`/pricing?buy=${product}&src=${encodeURIComponent(src)}&utm_source=porttrip.com&utm_medium=site&utm_campaign=${encodeURIComponent(src)}`);
+
+// Three facts that make the case. Each is sourced in the linked post.
+export const PROOF = [
+  { k: 'miss', head: 'Ships do not wait.', body: 'In March 2024, eight Norwegian Dawn passengers on a private tour came back to the pier in São Tomé more than an hour after all-aboard. Getting back on board took six days, seven countries and over $5,000.', href: '/blog/what-happens-if-you-miss-cruise-ship' },
+  { k: 'price', head: 'The ship charges for the easy part.', body: 'Carnival sells a coach to Rome for US$129.99 a person. The train is from €9.20 return. PortTrip tells you which train, and the last one that gets you back.', href: '/blog/how-much-do-cruise-excursions-cost' },
+  { k: 'live', head: 'On the day, it watches the clock.', body: 'Google Maps travel time from where you stand back to the pier, with alerts at 30, 15 and 0 minutes.', href: '/pricing' },
+];

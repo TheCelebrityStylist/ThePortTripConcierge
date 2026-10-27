@@ -30,7 +30,7 @@ All leave-by times assume a 17:30 all-aboard.
 | 2 | Valletta | Walk 10–15 min, then €1 lift | Medium | Upper Barrakka lift queue 16:00 | about €25 |
 | 3 | Barcelona | Cruise Bus, about 10 min | Medium | Cruise Bus stop 16:15 | about €37 |
 | 4 | Mykonos | Sea Bus 10–12 min, or tender | Medium | Sea Bus or tender pier 16:00 | about €45 with Delos |
-| 5 | Dubrovnik | Bus 1A or 1B, 15–20 min | Medium | Pile Gate 15:45 | about €45 |
+| 5 | Dubrovnik | Bus 1A or 1B, 15–20 min | Medium | Pile Gate 15:45 | about €40 |
 | 6 | Kotor | Tender or quay, then 5 min walk | Medium | Tender pier 16:00 | about €20 |
 | 7 | Naples | Walk, 10–20 min | High (Pompeii) | Old town 16:15; Pompeii train 14:30 | about €27 |
 | 8 | Venice | People Mover and vaporetto | High | St Mark's 15:30 (city berths) | about €64 |

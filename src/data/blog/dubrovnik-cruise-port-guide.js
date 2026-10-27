@@ -135,7 +135,7 @@ Times assume docking at Gruž at 08:00 and a 17:30 all-aboard on a summer weekda
 | 17:30 | 15:45 |
 | 18:00 | 16:15 |
 
-**Ship excursion or DIY.** For the Old Town, walls and cable car you do not need a ship tour. Carnival's four-hour "Walking the City Ramparts" cost $119.99 per adult in 2026; the bus both ways and the walls ticket cost €45. A ship tour earns its price for Ston, Cavtat or the Konavle valley, where road timing is out of your hands, and for passengers with limited mobility who want a guaranteed seat both ways. The ship waits for its own tours.
+**Ship excursion or DIY.** For the Old Town, walls and cable car you do not need a ship tour. Carnival's four-hour "Walking the City Ramparts" cost $119.99 per adult in 2026; the €40 Dubrovnik Pass covers the walls and the bus both ways. A ship tour earns its price for Ston, Cavtat or the Konavle valley, where road timing is out of your hands, and for passengers with limited mobility who want a guaranteed seat both ways. The ship waits for its own tours.
 
 **Accessibility.** Stradun and Luža Square are flat and smooth; most side streets are steps, and the walls are steps only. The cable car is the easiest way for limited-mobility visitors to see the Old Town from above.
 

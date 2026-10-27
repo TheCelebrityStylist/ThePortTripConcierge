@@ -36,7 +36,7 @@ What we can give you are named, dated prices from the lines' own excursion pages
 |---|---|---|---|
 | Rome (Civitavecchia) | Carnival, Explore Rome on Your Own | US$129.99 adult, US$114.99 child | Train €9.20–10 return, or €14 BIRG day ticket |
 | Barcelona | Norwegian, Attraction Pass with Sagrada Família | From US$309.99 adult | About €37: Cruise Bus, two metro rides, Sagrada Família |
-| Dubrovnik | Carnival, Walking the City Ramparts, 4 h | US$119.99 adult | €45: bus €2.50 each way plus €40 walls ticket |
+| Dubrovnik | Carnival, Walking the City Ramparts, 4 h | US$119.99 adult | €40: the Dubrovnik Pass covers the walls and 24 hours of city buses |
 | Stockholm (Nynäshamn) | Carnival, Stockholm Sights & Vasa Museum, 5 h | From US$189.99 adult, US$144.99 child | Train 43 kr each way plus Vasa Museum 240 kr in summer, 195 kr October to April |
 | Ålesund | Disney, Trolley Train to Aksla | US$99 adult | City train 320 kr online, or 418 steps for free |
 | Juneau | Holland America, Mendenhall Glacier & Glacier Gardens, about 4 h | From US$124 | $9: city bus $2 each way plus $5 visitor centre fee, but up to 3 hours' travel |
@@ -84,7 +84,7 @@ The Mediterranean is where the gap is widest and the DIY day easiest, because th
 | Florence (Livorno) | Train €11.40 each way, bus €2 each way | Uffizi €25 on the day, Accademia €20 | About €27 for transport alone | Train from Santa Maria Novella by 14:00 |
 | Venice | People Mover €1.50, vaporetto €9.50 each way | St Mark's Basilica €10, Doge's Palace €35 | About €64 | St Mark's by 15:30 (Marittima berth) |
 | Lisbon | €0.50 card plus €7.25 24-hour ticket | Jerónimos €18, Castelo de São Jorge €17 | About €43 | Belém by 15:15 |
-| Dubrovnik | Bus €2.50 each way on board | City Walls €40, includes Fort Lovrijenac | About €45 | Pile Gate by 15:45 |
+| Dubrovnik | Included in the Dubrovnik Pass | Dubrovnik Pass €40: walls, Fort Lovrijenac and 24 hours of buses | About €40 | Pile Gate by 15:45 |
 | Santorini | Cable car €10 each way (2025), Oia bus €2.20 each way | Oia is free | About €24 | Top cable car station by 15:00 |
 | Mykonos | Sea Bus €2–2.50 each way | Delos boat €20 plus €20 entry | About €45 | Old Port pier by 16:00 |
 | Valletta | Upper Barrakka lift €1 return | St John's Co-Cathedral €15 | About €25 | Lift queue by 16:00 |
@@ -92,7 +92,7 @@ The Mediterranean is where the gap is widest and the DIY day easiest, because th
 
 Two things stand out. The expensive DIY days, Venice and Athens, are expensive because of entry tickets, not transport. The cheap ones, Kotor, Santorini and Valletta, are cheap because the town begins where you step ashore.
 
-Dubrovnik is the row that settles the argument for most people. Carnival's ramparts tour is US$119.99 for four hours. The bus and the walls ticket come to €45, and you choose your own hour on the walls instead of sharing it with the coach groups. Bus 1A or 1B from Gruž takes 15–20 minutes to Pile Gate; our [Dubrovnik bus guide](/blog/bus-1a-dubrovnik-cruise-port) has the queue and the timing. Be back at Pile Gate by 15:45 for a 17:30 all-aboard.
+Dubrovnik is the row that settles the argument for most people. Carnival's ramparts tour is US$119.99 for four hours. The €40 Dubrovnik Pass covers the walls and the bus both ways, and you choose your own hour on the walls instead of sharing it with the coach groups. Bus 1A or 1B from Gruž takes 15–20 minutes to Pile Gate; our [Dubrovnik bus guide](/blog/bus-1a-dubrovnik-cruise-port) has the queue and the timing. Be back at Pile Gate by 15:45 for a 17:30 all-aboard.
 
 In Rome, the €34 day is the train and the Colosseum. Add the Pantheon at €7 and the Trevi basin at €2, and the free things, St Peter's and three Caravaggios in San Luigi dei Francesi, and you have the day in our [Rome without a ship excursion](/blog/rome-cruise-port-without-excursion), still for less than a third of the coach seat.
 

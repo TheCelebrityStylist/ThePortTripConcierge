@@ -1,0 +1,36 @@
+---
+// Bottom bar that follows the reader once they are into the page.
+// Hidden while a full Offer is on screen, and closable for the session.
+import { app, buyUrl, PRICES } from '../lib/site.js';
+const { city = '', slug = '', src = 'sticky' } = Astro.props;
+const line = city ? `${city} and every other port of your cruise, timed to your ship` : 'Every port of your cruise, timed to your ship';
+const free = slug ? app(`/day/${slug}`) : '';
+---
+<div data-sticky-buy hidden class="fixed inset-x-0 bottom-0 z-40 border-t border-navy/10 bg-white/95 px-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 shadow-[0_-12px_30px_-18px_rgba(18,50,74,0.45)] backdrop-blur md:inset-x-auto md:bottom-5 md:right-5 md:w-[24rem] md:rounded-2xl md:border md:p-4">
+  <div class="flex items-center gap-3">
+    <div class="min-w-0 flex-1">
+      <p class="text-[13px] font-semibold leading-snug text-navy md:text-sm">{line}</p>
+      <p class="mt-0.5 text-xs text-navy/60">{PRICES.pass} once · 30-day refund{free && <> · <a href={free} class="underline" rel="nofollow">try {city} free</a></>}</p>
+    </div>
+    <a href={buyUrl('cruise_pass', src)} class="inline-flex h-11 flex-shrink-0 items-center rounded-xl bg-signal px-4 text-sm font-bold text-navy hover:bg-signalHover" rel="nofollow" data-buy={src}>Get it</a>
+    <button type="button" data-sticky-close class="-mr-1 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full text-navy/45 hover:bg-fog hover:text-navy" aria-label="Close">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+    </button>
+  </div>
+</div>
+<script is:inline>
+(function () {
+  var bar = document.querySelector('[data-sticky-buy]'); if (!bar) return;
+  var closed = false; try { closed = sessionStorage.getItem('pt_sticky_closed') === '1'; } catch (e) {}
+  if (closed) return;
+  var offerOnScreen = false;
+  var offers = document.querySelectorAll('[aria-label="Cruise Pass"]');
+  if ('IntersectionObserver' in window && offers.length) {
+    var io = new IntersectionObserver(function (es) { offerOnScreen = es.some(function (e) { return e.isIntersecting; }) || Array.prototype.some.call(offers, function (o) { var r = o.getBoundingClientRect(); return r.top < innerHeight && r.bottom > 0; }); update(); });
+    offers.forEach(function (o) { io.observe(o); });
+  }
+  function update() { bar.hidden = closed || offerOnScreen || scrollY < Math.min(700, innerHeight * 0.9); }
+  addEventListener('scroll', update, { passive: true }); update();
+  bar.querySelector('[data-sticky-close]').addEventListener('click', function () { closed = true; try { sessionStorage.setItem('pt_sticky_closed', '1'); } catch (e) {} update(); });
+})();
+</script>

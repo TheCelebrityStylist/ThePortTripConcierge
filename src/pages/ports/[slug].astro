@@ -7,7 +7,9 @@ import TOURS from '../../data/tours.json';
 import { GUIDES, CAT, SLUGS, leaveRows, rulesFor, shipDay, scoreOf, portImage, ACCESS_LABEL, wm, wmSet } from '../../lib/ports.js';
 import ModeIcon from '../../components/ModeIcon.astro';
 import { fmt, toMin } from '../../lib/site.js';
-import { app, PRICES } from '../../lib/site.js';
+import { app, PRICES, buyUrl } from '../../lib/site.js';
+import Offer from '../../components/Offer.astro';
+import StickyBuy from '../../components/StickyBuy.astro';
 import { POSTS } from '../../lib/blog.js';
 import PUB from '../../data/published.json';
 
@@ -36,6 +38,14 @@ const leaveAt = centre ? fmt(toMin(AA) - centre.minutesBeforeAllAboard) : null;
 const score = scoreOf(slug);
 const risk = { low: 'Low', medium: 'Medium', high: 'High' }[sd.returnRisk] || null;
 const riskTone = { low: 'bg-emerald-400/90', medium: 'bg-signal', high: 'bg-red-400' }[sd.returnRisk] || 'bg-white/40';
+// Sights that sell out: book the slot before the ship sails (facts from the timed-tickets post).
+const BOOK_AHEAD = {
+  rome: 'The Vatican Museums release dates about 60 days ahead and summer morning slots go three to four weeks out. Colosseum tickets go on sale 30 days ahead, carry your name and are checked against your passport.',
+  barcelona: 'Sagrada Família sells about two months ahead. Tickets carry your name and need photo ID at the door.',
+  athens: 'The Acropolis runs on timed slots (€30 in 2026), sold on the Hellenic Heritage site. Tickets are non-refundable.',
+  livorno: 'The Uffizi is €29 booked and the Accademia needs a timed slot. Both close on Mondays.',
+};
+const bookAhead = BOOK_AHEAD[slug];
 const JUMP = [['leave-by-m', 'When to leave'], ['transport', 'Getting there'], ['day-plan', 'Day plan'], ...(TOURS[slug]?.tours?.length ? [['tours', 'Tours']] : []), ['sights', 'What to see'], ['food', 'Food'], ['mistakes', 'Mistakes'], ['faq', 'FAQ'], ['sources', 'Sources']];
 ---
 <Base title={g.seoTitle?.includes('PortTrip') ? g.seoTitle : `${g.seoTitle} | PortTrip`} description={g.seoDescription} path={path} jsonLd={jsonLd}>
@@ -57,6 +67,7 @@ const JUMP = [['leave-by-m', 'When to leave'], ['transport', 'Getting there'], [
       </ul>
       <div class="mt-7 flex flex-wrap gap-3">
         <a href={app(`/day/${slug}?aa=${encodeURIComponent(AA)}`)} class="btn-signal" rel="nofollow" data-plan-hero>Plan my {cityShortName} day free</a>
+        <a href={buyUrl('cruise_pass', `port_hero_${slug}`)} class="btn-light h-12 text-[15px] font-semibold" rel="nofollow" data-buy="port_hero">Time my whole cruise · {PRICES.pass}</a>
       </div>
       {img && <p class="mt-6 text-[11px] text-white/45">Photo: <a href={img.page} class="underline" rel="noopener nofollow">{img.artist || 'Wikimedia Commons'}</a>{img.license ? `, ${img.license}` : ''}</p>}
       </div>
@@ -98,6 +109,8 @@ const JUMP = [['leave-by-m', 'When to leave'], ['transport', 'Getting there'], [
           {sd.topRisk && <p class="mt-3 text-navy/85"><strong>Where people go wrong:</strong> {sd.topRisk}</p>}
         </section>
 
+        <div class="mt-10"><Offer city={cityShortName} slug={slug} src={`port_${slug}`} /></div>
+
         {steps.length > 0 && <section id="day-plan" class="mt-12 scroll-mt-20">
           <h2 class={H2}>A day in {g.city}</h2>
           {g.dayPlan.intro && <p class="mt-2 text-navy/70">{g.dayPlan.intro}</p>}
@@ -105,7 +118,8 @@ const JUMP = [['leave-by-m', 'When to leave'], ['transport', 'Getting there'], [
           <a href={app(`/day/${slug}?aa=${encodeURIComponent(g.dayPlan.allAboard || '17:30')}`)} class="mt-5 inline-block font-semibold text-sea underline underline-offset-4" rel="nofollow">Re-time this day to your ship</a>
         </section>}
 
-        <div class="mt-12"><Tours slug={slug} city={cityShortName} ashore={ashore} defaultAA={AA} leaveMin={centre?.minutesBeforeAllAboard ?? null} /></div>
+        {bookAhead && <p class="mt-12 rounded-2xl border-l-4 border-plimsoll bg-white p-5 text-navy/85"><strong class="text-navy">Book before you sail.</strong> {bookAhead} <a href="/blog/book-colosseum-acropolis-sagrada-familia-cruise" class="font-semibold text-sea underline underline-offset-2">How to book each one</a>, or take a guided tour below with the ticket included.</p>}
+        <div class:list={[bookAhead ? 'mt-6' : 'mt-12']}><Tours slug={slug} city={cityShortName} ashore={ashore} defaultAA={AA} leaveMin={centre?.minutesBeforeAllAboard ?? null} /></div>
         {g.sights?.length > 0 && <section id="sights" class="mt-12 scroll-mt-20">
           <h2 class={H2}>What to see</h2>
           <div class="mt-4 grid gap-3 sm:grid-cols-2">{g.sights.map((s) => <div class="card p-4"><h3 class="font-semibold">{s.name}</h3>{s.why && <p class="mt-1 text-navy/80">{s.why}</p>}<p class="mt-3 flex flex-wrap gap-1.5 text-xs font-medium">{s.timeNeeded && <span class="rounded-full bg-fog px-2.5 py-1">{s.timeNeeded}</span>}{s.cost && <span class="rounded-full bg-fog px-2.5 py-1">{s.cost}</span>}</p>{s.tip && <p class="mt-1 text-sm text-navy/70">{s.tip}</p>}</div>)}</div>
@@ -178,13 +192,12 @@ const JUMP = [['leave-by-m', 'When to leave'], ['transport', 'Getting there'], [
           <div class="rounded-2xl bg-navy p-5 text-white">
             <p class="font-semibold">Your whole cruise, timed</p>
             <p class="mt-1 text-sm text-white/75">Every port on your sailing, in port and ship time, then live on the day with Google Maps and alerts.</p>
-            <a href={app('/pricing')} class="btn-signal mt-4 h-11 w-full text-sm" rel="nofollow">Cruise Pass {PRICES.pass}</a>
+            <a href={buyUrl('cruise_pass', `port_side_${slug}`)} class="btn-signal mt-4 h-11 w-full text-sm" rel="nofollow" data-buy="port_side">Get the Cruise Pass · {PRICES.pass}</a>
+            <p class="mt-2 text-center text-xs text-white/60">Pay once. 30-day full refund.</p>
           </div>
         </div>
       </aside>
     </div>
   </article>
-  <div class="fixed inset-x-0 bottom-0 z-30 border-t border-navy/10 bg-white/95 p-3 backdrop-blur lg:hidden">
-    <a href={app(`/day/${slug}?aa=${encodeURIComponent(AA)}`)} class="btn-signal w-full" rel="nofollow">Plan my {cityShortName} day free</a>
-  </div>
+  <StickyBuy city={cityShortName} slug={slug} src={`port_sticky_${slug}`} />
 </Base>

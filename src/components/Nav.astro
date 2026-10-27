@@ -1,5 +1,5 @@
 ---
-import { app } from '../lib/site.js';
+import { buyUrl, PRICES, app } from '../lib/site.js';
 const { dark = false } = Astro.props;
 ---
 <header id="nav" data-dark={dark ? '1' : '0'} class:list={['fixed inset-x-0 top-0 z-40 transition-colors duration-200', dark ? 'text-white' : 'border-b border-navy/10 bg-paper/90 text-navy backdrop-blur']}>
@@ -11,7 +11,7 @@ const { dark = false } = Astro.props;
       <a href="/blog" class="opacity-80 hover:opacity-100">Guides</a>
       <a href="/pricing" class="opacity-80 hover:opacity-100">Pricing</a>
       <a href={app('/login')} class="opacity-80 hover:opacity-100" rel="nofollow">Sign in</a>
-      <a href={app('/day/dubrovnik?aa=18%3A00')} class:list={['rounded-xl px-4 py-2 font-bold', dark ? 'nav-cta bg-white/15 ring-1 ring-white/30 backdrop-blur hover:bg-white/25' : 'bg-navy text-white hover:bg-navy/90']} rel="nofollow">Plan free</a>
+      <a href={buyUrl('cruise_pass', 'nav')} data-buy="nav" class:list={['rounded-xl px-4 py-2 font-bold', dark ? 'nav-cta bg-white/15 ring-1 ring-white/30 backdrop-blur hover:bg-white/25' : 'bg-navy text-white hover:bg-navy/90']} rel="nofollow">Cruise Pass {PRICES.pass}</a>
     </nav>
     <details class="relative ml-auto md:hidden">
       <summary class="list-none cursor-pointer rounded p-2 [&::-webkit-details-marker]:hidden" aria-label="Menu">
@@ -23,7 +23,8 @@ const { dark = false } = Astro.props;
         <a href="/blog" class="block rounded px-3 py-2 hover:bg-fog">Guides</a>
         <a href="/pricing" class="block rounded px-3 py-2 hover:bg-fog">Pricing</a>
         <a href={app('/login')} class="block rounded px-3 py-2 hover:bg-fog" rel="nofollow">Sign in</a>
-        <a href={app('/day/dubrovnik?aa=18%3A00')} class="mt-1 block rounded bg-navy px-3 py-2 text-center font-medium text-white" rel="nofollow">Plan free</a>
+        <a href={buyUrl('cruise_pass', 'nav_menu')} class="mt-1 block rounded bg-signal px-3 py-2 text-center font-bold text-navy" rel="nofollow" data-buy="nav_menu">Get the Cruise Pass · {PRICES.pass}</a>
+        <a href={app('/day/dubrovnik?aa=18%3A00')} class="mt-1 block rounded px-3 py-2 text-center font-medium hover:bg-fog" rel="nofollow">Plan one port free</a>
       </div>
     </details>
   </div>
