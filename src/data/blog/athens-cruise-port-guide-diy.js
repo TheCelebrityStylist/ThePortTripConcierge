@@ -1,151 +1,180 @@
 export default `---
-title: "How to Explore Athens From Piraeus Without a Cruise Excursion"
-description: "Piraeus to Athens by metro: Line 1 or 3 to Monastiraki for €1.20, Acropolis €30 by timed slot, and a train back 2 hours 45 minutes before all-aboard."
+title: "Athens Without a Cruise Excursion: The Acropolis Day, Done Better"
+description: "Athens from Piraeus on your own: the Areopagus before the Acropolis (€30, 2026), the museum's glass floors, Anafiotika, and when to be on the train back."
 slug: "athens-cruise-port-guide-diy"
 author: "Elke"
 category: "cruise-ports"
 date: "2026-05-26"
-updated: "2026-10-16"
-readTime: 9
-excerpt: "Athens from Piraeus: walk 15–30 minutes to the metro, ride Line 1 or Line 3 to Monastiraki in about 20 minutes on a €1.20 ticket. The Acropolis costs €30 with a timed slot. Book it before you sail, and be on a train back at least 2 hours 45 minutes before all-aboard."
+updated: "2026-10-27"
+readTime: 15
+excerpt: "A cruise day in Athens, told hour by hour from Monastiraki: the free rock most passengers walk past, the Acropolis with its timed slot, the city under the museum's glass floor, a village built by island masons, and the train you must not miss."
 hero: "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=80"
-tags: ["athens", "piraeus", "acropolis", "greece", "metro"]
+tags: ["athens", "piraeus", "acropolis", "greece", "metro", "anafiotika", "acropolis museum"]
 relatedPorts: ["athens", "piraeus", "santorini"]
-relatedPosts: ["santorini-vs-mykonos-cruise", "best-mediterranean-cruise-ports-diy"]
-seoKeywords: ["athens cruise port guide", "piraeus to athens metro", "athens without excursion", "acropolis cruise ship"]
+relatedPosts: ["piraeus-athens-metro-cruise", "santorini-vs-mykonos-cruise", "best-mediterranean-cruise-ports-diy"]
+seoKeywords: ["athens cruise port guide", "athens without excursion", "acropolis cruise ship", "athens one day cruise", "anafiotika", "areopagus hill"]
 ---
 
-## Quick Answer
+> **Quick answer:** Ships dock at Piraeus, about 10 km from the Acropolis. Metro Line 1 or Line 3 gets you to Monastiraki in about 20 minutes on a €1.20 ticket (2026). The Acropolis costs €30 with a timed slot booked in advance. For a 17:30 all-aboard, be on a train back from Monastiraki by 14:45 if your ship is at Terminal A, or 14:30 from Terminals B and C.
 
-Ships dock at Piraeus, about 10 km from the Acropolis. Walk 15 minutes from Terminal A, or about 30 minutes from Terminals B and C, to the metro. Take Line 1 or Line 3 to Monastiraki, about 20 minutes, on a €1.20 ticket (2026). From Monastiraki it is 10–15 minutes uphill to the Acropolis. Entry is €30 with a timed slot, booked in advance. Be on a train back from central Athens at least 2 hours 45 minutes before all-aboard, or 3 hours if your ship uses Terminal B or C.
+## 09:15, Monastiraki, coming up for air
 
-## Why Athens Works as a DIY Port
+The escalator lifts you out of Monastiraki station into noise: the square, the flea market lanes opening off it, and above everything, on its slab of rock, the Parthenon. Most first-timers stop dead at the top of the steps to photograph it. That is where pickpockets like them to stop: Monastiraki, Syntagma and Omonia stations, and Line 1, are where wallets and phones most often go missing in Athens. Step aside before you take the picture.
 
-- **The metro is cheap and frequent.** A 90-minute ticket is €1.20. A 24-hour ticket is €4.10 and also covers the X80 bus (2026).
-- **The main sights are close together.** The Acropolis, the Acropolis Museum, the Ancient Agora and Plaka sit around the same hill.
-- **Two fixed points.** The walk from your terminal to the metro, and your Acropolis time slot. Plan both and the rest of the day is simple.
+The trip in from the ship, the walk to the station and which line to take have their own guide: [Piraeus to Athens by metro](/blog/piraeus-athens-metro-cruise). This one starts here, with the city.
 
-Ship excursion prices vary by line, so check your cruise planner. The ship's tour earns its price if you could not get an Acropolis slot, if a transport strike is announced for your call, in peak heat, or for anyone with limited mobility.
+Look down before you leave the station. When the metro was dug in the 1990s, the excavations turned up more than 50,000 finds, and several stations now display them. At Monastiraki you can see the riverbed of the Eridanos, the river that ran through ancient Athens and has been covered over for centuries. It is a strange thing to pass on the way to a timed ticket: a river you can look at but have never heard of, under a square full of people looking at their phones.
 
-## Which Terminal Are You At?
+Before you climb, make a note of two addresses for later. Kostas, on Plateia Agias Irinis, makes pork souvlaki in pita with a tomato sauce, opens on weekdays only, takes cash and sells out by mid-afternoon. Krinos, at Aiolou 87, has been frying loukoumades, small honeyed doughnuts with cinnamon and walnuts, since it opened as a coffee shop in 1923. Both are a few minutes from where you stand, and both are on your way back to the train.
 
-Piraeus has three cruise terminals. Check your daily programme, because assignments can change at short notice.
+## 09:30, the rock before the Rock
 
-| Terminal | Gate | Walk to metro |
-|---|---|---|
-| A "Miaoulis" | E11 | About 15 min to Dimotiko Theatro (Line 3) |
-| B "Themistocles" | E12 | About 30 min to Dimotiko Theatro or Piraeus (Lines 1 and 3) |
-| C "Alkimos" | E12 | About 30 min to Dimotiko Theatro or Piraeus (Lines 1 and 3) |
+Most passengers walk up through Plaka to the main entrance. Take the other route. From Monastiraki, head up towards the west end of the Acropolis. Just before the main entrance, a bare hill of grey rock stands opposite it, about 115 m high. This is the Areopagus.
 
-The port authority runs a free shuttle between the ships and the terminal buildings. It does not go to the metro. The walk starts at the terminal, along the flat, busy port road.
+It is free and it never closes. A metal staircase takes you up; use it, because parts of the rock are very slippery. Wear flat shoes with grip.
 
-## The Metro Into Athens
+The name joins Ares, the god of war, with the Greek word for a large bare rock. The Romans called it Mars Hill. For centuries this was a court: after 462 BC the Council of the Areopagus heard cases of premeditated murder, arson and blasphemy here. In legend, the gods tried Ares on this spot for murder, and Orestes was acquitted here after Athena cast the deciding vote. The other famous speech made on this hill is real: Saint Paul preached here on his second missionary journey, about the "unknown god" the Athenians worshipped. A bronze plaque carrying the sermon's text is fixed to the rock near the steps.
 
-**Line 3 (blue) from Dimotiko Theatro.** The nearest station to Terminal A. About 20 minutes to Monastiraki and 23 minutes to Syntagma. For the Acropolis Museum, change at Syntagma to Line 2 and ride one stop to Akropoli.
+Give it ten minutes. From the top you look up at the Propylaia, the gateway of the Acropolis, and down onto the Ancient Agora, with the Temple of Hephaestus, one of the best-preserved Greek temples anywhere, standing on its far side. You will understand the layout of ancient Athens better from here than from any map.
 
-**Line 1 (green) from Piraeus station.** Next to the ferry harbour, about 30 minutes on foot from Terminals B and C. About 17 minutes to Monastiraki and 15 minutes to Thissio. It is the older, more crowded line. Keep bags closed.
+## 10:00, the Acropolis, on your slot
 
-**Tickets:** €1.20 for 90 minutes, or €4.10 for 24 hours (2026). Buy at the machines, or tap a contactless bank card at the gate for a 90-minute fare.
+Your ticket is the one thing in this day you cannot improvise. Entry costs €30 (2026), by timed slot, booked on the official Hellenic Heritage site (tickets.hh.gr / hhticket.gr). EU citizens under 25 and non-EU visitors under 18 go free, but still need a slot. Tickets are non-refundable. Summer morning slots sell out. Ignore anyone in the street selling "skip-the-line" tickets.
 
-**X80 express bus.** A seasonal cruise-day line from the terminals to the Acropolis stop on Dionysiou Areopagitou and to Syntagma. About 35 minutes. It was relaunched on 23 May 2026. It does not accept the €1.20 ticket: you need the €4.10 24-hour ticket or the €20 3-day tourist ticket. Ask at the terminal information desk whether it is running on your date.
+The timed system exists because of crowds. In August 2023 the culture minister, Lina Mendoni, announced a cap of 20,000 visitors a day, after days when as many as 23,000 people had squeezed onto the rock, most of them in big groups before noon. Under the hourly limits, 3,000 people are let in between 08:00 and 09:00 and 2,000 in the next hour. The rules became permanent in April 2024. In other words: the early slots are not the quiet ones. They are the biggest.
 
-## The Acropolis
+There are two entrances and the same ticket works at both: the main west entrance, a few steps from the Areopagus, and the south slope entrance on Dionysiou Areopagitou, near the Acropolis Museum. Coming from the Areopagus, the west entrance is right in front of you.
 
-**Booking:** €30 (2026). Free for EU citizens up to 25 and non-EU visitors under 18. Entry is by timed slot. Book on the official Hellenic Heritage ticket site (tickets.hh.gr / hhticket.gr) before the cruise. Tickets are non-refundable, and summer morning slots sell out. Do not buy "skip-the-line" tickets on the street.
+Opening hours shift through the year. In 2026 the site opens at 08:00 and closes at 20:00 from April to August, at 19:30 and then 19:00 in September, at 18:30 and then 18:00 in October, and at 17:00 from November to March. Last entry is 20 minutes before closing.
 
-**What you see:** the Propylaia, the Parthenon, the Erechtheion and the views over the city. Allow about 2 hours.
+Inside the Propylaia, the Parthenon fills your view. It was begun in 447 BC and substantially finished by 432 BC, designed by Iktinos and Kallikrates, with Phidias in charge of the sculpture. What you see is a ruin for a specific reason, and the reason has a date. On 26 September 1687, during the war between Venice and the Ottoman Empire, the Ottoman garrison was using the Parthenon as a gunpowder store. A Venetian mortar fired from Philopappos Hill, the green hill you can see to the south-west, hit the magazine. The explosion blew out the middle of the building and killed about 300 people. The commander of that Venetian army, Francesco Morosini, will turn up again in Piraeus, in the [metro guide](/blog/piraeus-athens-metro-cruise).
 
-**Heat:** the rock is exposed. Bring water and a hat. On extreme heat days the site has closed from 12:00 to 17:00.
+Walk round to the Erechtheion and its porch of six maidens holding up the roof. They are copies. Five of the originals are in the Acropolis Museum, which you will reach within the hour. The sixth is in the British Museum in London.
 
-## Around the Acropolis
+Allow about two hours. There is no shade worth the name and the marble paths are uneven and slippery. Carry water and a hat. On the hottest days the ministry closes the site in the middle of the day: on 17 July 2024, during a heatwave, the Acropolis shut from 12:00 to 17:00. If anyone in your group has limited mobility, the lift on the north face stopped repeatedly in summer 2026 for wind, rain, heat and maintenance, so do not build the day around it.
 
-**Acropolis Museum.** €20 (2026). The original sculptures from the Acropolis, with a glass floor over an excavated neighbourhood. Allow 1–1.5 hours. Summer hours (to 31 October) are 09:00–20:00 Tuesday to Sunday and to 22:00 on Fridays, but only 09:00–17:00 on Mondays, with last entry at 16:30. Two minutes from Akropoli metro.
+If you want someone to tell you which stone is which, a two-hour [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) fits the same morning. Check whether it includes your entry ticket or expects you to bring one.
 
-**Ancient Agora.** €20 (2026). The civic centre of ancient Athens, with the Temple of Hephaestus, one of the best-preserved Greek temples. Allow 1–1.5 hours. Close to Thissio and Monastiraki stations.
+## 12:00, the city under the glass
 
-**Roman Agora and Tower of the Winds.** €10 (2026). A short stop on the walk between the Acropolis and Monastiraki. About 30 minutes.
+Leave by the south slope and walk downhill along Dionysiou Areopagitou, the pedestrian street that curls round the rock. The Acropolis Museum is at number 15, a few minutes away.
 
-**Plaka and Anafiotika.** Free. The old neighbourhood under the north slope, with stepped lanes and small whitewashed houses. About 45 minutes. Restaurants on the main Plaka streets charge for the location; walk a street or two back to eat.
+Tickets are €20 (2026). The summer timetable runs to 31 October: Monday 09:00–17:00 with last entry at 16:30, Tuesday to Sunday 09:00–20:00, Friday to 22:00. From 1 November the museum keeps 09:00–17:00 from Monday to Thursday, 09:00–22:00 on Friday and 09:00–20:00 at weekends. If your call is on a Monday, come here straight after the Acropolis.
 
-## Food Near Monastiraki
+Before you look at a single statue, look down. The museum is built over an excavated neighbourhood, and you walk in over glass. According to the museum, the dig on this plot found signs of people living here from around 3,500 BC to the 12th century AD: roads, houses, baths, workshops and tombs. Part of what was found had to be removed to make room for the museum's lower levels and for Akropoli metro station next door. What you see through the floor is only the part they could keep in place.
 
-- **Kostas**, Plateia Agias Irinis 2: pork souvlaki in pita with tomato sauce. Weekdays only, cash, sells out by mid-afternoon.
-- **Bairaktaris**, Plateia Monastirakiou 5: gyros and souvlaki in pita.
+Then go to the top floor. The Parthenon Gallery is built to the size of the temple and turned to face it, so the frieze runs round you in the order it ran round the building, with the Parthenon itself visible through the glass walls. The pieces in white plaster are casts. The originals were removed by Lord Elgin and are in London. Seeing the gaps laid out like this makes the argument better than any leaflet.
 
-## Return Timing
+Find the five Caryatids, and the earlier statues of the Archaic gallery on the first floor, where photography is not allowed. Give the museum 75 minutes. The second-floor café looks straight up at the Acropolis and is a reasonable place to sit down for the first time since breakfast.
 
-The rule: for a 17:30 all-aboard, be on a train from Monastiraki or Syntagma by 14:45 if docked at Terminal A, or by 14:30 at Terminals B or C. The train takes about 20 minutes. Then it is 15 minutes on foot to Terminal A or 30 minutes to B and C, plus the shuttle to the ship. That puts you on board about 90 minutes before all-aboard.
+A guide who covers both the rock and the museum in one go takes about four hours: the [Acropolis and Parthenon walking tour with optional Acropolis Museum](https://www.viator.com/tours/Athens/Acropolis-tour-with-optional-Ancient-Agora-tour/d496-5776P17?mcid=42383&pid=P00216188) runs that long, so on a 17:30 all-aboard it needs to start by about 10:00.
 
-| All-aboard | On a train by (Terminal A) | On a train by (Terminals B/C) |
-|---|---|---|
-| 17:00 | 14:15 | 14:00 |
-| 17:30 | 14:45 | 14:30 |
-| 18:00 | 15:15 | 15:00 |
-| 19:00 | 16:15 | 16:00 |
+## 13:15, a Cycladic village under the north wall
 
-Strikes in Greece are regular and sometimes called at short notice. Check the evening before and the morning you dock.
+From the museum, walk back through Plaka towards the north side of the Acropolis and climb the lanes above Stratonos Street. Within a couple of minutes you are among small whitewashed houses and stepped lanes that look as if they were lifted off an island. This is Anafiotika.
 
-**If the metro is stopped:** take a taxi from central Athens and tell the driver the terminal and gate (E11 or E12). Taxis are metered; check the meter is running, or book through Uber or Free Now. Traffic is heavy at peak times. Call the port agent number in your daily programme as soon as you know you will be late.
+The name tells you who built it. When King Otto, the Bavarian prince made king of the new Greek state, set about refurbishing his palace, workers came from the Cycladic island of Anafi to do the building. They put up their own houses on the rock face in the style of home. The first two recorded inhabitants were a carpenter, G. Damigos, and a builder, M. Sigalas. Others from the islands followed, and refugees from Asia Minor settled here in 1922. About 45 houses remain.
 
-## A Low-Stress Athens Day
+The lanes often end at a ladder, a terrace or someone's front door. People live here, so keep your voice down. Fifteen minutes is enough to cross it and come out above Plaka.
 
-Based on a 17:30 all-aboard, docking at 08:00 at Terminal A, with a 10:00 Acropolis slot. Add 15 minutes each way from Terminals B and C.
+## 13:45, lunch on the way to the train
 
-| Time | Action | Cost (2026) |
-|---|---|---|
-| 08:15 | Leave the ship, walk about 15 min to Dimotiko Theatro | Free |
-| 08:45 | Line 3 to Monastiraki, about 20 min | €4.10 day ticket |
-| 09:15 | Walk up through Plaka, 10–15 min uphill | Free |
-| 10:00 | Acropolis, timed slot, about 2 hours | €30 |
-| 12:00 | Acropolis Museum, about 75 min | €20 |
-| 13:30 | Lunch around Monastiraki | Varies |
-| 14:30 | Line 3 back to Dimotiko Theatro | Included |
-| 15:00 | Walk to Terminal A and through security | Free |
-| 16:00 | On board, 90 minutes before all-aboard | — |
+Now go back to the addresses from the morning. Kostas, if it is a weekday and there is still food. Bairaktaris, on Monastiraki Square itself, for gyros and souvlaki in pita if not. On the main Plaka streets you pay for the location; walk a street or two back.
 
-**Typical DIY total: €54.10 per person** (day ticket, Acropolis and Acropolis Museum), plus lunch. Ship excursion prices vary by line.
+On the way, Ermou Street, the long shopping street that runs from Monastiraki to Syntagma, has a small Byzantine church sitting in the middle of it like a stone someone forgot to move. That is Panagia Kapnikarea, built in the 11th century. When Ermou was laid out in 1834, the plan was to knock it down. King Ludwig of Bavaria, Otto's father, intervened and it stayed. The street was built round it, and it is still there, owned by the University of Athens.
 
-## Common Mistakes
+Finish with a plate of loukoumades at Krinos. Then look at the clock.
 
-- **No timed ticket.** Book the Acropolis before the cruise.
-- **Underestimating the walk to the metro.** 15 minutes from Terminal A, 30 from B and C, each way.
-- **Boarding the X80 with a €1.20 ticket.** It needs the €4.10 day ticket or the €20 3-day ticket.
-- **The Acropolis Museum on a Monday afternoon.** It closes at 17:00. Go straight after the Acropolis.
-- **Ignoring strikes.** Keep the ship's tour as a fallback.
+If eating is the reason you came to Athens, the [Greek food walking tour](https://www.viator.com/tours/Athens/Private-Tour-Gourmet-Food-Walking-Tour-in-Athens/d496-5776GOURMET?mcid=42383&pid=P00216188) takes 3.5 hours, which on a cruise call means it replaces the museum, not lunch.
 
-## Cruise Passenger Fee
+## 14:30, the train you must not miss
 
-Since 21 July 2025 each disembarking passenger pays a fee per Greek port call. For Piraeus it is €5 from June to September, €3 in April, May and October, and €1 from November to March. Cruise lines collect it, often on the onboard account.
+This is the part of an Athens call that goes wrong, and it goes wrong for the same reason every time. The train back takes only about 20 minutes, so it feels as if there is plenty of time. There is not. At the Piraeus end, it is 15 minutes on foot from Dimotiko Theatro to Terminal A, or about 30 minutes from the stations to Terminals B and C. Then security, then the shuttle to the ship, then a margin for a full platform or a wrong exit.
+
+So the rule is early and fixed. For a 17:30 all-aboard, be on a train from Monastiraki by 14:45 if your ship is at Terminal A, or by 14:30 from Terminals B and C. If you are still on the Acropolis or in Plaka, start walking down by 14:30 for Terminal A, 14:15 for B and C. That puts you on board about 90 minutes before all-aboard, which can feel absurdly cautious while you are finishing a doughnut. It is the margin that absorbs a stalled train.
+
+And sometimes there is no train. On 1 May 2026 the metro, including Line 1, and the tram ran no service at all for 24 hours for the Labour Day strike, and the metro was also stopped on 28 February 2026. Taxis ran normally on 1 May. Check for strikes the evening before and the morning you dock. If the metro stops while you are in town, take a taxi and tell the driver your terminal and gate, E11 for Terminal A or E12 for B and C. Call the port agent number in your daily programme as soon as you know you will be late.
+
+The [Athens day planner](/day/athens) does this arithmetic for your terminal and your all-aboard time.
+
+## The other way to do it
+
+The standard plan is the one above: Acropolis first, as early as possible. It is the right plan in July and August, because of the heat. But look again at the numbers. The biggest hourly allowance on the rock is the first one, 3,000 people, and when the caps were announced in 2023, about half of all visitors were arriving between 08:00 and noon. The ship tours arrive early too.
+
+In spring and autumn, when the midday sun is not dangerous, you can turn the day round. Take the train in, be at the Acropolis Museum when it opens at 09:00, and see the Parthenon Gallery before you see the Parthenon, so you know what you are looking at when you get there. Walk across to the Ancient Agora at about 10:30. Book an Acropolis slot for 12:00, walk up via the Areopagus, and come down by 14:30 to make the Terminal A train at 14:45. You see the same things in a better order, and you reach the rock after the morning rush.
+
+The museum opens at 09:00 every day it is open, so the plan works on any day of the week. Drop it on a day with a heat warning. Greece sends heat and wildfire alerts to phones.
+
+## If you have an extra hour
+
+**The Ancient Agora.** €20 (2026), close to Monastiraki and Thissio stations. It opens at 08:00 and closes between 18:00 and 20:00 from April to October, depending on the month, and at 17:00 from November to March. This was the civic heart of the city, and its museum sits in the Stoa of Attalos, a long colonnade first given to Athens by King Attalos II of Pergamon in the 2nd century BC. The Heruli burned it in AD 267. What you walk through is a reconstruction built from 1952 to 1956 by the American School of Classical Studies on the original foundations, with a million dollars from John D. Rockefeller Jr. Inside are the tools of democracy: an ostracon, a pottery shard with the name of the politician Cimon scratched on it by a citizen voting to exile him, and a kleroterion, the stone allotment machine used to pick jurors at random. Above the site stands the Temple of Hephaestus, built between 449 and 415 BC. Allow 75 minutes.
+
+**Philopappos Hill.** Free, and across Dionysiou Areopagitou from the Acropolis. A paved path laid by the architect Dimitris Pikionis, who restored the church in 1955, leads up to a small church, Agios Dimitrios Loumbardiaris. The name comes from a story told about 1658. On the eve of the saint's feast, the Ottoman commander of the Acropolis, Yusuf, planned to fire a large cannon, a loumbarda, from the Propylaia onto the church and the people in it. Lightning struck his powder store first and killed him. That is the legend. The history is that, 29 years later, a Venetian mortar fired from this same hill did blow up the Parthenon. Go up for the view back at the rock. Allow about 45 minutes there and back.
+
+**The guard at Syntagma.** If you ride Line 3 back from Syntagma instead of Monastiraki, you pass the Tomb of the Unknown Soldier in front of the parliament. The Evzones, the presidential guard, change every hour on the hour. The kilt is said to carry 400 pleats, one for each year of Ottoman rule, and each shoe weighs about 3 kg. On Sundays at 11:00 there is a full ceremony with a band. Arrive ten minutes early and keep your train time in mind: Syntagma has the same leave-by as Monastiraki.
+
+The [Athens port guide](/ports/athens) has the rest: the National Archaeological Museum, accessibility and a rainy-day plan.
+
+## The practical bit
+
+| What | Detail (2026) |
+|---|---|
+| Metro Piraeus to Monastiraki | About 20 min, €1.20 for 90 minutes, €4.10 for 24 hours |
+| Areopagus | Free, always open, metal stairs, slippery rock |
+| Acropolis | €30, timed slot, 08:00 to 18:00 from 16 to 31 October, 08:00–17:00 from 1 November |
+| Acropolis Museum | €20; to 31 October Monday 09:00–17:00, Tuesday to Sunday 09:00–20:00, Friday to 22:00 |
+| Ancient Agora | €20 |
+| Anafiotika, Kapnikarea, Philopappos | Free |
+| Typical DIY day | €54.10: day ticket, Acropolis, museum, plus lunch |
+
+| All-aboard | Train from Monastiraki (Terminal A) | Train from Monastiraki (Terminals B/C) | Leave the Acropolis (A) | Leave the Acropolis (B/C) |
+|---|---|---|---|---|
+| 17:00 | 14:15 | 14:00 | 14:00 | 13:45 |
+| 17:30 | 14:45 | 14:30 | 14:30 | 14:15 |
+| 18:00 | 15:15 | 15:00 | 15:00 | 14:45 |
+| 19:00 | 16:15 | 16:00 | 16:00 | 15:45 |
+
+Since 21 July 2025 Greece charges a per-passenger fee for each port call. In Piraeus it is €5 from June to September, €3 in April, May and October, and €1 from November to March, usually added to your onboard account.
+
+The ship's tour earns its price if you could not get an Acropolis slot, if a strike is announced for your call, in extreme heat, or for anyone with limited mobility, because coaches cut most of the walking. A [private half-day tour of Athens](https://www.viator.com/tours/Athens/Best-of-Athens-Half-Day-Private-Tour/d496-141567P7?mcid=42383&pid=P00216188) is the middle option, as long as you confirm pickup point and finish time in writing.
 
 ## FAQ
 
-### How long is the metro from Piraeus to Athens?
+### Can you see the Acropolis and the Acropolis Museum in one cruise call?
 
-About 17 minutes on Line 1 from Piraeus station to Monastiraki, or about 20 minutes on Line 3 from Dimotiko Theatro. Add the 15–30 minute walk from your terminal.
+Yes. Allow about two hours on the rock and 75 minutes in the museum, start at 10:00 at the latest, and you are still on a train back from Monastiraki by 14:45 for a 17:30 all-aboard from Terminal A.
 
-### Do I need to pre-book the Acropolis?
+### Do you need to book the Acropolis in advance?
 
-Yes. Entry is by timed slot and costs €30 (2026). Book on the official Hellenic Heritage site before the cruise.
+Yes. Entry is by timed slot and costs €30 (2026). Book on the official Hellenic Heritage site before you sail. Free categories still need a slot, and tickets are non-refundable.
 
-### How far is the metro from the cruise terminal?
+### Is the Areopagus worth climbing?
 
-About 15 minutes on foot from Terminal A to Dimotiko Theatro, and about 30 minutes from Terminals B and C.
+Yes, and it costs nothing. It takes ten minutes, sits next to the main Acropolis entrance and gives the best overview of the Agora below. Use the metal staircase; the rock is slippery.
 
-### Can I see the Acropolis and the Acropolis Museum in one call?
+### What is Anafiotika and where is it?
 
-Yes. Allow about 2 hours on the hill and 1–1.5 hours in the museum, and still be on a train back by your leave-by time.
+A cluster of about 45 island-style houses on the north slope of the Acropolis, built by workers from Anafi who came to refurbish King Otto's palace. Climb the lanes above Stratonos Street from Plaka.
 
-## See Your Exact Athens Return Timing
+### What happens if there is a metro strike on my port day?
 
-[Build my ship-safe Athens plan →](https://porttrip.com/planner)
+Plan for a taxi in both directions or take the ship's tour. On 1 May 2026 the metro did not run at all while taxis worked normally. Check for strikes the evening before and the morning you dock.
 
 ## Sources
 
-- [Piraeus Port Authority – Cruise Terminal](https://www.olp.gr/en/services-olp/cruise-terminal)
-- [OASA – Prices of products](https://www.oasa.gr/en/tickets/prices-of-products/)
-- [Railway Gazette – Piraeus metro extension opens](https://www.railwaygazette.com/metro/piraeus-metro-extension-opens/62737.article)
-- [Art Visit Guide – Acropolis of Athens tickets (2026)](https://www.artvisitguide.com/acropolis-of-athens-tickets-guide/)
-- [Acropolis Museum – Plan your visit](https://www.theacropolismuseum.gr/en/plan-your-visit)
-- [Athens Walking Tours – Entrance fees and tickets (2026)](https://athenswalkingtours.gr/faq/entrance-fees-and-tickets-792.html)
-- [Deep Arrival – Greece cruise tax 2026](https://deeparrival.com/news/greece-cruise-tax-2026/)
+- [Athens Tourism – Acropolis tickets and 2026 opening hours (updated October 2026)](https://www.athenstourism.org/acropolis-athens-complete-guide-tickets/)
+- [Athens Tourism – Acropolis Museum guide 2026](https://www.athenstourism.org/acropolis-museum-athens-guide/)
+- [Kids Love Greece – Acropolis and Acropolis Museum tickets and hours (June 2026)](https://www.kidslovegreece.com/22017-entrance-prices-acropolis-practical-information/)
+- [Acropolis Museum – The archaeological excavation](https://www.theacropolismuseum.gr/en/exhibit-halls/archaeological-excavation)
+- [Spectrum News / AP – Acropolis daily and hourly visitor caps (August 2023)](https://spectrumlocalnews.com/us/snplus/news/2023/08/02/greece-plans-hourly-caps-on-visitors-to-ancient-acropolis-and-will-let-in-up-to-20-000-daily)
+- [Proto Thema – Acropolis closed 12:00–17:00 in heatwave (July 2024)](https://origin01-en.protothema.gr/2024/07/17/acropolis-closed-today-from-1200-to-1700-due-to-high-temperatures)
+- [Wikipedia – Parthenon](https://en.wikipedia.org/wiki/Parthenon)
+- [Travel the Greek Way – Areopagus Hill](https://travelthegreekway.com/?p=49447)
+- [Wikipedia – Anafiotika](https://en.wikipedia.org/wiki/Anafiotika)
+- [Greek City Times – Panagia Kapnikarea (January 2026)](https://greekcitytimes.com/2026/01/23/panagia-kapnikarea-athens-church)
+- [This is Athens – Loukoumades guide](https://www.thisisathens.org/cafes-bakeries/loukoumades-greek-doughnuts-guide)
+- [Athens Attica – Agios Dimitrios Loumbardiaris](https://athensattica.com/point/holy-church-of-saint-dimitrios-loumbardiaris/)
+- [Wikipedia – Stoa of Attalos](https://en.wikipedia.org/wiki/Stoa_of_Attalos)
+- [Religious Greece – Antiquities in the metro stations](https://religiousgreece.gr/en/activities/antiquities-metro-stations)
+- [Taxi to Athens – 1 May 2026 strike: metro, tram and ferries halted (April 2026)](https://taxitoathens.com/?p=3323)
 `;
