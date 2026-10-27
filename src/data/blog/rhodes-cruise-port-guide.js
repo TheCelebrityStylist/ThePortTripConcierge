@@ -1,7 +1,7 @@
 export default `---
 title: "Rhodes Cruise Port Guide: The Knights' Town Before the Crowds"
 slug: "rhodes-cruise-port-guide"
-description: "Rhodes from a cruise ship: the palace at 08:00, Greece's oldest synagogue, the weekday wall walk, Lindos by KTEL bus and the times to leave for your ship (2026)."
+description: "Rhodes from a cruise ship: the palace at 08:00, Greece's oldest synagogue, the weekday wall walk, Lindos by KTEL bus and when to leave for your ship (2026)."
 author: "Elke"
 category: "cruise-ports"
 date: "2026-05-28"
@@ -29,7 +29,7 @@ Do the opposite of the crowd. Most people come through the Marine Gate and drift
 
 The paving is the first thing you notice. The lanes are laid in uneven pebbles, polished smooth, and some of them slope up towards the palace. Wear shoes with grip, and save the sandals for the beach.
 
-Walk the last stretch on the Street of the Knights. It is the straight, cobbled street lined with the inns where the Knights lodged by "tongue", their national groups, and it climbs to the palace gate. At 08:15 you will share it with delivery vans and cats. By 11:00 you will share it with several thousand people.
+Walk the last stretch on the Street of the Knights. It is the straight, cobbled street lined with the Knights' medieval inns, and it climbs to the palace gate. Early, it is close to empty. From mid-morning on a multi-ship day, it is the most crowded street in town.
 
 The palace ticket is €20 full and €10 reduced (2026). Book a timed e-ticket on the official Hellenic Heritage site, hhticket.gr, rather than through a reseller who adds a fee. Last entry is 20 minutes before closing.
 
@@ -37,7 +37,7 @@ The palace ticket is €20 full and €10 reduced (2026). Book a timed e-ticket 
 
 Here is the story the building does not tell you on the way in. On 6 November 1856, lightning struck the bell tower of the Church of St John, which stood beside the palace, and set off gunpowder that had been stored in its cellars and forgotten. The explosion destroyed the church and killed at least 200 people; one 19th-century encyclopaedia put the toll above 1,000. The palace next door was partly wrecked.
 
-What you walk through now is largely an Italian building. Italy took the Dodecanese in the early 20th century and restored the palace along with other monuments of the medieval city. Because the original plans had been lost, only the interior could be reconstructed faithfully, according to Hellenic Heritage, the state's own site. The rest is the Italian idea of a knights' palace, finished with Roman and Hellenistic mosaic floors lifted from elsewhere on the island. Allow an hour, and look down more than up.
+What you walk through now is largely an Italian building. Italy took the Dodecanese in the early 20th century and restored the palace along with other monuments of the medieval city. Because the original plans had been lost, only the interior could be reconstructed faithfully, according to Hellenic Heritage, the state's own site. The rest is the Italian idea of a knights' palace. It is now a museum of mosaics and frescoes. Allow an hour, and look down at the floors as much as up at the halls.
 
 ## 09:30, the hospital and its garden of mosaics
 
@@ -51,11 +51,11 @@ The smaller exhibitions run to their own days. In summer the Prehistoric Exhibit
 
 By now the lower town is filling. This is the moment to go east, into the old Jewish quarter.
 
-The synagogue here, Kahal Shalom, is dated to 1577 and is the oldest synagogue in Greece. It is still a synagogue, and a small museum beside it tells the story of the Jews of Rhodes, the Rhodesli, a Sephardic community that spread from here to Africa and the Americas. The entrance is on the corner of Dossiadou and Simiou streets. From April to October it opens Sunday to Friday, 10:00–15:00, and closes on Saturdays and Jewish holidays. Entry is €6 for adults, free for children under 12, and suitcases and large bags are not allowed inside (Jewish Community of Rhodes, February 2026). Leave the beach bag on the ship.
+The synagogue here, Kahal Shalom, is dated to 1577 and is the oldest synagogue in Greece. It is still a synagogue, and the Jewish Museum of Rhodes beside it tells the story of the community that lived in this quarter for centuries. The entrance is on the corner of Dossiadou and Simiou streets. From April to October it opens Sunday to Friday, 10:00–15:00, and closes on Saturdays and Jewish holidays. Entry is €6 for adults, free for children under 12, and suitcases and large bags are not allowed inside (Jewish Community of Rhodes, February 2026). Leave the beach bag on the ship.
 
 Near the synagogue is the Square of the Jewish Martyrs, with a fountain decorated with three seahorses and a memorial dedicated in 2002 by the Greek government and the community. The square is named for what happened in July 1944. About 1,670 Jews from Rhodes and about 65 from Kos were deported to Auschwitz-Birkenau; the memorial's own inscription gives 1,604 names and 23 July. About 150 of the Aegean Jews survived. The square is a quiet place in a busy town, and most people cross it without knowing why it has that name.
 
-You will feel the change in the town's layers walking back west. The Knights held Rhodes from 1309 to 1522, when an Ottoman siege ended their rule, and the town carries both. In 1793 a Rhodes-born official, Hafiz Ahmed Agha, opened a library in the Old Town that still holds more than 1,200 manuscripts, among them a Koran dated 1540 and an Ottoman history of the siege of 1522. We could not confirm current visiting hours, so treat it as a door to try, not a plan.
+You will feel the change in the town's layers walking back west. The Knights held Rhodes from 1309 to 1522, when an Ottoman siege ended their rule, and the town carries both. In 1793 a Rhodes-born benefactor, Hafiz Ahmed Agha, opened a library in the town that still holds about 1,265 manuscripts, among them a Koran dated 1540 and an Ottoman history of the siege of 1522. We could not confirm current visiting hours, so treat it as a door to try, not a plan.
 
 ## 12:00, the one hour the walls open
 
@@ -63,7 +63,7 @@ Here is the detail almost nobody on your ship will know. The fortification walls
 
 That window falls exactly when the lanes below are at their worst. Up on the walls you get the town from above, the domes and minarets and the harbour, with a fraction of the people. Buy the ticket on hhticket.gr or ask at the palace ticket office where today's walk starts, and go as close to 12:00 as you can.
 
-On a Saturday or Sunday the walls stay shut. Walk the dry moat instead, or swap this slot for lunch.
+On a Saturday or Sunday the walls stay shut. Move lunch into this slot and take the afternoon an hour earlier.
 
 ## 13:00, lunch away from Sokratous
 
@@ -107,7 +107,7 @@ Say your ship docks at 08:00 with a 17:30 all-aboard. Walk to the KTEL station b
 
 ## If you have an extra hour
 
-The Acropolis of Rhodes, on the hill the locals call Monte Smith, is the ancient city's high ground, with its restored stadium. The municipal sights timetable lists it as open-air, always open and free (last published 2024). It is a taxi ride from Mandraki, and the view back over the town and the sea is the one the postcards do not show.
+The Acropolis of Rhodes, on the hill the locals call Monte Smith, is the ancient city's high ground, with its ancient stadium. The municipal sights timetable lists it as open-air, always open and free (last published 2024). It is a taxi ride from Mandraki, and almost nobody from the ships goes up.
 
 Kallithea Springs, the restored thermal spa a few miles down the coast from town, is the short alternative to Lindos if you want to leave town without the long bus. Entry was €5 in the 2024 municipal timetable (checked 2026 where possible; last published 2024).
 
@@ -164,7 +164,7 @@ Yes, but only Monday to Friday, 12:00–15:00, from April to October, for €5 (
 
 On a docked call of eight hours or more, yes, if you take a morning KTEL bus and are on a bus back by 14:00 for a 17:30 all-aboard. On a short call, a tender day or in the July and August heat, stay in Rhodes Town or take the ship's coach.
 
-### When should I head back to the ship in Rhodes?
+### When should you head back to the ship in Rhodes?
 
 For a 17:30 all-aboard, start walking back from the Old Town by 16:15. On a tender day, leave by 15:45. From Lindos, be on a bus by 14:00.
 
