@@ -998,6 +998,16 @@
       "permanent": true
     },
     {
+      "source": "/port/:city",
+      "destination": "/ports/:city",
+      "permanent": true
+    },
+    {
+      "source": "/port/:city/:sub*",
+      "destination": "/ports/:city",
+      "permanent": true
+    },
+    {
       "source": "/ports/:city/:sub",
       "destination": "/ports/:city",
       "permanent": true
@@ -1325,16 +1335,6 @@
     {
       "source": "/plan/:path*",
       "destination": "https://porttripapp.com/plan/:path*",
-      "permanent": false
-    },
-    {
-      "source": "/port",
-      "destination": "https://porttripapp.com/port",
-      "permanent": false
-    },
-    {
-      "source": "/port/:path*",
-      "destination": "https://porttripapp.com/port/:path*",
       "permanent": false
     },
     {

@@ -70,6 +70,8 @@ for (const p of ['/compare/:path*', '/port-comparisons/:path*', '/guides/:path*'
 perm('/getting-to-:path*', '/ports');
 perm('/cruise-port-transport/:city', '/ports/:city');
 perm('/cruise-port-day/:city', '/ports/:city');
+perm('/port/:city', '/ports/:city');
+perm('/port/:city/:sub*', '/ports/:city');
 perm('/ports/:city/:sub', '/ports/:city');
 perm('/ports/:city/:sub/:more*', '/ports/:city');
 
