@@ -26,7 +26,7 @@ The right margin is not a number you pick. It is the sum of every step between y
 
 Your ship gives two times. Departure is when it plans to leave. All-aboard is when you must be on it, and it is the only one that matters to you. Use the time in the daily programme or the app on the day. Do not work it out from the itinerary you booked months ago; times change.
 
-The lines do not treat the deadline as a suggestion. Cunard's booking conditions say "re-embarkation deadlines apply and may be strictly enforced". Norwegian's ticket contract says a guest who misses the time in their cruise documents "is at risk of being left" at the port, and that the ship may "depart without the Guest". Royal Caribbean says its ships "will not wait for any guest faring on their own".
+The lines do not treat the deadline as a suggestion. Cunard's booking conditions say you must be back before the cut-off time it sets, and that its deadlines "may be strictly enforced". Norwegian's ticket contract says a guest who misses the time in their cruise documents "is at risk of being left" at the port, and that the ship may "depart without the Guest". Royal Caribbean says its ships "will not wait for any guest faring on their own".
 
 ## Ship time and port time
 

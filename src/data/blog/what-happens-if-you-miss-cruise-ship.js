@@ -1,7 +1,7 @@
 export default `---
 slug: what-happens-if-you-miss-cruise-ship
 title: "What Happens If You Miss Your Cruise Ship, and Who Pays"
-description: "Miss all-aboard on your own and the ship sails. The cruise contracts put the cost of reaching the next port on you, with no refund. What to do and what it costs."
+description: "Miss all-aboard on your own and the ship sails. Cruise contracts put the cost of reaching the next port on you, with no refund. What to do and what it costs."
 date: 2026-06-22
 updated: "2026-10-27"
 author: "Elke"
@@ -22,9 +22,9 @@ What surprises people is not that. It is how little the cruise line owes you aft
 
 Read past the brochure and the terms are blunt. Three examples, from the lines' own documents:
 
-**Norwegian Cruise Line.** Clause 35(b) of its Australia and New Zealand guest ticket contract says a guest who misses the time in their cruise documents "is at risk of being left at the port of embarkation or port of call", and that Norwegian "shall have the right without notice to depart without the Guest". The guest "shall be fully responsible to pay for or indemnify Norwegian from all expenses incurred to rejoin the vessel", including government fees, fines and visa fees. There is no refund, and "the entire fare shall be deemed fully earned by Norwegian".
+**Norwegian Cruise Line.** Clause 35(b) of its Australia and New Zealand guest ticket contract says a guest who misses the time in their cruise documents "is at risk of being left" at the port, and that Norwegian "shall have the right without notice to depart without the Guest". The guest "shall be fully responsible to pay for or indemnify Norwegian from all expenses incurred to rejoin the vessel", including government fees, fines and visa fees. There is no refund, and "the entire fare shall be deemed fully earned by Norwegian".
 
-**Cunard.** Clause 35 of its Australia and New Zealand booking conditions (from 1 January 2026) says you must return before the cut-off time and that "re-embarkation deadlines apply and may be strictly enforced". If you do not get back in time after a port visit, Cunard is "not responsible for any expenses, including Your return home", and "subsequent boarding is not guaranteed and may be denied".
+**Cunard.** Clause 35 of its Australia and New Zealand booking conditions (from 1 January 2026) says you must return before the cut-off time it sets, and that its deadlines "may be strictly enforced". If you do not get back in time after a port visit, Cunard is "not responsible for any expenses, including Your return home", and "subsequent boarding is not guaranteed and may be denied".
 
 **Royal Caribbean.** Its FAQ says plainly: "The ship will not wait for any guest faring on their own."
 
@@ -101,7 +101,7 @@ PortTrip works out the leave-by for every part of town from your all-aboard time
 
 ## FAQ
 
-### Will the ship wait if I am only ten minutes late?
+### Will the ship wait if you are only ten minutes late?
 
 Do not plan on it. Royal Caribbean says the ship "will not wait for any guest faring on their own". Captains sometimes hold briefly when they know a guest is close, which is why calling the port agent early matters, but it is a decision, not a right.
 

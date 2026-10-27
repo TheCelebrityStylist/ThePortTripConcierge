@@ -1,6 +1,6 @@
 export default `---
 title: "Cruise Port Tourist Traps: 11 to Skip and What to Do Instead"
-description: "Touts with invalid tickets, fish priced by the kilo, meters that never start. The 11 cruise port traps our guides flag most, with 2026 prices for the real thing."
+description: "Touts with invalid tickets, fish priced by the kilo, meters that never start. 11 cruise port traps our guides flag most, with 2026 prices for the real thing."
 date: "2026-05-26"
 updated: "2026-10-27"
 slug: "cruise-port-tourist-traps"
@@ -18,7 +18,7 @@ seoKeywords: ["cruise port tourist traps", "cruise port scams", "avoid tourist t
 
 A cruise passenger is the perfect customer for a bad deal. You have five hours, no local knowledge, a deadline you cannot miss and a ship that announces your arrival to every tout in town.
 
-The traps below are not exotic. They are the ones our checked port guides flag again and again, from Rome to Lisbon. Most cost you €10 or €20. A few can cost you the ship, which is far more expensive: Norwegian's ticket contract, for example, makes a guest who misses the ship pay "all expenses incurred to rejoin the vessel". So the rule is simple. Save money where it is easy, and never save it on the return.
+The traps below are not exotic. They are the ones our checked port guides flag again and again, from Rome to Lisbon. Most only cost you money. A few can cost you the ship, which is far more expensive: Norwegian's ticket contract, for example, makes a guest who misses the ship pay "all expenses incurred to rejoin the vessel". So the rule is simple. Save money where it is easy, and never save it on the return.
 
 Prices are 2026 unless stated.
 
@@ -26,7 +26,7 @@ Prices are 2026 unless stated.
 
 The busiest street in any port charges for the address. Our guides flag Stradun in Dubrovnik, the main Plaka streets in Athens, Rua Augusta in Lisbon and the caldera edge in Santorini. On Rua Augusta and in Santorini, some menus show no prices at all. Near St Mark's in Venice, cover (coperto) and service (servizio) charges arrive on the bill uninvited.
 
-**Instead:** walk one or two streets back. In Dubrovnik the same dishes cost noticeably less away from Stradun. Ask for a printed menu with prices before you sit, and in Venice look for coperto and servizio on it. In Lisbon, the bread, olives and cheese put on the table are charged if you eat them. Push them aside if you do not want them; it is normal.
+**Instead:** walk one or two streets back. In Dubrovnik the same dishes cost noticeably less away from Stradun. Ask for a printed menu with prices before you sit, and in Venice look for coperto and servizio on it. In Lisbon, the bread, olives and cheese put on the table are charged if you eat them. Send them back if you do not want them.
 
 ## 2. "Skip-the-line" tickets from touts
 
@@ -43,7 +43,9 @@ Outside the Vatican, the Colosseum, Pompeii, the Acropolis, the Sagrada Família
 | St Mark's Basilica | €10 | tickets.basilicasanmarco.it, the only official ticket office |
 | Dubrovnik city walls | €40 | Official office at Pile, the wall entrances or the official webshop |
 
-If you want a guide, book one in advance with a confirmed time, not on the pavement. A [Colosseum, Roman Forum and Palatine Hill guided tour](https://www.viator.com/tours/Rome/Rome-Colosseum-Roman-Forum-and-Palatine-Hill-Guided-Tour/d511-15932P15?mcid=42383&pid=P00216188) or an [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) costs more than the ticket alone, and says so up front. That is the difference from a tout.
+If you want a guide, book one in advance with a confirmed time, not on the pavement. A [Colosseum, Roman Forum and Palatine Hill guided tour](https://www.viator.com/tours/Rome/Rome-Colosseum-Roman-Forum-and-Palatine-Hill-Guided-Tour/d511-15932P15?mcid=42383&pid=P00216188) costs more than the ticket alone, and says so up front. That is the difference from a tout.
+
+The Acropolis works the same way. An [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) takes about two hours and is booked for a fixed time, which matters when you need to be on the metro at Monastiraki by 14:45 for a 17:30 all-aboard.
 
 ## 3. The unlicensed driver at the gate
 
@@ -69,7 +71,7 @@ Donkey handlers at the Old Port may quote one price at the bottom and another at
 
 ## 6. Tram 28 from Martim Moniz, and the unpriced tuk-tuk
 
-Lisbon's tram 28 has its longest queue at the Martim Moniz terminus, and our guide rates it the city's worst spot for pickpockets. Paying €3.30 on board for every ride adds up too.
+Lisbon's tram 28 has its longest queue at the Martim Moniz terminus, about 22 minutes' walk from the cruise terminal, and the tram itself is the city's worst spot for pickpockets. Paying €3.30 on board for every ride adds up too.
 
 The tuk-tuk is the other Lisbon trap, at least the one hailed in the street. Drivers quote high prices for short rides once you are already in.
 
@@ -79,19 +81,19 @@ The tuk-tuk is the other Lisbon trap, at least the one hailed in the street. Dri
 
 Restaurants in Mykonos, Dubrovnik and Split list fresh fish by weight. The menu shows a price per kilo. It does not show what your fish weighs, and you find out when the bill comes.
 
-**Instead:** ask for the weight and the total price before the fish is cooked. A good restaurant will tell you without a pause. In Mykonos, also check the bill against the menu: some bars and restaurants add a large service charge or items you did not order.
+**Instead:** ask for the weight and the total price before the fish is cooked. In Mykonos, also check the bill against the menu: some bars and restaurants add a large service charge or items you did not order.
 
 ## 8. The photo that costs money and the gift that is not free
 
 Costumed "gladiators" near the Colosseum and "Roman soldiers" in Split's Peristyle pose with you, then ask for money. In Athens, someone presses a "free" bracelet or flower into your hand and then wants paying for it.
 
-**Instead:** agree a price before you pose, or say no. Hand back anything you did not ask for and keep walking. Nobody follows for long.
+**Instead:** agree a price before you pose, or say no. Hand back anything you did not ask for and keep walking.
 
 ## 9. The friendly stranger and the bar
 
 In Athens, near Monastiraki and Syntagma, a friendly stranger suggests a bar, then leaves before an inflated bill arrives.
 
-**Instead:** decline invitations from people you met five minutes ago. This one is not about the money as much as it looks. The bill is presented by people who are not interested in negotiating.
+**Instead:** decline invitations from people you met five minutes ago, and choose your own bar.
 
 ## 10. Street games, stains and petitions
 
@@ -122,15 +124,15 @@ Not by definition. They cost more, but on Royal Caribbean, for example, the ship
 
 ### Is it safe to buy tickets at the site on the day?
 
-For the Colosseum, Pompeii in summer, the Acropolis and the Sagrada Família, do not count on it. Slots sell out, and the named ticket systems leave touts as the only walk-up option.
+For the Colosseum, Pompeii in summer, the Acropolis and the Sagrada Família, do not count on it. Slots sell out, Pompeii caps entry at 20,000 a day, and a tout's ticket is no substitute when tickets are named.
 
 ### How do I know a taxi is licensed?
 
-In Rome and Naples, licensed taxis are white and wait at official ranks. Anywhere, agree the fare or check the meter is running before the car moves.
+In Rome and Naples, licensed taxis are white; in Naples they wait at the cruise terminal. Anywhere, agree the fare or check the meter is running before the car moves.
 
-### Do I have to pay the cover charge in Venice?
+### Is the Greek cruise passenger fee a scam?
 
-If it is on the menu, yes. That is why you read the menu for coperto and servizio before you sit down, not after.
+No. Greece charges a per-port cruise passenger fee: in Santorini and Mykonos, up to €20 from June to September and €12 in October (2026). Your cruise line adds it to your account or includes it in the fare.
 
 ## Sources
 
