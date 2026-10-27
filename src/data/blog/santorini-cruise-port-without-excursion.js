@@ -31,7 +31,7 @@ The trade is time and nerve. The do-it-yourself day starts later, because indepe
 
 Tender tickets are handed out on board. Get yours the moment the desk opens. On a busy day, a 30–60 minute wait for an early tender is normal for independent passengers, and every minute you lose here comes off the quiet hours in Oia.
 
-Since 31 May 2026, the Thera Municipal Port Fund has required that no more than 30% of a ship's passengers land at Athinios, and most of those are tour groups. You will land at the Old Port under Fira, along with the other 70%. Read the daily programme anyway. This summer a coach strike in June made ships skip the island, and a landslide on the steps in July moved all organised tours to Athinios for a week or more. The programme is the only document that knows where your tender goes today.
+Since 31 May 2026, the Thera Municipal Port Fund has required that no more than 30% of a ship's passengers land at Athinios, and most of those are tour groups. You will land at the Old Port under Fira, along with the other 70%. Read the daily programme anyway. This summer a coach strike in June made ships skip the island, and a landslide on the steps in July moved all organised tours to Athinios until the path reopened in early August. The programme is the only document that knows where your tender goes today.
 
 The cable car, the steps, the queue and what to see at the top have [their own article](/blog/cable-car-santorini-cruise). The short version: buy the €10 ticket at the kiosk before you join the line, or walk the 587 steps up while the cliff is in shadow. Either way, you are at the top by about 08:15–08:45.
 
@@ -146,7 +146,9 @@ Leave-by times for the most common all-aboard times, from PortTrip's Santorini r
 
 Whichever you choose, the Greek cruise passenger fee applies: up to €20 per passenger in Santorini from June to September and €12 in October (2026). Your line adds it to your account or includes it in the fare.
 
-If you want a driver without the ship's prices, a [private tailor-made land tour with a local driver](https://www.viator.com/tours/Santorini/Limo-Mercedes-sedan-up-to-4-passengers-5-hours-duration-island-tailormade-tour/d959-388920P1?mcid=42383&pid=P00216188) can do Oia and Akrotiri in one go. If you would rather spend the day on the water, a [Platinum catamaran cruise with meal and open bar](https://www.viator.com/tours/Santorini/Santorini-Luxury-Morning-Catamaran-Cruise/d959-122445P4?mcid=42383&pid=P00216188) runs five hours. Neither is a ship tour, so neither holds the ship: check the pickup point and the finish time against your all-aboard before you book.
+If you want a driver without the ship's prices, a [private tailor-made land tour with a local driver](https://www.viator.com/tours/Santorini/Limo-Mercedes-sedan-up-to-4-passengers-5-hours-duration-island-tailormade-tour/d959-388920P1?mcid=42383&pid=P00216188) can do Oia and Akrotiri in one go.
+
+If you would rather spend the day on the water, a [Platinum catamaran cruise with meal and open bar](https://www.viator.com/tours/Santorini/Santorini-Luxury-Morning-Catamaran-Cruise/d959-122445P4?mcid=42383&pid=P00216188) runs five hours. Neither is a ship tour, so neither holds the ship: check the pickup point and the finish time against your all-aboard before you book.
 
 ## FAQ
 
