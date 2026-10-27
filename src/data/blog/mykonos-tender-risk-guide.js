@@ -73,7 +73,9 @@ Turn that into a plan. Do anything that depends on a boat in the morning: the te
 
 Delos is the clearest case. The boats are wind-dependent, the crossing is 30–40 minutes, and on a meltemi morning the boatmen at the kiosk will tell you plainly if they are not going. Believe them. If the Delos kiosk is shut, you have not lost the day; you have been handed the town early.
 
-If the forecast is bad before you even leave the ship, look inland instead of out to sea. The [Mykonos small-group tour for cruise passengers with port pickup](https://www.viator.com/tours/Mykonos/Best-Mykonos-Tour-for-Cruise-Passengers-in-small-groups/d958-336476P5?mcid=42383&pid=P00216188) stays on land and takes four hours. So does a [tour and wine tasting in the Mykonian countryside](https://www.viator.com/tours/Mykonos/Tour-in-Mykonian-Land-and-Wine-Tasting/d958-268521P1?mcid=42383&pid=P00216188). Check either one's pickup point against where your tender lands, and remember that an independent tour does not hold the ship.
+If the forecast is bad before you even leave the ship, look inland instead of out to sea. The [Mykonos small-group tour for cruise passengers with port pickup](https://www.viator.com/tours/Mykonos/Best-Mykonos-Tour-for-Cruise-Passengers-in-small-groups/d958-336476P5?mcid=42383&pid=P00216188) stays on land and takes four hours.
+
+So does a [tour and wine tasting in the Mykonian countryside](https://www.viator.com/tours/Mykonos/Tour-in-Mykonian-Land-and-Wine-Tasting/d958-268521P1?mcid=42383&pid=P00216188). Check either one's pickup point against where your tender lands, and remember that an independent tour does not hold the ship.
 
 ## Noon, read the water
 

@@ -51,7 +51,7 @@ Tender days have a pecking order, and independent passengers are near the bottom
 | Most lines | Guests on the ship's own tours | Tours meet their guides and coaches first |
 | Royal Caribbean | Grand Suite and above, where applicable; not Junior Suites | Listed as "Priority Tendering (Where Applicable)" |
 | Royal Caribbean | Pinnacle Club members, on Digitized Tendering sailings (2026) | Automatically set to go ashore, no ticket needed |
-| Celebrity | Guests in The Retreat | "Priority tender embarkation" |
+| Celebrity | Guests in The Retreat | Priority boarding for tenders |
 | Holland America | Qualifying Mariner Society members | Ship to shore only, not back |
 | Carnival | Faster to the Fun buyers | Priority tender service at a preferred time (Cruise Critic, January 2025) |
 
@@ -81,7 +81,9 @@ Three rules cover most of it.
 
 **Put the flexible thing first.** Use the unpredictable first hour for something you can start whenever you land. In Kotor that is the Old Town, a few minutes from the pier and free, or a one-hour [Kotor Old Town walking tour](https://www.viator.com/tours/Kotor/Discover-Old-Town-of-Kotor/d23078-32949P1?mcid=42383&pid=P00216188) booked for when you are actually ashore. Save the fixed booking for mid-morning.
 
-**Match the length to the call, not to the brochure.** A three-hour [Kotor Blue Cave shore excursion](https://www.viator.com/tours/Kotor/Kotor-Bay-Discovery-and-Sightseeing-on-Speedboat/d23078-29883P11?mcid=42383&pid=P00216188) fits an 08:00–17:30 call if it starts by about 11:00. A five-hour caldera trip such as the [half-day Santorini catamaran](https://www.viator.com/tours/Santorini/Exclusive/d959-280218P1?mcid=42383&pid=P00216188) only works if you land on an early tender and know how you get back to the Old Port with the cable car queue still ahead.
+**Match the length to the call, not to the brochure.** A three-hour [Kotor Blue Cave shore excursion](https://www.viator.com/tours/Kotor/Kotor-Bay-Discovery-and-Sightseeing-on-Speedboat/d23078-29883P11?mcid=42383&pid=P00216188) fits an 08:00–17:30 call if it starts by about 11:00.
+
+A five-hour caldera trip such as the [half-day Santorini catamaran](https://www.viator.com/tours/Santorini/Exclusive/d959-280218P1?mcid=42383&pid=P00216188) only works if you land on an early tender and know how you get back to the Old Port with the cable car queue still ahead.
 
 Then build a second, shorter version of the day before you leave the ship. If you land an hour late, you switch to it on the quay instead of squeezing every stop into what is left.
 
