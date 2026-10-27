@@ -1,8 +1,8 @@
 export default `---
-title: "Split Cruise Port Guide: Diocletian's Palace, Beaches and Trogir"
-description: "Split's berths are 5–20 minutes' walk from Diocletian's Palace. Free palace streets, €10 cellars, Bačvice beach, the Trogir bus and a safe return plan."
+title: "Split Cruise Port Guide: Diocletian's Palace, Beaches, Trogir"
+description: "Split's cruise berths are 5–20 minutes' walk from Diocletian's Palace. Free palace streets, €10 cellars, Bačvice beach, the €2.50 Trogir bus and return times."
 date: "2026-05-26"
-updated: "2026-10-16"
+updated: "2026-10-27"
 slug: "split-cruise-port-guide"
 author: "Elke"
 category: "cruise-ports"
@@ -12,111 +12,152 @@ relatedPosts: ["dubrovnik-cruise-port-guide", "kotor-cruise-port-guide"]
 seoKeywords: ["split cruise port", "split croatia cruise", "diocletian palace cruise"]
 ---
 
-# Split Cruise Port Guide: Diocletian's Palace, Beaches and Trogir
+> **Quick answer:** Ships dock in Split's city port, either on the inner quays near the Riva (5–10 minutes' walk to Diocletian's Palace) or on the St Duje breakwater (15–20 minutes). You need no transport, and the palace streets are free. For a 17:30 all-aboard, leave the Riva by 16:00 if you are on the breakwater, or by 16:15 from the inner quays.
 
-Split is a working city built into a Roman emperor's retirement palace from around AD 300. The cruise berths sit right beside it. You need no transport for the Old Town, and the palace streets cost nothing.
+Split is the rare port where the main sight is free, open all night and a short walk from the gangway. An emperor built a retirement palace here around AD 300, and the city simply moved in. People still live inside the walls, and restaurants, bars and shops fill the old Roman rooms.
 
-## The basics
+So the question in Split is not how to get to town. It is what to add, and what to leave out. The palace fills half a day. The other half is a choice between a swim, a hill, a second town and a boat. Pick one. Try to do three and you will be jogging along the harbour road at 17:10.
 
-**Where ships dock:** Split city port. Either the inner quays near the Riva, or the outer berths on the St Duje breakwater.
-**Walk to the palace:** 5–10 minutes from the inner quays, 15–20 minutes from the breakwater. Flat and paved.
-**Tender:** Mainly a docking port, but some ships anchor and tender when the berths are full.
-**Ship excursion price:** Varies by cruise line
-**DIY cost:** Low. The palace streets are free; you pay only for the cellars, cathedral, bell tower and temple you choose.
+## Where ships dock
 
-## Getting from the ship to the palace
+Split's city port has two kinds of cruise berth, and which one you get changes your day by about 20 minutes.
 
-Walk. Follow the harbour edge west to the Riva promenade. The Bronze Gate into the palace cellars is halfway along it.
+The inner quays sit at the Riva end of the harbour, shared with the ferries. From there it is 5–10 minutes' flat walk to the palace's Bronze Gate.
 
-From the far end of the breakwater, allow 20 minutes. There is little shade, and the harbour road is busy with ferry traffic and coaches. Some ships on the breakwater run a shuttle to the Riva; prices vary by line, so ask at the gangway.
+The outer berths are on the St Duje breakwater (Gat sv. Duje), built for big ships up to about 320 m and 270 m long. From the far end it is 15–20 minutes on foot along the harbour road. There is little shade, and the road carries ferry traffic and coaches all day. Some lines run a shuttle from the breakwater to the Riva; ask at the gangway rather than assuming one exists.
 
-## What to see inside Diocletian's Palace
+Split is mainly a docking port, but tendering is allowed and some ships tender when the berths are full. Tender landings are closer to the Old Town than the breakwater. Your ship confirms the landing point.
 
-The palace is not a ruin you view from outside. People still live in it, and restaurants, bars and shops fill the old walls.
+## Walking to the palace
 
-**The Peristyle and the palace streets** — the central square and the lanes around it. Free, and open 24 hours, as are all four gates. Come before 09:30 or after 16:00 for space.
+Follow the harbour edge west to the Riva, the palm-lined promenade along the palace's south wall. The Bronze Gate is halfway along it. That is the whole route.
 
-**Palace cellars (substructures)** — the vaulted halls under the palace, which preserve its original floor plan. The east and west halls cost €10; the central corridor from the Bronze Gate is free (2026). Allow 45 minutes.
+Use the Bronze Gate. It takes you through the free central corridor of the palace cellars and up into the Peristyle, the palace's central square. It is the most dramatic way in, and it costs nothing.
 
-**Cathedral of St Domnius and bell tower** — Diocletian's mausoleum turned cathedral, with a 57 m Romanesque bell tower. Separate and combined tickets are sold; combinations are reported at about €7–15 (2026). Cover shoulders and knees. The tower stairs are steep and narrow near the top, so climb first thing.
+## Inside Diocletian's Palace
 
-**Jupiter's Temple** — a small Roman temple later used as a baptistery. €4, or included in some cathedral combinations (2026). Check your cathedral ticket first.
+The palace streets, the Peristyle and all four gates are free and open 24 hours. Anyone selling you a palace "entry ticket" is selling you something that does not exist. You pay only for four things inside, and you can choose which.
 
-**Golden Gate and Iron Gate** — walk out through the Golden Gate to the Grgur Ninski statue, then through the Iron Gate to People's Square.
+| What | Price (2026) | Time | Verdict |
+|------|-------------|------|---------|
+| Palace streets and Peristyle | Free | 1.5–2 hours | Essential |
+| Cellars (east and west halls) | €10 | 45 minutes | Worth it, and cool on a hot day |
+| Cathedral of St Domnius and bell tower | Combinations about €7–15 | 1 hour | The tower is the best view in the Old Town |
+| Jupiter's Temple | €4, or in some cathedral combinations | 15 minutes | Check your cathedral ticket first |
 
-## Ship excursion or DIY?
+The bell tower is 57 m of Romanesque stone over the Peristyle, and its stairs get steep and narrow near the top. Climb it first thing. Once tour groups arrive, it becomes a queue on a staircase. The cathedral itself began as Diocletian's mausoleum, an emperor's tomb turned into a church. Cover shoulders and knees.
 
-Ship excursion prices vary by line. You do not need one for Split itself: the palace is beside the ship and the streets are free.
+The cellars are the vaulted halls under the palace, and they preserve its original floor plan. The central corridor is free; the €10 ticket opens the east and west halls. They stay cool in summer, so save them for late morning.
 
-A ship tour is worth paying for to Krka National Park (about 1.5 hours each way, only realistic on a 9–10 hour call), for island trips by boat, or if you want Trogir and Klis in one day without managing buses.
+Then walk out through the Golden Gate to the Grgur Ninski statue, and back in through the Iron Gate to People's Square.
 
-## Beaches near Split
+Tour groups pack the Peristyle and the cellar corridor from about 09:30 to 12:30. Come before or after for space. If you want the stories behind the stones, a 90-minute small-group [walking tour of Split and Diocletian's Palace](https://www.viator.com/tours/Split/Split-Walking-Tour/d4185-378367P1?mcid=42383&pid=P00216188) covers it without a coach.
 
-**Bačvice** — a shallow, sandy-pebble city beach about 5–10 minutes' walk east of the port. Free. Busy in summer, and home of the local ball game picigin.
+## Where to eat
 
-**Kasjuni** — a pebble cove below Marjan Hill, quieter than Bačvice. Take a taxi or bus. Free; sunbeds cost extra.
+The cafés on the Riva charge for the view. Varoš, the old quarter at the foot of Marjan Hill, and the streets around People's Square are cheaper and better.
 
-## Marjan Hill
+- **Konoba Fetivi, Varoš:** pašticada and fried small fish, mains about €18–30 (2026). Closed Sundays.
+- **Villa Spiza:** daily-changing Dalmatian dishes, mains about €15–25 (2026). Small, cash only, closed Sundays.
+- **Kantun Paulina:** takeaway ćevapi, about €5–8 a portion (2026).
+- **Pazar market by the Silver Gate:** soparnik, a chard pie, about €3–4 a slice (2026).
+- **Marenda:** the local set lunch at konobas around Varoš and outside the walls, about €10–15 (2026).
 
-A wooded park on the peninsula west of the centre. The first viewpoint is about 15–20 minutes' climb up steps from Varoš. Free. Take water.
+If fish is priced by the kilo, ask for the weight and the total before it is cooked.
+
+## The afternoon: pick one
+
+### Bačvice beach
+
+A shallow, sandy-pebble city beach about 5–10 minutes' walk east of the port. Free. Busy in summer, and the home of picigin, the local ball game. It is the closest swim to the ship and the easiest to leave in a hurry.
+
+### Marjan Hill
+
+The wooded peninsula west of the centre. The first viewpoint is about 15–20 minutes' climb up steps from Varoš, with the city and islands below you. Free. Take water; the steps are in the sun. Kasjuni, a quieter pebble cove below Marjan, needs a taxi or bus. Entry is free, sunbeds extra.
+
+### Trogir
+
+A small walled UNESCO town on an islet 30 km west. Promet's bus costs €2.50 by app, ticket machine or office, or €5 from the driver (2026), and takes 40–60 minutes depending on traffic. A pre-booked car takes about 35–40 minutes. Allow 3.5–4 hours including travel.
+
+Go in the morning. Afternoon traffic back towards Split is slower, and Trogir is the one trip on this list that can make you late. Leave Trogir three hours before all-aboard (14:30 for a 17:30 sailing) and aim to be back in Split by 15:30. If the bus does not come, take a taxi or Uber straight to your berth.
+
+### Klis Fortress
+
+The hilltop fortress above Split, with wide views and a Game of Thrones past. Buses are infrequent, so take a taxi or Uber. Allow 2.5–3 hours including travel.
+
+### Out on the water
+
+The islands are the one thing you cannot reach on foot. A small-group [Blue Lagoon and three islands speedboat tour](https://www.viator.com/tours/Split/Blue-Lagoon-and-Beach-bar/d4185-20288P5?mcid=42383&pid=P00216188) runs about 5.5 hours, which fits a 9-hour call only if it leaves in the morning. Check the departure point and the scheduled return before you book, and treat the quay like the Riva: back 90 minutes before all-aboard.
+
+## Krka, honestly
+
+Krka National Park is the excursion everyone asks about, and on most cruise calls the answer is no. It is about 1.5 hours each way by road, before you have seen a single waterfall. It needs a call of about 9–10 hours. On a 7-hour call, do Trogir or Klis instead and do them well.
+
+If you do have the long call, combined tours exist, such as this [Krka waterfalls tour with Trogir and a panoramic boat ride](https://www.viator.com/tours/Split/Krka-Waterfalls-and-Trogir-Small-Group-Guided-Tour-from-Split/d4185-8463P13?mcid=42383&pid=P00216188). It lasts 8.5 hours. Do the arithmetic against your all-aboard before you pay. For Krka, the ship's own tour has one real advantage: the ship waits for it.
+
+## Ship excursion or DIY
+
+Ship excursion prices vary by line, so check your cruise planner. For Split itself you do not need one. The palace is beside the ship and the streets are free.
+
+A ship tour is worth paying for to Krka, to the islands by boat, or if you want Trogir and Klis in one day without managing buses. For Trogir alone, the bus or a pre-booked driver is cheaper and works on a normal call.
+
+The [Split port guide](/ports/split) has the full sights list, accessibility notes and a rainy-day plan.
 
 ## A day plan for a 17:30 all-aboard
 
 Assumes docking on the St Duje breakwater at 08:00 on a summer weekday.
 
-| Time | Action | Cost (2026) |
-|------|--------|------|
+| Time | Plan | Cost (2026) |
+|------|------|-------------|
 | 08:15 | Walk round the harbour to the Riva | Free |
-| 08:40 | Enter through the Bronze Gate, walk the free cellar corridor to the Peristyle | Free |
+| 08:40 | Bronze Gate, free cellar corridor, up to the Peristyle | Free |
 | 09:00 | Bell tower before the groups, then the cathedral and Jupiter's Temple | About €7–15 combined |
 | 10:15 | Palace cellars | €10 |
-| 11:00 | Golden Gate, Grgur Ninski statue, Iron Gate, People's Square | Free |
-| 12:00 | Lunch in Varoš, for example Konoba Fetivi (closed Sundays) | Mains about €18–30 |
+| 11:00 | Golden Gate, Grgur Ninski, Iron Gate, People's Square | Free |
+| 12:00 | Lunch in Varoš | Mains about €18–30 |
 | 13:30 | Marjan Hill viewpoint, or a swim at Bačvice | Free |
-| 15:45 | Coffee on the Riva | — |
+| 15:45 | Coffee on the Riva | Café prices |
 | 16:00 | Walk back to the breakwater | Free |
-| 16:30 | Back on board, one hour before all-aboard | — |
+| 16:30 | On board, one hour before all-aboard | |
 
-Cheaper lunch: ćevapi at Kantun Paulina (about €5–8), soparnik at the Pazar market (about €3–4 a slice) or a marenda set lunch around Varoš (about €10–15), all 2026 prices.
+## Getting back on time
 
-## Return timing
+Split is low-risk, but not no-risk. The danger is the walk back to the breakwater: 15–20 minutes, plus security at the gangway, and late-afternoon ferry departures can block the harbour road with queuing cars and foot passengers.
 
-The rule: be back on board 60 minutes before all-aboard. From the breakwater berths, leave the Riva 90 minutes before. From the inner quays, leave 75 minutes before.
-
-The walk back to the outer berths takes 15–20 minutes, plus security at the gangway. Late-afternoon ferry departures can block the harbour road.
-
-| All-aboard | Leave the Riva (breakwater berth) | Leave the Riva (inner quays) |
-|-----------|----------------|----------------|
+| All-aboard | Leave the Riva (breakwater) | Leave the Riva (inner quays) |
+|------------|-----------------------------|------------------------------|
 | 16:00 | 14:30 | 14:45 |
 | 17:00 | 15:30 | 15:45 |
 | 17:30 | 16:00 | 16:15 |
 | 18:00 | 16:30 | 16:45 |
 
-If you will miss all-aboard, call the port agent number on your daily programme.
+From Trogir or Klis, take a taxi or Uber straight to your berth if you are running late. If you will miss all-aboard, call the port agent number in your daily programme. The [Split day planner](/day/split) works these times out from your own ship's schedule.
 
-## Trips beyond the palace
+## Three ways to waste money in Split
 
-**Trogir.** A small walled UNESCO town on an islet 30 km west. Promet bus €2.50 by app, ticket machine or office, or €5 from the driver (2026). The ride takes about 40–60 minutes depending on traffic; a pre-booked car takes about 35–40 minutes. Allow 3.5–4 hours including travel. Go in the morning and aim to be back in Split by 15:30.
+Buying a bus ticket from the driver. Promet raised fares by 50% on 1 June 2026, and the driver now charges double: €3 in the city zone against €1.50 in the app or at a ticket office (2026). It is legal and entirely avoidable.
 
-**Klis Fortress.** A hilltop fortress above Split. Buses are infrequent, so a taxi or Uber is safer. Allow 2.5–3 hours including travel.
+Posing with the costumed "Roman soldiers" at the Peristyle. They expect money for the photo. Agree a price first or walk past.
 
-**Krka National Park.** Only on a long call of about 9–10 hours. On a 7-hour call, choose Trogir or Klis instead.
+Eating on the Riva. The view is free from a bench.
 
-From Trogir or Klis, take a taxi or Uber straight to your berth if you are running late.
+## FAQ
 
-## Common mistakes
+### Is Split a tender port?
 
-**Paying for a palace "entry" ticket.** The streets, gates and Peristyle are free.
+Mostly not. Ships usually dock in the city port. Tendering is allowed, and some ships use it when the berths are taken.
 
-**Buying bus tickets from the driver.** Driver tickets cost double since June 2026. Use the Promet app or a ticket office.
+### Is Split accessible with limited mobility?
 
-**Climbing the bell tower at midday.** Go first thing, before the groups.
+The route from the berths to the Riva is flat and paved, and the Riva is level. Inside the palace, the Peristyle and main lanes are reachable step-free from the Riva side through the cellar corridor, though surfaces are uneven. The bell tower and Marjan viewpoints are stairs only.
 
-**Posing with costumed "Roman soldiers".** They expect money for photos. Agree first or decline.
+### What is there to do in Split when it rains?
 
-## Build your Split ship-safe plan
+Stay under cover: the palace cellars, the cathedral, Jupiter's Temple, then the fish market and the cafés around People's Square. The palace limestone is very slippery when wet, so wear shoes with grip.
 
-Enter your all-aboard time and PortTrip builds your Split itinerary with timing, costs and return deadline. [Plan my Split day →](https://porttrip.com/planner)
+### Is Split safe for cruise passengers?
+
+Yes. Watch for pickpockets in the crowded palace lanes, on the Riva and around the bus and ferry terminals. In summer, carry water and find shade between 12:00 and 15:00.
 
 ## Sources
 
@@ -127,4 +168,5 @@ Enter your all-aboard time and PortTrip builds your Split itinerary with timing,
 - [Tourism Attractions – St Domnius Cathedral tickets](https://tourismattractions.net/croatia/saint-domnius-cathedral-tickets)
 - [Bookiscout – Split restaurants (2026)](https://bookiscout.com/en/guides/split-restaurants)
 - [Easy Balkan Transfers – Split cruise port](https://easybalkantransfers.com/blog/split-cruise-port/)
+- [CruiseMapper – Split cruise port](https://www.cruisemapper.com/ports/split-port-74)
 `;
