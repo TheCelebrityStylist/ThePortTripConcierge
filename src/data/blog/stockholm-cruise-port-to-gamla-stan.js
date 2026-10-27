@@ -7,7 +7,7 @@ slug: "stockholm-cruise-port-to-gamla-stan"
 author: "Elke"
 category: "cruise-ports"
 readTime: 15
-excerpt: "A cruise day in Stockholm, told hour by hour from the Stadsgården quay: a cliff above the ship, a 90 cm alley, a square with a bloody legend, a statue 15 cm tall, a warship that sank in sight of the palace, and the walk back along the water."
+excerpt: "A cruise day in Stockholm, told hour by hour from the Stadsgården quay: a cliff above the ship, a 90 cm alley, a square with a bloody legend, a statue 15 cm tall, a warship that sank on her maiden voyage, and the walk back along the water."
 tags: ["stockholm", "sweden", "gamla-stan", "bus", "train", "transport"]
 relatedPorts: ["stockholm"]
 relatedPosts: ["how-much-time-before-all-aboard", "how-to-return-cruise-ship-on-time"]
