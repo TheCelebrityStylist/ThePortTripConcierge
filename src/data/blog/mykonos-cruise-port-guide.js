@@ -33,7 +33,7 @@ If you are docked, the first decision is made for you. Do not walk. The road fro
 
 The Sea Bus pier is a few minutes' walk from the berth; buy the ticket at the kiosk on the pier. The small boats leave about every 30 minutes; the ride is about 12 minutes and costs €2.50 one way (Santorini Dave, August 2026). Older listings say €2, so carry coins. The PortTrip guide describes the boats as wheelchair accessible.
 
-Take an early one. The first boats after a ship docks are the calm ones, before the shuttle queues form and before the ferries start landing their own crowds.
+Take an early one. The first boats after a ship docks are the calm ones, before the shuttle queues form.
 
 Many lines also run a shuttle bus into town, often free, sometimes not. The KTEL bus is the other option: from the Old Port station back to Tourlos takes about 20 minutes (€2, 2026), and from Fabrika station on the south side of town about 10 minutes. Note the last shuttle time in your programme. You will want it at four o'clock.
 

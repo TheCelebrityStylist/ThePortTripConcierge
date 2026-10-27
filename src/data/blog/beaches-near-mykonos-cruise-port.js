@@ -85,7 +85,7 @@ If you would rather spend the day swimming off a boat along the south coast, the
 
 ## 12:30, lunch and the bill
 
-Every bay on this list has tavernas. The PortTrip guide's warning applies at the beach as much as in town: if the fish is priced by weight, ask for the price per kilo and the weight before it is cooked, and check the bill against the menu for service charges and items you did not order.
+Most bays on this list have tavernas; Kapari has none. The PortTrip guide's warning applies at the beach as much as in town: if the fish is priced by weight, ask for the price per kilo and the weight before it is cooked, and check the bill against the menu for service charges and items you did not order.
 
 Order early and ask for the bill with your coffee. You have a bus to catch.
 
@@ -107,9 +107,7 @@ If you are docked, there is a second road home from Fabrika: the KTEL bus to Tou
 
 ## 16:00, the pier
 
-What goes wrong here is always the taxi. Someone misses the bus, waves at a taxi and waits. Mykonos has only a few dozen taxis, and when ships and ferries are in together the queue does not move. Do not build one into your plan.
-
-If the Sea Bus is full or not running, take the KTEL bus from the Old Port station to the New Port, about 20 minutes, or walk the 35–40 minutes along the coast road. If you can see you will miss all-aboard, call the port agent on your daily programme early.
+From Fabrika at 15:40 you walk north through the lanes and reach the Old Port by 16:00, sandy and on time. The Sea Bus and the tender queue from here are the same for everyone, and the [Mykonos cruise port guide](/blog/mykonos-cruise-port-guide) walks through that last hour, including what to do if the boats stop. The short version for beach people: a missed bus is not an emergency, a taxi plan is. The island has only a few dozen taxis. If you can see you will miss all-aboard, call the port agent on your daily programme early.
 
 For terminals, scams and accessibility, see [the full Mykonos port guide](/ports/mykonos). To fit a beach to your own ship's times, [plan your Mykonos day](/day/mykonos).
 
