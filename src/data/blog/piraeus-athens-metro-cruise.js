@@ -53,7 +53,7 @@ From Terminal A, Line 3 is the obvious choice. From B and C the walk is the same
 
 ## Underground, a museum you did not pay for
 
-When the new lines were dug in the 1990s, the excavations turned up more than 50,000 finds, and several stations now show them. At Syntagma, a reconstructed section of the soil layers shows the city stacked on itself, and the displays across the stations include tombs, objects from everyday life and pieces of the ancient water and sewer networks. At Monastiraki you can see the covered riverbed of the Eridanos, which ran through ancient Athens. You walk past both on the way to the trains, and they cost nothing.
+When the new lines were dug in the 1990s, the excavations turned up more than 50,000 finds, and several stations now show them. At Syntagma, a reconstructed section of the soil layers shows the city stacked on itself, and the displays across the stations include tombs, objects from everyday life and pieces of the ancient water and sewer networks. You walk past it on the way to the trains, and it costs nothing.
 
 If you change at Syntagma for Line 2 to Akropoli, one stop on, you come out two minutes from the Acropolis Museum and about five minutes from the Acropolis south slope entrance. Building that station removed part of the same ancient neighbourhood that lies under the museum's glass floors.
 
@@ -83,9 +83,9 @@ The second is a hoard of bronzes. In July 1959, in the area of the ancient harbo
 
 Opening hours (2026): to 31 October, 09:00–17:00; from 1 November to 31 March, 08:30–15:30. Closed on Tuesdays all year. Tickets are €10. Allow an hour.
 
-Then walk a few minutes down to Zea marina, now called Pasalimani, full of yachts. In antiquity this bay was the largest naval base of Athens, where the triremes were built and kept.
+Then walk a few minutes down to Zea marina, now called Pasalimani, full of yachts. In antiquity this bay was the largest naval base of Athens, where the triremes were built and kept. For a fish lunch at local prices, look the other way: south of the port, near the Naval Academy, the Piraiki waterfront on Themistokleous Street has family-run tavernas serving fish meze at prices locals pay.
 
-From there, the next bay along is Mikrolimano, a small round harbour of fish tavernas below Kastella hill, where 19th-century neoclassical villas by the architect Ernst Ziller climb towards the church of Profitis Ilias. Just beyond it is Votsalakia, the nearest town beach to the port. A short taxi from the terminals covers it.
+From there, the next bay along is Mikrolimano, a small round harbour of high-end restaurants and fish tavernas below Kastella hill, where 19th-century neoclassical villas by the architect Ernst Ziller climb towards the church of Profitis Ilias. Just beyond it is Votsalakia, the nearest town beach to the port. A short taxi from the terminals covers it.
 
 And if it is food you are after, the Piraeus Central Market, at the corner of Dimosthenous and Lykourgou Streets, reopened in September 2026 under a new glass canopy. It first opened in May 1860, burned in 1921, mattered most after refugees from Asia Minor arrived in 1922, and closed in 1969. After 57 years, traders are back.
 

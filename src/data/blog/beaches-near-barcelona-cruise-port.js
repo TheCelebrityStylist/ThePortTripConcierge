@@ -1,6 +1,6 @@
 export default `---
 title: "Beaches Near Barcelona Cruise Port: Real Walking Times, Leave-By"
-description: "Beaches near Barcelona cruise port: Sant Miquel is about 30 min on foot from the Cruise Bus stop, or take the €1.90 boat. Five beaches, leave-by times for 17:30."
+description: "Beaches near Barcelona cruise port: Sant Miquel is about 30 min on foot from the Cruise Bus stop, or 10 min by €1.90 boat. Five beaches, leave-by for 17:30."
 date: "2026-10-27"
 updated: "2026-10-27"
 slug: "beaches-near-barcelona-cruise-port"
@@ -15,9 +15,9 @@ relatedPosts: ["barcelona-cruise-port-diy-guide", "port-bus-barcelona-cruise-shi
 
 ## 08:30, the beach you can see but not reach
 
-From the Cruise Bus stop by the World Trade Center, the beach looks close. Across the harbour mouth you can see the tower that holds up the Port Cable Car at the Barceloneta end, and beyond it the sand. As the crow flies it is under a kilometre. You are not a crow. Between you and the beach is the whole of Port Vell, and the walk goes round it.
+From the Cruise Bus stop by the World Trade Center, the beach looks close. Across the harbour mouth you can see the Torre de Sant Sebastià, the cable-car tower at the Barceloneta end, and the beach starts just past it. As the crow flies it is about a kilometre. You are not a crow. Between you and the beach is the whole of Port Vell, and the walk goes round it.
 
-You may have read that Barceloneta is 15 minutes on foot from the shuttle stop. We checked it against the port's own terminal map and the city council's beach boundaries, and it does not add up. Sant Miquel, the nearest of the city's main beaches, begins at Plaça del Mar. To get there you walk from the stop to the Columbus Monument (400–500 m), along the harbour front, and down Passeig de Joan de Borbó, the long street that runs the length of Barceloneta. Route planners put Barceloneta to Passeig de Colom alone at about 1.4 km and 16 minutes. Our estimate for the whole walk from the stop to Plaça del Mar is about 2.3 km, roughly 30 minutes at an easy pace. Every leave-by time below uses that figure.
+You may have read that Barceloneta is 15 minutes on foot from the shuttle stop. We checked it against the port's own terminal map and the city council's beach boundaries, and it does not add up. Sant Miquel, the nearest of the city's main beaches, begins at Plaça del Mar. To get there you walk from the stop to the Columbus Monument (400–500 m), along the harbour front, and down Passeig de Joan de Borbó, the long street that runs the length of Barceloneta. Our estimate for the whole walk from the stop to Plaça del Mar is about 2.3 km, roughly 30 minutes at an easy pace. Every leave-by time below uses that figure.
 
 That is not a reason to skip the beach. It is a reason to know the three ways there and to choose the right one for your call. If you would rather spend the day on Gaudí and the Gothic Quarter, our [Barcelona DIY guide](/blog/barcelona-cruise-port-diy-guide) has that day. If you only need the shuttle, the [Cruise Bus guide](/blog/port-bus-barcelona-cruise-ship) covers fares and the return queue.
 
@@ -27,23 +27,23 @@ That is not a reason to skip the beach. It is a reason to know the three ways th
 
 **By boat, 10 minutes.** The Bus Nàutic leaves Moll de Drassanes, beside the Mirador de Colom at the end of La Rambla, for Moll de Llevant, at the far end of Barceloneta near the Nova Bocana, the newer harbour entrance (Turisme de Barcelona). A single costs €1.90 and a return €2.85 (2026). Boats leave every 30 minutes, 09:30–21:20 in summer and 08:30–20:30 in winter. It is the cheapest harbour trip in Barcelona, and it drops you at the southern end of Sant Sebastià, the beach most cruise passengers never reach.
 
-**By city bus.** The D20 runs between Portal de la Pau, the square around the Columbus Monument, and Passeig Marítim, with the Pg Marítim – Pepe Rubianes stop about 100 m from Barceloneta beach (Barcelona Urbana, September 2026). Lines V15 and V19 end in Barceloneta and stop on Passeig de Joan de Borbó, about 200 m from Sant Sebastià and Sant Miquel, but they come down Via Laietana, not from the port. Pay with a contactless card or a T-casual.
+**By city bus.** Lines D20 and 59 stop at Pg Marítim – Pepe Rubianes, about 100 m from Barceloneta beach, and lines V15 and V19 end in Barceloneta with stops on Passeig de Joan de Borbó about 200 m from Sant Sebastià and Sant Miquel (Barcelona Urbana, September 2026). A T-casual covers them. Check the direction and the nearest stop in the TMB app before you rely on one.
 
 A taxi from the rank by the Columbus Monument is the fallback for the return, not the plan.
 
 ## 09:15, a neighbourhood drawn with a ruler
 
-Whichever way you came, walk a block inland from Passeig de Joan de Borbó and look down the streets. They are straight, narrow and parallel, the blocks long and thin, the houses low. Barceloneta looks planned because it was.
+Whichever way you came, walk a block inland from Passeig de Joan de Borbó and look down the streets. They are straight, narrow and parallel, the blocks long and thin. Barceloneta looks planned because it was.
 
-After the siege of 1714, part of the old Ribera district was demolished to make room for the Ciutadella, the fortress the new Bourbon rulers built to watch the city. A 1718 plan to rehouse the people who had lost their homes, many of them seafarers, came to nothing. The neighbourhood was finally laid out in 1753, to a design by the military engineer Juan Martín Cermeño: a square grid of long blocks running parallel to the harbour, two-storey houses with no interior courtyards, and building heights limited so as not to block the Ciutadella's line of fire (Enciclopèdia Catalana). The low skyline is a gunner's requirement from the 18th century. In the old Born market hall, El Born CCM, you can look down into excavated streets of the city those families lived in before; the [DIY guide](/blog/barcelona-cruise-port-diy-guide) takes you there.
+After the siege of 1714, part of the old Ribera district was demolished to make room for the Ciutadella, the fortress the new Bourbon rulers built to watch the city. A 1718 plan to rehouse the people who had lost their homes, many of them seafarers, came to nothing. The neighbourhood was finally laid out in 1753, to a design by the military engineer Juan Martín Cermeño: a square grid of long blocks running parallel to the harbour, two-storey houses with no interior courtyards, and building heights limited so as not to block the Ciutadella's line of fire (Enciclopèdia Catalana). The original height limit was a gunner's requirement. In the old Born market hall, El Born CCM, you can look down into excavated streets of the city those families lived in before; the [DIY guide](/blog/barcelona-cruise-port-diy-guide) takes you there.
 
 The church of Sant Miquel del Port, finished in 1755, is the oldest surviving building from the neighbourhood's founding (Barcelona Urbana, April 2026), and it gave the nearest beach its name. The covered Mercat de la Barceloneta, redesigned by Enric Miralles's studio, opens Monday to Saturday from 07:30. Go in to buy fruit for the beach.
 
 ## 11:00, the bar with no sign
 
-On Carrer del Baluard, at number 56, is a bar without a sign. La Cova Fumada has been here since 1944, and it claims the invention of the bomba, the potato-and-meat croquette that every tapas bar in the city now serves with aioli and a hot sauce. The neighbourhood station betevé told the story in 2022: the bomba was created in 1955 by Maria Pla, the great-grandmother of the man who runs the bar today, while she was testing hot tapas. A customer tasted it and said, in Catalan, "Això és la bomba". That is the name.
+On Carrer del Baluard, at number 56, is a bar without a sign. La Cova Fumada has been here since 1944, and it claims the invention of the bomba, the spiced potato-and-meat croquette with aioli and hot sauce that you will find on menus across the city. Barcelona's public broadcaster betevé told the story in 2022: the bomba was created in 1955 by Maria Pla, great-grandmother of Guillem Solé, the fourth generation of the family to run the bar, while she was testing hot tapas. A customer tasted it and said, in Catalan, "Això és la bomba". That is the name.
 
-Timing is the whole trick here. The kitchen opens Monday to Friday 09:00–15:00, with an evening session on Thursday and Friday 18:00–20:00, and Saturday only 09:00–13:00. It is closed on Sunday (Més Prestiges, reviewed June 2026). Atlas Obscura suggests arriving around 11:00. On a port day that is the right hour anyway: an early bomba and a beer, then the beach. Order "una bomba", and if you want the grilled sardines, they are on the plancha.
+Timing is the whole trick here. The bar opens Monday to Friday 09:00–15:00, with an evening session on Thursday and Friday 18:00–20:00, and Saturday only 09:00–13:00. It is closed on Sunday (Més Prestiges, reviewed June 2026). Atlas Obscura suggests arriving around 11:00. On a port day that is the right hour anyway: an early bomba and a beer, then the beach. Order "una bomba", and if you want the grilled sardines, they are on the plancha.
 
 ## Sant Sebastià, the beach the locals keep
 
@@ -59,7 +59,7 @@ The Bus Nàutic lands at its southern end, by the Torre de Sant Sebastià. That 
 
 Sant Miquel runs 420 m from Plaça del Mar to Carrer de l'Almirall Cervera, and the city calls it one of the oldest beaches in Barcelona. It has showers, adapted toilets, lifeguard towers, a first-aid post, bike hire and restaurants. Like every city beach, it is smoke-free.
 
-The rusting tower of glass and iron cubes standing on the sand is L'Estel Ferit, The Wounded Shooting Star, by the German artist Rebecca Horn. It is about 10 metres tall and was unveiled on 21 July 1992, four days before the Olympic Games opened (OldBCN). It remembers the xiringuitos, the beach bars and fish restaurants that once lined this shore and were cleared away as the city rebuilt its seafront for the Games. The city council lists that rebuild among the Olympic decisions that shaped today's beaches: clean up the coastline, take away the coastal railway lines, build the ring road and the Parc del Litoral. The beaches you are lying on are, in their current form, about as old as the Olympics.
+The tower of glass and iron cubes standing on the sand is L'Estel Ferit, The Wounded Shooting Star, by the German artist Rebecca Horn. It is about 10 metres tall and was unveiled on 21 July 1992, four days before the Olympic Games opened (OldBCN). It remembers the xiringuitos, the beach bars and fish restaurants that once lined this shore and were cleared away as the city rebuilt its seafront for the Games. The city council lists that rebuild among the Olympic decisions that shaped today's beaches: clean up the coastline, take away the coastal railway lines, build the ring road and the Parc del Litoral. The beaches you are lying on are, in their current form, about as old as the Olympics.
 
 **Leave by (17:30 all-aboard):** 15:45 from the Plaça del Mar end, 15:40 from the Almirall Cervera end. That is 17:30, minus 75, minus 30–35 minutes on foot.
 
@@ -75,9 +75,9 @@ Pickpockets work this beach. Do not leave anything on your towel while you swim,
 
 Somorrostro runs about 522 m from the Gas breakwater to the Olympic Port, and at 114 m on average it is the widest beach near the ship. Facilities include lockers, showers, toilets, a beach library, kiosks, restaurants and lifeguard towers, and its toilets stay open out of season.
 
-The name carries the city's hardest beach story. This stretch of coast, with parts of Barceloneta, Nova Icària and Bogatell, was the site of the Somorrostro shanty town, where roughly 15,000 people lived in very precarious conditions (Ajuntament de Barcelona). The last barracks were demolished in 1966. The flamenco dancer Carmen Amaya was born there in 1913, and as a child she fetched water at a fountain on what is now Plaça Brugada, a block back from the beach. In 1959, at the height of her fame, a new fountain by the sculptor Rafael Solanic was unveiled on the spot, with five child figures. When the local rector complained that the children were naked, she is reported to have said that they were angels, and angels are always naked (OldBCN). The fountain is still there. It is free and takes two minutes.
+The name carries the city's hardest beach story. This stretch of coast, with parts of Barceloneta, Nova Icària and Bogatell, was the site of the Somorrostro shanty town, where roughly 15,000 people lived in very precarious conditions (Ajuntament de Barcelona). The last barracks were demolished in 1966. The flamenco dancer Carmen Amaya was born there in 1913, and as a child she fetched water at a fountain on what is now Plaça Brugada, in Barceloneta near the promenade. In 1959, at the height of her fame, a new fountain by the sculptor Rafael Solanic was unveiled on the spot, with five child figures. When the local rector complained that the children were naked, she is reported to have said that they were angels, and angels are always naked (OldBCN). The fountain is still there. It is free and takes two minutes.
 
-**Leave by (17:30 all-aboard):** 15:25. That is 17:30, minus 75, minus about 50 minutes on foot from the middle of the beach. On a hot day, take the D20 or a taxi back instead and keep the margin.
+**Leave by (17:30 all-aboard):** 15:25. That is 17:30, minus 75, minus about 50 minutes on foot from the middle of the beach. On a hot day, take a taxi back instead and keep the margin.
 
 ## Nova Icària, the quiet one past the fish
 
@@ -85,17 +85,19 @@ Nova Icària sits between the Olympic Port and the Bogatell breakwater, about 41
 
 To reach it you pass under Frank Gehry's El Peix, the 56-metre fish in golden stainless steel at the foot of the Hotel Arts, built for the 1992 Games. Barcelona Urbana's April 2026 walking route suggests walking right underneath it, because the scales only make sense from below.
 
-It is the furthest of the five from the ship, a good hour on foot from the Cruise Bus stop by our count. It suits a long call, not a short one. Metro L4 (Ciutadella | Vila Olímpica) is the nearest station.
+It is the furthest of the five from the ship, about 55 minutes on foot from the Cruise Bus stop by our count. It suits a long call, not a short one. Metro L4 (Ciutadella | Vila Olímpica) is the nearest station.
 
-**Leave by (17:30 all-aboard):** 15:15 on foot. That is 17:30, minus 75, minus about 60 minutes. Better: take a taxi from the Olympic Port and leave by 15:45.
+**Leave by (17:30 all-aboard):** 15:20 on foot. That is 17:30, minus 75, minus about 55 minutes. Better: take a taxi from the Olympic Port straight to your terminal, skipping the Cruise Bus queue, and still leave by 16:00, 90 minutes before all-aboard.
 
 ## The other way to do it: boat out, walk home
 
-Most beach plans do the walk twice. Do it once. Take the Bus Nàutic from beside the Columbus Monument at about 09:30 and land at Moll de Llevant ten minutes later, at the quiet southern end of Sant Sebastià, among the locals. Swim there in the morning, when the beach is emptiest. Walk north along the sand to Plaça del Mar, cut inland into the Barceloneta grid for a bomba at La Cova Fumada before it closes at 15:00 (13:00 on Saturday), and spend the early afternoon at Sant Miquel by Rebecca Horn's tower.
+Most beach plans do the walk twice. Do it once. Take the Bus Nàutic from beside the Columbus Monument at about 09:30 and land at Moll de Llevant ten minutes later, at the quiet southern end of Sant Sebastià, among the locals. Swim there in the morning. Walk north along the sand to Plaça del Mar, cut inland into the Barceloneta grid for a bomba at La Cova Fumada before it closes at 15:00 (13:00 on Saturday), and spend the early afternoon at Sant Miquel by Rebecca Horn's tower.
 
 Then walk home: up Passeig de Joan de Borbó and back along the harbour to the Cruise Bus stop, with no boat timetable to worry about. Leave Sant Miquel by 15:45 for a 17:30 sailing. You see more of Barceloneta this way, and you are walking towards the ship, not away from it, for the whole of the last hour.
 
-If you want company for the tapas part, a small-group [tapas and wine walking tour](https://www.viator.com/tours/Barcelona/Tapas-and-Wine-Experience-in-Barcelona/d562-16168P1?mcid=42383&pid=P00216188) takes about three hours and does the choosing for you. If you want Gaudí in the morning and sand in the afternoon, book the earliest [Sagrada Família guided tour](https://www.viator.com/tours/Barcelona/Sagrada-Familia-Guided-Tour-with-Skip-the-Line-Ticket/d562-2140SAGRADA?mcid=42383&pid=P00216188) you can, then come straight down to Sant Miquel and keep the last hour simple.
+If you want company for the tapas part, a small-group [tapas and wine walking tour](https://www.viator.com/tours/Barcelona/Tapas-and-Wine-Experience-in-Barcelona/d562-16168P1?mcid=42383&pid=P00216188) takes about three hours and does the choosing for you.
+
+If you want Gaudí in the morning and sand in the afternoon, book the earliest [Sagrada Família guided tour](https://www.viator.com/tours/Barcelona/Sagrada-Familia-Guided-Tour-with-Skip-the-Line-Ticket/d562-2140SAGRADA?mcid=42383&pid=P00216188) you can, then come straight down to Sant Miquel and keep the last hour simple.
 
 ## Seasons and lifeguards
 
@@ -109,7 +111,7 @@ The rule from our [Barcelona port guide](/ports/barcelona) is to be at the Cruis
 
 Beach days add one more risk: the half hour on foot that people forget. Say you leave Sant Miquel at 16:00, thinking the stop is 15 minutes away. You reach it at 16:30, the queue is long, and you are already behind before you join it. If that happens, go to the taxi rank by the Columbus Monument; it is about 10 minutes to Adossat outside rush hour. If you are going to be late regardless, ring the port agent number in your daily programme. The ship has no obligation to wait for independent travellers.
 
-If your ship is at the World Trade Center terminals, you skip the Cruise Bus: be back at the Columbus Monument 70 minutes before all-aboard, and take about six minutes off each walking time above.
+If your ship is at the World Trade Center terminals, you skip the Cruise Bus: be back at the Columbus Monument 70 minutes before all-aboard, and the leave-by times above still work, with about ten minutes to spare.
 
 ## The practical bit
 
@@ -119,9 +121,9 @@ Times assume Moll Adossat, a 17:30 all-aboard and walking at an easy pace. Walki
 |-------|-----|--------------------------|--------|------------------|----------|
 | Sant Sebastià | Bus Nàutic or walk | 10 min boat; about 40 min on foot to the south end | 660 m | 15:25 by boat, 15:35 on foot | Locals, space |
 | Sant Miquel | Walk | About 30–35 min | 420 m | 15:45 | Short calls |
-| Barceloneta | Walk or D20 | About 40 min | 422 m | 15:35 | Lockers |
-| Somorrostro | Walk or D20 | About 50 min | 522 m | 15:25 | Widest sand |
-| Nova Icària | Taxi or metro L4 | About 60 min on foot | 415 m | 15:15 on foot | Quiet, families |
+| Barceloneta | Walk | About 40 min | 422 m | 15:35 | Lockers |
+| Somorrostro | Walk | About 50 min | 522 m | 15:25 | Widest sand |
+| Nova Icària | Walk, or taxi back | About 55 min on foot | 415 m | 15:20 on foot, 16:00 by taxi | Quiet, families |
 
 | What | Cost (2026) |
 |------|-------------|
@@ -138,7 +140,7 @@ Yes, but it is not as close as it looks. Sant Miquel and Sant Sebastià begin at
 
 ### Can I walk to the beach from Barcelona cruise port?
 
-From the World Trade Center terminals, yes, in a little under half an hour. From Moll Adossat, take the Cruise Bus first; the walk from Adossat to the Columbus Monument alone is 25–45 minutes with no shade.
+From the World Trade Center terminals, yes, in about half an hour. From Moll Adossat, take the Cruise Bus first; the walk from Adossat to the Columbus Monument alone is 25–45 minutes with no shade.
 
 ### Are there lifeguards on Barcelona's beaches in October?
 
@@ -146,7 +148,7 @@ Only on a few dates. In 2026 the last lifeguard days were 3 and 4 October, 10:30
 
 ### Which beach near the cruise port is quietest?
 
-Of the beaches close to the ship, Sant Sebastià, where almost 70% of users are local. Further east, the city council calls Nova Icària one of the quietest, but it is about an hour's walk from the Cruise Bus stop.
+Of the beaches close to the ship, Sant Sebastià, where almost 70% of users are local. Further east, the city council calls Nova Icària one of the quietest, but it is about 55 minutes' walk from the Cruise Bus stop.
 
 ### Do I need water shoes?
 

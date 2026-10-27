@@ -23,7 +23,7 @@ The escalator lifts you out of Monastiraki station into noise: the square, the f
 
 The trip in from the ship, the walk to the station and which line to take have their own guide: [Piraeus to Athens by metro](/blog/piraeus-athens-metro-cruise). This one starts here, with the city.
 
-Look down before you leave the station. When the metro was dug in the 1990s, the excavations turned up more than 50,000 finds, and several stations now display them. At Monastiraki you can see the riverbed of the Eridanos, the river that ran through ancient Athens and has been covered over for centuries. It is a strange thing to pass on the way to a timed ticket: a river you can look at but have never heard of, under a square full of people looking at their phones.
+Look down before you leave the station. When the metro was dug in the 1990s, the excavations turned the stations into small museums. At Monastiraki you can see the riverbed of the Eridanos, the river that ran through ancient Athens and has been covered over for centuries. It is a strange thing to pass on the way to a timed ticket: a river you can look at but have never heard of, under a square full of people looking at their phones.
 
 Before you climb, make a note of two addresses for later. Kostas, on Plateia Agias Irinis, makes pork souvlaki in pita with a tomato sauce, opens on weekdays only, takes cash and sells out by mid-afternoon. Krinos, at Aiolou 87, has been frying loukoumades, small honeyed doughnuts with cinnamon and walnuts, since it opened as a coffee shop in 1923. Both are a few minutes from where you stand, and both are on your way back to the train.
 
@@ -65,7 +65,7 @@ Before you look at a single statue, look down. The museum is built over an excav
 
 Then go to the top floor. The Parthenon Gallery is built to the size of the temple and turned to face it, so the frieze runs round you in the order it ran round the building, with the Parthenon itself visible through the glass walls. The pieces in white plaster are casts. The originals were removed by Lord Elgin and are in London. Seeing the gaps laid out like this makes the argument better than any leaflet.
 
-Find the five Caryatids, and the earlier statues of the Archaic gallery on the first floor, where photography is not allowed. Give the museum 75 minutes. The second-floor café looks straight up at the Acropolis and is a reasonable place to sit down for the first time since breakfast.
+Do not miss the five Caryatids. On the first floor, the Archaic gallery holds the earlier statues; photography is not allowed there. Give the museum 75 minutes. The second-floor café looks straight up at the Acropolis and is a reasonable place to sit down for the first time since breakfast.
 
 A guide who covers both the rock and the museum in one go takes about four hours: the [Acropolis and Parthenon walking tour with optional Acropolis Museum](https://www.viator.com/tours/Athens/Acropolis-tour-with-optional-Ancient-Agora-tour/d496-5776P17?mcid=42383&pid=P00216188) runs that long, so on a 17:30 all-aboard it needs to start by about 10:00.
 
@@ -93,7 +93,7 @@ This is the part of an Athens call that goes wrong, and it goes wrong for the sa
 
 So the rule is early and fixed. For a 17:30 all-aboard, be on a train from Monastiraki by 14:45 if your ship is at Terminal A, or by 14:30 from Terminals B and C. If you are still on the Acropolis or in Plaka, start walking down by 14:30 for Terminal A, 14:15 for B and C. That puts you on board about 90 minutes before all-aboard, which can feel absurdly cautious while you are finishing a doughnut. It is the margin that absorbs a stalled train.
 
-And sometimes there is no train. On 1 May 2026 the metro, including Line 1, and the tram ran no service at all for 24 hours for the Labour Day strike, and the metro was also stopped on 28 February 2026. Taxis ran normally on 1 May. Check for strikes the evening before and the morning you dock. If the metro stops while you are in town, take a taxi and tell the driver your terminal and gate, E11 for Terminal A or E12 for B and C. Call the port agent number in your daily programme as soon as you know you will be late.
+And sometimes there is no train: strikes stopped the metro for whole days twice in 2026, and the [metro guide](/blog/piraeus-athens-metro-cruise) covers what to check before you leave the ship. If the metro stops while you are in town, take a taxi and tell the driver your terminal and gate, E11 for Terminal A or E12 for B and C. Call the port agent number in your daily programme as soon as you know you will be late.
 
 The [Athens day planner](/day/athens) does this arithmetic for your terminal and your all-aboard time.
 
@@ -109,7 +109,7 @@ The museum opens at 09:00 every day it is open, so the plan works on any day of 
 
 **The Ancient Agora.** €20 (2026), close to Monastiraki and Thissio stations. It opens at 08:00 and closes between 18:00 and 20:00 from April to October, depending on the month, and at 17:00 from November to March. This was the civic heart of the city, and its museum sits in the Stoa of Attalos, a long colonnade first given to Athens by King Attalos II of Pergamon in the 2nd century BC. The Heruli burned it in AD 267. What you walk through is a reconstruction built from 1952 to 1956 by the American School of Classical Studies on the original foundations, with a million dollars from John D. Rockefeller Jr. Inside are the tools of democracy: an ostracon, a pottery shard with the name of the politician Cimon scratched on it by a citizen voting to exile him, and a kleroterion, the stone allotment machine used to pick jurors at random. Above the site stands the Temple of Hephaestus, built between 449 and 415 BC. Allow 75 minutes.
 
-**Philopappos Hill.** Free, and across Dionysiou Areopagitou from the Acropolis. A paved path laid by the architect Dimitris Pikionis, who restored the church in 1955, leads up to a small church, Agios Dimitrios Loumbardiaris. The name comes from a story told about 1658. On the eve of the saint's feast, the Ottoman commander of the Acropolis, Yusuf, planned to fire a large cannon, a loumbarda, from the Propylaia onto the church and the people in it. Lightning struck his powder store first and killed him. That is the legend. The history is that, 29 years later, a Venetian mortar fired from this same hill did blow up the Parthenon. Go up for the view back at the rock. Allow about 45 minutes there and back.
+**Philopappos Hill.** Free, and across Dionysiou Areopagitou from the Acropolis. A paved path laid by the architect Dimitris Pikionis leads up to a small church, Agios Dimitrios Loumbardiaris, which he restored in 1955. The name comes from a story told about 1658. On the eve of the saint's feast, the Ottoman commander of the Acropolis, Yusuf, planned to fire a large cannon, a loumbarda, from the Propylaia onto the church and the people in it. Lightning struck his powder store first and killed him. That is the legend. The history is that, 29 years later, a Venetian mortar fired from this same hill did blow up the Parthenon. Go up for the view back at the rock. Allow about 45 minutes there and back.
 
 **The guard at Syntagma.** If you ride Line 3 back from Syntagma instead of Monastiraki, you pass the Tomb of the Unknown Soldier in front of the parliament. The Evzones, the presidential guard, change every hour on the hour. The kilt is said to carry 400 pleats, one for each year of Ottoman rule, and each shoe weighs about 3 kg. On Sundays at 11:00 there is a full ceremony with a band. Arrive ten minutes early and keep your train time in mind: Syntagma has the same leave-by as Monastiraki.
 
@@ -134,8 +134,6 @@ The [Athens port guide](/ports/athens) has the rest: the National Archaeological
 | 18:00 | 15:15 | 15:00 | 15:00 | 14:45 |
 | 19:00 | 16:15 | 16:00 | 16:00 | 15:45 |
 
-Since 21 July 2025 Greece charges a per-passenger fee for each port call. In Piraeus it is €5 from June to September, €3 in April, May and October, and €1 from November to March, usually added to your onboard account.
-
 The ship's tour earns its price if you could not get an Acropolis slot, if a strike is announced for your call, in extreme heat, or for anyone with limited mobility, because coaches cut most of the walking. A [private half-day tour of Athens](https://www.viator.com/tours/Athens/Best-of-Athens-Half-Day-Private-Tour/d496-141567P7?mcid=42383&pid=P00216188) is the middle option, as long as you confirm pickup point and finish time in writing.
 
 ## FAQ
@@ -158,7 +156,7 @@ A cluster of about 45 island-style houses on the north slope of the Acropolis, b
 
 ### What happens if there is a metro strike on my port day?
 
-Plan for a taxi in both directions or take the ship's tour. On 1 May 2026 the metro did not run at all while taxis worked normally. Check for strikes the evening before and the morning you dock.
+Plan for a taxi in both directions, or take the ship's tour. On 1 May 2026 the metro did not run at all while taxis worked normally.
 
 ## Sources
 
