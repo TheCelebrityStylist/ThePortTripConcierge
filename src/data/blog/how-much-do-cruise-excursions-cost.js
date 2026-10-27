@@ -1,60 +1,79 @@
 export default `---
 title: "How Much Do Cruise Excursions Cost? Ship Tours vs DIY in 2026"
-description: "Cruise excursion costs: Carnival's coach-only Rome transfer is US$129.99, a DIY Rome day about €34. 2026 transport and entry prices for 12 Mediterranean ports."
+description: "Cruise excursion costs with real 2026 line prices: Carnival's Rome coach US$129.99 vs a €9.20 train, HAL's $34 Skyride, and when the ship's tour is the bargain."
 slug: "how-much-do-cruise-excursions-cost"
 author: "Elke"
 category: "cruise-planning"
 date: "2026-06-15"
 updated: "2026-10-27"
-readTime: 10
-excerpt: "Ship excursion prices vary by line, but the DIY side does not. Two real ship prices, 2026 transport and entry costs at 12 Mediterranean ports, and where the ship's coach is worth paying for."
+readTime: 15
+excerpt: "Twelve named, dated cruise-line prices set against what the same day costs on your own, from Rome to Juneau. Where the tour is just a ticket with a mark-up, where it is the bargain, and what the money is really for: the ride back."
 hero: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80"
 tags: ["excursions", "cost", "savings", "mediterranean", "cruise-planning"]
-relatedPorts: ["santorini", "rome", "florence", "barcelona", "athens"]
-relatedPosts: ["are-cruise-excursions-worth-it", "how-much-am-i-overpaying", "should-i-book-cruise-excursion"]
+relatedPorts: ["rome", "barcelona", "dubrovnik", "stockholm", "juneau", "st-thomas", "tortola", "nassau"]
+relatedPosts: ["are-cruise-excursions-worth-it", "book-colosseum-acropolis-sagrada-familia-cruise", "rome-cruise-port-without-excursion"]
 seoKeywords: ["how much do cruise excursions cost", "cruise excursion prices", "cruise excursion cost mediterranean", "average cruise excursion price", "cruise tour prices 2026"]
 bestFor: ["first-time cruisers", "budget planners", "independent travellers"]
 ---
 
-# How Much Do Cruise Excursions Cost? Ship Tours vs DIY in 2026
+> **Quick answer:** It depends on the line, the ship and the date, so the only price that counts is the one in your own cruise planner. Real 2026 examples: Carnival's coach-only "Explore Rome on Your Own" is US$129.99 an adult, Norwegian's Barcelona Attraction Pass with Sagrada Família starts at US$309.99, and Holland America's Mendenhall Glacier tour starts at $124. Doing the same Mediterranean ports yourself, with transport and the main paid sight, costs about €20–64 a person.
 
-> **Quick answer:** Ship excursion prices vary by line and season, so the figure that counts is the one in your own cruise planner. Two real examples: Carnival lists its coach-only "Explore Rome on Your Own" transfer at US$129.99 per adult, and Norwegian's Barcelona Attraction Pass with Sagrada Família starts at US$309.99 (2026). Doing the same ports yourself, with transport and the main paid sight, costs about €20–64 per person at the 12 Mediterranean ports below.
+The shore excursions page for Civitavecchia lists "Explore Rome on Your Own" at US$129.99 for an adult and US$114.99 for a child aged 3–12. Scroll down to what is included and the list is short: a coach of about 90 minutes each way and a map. Then scroll to what is not. No guide in Rome. No lunch. No entry fees.
 
-The excursion desk is not really selling you a coach. It is selling you the right to stop worrying about the time. That is worth something, and on some days it is worth a lot. On others you are paying three figures for a bus ride you could have taken for a tenth of the price.
+So the price is for a seat on a bus, there and back. The same journey on the FL5 regional train costs €4.60 each way to Roma San Pietro in 2026, and the port's own shuttle to the station walk is free. The gap is about US$115–120 a person, and you might reasonably ask what it buys.
 
-The verdict, before the detail: pay the ship where the journey is long, fragile or both. Rome, Florence, Pompeii in August and Santorini on a crowded day qualify. Do it yourself where the city starts at the gangway or a cheap shuttle away. Barcelona, Lisbon, Naples, Kotor, Valletta and Split all qualify, and the savings there are large.
+It buys one thing, and it is worth knowing exactly what it is. If the ship's coach is late, the ship waits. If your train is late, it does not. Everything below is about when that guarantee is worth three figures and when it is worth almost nothing, port by port, with prices the lines have actually published.
 
-## What the ship price actually buys
+## Why we do not print an average
 
-A ship excursion usually bundles some of these:
+Search for "average cruise excursion price" and you will find tidy tables of them. We do not publish one, because there is no average that survives contact with a real booking. Prices change by line, by ship, by season and by how far ahead you buy. Any single figure is either out of date or invented.
 
-- A coach to and from the port
-- A guide, on the coach or at the site
-- Entry to the main sight, on some tours and not others
-- A guaranteed return: if the ship's coach is late, the ship waits
+What we can give you are named, dated prices from the lines' own excursion pages, the ones our port guides were checked against in 2026. Treat them as a measure of scale, then open your planner and compare like with like.
 
-The last one is the only thing you cannot buy anywhere else. If you go independently and your train is cancelled, the ship sails and getting to the next port is your problem and your cost.
+## Twelve real prices, and the same day without them
 
-Read the inclusions line by line. The Carnival Rome transfer is a good example of why. It is listed at US$129.99 for an adult and US$114.99 for a child aged 3–12, runs 9.5 hours and gives you a 90-minute coach ride each way with a guide who hands out a map. It does not include guide services in Rome, lunch or any entry fees. You are dropped near Piazza Venezia and collected later, and the listing limits the tour to specific sailings. In other words, you are paying for transport and the return guarantee, nothing more.
+| Port | Line and tour (2026) | Listed price | The same thing on your own (2026) |
+|---|---|---|---|
+| Rome (Civitavecchia) | Carnival, Explore Rome on Your Own | US$129.99 adult, US$114.99 child | Train €9.20–10 return, or €14 BIRG day ticket |
+| Barcelona | Norwegian, Attraction Pass with Sagrada Família | From US$309.99 adult | About €37: Cruise Bus, two metro rides, Sagrada Família |
+| Dubrovnik | Carnival, Walking the City Ramparts, 4 h | US$119.99 adult | €45: bus €2.50 each way plus €40 walls ticket |
+| Stockholm (Nynäshamn) | Carnival, Stockholm Sights & Vasa Museum, 5 h | From US$189.99 adult, US$144.99 child | Train 43 kr each way plus Vasa Museum 240 kr in summer, 195 kr October to April |
+| Ålesund | Disney, Trolley Train to Aksla | US$99 adult | City train 320 kr online, or 418 steps for free |
+| Juneau | Holland America, Mendenhall Glacier & Glacier Gardens, about 4 h | From US$124 | $9: city bus $2 each way plus $5 visitor centre fee, but up to 3 hours' travel |
+| Ketchikan | Norwegian, Scenic Trolley & Discovery Center, 1.5 h | From US$69.99 adult | Walk a block from the docks; Discovery Center $5 (2025 rate) |
+| St Thomas | Holland America, Skyride to Paradise Point On Your Own | From US$34 | Walk 10–15 minutes from Havensight and buy at the base |
+| St Thomas | Carnival, Magens Bay Beach & Skyride | US$92.99 adult, US$72.99 child | Taxi about $10–15 each way a person, $5 beach entry (2025), Skyride extra |
+| Tortola | Carnival, The Baths at Virgin Gorda, 4.5 h | US$114.99 adult, US$99.99 child, entry included | Ferry US$30 return, a taxi on Virgin Gorda, US$3 park entry |
+| Nassau | Carnival, Atlantis Aquaventure | US$229.99 adult, US$139.99 child | Day pass bought direct (price varies by date) plus ferry about US$7 each way |
+| Mazatlán | Carnival, Panoramic Hike to El Faro Lighthouse, 3 h | US$46.99 adult, US$35.99 child | Trail free; walk 1.6 km to the trailhead or take a pulmonía |
 
-The independent version of that transport is the FL5 regional train: €4.60 one way from Civitavecchia to Roma San Pietro (2026), so €9.20 return, or €10 to and from Termini. The port's own shuttle to Largo della Pace is free. The gap is about US$115–120 per person, and what it buys you is insurance.
+Read down the right-hand column and a pattern appears. Where the ship's price is high and the DIY price is low, the thing being sold is transport. Where the two are close, the thing being sold is a ticket you could have bought yourself. And in two rows, Tortola and Nassau, the cheap version comes with a risk that the price does not show.
 
-## Two real ship prices, and why we do not print an average
+## The tour that is only a ticket
 
-Tables of "average excursion prices" are everywhere online. We do not print one, because there is no such thing that holds up. Prices differ by line, by ship, by season and by how far ahead you book. Any average is either out of date or made up.
+The most honest name in the table is Holland America's "Skyride to Paradise Point On Your Own", from $34. It is what it says: the cable car ticket, sold through the ship. The base station is a 10–15 minute walk from the Havensight pier, and you can buy the same ride there. The saving is small. So is the reason to pay the line.
 
-What we can give you are named, dated prices that we have checked on the line's own site:
+Ålesund has the purest version of the choice. Disney sells the Trolley Train to Aksla at $99 an adult and an Aksla Viewpoint Transfer, also $99. The town's own city train costs 320 kr online. And the viewpoint at Fjellstua sits at the top of 418 steps from the town park, 30–40 minutes up on foot, for nothing. The view is the same whichever way you arrive. For a 17:30 all-aboard, start down from the top by 15:30, which leaves time for the steps and the walk to the quay.
 
-| Line and tour | Listed price | What is included |
-|---|---|---|
-| Carnival: Explore Rome on Your Own | US$129.99 adult, US$114.99 child (listed October 2026) | Coach to Rome and back, map. No guide in Rome, no lunch, no entries |
-| Norwegian: Barcelona Attraction Pass with Sagrada Família | From US$309.99 adult, from US$249 child (2026) | Transport, several entries, skip-the-line Sagrada Família, guided walk, double-decker bus |
+In Ketchikan, Norwegian's Scenic Trolley & Southeast Discovery Center runs 1.5 hours from $69.99. The Discovery Center is a block from the docks and charged $5 at the 2025 rate. What the extra buys is the narrated trolley ride, which is a real thing; it is just not $65 of real thing.
 
-For anything else, open your cruise planner and compare against the DIY column below.
+Mazatlán's lighthouse hike is the same story in a warmer place. Carnival lists the Panoramic Hike to El Faro at US$46.99. The trail itself is free. The tour adds a truck ride and a guide, and the trailhead is about 1.6 km from where most ships tie up.
 
-## What the same day costs on your own (2026)
+None of these is a scam. They are convenience priced for people who would rather not think about it. If that is you on that day, pay it. If it is not, the walk is the excursion.
 
-Per person, transport plus the main paid sight, from our checked port guides. Food is extra. The last column is when to start back for a 17:30 all-aboard.
+## The tour that is the bargain
+
+Now look at Tortola. Carnival's tour to The Baths on Virgin Gorda is US$114.99 an adult for 4.5 hours, park entry included. On your own, the fixed costs are smaller: about US$30 for the ferry return on Speedy's, a taxi on the other island and US$3 to get in. But the day hangs on a ferry timetable between two islands and a taxi at each end. Our Tortola guide says plainly: book this one through the ship. The ship waits for its own late boat. It does not wait for yours. If you go anyway, be at the Spanish Town ferry on Virgin Gorda 150 minutes before all-aboard, 15:00 for a 17:30 sailing.
+
+Nassau's Atlantis is subtler. Carnival sells the Aquaventure day at US$229.99 an adult. You can buy a day pass direct from Atlantis and take the ferry for about US$7 each way, and on some dates that is much cheaper. The catch is in the small print our Nassau guide found: Atlantis sells a limited number of day passes and does not sell them at the door. On a busy date, the ship's package may be the only way in. Book direct only if you book ahead. Either way, leave Paradise Island two hours before all-aboard. The rest of the port is in our [Nassau guide](/blog/nassau-cruise-port-to-downtown).
+
+Juneau shows the other cost that never appears on a price list: time. Holland America's Mendenhall Glacier & Glacier Gardens tour starts at $124. The city bus and the visitor centre fee come to $9. But the bus version can take up to three hours of travel in total, and the guide's leave-by for it is 180 minutes before all-aboard. The middle option there is a private glacier shuttle, with a 90-minute leave-by instead. On a short call, the ship's $124 buys back two hours.
+
+And in Grand Cayman, our guide is clear that Stingray City is the one trip where a ship tour often makes sense: a road transfer, a boat and a fixed return. Norwegian lists it from US$99.99 an adult.
+
+## 08:00, the Mediterranean on your own
+
+The Mediterranean is where the gap is widest and the DIY day easiest, because the big cities are the sights and public transport goes there. Per person, transport plus the main paid sight, from our checked port guides. Food is extra.
 
 | Port | Transport | Main paid sight | DIY day | Leave by (17:30 all-aboard) |
 |---|---|---|---|---|
@@ -71,96 +90,85 @@ Per person, transport plus the main paid sight, from our checked port guides. Fo
 | Valletta | Upper Barrakka lift €1 return | St John's Co-Cathedral €15 | About €25 | Lift queue by 16:00 |
 | Kotor | None, the town starts at the pier | Fortress €15, cash | About €20 | Tender pier by 16:00 |
 
-Split comes in at about €22 in our guide, with the Old Town a 5–20 minute walk from the berth.
+Two things stand out. The expensive DIY days, Venice and Athens, are expensive because of entry tickets, not transport. The cheap ones, Kotor, Santorini and Valletta, are cheap because the town begins where you step ashore.
 
-Two things stand out. The expensive DIY days, Venice and Athens, are expensive because of entry tickets, not transport. And the cheap ones are cheap because there is nothing to pay for until you choose to.
+Dubrovnik is the row that settles the argument for most people. Carnival's ramparts tour is US$119.99 for four hours. The bus and the walls ticket come to €45, and you choose your own hour on the walls instead of sharing it with the coach groups. Bus 1A or 1B from Gruž takes 15–20 minutes to Pile Gate; our [Dubrovnik bus guide](/blog/bus-1a-dubrovnik-cruise-port) has the queue and the timing. Be back at Pile Gate by 15:45 for a 17:30 all-aboard.
 
-## Where the ship's coach earns its price
+In Rome, the €34 day is the train and the Colosseum. Add the Pantheon at €7 and the Trevi basin at €2, and the free things, St Peter's and three Caravaggios in San Luigi dei Francesi, and you have the day in our [Rome without a ship excursion](/blog/rome-cruise-port-without-excursion), still for less than a third of the coach seat.
 
-These are the situations where we would pay the ship, and why.
+## The ticket line
 
-**A long journey with one way back.** Rome is 70 km from Civitavecchia and the train takes 50–60 minutes to San Pietro or 75–85 to Termini. Florence is 70–90 minutes by train from Livorno, plus a bus and the port shuttle, which leaves you four to five hours in the city at best. On either, one cancelled train eats your whole margin. On the ship's coach, it eats the ship's.
+Much of what tours sell as "skip the line" is a timed slot you can buy yourself on the official site, and most of the big sights now require one anyway. Two facts that surprise people.
 
-**A strike.** Rail and metro strikes are regular in Italy and Greece. In an Italian rail strike, regional trains run only in guaranteed bands, usually 06:00–09:00 and 18:00–21:00 on weekdays, which is no use to a cruise passenger. Greek strikes are sometimes called at short notice. Check the evening before. Do not go independently to Rome, Florence, Pompeii or central Athens on a strike day.
+Booking ahead is not always cheaper. The Uffizi is €25 at the door and €29 booked, because the €4 is the booking fee. The Vatican Museums charge €20 at the door and €5 on top for a timed, skip-the-queue booking (Musei Vaticani, 2026). In Venice it runs the other way: the Doge's Palace is €35, or €30 online at least 30 days ahead. You are paying for the slot, not a discount.
 
-**Heat, stairs and walking.** Pompeii has almost no shade. Athens means a 15–30 minute walk from the terminal to the metro, each way, before you start climbing the Acropolis. On extreme heat days the Acropolis has closed from 12:00 to 17:00. Santorini adds a moving tender and a cliff. If any of that is hard for you, a coach that drops you at the gate is worth real money.
+And the cheapest ticket of all can be the most expensive. The Vatican is free on the last Sunday of the month, but the queue starts early and last entry is 12:30. On a port day, two hours in a queue costs more than €25. The full set of release dates, name rules and late-arrival rules, sight by sight, is in our guide to [booking the Colosseum, Acropolis and Sagrada Família](/blog/book-colosseum-acropolis-sagrada-familia-cruise).
 
-**Two sights a long way apart.** Pompeii plus Vesuvius in one call, or the Corinth Canal or Cape Sounion from Athens, are hard to do on public transport and get back in time.
+## The middle option: a tour you book on shore
 
-**Crowds at a bottleneck.** In Santorini, ship tour groups are tendered first and often land at Athinios, missing the cable car queue entirely. On a three-ship day that alone can save an hour.
+Between the ship's coach and doing everything alone sits the independent guided tour: a guide and a pre-booked slot, without the ship's mark-up, and without the ship's promise to wait. Plan the return yourself.
 
-**Your "Venice" is not in Venice.** If the ship calls at Trieste, Monfalcone or Ravenna, the round trip to Venice eats 3 to 5 hours. The ship will wait for its own coach, not for you.
+At sites where the queue is the problem, this is often the best value. A [Vatican Museums, Sistine Chapel and St Peter's guided tour](https://www.viator.com/tours/Rome/Skip-the-Line-Vatican-Museums-and-Sistine-Chapel-Guided-Tour/d511-3731VATICAN?mcid=42383&pid=P00216188) runs about three hours, which fits a Rome day from an early train.
 
-## Where doing it yourself is easy
+For ancient Rome, a [Colosseum, Roman Forum and Palatine Hill guided tour](https://www.viator.com/tours/Rome/Colosseum-and-Ancient-Rome-Tour-with-Roman-Forum-and-Palatine-Hill/d511-3731COLOSSEUM?mcid=42383&pid=P00216188) does the booking and the explaining. Leave the Colosseum by 13:50 for a 17:30 all-aboard.
 
-Barcelona: the Cruise Bus reaches the World Trade Center stop in about 10 minutes, and the Gothic Quarter is a short walk from there.
+Pompeii makes far more sense with someone reading it to you. A [Pompeii guided tour from Naples](https://www.viator.com/tours/Naples/Daily-Pompeii-Group-Tour-with-Archaeological-Guide/d508-18971P2?mcid=42383&pid=P00216188) takes about three and a half hours and still lets you make a 14:30 train back. Our [Pompeii guide](/blog/pompeii-without-cruise-excursion) has the station, the ticket windows and the houses most groups skip.
 
-Naples: the old town is 10–20 minutes on foot from the terminal. Naples itself needs no excursion at all.
+In Athens, an [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) takes about two hours. Check whether the €30 entry ticket is included, since it is most of the day's cost.
 
-Lisbon: the terminal is at the foot of Alfama, a flat 14-minute walk from Praça do Comércio, and a €7.25 day ticket covers trams 28 and 15E.
+## The costs nobody prints
 
-Kotor, Valletta and Split: the old town starts within walking distance of where you come ashore. In Valletta, the Upper Barrakka lift lifts you into the city in under a minute for €1.
+**Port and city charges.** Greece charges a cruise passenger fee for each port where you go ashore. In Santorini and Mykonos it is €20 from June to September (2026); in Piraeus it is €5 in summer, €3 in April, May and October, €1 in winter. Lines usually add it to your onboard account. Barcelona charges passengers in port for under 12 hours a €5 municipal surcharge plus the Catalan tourist tax, through the fare. In September 2026 the city council gave initial approval to raise the municipal part to as much as €24, with final approval still pending in October. Venice charged day visitors an access fee on 60 days between 3 April and 26 July 2026: €5 booked at least four days ahead, €10 after, with no general exemption for cruise passengers who walk into the centre.
 
-Dubrovnik: bus 1A or 1B from Gruž reaches Pile Gate in 15–20 minutes. The traffic on the way back is the only real risk.
+**Cash.** At the Kotor fortress gate, cards are only sometimes accepted, so carry euros. Santorini's cable car tickets are sold only at the stations, and Barcelona's Cruise Bus takes cards only. Carry both.
 
-Athens, for anyone comfortable with a metro: Line 1 or Line 3 reaches Monastiraki in about 20 minutes once you have walked from the terminal.
+**Children.** Ship prices for children are not a fraction of the adult price. They are usually close to it: US$114.99 against US$129.99 for the Rome coach, US$99.99 against US$114.99 for The Baths. Many of the DIY costs, meanwhile, fall away. Under-18s enter Pompeii free, and non-EU visitors under 18 enter the Acropolis free with a slot.
 
-## The middle option: book a tour on shore yourself
+**Lunch.** In none of the figures above. A waterfront table in Santorini or Venice can cost more than the day's transport.
 
-Between the ship's coach and doing everything alone sits the independent guided tour. You get a guide and a pre-booked slot without the ship's mark-up, but you lose the return guarantee, so you still need to leave by the times in the table.
+## 14:30, what the money was for
 
-At the sights where queues are the problem, this is often the best value. A [Vatican Museums, Sistine Chapel and St Peter's guided tour](https://www.viator.com/tours/Rome/Skip-the-Line-Vatican-Museums-and-Sistine-Chapel-Guided-Tour/d511-3731VATICAN?mcid=42383&pid=P00216188) runs about three hours, which fits a Rome day if you take an early train in.
+Here is the moment the ship's price was really about.
 
-For ancient Rome, a [Colosseum, Roman Forum and Palatine Hill guided tour](https://www.viator.com/tours/Rome/Colosseum-and-Ancient-Rome-Tour-with-Roman-Forum-and-Palatine-Hill/d511-3731COLOSSEUM?mcid=42383&pid=P00216188) does the booking and the explaining. From San Pietro station, allow 40 minutes each way to the Colosseum, and leave it by 13:50 for a 17:30 all-aboard.
+It is half past two in Rome, the hour our guide says to be on a train out of San Pietro for a 17:30 all-aboard. Had you taken the ship's coach, this hour would not matter much: if the coach is stuck, the ship waits. On the train, it matters. The FL5 runs every 20–30 minutes, so one cancelled train costs half an hour, which is exactly the slack the three-hour rule gives you. Two cancelled trains, and you are ringing the port agent number in your daily programme.
 
-Pompeii is a site that makes far more sense with someone explaining it. A [Pompeii guided tour from Naples](https://www.viator.com/tours/Naples/Daily-Pompeii-Group-Tour-with-Archaeological-Guide/d508-18971P2?mcid=42383&pid=P00216188) takes about three and a half hours, which still lets you be on a train back by 14:30.
+That is the trade. On most days it costs nothing, because the trains run. On a strike day it costs everything. In Italian rail strikes, regional trains run only in guaranteed bands, usually 06:00–09:00 and 18:00–21:00 on weekdays: you can get to Rome and not get back. Greek transport strikes are sometimes called at short notice, and the Athens metro stopped for whole days twice in 2026. Check the evening before, and if a strike is on, the ship's coach is no longer expensive. It is the only sensible way to go.
 
-In Athens, an [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) takes about two hours. Check whether the Acropolis entry ticket is included before you book, since the €30 ticket is a large part of the day's cost.
+The other days to pay the ship: when stairs and heat are a real problem for you, since Pompeii has almost no shade and Athens starts with a 15–30 minute walk to the metro; when you want two sights a long way apart, like Pompeii and Vesuvius; and when your "Venice" is really Trieste or Ravenna, and the round trip eats three to five hours.
 
-From Livorno, a [full-day shore excursion to Florence](https://www.viator.com/tours/Livorno/Full-day-Shore-Excursion-to-Florence-from-Livorno-with-tasting/d22138-6367P80?mcid=42383&pid=P00216188) is sold specifically to cruise passengers. Confirm the return time in writing against your all-aboard.
+## The other way to do it: price the return first
 
-## Buy entry tickets from the official seller
+Most people decide by comparing the two prices on the page. Do it the other way round. Start with the time the ship leaves, work back to the last safe train, bus or ferry, and only then look at what the day costs.
 
-Much of what a tour sells as "skip the line" is a pre-booked time slot, and you can buy most of those yourself:
+On a long call to Barcelona, the return is a ten-minute shuttle and the answer is obvious: go alone for about €37 instead of US$309.99, accepting that the pass covers more sights, and spend some of the difference on lunch in El Born. On a short call to Civitavecchia, the return is a 90-minute journey with one line and no alternative, and the ship's US$129.99 starts to look like what it is: an insurance premium. On Tortola, the return involves a boat you do not control, and the guide's advice is to pay.
 
-- **Colosseum:** compulsory time slots released 30 days ahead, tickets in your name and checked against ID.
-- **Pompeii:** named tickets, sold only by the official seller via pompeiisites.org, capped at 20,000 a day in timed windows from mid-March to mid-October.
-- **Acropolis:** timed slots on the official Hellenic Heritage site. Tickets are non-refundable.
-- **Sagrada Família and Park Güell:** timed tickets online. Sagrada Família peak slots sell out weeks ahead.
-- **St Mark's Basilica:** timed slots on tickets.basilicasanmarco.it. At the Doge's Palace, tickets without a timed slot only admit you from 12:00.
-- **Leaning Tower of Pisa:** timed slots on opapisa.it, bookable 90 days ahead.
+Our [Rome port guide](/ports/rome) and the [Rome day planner](/day/rome) both start from your all-aboard and work backwards, which is the only order that works on a 70 km day.
 
-Booking ahead is not always cheaper. The Uffizi costs €25 on the day and €29 booked in advance (2026). The Doge's Palace is the reverse: €35, or €30 online at least 30 days ahead. You are paying for the slot, not a discount.
+## The practical bit
 
-Touts outside these sites sell marked-up or invalid tickets. Buy from the official seller or not at all.
+| Factor | Go on your own | Pay the ship |
+|---|---|---|
+| Distance to the sight | Town starts at the pier, or a shuttle away | Over an hour each way, one route back |
+| What the tour is selling | A ticket or a viewpoint you can buy or walk to | Transport you cannot easily replace, like a ferry between islands |
+| Strikes | None announced | A rail or metro strike is called for your date |
+| Who is with you | Confident walkers | Limited mobility, heat-sensitive, small children on a hot day |
+| Length of the call | Long enough for the leave-by plus two hours' slack | Short, or a late arrival |
 
-## Costs people forget
-
-**Port and city charges.** Greece charges a cruise passenger fee for each port where you go ashore; in Santorini and Mykonos it is €20 from June to September (2026). Barcelona charges cruise passengers in port for under 12 hours a €5 municipal surcharge plus the Catalan tourist tax, through your fare. Venice charged day-trippers an access fee on 60 days between 3 April and 26 July 2026, from 08:30 to 16:00: €5 booked at least four days ahead, €10 after that, with no general exemption for cruise passengers.
-
-**Cash.** The Kotor fortress gate is reported as cash only. Santorini's cable car tickets are sold only at the stations, and Barcelona's Cruise Bus takes cards only. Carry both.
-
-**Lunch.** Not in any of the figures above, and a waterfront table in Santorini or Venice can cost more than the day's transport.
-
-## How to decide in five minutes
-
-Work out the DIY cost from the table. Find the ship's price in your planner. Then ask whether the difference is worth more to you than the risk on that particular day: the distance, the strike calendar, the forecast and the number of ships in port.
-
-If you go independently, plan the return first and the sights second. Our [Rome port guide](/ports/rome) and the [Rome day planner](/day/rome) both start from your all-aboard and work backwards, which is the only order that works on a 70 km day.
+Take the price on the planner, subtract the DIY figure, and ask whether the difference is worth more than the risk on that particular day. Some days it is. Most days, the walk back to the ship is part of the trip.
 
 ## FAQ
 
-### How much should you budget for a DIY cruise port day?
+### How much should I budget for a DIY cruise port day?
 
-From our checked guides, about €20 in Kotor up to about €64 in Venice per person, covering transport and the main paid sight (2026). Add food.
-
-### Are cruise excursion prices negotiable?
-
-No. They are set by the cruise line and change by season and ship. Compare tours in your own planner.
+From our checked guides, about €20 in Kotor up to about €64 in Venice per person in the Mediterranean, covering transport and the main paid sight (2026). Add food.
 
 ### Do cruise excursions include entry fees?
 
-It depends on the tour. Carnival's Rome on Your Own transfer, for example, includes no entry fees at all. Read the inclusions list, because a guided walk around the Colosseum area is not the same as entry to the Colosseum.
+It depends on the tour. Carnival's Rome on Your Own includes no entry fees at all, while its tour to The Baths includes the park fee. Read the inclusions list: a guided walk around the Colosseum area is not the same as entry to the Colosseum.
+
+### Are ship excursions cheaper for children?
+
+Slightly. Carnival lists its Rome coach at US$114.99 for a child against US$129.99 for an adult (2026). Many sights are free for under-18s when you go on your own, including Pompeii.
 
 ### Will the ship wait for an independent tour?
 
@@ -172,14 +180,19 @@ Walk where you can, use public transport where you cannot, and book any timed en
 
 ## Sources
 
-- [Carnival: Explore Rome on Your Own (Civitavecchia)](https://www.carnival.com/shore-excursions/civitavecchia-rome/explore-rome-on-your-own-804099)
+- [Carnival: Explore Rome on Your Own (Civitavecchia)](https://www.carnival.com/shore-excursions/rome-civitavecchia-italy/rome-on-your-own-804099)
 - [Norwegian Cruise Line: Barcelona Attraction Pass with Sagrada Família](https://www.ncl.com/shore-excursions/BCN_30/Barcelona-Attraction-Pass-With-Sagrada-Familia)
+- [Carnival: Walking the City Ramparts, Dubrovnik](https://www.carnival.com/shore-excursions/dubrovnik/walking-the-city-ramparts-953079)
+- [Carnival: Stockholm Sights & Vasa Museum (Nynäshamn)](https://www.carnival.com/shore-excursions/nynashamn-stockholm/stockholm-sights--vasa-museum-891005)
+- [Disney Cruise Line: Port Adventures, Ålesund](https://disneycruise.disney.go.com/port-adventures/europe/list/alesund-norway/)
+- [Holland America: Mendenhall Glacier & Glacier Gardens](https://www.hollandamerica.com/en/us/cruise-destinations/alaska-cruises/alaska-yukon-ports/jnu/23005)
+- [Holland America: Skyride to Paradise Point On Your Own](https://www.hollandamerica.com/en/cruise-destinations/caribbean-cruises/caribbean-ports/stt/39008)
+- [Carnival: The Baths at Virgin Gorda](https://www.carnival.com/shore-excursions/tortola/the-baths-at-virgin-gorda-435013)
+- [Carnival: Atlantis Aquaventure Day Pass](https://www.carnival.com/shore-excursions/nassau/atlantis-aquaventure-day-pass-424083)
+- [Norwegian Cruise Line: Scenic Trolley & Southeast Discovery Center](https://www.ncl.com/shore-excursions/KTN_54/Scenic-Trolley-Southeast-Discovery-Center)
 - [Regione Lazio: Metrebus tariff system, updated 10 August 2026](https://regione.lazio.it/sites/default/files/documentazione/2026/Allegato-6-Sistema-Tariffario-agg-10-08-2026.pdf)
-- [Parco archeologico del Colosseo: Opening times and tickets](https://colosseo.it/en/visita/orari-e-biglietti/)
-- [Parco Archeologico di Pompei: New admission fees from 12 January 2026](https://pompeiisites.org/en/comunicati/new-admission-fees-from-12-january-2026/)
-- [OASA: Prices of products](https://www.oasa.gr/en/tickets/prices-of-products/)
-- [Port de Barcelona: Transport services for cruise passengers](https://www.portdebarcelona.cat/en/business-and-services/cruise-ships/information-passenger/services/transport-services)
-- [Gallerie degli Uffizi: Ticket fares](https://www.uffizi.it/en/pages/tickets-fares)
-- [Basilica di San Marco: Ticket prices](https://tickets.basilicasanmarco.it/en/support/prices)
-- [Kompas: Dubrovnik City Walls tickets](https://kompas.hr/dubrovnik/attractions/city-walls/tickets)
+- [Musei Vaticani: rates and tickets](https://www.museivaticani.va/content/museivaticani/it/organizza-visita/tariffe-e-biglietti.html)
+- [Cruise Industry News: Greek cruise passenger fees (August 2026)](https://cruiseindustrynews.com/cruise-news/2026/08/aida-cruises-to-pass-greek-taxes-to-guests/)
+- [Catalan News: Barcelona to increase tourist tax for cruise passengers in transit (September 2026)](https://www.catalannews.com/politics/item/barcelona-to-increase-tourist-tax-for-cruise-passengers-in-transit)
+- [Comune di Venezia: access fee hours, prices and excluded areas (2026)](https://cda.veneziaunica.it/en/access-fee)
 `;
