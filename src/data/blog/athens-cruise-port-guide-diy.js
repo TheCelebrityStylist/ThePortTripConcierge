@@ -7,7 +7,7 @@ category: "cruise-ports"
 date: "2026-05-26"
 updated: "2026-10-27"
 readTime: 15
-excerpt: "A cruise day in Athens, told hour by hour from Monastiraki: the free rock most passengers walk past, the Acropolis with its timed slot, the city under the museum's glass floor, a village built by island masons, and the train you must not miss."
+excerpt: "A cruise day in Athens, told hour by hour from Monastiraki: the free rock beside the main gate, the Acropolis with its timed slot, the city under the museum's glass floor, a village built by island builders, and the train you must not miss."
 hero: "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=80"
 tags: ["athens", "piraeus", "acropolis", "greece", "metro", "anafiotika", "acropolis museum"]
 relatedPorts: ["athens", "piraeus", "santorini"]

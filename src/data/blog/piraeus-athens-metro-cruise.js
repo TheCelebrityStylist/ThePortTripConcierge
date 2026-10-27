@@ -1,151 +1,165 @@
 export default `---
-title: "Piraeus to Athens by Metro from a Cruise Ship: Step by Step"
-description: "Piraeus cruise terminal to the Acropolis by metro: walk 15–30 min to the station, €1.20 ticket (2026), 20 min to Monastiraki, and when to catch the train back."
+title: "Piraeus to Athens by Metro From Your Cruise Ship: The Real Route"
+description: "Piraeus cruise terminal to Athens by metro: the 15–30 minute walk, €1.20 tickets (2026), Line 1 or 3, the museum next to the station, and the train back."
 date: "2026-06-01"
 updated: "2026-10-27"
 slug: "piraeus-athens-metro-cruise"
 author: "Elke"
 category: "cruise-ports"
-tags: ["athens", "piraeus", "metro", "acropolis", "greece"]
+tags: ["athens", "piraeus", "metro", "acropolis", "greece", "piraeus archaeological museum", "x80"]
 relatedPorts: ["athens"]
-relatedPosts: ["athens-piraeus-cruise-port-guide", "are-cruise-excursions-worth-it"]
+relatedPosts: ["athens-cruise-port-guide-diy", "athens-piraeus-cruise-port-guide", "are-cruise-excursions-worth-it"]
 ---
 
-> **Quick answer:** From Terminal A (Gate E11), walk about 15 minutes to Dimotiko Theatro and take metro Line 3 to Monastiraki, about 20 minutes. From Terminals B and C (Gate E12), the walk to Dimotiko Theatro or Piraeus station (Line 1) is about 30 minutes. A 90-minute ticket costs €1.20 (2026). For a 17:30 all-aboard, be on a train back from Monastiraki by 14:45 from Terminal A, or 14:30 from B and C.
+> **Quick answer:** From Terminal A (Gate E11), walk about 15 minutes to Dimotiko Theatro and take metro Line 3 towards the centre: about 20 minutes to Monastiraki. From Terminals B and C (Gate E12), it is about 30 minutes on foot to Dimotiko Theatro or to Piraeus station on Line 1. A 90-minute ticket costs €1.20 (2026). For a 17:30 all-aboard, be on a train back by 14:45 from Terminal A, or 14:30 from B and C.
 
-The Acropolis is about 10 km from your ship, and the metro gets you there for the price of a bottle of water. That part of the plan works. What catches people out is everything either side of the train: a walk to the station that is longer than anyone expects, a timed Acropolis ticket that does not move, and a train home that you need to be on nearly three hours before all-aboard.
+## 08:00, a quay that is not Athens
 
-The metro is the right way to do Athens on a cruise call. It is also the plan with the least slack. Here is how to run it.
+The ship ties up in Piraeus, and from the deck you can see why people get the day wrong. Cranes, ferries, traffic, apartment blocks climbing the hills. The Acropolis is about 10 km away and out of sight. Piraeus is a city in its own right, and a busy one: in 2025 the port handled 863 cruise calls and about 1.85 million cruise passengers, a record, and several ships often share a day.
 
-## Before you leave the ship
+Check two things in the daily programme before you leave the cabin. First, your terminal. Terminal A, "Miaoulis", at Gate E11, is closest to the town. Terminals B, "Themistocles", and C, "Alkimos", share Gate E12 further along the quays. Assignments can change at short notice, so trust the programme on the day, not the brochure. Second, the news. Greek transport strikes are regular and are sometimes called at short notice. On 1 May 2026 the metro, including Line 1, and the tram ran no service for 24 hours; on 28 February 2026 the metro also stopped. Check stasy.gr, the metro operator, the evening before and again in the morning.
 
-Two things decide the day, and you can settle both before breakfast.
+The port authority runs a free shuttle between the ships and the terminal buildings. It goes no further. Everything after the terminal door is on foot, by bus or by taxi.
 
-Your terminal. Piraeus has three cruise terminals, and your daily programme says which one you are at. Terminal A, "Miaoulis", is at Gate E11, the closest to the town side of the port. Terminals B, "Themistocles", and C, "Alkimos", share Gate E12 further along the quays. Assignments can change at short notice, so check on the day, not from the brochure.
+## 08:15, the walk nobody mentions
 
-Your Acropolis slot. Entry is by timed ticket, €30 (2026), booked on the official Hellenic Heritage ticket site (tickets.hh.gr / hhticket.gr). Summer morning slots sell out and tickets are non-refundable. EU citizens up to 25 and non-EU visitors under 18 go free. If you have not booked, fix that before anything else. Turning up without a slot is the single most common way this day falls apart.
+From Terminal A, Dimotiko Theatro station is about 15 minutes on foot, flat, along the port road. From Terminals B and C, it is about 30 minutes to either Dimotiko Theatro or Piraeus station. Thirty minutes each way is an hour of your day spent beside traffic, which is why the return times at the bottom of this page differ by terminal.
 
-Also check for strikes. Metro and bus strikes in Greece are regular and are sometimes called at short notice. Look the evening before and again the morning you dock.
+If that walk is a problem, a metered yellow taxi from the terminal to central Athens costs about €25–40 and takes 20–45 minutes depending on traffic (2026). There is no fixed port fare. Check the meter is running, or book through Uber or Free Now, which dispatch licensed taxis.
 
-## Step 1: walk to the metro
+## 08:30, the station named after a theatre
 
-The port authority runs a free shuttle between the ships and the terminal buildings. It does not go to the metro. The walk to the station starts at the terminal door.
+Dimotiko Theatro means Municipal Theatre, and when you come up to the street you will see why. The white neoclassical building with the Corinthian columns is the Piraeus Municipal Theatre. It opened on 9 April 1895, designed by Ioannis Lazarimos, a professor at the Polytechnic, with an interior laid out on the model of the Odéon in Paris. Allied bombing on 11 January 1944 destroyed a large part of it, and earthquakes in 1981 and 1999 did more damage. Restoration began in 2008, and a gas-era chandelier still hangs inside.
 
-From Terminal A, walk to Dimotiko Theatro, the Line 3 terminus. About 15 minutes, flat, along the busy port road.
+The station is new. Line 3, the blue line, was extended to Piraeus in October 2022, and Dimotiko Theatro is its terminus. Trains run every 4–8 minutes.
 
-From Terminals B and C, it is about 30 minutes to either Dimotiko Theatro (Line 3) or Piraeus station (Line 1, next to the ferry harbour). Thirty minutes each way is an hour of your day spent beside traffic. If that sounds like a lot, it is, and it is the reason the return times below differ by terminal.
+Tickets are simple once you know three things (2026):
 
-If walking that far is hard, take a metered yellow taxi from the terminal and make sure the meter is running. Uber and Free Now supply licensed taxis too.
+- A 90-minute ticket costs €1.20. A 24-hour ticket costs €4.10.
+- You can tap a contactless bank card at the gate instead. Each ride costs €1.20, capped at €4.10 a day.
+- On Line 3, tap in and tap out at the gates.
 
-## Step 2: buy the right ticket
+The yellow machines take cash and cards and have an English menu. For a metro-only day, two single rides at €2.40 beat the day ticket. Buy the €4.10 day ticket only if you will also ride the X80 bus, or make more than three trips.
 
-| Ticket | Price (2026) | Valid on the X80 |
-|--------|--------------|------------------|
-| 90-minute ticket | €1.20 | No |
-| 24-hour ticket | €4.10 | Yes |
-| Contactless bank card at the gate | 90-minute fare | No |
-| 3-day tourist ticket | €20 | Yes |
+Line 3 is about 20 minutes to Monastiraki and 23 minutes to Syntagma.
 
-For a metro-only day, buy a 90-minute ticket each way, or tap your bank card at the gate going in and coming back. Two €1.20 tickets cost €2.40. The €4.10 day ticket is worth it only if you will also ride the X80 bus, or make several trips in the city.
+## The old way in: Line 1
 
-## Step 3: choose your line
+If your ship is at Terminal B or C, you have a choice, and the other option is older than most of the buildings you will see today. Piraeus station, opposite the ferry harbour, is the terminus of Line 1, the green line. It began on 27 February 1869 as the Athens–Piraeus railway, the first steam railway in Greece, running from Piraeus to Thiseio. It was electrified in 1904. Monastiraki station was added in 1895, and the present Piraeus station building was inaugurated on 30 June 1928.
 
-Line 3, the blue line, starts at Dimotiko Theatro. It was extended to Piraeus in October 2022, and it is the newer, calmer of the two. About 20 minutes to Monastiraki and 23 minutes to Syntagma. For the Acropolis Museum and the south slope, change at Syntagma to Line 2 and ride one stop to Akropoli.
-
-Line 1, the green line, starts at Piraeus station. About 17 minutes to Monastiraki and 15 minutes to Thissio. It is older and more crowded, and it is the line where pickpockets work. Keep bags closed and in front of you, and phones out of back pockets.
+Line 1 takes about 17 minutes to Monastiraki and 15 minutes to Thissio, with trains every 6–11 minutes. It is also the line where pickpockets work. Keep bags closed and in front of you and phones out of back pockets, especially at Monastiraki, Omonia and Syntagma.
 
 From Terminal A, Line 3 is the obvious choice. From B and C the walk is the same either way, so take Line 3 unless you are heading for Thissio or the Ancient Agora.
 
-## Step 4: Monastiraki to the Acropolis
+## Underground, a museum you did not pay for
 
-From Monastiraki or Thissio it is 10–15 minutes uphill to the Acropolis entrance, through Plaka. Give yourself 30–45 minutes between stepping off the train and your slot time. A coffee and a wrong turn in Plaka are both likely.
+When the new lines were dug in the 1990s, the excavations turned up more than 50,000 finds, and several stations now show them. At Syntagma, a reconstructed section of the soil layers shows the city stacked on itself, and the displays across the stations include tombs, objects from everyday life and pieces of the ancient water and sewer networks. At Monastiraki you can see the covered riverbed of the Eridanos, which ran through ancient Athens. You walk past both on the way to the trains, and they cost nothing.
 
-## At the Acropolis
+If you change at Syntagma for Line 2 to Akropoli, one stop on, you come out two minutes from the Acropolis Museum and about five minutes from the Acropolis south slope entrance. Building that station removed part of the same ancient neighbourhood that lies under the museum's glass floors.
 
-Allow about 2 hours for the Propylaia, the Parthenon and the Erechtheion. Bring water and a hat. The paths on top are uneven, slippery marble with no shade, and on extreme heat days the site has closed from 12:00 to 17:00.
+## Which stop for the Acropolis
 
-If you want context rather than just columns, a 2-hour [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) fits inside the same morning. Check whether the tour includes your entry ticket or expects you to bring one.
+Monastiraki puts you 10–15 minutes uphill from the main west entrance, through Plaka. Akropoli puts you at the foot of the south slope and next to the museum. The Acropolis ticket, €30 with a timed slot (2026), works at either entrance and must be booked before you sail on the official Hellenic Heritage site.
 
-The Acropolis Museum is at the foot of the hill, two minutes from Akropoli metro, and holds the original sculptures from the rock, with a glass floor over an excavated neighbourhood. €20 (2026), 1–1.5 hours. On Mondays it closes at 17:00 with last entry at 16:30. Go straight after the Acropolis, while you are still on the hill.
+What you do once you are up there, including the free rock beside the main entrance where Saint Paul preached, a village built by island builders and the order of the day that dodges the morning crush, is in our [Athens DIY day guide](/blog/athens-cruise-port-guide-diy). If you want a guide on the rock, a two-hour [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) fits the same morning; check whether the entry ticket is included.
 
-Doing both with a guide is a 4-hour job. The [Acropolis monuments and Parthenon walking tour with optional Acropolis Museum](https://www.viator.com/tours/Athens/Acropolis-tour-with-optional-Ancient-Agora-tour/d496-5776P17?mcid=42383&pid=P00216188) runs that long, so start it no later than about 10:00 on a 17:30 all-aboard.
+## The X80, and when it beats the train
 
-## Lunch near the station
+The X80 Piraeus–Akropoli–Syntagma express is a seasonal bus for cruise days. It returned on 23 May 2026 and runs from the cruise terminals to the Acropolis stop on Dionysiou Areopagitou and on to Syntagma in about 35 minutes. No walk to the metro.
 
-Eat near Monastiraki, so lunch is on your way back to the train. Kostas, on Plateia Agias Irinis, serves pork souvlaki in pita with tomato sauce on weekdays only, takes cash and sells out by mid-afternoon. Bairaktaris, on Monastiraki Square itself, does gyros and souvlaki in pita. On the main Plaka streets you pay for the location; walk a street or two back.
+Two catches. The €1.20 ticket is not valid on it: you need the €4.10 24-hour ticket or the €20 3-day tourist ticket before you board. And the 2026 timetable was not published; in 2024 it ran about every 40 minutes from 07:00 to 21:15. Ask at the terminal information desk whether it is running on your date and when the next one leaves.
 
-If food is the point of your day rather than an interval in it, a [Greek food walking tour](https://www.viator.com/tours/Athens/Private-Tour-Gourmet-Food-Walking-Tour-in-Athens/d496-5776GOURMET?mcid=42383&pid=P00216188) takes 3.5 hours. That is most of the time you have in the city, so it replaces the Acropolis Museum, not lunch.
+The verdict: from Terminals B and C, take the X80 in if it is there when you are. Come back by metro. Afternoon traffic into Piraeus is heavy, and a train runs every few minutes while a bus that is full or late can cost you 40.
 
-## The X80 bus, and when it is worth it
+## The other way to do it: stay in Piraeus
 
-The X80 Piraeus–Akropoli–Syntagma express is a seasonal cruise-day line, relaunched on 23 May 2026. It runs from the cruise terminals to the Acropolis stop on Dionysiou Areopagitou and on to Syntagma in about 35 minutes. Its appeal is obvious: no walk to the metro.
+On a short call, on a strike day, or on your third visit to the Parthenon, there is a better day than a rushed one in Athens, and it starts at the same station.
 
-Two catches. The €1.20 ticket is not valid, so you need the €4.10 day ticket or the €20 tourist ticket before you board. And it is seasonal, so ask at the terminal information desk whether it is running on your date. If it is, it is a good choice from Terminals B and C going in. Coming back, the metro is usually more predictable, because traffic between the centre and Piraeus is heavy.
+Walk from Dimotiko Theatro to 31 Charilaou Trikoupi Street. The Archaeological Museum of Piraeus is built round the ruins of a Hellenistic theatre, the theatre of Zea, and it holds two of the best stories in Greek archaeology.
 
-## The train back: the part that matters
+The first is a lion. Inside is a copy of a white marble lion carved around 360 BC, which stood in the harbour for so many centuries that in Italian the port became Porto Leone, Lion Port. In 1687, the same campaign in which a Venetian mortar blew up the Parthenon, the Venetian commander Francesco Morosini took the lion home as loot. It still stands at the Arsenal in Venice. On its shoulders are runes carved in the second half of the 11th century, which name Swedes as the carvers: possibly Varangians, Scandinavian mercenaries of the Byzantine emperor, who passed through the harbour and left their names on its mascot. Piraeus kept a copy. So did the Swedish History Museum in Stockholm.
 
-The Athens return deadline comes early, and not because the train is slow. The train takes about 20 minutes. It is the walk at the far end, 15 minutes to Terminal A or 30 to B and C, plus security and the shuttle to the ship, plus a margin for a crowded platform, a missed train or the wrong exit.
+The second is a hoard of bronzes. In July 1959, in the area of the ancient harbour, a group of bronze statues was found together: Apollo, Athena and Artemis, now the centre of the collection. Greece's heritage service calls them rare intact bronzes, and describes the Apollo, a kouros, as the oldest surviving cast statue in Greece.
 
-| All-aboard | Train from Monastiraki (Terminal A) | Train from Monastiraki (Terminals B/C) | Leave the Acropolis (Terminal A) | Leave the Acropolis (Terminals B/C) |
-|---|---|---|---|---|
-| 17:00 | 14:15 | 14:00 | 14:00 | 13:45 |
-| 17:30 | 14:45 | 14:30 | 14:30 | 14:15 |
-| 18:00 | 15:15 | 15:00 | 15:00 | 14:45 |
-| 19:00 | 16:15 | 16:00 | 16:00 | 15:45 |
+Opening hours (2026): to 31 October, 09:00–17:00; from 1 November to 31 March, 08:30–15:30. Closed on Tuesdays all year. Tickets are €10. Allow an hour.
 
-Following the rule puts you on board about 90 minutes before all-aboard. That can feel cautious at 14:30 in Monastiraki. It is the margin that absorbs a strike, a stalled train or a terminal reassigned since the morning. Afternoon trains back to Piraeus fill with cruise passengers, so earlier is easier as well as safer.
+Then walk a few minutes down to Zea marina, now called Pasalimani, full of yachts. In antiquity this bay was the largest naval base of Athens, where the triremes were built and kept.
 
-If the metro is stopped, take a taxi from central Athens and tell the driver your terminal and gate, E11 or E12. Call the port agent number in your daily programme as soon as you know you will be late.
+From there, the next bay along is Mikrolimano, a small round harbour of fish tavernas below Kastella hill, where 19th-century neoclassical villas by the architect Ernst Ziller climb towards the church of Profitis Ilias. Just beyond it is Votsalakia, the nearest town beach to the port. A short taxi from the terminals covers it.
 
-The [Athens day planner](/day/athens) does this arithmetic for your terminal and all-aboard time.
+And if it is food you are after, the Piraeus Central Market, at the corner of Dimosthenous and Lykourgou Streets, reopened in September 2026 under a new glass canopy. It first opened in May 1860, burned in 1921, mattered most after refugees from Asia Minor arrived in 1922, and closed in 1969. After 57 years, traders are back.
 
-## DIY or the ship's tour
+For a Piraeus day, use the same walking times as from the stations. For a 17:30 all-aboard, we would start walking back from the museum or the market by 15:45 for Terminal A and 15:30 for B and C. That is our arithmetic, not a published rule: the same 90 minutes on board, without the train.
 
-| | Ship excursion | DIY (2026) |
-|--|----------------|------------|
-| Transport to Athens and back | Varies by line | €4.10 day ticket, or two €1.20 tickets |
-| Acropolis entry | Varies by line | €30 |
-| Acropolis Museum | Varies by line | €20 |
-| Typical DIY day | Check your cruise planner | €54.10 plus lunch |
+## 14:30, the train back
 
-For anyone comfortable with a metro and a 30-minute walk, DIY wins. The ship's tour earns its price in four situations: you could not get an Acropolis slot, a strike is announced for your call, the heat is extreme, or someone in your group has limited mobility. Coach drop-offs cut most of the walking, and the Acropolis lift for visitors with limited mobility stopped repeatedly in summer 2026 for wind, rain, heat and maintenance. A [private half-day tour of Athens](https://www.viator.com/tours/Athens/Best-of-Athens-Half-Day-Private-Tour/d496-141567P7?mcid=42383&pid=P00216188) is the middle option, as long as you confirm the pickup point and the finish time in writing.
+This is where the Athens day is won or lost. The train itself is short, about 20 minutes. What takes the time is the far end: 15 minutes on foot from Dimotiko Theatro to Terminal A, or about 30 minutes to B and C, then security and the shuttle to the ship, plus a margin for a full platform, a missed train or the wrong exit.
 
-For the Corinth Canal or Cape Sounion, take the ship's tour. The drive is long and the ship waits for its own coaches.
+So for a 17:30 all-aboard, be on a train from Monastiraki or Syntagma by 14:45 if your ship is at Terminal A, or by 14:30 from Terminals B and C. Afternoon trains towards Piraeus fill with cruise passengers, which is another reason to go early.
 
-The [Athens port guide](/ports/athens) covers the other sights, accessibility and a rainy-day plan.
+If the metro is stopped, take a taxi and tell the driver your terminal and gate: E11 for A, E12 for B and C. Call the port agent number in your daily programme as soon as you know you will be late. The [Athens day planner](/day/athens) works out these times for your terminal and all-aboard.
+
+If the whole thing sounds like too many moving parts, a [private half-day tour of Athens](https://www.viator.com/tours/Athens/Best-of-Athens-Half-Day-Private-Tour/d496-141567P7?mcid=42383&pid=P00216188) solves the transport, as long as you confirm the pickup point at the port and the finish time in writing. For the Corinth Canal or Cape Sounion, the ship's tour is the safer way to fit the drive into one call.
+
+## The practical bit
+
+| What | Detail (2026) |
+|---|---|
+| Terminal A to Dimotiko Theatro (Line 3) | About 15 min on foot |
+| Terminals B and C to a station | About 30 min on foot |
+| Line 3 to Monastiraki / Syntagma | About 20 / 23 min, every 4–8 min |
+| Line 1 Piraeus to Monastiraki | About 17 min, every 6–11 min |
+| Tickets | €1.20 for 90 min; €4.10 for 24 hours; contactless €1.20 a ride, capped at €4.10 |
+| X80 bus | Needs €4.10 or €20 ticket; about 35 min; ask if running |
+| Taxi to the centre | About €25–40, metered |
+| Archaeological Museum of Piraeus | €10; closed Tuesdays; 09:00–17:00 to 31 Oct, 08:30–15:30 from 1 Nov |
+
+| All-aboard | Train back (Terminal A) | Train back (Terminals B/C) |
+|---|---|---|
+| 17:00 | 14:15 | 14:00 |
+| 17:30 | 14:45 | 14:30 |
+| 18:00 | 15:15 | 15:00 |
+| 19:00 | 16:15 | 16:00 |
+
+The [Athens port guide](/ports/athens) covers accessibility, the rainy-day plan and the rest of the sights.
 
 ## FAQ
 
 ### Is there a cruise passenger fee in Piraeus?
 
-Yes. Since 21 July 2025 each passenger who goes ashore pays a fee per port call: for Piraeus, €5 from June to September, €3 in April, May and October and €1 from November to March. Cruise lines collect it, often on your onboard account.
+Yes. Since 21 July 2025 each passenger who goes ashore pays a fee per Greek port call. In Piraeus it is €5 from June to September, €3 in April, May and October and €1 from November to March. Cruise lines usually add it to your onboard account.
+
+### Can you pay for the Athens metro with a bank card?
+
+Yes. Tap a contactless card at the gate: each ride costs €1.20, capped at €4.10 a day (2026). On Line 3, tap out as well as in. The card fare is not valid on the X80.
 
 ### Is there time for the National Archaeological Museum as well?
 
-Only on a long call. It needs about 2 hours, costs €20 (2026), and Victoria on Line 1 is the nearest station. On Tuesdays it opens only at 13:00.
+Only on a long call. It needs about two hours, costs €20 (2026) and Victoria on Line 1 is the nearest station. On Tuesdays it opens only at 13:00, which is also the day the Piraeus museum is closed.
 
 ### Is the Athens metro safe for cruise passengers?
 
-Yes in daytime, with care. Theft of wallets, phones and passports is common on Line 1 and at Monastiraki, Omonia and Syntagma stations. Avoid any demonstration on Syntagma Square.
-
-### Which scams target visitors around Monastiraki?
-
-The friendly stranger who suggests a bar and leaves before an inflated bill arrives. The "free" bracelet pressed into your hand, followed by a demand for money. Taxis that will not start the meter. And street sellers of "skip-the-line" Acropolis tickets: buy only on the official Hellenic Heritage site.
+Yes in daytime, with care. Theft of wallets, phones and passports is common on Line 1 and at Monastiraki, Omonia and Syntagma. Stay away from any demonstration on Syntagma Square.
 
 ### Does the metro still work on a short call?
 
-Do the sums first. From Terminals B or C, the walk and the train take close to an hour each way, and you need to be on a train back 3 hours before all-aboard. On a short call that leaves very little time on the Acropolis, and the ship's tour or the X80 from the terminal makes more sense.
+Do the sums first. From Terminals B or C, walk and train take close to an hour each way, and you need to be on a train back three hours before all-aboard. On a short call, spend the day in Piraeus instead, or take the X80 in and a taxi back.
 
 ## Sources
 
 - [Piraeus Port Authority – Cruise Terminal](https://www.olp.gr/en/services-olp/cruise-terminal)
+- [Naftemporiki – Port of Piraeus cruises kick off 2026 (January 2026)](https://www.naftemporiki.gr/english/2058485/port-of-piraeus-cruises-kick-off-2026-with-strong-momentum/)
 - [OASA – Prices of products](https://www.oasa.gr/en/tickets/prices-of-products/)
-- [Holland America Line – Piraeus (Athens) port information](https://www.hollandamerica.com/en/plan-a-cruise/get-ready-for-your-cruise/cruise-ports-and-hotels/piraeus-athens-greece)
+- [Art Visit Guide – Piraeus to Athens on a cruise day (October 2026)](https://www.artvisitguide.com/piraeus-to-athens-cruise-day/)
+- [Taxi to Athens – 1 May 2026 strike: metro, tram and ferries halted (April 2026)](https://taxitoathens.com/?p=3323)
 - [Railway Gazette – Piraeus metro extension opens](https://www.railwaygazette.com/metro/piraeus-metro-extension-opens/62737.article)
-- [Art Visit Guide – Piraeus to Athens on a cruise day (2026)](https://www.artvisitguide.com/piraeus-to-athens-cruise-day/)
-- [Art Visit Guide – Acropolis of Athens tickets (2026)](https://www.artvisitguide.com/acropolis-of-athens-tickets-guide/)
-- [Hellenic Ministry of Culture – Acropolis Museum](https://archaeologicalmuseums.culture.gov.gr/en/museum/5df34af3deca5e2d79e8c1d1)
-- [To Vima – Acropolis lift disruptions explained (August 2026)](https://www.tovima.com/society/acropolis-elevator-disruptions-explained-by-greek-ministry/)
-- [Deep Arrival – Greece cruise tax 2026](https://deeparrival.com/news/greece-cruise-tax-2026/)
+- [Wikipedia – Line 1 (Athens Metro)](https://en.wikipedia.org/wiki/Line_1_(Athens_Metro))
+- [Municipal Theatre of Piraeus – History](https://www.dithepi.gr/en/thetheater/history)
+- [Religious Greece – Antiquities in the metro stations](https://religiousgreece.gr/en/activities/antiquities-metro-stations)
+- [Hellenic Heritage – Archaeological Museum of Piraeus (updated June 2026)](https://www.hh.gr/en/?p=1976)
+- [Wikipedia – Piraeus Lion](https://en.wikipedia.org/wiki/Piraeus_Lion)
+- [Wikipedia – Piraeus Apollo](https://en.wikipedia.org/wiki/Piraeus_Apollo)
+- [Discover Greece – Best things to do in Piraeus](https://www.discovergreece.com/it/travel-ideas/best-of/10-best-things-do-piraeus)
+- [To Vima – A second life for Piraeus' historic Central Market (September 2026)](https://www.tovima.com/food/a-second-life-for-piraeus-historic-central-market/)
 - [National Archaeological Museum – Opening hours and tickets](https://www.namuseum.gr/en/episkepsi)
 `;

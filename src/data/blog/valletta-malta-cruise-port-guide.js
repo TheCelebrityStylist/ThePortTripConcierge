@@ -1,167 +1,178 @@
 export default `---
-title: "Valletta Cruise Port Guide: Barrakka Lift, St John's, Timing"
-description: "Valletta cruise port: walk the Waterfront, ride the Barrakka lift for €1 return (2026), see St John's (€15, shut Sundays) and be in the lift queue by 16:00."
+title: "Valletta Cruise Port Guide: The Lift, Caravaggio and the Guns"
+description: "Valletta from the ship: €1 Barrakka lift (2026), St John's €15 and shut Sundays, the war rooms under the gardens, the noon gun, and the lift queue by 16:00."
 date: "2026-05-26"
 updated: "2026-10-27"
 slug: "valletta-malta-cruise-port-guide"
 author: "Elke"
 category: "cruise-ports"
-tags: ["valletta", "malta", "walking", "easy"]
+tags: ["valletta", "malta", "walking", "easy", "three cities", "caravaggio"]
 relatedPorts: ["valletta"]
 relatedPosts: ["dubrovnik-cruise-port-guide", "split-cruise-port-guide"]
-seoKeywords: ["valletta cruise port", "malta cruise port", "valletta independent"]
+seoKeywords: ["valletta cruise port", "malta cruise port", "valletta independent", "barrakka lift cruise", "valletta one day cruise"]
 ---
 
-> **Quick answer:** Ships dock at the Valletta Waterfront in the Grand Harbour, so there is no tender. Walk 10–15 minutes along the quay to the Upper Barrakka lift, pay €1 for a return (2026) and you are in the city in 23 seconds. For a 17:30 all-aboard, be in the lift queue at the top by 16:00.
+> **Quick answer:** Ships dock at the Valletta Waterfront in the Grand Harbour, so there is no tender. Walk 10–15 minutes along the quay to the Barrakka lift, pay €1 for a return (2026) and you are in Upper Barrakka Gardens in about 23 seconds. St John's Co-Cathedral costs €15 and is closed on Sundays and public holidays. For a 17:30 all-aboard, be in the lift queue at the top by 16:00.
 
-Valletta sits directly above your ship. The capital of Malta is on a ridge over the Grand Harbour, and a public lift connects the quay to its gardens for a euro. Once you are up, everything that matters is within a 15-minute walk on a level grid of streets along the ridge.
+## 07:30, the coloured doors
 
-That makes it one of the easiest DIY ports in the Mediterranean, and it is easy to get wrong in two ways. Arrive on a Sunday and the one building most people come for, St John's Co-Cathedral, is shut. Leave the lift until the last half hour and you will meet every other passenger in the queue.
+The ship comes alongside under a wall of honey-coloured stone. The city is above you, on its ridge, and the first thing at eye level is a long row of arched warehouses with painted doors. The colours were a code. According to the standard account of the Waterfront's history, each one marked what was stored behind it: blue for fish, green for farm produce, yellow for wheat, red for wine.
 
-## Where the ship docks
+Grand Master Anton Manoel de Vilhena began building stores on this quay in 1727. In 1752 Grand Master Manuel Pinto de Fonseca added 19 more and a church, the Church of the Flight into Egypt, in the middle of the row. Wartime bombing wrecked much of it, because it sat beside the dockyard and the Royal Navy; some stores were destroyed outright and the church was hit. What you walk along now is the restored front, the cruise terminal in Magazino Hall among it.
 
-Ships berth along the Valletta Waterfront, at Pinto Wharf and the neighbouring quays, and the terminal is in the restored Magazino Hall. You step straight onto a promenade of 18th-century warehouses. There is no port shuttle, and you do not need one.
+You will have company. Valletta Cruise Port handled 385 ship calls in 2025 and a record 962,966 passenger movements, it said in January 2026, and 772,664 of those were people like you, ashore for the day. On a busy morning, several ships open their gangways at once, and almost everyone heads for the same 58-metre lift.
 
-Taxis, horse cabs, hop-on hop-off booths and the Route 130 bus stop are all on the Waterfront. None of them is needed to reach the city.
+## 08:15, the lift, and its arithmetic
 
-## Getting up to the city
+Walk east along the flat Waterfront promenade to the lower station, 10–15 minutes depending on your berth. There is no port shuttle and you do not need one.
 
-### The Upper Barrakka lift (the right answer)
+Transport Malta runs the Barrakka lift. Two cabins of 21 passengers each climb 58 metres in about 23 seconds. The fare is €1, and the official page calls it a standard return. Children under 10 ride free, as do holders of a Karta Anzjan senior card and anyone with a valid harbour ferry ticket from the Three Cities to Valletta. That last rule is worth remembering; it comes back later in the day. The lift runs 07:00–24:00 from 1 June to 31 October, and 07:00–21:00 from 1 November to 31 May.
 
-Walk east along the flat Waterfront promenade to the lower station, 10–15 minutes depending on your berth. Transport Malta runs the lift: two cabins of 21 passengers each, 58 m of height, about 23 seconds per ride. The €1 fare is a return (2026). Children under 10 and holders of a personalised tallinja card ride free. In practice you pay at the turnstiles going up and the ride down has been free.
+Now the arithmetic. GuideMeMalta, the tourism authority's site, puts the lift's capacity at about 800 people an hour. A single ship of 4,000 passengers, every one of them wanting to go up, would take five hours to clear at full capacity. That is the whole reason this guide gives a time for the queue rather than a time for the ride. In practice not everyone uses it at once, but the guide's crowd notes are clear: the lift is busiest going up just after the gangways open, and going down in the last two hours before sailing.
 
-You come out in Upper Barrakka Gardens, five minutes' walk from St John's. It is the best arrival in the Mediterranean for a euro.
+The first lift opened here in 1905, run by the tram company, with a 60-metre steel tower and two 12-passenger cabins. It closed in February 1973, after the dockyard was privatised and British servicemen left Malta, and the government dismantled it in 1983. The present one, a €2.5 million project, opened on the same site in December 2012.
 
-The catch is capacity. Two cabins of 21 people is a lot for a lift and not much for a shipload of passengers. When several ships are in, the queue grows just after the gangways open in the morning and again in the last two hours before sailing.
+If the queue is long, you have options. You can walk up via Crucifix Hill and Floriana to City Gate in 25–30 minutes, on pavements but uphill all the way with little shade. Bus Route 130 runs from the Waterfront stop to the Valletta terminus at City Gate in about 15 minutes. The winter fare of €2 runs from 18 October 2026 to 12 June 2027, and the summer fare is €2.50, valid for two hours, paid to the driver by cash, contactless card or phone. A taxi is about 7 minutes, booked at the Waterfront office at its posted rates or through a ride-hailing app. Ignore anyone offering a car on the promenade.
 
-### Walking all the way
+## 08:40, the guns under the gardens
 
-About 25–30 minutes uphill via Crucifix Hill and Floriana to City Gate. It is on pavements, but it is a sustained climb with little shade. On a summer morning, it is €1 of effort you do not need to spend.
+You step out into Upper Barrakka Gardens, at the edge of the old city, with the Grand Harbour below you, the Three Cities across the water and your ship directly underneath.
 
-### Bus 130 and taxis
+Look down over the parapet. The row of cannon on the terrace below is the Saluting Battery. The Knights built it in 1566, as part of the new city, to a design by Francesco Laparelli, and its operators, the heritage foundation Fondazzjoni Wirt Artna, call it the world's oldest saluting battery still in operation. From 1824 to 1923 a gun was fired here at noon so that ship captains in the harbour could set their clocks, which mattered for finding longitude at sea. The evening gun was once fired about 20 minutes before sunset, to warn that the city gates were about to shut.
 
-Route 130 runs from the Waterfront stop to the Valletta terminus at City Gate in about 15 minutes. The fare is €2.50 in summer and €2 in winter (2026), valid for 2 hours, paid to the driver by cash, contactless card or phone. The winter fare ran from 19 October 2025 to 13 June 2026, so check which season your call falls in. The bus is mainly useful if you are going on to Mdina from the terminus.
+It still fires at 12:00 and 16:00, Monday to Saturday. You can watch from the gardens for free, or go down into the battery for €6 (2026), which includes a guided tour, an audio guide, the firing and the small Malta Time-Gun Museum. It is open Monday to Saturday, 09:30–17:30, last entry 17:00, with English tours hourly from 10:15. Closed on Sundays.
 
-A taxi takes about 7 minutes to the centre. The Waterfront booking office sells rides at posted rates that are not published online. Use that office or a ride-hailing app with the fare shown in advance, and ignore anyone offering a car on the promenade.
+Under the gardens, and reached through the same battery, is the place most visitors never hear of: the Lascaris War Rooms. These tunnels, cut into the rock beneath the gardens, were the British war headquarters in Malta, and the site now has an exhibition on Operation Husky, the 1943 Allied invasion of Sicily. Entry is €20 for adults, €19 for seniors and €7 for children aged 5–15 (2026). It is open Monday to Saturday, 09:30–17:30, last admission 17:00, and the ticket desk is cashless. Guided tours run at 10:30 and 12:30 for €5 extra. Allow an hour.
 
-## St John's Co-Cathedral
+Why it matters is a date. On 15 April 1942, King George VI awarded the George Cross to the whole island: "To honour her brave people I award the George Cross to the Island Fortress of Malta." The island had been through 154 days and nights of bombing, about 6,700 tons of bombs, according to The Gazette. The cross itself is in the war museum at Fort St Elmo, at the other end of the ridge. It is why the Maltese flag carries one.
 
-This is the reason to come. The Knights of St John's conventual church has a gilded Baroque interior, a floor covered in marble tomb slabs, and, in the oratory, Caravaggio's Beheading of St John the Baptist. The audio guide is included, and the Caravaggio is where to spend your time. The practical details:
+## 09:00, St John's and the only signature
 
-- **Price:** €15 adults, €12 seniors and students, under-12s free with an adult (2026).
-- **Hours:** Monday to Saturday 09:00–16:45, last entry 16:00. Closed Sundays and public holidays.
-- **Dress:** no stiletto or narrow heels. Cover your shoulders.
-- **Bags:** there are no lockers. Leave the backpack on the ship.
-- **Tickets:** buy online. The ticket is valid for one entry within seven days of the date you choose, which removes the stress of picking a time slot.
-- **Time:** 60–90 minutes.
+Walk five minutes inland to St John's Co-Cathedral and be at the door when it opens. It is the conventual church of the Knights of St John: a plain, almost severe outside and a gilded Baroque interior, the floor paved with the marble tomb slabs of the knights.
 
-Go at 09:00 opening or after 14:30. Mid-morning is when most passengers reach the city, and it is when the nave is at its fullest.
+GuideMeMalta, updated July 2026, gives the hours as Monday to Saturday 09:00–16:45, last entry 16:00, closed on Sundays and public holidays. Adults pay €15, seniors and students €12, and children under 12 go free with an adult (2026). The audio guide is included. Stiletto and narrow heels are not allowed, shoulders must be covered, and there are no lockers, so leave the backpack on the ship. Buy online: the ticket is valid for one entry within seven days of the date you choose.
 
-## The rest of Valletta
+Then go to the oratory, because that is where the story is. Caravaggio's Beheading of Saint John the Baptist, painted in 1607–1608, is 361 by 520 cm, and it is the only painting he ever signed. He wrote his name as if in the saint's spilled blood, with an "f" in front of it for fra, brother, because the Knights had just made him one. He was received into the Order on 14 July 1608. On 1 December, less than five months later, the Knights met in front of this same painting to expel him, as Hyperallergic recounts, as a "putrid and fetid limb" of the Order. He had been in a brawl and had escaped from prison. They threw him out in the room where his masterpiece hung.
 
-Upper Barrakka Gardens is free and has the best view of the Grand Harbour and the Three Cities, with your ship directly below. The Saluting Battery under the gardens fires a salute at 12:00 and 16:00, Monday to Saturday. Watch the noon gun. If you are watching the 16:00 one, you should already be in the lift queue.
+Two smaller details on the way out. The founder of the city, Grand Master Jean de Valette, is buried in the crypt here. He was first buried in the Church of Our Lady of Victory, the first church built in Valletta, whose foundation stone was laid on 28 March 1566, and moved here in 1579. And a bronze face of Christ from the little church on the Waterfront, the one you walked past at 08:00, is now kept in this cathedral.
 
-The Grandmaster's Palace has the State Rooms and one of Europe's larger collections of arms and armour. Heritage Malta tickets are €12–18 depending on category (2026). Allow about an hour, buy the timed ticket online, and know that the State Rooms can close at short notice for official functions.
+The guide's crowd advice is plain: go at 09:00 opening or after 14:30. Mid-morning, when most passengers have reached the city, the nave is at its fullest.
 
-Fort St Elmo, the star fort at the tip of the peninsula, was at the centre of the 1565 Great Siege and now holds the National War Museum. It is about 15 minutes' walk from the Co-Cathedral along Republic Street, slightly downhill. Check Heritage Malta for the current price and allow 75–90 minutes. Lower Barrakka Gardens and the Siege Bell memorial are on the way.
+If you want someone to join the dots for you, [The Original Valletta Walking Tour](https://www.viator.com/tours/Valletta/Colour-my-Travels-Compete-Valletta-Tour/d4142-31746P1?mcid=42383&pid=P00216188) covers the city's story on foot. It does not replace your own time in the oratory.
 
-Republic Street runs the length of the ridge and is the easiest route end to end. Merchants Street runs parallel. Strait Street, narrow and once the sailors' street, is now bars and small restaurants. Every cross street drops steeply towards the water, often in long flights of steps.
+## 10:30, the palace and the armour
 
-If you would rather have someone else join the dots, [The Original Valletta Walking Tour](https://www.viator.com/tours/Valletta/Colour-my-Travels-Compete-Valletta-Tour/d4142-31746P1?mcid=42383&pid=P00216188) takes three hours. It fits a morning, though it does not replace your own time inside St John's.
+Walk Republic Street, the spine of the ridge, to the Grandmaster's Palace. Built by the Knights as one of the first buildings of the new capital, it became the British governor's palace, held Malta's first constitutional parliament in 1921, and is now the Office of the President. Heritage Malta, updated October 2026, sells tickets at €12 for adults and €10 for seniors and 12–17s.
 
-## Eating
+Inside are the State Rooms, with Matteo Perez d'Aleccio's paintings of the Great Siege of 1565, the most complete visual record of it. The Armoury, in the former parliament chamber, holds the armour of Grand Masters Jean de Valette and Alof de Wignacourt alongside Ottoman armour and weapons. Know before you go: the Throne Room is closed until further notice, and the State Rooms are closed until 13:30 on 28 October, 18 November and 2 December 2026, when only the Armoury is open. The palace can also close at short notice for state functions. Allow about an hour.
 
-Pastizzi, pastries filled with ricotta or peas, are the cheapest good lunch in Valletta and the most Maltese. Pastizzerias and cafés all over the city sell them, and so does Is-Suq tal-Belt, the food hall on Merchants Street. A ftira, Maltese bread filled with tuna, tomatoes, olives and capers, is the sandwich version.
+On the way, Strait Street runs parallel, one block down. It is narrow, and it has a past. From the late 19th century to the mid-20th, it was the Gut, where sailors from the ships in the harbour came for the bars, music halls and rooming houses; GuideMeMalta describes jazz played from American records and the street's long decline after British forces left. It has come back as a street of bars and small restaurants. Come back for a drink if you have a late sailing.
 
-For a sit-down meal, order stuffat tal-fenek, rabbit stew, in traditional restaurants in the side streets and on Strait Street. Caffe Cordina on Republic Street does coffee and Maltese pastries. Drink Kinnie, a bitter-orange soft drink, or Cisk lager.
+Another church worth the detour if its door is open: St Paul's Shipwreck, designed by Girolamo Cassar and completed in 1582. It keeps what it says is the right wrist-bone of Saint Paul and part of the column on which he was beheaded in Rome, and a wooden statue of the saint carved by Melchiorre Cafà in 1659, carried through Valletta every 10 February.
 
-A [Valletta food tour](https://www.viator.com/tours/Valletta/Valletta-Food-Tour/d4142-202990P4?mcid=42383&pid=P00216188) runs about 3.5 hours, so it replaces lunch and most of an afternoon. It works best on a long call, or on a Sunday when the cathedral is closed anyway.
+## 12:00, two noons
 
-## Beyond Valletta: pick one, not two
+At noon you have to choose. The Saluting Battery fires its gun at 12:00 Monday to Saturday, and you can watch from Upper Barrakka. At exactly the same time, at the other end of the bastions, the Siege Bell rings. GuideMeMalta says it rings every day at noon for the more than 7,000 soldiers and civilians killed in the siege of 1940–1943. It was built for the 50th anniversary of the George Cross and unveiled by Queen Elizabeth. It stands just below Lower Barrakka Gardens, the quieter of the two gardens, with the view over the harbour mouth.
 
-Malta's buses are slower than the map suggests. Valletta plus one other place is a full day. Valletta plus Mdina plus a beach is how people end up in a taxi at 16:45.
+If you pick the bell, keep walking to Fort St Elmo, the star fort at the tip of the peninsula. Built in 1552, it held out for about a month in the Ottoman siege of 1565 before it fell on 23 June. It is now the National War Museum, with Gloster Sea Gladiator "Faith", one of the biplanes that defended the island in 1940, President Roosevelt's jeep "Husky", and the George Cross itself. Heritage Malta lists entry at €10 for adults and €7.50 for seniors and students (2026). The First World War display is closed until further notice. Check the day's hours on Heritage Malta before you walk out there; at all its sites, last admission is 30 minutes before closing. Allow 75–90 minutes, and it is about 15 minutes' walk from the Co-Cathedral, slightly downhill.
 
-### The Three Cities
+One place to cross off your list: the Fortress Builders interpretation centre, a free-ish guide to the walls in a 16th-century warehouse. Heritage Malta closed it until further notice on 15 September 2026.
 
-Birgu, Senglea and Cospicua sit across the harbour, older and quieter than Valletta, with Fort St Angelo and a marina waterfront. The ferry leaves from the harbour close to the bottom of the lift, a crossing of a few minutes. Fares of €1.50 single and €2.80 return are reported (2026), and the service is cashless. Malta Public Transport says passengers arriving from Cospicua get a ticket for the Upper Barrakka lift, so your ride back up is covered.
+## 12:45, pastizzi and the Gut
 
-Allow 2–3 hours. Take the ferry back to Valletta by 15:45 for a 17:30 all-aboard.
+Lunch in Valletta can cost almost nothing. Pastizzi, flaky pastries filled with ricotta or mushy peas, are sold in pastizzerias and cafés all over the city and at Is-Suq tal-Belt, the food hall on Merchants Street. A ftira is the sandwich version of Malta: bread filled with tuna, tomatoes, olives and capers. For a sit-down meal, order stuffat tal-fenek, rabbit stew, in the traditional places on the side streets and Strait Street. Caffe Cordina on Republic Street does coffee with qassatat and imqaret. Drink Kinnie, the bitter-orange soft drink, or Cisk lager.
 
-### Mdina
+A [Valletta food tour](https://www.viator.com/tours/Valletta/Valletta-Food-Tour/d4142-202990P4?mcid=42383&pid=P00216188) replaces lunch and a good part of the afternoon, so it suits a long call best, or a Sunday, when the cathedral is shut anyway.
 
-The walled former capital in the centre of the island, almost car-free. Route 50 from the Valletta terminus takes about 30 minutes, €2–2.50 each way (2026); routes 51, 52 and 53 also stop near Mdina and Rabat. Allow half a day. Only try it if you are in port for 8 hours or more, and leave Mdina by 15:00 for a 17:30 all-aboard, because the bus back can be full.
+## The other way to do it: cross the harbour first
 
-On a long call, a [private full-day tour of Malta](https://www.viator.com/tours/Malta/Malta-Private-Tour/d4141-263808P4?mcid=42383&pid=P00216188) puts Mdina and other sights in one car. It is listed at 8 hours, so it only suits an early arrival and a late sailing.
+Here is the order most passengers follow: off the ship at 08:30, into the lift queue with everyone else, St John's at ten with everyone else, and the lift queue again at four. Two of those three are avoidable.
 
-### A swim
+Do the Three Cities first. The ferry to Cospicua leaves from the harbour close to the bottom of the lift, so you do not need to go up at all. It is a crossing of a few minutes; fares of €1.50 single and €2.80 return are reported for 2026, and the service is cashless. Spend the morning in Birgu, the oldest of the three towns, with Fort St Angelo at its tip and the marina waterfront, while the lift queue on your side of the water is at its worst.
 
-There are no sandy beaches within walking distance. You can swim off the flat rocks and ladders below the walls on the northern side of the city, with no facilities, when the wind is not from the north-east. The ferry from the Marsamxett side crosses to Sliema, with rocks and paid lidos along Tower Road. The nearest sand is St George's Bay in St Julian's, 30–40 minutes by bus, small and very busy in summer.
+Then come back. Malta Public Transport says passengers arriving from Cospicua are given a ticket for the Upper Barrakka lift, and Transport Malta lists a valid Three Cities ferry ticket as a free ride. You go up at 11:00, after the morning rush, for nothing. Watch the noon gun, eat, and do St John's after 14:30, when the guide's crowd notes say the nave is quieter, with last entry at 16:00. Then join the lift queue by 16:00 for a 17:30 sailing.
 
-## Ship tour or DIY
+On a Sunday, change the plan entirely. St John's, the Saluting Battery and the Lascaris War Rooms are all closed. Fort St Elmo stages In Guardia, a parade in historical costume, on Sundays from 11:00 to 12:00, according to Heritage Malta's schedule. Put the Three Cities in the morning and Fort St Elmo at 11:00.
 
-For Valletta itself the ship tour adds little. A typical DIY day costs about €25 (2026): €1 for the lift, €15 for the Co-Cathedral, plus bus fares or the ferry if you go further. Ship excursion prices vary by line, so check your cruise planner.
+## If you have an extra hour
 
-The ship's tour earns its price for Gozo, which means a ferry crossing plus driving against a hard time limit, and for the Blue Grotto and the south coast. It also makes sense with limited mobility, or on a call under 7 hours if you want both Valletta and Mdina.
+Mdina, the walled former capital in the middle of the island, is the classic add-on. Route 50 from the Valletta terminus takes about 30 minutes, and routes 51, 52 and 53 also stop near Mdina and Rabat. With the winter fare from 18 October 2026, a single is €2. Allow half a day and only try it with 8 hours or more in port. For a 17:30 all-aboard, leave Mdina by 15:00, because the bus back can be full. On a long call, a [private customisable full-day tour of Malta](https://www.viator.com/tours/Malta/Malta-Private-Tour/d4141-263808P4?mcid=42383&pid=P00216188) puts Mdina and more in one car.
 
-Our [Valletta port guide](/ports/valletta) has the accessibility detail, rainy-day plan and full sights list.
+Gozo is a different matter. It means a ferry crossing plus driving against a hard deadline, and this is where a ship's tour earns its price.
 
-## A day plan for a 17:30 all-aboard
+For a swim, there is no sand within walking distance. You can swim off the flat rocks and ladders below the walls on the northern side of the city, with no facilities and only when the wind is not from the north-east. The nearest sand is St George's Bay in St Julian's, 30–40 minutes by bus, small and very busy in summer.
 
-Assumes docking at 08:00 on a Monday to Saturday.
+## 16:00, the queue at the top
 
-| Time | Plan | Cost (2026) |
-|------|------|-------------|
-| 08:15 | Walk the Waterfront to the lift | Free |
-| 08:35 | Ride up; harbour view from Upper Barrakka Gardens | €1 |
-| 09:00 | St John's Co-Cathedral at opening | €15 |
-| 10:20 | Grandmaster's Palace | €12–18 |
-| 11:45 | Noon gun at Upper Barrakka Gardens | Free |
-| 12:15 | Pastizzi, a ftira, or Is-Suq tal-Belt | Café prices |
-| 13:30 | Fort St Elmo, or the lift down and the ferry to the Three Cities | Ferry €2.80 return |
-| 15:45 | Last ferry back from the Three Cities | |
-| 16:00 | In the lift queue at the top | |
-| 16:30 | On board, 60 minutes before all-aboard | |
+The lift ride takes 23 seconds. The queue at the top, when several ships are in, can take 10–20 minutes, and the walk back along the Waterfront to your berth is another 10–15. Allow 30–45 minutes from Upper Barrakka Gardens to the gangway. That is why the rule for a 17:30 all-aboard is to be in the queue at the top by 16:00, and on board by 16:30.
 
-## Getting back to the ship
+If you are watching the 16:00 gun from the gardens, you are already in the wrong place. Be in the queue when it fires.
 
-The ride takes 23 seconds. The queue at the top can take 10–20 minutes when several ships are in, and the walk back along the Waterfront is another 10–15. Allow 30–45 minutes from Upper Barrakka Gardens to the gangway.
+If the queue is too long, walk down. From the Victoria Gate side of the city a road and steps lead to the Waterfront in about 15 minutes. From further away, take a taxi or ride-hail car straight to the Valletta Waterfront, about 7 minutes from the centre. Keep the port agent's number from your daily programme to hand.
 
-| All-aboard | Leave St John's | In lift queue at top | Leave Mdina |
-|------------|-----------------|----------------------|-------------|
-| 16:00 | 14:25 | 14:30 | 13:30 |
-| 17:00 | 15:25 | 15:30 | 14:30 |
-| 17:30 | 15:55 | 16:00 | 15:00 |
-| 18:00 | 16:25 | 16:30 | 15:30 |
+Our [Valletta port guide](/ports/valletta) has the accessibility notes and the rainy-day plan, and the [Valletta day planner](/day/valletta) works out these times for your ship.
 
-If the lift queue is long, walk down. From the Victoria Gate side of the city a road and steps lead to the Waterfront in about 15 minutes. From further away, take a taxi or ride-hail car straight to the Valletta Waterfront, about 7 minutes from the centre. Keep the port agent number from your daily programme to hand. The [Valletta day planner](/day/valletta) works these times out for your ship.
+## The practical bit
+
+| What | Detail (2026) |
+|------|---------------|
+| Docking | Valletta Waterfront, no tender, no shuttle needed |
+| Barrakka lift | €1 return; free under 10, Karta Anzjan, Three Cities ferry ticket |
+| Lift hours | 07:00–24:00 to 31 Oct; 07:00–21:00 from 1 Nov to 31 May |
+| St John's Co-Cathedral | €15 / €12; Mon–Sat 09:00–16:45, last entry 16:00 |
+| Saluting Battery | €6; Mon–Sat 09:30–17:30; guns 12:00 and 16:00 |
+| Lascaris War Rooms | €20; Mon–Sat 09:30–17:30; cashless |
+| Grandmaster's Palace | €12; Throne Room closed; State Rooms shut until 13:30 on 28 Oct, 18 Nov, 2 Dec |
+| Fort St Elmo | €10; In Guardia on Sundays 11:00–12:00 |
+| Bus 130 / Route 50 | €2 winter fare from 18 Oct 2026; €2.50 summer |
+| Three Cities ferry | €1.50 single, €2.80 return reported; cashless |
+
+| All-aboard | Leave St John's | In lift queue at top | Ferry back from the Three Cities | Leave Mdina |
+|------------|-----------------|----------------------|----------------------------------|-------------|
+| 16:00 | 14:25 | 14:30 | 14:15 | 13:30 |
+| 17:00 | 15:25 | 15:30 | 15:15 | 14:30 |
+| 17:30 | 15:55 | 16:00 | 15:45 | 15:00 |
+| 18:00 | 16:25 | 16:30 | 16:15 | 15:30 |
+
+A typical DIY day costs about €25 (2026): €1 for the lift, €15 for the cathedral, plus a bus or ferry fare. For Valletta itself a ship's tour adds little. It makes sense for Gozo, the Blue Grotto and the south coast, with limited mobility, or on a call under 7 hours if you want both Valletta and Mdina.
 
 ## FAQ
 
 ### Is St John's Co-Cathedral open on Sundays?
 
-No. It opens Monday to Saturday, 09:00–16:45 with last entry at 16:00, and is closed on Sundays and public holidays. On a Sunday, put the gardens, the Three Cities or Mdina first.
+No. It opens Monday to Saturday, 09:00–16:45, with last entry at 16:00, and is closed on Sundays and public holidays. The Saluting Battery and the Lascaris War Rooms are also closed on Sundays.
+
+### How much is the Barrakka lift in Valletta?
+
+€1 in 2026, which Transport Malta describes as a return. Children under 10, Karta Anzjan holders and passengers with a valid ferry ticket from the Three Cities ride free.
+
+### What time is the noon gun in Valletta?
+
+The Saluting Battery below Upper Barrakka Gardens fires at 12:00 and 16:00, Monday to Saturday. Watching from the gardens is free; entry to the battery itself is €6 (2026).
 
 ### Is Valletta manageable with a wheelchair?
 
-Better than most old cities. The Waterfront is flat and the lift gives step-free access to the city. Republic Street and Merchants Street are manageable, but most cross streets are steep or stepped and some pavements are narrow. St John's admits wheelchair users, though some areas are not accessible. The terminal offers wheelchair assistance through Guest Services.
+Better than most old cities. The Waterfront is flat and the lift gives step-free access to the city. Republic Street and Merchants Street are manageable, but most cross streets are steep or stepped. St John's admits wheelchair users, though some areas are not accessible, and the terminal offers wheelchair assistance through Guest Services.
 
-### What is there to do in Valletta when it rains?
+### Can I see the Three Cities and Valletta in one port day?
 
-More than in most ports. St John's, the Grandmaster's Palace and the National War Museum are all indoors, and MUŻA, the national art museum, is in the Auberge d'Italie on Merchants Street. Stay on Republic Street; the stepped side streets turn slippery.
-
-### Is Valletta safe for cruise passengers?
-
-Yes. Crime against visitors is mostly pickpocketing in crowds: the lift queues, Republic Street and the Co-Cathedral entrance. Agree the full price and route before you ride in a horse cab. Heat on the exposed bastions is the more likely problem from June to September, so carry water and a hat.
+Yes. Take the ferry from near the bottom of the lift first thing, spend the morning in Birgu, and come back by ferry; your ferry ticket covers the lift up. Take the ferry back to Valletta by 15:45 for a 17:30 all-aboard.
 
 ## Sources
 
 - [Transport Malta – Barrakka Lift](https://transport.gov.mt/maritime/ports-commercial/barrakka-lift-826)
-- [Valletta Cruise Port – Transportation](https://vallettacruiseport.com/transportation/)
-- [St John's Co-Cathedral – Visit](https://www.stjohnscocathedral.com/visit/)
-- [St John's Co-Cathedral – October 2026 opening hours notice](https://www.stjohnscocathedral.com/2026/09/23/visitor-notice-october-opening-hours/)
-- [Malta Public Transport – Fares and Tickets](https://www.publictransport.com.mt/fares-and-tickets/)
+- [GuideMeMalta – The story of the Barrakka Lift](https://www.guidememalta.com/en/from-its-beginnings-in-1905-to-the-present-discover-the-story-of-the-barrakka-lift)
+- [GuideMeMalta – St John's Co-Cathedral (updated Jul 2026)](https://www.guidememalta.com/en/attraction/st-john-s-co-cathedral)
+- [St John's Co-Cathedral – Visiting hours and fees](https://stjohnscocathedral.com/?p=4736)
+- [Hyperallergic – Caravaggio's Mark of Madness](https://hyperallergic.com/470361/caravaggios-mark-of-madness/)
+- [Fondazzjoni Wirt Artna – The Saluting Battery](https://www.wirtartna.org/salutingbattery)
+- [Lascaris War Rooms – Visit](https://www.lascariswarrooms.com/visit)
+- [Heritage Malta – Grand Master's Palace (updated Oct 2026)](https://heritagemalta.mt/explore/the-grand-masters-palace/)
+- [Heritage Malta – Fort St Elmo and National War Museum (updated Oct 2026)](https://heritagemalta.mt/explore/fort-st-elmo-national-war-museum/)
+- [Heritage Malta – Opening hours and notices (updated Oct 2026)](https://heritagemalta.mt/opening-hours/)
+- [Malta Public Transport – Fares and tickets (updated Oct 2026)](https://www.publictransport.com.mt/fares-and-tickets/)
 - [Malta Public Transport – Valletta Ferry](https://www.publictransport.com.mt/other-services/valletta-ferry/)
-- [Heritage Malta – Grand Master's Palace tickets](https://heritagemalta.mt/store/c418/)
-- [Wikipedia – Barrakka Lift](https://en.wikipedia.org/wiki/Barrakka_Lift)
-- [Mdina Cathedral Museum – Getting there](https://museum.metropolitanchapter.com/opening-hours-tickets/getting-there/)
+- [Valletta Cruise Port – 2025 passenger figures (Jan 2026)](https://vallettawaterfront.com/news/valletta-cruise-port-closes-2025-with-strong-growth-and-nearly-one-million-passenger-movements/)
+- [The Gazette – Malta's George Cross](https://www.thegazette.co.uk/all-notices/content/100008)
+- [Wikipedia – Valletta Waterfront](https://en.wikipedia.org/wiki/Valletta_Waterfront)
 `;
