@@ -14,7 +14,7 @@
  "quickAnswer": "Most cruise ships berth at the Botafoc breakwater, about 3 km across the harbour from Ibiza Town; some smaller ships tie up in the town harbour below the old walls. From Botafoc, take the PortBus shuttle, the City Boat water taxi or a 10–15 minute taxi, or walk 35–40 minutes round the bay. Be back at the shuttle or boat stop in town 90 minutes before all-aboard if you are in Dalt Vila.",
  "intro": "Ibiza Town is two places for a cruise passenger: La Marina, the flat harbour district, and Dalt Vila, the walled upper town above it, a UNESCO World Heritage Site since 1999. Large ships berth at Botafoc on the far side of the bay, so the day starts with a short transfer. Dalt Vila is steep and cobbled, and the climb takes longer than the map suggests. Plan the walls and cathedral for the cooler morning, and keep the afternoon for La Marina or a beach.",
  "isTender": false,
- "tenderNotes": "Tendering is uncommon but can happen when the port is busy. Ships normally berth.",
+ "tenderNotes": "Tendering is uncommon but can happen when the port is busy. Ships normally berth. The port authority spaces arrivals out and has said cruise ships should arrive from 11:30, once the scheduled ferries have sailed (La Voz de Ibiza, June 2026), so check your actual arrival time.",
  "typicalHours": 8,
  "terminals": [
   {
@@ -91,7 +91,7 @@
  "excursionAdvice": "Skip the ship tour for Dalt Vila: the old town is compact, free to enter and easy to see alone, and a free guided walk exists. A ship tour is worth it for an island tour (Es Vedrà, Ses Salines, Santa Gertrudis) or the Cova de Can Marçà, which need a car and 4–5 hours. Take the ship's tour if you want Formentera: the ferry is only 30–40 minutes each way, but a delayed return sailing on your own means a missed ship.",
  "dayPlan": {
   "allAboard": "17:30",
-  "intro": "Assumes the ship berths at Botafoc at 08:00 and all-aboard is 17:30.",
+  "intro": "Assumes the ship berths at Botafoc at 08:00 and all-aboard is 17:30. The port authority has said cruise ships should arrive from 11:30, after the scheduled ferries leave (La Voz de Ibiza, June 2026); if yours arrives late morning, do Dalt Vila and lunch first, skip the MACE and take Option B (La Marina) rather than the beach.",
   "steps": [
    {
     "time": "08:30",
@@ -137,7 +137,7 @@
   },
   {
    "name": "Ibiza Cathedral (Santa Maria)",
-   "why": "Built on the site of a former mosque at the highest point of Dalt Vila, with wide views over the port.",
+   "why": "The cathedral at the highest point of Dalt Vila, with wide views over the port.",
    "timeNeeded": "30–60 minutes",
    "cost": "Free (reported)",
    "tip": "Hours are seasonal; check on the day. Cover shoulders and knees, and avoid Sunday Mass at 10:30."
@@ -167,8 +167,8 @@
    "name": "Puig des Molins necropolis and museum",
    "why": "A Phoenician–Punic burial ground from the 7th century BC with thousands of tombs, just outside the old town.",
    "timeNeeded": "1 hour",
-   "cost": "Check at the entrance",
-   "tip": "The Dalt Vila archaeological museum is closed for works, so this is the place to see the island's ancient finds."
+   "cost": "Reported free (2026); check at the gate",
+   "tip": "Closed Mondays. Tuesday–Thursday 09:00–15:00, Friday 09:00–15:00 and 17:00–20:00, Saturday 09:00–14:00, Sunday 10:00–14:00 (Welcome to Ibiza, October 2026). The Dalt Vila archaeological museum is closed for works, so this is the place to see the island's ancient finds."
   },
   {
    "name": "La Marina",
@@ -379,6 +379,14 @@
   {
    "title": "ViaTravelers – Dalt Vila, Ibiza (2026)",
    "url": "https://viatravelers.com/neighborhoods/dalt-vila-ibiza.md"
+  },
+  {
+   "title": "La Voz de Ibiza – The port's bottlenecks and the 2026 cruise forecast (June 2026)",
+   "url": "https://lavozdeibiza.com/actualidad/los-cuellos-de-botella-del-puerto-de-ibiza-no-caben-muchos-mas-cruceros/?swcfpc=1"
+  },
+  {
+   "title": "Welcome to Ibiza – Puig des Molins museum and necropolis",
+   "url": "https://welcometoibiza.com/ibiza/visitar/museos/museo-monografico-y-necropolis-de-puig-des-molins/"
   }
  ],
  "uncertain": [
@@ -387,7 +395,7 @@
   "Taxi fares from Botafoc to town",
   "Which Alsa urban lines, if any, serve the Botafoc cruise berth",
   "Whether Es Martell / Muelle de Ribera near Dalt Vila is used by cruise ships in 2026 and for which ship sizes",
-  "Puig des Molins admission price; opening hours taken from the museum site, which may be out of date",
+  "Puig des Molins admission: reported free in listings citing the museum, but the museum's own site could not be reached to confirm 2026 prices.",
   "Ibiza Cathedral opening hours for 2026",
   "Typical all-aboard time for Ibiza calls"
  ]

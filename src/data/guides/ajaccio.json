@@ -10,7 +10,7 @@
  "timezone": "CET (UTC+1), CEST (UTC+2) in summer",
  "lastVerified": "October 2026",
  "seoTitle": "Ajaccio cruise port guide: old town, Bonaparte, Parata",
- "seoDescription": "Ajaccio ships dock 0.3–0.5 km from Place Foch, a 5–10 min walk; big ships may tender. Maison Bonaparte €7, closed Mondays. Bus 5 to La Parata, 11 km.",
+ "seoDescription": "Ajaccio ships dock 0.3–0.5 km from Place Foch, a 5–10 min walk; big ships may tender. Maison Bonaparte €10, closed Mondays. Bus 5 to La Parata, 11 km.",
  "quickAnswer": "Most ships dock at the Gare Maritime on Quai L'Herminier or the cruise mole next to it, 0.3–0.5 km from Place Foch and the old town, a 5–10 minute walk. Larger ships sometimes anchor and tender into the same central port area. Be back on board 60 minutes before all-aboard, or 90 minutes if your ship is tendering.",
  "intro": "Ajaccio is Corsica's capital and Napoleon's birthplace, and its cruise berths sit on the edge of the old town. Place Foch, the market, the cathedral and the Maison Bonaparte are all within a short, flat walk. The Pointe de la Parata, with its Genoese tower facing the Sanguinaires islands, is 11 km west and reached by bus line 5, the seasonal tourist train or a boat trip. Many shops close for lunch, roughly 12:30–14:30, and the Maison Bonaparte is closed on Mondays, so check the day of your call.",
  "isTender": false,
@@ -84,7 +84,7 @@
   {
    "item": "Old town and Maison Bonaparte",
    "ship": "Varies by line; check your cruise planner",
-   "diy": "Maison Bonaparte €7 full price, or the tourist office guided walk with museum entry €12 (2026)",
+   "diy": "Maison Bonaparte €10 full price, or the tourist office guided walk with museum entry €12 (2026)",
    "saving": "Depends on your line's price"
   },
   {
@@ -109,11 +109,11 @@
    },
    {
     "time": "10:00",
-    "what": "Visit the Maison Bonaparte, Napoleon's birthplace, as it opens."
+    "what": "Visit the Maison Bonaparte, Napoleon's birthplace, as it opens: 10:00 from July to September. From October to March it opens at 10:30, so see the cathedral and the old town lanes first and swap this step with the next."
    },
    {
     "time": "11:00",
-    "what": "Walk to the cathedral of Notre-Dame-de-l'Assomption and the old town lanes, then see the Citadelle from outside."
+    "what": "Walk to the cathedral of Notre-Dame-de-l'Assomption and the old town lanes, then see the Citadelle from outside (closed for conversion works until 2030)."
    },
    {
     "time": "12:15",
@@ -138,8 +138,8 @@
    "name": "Maison Bonaparte",
    "why": "Napoleon's birthplace and family home, now a national museum.",
    "timeNeeded": "45–60 minutes",
-   "cost": "€7 full price, €5 reduced (as listed, 2026); free under 26 and on the first Sunday of the month",
-   "tip": "Closed on Mondays. From 1 April to 30 September it opens 10:00–12:30 and 13:15–17:30; the midday closure catches people out."
+   "cost": "€10 full price, €8 reduced, free under 26 (Ajaccio Tourist Office, updated 1 October 2026)",
+   "tip": "Closed on Mondays, all year. From 1 July to 30 September it opens 10:00–17:30 without a break; from 1 October to 31 March, 10:30–12:30 and 13:15–16:30, and the midday closure catches people out."
   },
   {
    "name": "Old town and Place Foch",
@@ -180,8 +180,8 @@
    "name": "Citadelle Miollis",
    "why": "The fortress on the point next to the old town.",
    "timeNeeded": "15 minutes from outside",
-   "cost": "Free to view from outside",
-   "tip": "It is undergoing major rehabilitation, so treat it as an exterior stop unless access is confirmed locally."
+   "cost": "Not open; see it from outside",
+   "tip": "Conversion works started in January 2026 and run to 2030, so it is not open to visitors. See it from outside on the way to Plage Saint-François."
   }
  ],
  "beaches": [
@@ -241,7 +241,7 @@
   },
   {
    "mistake": "Arriving at shops or the museum at 12:45.",
-   "fix": "Many shops close roughly 12:30–14:30 and the Maison Bonaparte closes 12:30–13:15. Do your visits in the morning and eat at midday."
+   "fix": "Many shops close roughly 12:30–14:30, and from October to March the Maison Bonaparte closes 12:30–13:15. Do your visits in the morning and eat at midday."
   },
   {
    "mistake": "Assuming your ship will dock because the last one did.",
@@ -253,7 +253,7 @@
   },
   {
    "mistake": "Expecting to tour the citadel.",
-   "fix": "It is under rehabilitation; see it from outside and spend the time in the old town instead."
+   "fix": "It is closed for conversion works from January 2026 to 2030; see it from outside and spend the time in the old town instead."
   }
  ],
  "safety": "Ajaccio is a straightforward port day. The main hazards are summer heat, especially in July and August, and traffic on the busy waterfront roads; use the crossings. On the Parata trail, carry water and wear shoes with grip. Swim only at lifeguarded beaches in season.",
@@ -277,7 +277,7 @@
   },
   {
    "q": "How much is the Maison Bonaparte?",
-   "a": "€7 full price and €5 reduced; free under 26 and on the first Sunday of the month. It is closed on Mondays."
+   "a": "€10 full price and €8 reduced; free under 26 (2026). There is no free first Sunday. It is closed on Mondays."
   },
   {
    "q": "How do I get to the Îles Sanguinaires from Ajaccio?",
@@ -371,6 +371,14 @@
   {
    "title": "Corsica Lovers – What to eat in Corsica",
    "url": "https://corsicalovers.fr/que-manger-corse-specialites-conseils-restaurants/"
+  },
+  {
+   "title": "Ajaccio Tourist Office – Musée national de la Maison Bonaparte (updated October 2026)",
+   "url": "https://www.ajaccio-tourisme.com/en/?p=15842"
+  },
+  {
+   "title": "Corse Net Infos – Ajaccio starts the conversion of its citadel (20 January 2026)",
+   "url": "https://www.corsenetinfos.corsica/Ajaccio-lance-la-metamorphose-de-sa-Citadelle_a88822.html"
   }
  ],
  "uncertain": [

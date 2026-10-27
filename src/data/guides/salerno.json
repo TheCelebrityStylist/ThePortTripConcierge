@@ -121,11 +121,11 @@
    },
    {
     "time": "09:30",
-    "what": "Visit the Cathedral of San Matteo and its crypt."
+    "what": "Climb to the Giardino della Minerva, the terraced medieval medicinal garden, as it opens (closed Mondays; on a Monday go straight to the cathedral at 10:00)."
    },
    {
     "time": "10:30",
-    "what": "Climb to the Giardino della Minerva, the terraced medieval medicinal garden (closed Mondays)."
+    "what": "Visit the Cathedral of San Matteo and its crypt (opens 10:00)."
    },
    {
     "time": "12:00",
@@ -151,7 +151,7 @@
    "why": "Salerno's cathedral, with a richly decorated crypt of nine rows of columns and a double altar.",
    "timeNeeded": "45 minutes",
    "cost": "Cathedral free to enter; separate charges for the crypt and museum",
-   "tip": "Opening hours are shorter on Sundays and holidays."
+   "tip": "Open Monday–Saturday 10:00–16:00 and Sunday 10:00–17:00 (Italia.it, 2026). Carry a few euros for the crypt and museum."
   },
   {
    "name": "Giardino della Minerva",
@@ -280,7 +280,7 @@
  "emergencyNumber": "112",
  "accessibility": "The Molo Manfredi terminal is modern, and free shuttle vans for wheelchair users run at both cruise piers. The seafront and Lungomare Trieste are flat. The old town has narrow lanes and the Giardino della Minerva is terraced on a hillside, so it is hard going. Pompeii's streets are uneven Roman paving with high kerbs. Ask ferry operators about step-free boarding before booking.",
  "rainyDay": "Stay in Salerno: the cathedral and its crypt, the old town lanes and lunch take most of a day. Naples, 38–55 minutes by train, is the best wet-weather trip, with its museums. Avoid the Amalfi ferries in bad weather, as sailings stop in rough seas and the coast road back is slow.",
- "crowdTips": "Pompeii is the pressure point: admissions are capped at 20,000 a day, with 15,000 in the morning slot and 5,000 in the afternoon, so book early. For Amalfi or Positano, take an early sailing so you have time to spare for the return. Salerno's own old town stays calmer than the coast.",
+ "crowdTips": "Pompeii is the pressure point: admissions are capped at 20,000 a day, with 15,000 in the morning slot and 5,000 in the afternoon, so book early. For Amalfi or Positano, take an early sailing so you have time to spare for the return. Salerno itself is busier than ever: the terminal operator expects more than 300,000 cruise passengers in 2026 (against about 130,000 in 2025), over a season running from 3 May to 11 December 2026, and extra ships may be sent to other piers. The old town still stays calmer than the coast.",
  "faqs": [
   {
    "q": "Is Salerno a tender port?",
@@ -406,6 +406,14 @@
   {
    "title": "Travel365 – Salerno, what to see",
    "url": "https://www.travel365.it/salerno-cosa-vedere.htm"
+  },
+  {
+   "title": "Italia.it – the Duomo of Salerno",
+   "url": "https://www.italia.it/it/campania/salerno/salerno-il-duomo"
+  },
+  {
+   "title": "Shipping Italy – Salerno signs with Norwegian Cruise Line Holdings (May 2025)",
+   "url": "https://www.shippingitaly.it/2025/05/21/salerno-conquista-per-i-prossimi-anni-le-navi-di-norwegian-cruise-line-holdings/?output=pdf"
   }
  ],
  "uncertain": [
@@ -413,9 +421,9 @@
   "Which Salerno pier (Concordia, Masuccio or Manfredi) each ferry sailing uses.",
   "Walking distance and time from Pompei Trenitalia station to the Pompeii ruins entrance, and Pompeii's 2026 opening and last-entry times.",
   "Regional train fares Salerno–Pompei and Salerno–Paestum, and which station (Paestum or Capaccio-Roccadaspide) is best for the temples.",
-  "Cathedral of San Matteo crypt and museum charges and current opening hours (sources conflict).",
+  "Cathedral of San Matteo crypt and museum charges (the cathedral itself is free; Italia.it hours Mon–Sat 10:00–16:00, Sun 10:00–17:00, page undated).",
   "Whether the Paestum €1 temporary surcharge noted on the ministry page still applies in 2026.",
-  "AdSP Mar Tirreno Centrale cruise information and any 2025–2026 port fee changes (official port pages not opened).",
+  "Any 2025–2026 port fee changes (official AdSP Mar Tirreno Centrale pages not opened). Port traffic is covered: more than 300,000 cruise passengers expected in 2026, season 3 May–11 December 2026.",
   "Typical cruise call hours and all-aboard time at Salerno (17:30 used as a default)."
  ]
 }

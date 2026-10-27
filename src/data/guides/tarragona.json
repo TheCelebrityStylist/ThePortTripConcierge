@@ -12,7 +12,7 @@
  "seoTitle": "Tarragona cruise port guide: shuttle, Roman sites, cathedral",
  "seoDescription": "Tarragona's cruise terminal is 2 km from town; shuttles take about 15 min. Roman sites €5 each or €15 for five, cathedral €12.50 (2026). Most shut Mondays.",
  "quickAnswer": "Ships berth at the cruise terminal on the Moll de Balears, about 2 km from the centre, which is too far for a comfortable walk; shuttle coaches take about 15 minutes and drop you on Via Augusta, by the Part Alta. Most Roman sites cost €5 each or €15 for a five-site pass (2026) and close on Mondays. Be at the shuttle stop 90 minutes before all-aboard.",
- "intro": "Tarragona was the Roman city of Tarraco, and its ruins sit in and around a compact old town on a rocky hill above the sea. The amphitheatre by the beach, the circus vaults, the walls and the cathedral are all within walking distance of each other once you are in town. Getting there is the part to plan: the cruise terminal on the Moll de Balears opened in 2024 and is about 2 km out, so most passengers use shuttle coaches. Calls are growing fast, with about 155,000 passengers expected in 2026, and three-ship days crowd the shuttle stops and the Part Alta.",
+ "intro": "Tarragona was the Roman city of Tarraco, and its ruins sit in and around a compact old town on a rocky hill above the sea. The amphitheatre by the beach, the circus vaults, the walls and the cathedral are all within walking distance of each other once you are in town. Getting there is the part to plan: the cruise terminal on the Moll de Balears opened in 2024 and is about 2 km out, so most passengers use shuttle coaches. Calls are growing fast, with 81 calls and about 160,000 passengers planned for the 2026 season (Diari de Tarragona, April 2026), and three-ship days crowd the shuttle stops and the Part Alta.",
  "isTender": false,
  "tenderNotes": null,
  "typicalHours": 9,
@@ -34,7 +34,7 @@
    "mode": "Shuttle coach",
    "cost": "Check your ship's daily programme; arrangements vary by line",
    "time": "About 15 min",
-   "detail": "Coaches drop most passengers on the upper part of Via Augusta, in front of the Parc de la Reconciliació, where the city tourist office has had a cruise welcome point. A second drop-off on Avinguda de Catalunya serves the Portal del Roser entrance to the old town. Queues form on busy days, both ways."
+   "detail": "Coaches drop most passengers on the upper part of Via Augusta, in front of the Parc de la Reconciliació, where the city tourist office has had a cruise welcome point. Some lines stop on the first stretch of Via Augusta, near Plaça de la UNESCO. A second drop-off on Avinguda de Catalunya serves the Portal del Roser entrance to the old town. Note where yours stops; queues form on busy days, both ways."
   },
   {
    "mode": "Taxi",
@@ -67,7 +67,7 @@
   {
    "item": "Roman Tarraco walking tour",
    "ship": "Varies by line; check your cruise planner",
-   "diy": "Five-site pass €15 (2026) or €5 per site",
+   "diy": "Five-site pass €15 (amphitheatre, Circ-Pretori, walls, Fòrum, Casa Canals) or €5 per site (2026)",
    "saving": "Depends on the ship's price"
   },
   {
@@ -79,8 +79,8 @@
   {
    "item": "Ferreres Aqueduct (Pont del Diable)",
    "ship": "Varies by line; check your cruise planner",
-   "diy": "Free entry; taxi there and back",
-   "saving": "Depends on the taxi fare"
+   "diy": "Free entry; city bus 5 or 85, or a taxi there and back",
+   "saving": "Depends on the bus or taxi fare"
   }
  ],
  "excursionAdvice": "Tarragona itself is easy on your own once the shuttle drops you, and the Roman sites are cheap. Take the ship's tour for Barcelona, about an hour away by road each way, where an independent return is risky on a port day, and for Poblet Monastery, Montblanc or the Priorat wine area, which are hard to reach by public transport. PortAventura, about 10 km away, is a reasonable ship transfer for families.",
@@ -136,7 +136,7 @@
    "why": "A 2nd-century Roman amphitheatre beside Platja del Miracle, with the sea behind it.",
    "timeNeeded": "45 minutes",
    "cost": "€5; five-site pass €15 (2026)",
-   "tip": "Summer hours (1 April to 26 October) are 09:00–20:45 Tuesday to Saturday and 09:00–14:30 on Sundays; closed on Mondays. In winter it closes at 18:30 Tuesday to Saturday."
+   "tip": "Summer hours (1 April to 26 October) are 09:00–20:45 Tuesday to Saturday and 09:00–14:30 on Sundays; closed on Mondays. From 27 October it closes at 18:30 Tuesday to Saturday, Sunday opening is 09:30–14:30 at most sites, and Casa Castellarnau is closed for works."
   },
   {
    "name": "Tarragona Cathedral",
@@ -164,7 +164,7 @@
    "why": "Remains of the Roman colonial forum.",
    "timeNeeded": "20–30 minutes",
    "cost": "€5; included in the five-site pass (2026)",
-   "tip": "Closed on Mondays. Easiest to fit in with the five-site pass."
+   "tip": "Closed on Mondays. Easiest to fit in with the five-site pass, which also covers Casa Canals."
   },
   {
    "name": "Balcó del Mediterrani",
@@ -185,7 +185,7 @@
    "why": "A Roman aqueduct bridge outside the city, free to visit.",
    "timeNeeded": "1.5–2 hours including travel",
    "cost": "Free (2026)",
-   "tip": "About 4 km out of town. Go by taxi and agree the return pick-up."
+   "tip": "About 4 km out of town. City bus lines 5 and 85 stop at \"Pont del Diable\" (Tarragona Turisme); check the fare and return times at the stop, or take a taxi and agree the return pick-up."
   }
  ],
  "beaches": [
@@ -271,7 +271,7 @@
  "emergencyNumber": "112",
  "accessibility": "The shuttle drop-off on Via Augusta and the Rambla Nova are on level ground, but the Part Alta sits on a hill with steep lanes, cobbles and steps. The cathedral visit is only partly accessible and its archaeological route is not accessible. The amphitheatre sits on sloping ground by the beach; check access with the site before you go. Ask your ship whether the shuttle coaches are accessible.",
  "rainyDay": "Head for the cathedral, the circus tunnel at the Circ-Pretori and the Mercat Central. The Passeig Arqueològic and the amphitheatre are open-air, so keep them for a dry spell.",
- "crowdTips": "Three-ship days bring several thousand passengers into a small old town at once, and in 2024 the coaches backed up on Via Augusta and at the Portal del Roser. Start at the amphitheatre at 09:00 while groups gather at the top of town, and visit the cathedral around midday. Check the port schedule for your date: 2026 is forecast to be a record year with 79 calls.",
+ "crowdTips": "Three-ship days bring several thousand passengers into a small old town at once, and in 2024 the coaches backed up on Via Augusta and at the Portal del Roser. Start at the amphitheatre at 09:00 while groups gather at the top of town, and visit the cathedral around midday. Check the port schedule for your date: 2026 is a record season with 81 calls and about 160,000 passengers planned (Diari de Tarragona, April 2026).",
  "faqs": [
   {
    "q": "Is Tarragona walkable from the cruise port?",
@@ -392,6 +392,14 @@
   {
    "title": "Cruise Critic forum – Tarragona",
    "url": "https://boards.cruisecritic.co.uk/topic/2674012-tarragona/"
+  },
+  {
+   "title": "Diari de Tarragona – The 2026 cruise season opens: 81 calls and about 160,000 passengers (April 2026)",
+   "url": "https://www.diaridetarragona.com/tarragona/257370/port-tarragona-inicia-temporada-cruceros-aumento-cruceros-lujo.html"
+  },
+  {
+   "title": "Tarragona Turisme – Pont del Diable",
+   "url": "https://tarragonaturisme.cat/en/node/466"
   }
  ],
  "uncertain": [
@@ -401,7 +409,6 @@
   "City bus fare.",
   "Whether a Catalan tourist tax is charged on Tarragona cruise calls in 2026.",
   "National Archaeological Museum of Tarragona hours and price.",
-  "Train times and fares to Barcelona.",
-  "Bus route to the Ferreres Aqueduct."
+  "Train times and fares to Barcelona."
  ]
 }

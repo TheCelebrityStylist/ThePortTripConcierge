@@ -44,7 +44,7 @@
   },
   {
    "mode": "Taxi",
-   "cost": "About €10–15 to Knossos (2026)",
+   "cost": "About €14–20 to Knossos (Dave's Travel Pages, August 2026)",
    "time": "10–15 min",
    "detail": "Taxis wait outside the port gates. Agree the fare or check the meter is on before setting off."
   },
@@ -71,7 +71,7 @@
    "saving": "Depends on your line's price"
   }
  ],
- "excursionAdvice": "Knossos is easy to do alone: a frequent city bus, a short ride and a timed-entry ticket you can book online. What the ship's tour adds is a guide, and Knossos is hard to read without one; an audio guide or a licensed guide at the gate is the middle option. A ship's tour makes more sense for anything further afield, such as southern Crete, where one road and long distances make an independent return risky.",
+ "excursionAdvice": "Knossos is easy to do alone: a frequent city bus, a short ride and an e-ticket you can buy online the night before; no pre-booked time slot is needed. What the ship's tour adds is a guide, and Knossos is hard to read without one; an audio guide or a licensed guide at the gate is the middle option. A ship's tour makes more sense for anything further afield, such as southern Crete, where one road and long distances make an independent return risky.",
  "dayPlan": {
   "allAboard": "17:30",
   "intro": "Assumes the ship docks at 07:30 and all-aboard is 17:30, in summer.",
@@ -82,7 +82,7 @@
    },
    {
     "time": "08:30",
-    "what": "Enter Knossos on a timed ticket booked in advance. Carry at least a litre of water each; there is little shade."
+    "what": "Enter Knossos; an e-ticket bought the night before on the official Hellenic Heritage site skips the ticket queue (no time slot needed). Carry at least a litre of water each; there is little shade."
    },
    {
     "time": "10:30",
@@ -116,13 +116,13 @@
    "why": "The largest Minoan palace site, about 5 km south of the city.",
    "timeNeeded": "1.5–2.5 hours on site",
    "cost": "€20 full, €10 reduced (2026)",
-   "tip": "Timed entry: book a slot online and arrive 30 minutes early. Open 08:00–20:00 April to August, closing earlier from September. Go at 08:00 in summer."
+   "tip": "No pre-booked time slot is needed (Dave's Travel Pages, August 2026), but an e-ticket bought the night before skips the ticket queue. Open 08:00–20:00 April to August; from 1 September it closes at 19:30, from 16 September at 19:00, from 1 October at 18:30 and from 16 October at 18:00; November to March 08:00–17:00. Go at 08:00 in summer."
   },
   {
    "name": "Heraklion Archaeological Museum",
    "why": "The main collection of Minoan art, including the Phaistos Disc, the Snake Goddess figurines and the bull-leaping fresco.",
    "timeNeeded": "1–3 hours",
-   "cost": "Check the current price on the official ticket site",
+   "cost": "Budget about €20 in summer (Dave's Travel Pages, August 2026); confirm on the official ticket site",
    "tip": "Open 08:00–20:00 in summer except Wednesday, when it opens at 13:00. About 300 m from Eleftherias Square."
   },
   {
@@ -136,8 +136,8 @@
    "name": "Koules fortress and the Venetian harbour",
    "why": "The 16th-century Venetian sea fort at the end of the harbour mole, on your walk back to the ship.",
    "timeNeeded": "45 minutes",
-   "cost": "Ticketed; pay at the entrance",
-   "tip": "Walk the mole beyond it for the view back to the city; it is windy and unshaded."
+   "cost": "€10 full, €5 reduced (2026)",
+   "tip": "Open 08:00–20:00 April to October (to 18:00 on Mondays) and closed on Tuesdays; last entry 20 minutes before closing. Walk the mole beyond it for the view back to the city; it is windy and unshaded."
   },
   {
    "name": "Venetian Loggia and Agios Titos",
@@ -210,8 +210,8 @@
    "fix": "Be there for 08:00 or soon after. The site has almost no shade and crowds build from mid-morning."
   },
   {
-   "mistake": "Turning up at Knossos without a timed ticket.",
-   "fix": "Book a slot online in advance; the ticket is valid from an hour before to an hour after your slot."
+   "mistake": "Queuing for a Knossos ticket at the gate on a busy morning.",
+   "fix": "No pre-booked time slot is needed, but buying the e-ticket the night before on the official Hellenic Heritage site lets you walk past the ticket queue."
   },
   {
    "mistake": "Buying the bus ticket on board.",
@@ -247,7 +247,7 @@
   },
   {
    "q": "How much is Knossos?",
-   "a": "€20 full price and €10 reduced (2026), with timed entry. Book a slot online."
+   "a": "€20 full price and €10 reduced (2026). No pre-booked time slot is needed; buy the e-ticket online the night before to skip the queue."
   },
   {
    "q": "Can I do Knossos and the museum in one cruise day?",
@@ -350,12 +350,19 @@
   {
    "title": "Meet Crete – Entrance fees to sites and museums in Crete (April 2025)",
    "url": "https://www.meetcrete.com/entrance-fees-to-archaeological-sites-museums-in-crete"
+  },
+  {
+   "title": "Dave's Travel Pages – Visiting Knossos Palace (updated August 2026)",
+   "url": "https://www.davestravelpages.com/palace-of-knossos-in-crete-html/"
+  },
+  {
+   "title": "Dave's Travel Pages – Koules Fortress (updated August 2026)",
+   "url": "https://www.davestravelpages.com/koules-fortress-rocca-a-mare-heraklion/"
   }
  ],
  "uncertain": [
-  "Heraklion Archaeological Museum adult price: sources give €12 (2025) and €20 (August 2026); not confirmed on the official ticket site.",
+  "Heraklion Archaeological Museum adult price: €20 in summer per Dave's Travel Pages (August 2026, checked against Hellenic Heritage data), other 2026 guides give €12; budget €20 and confirm on the official ticket site.",
   "Combined Knossos and museum ticket: sources give €20 (48 hours) and €30 (three days); not confirmed.",
-  "Koules fortress price and closing day: one source gives €2 and closed Tuesdays (2021), another €6 and closed Mondays (2026).",
   "Greek cruise passenger levy: introduced for 2025 at €5 per passenger from June to September at ports other than Santorini and Mykonos, with lower shoulder and winter rates (sources disagree: €3 or €4 in April, May and October); 2026 rates and how it is charged not confirmed.",
   "Any 2025–26 changes to the Heraklion cruise terminal; the port authority's own cruise page was not reached.",
   "No documented cruise-specific scams found for Heraklion."
