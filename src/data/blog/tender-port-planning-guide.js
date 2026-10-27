@@ -24,7 +24,7 @@ The itinerary says 08:00 arrival. At a docked port, that means you could be on t
 
 That gap is where most tender-day plans break. The other place is the end of the day, when everyone on a ship of three thousand people wants the same boat back at the same time.
 
-The verdict: a tender port is not a worse port, just a shorter one. Plan a day that is an hour shorter at each end than the ship's times suggest, and it goes fine.
+A tender port is not a worse port. It is a shorter one. Plan a day that is an hour shorter at each end than the ship's times suggest, and it goes fine.
 
 ## What a tender day involves
 

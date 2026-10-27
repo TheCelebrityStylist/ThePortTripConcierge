@@ -42,7 +42,7 @@ In July and August buses fill up near the port. If the first one arrives full, w
 | 24-hour ticket | €5.31 | Libertas sales points, Tisak kiosks, Libertas app |
 | Dubrovnik Pass, one day | €40 | Includes unlimited city buses |
 
-The driver sells only the single-ride ticket, and Kompas, the local travel agency, reports that he takes cash only, so carry euro coins. The cheaper one-hour ticket is in the Libertas app, which settles the cash question before you leave the ship.
+The driver sells only the single-ride ticket, and Kompas, the local travel agency, reports that drivers take cash only, so carry euro coins. The cheaper one-hour ticket is in the Libertas app, which settles the cash question before you leave the ship.
 
 The 24-hour ticket looks like a deal and usually is not. Three driver fares cost €7.50, so against those it wins. Three one-hour tickets cost €5.19, which is less than €5.31. Buy the day ticket only if you will pay the driver, or if you will ride four times or more, for example Gruž to Pile, Pile to Lapad Bay for a swim, and back.
 

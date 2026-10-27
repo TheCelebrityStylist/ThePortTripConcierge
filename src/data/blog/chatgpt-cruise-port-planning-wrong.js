@@ -1,6 +1,6 @@
 export default `---
 title: "Why ChatGPT Gets Cruise Port Days Wrong, and What Works Instead"
-description: "A Cruise Critic editor planned a cruise with ChatGPT: closed venues, an assumed car, an hour at the Giant's Causeway. Why that fails at port, and how to check it."
+description: "A Cruise Critic editor planned a cruise with ChatGPT: closed venues, an assumed car, an hour at the Giant's Causeway. Why that fails in port, and what to check."
 date: "2026-07-07"
 updated: "2026-10-27"
 slug: "chatgpt-cruise-port-planning-wrong"
@@ -33,7 +33,7 @@ Start with the credit, because it was real.
 
 In Lerwick, ChatGPT pointed her to a reservation-only Shetland pony experience on Burra. She booked it straight away and found it a highlight of the trip. In Kirkwall, it correctly warned that Maeshowe, the Neolithic chambered tomb, strictly limits visitor numbers and should be booked early. When she checked, more than two months ahead, there were two tickets left for the ship's day. She got them.
 
-In Edinburgh, after a follow-up prompt, it suggested a bar run by the Scotch Malt Whisky Society, which became one of the best port lunches she has had.
+In Edinburgh, after a follow-up prompt, it suggested a bar run by the Scotch Malt Whisky Society, which she called one of the loveliest port lunches of her cruises.
 
 That is the case for chatbots in one paragraph: they surface specific, interesting options that a cruise line's excursion list does not.
 
@@ -61,7 +61,7 @@ Belfast is the clearest miss. ChatGPT suggested fitting the Giant's Causeway and
 
 Our own [Belfast guide](/ports/belfast) shows why. The Causeway is about 1.5 hours each way by road from the terminal and takes eight to nine hours door to door. Titanic Belfast needs two to three hours on its own. The return rule is to leave the Causeway at least three hours before all-aboard: for a 17:30 all-aboard, that means leaving by 14:30. You can do one of the two properly. Not both.
 
-She dropped the museum and booked a guided coach tour instead, which gave her nearly two hours at the Causeway with a guide. On a standard call, a [Giant's Causeway day tour from Belfast](https://www.viator.com/tours/Belfast/Giants-Causeway-Day-Trip-from-Belfast/d738-5844CAUSEWAY?mcid=42383&pid=P00216188) is the sensible way to do it; just check the tour's return time against your all-aboard before you book.
+She dropped the museum and booked a guided tour instead, which gave her nearly two hours at the Causeway with a guide. On a standard call, a [Giant's Causeway day tour from Belfast](https://www.viator.com/tours/Belfast/Giants-Causeway-Day-Trip-from-Belfast/d738-5844CAUSEWAY?mcid=42383&pid=P00216188) is the sensible way to do it; just check the tour's return time against your all-aboard before you book.
 
 ### Local conditions it did not mention
 
@@ -146,7 +146,8 @@ For the return, yes: if the ship's own coach is late, the ship waits. The trade-
 - [Cruise Critic – Planning cruise shore excursions with ChatGPT (September 2025)](https://www.cruisecritic.com/articles/how-to-plan-cruise-ship-shore-excursions-with-chatgpt)
 - [Cruise Critic – Dos and don'ts of AI cruise planning (October 2026)](https://www.cruisecritic.com/articles/dos-donts-ai-cruise-planning)
 - [OpenAI Help Center – Does ChatGPT tell the truth?](https://help.openai.com/en/articles/8313428-why-does-chatgpt-sometimes-give-wrong-or-low-quality-answers)
-- [Visit Belfast – Cruise passenger guide](https://visitbelfast.com/)
+- [Visit Belfast – Cruise passenger guide (PDF)](https://assets.simpleviewinc.com/sv-belfast/image/upload/v1/clients/belfast/Sea_Do_003__44bc75e3-d3c1-4f01-baf0-0f06ee2536e3.pdf)
+- [Visit Derry – Giant's Causeway](https://www.visitderry.com/things-to-do/giants-causeway-p742371)
 - [Port of Civitavecchia – Port mobility shuttle buses](https://www.civitavecchiaport.org/port-mobility-shuttle-buses/)
 - [BlueKeys – Civitavecchia to Rome: train, shuttle and transfer 2026](https://bluekeys.it/blog/civitavecchia-rome-transfer-fl5-train)
 - [Carnival – Explore Rome on Your Own](https://www.carnival.com/shore-excursions/rome-civitavecchia-italy/rome-on-your-own-804099)

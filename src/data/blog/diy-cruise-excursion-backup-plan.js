@@ -1,7 +1,7 @@
 export default `---
 title: "DIY Cruise Excursion Backup Plan: Triggers, Taxis and Cut-Offs"
 slug: diy-cruise-excursion-backup-plan
-description: "A DIY port day needs a plan B with a clock on it. The fallback for a cancelled train, a full bus or a long cable car queue in 10 ports, with cut-off times."
+description: "A DIY port day needs a plan B with a clock on it. The fallback for a cancelled train, a full bus or a long cable car queue in 11 ports, with cut-off times."
 excerpt: "A backup plan names what can fail, the time you stop waiting and what you do next. Here are the real fallbacks, port by port."
 category: cruise-planning
 cluster_id: return-planning
@@ -75,7 +75,7 @@ Plan the timed part first and early. In Rome, a [small-group Vatican, Sistine Ch
 
 In Barcelona, a [Sagrada Família guided tour](https://www.viator.com/tours/Barcelona/Sagrada-Familia-Guided-Tour-with-Skip-the-Line-Ticket/d562-2140SAGRADA?mcid=42383&pid=P00216188) lasts about 90 minutes. From the Sagrada Família you need to leave by 15:35 for a 17:30 all-aboard: 30 minutes on the metro to Drassanes, 10 minutes on foot, then the Cruise Bus. Book a slot that ends by 15:00 and you have room for a slow metro.
 
-In Athens, the Acropolis runs on timed slots too, and summer morning slots sell out. An [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) takes about two hours. Do it first, then the Plaka, and be on the metro at Monastiraki by 14:45.
+In Athens, the Acropolis runs on timed slots too, and summer morning slots sell out. An [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) takes about two hours. Do it first, then the Plaka, and leave the Plaka by 14:30 if your ship is at Terminal A, or 14:15 at Terminals B and C.
 
 ## Prepare a shorter version of the day
 

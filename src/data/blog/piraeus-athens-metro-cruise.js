@@ -145,7 +145,7 @@ Do the sums first. From Terminals B or C, the walk and the train take close to a
 - [Art Visit Guide – Piraeus to Athens on a cruise day (2026)](https://www.artvisitguide.com/piraeus-to-athens-cruise-day/)
 - [Art Visit Guide – Acropolis of Athens tickets (2026)](https://www.artvisitguide.com/acropolis-of-athens-tickets-guide/)
 - [Hellenic Ministry of Culture – Acropolis Museum](https://archaeologicalmuseums.culture.gov.gr/en/museum/5df34af3deca5e2d79e8c1d1)
-- [To Vima – Acropolis elevator disruptions (August 2026)](https://www.tovima.com/society/acropolis-elevator-disruptions-explained-by-greek-ministry/)
+- [To Vima – Acropolis lift disruptions explained (August 2026)](https://www.tovima.com/society/acropolis-elevator-disruptions-explained-by-greek-ministry/)
 - [Deep Arrival – Greece cruise tax 2026](https://deeparrival.com/news/greece-cruise-tax-2026/)
 - [National Archaeological Museum – Opening hours and tickets](https://www.namuseum.gr/en/episkepsi)
 `;

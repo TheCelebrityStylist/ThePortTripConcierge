@@ -18,7 +18,7 @@ relatedPorts: ["santorini", "mykonos"]
 
 Most Greek island cruises put both on the itinerary, and plenty of passengers treat them as the same kind of stop. They are not. One is a logistics puzzle with a famous view at the end of it. The other is a small, walkable harbour town where the main decision is whether to take a boat to an ancient island.
 
-The verdict: if your itinerary only lets you go ashore properly on one of them, and you are fit and happy to start early, go up to the caldera. Santorini rewards the effort. If you have limited mobility, hate queues, or are travelling on a day with three or more ships at anchor in the caldera, Mykonos will give you more hours actually doing something.
+If your itinerary only lets you go ashore properly on one of them, and you are fit and happy to start early, go up to the caldera. Santorini rewards the effort. If you have limited mobility, hate queues, or are travelling on a day with three or more ships at anchor in the caldera, Mykonos will give you more hours actually doing something.
 
 ## How you get ashore
 
