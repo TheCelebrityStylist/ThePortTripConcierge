@@ -1,6 +1,6 @@
 export default `---
 title: "Ibiza Cruise Port to Dalt Vila: Botafoc, the Walls, the Way Back"
-description: "Botafoc is 3 km from Dalt Vila. Shuttle, City Boat, taxi or a 40-min walk, then Punic tombs, a corsair's obelisk, and when to leave the walls (2026)."
+description: "Botafoc is 3 km from Dalt Vila. Shuttle, City Boat, taxi or a 40-min walk, then Punic tombs, a corsair's obelisk, and exactly when to leave the walls (2026)."
 date: "2026-10-19"
 updated: "2026-10-27"
 slug: "ibiza-cruise-port-to-dalt-vila"

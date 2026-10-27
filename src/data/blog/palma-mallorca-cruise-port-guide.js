@@ -1,7 +1,7 @@
 export default `---
 title: "Palma Cruise Port Guide: Bus 1, the Cathedral and the Old Town"
 slug: "palma-mallorca-cruise-port-guide"
-description: "Palma's cruise berths are 3.5–6 km from the cathedral. Bus 1 is €2, La Seu €25 (2026), plus Arab baths, a 600-year-old olive tree and when to leave."
+description: "Palma's cruise berths are 3.5–6 km from the cathedral. Bus 1 is €2, La Seu €25 (2026), plus Arab baths, a 600-year-old olive tree and exactly when to leave."
 author: "Elke"
 category: "cruise-ports"
 date: "2026-05-28"
@@ -18,9 +18,9 @@ relatedPosts: ["beaches-near-palma-cruise-port", "barcelona-cruise-port-diy-guid
 
 ## 08:00, the cathedral across the water
 
-From the deck, Palma is a long curve of bay with one building that matters. La Seu, the cathedral, stands on the old sea wall at the far end of the curve, and from your berth it looks close enough to walk to. It is not. Ships use the Estació Marítima terminals on the Paraires and Poniente quays, about 3.5 km west of the cathedral, or the outer Dique del Oeste, about 6 km out, where the largest ships go. The port assigns berths and can change them shortly before arrival, so check your daily programme for which one you have. It decides how your day starts.
+From the deck, Palma is a long curve of bay with one building that matters. La Seu, the cathedral, stands above the sea at the far end of the curve, and from your berth it looks close enough to walk to. It is not. Ships use the Estació Marítima terminals on the Paraires and Poniente quays, about 3.5 km west of the cathedral, or the outer Dique del Oeste, about 6 km out, where the largest ships go. The port assigns berths and can change them shortly before arrival, so check your daily programme for which one you have. It decides how your day starts.
 
-You will have company. The cruise lines, the Balearic government and Palma town hall have agreed a limit of three cruise ships a day. In June 2026 they renewed it with a tighter passenger cap for the main season, falling from 8,500 to 7,500 a day from 2027 (Majorca Daily Bulletin, June 2026). For 2026 the forecast was about 1.4 million cruise passengers, concentrated in spring and autumn. On a busy day that is several thousand people heading for one cathedral door, most of them on the same bus.
+You will have company. The cruise lines, the Balearic government and Palma town hall have agreed a limit of three cruise ships a day. In June 2026 they renewed it with a tighter passenger cap for the main season, falling from 8,500 to 7,500 a day from 2027 (Majorca Daily Bulletin, June 2026). For 2026 the forecast was about 1.4 million cruise passengers, concentrated in spring and autumn. On a busy day that is several thousand people heading for one cathedral door, and a lot of them on bus 1.
 
 There is a better order to the day than the one they follow. It starts on that bus.
 
@@ -32,13 +32,13 @@ From the Dique del Oeste, the nearest bus 1 stop is near the Sant Carles militar
 
 On a busy morning, bus 1 fills with cruise passengers in the first hour after docking. Walking back a few stops to board earlier does not help. Be patient, or share a taxi: metered, 10–15 minutes to the cathedral, from the ranks outside the terminals.
 
-Once you are on, sit on the left. Heading east along the Passeig Marítim towards the centre, the yachts are on your right and the city is on your left, and on the slope above the road is Es Jonquet. The first windmill here is documented in 1339; by the 18th century there were seven, grinding flour on the slope facing the sea. Five survive. Two are in ruins, one hosts nightlife, and one, the Molí d'en Garleta, owned by the city since 1993 and restored in 1995, holds a small museum of mills (Ultima Hora, 2020; Mallorca.com, August 2026). The museum does not publish its hours, so treat it as something to see from the window rather than a stop.
+Once you are on, sit on the left. Heading east along the Passeig Marítim towards the centre, the yachts are on your right and the city is on your left, and on the slope above the road is Es Jonquet. The first windmill here is documented in 1339; by the 18th century there were seven, grinding flour on the slope facing the sea. Five survive, several in poor repair as of 2020; one hosts nightclubs, and one, the Molí d'en Garleta, owned by the city since 1993 and restored in 1995, holds a small museum of mills (Ultima Hora, 2020; Mallorca.com, August 2026). The museum does not publish its hours, so treat it as something to see from the window rather than a stop.
 
 ## The Dique del Oeste detour
 
 If your ship is on the Dique del Oeste, your walk to the bus passes a fortress most passengers never look at. The Castell de Sant Carles was built in 1610–1612 on the orders of Felipe III, on the site of the old Porto Pi lighthouse, to protect ships anchored in the bay. In 1662 the engineer Vicente Mut added four large bastions; in 1890 it was refitted as a gun battery; since 1981 it has been a military history museum (Turisme Petit, updated June 2025).
 
-Entry is free. It opens in the mornings only, and listings disagree on the days: one gives Tuesday to Sunday 10:00–14:00, the city council's older page gives weekday and Saturday mornings. Go straight from the ship, and only if the door is open when you pass. Give it 30–45 minutes, then walk on to bus 1. It is the one sight in Palma that is closer to your ship than to the cathedral.
+Entry is free. It opens in the mornings only, and listings disagree on the days: one gives Tuesday to Sunday 10:00–14:00, the city council's page (last updated 2023) gives weekday and Saturday mornings. Go straight from the ship, and only if the door is open when you pass. Give it 30–45 minutes, then walk on to bus 1.
 
 ## 08:50, an hour before the doors open
 
@@ -46,17 +46,17 @@ Get off on Avinguda d'Antoni Maura, below the cathedral, and walk through Parc d
 
 The cathedral opens to visitors at 10:00. Most people from your bus will stand near it until then. You have an hour, and the old town's east side is open.
 
-Start with breakfast. Ca'n Joan de s'Aigo opened in 1700 near Plaça Santa Eulàlia. The name means "John of the water". Joan Thomàs, from Valldemossa, sold ice that he pressed in the snow houses of the Serra de Tramuntana, the mountains behind the city; he sold it with fresh water, added fruit juice, and so began making ices (Ultima Hora, 2025). The oldest of its three cafés is on Carrer de Can Sanç. Order the almond ice cream, which is the house's signature, with a quarto, a light sponge, or an ensaïmada with hot chocolate. Ice cream for breakfast is not a mistake here. It is the point.
+Start with breakfast. Ca'n Joan de s'Aigo opened in 1700 near Plaça Santa Eulàlia. The name means "John of the water". Joan Thomàs, from Valldemossa, sold ice that he pressed in the snow houses of the Serra de Tramuntana, the mountains behind the city; he sold it with fresh water, added fruit juice, and so began making ices (Ultima Hora, 2025). The oldest of its three cafés, and the one that keeps the feel of the original, is on Carrer de Can Sanç. Order the almond ice cream, the house's signature, with an ensaïmada or a quarto, and a hot chocolate. Ice cream for breakfast is not a mistake here. It is the point.
 
-Five minutes away, on Carrer de Can Serra, are the Banys Àrabs, the Arab baths. They date from between the 10th and 12th centuries and are one of the few buildings left from Moorish Palma. What survives is a single room, the warm room of the baths: a half-orange dome pierced by 25 round openings for light, held up by a dozen columns. No two columns match, because they were very likely taken from Roman buildings. The room sits in the garden of a former manor house, Can Fontirroig, with palms, cactus and orange trees. Entry was €2.50, and it opened at 09:00 (See Mallorca, last published 2023). Fifteen minutes is enough.
+Close by, in the lanes behind the cathedral, are the Banys Àrabs, the Arab baths. They date from between the 10th and 12th centuries and are one of the few buildings left from Moorish Palma. What survives is a single room, the warm room of the baths: a half-orange dome pierced by 25 round openings for light, held up by a dozen columns. No two columns match, because they were very likely taken from Roman buildings. The room sits in the garden of a former manor house, Can Fontirroig, with palms, cactus and orange trees. Entry was €2.50, and it opened at 09:00 (See Mallorca, last published 2023). Fifteen minutes is enough.
 
 ## 09:30, a philosopher's tomb and a 600-year-old tree
 
-Walk west to the Basilica de Sant Francesc. The Franciscans settled on this site in 1281; the Gothic church went up in the late 13th and 14th centuries, and its rib vault is dated 1384. Lightning destroyed the original façade in 1580, and the one you see is a Baroque rebuild from the second half of the 17th century (Illes Balears tourism). A statue outside honours Junípero Serra, the Mallorcan missionary who once lived in this monastery and went on to found missions in California.
+Walk west to the Basilica de Sant Francesc. The Franciscans settled on this site in 1281; the Gothic church went up in the late 13th and 14th centuries, and its rib vault is dated 1384. Lightning destroyed the original façade in 1580, and the one you see is a Baroque rebuild from the second half of the 17th century (Illes Balears tourism). A statue outside honours Junípero Serra, the Mallorcan missionary who once lived in this monastery.
 
-You enter through the cloister, Gothic, trapezoidal, with slender columns and orange and lemon trees around a well. The floor is paved with the gravestones of noble families. Inside the church is the tomb of Ramon Llull, the 13th-century Mallorcan philosopher and mystic, made in 1487 by the sculptor Francesc Sagrera: an alabaster figure lying on a sarcophagus. Look below it. There are seven niches, unfinished and empty. They were meant to hold figures of the seven liberal arts, and nobody ever made them. Entry was €3, with mornings 09:30–12:30 Monday to Saturday (See Mallorca, last published 2023).
+You enter through the cloister, Gothic, trapezoidal, with slender columns and orange and lemon trees around a well. The floor is paved with the gravestones of noble families. Inside the church is the tomb of Ramon Llull (1235–1316), the Mallorcan mystic and philosopher, made in 1487 by the sculptor Francesc Sagrera: an alabaster figure lying on a sarcophagus. Look below it. There are seven niches, unfinished and empty. They were meant to hold figures of the seven liberal arts, and nobody ever made them. Entry was €3, with mornings 09:30–12:30 Monday to Saturday (See Mallorca, last published 2023).
 
-Then walk down to Plaça de Cort, the town hall square. In the middle stands a gnarled olive tree that has no business being in a city. It is between 500 and 600 years old. It grew at Pedruixella Petit, near Pollença in the north of the island, where it was a favourite subject of painters and photographers. In 1989 it was dug up, all 3–4 tonnes of it, and replanted here; its owner gave it to the city once he knew where it was going. It resprouted the following year. The trunk is about 7 m round, and since 2003 it has been a protected "singular tree" (Balearic government species protection service). People call it s'Olivera de Cort.
+Then walk down to Plaça de Cort, the town hall square. In the middle stands a gnarled olive tree that has no business being in a city. It is between 500 and 600 years old. It grew at Pedruixella Petit, near Pollença in the north of the island, where it was a favourite subject of painters and photographers. In 1989 it was dug up, all 3–4 tonnes of it, and replanted here; its owner gave it to the city once he knew where it was going. It resprouted the following year. The trunk is about 7 m round, and since 2003 it has been a protected "singular tree" (Balearic government species protection service). It is known as the Olivera de Cort.
 
 ## 10:00, the cathedral of light
 
@@ -64,21 +64,21 @@ Now go to the cathedral. Buy a timed ticket online in advance; the queue builds 
 
 General admission is €25 in 2026, including the cathedral, the terraces and the Museum of Sacred Art. Tourist visits run Monday to Friday from 10:00 and on Saturday mornings; there are none on Sundays. Cover shoulders and knees, and no beachwear. Allow 75–90 minutes, or two hours with the terraces.
 
-Inside, the scale arrives all at once. The main rose window is one of the largest in Europe. Gaudí reworked the canopy over the altar, and the artist Miquel Barceló reworked a side chapel. But the best story about this building is about the light. Twice a year, on the mornings of 2 February and 11 November, the sun comes through the great rose window in the apse and lands on the wall below the rose window at the opposite end, so that the two circles overlap and form an eight. Mallorcans call it the Festa de la Llum, the festival of light, and the eight is "el vuit de la Seu" (Universidad Miguel Hernández, 2025). If your ship is in on 11 November, it happens on your morning. We could not confirm the time or whether visitors are let in for it in 2026, so ask at the ticket office.
+Inside, the scale arrives all at once. The main rose window is one of the largest in Europe. Gaudí reworked the canopy over the altar, and the artist Miquel Barceló reworked a side chapel. But the best story about this building is about the light. Twice a year, on the mornings of 2 February and 11 November, the sun comes through the great rose window of the apse and lands on the rose window of the opposite façade, and for a brief moment the two circles overlap to form a figure eight (Universidad Miguel Hernández, 2025). In Palma it is called the Festa de la Llum, the festival of light. If your ship is in on 11 November, it happens on your morning. We could not confirm the time or whether visitors are let in for it in 2026, so ask at the ticket office.
 
-The terraces reopened in March 2026 and run until November: Monday to Friday 10:00–16:30, Saturday 10:00–13:30, with a slot every 30 minutes and a visit of about an hour. You must be over 9, and they are not for anyone with vertigo, heart or breathing problems or reduced mobility (Majorca Daily Bulletin, March 2026). You walk over the roof among the flying buttresses with the bay at your feet, and you can find your own ship from up there.
+The terraces reopened in March 2026 and run until November: Monday to Friday 10:00–16:30, Saturday 10:00–13:30, with a slot every 30 minutes and a visit of about an hour. You must be over 9, and they are not for anyone with vertigo, heart or breathing problems or reduced mobility (Majorca Daily Bulletin, March 2026). You walk out among the flying buttresses, beside the bell tower and the main rose window, with the whole bay and city below.
 
 ## 11:40, two palaces on one street
 
 Next to the cathedral is the Royal Palace of La Almudaina, the old Moorish citadel turned royal residence, reopened in summer 2026 after renovation. It costs €8, reduced €5 (2026), and it is closed on Mondays. Allow 45 minutes.
 
-Across the street, on Carrer del Palau Reial 18, is a palace most passengers walk past. The Palau March was built for the March family and now belongs to their foundation. Inside are an 18th-century Neapolitan nativity scene and murals by Josep Maria Sert on the staircase vault and in the music room, and from its terrace you look across at the cathedral and down the Born (Visit Palma). Entry is €4. From April to October it opens Monday to Friday 10:00–18:30; from November to March, Monday to Friday 10:00–14:00. It is closed at weekends and on holidays.
+Across the street, on Carrer del Palau Reial 18, is a palace most passengers walk past. The Palau March is now a museum and library. Inside are an 18th-century Neapolitan nativity scene and murals by Josep Maria Sert on the staircase vault and in the music room, and the visit gives you views of the cathedral, the Jardins del Rei and the Born (Visit Palma). Entry is €4. From April to October it opens Monday to Friday 10:00–18:30; from November to March, Monday to Friday 10:00–14:00. It is closed at weekends and on holidays.
 
-## 12:45, lunch, and a bakery older than most countries
+## 12:45, lunch, and a bakery from 1717
 
 Mercat de l'Olivar is the main covered food market, with tapas and seafood counters. Go before early afternoon, as many stalls close after lunch. Look for sobrassada, the soft paprika pork sausage, at the delis inside.
 
-If you would rather eat standing up, walk to Carrer del Forn de la Glòria. The street is named after the bakery at number 7. Forn de la Glòria has been documented as a business since 1717, and an oven on this spot is mentioned in the 13th-century Llibre del Repartiment, the record of how land was shared out after Jaume I's conquest. It still bakes bread in a wood-fired oven, run by the second generation of the Camps family, and it is known for ensaïmadas and llonguets, Palma's soft bread rolls (Turisme Petit, 2025).
+If you would rather eat standing up, walk to Carrer del Forn de la Glòria. The street is named after the bakery at number 7. Forn de la Glòria has been documented as a business since 1717, and an oven on this spot is mentioned in the 13th-century Llibre del Repartiment, the record of how land was shared out after Jaume I's conquest. It still bakes bread in a wood-fired oven, run by the second generation of the Camps family, and it is known for ensaïmadas and llonguets, the local bread rolls (Turisme Petit, 2025).
 
 Pa amb oli, bread rubbed with tomato and olive oil with toppings, is the other thing to order, in the cafés around La Llotja.
 
@@ -104,15 +104,17 @@ The cathedral queue builds from 10:00 to midday. On a weekday, the quiet slots a
 
 Spend the morning on the old town at its own pace: breakfast at Ca'n Joan de s'Aigo, the Arab baths from 09:00, Sant Francesc before its 12:30 break, the olive tree, the Almudaina and the Palau March. Have lunch at the market. Then walk into the cathedral at 14:00 with the morning rush gone, and leave at 15:30 for the 15:45 bus. If you want the terraces, book a 14:00 slot and do the nave straight after; it is tight, so only do both with an all-aboard of 18:00 or later.
 
-This only works Monday to Friday. Tourist visits end early on Saturdays, which makes Saturday calls the most crowded of the week, and there are no tourist visits on Sundays.
+This only works Monday to Friday. Tourist visits end early on Saturdays, which makes Saturday calls especially busy, and there are no tourist visits on Sundays.
 
 ## If you have an extra hour
 
 Bellver Castle is the obvious one: a round Gothic castle on a pine-covered hill with the widest view of the bay and the city. It is €4 (2026), free on Sundays and closed on Mondays; from October to March it opens Tuesday to Saturday 10:00–18:00 and Sunday 10:00–15:00. It sits closer to the cruise terminals than to the old town, so a taxi from the ship works well, or the hop-on hop-off bus. Allow 1.5–2 hours with transport.
 
-If you would rather see the city from a saddle, a [three-hour e-bike tour of Palma](https://www.viator.com/tours/Palma-de-Mallorca/Tour-E-Bike-in-Palma-de-Mallorca/d60462-116973P1?mcid=42383&pid=P00216188) covers the seafront and the old town without the bus. On a long, hot day, a [small-group catamaran trip with tapas](https://www.viator.com/tours/Mallorca/Shared-catamaran-4-hour-trip-Mallorca/d955-119062P4?mcid=42383&pid=P00216188) puts you on the bay for four hours; check that the departure point and return time fit your leave-by time before you book.
+If you would rather see the city from a saddle, a [three-hour e-bike tour of Palma](https://www.viator.com/tours/Palma-de-Mallorca/Tour-E-Bike-in-Palma-de-Mallorca/d60462-116973P1?mcid=42383&pid=P00216188) covers more ground than your feet will.
 
-Palma itself does not need a ship tour. The mountains do. Valldemossa, Deià, Sóller and the vintage train are 30–60 minutes away on winding roads with limited buses, so take the ship's excursion or a [Valldemossa, Deià and Sóller day tour](https://www.viator.com/tours/Mallorca/Valldemossa-Deia-Soller-Daytrip/d955-390812P1?mcid=42383&pid=P00216188) that is sized to your call. Valldemossa is where Joan Thomàs, the man who sold Palma its first ices, came from. For the rest of the port, see the [full Palma port guide](/ports/palma).
+On a long, hot day, a [small-group catamaran trip with tapas](https://www.viator.com/tours/Mallorca/Shared-catamaran-4-hour-trip-Mallorca/d955-119062P4?mcid=42383&pid=P00216188) puts you on the bay for four hours; check that the departure point and return time fit your leave-by time before you book.
+
+Palma itself does not need a ship tour. The mountains do. Valldemossa, Deià, Sóller and the vintage train are 30–60 minutes away on winding roads with limited buses, so take the ship's excursion or a [Valldemossa, Deià and Sóller day tour](https://www.viator.com/tours/Mallorca/Valldemossa-Deia-Soller-Daytrip/d955-390812P1?mcid=42383&pid=P00216188) that is sized to your call. Valldemossa is where Joan Thomàs, the iceman behind Ca'n Joan de s'Aigo, came from. For the rest of the port, see the [full Palma port guide](/ports/palma).
 
 ## The practical bit
 
