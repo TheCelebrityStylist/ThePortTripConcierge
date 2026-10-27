@@ -1,1244 +1,1269 @@
 {
-"urls": [
-{
-"path": "/",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/ports",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/blog",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/pricing",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/privacy",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/legal/terms",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/about",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/methodology",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/editorial-policy",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/corrections",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/will-i-make-it-back",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/how-to-return-to-your-cruise-ship-on-time",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/what-is-porttrip",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/cruise-port-index",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/leave-by-widget",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/how-to-never-miss-your-cruise-ship",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/what-happens-if-you-miss-your-cruise-ship",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/can-a-cruise-ship-leave-without-you",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/how-late-can-you-return-to-a-cruise-ship",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/ports/alesund",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/alicante",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/tromso",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/molde",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/barcelona",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/dubrovnik",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/santorini",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/naples",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/kotor",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/roatan",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/st-thomas",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/tenerife",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/ensenada",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/cabo-san-lucas",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/puerto-vallarta",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/aruba",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/curacao",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/st-kitts",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/tortola",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/grand-cayman",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/mazatlan",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/gibraltar",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/katakolon",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/chania",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/zeebrugge",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/halifax",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/bermuda",
-"lastmod": "2026-10-15"
-},
-{
-"path": "/ports/venice",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/rome",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/nice",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/marseille",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/palermo",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/palma",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/zadar",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/monaco",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/cagliari",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/genoa",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/malaga",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/valencia",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/lisbon",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/rhodes",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/porto",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/mykonos",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/athens",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/valletta",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/corfu",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/istanbul",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/kusadasi",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/copenhagen",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/stockholm",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/flam",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/bergen",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/reykjavik",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/cozumel",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/amsterdam",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/nassau",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/split",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/livorno",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/barbados",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/messina",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/catania",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/madeira",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/cartagena",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/cadiz",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/bodrum",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/bari",
-"lastmod": "2026-10-14"
-},
-{
-"path": "/ports/izmir",
-"lastmod": "2026-10-13"
-},
-{
-"path": "/ports/amber-cove",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/antigua",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/belize-city",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/costa-maya",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/falmouth-jamaica",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/ibiza",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/key-west",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/la-spezia",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/lanzarote",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/las-palmas",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/san-juan",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/st-maarten",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/tunis",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/are-cruise-excursions-worth-it",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/athens-cruise-port-guide-diy",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/barcelona-cruise-port-diy-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/best-cruise-ports-without-excursions",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/best-mediterranean-cruise-ports-diy",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/book-colosseum-acropolis-sagrada-familia-cruise",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/bus-1a-dubrovnik-cruise-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cable-car-santorini-cruise",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cagliari-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/chatgpt-cruise-port-planning-wrong",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/circumvesuviana-train-cruise-ship",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/corfu-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cruise-excursion-alternatives-every-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cruise-port-day-rainy-weather",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cruise-port-family-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cruise-port-planner-vs-chatgpt",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cruise-port-tips",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cruise-port-tourist-traps",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/diy-cruise-excursion-backup-plan",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/dubrovnik-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/ephesus-kusadasi-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/first-cruise-port-day-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/first-time-mediterranean-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/florence-livorno-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/how-far-is-rome-from-cruise-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/how-many-people-miss-cruise-ship-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/how-much-do-cruise-excursions-cost",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/how-much-time-before-all-aboard",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/how-to-get-from-civitavecchia-to-rome",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/how-to-return-cruise-ship-on-time",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/kotor-cruise-port-guide-diy",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/lisbon-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/mediterranean-cruise-budget-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/mykonos-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/mykonos-tender-risk-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/naples-cruise-port-diy-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/palma-mallorca-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/piraeus-athens-metro-cruise",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/pompeii-without-cruise-excursion",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/port-bus-barcelona-cruise-ship",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/rhodes-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/rome-cruise-port-without-excursion",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/rome-vs-florence-cruise",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/santorini-cruise-port-without-excursion",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/santorini-vs-mykonos-cruise",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/split-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/tender-port-planning-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/valletta-malta-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/venice-cruise-port-guide",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/what-happens-if-you-miss-cruise-ship",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/what-information-do-you-need-to-plan-a-cruise-port-day",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/what-to-do-6-hour-cruise-port-stop",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/best-mediterranean-cruise-ports",
-"lastmod": "2026-10-11"
-},
-{
-"path": "/blog/beaches-near-palma-cruise-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/beaches-near-dubrovnik-cruise-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/beaches-near-split-cruise-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/beaches-near-kotor-cruise-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/beaches-near-grand-cayman-cruise-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/beaches-near-cozumel-cruise-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/nassau-cruise-port-to-downtown",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/cozumel-cruise-port-to-town",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/st-maarten-cruise-port-to-philipsburg",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/st-thomas-cruise-port-to-charlotte-amalie",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/barbados-cruise-port-to-bridgetown",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/blog/is-grand-cayman-a-tender-port",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/cruise-port-rules",
-"lastmod": "2026-10-16"
-},
-{
-"path": "/ports/ajaccio",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/cartagena-colombia",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/cherbourg",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/heraklion",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/honolulu",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/kahului",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/la-coruna",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/le-havre",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/progreso",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/saint-john-nb",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/salerno",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/stavanger",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/vigo",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/blog/malaga-cruise-port-to-city-centre",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/blog/valencia-cruise-port-to-city-centre",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/blog/marseille-cruise-port-to-vieux-port",
-"lastmod": "2026-10-17"
-},
-{
-"path": "/ports/bonaire",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/castries",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/colon",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/fort-de-france",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/grand-turk",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/hilo",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/kristiansand",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/montego-bay",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/nawiliwili",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/ocho-rios",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/oslo",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/ponta-delgada",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/roseau",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/tarragona",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/blog/genoa-cruise-port-to-old-town",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/blog/la-spezia-cruise-port-to-town",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/blog/palermo-cruise-port-to-historic-centre",
-"lastmod": "2026-10-18"
-},
-{
-"path": "/ports/bay-of-islands",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/bilbao",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/cape-town",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/fuerteventura",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/hakodate",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/la-paz",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/limassol",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/newport-ri",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/portland-maine",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/quebec-city",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/ravenna",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/st-croix",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/sydney-ns",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/tauranga",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/trieste",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/blog/ibiza-cruise-port-to-dalt-vila",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/blog/nice-cruise-port-to-old-town",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/blog/alicante-cruise-port-to-city-centre",
-"lastmod": "2026-10-19"
-},
-{
-"path": "/ports/agadir",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/busan",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/charlottetown",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/freeport",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/icy-strait-point",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/juneau",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/ketchikan",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/nagasaki",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/naha",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/puntarenas",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/raiatea",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/shimizu",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/sitka",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/victoria-bc",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/blog/catania-cruise-port-to-city-centre",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/blog/messina-cruise-port-to-city-centre",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/blog/tarragona-cruise-port-to-old-town",
-"lastmod": "2026-10-20"
-},
-{
-"path": "/ports/akureyri",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/gdynia",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/geiranger",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/greenock",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/haugesund",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/hellesylt",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/helsinki",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/klaipeda",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/olden",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/riga",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/skagway",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/tallinn",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/visby",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/blog/stockholm-cruise-port-to-gamla-stan",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/blog/cadiz-cruise-port-to-old-town",
-"lastmod": "2026-10-21"
-},
-{
-"path": "/ports/bar-harbor",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/belfast",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/cobh",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/dublin",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/invergordon",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/isafjordur",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/kirkwall",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/lerwick",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/liverpool",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/sete",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/thessaloniki",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/volos",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/warnemunde",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/blog/porto-cruise-port-to-city-centre",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/blog/cartagena-cruise-port-to-old-town",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/blog/bari-cruise-port-to-old-town",
-"lastmod": "2026-10-22"
-},
-{
-"path": "/ports/amalfi",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/argostoli",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/hvar",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/kalamata",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/koper",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/nafplio",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/portofino",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/sibenik",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/toulon",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/ports/trapani",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/blog/heraklion-cruise-port-to-city-centre",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/blog/zadar-cruise-port-to-old-town",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/blog/trieste-cruise-port-to-city-centre",
-"lastmod": "2026-10-23"
-},
-{
-"path": "/blog/salerno-cruise-port-to-old-town",
-"lastmod": "2026-10-24"
-},
-{
-"path": "/blog/thessaloniki-cruise-port-to-city-centre",
-"lastmod": "2026-10-24"
-},
-{
-"path": "/blog/koper-cruise-port-to-old-town",
-"lastmod": "2026-10-24"
-},
-{
-"path": "/blog/chania-cruise-port-to-old-town",
-"lastmod": "2026-10-25"
-},
-{
-"path": "/blog/ajaccio-cruise-port-to-old-town",
-"lastmod": "2026-10-25"
-},
-{
-"path": "/blog/is-hvar-a-tender-port",
-"lastmod": "2026-10-25"
-},
-{
-"path": "/blog/gibraltar-cruise-port-to-town",
-"lastmod": "2026-10-26"
-},
-{
-"path": "/blog/katakolon-cruise-port-to-olympia",
-"lastmod": "2026-10-26"
-},
-{
-"path": "/blog/monaco-cruise-port-to-monte-carlo",
-"lastmod": "2026-10-26"
-}
-],
-"blog": [
-"are-cruise-excursions-worth-it",
-"athens-cruise-port-guide-diy",
-"barcelona-cruise-port-diy-guide",
-"best-cruise-ports-without-excursions",
-"best-mediterranean-cruise-ports-diy",
-"book-colosseum-acropolis-sagrada-familia-cruise",
-"bus-1a-dubrovnik-cruise-port",
-"cable-car-santorini-cruise",
-"cagliari-cruise-port-guide",
-"chatgpt-cruise-port-planning-wrong",
-"circumvesuviana-train-cruise-ship",
-"corfu-cruise-port-guide",
-"cruise-excursion-alternatives-every-port",
-"cruise-port-day-rainy-weather",
-"cruise-port-family-guide",
-"cruise-port-planner-vs-chatgpt",
-"cruise-port-tips",
-"cruise-port-tourist-traps",
-"diy-cruise-excursion-backup-plan",
-"dubrovnik-cruise-port-guide",
-"ephesus-kusadasi-cruise-port-guide",
-"first-cruise-port-day-guide",
-"first-time-mediterranean-cruise-port-guide",
-"florence-livorno-cruise-port-guide",
-"how-far-is-rome-from-cruise-port",
-"how-many-people-miss-cruise-ship-port",
-"how-much-do-cruise-excursions-cost",
-"how-much-time-before-all-aboard",
-"how-to-get-from-civitavecchia-to-rome",
-"how-to-return-cruise-ship-on-time",
-"kotor-cruise-port-guide-diy",
-"lisbon-cruise-port-guide",
-"mediterranean-cruise-budget-guide",
-"mykonos-cruise-port-guide",
-"mykonos-tender-risk-guide",
-"naples-cruise-port-diy-guide",
-"palma-mallorca-cruise-port-guide",
-"piraeus-athens-metro-cruise",
-"pompeii-without-cruise-excursion",
-"port-bus-barcelona-cruise-ship",
-"rhodes-cruise-port-guide",
-"rome-cruise-port-without-excursion",
-"rome-vs-florence-cruise",
-"santorini-cruise-port-without-excursion",
-"santorini-vs-mykonos-cruise",
-"split-cruise-port-guide",
-"tender-port-planning-guide",
-"valletta-malta-cruise-port-guide",
-"venice-cruise-port-guide",
-"what-happens-if-you-miss-cruise-ship",
-"what-information-do-you-need-to-plan-a-cruise-port-day",
-"what-to-do-6-hour-cruise-port-stop",
-"best-mediterranean-cruise-ports",
-"beaches-near-palma-cruise-port",
-"beaches-near-dubrovnik-cruise-port",
-"beaches-near-split-cruise-port",
-"beaches-near-kotor-cruise-port",
-"beaches-near-grand-cayman-cruise-port",
-"beaches-near-cozumel-cruise-port",
-"nassau-cruise-port-to-downtown",
-"cozumel-cruise-port-to-town",
-"st-maarten-cruise-port-to-philipsburg",
-"st-thomas-cruise-port-to-charlotte-amalie",
-"barbados-cruise-port-to-bridgetown",
-"is-grand-cayman-a-tender-port",
-"malaga-cruise-port-to-city-centre",
-"valencia-cruise-port-to-city-centre",
-"marseille-cruise-port-to-vieux-port",
-"genoa-cruise-port-to-old-town",
-"la-spezia-cruise-port-to-town",
-"palermo-cruise-port-to-historic-centre",
-"ibiza-cruise-port-to-dalt-vila",
-"nice-cruise-port-to-old-town",
-"alicante-cruise-port-to-city-centre",
-"catania-cruise-port-to-city-centre",
-"messina-cruise-port-to-city-centre",
-"tarragona-cruise-port-to-old-town",
-"stockholm-cruise-port-to-gamla-stan",
-"cadiz-cruise-port-to-old-town",
-"porto-cruise-port-to-city-centre",
-"cartagena-cruise-port-to-old-town",
-"bari-cruise-port-to-old-town",
-"heraklion-cruise-port-to-city-centre",
-"zadar-cruise-port-to-old-town",
-"trieste-cruise-port-to-city-centre",
-"salerno-cruise-port-to-old-town",
-"thessaloniki-cruise-port-to-city-centre",
-"koper-cruise-port-to-old-town",
-"chania-cruise-port-to-old-town",
-"ajaccio-cruise-port-to-old-town",
-"is-hvar-a-tender-port",
-"gibraltar-cruise-port-to-town",
-"katakolon-cruise-port-to-olympia",
-"monaco-cruise-port-to-monte-carlo"
-]
+ "urls": [
+  {
+   "path": "/",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/ports",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/blog",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/pricing",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/privacy",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/legal/terms",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/about",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/methodology",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/editorial-policy",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/corrections",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/will-i-make-it-back",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/how-to-return-to-your-cruise-ship-on-time",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/what-is-porttrip",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/cruise-port-index",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/leave-by-widget",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/how-to-never-miss-your-cruise-ship",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/what-happens-if-you-miss-your-cruise-ship",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/can-a-cruise-ship-leave-without-you",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/how-late-can-you-return-to-a-cruise-ship",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/ports/alesund",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/alicante",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/tromso",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/molde",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/barcelona",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/dubrovnik",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/santorini",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/naples",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/kotor",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/roatan",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/st-thomas",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/tenerife",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/ensenada",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/cabo-san-lucas",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/puerto-vallarta",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/aruba",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/curacao",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/st-kitts",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/tortola",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/grand-cayman",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/mazatlan",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/gibraltar",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/katakolon",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/chania",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/zeebrugge",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/halifax",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/bermuda",
+   "lastmod": "2026-10-15"
+  },
+  {
+   "path": "/ports/venice",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/rome",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/nice",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/marseille",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/palermo",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/palma",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/zadar",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/monaco",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/cagliari",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/genoa",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/malaga",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/valencia",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/lisbon",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/rhodes",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/porto",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/mykonos",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/athens",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/valletta",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/corfu",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/istanbul",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/kusadasi",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/copenhagen",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/stockholm",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/flam",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/bergen",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/reykjavik",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/cozumel",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/amsterdam",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/nassau",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/split",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/livorno",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/barbados",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/messina",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/catania",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/madeira",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/cartagena",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/cadiz",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/bodrum",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/bari",
+   "lastmod": "2026-10-14"
+  },
+  {
+   "path": "/ports/izmir",
+   "lastmod": "2026-10-13"
+  },
+  {
+   "path": "/ports/amber-cove",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/antigua",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/belize-city",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/costa-maya",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/falmouth-jamaica",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/ibiza",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/key-west",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/la-spezia",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/lanzarote",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/las-palmas",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/san-juan",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/st-maarten",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/tunis",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/are-cruise-excursions-worth-it",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/athens-cruise-port-guide-diy",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/barcelona-cruise-port-diy-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/best-cruise-ports-without-excursions",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/best-mediterranean-cruise-ports-diy",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/book-colosseum-acropolis-sagrada-familia-cruise",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/bus-1a-dubrovnik-cruise-port",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cable-car-santorini-cruise",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cagliari-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/chatgpt-cruise-port-planning-wrong",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/circumvesuviana-train-cruise-ship",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/corfu-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cruise-excursion-alternatives-every-port",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cruise-port-day-rainy-weather",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cruise-port-family-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cruise-port-planner-vs-chatgpt",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cruise-port-tips",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cruise-port-tourist-traps",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/diy-cruise-excursion-backup-plan",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/dubrovnik-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/ephesus-kusadasi-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/first-cruise-port-day-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/first-time-mediterranean-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/florence-livorno-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/how-far-is-rome-from-cruise-port",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/how-many-people-miss-cruise-ship-port",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/how-much-do-cruise-excursions-cost",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/how-much-time-before-all-aboard",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/how-to-get-from-civitavecchia-to-rome",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/how-to-return-cruise-ship-on-time",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/kotor-cruise-port-guide-diy",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/lisbon-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/mediterranean-cruise-budget-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/mykonos-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/mykonos-tender-risk-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/naples-cruise-port-diy-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/palma-mallorca-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/piraeus-athens-metro-cruise",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/pompeii-without-cruise-excursion",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/port-bus-barcelona-cruise-ship",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/rhodes-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/rome-cruise-port-without-excursion",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/rome-vs-florence-cruise",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/santorini-cruise-port-without-excursion",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/santorini-vs-mykonos-cruise",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/split-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/tender-port-planning-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/valletta-malta-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/venice-cruise-port-guide",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/what-happens-if-you-miss-cruise-ship",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/what-information-do-you-need-to-plan-a-cruise-port-day",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/what-to-do-6-hour-cruise-port-stop",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/best-mediterranean-cruise-ports",
+   "lastmod": "2026-10-11"
+  },
+  {
+   "path": "/blog/beaches-near-palma-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/beaches-near-dubrovnik-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/beaches-near-split-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/beaches-near-kotor-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/beaches-near-grand-cayman-cruise-port",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/beaches-near-cozumel-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/nassau-cruise-port-to-downtown",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/cozumel-cruise-port-to-town",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/st-maarten-cruise-port-to-philipsburg",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/st-thomas-cruise-port-to-charlotte-amalie",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/barbados-cruise-port-to-bridgetown",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/blog/is-grand-cayman-a-tender-port",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/cruise-port-rules",
+   "lastmod": "2026-10-16"
+  },
+  {
+   "path": "/ports/ajaccio",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/cartagena-colombia",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/cherbourg",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/heraklion",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/honolulu",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/kahului",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/la-coruna",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/le-havre",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/progreso",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/saint-john-nb",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/salerno",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/stavanger",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/vigo",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/blog/malaga-cruise-port-to-city-centre",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/blog/valencia-cruise-port-to-city-centre",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/blog/marseille-cruise-port-to-vieux-port",
+   "lastmod": "2026-10-17"
+  },
+  {
+   "path": "/ports/bonaire",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/castries",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/colon",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/fort-de-france",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/grand-turk",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/hilo",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/kristiansand",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/montego-bay",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/nawiliwili",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/ocho-rios",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/oslo",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/ponta-delgada",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/roseau",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/tarragona",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/blog/genoa-cruise-port-to-old-town",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/blog/la-spezia-cruise-port-to-town",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/blog/palermo-cruise-port-to-historic-centre",
+   "lastmod": "2026-10-18"
+  },
+  {
+   "path": "/ports/bay-of-islands",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/bilbao",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/cape-town",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/fuerteventura",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/hakodate",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/la-paz",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/limassol",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/newport-ri",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/portland-maine",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/quebec-city",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/ravenna",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/st-croix",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/sydney-ns",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/tauranga",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/trieste",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/blog/ibiza-cruise-port-to-dalt-vila",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/blog/nice-cruise-port-to-old-town",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/blog/alicante-cruise-port-to-city-centre",
+   "lastmod": "2026-10-19"
+  },
+  {
+   "path": "/ports/agadir",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/busan",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/charlottetown",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/freeport",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/icy-strait-point",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/juneau",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/ketchikan",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/nagasaki",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/naha",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/puntarenas",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/raiatea",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/shimizu",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/sitka",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/victoria-bc",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/blog/catania-cruise-port-to-city-centre",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/blog/messina-cruise-port-to-city-centre",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/blog/tarragona-cruise-port-to-old-town",
+   "lastmod": "2026-10-20"
+  },
+  {
+   "path": "/ports/akureyri",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/gdynia",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/geiranger",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/greenock",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/haugesund",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/hellesylt",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/helsinki",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/klaipeda",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/olden",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/riga",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/skagway",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/tallinn",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/visby",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/blog/stockholm-cruise-port-to-gamla-stan",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/blog/cadiz-cruise-port-to-old-town",
+   "lastmod": "2026-10-21"
+  },
+  {
+   "path": "/ports/bar-harbor",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/belfast",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/cobh",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/dublin",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/invergordon",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/isafjordur",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/kirkwall",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/lerwick",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/liverpool",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/sete",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/thessaloniki",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/volos",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/warnemunde",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/blog/porto-cruise-port-to-city-centre",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/blog/cartagena-cruise-port-to-old-town",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/blog/bari-cruise-port-to-old-town",
+   "lastmod": "2026-10-22"
+  },
+  {
+   "path": "/ports/amalfi",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/argostoli",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/hvar",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/kalamata",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/koper",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/nafplio",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/portofino",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/sibenik",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/toulon",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/ports/trapani",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/blog/heraklion-cruise-port-to-city-centre",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/blog/zadar-cruise-port-to-old-town",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/blog/trieste-cruise-port-to-city-centre",
+   "lastmod": "2026-10-23"
+  },
+  {
+   "path": "/blog/salerno-cruise-port-to-old-town",
+   "lastmod": "2026-10-24"
+  },
+  {
+   "path": "/blog/thessaloniki-cruise-port-to-city-centre",
+   "lastmod": "2026-10-24"
+  },
+  {
+   "path": "/blog/koper-cruise-port-to-old-town",
+   "lastmod": "2026-10-24"
+  },
+  {
+   "path": "/blog/chania-cruise-port-to-old-town",
+   "lastmod": "2026-10-25"
+  },
+  {
+   "path": "/blog/ajaccio-cruise-port-to-old-town",
+   "lastmod": "2026-10-25"
+  },
+  {
+   "path": "/blog/is-hvar-a-tender-port",
+   "lastmod": "2026-10-25"
+  },
+  {
+   "path": "/blog/gibraltar-cruise-port-to-town",
+   "lastmod": "2026-10-26"
+  },
+  {
+   "path": "/blog/katakolon-cruise-port-to-olympia",
+   "lastmod": "2026-10-26"
+  },
+  {
+   "path": "/blog/monaco-cruise-port-to-monte-carlo",
+   "lastmod": "2026-10-26"
+  },
+  {
+   "path": "/blog/beaches-near-corfu-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/beaches-near-mykonos-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/beaches-near-barcelona-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/beaches-near-santorini-cruise-port",
+   "lastmod": "2026-10-27"
+  },
+  {
+   "path": "/blog/beaches-near-malaga-cruise-port",
+   "lastmod": "2026-10-27"
+  }
+ ],
+ "blog": [
+  "are-cruise-excursions-worth-it",
+  "athens-cruise-port-guide-diy",
+  "barcelona-cruise-port-diy-guide",
+  "best-cruise-ports-without-excursions",
+  "best-mediterranean-cruise-ports-diy",
+  "book-colosseum-acropolis-sagrada-familia-cruise",
+  "bus-1a-dubrovnik-cruise-port",
+  "cable-car-santorini-cruise",
+  "cagliari-cruise-port-guide",
+  "chatgpt-cruise-port-planning-wrong",
+  "circumvesuviana-train-cruise-ship",
+  "corfu-cruise-port-guide",
+  "cruise-excursion-alternatives-every-port",
+  "cruise-port-day-rainy-weather",
+  "cruise-port-family-guide",
+  "cruise-port-planner-vs-chatgpt",
+  "cruise-port-tips",
+  "cruise-port-tourist-traps",
+  "diy-cruise-excursion-backup-plan",
+  "dubrovnik-cruise-port-guide",
+  "ephesus-kusadasi-cruise-port-guide",
+  "first-cruise-port-day-guide",
+  "first-time-mediterranean-cruise-port-guide",
+  "florence-livorno-cruise-port-guide",
+  "how-far-is-rome-from-cruise-port",
+  "how-many-people-miss-cruise-ship-port",
+  "how-much-do-cruise-excursions-cost",
+  "how-much-time-before-all-aboard",
+  "how-to-get-from-civitavecchia-to-rome",
+  "how-to-return-cruise-ship-on-time",
+  "kotor-cruise-port-guide-diy",
+  "lisbon-cruise-port-guide",
+  "mediterranean-cruise-budget-guide",
+  "mykonos-cruise-port-guide",
+  "mykonos-tender-risk-guide",
+  "naples-cruise-port-diy-guide",
+  "palma-mallorca-cruise-port-guide",
+  "piraeus-athens-metro-cruise",
+  "pompeii-without-cruise-excursion",
+  "port-bus-barcelona-cruise-ship",
+  "rhodes-cruise-port-guide",
+  "rome-cruise-port-without-excursion",
+  "rome-vs-florence-cruise",
+  "santorini-cruise-port-without-excursion",
+  "santorini-vs-mykonos-cruise",
+  "split-cruise-port-guide",
+  "tender-port-planning-guide",
+  "valletta-malta-cruise-port-guide",
+  "venice-cruise-port-guide",
+  "what-happens-if-you-miss-cruise-ship",
+  "what-information-do-you-need-to-plan-a-cruise-port-day",
+  "what-to-do-6-hour-cruise-port-stop",
+  "best-mediterranean-cruise-ports",
+  "beaches-near-palma-cruise-port",
+  "beaches-near-dubrovnik-cruise-port",
+  "beaches-near-split-cruise-port",
+  "beaches-near-kotor-cruise-port",
+  "beaches-near-grand-cayman-cruise-port",
+  "beaches-near-cozumel-cruise-port",
+  "nassau-cruise-port-to-downtown",
+  "cozumel-cruise-port-to-town",
+  "st-maarten-cruise-port-to-philipsburg",
+  "st-thomas-cruise-port-to-charlotte-amalie",
+  "barbados-cruise-port-to-bridgetown",
+  "is-grand-cayman-a-tender-port",
+  "malaga-cruise-port-to-city-centre",
+  "valencia-cruise-port-to-city-centre",
+  "marseille-cruise-port-to-vieux-port",
+  "genoa-cruise-port-to-old-town",
+  "la-spezia-cruise-port-to-town",
+  "palermo-cruise-port-to-historic-centre",
+  "ibiza-cruise-port-to-dalt-vila",
+  "nice-cruise-port-to-old-town",
+  "alicante-cruise-port-to-city-centre",
+  "catania-cruise-port-to-city-centre",
+  "messina-cruise-port-to-city-centre",
+  "tarragona-cruise-port-to-old-town",
+  "stockholm-cruise-port-to-gamla-stan",
+  "cadiz-cruise-port-to-old-town",
+  "porto-cruise-port-to-city-centre",
+  "cartagena-cruise-port-to-old-town",
+  "bari-cruise-port-to-old-town",
+  "heraklion-cruise-port-to-city-centre",
+  "zadar-cruise-port-to-old-town",
+  "trieste-cruise-port-to-city-centre",
+  "salerno-cruise-port-to-old-town",
+  "thessaloniki-cruise-port-to-city-centre",
+  "koper-cruise-port-to-old-town",
+  "chania-cruise-port-to-old-town",
+  "ajaccio-cruise-port-to-old-town",
+  "is-hvar-a-tender-port",
+  "gibraltar-cruise-port-to-town",
+  "katakolon-cruise-port-to-olympia",
+  "monaco-cruise-port-to-monte-carlo",
+  "beaches-near-corfu-cruise-port",
+  "beaches-near-mykonos-cruise-port",
+  "beaches-near-barcelona-cruise-port",
+  "beaches-near-santorini-cruise-port",
+  "beaches-near-malaga-cruise-port"
+ ]
 }
