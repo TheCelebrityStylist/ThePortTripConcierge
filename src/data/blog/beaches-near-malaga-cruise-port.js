@@ -1,6 +1,6 @@
 export default `---
 title: "Beaches Near Málaga Cruise Port: La Malagueta to El Palo"
-description: "Beaches near Málaga cruise port: La Malagueta is a free 20-minute walk from the Levante terminals. Pedregalejo is 15–22 min by EMT bus, €1.40 (2026)."
+description: "Beaches near Málaga cruise port: La Malagueta is a free 20-minute walk from the Levante terminals. Pedregalejo is 15–22 min by EMT bus at €1.40 (2026)."
 date: "2026-10-27"
 updated: "2026-10-27"
 slug: "beaches-near-malaga-cruise-port"
