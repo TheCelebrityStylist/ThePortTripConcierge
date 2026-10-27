@@ -17,7 +17,7 @@ relatedPosts: ["corfu-cruise-port-guide", "beaches-near-dubrovnik-cruise-port", 
 
 In the woods south of Corfu Town, at the bottom of a path below an old British villa, water runs out of the open mouth of a stone lion. The lion is the winged lion of Saint Mark, the badge of Venice, and the spring is called Kardaki. In 1896 the Corfiot poet Lorentzos Mavilis wrote a sonnet about it. Local tradition, as he put it, says that a stranger who wets his lips at Kardaki will never return to the land of his fathers.
 
-Not the most reassuring thing to read on a port day with a 17:30 all-aboard. But it sums up Corfu's swimming better than any beach ranking. The good swims near town are not resort beaches. They are a bathing spot under a Venetian fortress, a pebble cove beside a royal estate with two ruined temples in it, and a fishing village with a Roman bath hidden behind its houses. The sandy, sunbed-lined beaches are further out, on bus routes, and they come with a clock.
+Not the most reassuring thing to read on a port day with a 17:30 all-aboard. But it sums up Corfu's swimming better than any beach ranking. The good swims near town are not resort beaches. They are a bathing spot under a Venetian fortress, a pebble cove beside a royal estate with two ruined temples in it, and a fishing village with a Roman bath behind its houses. The sandy, sunbed-lined beaches are further out, on bus routes, and they come with a clock.
 
 This guide is only about swimming. For the Old Town, the fortresses and the saint, read our [Corfu cruise port guide](/blog/corfu-cruise-port-guide) first. The two fit together: most of the swims below start where that walk ends.
 

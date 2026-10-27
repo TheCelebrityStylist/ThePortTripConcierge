@@ -16,7 +16,7 @@ seoKeywords: ["valletta cruise port", "malta cruise port", "valletta independent
 
 ## 07:30, the coloured doors
 
-The ship comes alongside under a wall of honey-coloured stone. The city is above you, on its ridge, and the first thing at eye level is a long row of arched warehouses with painted doors. The colours were a code. According to the standard account of the Waterfront's history, each one marked what was stored behind it: blue for fish, green for farm produce, yellow for wheat, red for wine.
+The ship comes alongside under the bastions. The city is above you, on its ridge, and the first thing at eye level is a long row of arched warehouses with painted doors. The colours were a code. According to the standard account of the Waterfront's history, each one marked what was stored behind it: blue for fish, green for farm produce, yellow for wheat, red for wine.
 
 Grand Master Anton Manoel de Vilhena began building stores on this quay in 1727. In 1752 Grand Master Manuel Pinto de Fonseca added 19 more and a church, the Church of the Flight into Egypt, in the middle of the row. Wartime bombing wrecked much of it, because it sat beside the dockyard and the Royal Navy; some stores were destroyed outright and the church was hit. What you walk along now is the restored front, the cruise terminal in Magazino Hall among it.
 
@@ -28,7 +28,7 @@ Walk east along the flat Waterfront promenade to the lower station, 10–15 minu
 
 Transport Malta runs the Barrakka lift. Two cabins of 21 passengers each climb 58 metres in about 23 seconds. The fare is €1, and the official page calls it a standard return. Children under 10 ride free, as do holders of a Karta Anzjan senior card and anyone with a valid harbour ferry ticket from the Three Cities to Valletta. That last rule is worth remembering; it comes back later in the day. The lift runs 07:00–24:00 from 1 June to 31 October, and 07:00–21:00 from 1 November to 31 May.
 
-Now the arithmetic. GuideMeMalta, the tourism authority's site, puts the lift's capacity at about 800 people an hour. A single ship of 4,000 passengers, every one of them wanting to go up, would take five hours to clear at full capacity. That is the whole reason this guide gives a time for the queue rather than a time for the ride. In practice not everyone uses it at once, but the guide's crowd notes are clear: the lift is busiest going up just after the gangways open, and going down in the last two hours before sailing.
+Now the arithmetic. GuideMeMalta's 2019 history of the lift puts its capacity at about 800 people an hour. A single ship of 4,000 passengers, every one of them wanting to go up, would take five hours to clear at full capacity. That is the whole reason this guide gives a time for the queue rather than a time for the ride. In practice not everyone uses it at once, but the guide's crowd notes are clear: the lift is busiest going up just after the gangways open, and going down in the last two hours before sailing.
 
 The first lift opened here in 1905, run by the tram company, with a 60-metre steel tower and two 12-passenger cabins. It closed in February 1973, after the dockyard was privatised and British servicemen left Malta, and the government dismantled it in 1983. The present one, a €2.5 million project, opened on the same site in December 2012.
 
@@ -42,19 +42,19 @@ Look down over the parapet. The row of cannon on the terrace below is the Saluti
 
 It still fires at 12:00 and 16:00, Monday to Saturday. You can watch from the gardens for free, or go down into the battery for €6 (2026), which includes a guided tour, an audio guide, the firing and the small Malta Time-Gun Museum. It is open Monday to Saturday, 09:30–17:30, last entry 17:00, with English tours hourly from 10:15. Closed on Sundays.
 
-Under the gardens, and reached through the same battery, is the place most visitors never hear of: the Lascaris War Rooms. These tunnels, cut into the rock beneath the gardens, were the British war headquarters in Malta, and the site now has an exhibition on Operation Husky, the 1943 Allied invasion of Sicily. Entry is €20 for adults, €19 for seniors and €7 for children aged 5–15 (2026). It is open Monday to Saturday, 09:30–17:30, last admission 17:00, and the ticket desk is cashless. Guided tours run at 10:30 and 12:30 for €5 extra. Allow an hour.
+Under the gardens, and reached through the same battery, is the place most visitors never hear of: the Lascaris War Rooms. It is a set of wartime headquarters tunnels, and it now has an exhibition on Operation Husky, the 1943 Allied invasion of Sicily. Entry is €20 for adults, €19 for seniors and €7 for children aged 5–15 (2026). It is open Monday to Saturday, 09:30–17:30, last admission 17:00, and the ticket desk is cashless. Guided tours run at 10:30 and 12:30 for €5 extra. Allow an hour.
 
-Why it matters is a date. On 15 April 1942, King George VI awarded the George Cross to the whole island: "To honour her brave people I award the George Cross to the Island Fortress of Malta." The island had been through 154 days and nights of bombing, about 6,700 tons of bombs, according to The Gazette. The cross itself is in the war museum at Fort St Elmo, at the other end of the ridge. It is why the Maltese flag carries one.
+Why it matters is a date. On 15 April 1942, King George VI awarded the George Cross to the whole island: "To honour her brave people I award the George Cross to the Island Fortress of Malta." The island had been through 154 days and nights of bombing, about 6,700 tons of bombs, according to The Gazette. The cross itself is in the war museum at Fort St Elmo, at the other end of the ridge.
 
 ## 09:00, St John's and the only signature
 
-Walk five minutes inland to St John's Co-Cathedral and be at the door when it opens. It is the conventual church of the Knights of St John: a plain, almost severe outside and a gilded Baroque interior, the floor paved with the marble tomb slabs of the knights.
+Walk five minutes inland to St John's Co-Cathedral and be at the door when it opens. It is the conventual church of the Knights of St John, with a gilded Baroque interior and a floor paved with marble tomb slabs.
 
 GuideMeMalta, updated July 2026, gives the hours as Monday to Saturday 09:00–16:45, last entry 16:00, closed on Sundays and public holidays. Adults pay €15, seniors and students €12, and children under 12 go free with an adult (2026). The audio guide is included. Stiletto and narrow heels are not allowed, shoulders must be covered, and there are no lockers, so leave the backpack on the ship. Buy online: the ticket is valid for one entry within seven days of the date you choose.
 
-Then go to the oratory, because that is where the story is. Caravaggio's Beheading of Saint John the Baptist, painted in 1607–1608, is 361 by 520 cm, and it is the only painting he ever signed. He wrote his name as if in the saint's spilled blood, with an "f" in front of it for fra, brother, because the Knights had just made him one. He was received into the Order on 14 July 1608. On 1 December, less than five months later, the Knights met in front of this same painting to expel him, as Hyperallergic recounts, as a "putrid and fetid limb" of the Order. He had been in a brawl and had escaped from prison. They threw him out in the room where his masterpiece hung.
+Then go to the oratory, because that is where the story is. Caravaggio's Beheading of Saint John the Baptist, painted in 1607–1608, is 361 by 520 cm, and it is the only painting he ever signed. He wrote his name as if in the saint's spilled blood, with an "f" in front of it for fra, brother, because the Knights had just made him one. He was received into the Order on 14 July 1608. On 1 December, less than five months later, the Knights met in front of this same painting to expel him, as Hyperallergic recounts, as a "putrid and fetid limb" of the Order. They threw him out in the room where his masterpiece hung.
 
-Two smaller details on the way out. The founder of the city, Grand Master Jean de Valette, is buried in the crypt here. He was first buried in the Church of Our Lady of Victory, the first church built in Valletta, whose foundation stone was laid on 28 March 1566, and moved here in 1579. And a bronze face of Christ from the little church on the Waterfront, the one you walked past at 08:00, is now kept in this cathedral.
+Two smaller details on the way out. The founder of the city, Grand Master Jean de Valette, now lies here. He was first buried in the Church of Our Lady of Victory, the first church built in Valletta, whose foundation stone was laid on 28 March 1566, and moved here in 1579. And a bronze face of Christ from the little church on the Waterfront, the one you walked past at 08:00, is now kept in this cathedral.
 
 The guide's crowd advice is plain: go at 09:00 opening or after 14:30. Mid-morning, when most passengers have reached the city, the nave is at its fullest.
 
@@ -66,7 +66,7 @@ Walk Republic Street, the spine of the ridge, to the Grandmaster's Palace. Built
 
 Inside are the State Rooms, with Matteo Perez d'Aleccio's paintings of the Great Siege of 1565, the most complete visual record of it. The Armoury, in the former parliament chamber, holds the armour of Grand Masters Jean de Valette and Alof de Wignacourt alongside Ottoman armour and weapons. Know before you go: the Throne Room is closed until further notice, and the State Rooms are closed until 13:30 on 28 October, 18 November and 2 December 2026, when only the Armoury is open. The palace can also close at short notice for state functions. Allow about an hour.
 
-On the way, Strait Street runs parallel, one block down. It is narrow, and it has a past. From the late 19th century to the mid-20th, it was the Gut, where sailors from the ships in the harbour came for the bars, music halls and rooming houses; GuideMeMalta describes jazz played from American records and the street's long decline after British forces left. It has come back as a street of bars and small restaurants. Come back for a drink if you have a late sailing.
+Close by is Strait Street, Strada Stretta, the narrow street, and it has a past. From the late 19th century to the mid-20th, it was the Gut, where sailors from the ships in the harbour came for the bars, music halls and rooming houses; GuideMeMalta describes jazz played from American records and the street's long decline after British forces left. It has come back as a street of bars and small restaurants. Come back for a drink if you have a late sailing.
 
 Another church worth the detour if its door is open: St Paul's Shipwreck, designed by Girolamo Cassar and completed in 1582. It keeps what it says is the right wrist-bone of Saint Paul and part of the column on which he was beheaded in Rome, and a wooden statue of the saint carved by Melchiorre Cafà in 1659, carried through Valletta every 10 February.
 
@@ -74,9 +74,9 @@ Another church worth the detour if its door is open: St Paul's Shipwreck, design
 
 At noon you have to choose. The Saluting Battery fires its gun at 12:00 Monday to Saturday, and you can watch from Upper Barrakka. At exactly the same time, at the other end of the bastions, the Siege Bell rings. GuideMeMalta says it rings every day at noon for the more than 7,000 soldiers and civilians killed in the siege of 1940–1943. It was built for the 50th anniversary of the George Cross and unveiled by Queen Elizabeth. It stands just below Lower Barrakka Gardens, the quieter of the two gardens, with the view over the harbour mouth.
 
-If you pick the bell, keep walking to Fort St Elmo, the star fort at the tip of the peninsula. Built in 1552, it held out for about a month in the Ottoman siege of 1565 before it fell on 23 June. It is now the National War Museum, with Gloster Sea Gladiator "Faith", one of the biplanes that defended the island in 1940, President Roosevelt's jeep "Husky", and the George Cross itself. Heritage Malta lists entry at €10 for adults and €7.50 for seniors and students (2026). The First World War display is closed until further notice. Check the day's hours on Heritage Malta before you walk out there; at all its sites, last admission is 30 minutes before closing. Allow 75–90 minutes, and it is about 15 minutes' walk from the Co-Cathedral, slightly downhill.
+If you pick the bell, keep walking to Fort St Elmo, the star fort at the tip of the peninsula. Built in 1552, it held out for about a month in the Ottoman siege of 1565 before it fell on 23 June. It is now the National War Museum, with the Gloster Sea Gladiator biplane "Faith", President Roosevelt's jeep "Husky", and the George Cross itself. Heritage Malta lists entry at €10 for adults and €7.50 for seniors and students (2026). The First World War display is closed until further notice. Check the day's hours on Heritage Malta before you walk out there; at all its sites, last admission is 30 minutes before closing. Allow 75–90 minutes, and it is about 15 minutes' walk from the Co-Cathedral, slightly downhill.
 
-One place to cross off your list: the Fortress Builders interpretation centre, a free-ish guide to the walls in a 16th-century warehouse. Heritage Malta closed it until further notice on 15 September 2026.
+One place to cross off your list: the Fortress Builders interpretation centre, a €2 introduction to the city's walls in a 16th-century warehouse. Heritage Malta closed it until further notice on 15 September 2026.
 
 ## 12:45, pastizzi and the Gut
 
@@ -88,11 +88,11 @@ A [Valletta food tour](https://www.viator.com/tours/Valletta/Valletta-Food-Tour/
 
 Here is the order most passengers follow: off the ship at 08:30, into the lift queue with everyone else, St John's at ten with everyone else, and the lift queue again at four. Two of those three are avoidable.
 
-Do the Three Cities first. The ferry to Cospicua leaves from the harbour close to the bottom of the lift, so you do not need to go up at all. It is a crossing of a few minutes; fares of €1.50 single and €2.80 return are reported for 2026, and the service is cashless. Spend the morning in Birgu, the oldest of the three towns, with Fort St Angelo at its tip and the marina waterfront, while the lift queue on your side of the water is at its worst.
+Do the Three Cities first. The ferry to Cospicua leaves from the harbour close to the bottom of the lift, so you do not need to go up at all. It is a crossing of a few minutes; fares of €1.50 single and €2.80 return are reported for 2026, and the service is cashless. Spend the morning in Birgu, with Fort St Angelo at its tip and the marina waterfront, while the lift queue on your side of the water is at its worst.
 
 Then come back. Malta Public Transport says passengers arriving from Cospicua are given a ticket for the Upper Barrakka lift, and Transport Malta lists a valid Three Cities ferry ticket as a free ride. You go up at 11:00, after the morning rush, for nothing. Watch the noon gun, eat, and do St John's after 14:30, when the guide's crowd notes say the nave is quieter, with last entry at 16:00. Then join the lift queue by 16:00 for a 17:30 sailing.
 
-On a Sunday, change the plan entirely. St John's, the Saluting Battery and the Lascaris War Rooms are all closed. Fort St Elmo stages In Guardia, a parade in historical costume, on Sundays from 11:00 to 12:00, according to Heritage Malta's schedule. Put the Three Cities in the morning and Fort St Elmo at 11:00.
+On a Sunday, change the plan entirely. St John's and the Saluting Battery are closed, and the Lascaris War Rooms list no Sunday opening. Fort St Elmo stages its In Guardia show on Sundays from 11:00 to 12:00, according to Heritage Malta's schedule. Put the Three Cities in the morning and Fort St Elmo at 11:00.
 
 ## If you have an extra hour
 
@@ -140,7 +140,7 @@ A typical DIY day costs about €25 (2026): €1 for the lift, €15 for the cat
 
 ### Is St John's Co-Cathedral open on Sundays?
 
-No. It opens Monday to Saturday, 09:00–16:45, with last entry at 16:00, and is closed on Sundays and public holidays. The Saluting Battery and the Lascaris War Rooms are also closed on Sundays.
+No. It opens Monday to Saturday, 09:00–16:45, with last entry at 16:00, and is closed on Sundays and public holidays. The Saluting Battery is also closed on Sundays, and the Lascaris War Rooms list no Sunday hours.
 
 ### How much is the Barrakka lift in Valletta?
 
@@ -154,7 +154,7 @@ The Saluting Battery below Upper Barrakka Gardens fires at 12:00 and 16:00, Mond
 
 Better than most old cities. The Waterfront is flat and the lift gives step-free access to the city. Republic Street and Merchants Street are manageable, but most cross streets are steep or stepped. St John's admits wheelchair users, though some areas are not accessible, and the terminal offers wheelchair assistance through Guest Services.
 
-### Can I see the Three Cities and Valletta in one port day?
+### Can you see the Three Cities and Valletta in one port day?
 
 Yes. Take the ferry from near the bottom of the lift first thing, spend the morning in Birgu, and come back by ferry; your ferry ticket covers the lift up. Take the ferry back to Valletta by 15:45 for a 17:30 all-aboard.
 
