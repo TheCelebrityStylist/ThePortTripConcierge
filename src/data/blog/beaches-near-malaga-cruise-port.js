@@ -27,7 +27,7 @@ If your ship is at the Palmeral terminal instead, the small-ship berth in the in
 
 Walk off the pier and along Paseo de la Farola, and the sand starts on your right. About 20 minutes from the Levante terminals, you are on the main city beach: roughly 1,200 metres long and 45 metres wide, dark, medium-grain sand and gentle water. The city lists toilets, showers, sunbed and umbrella hire, lifeguards, accessible access, restaurants and children's play areas, and shows Blue Flag status. A sunbed with an umbrella costs about €6–10 a day (2026). In August the good rows go by late morning.
 
-It is the busiest beach in Málaga, and the reason to choose it is simple: you can walk there and walk back, with no bus to wait for. It suits short calls, families and anyone who wants the old town on the same day. The beach bars, the chiringuitos, grill sardines on canes. Hold that thought until El Palo, where the dish was born.
+It is the busiest beach in Málaga, and the reason to choose it is simple: you can walk there and walk back, with no bus to wait for. It suits short calls, families and anyone who wants the old town on the same day. The beach bars, the chiringuitos, grill sardines on canes. Hold that thought until El Palo, where, by many accounts, the first chiringuito opened.
 
 **Leave by (17:30 all-aboard): 16:10.** That is 60 minutes back at the terminal plus the 20-minute walk.
 
@@ -65,7 +65,7 @@ The promenade, Paseo Marítimo del Pedregal, is one long line of tables. Do Eat 
 
 **Leave by (17:30): 15:25.** Work it backwards: back at the terminal by 16:30, a 30-minute walk from Plaza de la Marina to Levante means leaving the square by 16:00, the timetable shows about 20 minutes from Elcano/Pedregalejo to Parque/Plaza de la Marina, and you allow 13 minutes for the bus to come. By taxi straight to the terminal, about 16:05, but that is our estimate (a 13–15 minute ride plus 10 minutes to find a cab), not a published time.
 
-## 13:00, El Palo, where the espeto was born
+## 13:00, El Palo, and sardines with your fingers
 
 The last beach on the line is the one Málaga keeps for itself: about 1,200 metres of medium-grain sand, 25 metres wide, used mainly by local families, with lifeguards, showers, toilets, accessible access and sunbed rental. On the sand, pulled up above the waterline, you will see the boats.
 

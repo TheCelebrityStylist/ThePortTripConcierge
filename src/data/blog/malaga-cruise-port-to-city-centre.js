@@ -17,7 +17,7 @@ relatedPosts: ["beaches-near-malaga-cruise-port", "how-much-time-before-all-aboa
 
 The ship ties up on the eastern breakwater. Look across the water to the old town and you can pick out the cathedral by its single bell tower. The second was never finished, and the people of Málaga call the building La Manquita, the one-armed lady. By mid-afternoon you will be standing under it, and you will know why the money ran out. It is not the popular story.
 
-You are at the Levante terminals. The port has two terminal buildings and four berths here, for ships of any size, with shops, toilets and tourist information inside. The old town is about 2 km west. The port's access page says a public bus links these terminals with the pedestrian entrance at Plaza de la Marina, and that it runs only "whenever there is a cruise ship docked in the Muelle de Levante". It takes 5–10 minutes, comes about every 15–20 minutes and is wheelchair accessible. Nobody publishes the fare, so check it at the stop.
+You are at the Levante terminals. The port has two terminal buildings and four berths here, for ships of any size, with shops, toilets and tourist information inside. The old town is about 2 km west. The port's access page says a public bus links these terminals with the pedestrian entrance at Plaza de la Marina, and that it runs only "whenever there is a cruise ship docked in the Muelle de Levante". It takes 5–10 minutes, comes about every 15–20 minutes and is wheelchair accessible. We could not find the fare published, so check it at the stop.
 
 If your daily programme says Palmeral de las Sorpresas instead, you are on the single berth for smaller ships in the inner harbour, 0.5 km from the centre, and the cathedral is a 5-minute walk. Skip ahead to the hill.
 
