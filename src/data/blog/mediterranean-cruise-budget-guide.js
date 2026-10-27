@@ -165,7 +165,7 @@ Yes. 28 October is free at Greek state sites, and the Hellenic Heritage calendar
 
 If you plan to walk the walls, yes. At €40 it costs the same as the walls ticket alone in 2026 and adds the main museums and 24 hours of city buses, so your ride from Gruž to Pile and back costs nothing.
 
-### Should I pay in euros or my own currency abroad?
+### Should you pay in euros or your own currency abroad?
 
 In euros. EU rules make the terminal show you the conversion mark-up before you pay and tell you that you can pay in the local currency; choosing euros lets your own bank convert it.
 
