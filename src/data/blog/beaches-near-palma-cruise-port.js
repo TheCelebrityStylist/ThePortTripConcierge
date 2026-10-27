@@ -73,7 +73,7 @@ Do not walk into the cathedral from the beach. Shoulders and knees must be cover
 **Cost:** free. Bus €2 (2026).
 **Leave by (17:30 all-aboard):** 15:15 from terminals 1–4, 15:00 from the Dique del Oeste, walking back. That is the guide's cathedral time (15:45 or 15:30) minus a 30-minute walk. By taxi direct to the ship it is about 15:55: 17:30 − 60 − 5 to the centre − 15 to the terminal − 15 to find a taxi.
 
-Portixol is a former fishing quarter about 2 km east of the centre. The shore mixes sand, gravel and pebbles over a sandy seabed, so water shoes help. There are showers, a kiosk and a lifeguard, but no sunbed hire and no fixed shade. Cafés and restaurants line the promenade. Go for lunch by the water and a short swim, not a full beach day.
+Portixol is about 2 km east of the centre. The shore mixes sand, gravel and pebbles over a sandy seabed, so water shoes help. There are showers, a kiosk and a lifeguard, but no sunbed hire and no fixed shade. Cafés and restaurants line the promenade. Go for lunch by the water and a short swim, not a full beach day.
 
 ## Beaches compared
 
@@ -93,7 +93,7 @@ Portixol is a former fishing quarter about 2 km east of the centre. The shore mi
 - **Quieter, with some shade:** Cala Comtesa, under the pines, if you arrive before late morning.
 - **Combine with sightseeing:** cathedral at 10:00, then Can Pere Antoni. Add Portixol for lunch if your all-aboard is late.
 
-Ciutat Jardí, about 5 km east of the centre on bus 35, is a calm sandy local beach, but it is on the wrong side of the city from the ships. We have not included it for a port day.
+Ciutat Jardí and Playa de Palma, further east on buses 35 and 25, are on the wrong side of the city from the ships. We have not included them for a port day.
 
 ## When to head back
 
@@ -136,7 +136,6 @@ No. All cruise ships berth alongside, at the Estació Marítima terminals or on 
 - [Mallorca.com: public transport in Mallorca (updated September 2026)](https://www.mallorca.com/es/consejos/vivir-en-mallorca/vivienda-dia-a-dia/transporte-publico-mallorca)
 - [Mallorca.com: taxi rates in Mallorca (updated September 2026)](https://www.mallorca.com/en/advice/relocation/car-traffic/taxi-rates-mallorca)
 - [Moovit: EMT line 4 stops and timetable](https://moovitapp.com/index/en/public_transit-line-4-Mallorca-1923-775503-15996804-1)
-- [Forbes Baleares: EMT reinforces lines 4, 23, 25 and 35 (June 2026)](https://forbes.es/baleares/actualidad-baleares/960345/la-emt-reforzara-las-lineas-4-23-25-y-35-a-partir-del-22-de-junio/)
 - [Mallorca Magazin: bus lines to Palma's beaches (2024)](https://www.mallorcamagazin.com/service/urlaub-und-freizeit-auf-mallorca/bus-bahn-offentlicher-nahverkehr/2024/07/11/124053/bus-fahren-palma-mallorca-kommen-sie-mit-dem-bus-den-strand.html)
 - [Mallorca Magazin: bus 4 to Illetes and Cala Comtesa (2022)](https://www.mallorcamagazin.com/nachrichten/lokales/2022/01/17/96889/bus-vom-multikultiviertel-zum-turkisblauen-paradies.html)
 - [Mallorca.com: Cala Major beach](https://www.mallorca.com/en/guide/beaches/cala-major)
@@ -144,5 +143,4 @@ No. All cruise ships berth alongside, at the Estació Marítima terminals or on 
 - [Mallorca.com: Cala Comtessa beach](https://www.mallorca.com/en/guide/beaches/cala-comtessa)
 - [Mallorca.com: Portixol beach](https://www.mallorca.com/en/guide/beaches/portixol)
 - [Palma Weekly: Can Pere Antoni beach guide (updated June 2026)](https://www.palmaweekly.com/can-pere-antoni-beach-guide/)
-- [Click Mallorca: Palma cruise port](https://www.click-mallorca.com/blog/en/places-interest-mallorca/cruise-port-palma-mallorca)
 `;
