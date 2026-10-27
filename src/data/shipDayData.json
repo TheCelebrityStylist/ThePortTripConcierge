@@ -199,6 +199,12 @@
     "minutesBeforeAllAboard": 115,
     "how": "Metro to Drassanes 30 min, walk 10, Cruise Bus",
     "basis": "derived"
+   },
+   {
+    "from": "Barceloneta beach (Sant Miquel)",
+    "minutesBeforeAllAboard": 105,
+    "how": "Walk about 30 min (2.3 km) to the Cruise Bus stop, then the bus and security",
+    "basis": "derived"
    }
   ],
   "walkMinutes": 35,
@@ -546,10 +552,9 @@
    },
    {
     "from": "Lokrum island",
-    "minutesBeforeAllAboard": 120,
-    "how": "Boat 15 min to old harbour, then bus",
-    "basis": "derived",
-    "checked": "Google Routes transit time, Oct 2026"
+    "minutesBeforeAllAboard": 165,
+    "how": "Be at the island dock by then: boat 15 min, Old Town to Pile, bus 1A/1B",
+    "basis": "derived"
    },
    {
     "from": "Old harbour (if tendering)",

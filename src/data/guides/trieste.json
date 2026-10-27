@@ -51,7 +51,7 @@
    "mode": "Opicina tram (line 2)",
    "cost": "TPL FVG fare; check before travelling",
    "time": "Check the current timetable",
-   "detail": "The historic tram to the Karst plateau reopened on 27 July 2026 after years of closure. For now it starts from Piazza Dalmazia rather than Piazza Oberdan, which is being redeveloped. Capacity is limited to seated passengers inside the car, so queues are possible."
+   "detail": "The historic tram to the Karst plateau reopened in February 2025 after years of closure, stopped again after a funicular cable incident on 12 October 2025, and returned to service in July 2026. For now it starts from Piazza Dalmazia rather than Piazza Oberdan, which is being redeveloped. Cars run at no more than 80% of capacity; standing is allowed only on the rear platform, not in the aisle, so queues are possible."
   },
   {
    "mode": "Boat (Delfino Verde summer lines and the Muggia line)",
@@ -183,10 +183,10 @@
   },
   {
    "name": "Opicina tram",
-   "why": "A historic tram climbing from the city to the Karst plateau, back in service since 27 July 2026.",
+   "why": "A historic tram climbing from the city to the Karst plateau. It reopened in February 2025, stopped after a cable incident on 12 October 2025 and has been back in service since July 2026.",
    "timeNeeded": "Half a day at most; check the timetable",
    "cost": "TPL FVG fare; check before travelling",
-   "tip": "Departs from Piazza Dalmazia for now. Seats only inside the car, so you may wait."
+   "tip": "Departs from Piazza Dalmazia for now. Capacity is capped at 80%, with standing only on the rear platform, so you may wait."
   }
  ],
  "beaches": [
@@ -394,6 +394,10 @@
   {
    "title": "Bolsover Cruise Club – Things to do in Trieste",
    "url": "https://bcc.bolsovercruiseclub.com/cruise-news/things-to-do-in-trieste"
+  },
+  {
+   "title": "InTrieste – Opicina tram to resume after regulatory approval (July 2026)",
+   "url": "https://intrieste.com/2026/07/18/trieste-opicina-tram-service-to-resume-on-july-20-after-regulatory-approval/"
   }
  ],
  "uncertain": [

@@ -118,7 +118,7 @@ Times assume a summer weekday, docking at Gruž at 08:00. The [Dubrovnik day pla
 | Leave Pile for an 18:00 all-aboard | 16:15 |
 | Leave the old harbour if tendering (17:30) | 16:00 |
 
-Against a ship tour, the 1A wins for the Old Town. Carnival's four-hour "Walking the City Ramparts" cost $104.99 per adult in 2026; the do-it-yourself version is €45, the bus each way plus the walls ticket, and you choose your hour. Ship excursions earn their price for Ston, Cavtat and the Konavle valley, where road timing is out of your hands, and for passengers with limited mobility who need a guaranteed seat both ways.
+Against a ship tour, the 1A wins for the Old Town. Carnival's four-hour "Walking the City Ramparts" cost $119.99 per adult in 2026; the do-it-yourself version is €45, the bus each way plus the walls ticket, and you choose your hour. Ship excursions earn their price for Ston, Cavtat and the Konavle valley, where road timing is out of your hands, and for passengers with limited mobility who need a guaranteed seat both ways.
 
 ## FAQ
 
