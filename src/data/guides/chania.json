@@ -37,7 +37,7 @@
   "diyVsExcursion": [
     {"item": "Chania Old Town and harbour", "ship": "Varies by line; check your cruise planner", "diy": "Shuttle about €5–6 return, or bus €1.80 each way; walking is free (2026)", "saving": "Large; the Old Town is easy alone"},
     {"item": "Chania with the Archaeological Museum", "ship": "Varies by line; check your cruise planner", "diy": "Bus €3.60 return + museum €15 (2026)", "saving": "Large"},
-    {"item": "Aptera and Souda Bay views", "ship": "Varies by line; check your cruise planner", "diy": "Taxi only; agree the fare", "saving": "Small; taxi waiting time adds up"}
+    {"item": "Aptera and Souda Bay views", "ship": "Varies by line; check your cruise planner", "diy": "Taxi (agree the fare) + entry €10 (2026); closed Tuesdays", "saving": "Small; taxi waiting time adds up"}
   ],
   "excursionAdvice": "Do Chania on your own: the shuttle or bus drops you a 10-minute walk from the harbour and the Old Town needs no guide. The ship's tour is worth it for Aptera, the Akrotiri monasteries or a wine and olive countryside loop, which need a car and have no practical public transport. Skip any attempt at Balos or Elafonisi on a port day; both are more than 1.5 hours from Chania each way.",
   "dayPlan": {
@@ -61,8 +61,8 @@
     {"name": "Firkas fortress and Maritime Museum of Crete", "why": "A 16th-century Venetian fort at the harbour entrance; the Maritime Museum next to it has ship models and naval history.", "timeNeeded": "45 minutes", "cost": "Fortress grounds free to view; check the museum fee on site", "tip": "A good rain or heat stop at the western end of the harbour."},
     {"name": "Old Town lanes (Topanas and Splantzia)", "why": "Narrow streets of Venetian houses, small squares and the Cathedral of the Presentation of the Virgin Mary.", "timeNeeded": "1.5–2 hours", "cost": "Free", "tip": "Easy to get lost; save the market pick-up point on your phone."},
     {"name": "Yali Mosque (Mosque of the Janissaries)", "why": "Ottoman mosque on the harbour front, now used for exhibitions.", "timeNeeded": "15 minutes", "cost": "Free to view outside", "tip": "Best photographed from the breakwater."},
-    {"name": "Municipal Market (Agora)", "why": "The cross-shaped market hall that marks the edge of the Old Town and the shuttle stop.", "timeNeeded": "15–30 minutes", "cost": "Free", "tip": "Use it as your meeting point and return landmark."},
-    {"name": "Aptera", "why": "Ancient Greek and Roman city with a theatre and large cisterns above Souda Bay, about 15 minutes from the port.", "timeNeeded": "1.5–2 hours including transport", "cost": "Taxi fare; entry fee not verified", "tip": "Needs a taxi or tour; easy to combine with the trip back to Souda."}
+    {"name": "Municipal Market (Agora)", "why": "The cross-shaped market hall of 1913 that marks the edge of the Old Town and the shuttle stop. The hall is closed for restoration; the grand opening is targeted for 4 December 2026 (Argophilia, July 2026).", "timeNeeded": "15–30 minutes", "cost": "Free to view outside; hall closed for restoration (grand opening targeted for 4 December 2026)", "tip": "A soft opening is planned for autumn 2026, but until the hall reopens it is a landmark, not a market. Use it as your meeting point and return landmark."},
+    {"name": "Aptera", "why": "Ancient Greek and Roman city with a theatre and large cisterns above Souda Bay, about 15 minutes from the port.", "timeNeeded": "1.5–2 hours including transport", "cost": "Taxi fare; entry €10 full, €5 reduced (Hellenic Heritage, October 2026)", "tip": "Closed Tuesdays. Open 08:00–20:00 from April to August, closing earlier through the autumn (18:00 from mid-October). Needs a taxi or tour; easy to combine with the trip back to Souda."}
   ],
   "beaches": [
     {"name": "Nea Chora", "howToGetThere": "Walk west from the Old Town", "time": "20–25 min on foot from the harbour", "cost": "Free; sunbeds extra", "note": "The nearest town beach, with tavernas behind it."},
@@ -114,7 +114,7 @@
     {"title": "Chania Urban KTEL – Tickets (fares and zones)", "url": "https://www.chaniabus.gr/eisitiria"},
     {"title": "Chania Urban KTEL – Routes (line 13 Souda Port)", "url": "https://www.chaniabus.gr/dromologia"},
     {"title": "Chania Urban KTEL – Home and announcements", "url": "https://www.chaniabus.gr/"},
-    {"title": "Hellenic Heritage (hh.gr) – Archaeological Museum of Chania", "url": "https://www.hh.gr/en/?p=6847"},
+    {"title": "Dave's Travel Pages – Archaeological Museum of Chania (updated August 2026)", "url": "https://www.davestravelpages.com/the-new-archaeological-museum-of-chania/"},
     {"title": "Adventour Begins – Chania cruise port guide (May 2026)", "url": "https://www.adventourbegins.com/chania-port-guide-souda/"},
     {"title": "Cruise Deals Tips and Tricks – Chania (Souda) port guide (2026)", "url": "https://www.cruisedealstipsandtricks.com/ports/chania-souda-crete-greece/"},
     {"title": "CruiseMapper – Souda-Chania port", "url": "https://cruisemapper.com/ports/souda-chania-port-17202"},
@@ -122,15 +122,17 @@
     {"title": "The Mediterranean Traveller – Chania bus guide", "url": "https://www.themediterraneantraveller.com/chania-bus-guide"},
     {"title": "Argophilia – Souda port infrastructure upgrades", "url": "https://www.argophilia.com/news/chania-souda-infrastructure-upgrades/247448"},
     {"title": "Paul and Carole Love to Travel – Chania cruise port information", "url": "https://paulandcarolelovetotravel.com/chania-crete-cruise-port-information"},
-    {"title": "iefimerida – Cruise passenger levy on Greek islands", "url": "https://www.iefimerida.gr/english/cruise-passengers-face-increased-levy-popular-greek-islands"}
+    {"title": "iefimerida – Cruise passenger levy on Greek islands", "url": "https://www.iefimerida.gr/english/cruise-passengers-face-increased-levy-popular-greek-islands"},
+    {"title": "Argophilia – Chania Municipal Market reopening, December 2026 (July 2026)", "url": "https://www.argophilia.com/news/chania-municipal-market-reopening-december-2026/250906/"},
+    {"title": "Hellenic Heritage – Aptera (October 2026)", "url": "https://www.hh.gr/en/?p=6895"}
   ],
   "uncertain": [
     "Shuttle price (about €5–6 return) is from one 2026 guide; the operator was not identified. One source says shuttles go to the central bus station rather than the Municipal Market.",
     "Bus 13 timetable and its exact Chania terminus could not be read on chaniabus.gr; 'roughly hourly' comes from Greeka.",
     "Whether the new Souda passenger terminal opened on schedule in 2026 is not confirmed.",
     "Taxi fare Souda–Chania: no current published figure.",
-    "Maritime Museum of Crete and Aptera entry fees and hours not verified.",
-    "Whether the Municipal Market hall interior is fully open after restoration was not verified.",
+    "Maritime Museum of Crete entry fee and hours not verified.",
+    "Whether the Municipal Market hall soft opening (planned for autumn 2026) has happened was not verified; the grand opening is targeted for 4 December 2026.",
     "The 2026 cruise passenger fee rates were not confirmed; the €5 figure is the 2025 high-season rate.",
     "No named restaurant verified from a current source; food entries name areas only.",
     "Ship excursion prices not verified; shipExcursionAvg and savingPerPerson left null."
