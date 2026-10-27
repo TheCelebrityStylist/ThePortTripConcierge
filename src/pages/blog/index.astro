@@ -2,7 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import { BY_SLUG } from '../../lib/blog.js';
 import { portImage, wm } from '../../lib/ports.js';
-const cover = (p) => p.hero ? String(p.hero).replace(/w=\d+/, 'w=640') : (Array.isArray(p.relatedPorts) && p.relatedPorts.map((s) => portImage(s)).map((i) => i && wm(i.src, 500)).find(Boolean)) || wm(portImage('santorini').src, 500);
+// Port photos first (checked, licensed); old Unsplash heroes only as a last resort, several of them no longer exist.
+const cover = (p) => (Array.isArray(p.relatedPorts) && p.relatedPorts.map((s) => portImage(s)).map((i) => i && wm(i.src, 500)).find(Boolean)) || wm(portImage('santorini').src, 500);
 import PUB from '../../data/published.json';
 const SOURCE = { 'best-mediterranean-cruise-ports': 'best-mediterranean-cruise-ports-diy' };
 const posts = PUB.blog.map((s) => ({ s, p: BY_SLUG[SOURCE[s] || s] })).filter((x) => x.p)

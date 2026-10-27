@@ -15,7 +15,7 @@ if (!p) throw new Error(`No post for ${slug}`);
 const path = `/blog/${slug}`;
 const ports = (Array.isArray(p.relatedPorts) ? p.relatedPorts : []).filter((s) => CAT[s]);
 const pub = new Set(PUB.blog);
-const heroImg = p.hero || (ports[0] && portImage(ports[0])?.src) || portImage('santorini')?.src || null;
+const heroImg = (ports[0] && portImage(ports[0])?.src) || portImage('santorini')?.src || null;
 // Put the tour strip just before the third section, so it sits in the reading flow, not at the end.
 const html = fixLinks(p.html);
 const cut = (() => { let i = -1; for (let n = 0; n < 3; n++) { i = html.indexOf('<h2', i + 1); if (i < 0) return -1; } return i; })();
@@ -23,7 +23,7 @@ const [htmlA, htmlB] = cut > 0 ? [html.slice(0, cut), html.slice(cut)] : [html, 
 const related = (Array.isArray(p.relatedPosts) ? p.relatedPosts : []).filter((s) => pub.has(s) && BY_SLUG[s]).slice(0, 4);
 const date = (d) => { try { return new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }); } catch { return d; } };
 const jsonLd = [
-  { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, description: p.description, datePublished: p.date, dateModified: p.updated || p.date, author: { '@type': 'Person', name: p.author || 'Elke' }, publisher: { '@type': 'Organization', name: 'PortTrip' }, mainEntityOfPage: `https://porttrip.com${path}`, image: p.hero },
+  { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, description: p.description, datePublished: p.date, dateModified: p.updated || p.date, author: { '@type': 'Person', name: p.author || 'Elke' }, publisher: { '@type': 'Organization', name: 'PortTrip' }, mainEntityOfPage: `https://porttrip.com${path}`, image: heroImg },
   { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Guides', item: 'https://porttrip.com/blog' }, { '@type': 'ListItem', position: 2, name: p.title, item: `https://porttrip.com${path}` }] },
   p.faqs.length && { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: p.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
 ];
