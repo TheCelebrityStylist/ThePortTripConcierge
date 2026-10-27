@@ -1,139 +1,160 @@
 export default `---
-title: "Beaches Near Cozumel Cruise Port: Playa Stingray, Chankanaab and Clubs"
-description: "Beaches near Cozumel cruise port: Playa Stingray 20 min walk, free; Chankanaab 5 min by taxi (US$29); beach clubs and Punta Sur (US$22). Your pier matters."
+title: "Beaches Near Cozumel Cruise Port: Free Beaches, Clubs, Times"
+description: "Beaches near Cozumel cruise port: Playa Stingray is a free 20-minute walk; Chankanaab is 5 minutes by taxi, US$29 (2026). Club prices and leave-by times."
 date: "2026-10-16"
-updated: "2026-10-16"
+updated: "2026-10-27"
 slug: "beaches-near-cozumel-cruise-port"
 author: "Elke"
 category: "cruise-ports"
-tags: ["cozumel", "mexico", "beaches", "chankanaab", "snorkelling", "caribbean"]
+tags: ["cozumel", "mexico", "beaches", "chankanaab", "beach-clubs", "snorkelling", "caribbean"]
 relatedPorts: ["cozumel"]
-relatedPosts: ["how-to-return-cruise-ship-on-time", "how-much-time-before-all-aboard"]
+relatedPosts: ["cozumel-cruise-port-to-town", "beaches-near-grand-cayman-cruise-port", "how-to-return-cruise-ship-on-time"]
 ---
 
-# Beaches Near Cozumel Cruise Port: Playa Stingray, Chankanaab and Clubs
+# Beaches Near Cozumel Cruise Port: Free Beaches, Clubs and Leave-By Times
 
-> **Quick answer:** From the International Pier or Puerta Maya, the closest free beach is Playa Stingray, about 20 minutes' walk north along the coast-road pavement. Chankanaab park is about 5 minutes by taxi and costs US$29 per adult (2026), with snorkelling from the shore. Beach clubs such as Paradise Beach and Mr Sanchos are a short taxi ride south. Taxis charge a posted fixed fare per cab for up to four people. Be on your way back from Chankanaab 65 minutes before all-aboard.
+> **Quick answer:** From the International Pier or Puerta Maya, Chankanaab park is the best beach for a cruise day. It is about 5 minutes by taxi, costs US$29 per adult (2026), and includes loungers, showers and shore snorkelling. The only free beach you can walk to is Playa Stingray, about 20 minutes north on foot. For a 17:30 all-aboard, leave Chankanaab by 16:25 and Playa Stingray by 16:10.
 
-## Which pier you dock at
+## Where the ships dock
 
-Cozumel has three cruise piers, and your pier decides your beach day.
+Cozumel has three cruise piers. Your pier decides your beach day.
 
-- **Punta Langosta** is in downtown San Miguel. Lines include Disney, MSC and NCL, among others. The beaches below are south of town, so you need a taxi.
-- **International Pier (SSA Mexico)** is about 4 km south of town, about 10 minutes by taxi. Mainly Royal Caribbean and Celebrity.
-- **Puerta Maya** is just south of the International Pier, mainly Carnival Corporation lines. You cannot walk between Puerta Maya and the International Pier inside the port areas.
+- **International Pier (SSA Mexico):** about 4 km south of San Miguel, about 10 minutes by taxi. Mainly Royal Caribbean and Celebrity.
+- **Puerta Maya:** just south of the International Pier, mainly Carnival Corporation lines. You cannot walk between the two piers inside the port areas, and the walk from ship to port exit can be long.
+- **Punta Langosta:** in downtown San Miguel. Disney, MSC and NCL, among others. Every beach on this page is south of town, so add about 10 minutes to each taxi ride.
 
-The two southern piers are close to Chankanaab and the beach clubs. Ships normally dock. When the piers are full, some ships anchor and tender passengers to Punta Langosta, downtown. Check your daily programme: allocations change on busy days.
+Ships normally dock. When the piers are full, some ships anchor and tender passengers to Punta Langosta. Check your daily programme, because allocations change on busy days.
 
-## Taxis: how the fares work
+## How taxis and beach clubs charge
 
-Fares are set by the island's taxi union and shown on a board at each pier's taxi stand. They are in US dollars, per taxi, for one to four passengers; five to eight passengers pay a higher rate. Photograph the board. Drivers must show the official rate card on request.
+Taxi fares are set by the island's taxi union and posted on a board at each pier's taxi stand. They are in US dollars, per cab, for one to four passengers. Five passengers pay about 45% more, and six to eight roughly double, in a van. Pay cash: cards are not accepted. Photograph the board and ask to see the rate card if a quote differs.
 
-Pay cash. Cards are not accepted. Dollars and pesos both work, but paying in dollars gives a worse exchange rate. Share a cab with others going the same way, because the price is per car, not per person. At the International Pier, if the taxi queue is long, walk out and turn left towards the El Cid La Ceiba hotel, where taxis from town drop off.
+The pier fares below come from the union list published by Everything Cozumel (tariff approved in 2016, page updated May 2025). Drivers at the pier may quote the current board, which can be higher. Cruzely reported US$15 from Puerta Maya to Chankanaab in December 2024, and Cruise Critic's writer paid US$18 to Paradise Beach from Puerta Maya in 2026. Treat the board as the price.
+
+Beach clubs charge for loungers, pools and food, usually through a day pass. Prices below are dated to when they were published. Confirm what the pass includes before you pay.
 
 ## Playa Stingray
 
-- **How to get there:** walk north from the International Pier or Puerta Maya along the coast-road pavement, about 1.6 km. Look for the sign and the steps down.
-- **Time:** about 20 minutes on foot.
-- **Cost:** free.
-- **What it's like:** a small beach reached by steps, with no facilities to speak of.
+**Getting there:** walk north from the International Pier or Puerta Maya along the coast-road pavement, about 1.6 km. Look for the sign and the steps down.
+**Time:** about 20 minutes on foot.
+**Cost:** free.
+**Leave by (17:30 all-aboard):** 16:10. 17:30 − 60 min back at the pier − 20 min walk.
 
-This is the only beach on the list you can reach without a taxi. Bring water, shade and everything you need, because there is nothing to buy. It works for a short swim on a short call.
+A small beach reached by steps, with no facilities to speak of. Bring water, shade and everything you need, because there is nothing to buy. It works for a short swim on a short call, or when you do not want to queue for a taxi.
+
+If you want a lounger and a pool without a taxi, the El Cid La Ceiba hotel sells day passes and sits just north of the International Pier: US$52 for ages 12 and over, US$28 for ages 7–11, free under 7, with meals, drinks, towels and snorkel gear (Cruzely, April 2025).
 
 ## Chankanaab park
 
-- **How to get there:** taxi from the southern piers.
-- **Time:** about 5 minutes. From San Miguel, about 15 minutes.
-- **Cost:** US$29 adult, US$20 child aged 4–12 (2026), plus the taxi.
-- **What it's like:** more snorkelling than sunbathing. Reef snorkelling from the shore, a natural lagoon, a botanical garden and a beach. The shore is rocky in places.
+**Getting there:** taxi from the southern piers.
+**Time:** about 5 minutes. About 15 minutes from San Miguel.
+**Cost:** US$29 adult, US$20 child aged 4–12 (2026). Taxi US$12 per cab on the union list.
+**Leave by (17:30 all-aboard):** 16:25. 17:30 − 60 min back at the pier − 5 min taxi.
 
-Entry includes loungers, hammocks and showers. You can rent snorkel gear inside or bring your own. Cash, Visa and Mastercard are accepted. Dolphin and sea-lion programmes cost extra. The park asks for biodegradable, chemical-free sunscreen, so buy it before you get in the water. Chankanaab is busiest from mid-morning, so arrive early if you can.
+More snorkelling than sunbathing. You get reef snorkelling from the shore, a natural lagoon, a botanical garden and a beach. The shore is rocky in places, so water shoes help. Entry includes loungers, hammocks and showers. Rent snorkel gear inside or bring your own. Cash, Visa and Mastercard are accepted. Dolphin and sea-lion programmes cost extra. The park asks for biodegradable, chemical-free sunscreen. It is busiest from mid-morning, so go early.
 
-## Paradise Beach and Mr Sanchos
+## Paradise Beach and San Francisco Beach Club
 
-- **How to get there:** taxi south from the piers.
-- **Time:** a short taxi ride.
-- **Cost:** check each club's own site for day-pass prices.
-- **What it's like:** beach clubs with day passes, pools, loungers, food and drink.
+**Getting there:** taxi south from the piers. The two clubs sit close together on the west coast.
+**Time:** about 10 minutes (Cruzely) to about 20 minutes (Royal Caribbean) from the piers.
+**Cost:** taxi US$15 per cab on the union list. Paradise Beach: all-inclusive day about US$72 per person; a US$15 walk-up entry with loungers and Wi-Fi but no food or drink is sold only on days with few ships, in limited numbers (Cruise Critic, 2026). San Francisco Beach Club: US$20 for umbrella, lounger, pool, snorkel gear, showers and toilets, food and drink extra (Cruzely, April 2025).
+**Leave by (17:30 all-aboard):** 16:00. 17:30 − 60 min back at the pier − 20 min taxi − 10 min to get a cab.
 
-Mr Sanchos sells passes direct rather than through cruise lines. Before you pay, confirm what the pass includes and whether drinks are extra. These clubs are the most comfortable option on the list, but you pay for that, and our checked guide has no confirmed prices for either.
+Paradise Beach has a pool, an inflatable water park (the Fun Pass, US$18), loungers, umbrellas, showers and changing rooms. Towels are not provided. Its site lists closing at 18:00, but Cruise Critic's writer was asked to settle the bill from about 16:30. San Francisco is the cheaper choice if you only want a lounger and a swim, with soft sand and restaurants nearby.
+
+## Mr Sanchos and Playa Mia
+
+**Getting there:** taxi south from the piers. Playa Mia is just north of Mr Sanchos.
+**Time:** about 12 minutes' drive to Mr Sanchos (Cruise Radio).
+**Cost:** taxi US$17 per cab on the union list. Mr Sanchos all-inclusive: US$68 adult, US$45 ages 12–17, US$40 ages 4–11 (Cruzely, April 2025). Playa Mia base ticket: US$38 ages 12 and over, US$19 ages 4–11, with no food or drink; upgraded tickets add buffet and bar (Cruzely, April 2025).
+**Leave by (17:30 all-aboard):** 16:00. 17:30 − 60 min − 20 min taxi (allowing the upper end, as these clubs are beyond San Francisco) − 10 min to get a cab.
+
+Mr Sanchos is all you can eat and drink, with pools, loungers, hammocks and lockers, open 09:00–17:00. It sells passes direct rather than through cruise lines. Playa Mia is the family pick: pools, water parks, snorkelling and volleyball. Parasailing and jet skis cost extra at both.
+
+## Playa Palancar
+
+**Getting there:** taxi south, towards the southern end of the west coast.
+**Time:** one source gives about 15 minutes from the pier (Go Wanderly). We have not confirmed it, and the higher taxi fare suggests a longer ride, so the leave-by allows 25.
+**Cost:** free entry. Taxi US$25 per cab on the union list. Chairs and umbrellas from vendors about US$10 a day (Go Wanderly, undated).
+**Leave by (17:30 all-aboard):** 15:55. 17:30 − 60 min − 25 min taxi − 10 min to get a cab.
+
+A long stretch of white sand with toilets and changing rooms. Food, drinks, towels and snorkel tours cost extra. Royal Caribbean notes a reef offshore with tropical fish. It is the quieter, cheaper alternative to the clubs if you do not need a pool.
 
 ## Punta Sur eco-park
 
-- **How to get there:** taxi to the eco-park at the southern tip of the island.
-- **Time:** a longer taxi ride than Chankanaab.
-- **Cost:** US$22 adult, US$14 child aged 4–12, cash only (2026), plus the taxi.
-- **What it's like:** quiet beaches inside the park, with a lighthouse and a lagoon on the undeveloped southern tip.
+**Getting there:** taxi to the park at the southern tip of the island.
+**Time:** about 40 minutes' drive (Royal Caribbean).
+**Cost:** US$22 adult, US$14 child aged 4–12, cash only (2026). Taxi US$35 per cab on the union list.
+**Leave by (17:30 all-aboard):** 15:40. 17:30 − 60 min − 40 min taxi − 10 min to get a cab.
 
-Allow 3–4 hours with transport. It is further from the piers than Chankanaab, so budget more taxi time and more money. On a short call, pick Chankanaab instead.
+Quiet beaches inside the park, with a lighthouse and a lagoon on the undeveloped southern tip. Allow 3–4 hours with transport. We could not confirm a taxi rank at the park, so agree a pickup time before your driver leaves. On a short call, pick Chankanaab instead.
 
-## Cozumel beaches compared
+## Beaches compared
 
-| Beach | How to get there | Time from southern piers | Cost (2026) | What it's like |
-|-------|------------------|--------------------------|-------------|----------------|
-| Playa Stingray | Walk north along the coast road | About 20 min | Free | Small, steps down, no facilities |
-| Chankanaab park | Taxi | About 5 min | US$29 adult, US$20 child | Shore snorkelling, lagoon, rocky in places |
-| Paradise Beach / Mr Sanchos | Taxi | Short taxi ride | Day pass; check the club's site | Pools, loungers, food and drink |
-| Punta Sur eco-park | Taxi | Longer than Chankanaab | US$22 adult, cash only | Quiet beaches, lighthouse, lagoon |
+| Beach | How | Time from ship | Cost (2026 unless dated) | Leave by (17:30) | Best for |
+|-------|-----|----------------|--------------------------|------------------|----------|
+| Playa Stingray | Walk north | About 20 min | Free | 16:10 | No taxi, short swim |
+| Chankanaab | Taxi | About 5 min | US$29 adult + taxi | 16:25 | Shore snorkelling |
+| Paradise Beach / San Francisco | Taxi | 10–20 min | US$72 all-in / US$20 (2025) + taxi | 16:00 | Pool day / cheap lounger |
+| Mr Sanchos / Playa Mia | Taxi | About 12 min | US$68 / US$38 (2025) + taxi | 16:00 | All-inclusive / families |
+| Playa Palancar | Taxi | 15–25 min (not confirmed) | Free; chairs about US$10 + taxi | 15:55 | Free sand with toilets |
+| Punta Sur | Taxi | About 40 min | US$22 adult, cash + taxi | 15:40 | Quiet, long calls |
+
+Times assume the International Pier or Puerta Maya. From Punta Langosta, leave 10 minutes earlier.
+
+## Which beach for which day
+
+- **Short call:** Chankanaab. Five minutes away, loungers included, and the latest leave-by time on this page.
+- **Families:** Playa Mia for pools and water parks, or Chankanaab for calm shore snorkelling with showers.
+- **Best snorkelling:** Chankanaab, from the shore. Bring reef-safe sunscreen.
+- **Quiet:** Punta Sur on a long call, or Palancar if you want free sand without the drive.
+- **Combine with sightseeing:** Chankanaab in the morning, then a taxi to San Miguel for lunch, as in the [Cozumel port guide](/ports/cozumel) day plan.
 
 ## When to head back
 
-The guide rules: leave Chankanaab 65 minutes before all-aboard (a 5-minute taxi), and leave San Miguel 75 minutes before (a 10-minute taxi to a southern pier). Taxi queues build in the afternoon when several ships leave at once, and the walk from the port gate to the ship can be long, especially at Puerta Maya.
+The rule we use: be back at your pier 60 minutes before all-aboard. From San Miguel, that means being in a taxi 75 minutes before. Taxi queues build in the afternoon when several ships leave at once, and the walk from the port gate to the ship can be long, especially at Puerta Maya.
 
-For Playa Stingray and the beach clubs we use the 75-minute rule. The walk back from Playa Stingray is 20 minutes, and you may wait for a taxi at a club. For Punta Sur there is no checked ride time, so we use a cautious 2 hours. If your ship docked or tendered at Punta Langosta, the ride back from these beaches is longer, because they are south of town: allow at least 10 minutes more, plus the tender queue if you tendered.
+What goes wrong is the queue, not the drive. The ride from most beach clubs is under 20 minutes, but you may wait for a cab, and some clubs start closing tabs before 17:00. If you tendered to Punta Langosta, add the tender queue on top. The ship will not wait for independent travellers. If you will be late, call the port agent number in your daily programme.
 
-| Leave from | 16:30 all-aboard | 17:00 all-aboard | 17:30 all-aboard |
-|------------|------------------|------------------|------------------|
-| Chankanaab park | 15:25 | 15:55 | 16:25 |
-| Playa Stingray or beach clubs | 15:15 | 15:45 | 16:15 |
-| Punta Sur eco-park | 14:30 | 15:00 | 15:30 |
+## Plan it to your ship
 
-The ship will not wait for independent travellers. If you are going to be late, call the port agent number in your daily programme. To fit this around your own ship, [plan your day with your own all-aboard time](/day/cozumel).
+Read [the full Cozumel guide](/ports/cozumel) for piers, town and the ferry, then [time this day to your ship](/day/cozumel).
 
-## Common mistakes
+## FAQ
 
-- **Assuming you can walk to town or most beaches from Puerta Maya or the International Pier.** Town is 4–5 km away. Only Playa Stingray is a realistic walk.
-- **Agreeing a taxi price per person.** Fares are posted per cab for up to four people. Photograph the board and ask to see the rate card if a quote differs.
-- **Bringing a card for the taxi or Punta Sur.** Taxis take cash only, and so does Punta Sur.
-- **Using ordinary sunscreen on the reef.** Parks ask for biodegradable, chemical-free sunscreen.
-- **Paying everything in US dollars.** You get a worse rate and change in pesos. Carry some pesos or small dollar bills.
-- **Swimming on the east coast.** Strong currents run there. Swim only where it is marked as safe.
+### Is there a beach near Cozumel cruise port?
 
-## FAQs
+Yes. Playa Stingray is about 20 minutes' walk north of the International Pier and Puerta Maya, and free. Chankanaab is about 5 minutes by taxi.
 
-### What is the closest beach to the Cozumel cruise port?
+### Can I walk to the beach from Cozumel cruise port?
 
-From the International Pier or Puerta Maya, Playa Stingray, about 1.6 km north, roughly 20 minutes on foot. It is free but has no facilities. Chankanaab is about 5 minutes away by taxi.
+From the southern piers, only to Playa Stingray or the El Cid La Ceiba day pass. Everything else needs a taxi. From Punta Langosta, all the beaches on this page need a taxi.
 
-### Can you walk to a beach from the Cozumel cruise port?
+### Do I need water shoes in Cozumel?
 
-From the southern piers, yes: Playa Stingray is about 20 minutes north along the coast-road pavement. From Punta Langosta downtown, the beaches on this page need a taxi.
+At Chankanaab, they help: the shore is rocky in places. The beach clubs and Palancar are sandier.
 
-### How much is Chankanaab from the cruise port?
+### Are there sunbeds and how much?
 
-US$29 per adult and US$20 per child aged 4–12 (2026), plus the fixed taxi fare per cab. The ride is about 5 minutes from the southern piers.
+At Chankanaab, loungers are included in the US$29 entry (2026). San Francisco Beach Club charges US$20 with a lounger (2025). At Palancar, vendors charge about US$10 for chairs and an umbrella.
 
 ### How much is a taxi to the beach in Cozumel?
 
-Fares are fixed by the taxi union and posted on a board at each pier, in US dollars, per cab for up to four people. Pay cash; cards are not accepted.
+Fares are fixed per cab for up to four people and posted at the pier. The union list gives US$12 to Chankanaab, US$15 to Paradise Beach and San Francisco, US$17 to Mr Sanchos and Playa Mia, US$25 to Palancar and US$35 to Punta Sur. Cash only.
 
-### Is Chankanaab good for swimming or snorkelling?
+### Do Cozumel beach clubs charge entry?
 
-Snorkelling. The reef is right off the shore, and there is a lagoon. The shore is rocky in places, so it is less suited to lying on sand.
-
-### Do Cozumel beach clubs sell day passes direct?
-
-Yes. Mr Sanchos sells direct rather than through cruise lines. Check each club's own site for prices, and confirm whether drinks are included.
-
-For San Miguel, San Gervasio and the Playa del Carmen ferry, see the [full Cozumel port guide](/ports/cozumel).
+Most charge a day pass. Paradise Beach's all-inclusive costs about US$72 (2026). Its US$15 walk-up entry is sold only on quiet days. Palancar has free entry, with chairs extra.
 
 ## Sources
 
 - [Cozumel Parks – FAQs (Chankanaab and Punta Sur fees)](https://cozumelparks.com/en/faqs/)
-- [Cozumel Parks – Park information and prices](https://cozumelparks.com/?p=1815)
-- [Everything Cozumel – Taxis and city buses](https://everythingcozumel.com/taxis-city)
+- [Everything Cozumel – Taxis and city buses (union fare list)](https://everythingcozumel.com/taxis-city)
 - [Cruzely – Complete list of Cozumel taxi rates from the cruise port](https://cruzely.com/complete-list-of-cozumel-taxi-rates)
+- [Cruzely – Cozumel hotels and resorts with day passes (April 2025)](https://www.cruzely.com/6-cozumel-hotels-resorts-with-day-passes-for-cruise-passengers/)
+- [Cruise Critic – Paradise Beach in Cozumel: what to expect (2026)](https://www.cruisecritic.com/articles/paradise-beach-in-cozumel-what-to-expect-at-this-popular-mexico-beach-club)
+- [Cruise Radio – Mr Sanchos day pass prices](https://cruiseradio.net/mr-sanchos-cozumel-beach-club-raises-day-pass-pricing)
+- [Royal Caribbean – The best beaches in Cozumel (January 2026)](https://www.royalcaribbean.com/guides/best-beaches-cozumel)
+- [Go Wanderly – Best public beaches in Cozumel](https://gowanderly.com/best-public-beaches-cozumel/)
 - [Cruzely – Complete guide to visiting Cozumel on a cruise (2026)](https://www.cruzely.com/complete-guide-to-visiting-cozumel-on-a-cruise/)
-- [What's in Port – Cozumel](https://www.whatsinport.com/Cozumel.htm)
-- [Cruise Deals Tips and Tricks – Cozumel port](https://www.cruisedealstipsandtricks.com/ports/cozumel-mexico/)
 `;
