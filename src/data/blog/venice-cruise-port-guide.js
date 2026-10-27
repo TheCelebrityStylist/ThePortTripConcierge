@@ -1,6 +1,6 @@
 export default `---
 title: "Venice Cruise Port Guide 2026: Marghera, Fusina and the Back Door"
-description: "Venice cruise port in 2026: big ships berth at Marghera or Fusina, not Marittima. People Mover €1.50, vaporetto €9.50, the access fee rules and when to head back."
+description: "Venice cruise port 2026: big ships use Marghera or Fusina, not Marittima. People Mover €1.50, vaporetto €9.50, the access fee rules and when to head back."
 date: "2026-05-26"
 updated: "2026-10-27"
 slug: "venice-cruise-port-guide"
