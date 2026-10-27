@@ -1,8 +1,8 @@
 export default `---
-title: "DIY Cruise Excursion Backup Plan: Triggers, Taxis and Cut-Offs"
+title: "DIY Cruise Excursion Backup Plan: When Plan A Stops Running"
 slug: diy-cruise-excursion-backup-plan
-description: "A DIY port day needs a plan B with a clock on it. The fallback for a cancelled train, a full bus or a long cable car queue in 11 ports, with cut-off times."
-excerpt: "A backup plan names what can fail, the time you stop waiting and what you do next. Here are the real fallbacks, port by port."
+description: "A DIY port day needs a plan B with a clock on it. Ferries in rough seas, strikes with 10 days' notice, wind on Delos: real fallbacks and the time to switch."
+excerpt: "A backup plan names what can fail, the time you stop waiting and what you do instead. Here is how to build one, from an Amalfi ferry day to the strike calendar that gives you ten days' warning."
 category: cruise-planning
 cluster_id: return-planning
 date: 2026-08-06
@@ -10,127 +10,150 @@ updated: "2026-10-27"
 author: "Elke"
 hero: https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&q=80
 tags: [DIY cruise excursion, cruise backup plan, independent port day]
-relatedPorts: ["rome", "naples", "santorini", "athens", "barcelona"]
-relatedPosts: ["how-much-time-before-all-aboard", "tender-port-planning-guide"]
+relatedPorts: ["salerno", "mykonos", "naples", "porto", "grand-cayman"]
+relatedPosts: ["how-much-time-before-all-aboard", "how-to-return-cruise-ship-on-time", "what-happens-if-you-miss-cruise-ship"]
 seoKeywords: [DIY cruise excursion backup plan, independent cruise port plan B, cruise port contingency]
 draft: false
 ---
 
-> **Quick answer:** For each fragile link in your day, write down three things: what can fail, the time you stop waiting, and what you do instead. In Rome the fallback for a cancelled FL5 is the next one, 20–30 minutes later; on a strike day it is the ship's coach. In Santorini it is the steps, 20–30 minutes down. The plan only works if the cut-off leaves time for the fallback itself.
+> **Quick answer:** For every link in your day that runs to someone else's timetable, write down three things: what can fail, the clock time you stop waiting for it, and what you do instead. The switch time has to come early enough for the fallback to work: from Amalfi, where the ferry back to Salerno stops in rough seas and the bus takes about 75 minutes, that means deciding at lunch, not at the pier. Check strikes the evening before; Italy requires 10 days' notice for transport strikes and Greece four days for public utilities, so most are on the calendar before you sail.
 
-"We'll grab a taxi if it goes wrong" is not a backup plan. It is a hope with a vehicle in it.
+## 10:00, Piazza della Concordia
 
-In Santorini there are very few licensed taxis and none of them reaches a ship at anchor. In Rome a taxi back to Civitavecchia is the last resort, at a fare you agree before you get in. The fallbacks that work are specific, and they are different in every port. That is the whole reason to write them down.
+Say your ship is in Salerno, all-aboard 17:30, and the day is Amalfi by sea. It is a good plan. The boat takes 35–60 minutes depending on stops, one-way fares run from €6.50 to €23.50 by operator and sailing (2026), and you see the coast the way it was built to be seen, from the water.
 
-## Why the backup is your job
+The first surprise is where the boat leaves from. Not, in most cases, from Molo Manfredi beside your ship. Many Amalfi ferries leave from Piazza della Concordia, opposite the railway station, about 2 km along the seafront, 25–30 minutes on foot. Some NLG, Alicost and Travelmar sailings do use Molo Manfredi. Read the pier on your ticket, for both directions. The one you come back to is the one that matters.
 
-On a ship's tour the cruise line carries the risk. Royal Caribbean's FAQ says: "we guarantee that if your tour is delayed, the ship will wait for you". If it cannot wait, the line gets you back "at no expense to you".
+Then read the next line of the timetable, the one most people skip. Sailings run from about early April to the end of October, and they stop in rough seas.
 
-On your own, the same page says the ship "will not wait". Norwegian's ticket contract goes further: clause 35(b) makes a late guest "fully responsible" for "all expenses incurred to rejoin the vessel", with no refund for the days missed.
+Now you have the shape of a backup plan, and it has three parts. What can fail: the return sailing. When you stop waiting for it: a clock time, decided now. What you do instead: the road.
 
-That is the trade. A DIY day is usually cheaper and often better. In return, the backup plan is yours to build.
+## The switch time
 
-## Find the links that can break
+Here is where most backup plans go wrong. They name the fallback and forget that the fallback takes longer.
 
-Go through the day in order and mark every step that depends on something you do not control: a train with a timetable, a bus that can be full, a boat that leaves once, a queue, a timed ticket, the weather.
+The rule from our guide is to leave Amalfi by 14:30 for a 17:30 all-aboard, three hours before. That covers the crossing, the walk from Piazza della Concordia, and being back on board 90 minutes early, because the whole return hangs on one boat. If the 14:30 sails, you are on the ship by about 16:00.
 
-Split's Old Town is a walk from the ship. It needs almost no contingency. Florence from Livorno has a shuttle, a bus, two trains and a second shuttle queue, and every one of them can go wrong. The amount of planning should match the number of links, not the fame of the city.
+If it does not sail, the way back is the coast road. SITA SUD runs buses between Amalfi and Salerno, and Summer in Italy puts the end-to-end trip at "approximately 75 minutes", with departures every 30 or 60 minutes (its page carries no date, so check the current timetable at the bus stop). In summer traffic, on one road along a cliff, 75 minutes is the good case. Find out at 14:30 that the boat is cancelled, wait for the next bus, and your 90-minute margin is spent before you reach Salerno.
 
-## Give every fallback a cut-off time
+So the switch has to come earlier. The way we work it: take the difference between the fallback and plan A, and move the decision back by at least that much. The bus is about half an hour slower than the boat, and less certain. If the sea is up, or the morning sailings were cancelled, or the ticket office in Amalfi is shaking its head at lunch, take a bus by about 13:30 and do not wait to see. A 24-hour COSTIERASITA ticket costs €10 and covers SITA buses along the coast, Salerno included, so you can buy the fallback in the morning and never use it.
 
-A trigger turns information into a decision while there is still time to act on it. Write it as a clock time, not a feeling.
+If the whole plan feels too fragile, a [small-group Amalfi Coast boat tour from Salerno](https://www.viator.com/tours/Salerno/Amalfi-Coast-Group-tour/d4736-62645P5?mcid=42383&pid=P00216188) puts the boat and the return on one operator. It still does not move the ship, and it stops in the same sea, so check its return time against your all-aboard. If you will be late whichever way you go, call the port agent number in your daily programme at once.
 
-These are the fallbacks from our checked port guides, with the cut-off for a 17:30 all-aboard:
+## What the ferry owes you, and what it does not
 
-| Port | What fails | Cut-off (17:30 all-aboard) | Fallback |
-|---|---|---|---|
-| Rome | FL5 train cancelled | On a train at Roma San Pietro by 14:30 | Next FL5, every 20–30 min. Taxi to the port only as a last resort, fare agreed first |
-| Rome | Rail strike | The evening before | Do not go independently. Take the ship's coach or the SIT coach |
-| Pompeii (Naples) | Train cancelled or line down | On a train from Pompei Scavi by 14:30 | Next train; if the line is down, a licensed taxi from Pompei Scavi, fare agreed first |
-| Florence (Livorno) | Train cancelled | On a train from Santa Maria Novella by 14:00 | Next regional, or ask at the ticket office for a route via Pisa. Taxi from Livorno Centrale to the port is about 10 min |
-| Santorini | Cable car queue too long | At the top station by 15:00 | Walk down the Karavolades steps, 20–30 min |
-| Mykonos | Sea Bus full or not running | At the Old Port pier by 16:00 | KTEL bus from the Old Port station to the New Port (about 20 min) or walk 35–40 min on the coast road |
-| Athens | Metro stopped | On a train at Monastiraki by 14:45 (Terminal A) or 14:30 (B and C) | Taxi from the centre; tell the driver the terminal and the gate, E11 or E12 |
-| Barcelona | Long Cruise Bus queue | At the stop by 16:15 | Taxi from the rank by the Columbus Monument, about 10 min to Adossat outside rush hour |
-| Dubrovnik | Full buses passing Pile | Leave Pile by 15:45 | Taxi from the rank at Pile |
-| Venice | Missed the last shuttle to Marghera or Fusina | At the pick-up point by 15:30 | Taxi by road from Piazzale Roma |
-| Lisbon | Sintra train missed | On a train back to Rossio by 14:30 | Taxi is the only quick option |
-| Split | Traffic back from Trogir | Back in Split by 15:30 | Taxi or Uber straight to your berth, not the bus |
+A scheduled ferry in the EU comes with passenger rights, and they are worth knowing on a day like this. Under Regulation 1177/2010, if a sailing is cancelled or delayed by more than 90 minutes, you must be offered a choice: a full refund, or rerouting to your destination at the earliest opportunity at no extra cost. The operator has to tell you about a delay within 30 minutes of the scheduled departure. Ireland's National Transport Authority, which enforces the rules there, sets them out plainly.
 
-Notice that several cut-offs are the leave-by time itself. That is deliberate. Our leave-by times for train days already include one spare departure. If the train you planned is cancelled, the next one is your margin. If that one is cancelled too, the taxi is not plan B any more. It is the only plan, and it is time to call the port agent.
+Two details matter to a cruise passenger. Bad weather that endangers the ship removes your right to compensation for arriving late, but not the refund or rerouting. And the regulation does not cover everything that floats. Ships carrying up to 12 passengers are out, and so are "excursion and sightseeing tours other than cruises". The scheduled ferry to Amalfi is covered. The water taxi and the boat tour are not.
 
-## Strike days need a different plan
+None of it moves your ship. A refund buys you a bus ticket. It does not buy you an hour.
 
-Strikes are the one failure no trigger can fix on the day, because the backup train is not running either.
+## Wind: the failure you can watch coming
 
-In Italy, regional trains run only in guaranteed bands on strike days, usually 06:00–09:00 and 18:00–21:00 on weekdays. Check Trenitalia's notices the evening before a Rome or Florence call. In Greece, metro and bus strikes are regular and sometimes announced at short notice, so check the evening before and again the morning you dock in Piraeus.
+Strikes arrive by announcement. Wind arrives by the afternoon, and in the Aegean it arrives on a schedule.
 
-If a strike hits your port day, the honest answer is often the ship's tour. You pay more, and you get the guarantee that the ship waits. On a day when the trains are not running, that guarantee is worth more than the saving.
+From about mid-May to mid-September the meltemi blows down the Aegean from the north. It is strongest in July and August and builds through the early afternoon. On Mykonos it can stop the Delos boats outright. The municipal timetable runs boats from Tuesday to Sunday at 09:00, 10:00, 11:30 and 17:00, back at 12:00, 13:30, 15:00 and 19:30; on Mondays one out at 10:00 and one back at 13:30. Trips run "weather permitting". For a 17:30 all-aboard, our guide's cut-off is the 13:30 boat back. The 15:00 lands you with too little margin for the Sea Bus and the tender.
 
-## Fixed bookings are the hardest links
+Here the trigger is the kiosk. If it is shut in the morning and the boatmen are shaking their heads, believe them, and take the day you have been handed: the town, early. If you have booked a [sail cruise to Delos and Rhenia](https://www.viator.com/tours/Mykonos/Mykonos-Delos-Rhenia-sail-cruise/d958-107846P1?mcid=42383&pid=P00216188), check that it is back in the Old Port well before 16:00, the pier time for a 17:30 all-aboard, and ask the operator in writing what happens if the wind rises.
 
-A timed ticket does not move. If you arrive late for it, you may lose it, and the rest of the day gets squeezed into the margin.
+How bad it gets is not theoretical. On 15 August 2026 To Vima reported winds of force 7 to 8, locally 9, across the central Aegean and the Cyclades, with sailing bans at Rafina and Lavrio. If the Sea Bus stops, the fallback on Mykonos is the KTEL bus from the Old Port station to the New Port, about 20 minutes, or the coast road on foot, 35–40 minutes. The [Mykonos tender guide](/blog/mykonos-tender-risk-guide) has the rest.
 
-Plan the timed part first and early. In Rome, a [small-group Vatican, Sistine Chapel and St Peter's tour](https://www.viator.com/tours/Rome/Priority-Access-The-Official-Vatican-Tour-with-Sistine-Chapel-and-St-Peters-Basilica/d511-7559P6?mcid=42383&pid=P00216188) runs about three hours. Booked for late morning, it ends with time to walk to Roma San Pietro, a 10-minute walk from St Peter's Square, and still catch a train well before 14:30. Booked for 13:00, it leaves no fallback at all.
+Marseille has its own wind and the same rule. The mistral can cancel the boats to the Château d'If at short notice, which is why our [Marseille guide](/blog/marseille-cruise-port-to-vieux-port) sends you to the island in the morning only. A [boat tour of the Calanques](https://www.viator.com/tours/Marseille/Beautiful-boat-tour-in-the-Calanques-with-swimming/d485-5655101P2?mcid=42383&pid=P00216188) is exposed to the same wind. Book it early in the day, and only with a return that leaves you the walk to the shuttle at Quai du Lazaret and its queue.
 
-In Barcelona, a [Sagrada Família guided tour](https://www.viator.com/tours/Barcelona/Sagrada-Familia-Guided-Tour-with-Skip-the-Line-Ticket/d562-2140SAGRADA?mcid=42383&pid=P00216188) lasts about 90 minutes. From the Sagrada Família you need to leave by 15:35 for a 17:30 all-aboard: 30 minutes on the metro to Drassanes, 10 minutes on foot, then the Cruise Bus. Book a slot that ends by 15:00 and you have room for a slow metro.
+## Strikes: the failure with a notice period
 
-In Athens, the Acropolis runs on timed slots too, and summer morning slots sell out. An [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) takes about two hours. Do it first, then the Plaka, and leave the Plaka by 14:30 if your ship is at Terminal A, or 14:15 at Terminals B and C.
+There is a mechanic behind strikes that changes how you plan for them, and very few passengers know it.
 
-## Prepare a shorter version of the day
+In Italy, transport strikes are regulated by law 146 of 1990. A strike in an essential public service must be announced at least 10 days in advance, and the operator must tell users at least five days before it, including which services are guaranteed. In Greece, Eurofound's country profile says public utility workers may not strike until at least four days after their demands are notified, and must keep a minimum service. That is why the evening-before check works. Most strikes that will hit your port day are already on the calendar before you sail. The Italian transport ministry keeps one; Italian news sites publish it monthly.
 
-The best backup for a bad morning is a smaller afternoon, decided in advance.
+On 23 October 2026, for example, the calendar showed a national rail strike from 21:00 on Thursday 29 October to 20:59 on Friday 30 October, covering high-speed, long-distance and regional services, Missionline reported. A Friday call that depended on a train was a ship's-coach day, and you could have known it a week before.
 
-Write a cut-down version that keeps the one thing you came for and drops everything else. In Rome that means choosing the Vatican or the Colosseum, not both; with two train journeys you have four to five hours in the city on a good day. In Santorini it means Oia in the morning and Fira in the afternoon, never the other way round, because from Oia you must leave by 14:00. In Split, if the morning goes, a 90-minute [walking tour of Split and Diocletian's Palace](https://www.viator.com/tours/Split/Split-Walking-Tour/d4185-378367P1?mcid=42383&pid=P00216188) covers the palace, and the palace streets, gates and Peristyle are free to walk anyway.
+The notice rule is not a guarantee. On the evening of Wednesday 1 October 2025, Italian unions called a general strike for Friday 3 October, in solidarity with Gaza and the Flotilla, with two days' notice. The Commission that polices strikes met in extraordinary session and found it "in violazione dell'obbligo legale di preavviso", Il Fatto Quotidiano reported. The unions confirmed it anyway. Sanctions came the following week. A ruling is not a train.
 
-Cut whole stops, not minutes. Shaving ten minutes off every transfer feels efficient and is how people end up running for the last shuttle.
+## Read the hours, not the headline
 
-## Keep the essentials offline
+When a strike is listed, the next step is the one that saves the most days: look at when it runs.
 
-The moment you need the backup is often the moment the signal drops, on a platform, in a crowd or on a hillside. Before you go ashore, save these where you can see them without data:
+On 27 March 2026 the headlines said EAV, which runs the Circumvesuviana from Naples to Pompeii, was on strike. The strike ran from 19:00 to 23:00, and trains on every EAV line were guaranteed until 19:30, SicurAuto reported. For a cruise passenger with a 17:30 all-aboard, that strike did not exist. A daytime strike is different: if the guaranteed trains do not cover the middle of the day, they can take you to Pompeii and leave you there. Our [Circumvesuviana guide](/blog/circumvesuviana-train-cruise-ship) has the rest of that line, including the rule: on a train out of Pompei Scavi by 14:30 for a 17:30 all-aboard.
 
-- The port agent's number, from the daily programme.
-- Your all-aboard time and which clock it is in, ship or local.
-- Your terminal, gate or tender landing.
-- The station and stop names for the way back, written as they appear on signs.
-- A screenshot of your plan with the leave-by times.
+Greece has given cruise passengers both kinds of day in 2026. On 1 May, the metro in Athens, including Line 1 to Piraeus, ran no service. On 22 June the island's tourist coach association on Santorini held a one-day strike against the new cruise landing rules and refused to carry cruise passengers; Cruise Mummy reported that MSC Sinfonia and Norwegian Pearl skipped the island and Celebrity Ascent came a day late, about 8,500 passengers between them. Some strikes take away a train. Some take away the port.
 
-Carry a charged power bank if your tickets live on your phone. One battery is one point of failure.
+## When the link itself is gone
 
-## Know when to stop
+Sometimes there is no announcement and no wind. The thing in your plan simply is not running any more.
 
-A backup plan does not make every itinerary possible. If none of your fallbacks still meets the cut-off, go back. The last stop is optional. All-aboard is not.
+Porto's Guindais funicular, the old shortcut from the Ribeira up to Batalha, was suspended indefinitely in July 2026 while its certification was renewed, and our [Porto guide](/blog/porto-cruise-port-to-city-centre) found no reopening date. The line has a habit of this: it opened in 1891, closed after a runaway car hit the bottom station in 1893, and did not carry passengers again until 2004. Older guides still send you up it. From the Ribeira the way back to the ship at Leixões is now metro line D or the climb to Trindade, then line A to Matosinhos: leave the riverside 2 hours 15 minutes before all-aboard, 15:15 for a 17:30 sailing.
 
-Our [Naples port guide](/ports/naples) has the full Pompeii chain if you want to see how a train-dependent day is built from the ship outwards. PortTrip calculates the cut-offs for each part of town from your all-aboard time, so you only have to decide what to do with them. [Plan your Rome day](/day/rome) to see them.
+And sometimes the port itself moves. On 24 December 2019, five ships carrying 12,699 passengers were due in George Town, Grand Cayman. A mild nor'wester had arrived the day before, and only two of them were able to tender, at Spotts on the south coast, the Caymanian Times reported. In October 2023 the Cayman Compass reported ships diverted to Spotts again as seas built. A winter call there is a call that may change on the morning, so do not prepay anything you cannot cancel. If you have booked [Stingray City and Starfish Point](https://www.viator.com/tours/Grand-Cayman/Starfish-Stingray-and-Coral-Garden-3-Stop-Adventure/d50485-6681P10?mcid=42383&pid=P00216188), read its cancellation terms before you sail. The [Grand Cayman tender guide](/blog/is-grand-cayman-a-tender-port) explains why the harbour still has no pier.
+
+## The shorter day, decided in advance
+
+The best backup for a bad morning is a smaller afternoon you chose the night before. Write a cut-down version of the day that keeps the one thing you came for and drops the rest.
+
+In Salerno it writes itself. If the sea is wrong for Amalfi, stay. The old town is 10–15 minutes on foot from Molo Manfredi, and it has things the coast does not. The Giardino della Minerva, on terraces above the old town, is a medicinal garden that brings to life the Scuola Medica Salernitana, the medieval medical school that made the town's name; it costs €3 and opens Tuesday to Sunday 09:30–19:30 (2026). Below it, the cathedral crypt holds the remains of the apostle Matthew, brought here in 954, and the church holds the tomb of Pope Gregory VII, who died in Salerno in exile in 1085. The rule from the old town is 75 minutes before all-aboard, 16:15 for a 17:30 sailing, which gives you a whole day where the ferry would have given you three hours in Amalfi. One thing it cannot fix is Monday, when the garden is closed. The [Salerno port guide](/ports/salerno) has the opening times.
+
+Cut whole stops, not minutes. Shaving ten minutes off every leg feels efficient and is how people end up running for the last shuttle.
+
+## Keep it where you can see it
+
+The moment you need the backup is often the moment the signal drops: on a pier, on a cliff road, in a crowd at a ticket window. Before you go ashore, save the port agent's number, the all-aboard time and its clock, your pier or terminal, and the fallback for each link with its switch time, written as a clock time. A screenshot works. So does the back of the ticket.
+
+Then, at each switch time, look at the plan and do what it says. The plan was made by someone with more information and less adrenaline than you have at 14:25 on a pier.
+
+## The practical bit
+
+Fallbacks and switch times from our checked guides, for a 17:30 all-aboard:
+
+| Port | What fails | Leave-by (plan A) | Switch if in doubt | Fallback |
+|---|---|---|---|---|
+| Salerno, Amalfi day | Ferry back cancelled in rough seas | On the boat at Amalfi by 14:30 | By about 13:30 | SITA bus, about 75 min plus traffic; or the Salerno old town day |
+| Mykonos, Delos | Boats stopped by the meltemi | 13:30 boat back | At the kiosk in the morning | Mykonos Town instead |
+| Mykonos, Sea Bus | Full or stopped by wind | At the Old Port pier by 16:00 | 16:00 | KTEL bus to the New Port, about 20 min; walk 35–40 min |
+| Naples, Pompeii | Train cancelled or line down | On a train from Pompei Scavi by 14:30 | 14:30 | Next train, every 30 min; if the line is down, a licensed taxi, fare agreed first |
+| Marseille, Château d'If | Sailings cancelled by the mistral | Morning only | Before you buy | Le Panier and the Vieux-Port |
+| Porto, Ribeira | Funicular suspended | Leave the Ribeira by 15:15 | Plan without it | Metro line D or the climb to Trindade, then line A |
+| Grand Cayman | Call moved to Spotts or cancelled | At the George Town tender landing by 16:00 | The morning announcement | Ship or taxi transport from Spotts |
+| Any Italian rail day | Strike | Check the evening before | The evening before | The ship's coach |
+
+How the leave-by times are worked out is in [how much time to leave before all-aboard](/blog/how-much-time-before-all-aboard). The habits for the day itself, from the gangway photos to the alarm, are in [how to return to your cruise ship on time](/blog/how-to-return-cruise-ship-on-time). What happens when every plan has failed is in [what happens if you miss your cruise ship](/blog/what-happens-if-you-miss-cruise-ship). To set the switch times for your own sailing, [plan your Salerno day](/day/salerno).
 
 ## FAQ
 
-### Do I need a taxi backup in every port?
+### What should a DIY cruise backup plan include?
 
-No. In Split you can walk. In Santorini a taxi cannot reach a ship at anchor, and there are very few on the island. Pick the fallback that works on that route.
+For each link you do not control: what can fail, the clock time you stop waiting, and what you do instead. Add the port agent's number and your all-aboard time in ship's time.
 
-### Should I book two refundable tours as a backup?
+### When should you switch to plan B?
 
-Usually not. A route fallback and a shorter version of the day cover most failures. Duplicate bookings add cost and cancellation terms to track.
+Before your leave-by, by at least the extra time the fallback takes. From Amalfi the bus is slower than the ferry, so the decision belongs at lunch, not at the pier.
 
-### When should I call the port agent?
+### Can you know about strikes before your port day?
 
-As soon as you know you might be late, while the ship can still make a decision. Not after it has sailed.
+Usually. Italy requires 10 days' notice for transport strikes and five days' notice to passengers; Greece requires four days for public utilities. Strikes are sometimes called at short notice anyway, so check again the evening before.
+
+### Does EU law help if your ferry is cancelled?
+
+You are entitled to a refund or rerouting at the earliest opportunity, even in bad weather. Small boats and sightseeing tours are not covered, and none of it makes the cruise ship wait.
 
 ### Is the ship's tour ever the better backup?
 
-Yes. On a rail or metro strike day in Rome, Florence or Athens, it is usually the only plan that does not depend on the strike.
+Yes. On a strike day, or when the only way back is a boat in a rising wind, the ship's tour is the one plan where a late return is the cruise line's problem.
 
 ## Sources
 
-- [Royal Caribbean – Will the ship wait for guests on a shore excursion?](https://www.royalcaribbean.com/faq/questions/will-the-ship-wait-for-guests-on-a-shore-excursion)
-- [Norwegian Cruise Line – Australia and New Zealand Guest Ticket Contract (December 2024)](https://www.ncl.com/sites/default/files/NCL_Australia_New_Zealand_Guest_Ticket_Contract_Dec%202024_FINAL.pdf)
-- [Port of Civitavecchia – Port mobility shuttle buses](https://www.civitavecchiaport.org/port-mobility-shuttle-buses/)
-- [BlueKeys – Civitavecchia to Rome: train, shuttle and transfer 2026](https://bluekeys.it/blog/civitavecchia-rome-transfer-fl5-train)
-- [BlueKeys – Napoli to Pompei Scavi by Circumvesuviana, 2026 guide](https://bluekeys.it/it/blog/naples-pompei-transfer-circumvesuviana-train)
-- [Santorini Cable Car – Wikipedia](https://en.wikipedia.org/wiki/Santorini_Cable_Car)
-- [Port de Barcelona – Transport services for cruise passengers](https://www.portdebarcelona.cat/en/business-and-services/cruise-ships/information-passenger/services/transport-services)
-- [Libertas Dubrovnik – City timetable](https://www.libertasdubrovnik.hr/en/timetable/1/gradski-vozni-red)
-- [Greeka – Mykonos ports](https://www.greeka.com/cyclades/mykonos/ports/)
-- [Piraeus Port Authority – Cruise Terminal](https://www.olp.gr/en/services-olp/cruise-terminal)
+- [Positano.com – Ferries Salerno to Amalfi (2026)](https://www.positano.com/it/t/salerno/amalfi)
+- [Positano.com – SITA SUD bus schedule and COSTIERASITA ticket](https://www.positano.com/en/bus-schedule)
+- [Summer in Italy – SITA bus Amalfi–Salerno line](https://www.summerinitaly.com/guide/sita-bus-amalfi-salerno-line)
+- [National Transport Authority (Ireland) – EU maritime passenger rights (July 2025)](https://www.nationaltransport.ie/eu-passenger-rights/eu-maritime-passenger-rights/)
+- [Municipality of Mykonos – How to get to Delos (boat times)](https://mykonos.gr/en/home-page-visitor-version-1-3d/how-to-get-there/)
+- [To Vima – Strong winds disrupt peak 15 August travel (August 2026)](https://www.tovima.com/climate/strong-winds-disrupt-peak-aug-15-travel-exodus/)
+- [Il Post – How strikes work in Italy, law 146/1990](https://www.ilpost.it/2015/07/27/diritto-allo-sciopero/)
+- [Eurofound – Greece: industrial action and disputes (November 2024)](https://www.eurofound.europa.eu/countries/greece/industrial-action-and-disputes)
+- [Missionline – Strikes in October 2026: trains, planes and local transport (23 October 2026)](https://www.missionline.it/scioperi-ottobre-2026-il-calendario-di-treni-aerei-bus-e-trasporti-locali/)
+- [Il Fatto Quotidiano – General strike of 3 October ruled in breach of notice rules (2 October 2025)](https://www.ilfattoquotidiano.it/2025/10/02/sciopero-generale-gaza-illegittimo-precettazione-trasporti-news/8147171/)
+- [Businessonline – Sanctions after the 3 October strike ruled unlawful (8 October 2025)](https://www.businessonline.it/news/multe-e-sanzioni-per-sciopero-di-venerd-scorso-per-gaza-e-flotilla-decise-da-commissione-garanzia-he-lo-ha-ritenuto-illegittimo_n79067.html)
+- [SicurAuto – EAV strike of 27 March 2026, hours and guaranteed trains](https://www.sicurauto.it/news/traffico-e-viabilita/sciopero-27-marzo-2026-atm-eav/)
+- [Cruise Mummy – Santorini bus strike forces cruise cancellations (June 2026)](https://www.cruisemummy.co.uk/santorini-bus-strike-forces-cruise-cancellations-and-itinerary-changes-for-thousands-of-passengers/)
+- [DN / Lusa – Guindais funicular suspended indefinitely (July 2026)](https://www.dn.pt/sociedade/funicular-no-porto-suspenso-por-prudncia-devido-a-processo-normal-de-certificao)
+- [Caymanian Times – The cost of a nor'wester (December 2019)](https://www.caymaniantimes.ky/news/the-cost-of-a-nor-wester)
 `;
