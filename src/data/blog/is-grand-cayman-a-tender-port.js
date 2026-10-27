@@ -35,7 +35,7 @@ Say your number is called at 09:30 and you step ashore at 09:40. That still leav
 
 ## 09:40, which landing
 
-There are three landings, all on Harbour Drive, all a short walk apart. Royal Watler Cruise Terminal is the main one. It is the only one of the three with public toilets, including a wheelchair-accessible one, and the only one with free Wi-Fi, along with the excursion desks, a duty-free shop and a tourist information stand, according to Cruise Hive's port guide updated in March 2026. North Terminal and South Terminal are smaller spillover piers, each with a fenced walkway, a gate onto Harbour Drive and a few shaded benches; they sit about 500 feet from Royal Watler.
+There are three landings, all on Harbour Drive, all a short walk apart. Royal Watler Cruise Terminal is the main one. It has the public toilets, including a wheelchair-accessible one, free Wi-Fi, the excursion desks, a duty-free shop and a tourist information stand, according to Cruise Hive's port guide updated in March 2026; the same guide lists no toilets or Wi-Fi at the other two. North Terminal and South Terminal are smaller spillover piers, each with a fenced walkway, a gate onto Harbour Drive and a few shaded benches; they sit about 500 feet from Royal Watler.
 
 If you land at North or South and need a toilet, walk to Royal Watler before you set off. That is the small thing that saves the first hour.
 
@@ -144,7 +144,7 @@ The crossing is about four minutes. The wait is the slow part: ship tours go fir
 
 ### Which tender landing has toilets?
 
-Royal Watler, the main terminal, has public toilets, including an accessible one, and free Wi-Fi. North and South Terminals are small piers about 500 feet away.
+Royal Watler, the main terminal, has public toilets, including an accessible one, and free Wi-Fi. North and South Terminals are smaller piers about 500 feet away, with benches but no listed toilets.
 
 ### What happens if it is too rough to tender at George Town?
 

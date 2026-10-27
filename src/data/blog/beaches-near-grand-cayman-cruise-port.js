@@ -1,5 +1,5 @@
 export default `---
-title: "Beaches Near Grand Cayman Cruise Port: Seven Mile Beach and Beyond"
+title: "Beaches Near Grand Cayman Cruise Port: Seven Mile Beach and More"
 description: "Beaches near Grand Cayman cruise port: Eden Rock reef on foot, Seven Mile Beach 10–15 min by bus, Cemetery Reef, Smith Barcadere. Gear US$21. Leave by 15:30."
 date: "2026-10-16"
 updated: "2026-10-27"
