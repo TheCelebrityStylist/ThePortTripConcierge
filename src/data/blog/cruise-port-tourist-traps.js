@@ -1,125 +1,147 @@
 export default `---
-title: "Cruise Port Tourist Traps — And What to Do Instead"
-description: "Eleven cruise port tourist traps, from touts selling skip-the-line tickets to fish priced by the kilo, and what to do in Rome, Naples, Santorini and more."
+title: "Cruise Port Tourist Traps: 11 to Skip and What to Do Instead"
+description: "Touts with invalid tickets, fish priced by the kilo, meters that never start. The 11 cruise port traps our guides flag most, with 2026 prices for the real thing."
 date: "2026-05-26"
-updated: "2026-10-16"
+updated: "2026-10-27"
 slug: "cruise-port-tourist-traps"
 author: "Elke"
 category: "cruise-planning"
 tags: ["tourist-traps", "savings", "tips", "scams", "mediterranean"]
+relatedPorts: ["rome", "naples", "santorini", "athens", "lisbon"]
 relatedPosts: ["most-overpriced-cruise-excursions", "are-cruise-excursions-worth-it"]
 seoKeywords: ["cruise port tourist traps", "cruise port scams", "avoid tourist traps cruise"]
-relatedPorts: ["rome"]
 ---
 
-# Cruise Port Tourist Traps — And What to Do Instead
+# Cruise Port Tourist Traps: 11 to Skip and What to Do Instead
 
-Busy cruise ports attract businesses built around passengers with a few hours and no time to compare. These are the traps our checked port guides flag most often, and what to do instead. Prices are 2026 unless stated.
+> **Quick answer:** Most cruise port traps sell you time you think you do not have: a tout's "skip-the-line" ticket, an unlicensed ride, a menu without prices. The fix is nearly always booking the official ticket before you sail and using public transport. Colosseum €18 plus a booking fee, Pompeii €20, the Acropolis €30, Sagrada Família from €26 (2026), all on the official sites.
 
-## 1. The restaurant on the main tourist street
+A cruise passenger is the perfect customer for a bad deal. You have five hours, no local knowledge, a deadline you cannot miss and a ship that announces your arrival to every tout in town.
 
-**The trap:** Restaurants on the busiest streets charge for the location. Our guides flag Stradun in Dubrovnik, the main Plaka streets in Athens, Rua Augusta in Lisbon and the Riva in Split. On Santorini's caldera edge and on Rua Augusta, some menus show no prices. Near St Mark's in Venice, cover (coperto) and service (servizio) charges can surprise you.
+The traps below are not exotic. They are the ones our checked port guides flag again and again, from Rome to Lisbon. Most cost you €10 or €20. A few can cost you the ship, which is far more expensive: Norwegian's ticket contract, for example, makes a guest who misses the ship pay "all expenses incurred to rejoin the vessel". So the rule is simple. Save money where it is easy, and never save it on the return.
 
-**What to do instead:** Walk one or two streets back. Ask for a printed menu with prices before you order. In Venice, check the menu for coperto and servizio before you sit down. In Lisbon, bread, olives and cheese put on the table are charged if you eat them.
+Prices are 2026 unless stated.
 
----
+## 1. The restaurant on the main street
+
+The busiest street in any port charges for the address. Our guides flag Stradun in Dubrovnik, the main Plaka streets in Athens, Rua Augusta in Lisbon and the caldera edge in Santorini. On Rua Augusta and in Santorini, some menus show no prices at all. Near St Mark's in Venice, cover (coperto) and service (servizio) charges arrive on the bill uninvited.
+
+**Instead:** walk one or two streets back. In Dubrovnik the same dishes cost noticeably less away from Stradun. Ask for a printed menu with prices before you sit, and in Venice look for coperto and servizio on it. In Lisbon, the bread, olives and cheese put on the table are charged if you eat them. Push them aside if you do not want them; it is normal.
 
 ## 2. "Skip-the-line" tickets from touts
 
-**The trap:** Touts outside the Vatican, the Colosseum, Pompeii, the Acropolis, Sagrada Família, Park Güell and St Mark's Basilica sell marked-up tours or tickets. Some are invalid. Pompeii and Colosseum tickets are issued in the visitor's name, so a tout's ticket may not scan.
+Outside the Vatican, the Colosseum, Pompeii, the Acropolis, the Sagrada Família, Park Güell and St Mark's Basilica, people sell tours and tickets at a mark-up. Some of the tickets are not valid. Colosseum and Pompeii tickets are issued in the visitor's name and checked against ID, so a tout's ticket in someone else's name may simply not scan.
 
-**What to do instead:** Book on the official sites before the cruise. Colosseum slots are released 30 days ahead and cost €18 plus a booking fee. Pompeii is €20 and sold only through the official site. The Acropolis is €30 by timed slot. Sagrada Família starts at €26. St Mark's Basilica is €10 on tickets.basilicasanmarco.it. In Dubrovnik, buy the €40 walls ticket at the official office, the wall entrances or the official webshop.
+**Instead:** book the official ticket before the cruise.
 
----
+| Site | Official price (2026) | Where and how |
+|---|---|---|
+| Colosseum | €18 plus booking fee | Official site; time slots released 30 days ahead; bring the named ID |
+| Pompeii | €20 basic, €25 Pompeii+ | Only Vivaticket via pompeiisites.org since March 2026; named tickets |
+| Acropolis | €30 | Hellenic Heritage site; timed slots; summer mornings sell out |
+| Sagrada Família | From €26 | Official site, timed tickets; peak slots sell out weeks ahead |
+| St Mark's Basilica | €10 | tickets.basilicasanmarco.it, the only official ticket office |
+| Dubrovnik city walls | €40 | Official office at Pile, the wall entrances or the official webshop |
 
-## 3. Unlicensed drivers at Civitavecchia
+If you want a guide, book one in advance with a confirmed time, not on the pavement. A [Colosseum, Roman Forum and Palatine Hill guided tour](https://www.viator.com/tours/Rome/Rome-Colosseum-Roman-Forum-and-Palatine-Hill-Guided-Tour/d511-15932P15?mcid=42383&pid=P00216188) or an [Acropolis and Parthenon guided walking tour](https://www.viator.com/tours/Athens/Afternoon-Acropolis-tour/d496-5776P15?mcid=42383&pid=P00216188) costs more than the ticket alone, and says so up front. That is the difference from a tout.
 
-**The trap:** Unlicensed drivers at the port and at Rome's stations offer rides to Rome or back to the ship.
+## 3. The unlicensed driver at the gate
 
-**What to do instead:** Take the free port shuttle to Largo della Pace, walk 15–20 minutes to the station and take the FL5 train: €4.60 to Roma San Pietro (50–60 min) or €5 to Termini (75–85 min). If you need a taxi, use a licensed white taxi and agree the fare first.
+At Civitavecchia and at Rome's stations, unlicensed drivers offer rides to Rome or back to the ship. At Mykonos's New Port they quote high flat rates into town. In Santorini they wait at the Fira bus station and the Old Port.
 
----
+The Rome version is the worst, because the cheap alternative is so good. The free port shuttle takes you to Largo della Pace, it is a 15–20 minute walk to the station, and the FL5 train costs €4.60 to Roma San Pietro (50–60 minutes) or €5 to Termini (75–85 minutes).
 
-## 4. Taxis to Pompeii without the meter
+**Instead:** use the shuttle and the train, the Sea Bus in Mykonos (€2–2.50) or the KTEL bus in Santorini (€2.20 to Oia). If you need a taxi, take a licensed white one in Rome and agree the fare before you get in.
 
-**The trap:** Some Naples taxis do not start the meter or quote inflated fares to Pompeii or the port.
+## 4. The meter that never starts
 
-**What to do instead:** Take the Circumvesuviana from Garibaldi: €3.30 one way, about 35 minutes to Pompei Scavi–Villa dei Misteri. If you take a taxi, use a white licensed taxi and ask for the fixed tourist fare before you start.
+Some Naples taxis do not start the meter or quote inflated fares to Pompeii or the port. In Athens the version is a meter that is "broken", followed by a fare. In Livorno, drivers inside the port pitch a whole-day Tuscany tour when you only want the station.
 
----
+**Instead:** for Pompeii, take the Circumvesuviana from Garibaldi: €3.30 one way and about 35 minutes to Pompei Scavi–Villa dei Misteri, not Pompei Santuario. In a Naples taxi, ask for the fixed tourist fare before you move. In Athens, check the meter is running before you set off, or book through a ride-hailing app. In Livorno, say "station" before you sit down.
 
-## 5. The Santorini donkey ride
+If you would rather not manage trains at all, a [Pompeii guided tour from Naples](https://www.viator.com/tours/Naples/Daily-Pompeii-Group-Tour-with-Archaeological-Guide/d508-18971P2?mcid=42383&pid=P00216188) is a priced, booked alternative to haggling at the rank.
 
-**The trap:** Donkey handlers at the Old Port may quote one price at the bottom and ask for more at the top. Welfare groups ask visitors not to ride, and Greek law bars riders over 100 kg.
+## 5. The Santorini donkey
 
-**What to do instead:** Take the cable car (€10 each way, 2025; a 3–5 minute ride, but queues often take 30–60 minutes or more) or walk the 560–600 steps, which takes fit walkers 30–45 minutes up. If you do ride, agree the full price before you get on.
+Donkey handlers at the Old Port may quote one price at the bottom and another at the top. Greek law bars riders over 100 kg and loads over a fifth of the animal's body weight, and welfare groups ask visitors not to ride at all.
 
----
+**Instead:** take the cable car, €10 each way (2025). The ride is 3–5 minutes, but the queue is often 30–60 minutes or more, so go up early. Or walk the 560–600 steps: 30–45 minutes up, 20–30 down, on polished stone that is slippery even in good shoes. If you ride anyway, agree the full price before you get on.
 
-## 6. The tram 28 queue at Martim Moniz
+## 6. Tram 28 from Martim Moniz, and the unpriced tuk-tuk
 
-**The trap:** Lisbon's tram 28 has its longest queue at the Martim Moniz terminus, and it is the city's worst spot for pickpockets.
+Lisbon's tram 28 has its longest queue at the Martim Moniz terminus, and our guide rates it the city's worst spot for pickpockets. Paying €3.30 on board for every ride adds up too.
 
-**What to do instead:** Board mid-route, for example at the Sé or Portas do Sol, and ride west. Or ride early in the morning. Keep your bag in front of you. For Belém, take tram 15E or bus 728 instead.
+The tuk-tuk is the other Lisbon trap, at least the one hailed in the street. Drivers quote high prices for short rides once you are already in.
 
----
+**Instead:** buy a €0.50 Navegante card and load the €7.25 24-hour Carris/Metro ticket at a metro machine. It covers trams 28 and 15E and the metro. Board tram 28 mid-route at the Sé or Portas do Sol, or ride early. If you want a tuk-tuk, agree the price in writing before you get in, or book a [private tuk-tuk tour of Alfama and Belém](https://www.viator.com/tours/Lisbon/Lisbon-Half-Day-Sightseeing-Tour-by-Electric-Tuk-Tuk/d538-25843P2?mcid=42383&pid=P00216188) with the price fixed in advance.
 
 ## 7. Fish priced by the kilo
 
-**The trap:** Restaurants in Mykonos, Dubrovnik and Split list fresh fish by weight without showing the weight or total.
+Restaurants in Mykonos, Dubrovnik and Split list fresh fish by weight. The menu shows a price per kilo. It does not show what your fish weighs, and you find out when the bill comes.
 
-**What to do instead:** Ask for the weight and total price before the fish is cooked.
+**Instead:** ask for the weight and the total price before the fish is cooked. A good restaurant will tell you without a pause. In Mykonos, also check the bill against the menu: some bars and restaurants add a large service charge or items you did not order.
 
----
+## 8. The photo that costs money and the gift that is not free
 
-## 8. Paid photos and "free" gifts
+Costumed "gladiators" near the Colosseum and "Roman soldiers" in Split's Peristyle pose with you, then ask for money. In Athens, someone presses a "free" bracelet or flower into your hand and then wants paying for it.
 
-**The trap:** Costumed "gladiators" near the Colosseum and "Roman soldiers" at Split's Peristyle pose for photos, then demand money. In Athens, someone presses a "free" bracelet or flower into your hand, then asks for payment.
-
-**What to do instead:** Agree a price before you pose, or decline. Hand back anything you did not ask for and walk on.
-
----
+**Instead:** agree a price before you pose, or say no. Hand back anything you did not ask for and keep walking. Nobody follows for long.
 
 ## 9. The friendly stranger and the bar
 
-**The trap:** In Athens, near Monastiraki and Syntagma, a friendly stranger suggests a bar, then leaves before an inflated bill arrives.
+In Athens, near Monastiraki and Syntagma, a friendly stranger suggests a bar, then leaves before an inflated bill arrives.
 
-**What to do instead:** Decline invitations from people you have just met.
+**Instead:** decline invitations from people you met five minutes ago. This one is not about the money as much as it looks. The bill is presented by people who are not interested in negotiating.
 
----
+## 10. Street games, stains and petitions
 
-## 10. Paying for something that is free or already included
+In Barcelona, someone points out a stain on your clothes or drops something in front of you while an accomplice takes your wallet. On La Rambla, the shell game "winners" in the crowd are part of the act. In Lisbon, clipboard "petition" collectors distract you while someone else goes through your bag, and men in the Baixa offer drugs that are fake, often soap.
 
-**The trap:** Paying separately for things you already have or do not need.
+**Instead:** do not stop. Keep a hand on your bag and your phone in a front pocket, especially on Barcelona's L3 metro between Drassanes and Diagonal. Phones left on café tables under a map or menu go missing in Barcelona, so keep yours off the table.
 
-**What to do instead:**
-- In Split, the palace streets, gates and Peristyle are free. Only the cellars, cathedral, bell tower and Jupiter's Temple charge.
-- In Dubrovnik, the €40 walls ticket already includes Fort Lovrijenac.
-- In Split, bus drivers charge double the app or ticket-office fare. Buy through the Promet app.
-- In Rome, the €14 BIRG day ticket only pays off with several metro or bus rides. Two train singles to San Pietro cost €9.20.
+## 11. Paying for what is free or already paid for
 
----
+This trap does not involve anyone dishonest. It is just money left on the table.
 
-## 11. Currency conversion at the ATM or till
+- **Split:** the palace streets, gates and Peristyle are free. Only the cellars, cathedral, bell tower and Jupiter's Temple charge. Bus drivers charge double the Promet app or ticket-office fare, legally, so buy in the app.
+- **Dubrovnik:** the €40 walls ticket already includes Fort Lovrijenac. Do not pay for it twice.
+- **Rome:** the €14 BIRG day ticket only pays off with several metro or bus rides in Rome. Two train singles to San Pietro cost €9.20.
+- **Card terminals and ATMs everywhere:** when a machine offers to charge you in your home currency, say no. EU rules on cross-border payments note that poor transparency "increases the risk of payers choosing expensive currency conversion options", and say the payer should be able to refuse and pay in the local currency ([Regulation (EU) 2019/518, recitals 5 and 9](https://www.legislation.gov.uk/eur/2019/518/data.html)). Pay in euros and let your own card do the conversion.
 
-**The trap:** A card terminal or ATM abroad offers to charge you in your home currency. EU rules on cross-border payments say that limited transparency on these charges raises the risk of payers choosing expensive conversion options, and that you should be able to refuse the service and pay in the local currency ([Regulation (EU) 2019/518, recitals 5 and 9](https://www.legislation.gov.uk/eur/2019/518/data.html)).
+## The pattern behind all of them
 
-**What to do instead:** When offered a choice, pay in the local currency and let your own card provider convert it. Most ports in this guide use the euro.
+Look at the list again and almost every trap sells one of two things: time, or the feeling that someone local is looking after you. A booked official ticket, a public train and a fixed return time give you both, for less.
 
-## The pattern behind tourist traps
+The one place not to economise is the way back. In Rome that means being on a train at Roma San Pietro by 14:30 for a 17:30 all-aboard, not on whatever ride the man at the station offers at 15:45. The [Rome port guide](/ports/rome) has the whole chain, and PortTrip works out the leave-by for every part of town from your all-aboard time. [Plan your Rome day](/day/rome) and it gives you the times to set.
 
-Most traps sell either convenience or the feeling of safety. In most ports, a booked official ticket, public transport and a firm return time give you both for less.
+## FAQ
 
-PortTrip builds that plan for you. [Plan your port day →](https://porttrip.com/planner)
+### Are the ship's own excursions a tourist trap?
+
+Not by definition. They cost more, but on Royal Caribbean, for example, the ship guarantees to wait if its own tour is delayed. On a strike day or a long trip inland, that guarantee is what you are paying for.
+
+### Is it safe to buy tickets at the site on the day?
+
+For the Colosseum, Pompeii in summer, the Acropolis and the Sagrada Família, do not count on it. Slots sell out, and the named ticket systems leave touts as the only walk-up option.
+
+### How do I know a taxi is licensed?
+
+In Rome and Naples, licensed taxis are white and wait at official ranks. Anywhere, agree the fare or check the meter is running before the car moves.
+
+### Do I have to pay the cover charge in Venice?
+
+If it is on the menu, yes. That is why you read the menu for coperto and servizio before you sit down, not after.
 
 ## Sources
 
-- [Port of Civitavecchia – Port mobility shuttle buses](https://www.civitavecchiaport.org/port-mobility-shuttle-buses/)
 - [Parco archeologico del Colosseo – Opening times and tickets](https://colosseo.it/en/visita/orari-e-biglietti/)
 - [Parco Archeologico di Pompei – New admission fees from 12 January 2026](https://pompeiisites.org/en/comunicati/new-admission-fees-from-12-january-2026/)
+- [Port of Civitavecchia – Port mobility shuttle buses](https://www.civitavecchiaport.org/port-mobility-shuttle-buses/)
+- [Basilica di San Marco – Official prices](https://tickets.basilicasanmarco.it/en/support/prices)
+- [Kompas – Dubrovnik City Walls tickets](https://kompas.hr/dubrovnik/attractions/city-walls/tickets)
 - [GTP – Circular on weight limits for Santorini donkey rides](https://news.gtp.gr/2018/10/10/circular-foresees-weight-limits-santorini-donkey-rides)
 - [Visit Lisboa – Elétrico 28](https://www.visitlisboa.com/pt-pt/locais/electrico-28)
-- [Kompas – Dubrovnik City Walls tickets](https://kompas.hr/dubrovnik/attractions/city-walls/tickets)
-- [GOV.UK – Greece safety and security](https://www.gov.uk/foreign-travel-advice/greece/safety-and-security)
+- [Portal.hr – Promet raises ticket prices by 50% (June 2026)](https://www.portal.hr/en/novosti/aktualnosti/109312-promet-poskupio-karte-50-posto-novi-cjenik)
+- [Norwegian Cruise Line – Australia and New Zealand Guest Ticket Contract (December 2024)](https://www.ncl.com/sites/default/files/NCL_Australia_New_Zealand_Guest_Ticket_Contract_Dec%202024_FINAL.pdf)
 - [Regulation (EU) 2019/518 – cross-border payments and currency conversion charges](https://www.legislation.gov.uk/eur/2019/518/data.html)
 `;
