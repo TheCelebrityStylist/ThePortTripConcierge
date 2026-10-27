@@ -29,7 +29,7 @@ This guide is the whole day, in order: the Gaudí morning, the Gothic afternoon,
 
 The Cruise Bus is the only sensible way off the breakwater. It costs €3.50 one way or €5 return (2026), takes cards or a PDF ticket bought online, not cash, and runs about every 20 minutes, more often when ships arrive. The ride takes about ten minutes and drops you by the World Trade Center, 400–500 m from the Columbus Monument. Buy the return. You will be glad of it at four o'clock.
 
-From the stop, walk about ten minutes to Drassanes station on metro line L3, the green line. Take L3 to Diagonal, change to L5 and ride two stops to Sagrada Família. Allow about 30 minutes from Drassanes, or 45 from the moment you step off the bus. A single costs €2.90 in zone 1 (2026); a T-casual of 10 journeys costs €13 and can be shared by a group, one tap per person, so for two people doing a round trip it is the cheaper card.
+From the stop, walk about ten minutes to Drassanes station on metro line L3, the green line. Take L3 to Diagonal, change to L5 and ride two stops to Sagrada Família. Allow about 30 minutes from Drassanes, or 45 from the moment you step off the bus. A single costs €2.90 in zone 1 (2026); a T-casual of 10 journeys costs €13 and can be shared by a group, one tap per person, so it pays off from five rides: for two people doing a plain round trip, four singles (€11.60) are cheaper, but three people, or two who add a ride, should buy the T-casual.
 
 One warning before you go underground. The stretch of L3 between Drassanes and Diagonal is where Barcelona's pickpockets work hardest. Phone in a front pocket, bag zipped and worn in front.
 
