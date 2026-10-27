@@ -1,158 +1,194 @@
 export default `---
-title: "How to Explore Rome From a Cruise Ship Without an Excursion (2026 Ship-Safe Guide)"
-description: "Rome from Civitavecchia without a ship excursion: free port shuttle, FL5 train from €4.60, Colosseum booking rules and a ship-safe return plan for 2026."
+title: "Rome Without a Ship Excursion: A Cruise Day on Your Own"
+description: "Rome from Civitavecchia without the ship's tour, 2026: €9.20 return train, a Vatican-to-Trevi walk with free Caravaggios, the Ostiense route and leave-by times."
 slug: "rome-cruise-port-without-excursion"
 author: "Elke"
 category: "cruise-ports"
 date: "2026-05-26"
-updated: "2026-10-16"
-readTime: 12
-excerpt: "Civitavecchia is about 70 km from Rome. The FL5 regional train costs €4.60 to Roma San Pietro or €5 to Termini. Here is how to do Rome on your own and be back on board in good time."
+updated: "2026-10-27"
+readTime: 15
+excerpt: "The ship sells Rome as a coach ride. The €4.60 train gets you there, and the best of the day is on the walk most passengers rush: a German cemetery inside the Vatican, a talking statue, three free Caravaggios."
 hero: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80"
 tags: ["rome", "civitavecchia", "diy", "colosseum", "train"]
 relatedPorts: ["rome", "civitavecchia", "naples"]
-relatedPosts: ["how-far-is-rome-from-cruise-port", "rome-vs-florence-cruise"]
-seoKeywords: ["rome cruise port without excursion", "civitavecchia to rome train", "how to get to rome from cruise port", "rome diy cruise port guide"]
+relatedPosts: ["how-to-get-from-civitavecchia-to-rome", "how-far-is-rome-from-cruise-port", "rome-vs-florence-cruise"]
+seoKeywords: ["rome cruise port without excursion", "rome on your own from cruise ship", "civitavecchia to rome diy", "rome diy cruise port guide"]
 ---
 
-## Quick answer
+> **Quick answer:** Skip the ship's coach and take the FL5 train from Civitavecchia: €4.60 each way to Roma San Pietro, 50–60 minutes (2026), after a free shuttle and a 20-minute walk. You get about five hours in Rome, enough for one area: the Vatican and centre, or the Colosseum. For a 17:30 all-aboard, be on a train out of San Pietro by 14:30.
 
-Ships dock at Civitavecchia, about 70 km from Rome. Take the free port shuttle to Largo della Pace, walk 15–20 minutes to Civitavecchia station, then take the FL5 regional train. It costs €4.60 and takes 50–60 minutes to Roma San Pietro, or €5 and 75–85 minutes to Roma Termini (2026). Board a train back in Rome at least three hours before all-aboard. Pick one area of Rome, not two.
+The 08:00 from Civitavecchia pulls into Roma San Pietro a little before nine. St Peter's Square is a ten-minute walk away, and at this hour the security line for the Basilica is still short. From about ten, it grows.
 
-## What DIY costs, and what the ship sells you
+That hour is the whole argument for doing Rome on your own. The ship's version of this day, Carnival's "Explore Rome on Your Own", costs US$129.99 per adult (2026) and is a coach ride of about 90 minutes each way. The train costs €9.20 return and has you in St Peter's Square by about 09:10, inside that short-queue hour.
 
-Ship excursion prices vary by line, so check your cruise planner. The DIY costs are fixed:
+Our view: on a normal day, go by train, pick one part of Rome, and walk it slowly. The best things on the Vatican-to-Trevi walk are free, close together and ignored by almost everyone hurrying between the famous names. What follows is that walk, hour by hour, then a different way to do ancient Rome, then the return that decides whether any of it was a good idea.
 
-| Item | DIY cost (2026) |
-|---|---|
-| Port shuttle to Largo della Pace | Free |
-| FL5 train, return | €9.20 to San Pietro, €10 to Termini |
-| BIRG day ticket (train plus Rome metro, buses, trams) | €14 |
-| Colosseum, Forum and Palatine | €18 plus booking fee; Full Experience €24 |
-| Vatican Museums and Sistine Chapel | €20 plus €5 online booking fee |
-| St Peter's Basilica | Free |
-| Pantheon | €7 |
-| Trevi Fountain basin | €2 (09:00–22:00) |
+## What the ship sells you, and what it does not
 
-What the ship's coach really buys you is protection. If the coach is late, the ship waits. If your train is late, it does not. Book the ship's tour if there is a rail strike on your date, if you have mobility problems, or if you want the Vatican Museums and the Colosseum on a short call. Otherwise the train is reliable enough for a careful, early-starting day.
+The ship's coach buys one thing the train cannot: if it is late, the ship waits. That is a real guarantee and sometimes worth the money. Everything else on the excursion you can do yourself, mostly for less than the price of lunch.
 
-## Step 1: Ship to Civitavecchia station
+| Item | Ship | On your own (2026) |
+|---|---|---|
+| Transport to Rome and back | US$129.99 per adult (Carnival, coach) | €9.20 return train to San Pietro, €10 to Termini |
+| St Peter's Basilica | Included in walking tours | Free |
+| Vatican Museums and Sistine Chapel | Bundled in guided tours | €20 plus €5 online booking fee |
+| Colosseum, Forum and Palatine | Bundled in guided tours | €18 plus booking fee |
+| Pantheon | Included in walking tours | €7 |
+| Trevi Fountain basin | Included | €2, 09:00–22:00 |
 
-Walking inside the port is not allowed. Take the free Port Mobility shuttle from your pier to Largo della Pace, the passenger hub by the port entrance. It runs about every 15–20 minutes and the ride takes 10–15 minutes.
+The getting-there part, shuttle, walk, ticket and which station, is in our step-by-step guide to [the Civitavecchia to Rome train](/blog/how-to-get-from-civitavecchia-to-rome). This piece starts at the other end of the line.
 
-From Largo della Pace, walk south along the seafront past Forte Michelangelo. The station is about 1–1.5 km away, roughly 15–20 minutes on a flat pavement. A station shuttle (€6 each way) and a local bus (about €2) also run, but the walk is usually as quick once queues are counted.
+## 09:00, St Peter's before the queue
 
-Ignore drivers offering rides to Rome at the port or the station. Use only licensed white taxis and agree the fare first.
+The Basilica is free. Shoulders and knees must be covered, so a scarf in the day bag solves a problem before it starts. Allow 1–1.5 hours including the security line, which our Rome guide finds grows from about 10:00. Going straight from the train is the single best timing decision of the day.
 
-## Step 2: Buy and validate your ticket
+Inside are Michelangelo's Pietà and the view up into his dome. The dome climb is charged separately.
 
-The FL5 is a Trenitalia regional service with a fixed fare. You do not need to book ahead. Buy at the station machine, the counter or in the Trenitalia app.
+Then do the thing almost no one from the ships does. To the left of the Basilica, as you face it, is the Vatican's back entrance, where delivery vans come and go. Behind it, reached through Vatican territory but technically Italian soil, is the Campo Santo Teutonico, the German cemetery. A guard checks your bag and the Swiss Guard asks where you are going. According to German press reports, the phrase that opens the gate is "Ich möchte auf den Campo Santo Teutonico", and a writer for evangelisch.de who visited in April 2026 admits he never tested any other language. You walk past car parks and the flank of St Peter's, through a gap in a wall, and down a few steps into a small walled cemetery.
 
-- **Roma San Pietro, Trastevere or Ostiense:** €4.60 one way. 50–60 minutes to San Pietro.
-- **Roma Termini:** €5 one way. 75–85 minutes.
-- **Frequency:** two to three trains an hour for most of the day.
+The story goes back to 799, when Pope Leo III is said to have given this land to Charlemagne for a hospice for German pilgrims. Since the 15th century, the soil here has been held to be sacred earth from Jerusalem, which is how the place got its name, the holy field. A plaque at the entrance records that it lies on the ground of Nero's circus, where Christians were martyred. The archconfraternity founded in 1454 still has burial rights. It is open daily from 09:00 to 12:00 and closed on Wednesdays during the papal general audience (Travelbook, last updated July 2025). Fifteen minutes is enough, and it is the quietest quarter of an hour you will spend in Rome.
 
-Paper tickets must be validated in the platform machine before you board. App tickets skip that step.
+If your heart is set on the Vatican Museums instead, this is the moment to say so, because they will take the whole morning: 2.5–3 hours, a timed online slot, €20 plus €5 booking (2026), and closed most Sundays. The free last Sunday of the month is very crowded. A [skip-the-line group tour of the Vatican, Sistine Chapel and St Peter's](https://www.viator.com/tours/Rome/Skip-the-Line-Group-Tour-of-the-Vatican-Sistine-Chapel-and-St-Peters-Basilica/d511-120123P3?mcid=42383&pid=P00216188) handles the slot and the long route through the building. Check its start time against an arrival at San Pietro around 09:00 before you book.
 
-The BIRG day ticket (€14 for 5 zones) covers the return train plus Rome's metro, buses and trams until midnight. It pays off only if you will ride public transport in Rome several times. Two singles to San Pietro cost €9.20. The BIRG is sold at station counters and tobacconists, not online.
+## 10:45, across the Tiber
 
-The Civitavecchia Express service has been suspended since June 2024. Do not plan around it.
+Walk down Via della Conciliazione with the Basilica behind you. At the end, Castel Sant'Angelo, Hadrian's mausoleum turned papal fortress, fills the view. The interior costs extra and takes an hour. On a cruise day, the view from Ponte Sant'Angelo is free and takes two minutes, and it is the one people frame for the photograph anyway.
 
-## Step 3: Choose your Rome station
+Cross the bridge and keep going into the old streets. Piazza Navona is a short walk on.
 
-**Roma San Pietro** is a 10-minute walk from St Peter's Square. It is the faster train and the natural stop for a Vatican-and-centre day.
+## 11:15, the statue that talks back
 
-**Roma Termini** is the easier start for the Colosseum. From San Pietro, allow 40 minutes each way to reach the Colosseum.
+Just off Piazza Navona, in the small Piazza di Pasquino, stands a battered marble torso on a pedestal. Most people walk past it without a glance. It is the most opinionated statue in Rome.
 
-## Step 4: Pick one area
+Pasquino is thought to have been carved in the 3rd century BC, and probably showed Menelaus holding the body of Patroclus; only fragments of both survive. It was dug up in the early 1500s. Cardinal Oliviero Carafa, an enemy of Pope Alexander VI, began dressing it with witty Latin verses, and others joined in. For centuries Romans pinned anonymous satire on it, mostly about the pope, and the verses became known as *pasquinate*, Smithsonian reports. People still leave notes on it today.
 
-With two train journeys you get four to five hours in Rome. That is enough for one area done well.
+The most famous one is worth carrying with you to the Pantheon, a short walk away. More on that in a moment.
 
-**Vatican and the centre.** St Peter's Basilica is free; allow 1–1.5 hours including security, and cover shoulders and knees. The Vatican Museums need 2.5–3 hours and a timed online booking. They are closed most Sundays, and the free last Sunday of the month is very crowded. From the Vatican, walk via Castel Sant'Angelo to Piazza Navona, the Pantheon and the Trevi Fountain.
+## Piazza Navona, and an insult that never happened
 
-**Colosseum and the Forum.** One 24-hour ticket covers the Colosseum, the Roman Forum and the Palatine. Allow 3 hours. Colosseum entry is by compulsory time slot, and slots are released 30 days ahead, so book as soon as your date opens. Tickets are issued in your name and checked against ID. Bring the ID that matches the booking.
+Piazza Navona keeps the shape of the Roman stadium it was built on. In the middle is Bernini's Fountain of the Four Rivers, and in front of it Borromini's church of Sant'Agnese in Agone. Bernini and Borromini were rivals, and Rome tells a story about that.
 
-Do not try to fit the Vatican Museums and the Colosseum into one cruise day.
+The legend: the Nile's veiled head is so it does not have to look at Borromini's church, and the Rio de la Plata's raised hand is bracing against the façade collapsing. On the church, the statue of St Agnes with her hand on her chest is reassuring him it will stand. It is a good story. It is not true. The fountain was built before the church, so Bernini's river gods could not have been sneering at a façade that did not yet exist (Italy Guides). Tell it anyway. Then tell the ending.
 
-## A sample day (18:30 all-aboard)
+## Three Caravaggios for nothing
 
-Assumes docking at 07:00 and a Vatican-and-centre day. Check FL5 times in the Trenitalia app the night before.
+A few minutes from Piazza Navona, on Piazza di San Luigi de' Francesi, is the French national church. Walk in, go to the last chapel on the left aisle, the Contarelli Chapel, and you are standing in front of three paintings by Caravaggio, made between 1599 and 1602: *The Calling of St Matthew*, *St Matthew and the Angel* and *The Martyrdom of St Matthew* (Turismo Roma, updated November 2025).
 
-| Time | Plan |
-|---|---|
-| 07:15 | Leave the ship. Free shuttle to Largo della Pace. |
-| 07:35 | Walk 15–20 minutes to Civitavecchia station. Buy and validate tickets. |
-| 08:00 | FL5 to Roma San Pietro (about 55 minutes). |
-| 09:00 | Walk 10 minutes to St Peter's Square. Security, then the Basilica. |
-| 10:45 | Via della Conciliazione to Castel Sant'Angelo. Cross the Tiber. |
-| 11:30 | Piazza Navona, then the Pantheon (€7). |
-| 12:30 | Lunch near the Pantheon or Campo de' Fiori. |
-| 13:30 | Trevi Fountain (€2 for the basin), then the Spanish Steps if time allows. |
-| 14:15 | Taxi or 25-minute walk back to Roma San Pietro. |
-| 14:50 | Train to Civitavecchia. Treat 15:30 as the absolute latest. |
-| 16:00 | Arrive Civitavecchia. Walk to Largo della Pace, shuttle to the pier. |
-| 16:45 | Back on board. |
+Give the Calling the longest look. It is the moment a tax collector is summoned from his counting table, and Caravaggio lets the light do most of the telling. In a museum it would be the room everyone queues for. Here it costs nothing.
 
-## The ship-safe return
+Entry is free. The parish does not publish visiting hours online; its 2026 bulletin lists Mass at 19:00 on weekdays, 12:30 on Saturdays and 10:30 on Sundays, and sightseeing stops during services. A late morning on a weekday is the safe slot. On a Saturday, go before 12:30.
 
-**The rule: be on a train leaving Rome at least three hours before all-aboard.**
+## The Pantheon, and the bronze that went missing
 
-The train takes 50–60 minutes from San Pietro. Then you have the 15–20 minute walk to Largo della Pace, the shuttle and terminal security. That puts you on board about 90 minutes before all-aboard, with one train's worth of slack. Getting from the centre to San Pietro station adds 20–30 minutes on foot or by taxi. From Termini the ride is about 25 minutes longer, so leave Termini earlier.
+The Pantheon is the best-preserved Roman temple, still roofed by its original concrete dome. Entry is €7 (2026), open daily from 09:00 to 19:00 with last admission 45 minutes before closing (Visit Rome, September 2026). It is a 30-minute visit and fits anywhere in the day.
 
-| All-aboard | Latest train out of Rome |
-|---|---|
-| 17:00 | 14:00 |
-| 18:00 | 15:00 |
-| 18:30 | 15:30 |
-| 19:00 | 16:00 |
+Here is the end of the Pasquino story. Pope Urban VIII, of the Barberini family, stripped bronze from the Pantheon to use in other works, including the baldachin in St Peter's, the one you saw at nine this morning. Rome's verdict, posted anonymously: *quod non fecerunt barbari, fecerunt Barberini*. What the barbarians did not do, the Barberini did.
 
-Set a phone alarm for the time you must leave for the station, not for the train itself.
+A minute's walk away is Piazza della Minerva. On a plinth stands a small marble elephant carrying an Egyptian obelisk, designed by Bernini and finished by Ercole Ferrata in 1667. Behind it, the plain front of Santa Maria sopra Minerva hides a statue of Christ the Redeemer attributed to Michelangelo, the tombstone of the painter Fra Angelico, carved by Isaia da Pisa in 1455, and the burial place of St Catherine of Siena (Turismo Roma, updated February 2026). Most people photograph the elephant and never open the door.
 
-## If something goes wrong
+## Coffee the Roman way
 
-- **Cancelled train:** take the next FL5. They run every 20–30 minutes.
-- **Strike:** regional trains run only in guaranteed bands, usually 06:00–09:00 and 18:00–21:00 on weekdays. Check Trenitalia the evening before. Do not go independently on a strike day. Take the ship's coach or the SIT coach (€12.50 one way, €25 return, from Largo della Pace).
-- **Taxi:** a taxi from Rome to the port is the last resort. Agree the fare before you get in.
-- **Running late:** call the port agent number in your daily programme. The ship will not wait for independent travellers.
+Before you leave the Pantheon area, stand at the bar of Sant'Eustachio Il Caffè, on Piazza di Sant'Eustachio, open since 1938 and still roasting over wood. The house order is the *gran caffè*, a secret blend served in a slightly larger cup, and it comes already sweetened, with a light cream on top (Italia.it). If you take your coffee without sugar, say so when you order. Drink it at the bar and move on.
 
-## Common mistakes
+For lunch, the guide's short list on this stretch is Roscioli Salumeria near Campo de' Fiori for carbonara and cacio e pepe, and Giolitti near the Pantheon for gelato. Be seated by 12:45 and out by 13:30.
 
-- **Trying to do the Vatican Museums and the Colosseum in one day.** Pick one area.
-- **Not validating a paper ticket.** Stamp it on the platform, or use the app.
-- **Going independently on a strike day.** Check the evening before.
-- **Catching the last possible train back.** Leave three hours before all-aboard.
-- **Buying a BIRG when you only ride the train.** Two singles are cheaper.
-- **Arriving at a Colosseum slot without the named ID.** Tickets are nominative.
+## 13:30, Trevi, and where your coin goes
+
+The Trevi Fountain is a short walk from the Pantheon. The area by the basin is ticketed, €2 from 09:00 to 22:00 (2026), payable by card at the entrance or online; viewing from the square is free. It is busiest from late morning to evening, and it is one of the places in Rome where pickpockets work hardest, so bag in front and zipped.
+
+Throw the coin. It does more good than you think. Municipal workers rake the fountain about three times a week, and the money goes to Caritas, the Catholic charity, which uses it for canteens, groceries for poor families and help for homeless people. It comes to about €1.5 million a year, roughly €3,000 a day, and 2023 set a record at around €1.6 million, Wanted in Rome reported in December 2025.
+
+## 14:00, the walk back that decides the day
+
+For a 17:30 all-aboard, this is the moment. Start walking or get a taxi from the centre to San Pietro station by 14:00. The walk is 20–30 minutes, and you want to be on a train by 14:30. Taxis are hard to find in Rome when it rains, so on a wet day leave earlier.
+
+That train gets you to Civitavecchia in 50–60 minutes. Then the walk to Largo della Pace, the shuttle and terminal security. You are on board about 90 minutes before all-aboard, with one cancelled train's worth of slack. That slack is the point. FL5 trains run every 20–30 minutes; if yours is cancelled, the next one still works. If it does not, call the port agent number in your daily programme. The ship will not wait for independent travellers.
+
+For an 18:30 all-aboard, add an hour to every time: leave the centre by 15:00, train by 15:30.
+
+## The other way to do it: ancient Rome through the side door
+
+The standard Colosseum day goes to Termini, the longest ride on the line, and then across the busiest station in Rome. There is a better door in.
+
+Stay on the FL5 to Roma Ostiense instead. It costs the same €4.60 as San Pietro and takes about 65 minutes (Art Visit Guide, October 2026). Next to the station stands a pyramid. The Pyramid of Cestius is a Roman tomb in the Egyptian style that became fashionable after the Battle of Actium in 31 BC, and according to Rome's tourist board it was built in 330 days, as its owner's will required. The interior opens only on booked days in seasonal programmes (autumn 2026 ran free slots on Saturdays in September and October); the outside is always there.
+
+Round the corner, at Via Caio Cestio 6, is the Non-Catholic Cemetery, where the poet John Keats and the Italian political thinker Antonio Gramsci are buried. A charity, I Gatti della Piramide, looks after the cats that live around it. Opening hours are 09:00–17:00 Monday to Saturday (last entry 16:30) and 09:00–13:00 on Sundays and public holidays (last entry 12:30), and visitors are asked for a contribution of at least €5 (cemetery website, December 2025). Half an hour here is the calmest half hour in Rome.
+
+Then walk to the Piramide stop on metro line B, by the station, and ride two stops to Colosseo. This is the one plan where the BIRG day ticket (€14, 2026) makes sense, because it covers the train and the metro rides on one ticket.
+
+The Colosseum, Forum and Palatine share one 24-hour ticket, €18 plus booking fee (2026), or €24 for the Full Experience. Entry is by compulsory time slot, released 30 days ahead; tickets carry your name and are checked against ID. Allow three hours. A [Colosseum, Forum and Palatine guided tour](https://www.viator.com/tours/Rome/Rome-Colosseum-Roman-Forum-and-Palatine-Hill-Guided-Tour/d511-15932P15?mcid=42383&pid=P00216188) is worth it for the Forum in particular, which is a field of stones without someone to read it for you.
+
+On the way back, leave the Colosseum by 13:50 for a 17:30 all-aboard (14:50 for 18:30). That is the guide's figure, which allows 40 minutes to get to a train.
+
+## What we would skip
+
+Anything that takes three hours and is not the Vatican Museums or the Colosseum. Rome's cooking classes are well reviewed, and a pasta-and-tiramisu morning near Piazza Navona sounds like the perfect cruise day. It is three of your five hours, and you will see Rome through a kitchen window.
+
+We would also skip trying to see both big sites. Each needs two and a half to three hours, they are 40 minutes apart, and the train gives you about five hours in the city. Pick one, and walk the free things around it.
+
+## When the ship's tour is the right call
+
+Book the ship's excursion if a rail strike is listed for your date: on strike days regional trains run only in guaranteed bands, usually 06:00–09:00 and 18:00–21:00 on weekdays, so you can get in and not get back. Book it if you have limited mobility, since stations, platforms and cobbles add up and not every platform is step-free. Book it on a short call, where five hours in the city shrinks to three.
+
+Otherwise the train is reliable enough for a careful, early-starting day. If you are still weighing whether Rome is worth the trip at all, our piece on [how far Rome really is from the cruise port](/blog/how-far-is-rome-from-cruise-port) has the honest arithmetic, and a closer alternative most passengers never consider.
+
+## The practical bit
+
+| Time (17:30 all-aboard) | Where | Notes (2026) |
+|---|---|---|
+| 07:15 | Ship to Largo della Pace | Free shuttle, 10–15 min |
+| 08:00 | FL5 from Civitavecchia | €4.60 to San Pietro; validate paper tickets |
+| 09:00 | St Peter's Basilica | Free; covered shoulders and knees |
+| 10:15 | Campo Santo Teutonico | Free; 09:00–12:00, closed Wednesdays |
+| 10:45 | Ponte Sant'Angelo | Free view of Castel Sant'Angelo |
+| 11:15 | Pasquino, Piazza Navona, San Luigi dei Francesi | All free |
+| 12:00 | Pantheon, Minerva elephant, Sant'Eustachio | Pantheon €7, 09:00–19:00 |
+| 12:45 | Lunch | Near the Pantheon or Campo de' Fiori |
+| 13:30 | Trevi Fountain | €2 basin, 09:00–22:00 |
+| 14:00 | Leave the centre for San Pietro station | 20–30 min on foot or by taxi |
+| 14:30 | Latest FL5 back | Next train in 20–30 min if cancelled |
+
+Change the all-aboard time in the [Rome day planner](/day/rome) and every line moves with it. The [Rome port guide](/ports/rome) has the full sights list, food and scams.
+
+At the end of the day, the baldachin you saw at nine is made partly of the Pantheon's bronze, and the coin you left in the fountain is somebody's lunch next week. Rome keeps its accounts in odd places.
 
 ## FAQ
 
-### How long does the train from Civitavecchia to Rome take?
+### Can you do Rome from a cruise ship without an excursion?
 
-50–60 minutes to Roma San Pietro, 75–85 minutes to Roma Termini on the FL5 regional train (2026).
+Yes. Take the free shuttle and the FL5 train from Civitavecchia, €4.60 each way to San Pietro (2026). Start early, choose one area, and be on a train back three hours before all-aboard.
 
-### Do I need to pre-book the Colosseum?
+### Is it cheaper to do Rome on your own?
 
-Yes. Entry is by compulsory time slot, slots are released 30 days ahead, and tickets are in your name.
+By a lot. Carnival's coach transfer is US$129.99 per adult (2026); the return train is €9.20. St Peter's, Piazza Navona and the Caravaggios in San Luigi dei Francesi are free.
+
+### Do I need to pre-book the Colosseum or the Vatican Museums?
+
+Yes for both. Colosseum entry is by compulsory time slot released 30 days ahead, in your name. Vatican Museums slots are booked online for €20 plus €5 (2026).
 
 ### What if I miss my train back?
 
-Take the next FL5; they run every 20–30 minutes. That is why the three-hour rule leaves one train's worth of slack. Call the port agent if you will be late.
+Take the next FL5; they run every 20–30 minutes, which is why the three-hour rule leaves one train's worth of slack. Call the port agent number in your daily programme if you will be late.
 
 ### Can I do the Colosseum and the Vatican in one port day?
 
-Not well. Each needs two to three hours plus travel, and you have four to five hours in Rome.
-
-## Plan your Rome port day
-
-Enter your all-aboard time and PortTrip works out your Civitavecchia train, your time in Rome and your must-leave time. [Check my exact Rome return timing →](https://porttrip.com/planner)
+Not well. Each needs two and a half to three hours, they are 40 minutes apart, and you have about five hours in Rome. Choose one.
 
 ## Sources
 
-- [Port of Civitavecchia – Port mobility shuttle buses](https://www.civitavecchiaport.org/port-mobility-shuttle-buses/)
-- [Port Mobility – Largo della Pace service centre](https://civitavecchia.portmobility.it/en/largo-della-pace-service-center-port-civitavecchia)
-- [Regione Lazio – Metrebus fare system (BIRG/BTR), updated 10 August 2026](https://regione.lazio.it/sites/default/files/documentazione/2026/Allegato-6-Sistema-Tariffario-agg-10-08-2026.pdf)
-- [BlueKeys – Civitavecchia to Rome: train, shuttle and transfer 2026](https://bluekeys.it/blog/civitavecchia-rome-transfer-fl5-train)
-- [Parco archeologico del Colosseo – Opening times and tickets](https://colosseo.it/en/visita/orari-e-biglietti/)
-- [Turismo Roma – Trevi Fountain entry fee](https://turismoroma.it/en/node/168455)
-- [Wanted in Rome – Pantheon fee rises from €5 to €7](https://www.wantedinrome.com/news/rome-raises-entry-fee-for-pantheon-from-5-to-7.html)
+- [Port of Civitavecchia: port mobility shuttle buses](https://www.civitavecchiaport.org/port-mobility-shuttle-buses/)
+- [Art Visit Guide: Civitavecchia to Rome on a cruise day (updated 3 October 2026)](https://www.artvisitguide.com/civitavecchia-to-rome-cruise-day/)
+- [Carnival: Explore Rome on Your Own](https://www.carnival.com/shore-excursions/rome-civitavecchia-italy/rome-on-your-own-804099)
+- [Travelbook: Campo Santo Teutonico (updated July 2025)](https://www.travelbook.de/orte/friedhof-campo-santo-teutonico-rom)
+- [Evangelisch.de: visiting the Campo Santo Teutonico, 29 April 2026](https://www.evangelisch.de/blogs/stilvoll-glauben/254984/29-04-2026)
+- [Wikipedia: Teutonic Cemetery](https://en.wikipedia.org/wiki/Teutonic_Cemetery)
+- [Smithsonian: Pasquino, Rome's talking statue](https://www.smithsonianmag.com/smart-news/have-something-rude-say-put-it-2300-year-old-statute-rome-180955704/)
+- [Italy Guides: Fountain of the Four Rivers](https://www.italyguides.it/en/lazio/rome/squares-and-fountains/piazza-navona/fountain-of-the-four-rivers)
+- [Turismo Roma: San Luigi dei Francesi (updated November 2025)](https://www.turismoroma.it/it/luoghi/san-luigi-dei-francesi)
+- [Visit Rome: Pantheon ticket raised to €7 (updated September 2026)](https://visitrome.com/rome/travel-guides/romes-pantheon-ticket-price-raised-to-7-for-preservation)
+- [Turismo Roma: Basilica of Santa Maria sopra Minerva (updated February 2026)](https://www.turismoroma.it/en/places/basilica-santa-maria-sopra-minerva)
+- [Wanted in Rome: what Rome does with the Trevi Fountain coins, December 2025](https://www.wantedinrome.com/news/what-does-rome-do-with-all-the-trevi-fountain-coins.html)
+- [Turismo Roma: Trevi Fountain entry fee](https://turismoroma.it/en/node/168455)
+- [Turismo Roma: Pyramid of Cestius opening days, autumn 2026](https://turismoroma.it/en/events/pyramid-cestius-new-series-opening-days-following-pnrr-restoration-works)
+- [Non-Catholic Cemetery for Foreigners in Rome: visitor information](https://cemeteryrome.it/en/information/)
 `;
