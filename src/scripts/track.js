@@ -25,6 +25,8 @@ document.addEventListener('click', (e) => {
     fire('Free plan click', { page, port: (/\/day\/([^/?#]+)/.exec(href) || [])[1] || '' });
   } else if (/viator\.com/.test(href)) {
     fire('Tour click', { page, where: a.closest('aside') ? 'strip' : 'list' });
+  } else if (/\/travel-advisors|\/advisors\//.test(href)) {
+    fire('Advisor click', { page, from: a.closest('footer') ? 'footer' : 'page' });
   } else if (/porttripapp\.com\/(login|pricing)/.test(href)) {
     fire('App click', { page, target: /login/.test(href) ? 'sign_in' : 'pricing' });
   }

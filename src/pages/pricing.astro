@@ -50,6 +50,11 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntit
       {PROOF.filter((p) => p.k !== 'price').concat([{ k: 'refund', head: 'Nothing to lose.', body: 'Pay once, nothing renews. If it is not for you, email within 30 days for a full refund. No questions.', href: 'mailto:hello@porttrip.com' }]).map((p) => <div class="border-l-2 border-signal pl-4"><p class="font-semibold">{p.head}</p><p class="mt-1 text-[15px] leading-relaxed text-navy/75">{p.body}</p></div>)}
     </section>
     <p class="mt-10 text-center"><a href={buyUrl('cruise_pass', 'pricing_page_bottom')} class="btn-signal w-full sm:w-auto" rel="nofollow" data-buy="pricing_page_bottom">Get the Cruise Pass · {PRICES.pass}</a></p>
+    <section class="mt-14 rounded-2xl bg-fog p-6 sm:p-8">
+      <h2 class="text-2xl font-semibold tracking-tight">Travel advisor?</h2>
+      <p class="mt-2 max-w-2xl text-navy/80">Send each cruise client a port-by-port plan with your logo on it: when to leave each part of town to make the ship, how to get in, what to see and what it costs. You copy the port calls from the booking; we fill in the checked detail. Solo €29 a month, Agency €199 a month for five advisors, 7 days free.</p>
+      <p class="mt-4 flex flex-wrap gap-3"><a href="/travel-advisors" class="btn-navy" data-app="advisors">See PortTrip for advisors</a><a href="https://porttrip.com/r/5aadd44ec79b6ed4f8952a1ee42d8cf2c368?preview=1" class="rounded-xl px-4 py-3 font-semibold text-sea underline underline-offset-4" rel="nofollow">Open a sample plan</a></p>
+    </section>
     <div class="mt-14 divide-y divide-navy/10 border-y border-navy/10">
       {FAQ.map(([q, a]) => <details class="group"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-4 [&::-webkit-details-marker]:hidden"><h2 class="font-semibold">{q}</h2><span class="text-xl text-sea transition-transform group-open:rotate-45" aria-hidden="true">+</span></summary><p class="pb-4 text-navy/80">{a}</p></details>)}
     </div>
