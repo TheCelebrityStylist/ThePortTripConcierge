@@ -30,3 +30,5 @@ Today the site gets about 50 Google impressions a week. Traffic is the bottlenec
 - [ ] Whole-cruise planner: enter the ports and dates once; every port day is built with the same preferences, tiring days are balanced across the week, budget across the cruise, one assistant conversation for the whole trip. Cruise Pass unlocks it.
 - [ ] Crowd-aware timing: the cruiseRadar source (cruisedig.com) now returns 403. Find a lawful replacement source for ships in port per date.
 - [ ] Day builder: shorten a long stop automatically when it is the only thing that fits (e.g. Progreso on a short call).
+- [ ] Head-back rows for fixed-departure transport (e.g. Katakolon "single early-afternoon train") are shown as minutes-before-all-aboard. With a non-standard all-aboard the real train may leave earlier or later. Store the actual departure time on those rows and show "take the 13:xx train" instead. Affects day builder and advisor plans.
+- [ ] Cruise Radar consumer pages use CruiseDig, which blocks us and is personal/non-commercial use only. Switch off or replace with a licensed source (waiting on Elke).
