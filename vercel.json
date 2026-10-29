@@ -1456,6 +1456,41 @@
       "source": "/unsubscribe/:path*",
       "destination": "https://porttripapp.com/unsubscribe/:path*",
       "permanent": false
+    },
+    {
+      "source": "/MostOverpricedCruiseExcursions",
+      "destination": "/blog/how-much-do-cruise-excursions-cost",
+      "permanent": true
+    },
+    {
+      "source": "/authority/:path*",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-cruise-ports-europe",
+      "destination": "/blog/best-mediterranean-cruise-ports-diy",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rome-civitavecchia",
+      "destination": "/blog/how-to-get-from-civitavecchia-to-rome",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/panic/CanCruiseShipLeaveWithoutYou",
+      "destination": "/can-a-cruise-ship-leave-without-you",
+      "permanent": true
+    },
+    {
+      "source": "/panic/:path*",
+      "destination": "/how-to-never-miss-your-cruise-ship",
+      "permanent": true
     }
   ],
   "rewrites": [
