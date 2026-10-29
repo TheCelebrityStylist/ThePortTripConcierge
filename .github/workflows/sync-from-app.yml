@@ -1,0 +1,77 @@
+name: Sync from app
+# Picks up new port guides and posts that the daily port wave publishes in the Base44 app
+# (https://porttripapp.com/site-sync/bundle.json), adds them to this site, builds, and pushes.
+# Vercel deploys the push. Existing guides and posts are never overwritten.
+on:
+  schedule:
+    - cron: '20 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      overwrite:
+        description: 'Comma-separated slugs to replace (optional)'
+        required: false
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: sync-from-app
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Import bundle
+        id: imp
+        run: |
+          if [ -n "${{ github.event.inputs.overwrite }}" ]; then
+            node ops/sync/importFromApp.mjs --overwrite "${{ github.event.inputs.overwrite }}"
+          else
+            node ops/sync/importFromApp.mjs
+          fi
+      - name: Build (quality gate)
+        if: steps.imp.outputs.changed == 'true'
+        run: |
+          npm ci
+          npm run build
+          for s in $(echo "${{ steps.imp.outputs.ports }}" | tr ',' ' '); do test -s "dist/ports/$s.html" || { echo "missing page /ports/$s"; exit 1; }; done
+          for s in $(echo "${{ steps.imp.outputs.posts }}" | tr ',' ' '); do test -s "dist/blog/$s.html" || { echo "missing page /blog/$s"; exit 1; }; done
+      - name: Commit and push
+        if: steps.imp.outputs.changed == 'true'
+        run: |
+          git config user.name "PortTrip sync"
+          git config user.email "sync@porttrip.com"
+          git add src/data ops/sync/last.json
+          git commit -m "Sync from app: ports ${{ steps.imp.outputs.ports }} posts ${{ steps.imp.outputs.posts }}"
+          git push origin HEAD:main
+          git push origin HEAD:porttrip-web --force-with-lease || git push origin HEAD:porttrip-web
+      - name: Record bundle id (nothing new)
+        if: steps.imp.outputs.changed != 'true'
+        run: |
+          if ! git diff --quiet -- ops/sync/last.json 2>/dev/null || [ -n "$(git status --porcelain ops/sync/last.json)" ]; then
+            git config user.name "PortTrip sync"; git config user.email "sync@porttrip.com"
+            git add ops/sync/last.json && git commit -m "Sync from app: bundle seen, nothing new" && git push origin HEAD:main && git push origin HEAD:porttrip-web || true
+          fi
+      - name: Wait for Vercel, check pages, ping IndexNow
+        if: steps.imp.outputs.changed == 'true'
+        run: |
+          URLS=""
+          for s in $(echo "${{ steps.imp.outputs.ports }}" | tr ',' ' '); do URLS="$URLS https://porttrip.com/ports/$s"; done
+          for s in $(echo "${{ steps.imp.outputs.posts }}" | tr ',' ' '); do URLS="$URLS https://porttrip.com/blog/$s"; done
+          for i in $(seq 1 20); do
+            ok=1; for u in $URLS; do [ "$(curl -s -o /dev/null -w '%{http_code}' "$u")" = "200" ] || ok=0; done
+            [ $ok = 1 ] && break; sleep 30
+          done
+          for u in $URLS; do echo "$(curl -s -o /dev/null -w '%{http_code}' "$u") $u"; done
+          LIST=$(for u in $URLS; do printf '"%s",' "$u"; done | sed 's/,$//')
+          curl -s -o /dev/null -w "IndexNow %{http_code}\n" -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"porttrip.com\",\"key\":\"7306806106c04d5d9b775690953f7866\",\"keyLocation\":\"https://porttrip.com/7306806106c04d5d9b775690953f7866.txt\",\"urlList\":[${LIST}]}" \
+            https://api.indexnow.org/indexnow
