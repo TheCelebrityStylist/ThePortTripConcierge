@@ -5,6 +5,9 @@ name: Sync from app
 on:
   schedule:
     - cron: '20 */2 * * *'
+  push:
+    branches: [main]
+    paths: ['ops/sync/request.txt']
   workflow_dispatch:
     inputs:
       overwrite:
