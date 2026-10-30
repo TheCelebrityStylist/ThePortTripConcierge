@@ -1,7 +1,21 @@
 {
- "id": "a7e7a38503c9",
- "made": "2026-10-29T12:42:17.959Z",
- "at": "2026-10-29",
- "ports": [],
+ "id": "22afea63e91a",
+ "made": "2026-10-30T05:28:37.927Z",
+ "at": "2026-10-30",
+ "ports": [
+  "cannes",
+  "grenada",
+  "hamburg",
+  "honningsvag",
+  "kiel",
+  "kona",
+  "mahon",
+  "olbia",
+  "pointe-a-pitre",
+  "rotterdam",
+  "seydisfjordur",
+  "villefranche",
+  "zakynthos"
+ ],
  "posts": []
 }

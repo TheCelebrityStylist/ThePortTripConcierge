@@ -6286,5 +6286,490 @@
   "returnRiskReason": "Ships berth by the old town; only Erice and Favignana trips add real return risk.",
   "topRisk": "Planning Erice by cable car on a Monday morning or in November, when it opens at 14:00 or is closed.",
   "bestFree": "The old town and the Mura di Tramontana sea walls"
+ },
+ "cannes": {
+  "leaveBy": [
+   {
+    "from": "Cannes centre and La Croisette (tender landing, Vieux Port)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk 5–10 min to the tender landing; be there 90 min before all-aboard",
+    "basis": "rule"
+   },
+   {
+    "from": "Cannes station",
+    "minutesBeforeAllAboard": 100,
+    "how": "About 10 min on foot to the tender landing, plus tender queue",
+    "basis": "derived"
+   },
+   {
+    "from": "Île Sainte-Marguerite (ferry quay)",
+    "minutesBeforeAllAboard": 105,
+    "how": "Ferry about 15 min to the Vieux Port, boats about hourly, then tender",
+    "basis": "derived"
+   },
+   {
+    "from": "Nice-Ville station",
+    "minutesBeforeAllAboard": 170,
+    "how": "Train about 30–40 min, about 10 min on foot to the landing, then tender; at the landing 120 min before all-aboard",
+    "basis": "derived"
+   },
+   {
+    "from": "Monaco–Monte-Carlo station",
+    "minutesBeforeAllAboard": 190,
+    "how": "Train about 1 hour, about 10 min on foot to the landing, then tender; at the landing 120 min before all-aboard",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": 10,
+  "access": "tender",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "Tender queues build in the afternoon, and island ferries run only about once an hour.",
+  "topRisk": "Missing the last useful hourly ferry back from Île Sainte-Marguerite and then meeting the afternoon tender queue.",
+  "bestFree": "Le Suquet and a walk along La Croisette"
+ },
+ "grenada": {
+  "leaveBy": [
+   {
+    "from": "St George's town and the Carenage",
+    "minutesBeforeAllAboard": 60,
+    "how": "Walk back over the headland via Young Street and through the Esplanade Mall",
+    "basis": "rule"
+   },
+   {
+    "from": "Grand Anse (water taxi)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Water taxi to the Carenage, 5–10 min, then walk to the berth",
+    "basis": "rule"
+   },
+   {
+    "from": "Grand Anse (minibus or taxi)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Route 1 minibus 20–30 min or taxi about 15 min; afternoon traffic",
+    "basis": "rule"
+   },
+   {
+    "from": "Annandale Falls",
+    "minutesBeforeAllAboard": 120,
+    "how": "About 20 min drive back to St George's",
+    "basis": "rule"
+   },
+   {
+    "from": "Underwater Sculpture Park boat trip",
+    "minutesBeforeAllAboard": 120,
+    "how": "Boat back to St George's on a tour with a fixed return",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "walk",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "The ship docks in town; only the Grand Anse road jams in the afternoon.",
+  "topRisk": "Staying at Grand Anse too late and hitting afternoon traffic or a late water taxi on the way back.",
+  "bestFree": "Walking the Carenage waterfront"
+ },
+ "hamburg": {
+  "leaveBy": [
+   {
+    "from": "City centre or Landungsbrücken (ship at HafenCity)",
+    "minutesBeforeAllAboard": 90,
+    "how": "U4 to Überseequartier, one stop from Jungfernstieg, or walk via the Speicherstadt",
+    "basis": "rule"
+   },
+   {
+    "from": "Landungsbrücken (ship at Altona)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Harbour ferry 62 west, two stops, about every 15 min in the daytime",
+    "basis": "rule"
+   },
+   {
+    "from": "City centre or Landungsbrücken (ship at Steinwerder)",
+    "minutesBeforeAllAboard": 120,
+    "how": "Walk the Old Elbe Tunnel then bus 256 (15–20 min), or ferry 73 on weekdays only",
+    "basis": "rule"
+   },
+   {
+    "from": "Hauptbahnhof (ship at Steinwerder)",
+    "minutesBeforeAllAboard": 120,
+    "how": "S-Bahn to Veddel and bus 256, about 30 min",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "walk-or-ride",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "HafenCity and Altona are easy, but Steinwerder depends on bus 256 and a weekday-only ferry.",
+  "topRisk": "Planning the return without checking which of Hamburg's terminals the ship is using.",
+  "bestFree": "Walking the Speicherstadt and Landungsbrücken"
+ },
+ "honningsvag": {
+  "leaveBy": [
+   {
+    "from": "Honningsvåg town centre",
+    "minutesBeforeAllAboard": 60,
+    "how": "On foot, 2–5 min to the quay",
+    "basis": "rule"
+   },
+   {
+    "from": "Honningsvåg town centre (ship at anchor)",
+    "minutesBeforeAllAboard": 90,
+    "how": "On foot to the inner-harbour tender pontoon, then tender about 10 min",
+    "basis": "rule"
+   },
+   {
+    "from": "Honningsvåg Church",
+    "minutesBeforeAllAboard": 70,
+    "how": "On foot downhill, about 800 m",
+    "basis": "derived"
+   },
+   {
+    "from": "North Cape plateau (independent trip)",
+    "minutesBeforeAllAboard": 165,
+    "how": "Taxi or hire car, 45–75 min depending on conditions",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": 2,
+  "access": "walk",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "The North Cape trip relies on an exposed 33 km road that weather can slow or close.",
+  "topRisk": "Leaving it too late to get a bus seat to the North Cape on a multi-ship day, or underestimating plateau weather.",
+  "bestFree": "Harbour walk to Honningsvåg Church"
+ },
+ "kiel": {
+  "leaveBy": [
+   {
+    "from": "City centre or main station (ship at Ostseekai)",
+    "minutesBeforeAllAboard": 75,
+    "how": "Walk about 15 min through the pedestrian zone",
+    "basis": "derived"
+   },
+   {
+    "from": "Main station (ship at Norwegenkai or Schwedenkai)",
+    "minutesBeforeAllAboard": 70,
+    "how": "Walk about 10 min, over the Hörnbrücke for Norwegenkai",
+    "basis": "derived"
+   },
+   {
+    "from": "Kiel Hauptbahnhof (ship at Ostuferhafen)",
+    "minutesBeforeAllAboard": 120,
+    "how": "Bus 11 or X60 to Grenzstraße, then about 15 min on foot, or taxi",
+    "basis": "rule"
+   },
+   {
+    "from": "Laboe (ship at Ostseekai)",
+    "minutesBeforeAllAboard": 165,
+    "how": "Fjord ferry F1 about 1 hr to the Bahnhofsbrücke, then about 15 min on foot",
+    "basis": "derived"
+   },
+   {
+    "from": "Lübeck (ship at Ostseekai)",
+    "minutesBeforeAllAboard": 205,
+    "how": "Train about 1 hr 36 min with changes to Kiel Hauptbahnhof, then about 15 min on foot",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": 15,
+  "access": "walk-or-ride",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "Ostseekai is in town, but Ostuferhafen, the infrequent Laboe ferry and the long Lübeck train all add risk.",
+  "topRisk": "Not checking the berth: Ostuferhafen is about 8 km from the centre and needs a bus plus a 15-minute walk.",
+  "bestFree": "Walking the Kiellinie waterfront"
+ },
+ "kona": {
+  "leaveBy": [
+   {
+    "from": "Historic Kailua Village (Aliʻi Drive)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk a few minutes to Kailua Pier, then the tender queue",
+    "basis": "rule"
+   },
+   {
+    "from": "Kahaluʻu Beach Park",
+    "minutesBeforeAllAboard": 120,
+    "how": "Taxi or Kona Trolley about 5 miles to Kailua Pier, then the tender queue",
+    "basis": "rule"
+   },
+   {
+    "from": "Magic Sands (Laʻaloa Beach Park)",
+    "minutesBeforeAllAboard": 120,
+    "how": "Taxi or Kona Trolley about 4 miles to Kailua Pier, then the tender queue",
+    "basis": "rule"
+   },
+   {
+    "from": "Puʻuhonua o Hōnaunau",
+    "minutesBeforeAllAboard": 180,
+    "how": "Drive about 23.5 miles back to Kailua-Kona, then the tender queue",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": 5,
+  "access": "tender",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "Every passenger returns by tender through one small pier, and the trolley south runs only a few trips a day.",
+  "topRisk": "Coming back from the beaches south of town too late and meeting a long tender queue at Kailua Pier.",
+  "bestFree": "Snorkelling with turtles at Kahaluʻu via the free Kona Trolley"
+ },
+ "mahon": {
+  "leaveBy": [
+   {
+    "from": "Maó old town (Plaça de la Conquesta)",
+    "minutesBeforeAllAboard": 60,
+    "how": "Steps or lift down the Costa de ses Voltes, about 10–15 min",
+    "basis": "rule"
+   },
+   {
+    "from": "Maó old town (ship at Cos Nou)",
+    "minutesBeforeAllAboard": 80,
+    "how": "Walk about 20 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Punta Prima or Binibeca",
+    "minutesBeforeAllAboard": 75,
+    "how": "Taxi about 15 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Ciutadella",
+    "minutesBeforeAllAboard": 140,
+    "how": "Bus or taxi 45–50 min, 45 km",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": 15,
+  "access": "walk",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "The ship is a short walk below town; only the lift and Ciutadella trips add risk.",
+  "topRisk": "Counting on the port lift for the return when it queues on multi-ship days and has broken down before.",
+  "bestFree": "The Mercat del Claustre and Mercat de Peix on Plaça del Carme"
+ },
+ "olbia": {
+  "leaveBy": [
+   {
+    "from": "Corso Umberto (Olbia centre)",
+    "minutesBeforeAllAboard": 60,
+    "how": "Bus 9 or taxi to the Stazione Marittima, then the port shuttle",
+    "basis": "rule"
+   },
+   {
+    "from": "Archaeological Museum (old port)",
+    "minutesBeforeAllAboard": 60,
+    "how": "Bus 9 from the town hall stop or taxi, then the port shuttle",
+    "basis": "rule"
+   },
+   {
+    "from": "Pittulongu beach",
+    "minutesBeforeAllAboard": 75,
+    "how": "Line 40 Spiagge Express about 15 min, then bus 9 or taxi to the port",
+    "basis": "derived"
+   },
+   {
+    "from": "Porto Cervo (Costa Smeralda)",
+    "minutesBeforeAllAboard": 145,
+    "how": "Taxi, about 30 km; 45–55 min in July and August",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "walk-or-ride",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "Town is easy, but summer traffic from the Costa Smeralda can stretch a 30 km drive to nearly an hour.",
+  "topRisk": "Treating Porto Cervo as a short hop and leaving the coast too late in afternoon summer traffic.",
+  "bestFree": "Corso Umberto and the Punic and Roman remains in the centre"
+ },
+ "pointe-a-pitre": {
+  "leaveBy": [
+   {
+    "from": "Town centre (Place de la Victoire)",
+    "minutesBeforeAllAboard": 75,
+    "how": "Walk 10–15 min to the Centre Saint-John Perse terminal",
+    "basis": "rule"
+   },
+   {
+    "from": "Mémorial ACTe",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk about 30 min via Place de la Victoire, or a short taxi",
+    "basis": "rule"
+   },
+   {
+    "from": "Plage de la Datcha (Le Gosier)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Taxi about 15 min; book the pick-up in advance",
+    "basis": "rule"
+   },
+   {
+    "from": "Sainte-Anne beaches",
+    "minutesBeforeAllAboard": 135,
+    "how": "Taxi or car 30–45 min, with afternoon traffic from 16:00",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": 15,
+  "access": "walk",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "The ship docks in town; only beach trips depend on taxis and afternoon traffic.",
+  "topRisk": "Arriving on a Sunday expecting open shops and buses, or staying too late at a south-coast beach as weekday traffic builds.",
+  "bestFree": "Place de la Victoire and the markets"
+ },
+ "rotterdam": {
+  "leaveBy": [
+   {
+    "from": "City centre (Beurs, Markthal, Cube Houses)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Up to 30 min on foot over the Erasmus Bridge, or metro to Wilhelminaplein about 5 min plus a 4 min walk",
+    "basis": "derived"
+   },
+   {
+    "from": "Delft",
+    "minutesBeforeAllAboard": 115,
+    "how": "Train about 15 min to Rotterdam Centraal, metro about 5 min to Wilhelminaplein, 4 min walk",
+    "basis": "derived"
+   },
+   {
+    "from": "The Hague",
+    "minutesBeforeAllAboard": 125,
+    "how": "Train about 25 min to Rotterdam Centraal, metro about 5 min to Wilhelminaplein, 4 min walk",
+    "basis": "derived"
+   },
+   {
+    "from": "Amsterdam",
+    "minutesBeforeAllAboard": 160,
+    "how": "Train 40–60 min to Rotterdam Centraal, metro about 5 min to Wilhelminaplein, 4 min walk",
+    "basis": "derived"
+   },
+   {
+    "from": "Kinderdijk",
+    "minutesBeforeAllAboard": 150,
+    "how": "WaterShuttle under 30 min to the Erasmus Bridge (north bank), then up to 30 min on foot over the bridge; do not rely on the last boat",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": 30,
+  "access": "walk-or-ride",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "The ship docks in the city with a metro station four minutes away; only train day trips add real risk.",
+  "topRisk": "Treating Rotterdam as an easy Amsterdam day and cutting the 40–60 minute train back too fine.",
+  "bestFree": "Walking the Erasmus Bridge and the Markthal"
+ },
+ "seydisfjordur": {
+  "leaveBy": [
+   {
+    "from": "Seyðisfjörður town centre",
+    "minutesBeforeAllAboard": 60,
+    "how": "On foot, about 5 min to the Ferjubakki pier",
+    "basis": "rule"
+   },
+   {
+    "from": "Tvísöngur sound sculpture",
+    "minutesBeforeAllAboard": 80,
+    "how": "Walk down the gravel track, 15–20 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Gufufoss",
+    "minutesBeforeAllAboard": 105,
+    "how": "On foot along the road, about 45 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Egilsstaðir",
+    "minutesBeforeAllAboard": 125,
+    "how": "Strætó Route 93 over the Fjarðarheiði pass, about 35 min",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": 5,
+  "access": "walk",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "The town is a five-minute walk from the pier; only trips over the pass carry risk.",
+  "topRisk": "Taking the sparse Route 93 bus to Egilsstaðir without a confirmed return bus, or expecting taxis to be available.",
+  "bestFree": "Walk up to the Tvísöngur sound sculpture"
+ },
+ "villefranche": {
+  "leaveBy": [
+   {
+    "from": "Villefranche old town (tender quay, Port de la Santé)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk a few minutes to the tender quay; be at the quay 90 min before all-aboard",
+    "basis": "rule"
+   },
+   {
+    "from": "Villefranche station / Plage des Marinières",
+    "minutesBeforeAllAboard": 100,
+    "how": "About 10 min on foot with stairs to the tender quay, plus tender queue",
+    "basis": "derived"
+   },
+   {
+    "from": "Nice-Ville station",
+    "minutesBeforeAllAboard": 140,
+    "how": "Train 7–10 min to Villefranche, about 10 min on foot to the quay, then tender; at the quay 120 min before all-aboard",
+    "basis": "derived"
+   },
+   {
+    "from": "Monaco–Monte-Carlo station",
+    "minutesBeforeAllAboard": 150,
+    "how": "Train 15–20 min to Villefranche, about 10 min on foot to the quay, then tender; at the quay 120 min before all-aboard",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": 5,
+  "access": "tender",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "Tender queues build in the afternoon, and trips to Nice or Monaco add a train and an uphill walk.",
+  "topRisk": "Arriving at Port de la Santé just before the last tender, when afternoon queues are longest.",
+  "bestFree": "The Citadelle Saint-Elme and the Rue Obscure"
+ },
+ "zakynthos": {
+  "leaveBy": [
+   {
+    "from": "Solomos Square (Zakynthos Town)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk about 5 min to the tender pier, then the tender queue",
+    "basis": "rule"
+   },
+   {
+    "from": "Bochali and the Venetian castle",
+    "minutesBeforeAllAboard": 120,
+    "how": "Walk down 20–30 min or taxi, then the tender queue",
+    "basis": "derived"
+   },
+   {
+    "from": "Tsilivi or Kalamaki beach",
+    "minutesBeforeAllAboard": 105,
+    "how": "Taxi 10–15 min, then the tender queue",
+    "basis": "derived"
+   },
+   {
+    "from": "Vasilikos beaches",
+    "minutesBeforeAllAboard": 130,
+    "how": "Taxi 30–40 min, then the tender queue",
+    "basis": "derived"
+   },
+   {
+    "from": "Porto Vromi or Navagio area (west coast)",
+    "minutesBeforeAllAboard": 170,
+    "how": "Drive 40–50 min across the island, then the tender queue",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": 5,
+  "access": "tender",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "Most ships tender, and Navagio and the Blue Caves are a long drive from the pier.",
+  "topRisk": "Planning to land or swim at Navagio, or booking a 6–8 hour boat from town, when the beach is closed and the trip leaves no return margin.",
+  "bestFree": "Solomos Square and the Bochali viewpoint"
  }
 }
