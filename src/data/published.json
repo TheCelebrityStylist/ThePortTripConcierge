@@ -413,10 +413,6 @@
    "lastmod": "2026-10-16"
   },
   {
-   "path": "/blog/best-mediterranean-cruise-ports-diy",
-   "lastmod": "2026-10-16"
-  },
-  {
    "path": "/blog/book-colosseum-acropolis-sagrada-familia-cruise",
    "lastmod": "2026-10-16"
   },
@@ -606,7 +602,7 @@
   },
   {
    "path": "/blog/best-mediterranean-cruise-ports",
-   "lastmod": "2026-10-11"
+   "lastmod": "2026-10-30"
   },
   {
    "path": "/blog/beaches-near-palma-cruise-port",
@@ -1215,6 +1211,10 @@
   {
    "path": "/ports/zakynthos",
    "lastmod": "2026-10-30"
+  },
+  {
+   "path": "/blog/cruise-port-days-limited-mobility",
+   "lastmod": "2026-10-30"
   }
  ],
  "blog": [
@@ -1222,7 +1222,6 @@
   "athens-cruise-port-guide-diy",
   "barcelona-cruise-port-diy-guide",
   "best-cruise-ports-without-excursions",
-  "best-mediterranean-cruise-ports-diy",
   "book-colosseum-acropolis-sagrada-familia-cruise",
   "bus-1a-dubrovnik-cruise-port",
   "cable-car-santorini-cruise",
@@ -1316,6 +1315,7 @@
   "beaches-near-mykonos-cruise-port",
   "beaches-near-barcelona-cruise-port",
   "beaches-near-santorini-cruise-port",
-  "beaches-near-malaga-cruise-port"
+  "beaches-near-malaga-cruise-port",
+  "cruise-port-days-limited-mobility"
  ]
 }

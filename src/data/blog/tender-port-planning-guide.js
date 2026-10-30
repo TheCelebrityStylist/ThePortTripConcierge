@@ -11,7 +11,7 @@ author: "Elke"
 hero: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1400&q=80
 tags: [tender port cruise, cruise tender planning, tender queue, tender tickets]
 relatedPorts: [santorini, mykonos, kotor, grand-cayman, hvar]
-relatedPosts: [mykonos-tender-risk-guide, is-grand-cayman-a-tender-port, is-hvar-a-tender-port, how-much-time-before-all-aboard]
+relatedPosts: [cruise-port-days-limited-mobility, mykonos-tender-risk-guide, is-grand-cayman-a-tender-port, is-hvar-a-tender-port, how-much-time-before-all-aboard]
 seoKeywords: [how cruise tender ports work, tender port planning, last tender cruise ship, cruise tender tickets, priority tendering]
 draft: false
 ---

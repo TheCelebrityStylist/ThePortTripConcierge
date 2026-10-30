@@ -11,7 +11,7 @@ excerpt: "Ship excursion prices vary by line, but where a line publishes its pri
 hero: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80"
 tags: ["excursions", "savings", "diy", "value", "mediterranean"]
 relatedPorts: ["santorini", "rome", "naples", "barcelona", "athens"]
-relatedPosts: ["cruise-port-tourist-traps", "best-mediterranean-cruise-ports-diy"]
+relatedPosts: ["cruise-port-tourist-traps", "best-mediterranean-cruise-ports"]
 seoKeywords: ["are cruise excursions worth it", "cruise excursion markup", "cruise excursion vs diy", "cruise excursion value"]
 ---
 

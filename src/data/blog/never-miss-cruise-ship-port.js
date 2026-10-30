@@ -138,5 +138,5 @@ No plan can guarantee that. PortTrip leave-by times are built from checked trans
 
 ---
 
-*See also: [How many people actually miss their cruise ship?](/how-many-people-miss-their-cruise-ship) · [How to avoid missing your cruise ship](/avoid-missing-your-cruise-ship) · [Build your ship-safe port day plan](/planner)*
+*See also: [How many people actually miss their cruise ship?](/blog/how-many-people-miss-cruise-ship-port) · [How to avoid missing your cruise ship](/avoid-missing-your-cruise-ship) · [Build your ship-safe port day plan](/planner)*
 `;

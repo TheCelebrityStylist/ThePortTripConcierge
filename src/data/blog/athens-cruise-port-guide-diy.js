@@ -11,7 +11,7 @@ excerpt: "A cruise day in Athens, told hour by hour from Monastiraki: the free r
 hero: "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=80"
 tags: ["athens", "piraeus", "acropolis", "greece", "metro", "anafiotika", "acropolis museum"]
 relatedPorts: ["athens", "piraeus", "santorini"]
-relatedPosts: ["piraeus-athens-metro-cruise", "santorini-vs-mykonos-cruise", "best-mediterranean-cruise-ports-diy"]
+relatedPosts: ["piraeus-athens-metro-cruise", "santorini-vs-mykonos-cruise", "best-mediterranean-cruise-ports"]
 seoKeywords: ["athens cruise port guide", "athens without excursion", "acropolis cruise ship", "athens one day cruise", "anafiotika", "areopagus hill"]
 ---
 

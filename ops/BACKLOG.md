@@ -20,6 +20,12 @@ Today the site gets about 50 Google impressions a week. Traffic is the bottlenec
 - [ ] Outreach drafts (do not send): 10 short emails a week to cruise forums, cruise bloggers, port tourist boards, pointing at a post with something new and sourced. Save to ops/outreach/ for Elke.
 - [ ] Structured data check (Article, FAQ, Breadcrumb) on all templates with the Rich Results rules; fix errors.
 
+- [ ] (SEO 30 Oct) 17 static pages have no JSON-LD (/blog, /ports, /about, /methodology, the five ship-return pages, etc.). Add Organization/WebPage/BreadcrumbList via Base.astro where missing.
+- [ ] (SEO 30 Oct) /about "Crawled - currently not indexed" and /legal/terms "Soft 404" — both from July crawls of the old Base44 site; recheck after recrawl.
+- [ ] (SEO 30 Oct) App page porttripapp.com links to porttrip.com/partners/join (redirect added). App task should link to porttripapp.com/partners/join directly.
+- [ ] (SEO 30 Oct) Query "how many people go missing on cruise ships" (pos 25) lands on the missed-the-ship post; different intent, left alone.
+- [ ] (SEO 30 Oct) /ports/phuket redirects to /ports. If a Phuket guide is added, delete that redirect first (redirects override pages).
+
 ## 3. Conversion
 - [ ] Port pages: add "Build my own day" (app /day/<slug>?b=1) next to "Plan my day free"; the builder is the strongest demo of the product.
 - [ ] Email capture that people want: "Send me my port times" (leave-by times for each port of their cruise, by email) -> nurture -> Cruise Pass. Resend is already set up in the app.

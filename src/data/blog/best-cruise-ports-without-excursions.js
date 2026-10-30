@@ -11,7 +11,7 @@ excerpt: "Ten ports where the old town starts at the gangway and the ship's tour
 hero: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=80"
 tags: ["ranking", "mediterranean", "diy", "independent-travel", "walkable-ports"]
 relatedPorts: ["trieste", "cartagena", "bari", "koper", "cadiz", "messina", "ajaccio", "monaco", "rhodes", "palermo"]
-relatedPosts: ["best-mediterranean-cruise-ports-diy", "are-cruise-excursions-worth-it", "cruise-excursion-alternatives-every-port", "what-to-do-6-hour-cruise-port"]
+relatedPosts: ["best-mediterranean-cruise-ports", "are-cruise-excursions-worth-it", "cruise-excursion-alternatives-every-port", "what-to-do-6-hour-cruise-port"]
 seoKeywords: ["best cruise ports without excursions", "walkable cruise ports", "cruise ports no excursion needed", "cruise ports walk to town", "easiest cruise ports independent"]
 ---
 
@@ -21,7 +21,7 @@ seoKeywords: ["best cruise ports without excursions", "walkable cruise ports", "
 
 In Trieste the gangway comes down on Molo dei Bersaglieri, and the city is right there. Piazza Unità d'Italia, a vast square with one side open to the sea, starts about 200 m from the terminal door. Five minutes, flat paving, no ticket, no queue.
 
-That is what this list is about. Not the famous ports where the day depends on a train or a cable car; those are ranked in our [best Mediterranean ports for independent travel](/blog/best-mediterranean-cruise-ports-diy). These are the other kind: smaller cities where the ship ties up against the old town, the walk back takes ten minutes, and the only thing an excursion adds is someone to tell you what you are looking at.
+That is what this list is about. Not the famous ports where the day depends on a train or a cable car; those are ranked in our [best Mediterranean ports for independent travel](/blog/best-mediterranean-cruise-ports). These are the other kind: smaller cities where the ship ties up against the old town, the walk back takes ten minutes, and the only thing an excursion adds is someone to tell you what you are looking at.
 
 We ranked them on three things: how close the old town is to the gangway, how many ships share the town, and how easy the walk back is, measured by the leave-by time our port guides set for a 17:30 all-aboard. For each, the thing most of your ship walks past, and the trap that catches people in a port this easy.
 

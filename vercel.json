@@ -8,6 +8,61 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/ports/athens-piraeus",
+      "destination": "/ports/athens",
+      "permanent": true
+    },
+    {
+      "source": "/ports/cinque-terre",
+      "destination": "/ports/la-spezia",
+      "permanent": true
+    },
+    {
+      "source": "/ports/trogir",
+      "destination": "/ports/split",
+      "permanent": true
+    },
+    {
+      "source": "/ports/phuket",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/partners/join",
+      "destination": "https://porttripapp.com/partners/join",
+      "permanent": false
+    },
+    {
+      "source": "/blog/best-mediterranean-cruise-ports-diy",
+      "destination": "/blog/best-mediterranean-cruise-ports",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cruise-mistakes",
+      "destination": "/blog/cruise-port-tips",
+      "permanent": true
+    },
+    {
+      "source": "/blog/santorini-cruise-mistakes",
+      "destination": "/blog/santorini-cruise-port-without-excursion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cruise-port-timing-masterclass",
+      "destination": "/blog/how-much-time-before-all-aboard",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-much-time-in-port",
+      "destination": "/blog/how-much-time-before-all-aboard",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-transport-cruise-ports",
+      "destination": "/blog/cruise-excursion-alternatives-every-port",
+      "permanent": true
+    },
+    {
       "source": "/planner",
       "destination": "https://porttripapp.com/planner",
       "permanent": false
@@ -1469,7 +1524,7 @@
     },
     {
       "source": "/blog/best-cruise-ports-europe",
-      "destination": "/blog/best-mediterranean-cruise-ports-diy",
+      "destination": "/blog/best-mediterranean-cruise-ports",
       "permanent": true
     },
     {

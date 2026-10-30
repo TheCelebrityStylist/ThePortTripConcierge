@@ -11,7 +11,7 @@ excerpt: "A family port day goes wrong in the last hour, not the first. Six Medi
 hero: "https://images.unsplash.com/photo-1602934445884-da0fa1c9d3b3?w=1200&q=80"
 tags: ["family", "kids", "children", "family-travel"]
 relatedPorts: ["valletta", "split", "corfu", "kotor", "valencia", "santorini"]
-relatedPosts: ["mediterranean-cruise-budget-guide", "cruise-port-day-rainy-weather", "tender-port-planning-guide"]
+relatedPosts: ["mediterranean-cruise-budget-guide", "cruise-port-day-rainy-weather", "tender-port-planning-guide", "cruise-port-days-limited-mobility"]
 seoKeywords: ["mediterranean cruise ports with kids", "family cruise port day", "cruise port with children", "best cruise ports for families", "cruise shore day kids"]
 bestFor: ["families", "parents with young children", "multi-generation groups"]
 ---

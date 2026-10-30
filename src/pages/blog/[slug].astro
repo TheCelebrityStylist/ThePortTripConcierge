@@ -23,7 +23,8 @@ const html = fixLinks(p.html);
 const cut = (() => { let i = -1; for (let n = 0; n < 3; n++) { i = html.indexOf('<h2', i + 1); if (i < 0) return -1; } return i; })();
 const [htmlA, htmlB] = cut > 0 ? [html.slice(0, cut), html.slice(cut)] : [html, ''];
 const city0 = ports[0] ? String(CAT[ports[0]].city).split(' (')[0] : '';
-const related = (Array.isArray(p.relatedPosts) ? p.relatedPosts : []).filter((s) => pub.has(s) && BY_SLUG[s]).slice(0, 4);
+const post = (s) => BY_SLUG[SOURCE[s] || s];
+const related = (Array.isArray(p.relatedPosts) ? p.relatedPosts : []).filter((s) => s !== slug && pub.has(s) && post(s)).slice(0, 4);
 const date = (d) => { try { return new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }); } catch { return d; } };
 const jsonLd = [
   { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, description: p.description, datePublished: p.date, dateModified: p.updated || p.date, author: { '@type': 'Person', name: p.author || 'Elke' }, publisher: { '@type': 'Organization', name: 'PortTrip' }, mainEntityOfPage: `https://porttrip.com${path}`, image: heroImg },
@@ -49,7 +50,7 @@ const jsonLd = [
     {ports[0] && <TourStrip slug={ports[0]} />}
     {htmlB && <div class="doc" set:html={htmlB} />}
     <div class="mt-12"><Offer city={city0} slug={ports[0] || ''} src={`blog_${slug}`} /></div>
-    {related.length > 0 && <section class="mt-12"><h2 class="text-xl font-semibold">Read next</h2><ul class="mt-4 grid gap-3 sm:grid-cols-2">{related.map((s) => <li><a href={`/blog/${s}`} class="card block p-4 font-semibold hover:ring-sea/50">{BY_SLUG[s].h1 || BY_SLUG[s].title}</a></li>)}</ul></section>}
+    {related.length > 0 && <section class="mt-12"><h2 class="text-xl font-semibold">Read next</h2><ul class="mt-4 grid gap-3 sm:grid-cols-2">{related.map((s) => <li><a href={`/blog/${s}`} class="card block p-4 font-semibold hover:ring-sea/50">{post(s).h1 || post(s).title}</a></li>)}</ul></section>}
   </article>
   <StickyBuy city={city0} slug={ports[0] || ''} src={`blog_sticky_${slug}`} />
 </Base>

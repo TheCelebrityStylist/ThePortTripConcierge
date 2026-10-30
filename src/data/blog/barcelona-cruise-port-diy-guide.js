@@ -11,7 +11,7 @@ excerpt: "One day in Barcelona from the ship, told hour by hour: the Cruise Bus,
 hero: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80"
 tags: ["barcelona", "spain", "gothic-quarter", "sagrada-familia", "diy"]
 relatedPorts: ["barcelona", "valencia", "lisbon"]
-relatedPosts: ["port-bus-barcelona-cruise-ship", "beaches-near-barcelona-cruise-port", "best-mediterranean-cruise-ports-diy", "cruise-port-tourist-traps"]
+relatedPosts: ["port-bus-barcelona-cruise-ship", "beaches-near-barcelona-cruise-port", "best-mediterranean-cruise-ports", "cruise-port-tourist-traps"]
 seoKeywords: ["barcelona cruise port diy", "barcelona without excursion", "barcelona cruise return timing", "barcelona cruise metro"]
 ---
 

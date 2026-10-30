@@ -8,7 +8,7 @@ author: "Elke"
 category: "cruise-ports"
 tags: ["malaga", "spain", "walk", "bus", "taxi", "transport", "old-town"]
 relatedPorts: ["malaga"]
-relatedPosts: ["beaches-near-malaga-cruise-port", "how-much-time-before-all-aboard", "best-mediterranean-cruise-ports-diy"]
+relatedPosts: ["beaches-near-malaga-cruise-port", "how-much-time-before-all-aboard", "best-mediterranean-cruise-ports"]
 ---
 
 > **Quick answer:** Málaga is a docking port, not a tender port. From the Levante terminals, where most large ships berth, the old town is about 2 km away, a flat 25–30 minute walk through Muelle Uno and the Palmeral gardens. When a ship is at Levante, a port bus runs to Plaza de la Marina in 5–10 minutes, about every 15–20 minutes. Small ships at the Palmeral terminal are 5 minutes from the cathedral. Start walking back 75 minutes before all-aboard: 16:15 for a 17:30 all-aboard.
