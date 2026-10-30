@@ -32,6 +32,12 @@ Today the site gets about 50 Google impressions a week. Traffic is the bottlenec
 - [ ] Day builder: when a plan is built, offer "Do this for every port of your cruise" with the Cruise Pass, showing the ports count.
 - [ ] Measure placements: compare Buy click counts by placement (utm_campaign in the app's ConversionEvent records) once a week; drop placements that never convert.
 
+- [x] 30 Oct 2026: sample advisor plan now ends in a trial prompt (top button, end box, mobile sticky bar). See GROWTH-LOG.
+- [ ] Advisor sign-up: /advisors/start asks for an account before anything else. Test letting the advisor paste an itinerary and see their own draft plan first, then sign in to brand and send it.
+- [ ] Client plans as a channel: a small "Made with PortTrip for travel advisors" line on real client plans could bring in other advisors, but paying advisors may want it white-label. Needs Elke's call before building.
+- [ ] Funnel data is mostly our own test traffic (example.com checkouts, bot clicks on site_* CTAs). Tag automated runs (e.g. ?pt_test=1 sets is_sample) so ConversionEvent counts real visitors only.
+- [ ] The session-recordings ingest returns 429 on every app page (likely a quota). Harmless to users but noisy in the console; turn recording down or off.
+
 ## 4. Product (makes the Cruise Pass worth paying for)
 - [ ] Whole-cruise planner: enter the ports and dates once; every port day is built with the same preferences, tiring days are balanced across the week, budget across the cruise, one assistant conversation for the whole trip. Cruise Pass unlocks it.
 - [ ] Crowd-aware timing: the cruiseRadar source (cruisedig.com) now returns 403. Find a lawful replacement source for ships in port per date.
