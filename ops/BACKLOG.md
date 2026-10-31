@@ -38,9 +38,11 @@ Today the site gets about 50 Google impressions a week. Traffic is the bottlenec
 - [ ] Measure placements: compare Buy click counts by placement (utm_campaign in the app's ConversionEvent records) once a week; drop placements that never convert.
 
 - [x] 30 Oct 2026: sample advisor plan now ends in a trial prompt (top button, end box, mobile sticky bar). See GROWTH-LOG.
-- [ ] Advisor sign-up: /advisors/start asks for an account before anything else. Test letting the advisor paste an itinerary and see their own draft plan first, then sign in to brand and send it.
+- [x] 31 Oct 2026: /advisors/try builds a client plan (up to 3 ports, typed) with no account; the draft carries into the trial. See GROWTH-LOG.
+- [ ] Advisor try, next slice: allow pasting the itinerary on /advisors/try (parse_itinerary is signed-in only today because it calls OpenAI; needs a rate limit per IP before opening it). Also a logo upload in the preview.
+- [ ] Sample plan (/r/<sample>) and the porttrip.com footer link could point advisors to /advisors/try as well as the trial.
 - [ ] Client plans as a channel: a small "Made with PortTrip for travel advisors" line on real client plans could bring in other advisors, but paying advisors may want it white-label. Needs Elke's call before building.
-- [ ] Funnel data is mostly our own test traffic (example.com checkouts, bot clicks on site_* CTAs). Tag automated runs (e.g. ?pt_test=1 sets is_sample) so ConversionEvent counts real visitors only.
+- [ ] Funnel data is mostly our own test traffic (31 Oct: the daily runs' own Playwright walks are most 'landing' events; 500+ in a day) (example.com checkouts, bot clicks on site_* CTAs). Tag automated runs (e.g. ?pt_test=1 sets is_sample) so ConversionEvent counts real visitors only.
 - [ ] The session-recordings ingest returns 429 on every app page (likely a quota). Harmless to users but noisy in the console; turn recording down or off.
 
 ## 4. Product (makes the Cruise Pass worth paying for)
