@@ -8,6 +8,16 @@ import SpeedInsights from '@vercel/speed-insights/astro';
 const { title, description = '', path = Astro.url.pathname, noindex = false, jsonLd = [], ogImage = 'https://images.unsplash.com/photo-1555990793-da11153b2473?auto=format&fit=crop&w=1200&q=75', darkNav = false, lcpImage = null } = Astro.props;
 const canonical = SITE + (path === '/' ? '/' : path.replace(/\/$/, ''));
 const ld = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
+// Pages that pass no structured data get a plain WebPage + BreadcrumbList (SEO 31 Oct 2026).
+if (!ld.filter(Boolean).length && !noindex && path !== '/404') {
+  const name = String(title).replace(/\s*\|\s*PortTrip\s*$/, '');
+  const crumbs = [{ name: 'Home', url: SITE + '/' }];
+  const parent = canonical.replace(SITE, '').split('/').filter(Boolean);
+  if (parent.length > 1 && (parent[0] === 'blog' || parent[0] === 'ports')) crumbs.push({ name: parent[0] === 'blog' ? 'Blog' : 'Ports', url: SITE + '/' + parent[0] });
+  if (canonical !== SITE + '/') crumbs.push({ name, url: canonical });
+  ld.push({ '@context': 'https://schema.org', '@type': 'WebPage', name, description, url: canonical, inLanguage: 'en-GB', isPartOf: { '@type': 'WebSite', name: 'PortTrip', url: SITE + '/' }, publisher: { '@type': 'Organization', name: 'PortTrip', url: SITE + '/' } });
+  if (crumbs.length > 1) ld.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url })) });
+}
 ---
 <!doctype html>
 <html lang="en-GB">

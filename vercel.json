@@ -1539,12 +1539,72 @@
     },
     {
       "source": "/panic/CanCruiseShipLeaveWithoutYou",
-      "destination": "/can-a-cruise-ship-leave-without-you",
+      "destination": "/blog/what-happens-if-you-miss-cruise-ship",
       "permanent": true
     },
     {
       "source": "/panic/:path*",
       "destination": "/how-to-never-miss-your-cruise-ship",
+      "permanent": true
+    },
+    {
+      "source": "/ports/george-town",
+      "destination": "/ports/grand-cayman",
+      "permanent": true
+    },
+    {
+      "source": "/ports/villefranche-sur-mer",
+      "destination": "/ports/villefranche",
+      "permanent": true
+    },
+    {
+      "source": "/ports/pisa",
+      "destination": "/ports/livorno",
+      "permanent": true
+    },
+    {
+      "source": "/ports/panama-city",
+      "destination": "/ports/colon",
+      "permanent": true
+    },
+    {
+      "source": "/ports/southampton",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/ports/penang",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/ports/alexandria",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/ports/samos",
+      "destination": "/ports",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-a-repositioning-cruise-right-for-you",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/what-happens-if-you-miss-your-cruise-ship",
+      "destination": "/blog/what-happens-if-you-miss-cruise-ship",
+      "permanent": true
+    },
+    {
+      "source": "/can-a-cruise-ship-leave-without-you",
+      "destination": "/blog/what-happens-if-you-miss-cruise-ship",
+      "permanent": true
+    },
+    {
+      "source": "/how-late-can-you-return-to-a-cruise-ship",
+      "destination": "/blog/how-much-time-before-all-aboard",
       "permanent": true
     }
   ],
