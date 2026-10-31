@@ -26,6 +26,11 @@ Today the site gets about 50 Google impressions a week. Traffic is the bottlenec
 - [ ] (SEO 30 Oct) Query "how many people go missing on cruise ships" (pos 25) lands on the missed-the-ship post; different intent, left alone.
 - [ ] (SEO 30 Oct) /ports/phuket redirects to /ports. If a Phuket guide is added, delete that redirect first (redirects override pages).
 
+- [ ] (SEO 31 Oct) Most 404s are direct visits to /ports/<slug> for ports with no website guide (Panama City, Southampton, Penang, Alexandria, Samos). The app (PortSEOPage, LeaveByWidget) builds porttrip.com/ports/<slug> links for every app port. App task: only link ports that exist on porttrip.com (list in published.json / src/data/guides), else link the app page.
+- [ ] (SEO 31 Oct) Two more static/blog twins: /how-to-never-miss-your-cruise-ship vs /blog/how-to-return-cruise-ship-on-time, and /how-to-return-to-your-cruise-ship-on-time vs /blog/how-to-return-cruise-ship-on-time. Both static pages are indexed (one has impressions at pos 24), so left for now. Watch: if either drops to 'crawled not indexed', fold it into the post.
+- [ ] (SEO 31 Oct) /blog/kotor-cruise-port-guide-diy: Google's last crawl (16 Aug) saw a noindex; live page is index,follow. Needs a recrawl — Elke can press 'Request indexing' in Search Console URL Inspection (API cannot).
+- [ ] (SEO 31 Oct) PageSpeed Insights keyless API is over its daily quota every run. An API key (free, Google Cloud) would fix it; until then local Lighthouse on the build is the fallback.
+
 ## 3. Conversion
 - [ ] Port pages: add "Build my own day" (app /day/<slug>?b=1) next to "Plan my day free"; the builder is the strongest demo of the product.
 - [ ] Email capture that people want: "Send me my port times" (leave-by times for each port of their cruise, by email) -> nurture -> Cruise Pass. Resend is already set up in the app.
