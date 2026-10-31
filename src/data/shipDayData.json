@@ -6771,5 +6771,478 @@
   "returnRiskReason": "Most ships tender, and Navagio and the Blue Caves are a long drive from the pier.",
   "topRisk": "Planning to land or swim at Navagio, or booking a 6–8 hour boat from town, when the beach is closed and the trip leaves no return margin.",
   "bestFree": "Solomos Square and the Bochali viewpoint"
+ },
+ "akaroa": {
+  "leaveBy": [
+   {
+    "from": "Akaroa village (tender jetty)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk to the tender landing, then tender about 20 min plus queue",
+    "basis": "rule"
+   },
+   {
+    "from": "The Giant's House",
+    "minutesBeforeAllAboard": 105,
+    "how": "Walk about 900 m downhill to the waterfront, then tender queue and 20 min ride",
+    "basis": "derived"
+   },
+   {
+    "from": "Lighthouse and Britomart Monument",
+    "minutesBeforeAllAboard": 120,
+    "how": "Walk back about 30 min, then tender queue and 20 min ride",
+    "basis": "derived"
+   },
+   {
+    "from": "Harbour nature cruise",
+    "minutesBeforeAllAboard": 120,
+    "how": "Be off the boat 30 min before joining the tender queue",
+    "basis": "rule"
+   },
+   {
+    "from": "Banks Peninsula bays",
+    "minutesBeforeAllAboard": 120,
+    "how": "Drive up to about 30 min back to the village, then tender queue and 20 min ride",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": 10,
+  "access": "tender",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "Every return depends on a 20-minute tender that wind can delay, and queues peak late.",
+  "topRisk": "Leaving the tender queue too late, or trying to reach Christchurch, 86 km away, independently.",
+  "bestFree": "Waterfront walk to the lighthouse and Britomart Monument"
+ },
+ "ancona": {
+  "leaveBy": [
+   {
+    "from": "Historic centre (Santa Maria della Piazza, old harbour)",
+    "minutesBeforeAllAboard": 60,
+    "how": "Walk back, about 500 m, through the port gate named in your daily programme; be on board 60 min before all-aboard",
+    "basis": "rule"
+   },
+   {
+    "from": "Duomo of San Ciriaco (Guasco hill)",
+    "minutesBeforeAllAboard": 75,
+    "how": "Walk down the hill to the port gate",
+    "basis": "rule"
+   },
+   {
+    "from": "Ancona Centrale station",
+    "minutesBeforeAllAboard": 75,
+    "how": "Walk about 15 min to the port (MSC), or take a taxi",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "walk",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "The berth is about 500 m from the historic centre; the main risks are the Duomo climb and the busy ferry port gates.",
+  "topRisk": "Cutting the return fine from the Duomo on Guasco hill or heading to the wrong gate in a busy ferry port.",
+  "bestFree": "Trajan's Arch and the Duomo viewpoint on Guasco hill"
+ },
+ "bar": {
+  "leaveBy": [
+   {
+    "from": "Town centre (shuttle stop, start of King Nikola's Promenade)",
+    "minutesBeforeAllAboard": 75,
+    "how": "Port shuttle bus back to the berth inside the Port of Adria",
+    "basis": "rule"
+   },
+   {
+    "from": "Stari Bar",
+    "minutesBeforeAllAboard": 90,
+    "how": "Licensed taxi about 10 min to the centre, then the port shuttle",
+    "basis": "rule"
+   },
+   {
+    "from": "Šušanj beach",
+    "minutesBeforeAllAboard": 100,
+    "how": "Walk back along the promenade, up to about 25 min, then the port shuttle",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "transport",
+  "transportNeeded": true,
+  "returnRisk": "medium",
+  "returnRiskReason": "The berths are inside a secure port reached only by shuttle bus, whose frequency and ride time are not published.",
+  "topRisk": "Assuming the ship is a few minutes' walk from the promenade and missing the last shuttle back through the port.",
+  "bestFree": "King Nikola's Promenade to the palace gardens"
+ },
+ "casablanca": {
+  "leaveBy": [
+   {
+    "from": "City centre / Old Medina",
+    "minutesBeforeAllAboard": 105,
+    "how": "Shuttle or taxi to the cruise terminal, allowing for traffic",
+    "basis": "rule"
+   },
+   {
+    "from": "Hassan II Mosque",
+    "minutesBeforeAllAboard": 105,
+    "how": "Taxi to the cruise terminal, fare agreed first",
+    "basis": "rule"
+   },
+   {
+    "from": "Quartier Habous",
+    "minutesBeforeAllAboard": 105,
+    "how": "Taxi to the cruise terminal, about 5 km",
+    "basis": "rule"
+   },
+   {
+    "from": "Corniche (Aïn Diab)",
+    "minutesBeforeAllAboard": 105,
+    "how": "Taxi, 8–10 km; traffic-dependent",
+    "basis": "rule"
+   },
+   {
+    "from": "Rabat (Rabat Ville station)",
+    "minutesBeforeAllAboard": 195,
+    "how": "Train to Casa Port, about 75 min, arriving at least 2 hours before all-aboard",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "transport",
+  "transportNeeded": true,
+  "returnRisk": "medium",
+  "returnRiskReason": "Heavy weekday traffic and unmetered taxis make the drive back slower than the short distance suggests.",
+  "topRisk": "Passengers arrive at the Hassan II Mosque in shorts or between tour times, or attempt Marrakech independently by train.",
+  "bestFree": "Walking the Old Medina and the mosque's ocean-front esplanade"
+ },
+ "dunedin": {
+  "leaveBy": [
+   {
+    "from": "Central Dunedin (Octagon, Toitū or Cumberland Street bus stop)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Cruise shuttle 15–30 min or Route 14 about 30 min; on weekends catch the hourly bus about 2 hours before",
+    "basis": "rule"
+   },
+   {
+    "from": "Central Dunedin (weekend, Route 14 bus)",
+    "minutesBeforeAllAboard": 120,
+    "how": "Hourly Route 14, about 30 min, cash return ticket bought in Port Chalmers",
+    "basis": "rule"
+   },
+   {
+    "from": "Port Chalmers village and Flagstaff Lookout",
+    "minutesBeforeAllAboard": 80,
+    "how": "Walk back down to the terminal, up to about 20 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Royal Albatross Centre, Taiaroa Head",
+    "minutesBeforeAllAboard": 170,
+    "how": "Drive 45–50 min to the city, then 20–30 min to Port Chalmers",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "transport",
+  "transportNeeded": true,
+  "returnRisk": "medium",
+  "returnRiskReason": "The city is 13–14 km from the ship and the public bus is hourly at weekends and can be delayed.",
+  "topRisk": "Missing the return because the Route 14 bus needs a cash return ticket bought in Port Chalmers and runs only hourly at weekends.",
+  "bestFree": "Toitū Otago Settlers Museum"
+ },
+ "huatulco": {
+  "leaveBy": [
+   {
+    "from": "La Crucecita",
+    "minutesBeforeAllAboard": 75,
+    "how": "Taxi, 5–10 min",
+    "basis": "rule"
+   },
+   {
+    "from": "Santa Cruz beach and marina",
+    "minutesBeforeAllAboard": 60,
+    "how": "Walk, 2–7 min",
+    "basis": "rule"
+   },
+   {
+    "from": "La Entrega",
+    "minutesBeforeAllAboard": 75,
+    "how": "Taxi, 6–10 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Copalita archaeological zone",
+    "minutesBeforeAllAboard": 90,
+    "how": "Taxi, 20–25 min",
+    "basis": "rule"
+   },
+   {
+    "from": "Remote bays by boat (San Agustín, Cacaluta)",
+    "minutesBeforeAllAboard": 120,
+    "how": "Pre-arranged panga pick-up",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": 25,
+  "access": "walk-or-ride",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "Most places are 10 minutes or less by taxi; only boat trips to remote bays add risk.",
+  "topRisk": "Taking a panga to a remote bay without a firm pick-up time and waiting for a boat that comes late.",
+  "bestFree": "Swimming at Santa Cruz beach"
+ },
+ "motril": {
+  "leaveBy": [
+   {
+    "from": "Motril town centre",
+    "minutesBeforeAllAboard": 75,
+    "how": "Port shuttle bus, 2.5–4 km",
+    "basis": "rule"
+   },
+   {
+    "from": "Playa de Poniente, Motril",
+    "minutesBeforeAllAboard": 75,
+    "how": "Taxi or shuttle, short ride",
+    "basis": "derived"
+   },
+   {
+    "from": "Salobreña",
+    "minutesBeforeAllAboard": 80,
+    "how": "Taxi, about 8 km",
+    "basis": "derived"
+   },
+   {
+    "from": "Alhambra, Granada (public transport)",
+    "minutesBeforeAllAboard": 225,
+    "how": "C30 and bus 33 to the bus station, ALSA bus 50–75 min, taxi to the berth",
+    "basis": "rule"
+   },
+   {
+    "from": "Granada (taxi or private car)",
+    "minutesBeforeAllAboard": 150,
+    "how": "Road transfer, 45–60 min",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "transport",
+  "transportNeeded": true,
+  "returnRisk": "high",
+  "returnRiskReason": "The main trip, Granada, is 45–75 minutes away and relies on bus connections or road traffic.",
+  "topRisk": "Going to Granada without a pre-booked, named Alhambra ticket with an early enough Nasrid Palaces slot.",
+  "bestFree": "Walk Motril's old centre and Playa de Poniente"
+ },
+ "picton": {
+  "leaveBy": [
+   {
+    "from": "Picton town centre (i-SITE shuttle stop)",
+    "minutesBeforeAllAboard": 75,
+    "how": "Cruise shuttle from the i-SITE, about 5–10 min",
+    "basis": "rule"
+   },
+   {
+    "from": "Kaipūpū Sanctuary",
+    "minutesBeforeAllAboard": 85,
+    "how": "Boat about 10 min to Picton, short walk to the i-SITE, then shuttle 5–10 min",
+    "basis": "derived"
+   },
+   {
+    "from": "End of the Snout Track",
+    "minutesBeforeAllAboard": 190,
+    "how": "Walk back to town (allow 2 hours), then shuttle 5–10 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Blenheim or Omaka Aviation Heritage Centre",
+    "minutesBeforeAllAboard": 105,
+    "how": "Taxi or tour about 20–30 min to Picton, back by 15:45 for a 17:30 all-aboard",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "transport",
+  "transportNeeded": true,
+  "returnRisk": "medium",
+  "returnRiskReason": "Everyone depends on one shuttle link to the ship, and queues peak in the last hour.",
+  "topRisk": "Expecting to walk back to a ship berthed in Shakespeare Bay, which has no foot access, or arriving at the shuttle stop in the final rush.",
+  "bestFree": "Walk to Queen Charlotte View on the Snout"
+ },
+ "puerto-limon": {
+  "leaveBy": [
+   {
+    "from": "Parque Vargas and Limón centre",
+    "minutesBeforeAllAboard": 60,
+    "how": "Walk, 3–5 min",
+    "basis": "rule"
+   },
+   {
+    "from": "Playa Bonita",
+    "minutesBeforeAllAboard": 75,
+    "how": "Red taxi, 10–15 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Moín canals",
+    "minutesBeforeAllAboard": 75,
+    "how": "Taxi, 10–15 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Cahuita National Park",
+    "minutesBeforeAllAboard": 150,
+    "how": "Taxi, 45–60 min on single-lane Route 36",
+    "basis": "rule"
+   },
+   {
+    "from": "Veragua Rainforest",
+    "minutesBeforeAllAboard": 150,
+    "how": "Taxi or tour, part gravel road",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": 5,
+  "access": "walk-or-ride",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "The town is a short walk, but Cahuita and Veragua depend on a slow single-lane road.",
+  "topRisk": "Coming back from Cahuita too late, or by the hourly bus, and getting stuck in roadworks on Route 36.",
+  "bestFree": "Parque Vargas and the seawall"
+ },
+ "rijeka": {
+  "leaveBy": [
+   {
+    "from": "Korzo and old town",
+    "minutesBeforeAllAboard": 60,
+    "how": "Walk back a few hundred metres to the breakwater berth; be on board 60 min before all-aboard",
+    "basis": "rule"
+   },
+   {
+    "from": "Korzo and old town (ship at anchor)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk to the passenger terminal and take the tender; be on board 90 min before all-aboard",
+    "basis": "rule"
+   },
+   {
+    "from": "Trsat Castle and Shrine",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk down the Trsat stairs or take bus 2 to the centre, then walk to the ship",
+    "basis": "rule"
+   },
+   {
+    "from": "Opatija",
+    "minutesBeforeAllAboard": 150,
+    "how": "Autotrolej bus 32, about 35 min to Rijeka; weekend buses about every 55 min",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "walk",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "The berths are in the central harbour a few hundred metres from the old town; Opatija and tender days add risk.",
+  "topRisk": "Missing a weekend bus back from Opatija, where buses can be almost an hour apart.",
+  "bestFree": "The Korzo, St Vitus Cathedral and the view from Trsat hill"
+ },
+ "samana": {
+  "leaveBy": [
+   {
+    "from": "Santa Bárbara town / Malecón (tender)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk to the tender pier and join the tender queue",
+    "basis": "rule"
+   },
+   {
+    "from": "Santa Bárbara town (ship at Bayport floating pier)",
+    "minutesBeforeAllAboard": 60,
+    "how": "Return to the ship at the floating pier",
+    "basis": "rule"
+   },
+   {
+    "from": "Cayo Levantado",
+    "minutesBeforeAllAboard": 120,
+    "how": "Boat to the Samaná pier, then the tender queue",
+    "basis": "rule"
+   },
+   {
+    "from": "El Limón village",
+    "minutesBeforeAllAboard": 150,
+    "how": "Taxi to Samaná, then the tender queue",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "tender",
+  "transportNeeded": false,
+  "returnRisk": "medium",
+  "returnRiskReason": "Every return involves a tender queue, and island boats and the El Limón trail add delays.",
+  "topRisk": "Passengers leave Cayo Levantado or El Limón too late and then meet a long tender queue in town.",
+  "bestFree": "Walking the Malecón with views over Samaná Bay"
+ },
+ "tangier": {
+  "leaveBy": [
+   {
+    "from": "Medina / city centre",
+    "minutesBeforeAllAboard": 80,
+    "how": "Walk downhill to the port, 15–20 min",
+    "basis": "derived"
+   },
+   {
+    "from": "Medina / city centre (ship tendering)",
+    "minutesBeforeAllAboard": 110,
+    "how": "Walk to the port, 15–20 min, plus the tender queue",
+    "basis": "derived"
+   },
+   {
+    "from": "Kasbah / Café Hafa",
+    "minutesBeforeAllAboard": 90,
+    "how": "Walk down through the medina to the port",
+    "basis": "rule"
+   },
+   {
+    "from": "Caves of Hercules / Cape Spartel",
+    "minutesBeforeAllAboard": 120,
+    "how": "Grand taxi, about 40 min",
+    "basis": "rule"
+   }
+  ],
+  "walkMinutes": 20,
+  "access": "walk",
+  "transportNeeded": false,
+  "returnRisk": "low",
+  "returnRiskReason": "The medina runs straight down to the port, so the walk back is short and hard to get wrong.",
+  "topRisk": "Passengers let an unofficial guide take over their day from the port gate and lose time and money.",
+  "bestFree": "The view over the Strait from the Kasbah"
+ },
+ "wellington": {
+  "leaveBy": [
+   {
+    "from": "City centre (ship at Aotea Quay)",
+    "minutesBeforeAllAboard": 90,
+    "how": "Be at the Wakefield Street shuttle stop; shuttle 10–15 min",
+    "basis": "rule"
+   },
+   {
+    "from": "City centre (ship at Queens Wharf)",
+    "minutesBeforeAllAboard": 60,
+    "how": "Walk back along the waterfront",
+    "basis": "rule"
+   },
+   {
+    "from": "Kelburn and Botanic Garden (ship at Aotea Quay)",
+    "minutesBeforeAllAboard": 120,
+    "how": "Cable car down, walk to Wakefield Street, then shuttle",
+    "basis": "derived"
+   },
+   {
+    "from": "Zealandia (ship at Aotea Quay)",
+    "minutesBeforeAllAboard": 120,
+    "how": "Zealandia free shuttle to Wakefield Street, then cruise shuttle",
+    "basis": "derived"
+   }
+  ],
+  "walkMinutes": null,
+  "access": "transport",
+  "transportNeeded": true,
+  "returnRisk": "medium",
+  "returnRiskReason": "Ships at Aotea Quay can only be reached by the cruise shuttle; taxis cannot drop off at the wharf.",
+  "topRisk": "Planning to take a taxi back to Aotea Quay and finding it cannot enter the wharf.",
+  "bestFree": "Botanic Garden walk down from the cable car"
  }
 }
